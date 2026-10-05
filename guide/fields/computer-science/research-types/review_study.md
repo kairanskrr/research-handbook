@@ -1,6 +1,10 @@
-# 系统性文献综述与映射研究（Systematic Literature Review，SLR）
+# 综述研究：系统综述、映射研究与综述论文
 
-> **状态**：草稿，待审阅
+本文讲**以综述本身为成果的研究**：汇总、分析别人已发表的研究，最后写成一篇独立的论文。常见的有三种：系统性文献综述（Systematic Literature Review，简称系统综述）、映射研究（mapping study），以及综述论文（survey paper）。
+
+如果你要了解的是"做自己的研究之前怎么读文献、怎么写相关工作"，那是每项研究都有的一个环节，见通用篇第 3 章"读文献与文献调研"（未开始）。
+
+> **状态**：草稿，待审阅。目前只覆盖系统综述和映射研究，综述论文部分待补充。
 > **最后更新**：2026-10-05
 > **主要依据**：SIGSOFT Systematic Reviews 标准与 General Standard、Kitchenham & Charters (2007)、Petersen et al. (2008)、Wohlin (2014)、Wohlin et al. (2022)、Ralph & Baltes (2022)、PRISMA 2020。出处简称见第 8 节。
 
