@@ -19,7 +19,7 @@
 ```
 guide/          整理内容（中文）
   general/        通用篇
-  fields/         领域篇，按 OECD 学科分类组织；每个领域下有 research-types/
+  fields/         领域篇，按 OECD（经济合作与发展组织）的学科分类组织；每个领域下有 research-types/
 sources/        原始资料
   README.md       资料列表（awesome 列表形式）
   notes/          证据摘录：资料原文在哪里、怎么说

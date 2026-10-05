@@ -18,7 +18,7 @@
 | 领域篇 | 这个领域的研究实际怎样运转：研究节奏、组织方式、发表文化、领域惯例和常见陷阱 | `fields/<领域>/README.md` |
 | 研究类型 | 领域内常见的研究方法：每种方法的流程、关键决策、质量标准和反面模式 | `fields/<领域>/research-types/` |
 
-大致的分工是：**原则写进通用篇，具体做法写进研究类型，惯例写进领域篇。** 各阶段的名称在不同研究中基本相同（选题、了解已有工作、设计、产生证据、分析、写作、发表），共用的原则也很多，例如结论不超出证据、诚实披露局限；但同一个阶段的具体做法随研究方法而变，例如"文献调研"在一般研究中是背景工作，在系统综述中则是研究方法本身。ACM SIGSOFT Empirical Standards 也认为不存在通用的质量标准，每项研究应按其方法的标准评判。`[本项目分析]`
+大致的分工是：**原则写进通用篇，具体做法写进研究类型，惯例写进领域篇。** 各阶段的名称在不同研究中基本相同（选题、了解已有工作、设计、产生证据、分析、写作、发表），共用的原则也很多，例如结论不超出证据、诚实披露局限；但同一个阶段的具体做法随研究方法而变，例如"文献调研"在一般研究中是背景工作，在系统综述中则是研究方法本身。ACM SIGSOFT Empirical Standards（美国计算机协会软件工程分会制定的一套实证研究标准）也认为不存在通用的质量标准，每项研究应按其方法的标准评判。`[本项目分析]`
 
 ## 通用篇
 
@@ -38,7 +38,7 @@
 
 ## 学科分类
 
-领域篇按 OECD《Frascati Manual 2015》中的研究与开发领域分类（Fields of Research and Development，FORD）组织，共 6 个大类、42 个二级学科 `oecd2015frascati`。中文名为本项目翻译。
+领域篇按经济合作与发展组织（OECD）《Frascati Manual 2015》中的研究与开发领域分类（Fields of Research and Development，FORD）组织，共 6 个大类、42 个二级学科 `oecd2015frascati`。中文名为本项目翻译。
 
 | 代码 | 学科 | 英文原名 | 领域篇 |
 |---|---|---|---|
@@ -103,7 +103,7 @@
 
 | 分组 | 研究类型 | 对应的 SIGSOFT 标准 | 状态 |
 |---|---|---|---|
-| 文献类 | 系统性文献综述与映射研究 | Systematic Reviews | 初版，待审阅：[`literature_review.md`](fields/computer-science/research-types/literature_review.md)，第一批（定稿） |
+| 文献类 | 系统性文献综述与映射研究 | Systematic Reviews | 初版，待审阅：[`literature_review.md`](fields/computer-science/research-types/literature_review.md)。引用仍是旧格式，定稿时改为脚注。第一批 |
 | | 案例调查（案例元分析） | Case Survey | 未开始 |
 | | 方法论研究与元科学 | Methodological Guidelines and Meta-Science | 未开始 |
 | 构建与评估 | 工程研究（设计科学）：提出并评估新的方法、工具或系统 | Engineering Research | 未开始，第一批 |
