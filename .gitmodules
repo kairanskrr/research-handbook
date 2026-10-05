@@ -1,0 +1,76 @@
+[submodule "repos/acmsigsoft__EmpiricalStandards"]
+	path = repos/acmsigsoft__EmpiricalStandards
+	url = https://github.com/acmsigsoft/EmpiricalStandards.git
+	shallow = true
+[submodule "repos/dspinellis__awesome-msr"]
+	path = repos/dspinellis__awesome-msr
+	url = https://github.com/dspinellis/awesome-msr.git
+	shallow = true
+[submodule "repos/fudanselab__awesome-software-engineering-research"]
+	path = repos/fudanselab__awesome-software-engineering-research
+	url = https://github.com/fudanselab/awesome-software-engineering-research.git
+	shallow = true
+[submodule "repos/iSEngLab__AwesomeLLM4SE"]
+	path = repos/iSEngLab__AwesomeLLM4SE
+	url = https://github.com/iSEngLab/AwesomeLLM4SE.git
+	shallow = true
+[submodule "repos/codefuse-ai__Awesome-Code-LLM"]
+	path = repos/codefuse-ai__Awesome-Code-LLM
+	url = https://github.com/codefuse-ai/Awesome-Code-LLM.git
+	shallow = true
+[submodule "repos/wcventure__FuzzingPaper"]
+	path = repos/wcventure__FuzzingPaper
+	url = https://github.com/wcventure/FuzzingPaper.git
+	shallow = true
+[submodule "repos/secfigo__Awesome-Fuzzing"]
+	path = repos/secfigo__Awesome-Fuzzing
+	url = https://github.com/secfigo/Awesome-Fuzzing.git
+	shallow = true
+[submodule "repos/leipzig__awesome-reproducible-research"]
+	path = repos/leipzig__awesome-reproducible-research
+	url = https://github.com/leipzig/awesome-reproducible-research.git
+	shallow = true
+[submodule "repos/jbhuang0604__awesome-tips"]
+	path = repos/jbhuang0604__awesome-tips
+	url = https://github.com/jbhuang0604/awesome-tips.git
+	shallow = true
+[submodule "repos/pliang279__awesome-phd-advice"]
+	path = repos/pliang279__awesome-phd-advice
+	url = https://github.com/pliang279/awesome-phd-advice.git
+	shallow = true
+[submodule "repos/shaily99__advice"]
+	path = repos/shaily99__advice
+	url = https://github.com/shaily99/advice.git
+	shallow = true
+[submodule "repos/Orchestra-Research__AI-Research-SKILLs"]
+	path = repos/Orchestra-Research__AI-Research-SKILLs
+	url = https://github.com/Orchestra-Research/AI-Research-SKILLs.git
+	shallow = true
+[submodule "repos/K-Dense-AI__scientific-agent-skills"]
+	path = repos/K-Dense-AI__scientific-agent-skills
+	url = https://github.com/K-Dense-AI/scientific-agent-skills.git
+	shallow = true
+[submodule "repos/Imbad0202__academic-research-skills"]
+	path = repos/Imbad0202__academic-research-skills
+	url = https://github.com/Imbad0202/academic-research-skills.git
+	shallow = true
+[submodule "repos/brycewang-stanford__Awesome-Agent-Skills-for-Empirical-Research"]
+	path = repos/brycewang-stanford__Awesome-Agent-Skills-for-Empirical-Research
+	url = https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research.git
+	shallow = true
+[submodule "repos/InternScience__Awesome-Scientific-Skills"]
+	path = repos/InternScience__Awesome-Scientific-Skills
+	url = https://github.com/InternScience/Awesome-Scientific-Skills.git
+	shallow = true
+[submodule "repos/ResearAI__Awesome-AI-Scientist"]
+	path = repos/ResearAI__Awesome-AI-Scientist
+	url = https://github.com/ResearAI/Awesome-AI-Scientist.git
+	shallow = true
+[submodule "repos/ai4s-research__awesome-ai-for-science"]
+	path = repos/ai4s-research__awesome-ai-for-science
+	url = https://github.com/ai4s-research/awesome-ai-for-science.git
+	shallow = true
+[submodule "repos/worldbench__awesome-ai-auto-research"]
+	path = repos/worldbench__awesome-ai-auto-research
+	url = https://github.com/worldbench/awesome-ai-auto-research.git
+	shallow = true
