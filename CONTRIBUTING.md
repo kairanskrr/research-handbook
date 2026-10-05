@@ -36,7 +36,7 @@
 2. 每条结论用脚注标出依据，脚注指向 `sources/notes/<key>.md` 中的一条证据。还没有摘录的资料，先按 [`sources/notes/README.md`](sources/notes/README.md) 的格式补上。
 3. 没有文献依据的分析标 `[本项目分析]`，不确定的标 `[待确认]`。
 4. 不同资料说法不一致时，并列写出各自的做法和理由，不要强行合成一个结论。
-5. 写完后在 [`guide/README.md`](guide/README.md) 中更新状态。
+5. 写完后更新状态：通用篇在 [`guide/general/README.md`](guide/general/README.md)，领域篇在 [`guide/fields/README.md`](guide/fields/README.md)。
 
 研究类型文档使用 [`templates/research-type.md`](templates/research-type.md) 模板，放在 `guide/fields/<领域>/research-types/` 下。
 

@@ -113,6 +113,7 @@
 - [Views on Internal and External Validity in Empirical Software Engineering](https://doi.org/10.1109/ICSE.2015.24) - Siegmund、Siegmund、Apel，ICSE 2015。调查 SE 社区如何看待内部效度与外部效度的取舍。`siegmund2015views`
 - [SoK: Science, Security and the Elusive Goal of Security as a Scientific Pursuit](https://doi.org/10.1109/SP.2017.38) - Herley & van Oorschot，IEEE S&P 2017。借科学哲学审视安全研究的科学性，批评不可证伪的主张。`herley2017sok`
 - [The Menlo Report](https://www.caida.org/publications/papers/2012/menlo_report/menlo_report.pdf) - Bailey、Dittrich、Kenneally、Maughan，IEEE Security & Privacy 2012。介绍美国国土安全部资助的 Menlo 报告：在 Belmont 报告三原则之上增加"尊重法律与公共利益"，是安全和网络研究伦理的常用依据。报告原文见 [SSRN](https://doi.org/10.2139/ssrn.2445102)。🆓 `bailey2012menlo`
+- [The European Code of Conduct for Research Integrity（2023 修订版）](https://doi.org/10.26356/ECOC) - ALLEA（欧洲科学与人文学院联合会），2023。适用于所有学科的科研诚信准则：四条基本原则、良好研究规范、学术不端的定义。CC BY 4.0。🆓 `allea2023european`
 - [Ethical considerations in network measurement papers](https://doi.org/10.1145/2896816) - Partridge & Allman，CACM 2016。测量类论文应如何讨论和处理伦理问题。`partridge2016ethical`
 
 
@@ -139,6 +140,12 @@
 - [Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745) - Wilson 等人，PLoS Biology 2014。科研编程的版本控制、测试、自动化等最佳实践。🆓 `wilson2014best`
 - [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510) - Wilson 等人，PLoS Computational Biology 2017。科研代码和数据管理的最低实用规范。🆓 `wilson2017good`
 - [Ten Simple Rules for Reproducible Computational Research](https://doi.org/10.1371/journal.pcbi.1003285) - Sandve 等人，PLoS Computational Biology 2013。可复现计算研究的十条规则。🆓 `sandve2013ten`
+- [MLflow Tracking](https://mlflow.org/docs/latest/ml/tracking/) - MLflow 官方文档（工具文档）。实验追踪工具会记录哪些信息：代码版本、参数、指标、产出文件。这是工具厂商的文档，仅用来说明"该记录什么"。🆓 `mlflowtracking`
+- [OSF Help：Organizing Files](https://help.osf.io/article/147-organizing-files) - 开放科学中心（Center for Open Science），持续更新。原始数据和处理后数据分开、原始数据只读、每个目录配说明文件。🆓 `osforganizing`
+- [The Good Research Code Handbook](https://goodresearch.dev/) - Patrick Mineault，2021。面向写研究代码的人：一个项目一个文件夹、一个代码仓库，频繁提交，代码怎样组织和测试。🆓 `mineault2021good`
+- [The Turing Way：Research Compendia](https://book.the-turing-way.org/reproducible-research/compendia) - The Turing Way 社区，持续更新。把数据、代码、文本和运行环境作为一个整体管理；数据、方法、产出分开存放，并写明运行环境。🆓 `turingwaycompendia`
+- [A Quick Guide to Organizing Computational Biology Projects](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) - Noble，PLoS Computational Biology 2009。计算类项目怎样组织目录：结果按日期存放、写详细的研究日志、每个数据目录配说明。🆓 `noble2009quick`
+- [Ten simple rules for defining a computational biology project](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010786) - Noble，PLoS Computational Biology 2023。项目开始时怎样把目标、要回答的问题、交付物和完成标准写清楚，是写"项目简介"的依据。🆓 `noble2023ten`
 - [Research Paper Release Checklist](https://nicholas.carlini.com/writing/2022/paper-release-checklist.html) - Nicholas Carlini，2022。每次发布论文（arXiv、代码等）前逐项检查的清单，把犯过的错误变成检查项。🆓 `carlini2022checklist`
 - [paperswithcode/releasing-research-code](https://github.com/paperswithcode/releasing-research-code) - NeurIPS 2020 官方推荐的研究代码发布 README 模板和复现清单。2021 年后未更新。MIT。📦
 - [sysartifacts/sysartifacts.github.io](https://github.com/sysartifacts/sysartifacts.github.io) - EuroSys、SOSP、OSDI、ATC 的 Artifact Evaluation 网站源码，含作者和评审的 AE 指南及历年结果。**未找到 LICENSE 文件。**📦
@@ -150,6 +157,7 @@
 
 ### 综合与经典
 
+- [Frascati Manual 2015](https://doi.org/10.1787/9789264239012-en) - OECD（经济合作与发展组织），2015。各国统计研发活动的国际标准，给出"什么算研究"的定义和五条判定标准（新颖、有创造性、结果不确定、系统、可转移或可复现），以及本项目采用的学科分类。🆓 `oecd2015frascati`
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) - Richard Hamming，1986 年演讲。如何选择重要的问题，保持开放、长期积累。🆓 `hamming1986you`
 - [Ten Simple Rules for Doing Your Best Research, According to Hamming](https://doi.org/10.1371/journal.pcbi.0030213) - Erren 等人，PLoS Computational Biology 2007。对上面演讲的归纳。🆓 `erren2007ten`
 - [Principles of Effective Research](https://web.archive.org/web/20260824165302/https://michaelnielsen.org/blog/principles-of-effective-research/) - Michael Nielsen，技术笔记 2004。把高效研究拆成可培养的习惯：自我发展、提出问题与解决问题两种风格、建立研究愿景。原地址现已 404，链接为 Internet Archive 快照。🆓 `nielsen2004principles`
@@ -174,8 +182,8 @@
 - [How To Choose a Good Scientific Problem](https://doi.org/10.1016/j.molcel.2009.09.013) - Uri Alon，Molecular Cell 2009。用"可行性 × 兴趣"二维图选题，并说明研究途中迷茫期（"云"）是正常的。`alon2009choose`
 - [Research Taste Exercises](https://colah.github.io/notes/taste/) - Chris Olah，2021。研究品味就是挑好问题的能力，可以刻意练习：写下想法请导师评点、回顾自己的判断等。🆓 `olah2021taste`
 - [My Research Process: Understanding and Cultivating Research Taste](https://www.alignmentforum.org/posts/Ldrss6o3tiKT6NdMm) - Neel Nanda，2025。研究品味不是天赋，可以通过反思、导师反馈和缩短反馈回路培养。🆓 `nanda2025taste`
-- [How to come up with research ideas?](https://twitter.com/jbhuang0604/status/1423499757591400448) - Jia-Bin Huang，推文串 2021。七种产生想法的套路：换维度、放宽或增加假设、组合想法、借用新工具、对 SOTA 做压力测试等。🆓
-- [How to decide what to work on?](https://twitter.com/jbhuang0604/status/1628521223838654464) - Jia-Bin Huang，推文串 2023。选题看五点：自己的独特优势、兴趣、对未来技术的判断、野心、能否快速验证。🆓
+- [How to come up with research ideas?](https://twitter.com/jbhuang0604/status/1423499757591400448) - Jia-Bin Huang，推文串 2021。七种产生想法的套路：换维度、放宽或增加假设、组合想法、借用新工具、对 SOTA 做压力测试等。🆓 `huang2021ideas`
+- [How to decide what to work on?](https://twitter.com/jbhuang0604/status/1628521223838654464) - Jia-Bin Huang，推文串 2023。选题看五点：自己的独特优势、兴趣、对未来技术的判断、野心、能否快速验证。🆓 `huang2023decide`
 - [How to Find Research Problems](https://www.cs.jhu.edu/~jason/advice/how-to-find-research-problems.html) - Jason Eisner（JHU），年份待确认。从阅读中的不满和已有工作的缺口里找研究问题。🆓 `eisnerproblems`
 - [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) - Rich Sutton（图灵奖），2019。70 年 AI 史表明，能随算力扩展的通用方法最终胜过人工注入知识的方法。判断 AI 研究方向的常用参照。🆓 `sutton2019bitter`
 - [The Second Half](https://ysymyth.github.io/The-Second-Half/) - 姚顺雨，2025。AI 进入"下半场"：重点从改进训练方法转向定义有意义的问题、设计贴近真实效用的评测。🆓 `yao2025second`
@@ -188,11 +196,12 @@
 ### 研究流程与习惯
 
 - [Research as a Stochastic Decision Process](https://cs.stanford.edu/~jsteinhardt/ResearchasaStochasticDecisionProcess.html) - Jacob Steinhardt，2018。按"单位时间获得的信息量"排序任务，先做最可能让项目失败的环节，尽早去风险。🆓 `steinhardt2018stochastic`
-- [How I Think About My Research Process: Explore, Understand, Distill](https://www.alignmentforum.org/s/5GT3yoYM9gRmMEKqL/p/hjMy4ZxS5ogA9cTYK) - Neel Nanda，2025。把研究分成选题、探索、理解、提炼四个阶段，各有目标和常见陷阱。同系列的 [Key Mindsets](https://www.alignmentforum.org/posts/cbBwwm4jW6AZctymL) 讲求真、排优先级和快速推进。🆓 `nanda2025process`
+- [The Turing Way：Guide for Project Design](https://book.the-turing-way.org/project-design/project-design) - The Turing Way 社区（艾伦·图灵研究所发起），持续更新。项目设计阶段要想清楚的研究问题、范围、成功标准和计划方式；也讨论了甘特图等计划工具在研究中的适用性。🆓 `turingwaydesign`
+- [How I Think About My Research Process: Explore, Understand, Distill](https://www.alignmentforum.org/s/5GT3yoYM9gRmMEKqL/p/hjMy4ZxS5ogA9cTYK) - Neel Nanda，2025。把研究分成选题、探索、理解、提炼四个阶段，各有目标和常见陷阱。同系列的 [Key Mindsets](https://www.alignmentforum.org/posts/cbBwwm4jW6AZctymL) 讲求真、排优先级和快速推进。🆓 `nanda2025process` `nanda2025mindsets`
 - [Practicing AI research](https://www.jasonwei.net/blog/practicing-ai-research) - Jason Wei，2023。研究是可以练习的技能，分为选题、做实验、写论文、扩大影响四部分。🆓 `wei2023practicing`
 - [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/) - Andrej Karpathy，2019。训练神经网络的系统流程：先吃透数据，从简单到复杂，每一步都验证假设。🆓 `karpathy2019recipe`
-- [How to do experiments?](https://twitter.com/jbhuang0604/status/1647098218172252160) - Jia-Bin Huang，推文串 2023。实验是为了检验假设而不是刷分：一次只改一个变量、先写下预期、建好 baseline、系统记录。🆓
-- [How to get unstuck?](https://twitter.com/jbhuang0604/status/1717381151508054029) - Jia-Bin Huang，推文串 2023。大多数实验会失败；卡住时找人讨论、画出流程、逐步简化问题。🆓
+- [How to do experiments?](https://twitter.com/jbhuang0604/status/1647098218172252160) - Jia-Bin Huang，推文串 2023。实验是为了检验假设而不是刷分：一次只改一个变量、先写下预期、建好 baseline、系统记录。🆓 `huang2023experiments`
+- [How to get unstuck?](https://twitter.com/jbhuang0604/status/1717381151508054029) - Jia-Bin Huang，推文串 2023。大多数实验会失败；卡住时找人讨论、画出流程、逐步简化问题。🆓 `huang2023unstuck`
 - [Rapid Iteration in Machine Learning Research](https://nicholas.carlini.com/writing/2022/rapid-iteration-machine-learning-research.html) - Nicholas Carlini，2022。缩短实验的等待时间，例如对 Python 环境做快照、交互式修改后反复运行，以加快迭代。🆓 `carlini2022rapid`
 - [Personal Rules of Productive Research](https://www.eugenevinitsky.com/posts/personal-rules-of-productive-research) - Eugene Vinitsky，年份待确认。从反复试错中总结的个人高效研究规则。🆓 `vinitskyrules`
 - [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) - Google Research 的深度学习调参与实验设计手册：科学化的增量实验、超参数分类。2024 年后未更新。CC BY 4.0。📦
@@ -222,7 +231,7 @@
 - [HOWTO: Avoid common problems when writing a security conference paper](https://www.metzdowd.com/pipermail/cryptography/2008-January/013419.html) - Peter Gutmann，2008。安全会议程序委员会视角下投稿的常见问题清单。🆓 `gutmann2008security`
 - [Highly Opinionated Advice on How to Write ML Papers](https://www.alignmentforum.org/posts/eJGptPbbFPZGLpjsp/highly-opinionated-advice-on-how-to-write-ml-papers) - Neel Nanda，2025。把研究压缩成 1–3 个有严格证据支撑的核心论断，再从摘要、引言到正文逐层展开。🆓 `nanda2025writing`
 - [Writing a good scientific paper](https://perceiving-systems.blog/en/news/writing-a-good-scientific-paper) - Michael J. Black（MPI-IS），2024。他多年来给学生的 CV/图形学论文写作指南。🆓 `black2024writing`
-- [How to write the Introduction?](https://twitter.com/jbhuang0604/status/1638029709073166336) - Jia-Bin Huang，推文串 2023。用 WHAT/WHY/HOW 和五个问题（问题、已有工作、缺口、做了什么、贡献）组织引言。🆓
+- [How to write the Introduction?](https://twitter.com/jbhuang0604/status/1638029709073166336) - Jia-Bin Huang，推文串 2023。用 WHAT/WHY/HOW 和五个问题（问题、已有工作、缺口、做了什么、贡献）组织引言。🆓 `huang2023introduction`
 - [Planning paper writing](https://deviparikh.substack.com/p/planning-paper-writing-553f497e8839) - Devi Parikh，2019。提前规划论文写作的时间线和分工。另见同作者的 [Shortening papers to fit page limits](https://deviparikh.substack.com/p/shortening-papers-to-fit-page-limits-97601318681d)。🆓 `parikh2019planning`
 - [Research Debt](https://distill.pub/2017/research-debt/) - Olah & Carter，Distill 2017。糟糕的解释让领域积累"研究债"；提炼和清晰解释是被低估的研究工作。🆓 `olah2017debt`
 - [Notes on writing](http://people.csail.mit.edu/fredo/PUBLI/writing.pdf) - Frédo Durand（MIT），年份待确认。论文写作讲义。🆓 `durandwriting`
@@ -236,7 +245,7 @@
 - [Reviewing a technical paper](https://homes.cs.washington.edu/~mernst/advice/review-technical-paper.html) - Michael Ernst（UW），持续更新。如何写出公正、有建设性、对作者有用的评审。🆓 `ernstreview`
 - [Writing reviews for systems conferences](https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf) - Timothy Roscoe（ETH），2007。为 SOSP 影子程序委员会写的审稿指南：评审有哪些用途、怎样写好。🆓 `roscoe2007reviews`
 - [Thoughts on Reviewing](https://mallman.net/pubs/All08a/All08a.pdf) - Mark Allman，ACM SIGCOMM CCR 2008。对网络领域审稿流程和评审质量的反思与建议。🆓 `allman2008thoughts`
-- [Advice on reviewing papers](http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/) - Michael Hicks，PL Enthusiast 2014。PL 社区的审稿建议：如何评估贡献、写出有帮助的评审。同作者另有 [Advice on writing an author response](http://www.pl-enthusiast.net/2014/09/17/advice-writing-author-response/)。🆓 `hicks2014reviewing`
+- [Advice on reviewing papers](http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/) - Michael Hicks，PL Enthusiast 2014。PL 社区的审稿建议：如何评估贡献、写出有帮助的评审。同作者另有 [Advice on writing an author response](http://www.pl-enthusiast.net/2014/09/17/advice-writing-author-response/)。🆓 `hicks2014reviewing` `hicks2014response`
 - [Patterns for writing good rebuttals](https://andreas-zeller.info/2012/10/01/patterns-for-writing-good-rebuttals.html) - Andreas Zeller，2012。作者回复（rebuttal）的常用写法和注意事项。🆓 `zeller2012rebuttals`
 - [How do different fields review papers? Experiences from ICSE, PLDI, and CCS](https://andreas-zeller.info/2021/07/27/Reviewing-across-fields-ICSE-PLDI-CCS.html) - Andreas Zeller，2021。比较 SE、PL、安全三个社区审稿文化的差异。🆓 `zeller2021fields`
 - [How we write rebuttals](https://deviparikh.substack.com/p/how-we-write-rebuttals-dc84742fece1) - Parikh、Batra、Lee，2020。rebuttal 的目的是澄清和说服，要周全、直接、好读，同时照顾审稿人和 AC 两类读者。🆓 `parikh2020rebuttals`
@@ -264,11 +273,11 @@
 - [A PhD So Good It Can't Be Ignored: Passion, Practice, and Control](https://ahappyphd.org/posts/phd-so-good-1/) - Luis P. Prieto（A Happy PhD），2025。借用 Cal Newport 的观点：不要只追随热情，先靠刻意练习积累稀缺技能，再争取自主权。🆓 `prieto2025so`
 - [How to be a successful PhD student?](https://medium.com/data-science/how-to-be-a-successful-phd-student-3f3a4eb48be8) - Dorien Herremans（SUTD），2020。实验室最佳实践清单：别在截稿前一天才给导师看稿、与博后结对、开源代码并发预印本、固定作息、主动掌控项目。🆓 `herremans2020successful`
 - [10 pieces of advice I wish my PhD advisor had given me](https://www.sigcommedu.web.illinois.edu/advice/kurose_wish_advisor.pdf) - Jim Kurose（UMass），幻灯片，年份待确认。十条建议：广泛学习（尤其数学）、慎选问题、自上而下地写作、站在读者角度、好文章需要时间。🆓 `kuroseadvice`
-- [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) - Matt Might，2010。用一组圆形图说明博士就是把人类知识的边界向外推出一个小凸起。另见 [3 qualities of successful Ph.D. students](https://matt.might.net/articles/successful-phd-students/)。🆓 `might2010illustrated`
+- [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) - Matt Might，2010。用一组圆形图说明博士就是把人类知识的边界向外推出一个小凸起。另见 [3 qualities of successful Ph.D. students](https://matt.might.net/articles/successful-phd-students/)。🆓 `might2010illustrated` `might2010successful`
 - [A graduate school survival guide: "So long, and thanks for the Ph.D!"](https://www.cs.unc.edu/~azuma/hitch4.html) - Ronald Azuma，1997（2003 修订）。读博所需的心理韧性和技能，以及毕业后求职。🆓 `azuma2003survival`
 - [Expectation Setting for a PhD](https://www.eugenevinitsky.com/posts/expectation-setting) - Eugene Vinitsky，年份待确认。博士生和导师之间如何设定相互期望。🆓 `vinitskyexpectation`
-- [How to meet with your advisor?](https://twitter.com/jbhuang0604/status/1653614931202195458) - Jia-Bin Huang，推文串 2023。会前异步分享结果、准备议程、先讲背景再讲细节、主动提出下一步、会后立刻写纪要。🆓
-- [How to cope with paper rejection?](https://twitter.com/jbhuang0604/status/1443248831102136333) - Jia-Bin Huang，推文串 2021。被拒是常态；把审稿意见当作改进清单，也可以建一份"失败简历"。🆓
+- [How to meet with your advisor?](https://twitter.com/jbhuang0604/status/1653614931202195458) - Jia-Bin Huang，推文串 2023。会前异步分享结果、准备议程、先讲背景再讲细节、主动提出下一步、会后立刻写纪要。🆓 `huang2023advisor`
+- [How to cope with paper rejection?](https://twitter.com/jbhuang0604/status/1443248831102136333) - Jia-Bin Huang，推文串 2021。被拒是常态；把审稿意见当作改进清单，也可以建一份"失败简历"。🆓 `huang2021rejection`
 - [Behind the Scenes: The Struggle for Each Paper](https://jeffhuang.com/struggle_for_each_paper/) - Jeff Huang（Brown），2021。逐篇复盘自己 30 篇论文背后的被拒、时机和合作经历，说明发表从来不顺利。🆓 `huang2021struggle`
 - [AI research is a max-performance domain](https://jasonwei.net/blog/ai-research-is-a-max-performance-domain) - Jason Wei，2025。AI 研究看的是最高水平：一项能力足够突出就能弥补其他短板。另见 [Dopamine cycles in AI research](https://jasonwei.net/blog/e2jwko63n64ot4kkvqdd7nlejd2m3x)。🆓 `wei2025maxperf`
 - [Career Advice](https://terrytao.wordpress.com/career-advice/) - Terence Tao（UCLA），持续更新。按本科、研究生、博士后阶段整理的数学研究职业建议，例如多听报告、接受阶段性进展。🆓

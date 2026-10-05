@@ -1,0 +1,59 @@
+# Menzies & Shepperd 2019："Bad smells" in software analytics papers
+
+- 资料：`menzies2019bad`，[原文](https://arxiv.org/abs/1803.05518)
+- 版本：arXiv:1803.05518v3（2019-04-13），本地 PDF `papers/pdf/menzies2019bad.pdf`。
+- 说明：针对软件分析（用数据分析研究软件工程问题）论文，列出 12 种"坏味道"，即可能预示深层问题的表面迹象。
+
+### E1
+
+- 位置：§4.4 Inadequate Reporting，第 3 条
+- 原文："Non-signiﬁcant and post hoc “uninteresting" results are not reported. This seemingly innocuous behavior, known as reporting bias, can lead to serious overestimation of effect sizes"
+- 要点：不报告不显著或"没意思"的结果，即报告偏差（reporting bias），会严重高估效应大小。
+
+### E2
+
+- 位置：§4.6 p < 0.05 and all that!
+- 原文："A correlation of r = 0.01 is trivial and to all practical purposes indistinguishable from no correlation."
+- 要点：例子中样本量 18000、p = 0.049 的"显著"相关系数只有 0.01，实际上等于没有相关。统计显著不等于实际重要。
+
+### E3
+
+- 位置：§4.6
+- 原文："methodologists encourage the notion of the smallest effect size of interest (SESOI). This should be speciﬁed before the research is conducted."
+- 要点：研究开始前就定下"最小有意义效应量"，即多大的差异才算有实际意义。
+
+### E4
+
+- 位置：§4.9 Not Exploring Stability
+- 原文："So it is important to check if the effect you want to report actually exists, or is just due to noise."
+- 要点：要检查想报告的效应是否真的存在，还是只是噪声；做法包括换多个数据集，并同时报告集中趋势和离散程度。
+
+### E5
+
+- 位置：§4.10 Not Tuning
+- 原文："One particularly egregious “smell" is to compare a heavily tuned new or pet approach with other benchmarks that are untuned."
+- 要点：精心调过参的新方法对比没调参的对手，是特别严重的问题。
+
+### E6
+
+- 位置：§4.10 Not Tuning
+- 原文："what we really learn is using the new technique well can outperform using another technique badly."
+- 要点：这种比较只说明"好好用新方法能胜过随便用旧方法"，没有什么价值。
+
+### E7
+
+- 位置：§4.11 Not Exploring Simplicity
+- 原文："it is wise to compare a seemingly sophisticated method against some simpler alternative."
+- 要点：复杂方法要和更简单的替代方案比较，才能说明复杂度是值得的。
+
+### E8
+
+- 位置：§4.4 Inadequate Reporting，第 2 条
+- 原文："The work cannot be exactly reproduced because some of the algorithms are stochastic and seeds are not provided."
+- 要点：算法带随机性却不提供随机种子，别人就无法精确复现。
+
+### E9
+
+- 位置：§1 Introduction
+- 原文："we say that the “smells” listed in this article do not necessarily indicate that the conclusions from the underlying study must be rejected."
+- 要点：这些"坏味道"只是警示信号，不代表研究结论一定要被否定。

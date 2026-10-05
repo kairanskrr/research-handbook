@@ -24,7 +24,7 @@
 ### E4
 
 - 位置：§3.2，PDF 第 7 页
-- 原文："In maps, the articles are not evaluated regarding their quality as the main goal is not to establish the state of evidence." / "In a systematic mapping study, more articles can be considered as they don't have to be evaluated in such detail. Therefore, a larger field can be structured"
+- 原文："In maps, the articles are not evaluated regarding their quality as the main goal is not to establish the state of evidence." / "In a systematic mapping study, more articles can be considered as they don't have to be evaluated in such detail."
 - 要点：映射研究一般不评估单篇论文的质量，所以能覆盖更多论文、梳理更大的领域；系统综述要评估质量，范围通常更窄，工作量更大。
 
 ### E5

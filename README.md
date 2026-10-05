@@ -9,6 +9,7 @@
 | 想做什么 | 去哪里 |
 |---|---|
 | 学习怎么做科研 | [整理内容](guide/README.md)：通用篇 → 领域篇 → 研究类型 |
+| 做研究时遇到问题 | [常见问题速查](guide/faq.md) |
 | 查某条结论的依据 | 点整理内容里的脚注，跳到 [证据摘录](sources/notes/README.md) |
 | 找原始资料：论文、规范、博客、仓库 | [原始资料列表](sources/README.md) |
 
@@ -18,8 +19,9 @@
 
 ```
 guide/          整理内容（中文）
-  general/        通用篇
+  general/        通用篇：总览，以及按阶段分组的各章（开始之前 / 进行中 / 收尾与发表 / 贯穿全程）
   fields/         领域篇，按 OECD（经济合作与发展组织）的学科分类组织；每个领域下有 research-types/
+  faq.md          常见问题速查
 sources/        原始资料
   README.md       资料列表（awesome 列表形式）
   notes/          证据摘录：资料原文在哪里、怎么说

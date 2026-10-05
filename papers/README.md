@@ -51,6 +51,24 @@
 | `keshav2007read` | How to Read a Paper | ACM SIGCOMM CCR 2007 | [SIGCOMM CCR](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) |
 | `karpathy2016survival` | A Survival Guide to a PhD | 博客 2016 | [网页](http://karpathy.github.io/2016/09/07/phd/) |
 | `acm2026csurguidelines` | ACM Computing Surveys: Author Guidelines | ACM 网页 | [Internet Archive 快照](http://web.archive.org/web/20260711105913/https://dl.acm.org/journal/csur/author-guidelines) |
+| `huang2021ideas` | How to come up with research ideas? | 推文串 2021 | [链接](https://twitter.com/jbhuang0604/status/1423499757591400448) |
+| `huang2023decide` | How to decide what to work on? | 推文串 2023 | [链接](https://twitter.com/jbhuang0604/status/1628521223838654464) |
+| `huang2023experiments` | How to do experiments? | 推文串 2023 | [链接](https://twitter.com/jbhuang0604/status/1647098218172252160) |
+| `nanda2025mindsets` | My Research Process: Key Mindsets - Truth-Seeking, Prioritisation, Moving Fast | 博客 2025 | [链接](https://www.alignmentforum.org/posts/cbBwwm4jW6AZctymL) |
+| `huang2023unstuck` | How to get unstuck? | 推文串 2023 | [链接](https://twitter.com/jbhuang0604/status/1717381151508054029) |
+| `huang2023introduction` | How to write the Introduction? | 推文串 2023 | [链接](https://twitter.com/jbhuang0604/status/1638029709073166336) |
+| `hicks2014response` | Advice on writing an author response | 博客 2014 | [链接](http://www.pl-enthusiast.net/2014/09/17/advice-writing-author-response/) |
+| `huang2021rejection` | How to cope with paper rejection? | 推文串 2021 | [链接](https://twitter.com/jbhuang0604/status/1443248831102136333) |
+| `huang2023advisor` | How to meet with your advisors/mentors? | 推文串 2023 | [链接](https://twitter.com/jbhuang0604/status/1653614931202195458) |
+| `allea2023european` | The European Code of Conduct for Research Integrity -- Revised Edition 2023 | 准则 2023 | [链接](https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf) |
+| `might2010successful` | 3 qualities of successful Ph.D. students: Perseverance, tenacity and cogency | 博客 2010 | [链接](https://matt.might.net/articles/successful-phd-students/) |
+| `noble2023ten` | Ten simple rules for defining a computational biology project | PLoS Computational Biology 2023 | [链接](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010786) |
+| `turingwaydesign` | The Turing Way：Guide for Project Design | 持续更新 | [链接](https://book.the-turing-way.org/project-design/project-design) |
+| `noble2009quick` | A Quick Guide to Organizing Computational Biology Projects | PLoS Computational Biology 2009 | [链接](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) |
+| `turingwaycompendia` | The Turing Way：Research Compendia | 持续更新 | [链接](https://book.the-turing-way.org/reproducible-research/compendia) |
+| `mineault2021good` | The Good Research Code Handbook | 2021 | [链接](https://goodresearch.dev/) |
+| `osforganizing` | OSF Help：Organizing Files | 持续更新 | [链接](https://help.osf.io/article/147-organizing-files) |
+| `mlflowtracking` | MLflow Tracking | MLflow 官方文档（工具文档） | [链接](https://mlflow.org/docs/latest/ml/tracking/) |
 | `oecd2015frascati` | Frascati Manual 2015 | OECD 2015 | [OECD](https://doi.org/10.1787/9789264239012-en) |
 | `nielsen2004principles` | Principles of Effective Research | 技术笔记 2004 | [Internet Archive 快照](https://web.archive.org/web/20260824165302/https://michaelnielsen.org/blog/principles-of-effective-research/)（原地址已失效） |
 | `patterson2001bad` | How to Have a Bad Career in Research/Academia | 演讲 2001 | [作者主页](https://people.eecs.berkeley.edu/~pattrsn/talks/BadCareer.pdf) |
