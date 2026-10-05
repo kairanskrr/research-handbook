@@ -12,7 +12,6 @@
 | 论文索引与获取情况 | [`../papers/README.md`](../papers/README.md) |
 | 下载有免费全文的论文 PDF | 在仓库根目录运行 `bash scripts/fetch_papers.sh`，PDF 保存在 `papers/pdf/` |
 | GitHub 仓库的上游地址与固定版本 | [`../repos/README.md`](../repos/README.md) |
-| 团队内部材料 | [`../internal/`](../internal/README.md) |
 
 **图例**：🆓 有免费全文 · 💰 需要付费 · 📦 GitHub 仓库（已作为 submodule 引入 `repos/`）· `key` 为 `references.bib` 中的条目。
 

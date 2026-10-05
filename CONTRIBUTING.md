@@ -2,7 +2,7 @@
 
 ## 仓库的两部分
 
-- **原始资料**：`sources/`（资料列表和证据摘录）、`papers/`、`repos/`、`internal/`。只登记和摘录，不加工。
+- **原始资料**：`sources/`（资料列表和证据摘录）、`papers/`、`repos/`。只登记和摘录，不加工。
 - **整理内容**：`guide/`，我们写给科研新手的中文文档。每条结论都要能在原始资料中找到证据。
 
 ## 基本原则
@@ -44,4 +44,3 @@
 
 - ACM SIGSOFT Empirical Standards 采用 CC0 1.0，可以自由引用和改编，但仍需注明出处。
 - 其他资料各有版权或许可，见 `repos/README.md` 和 `papers/README.md`。
-- 本仓库应保持私有，因为 `internal/` 会存放团队的审稿意见和决策记录。
