@@ -103,7 +103,7 @@
 ### 实证研究通用
 
 - [Experimentation in Software Engineering](https://doi.org/10.1007/978-3-662-69306-3) - Wohlin 等人，Springer，第 2 版 2024。实验研究的标准教材，威胁效度的经典论述出自这里。💰 `wohlin2024experimentation`
-- [Guidelines for conducting and reporting case study research in software engineering](https://doi.org/10.1007/s10664-008-9102-8) - Runeson & Höst，EMSE 2009。案例研究指南，其中的效度讨论有参考价值。`runeson2009guidelines`
+- [Guidelines for conducting and reporting case study research in software engineering](https://doi.org/10.1007/s10664-008-9102-8) - Runeson & Höst，EMSE 2009。案例研究指南，其中的效度讨论有参考价值。开放获取（CC BY-NC）。🆓 `runeson2009guidelines`
 - [Contemporary Empirical Methods in Software Engineering](https://doi.org/10.1007/978-3-030-32489-6) - Felderer & Travassos（编），Springer 2020。多种实证方法的较新综述，仅第 17 章（Open Science）开放获取。💰 `felderer2020contemporary`
 - [Sampling in software engineering research: a critical review and guidelines](https://arxiv.org/abs/2002.07764) - Baltes & Ralph，EMSE 2022。SE 研究中抽样方法的批判性综述和指南。P1。🆓 `baltes2022sampling`
 - [Views on Internal and External Validity in Empirical Software Engineering](https://doi.org/10.1109/ICSE.2015.24) - Siegmund、Siegmund、Apel，ICSE 2015。调查 SE 社区如何看待内部效度与外部效度的取舍。P1。`siegmund2015views`

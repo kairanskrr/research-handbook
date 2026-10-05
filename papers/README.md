@@ -38,7 +38,7 @@
 | `klees2018evaluating` | Evaluating Fuzz Testing | CCS 2018 | [arXiv:1808.09700](https://arxiv.org/abs/1808.09700) |
 | `vanderkouwe2019sok` | SoK: Benchmarking Flaws in Systems Security | EuroS&P 2019 | [作者机构](https://trustworthy.systems/publications/full_text/vanderKouwe_HABG_19.pdf) |
 | `arp2022dos` | Dos and Don'ts of Machine Learning in Computer Security | USENIX Security 2022 | [arXiv:2010.09470](https://arxiv.org/abs/2010.09470) |
-| `runeson2009guidelines` | Guidelines for conducting and reporting case study research in software engineering | EMSE 2009 | 可能开放获取（Springer，未能确认） |
+| `runeson2009guidelines` | Guidelines for conducting and reporting case study research in software engineering | EMSE 2009 | [Springer](https://doi.org/10.1007/s10664-008-9102-8)（开放获取，CC BY-NC，不提交） |
 | `wohlin2024experimentation` | Experimentation in Software Engineering（第 2 版） | Springer 2024 | 💰 |
 | `felderer2020contemporary` | Contemporary Empirical Methods in Software Engineering | Springer 2020 | 💰（仅第 17 章开放获取） |
 | `zhang2026survey` | A Survey on Large Language Models for Software Engineering | Sci China Inf Sci 2026 | [arXiv:2312.15223](https://arxiv.org/abs/2312.15223)（预印本） |
@@ -165,6 +165,4 @@
 | 中 | `wohlin2024experimentation` | 威胁效度的经典论述 | 付费书籍；只需要讲效度的部分（2012 年版位于 Planning 一章） |
 | 中 | `arcuri2014hitchhiker` | 工具评测中的统计检验 | 付费；ICSE 2011 短版 `arcuri2011practical` 可能在 ACM 免费 |
 | 中 | `shull2008role` | 复现研究的定位 | 付费 |
-| 低 | `carver2010towards` | 复现研究的报告规范 | 作者主页有 PDF，但需要用浏览器下载 |
 | 低 | `felderer2020contemporary` | 多种实证方法的较新综述 | 需要先看目录挑选章节 |
-| 低 | `runeson2009guidelines` | 案例研究指南中的效度讨论 | 可能开放获取，未能确认 |
