@@ -7,7 +7,7 @@
 ## 关于 PDF 是否提交进仓库
 
 `papers/pdf/` 默认已加入 `.gitignore`，PDF 不会被提交。原因是各论文的版权不同：
-- **可以提交**：开放许可的论文，例如 PRISMA 2009（PLoS，CC BY）、PRISMA 2020（BMJ，CC BY 4.0）、Erren et al. 2007（PLoS，CC BY）、Petersen et al. 2008（出版社版本 CC BY 4.0）。如果要提交，需要用 `git add -f`。
+- **可以提交**：开放许可的论文，例如 PRISMA 2009（PLoS，CC BY）、PRISMA 2020（BMJ，CC BY 4.0）、Erren et al. 2007（PLoS，CC BY）、Petersen et al. 2008（出版社版本 CC BY 4.0），以及 PLoS 的 `wilson2014best`、`wilson2017good`、`sandve2013ten`、`mensh2017ten`、`zhang2014ten`、`bourne2005published`、`bourne2006reviewers`（均为 CC BY）。如果要提交，需要用 `git add -f`。
 - **不建议提交**：作者主页上的自存档版本、出版社的付费论文。这些只放链接和我们自己写的概括。
 
 ## 已收录
