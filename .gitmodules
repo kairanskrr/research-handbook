@@ -74,3 +74,119 @@
 	path = repos/worldbench__awesome-ai-auto-research
 	url = https://github.com/worldbench/awesome-ai-auto-research.git
 	shallow = true
+[submodule "repos/se-uhd__llm-guidelines-skill"]
+	path = repos/se-uhd__llm-guidelines-skill
+	url = https://github.com/se-uhd/llm-guidelines-skill.git
+	shallow = true
+[submodule "repos/se-uhd__llm-guidelines-paper"]
+	path = repos/se-uhd__llm-guidelines-paper
+	url = https://github.com/se-uhd/llm-guidelines-paper.git
+	shallow = true
+[submodule "repos/se-uhd__cea-skill"]
+	path = repos/se-uhd__cea-skill
+	url = https://github.com/se-uhd/cea-skill.git
+	shallow = true
+[submodule "repos/se-uhd__hallucite"]
+	path = repos/se-uhd__hallucite
+	url = https://github.com/se-uhd/hallucite.git
+	shallow = true
+[submodule "repos/se-uhd__ai-slop-skill"]
+	path = repos/se-uhd__ai-slop-skill
+	url = https://github.com/se-uhd/ai-slop-skill.git
+	shallow = true
+[submodule "repos/keemanxp__slr-prisma"]
+	path = repos/keemanxp__slr-prisma
+	url = https://github.com/keemanxp/slr-prisma.git
+	shallow = true
+[submodule "repos/wanshuiyin__Auto-claude-code-research-in-sleep"]
+	path = repos/wanshuiyin__Auto-claude-code-research-in-sleep
+	url = https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+	shallow = true
+[submodule "repos/Galaxy-Dawn__claude-scholar"]
+	path = repos/Galaxy-Dawn__claude-scholar
+	url = https://github.com/Galaxy-Dawn/claude-scholar.git
+	shallow = true
+[submodule "repos/lingzhi227__agent-research-skills"]
+	path = repos/lingzhi227__agent-research-skills
+	url = https://github.com/lingzhi227/agent-research-skills.git
+	shallow = true
+[submodule "repos/Weizhena__Deep-Research-skills"]
+	path = repos/Weizhena__Deep-Research-skills
+	url = https://github.com/Weizhena/Deep-Research-skills.git
+	shallow = true
+[submodule "repos/pedrohcgs__claude-code-my-workflow"]
+	path = repos/pedrohcgs__claude-code-my-workflow
+	url = https://github.com/pedrohcgs/claude-code-my-workflow.git
+	shallow = true
+[submodule "repos/flonat__flonat-research"]
+	path = repos/flonat__flonat-research
+	url = https://github.com/flonat/flonat-research.git
+	shallow = true
+[submodule "repos/Master-cai__Research-Paper-Writing-Skills"]
+	path = repos/Master-cai__Research-Paper-Writing-Skills
+	url = https://github.com/Master-cai/Research-Paper-Writing-Skills.git
+	shallow = true
+[submodule "repos/SNL-UCSB__paper-writing-skill"]
+	path = repos/SNL-UCSB__paper-writing-skill
+	url = https://github.com/SNL-UCSB/paper-writing-skill.git
+	shallow = true
+[submodule "repos/K-Dense-AI__claude-scientific-writer"]
+	path = repos/K-Dense-AI__claude-scientific-writer
+	url = https://github.com/K-Dense-AI/claude-scientific-writer.git
+	shallow = true
+[submodule "repos/Ar9av__PaperOrchestra"]
+	path = repos/Ar9av__PaperOrchestra
+	url = https://github.com/Ar9av/PaperOrchestra.git
+	shallow = true
+[submodule "repos/anthropics__skills"]
+	path = repos/anthropics__skills
+	url = https://github.com/anthropics/skills.git
+	shallow = true
+[submodule "repos/VoltAgent__awesome-agent-skills"]
+	path = repos/VoltAgent__awesome-agent-skills
+	url = https://github.com/VoltAgent/awesome-agent-skills.git
+	shallow = true
+[submodule "repos/SakanaAI__AI-Scientist-v2"]
+	path = repos/SakanaAI__AI-Scientist-v2
+	url = https://github.com/SakanaAI/AI-Scientist-v2.git
+	shallow = true
+[submodule "repos/SamuelSchmidgall__AgentLaboratory"]
+	path = repos/SamuelSchmidgall__AgentLaboratory
+	url = https://github.com/SamuelSchmidgall/AgentLaboratory.git
+	shallow = true
+[submodule "repos/aiming-lab__AutoResearchClaw"]
+	path = repos/aiming-lab__AutoResearchClaw
+	url = https://github.com/aiming-lab/AutoResearchClaw.git
+	shallow = true
+[submodule "repos/karpathy__autoresearch"]
+	path = repos/karpathy__autoresearch
+	url = https://github.com/karpathy/autoresearch.git
+	shallow = true
+[submodule "repos/stanford-oval__storm"]
+	path = repos/stanford-oval__storm
+	url = https://github.com/stanford-oval/storm.git
+	shallow = true
+[submodule "repos/NeuroDong__Ai-Review"]
+	path = repos/NeuroDong__Ai-Review
+	url = https://github.com/NeuroDong/Ai-Review.git
+	shallow = true
+[submodule "repos/pengsida__learning_research"]
+	path = repos/pengsida__learning_research
+	url = https://github.com/pengsida/learning_research.git
+	shallow = true
+[submodule "repos/hzwer__WritingAIPaper"]
+	path = repos/hzwer__WritingAIPaper
+	url = https://github.com/hzwer/WritingAIPaper.git
+	shallow = true
+[submodule "repos/google-research__tuning_playbook"]
+	path = repos/google-research__tuning_playbook
+	url = https://github.com/google-research/tuning_playbook.git
+	shallow = true
+[submodule "repos/paperswithcode__releasing-research-code"]
+	path = repos/paperswithcode__releasing-research-code
+	url = https://github.com/paperswithcode/releasing-research-code.git
+	shallow = true
+[submodule "repos/sysartifacts__sysartifacts.github.io"]
+	path = repos/sysartifacts__sysartifacts.github.io
+	url = https://github.com/sysartifacts/sysartifacts.github.io.git
+	shallow = true
