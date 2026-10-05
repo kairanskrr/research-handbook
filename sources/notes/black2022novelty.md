@@ -38,3 +38,9 @@
 - 位置：Novelty as difficulty
 - 原文："A simple idea can be important. But it can also be trivial."
 - 要点：简单的想法可能重要，也可能平凡；平凡指的是不重要，而不是简单。
+
+### E7
+
+- 位置：Novelty as difficulty
+- 原文："A trivial idea is an unimportant idea. If a paper has a simple idea that works better than the state of the art, then it is most likely not trivial."
+- 要点：平凡指的是不重要，而不是简单；一个简单的想法如果比当前最好的方法效果更好，多半就不平凡。

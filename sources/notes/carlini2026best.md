@@ -67,7 +67,7 @@
 
 - 位置：Get lucky: you're well suited to solve important problems
 - 原文："I feel pretty strongly that your overall impact is the product of your skill in some area, multiplied by how important that area is. If you're very good at a less "important" problem, you'll contribute more than working on something you're not very good at."
-- 要点：影响力约等于"你在某方面的能力 × 这个方向的重要性"；在不那么热门但你很擅长的问题上，贡献可能比做不擅长的热门问题更大。
+- 要点：影响力约等于"你在某方面的能力 × 这个方向的重要性"；在一个没那么"重要"、但你很擅长的问题上，贡献可能比做一个你不擅长的问题更大。
 
 ### E12
 

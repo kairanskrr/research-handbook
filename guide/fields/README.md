@@ -66,7 +66,7 @@
 
 ## 计算机领域篇
 
-位置：[`computer-science/`](computer-science/README.md)。领域概况（研究节奏、组织方式、发表文化、惯例）：未开始。
+位置：[`computer-science/`](computer-science/README.md)。领域概况（研究节奏、组织方式、发表文化、惯例）：初稿，待审阅。
 
 ### 研究类型
 
@@ -74,14 +74,14 @@
 
 | 分组 | 研究类型 | 对应的 SIGSOFT 标准 | 状态 |
 |---|---|---|---|
-| 文献类 | 综述研究：系统综述、映射研究、综述论文 | Systematic Reviews | 初稿，待审阅：[`review_study.md`](computer-science/research-types/review_study.md)。第一批，也是研究类型文档的样板 |
+| 文献类 | 综述研究：系统综述、映射研究、综述论文 | Systematic Reviews | 初稿，待审阅：[`review_study.md`](computer-science/research-types/review_study.md)。研究类型文档的样板 |
 | | 案例调查（案例元分析） | Case Survey | 未开始 |
 | | 方法论研究与元科学 | Methodological Guidelines and Meta-Science | 未开始 |
-| 构建与评估 | 工程研究（设计科学）：提出并评估新的方法、工具或系统 | Engineering Research | 未开始，第一批 |
+| 构建与评估 | 工程研究（设计科学）：提出并评估新的方法、工具或系统 | Engineering Research | 初稿，待审阅：[`engineering_research.md`](computer-science/research-types/engineering_research.md) |
 | | 优化研究（含基于搜索的软件工程） | Optimization Studies | 未开始 |
-| | 基准评测 | Benchmarking | 未开始，第一批 |
+| | 基准评测 | Benchmarking | 初稿，待审阅：[`benchmarking.md`](computer-science/research-types/benchmarking.md) |
 | | 定量仿真 | Simulation (Quantitative) | 未开始 |
-| 基于已有数据 | 仓库挖掘 | Repository Mining | 未开始，第一批 |
+| 基于已有数据 | 仓库挖掘 | Repository Mining | 初稿，待审阅：[`repository_mining.md`](computer-science/research-types/repository_mining.md) |
 | | 数据科学 | Data Science | 未开始 |
 | | 纵向研究 | Longitudinal Studies | 未开始 |
 | 涉及人的研究 | 对照实验（有人类参与者） | Experiments | 未开始 |

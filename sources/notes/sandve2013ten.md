@@ -29,6 +29,8 @@
 
 ### E5
 
+> 已作废：与 [E11](#e11) 重复（原文被 E11 完整包含）。
+
 - 位置：Rule 6（规则标题）
 - 原文："For Analyses That Include Randomness, Note Underlying Random Seeds"
 - 要点：分析中有随机性时，记录随机种子。
@@ -52,6 +54,8 @@
 - 要点：每一步中可能影响结果的细节都要记录；如果由程序执行，关键是程序名和版本，以及确切的参数和输入。
 
 ### E9
+
+> 已作废：与 [E2](#e2) 重复（原文被 E2 完整包含）。
 
 - 位置：Rule 1
 - 原文："As a minimum, you should at least record sufficient details on programs, parameters, and manual procedures to allow yourself, in a year or so, to approximately reproduce the results."

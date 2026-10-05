@@ -23,6 +23,8 @@
 
 ### E4
 
+> 已作废：与 [E1](#e1) 重复（原文被 E1 完整包含）。
+
 - 位置：同上
 - 原文："The second axis is interest: the increase in knowledge expected from the project."
 - 要点：第二条轴是"兴趣"，即项目预期能增加多少知识。

@@ -5,11 +5,15 @@
 
 ### E1
 
+> 已作废：与 [E8](#e8) 重复（原文被 E8 完整包含）。
+
 - 位置：Rule 1，第 1 页
 - 原文："Never separate writing a paper from the underlying research."
 - 要点：写论文和做研究不能分开；设计项目时就带上论文提纲。
 
 ### E2
+
+> 已作废：与 [E9](#e9) 重复（原文被 E9 完整包含）。
 
 - 位置：Rule 1，第 1 页
 - 原文："use writing as a tool to reassess the overall project, reevaluate the logic of the experiments, and examine the validity of the results during the research."

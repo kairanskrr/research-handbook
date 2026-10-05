@@ -87,3 +87,105 @@
 - 位置：标题下说明
 - 原文："This checklist is meant to support informed judgement, not supplant it."
 - 要点：清单用于辅助判断，不能代替判断。
+
+### E15
+
+- 位置：Suitable Comparison › Comparison is unfair
+- 原文："Comparisons to a competing system should not unfairly disadvantage that system." / "it would be unfair to compile the state-of-the-art baseline at -O0 optimization level, while using -O3 for the proposed system."
+- 要点：比较时不能让对手处于不公平的劣势，例如对手用最低优化级别编译，自己用最高级别。
+
+### E16
+
+- 位置：Principled Benchmark Choice › Inappropriate suite
+- 原文："Evaluations should be conducted using appropriate established benchmarks where they exist so that claimed results are more likely to generalize." / "it would be wrong to use a singlethreaded suite for studying parallel performance."
+- 要点：有公认的基准套件时应当使用，结果更可能推广；但要用在合适的场合，例如不能用单线程套件研究并行性能。
+
+### E17
+
+- 位置：Principled Benchmark Choice › Unjustiﬁed use of non-standard suite(s)
+- 原文："sometimes a non-standard suite, such as one that is subsetted or homegrown, is the better choice. In that case, a rationale, and possible limitations, must be provided to demonstrate why using a standard suite would have been worse."
+- 要点：使用裁剪过的或自建的非标准套件时，必须给出理由和可能的局限，说明为什么用标准套件会更差。
+
+### E18
+
+- 位置：Notes › Unjustiﬁed Use of Non-Standard Suite(s)
+- 原文："A concern we heard was that use of standard suites may lead to work that overﬁts to that benchmark." / "Papers we looked at often subset a benchmark, or cherry-picked particular programs."
+- 要点：有人担心标准套件会导致研究过拟合基准；清单作者认为编程语言领域更常见的是相反问题：裁剪基准、挑选特定程序。
+
+### E19
+
+- 位置：Notes › Unjustiﬁed Use of Non-Standard Suite(s)
+- 原文："Note that ‘benchmark’ in this category includes what is measured and the parameters of that measurement. One example of an oft-unappreciated benchmark parameter is timeout choice."
+- 要点：基准不只是测什么，还包括测量的参数；超时设置就是常被忽视的基准参数。
+
+### E20
+
+- 位置：Principled Benchmark Choice › Kernels instead of full applications
+- 原文："a claim that a system beneﬁts applications should be tested on such applications directly, and not only on micro-kernels, which may lack important characteristics of full applications."
+- 要点：主张对应用有好处，就要直接在应用上测，不能只用小的核心代码片段，它们可能缺少完整应用的重要特征。
+
+### E21
+
+- 位置：Appropriate and Clear Experimental Design › Fails to measure all important Effects
+- 原文："All important effects should be measured to show the true cost of a system."
+- 要点：要测量所有重要的影响，展示系统真实的代价。原文例子：编译优化让程序变快，但可能大幅增加编译时间，编译时间也要测。
+
+### E22
+
+- 位置：Appropriate and Clear Experimental Design › Insufﬁcient information to repeat
+- 原文："All parameters (including default values) should be included, as well as all version numbers of software, and full details of hardware platforms."
+- 要点：要写出全部参数（包括默认值）、所有软件版本号和硬件平台的完整细节。
+
+### E23
+
+- 位置：Appropriate and Clear Experimental Design › Unreasonable platform
+- 原文："a claim that relates to performance on mobile platforms should not have an evaluation performed exclusively on servers."
+- 要点：评测平台要和主张相符，例如关于移动平台性能的主张不能只在服务器上评测。
+
+### E24
+
+- 位置：Appropriate and Clear Experimental Design › Ignores key design parameters
+- 原文："Key parameters should be explored over a range to evaluate sensitivity to their settings." / "All expected system conﬁgurations (e.g., from warmup to steady state) should be considered."
+- 要点：关键参数要在一个范围内变化，看结果对它多敏感；要考虑所有预期的系统状态，例如从预热到稳态。
+
+### E25
+
+- 位置：Appropriate and Clear Experimental Design › Gated workload generator
+- 原文："Load generators for typical transaction-oriented systems should be ’open loop’, to generate work independent of the performance of the system under test."
+- 要点：面向事务的系统，负载生成器应当是"开环"的：产生请求的速度不受被测系统快慢的影响。
+
+### E26
+
+- 位置：Appropriate and Clear Experimental Design › Tested on training set
+- 原文："a static analysis should not be exclusively evaluated on programs used to inform its development."
+- 要点：开发时参考过的程序不能作为唯一的评估对象，要在开发时没用过的数据上评估。
+
+### E27
+
+- 位置：Adequate Data Analysis › Insufﬁcient number of trials
+- 原文："Failure to do so risks treating noise as signal. Similarly, more trials may be needed to get the system into an intended state (e.g., into a steady state that avoids warm-up effects)."
+- 要点：性能不确定的现代系统需要多次试验，否则可能把噪声当成信号；还可能需要更多轮次让系统进入预定状态，例如避开预热效应的稳态。
+
+### E28
+
+- 位置：Notes › Inappropriate Summary Statistics
+- 原文："The geometric mean should only be used when comparing values with different ranges, and the harmonic mean when comparing rates. When distributions have outliers, a median should be presented."
+- 要点：几何平均只用于比较量程不同的数值；比较速率用调和平均；分布有离群值时应给出中位数。
+
+### E29
+
+- 位置：Appropriate Presentation of Results › Inappropriately truncated axes / Ratios plotted incorrectly
+- 原文："A truncated graph (with an axis not including zero) will exaggerate the importance of a difference." / "This misleading effect can be avoided either by using a log scale or by normalizing to the lowest (highest) value."
+- 要点：坐标轴不从零开始会夸大差异；比值画在线性坐标上会扭曲观感（2.0 和 0.5 互为倒数，但离 1.0 的距离不同），应使用对数坐标或以最低（最高）值归一化。
+
+### E30
+
+- 位置：Appropriate Presentation of Results › Inappropriate level of precision
+- 原文："reporting ’49.9%’ when the experimental error is +/- 1% overstates the level of precision of the result."
+- 要点：实验误差为正负 1% 时报告"49.9%"，夸大了结果的精度。
+
+### E31
+
+- 位置：FAQ › How does the checklist relate to the artifact evaluation process?
+- 原文："Artifact evaluation typically occurs after reviewing a paper, to check that the claims and evidence given in the paper match reality, in the artifact."
+- 要点：制品评审（artifact evaluation）通常在论文审稿之后进行，检查论文中的主张和证据与提交的制品是否一致。

@@ -78,6 +78,7 @@
 ### 数据挖掘研究
 
 - [The promises and perils of mining git](https://microsoft.com/en-us/research/wp-content/uploads/2016/02/bird2009ppm.pdf) - Bird 等人，MSR 2009。挖掘 git 历史数据时的陷阱。🆓 `bird2009promises`
+- [Fair and Balanced? Bias in Bug-Fix Datasets](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bird2009fbb.pdf) - Bird 等人，ESEC/FSE 2009。缺陷数据集中"能链接到提交的缺陷修复"只是有系统性偏差的子集，这种偏差会影响假设检验和缺陷预测的结论。🆓 `bird2009fair`
 - [The promises and perils of mining GitHub](https://kblincoe.github.io/publications/2014_MSR_Promises_Perils.pdf) - Kalliamvakou 等人，MSR 2014。挖掘 GitHub 数据时的常见陷阱。🆓 `kalliamvakou2014promises`
 - [An in-depth study of the promises and perils of mining GitHub](https://kblincoe.github.io/publications/2015_EMSE_GitHubPerils.pdf) - Kalliamvakou 等人，EMSE 2016。上一篇的扩展期刊版。🆓 `kalliamvakou2016indepth`
 - [It's not a bug, it's a feature: how misclassification impacts bug prediction](https://www.st.cs.uni-saarland.de/publications/files/herzig-icse-2013.pdf) - Herzig、Just、Zeller，ICSE 2013。issue 数据中的分类错误及其对研究结论的影响。🆓 `herzig2013bug`
@@ -96,11 +97,12 @@
 - [How to avoid machine learning pitfalls: a guide for academic researchers](https://arxiv.org/abs/2108.02497) - Michael Lones，arXiv 2021（持续更新）。从建模、评估、比较到报告，列出学术 ML 研究的常见陷阱及避免方法。🆓 `lones2021avoid`
 - [On Evaluating Adversarial Robustness](https://arxiv.org/abs/1902.06705) - Carlini 等人，arXiv 2019。对抗鲁棒性防御的评估方法与检查清单。🆓 `carlini2019evaluating`
 - [Successful language model evals](https://jasonwei.net/blog/evals) - Jason Wei，2024。好的 LLM 评测基准有哪些特征：样本足够多、分数含义清楚易懂、有大论文使用等。🆓 `wei2024evals`
+- [NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark](https://arxiv.org/abs/2310.18018) - Sainz 等人，Findings of EMNLP 2023。大语言模型评测中的数据污染：测试数据混进了训练数据，会高估模型表现；提出按每个评测集测量污染的办法。🆓 `sainz2023nlp`
 - [Producing wrong data without doing anything obviously wrong!](https://doi.org/10.1145/1508244.1508275) - Mytkowicz 等人，ASPLOS 2009。链接顺序、环境变量大小等看似无关的因素会产生测量偏差，足以推翻实验结论。`mytkowicz2009producing`
-- [Statistically rigorous Java performance evaluation](https://doi.org/10.1145/1297027.1297033) - Georges 等人，OOPSLA 2007。性能测量中应使用置信区间等统计方法，而不是只报告单次或最好的结果。`georges2007statistically`
-- [Rigorous benchmarking in reasonable time](https://doi.org/10.1145/2464157.2464160) - Kalibera & Jones，ISMM 2013。在有限时间内设计多层次的重复实验，以获得可靠的性能结果。`kalibera2013rigorous`
+- [Statistically rigorous Java performance evaluation](https://doi.org/10.1145/1297027.1297033) - Georges 等人，OOPSLA 2007。性能测量中应使用置信区间等统计方法，而不是只报告单次或最好的结果。[合作者主页](https://dri.es/files/oopsla07-georges.pdf)。🆓 `georges2007statistically`
+- [Rigorous benchmarking in reasonable time](https://doi.org/10.1145/2464157.2464160) - Kalibera & Jones，ISMM 2013。在有限时间内设计多层次的重复实验，以获得可靠的性能结果。[肯特大学机构库（作者接受稿）](https://kar.kent.ac.uk/33611/)。🆓 `kalibera2013rigorous`
 - [Wake up and smell the coffee: evaluation methodology for the 21st century](https://doi.org/10.1145/1378704.1378723) - Blackburn 等人，CACM 2008。指出性能评估方法上的缺陷并给出改进建议。`blackburn2008wake`
-- [Scientific benchmarking of parallel computing systems](https://doi.org/10.1145/2807591.2807644) - Hoefler & Belli，SC 2015。并行计算性能报告的 12 条规则。`hoefler2015scientific`
+- [Scientific benchmarking of parallel computing systems](https://doi.org/10.1145/2807591.2807644) - Hoefler & Belli，SC 2015。并行计算性能报告的 12 条规则。[作者主页](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf)。🆓 `hoefler2015scientific`
 
 
 ### 实证研究通用
@@ -139,6 +141,7 @@
 - [Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745) - Wilson 等人，PLoS Biology 2014。科研编程的版本控制、测试、自动化等最佳实践。🆓 `wilson2014best`
 - [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510) - Wilson 等人，PLoS Computational Biology 2017。科研代码和数据管理的最低实用规范。🆓 `wilson2017good`
 - [Ten Simple Rules for Reproducible Computational Research](https://doi.org/10.1371/journal.pcbi.1003285) - Sandve 等人，PLoS Computational Biology 2013。可复现计算研究的十条规则。🆓 `sandve2013ten`
+- [sysartifacts：系统会议制品评估指南](https://sysartifacts.github.io/) - EuroSys、SOSP、OSDI、ATC 等会议的制品评估委员会，持续更新。作者怎样准备和打包制品，评审怎样评估。🆓 `sysartifactsguide`
 - [MLflow Tracking](https://mlflow.org/docs/latest/ml/tracking/) - MLflow 官方文档（工具文档）。实验追踪工具会记录哪些信息：代码版本、参数、指标、产出文件。这是工具厂商的文档，仅用来说明"该记录什么"。🆓 `mlflowtracking`
 - [OSF Help：Organizing Files](https://help.osf.io/article/147-organizing-files) - 开放科学中心（Center for Open Science），持续更新。原始数据和处理后数据分开、原始数据只读、每个目录配说明文件。🆓 `osforganizing`
 - [The Good Research Code Handbook](https://goodresearch.dev/) - Patrick Mineault，2021。面向写研究代码的人：一个项目一个文件夹、一个代码仓库，频繁提交，代码怎样组织和测试。🆓 `mineault2021good`
@@ -157,6 +160,11 @@
 ### 综合与经典
 
 - [Frascati Manual 2015](https://doi.org/10.1787/9789264239012-en) - OECD（经济合作与发展组织），2015。各国统计研发活动的国际标准，给出"什么算研究"的定义和五条判定标准（新颖、有创造性、结果不确定、系统、可转移或可复现），以及本项目采用的学科分类。🆓 `oecd2015frascati`
+- [NeurIPS 2025 Call for Papers](https://neurips.cc/Conferences/2025/CallForPapers) - NeurIPS，2025。机器学习方向顶级会议的征稿启事：日期、页数、论文检查清单、双盲与预印本政策。作为会议流程的示例，以当年征稿启事为准。🆓 `neurips2025cfp`
+- [USENIX Security '26 Call for Papers](https://www.usenix.org/conference/usenixsecurity26/call-for-papers) - USENIX，2026。安全方向顶级会议的征稿启事：投稿日程、匿名与预印本政策、制品要求、伦理指南。作为会议流程的示例，以当年征稿启事为准。🆓 `usenixsec2026cfp`
+- [Time for Computer Science to Grow Up](https://cacm.acm.org/magazines/2009/8/34492-viewpoint-time-for-computer-science-to-grow-up/fulltext) - Lance Fortnow，CACM 2009。批评会议模式导致截止日期驱动、偏向稳妥的增量工作，主张用预印本传播、用期刊评价。 `fortnow2009time`
+- [Conferences vs. Journals in Computing Research](https://cacm.acm.org/opinion/conferences-vs-journals-in-computing-research/) - Moshe Vardi，CACM 2009。质疑计算机领域以会议为主的发表方式：审稿时间压力大、很少有后续期刊版。 `vardi2009conferences`
+- [Evaluating Computer Scientists and Engineers for Promotion and Tenure](https://cra.org/resources/best-practice-memos/evaluating-computer-scientists-and-engineers-for-promotion-and-tenure/) - 美国计算研究协会（CRA），1999。说明计算机领域为何以会议发表为主、为何重视软件等制品。🆓 `cra1999evaluating`
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) - Richard Hamming，1986 年演讲。如何选择重要的问题，保持开放、长期积累。🆓 `hamming1986you`
 - [Ten Simple Rules for Doing Your Best Research, According to Hamming](https://doi.org/10.1371/journal.pcbi.0030213) - Erren 等人，PLoS Computational Biology 2007。对上面演讲的归纳。🆓 `erren2007ten`
 - [Principles of Effective Research](https://web.archive.org/web/20260824165302/https://michaelnielsen.org/blog/principles-of-effective-research/) - Michael Nielsen，技术笔记 2004。把高效研究拆成可培养的习惯：自我发展、提出问题与解决问题两种风格、建立研究愿景。原地址现已 404，链接为 Internet Archive 快照。🆓 `nielsen2004principles`

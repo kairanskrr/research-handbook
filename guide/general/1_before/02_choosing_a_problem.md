@@ -36,8 +36,8 @@
 - **找"不对劲"的地方。** 读论文时留意作者做了哪些有害的简化或随意的选择，那是你可以换种做法的机会[^eisnerproblems-e2]。如果读某个方向时总想问"为什么大家都用明显错误的方式做"，那可能就是你的题目[^carlini2026best-e9]。
 - **读完再跳出来。** 先广泛阅读，然后有意识地跳出已有工作的框架，否则想不出新东西[^carlini2026best-e6]。每个领域都可能有沿袭下来的坏做法：一篇有影响的早期论文犯了关键错误，后来者跟着走[^carlini2026best-e7]。
 - **改变已有工作的假设。** 找出已有工作背后的假设，尝试放宽，让方法在限制更少的条件下也能用[^huang2021ideas-e1]；或者反过来，把通用方法用到具体问题上，利用领域知识改进它[^huang2021ideas-e2]。
-- **借新工具、组合想法。** 关注领域里新出现的工具，用到自己的问题上[^huang2021ideas-e3]。
-- **从复现开始。** 复现别人的工作不算原创，但对自己的学习和领域都可能有用[^eisnerproblems-e1]，也常常是发现问题的起点。
+- **借用新工具。** 关注领域里新出现的工具，用到自己的问题上[^huang2021ideas-e3]。
+- **从复现开始。** 复现别人的工作不算原创，但对自己的学习和领域都可能有用[^eisnerproblems-e1]；复现中发现的不一致，也常常是新问题的起点 `[本项目分析]`。
 
 **从现实和数据里找：**
 
@@ -52,7 +52,7 @@
 
 - **心里装着一份重要问题清单。** 优秀的科学家心里有 10 到 20 个重要问题，一直在找攻克途径；看到新想法时，能立刻意识到它和哪个问题有关[^hamming1986you-e10]。
 - **定期想大问题。** Hamming 每周五午饭后只讨论"大想法"[^hamming1986you-e9]。
-- **保持开放。** 开着门工作会被打扰，但也会不时得到"什么可能重要"的线索[^hamming1986you-e11]。
+- **保持开放。** 开着门工作会被打扰，但也会不时得到"什么可能重要"的线索[^hamming1986you-e18]。
 
 **两种路线。** 想法驱动：读到"怎么做 X"，想到怎么做得更好，然后去验证[^schulman2020opinionated-e6]。它的缺点是容易撞车，因为大家读的是同样的文献[^schulman2020opinionated-e7]。目标驱动：先定一个具体目标，再解决通往目标的问题；目标会给你与众不同的视角，让你问出别人没问的问题[^schulman2020opinionated-e8]。Schulman 向大多数人推荐后者[^schulman2020opinionated-e14]。
 
@@ -64,7 +64,7 @@
 
 | 维度 | 问自己 |
 |---|---|
-| 重要性 | 做成了，最好情况的收益多大，是提升 10% 还是 10 倍[^schulman2020opinionated-e10]？有人关心吗[^patterson2001bad-e3]？它在 6、12、48 个月后看来还值得吗[^eisnerproblems-e7]？如果另一个组发表了这篇论文，你会兴奋地去读吗[^olah2021taste-e11]？ |
+| 重要性 | 做成了，最好情况下会改变多少人的认识或做法 `[本项目分析]`？用 Schulman 在机器学习里的说法：是把指标提升 10% 还是 10 倍[^schulman2020opinionated-e10]？有人关心吗[^patterson2001bad-e3]？它在 6、12、48 个月后看来还值得吗[^eisnerproblems-e7]？如果另一个组发表了这篇论文，你会兴奋地去读吗[^olah2021taste-e11]？ |
 | 可行性 | 有没有合理的攻克途径[^hamming1986you-e2]？按你的技能和条件，预计要多久[^alon2009choose-e2]？能否设计小实验快速验证核心假设[^huang2023decide-e5]？ |
 | 你的优势 | 你相对别人有什么独特优势[^huang2023decide-e1]？你在哪个角落可能是最强的[^carlini2026best-e10]？如果你不做，别人要晚多久才会做出来[^carlini2026best-e8]？ |
 | 兴趣 | 这是不是你真正在乎的问题[^huang2023decide-e2]？如果世界上只有你一个人，你会做哪个[^alon2009choose-e12]？哪个想法几个月来反复回到你脑中[^alon2009choose-e13]？你的兴奋程度够不够支撑做 3–5 年[^patterson2001bad-e4]？ |
@@ -73,16 +73,16 @@
 
 - **先划掉被完全压倒的。** Alon 用"可行性"和"兴趣"两条轴比较问题：如果 A 在两方面都比 B 好，就划掉 B[^alon2009choose-e6]。同样的办法可以用在上表的几个维度上 `[本项目分析]`。
 - **可行性要打折扣。** 纸面上容易的问题，实际往往很难；纸面上难的，实际几乎做不成[^alon2009choose-e3]。
-- **按阶段调整权重。** 刚入门时选容易些的问题，尽快得到正反馈、建立信心；之后再往更有意思的方向走[^alon2009choose-e7]。
-- **重要性和优势要一起看。** 影响力大约是"你在某方面的能力 × 这个方向的重要性"；在你很擅长、但不那么热门的问题上，贡献可能比做不擅长的热门问题更大[^carlini2026best-e11]。
-- **兴趣不是可有可无。** Alon 说的"兴趣"，指项目预期能增加多少知识[^alon2009choose-e4]，判断它时，要分清周围人（会议、系里）的大声音和自己心里"这个我觉得有意思"的小声音[^alon2009choose-e11]。不建议逼自己做不觉得兴奋的题目，那样效率会低很多[^olah2021taste-e3]。你越能让自己感兴趣，就越可能让读者感兴趣[^alon2009choose-e14]。
+- **按阶段调整权重。** 刚入门时选容易些的问题，尽快得到正反馈、建立信心[^alon2009choose-e7]；之后再往更有意思的方向走 `[本项目分析]`。
+- **重要性和优势要一起看。** 影响力大约是"你在某方面的能力 × 这个方向的重要性"；在一个没那么"重要"、但你很擅长的问题上，贡献可能比做一个你不擅长的问题更大[^carlini2026best-e11]。
+- **分清两种"兴趣"。** 一种是 Alon 二维图上的"兴趣"轴，指项目预期能增加多少知识[^alon2009choose-e1]，其实更接近上表的"重要性"；Alon 提醒，判断它时要分清周围人（会议、系里）的大声音和自己心里"这个我觉得有意思"的小声音[^alon2009choose-e11]，并认为你越能让自己感兴趣，就越可能让读者感兴趣[^alon2009choose-e14]。另一种是你个人对题目兴不兴奋：Olah 不建议逼自己做不觉得兴奋的题目，哪怕理智上觉得它更重要，那样效率会低很多[^olah2021taste-e3]。
 - **先敢想，再尽早检验。** 构思时像外行一样敢想，先别被技术困难吓住[^huang2023decide-e4]；动手后先做最可能失败的那部分，尽早知道想法行不行[^carlini2026best-e14]。
 
 ## 4. 有意识地培养研究品味
 
 **品味是什么。** 研究品味大致就是挑选好问题的能力[^olah2021taste-e1]；更宽地说，也包括研究过程中各种没有标准答案的判断，比如哪些异常值得追、哪个实验更有说服力[^nanda2025taste-e2]。选对问题的能力比纯技术能力更重要[^schulman2020opinionated-e3][^carlini2026best-e3]。缺了它，就会写出技术上正确却没人读的论文，因为从没问过这个问题值不值得回答[^carlini2026best-e4]。
 
-**它可以练，但练得慢。** 品味主要靠后天学习，不是天生的[^nanda2025taste-e1]。刚入门觉得自己没品味完全正常[^nanda2025taste-e3]。它难练，是因为验证一个想法好不好常要几个月，一年只能得到几次反馈[^olah2021taste-e2][^nanda2025taste-e4]。所以练习的思路是：**用更便宜的方式获得更多反馈**。
+**它可以练，但练得慢。** 品味不全是天生的，很大程度靠学习[^nanda2025taste-e1]。刚入门觉得自己没品味完全正常[^nanda2025taste-e3]。它难练，是因为验证一个想法好不好常要几个月，一年只能得到几次反馈[^olah2021taste-e2][^nanda2025taste-e4]。所以练习的思路是：**用更便宜的方式获得更多反馈**。
 
 **练习清单：**
 
@@ -93,28 +93,28 @@
 5. 访谈身边的研究者：为什么做这些问题、怎么选题[^olah2021taste-e6]。
 6. 反思：为什么有些想法被广泛采用，有些被遗忘[^schulman2020opinionated-e5]？
 7. 批判地审视自己所在圈子的品味，你的品味很大程度上受合作者和导师影响[^olah2021taste-e7]。
-8. 早期优先做能较快得到中间结果的项目[^nanda2025taste-e8]，并且**把项目做完**：完成项目、获得反馈是获得品味的途径[^patterson2001bad-e6][^patterson2001bad-e7][^carlini2026best-e5]。
+8. 早期优先做能较快得到中间结果的项目[^nanda2025taste-e8]，并且**把项目做完**：完成项目、获得反馈是获得品味的途径[^patterson2001bad-e11][^patterson2001bad-e7][^carlini2026best-e5]。
 
 **提醒：** 自信不等于正确。人们往往先有了信念，很久之后才有准确的直觉[^nanda2025taste-e6]。
 
 > **不同的看法：听导师的，还是坚持自己的判断？**
-> - 一些研究者认为不该太听导师的。Szegedy 回顾说，他研究中的多数错误发生在听从导师批评时，最酷的工作起初都被认为没用[^olah2021taste-e15]。Alon 强调要听自己心里"这个我觉得有意思"的小声音，而不只是周围人的大声音[^alon2009choose-e11]。Olah 也指出，兴趣与导师不合时硬把想法扭成导师能接受的样子，结果是为妥协而优化[^olah2021taste-e10]。
+> - 一些研究者认为不该太听导师的。Szegedy 回顾说，他研究中的多数错误发生在听从导师批评时，最酷的工作起初都被认为没用[^olah2021taste-e15]。Olah 也指出，兴趣与导师不合时硬把想法扭成导师能接受的样子，结果是为妥协而优化[^olah2021taste-e10]。
 > - 另一些人认为新手应多依靠导师。Olah 提醒上面的说法有幸存者偏差，不同人在不同阶段成熟度不同[^olah2021taste-e16]；Nanda 认为职业早期高度依赖导师或成熟研究方向是正常的[^nanda2025taste-e9]；Schulman 说做别人提出的想法不丢人，本事在于挑哪个、做得多好[^schulman2020opinionated-e4]。
 >
 > 实际操作中 `[本项目分析]`：入门阶段可以先接受导师或成熟方向，在其中练判断；同时把你不同意导师的地方和理由记下来，事后对照结果。这本身就是练习 2 和 3。
 
 ## 5. 避开常见陷阱
 
-**太增量。** 重大贡献很少来自"再多算一位小数"[^hamming1986you-e12]。很多项目是"容易但不太有意思"的低垂果实[^alon2009choose-e5]。小幅改进在服务于更大目标时最有价值[^schulman2020opinionated-e11]；如果只比基线好一点，方法必须非常简单，否则没人会用[^schulman2020opinionated-e12]。
+**太增量。** 重大贡献很少来自"再多算一位小数"[^hamming1986you-e12]。很多项目是"容易但不太有意思"的低垂果实[^alon2009choose-e5]。小幅改进在服务于更大目标时最有价值[^schulman2020opinionated-e11]；Schulman 从机器学习的角度说，新方法如果只比基线（用来对比的现有标准方法）好一点，就必须非常简单，否则没人会用[^schulman2020opinionated-e12]。换到其他学科也类似 `[本项目分析]`：改进很小、却要别人花很大代价才能采用的做法，很难被接受。
 
-**太空泛、无从下手。** 意义再大，没有攻克途径就不算重要问题[^hamming1986you-e2]。也不要以为"难就是好"：很多项目又难又没意思[^alon2009choose-e5]。"永远不定义什么算成功"被 Patterson 列为毁掉研究生涯的做法之一[^patterson2001bad-e5]。补救办法：把问题稍微换个提法、缩小一点，常常就能做下去，还可能做得更好[^hamming1986you-e13][^eisnerproblems-e10]。
+**太空泛、无从下手。** 意义再大，没有攻克途径就不算重要问题[^hamming1986you-e2]。也不要以为"难就是好"：很多项目又难又没意思[^alon2009choose-e5]。"永远不定义什么算成功"被 Patterson 列为毁掉研究生涯的做法之一[^patterson2001bad-e5]。补救办法：把问题稍微换个提法，有时就能找到好的解法，还可能做得更好[^hamming1986you-e13][^eisnerproblems-e10]。
 
-**追热点。** 不要扎堆追最热的问题[^huang2023decide-e1]。大家读同样的文献，容易想到相似的点子，撞车风险高[^schulman2020opinionated-e7]。选一个和大家不同的问题，会引你走向不同的想法[^schulman2020opinionated-e9]；不在最热门的方向，反而更容易脱颖而出[^carlini2026best-e12]。
+**追热点。** 不要扎堆追最热的问题[^huang2023decide-e1]。Schulman 指出，想法驱动的研究容易撞车，因为大家读同样的文献，会想到相似的点子[^schulman2020opinionated-e7]；扎堆在热门方向，这种风险只会更大 `[本项目分析]`。选一个和大家不同的问题，会引你走向不同的想法[^schulman2020opinionated-e9]；不在最热门的方向，反而更容易脱颖而出[^carlini2026best-e12]。
 
 **被新想法带跑，或者困在旧方向里。** 这是两种方向相反的错误：
 
 - 新想法总比做了几个月的旧想法显得更诱人[^carlini2026best-e15]。Schulman 的经验是，换题太频繁比不肯换题更常见[^schulman2020opinionated-e13]。
-- 反过来，也可能过度依恋一个方向、陷入沉没成本。可以每隔一两年花一两周退一步，问自己"如果从零开始，会做什么"[^olah2021taste-e8]。
+- 反过来，也可能过度依恋一个方向、陷入沉没成本。Olah 的建议是：留出一两周退一步，列出其他最有希望的方向，问自己"如果从零开始，会做什么"[^olah2021taste-e8]。
 
 ---
 
@@ -139,7 +139,7 @@
 | 只问"能不能发论文"，不问值不值得回答 | 会写出技术正确却没人读的论文[^carlini2026best-e4] |
 | 做上限只有小幅提升的题目 | 收益有限；除非方法极简或服务于更大目标[^schulman2020opinionated-e10][^schulman2020opinionated-e12] |
 | 以为越难越好 | 很多项目又难又没意思[^alon2009choose-e5] |
-| 追最热的方向 | 撞车风险高，也难脱颖而出[^schulman2020opinionated-e7][^carlini2026best-e12] |
+| 追最热的方向 | 容易撞车 `[本项目分析]`；不在热门方向反而更容易脱颖而出[^carlini2026best-e12] |
 | 逼自己做不感兴趣的题目 | 效率会低很多[^olah2021taste-e3] |
 | 把想法扭成导师能接受的样子 | 为妥协而优化，而不是为质量[^olah2021taste-e10] |
 | 一有新想法就换题 | 换题太频繁比不肯换题更常见[^schulman2020opinionated-e13] |
@@ -156,7 +156,7 @@
 
 [^alon2009choose-e2]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e2)
 [^alon2009choose-e3]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e3)
-[^alon2009choose-e4]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e4)
+[^alon2009choose-e1]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e1)
 [^alon2009choose-e5]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e5)
 [^alon2009choose-e6]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e6)
 [^alon2009choose-e7]: Alon 2009，The Two Dimensions of Problem Choice。[证据](../../../sources/notes/alon2009choose.md#e7)
@@ -172,7 +172,7 @@
 [^hamming1986you-e8]: Hamming 1986，"important problems" 一段。[证据](../../../sources/notes/hamming1986you.md#e8)
 [^hamming1986you-e9]: Hamming 1986，"Great Thoughts Time" 一段。[证据](../../../sources/notes/hamming1986you.md#e9)
 [^hamming1986you-e10]: Hamming 1986，"Great Thoughts Time" 之后。[证据](../../../sources/notes/hamming1986you.md#e10)
-[^hamming1986you-e11]: Hamming 1986，"door open or the door closed" 一段。[证据](../../../sources/notes/hamming1986you.md#e11)
+[^hamming1986you-e18]: Hamming 1986，"door open or the door closed" 一段。[证据](../../../sources/notes/hamming1986you.md#e18)
 [^hamming1986you-e12]: Hamming 1986，"ambiguity" 一段之后。[证据](../../../sources/notes/hamming1986you.md#e12)
 [^hamming1986you-e13]: Hamming 1986，把问题当作一类问题来解决的一段。[证据](../../../sources/notes/hamming1986you.md#e13)
 [^schulman2020opinionated-e3]: Schulman 2020，Honing Your Taste。[证据](../../../sources/notes/schulman2020opinionated.md#e3)
@@ -248,5 +248,5 @@
 [^patterson2001bad-e3]: Patterson 2001，第 30 页。[证据](../../../sources/notes/patterson2001bad.md#e3)
 [^patterson2001bad-e4]: Patterson 2001，第 30 页。[证据](../../../sources/notes/patterson2001bad.md#e4)
 [^patterson2001bad-e5]: Patterson 2001，第 11 页。[证据](../../../sources/notes/patterson2001bad.md#e5)
-[^patterson2001bad-e6]: Patterson 2001，第 35 页。[证据](../../../sources/notes/patterson2001bad.md#e6)
+[^patterson2001bad-e11]: Patterson 2001，第 35 页。[证据](../../../sources/notes/patterson2001bad.md#e11)
 [^patterson2001bad-e7]: Patterson 2001，第 42 页。[证据](../../../sources/notes/patterson2001bad.md#e7)

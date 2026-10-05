@@ -65,6 +65,8 @@
 
 ### E11
 
+> 已作废：与 [E18](#e18) 重复（原文被 E18 完整包含）。
+
 - 位置：演讲正文，"door open or the door closed" 一段
 - 原文："He who works with the door open gets all kinds of interruptions, but he also occasionally gets clues as to what the world is and what might be important."
 - 要点：开着门工作会被打扰，但也会不时得到"什么可能重要"的线索；关着门的人短期更高效，长期却可能做偏。
@@ -88,6 +90,8 @@
 - 要点：知识和产出像复利。能力相同的两个人，每天多思考一小时的那个，一生的产出会多得多。
 
 ### E15
+
+> 已作废：与 [E1](#e1) 重复（原文被 E1 完整包含）。
 
 - 位置：讲"important problems"的部分
 - 原文："If you do not work on an important problem, it's unlikely you'll do important work."
@@ -118,6 +122,8 @@
 - 要点：光努力不够，努力要用对地方。
 
 ### E20
+
+> 已作废：与 [E3](#e3) 重复（原文被 E3 完整包含）。
 
 - 位置：讲 ambiguity 的部分
 - 原文："They believe the theory enough to go ahead; they doubt it enough to notice the errors and faults so they can step forward and create the new replacement theory."

@@ -131,6 +131,8 @@
 
 ### E22
 
+> 已作废：与 [E4](#e4) 重复（原文被 E4 完整包含）。
+
 - 位置：Honing Your Taste
 - 原文："Seek advice from experienced researchers on what to work on. There’s no shame in working on ideas suggested by other people."
 - 要点：向有经验的研究者请教该做什么；做别人建议的想法并不丢人，本事在于选哪个、做得多好。

@@ -11,6 +11,8 @@
 
 ### E2
 
+> 已作废：与 [E9](#e9) 重复（原文被 E9 完整包含）。
+
 - 位置：第 36 页，5) Evaluating Quantitatively
 - 原文："Report in sufficient detail for others to reproduce results"
 - 要点：报告要详细到别人能复现结果。
@@ -34,6 +36,8 @@
 - 要点：反讽页："永远不要定义什么算成功"是毁掉研究生涯的做法之一，即目标要说清楚。
 
 ### E6
+
+> 已作废：与 [E11](#e11) 重复（原文被 E11 完整包含）。
 
 - 位置：第 35 页，4) Finishing a project
 - 原文："Finishing a project is how people acquire taste in selecting good problems, finding simple solutions"

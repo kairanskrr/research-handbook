@@ -119,17 +119,23 @@
 
 ### E20
 
+> 已作废：与 [E12](#e12) 重复（原文被 E12 完整包含）。
+
 - 位置：§4
 - 原文："Is the validation related to the claim? If you're claiming performance improvement, validation should analyze performance, not ease of use or generality."
 - 要点：证据必须对应主张：主张性能提升，就要分析性能，而不是易用性或通用性。
 
 ### E21
 
+> 已作废：与 [E16](#e16) 重复（原文被 E16 完整包含）。
+
 - 位置：§5
 - 原文："Global statements often require analytic validation, qualified statements can often be validated by evaluation or careful examination of experience, and existential statements can sometimes be validated by a single positive example."
 - 要点：把核心主张拆成几个分句，看每个分句是全称（"总是"）、有限定（"提升 25%"）还是存在性（"找到一个实例"）的说法，它们需要不同强度的证据。
 
 ### E22
+
+> 已作废：与 [E17](#e17) 重复（原文被 E17 完整包含）。
 
 - 位置：§5
 - 原文："A frequent result of this discussion is that students restate the thesis claims to reflect more precisely what the theses actually achieve."
@@ -143,6 +149,86 @@
 
 ### E24
 
+> 已作废：与 [E11](#e11) 重复（原文被 E11 完整包含）。
+
 - 位置：§4
 - 原文："It's not enough that your idea works for you, there must also be evidence that the idea or the technique will help someone else as well."
 - 要点：证据要说明成果对别人也有用，而不只是"在我这里管用"。
+
+### E25
+
+- 位置：§2.1，Table 1 Types of software engineering research questions
+- 原文："How can we do/create/modify/evolve (or automate doing) X? What is a better way to do/create/modify/evolve X?" / "How can I evaluate the quality/correctness of X? How do I choose between X and Y?"
+- 要点：工程研究常回答两类问题："怎样做到（或自动做到）X、有没有更好的做法"，以及"怎样评估 X 的质量或正确性、怎样在 X 和 Y 之间选择"。
+
+### E26
+
+- 位置：§3.2 Which of these are most common?
+- 原文："By far the most common kind of ICSE paper reports a new procedure or technique for development or analysis."
+- 要点：在 ICSE（国际软件工程大会）上，最常见的论文是报告一种新的开发或分析技术。
+
+### E27
+
+- 位置：§3.1，Table 3 Types of software engineering research results
+- 原文："a technique should be operational—not advice or guidelines, but a procedure" / "Implemented tool that embodies a technique; formal language to support a technique or model"
+- 要点：作为成果的"技术"必须是可操作的过程，而不是建议或指导原则；"工具"是体现某种技术的实现。
+
+### E28
+
+- 位置：§4.1，Table 5 Types of software engineering research validation 及其后说明
+- 原文："The "slice of life" example is most likely to be convincing, especially if accompanied by an explanation of why the simplified example retains the essence of the problem being solved. Toy or textbook examples often fail to provide persuasive validation"
+- 要点：取自真实系统的例子最有说服力，最好说明简化后的例子为什么仍保留了问题的本质；玩具例子或教科书例子往往没有说服力。
+
+### E29
+
+- 位置：§4.3 What do program committees look for?
+- 原文："Is the validation related to the claim? If you're claiming performance improvement, validation should analyze performance, not ease of use or generality."
+- 要点：验证必须对准主张：声称性能提升，就要分析性能，而不是易用性或通用性。
+
+### E30
+
+- 位置：§5 How do you combine the elements into a research strategy?
+- 原文："Global statements often require analytic validation, qualified statements can often be validated by evaluation or careful examination of experience, and existential statements can sometimes be validated by a single positive example."
+- 要点：全称主张（"总是""完全"）通常要分析论证，有限定的主张（"提升 25%""对无环结构"）可以靠评估，存在性主张（"找到一个实例"）有时一个正例就够。
+
+### E31
+
+- 位置：§2.3
+- 原文："If the program committee has trouble figuring out whether you developed a new evaluation technique and demonstrated it on an example, or applied a technique you reported last year to a new real-world example, or evaluated the use of a well-established evaluation technique, you have not been clear."
+- 要点：要让审稿人一眼看出你做的是哪一种：提出新技术并演示、把旧技术用到新例子上，还是评估一项成熟技术。
+
+### E32
+
+- 位置：§4.2 Which of these are most common?
+- 原文："The most successful kinds of validation were based on analysis and real-world experience. Well-chosen examples were also successful. Persuasion was not persuasive"
+- 要点：最成功的验证方式是分析和真实使用经验，精心挑选的例子也不错，纯说服则没有说服力。
+
+### E33
+
+- 位置：§4.1，Table 5（Experience 一行）
+- 原文："My result has been used on real examples by someone other than me"
+- 要点："经验"类验证指成果被作者以外的人用在真实例子上，并有证据表明有效。
+
+### E34
+
+- 位置：§1，"What is your new result?"
+- 原文："What previous work (yours or someone else’s) do you build on? What do you provide a superior alternative to?" / "How is your result different from and better than this prior work?"
+- 要点：要说清建立在哪些已有工作之上、替代了什么，以及和它们相比有什么不同、好在哪里。
+
+### E35
+
+- 位置：§4.3 What do program committees look for?
+- 原文："It's not enough that your idea works for you, there must also be evidence that the idea or the technique will help someone else as well."
+- 要点：光是"对你自己有效"不够，还需要证据表明它对别人也有用。
+
+### E36
+
+- 位置：§3.3
+- 原文："If you introduce a new metric, define it precisely. Does it measure what it purports to measure and do so better than the alternatives?"
+- 要点：引入新指标时要精确定义，并说明它确实测了它声称要测的东西，而且比已有指标更好。
+
+### E37
+
+- 位置：§4.1，Table 5（Blatant assertion 一行）
+- 原文："Blatant assertion No serious attempt to evaluate result. This is highly unlikely to be acceptable"
+- 要点：只有断言、不认真评估结果的论文，几乎不可能被接受。

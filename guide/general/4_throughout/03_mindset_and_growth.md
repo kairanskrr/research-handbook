@@ -16,21 +16,17 @@
 
 ## 1. 把失败和被拒当作常态
 
-**先调整预期。** 到了真正要推进知识边界的阶段，已经没有现成的考试和步骤可循，大部分尝试都会失败。Might 观察到，读博两三年时正是退出的人最多的时候[^might2010successful-e2]；要熬过这个阶段，就得愿意从早到晚不断失败[^might2010successful-e3]。Sutherland 说得更直接：如果你不经常失败，说明你尝试的事情还不够难[^sutherland1996courage-e2]。Might 用一组图描述读博：在知识的边界上推好几年，直到某一天边界被推动[^might2010illustrated-e1]。
+**先调整预期。** 到了真正要推进知识边界的阶段，已经没有现成的考试和步骤可循，失败会是常事。`[本项目分析]` Might 观察到，读博两三年时正是退出的人最多的时候[^might2010successful-e2]；要熬过这个阶段，就得愿意从早到晚不断失败[^might2010successful-e3]。Sutherland 说得更直接：如果你不经常失败，说明你尝试的事情还不够难[^sutherland1996courage-e2]。Might 用一组图描述读博：在知识的边界上推好几年，直到某一天边界被推动[^might2010illustrated-e1]。
 
-**被拒之后怎么办**（依据 Jia-Bin Huang 的建议[^huang2021rejection-e6][^huang2021rejection-e8][^huang2021rejection-e9][^huang2021rejection-e5]）：
+本章引用的资料多以博士生为对象（例如"读博两三年""在一个问题上做 3 到 5 年""每七年调整一次方向"）。本科生和硕士生的项目短得多，可以按比例理解：重要的不是具体年数，而是"失败常见、积累要时间"这个道理。`[本项目分析]`
 
-- 允许自己难过。找朋友、同学或导师聊聊，休息一天再回来。
-- 被拒针对的是想法、实现、实验和写作，不是你这个人。把审稿意见整理成一份待办清单，逐条改进（怎么改见[审稿、回复审稿意见与发表](../3_after/02_reviewing_and_publishing.md)）。
-- 写一份"失败简历"，把被拒、落选都记下来。失败是因为你尝试了。
-- 庆祝小的进展，用它们保持动力。
+**被拒之后，先照顾情绪。** Jia-Bin Huang 的建议是：允许自己难过，找人聊聊，休息一下再回来[^huang2021rejection-e6]；记住被拒针对的是作品，不是你这个人[^huang2021rejection-e2]；写一份"失败简历"，把被拒、落选都记下来[^huang2021rejection-e9]；庆祝小的进展，用它们保持动力[^huang2021rejection-e5]。情绪平复后具体怎么改、怎么再投，见[审稿、回复审稿意见与发表：面对拒稿](../3_after/02_reviewing_and_publishing.md#6-面对拒稿把意见变成修改清单)。
 
-**看看别人的幕后。** 简历上的论文列表整整齐齐，但每篇论文背后都有自己的故事[^huang2021struggle-e1]。Jeff Huang 回顾了自己 30 篇论文的经过：第一篇从开始到发表花了 3.5 年，发表之前他申请的博士项目全部被拒[^huang2021struggle-e2]；成为教授后，他的研究组仍然经常被拒，维持士气并不容易[^huang2021struggle-e4]；而后来被引最多的论文，当初常常评审意见很差，或者被拒过多次[^huang2021struggle-e3]。
+**看看别人的幕后。** 简历上的论文列表整整齐齐，但每篇论文背后都有自己的故事[^huang2021struggle-e1]。Jeff Huang（与上面的 Jia-Bin Huang 是两位不同的研究者）回顾了自己 30 篇论文的经过：第一篇从开始到发表花了 3.5 年，发表之前他申请的博士项目全部被拒[^huang2021struggle-e2]；成为教授后，他的研究组仍然经常被拒，维持士气并不容易[^huang2021struggle-e4]；而后来被引最多的论文，当初常常评审意见很差，或者被拒过多次[^huang2021struggle-e3]。
 
 **为什么这样看待失败：**
 
-- 被拒对新手像是重大挫折，其实只是正常流程的一部分[^huang2021rejection-e7]。好的会议和期刊接收率低，大部分论文都会被拒；但坚持得足够久、足够努力，终究会发表[^might2010successful-e5]。
-- 长期看，大多数论文都不重要，决定职业生涯的是少数几篇好论文[^huang2021rejection-e3]。
+- 被拒对新手像是重大挫折，其实只是正常流程的一部分[^huang2021rejection-e7]。在很多领域，尤其是以会议为主的计算机领域，首投被拒很常见：Might 说好的会议和期刊接收率只有 8% 到 25%，大部分论文都会被拒；但坚持得足够久、足够努力，终究会发表[^might2010successful-e5]。
 - 失败中积累的恰恰是研究能力：想出可行的方案，并判断它有多大可能成功[^might2010successful-e4]。反复琢磨一个想法却毫无进展，本身就是创造过程的第一阶段[^dettmers2019creativity-e2]；漫长而反复失败的挣扎，是创造的一部分[^dettmers2019creativity-e5]。
 - 论文被接收这样的外部奖励很稀少，所以常常要靠内在动力撑下去[^ruder2020tips-e12]。
 
@@ -39,7 +35,7 @@
 > - **坚持**：Might 认为，这一阶段需要的是毅力，在不确定、被拒和挫败面前都要坚持[^might2010successful-e6]。Hamming 观察到，大多数伟大的科学家都完全投入自己的问题，不投入的人很少做出一流工作[^hamming1986you-e23]。
 > - **适时放下**：Dettmers 认为，暂时放下一个想法，可能正是创造的关键一步[^dettmers2019creativity-e3]。Sutherland 则指出，学术界缺少帮人停止陈旧项目的机制[^sutherland1996courage-e5]。
 >
-> 实际操作中可以这样区分：对**研究方向**要有耐心，几年的失败很正常；对**具体做法**要灵活，一条路走不通就换一条，或者先放一放。手里同时有别的想法或项目，放下时就不会觉得一切都完了（见第 5 节）。`[本项目分析]`
+> 实际操作中可以这样区分：对**研究方向**要有耐心，几年的失败很正常；对**具体做法**要灵活，一条路走不通就换一条，或者先放一放。主项目之外留一个小的备选想法，放下时就不会觉得一切都完了（见第 5 节）。`[本项目分析]` 具体怎么判断该坚持还是放手，见[推进研究：有根据地决定坚持还是放弃](../2_during/01_making_progress.md#6-有根据地决定坚持还是放弃)。
 
 ## 2. 像复利一样积累知识
 
@@ -63,28 +59,27 @@
 
 **怎么做：**
 
-- **定期问自己：我这个领域最重要的问题是什么？** Hamming 多年把每周五下午留给"只想大问题"，用大约 10% 的时间思考领域里什么重要、什么不重要[^hamming1986you-e17]。
-- **同时做一个稳妥的项目和一个有风险的项目。** 稳妥的保证你能毕业，有风险的可能带来更大的影响[^ruder2020tips-e9]。
+- **定期问自己：我这个领域最重要的问题是什么？** Hamming 用大约 10% 的时间思考领域里什么重要、什么不重要[^hamming1986you-e17]。选题时怎样用到这一点，见[选题：列一份候选问题清单](../1_before/02_choosing_a_problem.md#2-列一份候选问题清单)。
+- **主项目求稳，备选可以冒险。** Ruder 建议一个项目稳妥、一个风险高但影响可能更大，稳妥的保证你能毕业[^ruder2020tips-e9]。对新手来说，先保证一个主项目能走完，有风险的想法作为小的副项目或备选。`[本项目分析]`（见[推进研究：有根据地决定坚持还是放弃](../2_during/01_making_progress.md#6-有根据地决定坚持还是放弃)）
 - **用一个问题检验野心：** 如果别人发表了这项工作，你会兴奋吗[^ruder2020tips-e10]？
-- **确认兴趣能撑得住。** 选题时问问自己，是否愿意在这个问题上做 3 到 5 年[^patterson2001bad-e4]。
 - **害怕开始时，降低门槛：** 先做一个比较容易的热身项目，并从头到尾做完，它既让你学到东西，也给你勇气[^sutherland1996courage-e7]；把大任务拆成小步骤，就像"先洗第一个盘子"[^sutherland1996courage-e8]。刚入门的研究生，可以先加入一个正在运转的研究组；做什么远没有"开始做点什么"重要[^sutherland1996courage-e3]。
 
-**为什么：** 不做重要的问题，就不太可能做出重要的工作[^hamming1986you-e15]。而做重要的问题需要勇气。Sutherland 把勇气定义为：看到了风险，仍然继续前进[^sutherland1996courage-e1]。Hamming 认为，成功的科学家都有勇气：相信自己能做重要的问题，才可能做到；认为自己不行，几乎肯定做不到[^hamming1986you-e16]。意识到"开始"本身就需要勇气，也有助于你看清，自己迟迟不动手的理由其实只是借口[^sutherland1996courage-e6]。
+**为什么：** 不做重要的问题，就不太可能做出重要的工作[^hamming1986you-e1]。而做重要的问题需要勇气。Sutherland 把勇气定义为：看到了风险，仍然继续前进[^sutherland1996courage-e1]。Hamming 认为，成功的科学家都有勇气：相信自己能做重要的问题，才可能做到；认为自己不行，几乎肯定做不到[^hamming1986you-e16]。意识到"开始"本身就需要勇气，也有助于你看清，自己迟迟不动手的理由其实只是借口[^sutherland1996courage-e6]。
 
 **容易错在哪：**
 
 - **只靠埋头苦干。** 光努力不够，努力要用对地方[^hamming1986you-e19]。
-- **要么什么都信，要么什么都疑。** 好的研究者足够相信一个想法，才能往前走；又足够怀疑它，才能发现其中的错误[^hamming1986you-e20]。
+- **要么什么都信，要么什么都疑。** 对自己的想法要既信又疑，见[什么是研究，什么是好的研究](../1_before/01_what_is_good_research.md#4-用清楚令人信服的证据支撑结果)。
 
 ## 4. 让门开着：别一个人闷头干
 
 **怎么做：**
 
-- **保持和外界的联系。** Hamming 观察到，关着门工作的人短期效率更高，但十年后往往不知道什么问题值得做；开着门的人会被打扰，却能不时得到"什么重要"的线索[^hamming1986you-e18]。
+- **保持和外界的联系。** Hamming 观察到，关着门工作的人短期效率更高，但十年后往往不知道什么问题值得做[^hamming1986you-e18]（另见[选题](../1_before/02_choosing_a_problem.md#2-列一份候选问题清单)）。
 - **主动联系身边圈子以外的人。** Ruder 认为这可能是他最重要的一条建议[^ruder2020tips-e11]。
 - **和同伴一起学新东西。** 一起学能减轻每个人的负担，也让面对新东西时没那么害怕[^sutherland1996courage-e4]。
 - **定期请外部的人看你的项目**[^patterson2001bad-e12]。
-- **让自己对别人负责。** 自律不只是意志力的问题，对别人负责是保持自律的关键之一[^nielsen2004principles-e9]。
+- **让自己对别人负责。** 自律不只是意志力的问题，对别人负责是保持自律的关键之一[^nielsen2004principles-e9]；和人合作就是一种办法（见[合作与导师：和同伴合作](../4_throughout/01_collaboration_and_advisors.md#5-和同伴合作)）。
 - **主动改善环境。** 组织读书会、讨论班，任何人都能做；学生常常低估自己能带来的改变[^nielsen2004principles-e13]。和其他博士生聊聊，会让你感到被同伴支持[^wood2020five-e4]。
 
 和导师、合作者怎样相处，见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)。
@@ -93,10 +88,10 @@
 
 **怎么做：**
 
-- **先照顾好身体和生活。** Nielsen 把保持健康、陪伴家人、享受生活，看作做好研究的前提[^nielsen2004principles-e7]。努力工作，但保证睡眠和运动[^ruder2020tips-e16]。
+- **先照顾好身体和生活。** Nielsen 认为光有热情不够，还要把生活的其他部分安排好，保持健康[^nielsen2004principles-e7]。努力工作，但保证睡眠和运动[^ruder2020tips-e16]。
 - **主动安排研究之外的生活**，例如运动、读闲书、参加社团、保护周末；预见到要特别辛苦的阶段（如野外调查），提前想好之后怎么休息[^wood2020five-e2][^wood2020five-e3]。
 - **建一个支持网络**，再找一项事情不顺时能给你能量的活动[^ruder2020tips-e13]。
-- **手里不止一件事。** 只做一个项目时，项目一不顺，动力和情绪都会受影响，卡住了也只能硬磨[^ruder2020tips-e8]；同时有几个想法，比只盯着一个更有效[^dettmers2019creativity-e4]。
+- **别只有一个想法。** 只有一件事可做时，项目一不顺，动力和情绪都会受影响，卡住了也只能硬磨[^ruder2020tips-e8]；手里有几个想法，比只盯着一个更有效[^dettmers2019creativity-e4]。新手的做法是：先保证一个主项目能走完，再加一个小的副项目或备选想法（见[推进研究：有根据地决定坚持还是放弃](../2_during/01_making_progress.md#6-有根据地决定坚持还是放弃)）。`[本项目分析]`
 - **把好的做法变成习惯。** 卓越不是一次行为，而是一种习惯[^nielsen2004principles-e6]。
 
 > **不同的看法：要拼到什么程度？**
@@ -110,18 +105,18 @@
 
 **怎么做：**
 
-- **能力优先。** Prieto 借用 Newport 的观点：让职业令人满意的关键，是稀缺而有价值的能力，而不是事先就有的热情[^prieto2025so-e3]。早期优先选择能学到最多东西的位置和导师[^prieto2025so-e6]。
+- **能力优先。** Prieto 借用 Newport（Cal Newport，《So Good They Can't Ignore You》的作者）的观点：让职业令人满意的关键，是稀缺而有价值的能力，而不是事先就有的热情[^prieto2025so-e3]。早期优先选择能学到最多东西的位置和导师[^prieto2025so-e6]。
 - **对题目有偏好，但保持灵活。** 内行或文献告诉你另一个题目更相关、更可行时，认真考虑[^prieto2025so-e1]。理想的课题在三者的交集处：有影响力、你热爱、你特别适合做[^ruder2020tips-e15]。
-- **把项目做完。** 别人看的是你完成了哪些项目，而不是开始了哪些；成功的项目都要经历枯燥艰难的阶段；完成项目，也是培养"选好问题、找简单方案"这种品味的途径[^patterson2001bad-e11]。
+- **把项目做完。** 别人看的是你完成了哪些项目，而不是开始了哪些[^patterson2001bad-e11]（完成项目和培养品味的关系，见[选题：有意识地培养研究品味](../1_before/02_choosing_a_problem.md#4-有意识地培养研究品味)）。
 - **定期调整方向，避免陈旧。** Hamming 建议大约每七年在自己的领域内做一次较大的方向调整[^hamming1986you-e21]。
 - **想清楚长期目标：** 我想成为怎样的研究者[^nielsen2004principles-e14]？不必急于找到一生的使命，好的使命往往要多年试错才能找到；读博更像"考驾照"，而不是"跑出人生最佳的一圈"[^prieto2025so-e2]。
 
-**为什么：** 读博最重要的产出，是一个更好的自己[^ruder2020tips-e16]。论文会过时，能力和判断力会一直跟着你。`[本项目分析]`
+**为什么：** Ruder 认为，和论文相比，读博更重要的产出是一个更好的自己[^ruder2020tips-e16]。论文会过时，能力和判断力会一直跟着你。`[本项目分析]`
 
 > **不同的看法：先有热情，还是先有能力？**
 >
 > - **跟随兴趣**：Ruder 认为，保持积极最自然的方式，就是做让你兴奋的事、跟随好奇心；不能自己选题时，就在题目里找一个让你兴奋的角度[^ruder2020tips-e17]。
-> - **能力先行**：Prieto 借用 Newport 的观点，认为热情并不是事先就有、等着去找的；稀缺而有价值的能力，才是好职业的关键[^prieto2025so-e3][^prieto2025so-e1]。
+> - **能力先行**：Prieto 借用 Newport 的观点，认为关键不在事先就有的热情；稀缺而有价值的能力，才是好职业的关键[^prieto2025so-e3]。
 >
 > 实际操作：在能选择的范围里，找让你兴奋的角度；同时把主要精力放在积累能力上。兴趣常常是在做得越来越好的过程中长出来的。`[本项目分析]`
 
@@ -129,8 +124,8 @@
 
 ## 本章检查清单
 
-- [ ] 我知道大部分尝试会失败，并且同时有不止一个项目或想法[^might2010successful-e3][^ruder2020tips-e8]
-- [ ] 被拒后，我把审稿意见整理成了待办清单[^huang2021rejection-e8]
+- [ ] 我知道失败是常事[^might2010successful-e3]；我有一个能走完的主项目，另有一个小的副项目或备选想法[^ruder2020tips-e8]
+- [ ] 被拒后，我先照顾好情绪，再按修改清单继续改[^huang2021rejection-e6]
 - [ ] 我有一份记录失败的"失败简历"，也会庆祝小进展[^huang2021rejection-e9][^huang2021rejection-e5]
 - [ ] 我有一个以年为单位的学习计划，覆盖本领域和相邻领域[^kidger2023know-e1][^kidger2023know-e2]
 - [ ] 我每年挑出一批最重要的论文精读，并记阅读笔记[^nielsen2004principles-e15][^wood2020five-e1]
@@ -143,21 +138,21 @@
 
 | 错误 | 为什么是问题 |
 |---|---|
-| 把一次被拒当成对自己的否定 | 被拒针对的是作品，而且是常态[^huang2021rejection-e8][^huang2021rejection-e7] |
-| 只做一个项目，卡住就只能硬磨 | 动力和情绪都会受影响[^ruder2020tips-e8] |
+| 把一次被拒当成对自己的否定 | 被拒针对的是作品，而且是常态[^huang2021rejection-e2][^huang2021rejection-e7] |
+| 只有一个想法、没有任何备选 | 卡住就只能硬磨，动力和情绪都会受影响[^ruder2020tips-e8] |
 | 只顾尽快多发论文，不花时间提升自己 | 长期会停滞[^nielsen2004principles-e10] |
 | 一直关着门埋头干 | 十年后可能不知道什么问题值得做[^hamming1986you-e18] |
 | 只靠苦干，不想方向 | 努力要用对地方[^hamming1986you-e19] |
 | 为短期产出透支健康 | 整体产出可能反而降低[^nielsen2004principles-e8] |
 | 开了很多头，一个都没做完 | 别人看的是完成的项目[^patterson2001bad-e11] |
-| 等找到"真正的热情"再开始投入 | 热情常常在积累能力之后才出现[^prieto2025so-e3] |
+| 等找到"真正的热情"再开始投入 | 关键不在事先就有的热情，而在能力[^prieto2025so-e3]；热情常常在积累能力之后才出现 `[本项目分析]` |
 
 ## 延伸阅读
 
 - **Hamming，"You and Your Research"**：关于做重要问题、勇气、"开门工作"和复利，值得每隔几年重读一次。
 - **Sutherland，"Technology and Courage"**：讲开始、坚持和停止各需要怎样的勇气，以及降低门槛的具体办法。
 - **Nielsen，"Principles of Effective Research"**：讲怎样在产出和自我提升之间保持平衡，以及怎样让环境帮你。
-- **Jeff Huang，"The struggle for each paper"；Jia-Bin Huang 关于被拒的推文串**：被拒后低落时读。
+- **Jeff Huang，"The struggle for each paper"；Jia-Bin Huang 关于被拒的推文串**：被拒后低落时读（两位是不同的研究者）。
 - **Might，"3 qualities of successful Ph.D. students"**：讲清读博中期为什么最难熬，需要什么样的毅力。
 
 [^might2010illustrated-e1]: Might 2010，The illustrated guide to a Ph.D.，图解序列。[证据](../../../sources/notes/might2010illustrated.md#e1)
@@ -176,8 +171,7 @@
 [^sutherland1996courage-e8]: Sutherland 1996，§3.4。[证据](../../../sources/notes/sutherland1996courage.md#e8)
 [^huang2021rejection-e6]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 2 条。[证据](../../../sources/notes/huang2021rejection.md#e6)
 [^huang2021rejection-e7]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 3 条。[证据](../../../sources/notes/huang2021rejection.md#e7)
-[^huang2021rejection-e8]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 4 条。[证据](../../../sources/notes/huang2021rejection.md#e8)
-[^huang2021rejection-e3]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 5 条。[证据](../../../sources/notes/huang2021rejection.md#e3)
+[^huang2021rejection-e2]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 4 条。[证据](../../../sources/notes/huang2021rejection.md#e2)
 [^huang2021rejection-e9]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 6 条。[证据](../../../sources/notes/huang2021rejection.md#e9)
 [^huang2021rejection-e5]: Jia-Bin Huang 2021，[推文串](https://twitter.com/jbhuang0604/status/1443248831102136333)第 7 条。[证据](../../../sources/notes/huang2021rejection.md#e5)
 [^huang2021struggle-e1]: Jeff Huang 2021，开头。[证据](../../../sources/notes/huang2021struggle.md#e1)
@@ -201,12 +195,11 @@
 [^ruder2020tips-e16]: Ruder 2020，10) Play the long game。[证据](../../../sources/notes/ruder2020tips.md#e16)
 [^ruder2020tips-e17]: Ruder 2020，7) Keep a source of positive energy。[证据](../../../sources/notes/ruder2020tips.md#e17)
 [^hamming1986you-e14]: Hamming 1986，讲 Bode 的话。[证据](../../../sources/notes/hamming1986you.md#e14)
-[^hamming1986you-e15]: Hamming 1986，讲 important problems 的部分。[证据](../../../sources/notes/hamming1986you.md#e15)
+[^hamming1986you-e1]: Hamming 1986，讲 important problems 的部分。[证据](../../../sources/notes/hamming1986you.md#e1)
 [^hamming1986you-e16]: Hamming 1986，讲 courage 的部分。[证据](../../../sources/notes/hamming1986you.md#e16)
 [^hamming1986you-e17]: Hamming 1986，总结部分。[证据](../../../sources/notes/hamming1986you.md#e17)
 [^hamming1986you-e18]: Hamming 1986，讲 open door 的部分。[证据](../../../sources/notes/hamming1986you.md#e18)
 [^hamming1986you-e19]: Hamming 1986，讲 drive 的部分。[证据](../../../sources/notes/hamming1986you.md#e19)
-[^hamming1986you-e20]: Hamming 1986，讲 ambiguity 的部分。[证据](../../../sources/notes/hamming1986you.md#e20)
 [^hamming1986you-e21]: Hamming 1986，问答部分。[证据](../../../sources/notes/hamming1986you.md#e21)
 [^hamming1986you-e22]: Hamming 1986，讲 luck 的部分。[证据](../../../sources/notes/hamming1986you.md#e22)
 [^hamming1986you-e23]: Hamming 1986，讲 emotional commitment 的部分。[证据](../../../sources/notes/hamming1986you.md#e23)
@@ -234,6 +227,5 @@
 [^wood2020five-e3]: Wood 2020，Tip 4。[证据](../../../sources/notes/wood2020five.md#e3)
 [^wood2020five-e4]: Wood 2020，Tip 5。[证据](../../../sources/notes/wood2020five.md#e4)
 [^patterson2001bad-e10]: Patterson 2001，研究生阶段建议小结。[证据](../../../sources/notes/patterson2001bad.md#e10)
-[^patterson2001bad-e4]: Patterson 2001，"1) Selecting a Problem"。[证据](../../../sources/notes/patterson2001bad.md#e4)
 [^patterson2001bad-e11]: Patterson 2001，"4) Finishing a project"。[证据](../../../sources/notes/patterson2001bad.md#e11)
 [^patterson2001bad-e12]: Patterson 2001，"3) Running a project"。[证据](../../../sources/notes/patterson2001bad.md#e12)

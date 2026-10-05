@@ -68,3 +68,33 @@
 - 位置：§6 Recommendations
 - 原文："1. Identify the population; that is, in principle, who or what you would like to generalize to"
 - 要点：如果追求代表性，先明确总体：原则上你想把结论推广到谁或什么上。
+
+### E12
+
+- 位置：§2.5 Sampling Frameworks and Algorithms
+- 原文："We suggest bypassing all this confusion by thinking of most quantitative studies as having a multistage sampling algorithm." / "Authors should identify the population they want to generalize to and papers should reflect on how each step in the sampling algorithm could bias the results."
+- 要点：把大多数定量研究的抽样看作多阶段的算法；作者要说明想推广到的总体，并反思每一步可能带来的偏差。
+
+### E13
+
+- 位置：§6.2 Mitigating sampling bias in different kinds of studies
+- 原文："If a sampling frame is biased, consider replicating the study using different sampling frames. For example, if we find a pattern in a sample of GitHub projects, replicate the study on a sample of SourceForge projects."
+- 要点：抽样框有偏差时，可以换一个抽样框重复研究，例如在 GitHub 上发现的规律，到 SourceForge 的项目上再验证一次。
+
+### E14
+
+- 位置：§6.2 Mitigating sampling bias in different kinds of studies
+- 原文："Evaluating sampling bias in software repository mining is fraught. Each repository is likely biased in unpredictable, non-obvious ways."
+- 要点：评估仓库挖掘中的抽样偏差很难，每个数据源都可能以难以预料、不明显的方式带有偏差。
+
+### E15
+
+- 位置：§6.2 Mitigating sampling bias in different kinds of studies
+- 原文："Corpora can quickly go out of date and there exists an innate tension between keeping corpora stable and up-to-date."
+- 要点：语料库很快会过时，保持稳定和保持更新之间存在内在矛盾。
+
+### E16
+
+- 位置：§6.3 Guidelines for reviewers
+- 原文："randomness argument to representativeness is unconvincing when the sample was randomly selected from a purposively assembled subset of the repository," [...] "and there is no evidence that the software in the repository does not differ from software in general on the dimensions of interest."
+- 要点：从仓库里按目的挑出的子集中再随机抽样，并且没有证据说明这些软件在关心的维度上与一般软件无异时，"随机所以有代表性"的论证站不住。

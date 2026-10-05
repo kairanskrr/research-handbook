@@ -75,3 +75,33 @@
 - 位置：§5.4，第 22 页
 - 原文："there are numerous other approaches, and there is also some debate about when and where these corrections should be applied"
 - 要点：多重比较校正有多种方法，什么时候该校正本身也有争论。
+
+### E13
+
+- 位置：§5.1 Don’t assume a bigger number means a better model
+- 原文："Another reason for unfair comparisons is the failure to carry out the same amount of hyperparameter optimisation" / "if one model has default settings and the other has been optimised, then the comparison won’t be fair."
+- 要点：比较不公平的一个原因是超参数优化做得不一样多：一个用默认设置，另一个调过，比较就不公平。
+
+### E14
+
+- 位置：§5.1
+- 原文："To be sure of a fair comparison between two approaches, you should freshly implement all the models you’re comparing, optimise each one to the same degree, carry out multiple evaluations"
+- 要点：要确保公平比较，应重新实现所有要比较的模型，每个优化到同样程度，做多次评估，再用统计检验判断差异是否显著。
+
+### E15
+
+- 位置：§5.5 Don’t always believe results from community benchmarks
+- 原文："if access to the test set is unrestricted, then you can’t assume that people haven’t used it as part of the training process." / "by comparing lots of models on the same test set, it becomes increasingly likely that the best model just happens to over-fit the test set"
+- 要点：社区基准的测试集公开时，不能假定没人用它训练过；即使每人只用一次，整个社区反复在同一测试集上比较，最好的模型也可能只是碰巧过拟合了测试集。
+
+### E16
+
+- 位置：§5.5
+- 原文："it is possible that their training data included the test sets from community benchmarks."
+- 要点：使用基础模型（foundation model）时尤其要小心，它们的训练数据可能包含了社区基准的测试集。
+
+### E17
+
+- 位置：§6.2 Do report performance in multiple ways
+- 原文："One way to achieve better rigour when evaluating and comparing models is to use multiple data sets."
+- 要点：用多个数据集评估和比较模型，可以弥补单个数据集的缺陷，给出更完整的图景。

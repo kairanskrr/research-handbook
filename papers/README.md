@@ -30,7 +30,7 @@
 | `gomez2014understanding` | Understanding replication of experiments in software engineering: A classification | IST 2014 | 💰 |
 | `acm2020artifact` | Artifact Review and Badging（v1.1） | ACM 2020 | [网页](https://www.acm.org/publications/policies/artifact-review-and-badging-current) |
 | `bird2009promises` | The promises and perils of mining git | MSR 2009 | [Microsoft Research](https://microsoft.com/en-us/research/wp-content/uploads/2016/02/bird2009ppm.pdf) |
-| `herzig2013bug` | It's not a bug, it's a feature: how misclassification impacts bug prediction | ICSE 2013 | [Saarland](https://www.st.cs.uni-saarland.de/publications/files/herzig-icse-2013.pdf) |
+| `herzig2013bug` | It's not a bug, it's a feature: how misclassification impacts bug prediction | ICSE 2013 | [Saarland](https://www.st.cs.uni-saarland.de/publications/files/herzig-icse-2013.pdf)；原地址现无法访问，可用 [Internet Archive 存档](https://web.archive.org/web/2019id_/https://www.st.cs.uni-saarland.de/publications/files/herzig-icse-2013.pdf) |
 | `kalliamvakou2014promises` | The promises and perils of mining GitHub | MSR 2014 | [作者主页](https://kblincoe.github.io/publications/2014_MSR_Promises_Perils.pdf) |
 | `kalliamvakou2016indepth` | An in-depth study of the promises and perils of mining GitHub | EMSE 2016 | [作者主页](https://kblincoe.github.io/publications/2015_EMSE_GitHubPerils.pdf) |
 | `arcuri2011practical` | A practical guide for using statistical tests to assess randomized algorithms in software engineering | ICSE 2011 | 未确认（ACM 上可能免费） |
@@ -69,6 +69,14 @@
 | `mineault2021good` | The Good Research Code Handbook | 2021 | [链接](https://goodresearch.dev/) |
 | `osforganizing` | OSF Help：Organizing Files | 持续更新 | [链接](https://help.osf.io/article/147-organizing-files) |
 | `mlflowtracking` | MLflow Tracking | MLflow 官方文档（工具文档） | [链接](https://mlflow.org/docs/latest/ml/tracking/) |
+| `bird2009fair` | Fair and Balanced? Bias in Bug-Fix Datasets | ESEC/FSE 2009 | [链接](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bird2009fbb.pdf) |
+| `cra1999evaluating` | Evaluating Computer Scientists and Engineers for Promotion and Tenure | 1999 | [链接](https://cra.org/resources/best-practice-memos/evaluating-computer-scientists-and-engineers-for-promotion-and-tenure/) |
+| `vardi2009conferences` | Conferences vs. Journals in Computing Research | CACM 2009 | [链接](https://cacm.acm.org/opinion/conferences-vs-journals-in-computing-research/) |
+| `fortnow2009time` | Time for Computer Science to Grow Up | CACM 2009 | [链接](https://cacm.acm.org/magazines/2009/8/34492-viewpoint-time-for-computer-science-to-grow-up/fulltext) |
+| `sysartifactsguide` | sysartifacts：系统会议制品评估指南 | 持续更新 | [链接](https://sysartifacts.github.io/) |
+| `usenixsec2026cfp` | USENIX Security '26 Call for Papers | 2026 | [链接](https://www.usenix.org/conference/usenixsecurity26/call-for-papers) |
+| `neurips2025cfp` | NeurIPS 2025 Call for Papers | 2025 | [链接](https://neurips.cc/Conferences/2025/CallForPapers) |
+| `sainz2023nlp` | NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark | Findings of EMNLP 2023 | [链接](https://arxiv.org/abs/2310.18018) |
 | `oecd2015frascati` | Frascati Manual 2015 | OECD 2015 | [OECD](https://doi.org/10.1787/9789264239012-en) |
 | `nielsen2004principles` | Principles of Effective Research | 技术笔记 2004 | [Internet Archive 快照](https://web.archive.org/web/20260824165302/https://michaelnielsen.org/blog/principles-of-effective-research/)（原地址已失效） |
 | `patterson2001bad` | How to Have a Bad Career in Research/Academia | 演讲 2001 | [作者主页](https://people.eecs.berkeley.edu/~pattrsn/talks/BadCareer.pdf) |
@@ -160,10 +168,10 @@
 | `carlini2019evaluating` | On Evaluating Adversarial Robustness | arXiv 2019 | [arXiv:1902.06705](https://arxiv.org/abs/1902.06705) |
 | `wei2024evals` | Successful language model evals | 博客 2024 | [网页](https://jasonwei.net/blog/evals) |
 | `mytkowicz2009producing` | Producing wrong data without doing anything obviously wrong! | ASPLOS 2009 | 未确认 |
-| `georges2007statistically` | Statistically rigorous Java performance evaluation | OOPSLA 2007 | 未确认 |
-| `kalibera2013rigorous` | Rigorous benchmarking in reasonable time | ISMM 2013 | 未确认 |
+| `georges2007statistically` | Statistically rigorous Java performance evaluation | OOPSLA 2007 | [合作者主页](https://dri.es/files/oopsla07-georges.pdf) |
+| `kalibera2013rigorous` | Rigorous benchmarking in reasonable time | ISMM 2013 | [肯特大学机构库（作者接受稿）](https://kar.kent.ac.uk/33611/) |
 | `blackburn2008wake` | Wake up and smell the coffee: evaluation methodology for the 21st century | CACM 2008 | 未确认 |
-| `hoefler2015scientific` | Scientific benchmarking of parallel computing systems | SC 2015 | 未确认 |
+| `hoefler2015scientific` | Scientific benchmarking of parallel computing systems | SC 2015 | [作者主页](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) |
 | `baltes2022sampling` | Sampling in software engineering research: a critical review and guidelines | EMSE 2022 | [arXiv:2002.07764](https://arxiv.org/abs/2002.07764) |
 | `siegmund2015views` | Views on Internal and External Validity in Empirical Software Engineering | ICSE 2015 | 未确认 |
 | `herley2017sok` | SoK: Science, Security and the Elusive Goal of Security as a Scientific Pursuit | IEEE S&P 2017 | 未确认 |

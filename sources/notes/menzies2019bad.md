@@ -57,3 +57,21 @@
 - 位置：§1 Introduction
 - 原文："we say that the “smells” listed in this article do not necessarily indicate that the conclusions from the underlying study must be rejected."
 - 要点：这些"坏味道"只是警示信号，不代表研究结论一定要被否定。
+
+### E10
+
+- 位置：§1 Introduction
+- 原文："Studies are more data-driven than theory-driven. For example, after examining many software projects, certain coding styles could be seen to be more bug prone. Follow up experimentation, by manipulating the coding styles, could lead us to believe there is causality."
+- 要点：软件分析研究多由数据驱动；从大量项目中看到某种编码风格更容易出缺陷，只是相关；要相信存在因果关系，还需要主动改变编码风格的后续实验。
+
+### E11
+
+- 位置：§4.3 Using Deprecated or Suspect Data
+- 原文："Researchers adopting a heavily data-driven approach, as is the case for software analytics, need to be vigilant regarding data quality."
+- 要点：重度依赖数据的研究必须时刻警惕数据质量；过旧的数据、已知有质量问题的数据都是警示信号。
+
+### E12
+
+- 位置：§4.4 Inadequate Reporting，第 1 条
+- 原文："The work cannot be reproduced because the descriptions are too incomplete or high level. In addition, not all materials ( data and code) are available"
+- 要点：描述太粗、数据和代码没有全部公开，别人就无法复现。

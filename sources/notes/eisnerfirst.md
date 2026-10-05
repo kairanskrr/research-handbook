@@ -65,17 +65,23 @@
 
 ### E11
 
+> 已作废：与 [E3](#e3) 重复（原文被 E3 完整包含）。
+
 - 位置：Writing is a mechanism for planning what to work on / Is it a good topic?
 - 原文："Show people a draft of the first 2-3 pages before you do any experiments."
 - 要点：做实验前先把前两三页给别人看；如果基本想法会让审稿人怀疑或打哈欠，越早知道越好。
 
 ### E12
 
+> 已作废：与 [E5](#e5) 重复（原文被 E5 完整包含）。
+
 - 位置：Writing is a mechanism for planning what to work on / What needs to be done?
 - 原文："Make empty result tables with row and column headers and explanatory captions."
 - 要点：实验部分可以在做实验前写：写出完整实验设计，画好空表格（有行列标题和说明），空图（有坐标轴和图注），就清楚还需要做什么。
 
 ### E13
+
+> 已作废：与 [E2](#e2) 重复（原文被 E2 完整包含）。
 
 - 位置：Writing is a mechanism for planning what to work on / What needs to be done?
 - 原文："Write out your own ideas before comparing them with the literature."

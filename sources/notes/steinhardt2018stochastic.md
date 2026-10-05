@@ -83,11 +83,15 @@
 
 ### E14
 
+> 已作废：与 [E5](#e5) 重复（原文被 E5 完整包含）。
+
 - 位置：A further improvement: opening up the "task" black box
 - 原文："Specifically, for each task we want a cheap way to obtain high confidence about whether that task will be feasible. This is called "de-risking"."
 - 要点：去风险（de-risking）的定义：为每个任务找一个便宜的办法，尽快高把握地判断它是否可行。
 
 ### E15
+
+> 已作废：与 [E5](#e5) 重复（原文被 E5 完整包含）。
 
 - 位置：A further improvement: opening up the "task" black box
 - 原文："De-risk all components (to the extent feasible), then execute."
@@ -101,6 +105,8 @@
 
 ### E17
 
+> 已作废：与 [E8](#e8) 重复（原文被 E8 完整包含）。
+
 - 位置：Some further practical ideas
 - 原文："More generally, thinking about simplified instances of a problem is often useful."
 - 要点：思考问题的简化版本通常很有用，能帮助提出或排除方法。
@@ -113,11 +119,15 @@
 
 ### E19
 
+> 已作废：与 [E9](#e9) 重复（原文被 E9 完整包含）。
+
 - 位置：Exponentially branching search trees
 - 原文："Whenever something doesn't work, I ask why it didn't work."
 - 要点：每次失败都追问原因，以免反复尝试因同一原因失败的做法。
 
 ### E20
+
+> 已作废：与 [E10](#e10) 重复（原文被 E10 完整包含）。
 
 - 位置：Exponentially branching search trees
 - 原文："However, if X is a high-level conceptual approach, then a more correct conclusion is "I tried an implementation comprising 0.1% of the possible implementations of X, and observed that that particular implementation did not work"."
@@ -136,6 +146,8 @@
 - 要点：否定一个想法要有高标准；"看起来不行""试了几次没动力了"都不算真正排除了它。
 
 ### E23
+
+> 已作废：与 [E12](#e12) 重复（原文被 E12 完整包含）。
 
 - 位置：Summary
 - 原文："We often try easier tasks first, when instead we should try the most informative tasks first."

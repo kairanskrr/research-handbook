@@ -32,7 +32,7 @@
 
 **谁做决定。** 期刊通常由编辑根据审稿意见做决定。计算机领域的会议通常由程序委员会（Program Committee，PC）开会讨论，有的会议还设领域主席（Area Chair，AC），他们可能只读审稿意见和作者回复，不再细读论文[^parikh2020rebuttals-e2]。程序委员会的目的是选出最好的一组论文，而不是给每篇论文下判决[^roscoe2007reviews-e14]。
 
-讨论时，一篇论文往往需要至少一位审稿人愿意站出来为它争取。如果没有这样的"支持者"（champion），被录用的机会很小[^zeller2012rebuttals-e1][^hicks2014response-e2]。
+在计算机等以会议为主的领域，讨论时一篇论文往往需要至少一位审稿人愿意站出来为它争取。如果没有这样的"支持者"（champion），被录用的机会很小[^zeller2012rebuttals-e1][^hicks2014response-e2]。
 
 **对结果要有平常心。** 真实的评审更像一个拥挤的集市：每个人时间有限、注意力有限、信息不全[^parikh2020rebuttals-e16]。最终结果是全体审稿人的集体判断，"更像艺术而不是科学"[^hicks2014reviewing-e10]。
 
@@ -47,19 +47,19 @@
 - [ ] 提前回答审稿人一眼就会问的简单问题，例如"这个参数为什么取 17"[^allman2001plea-e3]
 - [ ] 请与这项工作没有利害关系的同事读一遍，最好包括不做这个方向的人[^bourne2005published-e7]
 
-**为什么要在投稿前下功夫**：审稿意见本来可以帮你改进论文，但如果稿件有根本缺陷，审稿人根本走不到给建议那一步[^bourne2005published-e6]。
+**为什么要在投稿前下功夫**：Bourne 建议把精力放在投稿前提高稿件质量上[^bourne2005published-e6]。稿件有根本缺陷时，审稿意见多半停留在指出缺陷，很难给出进一步的改进建议 `[本项目分析]`。
 
 **选投稿去处**：
 
 - **尽早决定投哪里**，因为它决定了论文的形式、细节程度和对新颖性的要求[^bourne2005published-e5]。有的期刊提供投稿前咨询，可以利用[^bourne2005published-e10]。
-- 了解目标期刊或会议的标准：判断一篇论文是否够格，审稿人参照的是这个期刊或会议、这个社区的标准[^hicks2014reviewing-e9]。在计算机领域，会议论文应当报告完整、成熟的工作，研讨会（workshop）论文可以是早期工作或观点[^roscoe2007reviews-e12]。
+- 了解目标期刊或会议的标准：判断一篇论文是否够格，审稿人参照的是这个期刊或会议、这个社区的标准[^hicks2014reviewing-e9]。在计算机领域，至少在理论上，会议论文报告完整、成熟的工作，研讨会（workshop）论文可以是早期工作或观点[^roscoe2007reviews-e12]。
 - Bourne 主张**重质不重量**：宁可在高质量期刊发一篇，也不要在较差的期刊发多篇[^bourne2005published-e9]。
 
 ---
 
 ## 3. 当审稿人：写一份公正、具体、有用的审稿意见
 
-新手可以先跟着导师练：导师把正在审的论文交给你写初稿，再对照导师最终提交的版本。审别人的论文会帮你写好自己的论文[^bourne2005published-e4]。
+新手可以先跟着导师练：请导师把正在审的论文交给你，由你写审稿意见的初稿[^bourne2005published-e4]；之后可以请导师讲讲他会怎么改 `[本项目分析]`。审别人的论文会帮你写好自己的论文[^bourne2005published-e4]。
 
 **接之前先问自己**：
 
@@ -82,7 +82,7 @@
 - **每条批评都要具体、可操作。** 批评和表扬都要给出具体理由[^bourne2006reviewers-e3]；含糊、无法据此修改的批评是反面做法[^ralph2020empirical-e56]。
 - **指出问题的同时给出修改建议**[^mightreview-e5]。把"系统没有处理 X"改写成"如果讨论系统如何处理 X，论文会更有说服力"[^roscoe2007reviews-e9]。建议拒稿时，说明具体什么能改变你的判断[^mightreview-e6]。
 - **怀疑有错误时，用提问代替断言**[^roscoe2007reviews-e5]。你总有可能误解了论文[^roscoe2007reviews-e10]。
-- **批评论文，不批评人**，不夸张[^hicks2014reviewing-e6]，不嘲讽[^roscoe2007reviews-e11][^mightreview-e7]。匿名让审稿人有很大的权力而很少被问责[^roscoe2007reviews-e8]，匿名是盾牌，不是武器[^mightreview-e9]。
+- **批评论文，不批评人**，不夸张[^hicks2014reviewing-e6]，不嘲讽论文[^roscoe2007reviews-e11]，也不借审稿意见卖弄机智[^mightreview-e7]。匿名让审稿人有很大的权力而很少被问责[^roscoe2007reviews-e8]，匿名是盾牌，不是武器[^mightreview-e9]。
 
 **怎么保持公正**：
 
@@ -104,9 +104,9 @@
 
 ## 4. 正确判断新颖性，不提不成立的批评
 
-"不新"是最常见的拒稿理由之一，也最容易被误用。
+Black 观察到，审稿人常把复杂、困难、技术性强误当成新颖[^black2022novelty-e1]。
 
-**常见的误判**[^black2022novelty-e1]：
+**常见的误判**：
 
 - **把复杂当新颖。** 只改了一处，但以前没人想到这样改，这本身就是新颖的[^black2022novelty-e2]。简单的想法可能重要，也可能平凡；"平凡"指不重要，而不是简单[^black2022novelty-e6]。
 - **事后诸葛亮。** 新颖性要站在想法出现之前评判；一个想法讲完之后显得理所当然，不减损它的新颖性[^black2022novelty-e3]。
@@ -115,22 +115,22 @@
 
 和已有工作有重叠，不等于没有新意；如果提供了新想法和有用的数据，仍然有一定新颖性[^hicks2014reviewing-e8]。**要说"不新"，就必须给出贡献几乎完全相同的已发表文献**[^ralph2020empirical-e60]。更好的写法是：指出相似的工作，请作者说明比它多做了什么[^roscoe2007reviews-e15]。补充作者漏掉的文献（不是你自己的）是简单有效的帮助[^bourne2006reviewers-e10]。
 
-**这些批评不成立**（依据 SIGSOFT 实证研究标准，原文针对实证研究，大多跨学科适用）：
+**这些批评不成立**（依据 SIGSOFT 实证研究标准，原文针对软件工程的实证研究；`[本项目分析]` 其中大多跨学科适用）：
 
 - 说"缺细节""漏了重要文献""质量低"，却不具体指出是哪些[^ralph2020empirical-e61]
 - 因为是重复研究而拒稿[^ralph2020empirical-e62]
-- 因为审稿人自己会用别的方法或设计而拒稿[^ralph2020empirical-e63]
+- 因为审稿人自己会用别的方法或设计而拒稿[^ralph2020empirical-e25]
 - 因为结果是负面的而拒稿[^ralph2020empirical-e41]
-- 拿该类研究固有的局限来批评，例如批评案例研究普适性低[^ralph2020empirical-e50]
+- 拿该类研究固有的局限来批评，例如批评案例研究普适性低[^ralph2020empirical-e25]
 - 要求做与研究目的无关的额外分析[^ralph2020empirical-e64]
 
 ---
 
 ## 5. 回复审稿意见：写给做决定的人看
 
-有的会议在决定前允许作者回复（author response，也叫 rebuttal），期刊则通常在修改稿中附回复信。作者回复最初是为了让作者指出审稿意见中的事实错误[^hicks2014response-e1]。
+有的会议在决定前允许作者回复（author response，也叫 rebuttal），期刊则通常在修改稿中附回复信（response letter，逐条说明你怎样回应每条审稿意见、改了哪里）。作者回复最初是为了让作者指出审稿意见中的事实错误[^hicks2014response-e1]。
 
-**先摆正预期。** 回复救不了一篇差论文；只有论文处在录用边缘，或审稿人犯了明显错误时，它才起作用[^zeller2012rebuttals-e8]。目标不是说服每个人，而是让至少一位审稿人愿意为你争取[^hicks2014response-e2]。
+**先摆正预期。** 回复救不了一篇差论文；只有论文处在录用边缘，或审稿人犯了明显错误时，它才起作用[^zeller2012rebuttals-e8]。在计算机等以会议为主的领域，目标不是说服每个人，而是让至少一位审稿人愿意为你争取[^hicks2014response-e2]。
 
 **核心原则**：回复要全面、直接、让审稿人和领域主席容易看懂[^parikh2020rebuttals-e1]。
 
@@ -150,7 +150,7 @@
 - 有分歧时拿数据说话，而不是争论[^parikh2020rebuttals-e9]。
 - 做不到的就如实说（例如不允许补实验、资源不够）[^parikh2020rebuttals-e11]。
 - 错别字、语言问题不必在回复里争取，篇幅留给重大问题[^zeller2012rebuttals-e5]。
-- 礼貌、感谢：审稿人是义务付出时间[^hicks2014response-e3]；回复不是发泄的地方[^zeller2012rebuttals-e7]。争辩可能让审稿人更坚定地反对，寻找共识更有效[^parikh2020rebuttals-e14]。
+- 礼貌、感谢：审稿人是义务付出时间[^hicks2014response-e3]；审稿是辛苦活，再不起眼的意见里也有对你有用的东西[^zeller2012rebuttals-e7]。争辩可能让审稿人更坚定地反对，寻找共识更有效[^parikh2020rebuttals-e14]。
 - 遇到明显不负责任或没有依据的意见，可以客观指出，让其他人适当降低它的分量[^parikh2020rebuttals-e15]。但如果**所有**审稿人都误解了论文，问题不在审稿人[^zeller2012rebuttals-e6]。
 
 > **不同的看法：要不要回应每一条意见？**
@@ -168,16 +168,14 @@
 
 ---
 
-## 6. 面对拒稿：先接纳情绪，再把意见变成修改清单
+## 6. 面对拒稿：把意见变成修改清单
 
-**被拒是常态。** 科研生涯充满拒稿，最好的科学家也一样[^bourne2005published-e3]。
+**被拒是常态。** 科研生涯充满拒稿，最好的科学家也一样[^bourne2005published-e3]。难过是正常的；怎样调整情绪、保持动力，见[心态与长期积累](../4_throughout/03_mindset_and_growth.md#1-把失败和被拒当作常态)。情绪平复后，按下面几步做：
 
-1. **允许自己难过。** 找朋友、同学、导师聊聊，休息一天再回来[^huang2021rejection-e1]。
-2. **不要当成针对你个人。** 拒稿针对的是想法、实现、实验和写作[^huang2021rejection-e2]。客观地而不是情绪化地对待审稿意见[^bourne2005published-e1]。
-3. **把审稿意见整理成待办清单**，在修改中逐一解决[^huang2021rejection-e2]。再差的审稿意见里也有对你有用的东西[^zeller2012rebuttals-e7]。
-4. **判断问题有多严重。** 如果审稿人一致认为论文质量差，接受它，继续前进；要求大修，就认真改、逐条回应[^bourne2005published-e2]。
-5. **改好再投。** 大多数论文长远看并不重要，职业生涯由少数好论文决定；借拒稿把论文改扎实，可能是好事[^huang2021rejection-e3]。这次不中，总还有下一个截稿日[^zeller2012rebuttals-e9]。
-6. **照顾好动力。** 可以建一份"失败简历"，把挫折当作常态[^huang2021rejection-e4]；庆祝小的进展[^huang2021rejection-e5]。
+1. **客观对待审稿意见**，不要当成针对你个人[^bourne2005published-e1][^huang2021rejection-e2]。
+2. **判断问题有多严重。** 如果审稿人一致认为论文质量差，接受它，继续前进；要求大修（major revision，即需要较大修改后重新送审）时，就认真改，在回复信和正文中逐条回应[^bourne2005published-e2]。
+3. **把审稿意见整理成待办清单**，在修改中逐一解决[^huang2021rejection-e2]。再不起眼的审稿意见里也有对你有用的东西[^zeller2012rebuttals-e7]。
+4. **改好再投。** 大多数论文长远看并不重要，职业生涯由少数好论文决定[^huang2021rejection-e3]；与其仓促改投，不如借这次机会把论文改扎实 `[本项目分析]`。这次不中，总还有下一个截稿日[^zeller2012rebuttals-e9]。
 
 ---
 
@@ -210,9 +208,9 @@
 | 把"简单"当成"不新" | 简单不等于平凡，事后显而易见不减损新颖性[^black2022novelty-e2][^black2022novelty-e3] |
 | 打高分却通篇批评，或反过来 | 作者和其他审稿人无法据此理解你的判断[^hicks2014reviewing-e4] |
 | 借审稿要求作者引用自己的论文 | 是推销自己，属于反面做法[^ralph2020empirical-e57] |
-| 审稿意见里嘲讽作者 | 不专业，还会让作者忽略你的有用意见[^roscoe2007reviews-e11][^mightreview-e7] |
+| 审稿意见里嘲讽论文、卖弄机智 | 审稿意见不是做这些的地方[^roscoe2007reviews-e11][^mightreview-e7] |
 | 回复只写给审稿人看 | 做决定的人可能只读回复[^parikh2020rebuttals-e3] |
-| 回复里发泄情绪、和审稿人争吵 | 只会让审稿人更坚定地反对[^zeller2012rebuttals-e7][^parikh2020rebuttals-e14] |
+| 回复里发泄情绪、和审稿人争吵 | 可能让审稿人更坚定地反对，寻找共识更有效[^parikh2020rebuttals-e14] |
 | 被拒后原样改投别处 | 浪费了审稿意见这份免费的改进清单[^huang2021rejection-e2] |
 
 ## 延伸阅读
@@ -337,12 +335,8 @@
 [^ralph2020empirical-e60]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e60)
 [^ralph2020empirical-e61]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e61)
 [^ralph2020empirical-e62]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e62)
-[^ralph2020empirical-e63]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e63)
+[^ralph2020empirical-e25]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e25)
 [^ralph2020empirical-e41]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e41)
-[^ralph2020empirical-e50]: SIGSOFT General Standard，Invalid Criticisms。[证据](../../../sources/notes/ralph2020empirical.md#e50)
 [^ralph2020empirical-e64]: SIGSOFT General Standard，Reviewing Antipatterns。[证据](../../../sources/notes/ralph2020empirical.md#e64)
-[^huang2021rejection-e1]: Jia-Bin Huang 2021，第 2 条（It’s okay to be upset），[原推文](https://twitter.com/jbhuang0604/status/1443248831102136333)。[证据](../../../sources/notes/huang2021rejection.md#e1)
 [^huang2021rejection-e2]: Jia-Bin Huang 2021，第 4 条（It’s not personal），[原推文](https://twitter.com/jbhuang0604/status/1443248831102136333)。[证据](../../../sources/notes/huang2021rejection.md#e2)
 [^huang2021rejection-e3]: Jia-Bin Huang 2021，第 5 条（It doesn't matter much），[原推文](https://twitter.com/jbhuang0604/status/1443248831102136333)。[证据](../../../sources/notes/huang2021rejection.md#e3)
-[^huang2021rejection-e4]: Jia-Bin Huang 2021，第 6 条（Maintain a CV of failures），[原推文](https://twitter.com/jbhuang0604/status/1443248831102136333)。[证据](../../../sources/notes/huang2021rejection.md#e4)
-[^huang2021rejection-e5]: Jia-Bin Huang 2021，第 7 条（Celebrate every little success），[原推文](https://twitter.com/jbhuang0604/status/1443248831102136333)。[证据](../../../sources/notes/huang2021rejection.md#e5)

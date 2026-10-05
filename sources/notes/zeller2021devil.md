@@ -29,6 +29,8 @@
 
 ### E5
 
+> 已作废：与 [E8](#e8) 重复（原文被 E8 完整包含）。
+
 - 位置：倒数第三段（Be efficient）
 - 原文："Do not register your study. Do not keep logs of experiments or decisions. Do not keep a history. Do not test your code. Do not validate your results. Do not share anything."
 - 要点：（反讽）不预先登记研究、不记实验日志、不测代码、不验证结果、不共享。反过来读就是一份良好做法清单。

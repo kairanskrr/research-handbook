@@ -78,11 +78,15 @@
 
 ### E13
 
+> 已作废：与 [E3](#e3) 重复（原文被 E3 完整包含）。
+
 - 位置：§3.1
 - 原文："a designated “Motivation” section clearly quarantines this discussion"
 - 要点：好的做法：把推测放在专门的小节里，与有证据的结论明确隔开。
 
 ### E14
+
+> 已作废：与 [E4](#e4) 重复（原文被 E4 完整包含）。
 
 - 位置：§3.2
 - 原文："Too frequently, authors propose many tweaks absent proper ablation studies, obscuring the source of empirical gains."

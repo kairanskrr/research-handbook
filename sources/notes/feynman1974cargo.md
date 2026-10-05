@@ -71,11 +71,15 @@
 
 ### E12
 
+> 已作废：与 [E9](#e9) 重复（原文被 E9 完整包含）。
+
 - 位置：演讲正文，讲"无论结果如何都发表"的段落
 - 原文："you should always decide to publish it whichever way it comes out. If we only publish results of a certain kind, we can make the argument look good."
 - 要点：决定检验一个理论，就要无论结果正反都发表；只发表某一类结果，会让论证显得比实际更好。
 
 ### E13
+
+> 已作废：与 [E10](#e10) 重复（原文被 E10 完整包含）。
 
 - 位置：演讲正文，Cornell 心理系学生做老鼠实验的例子
 - 原文："it was necessary first to repeat in her laboratory the experiment of the other person—to do it under condition X to see if she could also get result A—and then change to Y and see if A changed. Then she would know that the real difference was the thing she thought she had under control."
@@ -95,11 +99,15 @@
 
 ### E16
 
+> 已作废：与 [E5](#e5) 重复（原文被 E5 完整包含）。
+
 - 位置：演讲正文，科学诚信一节的小结
 - 原文："the idea is to try to give all of the information to help others to judge the value of your contribution; not just the information that leads to judgment in one particular direction or another."
 - 要点：报告的目的，是给出让别人能判断你工作价值的全部信息，而不只是引向某个方向的信息。
 
 ### E17
+
+> 已作废：与 [E3](#e3) 重复（原文被 E3 完整包含）。
 
 - 位置："leaning over backwards" 段
 - 原文："if you’re doing an experiment, you should report everything that you think might make it invalid—not only what you think is right about it"
