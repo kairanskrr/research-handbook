@@ -103,7 +103,7 @@
 
 | 分组 | 研究类型 | 对应的 SIGSOFT 标准 | 状态 |
 |---|---|---|---|
-| 文献类 | 系统性文献综述与映射研究 | Systematic Reviews | 初版，待审阅：[`slr.md`](fields/computer-science/research-types/slr.md)，第一批（定稿） |
+| 文献类 | 系统性文献综述与映射研究 | Systematic Reviews | 初版，待审阅：[`literature_review.md`](fields/computer-science/research-types/literature_review.md)，第一批（定稿） |
 | | 案例调查（案例元分析） | Case Survey | 未开始 |
 | | 方法论研究与元科学 | Methodological Guidelines and Meta-Science | 未开始 |
 | 构建与评估 | 工程研究（设计科学）：提出并评估新的方法、工具或系统 | Engineering Research | 未开始，第一批 |

@@ -124,7 +124,7 @@
 
 ### LLM 与软件工程
 
-- [iSEngLab/AwesomeLLM4SE](https://github.com/iSEngLab/AwesomeLLM4SE) - 综述 *A Survey on Large Language Models for Software Engineering*（Science China Information Sciences 2026）配套的论文列表。这类综述本身就是一份 SLR，它的论文列表可以作为 SLR 复现任务的参照答案。📦 `zhang2026survey`
+- [iSEngLab/AwesomeLLM4SE](https://github.com/iSEngLab/AwesomeLLM4SE) - 综述 *A Survey on Large Language Models for Software Engineering*（Science China Information Sciences 2026）配套的论文列表。这类综述本身就是一份系统性文献综述，可以作为系统综述的实例参考。📦 `zhang2026survey`
 - [codefuse-ai/Awesome-Code-LLM](https://github.com/codefuse-ai/Awesome-Code-LLM) - 综述 *Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code*（TMLR 2024）配套的代码大模型论文列表，持续更新。📦 `zhang2024unifying`
 
 ### 安全与模糊测试
