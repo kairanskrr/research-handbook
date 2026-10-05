@@ -67,6 +67,7 @@
 - [Guidelines for snowballing in systematic literature studies and a replication in software engineering](https://www.wohlin.eu/ease14.pdf) - Wohlin，EASE 2014。滚雪球检索的原始指南：起始集的选择、向前/向后滚雪球、停止条件；并用滚雪球重做了已发表的 SLR 作对比。🆓 `wohlin2014guidelines`
 - [Successful Combination of Database Search and Snowballing for Identification of Primary Studies in Systematic Literature Studies](https://arxiv.org/abs/2307.02612) - Wohlin 等人，IST 2022。数据库检索与滚雪球结合的混合策略，比单独数据库检索多找到约 30% 的一手研究。🆓 `wohlin2022successful`
 - [Paving the Way for Mature Secondary Research: The Seven Types of Literature Review](https://arxiv.org/abs/2205.01163) - Ralph & Baltes，ESEC/FSE 2022。把文献综述分为七类，并建议 SE 领域多做元分析、案例调查、元综合，少做范围综述和快速综述。🆓 `ralph2022paving`
+- [ACM Computing Surveys: Author Guidelines](https://dl.acm.org/journal/csur/author-guidelines) - ACM，计算机领域最主要的综述期刊对投稿的要求：综述论文应对已有文献分类、形成对领域的视角、评估趋势；并区分综述与教程。🆓 `acm2026csurguidelines`
 
 ### 复现研究
 

@@ -50,6 +50,7 @@
 | `peytonjones2013write` | How to Write a Great Research Paper | 演讲 | [网页](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) |
 | `keshav2007read` | How to Read a Paper | ACM SIGCOMM CCR 2007 | [SIGCOMM CCR](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) |
 | `karpathy2016survival` | A Survival Guide to a PhD | 博客 2016 | [网页](http://karpathy.github.io/2016/09/07/phd/) |
+| `acm2026csurguidelines` | ACM Computing Surveys: Author Guidelines | ACM 网页 | [Internet Archive 快照](http://web.archive.org/web/20260711105913/https://dl.acm.org/journal/csur/author-guidelines) |
 | `oecd2015frascati` | Frascati Manual 2015 | OECD 2015 | [OECD](https://doi.org/10.1787/9789264239012-en) |
 | `nielsen2004principles` | Principles of Effective Research | 技术笔记 2004 | [Internet Archive 快照](https://web.archive.org/web/20260824165302/https://michaelnielsen.org/blog/principles-of-effective-research/)（原地址已失效） |
 | `patterson2001bad` | How to Have a Bad Career in Research/Academia | 演讲 2001 | [作者主页](https://people.eecs.berkeley.edu/~pattrsn/talks/BadCareer.pdf) |
