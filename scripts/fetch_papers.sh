@@ -92,7 +92,7 @@ for entry in "${PAPERS[@]}"; do
     echo "跳过  $key（已存在）"; skip=$((skip+1)); continue
   fi
   tmp="$dest.part"
-  if curl -fsSL --retry 2 --max-time 120 -A "Mozilla/5.0 (merevo-resources fetch script)" -o "$tmp" "$url" \
+  if curl -fsSL --retry 2 --max-time 120 -A "Mozilla/5.0 (research-handbook fetch script)" -o "$tmp" "$url" \
      && head -c 4 "$tmp" | grep -q '%PDF'; then
     mv "$tmp" "$dest"; echo "完成  $key"; ok=$((ok+1))
   else
