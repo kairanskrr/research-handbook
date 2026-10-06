@@ -24,6 +24,7 @@
   - [数据挖掘研究](#数据挖掘研究)
   - [工具与模型评测](#工具与模型评测)
   - [实证研究通用](#实证研究通用)
+  - [计算机各研究类型的方法资料](#计算机各研究类型的方法资料)
 - [数据集与工具](#数据集与工具)
 - [论文列表](#论文列表)
   - [LLM 与软件工程](#llm-与软件工程)
@@ -89,7 +90,7 @@
 - [SoK: Benchmarking Flaws in Systems Security](https://trustworthy.systems/publications/full_text/vanderKouwe_HABG_19.pdf) - van der Kouwe 等人，EuroS&P 2019。总结系统安全论文中 22 种 benchmark 误用，基于 50 篇论文。🆓 `vanderkouwe2019sok`
 - [Dos and Don'ts of Machine Learning in Computer Security](https://arxiv.org/abs/2010.09470) - Arp 等人，USENIX Security 2022。基于 30 篇安全顶会论文，总结机器学习安全研究中设计、实现和评估的常见陷阱。🆓 `arp2022dos`
 - [A practical guide for using statistical tests to assess randomized algorithms in software engineering](https://doi.org/10.1145/1985793.1985795) - Arcuri & Briand，ICSE 2011。如何用统计检验比较带随机性的算法或工具。`arcuri2011practical`
-- [A Hitchhiker's guide to statistical tests for assessing randomized algorithms in software engineering](https://doi.org/10.1002/stvr.1486) - Arcuri & Briand，STVR 2014。上一篇的扩展期刊版。💰 `arcuri2014hitchhiker`
+- [A Hitchhiker's guide to statistical tests for assessing randomized algorithms in software engineering](https://doi.org/10.1002/stvr.1486) - Arcuri & Briand，STVR 2014。上一篇的扩展期刊版。[作者版本](https://orbilu.uni.lu/bitstream/10993/1071/1/paper_stvr_icse_2012.pdf)。🆓 `arcuri2014hitchhiker`
 - [SIGPLAN Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - Blackburn、Berger、Hauswirth、Hicks 等，ACM SIGPLAN 2018。七类检查项：明确声明、基准选择、数据分析、工作负载、统计严谨、威胁缓解、可复现。适合当作工具评测的检查清单。🆓 `blackburn2018sigplan`
 - [Gernot's List of Systems Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - Gernot Heiser（UNSW），持续更新。系统论文中常见的基准测试"罪行"：选择性使用基准、不当比较、关键信息缺失等。🆓 `heiserbenchmarking`
 - [The Devil's Guide to Incremental Research](https://andreas-zeller.info/2021/04/15/the-devils-guide-to-incremental-research.html) - Andreas Zeller，2021。以反讽方式列出 12 种"注水"研究的套路（例如挑选有利的结果），供作者和审稿人识别。🆓 `zeller2021devil`
@@ -117,6 +118,41 @@
 - [The European Code of Conduct for Research Integrity（2023 修订版）](https://doi.org/10.26356/ECOC) - ALLEA（欧洲科学与人文学院联合会），2023。适用于所有学科的科研诚信准则：四条基本原则、良好研究规范、学术不端的定义。CC BY 4.0。🆓 `allea2023european`
 - [Ethical considerations in network measurement papers](https://doi.org/10.1145/2896816) - Partridge & Allman，CACM 2016。测量类论文应如何讨论和处理伦理问题。`partridge2016ethical`
 
+
+### 计算机各研究类型的方法资料
+
+计算机领域篇各研究类型文档引用的方法论资料（2026-10 新增）。
+
+- [Ten Signs a Claimed Mathematical Breakthrough is Wrong](https://scottaaronson.blog/?p=304) - Aaronson，Shtetl-Optimized (blog) 2008。理论计算机科学家 Scott Aaronson 的博客文章，列出判断"重大数学突破"声明多半有错的十个信号，作者强调只是启发式。🆓 `aaronson2008ten`
+- [Output Data Analysis for Simulations](https://www.informs-sim.org/wsc02papers/012.pdf) - Alexopoulos 等人，Proceedings of the 2002 Winter Simulation Conference 2002。仿真输出数据统计分析的教程：终止型与稳态仿真的区别、独立重复运行、初始化偏差与预热期截断（含 Welch 作图法）、重复/删除法等。🆓 `alexopoulos2002output`
+- [Using thematic analysis in psychology](https://doi.org/10.1191/1478088706qp063oa) - Braun 等人，Qualitative Research in Psychology 2006。主题分析的经典指南：主题分析是什么、归纳与演绎、六个分析阶段、常见陷阱和 15 条检查清单。🆓 `braun2006using`
+- [Simulation Based Studies in Software Engineering: A Matter of Validity](https://www.clei.org/cleiej/index.php/cleiej/article/view/54) - de França 等人，CLEI Electronic Journal 2015。de França & Travassos 从软件工程仿真研究中整理出 28 种效度威胁，把它们和验证/确认方法对应起来，给出 7 条规划仿真研究的建议。🆓 `defranca2015simulation`
+- [Selecting Empirical Methods for Software Engineering Research](https://doi.org/10.1007/978-1-84800-044-5_11) - Easterbrook 等人，Guide to Advanced Empirical Software Engineering 2008。软件工程实证方法选择的经典导论，讲研究问题类型、哲学立场、各种方法（实验、案例研究、调查、民族志、行动研究）的适用场合，§5.6 介绍三种混合方法设计。🆓 `easterbrook2008selecting`
+- [Empirical Software Engineering Experts on the Use of Students and Professionals in Experiments](https://bura.brunel.ac.uk/handle/2438/14575) - Falessi 等人，Empirical Software Engineering 2018。Falessi 等七位实证软件工程研究者基于 ISERN 2014 焦点小组和后续专家调查，讨论实验中用学生还是专业人员作参与者，提出 16 条陈述和"真实、相关、近期经验"（R3）刻画方案。🆓 `falessi2018empirical`
+- [Psychometrics in Behavioral Software Engineering: A Methodological Introduction with Guidelines](https://arxiv.org/abs/2005.09959) - Graziotin 等人，ACM Transactions on Software Engineering and Methodology 2021。Graziotin、Lenberg、Feldt、Wagner 为软件工程研究者介绍心理测量学：怎样开发和评估测量心理构念的量表（题目分析、因子分析、信度、效度、公平性），附 R 示例。🆓 `graziotin2021psychometrics`
+- [State of the Art: Reproducibility in Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/11503) - Gundersen 等人，Proceedings of the Thirty-Second AAAI Conference on Artifici 2018。调查 IJCAI 和 AAAI 的 400 篇论文为可复现记录了多少必要信息；提出可复现的三个程度（R1 同实现同数据、R2 换实现同数据、R3 换实现换数据）。🆓 `gundersen2018state`
+- [Systematic methodological review: developing a framework for a qualitative semi-structured interview guide](https://doi.org/10.1111/jan.13031) - Kallio 等人，Journal of Advanced Nursing 2016。对半结构化访谈提纲设计方法的系统综述，归纳出五个阶段：确认前提、利用已有知识、拟定初稿、预试、呈现完整提纲；对主要话题、追问和三种预试方式讲得具体。🆓 `kallio2016systematic`
+- [Leakage and the reproducibility crisis in machine-learning-based science](https://doi.org/10.1016/j.patter.2023.100804) - Kapoor 等人，Patterns 2023。调查 17 个领域中由数据泄漏造成的可复现性问题（涉及 294 篇论文），提出 8 类泄漏的分类和"模型信息表"，并复现内战预测研究，发现改正泄漏后复杂模型并不优于逻辑回归。🆓 `kapoor2023leakage`
+- [Quantitative Longitudinal Research: A Review of IS Literature, and a Set of Methodological Guidelines](https://aisel.aisnet.org/ecis2015_cr/94) - Kehr 等人，Proceedings of the 23rd European Conference on Information S 2015。回顾信息系统领域的定量纵向研究，提出四条规划原则：按现象的自然节律安排测量、选对测量轮数、注意内部效度威胁（含流失）、选用适合相依数据的分析方法。🆓 `kehr2015quantitative`
+- [A Practical Guide to Controlled Experiments of Software Engineering Tools with Human Participants](https://faculty.washington.edu/ajko/papers/Ko2013SEToolEvaluations.pdf) - Ko 等人，Empirical Software Engineering 2015。Ko、LaToza、Burnett 在 Empirical Software Engineering 上的方法论文，结合对 2001～2011 年 345 项有人参与的工具评估的系统综述，逐项讲解招募、知情同意、分组、培训、任务设计、结果测量、结束说明和预实验的可选做法及其利弊。🆓 `ko2015practical`
+- [How to Write a Proof](https://lamport.azurewebsites.net/pubs/lamport-how-to-write.pdf) - Lamport，The American Mathematical Monthly 1995。Lamport 最早提出结构化证明的文章，讲写法、展开层次和作者发现教材证明错误的经历。🆓 `lamport1995how`
+- [How to Write a 21st Century Proof](https://lamport.azurewebsites.net/pubs/proof.pdf) - Lamport，Journal of Fixed Point Theory and Applications 2012。Leslie Lamport 讲结构化（分层编号）证明写法的文章，含二十年使用经验和一个用 TLAPS 机器检查的证明示例。🆓 `lamport2012how`
+- [Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice](https://doi.org/10.1145/3359174) - McDonald 等人，Proceedings of the ACM on Human-Computer Interaction 2019。分析 2016–2018 年 CSCW 和 CHI 的定性论文怎样报告可靠性，并给出何时该、何时不该计算编码者间信度的建议。🆓 `mcdonald2019reliability`
+- [Case Survey Studies in Software Engineering Research](https://doi.org/10.1145/3382494.3410683) - Melegati 等人，Proceedings of the 14th ACM / IEEE International Symposium o 2020。梳理案例调查方法的经典定义和步骤（Lucas、Yin、Larsson 等），并用映射研究分析 12 篇自称用了案例调查的软件工程论文，发现大多没有按经典定义来做。🆓 `melegati2020case`
+- [An Empirically Evaluated Checklist for Surveys in Software Engineering](https://arxiv.org/abs/1901.09850) - Molléri 等人，Information and Software Technology 2020。Molléri、Petersen、Mendes 汇总 14 篇软件工程问卷方法论文献，得到一份问卷研究检查清单，并用它评估了 24 篇问卷论文、请原作者反馈。🆓 `molleri2020empirically`
+- [Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program)](https://jmlr.org/papers/v22/20-303.html) - Pineau 等人，Journal of Machine Learning Research 2021。NeurIPS 2019 可复现性计划的报告：代码提交政策、社区复现挑战赛、机器学习可复现性检查清单；给出机器学习中复现困难的原因和几种术语的区分。🆓 `pineau2021improving`
+- [Action Research Can Swing the Balance in Experimental Software Engineering](https://arxiv.org/abs/1306.2414) - dos Santos 等人，Advances in Computers 2011。*Advances in Computers* 第 83 卷中的一章。🆓 `santos2011action`
+- [Verification and Validation of Simulation Models](https://www.informs-sim.org/wsc10papers/016.pdf) - Sargent，Proceedings of the 2010 Winter Simulation Conference 2010。Sargent 关于仿真模型验证与确认的经典教程（WSC 2010 版），给出验证、确认的定义，四类检查（概念模型确认、计算机模型验证、运行确认、数据有效性），常用检验技术，以及一套推荐的最低确认步骤。🆓 `sargent2010verification`
+- [The Role of Ethnographic Studies in Empirical Software Engineering](https://doi.org/10.1109/TSE.2016.2519887) - Sharp 等人，IEEE Transactions on Software Engineering 2016。面向软件工程研究者介绍民族志：四个主要特征、研究设计的五个维度、在实证软件工程中的四种作用，附八个软件工程民族志例子。🆓 `sharp2016role`
+- [Inferencing into the Void: Problems with Implicit Populations. Comments on ``Empirical Software Engineering Experts on the Use of Students and Professionals in Experiments''](https://arxiv.org/abs/1810.07392) - Shepperd，2018。Shepperd 对 Falessi 等人 2018 的评论（后收入 Feldt 等人 2018 在 Empirical Software Engineering 上发表的"四篇评论"），强调要明确定义目标总体，并同时考虑参与者、任务和环境的代表性；目标是专业人员时应尽量用专业人员。🆓 `shepperd2018inferencing`
+- [Guidelines for Conducting Action Research Studies in Software Engineering](https://www.e-informatyka.pl/EISEJ/papers/2025/1/5/) - Staron，e-Informatica Software Engineering Journal 2025。Staron（Springer 2020 专著 *Action Research in Software Engineering* 的作者）在 e-Informatica 期刊发表的行动研究指南，整理了 Davison、Baskerville 等已有指南，提出 20 条覆盖项目准备、干预、报告和伦理的建议。🆓 `staron2025guidelines`
+- [Grounded Theory in Software Engineering Research: A Critical Review and Guidelines](https://hdl.handle.net/10344/5396) - Stol 等人，Proceedings of the 38th International Conference on Software 2016。ICSE 2016 论文。🆓 `stol2016grounded`
+- [The who, what, how of software engineering research: a socio-technical framework](https://doi.org/10.1007/s10664-020-09858-z) - Storey 等人，Empirical Software Engineering 2020。提出"谁受益、贡献是什么、怎样研究"的社会—技术研究框架，用它分析 ICSE 和 EMSE 2017 年的 151 篇论文，发现大多数声称惠及人的研究并未直接研究人，以数据为主的论文很少与其他研究策略做三角验证。🆓 `storey2020who`
+- [Career Advice](https://terrytao.wordpress.com/career-advice/) - Tao，Whats new (blog) 。Terence Tao（陶哲轩）博客上的职业建议系列短文。🆓 `taocareer`
+- [On Writing](https://terrytao.wordpress.com/advice-on-writing-papers/) - Tao，Whats new (blog) 。Tao 博客上的写论文建议系列短文。🆓 `taowriting`
+- [Lessons Learnt in Conducting Survey Research](https://arxiv.org/abs/1702.05744) - Torchiano 等人，Proceedings of the 5th IEEE/ACM International Workshop on Co 2017。Torchiano、Méndez Fernández、Travassos、de Mello 总结在业界做问卷调查的经验教训，覆盖定研究目标、定总体和分析单元、抽样框、题目措辞和选项设计、招募与提醒，附大量正反例句。🆓 `torchiano2017lessons`
+- [Challenges in Survey Research](https://arxiv.org/abs/1908.05899) - Wagner 等人，Contemporary Empirical Methods in Software Engineering 2020。Wagner、Mendez、Felderer、Graziotin、Kalinowski 基于多轮跨国问卷（NaPiRE 等）的经验，讨论问卷调查与理论、抽样与样本量、邀请与跟进、定序数据的统计分析、开放题编码和心理测量量表的使用。🆓 `wagner2020challenges`
+- [Case Study Research in Software Engineering---It is a Case, and it is a Study, but is it a Case Study?](https://doi.org/10.1016/j.infsof.2021.106514) - Wohlin，Information and Software Technology 2021。检查 7 个软件工程期刊上最近 100 篇自称"案例研究"的论文，发现接近一半不符合案例研究的定义，并提出一个更严格的定义。🆓 `wohlin2021case`
 
 ## 数据集与工具
 

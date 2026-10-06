@@ -1,0 +1,70 @@
+# Storey 等人 2020：The Who, What, How of Software Engineering Research: A Socio-Technical Framework
+
+- 资料：`storey2020who`，[原文（arXiv）](https://arxiv.org/abs/1905.12841)
+- 版本：arXiv 1905.12841v3（2020 年 5 月），Empirical Software Engineering 25(5): 4097–4129, 2020 的作者版本。位置写到小节。
+
+### E1
+
+- 位置：§2 Background
+- 原文："But the analysis of trace data alone is fraught with threats to validity as it shows an incomplete picture of human behaviour, intent and social interactions in software engineering"
+- 要点：只分析开发活动留下的痕迹数据（提交、评审意见、论坛帖子等）有很多效度威胁，因为它只呈现了人的行为、意图和社会互动的一部分。
+
+### E2
+
+- 位置：§3.3 How Is the Research Conducted?
+- 原文："It is important to not confuse research strategy with research method. A research method is a technique used to collect data." / "In contrast, a research strategy is a broader term [38] that may involve the use of one or more methods for collecting data."
+- 要点：研究策略和研究方法不同：方法是收集数据的技术（如访谈）；策略是更宽的概念，可以包含一种或多种收集数据的方法。
+
+### E3
+
+- 位置：§3.3 How Is the Research Conducted?
+- 原文："Every empirical research strategy has strengths and weaknesses to consider in terms of research quality criteria [30], and every study design decision leads to trade-offs in terms of the potential to increase or decrease quality criteria." / "Since all strategies have inherent strengths and weaknesses, it may be important to triangulate across research strategies to mitigate the weaknesses of using a single strategy" / "Generalizability of the evidence over the population of human or system actors studied;" / "Realism of the context where the evidence was collected and needs to apply;" / "Control of extraneous human behaviour variables that may impact the evidence being collected; and" / "Precision of the system data that is collected as evidence."
+- 要点：每种实证研究策略在质量标准（推广性、真实性、对人为变量的控制、数据精度）上各有长短，每个设计决定都是权衡；因此可能需要跨策略做三角验证，弥补单一策略的弱点。
+
+### E4
+
+- 位置：§6.2 The Downside of Using Data Strategies for Studying Human Aspects
+- 原文："For descriptive research that aims to capture human and social aspects, data alone may also not tell the whole story and any conclusions drawn should be corroborated with other methods (such as interviews, surveys, or observations)."
+- 要点：描述人和社会层面的研究，单靠数据讲不出全部故事，结论应当用访谈、问卷或观察等其他方法印证。
+
+### E5
+
+- 位置：§6.2 The Downside of Using Data Strategies for Studying Human Aspects
+- 原文："For example, a solution paper that proposes a recommender system of possible defects may need to be evaluated with human actors to see how the tool perturbs the context in which it is used"
+- 要点：例子：一篇提出缺陷推荐系统的论文，可能需要在真人使用中评估，看工具怎样改变它所处的使用环境。
+
+### E6
+
+- 位置：§6.2 The Downside of Using Data Strategies for Studying Human Aspects
+- 原文："In some cases, this may be justified. For example, a study that evaluates a new technique to improve the build time of a project may not benefit from human feedback as the faster compilation probably implies a better developer experience."
+- 要点：并非所有研究都需要加入人的视角，例如评估缩短构建时间的新技术，人的反馈帮助不大。
+
+### E7
+
+- 位置：§6.4 Using Triangulation to Balance Benefits for Human and Technical Aspects
+- 原文："Methodological triangulation refers to using different strategies and/or methods, while data triangulation refers to when the same research method may be used but different sources of data are used."
+- 要点：方法三角验证指使用不同的策略或方法；数据三角验证指用同一种方法、不同的数据来源。
+
+### E8
+
+- 位置：§6.4 Using Triangulation to Balance Benefits for Human and Technical Aspects
+- 原文："While the use of data triangulation may improve generalizability, it does not improve realism or control over human variables."
+- 要点：数据三角验证（例如在更多数据集上重复）可能提高推广性，但不能提高真实性，也不能加强对人为变量的控制。
+
+### E9
+
+- 位置：§6.4 Using Triangulation to Balance Benefits for Human and Technical Aspects
+- 原文："For the data strategy papers, the vast majority did not triangulate their findings with other strategy quadrants, but when triangulation did occur, data strategies were mostly triangulated with a respondent strategy (surveys or interviews)."
+- 要点：在作者分析的 ICSE 和 EMSE 2017 年论文中，以数据为主的论文绝大多数没有和其他策略做三角验证；做了的，多数是配上问卷或访谈。
+
+### E10
+
+- 位置：§6.4 Using Triangulation to Balance Benefits for Human and Technical Aspects
+- 原文："We could not determine whether authors triangulated their work outside of the papers we considered, and we recognize that the responsibility for triangulation does not need to be on the level of individual papers."
+- 要点：作者承认，三角验证的责任不一定要落在单篇论文上，也可以由后续或其他研究完成。
+
+### E11
+
+- 位置：§6.4 Using Triangulation to Balance Benefits for Human and Technical Aspects
+- 原文："In sum, multiple research strategies should be used to support triangulation, not just to triangulate specific findings, but to further add to insights concerning software engineering problem contexts, possible solutions for those problems, and the evaluation of those solutions"
+- 要点：使用多种研究策略不仅是为了印证某个具体发现，也是为了加深对问题背景、可能的解决方案及其评估的理解。

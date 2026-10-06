@@ -98,3 +98,63 @@
 - 位置：§6.3 Guidelines for reviewers
 - 原文："randomness argument to representativeness is unconvincing when the sample was randomly selected from a purposively assembled subset of the repository," [...] "and there is no evidence that the software in the repository does not differ from software in general on the dimensions of interest."
 - 要点：从仓库里按目的挑出的子集中再随机抽样，并且没有证据说明这些软件在关心的维度上与一般软件无异时，"随机所以有代表性"的论证站不住。
+
+### E17
+
+- 位置：§2.6 Representativeness
+- 原文："The breadth argument supports generalization of correlations" [...] "However, the breath argument does not support point estimates."
+- 要点：样本又大又广，可以支持"相关关系能推广"的论证，但不能支持点估计（例如"有 1% 的人如何"这种具体比例）。
+
+### E18
+
+- 位置：§2.1.4 Respondent-driven sampling
+- 原文："Respondent-driven sampling is an advanced form of referral-chain sampling designed to mitigate sampling bias" [...] "Respondent-driven sampling has, however, been criticized for producing optimistic conﬁdence intervals"
+- 要点：应答者驱动抽样是为减轻抽样偏差而设计的进阶版滚雪球抽样，但也被批评给出的置信区间过于乐观。
+
+### E19
+
+- 位置：§6.2 Mitigating sampling bias in different kinds of studies
+- 原文："These include starting with important questions that resonate with participants (not demographics), avoiding matrix questions, avoiding mandatory questions, and sending reminders. Oﬀering incentives (e.g. cash, prizes) is also eﬀective." [...] "Many questionnaire studies in SE use none of these techniques."
+- 要点：减轻问卷抽样偏差和回应偏差的做法：开头放能引起共鸣的重要问题（不是人口学问题），避免矩阵题和必答题，发提醒，提供激励；很多软件工程问卷研究一项都没用。
+
+### E20
+
+- 位置：§6.3 Guidelines for reviewers
+- 原文："The whole point of a large questionnaire survey is to sacriﬁce internal validity for external validity."
+- 要点：大规模问卷调查的意义，就在于牺牲内部效度换取外部效度（可推广性）。
+
+### E21
+
+- 位置：§6.3 Guidelines for reviewers
+- 原文："This should be rejected not because it uses convenience sampling but because appropriate, practical steps for mitigating sampling bias were not taken." [...] "They should have reported response rates or bounce rates, compared early responders to late responders and so on."
+- 要点：通过邮件列表招募的问卷研究，该被拒的理由不是用了便利抽样，而是没有采取可行的减偏措施；例如应报告回应率或退信率，比较早回答者和晚回答者。
+
+### E22
+
+- 位置：§7 Related Work
+- 原文："contacting developers on GitHub using email addresses users did not provide for this purpose"
+- 要点：用开发者并非为此目的提供的邮箱在 GitHub 上联系他们，存在伦理问题。
+
+### E23
+
+- 位置：§2.1.2 Purposive sampling
+- 原文："In purposive sampling, items are selected according to some logic or strategy, carefully but not randomly" / "the goal of non-probability sampling is often to ﬁnd accessible, information-rich cases, sites, organizations or contexts from which researchers can learn about their topic of study"
+- 要点：目的抽样是按某种逻辑或策略、仔细但非随机地选择对象；非概率抽样的目标常常是找到能接触到、信息丰富的个案，从中了解研究主题。
+
+### E24
+
+- 位置：§2.1.2 Purposive sampling
+- 原文："The main challenge with purposive sampling is that it is intrinsically subjective and opportunistic."
+- 要点：目的抽样的主要问题是它本质上主观、带有机会主义色彩。
+
+### E25
+
+- 位置：§2.4 Sampling in qualitative research
+- 原文："Interviewing whoever will speak on a subject of interest is convenience sampling."
+- 要点：谁愿意谈就访谈谁，属于便利抽样。
+
+### E26
+
+- 位置：§2.4 Sampling in qualitative research
+- 原文："In the grounded theory literature, theoretical sampling refers to selecting items to study based on an emerging theory"
+- 要点：理论抽样是根据正在形成的理论来决定接下来研究什么对象。

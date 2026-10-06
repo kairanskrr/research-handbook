@@ -86,3 +86,33 @@
 - 位置：Results Validated
 - 原文："exact replication or reproduction of results is not required, or even expected. Instead, the results must be in agreement to within a tolerance deemed acceptable for experiments of the given type."
 - 要点："结果已验证"不要求数字完全一致，只要在该类实验可接受的误差内一致、不改变主要结论。
+
+### E15
+
+- 位置：Results Validated
+- 原文："In particular, differences in the results should not change the main claims made in the paper."
+- 要点：结果上的差异不应改变论文的主要主张。
+
+### E16
+
+- 位置：Terminology，Repeatability
+- 原文："Repeatability (Same team, same experimental setup)" / "For computational experiments, this means that a researcher can reliably repeat her own computation."
+- 要点：可重复（repeatability）：同一团队、同一实验设置；对计算实验来说，就是研究者能可靠地重复自己的计算。
+
+### E17
+
+- 位置：Terminology，Reproducibility
+- 原文："Reproducibility (Different team, same experimental setup)" / "For computational experiments, this means that an independent group can obtain the same result using the author’s own artifacts."
+- 要点：可复现（reproducibility）：不同团队、同一实验设置；对计算实验来说，就是独立的团队用原作者的制品得到相同结果。
+
+### E18
+
+- 位置：Terminology，Replicability
+- 原文："Replicability (Different team, different experimental setup)" / "For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently."
+- 要点：可重现（replicability）：不同团队、不同实验设置；对计算实验来说，就是独立的团队用完全自己开发的制品得到相同结果。
+
+### E19
+
+- 位置：Terminology，星号注释
+- 原文："ACM agreed with NISO’s recommendation to swap the terms “reproducibility” and “replication” with the existing definitions used by ACM as part of its artifact review and badging initiative. ACM took action to update all prior badging to ensure consistency."
+- 要点：ACM 曾按美国国家信息标准组织（NISO）的建议，把 reproducibility 和 replication 两个词的含义对调，以与更广的科学界一致，并更新了以前的全部徽章。较早的文献可能用的是对调前的说法。

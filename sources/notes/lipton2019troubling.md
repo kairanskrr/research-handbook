@@ -97,3 +97,39 @@
 - 位置：§4.1
 - 原文："Authors with strong results may feel licensed to insert arbitrary unsupported stories"
 - 要点：结果好时，作者容易觉得可以随意加入没有证据支持的解释。
+
+### E16
+
+- 位置：§2 Disclaimers
+- 原文："This paper aims to instigate discussion, answering a call for papers from the ICML Machine Learning Debates workshop. While we stand by the points represented here, we do not purport to offer a full or balanced viewpoint or to discuss the overall quality of science in ML."
+- 要点：作者说明文章的定位：为 ICML 一个辩论性质的研讨会而写，目的是引发讨论；坚持文中观点，但不声称观点全面、平衡，也不评价机器学习研究的整体质量。
+
+### E17
+
+- 位置：§2 Disclaimers
+- 原文："We note that these arguments are made by us, against us, by insiders offering a critical introspective look, not as sniping outsiders." / "Exhibiting one of these patterns doesn’t make a paper bad nor does it indict the paper’s authors"
+- 要点：作者强调批评来自圈内人的自我反省，也针对自己；一篇论文出现这些问题，不代表它是坏论文，也不是在指控作者。
+
+### E18
+
+- 位置：§2 Disclaimers
+- 原文："our guiding principles are to (i) implicate ourselves, and (ii) to preferentially select from the work of better-established researchers and institutions that we admire, to avoid singling out junior students for whom inclusion in this discussion might have consequences and who lack the opportunity to reply symmetrically."
+- 要点：举例的原则：一是把自己也算进去；二是优先选自己敬重的知名研究者和机构的工作，避免点名年轻学生——他们被点名可能受影响，也没有对等的回应机会。
+
+### E19
+
+- 位置：§3 Troubling Trends
+- 原文："In each subsection below, we (i) describe a trend; (ii) provide several examples (as well as positive examples that resist the trend); and (iii) explain the consequences. Pointing to weaknesses in individual papers can be a sensitive topic. To minimize this, we keep examples short and specific."
+- 要点：每一节的写法：描述一种趋势，给几个例子（也给出没有这个问题的正面例子），再解释后果；指出具体论文的弱点是敏感的，所以例子要简短、具体。
+
+### E20
+
+- 位置：§3.1，正面例子
+- 原文："Here, the authors carefully convey uncertainty. Instead of presenting the guidelines as authoritative, the paper states" / "they should be challenged. They constitute a good starting point"
+- 要点：正面例子：一篇给出神经网络训练指南的论文，没有把指南说成权威结论，而是说明它们应当接受质疑、只是一个好的起点。
+
+### E21
+
+- 位置：§6.1 Countervailing Considerations
+- 原文："There are a number of countervailing considerations to the suggestions set forth above." / "We recognize the validity of these considerations, and also recognize that these standards are at times exacting." / "we present these as strong heuristics rather than unbreakable rules"
+- 要点：作者专门用一节讨论反对自己建议的理由，承认这些理由成立、自己的标准有时要求很高，并把建议定位为"强有力的经验法则"而不是不可违反的规则。

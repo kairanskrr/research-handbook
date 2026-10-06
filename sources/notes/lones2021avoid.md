@@ -105,3 +105,57 @@
 - 位置：§6.2 Do report performance in multiple ways
 - 原文："One way to achieve better rigour when evaluating and comparing models is to use multiple data sets."
 - 要点：用多个数据集评估和比较模型，可以弥补单个数据集的缺陷，给出更完整的图景。
+
+### E18
+
+- 位置：§3.1 Don’t allow test data to leak into the training process
+- 原文："using information about the means and ranges of variables within the whole data set to carry out variable scaling or imputation — in order to prevent information leakage, these statistics should be calculated using only the training data."
+- 要点：用整个数据集的均值和取值范围做缩放或填补缺失值会泄漏信息，这些统计量只能用训练数据计算。
+
+### E19
+
+- 位置：§2.2 Do take the time to understand your data
+- 原文："Do not assume that, because a data set has been used by a number of papers, it is of good quality"
+- 要点：不要因为一个数据集被很多论文用过，就认为它质量好；要弄清它从哪来、作者说过哪些局限。
+
+### E20
+
+- 位置：§2.4 Do clean your data
+- 原文："One common problem to look out for is data duplication, i.e. the unintentional inclusion of multiple copies of a data point." / "only remove these if they are likely to be the result of noise or error rather than being natural extremes of the underlying datagenerating process"
+- 要点：建模之前就要找出数据问题，例如无意中重复收录的样本；离群值只有在可能是噪声或错误时才删除，不要删掉真实存在的极端值。
+
+### E21
+
+- 位置：§4.4 Do evaluate a model multiple times
+- 原文："in medical datasets, it is commonplace to have multiple data points for a single subject; to avoid data leakage, these should be kept together within the same fold."
+- 要点：医疗数据中同一个人常有多条记录，做交叉验证时要把它们放在同一折，避免泄漏。
+
+### E22
+
+- 位置：§4.8 Don’t ignore temporal dependencies in time series data
+- 原文："This occurs when some or all of the data points used to train the model occur later in the time series than those used to test the model." / "A situation where this commonly occurs is when standard cross-validation"
+- 要点：前视偏差（look ahead bias）：训练数据的时间晚于测试数据，相当于让模型知道了未来；对时间序列直接用标准交叉验证就常出现这个问题。
+
+### E23
+
+- 位置：§4.6 Do choose metrics carefully，图 6
+- 原文："a dummy model which always predicts the same class label has an accuracy of 50% or 90% depending on the distribution of class labels within the data."
+- 要点：一个永远预测同一类别的"傻瓜模型"，准确率可以是 50% 也可以是 90%，全看数据中的类别比例。
+
+### E24
+
+- 位置：§4.6 Do choose metrics carefully
+- 原文："A well-known example is relying only on the RMSE, which (a bit like accuracy) is susceptible to assigning high value to models which always predict no change."
+- 要点：回归和时间序列预测中只看均方根误差（RMSE）也有类似问题：总是预测"不变"的模型也可能得到好分数。
+
+### E25
+
+- 位置：§3.8 Do avoid learning spurious correlations
+- 原文："More complex data tends to contain more of these spurious correlations, and more complex models have more capacity to overfit spurious correlations."
+- 要点：数据越复杂，虚假相关越多；模型越复杂，越容易过拟合这些虚假相关。
+
+### E26
+
+- 位置：§6.5 Do look at your models
+- 原文："Remember that the aim of research is not to get a slightly higher accuracy than everyone else. Rather, it’s to generate knowledge and understanding and share this with the research community." / "So, do look inside your models and do try to understand how they reach a decision."
+- 要点：研究的目的不是比别人的准确率高一点，而是产生知识和理解；要看看模型到底学到了什么。

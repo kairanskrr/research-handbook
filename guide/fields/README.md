@@ -75,21 +75,21 @@
 | 分组 | 研究类型 | 对应的 SIGSOFT 标准 | 状态 |
 |---|---|---|---|
 | 文献类 | 综述研究：系统综述、映射研究、综述论文 | Systematic Reviews | 初稿，待审阅：[`review_study.md`](computer-science/research-types/review_study.md)。研究类型文档的样板 |
-| | 案例调查（案例元分析） | Case Survey | 未开始 |
-| | 方法论研究与元科学 | Methodological Guidelines and Meta-Science | 未开始 |
-| 构建与评估 | 工程研究（设计科学）：提出并评估新的方法、工具或系统 | Engineering Research | 初稿，待审阅：[`engineering_research.md`](computer-science/research-types/engineering_research.md) |
-| | 优化研究（含基于搜索的软件工程） | Optimization Studies | 未开始 |
+|  | 案例调查（案例元分析） | Case Survey | 初稿，待审阅：[`case_survey.md`](computer-science/research-types/case_survey.md) |
+|  | 方法论研究与元科学 | Methodological Guidelines and Meta-Science | 初稿，待审阅：[`meta_science.md`](computer-science/research-types/meta_science.md) |
+| 构建与评估 | 工程研究：提出并评估新的方法、工具或系统 | Engineering Research | 初稿，待审阅：[`engineering_research.md`](computer-science/research-types/engineering_research.md) |
+|  | 优化研究（含基于搜索的软件工程） | Optimization Studies | 初稿，待审阅：[`optimization_study.md`](computer-science/research-types/optimization_study.md) |
 | | 基准评测 | Benchmarking | 初稿，待审阅：[`benchmarking.md`](computer-science/research-types/benchmarking.md) |
-| | 定量仿真 | Simulation (Quantitative) | 未开始 |
+|  | 定量仿真 | Simulation (Quantitative) | 初稿，待审阅：[`simulation_study.md`](computer-science/research-types/simulation_study.md) |
 | 基于已有数据 | 仓库挖掘 | Repository Mining | 初稿，待审阅：[`repository_mining.md`](computer-science/research-types/repository_mining.md) |
-| | 数据科学 | Data Science | 未开始 |
-| | 纵向研究 | Longitudinal Studies | 未开始 |
-| 涉及人的研究 | 对照实验（有人类参与者） | Experiments | 未开始 |
-| | 问卷调查 | Questionnaire Surveys | 未开始 |
-| | 定性访谈 | Qualitative Surveys | 未开始 |
-| | 案例研究与民族志 | Case Study and Ethnography | 未开始 |
-| | 扎根理论 | Grounded Theory | 未开始 |
-| | 行动研究 | Action Research | 未开始 |
-| 跨方法 | 复现研究 | Replication | 未开始 |
-| | 混合方法 | Multi-Methodology and Mixed Methods | 未开始 |
-| 理论 | 理论研究（证明、形式化分析） | 无，本项目补充 | 未开始 |
+|  | 数据科学 | Data Science | 初稿，待审阅：[`data_science.md`](computer-science/research-types/data_science.md) |
+|  | 纵向研究 | Longitudinal Studies | 初稿，待审阅：[`longitudinal_study.md`](computer-science/research-types/longitudinal_study.md) |
+| 涉及人的研究 | 对照实验（有人类参与者） | Experiments | 初稿，待审阅：[`controlled_experiment.md`](computer-science/research-types/controlled_experiment.md) |
+|  | 问卷调查 | Questionnaire Surveys | 初稿，待审阅：[`questionnaire_survey.md`](computer-science/research-types/questionnaire_survey.md) |
+|  | 访谈研究（定性访谈） | Qualitative Surveys | 初稿，待审阅：[`interview_study.md`](computer-science/research-types/interview_study.md) |
+|  | 案例研究与民族志 | Case Study and Ethnography | 初稿，待审阅：[`case_study.md`](computer-science/research-types/case_study.md) |
+|  | 扎根理论 | Grounded Theory | 初稿，待审阅：[`grounded_theory.md`](computer-science/research-types/grounded_theory.md) |
+|  | 行动研究 | Action Research | 初稿，待审阅：[`action_research.md`](computer-science/research-types/action_research.md) |
+| 跨方法 | 复现研究 | Replication | 初稿，待审阅：[`replication.md`](computer-science/research-types/replication.md) |
+|  | 混合方法 | Multi-Methodology and Mixed Methods | 初稿，待审阅：[`mixed_methods.md`](computer-science/research-types/mixed_methods.md) |
+| 理论 | 理论研究（证明、形式化分析） | 无，本项目补充 | 初稿，待审阅：[`theoretical_research.md`](computer-science/research-types/theoretical_research.md) |

@@ -117,3 +117,33 @@
 - 位置：§1 Introduction
 - 原文："We found that no fuzz testing evaluation carries out all of the above steps properly (though some get close)."
 - 要点：被调查的 32 篇论文中，没有一篇的评估把所有步骤都做对了。
+
+### E20
+
+- 位置：§1 Introduction
+- 原文："This is bad news in theory, and after carrying out more than 50000 CPU hours of experiments, we believe it is bad news in practice, too." / "We found that experiments that deviate from the above recipe could easily lead one to draw incorrect conclusions"
+- 要点：作者做了超过 5 万 CPU 小时的实验，说明偏离推荐做法的实验很容易得出错误结论——问题不只是理论上的。
+
+### E21
+
+- 位置：§1 Introduction
+- 原文："We chose AFLFast as it was a recent advance over the state of the art; its code was publicly available; and we were confident in our ability to rerun the experiments described by the authors in their own evaluation and expand these experiments by varying parameters that the original experimenters did not."
+- 要点：选 AFLFast 做演示的理由：它是新近的改进、代码公开、能重跑原作者的实验，并能改变原作者没有改变的参数来扩展实验。
+
+### E22
+
+- 位置：§3 Overview and Experimental Setup
+- 原文："our goal is not to reproduce AFLFast’s results, but rather to use it as a representative “advanced” fuzzer for purposes of considering (in)validity of approaches to empirically evaluating fuzzers."
+- 要点：实验目的不是复现某篇论文的结果，而是拿它当一个有代表性的例子，检验各种评估做法是否站得住。
+
+### E23
+
+- 位置：Table 1（§3）；§4 Statistically Sound Comparisons
+- 原文："Table 1: Summary of past fuzzing evaluation. Blank cell means that the paper’s evaluation did not mention this item" / "Table 1 shows that most (17 out of 32) fuzzing papers we considered make no mention of the number of trials performed."
+- 要点：Table 1 汇总了被调查论文的评估做法（空格表示该论文没有提到这一项）；例如 32 篇中有 17 篇没有提到运行了几次试验。
+
+### E24
+
+- 位置：§9 Conclusions and Future Work
+- 原文："multiple trials with statistical tests to distinguish distributions" / "timeouts of at least 24 hours, or else justification for less, with performance plotted over time"
+- 要点：作者给出了具体的评估建议，例如多次试验并用统计检验比较分布；运行至少 24 小时（或说明更短的理由），并画出性能随时间的变化。

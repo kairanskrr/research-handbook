@@ -153,3 +153,63 @@
 - 位置：§I Introduction
 - 原文："We believe that most, if not all, benchmarking flaws we found are unintentional and just denote insufficient attention devoted to performance benchmarking in our community."
 - 要点：作者认为这些缺陷大多不是故意的，只是对性能评测重视不够。
+
+### E26
+
+- 位置：Abstract
+- 原文："we identify 22 benchmarking flaws that threaten the validity of systems security evaluations, and survey 50 defense papers published in top venues." / "tier-1 papers contain an average of five benchmarking flaws and we find only a single paper in our sample without any benchmarking flaws"
+- 要点：作者整理出 22 种威胁评估效度的基准测试缺陷，调查了 50 篇顶会防御论文：平均每篇 5 个缺陷，只有 1 篇没有。
+
+### E27
+
+- 位置：§I Introduction；§III-B Selected venues
+- 原文："For this purpose, we selected all defense papers with benchmarking results published in 2010 and 2015." / "the “top 4” venues are the most influential and de-facto set the standard for benchmarking practices in the community."
+- 要点：样本：四个顶级安全会议在 2010 年和 2015 年发表的、带基准测试结果的全部防御论文；选这四个会议，是因为它们最有影响力，事实上决定了领域的评测惯例。
+
+### E28
+
+- 位置：§III-A Classification methodology
+- 原文："two persons independently categorized each paper for each flaw as correct, flawed, underspecified, or not applicable." / "the readers discussed their assessments to converge on a final classification. This was the case for 8 out of 50 papers (16%)."
+- 要点：两人独立地对每篇论文的每种缺陷做判断（正确、有缺陷、描述不足、不适用）；有分歧的 8 篇（16%）经讨论达成最终分类。
+
+### E29
+
+- 位置：§III-A Classification methodology
+- 原文："We use only information from the papers themselves and did not contact the authors for explanation. Effectively, we impose on ourselves the same constraints reviewers face when deciding whether to accept or reject a paper in a double-blind submission system."
+- 要点：只依据论文本身的信息，不联系作者询问；等于给自己加上双盲审稿时审稿人面对的同样限制。
+
+### E30
+
+- 位置：§I Introduction
+- 原文："As we do not allege intent, we use the term benchmarking flaws instead of the (tongue in cheek) term “benchmarking crimes” used earlier in the literature" / "We believe that most, if not all, benchmarking flaws we found are unintentional and just denote insufficient attention devoted to performance benchmarking in our community."
+- 要点：因为不指控动机，作者用"缺陷"而不用早先文献里半开玩笑的"罪行"一词；并认为这些缺陷大多不是故意的，只说明领域对性能评测重视不够。
+
+### E31
+
+- 位置：§VII Limitations；附录 A
+- 原文："we think that naming and shaming would be counterproductive as in our opinion the problem is not with individuals but rather the community as a whole." / "detailed discussion in Appendix A that should allow others to perform the survey themselves according to the same criteria." / "to keep the discussion anonymous with regard to the papers in our sample, we either abstract away or change some of the details."
+- 要点：作者没有公开哪篇论文有哪些缺陷，认为点名羞辱适得其反，问题在整个群体而不在个人；作为补偿，附录详细说明判定标准，让别人能按同样标准重做调查；附录中的例子也做了抽象或改动以保持匿名。
+
+### E32
+
+- 位置：§VII Limitations
+- 原文："published papers are not necessarily a representative sample of all papers, especially at the top conferences."
+- 要点：局限：已发表的论文不一定能代表所有论文（包括投稿），在顶会尤其如此。
+
+### E33
+
+- 位置：§IX Related work，Benchmarking advice
+- 原文："While these studies demonstrate important benchmarking problems, the lack of a survey means they cannot determine the impact these potential problems have on the research literature."
+- 要点：只用例子和自己的测试来指出问题的文章，能说明问题存在，但没有系统调查，就无法判断这些问题在已发表文献中影响有多大。
+
+### E34
+
+- 位置：§I Introduction
+- 原文："As for the cause of the flaws we encountered, we can only speculate."
+- 要点：对缺陷产生的原因，作者明确说只能推测。
+
+### E35
+
+- 位置：§V Impact
+- 原文："the problem of benchmarking flaws is not an issue of a few authors and reviewers being particularly careless (or malicious), but rather a community-wide lack of awareness of or attention to these problems."
+- 要点：缺陷在各篇论文间分布得相当均匀，说明这不是少数作者和审稿人格外粗心（或恶意），而是整个领域对这些问题缺乏认识和重视。

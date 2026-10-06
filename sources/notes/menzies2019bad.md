@@ -75,3 +75,27 @@
 - 位置：§4.4 Inadequate Reporting，第 1 条
 - 原文："The work cannot be reproduced because the descriptions are too incomplete or high level. In addition, not all materials ( data and code) are available"
 - 要点：描述太粗、数据和代码没有全部公开，别人就无法复现。
+
+### E13
+
+- 位置：§4.10 Not Tuning
+- 原文："Many machine learners, including data miners, have poorly chosen defaults"
+- 要点：很多机器学习算法的默认设置选得并不好。
+
+### E14
+
+- 位置：§4.10 Not Tuning
+- 原文："As to how to tune, we strongly recommend against the “grid search” i.e., a set of nested for-loops that try a wide range of settings for all tuneable parameters." / "This is a slow approach" / "it has been reported that grid search can miss important optimizations" / "we recommend very simple optimizers (such as differential evolution [103]) can sufﬁce for ﬁnding better tunings"
+- 要点：作者强烈反对用网格搜索（嵌套循环遍历所有参数组合）调参：慢，而且格点之间的空隙可能漏掉好的设置；建议用差分进化等简单优化器。
+
+### E15
+
+- 位置：§4.11 Not Exploring Simplicity
+- 原文："many SE data sets have very simpler regular structures, so very simple techniques can execute much faster and perform just as well, or better, than Deep Learning."
+- 要点：（软件工程数据的例子）很多软件工程数据集结构简单，很简单的方法跑得快得多，效果和深度学习一样甚至更好。
+
+### E16
+
+- 位置：§4.11 Not Exploring Simplicity
+- 原文："by ﬁrst running a very simple algorithm, it is easy to quickly obtain baseline results to glean the overall structure of the problem."
+- 要点：先跑一个很简单的算法，可以很快得到基线结果，了解问题的大致结构。

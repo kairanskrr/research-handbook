@@ -34,7 +34,7 @@
 | `kalliamvakou2014promises` | The promises and perils of mining GitHub | MSR 2014 | [作者主页](https://kblincoe.github.io/publications/2014_MSR_Promises_Perils.pdf) |
 | `kalliamvakou2016indepth` | An in-depth study of the promises and perils of mining GitHub | EMSE 2016 | [作者主页](https://kblincoe.github.io/publications/2015_EMSE_GitHubPerils.pdf) |
 | `arcuri2011practical` | A practical guide for using statistical tests to assess randomized algorithms in software engineering | ICSE 2011 | 未确认（ACM 上可能免费） |
-| `arcuri2014hitchhiker` | A Hitchhiker's guide to statistical tests for assessing randomized algorithms in software engineering | STVR 2014 | 💰 |
+| `arcuri2014hitchhiker` | A Hitchhiker's guide to statistical tests for assessing randomized algorithms in software engineering | STVR 2014 | [卢森堡大学机构库（作者版本）](https://orbilu.uni.lu/bitstream/10993/1071/1/paper_stvr_icse_2012.pdf) |
 | `klees2018evaluating` | Evaluating Fuzz Testing | CCS 2018 | [arXiv:1808.09700](https://arxiv.org/abs/1808.09700) |
 | `vanderkouwe2019sok` | SoK: Benchmarking Flaws in Systems Security | EuroS&P 2019 | [作者机构](https://trustworthy.systems/publications/full_text/vanderKouwe_HABG_19.pdf) |
 | `arp2022dos` | Dos and Don'ts of Machine Learning in Computer Security | USENIX Security 2022 | [arXiv:2010.09470](https://arxiv.org/abs/2010.09470) |
@@ -77,6 +77,36 @@
 | `usenixsec2026cfp` | USENIX Security '26 Call for Papers | 2026 | [链接](https://www.usenix.org/conference/usenixsecurity26/call-for-papers) |
 | `neurips2025cfp` | NeurIPS 2025 Call for Papers | 2025 | [链接](https://neurips.cc/Conferences/2025/CallForPapers) |
 | `sainz2023nlp` | NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark | Findings of EMNLP 2023 | [链接](https://arxiv.org/abs/2310.18018) |
+| `aaronson2008ten` | Ten Signs a Claimed Mathematical Breakthrough is Wrong | Shtetl-Optimized (blog) 2008 | [链接](https://scottaaronson.blog/?p=304) |
+| `alexopoulos2002output` | Output Data Analysis for Simulations | Proceedings of the 2002 Winter Simulatio 2002 | [链接](https://www.informs-sim.org/wsc02papers/012.pdf) |
+| `braun2006using` | Using thematic analysis in psychology | Qualitative Research in Psychology 2006 | [链接](https://doi.org/10.1191/1478088706qp063oa) |
+| `defranca2015simulation` | Simulation Based Studies in Software Engineering: A Matter of Validity | CLEI Electronic Journal 2015 | [链接](https://www.clei.org/cleiej/index.php/cleiej/article/view/54) |
+| `easterbrook2008selecting` | Selecting Empirical Methods for Software Engineering Research | Guide to Advanced Empirical Software Eng 2008 | [链接](https://doi.org/10.1007/978-1-84800-044-5_11) |
+| `falessi2018empirical` | Empirical Software Engineering Experts on the Use of Students and Professionals in Experiments | Empirical Software Engineering 2018 | [链接](https://bura.brunel.ac.uk/handle/2438/14575) |
+| `graziotin2021psychometrics` | Psychometrics in Behavioral Software Engineering: A Methodological Introduction with Guidelines | ACM Transactions on Software Engineering 2021 | [链接](https://arxiv.org/abs/2005.09959) |
+| `gundersen2018state` | State of the Art: Reproducibility in Artificial Intelligence | Proceedings of the Thirty-Second AAAI Co 2018 | [链接](https://ojs.aaai.org/index.php/AAAI/article/view/11503) |
+| `kallio2016systematic` | Systematic methodological review: developing a framework for a qualitative semi-structured interview guide | Journal of Advanced Nursing 2016 | [链接](https://doi.org/10.1111/jan.13031) |
+| `kapoor2023leakage` | Leakage and the reproducibility crisis in machine-learning-based science | Patterns 2023 | [链接](https://doi.org/10.1016/j.patter.2023.100804) |
+| `kehr2015quantitative` | Quantitative Longitudinal Research: A Review of IS Literature, and a Set of Methodological Guidelines | Proceedings of the 23rd European Confere 2015 | [链接](https://aisel.aisnet.org/ecis2015_cr/94) |
+| `ko2015practical` | A Practical Guide to Controlled Experiments of Software Engineering Tools with Human Participants | Empirical Software Engineering 2015 | [链接](https://faculty.washington.edu/ajko/papers/Ko2013SEToolEvaluations.pdf) |
+| `lamport1995how` | How to Write a Proof | The American Mathematical Monthly 1995 | [链接](https://lamport.azurewebsites.net/pubs/lamport-how-to-write.pdf) |
+| `lamport2012how` | How to Write a 21st Century Proof | Journal of Fixed Point Theory and Applic 2012 | [链接](https://lamport.azurewebsites.net/pubs/proof.pdf) |
+| `mcdonald2019reliability` | Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice | Proceedings of the ACM on Human-Computer 2019 | [链接](https://doi.org/10.1145/3359174) |
+| `melegati2020case` | Case Survey Studies in Software Engineering Research | Proceedings of the 14th ACM / IEEE Inter 2020 | [链接](https://doi.org/10.1145/3382494.3410683) |
+| `molleri2020empirically` | An Empirically Evaluated Checklist for Surveys in Software Engineering | Information and Software Technology 2020 | [链接](https://arxiv.org/abs/1901.09850) |
+| `pineau2021improving` | Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program) | Journal of Machine Learning Research 2021 | [链接](https://jmlr.org/papers/v22/20-303.html) |
+| `santos2011action` | Action Research Can Swing the Balance in Experimental Software Engineering | Advances in Computers 2011 | [链接](https://arxiv.org/abs/1306.2414) |
+| `sargent2010verification` | Verification and Validation of Simulation Models | Proceedings of the 2010 Winter Simulatio 2010 | [链接](https://www.informs-sim.org/wsc10papers/016.pdf) |
+| `sharp2016role` | The Role of Ethnographic Studies in Empirical Software Engineering | IEEE Transactions on Software Engineerin 2016 | [链接](https://doi.org/10.1109/TSE.2016.2519887) |
+| `shepperd2018inferencing` | Inferencing into the Void: Problems with Implicit Populations. Comments on ``Empirical Software Engineering Experts on the Use of Students and Professionals in Experiments'' | 2018 | [链接](https://arxiv.org/abs/1810.07392) |
+| `staron2025guidelines` | Guidelines for Conducting Action Research Studies in Software Engineering | e-Informatica Software Engineering Journ 2025 | [链接](https://www.e-informatyka.pl/EISEJ/papers/2025/1/5/) |
+| `stol2016grounded` | Grounded Theory in Software Engineering Research: A Critical Review and Guidelines | Proceedings of the 38th International Co 2016 | [链接](https://hdl.handle.net/10344/5396) |
+| `storey2020who` | The who, what, how of software engineering research: a socio-technical framework | Empirical Software Engineering 2020 | [链接](https://doi.org/10.1007/s10664-020-09858-z) |
+| `taocareer` | Career Advice | What's new (blog)  | [链接](https://terrytao.wordpress.com/career-advice/) |
+| `taowriting` | On Writing | What's new (blog)  | [链接](https://terrytao.wordpress.com/advice-on-writing-papers/) |
+| `torchiano2017lessons` | Lessons Learnt in Conducting Survey Research | Proceedings of the 5th IEEE/ACM Internat 2017 | [链接](https://arxiv.org/abs/1702.05744) |
+| `wagner2020challenges` | Challenges in Survey Research | Contemporary Empirical Methods in Softwa 2020 | [链接](https://arxiv.org/abs/1908.05899) |
+| `wohlin2021case` | Case Study Research in Software Engineering---It is a Case, and it is a Study, but is it a Case Study? | Information and Software Technology 2021 | [链接](https://doi.org/10.1016/j.infsof.2021.106514) |
 | `oecd2015frascati` | Frascati Manual 2015 | OECD 2015 | [OECD](https://doi.org/10.1787/9789264239012-en) |
 | `nielsen2004principles` | Principles of Effective Research | 技术笔记 2004 | [Internet Archive 快照](https://web.archive.org/web/20260824165302/https://michaelnielsen.org/blog/principles-of-effective-research/)（原地址已失效） |
 | `patterson2001bad` | How to Have a Bad Career in Research/Academia | 演讲 2001 | [作者主页](https://people.eecs.berkeley.edu/~pattrsn/talks/BadCareer.pdf) |
