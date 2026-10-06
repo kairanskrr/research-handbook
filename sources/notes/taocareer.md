@@ -134,3 +134,93 @@
 - 位置：Be sceptical of your own work
 - 原文："with many of the intermediate steps described here being significant publishable papers in their own right"
 - 要点：解决大问题的过程中，许多中间步骤本身就是有分量、可发表的论文。
+
+### E23
+
+- 位置：Talk to your advisor
+- 原文："Your advisor is one of the best sources of guidance you have; not only in directly assisting you with your research topic, but in directing you (both explicitly and implicitly) to relevant researchers, conferences, publications, open problems, folklore, or other pieces of good mathematics."
+- 要点：导师是最好的指导来源之一，不只帮你做课题，还会把你引向相关的研究者、会议、文献、开放问题和圈内流传但没写下来的知识。
+
+### E24
+
+- 位置：Talk to your advisor
+- 原文："If things get to the point that you are actively avoiding your advisor (or vice versa), that is a very bad sign."
+- 要点：如果你在主动躲着导师（或反过来），这是很坏的信号。
+
+### E25
+
+- 位置：Talk to your advisor
+- 原文："If your advisor is unavailable, you should regularly discuss mathematical issues with at least one other mathematician instead, preferably an experienced one."
+- 要点：导师没空时，要定期和至少一位别的数学家（最好有经验）讨论数学。
+
+### E26
+
+- 位置：Take the initiative
+- 原文："While you should talk to your advisor, you should not be completely reliant on him or her; after all, you are going to have to do mathematics primarily on your own once you graduate!"
+- 要点：要和导师交流，但不能完全依赖导师；毕业后主要要靠自己做数学。
+
+### E27
+
+- 位置：Take the initiative
+- 原文："One specific suggestion I have is to subscribe (either by RSS, or by email) to be notified of new papers which appear on the arXiv in the subject areas that you are interested in."
+- 要点：建议订阅（RSS 或邮件）自己感兴趣方向的 arXiv 新论文通知。
+
+### E28
+
+- 位置：Make your work available
+- 原文："(Most journals now also have online availability, but given that the gap between preprint release and publication is measured in years, it still makes sense to have the preprint online too.)"
+- 要点：从发预印本到正式发表的间隔以"年"计，所以预印本也应该放到网上。
+
+### E29
+
+- 位置：Make your work available
+- 原文："the competition will come anyway, and this way you will at least have priority (note that submissions to servers such as the arXiv have reliable timestamps) and be acknowledged in citations."
+- 要点：公开预印本至少能确立优先权（arXiv 有可靠的时间戳），并被引用。
+
+### E30
+
+- 位置：Make your work available
+- 原文："[If you don’t have a preprint of your work yet, or only have a non-publication-quality draft, then it is often better to hold off on any announcement until you have something more concrete to show to other mathematicians.]"
+- 要点：还没有预印本、只有达不到发表质量的草稿时，最好先别宣布结果。
+
+### E31
+
+- 位置：Make your work available
+- 原文："As to whether you should email your preprints to other experts in the field, I would only do this if the preprint is unquestionably of direct interest to that person (e.g. it solves a conjecture that they formulated)."
+- 要点：只有预印本确实和对方直接相关（例如解决了对方提出的猜想）时，才把它发给领域专家。
+
+### E32
+
+- 位置：Attend talks and conferences, even those not directly related to your work
+- 原文："You need to know what’s going on elsewhere in mathematics, and what other mathematicians find interesting; this will often give valuable perspectives on your own work."
+- 要点：要知道数学其他地方在发生什么、别的数学家觉得什么有意思，这常给自己的工作带来有价值的视角。
+
+### E33
+
+- 位置：Attend talks and conferences, even those not directly related to your work
+- 原文："Oh, and don’t expect to understand 100% of any given talk, especially if it is in a field you are not familiar with; as long as you learn something, the effort is not wasted"
+- 要点：别指望听懂报告的全部，尤其是不熟悉的领域；只要学到一点就不算白听。
+
+### E34
+
+- 位置：Be patient
+- 原文："Any given problem generally requires months of effort in order to make satisfactory progress."
+- 要点：一个问题一般需要几个月的努力才能有令人满意的进展。
+
+### E35
+
+- 位置：Be patient
+- 原文："Thus it is not uncommon for months to pass with no visible progress; however by patiently eliminating fruitless avenues of attack, you are setting things up so that when the breakthrough does come, one can conclude the problem in relatively short order."
+- 要点：几个月没有明显进展并不少见；耐心排除走不通的路，突破来时就能较快收尾。
+
+### E36
+
+- 位置：Don’t be afraid to learn things outside your field
+- 原文："One specific trick I have found very useful in this regard is to start with a paper that you know to be relevant, and either look through the introduction of the paper to find an important earlier paper in that subject in the references, or to do a citation search (for instance via Mathscinet) to find an important future paper in the subject that cites the paper you already know about."
+- 要点：从一篇已知相关的论文出发，往前在引言和参考文献里找更早的重要论文，往后用引文检索（例如 MathSciNet）找引用它的重要论文。
+
+### E37
+
+- 位置：Take the initiative
+- 原文："Ultimately, it is better to follow the mathematics than to follow a mathematician."
+- 要点：归根结底，追随数学本身比追随某位数学家更好。

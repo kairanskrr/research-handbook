@@ -112,3 +112,9 @@
 - 位置："leaning over backwards" 段
 - 原文："if you’re doing an experiment, you should report everything that you think might make it invalid—not only what you think is right about it"
 - 要点：做实验时，要报告所有你认为可能让结果失效的因素，而不只是支持它的部分。
+
+### E18
+
+- 位置：演讲正文，讲"无论结果如何都发表"的段落
+- 原文："If you’ve made up your mind to test a theory, or you want to explain some idea, you should always decide to publish it whichever way it comes out."
+- 要点：决定检验一个理论，就要无论结果如何都发表。

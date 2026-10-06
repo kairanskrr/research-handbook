@@ -98,3 +98,33 @@
 - 位置：Write a rapid prototype first
 - 原文："First, one writes a bare-bones “skeleton” or “prototype” of the paper as quickly as possible; this prototype has the (approximate) statements of all the key lemmas, propositions, and theorems, as well as all key definitions, but all the proofs are omitted, or sketched in very informal “notes to self”."
 - 要点：先尽快写出论文骨架：所有关键定义、引理、定理的（大致）陈述，证明先省略或只写给自己看的草记。
+
+### E17
+
+- 位置：Submit to an appropriate journal
+- 原文："It is always tempting to submit a paper to a prestigious journal, but if the paper makes only a borderline case for publication in this journal, then the net result may be a lengthy process, critical reviews holding the paper to a very high standard, and ultimate rejection of the paper."
+- 要点：勉强够得上顶级期刊的论文投过去，结果可能是漫长的流程、极高标准的审稿，最后被拒。
+
+### E18
+
+- 位置：Submit to an appropriate journal
+- 原文："It is also a good idea to check that the editorial board of the journal you are submitting to contains at least one member who is expert enough in the fields that your paper is in that he or she can judge its quality appropriately and send it to a good referee."
+- 要点：投稿前查一下期刊编委会里有没有懂你方向的人，能判断质量、找到合适的审稿人。
+
+### E19
+
+- 位置：Submit to an appropriate journal
+- 原文："Is the paper written so that it is easy to check that the arguments are correct?"
+- 要点：判断论文配投什么级别期刊的第一个问题：论文是否写得让人容易检查论证正确。
+
+### E20
+
+- 位置：Submit to an appropriate journal
+- 原文："Generally speaking, it is not recommended to simultaneously submit two unrelated papers to the same journal"
+- 要点：一般不建议同时向同一家期刊投两篇无关的论文。
+
+### E21
+
+- 位置：Submit a final draft, not a first draft
+- 原文："Even if you are for some reason in a hurry to publish your paper, a poorly prepared paper will have a greater chance of rejection, may incur demands for major revisions, and will in general slow down the processing of your paper to the extent that it would have been faster to wait until the paper was in a more final form before submission."
+- 要点：即使着急发表，准备不充分的论文更容易被拒或被要求大修，反而更慢；不如等成熟了再投。

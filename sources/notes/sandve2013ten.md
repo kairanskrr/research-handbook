@@ -78,3 +78,9 @@
 - 位置：Rule 9: Connect Textual Statements to Underlying Results
 - 原文："As a minimum, you should provide enough details along with your textual interpretations so as to allow the exact underlying results, or at least some related results, to be tracked down in the future."
 - 要点：写下的每条结论，都要附上足够信息，让将来能找回它所依据的确切结果。
+
+### E13
+
+- 位置：Rule 1: For Every Result, Keep Track of How It Was Produced
+- 原文："Whenever a result may be of potential interest, keep track of how it was produced." / "If the step is performed by a computer program, the critical details include the name and version of the program, as well as the exact parameters and inputs that were used."
+- 要点：只要一个结果可能有用，就记下它是怎么得到的；由程序完成的步骤，关键是记下程序名、版本、确切的参数和输入。

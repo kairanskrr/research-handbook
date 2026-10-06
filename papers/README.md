@@ -211,6 +211,98 @@
 | `wilson2017good` | Good enough practices in scientific computing | PLoS Comput Biol 2017 | [PLoS](https://doi.org/10.1371/journal.pcbi.1005510)（CC BY） |
 | `sandve2013ten` | Ten Simple Rules for Reproducible Computational Research | PLoS Comput Biol 2013 | [PLoS](https://doi.org/10.1371/journal.pcbi.1003285)（CC BY） |
 | `carlini2022checklist` | Research Paper Release Checklist | 博客 2022 | [网页](https://nicholas.carlini.com/writing/2022/paper-release-checklist.html) |
+| `amsculture2004joint` | The Culture of Research and Scholarship in Mathematics: Joint Research and Its Publication | AMS statement 2004 | [链接](https://www.ams.org/profession/leaders/CultureStatement04.pdf) |
+| `amsculture2006rates` | The Culture of Research and Scholarship in Mathematics: Rates of Publication | AMS statement 2006 | [链接](https://www.ams.org/profession/leaders/culture/CultureStatement06.pdf) |
+| `ams2022ethical` | Policy Statement on Ethical Guidelines | AMS 政策声明 2022 | [链接](https://www.ams.org/about-us/governance/policy-statements/sec-ethics) |
+| `thurston1994proof` | On Proof and Progress in Mathematics | Bulletin of the American Mathematical Society 1994 | [链接](https://arxiv.org/abs/math/9404236) |
+| `stodden2013setting` | Setting the Default to Reproducible: Reproducibility in Computational and Experimental Mathematics | Institute for Computational and Experimental Research in Mathematics (ICERM) 2013 | [链接](https://icerm.brown.edu/topical_workshops/tw12-5-rcem/icerm_report.pdf) |
+| `arxivendorsement` | The arXiv Endorsement System | arXiv help page | [链接](https://info.arxiv.org/help/endorsement.html) |
+| `arxivmoderation` | Content Moderation | arXiv help page | [链接](https://info.arxiv.org/help/moderation/index.html) |
+| `aps2024ethics` | APS Ethics Standards | 网页 2024 | [链接](https://www.aps.org/about/governance/policies-procedures/ethics-standards) |
+| `apsdataavailability` | Guidelines for Data Availability Statements in Physical Review | 网页 2024 | [链接](https://journals.aps.org/authors/data-availability-statements) |
+| `aassoftware` | Policy Statement on Software | 网页 | [链接](https://journals.aas.org/policy-statement-on-software/) |
+| `arxivabout` | About arXiv | 网页 | [链接](https://info.arxiv.org/about/index.html) |
+| `arxivtaxonomy` | Category Taxonomy | 网页 | [链接](https://arxiv.org/category_taxonomy) |
+| `ginsparg2011twenty` | It was twenty years ago today ... | arXiv:1108.2700 2011 | [链接](https://arxiv.org/abs/1108.2700) |
+| `junk2021reproducibility` | Reproducibility and Replication of Experimental Particle Physics Results | arXiv:2009.06864 2020 | [链接](https://arxiv.org/abs/2009.06864) |
+| `lyons2013discovering` | Discovering the Significance of 5 sigma | arXiv:1310.1284 2013 | [链接](https://arxiv.org/abs/1310.1284) |
+| `roodman2003blind` | Blind Analysis in Particle Physics | arXiv:physics/0312102 2003 | [链接](https://arxiv.org/abs/physics/0312102) |
+| `golub2023blind` | Blind analysis in Physics experiments: Is this trip necessary? | arXiv:2311.13542 2023 | [链接](https://arxiv.org/abs/2311.13542) |
+| `ligo2018publication` | LIGO Scientific Collaboration Publication and Presentation Policy | 网页 2018 | [链接](https://dcc.ligo.org/public/0026/T010168/010/T010168-10.pdf) |
+| `cern2020opendata` | CERN Open Data Policy for the LHC Experiments | 网页 2020 | [链接](https://opendata.cern.ch/docs/cern-open-data-policy-for-lhc-experiments) |
+| `perciedusert2020arrive` | The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research | PLoS Biology 2020 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410) |
+| `perciedusert2020reporting` | Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0 | PLoS Biology 2020 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000411) |
+| `vaux2012replicates` | Replicates and repeats–-what is the difference and is it significant? A brief discussion of statistics and experimental design | EMBO Reports 2012 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC3321166/) |
+| `schnell2015ten` | Ten Simple Rules for a Computational Biologist's Laboratory Notebook | PLoS Computational Biology 2015 | [链接](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385) |
+| `tscharntke2007author` | Author Sequence and Credit for Contributions in Multiauthored Publications | PLoS Biology 2007 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0050018) |
+| `freedman2015economics` | The Economics of Reproducibility in Preclinical Research | PLoS Biology 2015 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165) |
+| `errington2021investigating` | Investigating the replicability of preclinical cancer biology | eLife 2021 | [链接](https://elifesciences.org/articles/71601) |
+| `errington2021challenges` | Challenges for assessing replicability in preclinical cancer biology | eLife 2021 | [链接](https://elifesciences.org/articles/67995) |
+| `nihrigorguidance` | Guidance: Rigor and Reproducibility in Grant Applications | 网页 | [链接](https://grants.nih.gov/policy/reproducibility/guidance.htm) |
+| `nc3rsthe3rs` | The 3Rs | 网页 | [链接](https://nc3rs.org.uk/who-we-are/3rs) |
+| `biorxivabout` | About bioRxiv | 网页 | [链接](https://www.biorxiv.org/about-biorxiv) |
+| `plosdatapolicy` | Data Availability | 网页 | [链接](https://journals.plos.org/plosone/s/data-availability) |
+| `ieee2026pspb` | IEEE Publication Services and Products Board Operations Manual | IEEE 2026 | [链接](https://pspb.ieee.org/images/files/files/opsmanual.pdf) |
+| `ieeeauthorposting` | Post-Publication Policies | IEEE Author Center Journals 2026 | [链接](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/post-publication-policies/) |
+| `ieeeauthorsubmission` | Submission and Peer Review Policies | IEEE Author Center Journals 2026 | [链接](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/) |
+| `ieeeauthorreproducibility` | Research Reproducibility | IEEE Author Center Journals 2026 | [链接](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/) |
+| `ojspreproducibility` | Author Instructions for OJSP Reproducibility Review | IEEE Signal Processing Society 网页 2025 | [链接](https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing/author-instructions-ojsp-reproducibility) |
+| `vandewalle2009reproducible` | Reproducible Research in Signal Processing | IEEE Signal Processing Magazine 2009 | [链接](https://infoscience.epfl.ch/record/136640) |
+| `barba2018terminologies` | Terminologies for Reproducible Research | arXiv:1802.03311 2018 | [链接](https://arxiv.org/abs/1802.03311) |
+| `lamela2019repeatable` | Repeatable and Reproducible Wireless Networking Experimentation through Trace-based Simulation | arXiv:1903.12033 2019 | [链接](https://arxiv.org/abs/1903.12033) |
+| `shackelford2005computing` | Computing Curricula 2005: The Overview Report | ACM, AIS, and IEEE Computer Society 2005 | [链接](https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2005-march06final.pdf) |
+| `rutgersinventionfaq` | Inventions and Commercialization FAQs | Rutgers University 网页 2026 | [链接](https://research.rutgers.edu/faculty-staff/inventions-commercialization/faqs) |
+| `berkeleydisclose` | When to Disclose an Invention to OTL | UC Berkeley IPIRA 网页 2026 | [链接](https://ipira.berkeley.edu/researchers/intellectual-property-protection/when-disclose-invention-otl) |
+| `utahprotecting` | Protecting Your Research: A Guide to IP Disclosure and Grant Compliance at the University of Utah | University of Utah 网页 2026 | [链接](https://technologylicensing.utah.edu/news-events/resources-opportunities/protecting-your-research) |
+| `europracticempw` | MPW Prototyping | Europractice 网页 2026 | [链接](https://europractice-ic.com/mpw-prototyping/) |
+| `ieeesadevelop` | Develop Standards | IEEE SA 网页 2026 | [链接](https://standards.ieee.org/develop/) |
+| `3gpp2026about` | About 3GPP | 3GPP 网页 2026 | [链接](https://www.3gpp.org/about-us) |
+| `wma2024helsinki` | WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants | 网页 2024 | [链接](https://www.wma.net/policies-post/wma-declaration-of-helsinki/) |
+| `icmje2026recommendations` | Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals | 网页 2026 | [链接](https://www.icmje.org/icmje-recommendations.pdf) |
+| `hopewell2025consort` | CONSORT 2025 statement: Updated guideline for reporting randomised trials | PLOS Medicine 2025 | [链接](https://doi.org/10.1371/journal.pmed.1004587) |
+| `vonelm2007strobe` | The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies | PLoS Medicine 2007 | [链接](https://doi.org/10.1371/journal.pmed.0040296) |
+| `vandenbroucke2007strobe` | Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration | PLoS Medicine 2007 | [链接](https://doi.org/10.1371/journal.pmed.0040297) |
+| `gagnier2013care` | The CARE guidelines: consensus-based clinical case reporting guideline development | Journal of Medical Case Reports 2013 | [链接](https://doi.org/10.1186/1752-1947-7-223) |
+| `murad2016new` | New evidence pyramid | Evidence-Based Medicine 2016 | [链接](https://doi.org/10.1136/ebmed-2016-110401) |
+| `ioannidis2005why` | Why Most Published Research Findings Are False | PLoS Medicine 2005 | [链接](https://doi.org/10.1371/journal.pmed.0020124) |
+| `equatorreporting` | About Us; What Is a Reporting Guideline? | 网页 | [链接](https://www.equator-network.org/about-us/) |
+| `osc2015estimating` | Estimating the Reproducibility of Psychological Science | Science 2015 | [链接](https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf) |
+| `nelson2018psychology` | Psychology's Renaissance | Annual Review of Psychology 2018 | [链接](https://faculty.wharton.upenn.edu/wp-content/uploads/2017/05/Nelson-Simmons-Simonsohn-2018.pdf) |
+| `simmons2018false` | False-Positive Citations | Perspectives on Psychological Science 2018 | [链接](https://faculty.wharton.upenn.edu/wp-content/uploads/2017/02/26-Simmons-Nelson-Simonsohn-2018.pdf) |
+| `nosek2018preregistration` | The Preregistration Revolution | Proceedings of the National Academy of Sciences 2018 | [链接](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856500/) |
+| `chambers2022past` | The Past, Present and Future of Registered Reports | Nature Human Behaviour 2022 | [链接](https://orca.cardiff.ac.uk/id/eprint/145541/1/Chambers%26Tzavella2021-MS.pdf) |
+| `henrich2010weirdest` | The Weirdest People in the World? | Behavioral and Brain Sciences 2010 | [链接](https://www.konsortswd.de/wp-content/uploads/RatSWD_WP_139.pdf) |
+| `apa2017ethical` | Ethical Principles of Psychologists and Code of Conduct (2002, amended effective June 1, 2010, and January 1, 2017) | 网页 2017 | [链接](https://www.apa.org/ethics/code/ethics-code-2017.pdf) |
+| `appelbaum2018journal` | Journal Article Reporting Standards for Quantitative Research in Psychology: The APA Publications and Communications Board Task Force Report | American Psychologist 2018 | [链接](https://www.apa.org/pubs/journals/releases/amp-amp0000191.pdf) |
+| `apajars` | Journal Article Reporting Standards (JARS) | APA Style 网页 2025 | [链接](https://apastyle.apa.org/jars) |
+| `apastyleabout` | About APA Style | APA Style 网页 2023 | [链接](https://apastyle.apa.org/about-apa-style) |
+| `cosregisteredreports` | Registered Reports | Center for Open Science 网页 2026 | [链接](https://www.cos.io/initiatives/registered-reports) |
+| `lakens2022sample` | Sample Size Justification | Collabra: Psychology 2022 | [链接](https://osf.io/preprints/psyarxiv/9d3yf/) |
+| `flake2020measurement` | Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them | Advances in Methods and Practices in Psychological Science 2020 | [链接](https://osf.io/preprints/psyarxiv/hs7wm/) |
+| `angrist2010credibility` | The Credibility Revolution in Empirical Economics: How Better Research Design Is Taking the Con out of Econometrics | Journal of Economic Perspectives 2010 | [链接](https://www.nber.org/system/files/working_papers/w15794/w15794.pdf) |
+| `cochrane2005writing` | Writing Tips for Ph.D. Students | 网页 2005 | [链接](https://www.johnhcochrane.com/s/phd_paper_writing.pdf) |
+| `varian1997build` | How to Build an Economic Model in Your Spare Time | The American Economist 1997 | [链接](https://people.ischool.berkeley.edu/~hal/Papers/how.pdf) |
+| `brodeur2016star` | Star Wars: The Empirics Strike Back | American Economic Journal: Applied Economics 2016 | [链接](https://docs.iza.org/dp7268.pdf) |
+| `ellison2002slowdown` | The Slowdown of the Economics Publishing Process | Journal of Political Economy 2002 | [链接](https://www.nber.org/system/files/working_papers/w7804/w7804.pdf) |
+| `card2013nine` | Nine Facts about Top Journals in Economics | Journal of Economic Literature 2013 | [链接](https://www.nber.org/system/files/working_papers/w18665/w18665.pdf) |
+| `heckman2020tyranny` | Publishing and Promotion in Economics: The Tyranny of the Top Five | Journal of Economic Literature 2020 | [链接](https://docs.iza.org/dp11868.pdf) |
+| `einav2006surname` | What's in a Surname? The Effects of Surname Initials on Academic Success | Journal of Economic Perspectives 2006 | [链接](https://web.stanford.edu/~leinav/pubs/JEP2006.pdf) |
+| `cawley2018guide` | A Guide and Advice for Economists on the U.S. Junior Academic Job Market: 2018–2019 Edition | American Economic Association 2018 | [链接](https://www.aeaweb.org/content/file?id=869) |
+| `olken2015promises` | Promises and Perils of Pre-analysis Plans | Journal of Economic Perspectives 2015 | [链接](https://www.aeaweb.org/articles?id=10.1257/jep.29.3.61) |
+| `nberworkingpapers` | Working Papers | 网页 | [链接](https://www.nber.org/papers) |
+| `aea2026data` | Data and Code Availability Policy | 网页 2026 | [链接](https://www.aeaweb.org/journals/data/data-code-policy) |
+| `aea2026rct` | About the AEA RCT Registry; AEA RCT Registry Registration Guidelines | 网页 2026 | [链接](https://www.aeaweb.org/journals/policies/rct-registry) |
+| `aea2026disclosure` | Disclosure Policy | 网页 2026 | [链接](https://www.aeaweb.org/journals/policies/disclosure-policy) |
+| `aha2023standards` | Statement on Standards of Professional Conduct | American Historical Association 网页 2023 | [链接](https://web.archive.org/web/20240604095630/https://www.historians.org/jobs-and-professional-development/statements-standards-and-guidelines-of-the-discipline/statement-on-standards-of-professional-conduct) |
+| `aha2013embargo` | Statement on Policies Regarding the Option to Embargo Completed History PhD Dissertations | American Historical Association 网页 2013 | [链接](https://web.archive.org/web/20240601005252/https://www.historians.org/jobs-and-professional-development/statements-standards-and-guidelines-of-the-discipline/statement-on-policies-regarding-the-option-to-embargo-completed-history-phd-dissertations) |
+| `aha2021collaborators` | Guidelines for Acknowledgment of Collaborators | American Historical Association 网页 2021 | [链接](https://web.archive.org/web/20240601010410/https://www.historians.org/jobs-and-professional-development/statements-standards-and-guidelines-of-the-discipline/guidelines-for-acknowledgment-of-collaborators) |
+| `hunt2002against` | Against Presentism | Perspectives on History 2002 | [链接](https://web.archive.org/web/20220918163213/https://www.historians.org/publications-and-directories/perspectives-on-history/may-2002/against-presentism) |
+| `oha2018principles` | OHA Principles and Best Practices: Principles and Best Practices for Oral History | Oral History Association 网页 2018 | [链接](https://oralhistory.org/principles-and-best-practices-revised-2018/) |
+| `saa2024principles` | SAA Principles of Archaeological Ethics | 网页 2024 | [链接](https://www.saa.org/common/Uploaded%20files/saadocs/CareerPractice/saa_ethics.pdf) |
+| `cifa2023excavation` | Standard and Universal Guidance for Archaeological Excavation | 网页 2023 | [链接](https://www.archaeologists.net/sites/default/files/2024-11/CIfA-Standard-Archaeological-Excavation_2023.pdf) |
+| `cronon2009learning` | Learning to Do Historical Research: A Primer for Environmental Historians and Others | 网页 2009 | [链接](https://www.williamcronon.net/researching/) |
+| `chicago2024citation` | Chicago-Style Citation Quick Guide | The Chicago Manual of Style Online 2024 | [链接](https://www.chicagomanualofstyle.org/tools_citationguide.html) |
+| `rutner2012supporting` | Supporting the Changing Research Practices of Historians | Ithaka S+R 2012 | [链接](https://sr.ithaka.org/wp-content/uploads/2015/08/supporting-the-changing-research-practices-of-historians.pdf) |
 
 ## 待获取
 

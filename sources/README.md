@@ -25,6 +25,7 @@
   - [工具与模型评测](#工具与模型评测)
   - [实证研究通用](#实证研究通用)
   - [计算机各研究类型的方法资料](#计算机各研究类型的方法资料)
+  - [其他学科领域概况的资料](#其他学科领域概况的资料)
 - [数据集与工具](#数据集与工具)
 - [论文列表](#论文列表)
   - [LLM 与软件工程](#llm-与软件工程)
@@ -153,6 +154,126 @@
 - [Lessons Learnt in Conducting Survey Research](https://arxiv.org/abs/1702.05744) - Torchiano 等人，Proceedings of the 5th IEEE/ACM International Workshop on Co 2017。Torchiano、Méndez Fernández、Travassos、de Mello 总结在业界做问卷调查的经验教训，覆盖定研究目标、定总体和分析单元、抽样框、题目措辞和选项设计、招募与提醒，附大量正反例句。🆓 `torchiano2017lessons`
 - [Challenges in Survey Research](https://arxiv.org/abs/1908.05899) - Wagner 等人，Contemporary Empirical Methods in Software Engineering 2020。Wagner、Mendez、Felderer、Graziotin、Kalinowski 基于多轮跨国问卷（NaPiRE 等）的经验，讨论问卷调查与理论、抽样与样本量、邀请与跟进、定序数据的统计分析、开放题编码和心理测量量表的使用。🆓 `wagner2020challenges`
 - [Case Study Research in Software Engineering---It is a Case, and it is a Study, but is it a Case Study?](https://doi.org/10.1016/j.infsof.2021.106514) - Wohlin，Information and Software Technology 2021。检查 7 个软件工程期刊上最近 100 篇自称"案例研究"的论文，发现接近一半不符合案例研究的定义，并提出一个更严格的定义。🆓 `wohlin2021case`
+
+### 其他学科领域概况的资料
+
+各学科领域概况（`guide/fields/<学科>/README.md`）引用的资料（2026-10 新增），按学科分组。
+
+**数学**
+
+- [The Culture of Research and Scholarship in Mathematics: Joint Research and Its Publication](https://www.ams.org/profession/leaders/CultureStatement04.pdf) - American Mathematical Society Committee on the Profession，AMS statement 2004。美国数学会职业委员会 2004 年声明，解释数学的合作研究文化和按字母署名的传统，含署名统计。🆓 `amsculture2004joint`
+- [The Culture of Research and Scholarship in Mathematics: Rates of Publication](https://www.ams.org/profession/leaders/culture/CultureStatement06.pdf) - American Mathematical Society Committee on the Profession，AMS statement 2006。美国数学会职业委员会 2006 年声明，说明数学家发表少、以期刊为主、发表延迟常见，评价应看质量。🆓 `amsculture2006rates`
+- [Policy Statement on Ethical Guidelines](https://www.ams.org/about-us/governance/policy-statements/sec-ethics) - American Mathematical Society，AMS 政策声明 2022。美国数学会伦理准则（2005 年通过，2019、2022 年修订），涵盖抄袭、署名、宣布结果、审稿保密与利益冲突、编辑责任、博士培养。🆓 `ams2022ethical`
+- [On Proof and Progress in Mathematics](https://arxiv.org/abs/math/9404236) - Thurston，Bulletin of the American Mathematical Society 1994。Thurston 回应 Jaffe & Quinn 的名文，讨论数学家怎样理解、交流和检查证明，以及数学研究的社会性。arXiv 开放全文。🆓 `thurston1994proof`
+- [Setting the Default to Reproducible: Reproducibility in Computational and Experimental Mathematics](https://icerm.brown.edu/topical_workshops/tw12-5-rcem/icerm_report.pdf) - Stodden 等人，Institute for Computational and Experimental Research in Mathematics (ICERM) 2013。ICERM 2012 年"计算与实验数学的可复现性"研讨会报告，给出计算数学研究公开代码数据、验证计算的建议。🆓 `stodden2013setting`
+- [The arXiv Endorsement System](https://info.arxiv.org/help/endorsement.html) - arXiv，arXiv help page。arXiv 帮助页面，说明首次投稿的背书（endorsement）制度和找背书人的做法。🆓 `arxivendorsement`
+- [Content Moderation](https://info.arxiv.org/help/moderation/index.html) - arXiv，arXiv help page。arXiv 帮助页面，说明审核不是同行评审、分类调整和可能拒稿的情形。🆓 `arxivmoderation`
+
+**物理科学**
+
+- [APS Ethics Standards](https://www.aps.org/about/governance/policies-procedures/ethics-standards) - American Physical Society，网页 2024。美国物理学会的伦理标准，2024 年 12 月修订、2025 年 1 月生效，涵盖研究结果、署名、重复发表与预印本、抄袭、同行评审等。🆓 `aps2024ethics`
+- [Guidelines for Data Availability Statements in Physical Review](https://journals.aps.org/authors/data-availability-statements) - American Physical Society，网页 2024。Physical Review 系列期刊的数据可获取性声明指南：所有论文必须有声明，鼓励按 FAIR 原则公开数据和代码。🆓 `apsdataavailability`
+- [Policy Statement on Software](https://journals.aas.org/policy-statement-on-software/) - AAS Journals，网页。美国天文学会期刊的软件政策：软件论文、开源与存档建议、软件引用的两种方式。🆓 `aassoftware`
+- [About arXiv](https://info.arxiv.org/about/index.html) - arXiv，网页。arXiv 官方介绍：创办时间、审核方式（不做同行评审）。🆓 `arxivabout`
+- [Category Taxonomy](https://arxiv.org/category_taxonomy) - arXiv，网页。arXiv 学科分类表，含高能物理实验、理论、唯象、格点，计算物理，天体物理仪器与方法等分类的官方说明。🆓 `arxivtaxonomy`
+- [It was twenty years ago today ...](https://arxiv.org/abs/1108.2700) - Ginsparg，arXiv:1108.2700 2011。arXiv 创办人 Paul Ginsparg 的 20 周年回顾：arXiv 起源于高能物理理论的预印本交流，以及预印本与期刊在物理中的并存。🆓 `ginsparg2011twenty`
+- [Reproducibility and Replication of Experimental Particle Physics Results](https://arxiv.org/abs/2009.06864) - Junk 等人，arXiv:2009.06864 2020。两位实验粒子物理学家全面介绍粒子物理保证结果可靠的做法：大合作的内部审查、5σ 发现标准、盲分析、软件与数据保存、零结果发表。🆓 `junk2021reproducibility`
+- [Discovering the Significance of 5 sigma](https://arxiv.org/abs/1310.1284) - Lyons，arXiv:1310.1284 2013。讨论粒子物理 5σ 发现标准的理由和局限，以及别处效应（Look Elsewhere Effect）。🆓 `lyons2013discovering`
+- [Blind Analysis in Particle Physics](https://arxiv.org/abs/physics/0312102) - Roodman，arXiv:physics/0312102 2003。PHYSTAT2003 会议论文，介绍实验者偏差和粒子物理中的三种盲分析方法，以及 BABAR 合作组的经验。🆓 `roodman2003blind`
+- [Blind analysis in Physics experiments: Is this trip necessary?](https://arxiv.org/abs/2311.13542) - Golub，arXiv:2311.13542 2023。对 Klein & Roodman 2005 盲分析主张的质疑短评（未经同行评审），认为盲分析妨碍寻找系统误差和研究意外事件。🆓 `golub2023blind`
+- [LIGO Scientific Collaboration Publication and Presentation Policy](https://dcc.ligo.org/public/0026/T010168/010/T010168-10.pdf) - LIGO Scientific Collaboration，网页 2018。LIGO 科学合作组公开的发表与报告政策：作者资格、内部审查流程、会议报告和学位论文的规定。🆓 `ligo2018publication`
+- [CERN Open Data Policy for the LHC Experiments](https://opendata.cern.ch/docs/cern-open-data-policy-for-lhc-experiments) - CERN Open Data Policy Working Group，网页 2020。CERN 对 LHC 各实验数据公开的分级政策：论文开放获取、发表时附数据、重建数据定期公开、原始数据不公开的理由。🆓 `cern2020opendata`
+
+**生物科学**
+
+- [The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410) - Percie du Sert 等人，PLoS Biology 2020。ARRIVE 2.0 动物实验报告指南的正式发布文章，介绍"核心 10 项"和"推荐项"两组条目。开放获取（CC0）。🆓 `perciedusert2020arrive`
+- [Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000411) - Percie du Sert 等人，PLoS Biology 2020。ARRIVE 2.0 的逐条解释与示例（Explanation and Elaboration），讲实验单位、对照、随机、盲法等。开放获取。🆓 `perciedusert2020reporting`
+- [Replicates and repeats–-what is the difference and is it significant? A brief discussion of statistics and experimental design](https://pmc.ncbi.nlm.nih.gov/articles/PMC3321166/) - Vaux 等人，EMBO Reports 2012。用骨髓集落实验和 qRT-PCR 两个例子，讲清重复测量（replicates）和独立重复的区别，以及 n 怎么算。PubMed Central 开放全文。🆓 `vaux2012replicates`
+- [Ten Simple Rules for a Computational Biologist's Laboratory Notebook](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385) - Schnell，PLoS Computational Biology 2015。PLoS Computational Biology "Ten Simple Rules" 系列，讲实验记录本怎么记（面向计算生物学家，原则通用）。开放获取（CC BY）。🆓 `schnell2015ten`
+- [Author Sequence and Credit for Contributions in Multiauthored Publications](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0050018) - Tscharntke 等人，PLoS Biology 2007。讨论多作者论文的署名顺序与贡献认定，包括生物医学中"最后作者"惯例。开放获取。🆓 `tscharntke2007author`
+- [The Economics of Reproducibility in Preclinical Research](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165) - Freedman 等人，PLoS Biology 2015。估算临床前研究不可复现的比例和经济代价，把原因分为研究设计、生物试剂、操作规程、数据分析与报告四类，并以细胞系鉴定为例。开放获取（CC BY）。🆓 `freedman2015economics`
+- [Investigating the replicability of preclinical cancer biology](https://elifesciences.org/articles/71601) - Errington 等人，eLife 2021。癌症生物学可复现性项目（Reproducibility Project: Cancer Biology）的结果汇总：50 个实验、158 个效应的复现情况。开放获取（CC BY）。🆓 `errington2021investigating`
+- [Challenges for assessing replicability in preclinical cancer biology](https://elifesciences.org/articles/67995) - Errington 等人，eLife 2021。同一项目的过程报告：方法描述不足、数据和试剂难获取、方案需反复修改、各阶段耗时。开放获取（CC BY）。🆓 `errington2021challenges`
+- [Guidance: Rigor and Reproducibility in Grant Applications](https://grants.nih.gov/policy/reproducibility/guidance.htm) - National Institutes of Health，网页。美国国立卫生研究院关于资助申请中严谨性与可复现性的指南：前期研究严谨性、实验设计、生物学变量（含性别）、关键资源鉴定四个方面。🆓 `nihrigorguidance`
+- [The 3Rs](https://nc3rs.org.uk/who-we-are/3rs) - National Centre for the Replacement, Refinement and Reduction of Animals in Research，网页。英国 NC3Rs 对 3R 原则（替代、减少、优化）的定义和说明。🆓 `nc3rsthe3rs`
+- [About bioRxiv](https://www.biorxiv.org/about-biorxiv) - bioRxiv，网页。bioRxiv 官方说明页：预印本不经同行评审、与期刊投稿的关系、发布后不能撤下、引用方式。🆓 `biorxivabout`
+- [Data Availability](https://journals.plos.org/plosone/s/data-availability) - PLOS，网页。PLOS 系列期刊的数据可用性政策：公开重复研究所需数据、按领域选仓库（如 GenBank、GEO）、不允许"数据未展示"、印迹图须提供原始图像。🆓 `plosdatapolicy`
+
+**电气电子与信息工程**
+
+- [IEEE Publication Services and Products Board Operations Manual](https://pspb.ieee.org/images/files/files/opsmanual.pdf) - IEEE Publication Services and Products Board，IEEE 2026。IEEE 出版服务与产品委员会运行手册（2026 年 6 月修订），IEEE 出版规则的原始文件，含署名、作者责任、会议论文转期刊、预印本政策，并全文转载《IEEE 伦理准则》。🆓 `ieee2026pspb`
+- [Post-Publication Policies](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/post-publication-policies/) - IEEE，IEEE Author Center Journals 2026。IEEE 期刊作者中心关于预印本、录用稿和正式版公开范围的说明页面。🆓 `ieeeauthorposting`
+- [Submission and Peer Review Policies](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/) - IEEE，IEEE Author Center Journals 2026。IEEE 期刊作者中心关于一稿多投、先前发表、抄袭、出口管制等投稿与审稿政策的页面。🆓 `ieeeauthorsubmission`
+- [Research Reproducibility](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/) - IEEE，IEEE Author Center Journals 2026。IEEE 期刊作者中心的研究可复现性页面，含 IEEE 开放研究声明和 Code Ocean 代码共享说明。🆓 `ieeeauthorreproducibility`
+- [Author Instructions for OJSP Reproducibility Review](https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing/author-instructions-ojsp-reproducibility) - IEEE Signal Processing Society，IEEE Signal Processing Society 网页 2025。IEEE 信号处理学会《IEEE 信号处理开放期刊》（OJSP）复现性审查试点的作者说明，基于 Code Ocean。🆓 `ojspreproducibility`
+- [Reproducible Research in Signal Processing](https://infoscience.epfl.ch/record/136640) - Vandewalle 等人，IEEE Signal Processing Magazine 2009。信号处理领域讨论可复现研究的代表性文章，含对 2004 年《IEEE 图像处理汇刊》134 篇论文的复现性调查和作者自己的经验。EPFL 机构知识库公开全文。🆓 `vandewalle2009reproducible`
+- [Terminologies for Reproducible Research](https://arxiv.org/abs/1802.03311) - Barba，arXiv:1802.03311 2018。梳理各学科对 reproduce / replicate 用法的分歧，按学科分组。🆓 `barba2018terminologies`
+- [Repeatable and Reproducible Wireless Networking Experimentation through Trace-based Simulation](https://arxiv.org/abs/1903.12033) - Lamela 等人，arXiv:1903.12033 2019。无线网络研究中仿真与实验平台各自的局限，以及用"轨迹回放仿真"让实验可重复的方法。🆓 `lamela2019repeatable`
+- [Computing Curricula 2005: The Overview Report](https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2005-march06final.pdf) - Shackelford 等人，ACM, AIS, and IEEE Computer Society 2005。ACM、AIS、IEEE 计算机学会联合发布的计算学科课程总报告，讲电气工程、计算机工程、计算机科学等学科的分化历史和区别。🆓 `shackelford2005computing`
+- [Inventions and Commercialization FAQs](https://research.rutgers.edu/faculty-staff/inventions-commercialization/faqs) - Rutgers University Office for Research，Rutgers University 网页 2026。罗格斯大学技术转移常见问题，解释什么算"公开披露"、公开对专利的影响、发表与申请专利如何协调。🆓 `rutgersinventionfaq`
+- [When to Disclose an Invention to OTL](https://ipira.berkeley.edu/researchers/intellectual-property-protection/when-disclose-invention-otl) - UC Berkeley Intellectual Property and Industry Research Alliances，UC Berkeley IPIRA 网页 2026。加州大学伯克利分校关于何时向技术许可办公室披露发明的说明，含宽限期的提醒。🆓 `berkeleydisclose`
+- [Protecting Your Research: A Guide to IP Disclosure and Grant Compliance at the University of Utah](https://technologylicensing.utah.edu/news-events/resources-opportunities/protecting-your-research) - University of Utah Technology Licensing Office，University of Utah 网页 2026。犹他大学技术许可办公室的指南，逐项说明期刊、会议、预印本、答辩是否构成公开，以及临时申请。🆓 `utahprotecting`
+- [MPW Prototyping](https://europractice-ic.com/mpw-prototyping/) - Europractice，Europractice 网页 2026。Europractice 芯片原型服务的流程说明（多项目晶圆、设计套件、制造与寄回测试）。🆓 `europracticempw`
+- [Develop Standards](https://standards.ieee.org/develop/) - IEEE Standards Association，IEEE SA 网页 2026。IEEE 标准协会关于标准制定流程、原则和下属委员会（含专利委员会）的介绍页面。🆓 `ieeesadevelop`
+- [About 3GPP](https://www.3gpp.org/about-us) - 3GPP，3GPP 网页 2026。3GPP 官网的介绍页面，说明其规范范围和发展历史。🆓 `3gpp2026about`
+
+**临床医学**
+
+- [WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants](https://www.wma.net/policies-post/wma-declaration-of-helsinki/) - World Medical Association，网页 2024。世界医学会《赫尔辛基宣言》2024 年 10 月修订版，涉及人的医学研究伦理原则，官网公开全文。🆓 `wma2024helsinki`
+- [Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals](https://www.icmje.org/icmje-recommendations.pdf) - International Committee of Medical Journal Editors，网页 2026。国际医学期刊编辑委员会的《医学期刊学术工作的实施、报告、编辑和发表建议》，含署名标准、利益冲突、试验登记、数据共享、预印本政策。2026 年 1 月更新版。🆓 `icmje2026recommendations`
+- [CONSORT 2025 statement: Updated guideline for reporting randomised trials](https://doi.org/10.1371/journal.pmed.1004587) - Hopewell 等人，PLOS Medicine 2025。CONSORT 2025 声明，随机试验的报告规范（30 项清单加流程图），CC BY 开放获取。🆓 `hopewell2025consort`
+- [The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies](https://doi.org/10.1371/journal.pmed.0040296) - von Elm 等人，PLoS Medicine 2007。STROBE 声明，观察性研究（队列、病例对照、横断面）的报告规范，22 项清单，CC BY 开放获取。🆓 `vonelm2007strobe`
+- [Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration](https://doi.org/10.1371/journal.pmed.0040297) - Vandenbroucke 等人，PLoS Medicine 2007。STROBE 的配套解释文章（Explanation and Elaboration），解释三种观察性设计、偏倚与混杂等，CC BY 开放获取。🆓 `vandenbroucke2007strobe`
+- [The CARE guidelines: consensus-based clinical case reporting guideline development](https://doi.org/10.1186/1752-1947-7-223) - Gagnier 等人，Journal of Medical Case Reports 2013。CARE 病例报告规范（13 项清单）及其制定过程，开放获取。🆓 `gagnier2013care`
+- [New evidence pyramid](https://doi.org/10.1136/ebmed-2016-110401) - Murad 等人，Evidence-Based Medicine 2016。讨论传统证据金字塔的局限（结合 GRADE），建议把系统综述当作审视证据的"透镜"。CC BY-NC 4.0 开放获取。🆓 `murad2016new`
+- [Why Most Published Research Findings Are False](https://doi.org/10.1371/journal.pmed.0020124) - Ioannidis，PLoS Medicine 2005。用概率模型论证研究发现可信度受样本量、效应大小、设计灵活性、利益冲突等影响的著名观点文章，CC BY 开放获取。引用时注明是模型论证。🆓 `ioannidis2005why`
+- [About Us; What Is a Reporting Guideline?](https://www.equator-network.org/about-us/) - EQUATOR Network，网页。EQUATOR 网络官网的"关于我们"和"什么是报告规范"页面。🆓 `equatorreporting`
+
+**心理学与认知科学**
+
+- [Estimating the Reproducibility of Psychological Science](https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf) - Open Science Collaboration，Science 2015。开放科学合作组织重做 100 项心理学研究的报告，可重复性危机的标志性研究。邓迪大学机构库公开的同行评审接受稿。🆓 `osc2015estimating`
+- [Psychology's Renaissance](https://faculty.wharton.upenn.edu/wp-content/uploads/2017/05/Nelson-Simmons-Simonsohn-2018.pdf) - Nelson 等人，Annual Review of Psychology 2018。《False-Positive Psychology》作者回顾 2010 年以来心理学的方法改革（p-hacking、披露、预注册、重复研究的判断方法）。作者主页公开的 PDF。🆓 `nelson2018psychology`
+- [False-Positive Citations](https://faculty.wharton.upenn.edu/wp-content/uploads/2017/02/26-Simmons-Nelson-Simonsohn-2018.pdf) - Simmons 等人，Perspectives on Psychological Science 2018。作者回顾 2011 年《False-Positive Psychology》的写作和被引用情况，修正"每组至少 20 人"的建议，并主张预注册。作者主页公开的 PDF。🆓 `simmons2018false`
+- [The Preregistration Revolution](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856500/) - Nosek 等人，Proceedings of the National Academy of Sciences 2018。讲预注册是什么、为什么需要，以及偏离计划、已有数据、探索性研究等情况下怎样做。PNAS 开放获取，PubMed Central 全文。🆓 `nosek2018preregistration`
+- [The Past, Present and Future of Registered Reports](https://orca.cardiff.ac.uk/id/eprint/145541/1/Chambers%26Tzavella2021-MS.pdf) - Chambers 等人，Nature Human Behaviour 2022。注册报告的历史、效果证据、局限和给作者、审稿人、编辑的建议。卡迪夫大学机构库公开的作者接受稿。🆓 `chambers2022past`
+- [The Weirdest People in the World?](https://www.konsortswd.de/wp-content/uploads/RatSWD_WP_139.pdf) - Henrich 等人，Behavioral and Brain Sciences 2010。提出 WEIRD 样本问题的经典文章：行为科学的被试大多来自西方富裕社会，而这些人群在很多心理指标上是离群的。RatSWD 工作论文版。🆓 `henrich2010weirdest`
+- [Ethical Principles of Psychologists and Code of Conduct (2002, amended effective June 1, 2010, and January 1, 2017)](https://www.apa.org/ethics/code/ethics-code-2017.pdf) - American Psychological Association，网页 2017。美国心理学会伦理准则（2002 年通过，含 2010、2016 年修订）。第 8 节为研究与发表，第 9 节为测评。🆓 `apa2017ethical`
+- [Journal Article Reporting Standards for Quantitative Research in Psychology: The APA Publications and Communications Board Task Force Report](https://www.apa.org/pubs/journals/releases/amp-amp0000191.pdf) - Appelbaum 等人，American Psychologist 2018。APA 定量研究报告标准（JARS–Quant）的工作组报告，含各部分应报告的条目表。APA 官网公开 PDF。🆓 `appelbaum2018journal`
+- [Journal Article Reporting Standards (JARS)](https://apastyle.apa.org/jars) - American Psychological Association，APA Style 网页 2025。APA Style 网站的 JARS 总页面，说明定量、定性、混合方法和种族民族文化四套报告标准的适用范围。🆓 `apajars`
+- [About APA Style](https://apastyle.apa.org/about-apa-style) - American Psychological Association，APA Style 网页 2023。APA Style 网站的"About APA Style"页面，说明 APA 格式的由来、适用领域和目的。🆓 `apastyleabout`
+- [Registered Reports](https://www.cos.io/initiatives/registered-reports) - Center for Open Science，Center for Open Science 网页 2026。开放科学中心的注册报告页面：定义、采用期刊列表、最低要求和入门步骤。🆓 `cosregisteredreports`
+- [Sample Size Justification](https://osf.io/preprints/psyarxiv/9d3yf/) - Lakens，Collabra: Psychology 2022。讲怎样说明样本量的六种理由，以及功效分析的常见误区。PsyArXiv 预印本，正式版在开放获取期刊 Collabra: Psychology。🆓 `lakens2022sample`
+- [Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them](https://osf.io/preprints/psyarxiv/hs7wm/) - Flake 等人，Advances in Methods and Practices in Psychological Science 2020。提出"可疑测量做法"（QMP）这一概念，附透明报告测量的问题清单。PsyArXiv 上经同行评审的预印本。🆓 `flake2020measurement`
+
+**经济学**
+
+- [The Credibility Revolution in Empirical Economics: How Better Research Design Is Taking the Con out of Econometrics](https://www.nber.org/system/files/working_papers/w15794/w15794.pdf) - Angrist 等人，Journal of Economic Perspectives 2010。Angrist 和 Pischke 回顾 1983 年以来实证经济学的"可信性革命"，介绍随机实验、工具变量、断点回归、双重差分，讨论宏观和产业组织，并回应对设计派的批评。🆓 `angrist2010credibility`
+- [Writing Tips for Ph.D. Students](https://www.johnhcochrane.com/s/phd_paper_writing.pdf) - Cochrane，网页 2005。芝加哥大学金融经济学家 John Cochrane 给博士生的写作建议，含论文结构、实证识别清单和研讨会报告建议。作者主页公开。🆓 `cochrane2005writing`
+- [How to Build an Economic Model in Your Spare Time](https://people.ischool.berkeley.edu/~hal/Papers/how.pdf) - Varian，The American Economist 1997。Hal Varian 讲自己怎样做理论研究：找想法、简化模型、推广、做报告、写论文。作者主页公开。🆓 `varian1997build`
+- [Star Wars: The Empirics Strike Back](https://docs.iza.org/dp7268.pdf) - Brodeur 等人，American Economic Journal: Applied Economics 2016。统计 2005–2011 年 AER、JPE、QJE 上约五万个检验的 p 值分布，发现刚好低于显著性门槛的结果偏多，解释为研究者挑选"显著"的设定。摘录依据 2013 年 IZA 讨论稿版。🆓 `brodeur2016star`
+- [The Slowdown of the Economics Publishing Process](https://www.nber.org/system/files/working_papers/w7804/w7804.pdf) - Ellison，Journal of Political Economy 2002。记录 1970–1999 年经济学顶级期刊审稿周期的大幅延长，并分析原因。摘录依据 NBER 工作论文版（2000 年）。🆓 `ellison2002slowdown`
+- [Nine Facts about Top Journals in Economics](https://www.nber.org/system/files/working_papers/w18665/w18665.pdf) - Card 等人，Journal of Economic Literature 2013。用 1970–2012 年五大期刊的数据，总结投稿量、接收率、篇幅、作者数、引用等九个趋势。摘录依据 NBER 工作论文版。🆓 `card2013nine`
+- [Publishing and Promotion in Economics: The Tyranny of the Top Five](https://docs.iza.org/dp11868.pdf) - Heckman 等人，Journal of Economic Literature 2020。分析五大期刊发表对终身教职的影响，并批评以五大为筛选标准的做法。摘录依据 2018 年 IZA 讨论稿版。🆓 `heckman2020tyranny`
+- [What's in a Surname? The Effects of Surname Initials on Academic Success](https://web.stanford.edu/~leinav/pubs/JEP2006.pdf) - Einav 等人，Journal of Economic Perspectives 2006。研究经济学按字母顺序署名的惯例对职业成就的影响，并与按贡献署名的心理学对照。作者主页公开期刊版。🆓 `einav2006surname`
+- [A Guide and Advice for Economists on the U.S. Junior Academic Job Market: 2018–2019 Edition](https://www.aeaweb.org/content/file?id=869) - Cawley，American Economic Association 2018。美国经济学博士学术求职指南（2018–19 版），讲求职论文、申请、面试、校园访问、谈判等。AEA 网站公开。🆓 `cawley2018guide`
+- [Promises and Perils of Pre-analysis Plans](https://www.aeaweb.org/articles?id=10.1257/jep.29.3.61) - Olken，Journal of Economic Perspectives 2015。讨论经济学中预分析计划的内容、好处、局限和成本，主要针对随机对照试验。只引用了文章页上的公开摘要。🆓 `olken2015promises`
+- [Working Papers](https://www.nber.org/papers) - National Bureau of Economic Research，网页。NBER 工作论文系列的说明页面：同行评审前发布、开放获取规则。2026 年 10 月 6 日读取。🆓 `nberworkingpapers`
+- [Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy) - American Economic Association，网页 2026。美国经济学会期刊的数据与代码可得性政策（2026 年 2 月版）及实验和一手数据论文的补充政策。🆓 `aea2026data`
+- [About the AEA RCT Registry; AEA RCT Registry Registration Guidelines](https://www.aeaweb.org/journals/policies/rct-registry) - American Economic Association，网页 2026。AEA 随机对照试验注册平台的说明、注册指南和常见问题，含 AEA 期刊对田野实验登记的要求。🆓 `aea2026rct`
+- [Disclosure Policy](https://www.aeaweb.org/journals/policies/disclosure-policy) - American Economic Association，网页 2026。AEA 期刊的利益披露政策：资金来源、利益相关方资助、审阅权、伦理审查批准等。🆓 `aea2026disclosure`
+
+**历史与考古**
+
+- [Statement on Standards of Professional Conduct](https://web.archive.org/web/20240604095630/https://www.historians.org/jobs-and-professional-development/statements-standards-and-guidelines-of-the-discipline/statement-on-standards-of-professional-conduct) - American Historical Association，American Historical Association 网页 2023。美国历史学会的职业行为准则（2023 年修订版），讲一手/二手资料、注释、抄袭、保密承诺和简历诚信。🆓 `aha2023standards`
+- [Statement on Policies Regarding the Option to Embargo Completed History PhD Dissertations](https://web.archive.org/web/20240601005252/https://www.historians.org/jobs-and-professional-development/statements-standards-and-guidelines-of-the-discipline/statement-on-policies-regarding-the-option-to-embargo-completed-history-phd-dissertations) - American Historical Association，American Historical Association 网页 2013。美国历史学会 2013 年声明，建议允许历史学博士论文电子版延迟公开最多六年；说明了"以书为本"、博士论文改书的周期和终身教职对专著的要求。🆓 `aha2013embargo`
+- [Guidelines for Acknowledgment of Collaborators](https://web.archive.org/web/20240601010410/https://www.historians.org/jobs-and-professional-development/statements-standards-and-guidelines-of-the-discipline/guidelines-for-acknowledgment-of-collaborators) - American Historical Association，American Historical Association 网页 2021。美国历史学会 2021 年关于承认合作者的一段式指南，提到合作增加、署名顺序可按贡献或字母排。🆓 `aha2021collaborators`
+- [Against Presentism](https://web.archive.org/web/20220918163213/https://www.historians.org/publications-and-directories/perspectives-on-history/may-2002/against-presentism) - Hunt，Perspectives on History 2002。Lynn Hunt 任美国历史学会会长时的专栏短文，讲"当下主义"的两种表现和应对。🆓 `hunt2002against`
+- [OHA Principles and Best Practices: Principles and Best Practices for Oral History](https://oralhistory.org/principles-and-best-practices-revised-2018/) - Oral History Association，Oral History Association 网页 2018。美国口述历史协会 2018 年通过的原则与最佳实践，含伦理声明、访谈前后的操作要求、保存和使用规范。🆓 `oha2018principles`
+- [SAA Principles of Archaeological Ethics](https://www.saa.org/common/Uploaded%20files/saadocs/CareerPractice/saa_ethics.pdf) - Society for American Archaeology，网页 2024。美国考古学会 2024 年修订的九条考古伦理原则（守护、责任、不商业化、公众与社区参与、保存记录、报告、培训、安全环境、多元包容）。🆓 `saa2024principles`
+- [Standard and Universal Guidance for Archaeological Excavation](https://www.archaeologists.net/sites/default/files/2024-11/CIfA-Standard-Archaeological-Excavation_2023.pdf) - Chartered Institute for Archaeologists，网页 2023。英国特许考古学家协会 2023 年的考古发掘标准和通用指南，规定项目设计书、记录、发掘后评估、报告和归档的要求。🆓 `cifa2023excavation`
+- [Learning to Do Historical Research: A Primer for Environmental Historians and Others](https://www.williamcronon.net/researching/) - Cronon 等人，网页 2009。William Cronon 与其 2008 年秋季研究生讨论课学生合写的历史研究入门网站，讲提问、找文献、做笔记、查手稿、论证与叙事。🆓 `cronon2009learning`
+- [Chicago-Style Citation Quick Guide](https://www.chicagomanualofstyle.org/tools_citationguide.html) - The University of Chicago，The Chicago Manual of Style Online 2024。《芝加哥格式手册》官网免费公开的引用速查页（第 18 版），说明"注释—参考书目"和"作者—年份"两种体系及各自的适用领域。🆓 `chicago2024citation`
+- [Supporting the Changing Research Practices of Historians](https://sr.ithaka.org/wp-content/uploads/2015/08/supporting-the-changing-research-practices-of-historians.pdf) - Rutner 等人，Ithaka S+R 2012。Ithaka S+R 2012 年基于 39 位美国历史学者和博士生访谈的报告，讲档案拍照、资料整理、数字方法和终身教职对专著的要求。🆓 `rutner2012supporting`
 
 ## 数据集与工具
 

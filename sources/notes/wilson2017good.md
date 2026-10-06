@@ -116,3 +116,15 @@
 - 位置：Project organization，4c
 - 原文："Intermediate files such as cleaned data, statistical tables, and final publication-ready figures or tables should be separated clearly by file-naming conventions or placed into different subdirectories; those belonging to different papers or other publications should be grouped together."
 - 要点：results 下按类型分开中间文件和可发表的图表，属于不同论文的结果分组存放。
+
+### E20
+
+- 位置：Data management，Save the raw data (1a)
+- 原文："It is tempting to overwrite raw data files with cleaned-up versions, but faithful retention is essential for rerunning analyses from start to finish, for recovery from analytical mishaps, and for experimenting without fear."
+- 要点：人们很容易用清理过的数据覆盖原始数据；但原样保留原始数据，才能从头重跑分析、从分析失误中恢复、放心地尝试。
+
+### E21
+
+- 位置：Data management，Save the raw data (1a)
+- 原文："In that case, record the exact procedure used to obtain the raw data, as well as any other pertinent information, such as an official version number or the date of download."
+- 要点：对不便本地保存的大型公共数据库，要记下获取原始数据的确切步骤，以及正式版本号或下载日期等信息。

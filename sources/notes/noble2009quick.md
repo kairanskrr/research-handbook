@@ -62,3 +62,15 @@
 - 位置：Figure 1 说明
 - 原文："The README files in the data directories specify who downloaded the data files from what URL on what date."
 - 要点：数据目录里的 README 写明谁在哪天从哪里下载了数据。
+
+### E11
+
+- 位置：Principles
+- 原文："The core guiding principle is simple: Someone unfamiliar with your project should be able to look at your computer files and understand in detail what you did and why."
+- 要点：核心原则：不熟悉项目的人看你的文件，就能详细了解你做了什么、为什么做。
+
+### E12
+
+- 位置：Conclusion
+- 原文："In addition, the need to make results accessible to and understandable by wet lab biologists may have practical implications for how a project is managed."
+- 要点：计算结果要让做湿实验的生物学家看得到、看得懂，这会影响项目的管理方式。
