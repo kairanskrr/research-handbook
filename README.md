@@ -78,3 +78,9 @@ git clone --recursive https://github.com/kairanskrr/research-handbook.git
 ## 参与贡献
 
 发现错误、有更好的资料，或想补充某个学科，见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+
+## 许可证
+
+- **文档内容**（`guide/`、`sources/` 中我们撰写的部分、`templates/`）：[CC BY-SA 4.0](LICENSE)。可以自由转载、改编、商用，但要署名，改编后的版本也要以 CC BY-SA 4.0 发布。
+- **代码**（`scripts/`）：[MIT](scripts/LICENSE)。
+- **第三方内容不在此列**：证据摘录中引用的原文、`papers/` 中的论文、`repos/` 下的子模块，版权归原作者，按各自的许可证使用。
