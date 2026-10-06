@@ -146,6 +146,8 @@ Rosenberg 等人 2020 年社论里的检查清单建议：写明哪段代码生�
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+
 本领域常用的方法，有一部分和计算机领域相通，可以参考对应文档。下面只写本领域额外要注意的地方：
 
 - [工程研究](../computer-science/research-types/engineering_research.md)：提出新的结构体系、构件、材料用法、分析方法或管理方法并评估。评估常常要有物理试验，不能只靠数值模拟 `[本项目分析]`。

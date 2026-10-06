@@ -146,6 +146,10 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[规范法学研究](research-types/doctrinal_research.md)。
+
+**相关学科的研究类型文档**：[哲学论证研究](../philosophy-ethics-religion/research-types/philosophical_argument.md)。
+
 - **规范研究**：找到并解释立法和判例，整理、重述或批判某一领域的法律（见上文）。
 - **改革导向研究和政策分析**：评估现有规则，提出修改建议[^hutchinson2012defining-e2]。
 - **理论和法哲学研究**：讨论法律原则的概念基础[^hutchinson2012defining-e3]。和计算机篇的[理论研究](../computer-science/research-types/theoretical_research.md)不同，这里没有形式化证明，靠的是论证 `[本项目分析]`。

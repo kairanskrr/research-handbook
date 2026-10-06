@@ -128,6 +128,10 @@ Malekzadeh 等人的指南按研究阶段列出一系列问题，可以在提交
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[空间分析研究](research-types/spatial_analysis.md)。
+
+**相关学科的研究类型文档**：[野外观测研究](../earth-environmental-sciences/research-types/field_study.md)。
+
 下面的对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注。
 
 - **深度访谈**：见[访谈研究](../computer-science/research-types/interview_study.md)。差异：研究者本人也参与产生数据，要交代自己的立场，见上文"立场与反思" `[本项目分析]`；引用时注意地点细节会不会让人认出受访者[^aag2024ethics-e13]。

@@ -56,3 +56,15 @@
 - 位置：Chapter 4. Statistical Design and Analysis
 - 原文："Readers must be able to understand how the authors designed and conducted their studies so that the results can be judged for validity and also serve as a basis for the design of future research."
 - 要点：读者必须能看懂试验怎样设计和实施，才能判断结果是否可信，并据此设计以后的研究。
+
+### E10
+
+- 位置：第 4 章 Treatment and Experimental Design
+- 原文："Treatment design includes the factors of interest, the levels of each factor, the relationship among the factors (e.g., a factorial treatment structure), and the selection of blocking variables and covariates. Experimental design refers to the method of arranging the experimental units and the method of assigning treatments to the units."
+- 要点：处理设计包括关心的因素、每个因素的水平、因素之间的关系（如析因结构），以及区组变量和协变量的选择；试验设计指怎样安排实验单位、怎样把处理分配给实验单位。
+
+### E11
+
+- 位置：第 4 章开头
+- 原文："The reporting of the results from each analysis should include a brief description of the statistical method and a literature citation providing its full detail, verification of the degree to which assumptions have been met, and complete descriptions of sampling design and experimental observations in relation to the efficacy of the statistical analysis."
+- 要点：每项分析的报告要包括：统计方法的简要说明和给出完整细节的文献、假定满足到什么程度的检验、取样设计和观测的完整描述。

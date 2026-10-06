@@ -50,3 +50,9 @@
 - 位置：Sidebar A，Fundamental principle 4
 - 原文："Values from an outlying replicate can be omitted if a convincing explanation is found, although repeating part or all of the experiment is a safer strategy. Results from an independent sample, however, can only be left out in exceptional circumstances"
 - 要点：重复测量中的离群值有令人信服的解释时可以剔除，但重做部分或全部实验更稳妥；独立样本的结果只有在特殊情况下才能剔除。
+
+### E9
+
+- 位置：Why bother with replicates at all?
+- 原文："Replicates serve as internal quality checks on how the experiment was performed."
+- 要点：重复测量的作用是检查实验本身做得好不好。

@@ -26,3 +26,9 @@
 - 位置：Plagiarism and Academic Dishonesty
 - 原文："In published work, if you reuse ideas or phrases that you used in prior work and do not cite your prior work, you have plagiarized."
 - 要点：发表时重用自己以前的观点或句子而不引用，也是抄袭。
+
+### E5
+
+- 位置：Plagiarism and Academic Dishonesty
+- 原文："Paraphrasing someone’s ideas or arguments or copying someone’s unique wording without giving proper credit is plagiarism."
+- 要点：转述别人的观点或论证、照搬别人独特的措辞而不注明，都是抄袭。

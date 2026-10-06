@@ -93,3 +93,33 @@
 | 跨方法 | 复现研究 | Replication | 初稿，待审阅：[`replication.md`](computer-science/research-types/replication.md) |
 |  | 混合方法 | Multi-Methodology and Mixed Methods | 初稿，待审阅：[`mixed_methods.md`](computer-science/research-types/mixed_methods.md) |
 | 理论 | 理论研究（证明、形式化分析） | 无，本项目补充 | 初稿，待审阅：[`theoretical_research.md`](computer-science/research-types/theoretical_research.md) |
+
+## 其他学科的研究类型
+
+各学科特有、计算机篇研究类型文档没有覆盖的研究方法，单独成篇，放在对应学科的 `research-types/` 下。通用的方法（对照实验、问卷、访谈、案例研究、综述、复现等）不重复写，各学科领域概况里链接到计算机篇并说明差异。每篇领域概况的"常见的研究类型"一节也列出了本学科和相关学科的研究类型文档。
+
+| 学科 | 研究类型 | 状态 |
+|---|---|---|
+| 临床医学 | [随机对照试验](clinical-medicine/research-types/randomized_controlled_trial.md) | 初稿，待审阅 |
+| 健康科学 | [系统综述与元分析（健康领域）](health-sciences/research-types/meta_analysis.md) | 初稿，待审阅 |
+| 健康科学 | [观察性流行病学研究](health-sciences/research-types/observational_epidemiology.md) | 初稿，待审阅 |
+| 基础医学 | [临床前动物研究](basic-medicine/research-types/preclinical_animal_study.md) | 初稿，待审阅 |
+| 生物科学 | [实验台实验（湿实验）](biological-sciences/research-types/bench_experiment.md) | 初稿，待审阅 |
+| 化学科学 | [合成与表征研究](chemistry/research-types/synthesis_study.md) | 初稿，待审阅 |
+| 物理科学 | [实验测量研究](physical-sciences/research-types/experimental_measurement.md) | 初稿，待审阅 |
+| 地球与环境科学 | [野外观测研究](earth-environmental-sciences/research-types/field_study.md) | 初稿，待审阅 |
+| 农业、林业与渔业 | [田间试验](agriculture/research-types/field_trial.md) | 初稿，待审阅 |
+| 经济学与商学 | [田野实验](economics/research-types/field_experiment.md) | 初稿，待审阅 |
+| 经济学与商学 | [准实验与因果识别](economics/research-types/quasi_experiment.md) | 初稿，待审阅 |
+| 心理学与认知科学 | [量表编制与测量研究](psychology/research-types/scale_development.md) | 初稿，待审阅 |
+| 政治学 | [过程追踪与比较案例研究](political-science/research-types/process_tracing.md) | 初稿，待审阅 |
+| 社会与经济地理学 | [空间分析研究](geography/research-types/spatial_analysis.md) | 初稿，待审阅 |
+| 教育学 | [基于设计的研究](education/research-types/design_based_research.md) | 初稿，待审阅 |
+| 法学 | [规范法学研究](law/research-types/doctrinal_research.md) | 初稿，待审阅 |
+| 历史与考古 | [考古发掘与野外调查](history-archaeology/research-types/archaeological_excavation.md) | 初稿，待审阅 |
+| 历史与考古 | [档案研究](history-archaeology/research-types/archival_research.md) | 初稿，待审阅 |
+| 历史与考古 | [口述历史](history-archaeology/research-types/oral_history.md) | 初稿，待审阅 |
+| 语言与文学 | [文本细读与文学论证](languages-literature/research-types/close_reading.md) | 初稿，待审阅 |
+| 语言与文学 | [语言记录与语言学田野调查](languages-literature/research-types/language_documentation.md) | 初稿，待审阅 |
+| 哲学、伦理与宗教 | [哲学论证研究](philosophy-ethics-religion/research-types/philosophical_argument.md) | 初稿，待审阅 |
+| 艺术 | [基于实践的研究](arts/research-types/practice_based_research.md) | 初稿，待审阅 |

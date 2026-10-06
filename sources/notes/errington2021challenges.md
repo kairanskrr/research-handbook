@@ -38,3 +38,15 @@
 - 位置：Abstract
 - 原文："the data needed to compute effect sizes and conduct power analyses was publicly accessible for just 4 of 193 experiments. Moreover, despite contacting the authors of the original papers, we were unable to obtain these data for 68% of the experiments."
 - 要点：193 个实验中，只有 4 个公开了计算效应量所需的数据；联系原作者后，仍有 68% 的实验拿不到这些数据。
+
+### E7
+
+- 位置：Abstract
+- 原文："None of the 193 experiments was described completely enough to design a replication protocol without requesting clarifying details from the original authors."
+- 要点：项目计划复现的 193 个实验，没有一个描述得足够完整，能不问原作者就设计出复现方案。
+
+### E8
+
+- 位置：Requesting assistance from original authors
+- 原文："For example, a request for specific protocol details was responded with ‘a standard procedure was used.’"
+- 要点：例如，项目向原作者询问具体的实验细节，得到的回答只是"用的是标准方法"。

@@ -50,3 +50,33 @@
 - 位置：表 1 之后的说明段落，PDF 第 9 页
 - 原文："We encourage trial authors to detail what was done and to acknowledge if something was not done or was modified, ensuring alignment of information with that reported in the trial protocol, statistical analysis plan, and trial registry."
 - 要点：作者要写清做了什么、承认哪些没做或改了，并保证论文与试验方案、统计分析计划和登记记录一致。
+
+### E9
+
+- 位置：CONSORT 2025 statement
+- 原文："CONSORT 2025 provides guidance for reporting all randomised trials but focuses on the most common type, the two-group parallel design."
+- 要点：CONSORT 2025 适用于所有随机试验，但以最常见的两组平行设计为主。
+
+### E10
+
+- 位置：Implication and limitations，PDF 第 7 页
+- 原文："It is important to note that CONSORT 2025 and SPIRIT 2025 do not include recommendations for designing, conducting, or analysing trials, but nevertheless the recommendations contained here can help researchers in the design, conduct, and analysis of their trial by highlighting key issues to consider."
+- 要点：CONSORT 和 SPIRIT 不讲怎样设计、实施和分析试验，但它们指出的关键问题对设计、实施和分析有帮助。
+
+### E11
+
+- 位置：CONSORT 2025 statement
+- 原文："The CONSORT 2025 statement supersedes the CONSORT 2010 statement, which should no longer be used."
+- 要点：CONSORT 2025 取代 2010 版，2010 版不应再用。
+
+### E12
+
+- 位置：CONSORT 2025 statement
+- 原文："We strongly recommend the CONSORT 2025 statement be used alongside the CONSORT 2025 explanation and elaboration document"
+- 要点：强烈建议把 CONSORT 2025 声明和配套的解释文章一起使用。
+
+### E13
+
+- 位置：CONSORT 2025 statement
+- 原文："We also strongly recommend the submission of a completed CONSORT 2025 checklist as part of the manuscript submission process, detailing where in the manuscript checklist items are reported"
+- 要点：建议投稿时提交填好的 CONSORT 清单，注明每一项写在稿件哪里。

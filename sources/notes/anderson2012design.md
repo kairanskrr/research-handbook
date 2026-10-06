@@ -62,3 +62,51 @@
 - 位置：What is DBR? — Use of mixed methods
 - 原文："DBR is largely agnostic when it comes to epistemological challenges to choice of methodologies used and typically involves mixed methods using a variety of research tools and techniques."
 - 要点：基于设计的研究在方法选择上不拘一格，通常用混合方法和多种研究工具。
+
+### E11
+
+- 位置：What is DBR? — Focussing on the design and testing of a significant intervention
+- 原文："The creation begins with an accurate assessment of the local context; is informed by relevant literature, theory and practice from other contexts; and is designed specifically to overcome some problem or create an improvement in local practice."
+- 要点：设计干预从准确评估本地情况开始，参考相关文献、理论和别处的实践，专门用来解决某个问题或改进本地实践。
+
+### E12
+
+- 位置：What is DBR? — Focussing on the design and testing of a significant intervention
+- 原文："The intervention may be a learning activity, a type of assessment, the introduction of an administrative activity (such as a change in holidays), or be a technological intervention- to mention just a few of the common types of interventions."
+- 要点：干预可以是学习活动、一种评估方式、一项管理措施（如调整假期），或技术工具等。
+
+### E13
+
+- 位置：What is DBR? — Focussing on the design and testing of a significant intervention
+- 原文："The researcher is careful to document the time, commitment, and contingencies that are involved in the creation and implementation of the intervention. These are documented so that readers of the research can judge for themselves the possibility of achieving similar –or even better results of the use of this intervention in their own context."
+- 要点：研究者要仔细记录设计和实施干预所花的时间、投入和遇到的意外情况，让读者能自己判断在自己的环境里能否得到类似的结果。
+
+### E14
+
+- 位置：What is DBR? — Involving a collaborative partnership between research(s) and practitioner(s)
+- 原文："The partnership in a design-based study recognizes that teachers are usually too busy and often ill trained to conduct rigorous research. Likewise, the researcher is often not knowledgeable of the complexities of the culture, technology, objectives, and politics of an operating educational system to effectively create and measure the impact of an intervention."
+- 要点：合作的理由：教师通常太忙、也常缺少做严谨研究的训练；研究者则常常不了解真实教育系统的文化、技术、目标和人事政治。
+
+### E15
+
+- 位置：What is DBR? — Involving a collaborative partnership between research(s) and practitioner(s)
+- 原文："Thus, a partnership is developed that negotiates the study from initial problem identification, through literature review, to intervention design and construction, implementation, assessment, and the creation and publication of theoretical and design principles."
+- 要点：双方的合作贯穿始终：从确定问题、文献综述、设计和制作干预、实施、评估，到形成并发表理论和设计原则。
+
+### E16
+
+- 位置：What is DBR? — Evolution of design-principles
+- 原文："These principles are not designed to create de-contextualized principles or grand theories that function with equal effect in all contexts. Rather, design principles reflect the conditions in which they operate."
+- 要点：设计原则不是脱离情境、在哪里都同样有效的大理论；它反映的是它起作用的条件。
+
+### E17
+
+- 位置：Problems with DBR
+- 原文："Good research demands "skepticism, commitment and detachment" (Norris, 1997) but DBR also requires comradeship, enthusiasm, and a willingness to actively support the intervention. Thus, a certain wisdom is needed to walk this narrow line between objectivity and bias."
+- 要点：好的研究要求怀疑和超然，而基于设计的研究又要求和伙伴同心、热情、积极支持干预；要在客观和偏向之间走好这条窄路。
+
+### E18
+
+- 位置：Problems with DBR
+- 原文："We also note a partial solution is for established educational researchers to develop multi-year DBR research agendas that have legitimate space and roles for graduate students to undertake and ‘own’ significant pieces of this larger agenda."
+- 要点：部分解决办法：资深研究者设立多年期的研究计划，让研究生在其中承担并"拥有"其中重要的一块。

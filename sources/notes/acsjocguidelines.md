@@ -110,3 +110,81 @@
 - 位置：Compound Characterization Data
 - 原文："If required data cannot be obtained (a compound is too insoluble to record a carbon NMR, or too unstable to obtain a good elemental analysis, etc.), the reason for the absence of the data should be noted in the Experimental Section"
 - 要点：拿不到某项要求的数据（如太难溶测不了碳谱），要在实验部分说明原因。
+
+### E19
+
+- 位置：Compound Characterization Data
+- 原文："Purity documentation must also be provided for known compounds whose preparation by a new or modified literature method is reported."
+- 要点：已知化合物如果是用新方法或改进的文献方法制备的，也要提供纯度证据。
+
+### E20
+
+- 位置：Compound Characterization Data（元素分析和高分辨质谱）
+- 原文："A new compound that is a branching point, a convergence point, or the final new compound in a synthetic scheme, needs elemental analysis or HRMS data regardless of whether the precursor or successor compounds are fully characterized or previously reported."
+- 要点：合成路线上的分叉点、汇合点和最终的新化合物，必须有元素分析或高分辨质谱数据。
+
+### E21
+
+- 位置：Synthesis Experiments
+- 原文："When known compounds have been prepared, procedures that were reported in the Experimental Section or Supporting Information of a previous publication should be cited but not reported in detail unless they have been modified."
+- 要点：已知化合物按文献方法制备的，引用原文献即可，不必重写步骤，除非做了修改。
+
+### E22
+
+- 位置：Synthesis Experiments
+- 原文："Reactant, reagent, and catalyst quantities should be given in both weight and molar units. Reaction solvent volumes and reaction times should be reported."
+- 要点：反应物、试剂、催化剂的量要同时给出质量和物质的量；要写溶剂体积和反应时间。
+
+### E23
+
+- 位置：Synthesis Experiments
+- 原文："If instead a general synthesis procedure reporting only relative molar quantities (as equivalents) is presented, the relative solvent volume also needs to be reported (as the molarity of the limiting reactant or reagent in the reaction mixture)."
+- 要点：通用步骤只写当量时，还要写出浓度（限量反应物在反应液中的物质的量浓度）。
+
+### E24
+
+- 位置：Synthesis Experiments
+- 原文："If the several examples were not all conducted at the same molar scale, the paragraphs describing the individual products should include, along with the yields, the weights and molar amounts of the limiting reactants"
+- 要点：各个例子规模不同时，每个产物段落要写出限量反应物的质量和物质的量。
+
+### E25
+
+- 位置：Synthesis Experiments
+- 原文："When chromatographically or spectroscopically determined conversions of starting material to product are presented in a table [...] a column heading or footnote should identify which quantity is being reported. The isolation and purification of the products for several representative examples should be reported in the Experimental Section, and the yields of isolated product for those examples should be included in the table."
+- 要点：表格里用色谱或波谱测得的转化率，要在列标题或脚注里写明是哪种量；还要给出几个代表性例子的分离产率。
+
+### E26
+
+- 位置：Synthesis Experiments
+- 原文："Manuscripts that illustrate a new or modified synthetic method with multiple examples conducted on a submillimolar scale should include one or more examples carried out on a larger scale (1 mmol) to demonstrate the practical utility of the method as a synthetic tool"
+- 要点：新方法的例子都在不到 1 毫摩尔规模做的，要至少有一个 1 毫摩尔规模的例子。
+
+### E27
+
+- 位置：Synthesis Experiments
+- 原文："When preparative chromatography is used for product purification, both the stationary phase and solvent should be identified." / "the mixture composition or gradient scheme should be individually reported for each compound."
+- 要点：用柱色谱等纯化时写明固定相和洗脱溶剂；一系列化合物用不同配比时，每个化合物分别写。
+
+### E28
+
+- 位置：Synthesis Experiments
+- 原文："For reactions that require heating, identify the temperature and heat source (oil bath, heating mantle, etc.) or the model and manufacturer number if a device is used"
+- 要点：加热反应要写温度和热源。
+
+### E29
+
+- 位置：General Experimental Methods
+- 原文："Sources of reactants, reagents, and solvents should not be identified except for (1) starting compounds that are unusual or not widely available; (2) materials for which the author has reason to suspect that the source is critical to the outcome of an experiment; and (3) catalysts. In the latter two cases, available purity information should be reported."
+- 要点：JOC 一般不要求写试剂来源，只有不常见的原料、怀疑来源会影响结果的材料和催化剂要写，后两者还要写纯度。
+
+### E30
+
+- 位置：Scope of the Journal，(a)
+- 原文："Single or multistep synthetic methods manuscripts and total synthesis manuscripts are expected to demonstrate strategies, transformations, or shortened routes to target structures that show conceptual novelty, not merely the extension of previously reported chemistry to a different class of reaction substrates, reagents, or catalysts."
+- 要点：JOC 期待合成方法和全合成论文在策略、转化或路线上有概念新意，不只是把已有化学推广到另一类底物、试剂或催化剂。
+
+### E31
+
+- 位置：Experimental Section
+- 原文："The Experimental Section should describe methods in sufficient detail to permit repetition of the work by others."
+- 要点：实验部分要详细到别人能重复。

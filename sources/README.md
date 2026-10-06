@@ -553,6 +553,199 @@
 - [Position Statement on Ethical Considerations](https://www.ethnomusicology.org/page/EthicsStatement) - Society for Ethnomusicology，网页 1998。民族音乐学会 1998 年的伦理声明，讲田野研究、发表和教学中的伦理责任。🆓 `sem1998ethics`
 - [Position Statement on Ethnographic Research & Institutional Review Boards](https://www.ethnomusicology.org/page/PS_IRB) - Society for Ethnomusicology，网页 2008。民族音乐学会 2008 年关于民族志研究和美国伦理审查委员会的立场声明。🆓 `sem2008irb`
 
+**研究类型：随机对照试验**
+
+- [CONSORT 2025 explanation and elaboration: updated guideline for reporting randomised trials](https://doi.org/10.1136/bmj-2024-081124) - Hopewell 等人，BMJ 2025。CONSORT 2025 的配套解释文章，逐条讲随机试验报告清单每一项的含义、理由、实证依据和好的写法示例；随机化、分配隐藏、盲法、样本量、意向性分析等部分是本文的主要依据。🆓 `hopewell2025consortee`
+- [SPIRIT 2025 statement: updated guideline for protocols of randomised trials](https://doi.org/10.1136/bmj-2024-081477) - Chan 等人，BMJ 2025。SPIRIT 2025 声明，随机试验方案的报告规范（34 项条目加时间安排图），讲方案应包含哪些内容，包括数据监查委员会、期中分析、揭盲规则、知情同意。🆓 `chan2025spirit`
+- [Trial registration – International Clinical Trials Registry Platform (ICTRP)](https://www.who.int/tools/clinical-trials-registry-platform/network/trial-registration) - World Health Organization，网页。世界卫生组织国际临床试验注册平台（ICTRP）关于试验登记的官方网页：为什么要登记、去哪里登记（WHO 一级登记库或 ICMJE 认可的登记库）、各国要求不同。🆓 `whotrialregistration`
+
+**研究类型：观察性流行病学研究**
+
+- [Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available](https://pmc.ncbi.nlm.nih.gov/articles/PMC4832051/) - Hernan 等人，American Journal of Epidemiology 2016。Hernán 和 Robins 讲怎样用大型观察性数据库模拟"目标试验"的方法学文章，详细讲纳入标准、零时刻、宽限期、结局判定等陷阱。🆓 `hernan2016target`
+- [Causal Inference: What If](https://miguelhernan.org/whatifbook) - Hernan 等人，Chapman & Hall/CRC 2020。Hernán 和 Robins 的因果推断教材，作者网站免费提供 PDF；第 7、8、9 章分别讲混杂、选择偏倚、测量偏倚，第 3.6 节讲目标试验。🆓 `hernan2020whatif`
+- [Observational Studies: Cohort and Case-Control Studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC2998589/) - Song 等人，Plastic and Reconstructive Surgery 2010。面向外科医生的入门文章，讲队列研究和病例对照研究的优缺点、怎样选病例和对照、失访与回忆偏倚。🆓 `song2010observational`
+- [Strengthening the Reporting of Observational Studies in Epidemiology–-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement](https://doi.org/10.1371/journal.pmed.1002036) - Lachat 等人，PLoS Medicine 2016。STROBE 针对营养流行病学的扩展（STROBE-nut），在 STROBE 上加了 24 条建议，讲饮食评估方法、误报、能量调整、验证研究怎样报告。🆓 `lachat2016strobenut`
+- [Dietary Assessment Primer](https://epi.grants.cancer.gov/dietary-assessment-primer/) - National Cancer Institute，Epidemiology and Genomics Research Program, Division of Cancer Control and Population Sciences, National Cancer Institute 2025。美国国家癌症研究所的饮食评估入门资料，讲自我报告饮食工具的测量误差类型、对研究结果的影响和误报。🆓 `nci2025dietprimer`
+- [Use of Directed Acyclic Graphs (DAGs) to Identify Confounders in Applied Health Research: Review and Recommendations](https://pmc.ncbi.nlm.nih.gov/articles/PMC8128477/) - Tennant 等人，International Journal of Epidemiology 2021。综述 1999—2017 年 234 篇用有向无环图（因果图）挑选混杂因素的健康研究，并提出八条报告和使用建议。🆓 `tennant2021dags`
+
+**研究类型：系统综述与元分析（健康领域）**
+
+- [PROSPERO: International Prospective Register of Systematic Reviews](https://www.crd.york.ac.uk/prospero/) - Centre for Reviews and Dissemination, University of York，网页 2023。PROSPERO 国际前瞻性系统综述登记平台（英国约克大学评价与传播中心管理、英国国家卫生研究院资助）的网站说明页，包括登记目的、收录范围、登记时间要求、不收的综述类型、登记资格自查问题。🆓 `crd2023prospero`
+- [GRADE Handbook for Grading Quality of Evidence and Strength of Recommendations](https://gdt.gradepro.org/app/handbook/handbook.html) - ，The GRADE Working Group 2013。GRADE 工作组的《GRADE 手册》（2013 年 10 月更新版），讲怎样用 GRADE 方法给证据质量（现多称"确定性"）分级、怎样形成推荐，包括四个等级的定义、五个降级理由和三个升级理由的解释与例子。免费在线阅读。🆓 `schunemann2013grade`
+
+**研究类型：准实验与因果识别**
+
+- [What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature](https://arxiv.org/abs/2201.01194) - Roth 等人，arXiv:2201.01194 2023。近年双重差分计量方法的综述，按"放松了标准设定的哪条假设"分类，附检查清单和软件包表。🆓 `roth2023trending`
+- [Regression Discontinuity Designs: A Guide to Practice](https://www.nber.org/papers/w13039) - Imbens 等人，Journal of Econometrics 2008。断点回归的实操指南：画图、局部线性回归、带宽选择、各类设定检验，末尾有操作步骤总结。🆓 `imbens2008rd`
+- [Regression Discontinuity Designs in Economics](https://www.nber.org/papers/w14723) - Lee 等人，Journal of Economic Literature 2010。面向实证研究者的断点回归"用户指南"：什么时候成立（"精确控制"的概念）、怎样估计和画图，第 4.6 节有实施清单。🆓 `lee2010rd`
+- [A Practitioner's Guide to Cluster-Robust Inference](https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf) - Cameron 等人，Journal of Human Resources 2015。聚类稳健标准误的实用指南：为什么要聚类、在哪一级聚类、聚类太少怎么办、多维聚类。🆓 `cameron2015practitioner`
+- [How Much Should We Trust Differences-in-Differences Estimates?](https://www.nber.org/papers/w8841) - Bertrand 等人，Quarterly Journal of Economics 2004。用随机生成的"安慰剂法律"说明，忽视序列相关会让双重差分的标准误严重偏小，并提出几种修正办法。🆓 `bertrand2004trust`
+- [Causal Inference: The Remix](https://mixtape.scunning.com/) - Cunningham，网页 2026。Scott Cunningham 的因果推断教材第二版在线版，作者免费公开；讲断点回归、工具变量、双重差分、合成控制等，附 R 和 Stata 代码。🆓 `cunningham2026remix`
+
+**研究类型：田野实验**
+
+- [Using Randomization in Development Economics Research: A Toolkit](https://www.nber.org/papers/t0333) - Duflo 等人，National Bureau of Economic Research 2006。Duflo、Glennerster、Kremer 写的发展经济学随机评估方法手册，覆盖合作伙伴、随机化方式、功效、整群、依从、溢出、流失、推断和外部效度。🆓 `duflo2007toolkit`
+- [Power Calculations](https://www.povertyactionlab.org/resource/power-calculations) - Gupta 等人，J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2021。J-PAL 研究资源页，讲功效计算的组成、整群设计、不依从和流失对样本量的影响，以及参数从哪里找。🆓 `jpal2021power`
+- [Randomization](https://www.povertyactionlab.org/resource/randomization) - Kopper 等人，J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2023。J-PAL 研究资源页，讲随机化方法、随机化单位、分层、平衡检验和可复现的随机分组代码。🆓 `jpal2023randomization`
+- [Ethical Conduct of Randomized Evaluations](https://www.povertyactionlab.org/resource/ethical-conduct-randomized-evaluations) - Feeney 等人，J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2022。J-PAL 研究资源页，按尊重个人、有利、公正三原则讲随机评估的伦理实务（页面自述作者不是伦理学家）。🆓 `jpal2022ethics`
+- [Implementation Monitoring](https://www.povertyactionlab.org/resource/implementation-monitoring) - Gibson，J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2021。J-PAL 研究资源页，讲怎样监测干预是否按设计执行，以及流失、依从、溢出、评估驱动效应等威胁的监测方法。🆓 `jpal2021implementation`
+- [Data Security Procedures for Researchers](https://www.povertyactionlab.org/resource/data-security-procedures-researchers) - O'Toole 等人，J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2023。J-PAL 研究资源页，讲随机评估中个人数据的最小化收集、去标识、加密和与伙伴共享。🆓 `jpal2023datasecurity`
+- [10 Things You Need to Know About Statistical Power](https://methods.egap.org/guides/assessing-designs/power_en.html) - Coppock，EGAP Methods Guides, Evidence in Governance and Politics。EGAP 方法指南"关于统计功效要知道的 10 件事"，含公式、模拟和整群设计的功效。🆓 `egappower`
+- [10 Things to Know About Spillovers](https://methods.egap.org/guides/data-collection/spillovers_en.html) - Coppock，EGAP Methods Guides, Evidence in Governance and Politics。EGAP 方法指南"关于溢出要知道的 10 件事"，讲溢出怎样造成偏差、无干扰假设、隔离带和多层设计。🆓 `egapspillovers`
+- [10 Things You Need to Know About Cluster Randomization](https://methods.egap.org/guides/data-collection/cluster-randomization_en.html) - Bowers 等人，EGAP Methods Guides, Evidence in Governance and Politics。EGAP 方法指南"关于整群随机要知道的 10 件事"，讲信息损失、有效样本量、聚类标准误和群大小不等的偏差。🆓 `egapclusterrandomization`
+- [10 Things You Need to Know About the Local Average Treatment Effect](https://methods.egap.org/guides/research-questions/late_en.html) - van der Windt，EGAP Methods Guides, Evidence in Governance and Politics。EGAP 方法指南"关于局部平均处理效应要知道的 10 件事"，讲不依从、排除性约束、鼓励设计和功效。🆓 `egaplate`
+- [10 Conversations that Implementers and Evaluators Need to Have](https://methods.egap.org/guides/implementation/evaluation-conversations_en.html) - Bowers 等人，EGAP Methods Guides, Evidence in Governance and Politics。EGAP 方法指南"实施方和评估者需要进行的 10 次对话"，讲合作评估前要谈清的目标、分工、沟通、结果公开和意外结果。🆓 `egapevaluationconversations`
+
+**研究类型：量表编制与测量研究**
+
+- [Best Practices for Developing and Validating Scales for Health, Social, and Behavioral Research: A Primer](https://pmc.ncbi.nlm.nih.gov/articles/PMC6004510/) - Boateng 等人，Frontiers in Public Health 2018。Boateng 等人写的量表编制入门，按"编题、形成量表、评价量表"三阶段九步骤讲解，每步给定义、常见陷阱和实例。🆓 `boateng2018best`
+- [Hidden Invalidity Among 15 Commonly Used Measures in Social and Personality Psychology](https://osf.io/preprints/psyarxiv/7rbfp) - Hussey 等人，Advances in Methods and Practices in Psychological Science 2020。Hussey 和 Hughes 用大规模在线数据检验 15 份常用问卷的结构效度，发现只看内部一致性会掩盖大量问题，并提出"效度操纵"（v-hacking）的概念。🆓 `hussey2020hidden`
+- [Measurement Invariance Conventions and Reporting: The State of the Art and Future Directions for Psychological Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC5145197/) - Putnick 等人，Developmental Review 2016。Putnick 和 Bornstein 对测量不变性的非技术介绍和文献回顾：四个检验步骤、拟合标准、部分不变性和报告惯例。🆓 `putnick2016measurement`
+- [The ITC Guidelines for Translating and Adapting Tests (Second Edition)](https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf) - International Test Commission，International Test Commission, version 2.4 2017。国际测验委员会（International Test Commission）《测验翻译与改编指南》第二版（v2.4），18 条指南分六类，附解释和检查表。🆓 `itc2017guidelines`
+
+**研究类型：实验测量研究**
+
+- [Blind Analysis in Nuclear and Particle Physics](https://inspirehep.net/files/123bf8d8ec8f80e60be89076c65dbdbd) - Klein 等人，Annual Review of Nuclear and Particle Science 2005。两位实验物理学家对核物理和粒子物理中盲分析的综述：实验者偏差的几种形式（含"停止偏差"）、隐藏信号框、隐藏答案、隐藏偏移量、数据预留等方法，以及揭盲后怎么办。🆓 `klein2005blind`
+- [NIST/SEMATECH e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm) - NIST/SEMATECH，National Institute of Standards and Technology 2012。美国国家标准与技术研究院（NIST）和 SEMATECH 合编的在线统计方法手册，第 2 章"测量过程表征"讲核查标准、控制图、校准和不确定度分析（A 类、B 类、预算表、扩展不确定度）。🆓 `nist2012ehandbook`
+- [Review of Particle Physics: Introduction](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-rpp-intro.pdf) - Navas 等人，Physical Review D 2024。粒子数据组《粒子物理评论》2024 年版的引言，第 5 节讲怎样对多个测量取加权平均、用卡方检查一致性、用标度因子放大误差，以及数值修约规则。🆓 `pdg2024intro`
+
+**研究类型：实验台实验（湿实验）**
+
+- [What exactly is `N' in cell culture and animal experiments?](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005282) - Lazic 等人，PLOS Biology 2018。用生物单位、实验单位、观察单位三个概念和三条标准，讲清细胞培养和动物实验里 n 到底该怎么算。🆓 `lazic2018what`
+- [Error bars in experimental biology](https://pmc.ncbi.nlm.nih.gov/articles/PMC2064100/) - Cumming 等人，Journal of Cell Biology 2007。写给实验生物学家的八条误差线规则：图注写清 n 和误差线类型，重复测量不能算 n，代表性实验 n = 1。🆓 `cumming2007error`
+- [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128) - Weissgerber 等人，PLOS Biology 2015。系统回顾 703 篇生理学论文的作图方式，主张小样本连续数据画出全部数据点，而不是只画柱状图加误差线。🆓 `weissgerber2015beyond`
+- [What's in a picture? The temptation of image manipulation](https://pmc.ncbi.nlm.nih.gov/articles/PMC2172141/) - Rossner 等人，Journal of Cell Biology 2004。《细胞生物学杂志》编辑用示例图讲解印迹、凝胶和显微图像哪些处理可以接受、哪些属于不当修改。🆓 `rossner2004what`
+
+**研究类型：临床前动物研究**
+
+- [Threats to Validity in the Design and Conduct of Preclinical Efficacy Studies: A Systematic Review of Guidelines for In Vivo Animal Experiments](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001489) - Henderson 等人，PLoS Medicine 2013。对 26 份临床前动物有效性研究设计指南的系统综述，把 55 条建议按内部、构念、外部效度威胁分类。开放获取。🆓 `henderson2013threats`
+- [Survey of the Quality of Experimental Design, Statistical Analysis and Reporting of Research Using Animals](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007824) - Kilkenny 等人，PLoS ONE 2009。英国 NC3Rs 资助的调查，评估英美公共资助机构 271 篇大鼠、小鼠、非人灵长类研究论文的设计、统计和报告质量。开放获取。🆓 `kilkenny2009survey`
+- [Reproducibility of preclinical animal research improves with heterogeneity of study samples](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003693) - Voelkl 等人，PLoS Biology 2018。基于 CAMARADES 数据库中 440 项卒中、心肌梗死、乳腺癌动物研究的模拟，比较单实验室和多实验室设计估计效应量的准确度。开放获取。🆓 `voelkl2018reproducibility`
+- [The Experimental Design Assistant](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003779) - Percie du Sert 等人，PLoS Biology 2017。介绍英国 NC3Rs 的免费在线工具"实验设计助手"（Experimental Design Assistant，EDA），可做样本量计算、区组随机和盲法安排。开放获取；作者都参与了工具开发。工具网址 https://eda.nc3rs.org.uk 。🆓 `perciedusert2017experimental`
+- [animalstudyregistry.org: Welcome](https://www.animalstudyregistry.org/asr_web/index.action) - German Centre for the Protection of Laboratory Animals (Bf3R), German Federal Institute for Risk Assessment，网页。德国联邦风险评估研究所（BfR）下属德国实验动物保护中心（Bf3R）运营的动物研究预注册平台首页。2026-10-06 读取。🆓 `animalstudyregistry`
+
+**研究类型：野外观测研究**
+
+- [Preparations for Water Sampling](https://doi.org/10.3133/tm9A1) - U.S. Geological Survey，网页 2018。美国地质调查局《水质数据采集国家野外手册》A1 章，讲采样前的准备：选点、准入许可、记录、工作计划、质量保证计划、数据管理计划、安全（作业危害分析）。是 USGS 对本局水质野外人员的规程。🆓 `usgs2018nfmprep`
+- [Guidelines for Field-Measured Water-Quality Properties](https://doi.org/10.3133/tm9A6.0) - U.S. Geological Survey，网页 2023。同一手册的 A6.0 章，讲水温、溶解氧、电导率、pH 等现场指标的测量、仪器校准和记录规范（仪器日志、不用铅笔、改错划线签名等）。🆓 `usgs2023nfmfield`
+- [A protocol for data exploration to avoid common statistical problems](https://doi.org/10.1111/j.2041-210X.2009.00001.x) - Zuur 等人，Methods in Ecology and Evolution 2010。写给生态学者的数据探索八步流程（离群值、方差齐性、共线性、观测独立性等）。本文只用了第 8 步"观测是否独立"。🆓 `zuur2010protocol`
+- [Methods to account for spatial autocorrelation in the analysis of species distributional data: a review](https://doi.org/10.1111/j.2007.0906-7590.05171.x) - Dormann 等人，Ecography 2007。生态学里空间自相关的成因、后果、检查方法（相关图、半变异函数）和处理方法综述。🆓 `dormann2007spatial`
+
+**研究类型：田间试验**
+
+- [A tutorial on the statistical analysis of factorial experiments with qualitative and quantitative treatment factor levels](https://doi.org/10.1111/jac.12267) - Piepho 等人，Journal of Agronomy and Crop Science 2018。用真实田间试验讲析因、裂区、定量处理和重复测量数据的混合模型分析的教程，附 SAS 和 R 代码；CC BY 开放获取。🆓 `piepho2018tutorial`
+- [The analysis of crop cultivar breeding and evaluation trials: an overview of current mixed model approaches](https://doi.org/10.1017/S0021859605005587) - Smith 等人，The Journal of Agricultural Science 2005。该刊百年综述，概述多环境品种试验的线性混合模型分析方法（随机品种效应、一阶段与两阶段分析等）。🆓 `smith2005analysis`
+- [Statistics in a Horticultural Journal: Problems and Solutions](https://doi.org/10.21273/JASHS03747-16) - Kramer 等人，Journal of the American Society for Horticultural Science 2016。检查美国园艺学会会刊 2014 年至 2015 年第 1 期共 86 篇论文的统计问题，分类列出常见错误和改进建议；CC BY-NC-ND 开放获取。🆓 `kramer2016statistics`
+- [On-Farm Experimentation to transform global agriculture](https://doi.org/10.1038/s43016-021-00424-4) - Lacoste 等人，Nature Food 2022。多国学者的观点文章，提出以农民为中心、在整块田尺度上做的"农场实验"（On-Farm Experimentation），并讨论小区试验和统计显著性对农民的局限。🆓 `lacoste2022onfarm`
+
+**研究类型：合成与表征研究**
+
+- [On the Topic of Substrate Scope](https://doi.org/10.1021/acs.orglett.2c03246) - Kozlowski，Organic Letters 2022。《Organic Letters》主编 2022 年社论，讨论方法学快报的底物范围该多大、怎样挑选，以及失败底物怎样报告。🆓 `kozlowski2022substrate`
+- [Standardizing Substrate Selection: A Strategy toward Unbiased Evaluation of Reaction Generality](https://doi.org/10.1021/acscentsci.3c01638) - Rana 等人，ACS Central Science 2024。明斯特大学 Glorius 课题组的研究文章，指出底物范围表中的选择偏倚和报告偏倚，提出按化学空间标准化挑选底物的方法。🆓 `rana2024standardizing`
+- [Improving reproducibility through condition-based sensitivity assessments: application, advancement and prospect](https://doi.org/10.1039/d4sc03017f) - Schafer 等人，Chemical Science 2024。Glorius 课题组的观点文章，总结"灵敏度筛查"（一次只改一个反应条件看产率变化）的用法和各子领域应考察的条件，讨论可重复性。🆓 `schafer2024sensitivity`
+- [Stirring the Debate: How Mixing Influences Reproducibility and Efficiency in Synthetic Organic Chemistry](https://doi.org/10.1021/acscentsci.5c01825) - Schuurmans 等人，ACS Central Science 2026。讨论搅拌和混合怎样影响有机合成的可重复性、效率和安全的观点文章，建议论文报告搅拌条件、容器形状和加料方式。🆓 `schuurmans2026stirring`
+- [A Return to the Logic-First Spirit of Corey's Retrosynthetic Analysis, Now Implemented in Modern Data-Driven CASP](https://doi.org/10.1021/acscentsci.6c00702) - Kabeshov 等人，ACS Central Science 2026。阿斯利康研究人员的评论文章，用通俗的话解释逆合成分析"先定拆分策略、再定具体试剂"的思路，以及计算机辅助合成规划和化学家判断的分工。🆓 `kabeshov2026retrosynthesis`
+
+**研究类型：档案研究**
+
+- [Using Archives: A Guide to Effective Research](https://www2.archivists.org/usingarchives) - Schmidt，Society of American Archivists 2016。美国档案工作者协会（SAA）官网免费指南，讲档案馆和图书馆的区别、怎样找档案馆、远程申请、计划到访、阅览室规则、版权与受限材料、未整理收藏，附带注释的检索指南样例。🆓 `schmidt2016using`
+- [Guidelines for Primary Source Literacy](https://www2.archivists.org/sites/all/files/Guidelines%20for%20Primary%20Souce%20Literacy_AsApproved062018_1.pdf) - SAA-ACRL/RBMS Joint Task Force on the Development of Guidelines for Primary Source Literacy，Society of American Archivists and Association of College and Research Libraries 2018。SAA 与 ACRL/RBMS 联合工作组制定的《一手资料素养指南》，列出提问、查找、阅读、评估、使用一手资料所需的能力，附词汇表（沉默、中介、真实性等）。🆓 `saaacrl2018primary`
+- [Start Here: Help with Your Research](https://www.nationalarchives.gov.uk/help-with-your-research/start-here/) - The National Archives (UK)，网页。英国国家档案馆官网的研究入门栏目，讲档案和图书馆的区别、怎样准备查档、哪些记录在网上、哪些不在。🆓 `tnastarthere`
+- [Getting Started Overview](https://www.archives.gov/research/start) - National Archives and Records Administration，网页。美国国家档案与记录管理局（NARA）官网研究入门页面，给出查档四步和"联邦记录只有 1%–3% 永久保存"的说明。🆓 `naragettingstarted`
+
+**研究类型：口述历史**
+
+- [OHA Archives Principles and Best Practices](https://oralhistory.org/archives-principles-and-best-practices/) - Oral History Association，Oral History Association 网页 2019。美国口述历史协会 2019 年通过的存档最佳实践，是其 2018 年《原则与最佳实践》的附录，讲接收、元数据、保存、查阅、合作、所有权和权利管理。🆓 `oha2019archiving`
+- [Workshop on the Web: Introduction to Oral History](https://www.baylor.edu/content/services/document.php/66420.pdf) - Baylor University Institute for Oral History，Baylor University Institute for Oral History website (series of one-page PDFs) 2012。美国贝勒大学口述历史研究所的网上入门工作坊讲义，每个主题一页：定义、规划、伦理关系、法律文件、录音设备、选题、选受访者、提纲、提问、访谈现场、保存、索引、转录、评估与引用、面向公众。🆓 `baylor2012introduction`
+- [Is Your Oral History Legal and Ethical? Ethical and Legal Guidance](https://www.ohs.org.uk/advice/ethical-and-legal/) - Oral History Society，Oral History Society 网页 2019。英国口述历史学会的法律与伦理指南，按访谈流程（准备、第一次接触、访谈中、访谈后、存档）讲英国法律下的同意、版权、数据保护和存档要求。🆓 `ohs2019legal`
+- [Looking After Yourself](https://ohs.org.uk/looking-after-yourself/) - Oral History Society，Oral History Society 网页 2026。英国口述历史学会关于访谈者自我照顾的网页：日程安排、人身安全、情绪支持，以及转录和编目人员的休息。🆓 `ohs2026wellbeing`
+- [Major Legal Challenges Facing Oral History in the Digital Age](https://ohda.matrix.msu.edu/2012/06/major-legal-challenges/) - Neuenschwander，Oral History in the Digital Age 2014。美国法律下口述历史的主要法律问题：授权书的用途条款、波士顿学院"贝尔法斯特项目"传票案、诽谤和隐私侵权、版权与知识共享许可。🆓 `neuenschwander2014legal`
+- [Making Sense of Oral History](https://historymatters.gmu.edu/mse/oral/oral.pdf) - Shopes，History Matters: The U.S. Survey Course on the Web, George Mason University 2002。美国口述历史协会前会长 Linda Shopes 为乔治·梅森大学 History Matters 网站写的指南，讲怎样把口述访谈当历史证据来读：讲述者的可靠性、和其他证据对照、记忆的偏差与意义。🆓 `shopes2002making`
+
+**研究类型：考古发掘与野外调查**
+
+- [Standard and Universal Guidance for Archaeological Field Evaluation](https://www.archaeologists.net/sites/default/files/2024-11/CIfA-Standard-Field-Evaluation_2023.pdf) - Chartered Institute for Archaeologists，网页 2023。英国特许考古学家协会 2023 年 12 月发布的考古野外评估标准和通用指南，讲先非侵入后侵入、项目设计书和评估报告的内容。🆓 `cifa2023evaluation`
+- [Standard and Guidance for the Creation, Compilation, Transfer and Deposition of Archaeological Archives](https://www.archaeologists.net/sites/default/files/2023-11/CIfA-SandG-Archaeological-Archives-2020.pdf) - Chartered Institute for Archaeologists，网页 2020。英国特许考古学家协会的考古档案标准和指南（2014 年首发，2020 年更新），讲档案的定义、开工前的归档计划、记录和出土物处理、移交和所有权；针对英国和马恩岛。🆓 `cifa2020archives`
+- [Standard and Guidance for Archaeological Geophysical Survey](https://www.archaeologists.net/sites/default/files/2023-11/CIfA-SandG-Geophysical-Survey-2020.pdf) - Chartered Institute for Archaeologists，网页 2020。英国特许考古学家协会的考古地球物理勘探标准和指南（2014 年首发，2020 年小幅更新），讲物探的定义、方法、许可和报告内容。🆓 `cifa2020geophysics`
+- [Management of Research Projects in the Historic Environment: The MoRPHE Project Managers' Guide](https://historicengland.org.uk/images-books/publications/morphe-project-managers-guide/) - Lee，Historic England 2015。英格兰历史遗产局的研究项目管理指南（MoRPHE），讲项目阶段、检查点、风险日志、档案和传播；该局资助的项目必须遵循。🆓 `historicengland2015morphe`
+- [Principles of Archaeological Stratigraphy](https://harrismatrix.com/download/) - Harris，Academic Press 1989。Edward Harris 的《考古地层学原理》第 2 版，哈里斯矩阵的出处，讲地层单位、叠压定律、平面图、残留物和渗入物、现场记录流程。🆓 `harris1989principles`
+- [Archeology and Historic Preservation: Secretary of the Interior's Standards and Guidelines](https://www.nps.gov/subjects/historicpreservation/upload/standards-guidelines-archeology-historic-preservation.pdf) - U.S. Department of the Interior, National Park Service，Federal Register 48(190): 44716–44742 1983。美国内政部长的考古与历史保护标准和指南（1983 年《联邦公报》第 48 卷第 190 期），本文只用"考古记录"标准和指南部分：研究设计、野外记录、报告、保管。🆓 `nps1983standards`
+
+**研究类型：规范法学研究**
+
+- [The Doctrinal Method: Incorporating Interdisciplinary Methods in Reforming the Law](https://eprints.qut.edu.au/93564/3/93564.pdf) - Hutchinson，Erasmus Law Review 2015。澳大利亚学者 Hutchinson 考察澳大利亚法学博士论文、32 篇 2013 年刑法改革期刊文章和法律改革委员会报告，讨论改革导向的规范研究怎样吸收统计、比较法和社会科学证据。🆓 `hutchinson2015doctrinal`
+- [Choosing a Successful Paper Topic](https://www.law.georgetown.edu/wp-content/uploads/2021/04/Handout_3-Kaplan_Woods_Choosing_a_Successful_Paper_Topic.pdf) - Uhlig 等人，The Writing Center at Georgetown University Law Center, handout 2020。美国乔治城大学法学院写作中心讲义，讲法学学术论文怎样选题、缩小题目、做"抢先检查"。🆓 `georgetown2020topic`
+- [Developing a Thesis Statement](https://www.law.georgetown.edu/wp-content/uploads/2018/11/Updated-Developing-a-Thesis-Statement-Handout.pdf) - Lambert 等人，The Writing Center at Georgetown University Law Center, handout 2018。美国乔治城大学法学院写作中心讲义，讲法学论文的论点（thesis）是什么、几类论证角度和示例。🆓 `georgetown2018thesis`
+- [You Have Your Scholarly Paper Topic, Now \ldots Get the Research Done](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2026/10/You-Have-Your-Scholarly-Paper-Topic-Now-Get-the-Research-Done_Kelsey-Handschuh-2026-Revisions_FINAL-1.pdf) - Klein 等人，The Writing Center at Georgetown Law, handout 2026。美国乔治城大学法学院写作中心讲义，讲学术论文的检索策略、检索日志、抢先检查、二手和一手资料的检索、什么时候停止检索。🆓 `georgetown2026research`
+- [Using Cases in Legal Analysis: Methods and Examples](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2025/08/Using_Cases_in_Legal_Analysis_Methods_and_ExamplesFCD.pdf) - Hsieh 等人，The Writing Center at Georgetown University Law Center, handout 2025。美国乔治城大学法学院写作中心讲义，讲判例摘要（case brief）的栏目，以及用判例解释制定法、综合规则、做普通法分析和识别趋势的方法。🆓 `georgetown2025cases`
+- [How to Craft an Effective Case Comparison](https://www.law.georgetown.edu/wp-content/uploads/2018/07/How-to-Craft-an-Effective-Case-Comparison.pdf) - Djandji，The Writing Center at Georgetown Law, handout 2017。美国乔治城大学法学院写作中心讲义，讲类比和区分判例、什么差别在法律上有意义、"错误否定"和反例。🆓 `georgetown2017comparison`
+- [Checklist for Scholarly Writing](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2026/10/Checklist-for-Scholarly-Writing_fcd.pdf) - Kotter，The Writing Center at Georgetown Law, handout 2026。美国乔治城大学法学院写作中心的法学学术写作检查清单（论点、结构、分析、脚注、文风）。🆓 `georgetown2026checklist`
+- [A Guide to Reading, Interpreting and Applying Statutes](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2026/08/A-Guide-to-Reading-Interpreting-and-Applying-Statutes.pdf) - Clark 等人，The Writing Center at Georgetown Law, handout 2026。美国乔治城大学法学院写作中心讲义，讲读美国制定法的准备步骤、解释工具和解释理论。🆓 `georgetown2026statutes`
+- [Statutory Interpretation: Theories, Tools, and Trends](https://www.congress.gov/crs-product/R45153) - Brannon，Congressional Research Service 2023。美国国会研究服务部报告，系统介绍美国联邦法院解释制定法的两大理论（目的主义、文本主义）和五类工具。🆓 `brannon2023statutory`
+- [Researching Case Law](https://library.law.northwestern.edu/cases/overview) - Pritzker Legal Research Center, Northwestern Pritzker School of Law，Research guide 2026。美国西北大学普利兹克法学院法律研究中心的判例检索指南：记录检索过程、"一个好判例"法、怎样判断查全。🆓 `northwesterncaselaw`
+- [Wex Legal Dictionary and Encyclopedia](https://www.law.cornell.edu/wex) - Legal Information Institute, Cornell Law School，Online legal dictionary 2026。美国康奈尔大学法学院法律信息研究所的免费法律词典 Wex，用来给判决理由、附带意见、区分、先例、大陆法系等术语下简明定义。🆓 `liiwex`
+
+**研究类型：哲学论证研究**
+
+- [Philosophical Terms and Methods](https://www.jimpryor.net/teaching/vocab/index.html) - Pryor，网页 2025。Jim Pryor 写给入门哲学课学生的讲义《哲学术语与方法》，讲有效、可靠、隐含前提、窃取论题、举证责任、宽容原则、反例和思想实验；以知识共享许可免费发布，三页页脚日期 2025-08-24。`src/pryor2025terms.txt` 是三页正文按 arguments、method、definitions 顺序拼接。🆓 `pryor2025terms`
+- [Analysis](https://plato.stanford.edu/entries/analysis/) - Beaney 等人，The Stanford Encyclopedia of Philosophy 2024。《斯坦福哲学百科全书》"分析"条目：哲学中各种"分析"方法的历史，包括概念分析和它的局限。🆓 `beaney2024analysis`
+- [Informal Logic](https://plato.stanford.edu/entries/logic-informal/) - Groarke，The Stanford Encyclopedia of Philosophy 2026。《斯坦福哲学百科全书》"非形式逻辑"条目：怎样把真实论证标准化（列出前提和结论、补隐含前提、宽容原则），以及评价论证的标准。🆓 `groarke2026informal`
+- [Argument and Argumentation](https://plato.stanford.edu/entries/argument/) - Dutilh Novaes，The Stanford Encyclopedia of Philosophy 2021。《斯坦福哲学百科全书》"论证与论辩"条目：论证的类型（演绎、归纳、溯因、类比），以及论辩应当对抗还是合作的讨论。🆓 `dutilhnovaes2021argument`
+- [Intuition](https://plato.stanford.edu/entries/intuition/) - Pust，The Stanford Encyclopedia of Philosophy 2024。《斯坦福哲学百科全书》"直觉"条目：直觉在哲学中的证据作用（案例法）、对它的质疑和辩护，以及实验哲学的相关结果。🆓 `pust2024intuition`
+
+**研究类型：过程追踪与比较案例研究**
+
+- [Understanding Process Tracing](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/183A057AD6A36783E678CB37440346D1/S1049096511001429a.pdf/div-class-title-understanding-process-tracing-div.pdf) - Collier，PS: Political Science & Politics 2011。PS 期刊"教师"栏目的教学文章，用福尔摩斯故事演示过程追踪的四种检验（风中稻草、环检验、冒烟的枪、双重决定性）。🆓 `collier2011understanding`
+- [Process Tracing: From Philosophical Roots to Best Practices](https://web.archive.org/web/20170816174541/http://summit.sfu.ca/system/files/iritems1/14884/SimonsWorkingPaper21.pdf) - Bennett 等人，School for International Studies, Simon Fraser University 2012。Bennett & Checkel 主编 Process Tracing in the Social Sciences（剑桥大学出版社，2015）第 1 章的工作论文版：过程追踪的定义、哲学基础、四种检验和"好的过程追踪"的十条标准。🆓 `bennett2012process`
+- [Case Selection Techniques in Case Study Research: A Menu of Qualitative and Quantitative Options](https://web.archive.org/web/2016/http://blogs.bu.edu/jgerring/files/2013/06/CaseSelection.pdf) - Seawright 等人，Political Research Quarterly 2008。七种为案例研究挑选案例的方式（典型、多样、极端、偏离、有影响力、最相似、最不同），以及怎样借助大样本数据来选。🆓 `seawright2008case`
+- [What Is a Case Study and What Is It Good For?](https://web.archive.org/web/2016/http://blogs.bu.edu/jgerring/files/2013/06/CasestudyAPSR.pdf) - Gerring，American Political Science Review 2004。给"案例研究"下定义，并列出案例研究相对于跨案例研究的七种长处和短处。🆓 `gerring2004case`
+- [How the Cases You Choose Affect the Answers You Get: Selection Bias in Comparative Politics](https://escholarship.org/uc/item/9r45g86c) - Geddes，Institute of Governmental Studies, University of California, Berkeley 1990。用比较政治学的实例说明"按因变量选案例"（只挑结果相同的案例）会得出什么错误结论。工作论文版；正式版发表于 Political Analysis 2 (1990): 131–150。🆓 `geddes1990cases`
+
+**研究类型：空间分析研究**
+
+- [Geographic Data Science with Python](https://geographicdata.science/book/intro.html) - Rey 等人，CRC Press 2023。空间数据科学教材，作者免费公开在线全文。本任务用了 Spatial Weights、Choropleth Mapping、Global Spatial Autocorrelation、Spatial Regression 四章：空间权重的定义和常见问题、分级统计地图的分级和配色、莫兰指数、普通回归在空间数据上的问题和空间回归入门。🆓 `rey2023geographic`
+- [Spatial Data Science: With Applications in R](https://r-spatial.org/book/) - Pebesma 等人，Chapman and Hall/CRC 2023。R 语言空间数据工具包主要开发者写的教材，作者免费公开在线全文。本任务用了第 2 章（坐标、大地基准、投影、坐标顺序）和第 5 章（属性属于点还是区域、空间聚合、广延量和强度量、面积加权插值）。🆓 `pebesma2023spatial`
+- [Global Spatial Autocorrelation (1): Visualizing Spatial Autocorrelation](https://geodacenter.github.io/workbook/5a_global_auto/lab5a.html) - Anselin，GeoDa Workbook, Center for Spatial Data Science, University of Chicago 2020。GeoDa 软件官方免费教程中讲全局空间自相关的一章：莫兰指数、莫兰散点图、置换检验和伪 p 值、随机种子与复现。🆓 `anselin2020global`
+- [Practical Reproducibility in Geography and Geosciences](https://doi.org/10.1080/24694452.2020.1806028) - Nust 等人，Annals of the American Association of Geographers 2021。地理学和地球科学的计算可复现性实务：脚本化流程、软件环境与版本锁定、研究材料包、在线地理服务、图形界面和闭源软件、敏感数据与模拟数据。🆓 `nust2021practical`
+- [The misuse of colour in science communication](https://doi.org/10.1038/s41467-020-19160-7) - Crameri 等人，Nature Communications 2020。开放获取（CC BY 4.0）的科学配色指南：彩虹色和红绿配色的问题、色觉障碍、感知均匀配色和免费配色来源（含 ColorBrewer）。🆓 `crameri2020misuse`
+- [Ensuring Confidentiality of Geocoded Health Data: Assessing Geographic Masking Strategies for Individual-Level Data](https://doi.org/10.1155/2014/567049) - Zandbergen，Advances in Medicine 2014。开放获取（CC BY）综述：地址地理编码的误差、反向地理编码导致的重新识别风险、空间汇总的代价、各种地理掩蔽方法及其对空间分析的影响。🆓 `zandbergen2014ensuring`
+
+**研究类型：文本细读与文学论证**
+
+- [A Brief Guide to Writing the English Paper](https://writingproject.fas.harvard.edu/files/hwp/files/bg_writing_english.pdf) - Syba，Harvard College Writing Center, Brief Guide Series 2008。哈佛学院写作中心的英文（文学）论文简明指南：细读的归纳法、常见论文类型（理论框架、历史框架、比较等）、两个从细读到论点的完整示例、写作惯例（避免复述情节、叙述者不等于作者、大段引文的用法）。🆓 `syba2008englishpaper`
+- [How to Do a Close Reading](https://writingcenter.fas.harvard.edu/pages/how-do-close-reading) - Kain，Harvard College Writing Center 1998。哈佛学院写作中心的经典短文，以一段 Loren Eiseley 散文为例，演示批注、找模式、问"怎样"和"为什么"、从观察归纳出阐释。🆓 `kain1998closereading`
+- [Thesis](https://writingcenter.fas.harvard.edu/thesis) - Harvard College Writing Center，Harvard College Writing Center, Strategies for Essay Writing n.d.。哈佛学院写作中心讲论点的网页：好论点要可争辩、范围合适；描述性论点、过宽论点的例子；自查论点的五个问题。🆓 `harvardwcthesis`
+- [Counterargument](https://writingcenter.fas.harvard.edu/counterargument) - Harvard College Writing Center，Harvard College Writing Center, Strategies for Essay Writing n.d.。哈佛学院写作中心讲反方论证的网页：反方论证的类型、回应的方式、在文中放在哪里。🆓 `harvardwccounterargument`
+- [Quotations](https://writingcenter.unc.edu/tips-and-tools/quotations/) - The Writing Center, University of North Carolina at Chapel Hill，UNC Writing Center Tips and Tools handout n.d.。北卡罗来纳大学教堂山分校写作中心讲引文的讲义：什么时候引、引文前后怎样交代语境和意义、怎样嵌入句子、引多少、大段引文的用法、避免断章取义。🆓 `uncwritingquotations`
+- [Ways of Reading a Translation](https://www.york.ac.uk/english/about/writing-at-york/writing-resources/ways-of-reading-translation/) - Asciuto，Department of English and Related Literature, University of York, Writing at York resources 2018。英国约克大学英语系的写作资源页面，讲怎样细读译本：优先用原文对照版、比较不同译本、引用时写明译者、把译文用词看作译者的选择。🆓 `asciuto2018translation`
+
+**研究类型：语言记录与语言学田野调查**
+
+- [The Leipzig Glossing Rules: Conventions for Interlinear Morpheme-by-Morpheme Glosses](https://www.eva.mpg.de/lingua/pdf/Glossing-Rules.pdf) - Comrie 等人，Department of Linguistics, Max Planck Institute for Evolutionary Anthropology, and Department of Linguistics, University of Leipzig 2015。语言学行间注释（逐词素注释）的通行格式约定，十条规则加缩写表。🆓 `leipzig2015glossing`
+- [Deposit (Depositing Material with PARADISEC; Catalog Structure & File Naming; File Formats; Metadata; Access Conditions; Do You Own Your Records?)](https://www.paradisec.org.au/deposit/) - PARADISEC，Pacific And Regional Archive for Digital Sources in Endangered Cultures 网页 2026。澳大利亚语言档案馆 PARADISEC 给存档人的指南：存档流程、文件命名、文件格式、元数据字段、访问条件、版权归属。🆓 `paradisecdeposit`
+- [Seven Dimensions of Portability for Language Documentation and Description](https://arxiv.org/abs/cs/0204020) - Bird 等人，arXiv:cs/0204020 2002。讨论数字化语言记录怎样在内容、格式、发现、访问、引用、保存、权利七个方面做到长期可用，并给出最佳做法建议。🆓 `bird2002portability`
+- [Research Models, Community Engagement, and Linguistic Fieldwork: Reflections on Working within Canadian Indigenous Communities](http://hdl.handle.net/10125/4423) - Czaykowska-Higgins，Language Documentation & Conservation 2009。比较语言田野工作的几种研究模式，讨论在加拿大原住民社区做合作研究时怎样建立关系、分配角色。🆓 `czaykowskahiggins2009research`
+- [Public Access to Research Data in Language Documentation: Challenges and Possible Strategies](http://hdl.handle.net/10125/24901) - Seyfeddinipur 等人，Language Documentation & Conservation 2019。30 位作者合写，讨论语言记录数据的同意、版权、访问级别、封存期和档案馆的作用，并给出策略建议。🆓 `seyfeddinipur2019public`
+- [Meeting the Transcription Challenge](http://hdl.handle.net/10125/24806) - Himmelmann，Reflections on Language Documentation 20 Years after Himmelmann 1998 2018。讨论语言记录中的转写：耗时、转写包含解释、母语者改稿、转写对社区语言生态的影响。🆓 `himmelmann2018transcription`
+- [Reflections on the Scope of Language Documentation](http://hdl.handle.net/10125/24804) - Good，Reflections on Language Documentation 20 Years after Himmelmann 1998 2018。语言记录的定义、核心组成（录音、元数据、注释），以及"流水线式记录"的问题。🆓 `good2018scope`
+- [Reflections on Linguistic Fieldwork](http://hdl.handle.net/10125/24822) - Bowern，Reflections on Language Documentation 20 Years after Himmelmann 1998 2018。二十年来田野方法的变化：半结构化诱导任务、重视自然语料、数字录音的利弊。🆓 `bowern2018fieldwork`
+- [Reflections on Descriptive and Documentary Adequacy](http://hdl.handle.net/10125/24816) - Riesberg，Reflections on Language Documentation 20 Years after Himmelmann 1998 2018。反对"记录语料不应包含诱导材料"的看法，讨论原始数据怎样提供才能让结论可核查。🆓 `riesberg2018adequacy`
+- [Reflections on (De)colonialism in Language Documentation](http://hdl.handle.net/10125/24808) - Leonard，Reflections on Language Documentation 20 Years after Himmelmann 1998 2018。一位美国原住民语言学者谈语言记录怎样从社区需求出发、怎样呈现语料。🆓 `leonard2018decolonialism`
+- [Reflections on Documentary Corpora](http://hdl.handle.net/10125/24817) - Rice，Reflections on Language Documentation 20 Years after Himmelmann 1998 2018。从语料库语言学的角度谈记录语料怎样变成可检索、可分析的语料库。🆓 `rice2018corpora`
+
+**研究类型：基于实践的研究**
+
+- [Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line](https://doi.org/10.1162/LEON_a_01471) - Candy 等人，Leonardo 2018。两位作者依据 35 年以上指导艺术、设计、数字媒体跨学科博士的经验，讲基于实践的研究和实践的区别、作品在博士研究中的作用、评审怎样接触作品、书面论文的作用，并附六个博士案例（Scrivener、Tebby、Bell、Burraston、Johnston、Seevinck）。🆓 `candy2018practice`
+- [Characteristics Statement: Doctoral Degree](https://www.qaa.ac.uk/docs/qaa/quality-code/doctoral-degree-characteristics-statement-2020.pdf) - Quality Assurance Agency for Higher Education，Quality Assurance Agency for Higher Education (QAA) 2020。英国高等教育质量保障署《博士学位特征说明》第三版，描述英国各类博士（含基于实践的博士）的特征和考核方式：作品、作品集、作曲通常附批判性评述，加口头答辩。帮助学校设计课程，不属于强制要求。🆓 `qaa2020doctoral`
+- [Submissions: Basic Requirements and Submission Checklist](https://www.jar-online.net/en/submissions) - Journal for Artistic Research，Journal for Artistic Research 网页 2026。《艺术研究期刊》（艺术研究学会主办）的投稿要求：展陈（exposition）形式、一小时阅读量、博士论文材料的再利用、设计、媒体文件和版权要求。🆓 `jar2026submissions`
+- [Peer Reviewing and Artistic Research; JAR Peer Review Form](https://www.jar-online.net/en/peer-reviewing-and-artistic-research) - Journal for Artistic Research，Journal for Artistic Research 网页 2023。JAR 的同行评议说明（单盲评审及理由、流程）和给评审人的评审表 2023 版。评审表第 3 节列出评审要看的五点（问题、创新、背景定位、新知识、方法），并要求评审判断"缺失是否要紧"；附录 B 讲建设性评审的误区。🆓 `jar2023peerreview`
+
+**研究类型：基于设计的研究**
+
+- [Design-Based Research Process: Problems, Phases, and Applications](https://repository.isls.org/bitstream/1/1130/1/317-324.pdf) - Easterday 等人，Learning and Becoming in Practice: The International Conference of the Learning Sciences (ICLS) 2014 2014。国际学习科学大会论文，把基于设计的研究定义为"聚焦、理解、确定、构思、做出、检验"六个迭代阶段，并提出按项目阶段选方法（早期粗原型、后期随机对照检验）。🆓 `easterday2014design`
+- [An Introduction to Design-Based Research with an Example From Statistics Education](https://dspace.library.uu.nl/handle/1874/356250) - Bakker 等人，Approaches to Qualitative Research in Mathematics Education: Examples of Methodology and Methods 2015。专为硕士、博士生写的基于设计的研究入门章节：与随机对照试验和行动研究的比较、假设的学习轨迹、每轮的三个阶段、数据收集和分析矩阵、效度与信度，附统计教育的完整例子。🆓 `bakker2015introduction`
+- [Design-Based Research: A Methodology to Extend and Enrich Biology Education Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC8711803/) - Scott 等人，CBE–-Life Sciences Education 2020。开放获取的方法论文章，以大学生理学课程为例完整走一轮"设计—检验—评估—反思"，转述 Sandoval 2014 的"认识论承诺"和猜想图思路，并讨论合作、资源和严谨性方面的困难。🆓 `scott2020design`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

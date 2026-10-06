@@ -56,3 +56,15 @@
 - 位置：Introducing ARRIVE 2.0
 - 原文："This includes the ethical statement, declaration of interest, protocol registration, and data access, as well as more detailed information on the methodology such as animal housing, husbandry, care, and monitoring."
 - 要点：推荐项包括伦理声明、利益声明、研究方案注册、数据获取方式，以及饲养、照料、监测等更细的方法信息。
+
+### E10
+
+- 位置：Introducing ARRIVE 2.0
+- 原文："While reporting animal research in adherence to all 21 items of ARRIVE 2.0 represents best practice, the classification of the items into 2 groups is intended to facilitate the improved reporting of animal research by allowing an initial focus on the most critical issues." / "The first step should be to ensure compliance with the ARRIVE Essential 10 as a minimum requirement."
+- 要点：21 项全部报告是最佳做法；分成两组是为了先抓最关键的；第一步至少要做到核心 10 项。
+
+### E11
+
+- 位置：Why good reporting is important
+- 原文："This is illustrated by a randomised controlled trial at PLOS ONE, designed to test the effect of requesting a completed ARRIVE checklist in the manuscript submission process. This single editorial intervention, which did not include further verification from journal staff, failed to improve the disclosure of information in published papers"
+- 要点：PLOS ONE 的一项随机对照试验发现，投稿时只要求交一份填好的 ARRIVE 清单、编辑部不进一步核查，并没有让已发表论文报告得更完整。

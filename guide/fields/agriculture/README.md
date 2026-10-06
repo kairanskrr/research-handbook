@@ -153,6 +153,10 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[田间试验](research-types/field_trial.md)。
+
+**相关学科的研究类型文档**：[野外观测研究](../earth-environmental-sciences/research-types/field_study.md)。
+
 下面的分组和"相通"的判断为本项目分析 `[本项目分析]`。
 
 - **田间对照试验和多环境品种试验**：在小区上比较品种、肥料、耕作等处理，常在多个地点、多年重复。思路和计算机篇的[对照实验](../computer-science/research-types/controlled_experiment.md)相通（随机分组、控制无关变量），但那篇讲的是人类参与者；这里的实验单位是地块，还要跨地点和年份。

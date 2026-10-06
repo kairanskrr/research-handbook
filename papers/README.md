@@ -515,6 +515,130 @@
 | `caa2014standards` | Standards for the Practice of Art History | 网页 2014 | [链接](https://www.collegeart.org/standards-and-guidelines/guidelines/art-history-ethics) |
 | `sem1998ethics` | Position Statement on Ethical Considerations | 网页 1998 | [链接](https://www.ethnomusicology.org/page/EthicsStatement) |
 | `sem2008irb` | Position Statement on Ethnographic Research & Institutional Review Boards | 网页 2008 | [链接](https://www.ethnomusicology.org/page/PS_IRB) |
+| `piepho2018tutorial` | A tutorial on the statistical analysis of factorial experiments with qualitative and quantitative treatment factor levels | Journal of Agronomy and Crop Science 2018 | [链接](https://doi.org/10.1111/jac.12267) |
+| `smith2005analysis` | The analysis of crop cultivar breeding and evaluation trials: an overview of current mixed model approaches | The Journal of Agricultural Science 2005 | [链接](https://doi.org/10.1017/S0021859605005587) |
+| `kramer2016statistics` | Statistics in a Horticultural Journal: Problems and Solutions | Journal of the American Society for Horticultural Science 2016 | [链接](https://doi.org/10.21273/JASHS03747-16) |
+| `lacoste2022onfarm` | On-Farm Experimentation to transform global agriculture | Nature Food 2022 | [链接](https://doi.org/10.1038/s43016-021-00424-4) |
+| `kozlowski2022substrate` | On the Topic of Substrate Scope | Organic Letters 2022 | [链接](https://doi.org/10.1021/acs.orglett.2c03246) |
+| `rana2024standardizing` | Standardizing Substrate Selection: A Strategy toward Unbiased Evaluation of Reaction Generality | ACS Central Science 2024 | [链接](https://doi.org/10.1021/acscentsci.3c01638) |
+| `schafer2024sensitivity` | Improving reproducibility through condition-based sensitivity assessments: application, advancement and prospect | Chemical Science 2024 | [链接](https://doi.org/10.1039/d4sc03017f) |
+| `schuurmans2026stirring` | Stirring the Debate: How Mixing Influences Reproducibility and Efficiency in Synthetic Organic Chemistry | ACS Central Science 2026 | [链接](https://doi.org/10.1021/acscentsci.5c01825) |
+| `kabeshov2026retrosynthesis` | A Return to the Logic-First Spirit of Corey's Retrosynthetic Analysis, Now Implemented in Modern Data-Driven CASP | ACS Central Science 2026 | [链接](https://doi.org/10.1021/acscentsci.6c00702) |
+| `schmidt2016using` | Using Archives: A Guide to Effective Research | Society of American Archivists 2016 | [链接](https://www2.archivists.org/usingarchives) |
+| `saaacrl2018primary` | Guidelines for Primary Source Literacy | Society of American Archivists and Association of College and Research Libraries 2018 | [链接](https://www2.archivists.org/sites/all/files/Guidelines%20for%20Primary%20Souce%20Literacy_AsApproved062018_1.pdf) |
+| `tnastarthere` | Start Here: Help with Your Research | 网页 | [链接](https://www.nationalarchives.gov.uk/help-with-your-research/start-here/) |
+| `naragettingstarted` | Getting Started Overview | 网页 | [链接](https://www.archives.gov/research/start) |
+| `oha2019archiving` | OHA Archives Principles and Best Practices | Oral History Association 网页 2019 | [链接](https://oralhistory.org/archives-principles-and-best-practices/) |
+| `baylor2012introduction` | Workshop on the Web: Introduction to Oral History | Baylor University Institute for Oral History website (series of one-page PDFs) 2012 | [链接](https://www.baylor.edu/content/services/document.php/66420.pdf) |
+| `ohs2019legal` | Is Your Oral History Legal and Ethical? Ethical and Legal Guidance | Oral History Society 网页 2019 | [链接](https://www.ohs.org.uk/advice/ethical-and-legal/) |
+| `ohs2026wellbeing` | Looking After Yourself | Oral History Society 网页 2026 | [链接](https://ohs.org.uk/looking-after-yourself/) |
+| `neuenschwander2014legal` | Major Legal Challenges Facing Oral History in the Digital Age | Oral History in the Digital Age 2014 | [链接](https://ohda.matrix.msu.edu/2012/06/major-legal-challenges/) |
+| `shopes2002making` | Making Sense of Oral History | History Matters: The U.S. Survey Course on the Web, George Mason University 2002 | [链接](https://historymatters.gmu.edu/mse/oral/oral.pdf) |
+| `cifa2023evaluation` | Standard and Universal Guidance for Archaeological Field Evaluation | 网页 2023 | [链接](https://www.archaeologists.net/sites/default/files/2024-11/CIfA-Standard-Field-Evaluation_2023.pdf) |
+| `cifa2020archives` | Standard and Guidance for the Creation, Compilation, Transfer and Deposition of Archaeological Archives | 网页 2020 | [链接](https://www.archaeologists.net/sites/default/files/2023-11/CIfA-SandG-Archaeological-Archives-2020.pdf) |
+| `cifa2020geophysics` | Standard and Guidance for Archaeological Geophysical Survey | 网页 2020 | [链接](https://www.archaeologists.net/sites/default/files/2023-11/CIfA-SandG-Geophysical-Survey-2020.pdf) |
+| `historicengland2015morphe` | Management of Research Projects in the Historic Environment: The MoRPHE Project Managers' Guide | Historic England 2015 | [链接](https://historicengland.org.uk/images-books/publications/morphe-project-managers-guide/) |
+| `harris1989principles` | Principles of Archaeological Stratigraphy | Academic Press 1989 | [链接](https://harrismatrix.com/download/) |
+| `nps1983standards` | Archeology and Historic Preservation: Secretary of the Interior's Standards and Guidelines | Federal Register 48(190): 44716–44742 1983 | [链接](https://www.nps.gov/subjects/historicpreservation/upload/standards-guidelines-archeology-historic-preservation.pdf) |
+| `hutchinson2015doctrinal` | The Doctrinal Method: Incorporating Interdisciplinary Methods in Reforming the Law | Erasmus Law Review 2015 | [链接](https://eprints.qut.edu.au/93564/3/93564.pdf) |
+| `georgetown2020topic` | Choosing a Successful Paper Topic | The Writing Center at Georgetown University Law Center, handout 2020 | [链接](https://www.law.georgetown.edu/wp-content/uploads/2021/04/Handout_3-Kaplan_Woods_Choosing_a_Successful_Paper_Topic.pdf) |
+| `georgetown2018thesis` | Developing a Thesis Statement | The Writing Center at Georgetown University Law Center, handout 2018 | [链接](https://www.law.georgetown.edu/wp-content/uploads/2018/11/Updated-Developing-a-Thesis-Statement-Handout.pdf) |
+| `georgetown2026research` | You Have Your Scholarly Paper Topic, Now \ldots Get the Research Done | The Writing Center at Georgetown Law, handout 2026 | [链接](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2026/10/You-Have-Your-Scholarly-Paper-Topic-Now-Get-the-Research-Done_Kelsey-Handschuh-2026-Revisions_FINAL-1.pdf) |
+| `georgetown2025cases` | Using Cases in Legal Analysis: Methods and Examples | The Writing Center at Georgetown University Law Center, handout 2025 | [链接](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2025/08/Using_Cases_in_Legal_Analysis_Methods_and_ExamplesFCD.pdf) |
+| `georgetown2017comparison` | How to Craft an Effective Case Comparison | The Writing Center at Georgetown Law, handout 2017 | [链接](https://www.law.georgetown.edu/wp-content/uploads/2018/07/How-to-Craft-an-Effective-Case-Comparison.pdf) |
+| `georgetown2026checklist` | Checklist for Scholarly Writing | The Writing Center at Georgetown Law, handout 2026 | [链接](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2026/10/Checklist-for-Scholarly-Writing_fcd.pdf) |
+| `georgetown2026statutes` | A Guide to Reading, Interpreting and Applying Statutes | The Writing Center at Georgetown Law, handout 2026 | [链接](https://www.law.georgetown.edu/academics/wp-content/uploads/sites/58/2026/08/A-Guide-to-Reading-Interpreting-and-Applying-Statutes.pdf) |
+| `brannon2023statutory` | Statutory Interpretation: Theories, Tools, and Trends | Congressional Research Service 2023 | [链接](https://www.congress.gov/crs-product/R45153) |
+| `northwesterncaselaw` | Researching Case Law | Research guide 2026 | [链接](https://library.law.northwestern.edu/cases/overview) |
+| `liiwex` | Wex Legal Dictionary and Encyclopedia | Online legal dictionary 2026 | [链接](https://www.law.cornell.edu/wex) |
+| `pryor2025terms` | Philosophical Terms and Methods | 网页 2025 | [链接](https://www.jimpryor.net/teaching/vocab/index.html) |
+| `beaney2024analysis` | Analysis | The Stanford Encyclopedia of Philosophy 2024 | [链接](https://plato.stanford.edu/entries/analysis/) |
+| `groarke2026informal` | Informal Logic | The Stanford Encyclopedia of Philosophy 2026 | [链接](https://plato.stanford.edu/entries/logic-informal/) |
+| `dutilhnovaes2021argument` | Argument and Argumentation | The Stanford Encyclopedia of Philosophy 2021 | [链接](https://plato.stanford.edu/entries/argument/) |
+| `pust2024intuition` | Intuition | The Stanford Encyclopedia of Philosophy 2024 | [链接](https://plato.stanford.edu/entries/intuition/) |
+| `collier2011understanding` | Understanding Process Tracing | PS: Political Science & Politics 2011 | [链接](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/183A057AD6A36783E678CB37440346D1/S1049096511001429a.pdf/div-class-title-understanding-process-tracing-div.pdf) |
+| `bennett2012process` | Process Tracing: From Philosophical Roots to Best Practices | School for International Studies, Simon Fraser University 2012 | [链接](https://web.archive.org/web/20170816174541/http://summit.sfu.ca/system/files/iritems1/14884/SimonsWorkingPaper21.pdf) |
+| `seawright2008case` | Case Selection Techniques in Case Study Research: A Menu of Qualitative and Quantitative Options | Political Research Quarterly 2008 | [链接](https://web.archive.org/web/2016/http://blogs.bu.edu/jgerring/files/2013/06/CaseSelection.pdf) |
+| `gerring2004case` | What Is a Case Study and What Is It Good For? | American Political Science Review 2004 | [链接](https://web.archive.org/web/2016/http://blogs.bu.edu/jgerring/files/2013/06/CasestudyAPSR.pdf) |
+| `geddes1990cases` | How the Cases You Choose Affect the Answers You Get: Selection Bias in Comparative Politics | Institute of Governmental Studies, University of California, Berkeley 1990 | [链接](https://escholarship.org/uc/item/9r45g86c) |
+| `rey2023geographic` | Geographic Data Science with Python | CRC Press 2023 | [链接](https://geographicdata.science/book/intro.html) |
+| `pebesma2023spatial` | Spatial Data Science: With Applications in R | Chapman and Hall/CRC 2023 | [链接](https://r-spatial.org/book/) |
+| `anselin2020global` | Global Spatial Autocorrelation (1): Visualizing Spatial Autocorrelation | GeoDa Workbook, Center for Spatial Data Science, University of Chicago 2020 | [链接](https://geodacenter.github.io/workbook/5a_global_auto/lab5a.html) |
+| `nust2021practical` | Practical Reproducibility in Geography and Geosciences | Annals of the American Association of Geographers 2021 | [链接](https://doi.org/10.1080/24694452.2020.1806028) |
+| `crameri2020misuse` | The misuse of colour in science communication | Nature Communications 2020 | [链接](https://doi.org/10.1038/s41467-020-19160-7) |
+| `zandbergen2014ensuring` | Ensuring Confidentiality of Geocoded Health Data: Assessing Geographic Masking Strategies for Individual-Level Data | Advances in Medicine 2014 | [链接](https://doi.org/10.1155/2014/567049) |
+| `syba2008englishpaper` | A Brief Guide to Writing the English Paper | Harvard College Writing Center, Brief Guide Series 2008 | [链接](https://writingproject.fas.harvard.edu/files/hwp/files/bg_writing_english.pdf) |
+| `kain1998closereading` | How to Do a Close Reading | Harvard College Writing Center 1998 | [链接](https://writingcenter.fas.harvard.edu/pages/how-do-close-reading) |
+| `harvardwcthesis` | Thesis | Harvard College Writing Center, Strategies for Essay Writing n.d. | [链接](https://writingcenter.fas.harvard.edu/thesis) |
+| `harvardwccounterargument` | Counterargument | Harvard College Writing Center, Strategies for Essay Writing n.d. | [链接](https://writingcenter.fas.harvard.edu/counterargument) |
+| `uncwritingquotations` | Quotations | UNC Writing Center Tips and Tools handout n.d. | [链接](https://writingcenter.unc.edu/tips-and-tools/quotations/) |
+| `asciuto2018translation` | Ways of Reading a Translation | Department of English and Related Literature, University of York, Writing at York resources 2018 | [链接](https://www.york.ac.uk/english/about/writing-at-york/writing-resources/ways-of-reading-translation/) |
+| `leipzig2015glossing` | The Leipzig Glossing Rules: Conventions for Interlinear Morpheme-by-Morpheme Glosses | Department of Linguistics, Max Planck Institute for Evolutionary Anthropology, and Department of Linguistics, University of Leipzig 2015 | [链接](https://www.eva.mpg.de/lingua/pdf/Glossing-Rules.pdf) |
+| `paradisecdeposit` | Deposit (Depositing Material with PARADISEC; Catalog Structure & File Naming; File Formats; Metadata; Access Conditions; Do You Own Your Records?) | Pacific And Regional Archive for Digital Sources in Endangered Cultures 网页 2026 | [链接](https://www.paradisec.org.au/deposit/) |
+| `bird2002portability` | Seven Dimensions of Portability for Language Documentation and Description | arXiv:cs/0204020 2002 | [链接](https://arxiv.org/abs/cs/0204020) |
+| `czaykowskahiggins2009research` | Research Models, Community Engagement, and Linguistic Fieldwork: Reflections on Working within Canadian Indigenous Communities | Language Documentation & Conservation 2009 | [链接](http://hdl.handle.net/10125/4423) |
+| `seyfeddinipur2019public` | Public Access to Research Data in Language Documentation: Challenges and Possible Strategies | Language Documentation & Conservation 2019 | [链接](http://hdl.handle.net/10125/24901) |
+| `himmelmann2018transcription` | Meeting the Transcription Challenge | Reflections on Language Documentation 20 Years after Himmelmann 1998 2018 | [链接](http://hdl.handle.net/10125/24806) |
+| `good2018scope` | Reflections on the Scope of Language Documentation | Reflections on Language Documentation 20 Years after Himmelmann 1998 2018 | [链接](http://hdl.handle.net/10125/24804) |
+| `bowern2018fieldwork` | Reflections on Linguistic Fieldwork | Reflections on Language Documentation 20 Years after Himmelmann 1998 2018 | [链接](http://hdl.handle.net/10125/24822) |
+| `riesberg2018adequacy` | Reflections on Descriptive and Documentary Adequacy | Reflections on Language Documentation 20 Years after Himmelmann 1998 2018 | [链接](http://hdl.handle.net/10125/24816) |
+| `leonard2018decolonialism` | Reflections on (De)colonialism in Language Documentation | Reflections on Language Documentation 20 Years after Himmelmann 1998 2018 | [链接](http://hdl.handle.net/10125/24808) |
+| `rice2018corpora` | Reflections on Documentary Corpora | Reflections on Language Documentation 20 Years after Himmelmann 1998 2018 | [链接](http://hdl.handle.net/10125/24817) |
+| `candy2018practice` | Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line | Leonardo 2018 | [链接](https://doi.org/10.1162/LEON_a_01471) |
+| `qaa2020doctoral` | Characteristics Statement: Doctoral Degree | Quality Assurance Agency for Higher Education (QAA) 2020 | [链接](https://www.qaa.ac.uk/docs/qaa/quality-code/doctoral-degree-characteristics-statement-2020.pdf) |
+| `jar2026submissions` | Submissions: Basic Requirements and Submission Checklist | Journal for Artistic Research 网页 2026 | [链接](https://www.jar-online.net/en/submissions) |
+| `jar2023peerreview` | Peer Reviewing and Artistic Research; JAR Peer Review Form | Journal for Artistic Research 网页 2023 | [链接](https://www.jar-online.net/en/peer-reviewing-and-artistic-research) |
+| `easterday2014design` | Design-Based Research Process: Problems, Phases, and Applications | Learning and Becoming in Practice: The International Conference of the Learning Sciences (ICLS) 2014 2014 | [链接](https://repository.isls.org/bitstream/1/1130/1/317-324.pdf) |
+| `bakker2015introduction` | An Introduction to Design-Based Research with an Example From Statistics Education | Approaches to Qualitative Research in Mathematics Education: Examples of Methodology and Methods 2015 | [链接](https://dspace.library.uu.nl/handle/1874/356250) |
+| `scott2020design` | Design-Based Research: A Methodology to Extend and Enrich Biology Education Research | CBE–-Life Sciences Education 2020 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC8711803/) |
+| `hopewell2025consortee` | CONSORT 2025 explanation and elaboration: updated guideline for reporting randomised trials | BMJ 2025 | [链接](https://doi.org/10.1136/bmj-2024-081124) |
+| `chan2025spirit` | SPIRIT 2025 statement: updated guideline for protocols of randomised trials | BMJ 2025 | [链接](https://doi.org/10.1136/bmj-2024-081477) |
+| `whotrialregistration` | Trial registration – International Clinical Trials Registry Platform (ICTRP) | 网页 | [链接](https://www.who.int/tools/clinical-trials-registry-platform/network/trial-registration) |
+| `hernan2016target` | Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available | American Journal of Epidemiology 2016 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC4832051/) |
+| `hernan2020whatif` | Causal Inference: What If | Chapman & Hall/CRC 2020 | [链接](https://miguelhernan.org/whatifbook) |
+| `song2010observational` | Observational Studies: Cohort and Case-Control Studies | Plastic and Reconstructive Surgery 2010 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC2998589/) |
+| `lachat2016strobenut` | Strengthening the Reporting of Observational Studies in Epidemiology–-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement | PLoS Medicine 2016 | [链接](https://doi.org/10.1371/journal.pmed.1002036) |
+| `nci2025dietprimer` | Dietary Assessment Primer | Epidemiology and Genomics Research Program, Division of Cancer Control and Population Sciences, National Cancer Institute 2025 | [链接](https://epi.grants.cancer.gov/dietary-assessment-primer/) |
+| `tennant2021dags` | Use of Directed Acyclic Graphs (DAGs) to Identify Confounders in Applied Health Research: Review and Recommendations | International Journal of Epidemiology 2021 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC8128477/) |
+| `crd2023prospero` | PROSPERO: International Prospective Register of Systematic Reviews | 网页 2023 | [链接](https://www.crd.york.ac.uk/prospero/) |
+| `schunemann2013grade` | GRADE Handbook for Grading Quality of Evidence and Strength of Recommendations | The GRADE Working Group 2013 | [链接](https://gdt.gradepro.org/app/handbook/handbook.html) |
+| `roth2023trending` | What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature | arXiv:2201.01194 2023 | [链接](https://arxiv.org/abs/2201.01194) |
+| `imbens2008rd` | Regression Discontinuity Designs: A Guide to Practice | Journal of Econometrics 2008 | [链接](https://www.nber.org/papers/w13039) |
+| `lee2010rd` | Regression Discontinuity Designs in Economics | Journal of Economic Literature 2010 | [链接](https://www.nber.org/papers/w14723) |
+| `cameron2015practitioner` | A Practitioner's Guide to Cluster-Robust Inference | Journal of Human Resources 2015 | [链接](https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf) |
+| `bertrand2004trust` | How Much Should We Trust Differences-in-Differences Estimates? | Quarterly Journal of Economics 2004 | [链接](https://www.nber.org/papers/w8841) |
+| `cunningham2026remix` | Causal Inference: The Remix | 网页 2026 | [链接](https://mixtape.scunning.com/) |
+| `duflo2007toolkit` | Using Randomization in Development Economics Research: A Toolkit | National Bureau of Economic Research 2006 | [链接](https://www.nber.org/papers/t0333) |
+| `jpal2021power` | Power Calculations | J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2021 | [链接](https://www.povertyactionlab.org/resource/power-calculations) |
+| `jpal2023randomization` | Randomization | J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2023 | [链接](https://www.povertyactionlab.org/resource/randomization) |
+| `jpal2022ethics` | Ethical Conduct of Randomized Evaluations | J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2022 | [链接](https://www.povertyactionlab.org/resource/ethical-conduct-randomized-evaluations) |
+| `jpal2021implementation` | Implementation Monitoring | J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2021 | [链接](https://www.povertyactionlab.org/resource/implementation-monitoring) |
+| `jpal2023datasecurity` | Data Security Procedures for Researchers | J-PAL Research Resources, Abdul Latif Jameel Poverty Action Lab 2023 | [链接](https://www.povertyactionlab.org/resource/data-security-procedures-researchers) |
+| `egappower` | 10 Things You Need to Know About Statistical Power | EGAP Methods Guides, Evidence in Governance and Politics | [链接](https://methods.egap.org/guides/assessing-designs/power_en.html) |
+| `egapspillovers` | 10 Things to Know About Spillovers | EGAP Methods Guides, Evidence in Governance and Politics | [链接](https://methods.egap.org/guides/data-collection/spillovers_en.html) |
+| `egapclusterrandomization` | 10 Things You Need to Know About Cluster Randomization | EGAP Methods Guides, Evidence in Governance and Politics | [链接](https://methods.egap.org/guides/data-collection/cluster-randomization_en.html) |
+| `egaplate` | 10 Things You Need to Know About the Local Average Treatment Effect | EGAP Methods Guides, Evidence in Governance and Politics | [链接](https://methods.egap.org/guides/research-questions/late_en.html) |
+| `egapevaluationconversations` | 10 Conversations that Implementers and Evaluators Need to Have | EGAP Methods Guides, Evidence in Governance and Politics | [链接](https://methods.egap.org/guides/implementation/evaluation-conversations_en.html) |
+| `boateng2018best` | Best Practices for Developing and Validating Scales for Health, Social, and Behavioral Research: A Primer | Frontiers in Public Health 2018 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC6004510/) |
+| `hussey2020hidden` | Hidden Invalidity Among 15 Commonly Used Measures in Social and Personality Psychology | Advances in Methods and Practices in Psychological Science 2020 | [链接](https://osf.io/preprints/psyarxiv/7rbfp) |
+| `putnick2016measurement` | Measurement Invariance Conventions and Reporting: The State of the Art and Future Directions for Psychological Research | Developmental Review 2016 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC5145197/) |
+| `itc2017guidelines` | The ITC Guidelines for Translating and Adapting Tests (Second Edition) | International Test Commission, version 2.4 2017 | [链接](https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf) |
+| `klein2005blind` | Blind Analysis in Nuclear and Particle Physics | Annual Review of Nuclear and Particle Science 2005 | [链接](https://inspirehep.net/files/123bf8d8ec8f80e60be89076c65dbdbd) |
+| `nist2012ehandbook` | NIST/SEMATECH e-Handbook of Statistical Methods | National Institute of Standards and Technology 2012 | [链接](https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm) |
+| `pdg2024intro` | Review of Particle Physics: Introduction | Physical Review D 2024 | [链接](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-rpp-intro.pdf) |
+| `lazic2018what` | What exactly is `N' in cell culture and animal experiments? | PLOS Biology 2018 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005282) |
+| `cumming2007error` | Error bars in experimental biology | Journal of Cell Biology 2007 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC2064100/) |
+| `weissgerber2015beyond` | Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm | PLOS Biology 2015 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128) |
+| `rossner2004what` | What's in a picture? The temptation of image manipulation | Journal of Cell Biology 2004 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC2172141/) |
+| `henderson2013threats` | Threats to Validity in the Design and Conduct of Preclinical Efficacy Studies: A Systematic Review of Guidelines for In Vivo Animal Experiments | PLoS Medicine 2013 | [链接](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001489) |
+| `kilkenny2009survey` | Survey of the Quality of Experimental Design, Statistical Analysis and Reporting of Research Using Animals | PLoS ONE 2009 | [链接](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007824) |
+| `voelkl2018reproducibility` | Reproducibility of preclinical animal research improves with heterogeneity of study samples | PLoS Biology 2018 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003693) |
+| `perciedusert2017experimental` | The Experimental Design Assistant | PLoS Biology 2017 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003779) |
+| `animalstudyregistry` | animalstudyregistry.org: Welcome | 网页 | [链接](https://www.animalstudyregistry.org/asr_web/index.action) |
+| `usgs2018nfmprep` | Preparations for Water Sampling | 网页 2018 | [链接](https://doi.org/10.3133/tm9A1) |
+| `usgs2023nfmfield` | Guidelines for Field-Measured Water-Quality Properties | 网页 2023 | [链接](https://doi.org/10.3133/tm9A6.0) |
+| `zuur2010protocol` | A protocol for data exploration to avoid common statistical problems | Methods in Ecology and Evolution 2010 | [链接](https://doi.org/10.1111/j.2041-210X.2009.00001.x) |
+| `dormann2007spatial` | Methods to account for spatial autocorrelation in the analysis of species distributional data: a review | Ecography 2007 | [链接](https://doi.org/10.1111/j.2007.0906-7590.05171.x) |
 
 ## 待获取
 

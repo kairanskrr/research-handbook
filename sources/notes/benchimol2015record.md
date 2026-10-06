@@ -92,3 +92,27 @@
 - 位置：Methods (Participants) 部分的说明
 - 原文："Although the risk of misclassification is amplified in studies using databases containing large populations, such studies offer an opportunity to study rare or uncommon diseases"
 - 要点：大人群数据库的错误分类风险会被放大，但它们也让研究罕见病成为可能。
+
+### E16
+
+- 位置：RECORD item 6.3
+- 原文："If the study involved linkage of databases, consider use of a flow diagram or other graphical display to demonstrate the data linkage process, including the number of individuals with linked data at each stage."
+- 要点：链接了多个数据库的，考虑用流程图展示链接过程，以及每一步成功链接的人数。
+
+### E17
+
+- 位置：RECORD items 12.1 and 12.2
+- 原文："Authors should describe the extent to which the investigators had access to the database used to create the study population. RECORD ITEM 12.2: Authors should provide information on the data cleaning methods used in the study."
+- 要点：说明研究者能在多大程度上直接接触用来构建研究人群的数据库，并说明数据清洗方法。
+
+### E18
+
+- 位置：RECORD items 12.1 and 12.2, Explanation
+- 原文："Errors can occur if data analysts unfamiliar with the nuances of cohort creation or study aims create the study cohorts."
+- 要点：如果构建研究队列的数据分析员不熟悉建队列的细节或研究目的，就可能出错。
+
+### E19
+
+- 位置：RECORD item 13.1
+- 原文："Describe in detail the selection of the persons included in the study (i.e., study population selection), including filtering based on data quality, data availability and linkage."
+- 要点：详细描述研究人群是怎样选出来的，包括按数据质量、数据可得性和链接情况做的筛选。

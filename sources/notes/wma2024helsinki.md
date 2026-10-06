@@ -80,3 +80,27 @@
 - 位置：Free and Informed Consent
 - 原文："Where consent is impossible or impracticable to obtain, secondary research on stored data or biological material may be done only after consideration and approval of a research ethics committee."
 - 要点：无法或难以取得同意时，用已保存的数据或生物材料做二次研究，必须先经研究伦理委员会审查批准。
+
+### E14
+
+- 位置：Use of Placebo
+- 原文："The benefits, risks, burdens, and effectiveness of a new intervention must be tested against those of the best proven intervention(s), except in the following circumstances:" / "If no proven intervention exists, the use of placebo, or no intervention, is acceptable"
+- 要点：新干预原则上要和已证实最好的干预比较；例外之一是没有已证实的干预时，可以用安慰剂或不干预作对照。
+
+### E15
+
+- 位置：Scientific Requirements and Research Protocols
+- 原文："In clinical trials, the protocol must also describe any post-trial provisions."
+- 要点：临床试验的方案还必须写明试验结束后的安排。
+
+### E16
+
+- 位置：Research Ethics Committees
+- 原文："Where monitoring is required, the researcher must provide information to the committee and/or competent data and safety monitoring entity, especially about any serious adverse events. No amendment to the protocol may be made without consideration and approval by the committee."
+- 要点：需要监查时，研究者必须向伦理委员会和/或数据安全监查机构报告，尤其是严重不良事件；方案的任何修改都要经伦理委员会审议批准。
+
+### E17
+
+- 位置：Risks, Burdens, and Benefits
+- 原文："When the risks and burdens are found to outweigh the potential benefits or when there is conclusive proof of definitive outcomes, physicians and other researchers must assess whether to continue, modify or immediately stop the research."
+- 要点：发现风险和负担超过潜在获益，或已有确定结论时，研究者必须评估是继续、修改还是立即停止研究。

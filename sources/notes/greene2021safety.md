@@ -62,3 +62,9 @@
 - 位置：§4.1.1 Training
 - 原文："Physical first aid training for staff (and sometimes students) is standard, but is also insufficient to ensure the health and safety of all participants."
 - 要点：急救培训是标准配置，但只靠它不足以保证所有人的安全。
+
+### E11
+
+- 位置：§4.2.2 Permission/Ethics
+- 原文："Whose land is it, are locals involved in your work, and are they mutually benefitting (or at minimum not being harmed) by your visit"
+- 要点：这是谁的土地，当地人有没有参与，他们有没有受益、至少没有受损。

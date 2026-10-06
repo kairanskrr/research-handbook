@@ -143,6 +143,8 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[过程追踪与比较案例研究](../political-science/research-types/process_tracing.md)、[档案研究](../history-archaeology/research-types/archival_research.md)、[口述历史](../history-archaeology/research-types/oral_history.md)。
+
 社会学常用的研究方法，和计算机领域篇已有研究类型的对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体依据见脚注）：
 
 - **二次分析大型调查数据**：Freese 和 Peterson 说，大多数定量社会科学研究用的是别人收集的数据[^freese2017replication-e11]。数据清洗和分析的通用做法可参考[数据科学](../computer-science/research-types/data_science.md)。差异：重点是理解数据怎样收集、怎样编码，并引用数据集本身[^icpsrdata-e4]。

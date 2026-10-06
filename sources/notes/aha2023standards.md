@@ -122,3 +122,39 @@
 - 位置：§8 Reputation and Trust
 - 原文："Historians should not list among the completed achievements on their resumes degrees or honors they have never earned, jobs they have never held, articles or books they have never written or published, or any comparable misrepresentations of their creative or professional work."
 - 要点：简历上不能把没获得的学位荣誉、没担任过的职位、没写成或没发表的文章和书列为已完成的成果。
+
+### E21
+
+- 位置：§3 Scholarship
+- 原文："Although they recognize the legitimacy of restricting access to some sources for national security, proprietary, and privacy reasons, they have a professional interest in opposing unnecessary restrictions whenever appropriate."
+- 要点：历史学家承认出于国家安全、商业产权和隐私而限制查阅某些资料是正当的，但在适当时也要反对不必要的限制。
+
+### E22
+
+- 位置：§2 Professional Integrity
+- 原文："Any changes to a primary source or published secondary work, whether digital or print, should be noted."
+- 要点：对一手资料或已发表著作做的任何改动（数字的或印刷的），都要注明。
+
+### E23
+
+- 位置：§2 Professional Integrity
+- 原文："The ease with which digitally preserved records are reproduced and accessed facilitates this practice but makes accurate citation even more vital."
+- 要点：数字化记录容易复制和获取，这让准确引用更加重要。
+
+### E24
+
+- 位置：§2 Professional Integrity
+- 原文："contributing in a fair-minded way to ongoing scholarly and public debates over what those sources tell us about the past and also what they fail to illuminate."
+- 要点：职业的历史研究要公正地参与讨论：资料告诉了我们什么，也包括它们照不亮什么。
+
+### E25
+
+- 位置：§3 Scholarship
+- 原文："Historians should not misrepresent their sources. They should report their findings as accurately as possible and not omit evidence that runs counter to their own interpretation."
+- 要点：不得歪曲资料；尽可能准确地报告发现，不略去与自己解释相反的证据。
+
+### E26
+
+- 位置：§3 Scholarship
+- 原文："Historians sometimes appropriately agree to restrictive conditions about the use of particular sources."
+- 要点：历史学家有时会正当地同意某些资料的使用限制条件。

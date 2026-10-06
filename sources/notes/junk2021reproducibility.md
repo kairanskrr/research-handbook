@@ -200,3 +200,129 @@
 - 位置：§6.9 Review of Results
 - 原文："Below, we describe the review procedures used by CDF, a typical hadron collider collaboration."
 - 要点：文中以 CDF 为例介绍审查流程，它是一个典型的强子对撞机合作组。
+
+### E34
+
+- 位置：§3.3 Systematic Uncertainties
+- 原文："Systematic effects are not easy to detect, and in general much more effort is needed to evaluate the corresponding uncertainties."
+- 要点：系统效应不容易发现，评估相应的不确定度一般要花多得多的功夫。
+
+### E35
+
+- 位置：§3.3
+- 原文："Measurements nearly always have some bias, and the question is by how much are they biased. Results are corrected for known biases, and the uncertainties in these corrections contribute to the total uncertainties."
+- 要点：测量几乎总有偏差，问题是偏多少；已知偏差要修正，修正值的不确定度计入总不确定度。
+
+### E36
+
+- 位置：§3.3
+- 原文："They can be detected by the fact that, if the experiment is repeated several times, the measured physical quantity will vary." / "Systematic effects, however, can cause the result to be shifted from its true value, but in a way that does not necessarily change from measurement to measurement."
+- 要点：统计不确定度可以靠重复实验发现（结果会变）；系统效应会把结果从真值推开，但不一定随每次测量而变，所以重复测量发现不了它。
+
+### E37
+
+- 位置：§3.3
+- 原文："“Uncertainties” are numerical estimates of the possible values of the errors" / "Particle physicists often use the word “error” when they mean “uncertainty.”"
+- 要点："误差"是估计值和未知真值之差，"不确定度"是对误差可能取值的数值估计；粒子物理学家常把"误差"一词当"不确定度"用。
+
+### E38
+
+- 位置：§3.3
+- 原文："The separation of the two uncertainties conveys to the reader both the claimed accuracy of the result and the claimed precision." / "the reader may judge whether it makes sense to run the experiment longer in order to improve the total uncertainty, or if the result is “systematics limited.”"
+- 要点：把统计和系统不确定度分开写，读者才能判断：多取数据还能不能改善总不确定度，还是结果已经"受系统误差限制"。
+
+### E39
+
+- 位置：§3.3
+- 原文："In the bulk of a paper, the numerical effects on the total systematic uncertainty are quoted separately for each source."
+- 要点：论文正文里，按来源分别列出每一项对总系统不确定度的贡献。
+
+### E40
+
+- 位置：§3.3
+- 原文："Detailed breakdowns of systematic uncertainties by their source and full explanations of how they were estimated assists in this process. The most problematic sources of systematic error are those that are neglected or incorrectly dismissed."
+- 要点：按来源细分系统不确定度、完整说明怎样估计，便于日后修正和再利用；最麻烦的系统误差来源是被忽略或被错误排除的那些。
+
+### E41
+
+- 位置：§3.3
+- 原文："If systematic uncertainties remain difficult to control, a solution can be to perform a measurement of a quantity that can be more unambiguously defined, such as the ratio of two production rates."
+- 要点：系统不确定度难以控制时，可以改测一个定义更明确的量，例如两个产生率的比值。
+
+### E42
+
+- 位置：§6.1 Monitoring and Recording Experimental Conditions
+- 原文："Environmental variables such as ambient temperature, pressure and humidity are also included in these records."
+- 要点：实验运行条件（包括温度、气压、湿度等环境变量）被持续监测并记录下来，供分析时调用。
+
+### E43
+
+- 位置：§6.1
+- 原文："It is up to the shift crew to identify those conditions, notify experts who may be able to repair the errant condition, and mark the data appropriately so they do not bias physics results."
+- 要点：值班人员要识别异常状况、通知专家修复，并给受影响的数据做好标记，以免这些数据让结果产生偏差。
+
+### E44
+
+- 位置：§6.3 Reporting the Expected Sensitivity
+- 原文："A common and necessary practice in EPP is to compute the expected sensitivity of an analysis before the data are collected, or at least before they are analyzed."
+- 要点：在实验粒子物理中，常规且必要的做法是：在取数据之前，至少在分析数据之前，先算出分析的预期灵敏度。
+
+### E45
+
+- 位置：§6.3
+- 原文："Even if a result fails to be significant, if the sensitivity of the test is high, then the result is worth publishing."
+- 要点：结果不显著，但检验灵敏度高，这个结果也值得发表。
+
+### E46
+
+- 位置：§6.4 Standard Candles and Control Samples
+- 原文："To show that a known signal is found in the same analysis with the expected strength and properties gives confidence that the whole chain is working as desired."
+- 要点：用同一套分析找到一个已知信号（"标准烛光"），强度和性质都符合预期，就说明整条链条按预期工作。
+
+### E47
+
+- 位置：§6.4
+- 原文："Disagreements in the predictions of background rates and properties from different control samples are often contributions to the systematic uncertainty estimations used in the signal sample."
+- 要点：用不同控制样本（已知没有信号的数据）预测本底，预测之间的差异常被计入系统不确定度。
+
+### E48
+
+- 位置：§6.5 Dedicated Calibration Working Groups
+- 原文："One avenue that subconscious bias can affect an analysis is in the calibration stage."
+- 要点：潜意识的偏差可能在校准环节进入分析。
+
+### E49
+
+- 位置：§6.6
+- 原文："Yet another blinding procedure which applies to precision measurement of physical quantities is to encode an arbitrary, fixed offset in the final step of parameter inference in software, and to hide the value of this offset from researchers performing the analysis work." / "This method is not used for significance tests."
+- 要点：精密测量常用的盲法：在软件里给最后的参数推断加一个任意的固定偏移量，并对做分析的人隐藏它；这种方法不用于显著性检验。
+
+### E50
+
+- 位置：§6.6
+- 原文："Sometimes surprises are found in the control samples – previously unappreciated sources of background events or miscalibrations can show up at this stage."
+- 要点：部分盲分析中先看控制样本，有时会发现意外：以前没意识到的本底来源或校准错误。
+
+### E51
+
+- 位置：§6.9 Review of Results
+- 原文："There are negative consequences to overestimating systematic uncertainties."
+- 要点：高估系统不确定度也有坏处（例如几组测量合在一起时卡方偏小，联合结果的不确定度反而可能被低估）。
+
+### E52
+
+- 位置：§5 Replication of Experimental Particle Physics Results
+- 原文："In order to tell if a second experimental result successfully replicates the first, shared and independent sources of error must be carefully taken into account."
+- 要点：判断第二个实验是否成功重复了第一个，要仔细考虑两者共有的和各自独立的误差来源。
+
+### E53
+
+- 位置：§5
+- 原文："A result with a very large systematic uncertainty is consistent with more possible true values of the parameter(s) of interest and thus passes replication tests more easily than one with a smaller systematic uncertainty."
+- 要点：系统不确定度很大的结果和更多可能的真值相容，所以更容易"通过"重复检验。
+
+### E54
+
+- 位置：§5
+- 原文："A replication attempt that is not an identical repetition the original experiment, but which rather changes some aspect of it, can be more informative than an exact repetition"
+- 要点：改变了某些方面的重复实验，可能比完全照搬的重复更有信息量。

@@ -170,3 +170,105 @@
 - 位置：首页，Writing 一段
 - 原文："By starting to write while you're still in the process of gathering documents, you will very likely find yourself discovering that you need additional documents that you hadn't recognized would be so important until you actually began to sketch your argument and tell your story."
 - 要点：在收集文献的同时就开始写，很可能会发现还需要一些之前没意识到很重要的文献。
+
+### E29
+
+- 位置：Manuscripts，How to Find Manuscript Collections
+- 原文："Archives sort personal papers under the names of individuals and organizations."
+- 要点：档案馆按个人和机构的名字归档私人文件，所以要先找出相关的人和机构。
+
+### E30
+
+- 位置：Manuscripts，How to Find Manuscript Collections
+- 原文："Identify dates. People live a long time. Organizations can outlive their members. Which years are most relevant to our question?"
+- 要点：确定年代范围：人活得很久，机构比成员活得更久，要先想清楚哪几年和问题最相关。
+
+### E31
+
+- 位置：Manuscripts，How to Find Manuscript Collections
+- 原文："An archive tends to collect material that aligns with its affiliation."
+- 要点：档案馆倾向于收藏与自身归属相关的材料（例如参议员的文件常在其所在州的档案馆）。
+
+### E32
+
+- 位置：Manuscripts，Navigating the Reading Room，Plan ahead
+- 原文："One of our boxes was on loan to another institution. Had we made the effort to call ahead, we could have ensured that the materials we wanted to see were available."
+- 要点：作者到馆后才发现一个箱子借给了别的机构；如果事先打电话，就能确认材料在不在。
+
+### E33
+
+- 位置：Manuscripts，Navigating the Reading Room，Ask an archivist!
+- 原文："One of the best resources you can find is the archivist who actually processed the collection you want to work with."
+- 要点：最好的资源之一，是亲手整理过这个收藏的档案工作人员。
+
+### E34
+
+- 位置：Manuscripts，Ask Your Research Question and Lots of Others
+- 原文："Take notice! For the third time we have moved away from a document that interests us because it doesn't seem to connect to our research question." / "Yet these materials raise lots of questions for us. We just haven't let ourselves ask them."
+- 要点：作者发现自己第三次因为"和研究问题无关"而跳过引起兴趣的文件；其实这些材料引出了很多问题，只是他们没让自己去问。
+
+### E35
+
+- 位置：Manuscripts，Ask Your Research Question and Lots of Others
+- 原文："Make sure you care about the question you go in with enough that you won't immediately abandon it after reading the first document. But don't be afraid to let your question transform itself in dialogue with the documents. Whatever you do, keep track of this thought process on paper. New questions or discarded ones could represent future projects."
+- 要点：带着自己真正在意的问题进馆，不要看了第一份文件就放弃；但也不要怕问题在和文献的对话中改变。把思考过程写下来，新问题和放弃的问题都可能成为以后的课题。
+
+### E36
+
+- 位置：Manuscripts，Little Things Are Big
+- 原文："For the most part, we have to learn to live with what we have. (Almost everything that's ever been written down has not ended up in an archive, remember.) Keep track of gaps and uncertainties, for future research may give you new clues."
+- 要点：几乎所有写下来的东西都没有进入档案馆；只能接受现有的材料，同时记下缺口和不确定之处。
+
+### E37
+
+- 位置：Manuscripts，Little Things Are Big
+- 原文："Lots of the correspondence in this collection has a second, third, and fourth life given to it by notes in the margins."
+- 要点：很多信件因为页边批注而有了第二、第三、第四层意义。
+
+### E38
+
+- 位置：Manuscripts，Little Things Are Big
+- 原文："We can't prove an argument with a question mark, but it might help us look at other evidence differently."
+- 要点：一个问号证明不了论点，但能让你换个角度看其他证据。
+
+### E39
+
+- 位置：Manuscripts，Sniff Out Paper Trails
+- 原文："Documents point you to the next destination."
+- 要点：文献会把你引向下一个去处（别的收藏、别的档案馆）。
+
+### E40
+
+- 位置：Manuscripts，Sniff Out Paper Trails
+- 原文："Time and money will constrain the breadth of your project, but these are the sorts of thoughts to be having to keep your research alive. Always think about the people and organizations you encounter in your secondary readings. Ask: Might these people and groups have left behind a paper trail?"
+- 要点：时间和经费会限制项目范围；但要一直想：二手文献里出现的人和机构，有没有留下文字记录？
+
+### E41
+
+- 位置：Manuscripts，Dos and Don'ts
+- 原文："Do make a list of your ideal sources, updating it as you encounter real documents."
+- 要点：列一张"理想资料"清单，遇到真实文献后不断更新。
+
+### E42
+
+- 位置：Manuscripts，Dos and Don'ts
+- 原文："Don't get discouraged if your imagined evidence doesn't live up to the real evidence you discover."
+- 要点：真实找到的证据不如想象中的好，不要灰心。
+
+### E43
+
+- 位置：Manuscripts，Think Like A Narrator
+- 原文："Beyond constructing narrative, it's a good idea to keep close track of dates. Not only does it give context to the items you find, but it also allows you to see unexpected connections."
+- 要点：仔细记录日期，既给材料提供背景，也能看出意想不到的联系。
+
+### E44
+
+- 位置：Manuscripts，Think Like A Narrator
+- 原文："This gives us a fuller picture of Nelson's life at the time that can be obscured by the fact his papers are broken into folders by topic."
+- 要点：按日期把材料串起来，能看到按主题分装的文件夹所掩盖的全貌。
+
+### E45
+
+- 位置：Manuscripts，Dos and Don'ts
+- 原文："Don't forget to put your evidence into dialogue with your research questions. This may be the most important part of the research process."
+- 要点：让证据和研究问题对话，这可能是研究过程中最重要的部分。

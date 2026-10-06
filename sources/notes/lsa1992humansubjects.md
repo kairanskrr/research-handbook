@@ -26,3 +26,9 @@
 - 位置：正文末段
 - 原文："Such considerations make it difficult to apply general rules in a mechanical way."
 - 要点：因此很难机械地套用一般规则。
+
+### E5
+
+- 位置：正文第 1 段
+- 原文："Studies of a human language often depend upon a continuing relation with speakers of the language. Such a relation comes to be defined as much by the speakers as by the linguist. Their patterns of life govern when work can be done."
+- 要点：语言研究常依赖和发音人的长期关系；这种关系由发音人和语言学者共同界定，什么时候能工作由他们的生活节奏决定。

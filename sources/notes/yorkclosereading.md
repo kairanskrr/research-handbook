@@ -50,3 +50,69 @@
 - 位置：开头
 - 原文："Work from the actual text in front of you, not from a sort of mental paraphrase of what the text says."
 - 要点：从眼前的原文出发，而不是从脑子里的转述出发。
+
+### E9
+
+- 位置：开头
+- 原文："for essays it is often a good technique to do the close reading first and then to use very short extracts or even single words to demonstrate your insights."
+- 要点：先单独做细读，写论文时只用很短的摘句甚至单个词来展示发现。
+
+### E10
+
+- 位置：开头
+- 原文："Think of close reading as something that you do with a pencil and book in your hand. Mark up the pages; fill the margins."
+- 要点：细读是拿着铅笔读书，在书页上做记号、写满页边。
+
+### E11
+
+- 位置：开头
+- 原文："If your passage isn’t transcribed meticulously, down to the last comma and (with poetry) spacing on the page, you can’t read it closely."
+- 要点：抄录要精确到最后一个逗号，诗歌要精确到排版间距，否则没法细读。
+
+### E12
+
+- 位置：开头
+- 原文："Read the passage aloud, paying close attention to the rhythms of sentences."
+- 要点：把段落读出声，注意句子节奏。
+
+### E13
+
+- 位置：开头
+- 原文："it’s important not only to detect certain features but also to consider their effects."
+- 要点：不只要发现特征，还要思考它们产生了什么效果。
+
+### E14
+
+- 位置：Close, not closed readings
+- 原文："don’t simply list everything you have found; craft it into an argument, and be prepared to downplay or leave out some of the elements you have spotted if they don’t relate to the larger picture."
+- 要点：不要罗列发现，要组织成论证；和大局无关的发现，要准备淡化或舍弃。
+
+### E15
+
+- 位置：Close, not closed readings
+- 原文："vary the lengths of quoted textual evidence so that an essay doesn't end up with only very brief quotations or long block quotations"
+- 要点：引文长短要有变化，不要全是极短引文或全是大段引文。
+
+### E16
+
+- 位置：Some questions you may like to ask
+- 原文："the writer can assume that their reader knows the text and doesn't need extensive plot summary in the introduction or start of the essay."
+- 要点：可以假定读者读过文本，开头不需要大段复述情节。
+
+### E17
+
+- 位置：Some questions you may like to ask
+- 原文："Are there words or phrases which are ambiguous (could mean more than one thing)? If so, are we directed to privilege one reading over the other or do we keep both in play?"
+- 要点：留意有歧义的词句：文本引导我们取其一，还是让两种意思并存？
+
+### E18
+
+- 位置：Some questions you may like to ask
+- 原文："Have you been to the dictionary (remember the full Oxford English Dictionary is available online through the library)?"
+- 要点：查词典（讲义提到图书馆提供完整的《牛津英语词典》在线版）。
+
+### E19
+
+- 位置：Extra Reading
+- 原文："remember you can close read secondary as well as primary texts"
+- 要点：二手文献（评论）也可以细读。

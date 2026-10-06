@@ -50,3 +50,33 @@
 - 位置：Results，reproducibility
 - 原文："A number of studies give rather unclear and vague descriptions of experimental practices."
 - 要点：不少研究对田间操作的描述含糊不清（例如只写"必要时除草"）。
+
+### E9
+
+- 位置：Results，Crop information
+- 原文："The category ‘crop information’ reflects the yield-defining factors, with the variables ‘varieties’, ‘planting date’, ‘plant spacing’ and ‘mono-/intercrop, crop rotation’. [...] Only 10% of the studies described all four factors. Most studies provide information on the plant spacing (76%) and the variety used (69%) but fewer mention the planting date (41%)."
+- 要点：只有 10% 的研究把作物信息的四项（品种、播种日期、株行距、单作间作和轮作）都写全了；76% 写了株行距，69% 写了品种，只有 41% 写了播种日期。
+
+### E10
+
+- 位置：Results，farmer practice 的描述
+- 原文："In none of these examples do the authors provide details on how this was done. Such uninformative descriptions provide insufficient information to make the experiments reproducible."
+- 要点：像"按农民常规做法管理"这类描述没有交代具体怎么做，信息不足，无法重现试验。
+
+### E11
+
+- 位置：Discussion，external validity
+- 原文："Interestingly, Franke et al. (2010) found that farmers copied management methods from some of the experimental treatments, and sometimes competed with the researcher-managed plots."
+- 要点：有研究发现，农民会照搬某些试验处理的管理办法，有时还和研究者管理的小区"比赛"。
+
+### E12
+
+- 位置：Abstract
+- 原文："we propose that experimental studies should minimally address: (1) under what conditions the treatment effect occurs and (2) for whom the experimental findings are relevant. In addition, we advocate for more transparency about the selection criteria used for research site, farmer and field selection"
+- 要点：试验研究至少要回答：处理效应在什么条件下出现、结论对谁有用；并公开选地点、农户、田块的标准。
+
+### E13
+
+- 位置：Introduction
+- 原文："Research stations represent a highly controlled experimental environment, where single or multiple treatments and their interactions can be investigated holding other variables constant. In farmers’ fields, researchers have much less control over the experimental situation"
+- 要点：试验站是高度受控的环境；在农民田里，研究者能控制的少得多。

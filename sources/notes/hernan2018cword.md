@@ -74,3 +74,9 @@
 - 位置：Footnotes
 - 原文："See also Galea and Vaughan, p. 602; Begg and March, p. 620; Ahern, p. 621; Chiolero, p. 622; Glymour and Hamad, p. 623; Jones and Schooling, p. 624; and Hernán, p. 625."
 - 要点：同一期刊同期刊登了多篇对这篇评论的回应，以及作者的答复。
+
+### E13
+
+- 位置：正文（confounding 一段）
+- 原文："If the goal of the observational analysis is causal, adjustment for confounding is generally necessary."
+- 要点：观察性分析的目标如果是因果，一般需要调整混杂。

@@ -154,6 +154,10 @@ Cochrane 手册（Cochrane Handbook for Systematic Reviews of Interventions）�
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[系统综述与元分析（健康领域）](research-types/meta_analysis.md)、[观察性流行病学研究](research-types/observational_epidemiology.md)。
+
+**相关学科的研究类型文档**：[随机对照试验](../clinical-medicine/research-types/randomized_controlled_trial.md)、[准实验与因果识别](../economics/research-types/quasi_experiment.md)。
+
 队列、病例对照、横断面研究，以及系统综述，见[临床医学篇](../clinical-medicine/README.md#常见的研究类型)。健康科学里还常见：
 
 | 类型 | 一句话说明 |

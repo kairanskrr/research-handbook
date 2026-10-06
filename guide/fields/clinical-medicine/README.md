@@ -123,6 +123,10 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[随机对照试验](research-types/randomized_controlled_trial.md)。
+
+**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../health-sciences/research-types/meta_analysis.md)、[观察性流行病学研究](../health-sciences/research-types/observational_epidemiology.md)。
+
 | 类型 | 一句话说明 |
 |---|---|
 | 随机对照试验 | 把受试者随机分到不同干预组，比较结局。设计、实施、分析和报告都恰当时，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2] |

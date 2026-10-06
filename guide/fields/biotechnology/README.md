@@ -147,6 +147,8 @@ WHO 给科研人员的清单，开工前就要问[^who2022responsible-e6]：成�
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[实验台实验（湿实验）](../biological-sciences/research-types/bench_experiment.md)。
+
 下面的分组和"相通"的判断为本项目分析 `[本项目分析]`。
 
 - **菌株和细胞系构建**：设计并构建能完成某个功能的工程菌、细胞或植株。思路接近[工程研究](../computer-science/research-types/engineering_research.md)，不同在于开工前可能要报批，而且要按"设计—构建—测试"多轮迭代。

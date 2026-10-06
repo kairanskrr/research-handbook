@@ -56,3 +56,15 @@
 - 位置：4.3 Researcher and Laboratory Worker，第 24 页
 - 原文："Researchers have a right and a responsibility to ask challenging and clarifying questions to ensure the scope of work and all hazards and controls are well understood before beginning an experiment or research protocol."
 - 要点：研究人员有权利也有责任在开始实验前提出质疑和澄清问题，确保弄清工作范围、所有危害和防护措施。
+
+### E10
+
+- 位置：9.4 Job Hazard Analysis Instructions and Template，JHA Development Tactics 第 2 条
+- 原文："Literature searches should be performed to locate related procedures and known problems with the processes or chemicals being used."
+- 要点：做危害分析前，要检索文献，找相关步骤以及所用过程和化学品已知的问题。
+
+### E11
+
+- 位置：6.3 Strategies for Enabling Recognition of and Responding to Change，第 28 页
+- 原文："Ensure the thresholds are understood and know who has the authority to authorize tasks that exceed a threshold"
+- 要点：要弄清各种上限（如含能材料放大的上限），知道超过上限的工作由谁批准。

@@ -26,3 +26,9 @@
 - 位置：速查页正文，结尾
 - 原文："Most authors choose the system used by others in their field or required by their publisher."
 - 要点：大多数作者选择本领域通行的或出版方要求的体系。
+
+### E5
+
+- 位置：Notes and Bibliography or Author-Date?
+- 原文："Students should check with their instructor before deciding which system to use."
+- 要点：学生决定用哪种体系前，先问老师。

@@ -56,3 +56,27 @@
 - 位置：Evaluate the Author's Arguments
 - 原文："(This is why you often hear philosophers saying, "Even if we assume such-and-such for argument's sake, I still think X's argument fails, because...")"
 - 要点：可以为了论证暂时接受某个前提，集中攻击更重要的前提；哲学家常说"即使为论证起见假定……，X 的论证仍然不成立"。
+
+### E10
+
+- 位置：Skim the Article to Find its Conclusion and Get a Sense of its Structure
+- 原文："Philosophers often provide auxiliary arguments, arguments for important premises they appeal to in support of their main conclusion."
+- 要点：哲学家常给出辅助论证，即为主结论所依赖的重要前提辩护的论证。
+
+### E11
+
+- 位置：Evaluate the Author's Arguments
+- 原文："You'll start to get a sense of how the different views relate to each other and what their pros and cons are."
+- 要点：下功夫之后，你会逐渐看出不同观点之间的关系和各自的优缺点。
+
+### E12
+
+- 位置：Go Back and Read the Article Carefully
+- 原文："Consider various interpretations of what he says. Are there any important ambiguities that his argument fails to take account of?"
+- 要点：考虑作者话语的多种解读；他的论证有没有忽视的重要歧义？
+
+### E13
+
+- 位置：Evaluate the Author's Arguments
+- 原文："In such cases, you may want to provisionally accept one of the argument's premises, and move on to focus on other premises, which you think are more important or which are easier to criticize."
+- 要点：可以暂时接受某个前提，集中火力批评更重要或更容易批评的其他前提。

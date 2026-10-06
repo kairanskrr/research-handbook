@@ -68,3 +68,21 @@
 - 位置：Data sharing，Q34
 - 原文："In many cases, it may be appropriate to release aggregated or downsampled versions of the data for general access while retaining finer-grained versions under restricted conditions."
 - 要点：很多时候可以公开汇总或降低分辨率的版本，同时把更精细的版本放在受限条件下提供。
+
+### E12
+
+- 位置：Anonymization and de-identification，Q27
+- 原文："There is no universally applicable privacy-preserving method for geographic data. Techniques such as differential privacy, spatial cloaking, k-anonymity, or geomasking offer varying levels of protection, but differ in their assumptions, computational requirements, and impact on data fidelity. Researchers must provide a rationale for their selected approach"
+- 要点：地理数据没有通用的隐私保护方法；各种技术保护程度、假设和对数据保真度的影响都不同，研究者要说明选择理由。
+
+### E13
+
+- 位置：Anonymization and de-identification，Q26
+- 原文："Techniques like generalization, masking, or aggregation can reduce identifiability but also risk distorting spatial patterns or excluding vulnerable groups."
+- 要点：概括化、掩蔽、汇总能降低可识别性，但也可能扭曲空间格局，或把弱势群体排除在分析之外。
+
+### E14
+
+- 位置：Data collection，Q11
+- 原文："Platforms using third-party plugins (e.g. basemap providers) often transmit locational metadata to external servers (e.g., to render a map). Even if the core dataset remains secure, these interactions may introduce vulnerabilities."
+- 要点：用第三方插件（如在线底图服务）的平台常把位置信息发到外部服务器；即使核心数据安全，这也可能带来漏洞。

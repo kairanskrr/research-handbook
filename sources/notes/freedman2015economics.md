@@ -56,3 +56,9 @@
 - 位置：正文，解决方案部分
 - 原文："because our analysis indicates that errors in study design and biological reagents and materials contribute to a majority of this spend (see Fig 2), implementing steps to improve preclinical reproducibility should be a priority in these two areas"
 - 要点：作者的分析认为研究设计和生物试剂两类问题占了不可复现研究花费的大部分，所以应优先改进这两方面。
+
+### E10
+
+- 位置：正文，细胞系的例子
+- 原文："For an NIH-funded academic researcher receiving an average US$450,000, four-year grant, purchasing cell lines from a reputable vendor (or validating their own stock) and then authenticating annually will only cost about US$1,000 or 0.2% of the award"
+- 要点：作者估算，对一项 45 万美元、四年的美国国立卫生研究院资助课题来说，从可靠供应商买细胞系（或验证自己的库存）并每年鉴定一次，只需约 1000 美元，占经费的 0.2%。

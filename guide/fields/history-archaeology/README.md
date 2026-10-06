@@ -147,6 +147,10 @@
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[考古发掘与野外调查](research-types/archaeological_excavation.md)、[档案研究](research-types/archival_research.md)、[口述历史](research-types/oral_history.md)。
+
+**相关学科的研究类型文档**：[过程追踪与比较案例研究](../political-science/research-types/process_tracing.md)、[文本细读与文学论证](../languages-literature/research-types/close_reading.md)。
+
 本领域还没有专门的研究类型文档。下面的分类为本项目归纳 `[本项目分析]`，能借用计算机篇文档的，给出链接和差异：
 
 - **档案研究**：在档案馆查阅手稿和机构文件，回答一个历史问题。做法见上文"在档案馆里工作"。

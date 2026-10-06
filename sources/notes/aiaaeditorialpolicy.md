@@ -50,3 +50,15 @@
 - 位置：Experimental Accuracy，Coverage Factor
 - 原文："The coverage factor used for all expanded uncertainty estimates should be specified."
 - 要点：所有扩展不确定度都要写明用的包含因子。
+
+### E9
+
+- 位置：Estimation of Precision Uncertainty
+- 原文："The repeatability of the results (random component of the unexplained variance) should be quantified. Also, the method of determining the repeatability should be specified. Unusual results, whether explained or unexplained, should be identified."
+- 要点：要量化结果的重复性并说明方法；异常结果，不论能否解释，都要指出来。
+
+### E10
+
+- 位置：Coverage Factor
+- 原文："The coverage factor used for all expanded uncertainty estimates should be specified. That is, the author(s) should associate a specific level of confidence with each uncertainty value"
+- 要点：所有扩展不确定度都要写明包含因子，也就是给每个不确定度配上明确的置信水平。

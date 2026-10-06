@@ -32,3 +32,9 @@
 - 位置：Consideration of relevant biological variables
 - 原文："Biological variables, such as sex, age, weight, and underlying health conditions, are often critical factors affecting health or disease."
 - 要点：性别、年龄、体重、基础健康状况等生物学变量，常常是影响健康或疾病的关键因素。
+
+### E6
+
+- 位置：Consideration of relevant biological variables
+- 原文："In particular, sex is a biological variable that is frequently ignored in animal study designs and analyses, leading to an incomplete understanding of potential sex-based differences in basic biological function, disease processes and treatment response." / "Strong justification from the scientific literature, preliminary data or other relevant considerations must be provided for applications proposing to study only one sex."
+- 要点：性别这个生物学变量在动物研究的设计和分析中常被忽视，导致对基本生物功能、疾病过程和治疗反应中可能的性别差异认识不全；申请只研究一种性别的，必须用文献、预实验数据或其他理由充分说明。

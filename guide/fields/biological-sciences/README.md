@@ -152,6 +152,10 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[实验台实验（湿实验）](research-types/bench_experiment.md)。
+
+**相关学科的研究类型文档**：[临床前动物研究](../basic-medicine/research-types/preclinical_animal_study.md)。
+
 下面是本领域常见的研究方法。分组和"相通"的判断为本项目分析 `[本项目分析]`。
 
 - **细胞和分子实验**：在培养的细胞或提取的分子上做处理和测量。设计原则和[对照实验](../computer-science/research-types/controlled_experiment.md)相通，但那篇讲的是人类参与者；这里的实验单位是独立的培养物或样品，要特别注意验证试剂和细胞系。

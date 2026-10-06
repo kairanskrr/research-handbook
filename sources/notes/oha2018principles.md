@@ -86,3 +86,147 @@
 - 位置：最佳实践，Interviewing
 - 原文："interviewers must respect the rights of interviewees to refuse to discuss certain subjects, to restrict access to the interview, or, under certain circumstances, to choose a pseudonym."
 - 要点：受访者有权拒绝谈某些话题、限制访谈的查阅范围，在某些情况下可以用化名。
+
+### E15
+
+- 位置：最佳实践，Preparation
+- 原文："Oral historians should choose potential narrators based on the relevance of their experiences to the subject at hand, while striving to identify and incorporate as many diverse voices as possible."
+- 要点：按亲身经历与题目的相关程度挑选受访者，同时尽量纳入多样的声音。
+
+### E16
+
+- 位置：伦理声明，Collaboration: The Oral History Interview
+- 原文："Oral historians should consider the goals of the research project and seek narrators who are able, collectively, to present a variety of points of view."
+- 要点：受访者合在一起，应能呈现多种观点。
+
+### E17
+
+- 位置：最佳实践，Preparation
+- 原文："In preparing to ask informed questions, interviewers should become familiar with the person, topic, and historical context by doing research in primary and secondary sources"
+- 要点：为了问出有见识的问题，访谈前要查一手和二手资料，熟悉受访者、题目和历史背景。
+
+### E18
+
+- 位置：最佳实践，Preparation
+- 原文："Interviewers should prepare an open-ended guide or outline of the themes to be covered and general questions to be asked before conducting the interview."
+- 要点：访谈前准备一份开放式的提纲：要谈的主题和大致的问题。
+
+### E19
+
+- 位置：最佳实践，Preparation
+- 原文："Interviewers should create, when possible, a high-quality recording of the interview(audio or video format) to capture the narrator’s interview accurately with consideration of future audiences and long-term preservation."
+- 要点：尽可能做高质量的录音或录像，考虑将来的听众和长期保存。
+
+### E20
+
+- 位置：最佳实践，Interviewing
+- 原文："The interview should be conducted, whenever possible, in a quiet location with minimal background noises and possible distractions"
+- 要点：尽量在安静、背景噪音少、少打扰的地方访谈。
+
+### E21
+
+- 位置：最佳实践，Interviewing
+- 原文："The interviewer should record a lead-in at the beginning of each session." / "location of the interview (being mindful to not list personal residence address, but rather generic “narrator’s home”)"
+- 要点：每次访谈开头录一段说明（背景信息）。说地点时不要说出住址，只说"受访者家中"。
+
+### E22
+
+- 位置：最佳实践，Interviewing
+- 原文："Along with asking open-ended questions and actively listening to the answers, interviewers should ask follow-up questions, seeking additional clarification, elaboration, and reflection."
+- 要点：问开放式问题、认真听，还要追问，请对方澄清、展开、反思。
+
+### E23
+
+- 位置：最佳实践，Interviewing（b）
+- 原文："Interviewers should provide challenging and perceptive inquiry, fully and respectfully exploring appropriate subjects, and not being satisfied with superficial responses. At the same time, they should encourage narrators to respond to questions in their own style and language and to address issues that reflect their concerns."
+- 要点：提问要有挑战性和洞察力，不满足于表面回答；同时鼓励受访者用自己的方式和语言回答，谈他们自己关心的事。
+
+### E24
+
+- 位置：最佳实践，Interviewing（c）
+- 原文："Interviewers should be prepared to extend the inquiry beyond the specific focus of the project to allow the narrator to freely define what is most relevant."
+- 要点：准备好超出项目焦点，让受访者自己决定什么最要紧。
+
+### E25
+
+- 位置：最佳实践，Interviewing
+- 原文："The interviewer should secure a signed legal release form, ideally when the interview is completed."
+- 要点：要取得签字的法律授权书（release form），最好在访谈结束时签。
+
+### E26
+
+- 位置：最佳实践，脚注 6
+- 原文："Although many oral historians prefer to request signatures for any legal release forms assigning rights to the interview after it is completed in order to better address any sensitive issues that may have come up during the course of the interview."
+- 要点：很多口述历史研究者喜欢在访谈结束后再请对方签转让权利的授权书，以便处理访谈中出现的敏感内容。
+
+### E27
+
+- 位置：最佳实践，Preparation（d）
+- 原文："When an understanding on how to proceed is reached, a formal record of that agreement should be completed prior to the beginning of recording."
+- 要点：双方对怎么进行达成一致后，要在开始录音之前把这份约定正式记录下来。
+
+### E28
+
+- 位置：最佳实践，脚注 8
+- 原文："in some cases, such as interviews with vulnerable communities, particularly those with surveillance concerns, there will be a need to gather only the very basic contextual information."
+- 要点：访谈弱势群体，尤其是担心被监视的群体时，可能只收集最基本的背景信息。
+
+### E29
+
+- 位置：伦理声明，Stewardship: Preservation and Access
+- 原文："Oral historians and their archivist partners clearly document relevant metadata so that future users will know easily who was interviewed, when and where the interview was conducted, and other key pieces of data about the interview."
+- 要点：要和档案人员一起记录好元数据，让将来的使用者能轻松知道访谈了谁、何时何地访谈等关键信息。
+
+### E30
+
+- 位置：伦理声明，Stewardship: Preservation and Access
+- 原文："oral historians should educate themselves about legal concerns such as libel, invasion of privacy, and other issues that might endanger the narrator."
+- 要点：要了解诽谤、侵犯隐私等可能危及受访者的法律问题。
+
+### E31
+
+- 位置：伦理声明，Using Oral Sources
+- 原文："Users may arrive at conclusions that diverge from those offered by a narrator, but conclusions should be derived from evidence properly cited."
+- 要点：使用者的结论可以和受访者不同，但结论要来自恰当引用的证据。
+
+### E32
+
+- 位置：伦理声明，Collaboration: The Oral History Interview
+- 原文："After the interview, oral history ethics strongly recommends that the narrator be given the opportunity to review the interview (recording and/or transcript) and approve what was said for public release or other use."
+- 要点：访谈后，伦理上强烈建议让受访者审阅录音或转录稿，并批准公开或其他用途。
+
+### E33
+
+- 位置：最佳实践，Preservation（b）
+- 原文："whenever possible, all efforts should be made to preserve electronic files in formats that are cross platform and nonproprietary"
+- 要点：电子文件尽量用跨平台、非专有的格式保存。
+
+### E34
+
+- 位置：最佳实践，Preparation
+- 原文："Oral historians should take care to select a repository that aligns with the project’s goals, has the capacity to preserve the oral histories, can enforce any signed agreements, and will make them accessible to the public."
+- 要点：选收藏机构要看四点：和项目目标一致、有能力保存、能执行签过的协议、会向公众开放。
+
+### E35
+
+- 位置：最佳实践，Access & Use
+- 原文："an archive should provide, when possible, written documentation such as transcripts, indexes with time tags linking to the recording, detailed descriptions of interview content, or other guides to the contents."
+- 要点：档案机构应尽可能提供转录稿、带时间标记的索引、内容描述等书面导引。
+
+### E36
+
+- 位置：伦理声明，Preparation & Communication
+- 原文："oral historians should conduct preliminary research about the topics they intend to study and be comfortable with the recording technology they intend to utilize."
+- 要点：要先对题目做初步研究，并熟练使用要用的录音设备。
+
+### E37
+
+- 位置：伦理声明，Collaboration: The Oral History Interview
+- 原文："The interview should not be made public until the narrator, as the original recording’s copyright holder, has provided formal authorization to do so."
+- 要点：受访者是原始录音的版权持有人；在他正式授权之前，访谈不应公开。
+
+### E38
+
+- 位置：最佳实践，Access & Use（a）
+- 原文："avoiding stereotypes, misrepresentations, and manipulations of the narrator’s words"
+- 要点：使用访谈时，避免刻板印象、歪曲和操纵受访者的话。

@@ -104,3 +104,33 @@
 - 位置：页尾
 - 原文："Approved July of 2019; updated with revised LSA Code of Conduct for Events in November 2023"
 - 要点：版本信息：2019 年 7 月通过，2023 年 11 月更新。
+
+### E18
+
+- 位置：Communities and the public 一节
+- 原文："In all cases where the community has an investment in or is affected by the output of language research, the aims of an investigation should be clearly discussed with the community and community involvement sought from the earliest stages of project planning."
+- 要点：只要社区和研究成果有利害关系，就要和社区讲清研究目的，并从项目规划最早阶段请社区参与。
+
+### E19
+
+- 位置：Communities and the public 一节
+- 原文："Ensuring, if so desired by the community, that the community is an integral part of the process of determining the research question(s), the ways of collecting data, and the analysis and dissemination of data."
+- 要点：如果社区愿意，要让社区参与确定研究问题、收集数据的方式，以及数据的分析和传播。
+
+### E20
+
+- 位置：Communities and the public 一节
+- 原文："linguists must try to determine whether there are individuals who can legitimately represent the community in working out the terms of research."
+- 要点：语言学者要设法弄清，有没有人能正当地代表社区商定研究条件。
+
+### E21
+
+- 位置：Participants 一节
+- 原文："Considering carefully whether some kind of compensation to participants is appropriate, be it remuneration for time and effort, formal recognition of their contribution to the creation or documentation of knowledge, use of participants’ knowledge and expertise to benefit them or their communities, and so on."
+- 要点：考虑给参与者什么回报：报酬、正式承认贡献、用他们的知识让他们或社区受益等。
+
+### E22
+
+- 位置：Communities and the public 一节
+- 原文："Making all reasonable efforts to preserve original irreplaceable data and documentary material and returning, wherever feasible, data and knowledge gained to the community for stewardship."
+- 要点：尽力保存不可替代的原始数据和记录材料，并尽可能把数据和知识交还社区保管。

@@ -188,3 +188,117 @@
 - 位置：§III B，以 "What is it like and unlike?" 开头的一段，第 114 页
 - 原文："but these are different because they are `legitimated' by the sovereignty of the source (parliament or court) rather than because they are the `naturally occurring', observable phenomena usually used in empirical work."
 - 要点：立法和判决的分量来自制定它们的议会或法院的权威，而不是像实证研究的数据那样，是自然发生、可观察的现象。
+
+### E32
+
+- 位置：§III A Does the Research Method Differ among the Various Legal Research Genres?，第 106 页
+- 原文："Doctrinal legal research ranges from practical problem-solving to `straightforward descriptions of (new) laws, with some incidental interpretative comments', to `innovative theory building (systematisation)', with `the more "simple" versions of that research' being the `necessary building blocks for the more sophisticated ones'."
+- 要点：规范研究从解决实际问题、描述（新）法律，一直到创新的理论构建（体系化）；较"简单"的版本是更复杂版本的必要基础。（作者引自 Van Hoecke 主编的文集。）
+
+### E33
+
+- 位置：§III A，第 108 页（引 Westerman）
+- 原文："Most ... take as a starting-point a certain new legal development, such as a new interpretation of a certain doctrine, or a new piece of European regulation, and just set out to describe how this new development fits in with the area of law they are working in, or, if it does not seem to fit in, how the existing system should be rearranged in order to accommodate for this novelty."
+- 要点：学者 Westerman 描述的典型做法：从一个新的法律发展（对某一学说的新解释、一项新的欧洲法规）出发，说明它怎样融入所在法律领域；融不进去时，现有体系应怎样调整来容纳它。
+
+### E34
+
+- 位置：§III，第 103 页（引 Minow 的清单，"Doctrinal Restatement"）
+- 原文："Acknowledge distinction between settled and emerging law c. Identify difference between majority and "preferred" or "better"" / "practice - ideally with some explanation for the criteria to be used"
+- 要点：重述的贡献包括：区分已定型和正在形成的法律；指出多数做法与"更好"做法之间的差别，最好说明用了什么标准。
+
+### E35
+
+- 位置：§III，第 103 页（Minow 清单，"Recasting Project"）
+- 原文："Gather more than one "line" of cases, across doctrinal fields or categories, and show why they belong together or expose unjustified discrepancies"
+- 要点：把跨领域的几条判例线索放在一起，说明它们为什么属于一类，或揭示不合理的不一致。
+
+### E36
+
+- 位置：§III，第 103 页（Minow 清单，"Policy Analysis"）
+- 原文："[P]resent a problem; canvass alternatives; propose an evaluative scheme or method; recommend preferred solution"
+- 要点：政策分析的四步：提出问题；列出各种方案；提出评价方案的标准或方法；推荐首选方案。
+
+### E37
+
+- 位置：§III，第 104 页（Minow 清单，"Critical Projects"）
+- 原文："Expose unstated assumptions, patterns or results, internally inconsistent structures, or other tensions within a body of law or legal practices or institutions"
+- 要点：批判性研究揭示一套法律内部未言明的假设、内部不一致的结构或其他张力。
+
+### E38
+
+- 位置：§III，第 104 页（Minow 清单，"Comparative and Historical Inquiries"）
+- 原文："[Describe] an earlier era or contrasting legal regime" / "[Illuminate] differences, choices, or continuities when compared"
+- 要点：比较和历史研究：描述另一个时代或另一个法律体制，并和本国现行做法相比，说明差异、选择或延续。
+
+### E39
+
+- 位置：§III A，第 107 页
+- 原文："The researchers' philosophical stance frequently determines the research questions, progress and possible outcomes of academic research. However, the `perspective' or theoretical stance often lies unstated."
+- 要点：研究者的哲学立场常常决定研究问题、过程和可能的结论，但这种立场往往没有写出来。
+
+### E40
+
+- 位置：§III A，第 108 页
+- 原文："Useful examples of typical HDR statements of main argument or guiding propositions (a device often used as a pseudo-hypothesis within doctrinal academic work) were evident in the theses database"
+- 要点：研究型学位论文里常有"主要论点"或"指导性命题"的陈述，在规范研究中起类似假设的作用。
+
+### E41
+
+- 位置：§III A，第 108–109 页（所引一篇澳大利亚博士论文的摘要）
+- 原文："It analyses the current nature of China's corporate disclosure laws and notes that China's law reformers have relied heavily upon the US model which may not necessarily suit China."
+- 要点：一篇比较法博士论文的论点示例：中国公司信息披露法的改革大量借鉴美国模式，而这种模式未必适合中国。
+
+### E42
+
+- 位置：§III A，第 109 页正文及脚注 87
+- 原文："these two examples demonstrate an increased trend towards postgraduate legal scholars formulating clear research questions to explain and justify choices made in the work" / "of the 90 dissertations he investigated ... more than 50 per cent had a clearly formulated research question"
+- 要点：研究生越来越多地写出清楚的研究问题，用来解释和论证研究中的选择；脚注引 Tijssen 的研究：他考察的 90 篇法学学位论文中，超过 50% 有清楚表述的研究问题。
+
+### E43
+
+- 位置：§III B Doctrinal Method as a Two Part Process，第 110 页
+- 原文："A research project, for example, may require the researcher to access and analyse all the current and historical legislation and administrative regulation of all the Australian states or Canadian provinces for the last century"
+- 要点：举例说明检索范围可以很大：例如一个世纪以来澳大利亚各州或加拿大各省的全部现行和历史立法与行政法规。
+
+### E44
+
+- 位置：§III B，第 111 页
+- 原文："They call for a description of the particular line of inquiry being developed, whether it is conceptual, evaluative or explanatory."
+- 要点：研究法律人方法的学者主张，要说明所采用的探究路线是概念性的、评价性的还是解释性的。
+
+### E45
+
+- 位置：§III B，第 111 页
+- 原文："Legal reasoning is often deductive because the general rules are `given', for example through legislation."
+- 要点：法律推理常常是演绎的，因为一般规则是"给定"的，例如由立法给出。
+
+### E46
+
+- 位置：§III B，第 111 页
+- 原文："Where the source of the rule is case law rather than legislation, `the lawyer will have to examine several cases to find a major premise which underlies them all'."
+- 要点：规则来自判例而非立法时，要考察多个判例，归纳出它们共同的大前提（归纳推理）。
+
+### E47
+
+- 位置：§III B，第 111 页
+- 原文："Analogy, on the other hand, involves locating similar situations arising, for example, in common law cases, and then arguing that similar cases should be governed by the same principle and have similar outcomes."
+- 要点：类比推理：找到相似情形（例如普通法判例中的），论证相似案件应适用同一原则、得到相似结果。
+
+### E48
+
+- 位置：§III B 1，第 113 页
+- 原文："The `screening criteria' for legal primary materials are necessarily more rule bound and intricate."
+- 要点：筛选一手法律资料的标准，必然比一般文献综述的筛选标准更受规则约束、更复杂。
+
+### E49
+
+- 位置：§III A，第 106 页
+- 原文："This approach is directed to solving a specific legal problem and normally includes the following steps" / "Reading background material (including legal dictionaries, legal encyclopaedias, textbooks, law reform and policy papers, loose leaf services, journal articles)" / "Locating primary material (including legislation, delegated legislation and case law"
+- 要点：以问题为导向的规范研究通常包括：整理事实、确定法律问题、分析问题以便查找法律、读背景资料（法律词典、百科、教科书、法律改革和政策文件、活页服务、期刊文章）、查找一手资料（立法、授权立法、判例）、在语境中综合、得出初步结论。
+
+### E50
+
+- 位置：§III B，第 110 页（引 McCrudden）
+- 原文："`[i]f legal academic work shows anything, it shows that an applicable legal norm on anything but the most banal question is likely to be complex, nuanced and contested'"
+- 要点：除最平常的问题外，可适用的法律规范很可能是复杂、微妙而有争议的。

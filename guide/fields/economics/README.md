@@ -137,6 +137,10 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[田野实验](research-types/field_experiment.md)、[准实验与因果识别](research-types/quasi_experiment.md)。
+
+**相关学科的研究类型文档**：[观察性流行病学研究](../health-sciences/research-types/observational_epidemiology.md)。
+
 经济学常用的研究方法，和计算机领域篇已有的研究类型对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注）：
 
 - **田野实验和实验室实验**：在真实环境或实验室里随机分组。通用流程见[对照实验](../computer-science/research-types/controlled_experiment.md)。差异：AEA 期刊要求田野实验在投稿前登记[^aea2026rct-e1]，实验说明要随稿提交[^aea2026data-e10]。

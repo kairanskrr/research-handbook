@@ -132,6 +132,10 @@
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[过程追踪与比较案例研究](research-types/process_tracing.md)。
+
+**相关学科的研究类型文档**：[田野实验](../economics/research-types/field_experiment.md)、[准实验与因果识别](../economics/research-types/quasi_experiment.md)。
+
 政治学常用的研究方法，和计算机领域篇已有的研究类型对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注）：
 
 - **田野实验和实验室实验**：通用流程见[对照实验](../computer-science/research-types/controlled_experiment.md)。差异：干预可能影响真实政治过程，要额外考虑社会层面的影响[^apsa2020humansubjects-e11]；Ofosu 和 Posner 抽查的 195 份 2011–2016 年计划中，三分之二来自这类研究[^ofosu2023preanalysis-e3]。

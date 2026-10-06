@@ -98,3 +98,57 @@
 - 位置：Implications for Research Practice，第 25 页
 - 原文："scholars should routinely provide sufficient information about the location of publicly available sources to ensure that others can find them, and should specify the particular parts of any source that are being drawn upon (e.g., by including page numbers)."
 - 要点：引用公开文献档案时，要给出足够的位置信息让别人能找到，并具体到所用部分（如页码）。
+
+### E17
+
+- 位置：Implications for Research Practice，第 25 页
+- 原文："when quoting from a response to an interview question, sharing the complete response in order to provide wider context" / "where transcripts cannot be shared, reporting the number of interviews consistent and inconsistent with a proposed hypothesis;"
+- 要点：引用访谈回答时，给出这个问题的完整回答以提供上下文；不能共享访谈全文时，报告有多少次访谈与假设相符、多少次不符。
+
+### E18
+
+- 位置：Implications for Research Practice，第 25 页
+- 原文："the use of Annotation for Transparent Inquiry, a technology developed by the Qualitative Data Repository at Syracuse University, that allows researchers to layer a citation, analytical note, source excerpt, and possible link to a source over the relevant passage in the article text."
+- 要点：可以用雪城大学定性数据仓库开发的"透明探究注释"技术，在论文相关段落上叠加引文、分析说明、原文摘录和原始资料链接。
+
+### E19
+
+- 位置：Implications for Research Practice，第 25 页
+- 原文："there is a clear consensus on the vital importance of providing readers with detailed accounts of how the evidence used in a study was generated."
+- 要点：各定性研究传统明确一致：要向读者详细说明研究所用证据是怎样产生的。
+
+### E20
+
+- 位置：Implications for Research Practice，第 26 页
+- 原文："providing information not just about the production of evidence that they themselves generated but also about the origins of sources that pre-date the study, such as textual materials, making explicit the scholar's critical use of his/her sources;"
+- 要点：不仅说明自己产生的证据，也说明研究之前就存在的资料（如文本材料）的来历，讲明自己怎样批判地使用这些资料。
+
+### E21
+
+- 位置：Implications for Research Practice，第 26 页
+- 原文："providing an interview table containing key metadata for all interviews conducted;"
+- 要点：提供一张访谈表，列出所有访谈的关键信息。
+
+### E22
+
+- 位置：Implications for Research Practice，第 26 页
+- 原文："specifying, for small-n analysis, what was known about the cases at the time of their selection and/or identify those cases that were almost chosen for analysis but ultimately not included;"
+- 要点：少数案例的分析，要说明选案例时已经知道案例的哪些情况，和/或指出差点入选、最后没选的案例。
+
+### E23
+
+- 位置：Implications for Research Practice，第 27 页
+- 原文："noting the steps taken to challenge one's own premises or early hunches in the course of a project;" / "reporting when initial hypotheses were dropped or modified — or when new hypotheses were developed — in light of the evidence;" / "explicitness about whether an analysis aims for generalization beyond the cases being examined;"
+- 要点：分析过程的透明包括：说明自己采取了哪些步骤挑战最初的前提和直觉；报告哪些假设因证据被放弃、修改或新提出；说清分析是否要推广到所研究的案例之外。
+
+### E24
+
+- 位置：Potential Benefits of Transparency，第 15 页
+- 原文："formalizing certain aspects of qualitative analysis — such as background beliefs and the probative value of evidence — can make it even clearer how conclusions have been derived from an array of observations and make it easier for readers to evaluate empirical findings."
+- 要点：研究过程追踪的工作组指出，把背景信念、证据证明力等环节形式化，能更清楚地展示结论怎样得出，便于读者评价。
+
+### E25
+
+- 位置：Costs and Risks，第 20 页
+- 原文："Excessively long and complex transparency appendices, for instance, may obscure the most important features for readers to attend to. Similarly, methods featuring extremely high levels of analytic explicitness — such as formal, Bayesian process tracing — may generate less readable and comprehensible text than do more informal, narrative approaches."
+- 要点：过长过繁的透明附录可能遮住最重要的内容；形式化的贝叶斯过程追踪这类极度明确的方法，写出来可能不如叙事方式好读。

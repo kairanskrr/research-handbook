@@ -189,6 +189,8 @@ EPA 2006 年的指南把数据质量目标流程分成七步，可以反复进�
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[野外观测研究](../earth-environmental-sciences/research-types/field_study.md)。
+
 本领域常用的方法，有一些和计算机领域的研究类型相通，可以参考对应文档。下面只写本领域额外要注意的地方：
 
 - **实验室和中试研究**（计算机篇没有单独文档）：在反应器或中试装置里评估处理技术。投 ES&T 这类期刊时，要在符合实际的条件和浓度下评估，报告实测浓度和质量控制结果[^estauthorguidelines-e6][^estauthorguidelines-e5]。提出新工艺并和已有方法比较的思路，可参考[工程研究](../computer-science/research-types/engineering_research.md)。

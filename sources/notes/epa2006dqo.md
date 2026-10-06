@@ -68,3 +68,27 @@
 - 位置：Introduction，PDF 第 12 页
 - 原文："The process uses a common-sense approach to ensure that the level of documentation and rigor of effort in planning is commensurate with the intended use of the information and the available resources."
 - 要点：计划的详细程度和严格程度，要和数据的用途、可用的资源相称。
+
+### E12
+
+- 位置：Chapter 7，PDF 第 83 页
+- 原文："In a probability-based sampling design, each possible sampling unit has a known probability of being selected, and only those sampling units selected will provide data for the study. In a judgmental sampling design, the sampling units are not assigned a known probability of being selected, but rather, are selected at the discretion of the person in charge of the sampling effort."
+- 要点：概率抽样设计里，每个可能的采样单元被抽中的概率是已知的；判断抽样设计里，采样单元由负责采样的人凭判断挑选，被选中的概率未知。
+
+### E13
+
+- 位置：Chapter 7，PDF 第 83 页
+- 原文："Examples of common probability-based sampling approaches include simple random sampling, stratified sampling, and systematic and grid sampling. Probability-based sampling allows you to draw quantitative conclusions about the target population, while also properly expressing uncertainty in these conclusions"
+- 要点：常见的概率抽样有简单随机抽样、分层抽样、系统抽样和网格抽样；概率抽样让你能对目标总体下定量结论，并恰当表达结论的不确定性。
+
+### E14
+
+- 位置：Chapter 7，PDF 第 83 页
+- 原文："However, judgmental sampling designs will not allow you to characterize uncertainty properly. As a result, the outcome of statistical analysis on data collected through judgmental sampling cannot be used to make any type of scientifically-defensible probabilistic statements about the target population."
+- 要点：判断抽样无法恰当刻画不确定性；用判断抽样得到的数据做统计分析，不能对目标总体作出站得住的概率性陈述。
+
+### E15
+
+- 位置：Chapter 7，PDF 第 84 页
+- 原文："if the spatial properties of a target population (e.g., an area of soil to be characterized) indicate that different subareas of the population have different underlying characteristics (e.g., different portions of the area of interest had different prior uses), then utilizing a stratified sampling design with strata that correspond to these distinct subareas will help ensure proper representation of all characteristics associated with the given population."
+- 要点：如果研究区不同部分性质不同（例如土地过去用途不同），按这些部分分层抽样，能保证各部分都有代表。

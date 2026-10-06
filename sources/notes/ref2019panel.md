@@ -50,3 +50,33 @@
 - 位置：Main Panel D，第 210 段
 - 原文："that has also been a performance or recording; or an exhibition where the research may be curatorial"
 - 要点：一项成果可以同时是多种类型，例如一部同时有演出或录音的"作曲"，或研究体现在策展中的展览。
+
+### E9
+
+- 位置：第 265 段
+- 原文："As a single item, with a 300-word supporting statement. • As a multi-component output, with a 300-word supporting statement. • As a single item, supported by contextual information (previously called a ‘portfolio’)."
+- 要点：Main Panel D（艺术与人文）允许研究者角色或研究过程看不出来的成果用几种方式提交：单件加 300 词说明；多部件成果加 300 词说明；单件加背景材料（以前叫"作品集"）；以及多部件加背景材料。
+
+### E10
+
+- 位置：第 265 段
+- 原文："Both the item and the contextual information may include moving image, sonic, visual or other digital media or written text, as appropriate, to enable the panel to access the research dimensions of the work and to assess its significance, originality and rigour."
+- 要点：作品和背景材料都可以包括影像、声音、视觉或其他数字媒体或文字，目的是让评审组看到作品的研究维度，评估其重要性、原创性和严谨性。
+
+### E11
+
+- 位置：第 266 段
+- 原文："the research process – the question and/or issues being explored, the process of discovery, methods and/or methodologies, the creative and/or intellectual context or literature review upon which the work draws, or challenges or critiques"
+- 要点：研究过程包括：探究的问题、发现的过程、方法、作品依托的创作或学术背景或文献综述，或它提出的挑战和批评。
+
+### E12
+
+- 位置：第 267 段
+- 原文："The sub-panels will ignore any additional material that includes evaluative commentary on the perceived quality of a research output."
+- 要点：子评审组会忽略任何对成果质量做自我评价的附加材料。
+
+### E13
+
+- 位置：第 260 段（Main Panel C 补充标准）
+- 原文："submissions should include an explanatory presentation of the building, design or intervention in an easily-handled paper-based format (for example, a PDF which could include photographs, figures or diagrams) sufficient to allow the panel both to understand the output without visiting it, and to make a judgement of its research contribution."
+- 要点：Main Panel C 要求基于实践的成果（建筑物、设计或干预）附一份便于翻阅的纸质格式说明（例如含照片、图表的 PDF），让评审不去现场也能理解成果并判断研究贡献。

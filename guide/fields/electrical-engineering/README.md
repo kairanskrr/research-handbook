@@ -150,6 +150,8 @@ IEEE 现在的做法：
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+
 本领域常用的方法，有不少和计算机领域相通，可以直接参考对应文档。下面只写本领域额外要注意的地方：
 
 - [工程研究](../computer-science/research-types/engineering_research.md)：提出新的电路、算法或系统并评估。评估可能要包括原型的实测结果，不能只靠仿真 `[本项目分析]`。

@@ -80,3 +80,9 @@
 - 位置：Introduction
 - 原文："In order to facilitate implementation of the guidelines, journal instructions now require that every paper should contain a data and statistical analysis sub‐section within the Methods and full detail of design within each protocol described."
 - 要点：该刊要求每篇论文的方法部分都有"数据与统计分析"小节，每个实验方案都写全设计细节。
+
+### E14
+
+- 位置：Key points of the updated guidance
+- 原文："BJP has set 5 as the minimum ‘n’ required for datasets subjected to statistical analysis."
+- 要点：该刊规定，做统计分析的数据，每组 n 至少为 5。

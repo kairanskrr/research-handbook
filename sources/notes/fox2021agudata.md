@@ -92,3 +92,15 @@
 - 位置：2. Guidelines for Research Primarily Based on Numerical Models or Theory
 - 原文："the software code (e.g. Python, Jupyter Notebooks, R, MATLAB) used to perform any data analysis and to produce the manuscript’s figures should be made available in a free and open platform (e.g., Github) and preserved in a repository (e.g., Zenodo)."
 - 要点：做分析和画图的代码，要放在开放平台上，并存档到 Zenodo 这类保存库。
+
+### E16
+
+- 位置：引言
+- 原文："These digital objects include: [...] Data from observations collected in the field;"
+- 要点：AGU 期刊要求公开的数字对象，包括野外观测得到的数据。
+
+### E17
+
+- 位置：6. Availability Statements and Template Examples
+- 原文："Statements to the effect of “data available from authors” are not acceptable."
+- 要点："数据可向作者索取"的写法不符合 AGU 期刊的要求。

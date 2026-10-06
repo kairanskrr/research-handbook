@@ -160,6 +160,8 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[实验测量研究](research-types/experimental_measurement.md)。
+
 | 研究类型 | 一句话说明 | 和计算机篇的关系 |
 |---|---|---|
 | 理论研究 | 推导和发展理论，例如量子场论的形式理论、弦论[^arxivtaxonomy-e2] | 相通：[理论研究](../computer-science/research-types/theoretical_research.md)。差异：在粒子物理，要检验的模型一般先在理论论文里发表，再由实验者去测[^junk2021reproducibility-e23] |

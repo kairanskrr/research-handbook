@@ -110,3 +110,15 @@
 - 位置：§2.2 Questionnaires Involving Vignettes
 - 原文："Thus, the method of cases is often treated as a central component of analytic philosophy. Vignette studies can be seen as the experimentalists’ analog of this method, allowing researchers to investigate case judgments in a systematic way"
 - 要点："案例法"常被视为分析哲学的核心组成部分；情境短文研究可看作实验哲学家对这一方法的对应做法，用来系统地研究人们对案例的判断。
+
+### E19
+
+- 位置：§1.1 Empirical Claims in Philosophy
+- 原文："A prominent part of experimental philosophy involves drawing out and testing assumptions made in philosophical theorizing."
+- 要点：实验哲学的一大块工作是找出并检验哲学理论中的假设。
+
+### E20
+
+- 位置：§1.1 Empirical Claims in Philosophy
+- 原文："This is clearly an empirical assumption, as it concerns how people actually conceptualize free will."
+- 要点：（例："多数普通人天生是不相容论者"）这是经验假设，因为它说的是人们实际怎样理解自由意志。

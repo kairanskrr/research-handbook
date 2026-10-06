@@ -56,3 +56,33 @@
 - 位置：Introduction
 - 原文："In contrast, ED concentrates its investments on developing and testing the effectiveness of well-defined curricula, programs, and practices that could be implemented by schools."
 - 要点：美国教育部（ED）的投入集中在开发和检验学校可以实施的课程、项目和做法的效果上。
+
+### E10
+
+- 位置：Introduction
+- 原文："For example, a project that involves design and development of an intervention or strategy should, at its conclusion, have generated a theory of action, a set of intervention components, and preliminary evidence regarding promise for improving education outcomes."
+- 要点：一个设计开发干预的项目，结束时应产出一套"行动理论"、一组干预组成部分，以及干预有望改善教育结果的初步证据。
+
+### E11
+
+- 位置：Table 4: Guidelines for Evidence to Be Produced by Studies — Design and Development Research, Project Outcomes
+- 原文："The project's outcomes should include (1) a fully developed version of the proposed design-research (including all materials necessary for its implementation ); (2) a well-specified theory of action, including evidence supporting or refuting key assumptions of the intervention's original theoretical basis ; (3) descriptions of the major design iterations and the resulting evidence to support or question key assumptions about the theory of action; (4) description and empirical evidence of the adjustments to the theory of action and intervention design that resulted from design testing;"
+- 要点：设计与开发研究应产出：（1）完整开发好的干预及实施所需的全部材料；（2）讲清楚的行动理论，以及支持或推翻原有关键假设的证据；（3）主要设计迭代的描述和相应证据；（4）检验后对行动理论和设计所做调整的描述和证据。
+
+### E12
+
+- 位置：Table 4 — Design and Development Research, Project Outcomes
+- 原文："(5) measures with evidence of technical quality for assessing the implementation of the intervention in an authentic education delivery setting and data demonstrating the project's success in such implementation; and (6) pilot data on the intervention's promise for generating the intended beneficial learner outcomes."
+- 要点：还应产出：（5）在真实教育环境中评估干预实施情况的测量工具（附质量证据），以及实施成功的数据；（6）显示干预有望带来预期学习结果的预研究数据。
+
+### E13
+
+- 位置：Table 4 — Design and Development Research, Research Plan
+- 原文："The research plan should describe the (1) method for developing the intervention to the point where it can be used by the intended end-users (iterative development process); (2) method for collecting evidence on the feasibility that end users can implement the intervention in an authentic education or learning setting (evidence of feasibility of implementation); and (3) method for obtaining pilot data on the promise of the intervention for achieving the expected outcomes (pilot study)."
+- 要点：研究计划要写清三件事：怎样迭代开发到预期使用者能用；怎样收集使用者在真实环境中能实施的可行性证据；怎样做预研究，获得干预有望达到预期结果的数据。
+
+### E14
+
+- 位置：Appendix, Evidence to be Produced by Design and Development Research — External Feedback Plan
+- 原文："The project should be subject to a series of external, critical reviews of its design and activities (including theoretical framework, data collection, analyses, and reporting)."
+- 要点：项目的设计和各项活动（理论框架、数据收集、分析、报告）应接受一系列外部的批判性审查。

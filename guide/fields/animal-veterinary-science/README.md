@@ -137,6 +137,8 @@
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[临床前动物研究](../basic-medicine/research-types/preclinical_animal_study.md)、[田间试验](../agriculture/research-types/field_trial.md)、[随机对照试验](../clinical-medicine/research-types/randomized_controlled_trial.md)。
+
 下面是本项目整理的常见类型，不是完整分类 `[本项目分析]`。
 
 - **饲养试验和营养试验**：把动物或栏随机分到不同日粮或处理，比较增重、产奶、健康等结局 `[本项目分析]`。思路和计算机篇的[对照实验](../computer-science/research-types/controlled_experiment.md)相通，差别在于：对象是动物而不是人，实验单位常是一栏动物[^oconnor2010reflect-e5]，按 REFLECT 报告[^oconnor2010reflect-e2]。

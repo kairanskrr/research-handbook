@@ -14,3 +14,15 @@
 - 位置：Q. How up to date is the revised content on this website?
 - 原文："Our aim is to update revised legislation with new amendments within a maximum of three months of the coming into force date of the new amendments."
 - 要点：网站的目标是在修改生效后最多三个月内把它并入修订版文本，所以网上文本可能暂时落后于现行法律。
+
+### E3
+
+- 位置：Q. What legislation is held on legislation.gov.uk?
+- 原文："In some cases we only have the original published (as enacted) version and no revised version."
+- 要点：有些法律网站上只有最初公布的版本（制定时版本），没有修订版。
+
+### E4
+
+- 位置：Q. What legislation is available as revised?
+- 原文："Legislation.gov.uk has revised versions of secondary legislation made in 2014 onwards."
+- 要点：网站有 2014 年以后制定的次级立法（如行政法规性质的条例）的修订版；更早的只有部分。

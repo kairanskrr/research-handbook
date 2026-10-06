@@ -56,3 +56,15 @@
 - 位置：Rule 3
 - 原文："If you rely on your recollection to remember a good idea, a suggestion during a meeting, or an important step in your data analysis or model simulation, you can find yourself in a situation where you no longer remember that critical thought."
 - 要点：靠记忆记住好想法、会上的建议或分析中的关键步骤，很可能到时候就想不起来了。
+
+### E10
+
+- 位置：Rule 5
+- 原文："The most logical organization of a lab notebook is chronological. Each entry should contain the date it was made and subject of the entry."
+- 要点：记录本按时间顺序组织最合理，每条记录都要写日期和主题。
+
+### E11
+
+- 位置：Rule 5
+- 原文："Never erase or destroy an entry, because errors or mistakes are an important part of the scientific process."
+- 要点：永远不要擦掉或销毁记录，因为错误本身也是科研过程的重要部分。

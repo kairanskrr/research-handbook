@@ -158,3 +158,105 @@
 - 位置：结论部分，给年轻研究者的建议
 - 原文："Begin by designing small experiments with relatively large experimental units, as large as you feel you can handle with labor and machinery."
 - 要点：刚开始时，先设计小规模的试验，实验单位尽量大，大到人力和机械能应付为止。
+
+### E27
+
+- 位置：Number of replicates 一节，资源分配
+- 原文："It is always clear from these exercises that the number of locations and/or years should be maximized relative to the number of replicates"
+- 要点：按方差分量做资源分配的计算显示，相对于每个地点内的重复数，应该优先增加地点数和年份数。
+
+### E28
+
+- 位置：Replication 一节，Number of replicates
+- 原文："Power is the probability of rejecting a null hypothesis that is, in fact, false."
+- 要点：统计功效是"原假设其实是错的时候，试验能拒绝它"的概率。
+
+### E29
+
+- 位置：Replication 一节，功效分析示例
+- 原文："Such a graphical display easily allows any researcher to choose one of multiple design arrangements that meet the expected target for power, which is often set at 0.8 (80%)."
+- 要点：把不同重复数、取样数下的功效画成图，就能挑出达到目标功效的设计；目标常定为 0.8（80%）。
+
+### E30
+
+- 位置：Replication 一节，资源分配
+- 原文："Classical resource allocation theory is based on having accurate estimates of the variance components from previous experiments."
+- 要点：经典的资源分配理论（决定地点、年份、重复各做多少）依赖以往试验得到的准确方差分量估计。
+
+### E31
+
+- 位置：Table 2 标题
+- 原文："Mixed models analysis provides direct estimates of the five variance components in the table, using restricted maximum likelihood estimation methods."
+- 要点：对多地点、多年份的随机完全区组试验，混合模型分析（用限制性最大似然法）可以直接估计出各个方差分量。
+
+### E32
+
+- 位置：Randomization 一节
+- 原文："Randomization is a strict mathematical process in which a random number generator is used to order the treatments. Interspersion is a subjective concept in which the researcher strives to achieve balance and avoid “clumping” of certain treatments or replicates of treatments."
+- 要点：随机化是用随机数生成器排处理顺序的严格过程；"穿插"是研究者主观追求均衡、避免某些处理扎堆。
+
+### E33
+
+- 位置：Randomization 一节
+- 原文："Sometimes randomization can result in experimental designs that appear to have undesirable clumping or patterns. These patterns can result in potential bias or confounding to treatment effects if there are underlying spatial variation patterns that are correlated with the randomization plan"
+- 要点：随机化有时会排出扎堆的布局；如果田里的空间变异恰好和这种布局相关，就可能带来偏倚或混杂。
+
+### E34
+
+- 位置：Randomization 一节
+- 原文："Spatially balanced complete block designs (van Es et al., 2007) were developed to solve this potential problem, helping to ensure that both randomization and interspersion are key components of any design."
+- 要点：空间均衡完全区组设计就是为解决这个问题而提出的，让随机化和穿插两者兼顾。
+
+### E35
+
+- 位置：Blocking 一节
+- 原文："In addition, much like randomization, blocking can be thought of as an insurance policy against disturbances that may or may not arise during the course of the experiment."
+- 要点：区组和随机化一样，可以看作防范试验期间意外干扰的保险。
+
+### E36
+
+- 位置：Size of experimental units 一节（Smith 定律）
+- 原文："The concept is based on Smith's Law (Smith, 1938), which derived from the general observation of a negative asymptotic relationship between variance (on a per-unit or single-plot basis) and plot size"
+- 要点：Smith 定律：单个小区的方差随小区面积增大而下降，并逐渐趋于平稳。
+
+### E37
+
+- 位置：Size of experimental units 一节
+- 原文："For small initial plot sizes, any change in plot size is expected to have a large effect on mean unit variance. Conversely, for researchers who are using relatively large plots, relatively large changes in plot size may have little or no impact on the mean unit variance."
+- 要点：小区本来就小，改面积对方差影响大；小区本来就大，再大幅改面积也几乎没影响。
+
+### E38
+
+- 位置：Size of experimental units 一节
+- 原文："For any given experiment, our choice of plot size depends on seed and land availability and prior estimates of the slope of the log-linear curve in Fig. 11, estimated for that particular field"
+- 要点：作者自己课题组定小区大小，看种子和土地够不够，以及这块地以往估出的方差—面积曲线斜率。
+
+### E39
+
+- 位置：Blocking 一节，裂区设计
+- 原文："A common misconception of the split-plot randomization is that they represent an experimental design per se, e.g., a split-plot with Factor A as the whole-plot factor and Factor B as the subplot factor. In fact, this represents an incomplete description of the experimental design because it is missing the basic design for Factor A, the whole-plot factor."
+- 要点：只写"A 为主区、B 为副区的裂区设计"是不完整的，还缺主区因素 A 本身用的基本设计（例如随机完全区组）。
+
+### E40
+
+- 位置：Replication 一节，特殊情况
+- 原文："These designs fell out of favor when it became clear that devoting half of the experimental units to a single treatment or cultivar was highly inefficient (Melton and Finckner, 1967), and modern spatial analysis methods were just emerging (Gaeton and Guyon, 2010). Nevertheless, they remain a very viable option for small on-farm experiments."
+- 要点：对照小区设计（对照隔一块放一块）把一半实验单位给了对照，效率很低，后来不流行了；但对小型农场试验仍很可行。
+
+### E41
+
+- 位置：Replication 一节，增广设计
+- 原文："Additional check cultivars are added at random to individual blocks to augment error estimation and to estimate the spatial effects on a finer or smaller scale"
+- 要点：在增广设计里，随机地往各区组加入对照品种（check），用来估计误差和较小尺度的空间效应。
+
+### E42
+
+- 位置：Replication 一节
+- 原文："As long as no attempt is made to attribute simple effects of interactions to unreplicated environmental variables, which cannot be conclusively resolved, the researcher is relatively safe from criticism."
+- 要点：只要不把交互作用归因到没有重复的环境变量上，就不容易被批评。
+
+### E43
+
+- 位置：Replication 一节，农场试验
+- 原文："Researchers organizing these types of field experiments have three options: (i) conduct the experiments on multiple farms, using farms as blocks; (ii) use control-plot designs in which one control treatment is interspersed with the other treatments, optimally in an every-other-plot pattern; or (iii) use a combination of both approaches."
+- 要点：农场试验三种办法：多个农场当区组；对照小区穿插在其他处理之间；或两者结合。

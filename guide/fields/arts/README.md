@@ -147,6 +147,10 @@
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[基于实践的研究](research-types/practice_based_research.md)。
+
+**相关学科的研究类型文档**：[档案研究](../history-archaeology/research-types/archival_research.md)、[基于设计的研究](../education/research-types/design_based_research.md)。
+
 本领域还没有专门的研究类型文档。下面的分类为本项目归纳 `[本项目分析]`，能借用计算机篇文档的，给出链接和差异：
 
 - **作品和档案研究（艺术史、音乐学）**：研究作品、手稿、信件和机构档案。资料批判和查档方法见[历史与考古篇](../history-archaeology/README.md)。

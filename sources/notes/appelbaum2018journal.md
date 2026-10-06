@@ -56,3 +56,27 @@
 - 位置：摘要，第 3 页
 - 原文："Several new modules are included that report standards for observational studies, clinical trials, longitudinal studies, replication studies, and N-of-1 studies."
 - 要点：新版增加了几个模块，分别针对观察性研究、临床试验、纵向研究、重复研究和单被试（N-of-1）研究。
+
+### E10
+
+- 位置：Changes in Table 1，Psychometrics
+- 原文："the term reliability should refer to test scores in particular samples and not to tests or testing instruments. Likewise, the term validity should refer not to a test but to the proposed interpretations of test scores"
+- 要点：信度指特定样本上的分数，不是量表本身的属性；效度指对分数的某种解释，不是量表本身的属性。
+
+### E11
+
+- 位置：Changes in Table 1，Psychometrics
+- 原文："Best practice is to estimate both reliability and validity, when possible, within the researcher's sample or samples (i.e., the scores analyzed)."
+- 要点：最好在自己的样本上估计信度和效度。
+
+### E12
+
+- 位置：Table 1，Method — Psychometrics
+- 原文："Provide information on validated or ad hoc instruments created for individual studies, for example, psychometric and biometric properties." / "Estimate and report values of reliability coefficients for the scores analyzed (i.e., the researcher's sample), if possible. Provide estimates of convergent and discriminant validity where relevant."
+- 要点：说明用的是已验证的还是为本研究临时编的量表；尽可能报告本研究样本上的信度系数，相关时报告聚合效度和区分效度。
+
+### E13
+
+- 位置：Table 1，Method — Psychometrics
+- 原文："Test–retest coefficients in longitudinal studies in which the retest interval corresponds to the measurement schedule used in the study"
+- 要点：纵向研究要报告重测系数，重测间隔要与研究的测量安排一致。

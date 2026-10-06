@@ -136,6 +136,10 @@ Makel 和 Plucker 2014 年在 Educational Researcher 发表了一项分析（本
 
 ## 常见的研究类型
 
+**本领域的研究类型文档**：[基于设计的研究](research-types/design_based_research.md)。
+
+**相关学科的研究类型文档**：[田野实验](../economics/research-types/field_experiment.md)、[量表编制与测量研究](../psychology/research-types/scale_development.md)。
+
 教育学的很多方法和计算机篇"涉及人的研究"相通，可以先读对应文档，再注意下表的差异 `[本项目分析]`：
 
 | 研究类型 | 计算机篇文档 | 教育学里要多注意什么 |

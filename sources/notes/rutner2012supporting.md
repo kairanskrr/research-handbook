@@ -68,3 +68,51 @@
 - 位置：Gathering and Using Primary Sources，第 13 页
 - 原文："These digital photographs clearly add value to the research process, but working with them effectively and efficiently remains a struggle for most."
 - 要点：数码照片对研究有帮助，但多数人还没找到高效管理和使用它们的办法。
+
+### E12
+
+- 位置：Gathering and Using Primary Sources，第 11 页
+- 原文："The archivist is also critically important for scholars who cannot travel to an archive. Interviewees reported relying on them via sometimes extensive phone and email exchanges."
+- 要点：对去不了档案馆的学者，档案工作人员尤其重要；受访者说曾通过大量电话和邮件依靠他们。
+
+### E13
+
+- 位置：Gathering and Using Primary Sources，第 10 页
+- 原文："Most interviewees said they are not traveling less for research because of digitized finding aids and collections, but they have been able to travel more strategically."
+- 要点：多数受访者说，有了数字化的检索指南和收藏，他们并没有少出差查档，但出差更有针对性了。
+
+### E14
+
+- 位置：Gathering and Using Primary Sources，第 8 页
+- 原文："The consequence of shorter research trips is that researchers spend the majority of their time in the archives informally digitizing materials for later review and analysis."
+- 要点：查档行程变短，结果是研究者在档案馆里大部分时间都在自己拍照、扫描，留到以后再看、再分析。
+
+### E15
+
+- 位置：Gathering and Using Primary Sources，第 13 页
+- 原文："However, using an unprocessed collection does require different preparation and different approaches once at the archive."
+- 要点：使用未整理的收藏，需要不同的准备和不同的现场做法。
+
+### E16
+
+- 位置：Discovery，第 16 页
+- 原文："Some interviewees expressed concerns about limitations of keyword searching, recognizing that the corpus of materials that are available to search in are not, in fact, comprehensive."
+- 要点：一些受访者担心关键词检索的局限：能检索到的材料并不全面。
+
+### E17
+
+- 位置：Discovery，第 19 页
+- 原文："Historians working on international topics noted limitations of the corpus of foreign language material available on Google Books."
+- 要点：做国际题目的受访者指出，Google 图书里的外文材料有限。
+
+### E18
+
+- 位置：Discovery，第 17 页
+- 原文："Another important discovery mechanism is following citation trails."
+- 要点：顺着引用线索追查，是发现资料的另一条重要途径。
+
+### E19
+
+- 位置：Gathering and Using Primary Sources，第 8 页
+- 原文："The use of primary sources remains at the heart of the historical research method."
+- 要点：报告认为，使用一手资料仍是历史研究方法的核心。

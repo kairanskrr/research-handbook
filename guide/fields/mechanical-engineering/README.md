@@ -153,6 +153,8 @@ ASME 要求会员遵守它的《工程师伦理准则》[^asme2024ethics-e1]。�
 
 ## 常见的研究类型
 
+**相关学科的研究类型文档**：[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+
 本领域常用的方法，不少和计算机领域篇相通。下面只写本领域额外要注意的地方：
 
 - [定量仿真](../computer-science/research-types/simulation_study.md)：计算流体力学、有限元等。计算机篇举的是离散事件、系统动力学、基于智能体的仿真；本领域的仿真多是解偏微分方程 `[本项目分析]`，除了验证与确认，还可能被要求报告网格收敛、迭代收敛等数值误差[^jfenumaccuracy-e2][^celik2008procedure-e1]。
