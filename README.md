@@ -4,73 +4,65 @@
 
 写给刚开始做科研的人：怎样选题、读文献、设计研究、推进项目、写作投稿，以及各个学科有哪些自己的规矩。内容来自资深研究者的经验和各领域公认的方法规范，每条建议都能追溯到原文出处。
 
-> **现状**：全部内容已有初稿，每篇都经过逐条证据核对和审读修改，正在人工审阅。包括：
-> - **通用篇**：一个课题从头到尾怎么做，按研究阶段分为 13 章，另有常见问题速查；
-> - **领域篇**：按 OECD 学科分类写了 31 篇领域概况；
-> - **研究类型**：42 篇，其中计算机 19 篇，其他学科 23 篇。
+> 目前所有内容都是初稿：已逐条核对过证据，还在人工审阅中。
 
-## 从哪里开始
+## 从哪里读
 
-| 想做什么 | 去哪里 |
+| 你的情况 | 从这里开始 |
 |---|---|
-| 学习怎么做科研 | [整理内容](guide/README.md)：通用篇 → 领域篇 → 研究类型 |
-| 了解自己学科的惯例，或某种研究方法怎么做 | [领域篇目录](guide/fields/README.md)：先读领域概况，再读研究类型 |
-| 做研究时遇到问题 | [常见问题速查](guide/faq.md) |
-| 查某条结论的依据 | 点整理内容里的脚注，跳到 [证据摘录](sources/notes/README.md) |
-| 找原始资料：论文、规范、博客、仓库 | [原始资料列表](sources/README.md) |
+| 第一次做科研，想知道一个课题从头到尾怎么做 | [总览](guide/general/00_workflow.md)，再按阶段往下读 |
+| 正处在某个阶段：刚开题、在做实验、准备投稿 | [通用篇](guide/general/README.md)中对应的阶段 |
+| 遇到了具体问题：实验做不出来、被拒稿、导师没空…… | [常见问题速查](guide/faq.md) |
+| 进入一个新学科，想了解它的惯例 | 下面"领域篇"里你的学科 |
+| 要用某种研究方法：随机对照试验、访谈、档案研究…… | [研究类型目录](guide/fields/README.md#研究类型) |
 
-## 待办清单
+## 目录
 
-详细状态见[通用篇目录](guide/general/README.md)和[领域篇目录](guide/fields/README.md)。"初稿"表示已写完、每条结论都有出处，但还没有经过人工审阅。
+### 通用篇：所有学科共通的做法
 
-**通用篇**（所有学科）
+- [总览：一个课题从头到尾怎么做](guide/general/00_workflow.md)
+- **开始之前**：[什么是好的研究](guide/general/1_before/01_what_is_good_research.md) · [选题](guide/general/1_before/02_choosing_a_problem.md) · [读文献](guide/general/1_before/03_reading_literature.md) · [研究设计](guide/general/1_before/04_research_design.md) · [做计划](guide/general/1_before/05_planning.md)
+- **进行中**：[推进研究](guide/general/2_during/01_making_progress.md) · [证据与效度](guide/general/2_during/02_evidence_and_validity.md) · [整理科研材料](guide/general/2_during/03_organizing_materials.md)
+- **收尾与发表**：[写作](guide/general/3_after/01_writing.md) · [审稿与发表](guide/general/3_after/02_reviewing_and_publishing.md)
+- **贯穿全程**：[合作与导师](guide/general/4_throughout/01_collaboration_and_advisors.md) · [科研诚信与伦理](guide/general/4_throughout/02_integrity_and_ethics.md) · [心态与长期积累](guide/general/4_throughout/03_mindset_and_growth.md)
+- [常见问题速查](guide/faq.md)
 
-- [x] 总览：一个课题从头到尾怎么做（初稿）
-- [x] 开始之前：什么是好的研究、选题、读文献、研究设计、做计划（初稿）
-- [x] 进行中：推进研究、证据与效度、整理科研材料（初稿）
-- [x] 收尾与发表：写作、审稿与发表（初稿）
-- [x] 贯穿全程：合作与导师、科研诚信、心态与长期积累（初稿）
-- [x] 常见问题速查（初稿）
-- [x] 审读：逐条核对脚注与证据、术语、章节之间的重复和矛盾（已按审读意见修改）
-- [ ] 人工审阅全部章节
+### 领域篇：各学科的惯例
 
-**计算机领域篇**
+每个学科一篇领域概况：研究怎样运转、和其他学科哪里不同、要守哪些规范、新手常犯什么错。学科划分按经济合作与发展组织（OECD）的分类，完整对照见[领域篇目录](guide/fields/README.md)。
 
-- [x] 领域概况：研究节奏、组织方式、发表文化、惯例（初稿）
-- [x] 审读：逐条核对脚注与证据、术语、文档之间的重复和矛盾（已按审读意见修改）
-- [x] 研究类型：综述研究（系统综述、映射研究、综述论文）（初稿）
-- [x] 研究类型：工程研究、基准评测、仓库挖掘（初稿）
-- [x] 研究类型（其余 14 种）：复现研究、对照实验、问卷调查、访谈研究、案例研究与民族志、扎根理论、行动研究、数据科学、纵向研究、优化研究、定量仿真、混合方法、案例调查、元科学（初稿）
-- [x] 研究类型：理论研究（初稿）
+- **自然科学**：[数学](guide/fields/mathematics/README.md) · [计算机](guide/fields/computer-science/README.md) · [物理](guide/fields/physical-sciences/README.md) · [化学](guide/fields/chemistry/README.md) · [地球与环境科学](guide/fields/earth-environmental-sciences/README.md) · [生物科学](guide/fields/biological-sciences/README.md)
+- **工程与技术**：[土木](guide/fields/civil-engineering/README.md) · [电气、电子与信息](guide/fields/electrical-engineering/README.md) · [机械](guide/fields/mechanical-engineering/README.md) · [化学工程](guide/fields/chemical-engineering/README.md) · [材料与纳米技术](guide/fields/materials-engineering/README.md) · [医学工程](guide/fields/medical-engineering/README.md) · [环境工程](guide/fields/environmental-engineering/README.md) · [生物技术](guide/fields/biotechnology/README.md)
+- **医学与健康**：[基础医学](guide/fields/basic-medicine/README.md) · [临床医学](guide/fields/clinical-medicine/README.md) · [健康科学](guide/fields/health-sciences/README.md)
+- **农业与兽医**：[农业、林业与渔业](guide/fields/agriculture/README.md) · [动物科学与兽医学](guide/fields/animal-veterinary-science/README.md)
+- **社会科学**：[心理学](guide/fields/psychology/README.md) · [经济学](guide/fields/economics/README.md) · [教育学](guide/fields/education/README.md) · [社会学](guide/fields/sociology/README.md) · [法学](guide/fields/law/README.md) · [政治学](guide/fields/political-science/README.md) · [地理学](guide/fields/geography/README.md) · [媒体与传播](guide/fields/media-communication/README.md)
+- **人文与艺术**：[历史与考古](guide/fields/history-archaeology/README.md) · [语言与文学](guide/fields/languages-literature/README.md) · [哲学、伦理与宗教](guide/fields/philosophy-ethics-religion/README.md) · [艺术](guide/fields/arts/README.md)
 
-**其他领域**
+### 研究类型：某一种研究具体怎么做
 
-- [x] 领域概况（初稿，每篇都经过证据核对和审读修改）：数学、物理科学、生物科学、电气电子与信息工程、临床医学、心理学与认知科学、经济学、历史与考古
-- [x] 领域概况第二轮（初稿，同样经过证据核对和审读修改）：化学、地球与环境科学、土木工程、机械工程、化学工程、材料工程与纳米技术、医学工程、环境工程、生物技术、基础医学、健康科学、农业林业与渔业、动物科学与兽医学、教育学、社会学、法学、政治学、社会与经济地理学、媒体与传播、语言与文学、哲学伦理与宗教、艺术
-- [x] OECD 的 6 个"其他××"兜底类别不单独成篇，在[领域篇目录](guide/fields/README.md)里指向相近学科
-- [ ] 人工审阅以上 30 篇领域概况
-- [x] 各学科特有的研究类型文档（初稿，经过证据核对和审读修改）：共 23 篇，目录见[领域篇目录](guide/fields/README.md#其他学科的研究类型)
-- [ ] 人工审阅以上 23 篇研究类型文档
+每篇讲一种研究方法：适合回答什么问题、分几步做、每步容易错在哪、写论文前对照的检查清单。
 
-**原始资料**
+- [计算机的 19 种研究类型](guide/fields/README.md#研究类型)：综述研究、对照实验、问卷、访谈、案例研究、复现研究等，很多其他学科也通用
+- [其他学科的 23 种研究类型](guide/fields/README.md#其他学科的研究类型)：随机对照试验、准实验、田野实验、量表编制、实验测量、田间试验、档案研究、口述历史、规范法学研究、过程追踪、基于实践的研究等
 
-- [x] 资料登记（[资料列表](sources/README.md)）：持续补充
-- [x] 证据摘录（[`sources/notes/`](sources/notes/README.md)）：整理到哪里，摘录到哪里
+## 怎么看出处
+
+每条建议后面都有脚注。点开脚注，可以看到它出自哪份资料、原文在哪一页、原文怎么说。没有文献依据、属于我们自己的判断，标注 `[本项目分析]`。资料之间说法不一致时，会把各方观点并列写出来。
+
+所有原始资料都列在[资料列表](sources/README.md)里，每份资料的原文摘录在 [`sources/notes/`](sources/notes/README.md)。
 
 ## 仓库结构
 
-仓库分两部分：**整理内容**是我们写的文档；**原始资料**是收集来的一手资料。整理内容中的每条结论都用脚注指向原始资料中的证据。
-
 ```
-guide/          整理内容（中文）
-  general/        通用篇：总览，以及按阶段分组的各章（开始之前 / 进行中 / 收尾与发表 / 贯穿全程）
-  fields/         领域篇，按 OECD（经济合作与发展组织）的学科分类组织；每个领域下有 research-types/
+guide/          手册正文
+  general/        通用篇
+  fields/         领域篇：每个学科一个文件夹，含领域概况和 research-types/
   faq.md          常见问题速查
 sources/        原始资料
-  README.md       资料列表（awesome 列表形式）
-  notes/          证据摘录：资料原文在哪里、怎么说
-papers/         论文的 BibTeX（references.bib）、索引和本地 PDF
-repos/          GitHub 仓库，以 git submodule 方式引入
+  README.md       资料列表：论文、规范、博客、仓库
+  notes/          证据摘录：每份资料的原文和位置
+papers/         论文的 BibTeX（references.bib）和索引
+repos/          作为参考资料引入的 GitHub 仓库（git submodule）
 templates/      文档模板
 scripts/        论文下载脚本
 ```
@@ -83,6 +75,6 @@ git clone --recursive https://github.com/kairanskrr/research-handbook.git
 
 已经克隆过的，运行 `git submodule update --init` 拉取 `repos/` 下的子模块。
 
-## 贡献
+## 参与贡献
 
-见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+发现错误、有更好的资料，或想补充某个学科，见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
