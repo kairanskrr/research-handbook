@@ -38,3 +38,15 @@
 - 位置：astro-ph.IM (Instrumentation and Methods for Astrophysics)
 - 原文："Detector and telescope design, experiment proposals. Laboratory Astrophysics. Methods for data analysis, statistical methods. Software, database design"
 - 要点：天体物理的仪器与方法分类：探测器和望远镜设计、数据分析方法、软件等。
+
+### E7
+
+- 位置：cond-mat.mtrl-sci (Materials Science)
+- 原文："Techniques, synthesis, characterization, structure. Structural phase transitions, mechanical properties, phonons. Defects, adsorbates, interfaces"
+- 要点：arXiv 设有材料科学分类 cond-mat.mtrl-sci，范围包括技术、合成、表征、结构、相变、力学性质、缺陷、界面等。
+
+### E8
+
+- 位置：cond-mat.mes-hall (Mesoscale and Nanoscale Physics)
+- 原文："Semiconducting nanostructures: quantum dots, wires, and wells. Single electronics, spintronics, 2d electron gases, quantum Hall effect, nanotubes, graphene, plasmonic nanostructures"
+- 要点：arXiv 的介观与纳米物理分类 cond-mat.mes-hall 收录量子点、纳米管、石墨烯、等离激元纳米结构等方向。

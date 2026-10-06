@@ -116,3 +116,9 @@
 - 位置：§10 Recommended Procedure
 - 原文："3. Test, wherever possible, the assumptions and theories underlying the simulation model. 4. In each model iteration, at least perform face validity on the conceptual model. 5. In each model iteration, at least explore the simulation model’s behavior using the computerized model. 6. In at least the last model iteration, make comparisons, if possible, between the simulation model and system behavior (output) data for at least a few sets of experimental conditions, and preferably for several sets."
 - 要点：Sargent 推荐的最低步骤之一部分：尽可能检验模型依据的假设和理论；每轮迭代至少对概念模型做表面效度检查、至少探索计算机模型的行为；至少在最后一轮，把模型输出和系统实际数据在几组实验条件下对比。
+
+### E20
+
+- 位置：§3 Paradigms
+- 原文："Verification and validation must be performed again when any model change is made."
+- 要点：模型任何改动之后都要重新验证和确认。
