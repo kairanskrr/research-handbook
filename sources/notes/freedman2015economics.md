@@ -32,3 +32,27 @@
 - 位置：解决方案，Biological Reagents and Reference Materials
 - 原文："Promote broad adoption by vendors to offer only validated reagents (e.g., antibodies and cell lines) and broad utilization of these reagents by PIs as a documented best practice in the research process."
 - 要点：作者建议供应商只提供经过验证的试剂（如抗体和细胞系），课题组负责人（PI）把使用经过验证的试剂作为有记录的规范做法。
+
+### E6
+
+- 位置：正文，直接经济成本之后
+- 原文："Academic research studies with potential clinical applications are typically replicated within the pharmaceutical industry before clinical studies are begun, with each study replication requiring between 3 and 24 months and between US$500,000 to US$2,000,000 investment"
+- 要点：有临床应用前景的学术研究，在开始临床研究之前，通常会先在药企内部重做一遍；每次重做需要 3 到 24 个月、50 万到 200 万美元。
+
+### E7
+
+- 位置：正文，不可复现的原因
+- 原文："are the primary causes of irreproducibility" / "(1) study design, (2) biological reagents and reference materials, (3) laboratory protocols, and (4) data analysis and reporting."
+- 要点：作者认为临床前研究不可复现的主要原因有四类：研究设计、生物试剂和参考材料、实验操作规程、数据分析和报告。
+
+### E8
+
+- 位置：正文，引言
+- 原文："Flawed preclinical studies create false hope for patients waiting for lifesaving cures"
+- 要点：有缺陷的临床前研究给等待治疗的病人带来虚假的希望。
+
+### E9
+
+- 位置：正文，解决方案部分
+- 原文："because our analysis indicates that errors in study design and biological reagents and materials contribute to a majority of this spend (see Fig 2), implementing steps to improve preclinical reproducibility should be a priority in these two areas"
+- 要点：作者的分析认为研究设计和生物试剂两类问题占了不可复现研究花费的大部分，所以应优先改进这两方面。

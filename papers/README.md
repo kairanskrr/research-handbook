@@ -303,6 +303,218 @@
 | `cronon2009learning` | Learning to Do Historical Research: A Primer for Environmental Historians and Others | 网页 2009 | [链接](https://www.williamcronon.net/researching/) |
 | `chicago2024citation` | Chicago-Style Citation Quick Guide | The Chicago Manual of Style Online 2024 | [链接](https://www.chicagomanualofstyle.org/tools_citationguide.html) |
 | `rutner2012supporting` | Supporting the Changing Research Practices of Historians | Ithaka S+R 2012 | [链接](https://sr.ithaka.org/wp-content/uploads/2015/08/supporting-the-changing-research-practices-of-historians.pdf) |
+| `acs2015identifying` | Identifying and Evaluating Hazards in Research Laboratories | American Chemical Society 2015 | [链接](https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/publications/identifying-and-evaluating-hazards-in-research-laboratories.pdf) |
+| `acs2026ethical` | Ethical Guidelines to Publication of Chemical Research | ACS Publications 网页 2026 | [链接](https://researcher-resources.acs.org/publish/ethical_guidelines) |
+| `acsjocguidelines` | The Journal of Organic Chemistry: Author Guidelines | ACS Publications 网页 2026 | [链接](https://researcher-resources.acs.org/publish/author_guidelines?coden=joceah) |
+| `acsdatapolicy` | ACS Research Data Policy | ACS Publications 网页 | [链接](https://researcher-resources.acs.org/publish/data_policy) |
+| `bergman2016reproducibility` | Reproducibility in Chemical Research | Angewandte Chemie International Edition 2016 | [链接](https://doi.org/10.1002/anie.201606591) |
+| `orgsyninstructions` | Organic Syntheses: Instructions for Authors | Organic Syntheses 网页 | [链接](https://www.orgsyn.org/instructions.aspx) |
+| `chemrxivabout` | About ChemRxiv; FAQs for ChemRxiv Authors | ChemRxiv 网页 | [链接](https://chemrxiv.org/engage/assets/public/chemrxiv/term/about.htm) |
+| `iupacfaircookbook` | IUPAC FAIR Chemistry Cookbook | 网页 | [链接](https://iupac.github.io/WFChemCookbook/intro.html) |
+| `agu2023ethics` | AGU Scientific Integrity and Professional Ethics | 网页 2023 | [链接](https://www.agu.org/-/media/Files/Learn-About-AGU/AGU_Scientific_Integrity_and_Professional_Ethics_Policy_document.pdf) |
+| `fox2021agudata` | Data and Software Sharing Guidance for Authors Submitting to AGU Journals | Zenodo 2021 | [链接](https://data.agu.org/resources/agu-data-software-sharing-guidance) |
+| `gmdcodepolicy` | GMD Code and Data Policy | Copernicus Publications | [链接](https://www.geoscientific-model-development.net/policies/code_and_data_policy.html) |
+| `gmd2019editorial` | Editorial: The publication of geoscientific model developments v1.2 | Geoscientific Model Development 2019 | [链接](https://doi.org/10.5194/gmd-12-2215-2019) |
+| `mastrandrea2010ipcc` | Guidance Note for Lead Authors of the IPCC Fifth Assessment Report on Consistent Treatment of Uncertainties | Intergovernmental Panel on Climate Change (IPCC) 2010 | [链接](https://www.ipcc.ch/site/assets/uploads/2017/08/AR5_Uncertainty_Guidance_Note.pdf) |
+| `igsnabout` | About IGSNs | IGSN e.V. 网页 | [链接](https://www.igsn.org/about-igsns) |
+| `igsnpublications` | Using IGSN in Publications | IGSN e.V. 网页 | [链接](https://www.igsn.org/resources/using-igsn-in-publications) |
+| `eartharxivabout` | About EarthArXiv | EarthArXiv 网页 | [链接](https://eartharxiv.org/repository/about/) |
+| `eartharxivfaq` | Frequently Asked Questions | EarthArXiv 网页 | [链接](https://eartharxiv.github.io/faq.html) |
+| `eartharxivmoderation` | Moderation Policy | EarthArXiv 网页 | [链接](https://eartharxiv.github.io/moderation.html) |
+| `stagge2019assessing` | Assessing data availability and research reproducibility in hydrology and water resources | Scientific Data 2019 | [链接](https://doi.org/10.1038/sdata.2019.30) |
+| `eyring2016cmip6` | Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization | Geoscientific Model Development 2016 | [链接](https://doi.org/10.5194/gmd-9-1937-2016) |
+| `clancy2014survey` | Survey of Academic Field Experiences (SAFE): Trainees Report Harassment and Assault | PLoS ONE 2014 | [链接](https://doi.org/10.1371/journal.pone.0102172) |
+| `greene2021safety` | Safety and Belonging in the Field: A Checklist for Educators | EarthArXiv preprint (non-peer reviewed) 2021 | [链接](https://go-outdoors.caltech.edu/documents/20636/greene-et-al_2021.pdf) |
+| `asce2020code` | Code of Ethics | ASCE 网页 2020 | [链接](https://www.asce.org/career-growth/ethics/code-of-ethics) |
+| `ascedataavailability` | Data Availability Statement | ASCE Library | [链接](https://ascelibrary.org/page/dataavailability) |
+| `rosenberg2018new` | New Policy to Specify Availability of Data, Models, and Code | Journal of Water Resources Planning and Management 2018 | [链接](https://doi.org/10.1061/(ASCE)WR.1943-5452.0000998) |
+| `rosenberg2020next` | The Next Frontier: Making Research More Reproducible | Journal of Water Resources Planning and Management 2020 | [链接](https://par.nsf.gov/servlets/purl/10188458) |
+| `hendrickson2011conference` | Conference Papers and Prior Publication | Journal of Bridge Engineering 2011 | [链接](https://doi.org/10.1061/(ASCE)BE.1943-5592.0000294) |
+| `oberkampf2003verification` | Verification, Validation, and Predictive Capability in Computational Engineering and Physics | Sandia National Laboratories 2003 | [链接](https://digital.library.unt.edu/ark:/67531/metadc885833/m2/1/high_res_d/918370.pdf) |
+| `nheriutexas2020safety` | NHERI@UTexas Safety Plan, Version 2.3 | University of Texas at Austin 2020 | [链接](https://utexas.designsafe-ci.org/media/filer_public/02/b1/02b1b9f1-9b83-4fe7-ad82-7acc4c959a50/nheriutexas_safety_plan-20200826.pdf) |
+| `nherilehigh2016users` | NHERI Lehigh RTMD Experimental Facility User's Guide | Lehigh University 2016 | [链接](https://lehigh.designsafe-ci.org/media/cms_page_media/95/NHERI%20Lehigh%20RTMD%20EF%20User's%20Guide%202016-11-02_YsuNvbw.pdf) |
+| `asce2026standards` | Codes and Standards | ASCE 网页 | [链接](https://www.asce.org/publications-and-news/codes-and-standards) |
+| `asce2026asce7` | ASCE/SEI 7-22: Minimum Design Loads and Associated Criteria for Buildings and Other Structures | ASCE 网页 | [链接](https://www.asce.org/publications-and-news/codes-and-standards/asce-sei-7-22) |
+| `nist2008nehrp` | FY 2008 Budget Request Details: National Earthquake Hazards Reduction Program | NIST 网页 | [链接](https://www.nist.gov/congressional-and-legislative-affairs/fy08-national-earthquake-hazards-reduction-program) |
+| `jfenumaccuracy` | Journal of Fluids Engineering Editorial Policy Statement on the Control of Numerical Accuracy | American Society of Mechanical Engineers | [链接](https://www.asme.org/wwwasmeorg/media/ResourceFiles/Shop/Journals/JFENumAccuracy.pdf) |
+| `celik2008procedure` | Procedure for Estimation and Reporting of Uncertainty Due to Discretization in CFD Applications | Journal of Fluids Engineering 2008 | [链接](https://www.asme.org/wwwasmeorg/media/ResourceFiles/Shop/Journals/JFENumAccuracy.pdf) |
+| `aiaaeditorialpolicy` | Editorial Policy Statement on Numerical and Experimental Accuracy | AIAA 网页 | [链接](https://aiaa.org/EditorialPolicyStatement) |
+| `jcgm2008gum` | Evaluation of Measurement Data – Guide to the Expression of Uncertainty in Measurement | BIPM 2008 | [链接](https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf) |
+| `taylor1994nist` | Guidelines for Evaluating and Expressing the Uncertainty of NIST Measurement Results | National Institute of Standards and Technology 1994 | [链接](https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1297.pdf) |
+| `oberkampf2002verification` | Verification and Validation in Computational Fluid Dynamics | Sandia National Laboratories 2002 | [链接](https://www.osti.gov/biblio/793406) |
+| `asme2024ethics` | Society Policy P-15.7: Ethics (Code of Ethics of Engineers) | ASME 2024 | [链接](https://www.asme.org/getmedia/1d9d64bf-f6a7-4e75-a8f5-0cabd8c04269/P-15-7-Ethics_2.pdf) |
+| `asme2012canons` | The ASME Criteria for Interpretation of the Canons | ASME 2012 | [链接](https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Get%20Involved/Advocacy/Policy-Publications/CRITERIA-FOR-INTERPRETATION-OF-THE-CANONSJune2012.pdf) |
+| `asmeethicalstandards` | Ethical Standards | ASME Proceedings: Submission, Review and Acceptance 2026 | [链接](https://www.asme.org/publications-submissions/proceedings/submission-review-and-acceptance/ethical-standards) |
+| `asmeconfpapers` | Papers Presented at a Conference | ASME Journals: Information for Authors 2026 | [链接](https://www.asme.org/publications-submissions/journals/information-for-authors/journal-guidelines/papers-presented-at-a-conference) |
+| `asme2026imece` | IMECE 2026: International Mechanical Engineering Congress & Exposition | ASME event 网页 2026 | [链接](https://event.asme.org/IMECE) |
+| `oshamachineguarding` | Machine Guarding – Overview | U.S. Department of Labor | [链接](https://www.osha.gov/machine-guarding) |
+| `oshalockout` | Control of Hazardous Energy (Lockout/Tagout) – Overview | U.S. Department of Labor | [链接](https://www.osha.gov/control-hazardous-energy) |
+| `cmu2025machineshop` | Machine Shop Safety – Guideline | Carnegie Mellon University 2025 | [链接](https://www.cmu.edu/ehs/Workplace-Construction/documents/machine-shop-safety-policy.pdf) |
+| `csb2011texastech` | Texas Tech University Laboratory Explosion: Case Study | 网页 2011 | [链接](https://www.csb.gov/assets/1/20/CSB_Study_TTU_.pdf) |
+| `bligaard2016benchmarking` | Toward Benchmarking in Catalysis Science: Best Practices, Challenges, and Opportunities | ACS Catalysis 2016 | [链接](https://doi.org/10.1021/acscatal.6b00183) |
+| `zimmermann2020tea` | Techno-Economic Assessment Guidelines for CO2 Utilization | Frontiers in Energy Research 2020 | [链接](https://www.frontiersin.org/articles/10.3389/fenrg.2020.00005/full) |
+| `muller2020lca` | A Guideline for Life Cycle Assessment of Carbon Capture and Utilization | Frontiers in Energy Research 2020 | [链接](https://www.frontiersin.org/articles/10.3389/fenrg.2020.00015/full) |
+| `aichecodeethics` | Code of Ethics | AIChE 网页 | [链接](https://www.aiche.org/about/governance/policies/code-ethics) |
+| `acsiecrauthorguide` | Industrial & Engineering Chemistry Research: Author Guidelines | ACS Researcher Resources | [链接](https://researcher-resources.acs.org/publish/author_guidelines?coden=iecred) |
+| `faria2018minimum` | Minimum information reporting in bio–nano experimental literature | Nature Nanotechnology 2018 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC6150419/) |
+| `niosh2009approaches` | Approaches to Safe Nanotechnology: Managing the Health and Safety Concerns Associated with Engineered Nanomaterials | U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health 2009 | [链接](http://web.archive.org/web/20260726080036/https://www.cdc.gov/niosh/docs/2009-125/pdfs/2009-125.pdf) |
+| `naturematerials2015checklist` | A checklist for photovoltaic research | 网页 2015 | [链接](https://www.nature.com/articles/nmat4473) |
+| `naturesolarcellsreporting` | Solar Cells Reporting Summary | Nature Portfolio 网页 | [链接](https://www.nature.com/documents/nr-photovoltaic-reporting-flat.pdf) |
+| `naturereportingstandards` | Reporting standards and availability of data, materials, code and protocols | Nature Portfolio editorial policies | [链接](https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards) |
+| `wilkinson2016fair` | The FAIR Guiding Principles for scientific data management and stewardship | Scientific Data 2016 | [链接](https://www.nature.com/articles/sdata201618) |
+| `jacobsson2022open` | An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles | Nature Energy 2022 | [链接](https://www.nature.com/articles/s41560-021-00941-3) |
+| `draxl2018nomad` | NOMAD: The FAIR Concept for Big Data-Driven Materials Science | arXiv:1805.05039 2018 | [链接](https://arxiv.org/abs/1805.05039) |
+| `lejaeghere2016reproducibility` | Reproducibility in density functional theory calculations of solids | Science 2016 | [链接](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=919278) |
+| `mulhopt2018characterization` | Characterization of Nanoparticle Batch-To-Batch Variability | Nanomaterials 2018 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC5977325/) |
+| `lblfoundryuser` | User Program Overview | Molecular Foundry 网页 | [链接](https://foundry.lbl.gov/become-a-foundry-user/) |
+| `fda2023cmscredibility` | Assessing the Credibility of Computational Modeling and Simulation in Medical Device Submissions: Guidance for Industry and Food and Drug Administration Staff | U.S. Food and Drug Administration, Center for Devices and Radiological Health 2023 | [链接](https://web.archive.org/web/20260513124224/https://www.fda.gov/media/154985/download) |
+| `fda1997designcontrol` | Design Control Guidance for Medical Device Manufacturers | U.S. Food and Drug Administration, Center for Devices and Radiological Health 1997 | [链接](https://web.archive.org/web/20251214094548/https://www.fda.gov/media/116573/download) |
+| `cfr2023designcontrols` | 21 CFR 820.30 – Design Controls | Code of Federal Regulations, Title 21, Volume 8, revised as of April 1, 2023 (govinfo.gov) 2023 | [链接](https://www.govinfo.gov/content/pkg/CFR-2023-title21-vol8/pdf/CFR-2023-title21-vol8-sec820-30.pdf) |
+| `cfr2026qmsr` | 21 CFR Part 820 – Quality Management System Regulation | Electronic Code of Federal Regulations (eCFR) 2026 | [链接](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820) |
+| `aabb2026qmsr` | FDA Implements Quality Management System Regulation for Medical Devices | AABB News 2026 | [链接](https://aabb.org/news-resources/news/article/2026/02/04/fda-implements-quality-management-system-regulation-for-medical-devices) |
+| `cfr2026ide` | 21 CFR Part 812 – Investigational Device Exemptions | Electronic Code of Federal Regulations (eCFR) 2026 | [链接](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-812) |
+| `bmes2021ethics` | BMES Code of Ethics | Biomedical Engineering Society 网页 2021 | [链接](https://www.bmes.org/hubfs/Files/BMES_Code_of_Ethics_2021_-_Revised_October_2021.pdf) |
+| `embstbmeprepare` | Prepare and Submit Manuscript – IEEE Transactions on Biomedical Engineering | EMBS 网页 2025 | [链接](https://web.archive.org/web/20250115120531/https://www.embs.org/tbme/for-authors/prepare-and-submit-manuscript/) |
+| `collins2024tripodai` | TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods | BMJ 2024 | [链接](https://doi.org/10.1136/bmj-2023-078378) |
+| `epa2006dqo` | Guidance on Systematic Planning Using the Data Quality Objectives Process (EPA QA/G-4) | U.S. Environmental Protection Agency, Office of Environmental Information 2006 | [链接](https://www.epa.gov/sites/default/files/2015-06/documents/g4-final.pdf) |
+| `epa2002qapp` | Guidance for Quality Assurance Project Plans (EPA QA/G-5) | U.S. Environmental Protection Agency, Office of Environmental Information 2002 | [链接](https://www.epa.gov/sites/default/files/2015-06/documents/g5-final.pdf) |
+| `epa2016mdl` | Definition and Procedure for the Determination of the Method Detection Limit, Revision 2 | U.S. Environmental Protection Agency, Office of Water 2016 | [链接](https://www.epa.gov/sites/default/files/2016-12/documents/mdl-procedure_rev2_12-13-2016.pdf) |
+| `helsel2020statistical` | Statistical Methods in Water Resources | U.S. Geological Survey 2020 | [链接](https://pubs.usgs.gov/tm/04/a03/tm4a3.pdf) |
+| `epa2006lca` | Life Cycle Assessment: Principles and Practice | U.S. Environmental Protection Agency, National Risk Management Research Laboratory 2006 | [链接](https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P1000L86.PDF) |
+| `estauthorguidelines` | Environmental Science & Technology: Author Guidelines | ACS Researcher Resources 网页 | [链接](https://researcher-resources.acs.org/publish/author_guidelines?coden=esthag) |
+| `roy2019citizen` | Citizen Science During the Flint, Michigan Federal Water Emergency: Ethical Dilemmas and Lessons Learned | Citizen Science: Theory and Practice 2019 | [链接](https://doi.org/10.5334/cstp.154) |
+| `epa2024environmentaljustice` | Environmental Justice | EPA 网页 2024 | [链接](http://web.archive.org/web/20240531090447/https://www.epa.gov/environmentaljustice) |
+| `cdc2020bmbl` | Biosafety in Microbiological and Biomedical Laboratories | U.S. Department of Health and Human Services 2020 | [链接](https://www.cdc.gov/labs/pdf/SF__19_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf) |
+| `nih2024guidelines` | NIH Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid Molecules | National Institutes of Health, Office of Science Policy 2024 | [链接](https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf) |
+| `who2022responsible` | Global Guidance Framework for the Responsible Use of the Life Sciences: Mitigating Biorisks and Governing Dual-Use Research | 网页 2022 | [链接](https://iris.who.int/bitstream/handle/10665/362313/9789240056107-eng.pdf) |
+| `cbd2000cartagena` | Cartagena Protocol on Biosafety to the Convention on Biological Diversity: Text and Annexes | 网页 2000 | [链接](https://www.cbd.int/doc/legal/cartagena-protocol-en.pdf) |
+| `bustin2009miqe` | The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments | Clinical Chemistry 2009 | [链接](https://doi.org/10.1373/clinchem.2008.112797) |
+| `bustin2025miqe` | MIQE 2.0 and the Urgent Need to Rethink qPCR Standards | International Journal of Molecular Sciences 2025 | [链接](https://doi.org/10.3390/ijms26114975) |
+| `beal2016reproducibility` | Reproducibility of Fluorescent Expression from Engineered Biological Constructs in E. coli | PLoS ONE 2016 | [链接](https://doi.org/10.1371/journal.pone.0150182) |
+| `crater2018scaleup` | Scale-up of Industrial Microbial Processes | FEMS Microbiology Letters 2018 | [链接](https://doi.org/10.1093/femsle/fny138) |
+| `mclaughlin2020sbol3` | The Synthetic Biology Open Language (SBOL) Version 3: Simplified Data Exchange for Bioengineering | Frontiers in Bioengineering and Biotechnology 2020 | [链接](https://doi.org/10.3389/fbioe.2020.01009) |
+| `crs2025gainoffunction` | Recent Executive Actions Related to Gain-of-Function Research and Laboratory Biosafety | 网页 2025 | [链接](https://www.everycrsreport.com/reports/IN12554.html) |
+| `casrai2026highrisk` | USG Policy for Stopping High-Risk Life Sciences Research: What Changes for Institutions | CASRAI news 2026 | [链接](https://casrai.org/news/usg-policy-stopping-high-risk-life-sciences-research-institutions-2026) |
+| `landis2012call` | A call for transparent reporting to optimize the predictive value of preclinical research | Nature 2012 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC3511845/) |
+| `uhlen2016proposal` | A proposal for validation of antibodies | Nature Methods 2016 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC10335836/) |
+| `curtis2018experimental` | Experimental design and analysis and their reporting II: updated and simplified guidance for authors and peer reviewers | British Journal of Pharmacology 2018 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC5843711/) |
+| `mak2014lost` | Lost in translation: animal models and clinical trials in cancer treatment | American Journal of Translational Research 2014 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC3902221/) |
+| `oecd1998glp` | OECD Principles on Good Laboratory Practice (as revised in 1997) | Organisation for Economic Co-operation and Development, Environment Directorate 1998 | [链接](https://one.oecd.org/document/env/mc/chem(98)17/en/pdf) |
+| `wma2016taipei` | WMA Declaration of Taipei on Ethical Considerations regarding Health Databases and Biobanks | Adopted October 2002, revised by the 67th WMA General Assembly, Taipei, October 2016 2016 | [链接](https://www.wma.net/policies-post/wma-declaration-of-taipei-on-ethical-considerations-regarding-health-databases-and-biobanks/) |
+| `benchimol2015record` | The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement | PLOS Medicine 2015 | [链接](https://doi.org/10.1371/journal.pmed.1001885) |
+| `hernan2018cword` | The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data | American Journal of Public Health 2018 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC5888052/) |
+| `cioms2016ethical` | International Ethical Guidelines for Health-related Research Involving Humans | Council for International Organizations of Medical Sciences (CIOMS) 2016 | [链接](https://cioms.ch/wp-content/uploads/2017/01/WEB-CIOMS-EthicalGuidelines.pdf) |
+| `higgins2024cochrane` | Cochrane Handbook for Systematic Reviews of Interventions | Cochrane 2024 | [链接](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current) |
+| `mays2000assessing` | Qualitative research in health care: Assessing quality in qualitative research | BMJ 2000 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC1117321/) |
+| `equatorcoreq` | Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups (Library entry) | 网页 2023 | [链接](https://www.equator-network.org/reporting-guidelines/coreq/) |
+| `medrxivabout` | About medRxiv | 网页 | [链接](https://www.medrxiv.org/content/about-medrxiv) |
+| `casler2015fundamentals` | Fundamentals of Experimental Design: Guidelines for Designing Successful Experiments | Agronomy Journal 2015 | [链接](https://doi.org/10.2134/agronj2013.0114) |
+| `papoutsoglou2020enabling` | Enabling reusability of plant phenomic datasets with MIAPPE 1.1 | New Phytologist 2020 | [链接](https://doi.org/10.1111/nph.16544) |
+| `cgiar2021fair` | CGIAR Open and FAIR Data Assets Policy | Approved by the System Management Board, effective 16 April 2021 2021 | [链接](https://cgspace.cgiar.org/server/api/core/bitstreams/3c39bf16-b35d-4faa-b509-b29d045a9144/content) |
+| `rothamstedlte` | The Long Term Experiments | 网页 | [链接](https://www.rothamsted.ac.uk/long-term-experiments) |
+| `sciencesocietieseditorial` | Editorial Policies | Web page, last updated June 30, 2026 | [链接](https://www.sciencesocieties.org/publications/journals/author-resources/editorial-policies) |
+| `asa2024style` | Publications Handbook and Style Manual | ASA, CSSA, SSSA 2024 | [链接](https://www.agronomy.org/files/publications/style/style-manual.pdf) |
+| `kyveryga2019onfarm` | On-Farm Research: Experimental Approaches, Analytical Frameworks, Case Studies, and Impact | Agronomy Journal 2019 | [链接](https://doi.org/10.2134/agronj2019.11.0001) |
+| `kool2020reproducibility` | Reproducibility and external validity of on-farm experimental research in Africa | Experimental Agriculture 2020 | [链接](https://doi.org/10.1017/S0014479720000174) |
+| `davies2015pseudoreplication` | Don't let spurious accusations of pseudoreplication limit our ability to learn from natural experiments (and other messy kinds of ecological monitoring) | Ecology and Evolution 2015 | [链接](https://doi.org/10.1002/ece3.1782) |
+| `afs2014fishes` | Guidelines for the Use of Fishes in Research | American Fisheries Society 2014 | [链接](https://fisheries.org/policy-media/science-guidelines/guidelines-for-the-use-of-fishes-in-research/) |
+| `fass2020agguide` | Guide for the Care and Use of Agricultural Animals in Research and Teaching | American Dairy Science Association, American Society of Animal Science, and Poultry Science Association 2020 | [链接](https://www.asas.org/docs/default-source/default-document-library/agguide_4th.pdf) |
+| `oconnor2010reflect` | The REFLECT statement: Methods and processes of creating reporting guidelines for randomized controlled trials for livestock and food safety | Journal of Swine Health and Production 2010 | [链接](https://www.aasv.org/shap/issues/v18n1/v18n1p18.pdf) |
+| `sargeant2016strobevet` | Methods and Processes of Developing the Strengthening the Reporting of Observational Studies in Epidemiology – Veterinary (STROBE-Vet) Statement | Journal of Veterinary Internal Medicine 2016 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC5115188/) |
+| `page2016conduct` | Conduct, Oversight, and Ethical Considerations of Clinical Trials in Companion Animals with Cancer: Report of a Workshop on Best Practice Recommendations | Journal of Veterinary Internal Medicine 2016 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC4913608/) |
+| `bertout2021recommendations` | Recommendations for Ethical Review of Veterinary Clinical Trials | Frontiers in Veterinary Science 2021 | [链接](https://doi.org/10.3389/fvets.2021.715926) |
+| `who2026onehealth` | One Health | Fact sheet 2026 | [链接](https://www.who.int/news-room/fact-sheets/detail/one-health) |
+| `bera2024ethical` | Ethical Guidelines for Educational Research | 网页 2024 | [链接](https://www.bera.ac.uk/publication/ethical-guidelines-for-educational-research-fifth-edition-2024) |
+| `aera2011code` | Code of Ethics | Approved by the AERA Council, February 2011 2011 | [链接](https://www.aera.net/Portals/38/docs/About_AERA/CodeOfEthics(1).pdf) |
+| `aera2006standards` | Standards for Reporting on Empirical Social Science Research in AERA Publications | Educational Researcher 2006 | [链接](https://www.aera.net/Portals/38/docs/12ERv35n6_Standard4Report%20.pdf) |
+| `wwc2022handbook` | What Works Clearinghouse Procedures and Standards Handbook, Version 5.0 | U.S. Department of Education, Institute of Education Sciences, National Center for Education Evaluation and Regional Assistance 2022 | [链接](https://ies.ed.gov/ncee/wwc/Docs/referenceresources/Final_WWC-HandbookVer5_0-0-508.pdf) |
+| `kraft2019interpreting` | Interpreting Effect Sizes of Education Interventions | Annenberg Institute at Brown University 2019 | [链接](https://edworkingpapers.com/ai19-10) |
+| `makel2014facts` | Facts Are More Important Than Novelty: Replication in the Education Sciences | Educational Researcher 2014 | [链接](https://www.aera.net/Newsroom/Recent-AERA-Research/Facts-Are-More-Important-Than-Novelty-Replication-in-the-Education-Sciences) |
+| `eef2022recruitment` | Guidance on Recruitment and Retention | 网页 2022 | [链接](https://educationendowmentfoundation.org.uk/public/files/Recruitment_and_retention_guidance_FINAL..pdf) |
+| `ies2013common` | Common Guidelines for Education Research and Development | U.S. Department of Education and National Science Foundation 2013 | [链接](https://ies.ed.gov/pdf/commonguidelines.pdf) |
+| `anderson2012design` | Design-Based Research: A Decade of Progress in Education Research? | Educational Researcher 2012 | [链接](https://auspace.athabascau.ca/handle/2149/3184) |
+| `ies2018rees` | Celebrating the Launch of the Registry of Efficacy and Effectiveness Studies (REES) | IES blog 2018 | [链接](https://ies.ed.gov/learn/blog/celebrating-launch-registry-efficacy-and-effectiveness-studies-rees) |
+| `edworkingpapersabout` | About EdWorkingPapers | 网页 2026 | [链接](https://edworkingpapers.com/about) |
+| `asa2018code` | Code of Ethics | American Sociological Association, Washington, DC 2018 | [链接](https://www.asanet.org/wp-content/uploads/asa_code_of_ethics-june2018.pdf) |
+| `bsa2017statement` | Statement of Ethical Practice | BSA Publications, Durham 2017 | [链接](https://www.britsoc.co.uk/media/24310/bsa_statement_of_ethical_practice.pdf) |
+| `freese2017replication` | Replication in Social Science | Annual Review of Sociology 2017 | [链接](https://osf.io/preprints/socarxiv/5bck9) |
+| `jerolmack2024ethnography` | Editorial: Ethnography in the Open Science and Digital Age: New Debates, Dilemmas, and Issues | Frontiers in Sociology 2024 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC10978767/) |
+| `icpsrdata` | About ICPSR; Deposit Data; Citing Data; Data Confidentiality | ICPSR, University of Michigan, web pages 2025 | [链接](https://www.icpsr.umich.edu/web/pages/about/) |
+| `sociologicalsciencepolicy` | Sociological Science: Editorial and Review Process; Reproducibility Policy; Journal Information | Journal 网页 2026 | [链接](https://sociologicalscience.com/for-authors/editorial-and-review-process/) |
+| `asrsubmission` | Submission Guidelines | Sage Publications 2026 | [链接](https://journals.sagepub.com/author-instructions/ASR) |
+| `wesleyan2015sociology` | Expectations for Promotion to Associate Professor Conferring Tenure | Wesleyan University Office of Academic Affairs 2015 | [链接](https://www.wesleyan.edu/acaf/Tenure-and-Promotion-Expectations/SOC_2015.pdf) |
+| `epstein2002rules` | The Rules of Inference | University of Chicago Law Review 2002 | [链接](https://gking.harvard.edu/files/gking/files/rules.pdf) |
+| `hutchinson2012defining` | Defining and Describing What We Do: Doctrinal Legal Research | Deakin Law Review 2012 | [链接](https://ojs.deakin.edu.au/index.php/dlr/article/view/70) |
+| `goudkamp2026oscola` | OSCOLA: The Oxford University Standard for Citation of Legal Authorities | Hart Publishing 2026 | [链接](https://www.law.ox.ac.uk/oscola) |
+| `yljsubmissions` | Submissions; Data Retention Policy for Authors | Web page and PDF | [链接](https://www.yalelawjournal.org/submissions) |
+| `uclrsubmissions` | Submissions | 网页 | [链接](https://lawreview.uchicago.edu/submissions) |
+| `lwipublishingtips` | Publishing Tips | PDF | [链接](https://www.lwionline.org/sites/default/files/Publishing-Tips.pdf) |
+| `ssrnlsn` | Legal Scholarship Network | 网页 | [链接](https://www.ssrn.com/index.cfm/en/lsn/) |
+| `northwesterngoodlaw` | Researching Case Law: Determining Whether Cases Are Still Good Law | Research guide | [链接](https://library.law.northwestern.edu/cases/updating) |
+| `legislationgovukhelp` | Help: Guide to Revised Legislation on legislation.gov.uk | 网页 | [链接](https://www.legislation.gov.uk/help) |
+| `slsa2021ethics` | Statement of Principles of Ethical Research Practice | PDF 2021 | [链接](https://slsa.ac.uk/images/slsadownloads/SLSA_Board_2021/SLSA_Ethics_Statement_-_September_2021.pdf) |
+| `apsa2012ethics` | A Guide to Professional Ethics in Political Science | American Political Science Association 2012 | [链接](https://www.apsanet.org/Portals/54/APSA%20Files/publications/ethicsguideweb.pdf) |
+| `apsa2020humansubjects` | Principles and Guidance for Human Subjects Research | 网页 2020 | [链接](https://www.apsanet.org/Portals/54/diversity%20and%20inclusion%20prgms/Ethics/Final_Principles%20with%20Guidance%20with%20intro.pdf) |
+| `dart2014jets` | Data Access and Research Transparency (DA-RT): A Joint Statement by Political Science Journal Editors (Journal Editors' Transparency Statement, JETS) | 网页 2014 | [链接](https://www.dartstatement.org/2014-journal-editors-statement-jets) |
+| `ajps2026verification` | AJPS Verification Policy | 网页 2026 | [链接](https://ajps.org/ajps-verification-policy/) |
+| `jacobs2021qualitative` | The Qualitative Transparency Deliberations: Insights and Implications | Perspectives on Politics 2021 | [链接](https://eprints.whiterose.ac.uk/id/eprint/158221/) |
+| `ofosu2023preanalysis` | Pre-Analysis Plans: An Early Stocktaking | Perspectives on Politics 2023 | [链接](https://researchonline.lse.ac.uk/id/eprint/112747/) |
+| `eubank2016lessons` | Lessons from a Decade of Replications at the Quarterly Journal of Political Science | PS: Political Science & Politics 2016 | [链接](https://dukespace.lib.duke.edu/items/319e52d7-0932-4d21-89bb-85df233fbcbd) |
+| `mcdermott2020ethics` | Ethics in Field Experimentation: A Call to Establish New Standards to Protect the Public from Unwanted Manipulation and Real Harms | Proceedings of the National Academy of Sciences 2020 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC7720186/) |
+| `egappreanalysis` | 10 Things to Know About Pre-Analysis Plans | Evidence in Governance and Politics (EGAP) | [链接](https://methods.egap.org/guides/planning/pap_en.html) |
+| `egapsurveyexperiments` | 10 Things to Know About Survey Experiments | Evidence in Governance and Politics (EGAP) | [链接](https://methods.egap.org/guides/data-collection/survey-experiments_en.html) |
+| `aag2024ethics` | Statement of Professional Ethics | 网页 2024 | [链接](https://aag.org/statement-of-professional-ethics) |
+| `rgsgrantscode` | Code of Practice for the Grants Programme | 网页 | [链接](https://www.rgs.org/in-the-field/grants/guidance-for-society-grant-applicants/code-of-practice-for-the-grants-programme) |
+| `rgssaferesearch` | Safe, Responsible and Ethical Research | 网页 | [链接](https://www.rgs.org/exploration/grants/guidance-for-society-grant-applicants/safe-responsible-and-ethical-research/) |
+| `kedron2021reproducibility` | Reproducibility and Replicability: Opportunities and Challenges for Geospatial Research | International Journal of Geographical Information Science 2021 | [链接](https://par.nsf.gov/servlets/purl/10292882) |
+| `kwan2012uncertain` | The Uncertain Geographic Context Problem | Annals of the Association of American Geographers 2012 | [链接](http://meipokwan.org/Paper/Kwan_UGCoP_2012.pdf) |
+| `kwan2018limits` | The Limits of the Neighborhood Effect: Contextual Uncertainties in Geographic, Environmental Health, and Social Science Research | Annals of the American Association of Geographers 2018 | [链接](http://meipokwan.org/Paper/Kwan_2018_AAAG.pdf) |
+| `malekzadeh2026ethical` | Ethical Guidelines for Geoprivacy: A Framework for Researchers and Ethics Committees | International Journal of Health Geographics 2026 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC13092162/) |
+| `nust2018reproducible` | Reproducible Research and GIScience: An Evaluation Using AGILE Conference Papers | PeerJ 2018 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC6047504/) |
+| `karhulahti2024positionality` | Positionality Statements in Science | Open Research Europe 2024 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC11200055/) |
+| `franzke2020internet` | Internet Research: Ethical Guidelines 3.0 | Association of Internet Researchers 2020 | [链接](https://aoir.org/reports/ethics3.pdf) |
+| `lombard2010practical` | Practical Resources for Assessing and Reporting Intercoder Reliability in Content Analysis Research Projects | Online resource, last updated June 1, 2010 2010 | [链接](http://matthewlombard.com/reliability/) |
+| `dienlin2021agenda` | An Agenda for Open Science in Communication | Journal of Communication 2021 | [链接](https://doi.org/10.1093/joc/jqz052) |
+| `ica2019ethics` | ICA Code of Ethics | Adopted May 2019 2019 | [链接](https://cdn.ymaws.com/www.icahdq.org/resource/resmgr/governance_documents/ica.code.of.ethics.may2019.pdf) |
+| `ica2026conference` | 76th Annual ICA Conference: Conference Submission Guidelines and Conference Submission Types | Web pages, accessed via Internet Archive snapshots of 2025-09-05 and 2025-10-02 2025 | [链接](https://www.icahdq.org/page/conf-submission-guidelines) |
+| `icaopenscholarship` | Open Scholarship | Web page, accessed via Internet Archive snapshot of 2025-09-18 2025 | [链接](https://www.icahdq.org/page/OpenScholarship) |
+| `icajournalsfaq` | Journals Frequently Asked Questions | Web page, accessed via Internet Archive snapshot of 2025-09-12 2025 | [链接](https://www.icahdq.org/page/JournalsFAQ) |
+| `freelon2018computational` | Computational Research in the Post-API Age | Political Communication 2018 | [链接](https://doi.org/10.1080/10584609.2018.1477506) |
+| `eu2022dsa` | Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market for Digital Services and amending Directive 2000/31/EC (Digital Services Act) | Official Journal of the European Union, L 277, 27 October 2022, p. 1 2022 | [链接](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065) |
+| `lsa2019ethics` | LSA Ethics Statement | 网页 2019 | [链接](https://www.lsadc.org/lsa_ethics_statement) |
+| `lsa1992humansubjects` | Human Subjects in Linguistic Research | 网页 1992 | [链接](https://www.lsadc.org/human_subjects_in_linguistic_research) |
+| `lsa2010documentation` | Resolution Recognizing the Scholarly Merit of Language Documentation | 网页 2010 | [链接](https://lsa.membershipsoftware.org//Files/Advocacy/201001_Resolution_Scholarly_Merit_Lang_Documentation.pdf) |
+| `berezkroeker2018reproducible` | Reproducible research in linguistics: A position statement on data citation and attribution in our field | Linguistics 2018 | [链接](https://doi.org/10.1515/ling-2017-0032) |
+| `berezkroeker2018austin` | The Austin Principles of Data Citation in Linguistics | 网页 2018 | [链接](https://site.uit.no/linguisticsdatacitation/austinprinciples/) |
+| `roettger2019researcher` | Researcher degrees of freedom in phonetic research | Laboratory Phonology: Journal of the Association for Laboratory Phonology 2019 | [链接](https://doi.org/10.5334/labphon.147) |
+| `mla2007evaluating` | Report of the MLA Task Force on Evaluating Scholarship for Tenure and Promotion | Profession 2007 | [链接](https://www.mla.org/content/download/3362/file/taskforcereport0608.pdf) |
+| `mla2012digital` | Guidelines for Evaluating Work in Digital Humanities and Digital Media | 网页 2012 | [链接](https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/Committee-on-Information-Technology/Guidelines-for-Evaluating-Work-in-Digital-Humanities-and-Digital-Media) |
+| `mlastylecenter` | MLA Style Center: In-Text Citations: An Overview; Plagiarism and Academic Dishonesty; Works Cited: A Quick Guide | 网页 | [链接](https://style.mla.org/in-text-citations-overview/) |
+| `mlacseguidelines` | Guidelines for Editors of Scholarly Editions | 网页 | [链接](https://www.mla.org/Resources/Guidelines-and-Data/Reports-and-Professional-Guidelines/Guidelines-for-Editors-of-Scholarly-Editions) |
+| `uncwritinglit` | Literature (Fiction) | 网页 | [链接](https://writingcenter.unc.edu/tips-and-tools/literature/) |
+| `yorkclosereading` | Close reading | 网页 | [链接](https://www.york.ac.uk/english/about/writing-at-york/writing-resources/close-reading/) |
+| `pryor2012writing` | Guidelines on Writing a Philosophy Paper | 网页 2012 | [链接](https://www.jimpryor.net/teaching/guidelines/writing.html) |
+| `pryor2006reading` | Guidelines on Reading Philosophy | 网页 2006 | [链接](https://www.jimpryor.net/teaching/guidelines/reading.html) |
+| `apaphil2022journal` | Statement on Best Practices in Journal Publishing | 网页 2022 | [链接](https://www.apaonline.org/page/journalpractices) |
+| `apaphil1996research` | Statement on Research | Proceedings and Addresses of the American Philosophical Association 1996 | [链接](https://www.apaonline.org/page/research) |
+| `apaphil2016conduct` | Code of Conduct | 网页 2016 | [链接](https://www.apaonline.org/page/codeofconduct) |
+| `andrews2024journal` | Insights from the American Philosophical Association's Journal Surveys Project | 网页 2024 | [链接](https://blog.apaonline.org/2024/06/07/insights-from-the-american-philosophical-associations-journal-surveys-project/) |
+| `jhp2025statistics` | Submissions Statistics | 网页 2025 | [链接](https://jhp.wisc.edu/submissions.html) |
+| `chang2023prolific` | Prolific philosophy authors' preferences regarding scientific collaboration, journal levels, and author role | iConference 2023 Proceedings 2023 | [链接](https://hdl.handle.net/2142/117350) |
+| `sytsma2026experimental` | Experimental Philosophy | The Stanford Encyclopedia of Philosophy 2026 | [链接](https://plato.stanford.edu/entries/experimental-philosophy/) |
+| `knight2023reflective` | Reflective Equilibrium | The Stanford Encyclopedia of Philosophy 2023 | [链接](https://plato.stanford.edu/entries/reflective-equilibrium/) |
+| `brown2023thought` | Thought Experiments | The Stanford Encyclopedia of Philosophy 2023 | [链接](https://plato.stanford.edu/entries/thought-experiment/) |
+| `wood2021philosophy` | Philosophy and Christian Theology | The Stanford Encyclopedia of Philosophy 2021 | [链接](https://plato.stanford.edu/entries/christiantheology-philosophy/) |
+| `aar2019literacy` | AAR Religious Literacy Guidelines: What U.S. College Graduates Need to Understand about Religion | 网页 2019 | [链接](https://aarweb.org/resource/aar-religious-literacy-guidelines/) |
+| `candy2006practice` | Practice Based Research: A Guide | Creativity & Cognition Studios, University of Technology, Sydney 2006 | [链接](https://www.creativityandcognition.com/resources/PBR%20Guide-1.1-2006.pdf) |
+| `aec2020vienna` | The Vienna Declaration on Artistic Research | Policy paper 2020 | [链接](https://aec-music.eu/media/2021/05/viennadeclarationonarfinalversion24june20_20201216163421.pdf) |
+| `bulley2021practice` | Practice Research – Report 1: What is practice research? and Report 2: How can practice research be shared? | Practice Research Advisory Group UK (PRAG-UK) 2021 | [链接](https://doi.org/10.23636/1347) |
+| `ref2019guidance` | Guidance on submissions (REF 2019/01) | Research England, Scottish Funding Council, Higher Education Funding Council for Wales, Department for the Economy Northern Ireland 2019 | [链接](https://2021.ref.ac.uk/media/1447/ref-2019_01-guidance-on-submissions.pdf) |
+| `ref2019panel` | Panel criteria and working methods (REF 2019/02) | Research England, Scottish Funding Council, Higher Education Funding Council for Wales, Department for the Economy Northern Ireland 2019 | [链接](https://2021.ref.ac.uk/media/1450/ref-2019_02-panel-criteria-and-working-methods.pdf) |
+| `caa2015fairuse` | Code of Best Practices in Fair Use for the Visual Arts | 网页 2015 | [链接](https://www.collegeart.org/pdf/fair-use/best-practices-fair-use-visual-arts.pdf) |
+| `caa2014standards` | Standards for the Practice of Art History | 网页 2014 | [链接](https://www.collegeart.org/standards-and-guidelines/guidelines/art-history-ethics) |
+| `sem1998ethics` | Position Statement on Ethical Considerations | 网页 1998 | [链接](https://www.ethnomusicology.org/page/EthicsStatement) |
+| `sem2008irb` | Position Statement on Ethnographic Research & Institutional Review Boards | 网页 2008 | [链接](https://www.ethnomusicology.org/page/PS_IRB) |
 
 ## 待获取
 

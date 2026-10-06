@@ -62,3 +62,39 @@
 - 位置：第 2 章 §2.2，第 2.11 段（第 45 页）
 - 原文："The order in which the three types of R&D activity appear is not meant to suggest that basic research leads to applied research and then to experimental development."
 - 要点：三类研究不是先后顺序或高低等级，它们之间知识双向流动。
+
+### E11
+
+- 位置：第 2 章 §2.6，第 2.64 段
+- 原文："it can be useful to make a distinction between research for the arts, research on the arts and artistic expression."
+- 要点：区分三件事：为艺术的研究、关于艺术的研究、艺术表达本身。
+
+### E12
+
+- 位置：第 2 章 §2.6，第 2.66 段
+- 原文："Basic or applied research contributes to most of the studies of the arts (musicology, art history, theatre studies, media studies, literature, etc.)."
+- 要点：音乐学、艺术史、戏剧研究等"关于艺术的研究"大多属于基础研究或应用研究。
+
+### E13
+
+- 位置：第 2 章 §2.6，第 2.67 段
+- 原文："Artistic performance is normally excluded from R&D. Artistic performances fail the novelty test of R&D as they are looking for a new expression, rather than for new knowledge."
+- 要点：艺术表演通常不算研发：它追求新的表达，而不是新知识，通不过"新颖性"检验。
+
+### E14
+
+- 位置：第 2 章 §2.6，第 2.67 段
+- 原文："Higher education institutions have, nevertheless, to be evaluated on a caseby-case basis if they grant a doctoral degree to an artist as a result of artistic performances."
+- 要点：但高校如果凭艺术表演授予艺术家博士学位，要逐案判断。
+
+### E15
+
+- 位置：第 2 章，第 2.17 段
+- 原文："One area requiring care in assessment is the arts (Section 2.6): there is creativity, but the other criteria have to be confirmed for the activity to qualify as R&D."
+- 要点：艺术需要小心判断：有创造性，但其他标准也要满足才算研发。
+
+### E16
+
+- 位置：第 2 章导言
+- 原文："five criteria are provided which require the activity to be novel, creative, uncertain in it outcome, systematic and transferable and/or reproducible."
+- 要点：判断研发的五条标准：新颖、有创造性、结果不确定、系统、可转移和/或可复现。

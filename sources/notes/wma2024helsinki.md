@@ -62,3 +62,21 @@
 - 位置：Research Registration, Publication, and Dissemination of Results
 - 原文："Negative and inconclusive as well as positive results must be published or otherwise made publicly available. Sources of funding, institutional affiliations, and conflicts of interest must be declared in the publication."
 - 要点：阴性、不确定的结果和阳性结果一样都要公开；论文中要声明资金来源、所属机构和利益冲突。
+
+### E11
+
+- 位置：Free and Informed Consent
+- 原文："Physicians or other qualified individuals must obtain free and informed consent from research participants for the collection, processing, storage, and foreseeable secondary use of biological material and identifiable or re-identifiable data."
+- 要点：采集、处理、保存生物材料和可识别（或可重新识别）的数据，以及可预见的二次使用，都要取得自愿的知情同意。
+
+### E12
+
+- 位置：Free and Informed Consent
+- 原文："A research ethics committee must approve the establishment and monitor ongoing use of such databases and biobanks."
+- 要点：建立这类数据库和生物样本库要经研究伦理委员会批准，后续使用也要受它监督。
+
+### E13
+
+- 位置：Free and Informed Consent
+- 原文："Where consent is impossible or impracticable to obtain, secondary research on stored data or biological material may be done only after consideration and approval of a research ethics committee."
+- 要点：无法或难以取得同意时，用已保存的数据或生物材料做二次研究，必须先经研究伦理委员会审查批准。
