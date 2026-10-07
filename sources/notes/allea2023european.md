@@ -110,3 +110,15 @@
 - 位置：Preamble
 - 原文："applies to research in all scientific and scholarly fields."
 - 要点：这份准则适用于所有学科的研究。
+
+### E19
+
+- 位置：§3.1，其他不可接受的做法
+- 原文："Hiding the use of AI or automated tools in the creation of content or drafting of publications."
+- 要点：把"在创作内容或起草论文时隐瞒使用人工智能或自动化工具"列为不可接受的做法。
+
+### E20
+
+- 位置：§2.7 Publication, Dissemination, and Authorship
+- 原文："authors are given credit for issuing corrections post-publication"
+- 要点：作者在发表后主动发更正，应当得到认可。

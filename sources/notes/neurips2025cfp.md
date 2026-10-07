@@ -62,3 +62,27 @@
 - 位置：Publication of Accepted Submissions
 - 原文："We strongly encourage accompanying code and data to be submitted with accepted papers when appropriate"
 - 要点：鼓励录用论文同时提交代码和数据。
+
+### E11
+
+- 位置：Author Responses
+- 原文："Authors may not submit revisions of their paper or supplemental material, but may post their responses as a discussion in OpenReview."
+- 要点：回复期内不能提交修改后的论文或补充材料，只能在审稿平台上以讨论的形式发回复。
+
+### E12
+
+- 位置：Author Responses
+- 原文："After the initial response period, authors will be able to respond to any further reviewer/AC questions and comments by posting on the submission's forum page."
+- 要点：初次回复期之后，作者还可以在论文的讨论页上回答审稿人和领域主席的追问。
+
+### E13
+
+- 位置：Author Responses
+- 原文："After the notification deadline, accepted and opted-in rejected papers will be made public and open for non-anonymous public commenting. Their anonymous reviews, meta-reviews, author responses and reviewer responses will also be made public."
+- 要点：结果公布后，录用的论文和自愿公开的被拒论文会公开，连同审稿意见、元审稿意见和作者回复。
+
+### E14
+
+- 位置：Dual Submissions
+- 原文："The NeurIPS policy on dual submissions applies for the entire duration of the reviewing process."
+- 要点：一稿多投的禁令在整个审稿过程中都有效。

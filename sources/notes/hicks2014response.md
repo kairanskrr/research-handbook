@@ -50,3 +50,15 @@
 - 位置：General themes for writing the response
 - 原文："Reference your own paper for answers to reviewer concerns."
 - 要点：如果答案论文里已经有，指出在论文哪里。
+
+### E9
+
+- 位置：What is author response?
+- 原文："Some forms of author response try to limit it to “factual inaccuracies.” [...] As such, author response processes I’m aware of now are more open, oftentimes having suggested rather than enforced limits, with fewer stated restrictions on what can be said."
+- 要点：有的作者回复只允许指出事实错误；作者所知的回复流程如今更开放，字数常是建议而非强制，限制也更少。
+
+### E10
+
+- 位置：The goal of your response
+- 原文："Indeed, if most of the reviewers are in favor of rejection, you have little hope."
+- 要点：如果大多数审稿人倾向拒稿，回复能起的作用很小。

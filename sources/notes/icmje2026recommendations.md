@@ -170,3 +170,33 @@
 - 位置：II.A.2 Who Is an Author?
 - 原文："The corresponding author is the one individual who takes primary responsibility for communication with the journal during the manuscript submission, peer-review, and publication process."
 - 要点：通讯作者是在投稿、审稿和发表过程中主要负责和期刊沟通的那个人。
+
+### E29
+
+- 位置：II.A.4 Artificial Intelligence (AI)–Assisted Technology
+- 原文："Chatbots (such as ChatGPT) should not be listed as authors because they cannot be responsible for the accuracy, integrity, and originality of the work, and these responsibilities are required for authorship"
+- 要点：聊天机器人不能列为作者，因为它不能对工作的准确、诚信和原创负责，而这些责任是署名的前提。
+
+### E30
+
+- 位置：II.A.4 Artificial Intelligence (AI)–Assisted Technology
+- 原文："For example, if AI was used for writing assistance, describe this in the acknowledgment section (see Section II.A.3). If AI was used for data collection, analysis, or figure generation, authors should describe this use in the methods"
+- 要点：用人工智能辅助写作，在致谢里说明；用于收集数据、分析或作图，在方法部分说明。
+
+### E31
+
+- 位置：II.A.4 Artificial Intelligence (AI)–Assisted Technology
+- 原文："Authors should carefully review and edit the result because AI can generate authoritative-sounding output that can be incorrect, incomplete, or biased."
+- 要点：人工智能的输出听起来很权威，却可能错误、不完整或有偏差，作者要仔细审查和修改。
+
+### E32
+
+- 位置：IV.A.3.d Methods
+- 原文："Authors who used AI technology to conduct the study should describe its use in the Methods section in sufficient detail to enable replication of the approach, including the tool used, version, and prompts where applicable."
+- 要点：用人工智能做研究的，在方法部分写清楚到别人能重复的程度，包括工具、版本，适用时还有提示词。
+
+### E33
+
+- 位置：V.A Use of AI by Authors
+- 原文："Nondisclosure of AI use may require corrective action and may be construed as misconduct in some circumstances"
+- 要点：不披露人工智能的使用，可能需要更正，某些情况下可能被认定为不端。

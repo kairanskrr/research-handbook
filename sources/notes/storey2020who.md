@@ -68,3 +68,27 @@
 - 位置：§6.4 Using Triangulation to Balance Benefits for Human and Technical Aspects
 - 原文："In sum, multiple research strategies should be used to support triangulation, not just to triangulate specific findings, but to further add to insights concerning software engineering problem contexts, possible solutions for those problems, and the evaluation of those solutions"
 - 要点：使用多种研究策略不仅是为了印证某个具体发现，也是为了加深对问题背景、可能的解决方案及其评估的理解。
+
+### E12
+
+- 位置：§3.3.1 Field Strategies
+- 原文："A field study is where the researcher observes (e.g., through an ethnography) study subjects without any explicit interventions in place. With a field study, realism is high but control over human activities is low, and generalizability is low as only a limited number of companies are typically considered." / "A field experiment may be more obtrusive than a field study, and thus will lower realism, but it has the potential for higher control over human participants’ activities."
+- 要点：现场研究：研究者不加干预地观察，真实性高，但对人的活动控制低，通常只涉及少数公司，推广性也低；现场实验更有侵入性，真实性降低，但对参与者活动的控制可能更高。
+
+### E13
+
+- 位置：§3.3.2 Lab Strategies
+- 原文："Control of human actor activities may be achieved but at the expense of realism (the setting is contrived), and it may be more difficult to achieve generalizable results." / "Doing so increases realism but at the expense of control over variables that may come into play in a simulated environment where human actors may have more freedom to act naturally."
+- 要点：实验室策略能控制人的活动，但代价是真实性（环境是人为布置的），也更难得到可推广的结果；模拟真实环境能提高真实性，代价是控制变弱。
+
+### E14
+
+- 位置：§3.3.3 Respondent Strategies
+- 原文："The ability to collect data from many participants using respondent strategies has the potential for higher generalizability (if a broad and large sample is recruited), but at the expense of lower realism as factors that may influence each individual participant’s responses cannot be observed or anticipated."
+- 要点：问卷、访谈这类受访者策略能从很多人那里收数据，样本广而大时推广性可能更高，代价是真实性较低：影响每个人回答的因素既看不到也预料不到。
+
+### E15
+
+- 位置：§3.3.4 Data Strategies
+- 原文："Data strategy papers have lower control over human behavioral variables but have the potential for higher precision of system data. They may have potential for higher realism (if the data was collected from field sites) and higher generalizability (if the project data is from many projects)."
+- 要点：数据策略对人的行为变量控制较低，但系统数据的精度可能更高；数据来自真实现场时真实性可能较高，来自很多项目时推广性可能较高。

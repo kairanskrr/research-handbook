@@ -74,3 +74,15 @@
 - 位置：Submission Policies and Instructions，Executive Summary
 - 原文："Artifacts must be made available during the reviewing process. If they cannot be made available during review or after publication, the Open Science appendix must explain the reasoning."
 - 要点：审稿期间就必须提供制品；做不到要在"开放科学"附录里说明原因。
+
+### E13
+
+- 位置：Simultaneous Submission and Plagiarism
+- 原文："This includes cases in which preliminary reviews from another venue indicate likely rejection but the paper is still considered under submission to said venue."
+- 要点：即使另一处的初审意见显示很可能被拒，只要论文在那里还算在审，再投这里也算一稿多投。
+
+### E14
+
+- 位置：Summary of main changes from previous editions
+- 原文："USENIX Security '26 will no longer feature major revisions; papers will at most undergo a two-week shepherding process."
+- 要点：该会议 2026 年起不再有“大修”结果，论文最多经过两周的指导修改。

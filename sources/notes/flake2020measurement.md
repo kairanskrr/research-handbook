@@ -92,3 +92,9 @@
 - 位置：Summary
 - 原文："even if we increase the sample size of our depression trials, adequately power our studies, pre-register our analytic strategies, and stop p-hacking — we can still be left wondering if we were ever measuring depression at all."
 - 要点：即使样本够大、功效够、做了预注册、不做 p-hacking，如果测量有问题，仍然不知道自己测的是不是抑郁。
+
+### E16
+
+- 位置：Questionable Measurement Practices 一节（作者引用 Shadish 等 2002 的四类效度）
+- 原文："describe four types of validity that contribute to the overall validity of a conclusion: internal validity, external validity, statistical conclusion validity, and construct validity" / "Internal validity captures the aspects of a study’s design that support causal claims about the relations between variables." / "External validity concerns the generalizability of findings across different populations and settings." / "Statistical conclusion validity captures whether conclusions from a statistical analysis are correct." / "construct validity encompasses how the constructs in the study are operationalized"
+- 要点：Shadish 等人把影响结论整体效度的分为四类：内部效度（支持变量间因果主张的设计）、外部效度（结果能否推广到不同人群和情境）、统计结论效度（统计分析得出的结论是否正确）、构念效度（研究中的概念怎样被变成可测的东西）。

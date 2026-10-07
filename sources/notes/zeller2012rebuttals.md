@@ -62,3 +62,27 @@
 - 位置：Organize your rebuttal.
 - 原文："Make it easy for reviewers to find their questions (and your arguments). Refer to reviewers by R1, R2, …; questions by R1Q1, R1Q2, …"
 - 要点：给审稿人和问题编号，方便各自找到自己的问题和你的回答。
+
+### E11
+
+- 位置：Identify the undecided.
+- 原文："These are reviewers who may be swayed by your arguments. [...] Focus your arguments on these reviewers."
+- 要点：还没拿定主意、可能被说动的审稿人，是回复要重点争取的对象。
+
+### E12
+
+- 位置：Identify the detractors.
+- 原文："A strong detractor can only be countered by a strong champion. Rather than trying to dissuade a strong detractor, your aim should be on arming the champion"
+- 要点：强烈反对的审稿人只能靠强有力的支持者来抗衡；与其劝反对者改主意，不如给支持者提供论据。
+
+### E13
+
+- 位置：Write for the PC chair.
+- 原文："If your reviewers have done a bad job, say so in the beginning, and the PC chair may assign you another reviewer. Stick to facts [...] that the PC chair can check in less than a minute."
+- 要点：审稿人明显没做好，可以在开头指出，但只摆主席一分钟内能核实的事实。
+
+### E14
+
+- 位置：Choose comments wisely.
+- 原文："Focus on major concerns - the ones where the reviewer assumes you may not be able to improve the paper."
+- 要点：重点回应主要问题，也就是审稿人认为你可能没法改好的那些。

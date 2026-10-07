@@ -2675,3 +2675,9 @@
 - 位置：Case Study and Ethnography，Suggested Readings
 - 原文："(Note: we recommend beginning with Yin's book.)"
 - 要点：标准建议从 Yin 的案例研究方法专著读起。
+
+### E441
+
+- 位置：General Standard，General Quality Criteria，Examples of Acceptable Deviations
+- 原文："A study can only apply an **empirical standard** if an appropriate standard exists. If no related standards exist, studies should apply published guidance. If no appropriate guidance exists, reviewers should apply the general standard and construct an ad hoc evaluation scheme for the new method."
+- 要点：只有存在合适的标准时，研究才能套用它；没有相关标准，就按已发表的指南做；连合适的指南也没有，审稿人用通用标准，并为这种新方法临时建一套评价办法。

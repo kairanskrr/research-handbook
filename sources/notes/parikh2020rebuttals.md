@@ -98,3 +98,39 @@
 - 位置：开头（引 Bill Freeman 的比喻）
 - 原文："The reality, Bill describes, is more like a large crowded marketplace."
 - 要点：真实的同行评审更像拥挤的集市：每个人时间和注意力都有限、信息不完整。
+
+### E17
+
+- 位置：写作流程，Itemize reviewer comments
+- 原文："Laying everything out in the same place helps identify common concerns and keeps us from missing anything accidentally. Do this ASAP to identify any necessary new experiments (if the venue allows it) or analysis early."
+- 要点：把意见放在一起，便于发现共同问题、避免遗漏；要尽快做，好及早发现需要补的实验（如果会议允许）或分析。
+
+### E18
+
+- 位置：Tip 5
+- 原文："Tip 5. Respond to the intent of the questions. Don’t feel trapped to only discuss the quoted concern — also address the intent of the comment."
+- 要点：不只回答字面上的问题，也要回应这条意见背后的意图，例如对整体实验是否充分的怀疑。
+
+### E19
+
+- 位置：Tip 10
+- 原文："Tip 10. Consolidate common concerns. Save space by responding to multiple reviewers at once if they share related concerns."
+- 要点：几位审稿人有相关的问题时，合并回答，节省篇幅。
+
+### E20
+
+- 位置：Tip 14
+- 原文："Likewise, instead of arguing why a reviewer’s suggestion might not work, try it and see if it works. Maybe it will!"
+- 要点：与其争论审稿人的建议为什么行不通，不如试一下，也许它真的有用。
+
+### E21
+
+- 位置：Tip 15
+- 原文："Tip 15. Be transparent. Reviewers hinted at an additional experiment but the venue doesn’t allow it? Say so."
+- 要点：做不到的就如实说明，例如会议不允许补实验。
+
+### E22
+
+- 位置：Tip 17
+- 原文："Tip 17. Acknowledge reviewer efforts. On the other hand, if a reviewer goes above and beyond to be constructive, thank them for it."
+- 要点：审稿人特别用心、给了建设性意见的，要表示感谢。

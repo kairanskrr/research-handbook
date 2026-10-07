@@ -45,3 +45,15 @@
 - 位置：1. Become one with the data
 - 原文："The outliers especially almost always uncover some bugs in data quality or preprocessing."
 - 要点：先亲自看数据，尤其是离群值，它们几乎总能暴露数据质量或预处理的问题。
+
+### E8
+
+- 位置：2. Set up the end-to-end training/evaluation skeleton + get dumb baselines（开头段）
+- 原文："Our next step is to set up a full training + evaluation skeleton and gain trust in its correctness via a series of experiments. At this stage it is best to pick some simple model that you couldn’t possibly have screwed up somehow"
+- 要点：在上复杂模型之前，先搭起从训练到评测的完整骨架，并通过一系列实验确认它是对的；这时选一个简单到不可能出错的模型。
+
+### E9
+
+- 位置：2. Set up the end-to-end training/evaluation skeleton + get dumb baselines（结尾段）
+- 原文："we have the full training + evaluation pipeline working. For any given model we can (reproducibly) compute a metric that we trust." / "the performance of a few dumb baselines (we better beat these)"
+- 要点：这一步完成的标志是：整条训练和评测流程能跑通，对任何模型都能可重复地算出一个可信的指标，并且有几个简单基线的成绩作为必须超过的底线。

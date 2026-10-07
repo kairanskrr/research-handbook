@@ -392,3 +392,153 @@
 - 位置：§7.0 Empirical Validity
 - 原文："Internal validity focuses on the study design, and particularly whether the results really do follow from the data. Typical mistakes include the failure to handle confounding variables properly, and misuse of statistical analysis."
 - 要点：内部效度关注研究设计，尤其是结果是否真的由数据得出；典型错误包括没有妥善处理混杂变量、误用统计分析。
+
+### E66
+
+- 位置：§7.0 Empirical Validity
+- 原文："Construct validity focuses on whether the theoretical constructs are interpreted and measured correctly." / "Problems with construct validity occur when the measured variables don’t correspond to the intended meanings of the theoretical terms."
+- 要点：构念效度关注理论概念是否被正确理解和测量；测量的变量和理论术语想表达的意思对不上，就出了构念效度问题。
+
+### E67
+
+- 位置：§7.0 Empirical Validity
+- 原文："External validity focuses on whether claims for the generality of the results are justified. Often, this depends on the nature of the sampling used in a study."
+- 要点：外部效度关注"结果具有普遍性"的说法是否站得住，这常常取决于研究用的抽样方式。
+
+### E68
+
+- 位置：§7.0 Empirical Validity
+- 原文："Reliability focuses on whether the study yields the same results if other researchers replicate it. Problems occur if the researcher introduces bias, perhaps because the tool being evaluated is one that the researcher herself has a stake in."
+- 要点：可靠性关注换别的研究者重做，结果是否一样；研究者引入偏差时会出问题，例如被评估的工具是研究者自己有利害关系的。
+
+### E69
+
+- 位置：§7.0 Empirical Validity
+- 原文："In reporting positivist empirical studies, it is important to include a section on threats to validity, in which potential weaknesses in the study design as well as attempts to mitigate these threats are discussed in terms of these four criteria. This is important because all study designs have flaws."
+- 要点：报告实证研究时，要有一节讨论效度威胁，按四类标准写出设计上的潜在弱点和减轻它们的努力；因为所有研究设计都有缺陷。
+
+### E70
+
+- 位置：§7.0 Empirical Validity
+- 原文："Many researchers who adopt this stance believe that the whole concept of validity is too positivist, and does not accurately reflect the nature of qualitative research."
+- 要点：许多持建构主义立场的研究者认为，"效度"这个概念本身太实证主义，不能准确反映定性研究的性质。
+
+### E71
+
+- 位置：§7.0 Empirical Validity（作者转述 Creswell 2002 提出的八条策略）
+- 原文："1. Triangulation: use different sources of data to confirm results and build a coherent picture" / "4. Clarify bias: be honest with respect to the biases brought by the researchers to the study, and use this self-reflection when reporting findings."
+- 要点：三角验证：用不同来源的数据印证结果；说明偏见：诚实交代研究者自身带入研究的偏见，并在报告发现时反思它。
+
+### E72
+
+- 位置：§7.0 Practical Considerations
+- 原文："It is important to document the original planned research protocol, and all subsequent deviations to it, to allow other researchers to understand the study design, interpret the research results, and replicate the study."
+- 要点：要记录最初计划的研究方案和之后的所有偏离，让别人能理解设计、解读结果、重复研究。
+
+### E73
+
+- 位置：§7.0 Practical Considerations
+- 原文："(3) define statistical tests ahead of time, in order to interpret the collected data. The goal here is to plan ahead, for smooth analysis and interpretation of results."
+- 要点：做实验和问卷时，要事先定好统计检验，提前规划，才能顺利分析和解读结果。
+
+### E74
+
+- 位置：§5.1 Controlled Experiments（Jane 的例子）
+- 原文："In SE, it is common to recruit students as subjects. This makes it easier to recruit a large group of subjects, but reduces external validity – an analytical argument is needed for why results on students might still apply to software developers in industry."
+- 要点：软件工程常招学生做被试，容易招够人，但降低了外部效度；需要论证为什么学生身上的结果仍适用于业界开发者。
+
+### E75
+
+- 位置：§7.0 Empirical Validity
+- 原文："Morse et al (2002) criticise this as being too concerned with post hoc evaluation, and argue instead for strategies to establish validity during the research process. Creswell (2002) identifies eight strategies for improving validity of constructivist research, which are well suited to ethnographies and exploratory case studies in software engineering"
+- 要点：Morse 等人主张在研究过程中用具体策略建立效度；Creswell 提出了八条提高建构主义研究效度的策略，作者认为适合软件工程里的民族志和探索型案例研究。
+
+### E76
+
+- 位置：§5.0 Selecting Methods
+- 原文："A variety of methods can be applied to any research problem, and it is often necessary to use a combination of methods to fully understand the problem. The choice of methods depends upon the theoretical stance of the researcher(s), access to resources (e.g., students or professionals as subjects/participants) and how closely the method aligns with the question(s) that have been posed."
+- 要点：任何研究问题都可以用多种方法研究，常常需要组合几种方法才能完全弄懂问题；选哪种方法，取决于研究者的立场、能拿到的资源（如能找到学生还是专业人员当参与者），以及方法和所提问题有多吻合。
+
+### E77
+
+- 位置：§5.0 Selecting Methods
+- 原文："Research Design is the process of selecting a method for a particular research problem, tapping into its strengths, while mitigating its weaknesses. The validity of the results depends on how well the research design compensates for the weaknesses of the methods."
+- 要点：研究设计就是为具体问题选方法、发挥它的长处、弥补它的短处；结果是否可靠，取决于设计在多大程度上弥补了方法的弱点。
+
+### E78
+
+- 位置：§5.1 Controlled Experiments
+- 原文："Controlled experiments allow us to determine in precise terms how the variables are related and, specifically, whether a cause-effect relationship exists between them." / "A precondition for conducting an experiment is a clear hypothesis."
+- 要点：对照实验能精确确定变量之间的关系，特别是是否存在因果关系；做实验的前提是有一个清楚的假设。
+
+### E79
+
+- 位置：§5.1 Controlled Experiments
+- 原文："If critical variables are ignored or controlled, the experimental results might not generalize to real world settings."
+- 要点：实验把关键变量忽略或控制住了，结果就可能推广不到真实环境。
+
+### E80
+
+- 位置：§5.1 Controlled Experiments
+- 原文："if Jane’s experiment confirms her hypothesis, it means she has evidence that fish-eye views are more efficient (as she defines efficiency), but it doesn’t necessarily mean that fisheye views are better suited to navigation!"
+- 要点：例子：实验证实了假设，只说明鱼眼视图按她定义的效率更高，不一定说明鱼眼视图更适合导航。
+
+### E81
+
+- 位置：§5.3 Survey research
+- 原文："A precondition for conducting survey research is a clear research question that asks about the nature of a particular target population." / "The defining characteristic of survey research is the selection of a representative sample from a welldefined population, and the data analysis techniques used to generalize from that sample to the population, usually to answer base-rate questions."
+- 要点：做调查研究的前提是一个关于某个目标人群特征的清楚研究问题；调查研究的特征是从定义清楚的总体中选有代表性的样本，再从样本推广到总体，通常用来回答基础比率问题。
+
+### E82
+
+- 位置：§5.3 Survey research
+- 原文："In Joe’s case, the survey research design is concerned with establishing what is true of developers in general. If instead he wishes to gain deeper insights into how developers actually use UML, or why they don’t, he might be better off conducting a case study." / "if he’s more interested in how UML changes how developers share information, he might design an experiment or quasi-experiment to test for a causal relationship."
+- 要点：例子：调查关心的是开发者总体上的情况；想深入了解开发者实际怎样用、为什么不用，案例研究可能更好；想知道它怎样改变信息共享（因果关系），可以设计实验或准实验。
+
+### E83
+
+- 位置：§5.4 Ethnographies
+- 原文："The preconditions for an ethnographic study include a research question that focuses on the cultural practices of a particular community, and access to members of that community."
+- 要点：做民族志的前提：研究问题关注某个群体的文化实践，并且能接触到这个群体的成员。
+
+### E84
+
+- 位置：§5.5 Action Research
+- 原文："A precondition for action research is to have a problem owner willing to collaborate to both identify a problem, and engage in an effort to solve it."
+- 要点：做行动研究的前提：有一个问题的主人愿意合作，一起界定问题并投入解决。
+
+### E85
+
+- 位置：§3.0 What will you accept as an empirical truth?
+- 原文："Jane’s PhD advisor insists that the only trustworthy evidence to answer this question comes from experiments conducted under controlled laboratory conditions" / "he claims that laboratory experiments are useless, as they ignore the messy complexity of real software projects."
+- 要点：例子：导师坚持只有受控的实验室实验才是可信证据；另一位有实践经验的委员认为实验室实验没用，因为它忽略了真实项目的复杂情况。
+
+### E86
+
+- 位置：§3.0 What will you accept as an empirical truth?
+- 原文："The stance you adopt affects which methods you believe lead to acceptable evidence in response to your research question(s). Being explicit about your stance also helps when talking and writing about research."
+- 要点：你采取的立场，影响你认为哪些方法能产生可接受的证据；把立场说明白，也有助于讨论和写作。
+
+### E87
+
+- 位置：Practical Considerations
+- 原文："Often these practical considerations force the researcher to change the original research design in terms of the choice of method, data collection and analysis procedures. It is important to document the original planned research protocol, and all subsequent deviations to it"
+- 要点：现实条件常常迫使研究者改变原来的设计（方法、数据收集和分析步骤）；要记下原计划和之后的每一处改动。
+
+### E88
+
+- 位置：Practical Considerations
+- 原文："Methods that are primarily quantitative include controlled experiments and survey research. These methods require more significant time in the planning of the research than strictly qualitative methods." / "define statistical tests ahead of time, in order to interpret the collected data"
+- 要点：以定量为主的方法（对照实验、调查）比纯定性方法需要更多的规划时间；统计检验要事先定好。
+
+### E89
+
+- 位置：§6.0 Data Collection Techniques
+- 原文："New researchers should ensure they are familiar with the techniques they select, and that they are aware of the potential pitfalls they may face. For example, it is usually always advisable to pilot-test the data collection instrument, and to pilot-test not just the collection aspect of the instrument, but also the analysis procedure."
+- 要点：新手要熟悉自己选的技术，知道可能的陷阱；通常应当先试用数据收集工具，而且不只试收集，也试分析步骤。
+
+### E90
+
+- 位置：Conclusions
+- 原文："Further study, and possibly some specialized training may be necessary before a researcher can apply a chosen method."
+- 要点：真正用上选定的方法之前，可能需要进一步学习，甚至专门训练。

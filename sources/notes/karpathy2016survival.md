@@ -62,3 +62,9 @@
 - 位置：Writing code 一节，段落 "Think of the future you"
 - 原文："I guarantee you that you will come back to your code base a few months later (e.g. to do a few more experiments for the camera ready version of the paper), and you will feel completely lost in it. I got into the habit of creating very thorough readme.txt files in all my repos (for my personal use) as notes to future self on how the code works, how to run it, etc."
 - 要点：几个月后你一定会回到自己的代码（例如为论文终稿补实验），并完全看不懂；作者养成了在每个仓库写详细 readme 的习惯，作为给未来自己的说明：代码怎么工作、怎么运行。
+
+### E11
+
+- 位置：Closing thoughts
+- 原文："anything shady you try to do to pad your academic resume (e.g. self-citing a lot, publishing the same idea multiple times with small remixes, resubmitting the same rejected paper over and over again with no changes, conveniently trying to leave out some baselines etc.) will eventually catch up with you"
+- 要点：为了充简历做的不光彩的事，包括把被拒的论文一字不改地反复重投，最终都会反过来害你。
