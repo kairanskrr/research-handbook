@@ -57,20 +57,20 @@
 
 | 这条证据在问…… | 可以考虑的方法（目前的位置） | 前提条件 |
 |---|---|---|
-| 一群人里，某种做法、看法有多常见 | [问卷调查](../fields/computer-science/research-types/questionnaire_survey.md) | 问题针对一个明确的目标人群；能从定义清楚的总体里抽出有代表性的样本[^easterbrook2008selecting-e81] |
-| 大量代码、提交、合约里的分布或关联 | [仓库挖掘](../fields/computer-science/research-types/repository_mining.md)、[数据科学](../fields/computer-science/research-types/data_science.md) | 数据拿得到，分析单元定义清楚 |
-| 真实环境里，事情是怎样、为什么发生的 | [案例研究](../fields/computer-science/research-types/case_study.md)、[访谈研究](../fields/computer-science/research-types/interview_study.md)、[扎根理论](../fields/computer-science/research-types/grounded_theory.md) | 有一个关于"怎样""为什么"的清楚研究问题[^easterbrook2008selecting-e12]；能进入现场 |
-| 一个群体的工作文化，成员怎样理解自己做的事 | 民族志，见[案例研究](../fields/computer-science/research-types/case_study.md#3-民族志有什么不同)第 3 节 | 问题关注这个群体的文化实践，并且能接触到群体成员[^easterbrook2008selecting-e83] |
-| 是不是 X 导致了 Y；人用 A 是否比用 B 好 | [对照实验](../fields/computer-science/research-types/controlled_experiment.md) | 有一个清楚的假设[^easterbrook2008selecting-e78] |
-| 几个软件、工具、模型，谁在什么条件下更好 | [基准评测](../fields/computer-science/research-types/benchmarking.md) | 有可论证的评测对象和指标 |
-| 你新做的东西是否更好 | [工程研究](../fields/computer-science/research-types/engineering_research.md)、[优化研究](../fields/computer-science/research-types/optimization_study.md)、[定量仿真](../fields/computer-science/research-types/simulation_study.md) | 有能比较的基线 |
-| 在一个真实组织里，一边解决问题一边研究 | [行动研究](../fields/computer-science/research-types/action_research.md) | 有一个问题的主人，愿意和你一起界定问题、投入解决[^easterbrook2008selecting-e84] |
-| 现象怎样随时间变化 | [纵向研究](../fields/computer-science/research-types/longitudinal_study.md) | 能在多个时间点跟踪同一批对象 |
-| 别人的结论换个条件还成立吗 | [复现研究](../fields/computer-science/research-types/replication.md) | 原研究的材料足够详细 |
-| 已有研究合起来说明了什么 | [综述研究](../fields/computer-science/research-types/review_study.md)、[案例调查](../fields/computer-science/research-types/case_survey.md) | 已有研究足够多，值得合起来看 |
-| 在给定条件下必然成立 | [理论研究](../fields/computer-science/research-types/theoretical_research.md) | 能把对象写成精确的定义 |
+| 一群人里，某种做法、看法有多常见 | [问卷调查](../06_methods/questionnaire_survey.md) | 问题针对一个明确的目标人群；能从定义清楚的总体里抽出有代表性的样本[^easterbrook2008selecting-e81] |
+| 大量代码、提交、合约里的分布或关联 | [仓库挖掘](../07_fields/computer-science/practices/repository_mining.md)、[数据科学](../06_methods/data_science.md) | 数据拿得到，分析单元定义清楚 |
+| 真实环境里，事情是怎样、为什么发生的 | [案例研究](../06_methods/case_study.md)、[访谈研究](../06_methods/interview_study.md)、[扎根理论](../06_methods/grounded_theory.md) | 有一个关于"怎样""为什么"的清楚研究问题[^easterbrook2008selecting-e12]；能进入现场 |
+| 一个群体的工作文化，成员怎样理解自己做的事 | 民族志，见[案例研究](../06_methods/case_study.md#3-民族志有什么不同)第 3 节 | 问题关注这个群体的文化实践，并且能接触到群体成员[^easterbrook2008selecting-e83] |
+| 是不是 X 导致了 Y；人用 A 是否比用 B 好 | [对照实验](../06_methods/controlled_experiment.md) | 有一个清楚的假设[^easterbrook2008selecting-e78] |
+| 几个软件、工具、模型，谁在什么条件下更好 | [基准评测](../07_fields/computer-science/practices/benchmarking.md) | 有可论证的评测对象和指标 |
+| 你新做的东西是否更好 | [工程研究](../07_fields/computer-science/practices/engineering_research.md)、[优化研究](../07_fields/computer-science/practices/optimization_study.md)、[定量仿真](../06_methods/simulation_study.md) | 有能比较的基线 |
+| 在一个真实组织里，一边解决问题一边研究 | [行动研究](../06_methods/action_research.md) | 有一个问题的主人，愿意和你一起界定问题、投入解决[^easterbrook2008selecting-e84] |
+| 现象怎样随时间变化 | [纵向研究](../06_methods/longitudinal_study.md) | 能在多个时间点跟踪同一批对象 |
+| 别人的结论换个条件还成立吗 | [复现研究](../06_methods/replication.md) | 原研究的材料足够详细 |
+| 已有研究合起来说明了什么 | [综述研究](../06_methods/review_study.md)、[案例调查](../06_methods/case_survey.md) | 已有研究足够多，值得合起来看 |
+| 在给定条件下必然成立 | [理论研究](../07_fields/computer-science/practices/theoretical_research.md) | 能把对象写成精确的定义 |
 
-其他学科的方法（田野实验、随机对照试验、档案研究、细读等），见[领域篇的"其他学科的研究类型"](../fields/README.md#其他学科的研究类型)。
+其他学科的方法（田野实验、随机对照试验、档案研究、细读等），见[领域篇的"其他学科的研究类型"](../07_fields/README.md#其他学科的研究类型)。
 
 挑方法之前，也先查一下文献：有些问题已经有不错的答案，读文献就能回答，不必自己再做一项实证研究[^easterbrook2008selecting-e41]。
 
@@ -155,7 +155,7 @@
 - **要组合，就写清为什么、在哪个阶段、起什么作用。** 同一份标准把这几项列为多方法研究的必要项[^ralph2020empirical-e276]。
 - **不要为了好看加一个方法。** 其中一种方法只起点缀作用，却把研究包装成混合方法；或者为了迎合审稿人，加一个对发现没有实质贡献的方法：同一份标准把这些列为反面做法[^ralph2020empirical-e282]。
 
-怎样设计和整合，见[混合方法](../fields/computer-science/research-types/mixed_methods.md)。
+怎样设计和整合，见[混合方法](../06_methods/mixed_methods.md)。
 
 **写下来：** 在证据—方法表里，标出哪条证据只靠一种方法、它最大的弱点是什么。只对弱点正好打中主张的那一两条，写下补充的方法和它起的作用。
 
@@ -195,10 +195,10 @@
 
 | 要了解的 | 去哪里看 |
 |---|---|
-| 你所在的方向惯用什么方法、什么样的评估 | [计算机领域概况](../fields/computer-science/README.md#各方向的惯例不一样) |
-| 是否要求提交可复现的代码和数据 | [制品评估与徽章](../fields/computer-science/README.md#制品评估与徽章) |
-| 研究涉及人，或者会发现真实系统的漏洞时，有哪些伦理要求 | [伦理问题有本领域的特点](../fields/computer-science/README.md#伦理问题有本领域的特点)；通用原则见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人) |
-| 其他学科的规矩 | [领域篇](../fields/README.md)里各学科的概况 |
+| 你所在的方向惯用什么方法、什么样的评估 | [计算机领域概况](../07_fields/computer-science/README.md#各方向的惯例不一样) |
+| 是否要求提交可复现的代码和数据 | [制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章) |
+| 研究涉及人，或者会发现真实系统的漏洞时，有哪些伦理要求 | [伦理问题有本领域的特点](../07_fields/computer-science/README.md#伦理问题有本领域的特点)；通用原则见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人) |
+| 其他学科的规矩 | [领域篇](../07_fields/README.md)里各学科的概况 |
 
 **写下来：** 对每种选定的方法，写下你要读的一份方法说明或指南，以及打算对照的两三篇论文。再写一句：这个方法在你的目标社区里，通常按什么标准评价。
 

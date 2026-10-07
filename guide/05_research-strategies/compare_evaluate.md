@@ -92,11 +92,11 @@
 
 | 方法 | 什么时候用 | 说明 |
 |---|---|---|
-| [基准评测](../fields/computer-science/research-types/benchmarking.md) | 被比较的是软件、工具或模型本身，能自动运行、重复测量 | 计算机比较评估最常用的方法 |
-| [有人参与的对照实验](../fields/computer-science/research-types/controlled_experiment.md) | 要比的是人用不同工具时的表现，例如开发者用哪个工具更快找到漏洞 | 需要招募参与者、随机分组 |
-| [复现研究](../fields/computer-science/research-types/replication.md) | 想检验某篇论文的比较结论在别的条件下是否还成立 | 常和比较评估结合 |
-| [优化研究](../fields/computer-science/research-types/optimization_study.md) | 比较搜索、优化类算法 | 搜索算法至少要和随机搜索比，确认成功不是因为问题本身太简单[^arcuri2014hitchhiker-e4] |
-| [系统综述与元分析](../fields/health-sciences/research-types/meta_analysis.md) | 不自己做实验，而是合并已发表研究里的比较结果 | 健康领域常用 |
+| [基准评测](../07_fields/computer-science/practices/benchmarking.md) | 被比较的是软件、工具或模型本身，能自动运行、重复测量 | 计算机比较评估最常用的方法 |
+| [有人参与的对照实验](../06_methods/controlled_experiment.md) | 要比的是人用不同工具时的表现，例如开发者用哪个工具更快找到漏洞 | 需要招募参与者、随机分组 |
+| [复现研究](../06_methods/replication.md) | 想检验某篇论文的比较结论在别的条件下是否还成立 | 常和比较评估结合 |
+| [优化研究](../07_fields/computer-science/practices/optimization_study.md) | 比较搜索、优化类算法 | 搜索算法至少要和随机搜索比，确认成功不是因为问题本身太简单[^arcuri2014hitchhiker-e4] |
+| [系统综述与元分析](../07_fields/health-sciences/research-types/meta_analysis.md) | 不自己做实验，而是合并已发表研究里的比较结果 | 健康领域常用 |
 
 方法和套路是两层：同一种方法可以服务不同的套路，见[选择套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
 

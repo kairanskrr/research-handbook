@@ -95,12 +95,12 @@
 
 | 方法（目前的位置） | 可以服务的套路 |
 |---|---|
-| [对照实验](../fields/computer-science/research-types/controlled_experiment.md) | 解释因果、比较评估、构建改进 |
-| [基准评测](../fields/computer-science/research-types/benchmarking.md) | 比较评估、构建改进、测量 |
-| [仓库挖掘](../fields/computer-science/research-types/repository_mining.md) | 观察描述、解释因果 |
-| [问卷调查](../fields/computer-science/research-types/questionnaire_survey.md)、[访谈研究](../fields/computer-science/research-types/interview_study.md) | 观察描述、解释因果（作为辅助证据） |
-| [综述研究](../fields/computer-science/research-types/review_study.md) | 综合 |
-| [理论研究](../fields/computer-science/research-types/theoretical_research.md) | 证明 |
+| [对照实验](../06_methods/controlled_experiment.md) | 解释因果、比较评估、构建改进 |
+| [基准评测](../07_fields/computer-science/practices/benchmarking.md) | 比较评估、构建改进、测量 |
+| [仓库挖掘](../07_fields/computer-science/practices/repository_mining.md) | 观察描述、解释因果 |
+| [问卷调查](../06_methods/questionnaire_survey.md)、[访谈研究](../06_methods/interview_study.md) | 观察描述、解释因果（作为辅助证据） |
+| [综述研究](../06_methods/review_study.md) | 综合 |
+| [理论研究](../07_fields/computer-science/practices/theoretical_research.md) | 证明 |
 
 为什么要组合：每种方法都有已知的缺陷，只能提供有限的证据；但各方法的缺陷不同，所以可以挑几种互相弥补[^easterbrook2008selecting-e1]。选哪几种没有固定配方，要看你有多少资源、能不能接触到研究对象、能不能控制想研究的变量，以及你自己会什么[^easterbrook2008selecting-e42]。
 

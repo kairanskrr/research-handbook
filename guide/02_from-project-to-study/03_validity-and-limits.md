@@ -111,7 +111,7 @@
 2. **对每个其他解释，在设计里想一个办法排除它** `[本项目分析]`：两组用同一个模型版本、同样的参数、同一批合约；一次只改一处（提示里同时加了漏洞模式和示例代码，就分不清是哪个起作用）；要分组时随机分；判定"检出"时把两组输出打乱、隐去组别再判。
 3. **别以为自己足够客观。** 光有好的意愿不够，记忆会出错，人会不自觉地往想要的方向推理，这些偏差常常发生在意识之外[^nosek2018preregistration-e3]。所以要靠设计来防，而不是靠自觉。
 
-这些办法不是计算机独有的。动物实验的设计指南里，内部效度方面最常见的建议就是随机分配、对评估结局的人设盲等[^henderson2013threats-e9]；具体要防哪些混杂，又因领域和模型而不同[^henderson2013threats-e12]。怎样系统地排除其他解释、什么时候做消融，见[解释因果](../05_research-strategies/explain_causality.md#主动排除其他解释)、[构建改进](../05_research-strategies/build_improve.md)和[对照实验](../fields/computer-science/research-types/controlled_experiment.md)。
+这些办法不是计算机独有的。动物实验的设计指南里，内部效度方面最常见的建议就是随机分配、对评估结局的人设盲等[^henderson2013threats-e9]；具体要防哪些混杂，又因领域和模型而不同[^henderson2013threats-e12]。怎样系统地排除其他解释、什么时候做消融，见[解释因果](../05_research-strategies/explain_causality.md#主动排除其他解释)、[构建改进](../05_research-strategies/build_improve.md)和[对照实验](../06_methods/controlled_experiment.md)。
 
 **写下来：** 对你预期的核心结果，写出至少三个"其他解释"，每个旁边写一句你打算怎样在设计里排除它。排除不了的，标出来，第 7 节要用。
 
@@ -213,7 +213,7 @@
 > - **不该套用。** 许多持建构主义立场的研究者（认为现实是由人建构的、因人因情境而异）认为，"效度"这个概念本身太偏向实证主义，不能准确反映定性研究的性质[^easterbrook2008selecting-e70]。软件工程的扎根理论标准也说，评价这类研究应看可信度、共鸣、有用性以及是否扩展了已有知识，内部效度、可推广性等定量标准一般不适用[^ralph2020empirical-e323]。
 > - **仍要讲效度，但在研究过程中用具体策略建立它。** 同一本手册转述了这一派的主张，并列出提高这类研究效度的策略[^easterbrook2008selecting-e75]，例如用不同来源的数据互相印证、诚实交代研究者自己带入的偏见[^easterbrook2008selecting-e71]，回去请参与者确认你的解读、报告和正在形成的理论不一致的信息[^easterbrook2008selecting-e27]。
 >
-> 两种看法都要求你防止自己被带偏，分歧在用什么词、按什么标准评价。实际操作中：先确认你的方法属于哪个传统，按那个传统的标准来列威胁和应对。定性研究也要做第 1 节的练习，只是归类时用可信度这类说法。具体做法见[访谈研究](../fields/computer-science/research-types/interview_study.md)、[扎根理论](../fields/computer-science/research-types/grounded_theory.md)和[案例研究](../fields/computer-science/research-types/case_study.md) `[本项目分析]`。
+> 两种看法都要求你防止自己被带偏，分歧在用什么词、按什么标准评价。实际操作中：先确认你的方法属于哪个传统，按那个传统的标准来列威胁和应对。定性研究也要做第 1 节的练习，只是归类时用可信度这类说法。具体做法见[访谈研究](../06_methods/interview_study.md)、[扎根理论](../06_methods/grounded_theory.md)和[案例研究](../06_methods/case_study.md) `[本项目分析]`。
 
 ## 关键判断
 

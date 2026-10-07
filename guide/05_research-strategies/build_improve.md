@@ -67,20 +67,20 @@
 
 | 方法 | 在构建改进里的作用 |
 |---|---|
-| [工程研究](../fields/computer-science/research-types/engineering_research.md)（计算机） | 计算机里这类研究的完整做法：选基线、选基准、设计评估、公开研究制品 |
-| [基准评测](../fields/computer-science/research-types/benchmarking.md)（计算机） | 用一套标准的评测对象和自动化流程，和基线比较效果与代价 |
-| [优化研究](../fields/computer-science/research-types/optimization_study.md)（计算机） | 把问题写成"在很多候选解中找最好的"，用搜索算法求解 |
-| [定量仿真](../fields/computer-science/research-types/simulation_study.md)（计算机） | 真实系统不便直接实验时，在模型上评估新设计 |
-| [对照实验](../fields/computer-science/research-types/controlled_experiment.md)（计算机） | 主张涉及人时（如"开发者用新工具更快找到漏洞"），请人参与比较 |
-| [基于设计的研究](../fields/education/research-types/design_based_research.md)（教育） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
-| [合成与表征研究](../fields/chemistry/research-types/synthesis_study.md)（化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
-| [基于实践的研究](../fields/arts/research-types/practice_based_research.md)（艺术） | 以创作出的作品作为知识贡献的基础 |
+| [工程研究](../07_fields/computer-science/practices/engineering_research.md)（计算机） | 计算机里这类研究的完整做法：选基线、选基准、设计评估、公开研究制品 |
+| [基准评测](../07_fields/computer-science/practices/benchmarking.md)（计算机） | 用一套标准的评测对象和自动化流程，和基线比较效果与代价 |
+| [优化研究](../07_fields/computer-science/practices/optimization_study.md)（计算机） | 把问题写成"在很多候选解中找最好的"，用搜索算法求解 |
+| [定量仿真](../06_methods/simulation_study.md)（计算机） | 真实系统不便直接实验时，在模型上评估新设计 |
+| [对照实验](../06_methods/controlled_experiment.md)（计算机） | 主张涉及人时（如"开发者用新工具更快找到漏洞"），请人参与比较 |
+| [基于设计的研究](../07_fields/education/research-types/design_based_research.md)（教育） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
+| [合成与表征研究](../07_fields/chemistry/research-types/synthesis_study.md)（化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
+| [基于实践的研究](../07_fields/arts/research-types/practice_based_research.md)（艺术） | 以创作出的作品作为知识贡献的基础 |
 
 一个项目常常组合几种方法：例如用基准评测证明效果，再用一个小规模的对照实验说明开发者确实用得上 `[本项目分析]`。
 
 ## 4. 它怎样影响整个项目
 
-选了构建改进，项目里有几件事要比其他套路更早、更认真地做。下面的做法以计算机为例，道理大体可以借到其他学科 `[本项目分析]`；计算机特有的细节（模糊测试的评估、系统安全的开销测量、研究制品徽章等）见计算机篇的[工程研究](../fields/computer-science/research-types/engineering_research.md)。
+选了构建改进，项目里有几件事要比其他套路更早、更认真地做。下面的做法以计算机为例，道理大体可以借到其他学科 `[本项目分析]`；计算机特有的细节（模糊测试的评估、系统安全的开销测量、研究制品徽章等）见计算机篇的[工程研究](../07_fields/computer-science/practices/engineering_research.md)。
 
 ### 按"问题 → 技术 → 评估"组织整个项目
 
@@ -98,7 +98,7 @@
 
 **在设计自己的方法之前，先让基线能跑。** 没有一个可靠的基线，后面会遇到麻烦[^huang2023experiments-e5]。基线是简单或现成的方法，给出可达到效果的下限；它也是合理性检查：在机器学习里，复杂的方法常常还不如简单基线[^steinhardt2018stochastic-e7]。
 
-基线至少要有两类：比新方法更简单的替代方案，用来证明新方法多出的复杂度确有必要[^lones2021avoid-e1]；以及当前最好的方法[^lones2021avoid-e2]。这两条来自机器学习的建议；对手的方法拿不到或跑不起来时怎么办，见计算机篇[工程研究](../fields/computer-science/research-types/engineering_research.md#第-4-步选基线)。
+基线至少要有两类：比新方法更简单的替代方案，用来证明新方法多出的复杂度确有必要[^lones2021avoid-e1]；以及当前最好的方法[^lones2021avoid-e2]。这两条来自机器学习的建议；对手的方法拿不到或跑不起来时怎么办，见计算机篇[工程研究](../07_fields/computer-science/practices/engineering_research.md#第-4-步选基线)。
 
 早跑基线还有一个好处 `[本项目分析]`：你会很快发现基线跑不起来、评测数据有问题这类卡点。这正是[小规模试做与降低风险](../02_from-project-to-study/04_pilot-and-derisk.md)要提前暴露的风险。
 
@@ -154,8 +154,8 @@
 - **评审标准**：ACM SIGSOFT（美国计算机协会软件工程分会）实证研究标准中的工程研究标准，列出必须做到的、做到更好的，以及不成立的批评。
 - **设计问题和知识问题**：Easterbrook 等人 2008，§2。
 - **评估会在哪里出错**：Lipton & Steinhardt 2019《Troubling Trends in Machine Learning Scholarship》。
-- **计算机的具体做法**：计算机篇的[工程研究](../fields/computer-science/research-types/engineering_research.md)，含检查清单。
-- **非计算机的例子**：[基于设计的研究](../fields/education/research-types/design_based_research.md)。
+- **计算机的具体做法**：计算机篇的[工程研究](../07_fields/computer-science/practices/engineering_research.md)，含检查清单。
+- **非计算机的例子**：[基于设计的研究](../07_fields/education/research-types/design_based_research.md)。
 
 [^easterbrook2008selecting-e28]: Easterbrook 等人 2008，§2.0。[证据](../../sources/notes/easterbrook2008selecting.md#e28)
 [^easterbrook2008selecting-e29]: Easterbrook 等人 2008，§2.0。[证据](../../sources/notes/easterbrook2008selecting.md#e29)

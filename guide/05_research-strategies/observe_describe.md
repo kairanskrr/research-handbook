@@ -65,15 +65,15 @@
 
 | 方法 | 什么时候用 | 要特别注意 |
 |---|---|---|
-| [仓库挖掘](../fields/computer-science/research-types/repository_mining.md) | 想知道大量代码、提交、缺陷报告里的分布。GitHub 这类平台的数据可以直接用来报告项目属性[^kalliamvakou2014promises-e11] | 用它对抽象概念下结论要格外谨慎[^kalliamvakou2014promises-e11]；分析单元要先定义好[^ralph2020empirical-e108] |
-| [问卷调查](../fields/computer-science/research-types/questionnaire_survey.md) | 想知道一个人群里某种做法、工具、看法的分布。调查研究通常用来回答基础比率问题[^easterbrook2008selecting-e49]；描述性调查关心分布是什么，不关心它为什么存在[^wagner2020challenges-e1] | 人们说自己怎么做，可能和实际做的毫无关系[^easterbrook2008selecting-e52]；可以用工作仓库等数据交叉核对[^molleri2020empirically-e7] |
-| [访谈研究](../fields/computer-science/research-types/interview_study.md)、[扎根理论](../fields/computer-science/research-types/grounded_theory.md) | 还不知道现象有哪些种类、该问什么。研究早期适合用能提供丰富定性数据的方法，帮助建立初步理论[^easterbrook2008selecting-e45] | 结果是类别和过程，不是比例；不要用它回答"有多少人" `[本项目分析]` |
-| [案例研究](../fields/computer-science/research-types/case_study.md) | 想深入描述少数真实场景里实际发生了什么 | 用代表性换深度[^easterbrook2008selecting-e19]，不要假装一两个现场有代表性[^baltes2022sampling-e10] |
-| [纵向研究](../fields/computer-science/research-types/longitudinal_study.md) | 想描述现象随时间怎样变化[^ralph2020empirical-e257] | 只想知道"现在用得多广"，一次横断面的"快照"就够；要看变化，才需要跟踪同一批对象[^easterbrook2008selecting-e53] |
-| [数据科学](../fields/computer-science/research-types/data_science.md) | 对已有数据集做探索性分析 | 只看一个时间点的分析，SIGSOFT 标准建议参考探索性数据科学标准[^ralph2020empirical-e258] |
-| [综述](../fields/computer-science/research-types/review_study.md) | 文献里可能已经有答案 | 探索性问题仍然要问，但可以用文献调研而不是新的实证研究来回答[^easterbrook2008selecting-e41]；见[综合](synthesize.md) |
+| [仓库挖掘](../07_fields/computer-science/practices/repository_mining.md) | 想知道大量代码、提交、缺陷报告里的分布。GitHub 这类平台的数据可以直接用来报告项目属性[^kalliamvakou2014promises-e11] | 用它对抽象概念下结论要格外谨慎[^kalliamvakou2014promises-e11]；分析单元要先定义好[^ralph2020empirical-e108] |
+| [问卷调查](../06_methods/questionnaire_survey.md) | 想知道一个人群里某种做法、工具、看法的分布。调查研究通常用来回答基础比率问题[^easterbrook2008selecting-e49]；描述性调查关心分布是什么，不关心它为什么存在[^wagner2020challenges-e1] | 人们说自己怎么做，可能和实际做的毫无关系[^easterbrook2008selecting-e52]；可以用工作仓库等数据交叉核对[^molleri2020empirically-e7] |
+| [访谈研究](../06_methods/interview_study.md)、[扎根理论](../06_methods/grounded_theory.md) | 还不知道现象有哪些种类、该问什么。研究早期适合用能提供丰富定性数据的方法，帮助建立初步理论[^easterbrook2008selecting-e45] | 结果是类别和过程，不是比例；不要用它回答"有多少人" `[本项目分析]` |
+| [案例研究](../06_methods/case_study.md) | 想深入描述少数真实场景里实际发生了什么 | 用代表性换深度[^easterbrook2008selecting-e19]，不要假装一两个现场有代表性[^baltes2022sampling-e10] |
+| [纵向研究](../06_methods/longitudinal_study.md) | 想描述现象随时间怎样变化[^ralph2020empirical-e257] | 只想知道"现在用得多广"，一次横断面的"快照"就够；要看变化，才需要跟踪同一批对象[^easterbrook2008selecting-e53] |
+| [数据科学](../06_methods/data_science.md) | 对已有数据集做探索性分析 | 只看一个时间点的分析，SIGSOFT 标准建议参考探索性数据科学标准[^ralph2020empirical-e258] |
+| [综述](../06_methods/review_study.md) | 文献里可能已经有答案 | 探索性问题仍然要问，但可以用文献调研而不是新的实证研究来回答[^easterbrook2008selecting-e41]；见[综合](synthesize.md) |
 
-表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见[野外观测研究](../fields/earth-environmental-sciences/research-types/field_study.md)、[观察性流行病学](../fields/health-sciences/research-types/observational_epidemiology.md)中的横断面研究、[语言记录](../fields/languages-literature/research-types/language_documentation.md)。
+表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见[野外观测研究](../07_fields/earth-environmental-sciences/research-types/field_study.md)、[观察性流行病学](../07_fields/health-sciences/research-types/observational_epidemiology.md)中的横断面研究、[语言记录](../07_fields/languages-literature/research-types/language_documentation.md)。
 
 **常见的组合** `[本项目分析]`：先用访谈或人工细读少量样本，归纳出类别；再用仓库挖掘或问卷，统计每一类有多常见。例如先人工读 50 份生成合约归纳漏洞类型，再用工具在几千份合约上统计分布，最后抽样人工复核工具的判定。
 
@@ -97,12 +97,12 @@
 
 只列本文资料能支持的；其他学科是否常用，本文资料未涉及。
 
-- **计算机（尤其软件工程）**：软件工程的问卷调查标准把"详细描述一个现象或人群的性质"列为问卷的一种用途[^ralph2020empirical-e234]。仓库挖掘的发现本身也常是描述性的，例如 GitHub 上多数项目是个人的、不活跃的[^kalliamvakou2014promises-e1]，67% 的项目只有一名提交者[^kalliamvakou2014promises-e5]。见[计算机领域概况](../fields/computer-science/README.md)。
-- **医学与公共卫生**：按医学观察性研究报告规范 STROBE 的解释文件，横断面研究在同一时间点调查一个样本，常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]。见[卫生科学](../fields/health-sciences/README.md)、[临床医学](../fields/clinical-medicine/README.md)。
-- **兽医学**：按兽医观察性研究报告规范 STROBE-Vet，观察性研究可以用来估计某种状况的患病率或发病率，研究它在时间和空间上的分布[^sargeant2016strobevet-e2]。见[动物与兽医科学](../fields/animal-veterinary-science/README.md)。
-- **环境工程与地球科学**：美国环境保护署的规划指南把"估计"（例如确定某种污染物的平均浓度）列为数据的一种用途[^epa2006dqo-e2]。见[环境工程](../fields/environmental-engineering/README.md)、[地球与环境科学](../fields/earth-environmental-sciences/README.md)。
-- **政治学**：政治学的案例研究方法文献指出，推断是描述性而非因果性时，案例研究通常更有用[^gerring2004case-e7]。见[政治学](../fields/political-science/README.md)。
-- **语言学**：语言学讨论里，"描写"一种语言和"记录"语言被当作两类工作；Himmelmann 曾要求把两者分开，但也有学者认为，有些对这一要求的解读走得太远[^riesberg2018adequacy-e2]。见[语言与文学](../fields/languages-literature/README.md)。
+- **计算机（尤其软件工程）**：软件工程的问卷调查标准把"详细描述一个现象或人群的性质"列为问卷的一种用途[^ralph2020empirical-e234]。仓库挖掘的发现本身也常是描述性的，例如 GitHub 上多数项目是个人的、不活跃的[^kalliamvakou2014promises-e1]，67% 的项目只有一名提交者[^kalliamvakou2014promises-e5]。见[计算机领域概况](../07_fields/computer-science/README.md)。
+- **医学与公共卫生**：按医学观察性研究报告规范 STROBE 的解释文件，横断面研究在同一时间点调查一个样本，常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]。见[卫生科学](../07_fields/health-sciences/README.md)、[临床医学](../07_fields/clinical-medicine/README.md)。
+- **兽医学**：按兽医观察性研究报告规范 STROBE-Vet，观察性研究可以用来估计某种状况的患病率或发病率，研究它在时间和空间上的分布[^sargeant2016strobevet-e2]。见[动物与兽医科学](../07_fields/animal-veterinary-science/README.md)。
+- **环境工程与地球科学**：美国环境保护署的规划指南把"估计"（例如确定某种污染物的平均浓度）列为数据的一种用途[^epa2006dqo-e2]。见[环境工程](../07_fields/environmental-engineering/README.md)、[地球与环境科学](../07_fields/earth-environmental-sciences/README.md)。
+- **政治学**：政治学的案例研究方法文献指出，推断是描述性而非因果性时，案例研究通常更有用[^gerring2004case-e7]。见[政治学](../07_fields/political-science/README.md)。
+- **语言学**：语言学讨论里，"描写"一种语言和"记录"语言被当作两类工作；Himmelmann 曾要求把两者分开，但也有学者认为，有些对这一要求的解读走得太远[^riesberg2018adequacy-e2]。见[语言与文学](../07_fields/languages-literature/README.md)。
 
 ## 6. 常见错误
 

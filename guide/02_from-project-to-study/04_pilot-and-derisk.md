@@ -123,10 +123,10 @@
 
 **不同的研究方法，试的重点不同：**
 
-- **问卷**：设计好后要检验它能不能测到想测的东西，资料里最常提到的办法是预调查、重测、焦点小组、专家或非专家评审[^molleri2020empirically-e2]。预调查之后和参与者聊一聊，确认题目被轻松、正确地理解了[^wagner2020challenges-e24]。具体做法见[问卷调查](../fields/computer-science/research-types/questionnaire_survey.md)。
-- **访谈**：先在团队内部试访谈提纲，去掉含糊和带诱导性的问题[^kallio2016systematic-e6]。见[访谈研究](../fields/computer-science/research-types/interview_study.md)。
-- **对照实验**：先自己当参与者走一遍，再找少数同类参与者按正式流程试[^ko2015practical-e33][^ko2015practical-e32]。见[对照实验](../fields/computer-science/research-types/controlled_experiment.md)。
-- **文献综述**：筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]。见[综述研究](../fields/computer-science/research-types/review_study.md)。
+- **问卷**：设计好后要检验它能不能测到想测的东西，资料里最常提到的办法是预调查、重测、焦点小组、专家或非专家评审[^molleri2020empirically-e2]。预调查之后和参与者聊一聊，确认题目被轻松、正确地理解了[^wagner2020challenges-e24]。具体做法见[问卷调查](../06_methods/questionnaire_survey.md)。
+- **访谈**：先在团队内部试访谈提纲，去掉含糊和带诱导性的问题[^kallio2016systematic-e6]。见[访谈研究](../06_methods/interview_study.md)。
+- **对照实验**：先自己当参与者走一遍，再找少数同类参与者按正式流程试[^ko2015practical-e33][^ko2015practical-e32]。见[对照实验](../06_methods/controlled_experiment.md)。
+- **文献综述**：筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]。见[综述研究](../06_methods/review_study.md)。
 - **人工标注**：两个人各自标同一小批样本，对比分歧，把分歧大的地方写进标注规则，再试一轮 `[本项目分析]`。
 
 **预实验也要对参与者说清楚。** 临床研究的做法是专门写一段说明：告诉参与者这是预研究、这次要评估哪些可行性、什么结果算可行[^thabane2010tutorial-e12]。预实验要不要单独走伦理审查，本文资料未涉及；动手前先问导师或所在机构的伦理委员会。

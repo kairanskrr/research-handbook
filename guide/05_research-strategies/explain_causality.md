@@ -107,19 +107,19 @@
 
 | 你的情形 | 可以用的方法 | 它怎样提供因果证据 |
 |---|---|---|
-| 能改变 X，对象是软件系统或模型 | 系统上的受控实验、消融，见[基准评测](../fields/computer-science/research-types/benchmarking.md)、[工程研究](../fields/computer-science/research-types/engineering_research.md) | 只改一处，其他完全相同，多次运行 |
-| 能改变 X，对象是人 | [对照实验](../fields/computer-science/research-types/controlled_experiment.md) | 随机分组，只让一个因素不同 |
-| 评价一种医疗干预 | [随机对照试验](../fields/clinical-medicine/research-types/randomized_controlled_trial.md) | 随机分配，按医学的报告规范写清分组和实施过程 |
-| 能和政府、企业合作，在真实世界里随机 | [田野实验](../fields/economics/research-types/field_experiment.md) | 在真实运行的项目里随机分组 |
-| 不能随机，但有制度规则或自然事件造成的变化 | [准实验与因果识别](../fields/economics/research-types/quasi_experiment.md) | 论证处理的变化"近似随机" |
-| 只有观察数据，关心病因或干预效果 | [观察性流行病学](../fields/health-sciences/research-types/observational_epidemiology.md) | 写出目标试验，调整混杂因素 |
-| 想弄清一个或几个案例里事情怎样发生 | [过程追踪](../fields/political-science/research-types/process_tracing.md)、[案例研究](../fields/computer-science/research-types/case_study.md) | 在案例内部逐步检验机制 |
+| 能改变 X，对象是软件系统或模型 | 系统上的受控实验、消融，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)、[工程研究](../07_fields/computer-science/practices/engineering_research.md) | 只改一处，其他完全相同，多次运行 |
+| 能改变 X，对象是人 | [对照实验](../06_methods/controlled_experiment.md) | 随机分组，只让一个因素不同 |
+| 评价一种医疗干预 | [随机对照试验](../07_fields/clinical-medicine/research-types/randomized_controlled_trial.md) | 随机分配，按医学的报告规范写清分组和实施过程 |
+| 能和政府、企业合作，在真实世界里随机 | [田野实验](../07_fields/economics/research-types/field_experiment.md) | 在真实运行的项目里随机分组 |
+| 不能随机，但有制度规则或自然事件造成的变化 | [准实验与因果识别](../07_fields/economics/research-types/quasi_experiment.md) | 论证处理的变化"近似随机" |
+| 只有观察数据，关心病因或干预效果 | [观察性流行病学](../07_fields/health-sciences/research-types/observational_epidemiology.md) | 写出目标试验，调整混杂因素 |
+| 想弄清一个或几个案例里事情怎样发生 | [过程追踪](../07_fields/political-science/research-types/process_tracing.md)、[案例研究](../06_methods/case_study.md) | 在案例内部逐步检验机制 |
 
 几点说明：
 
 - **对照实验擅长回答"是不是"，不擅长回答"怎么样、为什么"。** 拿软件工程的工具评估来说：开发者怎么用一个工具、要懂哪些概念，这类问题更适合用非实验的定量或定性方法；而且往往要先有这些答案，才知道实验该比较什么、用什么任务、测什么[^ko2015practical-e1]。
 - **定性方法也能讲因果，它擅长的是机制。** 案例研究能深入理解现象如何、为何发生，揭示因果关系背后的机制[^easterbrook2008selecting-e11]；什么时候该用它而不是实验，见上面"不同的看法"。政治学的过程追踪，是分析一个案例内部的过程和事件顺序，用来提出或检验关于因果机制的假设[^bennett2012process-e3]。
-- **方法可以组合。** 可以从统计分析里挑几个案例做过程追踪，弄清因果方向是不是反了、相关是不是虚假的[^bennett2012process-e24]。也可以先做定量研究，再用定性研究解释其中的意外结果[^easterbrook2008selecting-e4]。多方法设计见[混合方法](../fields/computer-science/research-types/mixed_methods.md)。
+- **方法可以组合。** 可以从统计分析里挑几个案例做过程追踪，弄清因果方向是不是反了、相关是不是虚假的[^bennett2012process-e24]。也可以先做定量研究，再用定性研究解释其中的意外结果[^easterbrook2008selecting-e4]。多方法设计见[混合方法](../06_methods/mixed_methods.md)。
 
 ## 4. 它怎样影响整个项目
 
@@ -148,12 +148,12 @@
 
 | 学科 | 资料里的情况 | 学科规矩 |
 |---|---|---|
-| 计算机 | 软件工程常问某个工具或技术是否带来质量、速度上的改进[^easterbrook2008selecting-e57]；机器学习最强的实证论文常做错误分析、消融实验和稳健性检查[^lipton2019troubling-e8] | [计算机](../fields/computer-science/README.md) |
-| 临床医学 | 设计、实施、分析和报告都恰当的随机试验，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2] | [临床医学](../fields/clinical-medicine/README.md) |
-| 流行病学与公共卫生 | 以喝葡萄酒对慢性病的影响为例：长期随机试验被认为不合伦理，观察性分析就成了估计其长期因果效应的最好机会[^hernan2018cword-e11] | [健康科学](../fields/health-sciences/README.md) |
-| 经济学 | 据 2010 年的综述，以研究设计为本的因果研究多见于发展、教育、环境、劳动、健康、公共财政等微观领域，在产业组织和宏观经济学中仍少见[^angrist2010credibility-e2] | [经济学](../fields/economics/README.md) |
-| 政治学 | 一项研究编码的 195 份预分析计划（动手分析前公开登记的分析方案）中，63% 来自田野实验，27% 来自调查实验[^ofosu2023preanalysis-e3]；"过程追踪"一词 1979 年由政治学者 Alexander George 借用来指用案例内部证据推断历史解释[^bennett2012process-e2] | [政治学](../fields/political-science/README.md) |
-| 教育学 | 有的研究做因果推断，例如估计缩小班额对成绩的影响[^aera2006standards-e4]；早期探索性研究找到的关系通常是相关的，不是因果的[^ies2013common-e3] | [教育学](../fields/education/README.md) |
+| 计算机 | 软件工程常问某个工具或技术是否带来质量、速度上的改进[^easterbrook2008selecting-e57]；机器学习最强的实证论文常做错误分析、消融实验和稳健性检查[^lipton2019troubling-e8] | [计算机](../07_fields/computer-science/README.md) |
+| 临床医学 | 设计、实施、分析和报告都恰当的随机试验，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2] | [临床医学](../07_fields/clinical-medicine/README.md) |
+| 流行病学与公共卫生 | 以喝葡萄酒对慢性病的影响为例：长期随机试验被认为不合伦理，观察性分析就成了估计其长期因果效应的最好机会[^hernan2018cword-e11] | [健康科学](../07_fields/health-sciences/README.md) |
+| 经济学 | 据 2010 年的综述，以研究设计为本的因果研究多见于发展、教育、环境、劳动、健康、公共财政等微观领域，在产业组织和宏观经济学中仍少见[^angrist2010credibility-e2] | [经济学](../07_fields/economics/README.md) |
+| 政治学 | 一项研究编码的 195 份预分析计划（动手分析前公开登记的分析方案）中，63% 来自田野实验，27% 来自调查实验[^ofosu2023preanalysis-e3]；"过程追踪"一词 1979 年由政治学者 Alexander George 借用来指用案例内部证据推断历史解释[^bennett2012process-e2] | [政治学](../07_fields/political-science/README.md) |
+| 教育学 | 有的研究做因果推断，例如估计缩小班额对成绩的影响[^aera2006standards-e4]；早期探索性研究找到的关系通常是相关的，不是因果的[^ies2013common-e3] | [教育学](../07_fields/education/README.md) |
 
 ## 6. 常见错误
 

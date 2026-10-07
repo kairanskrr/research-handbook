@@ -18,9 +18,9 @@
 
 | 学科 | 文档 | 讲什么 |
 |---|---|---|
-| 历史 | [档案研究](../fields/history-archaeology/research-types/archival_research.md) | 查阅未出版的原始记录，用它们回答关于过去的问题 |
-| 文学 | [文本细读与文学论证](../fields/languages-literature/research-types/close_reading.md) | 细读文本，提出一种解读，再用文本证据论证它 |
-| 哲学 | [哲学论证研究](../fields/philosophy-ethics-religion/research-types/philosophical_argument.md) | 提出论题、给出论证、回应反驳 |
-| 法学 | [规范法学研究](../fields/law/research-types/doctrinal_research.md) | 找到相关的法，解释法条和判决，提出论点 |
+| 历史 | [档案研究](../07_fields/history-archaeology/research-types/archival_research.md) | 查阅未出版的原始记录，用它们回答关于过去的问题 |
+| 文学 | [文本细读与文学论证](../07_fields/languages-literature/research-types/close_reading.md) | 细读文本，提出一种解读，再用文本证据论证它 |
+| 哲学 | [哲学论证研究](../07_fields/philosophy-ethics-religion/research-types/philosophical_argument.md) | 提出论题、给出论证、回应反驳 |
+| 法学 | [规范法学研究](../07_fields/law/research-types/doctrinal_research.md) | 找到相关的法，解释法条和判决，提出论点 |
 
-这些学科的整体规矩，见各自的领域概况：[历史与考古](../fields/history-archaeology/README.md)、[语言与文学](../fields/languages-literature/README.md)、[哲学、伦理与宗教](../fields/philosophy-ethics-religion/README.md)、[法学](../fields/law/README.md)。
+这些学科的整体规矩，见各自的领域概况：[历史与考古](../07_fields/history-archaeology/README.md)、[语言与文学](../07_fields/languages-literature/README.md)、[哲学、伦理与宗教](../07_fields/philosophy-ethics-religion/README.md)、[法学](../07_fields/law/README.md)。

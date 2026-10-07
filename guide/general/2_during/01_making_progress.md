@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-05
 
-本章讲题目选定之后，怎样把一个项目一天天、一周周地往前推：先做什么，怎样尽快知道行不行，卡住了怎么办，什么时候该换方向，几个月的项目怎么规划。怎么选题见[选题](../1_before/02_choosing_a_problem.md)；实验怎么设计、结论怎样才可信见[研究设计与方法选择](../1_before/04_research_design.md)和[证据、分析与效度](../2_during/02_evidence_and_validity.md)；什么时候开始写、怎么写见[写作](../3_after/01_writing.md)；怎样和导师一起推进见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)。
+本章讲题目选定之后，怎样把一个项目一天天、一周周地往前推：先做什么，怎样尽快知道行不行，卡住了怎么办，什么时候该换方向，几个月的项目怎么规划。怎么选题见[选题](../1_before/02_choosing_a_problem.md)；实验怎么设计、结论怎样才可信见[研究设计与方法选择](../1_before/04_research_design.md)和[证据、分析与效度](02_evidence_and_validity.md)；什么时候开始写、怎么写见[写作](../3_after/01_writing.md)；怎样和导师一起推进见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)。
 
 **读完本章，你应该能：**
 

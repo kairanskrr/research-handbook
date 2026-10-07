@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-05
 
-本章讲怎样在很长的研究生涯里坚持下去，并且越做越好：怎样对待失败和被拒，怎样积累知识和能力，怎样鼓起勇气做重要的问题，怎样保持能长期维持的节奏。具体怎么选题见[选题](../1_before/02_choosing_a_problem.md)；怎么推进一个项目见[推进研究](../2_during/01_making_progress.md)；怎么回复审稿意见见[审稿、回复审稿意见与发表](../3_after/02_reviewing_and_publishing.md)；怎么和导师、合作者相处见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)。
+本章讲怎样在很长的研究生涯里坚持下去，并且越做越好：怎样对待失败和被拒，怎样积累知识和能力，怎样鼓起勇气做重要的问题，怎样保持能长期维持的节奏。具体怎么选题见[选题](../1_before/02_choosing_a_problem.md)；怎么推进一个项目见[推进研究](../2_during/01_making_progress.md)；怎么回复审稿意见见[审稿、回复审稿意见与发表](../3_after/02_reviewing_and_publishing.md)；怎么和导师、合作者相处见[合作与导师](01_collaboration_and_advisors.md)。
 
 **读完本章，你应该能：**
 
@@ -79,10 +79,10 @@
 - **主动联系身边圈子以外的人。** Ruder 认为这可能是他最重要的一条建议[^ruder2020tips-e11]。
 - **和同伴一起学新东西。** 一起学能减轻每个人的负担，也让面对新东西时没那么害怕[^sutherland1996courage-e4]。
 - **定期请外部的人看你的项目**[^patterson2001bad-e12]。
-- **让自己对别人负责。** 自律不只是意志力的问题，对别人负责是保持自律的关键之一[^nielsen2004principles-e9]；和人合作就是一种办法（见[合作与导师：和同伴合作](../4_throughout/01_collaboration_and_advisors.md#5-和同伴合作)）。
+- **让自己对别人负责。** 自律不只是意志力的问题，对别人负责是保持自律的关键之一[^nielsen2004principles-e9]；和人合作就是一种办法（见[合作与导师：和同伴合作](01_collaboration_and_advisors.md#5-和同伴合作)）。
 - **主动改善环境。** 组织读书会、讨论班，任何人都能做；学生常常低估自己能带来的改变[^nielsen2004principles-e13]。和其他博士生聊聊，会让你感到被同伴支持[^wood2020five-e4]。
 
-和导师、合作者怎样相处，见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)。
+和导师、合作者怎样相处，见[合作与导师](01_collaboration_and_advisors.md)。
 
 ## 5. 保持能长期维持的节奏
 

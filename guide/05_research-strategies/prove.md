@@ -6,7 +6,7 @@
 
 如果你想写的核心主张是"在条件 C 下，X **一定**成立"，而不是"在我们测过的数据上，X 成立"，你的项目走的就是"证明"这条研究套路。本篇帮你想清楚四件事：这类研究产出什么，什么证据才够，具体做法去哪里学，它怎样改变项目每个阶段要做的事。
 
-怎样选题、推进证明、写结构化证明、自查错误，计算机篇的[理论研究](../fields/computer-science/research-types/theoretical_research.md)已经一步步写了，本篇不重复，只在需要时链接过去。主张、证据、研究套路、研究方法这些词的意思，见[核心术语](../00_start-here/key-concepts.md)。
+怎样选题、推进证明、写结构化证明、自查错误，计算机篇的[理论研究](../07_fields/computer-science/practices/theoretical_research.md)已经一步步写了，本篇不重复，只在需要时链接过去。主张、证据、研究套路、研究方法这些词的意思，见[核心术语](../00_start-here/key-concepts.md)。
 
 ---
 
@@ -43,7 +43,7 @@
 
 **（1）假设都写出来了吗？** 定理陈述里很容易藏着没写出的假设：Lamport（分布式系统和形式化方法研究者）举过的一个定理，就默认了 a < b 却没写出来[^lamport2012how-e6]。他还指出，漏掉"集合非空"这样的假设，在数学定理里只是小疏忽，放到算法里可能就是严重的缺陷[^lamport2012how-e9]。做法是像 seL4 那样，把"假定正确、不证明"的部分逐条列出[^klein2009sel4-e1]，并在定理陈述里写全所有假设 `[本项目分析]`。
 
-**（2）证明完整吗？** Lamport 的经验是，大多数错误来自证明没有展开到足够的层次[^lamport1995how-e5]；他的经验法则是展开到最底层每句话都显然成立，然后再多展开一层[^lamport1995how-e6]。证明概要（几句话说明思路）有用，但它不是证明[^lamport2012how-e13]。怎样写成分层、可逐步检查的证明，见理论研究的[第 3 步](../fields/computer-science/research-types/theoretical_research.md#第-3-步把证明写得可以检查-数学通用)。
+**（2）证明完整吗？** Lamport 的经验是，大多数错误来自证明没有展开到足够的层次[^lamport1995how-e5]；他的经验法则是展开到最底层每句话都显然成立，然后再多展开一层[^lamport1995how-e6]。证明概要（几句话说明思路）有用，但它不是证明[^lamport2012how-e13]。怎样写成分层、可逐步检查的证明，见理论研究的[第 3 步](../07_fields/computer-science/practices/theoretical_research.md#第-3-步把证明写得可以检查-数学通用)。
 
 **（3）别人能检查吗？** 数学家 Thurston 观察到，人不太擅长逐条检查证明的形式正确性，却很擅长发现证明中可能的薄弱处[^thurston1994proof-e9]；在他看来，数学结果的可靠性主要来自数学家仔细、批判地思考其中的想法[^thurston1994proof-e11]。所以他主张把证明写得清楚、尽量简单，让薄弱处容易被发现[^thurston1994proof-e10]。期刊审稿也把正确性放在前面：美国数学会的伦理准则要求，编辑只在合理确信论文正确时才接收[^ams2022ethical-e9]。但没人挑出错，不等于没错：Lamport 引述过一种传闻性的说法，数学期刊上多达三分之一的论文含有错误的定理或证明[^lamport1995how-e1]（这是传闻，不是统计）。
 
@@ -65,21 +65,21 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 
 | 方法 | 什么时候用 | 去哪里看 |
 |---|---|---|
-| 手工证明（定理与证明） | 复杂度上下界、算法正确性、不可能性结果、新定义的性质 | [理论研究](../fields/computer-science/research-types/theoretical_research.md)：选题、推进证明、结构化地写证明、检查自己的错误 |
-| 机器检查的证明（交互式定理证明：人引导、证明助手逐步检查） | 细节繁多、出错代价大的系统和算法 | [理论研究](../fields/computer-science/research-types/theoretical_research.md#第-4-步检查自己的证明-数学通用机器检查部分为计算机)的机器检查部分 |
-| 计算机辅助证明、实验数学 | 用计算探索猜想，或让计算成为证明的一部分 | [数学领域概况](../fields/mathematics/README.md#本领域的规范)的"本领域的规范"一节 |
+| 手工证明（定理与证明） | 复杂度上下界、算法正确性、不可能性结果、新定义的性质 | [理论研究](../07_fields/computer-science/practices/theoretical_research.md)：选题、推进证明、结构化地写证明、检查自己的错误 |
+| 机器检查的证明（交互式定理证明：人引导、证明助手逐步检查） | 细节繁多、出错代价大的系统和算法 | [理论研究](../07_fields/computer-science/practices/theoretical_research.md#第-4-步检查自己的证明-数学通用机器检查部分为计算机)的机器检查部分 |
+| 计算机辅助证明、实验数学 | 用计算探索猜想，或让计算成为证明的一部分 | [数学领域概况](../07_fields/mathematics/README.md#本领域的规范)的"本领域的规范"一节 |
 
 按 seL4 论文的说法，交互式定理证明需要人的介入和创造力来构造和引导证明；好处是不像静态分析、模型检测（由程序自动遍历系统的可能状态、检查某个性质）这类更自动的验证方法那样，只能处理特定性质或有限的状态空间[^klein2009sel4-e5]。计算机辅助证明方面，前面提到的研讨会报告建议期刊要求：做出重要论断的论文（例如用计算机证明一个长期未解的数学结果），要做严格验证，并完整公开计算细节[^stodden2013setting-e4]。
 
 **证明常和实验搭配。** 软件工程领域的 ACM SIGSOFT 实证研究标准，把"为关键的理论贡献（定理、复杂度分析、数学证明）给出正确性论证"列为工程研究的加分项[^ralph2020empirical-e88]；"理论保证"也可以是新工具胜过已有工具的那个维度[^ralph2020empirical-e95]。Vandewalle 等指出，信号处理里定理常配上数值仿真，帮助读者直观理解结果[^vandewalle2009reproducible-e12]。
 
-**和哲学论证对照。** 哲学家处理的论证大多也是（或自称是）演绎论证，数学证明正是这类论证的典型[^pryor2025terms-e3]。差别在前提：哲学论证的前提很少绝对无可置疑，所以即使推理有效，通常也不能一锤定音[^pryor2025terms-e12]。因此哲学论文的大部分功夫花在为前提辩护、回应反驳上，一般归入[解读论证](interpret_argue.md)套路，具体做法见[哲学论证研究](../fields/philosophy-ethics-religion/research-types/philosophical_argument.md) `[本项目分析]`。
+**和哲学论证对照。** 哲学家处理的论证大多也是（或自称是）演绎论证，数学证明正是这类论证的典型[^pryor2025terms-e3]。差别在前提：哲学论证的前提很少绝对无可置疑，所以即使推理有效，通常也不能一锤定音[^pryor2025terms-e12]。因此哲学论文的大部分功夫花在为前提辩护、回应反驳上，一般归入[解读论证](interpret_argue.md)套路，具体做法见[哲学论证研究](../07_fields/philosophy-ethics-religion/research-types/philosophical_argument.md) `[本项目分析]`。
 
 不要拿错验证方式：Shaw 在讨论软件工程研究时指出，用实地研究去验证一个形式化模型是否正确，和对一套经验法则做形式化验证一样不合适[^shaw2003writing-e14]。
 
 ## 4. 它怎样影响整个项目
 
-走证明套路时，各阶段要多做或换着做的事如下表 `[本项目分析]`。表中推进和自查的做法，多来自数学家 Tao 的职业建议和理论计算机学者 Aaronson 列的"错误突破信号"，是个人经验，不是学科规定；展开的做法见[理论研究的第 1、2 步](../fields/computer-science/research-types/theoretical_research.md#2-怎么做)。
+走证明套路时，各阶段要多做或换着做的事如下表 `[本项目分析]`。表中推进和自查的做法，多来自数学家 Tao 的职业建议和理论计算机学者 Aaronson 列的"错误突破信号"，是个人经验，不是学科规定；展开的做法见[理论研究的第 1、2 步](../07_fields/computer-science/practices/theoretical_research.md#2-怎么做)。
 
 | 阶段 | 走证明套路时特别要做的 |
 |---|---|
@@ -100,8 +100,8 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 
 只列本文资料能支持的学科：
 
-- **数学**：Thurston 观察到，数学家除了想知道定理成立，还想理解它的证明[^thurston1994proof-e2]。学科规矩见[数学领域概况](../fields/mathematics/README.md)。
-- **理论计算机**：算法证明细节繁多（见第 2 节），有专门授予最佳理论论文的哥德尔奖[^fortnow2009time-e8]。具体做法见[理论研究](../fields/computer-science/research-types/theoretical_research.md)。
+- **数学**：Thurston 观察到，数学家除了想知道定理成立，还想理解它的证明[^thurston1994proof-e2]。学科规矩见[数学领域概况](../07_fields/mathematics/README.md)。
+- **理论计算机**：算法证明细节繁多（见第 2 节），有专门授予最佳理论论文的哥德尔奖[^fortnow2009time-e8]。具体做法见[理论研究](../07_fields/computer-science/practices/theoretical_research.md)。
 - **软件工程、系统、安全中的形式化方向**：形式化模型要靠证明支撑[^shaw2003writing-e9]；软件工程的评审标准把定理和复杂度分析列为工程研究的加分项[^ralph2020empirical-e88]；seL4 内核有从抽象规约到 C 实现的机器检查证明[^klein2009sel4-e8]。
 - **电子工程（信号处理）**：Vandewalle 等认为信号处理介于理论科学和实验科学之间，定理常和数值仿真一起出现[^vandewalle2009reproducible-e12]。
 - **哲学**：也用演绎论证[^pryor2025terms-e3]，但因为前提可争议，主要归入[解读论证](interpret_argue.md)套路（见第 3 节）。
@@ -110,7 +110,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 
 ## 6. 常见错误
 
-下面只列套路层面的错误；写证明、自查时的错误（隐含假设、证明"太强"、某个假设没用到、把概要当证明等），见[理论研究的常见错误](../fields/computer-science/research-types/theoretical_research.md#4-常见错误)。
+下面只列套路层面的错误；写证明、自查时的错误（隐含假设、证明"太强"、某个假设没用到、把概要当证明等），见[理论研究的常见错误](../07_fields/computer-science/practices/theoretical_research.md#4-常见错误)。
 
 | 错误 | 为什么是问题 |
 |---|---|
@@ -123,11 +123,11 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 
 ## 7. 延伸阅读
 
-- **[理论研究](../fields/computer-science/research-types/theoretical_research.md)**：本套路在计算机里的完整做法，从选题、推进、写证明到自查。它的延伸阅读列了 Lamport、Tao、Aaronson 的原文。
-- **[数学领域概况](../fields/mathematics/README.md)**：数学怎样运转，适合打算在数学期刊发表的人。
+- **[理论研究](../07_fields/computer-science/practices/theoretical_research.md)**：本套路在计算机里的完整做法，从选题、推进、写证明到自查。它的延伸阅读列了 Lamport、Tao、Aaronson 的原文。
+- **[数学领域概况](../07_fields/mathematics/README.md)**：数学怎样运转，适合打算在数学期刊发表的人。
 - **Thurston 1994，On proof and progress in mathematics**：数学家实际上怎样理解、交流和检查证明。
 - **Klein 等 2009，seL4: Formal Verification of an OS Kernel**：一个完整的形式化验证项目，写清了假设、代价和证明发现的缺陷。适合考虑做机器检查证明的人。
-- **[解读论证](interpret_argue.md)** 和 **[哲学论证研究](../fields/philosophy-ethics-religion/research-types/philosophical_argument.md)**：对照阅读，看演绎论证在前提可争议时怎么做。
+- **[解读论证](interpret_argue.md)** 和 **[哲学论证研究](../07_fields/philosophy-ethics-religion/research-types/philosophical_argument.md)**：对照阅读，看演绎论证在前提可争议时怎么做。
 
 [^shaw2003writing-e9]: Shaw 2003，§4.1。[证据](../../sources/notes/shaw2003writing.md#e9)
 [^shaw2003writing-e14]: Shaw 2003，§5。[证据](../../sources/notes/shaw2003writing.md#e14)

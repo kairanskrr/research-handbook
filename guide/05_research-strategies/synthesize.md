@@ -35,7 +35,7 @@
 
 综合的证据，是你**找到了哪些研究、为什么收它们、从中提取了什么、怎样把它们合起来**。读者能不能相信你的结论，就看这四件事经不经得起检查。
 
-几条基本功对所有系统的综述都适用：一步步写清检索过程和筛选标准[^ralph2020empirical-e4]；开始检索前先写好研究方案，防止自己按预期去挑论文、做分析[^kitchenham2007guidelines-e7]；从提取的数据到问题的答案要有清楚的证据链，逐篇罗列"A 发现 X，B 发现 Y"不算综合[^ralph2020empirical-e6][^ralph2020empirical-e16]；用事先定好的标准评估每项研究的质量，不拿会议或期刊的档次代替[^ralph2020empirical-e10][^ralph2020empirical-e16]。每一步具体怎么做，见计算机篇的[系统综述怎么做](../fields/computer-science/research-types/review_study.md#2-系统综述怎么做)和[检查清单](../fields/computer-science/research-types/review_study.md#5-检查清单)。
+几条基本功对所有系统的综述都适用：一步步写清检索过程和筛选标准[^ralph2020empirical-e4]；开始检索前先写好研究方案，防止自己按预期去挑论文、做分析[^kitchenham2007guidelines-e7]；从提取的数据到问题的答案要有清楚的证据链，逐篇罗列"A 发现 X，B 发现 Y"不算综合[^ralph2020empirical-e6][^ralph2020empirical-e16]；用事先定好的标准评估每项研究的质量，不拿会议或期刊的档次代替[^ralph2020empirical-e10][^ralph2020empirical-e16]。每一步具体怎么做，见计算机篇的[系统综述怎么做](../06_methods/review_study.md#2-系统综述怎么做)和[检查清单](../06_methods/review_study.md#5-检查清单)。
 
 本篇要你多想一步的是：**不同类型的综述，"够"的标准不一样。** 用错标准，要么白费力气，要么被挑出硬伤 `[本项目分析]`。审稿人也可能用错，例如拿"找全所有研究""排除低质量研究"去要求批判性综述[^ralph2022paving-e20]。
 
@@ -61,10 +61,10 @@
 
 具体怎么做，见下面的方法文件（目前还在旧位置）：
 
-- [综述研究：系统综述、映射研究与综述论文](../fields/computer-science/research-types/review_study.md)：讲研究方案、检索、筛选、提取、报告的完整步骤。
-- [案例调查](../fields/computer-science/research-types/case_survey.md)：把已发表的案例研究编码成数据集。
-- [方法论研究与元科学](../fields/computer-science/research-types/meta_science.md)：批判性综述属于学界内部"怎么做研究"的讨论，也就是元科学[^ralph2022paving-e14]。
-- [系统综述与元分析（健康领域）](../fields/health-sciences/research-types/meta_analysis.md)：效应指标、固定效应和随机效应模型、异质性、证据确定性分级的具体做法。
+- [综述研究：系统综述、映射研究与综述论文](../06_methods/review_study.md)：讲研究方案、检索、筛选、提取、报告的完整步骤。
+- [案例调查](../06_methods/case_survey.md)：把已发表的案例研究编码成数据集。
+- [方法论研究与元科学](../06_methods/meta_science.md)：批判性综述属于学界内部"怎么做研究"的讨论，也就是元科学[^ralph2022paving-e14]。
+- [系统综述与元分析（健康领域）](../07_fields/health-sciences/research-types/meta_analysis.md)：效应指标、固定效应和随机效应模型、异质性、证据确定性分级的具体做法。
 
 元分析的统计部分**不要一上来就做**：如果问题界定、纳入标准、检索筛选、数据收集、偏倚评价没做好，合并出的结果可能非常误导人[^higgins2024cochrane-e14]。系统综述也不一定要有元分析，研究结果差异很大时，报一个平均效应反而可能误导[^higgins2024cochrane-e16]。
 
@@ -94,13 +94,13 @@
 - **医学与公共卫生**：有专门讲干预效果系统综述的方法手册（Cochrane 手册）[^higgins2024cochrane-e12]，研究的干预既有临床的，也有公共卫生和政策层面的[^higgins2024cochrane-e11]；报告有 PRISMA 2020 的 27 项清单[^page2021prisma-e1]。传统的证据金字塔把系统综述和元分析放在顶端[^murad2016new-e1]，但也有人主张把它从顶端拿掉，当作审视其他研究的"透镜"[^murad2016new-e6]：同样是元分析，合并低偏倚风险的随机对照试验，和合并高偏倚风险的观察性研究，不能等同看待[^murad2016new-e5]。
 - **软件工程**：美国计算机协会软件工程分会的实证研究标准里，有专门的系统综述标准[^ralph2020empirical-e1]和案例调查标准[^ralph2020empirical-e291]。
 - **管理学和信息系统**：案例调查用得很广；在软件工程里还少见[^ralph2022paving-e9]。
-- **法学**：规范研究（对法律条文、判例的分析）不只是文献综述[^hutchinson2012defining-e8]，见[法学概况](../fields/law/README.md)。
+- **法学**：规范研究（对法律条文、判例的分析）不只是文献综述[^hutchinson2012defining-e8]，见[法学概况](../07_fields/law/README.md)。
 
 其他学科（例如人文学科的研究综述）怎样看待综合，本文资料未涉及。
 
 ## 6. 常见错误
 
-下面是套路层面的错误；检索、筛选、提取中的常见错误见[综述研究的常见错误](../fields/computer-science/research-types/review_study.md#6-常见错误)。
+下面是套路层面的错误；检索、筛选、提取中的常见错误见[综述研究的常见错误](../06_methods/review_study.md#6-常见错误)。
 
 | 错误 | 为什么是问题 |
 |---|---|

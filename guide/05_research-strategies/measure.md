@@ -63,12 +63,12 @@
 
 | 方法 | 能给你什么 | 去哪里看 |
 |---|---|---|
-| 基准评测 | 检查一个评测集或指标是否测到了想测的东西；数据污染的检查办法 | [基准评测](../fields/computer-science/research-types/benchmarking.md#3-基准本身有效吗) |
-| 量表编制 | 定义构念、编题、信度、效度、测量不变性的完整流程 | [量表编制与测量研究](../fields/psychology/research-types/scale_development.md) |
-| 实验测量 | 定义被测量、校准、系统效应、不确定度预算 | [实验测量研究](../fields/physical-sciences/research-types/experimental_measurement.md) |
-| 问卷调查 | 测抽象概念时怎样选用验证过的量表 | [问卷调查](../fields/computer-science/research-types/questionnaire_survey.md#第四步测量抽象概念时用验证过的量表) |
-| 复现研究 | 换一套数据或测法重做，看原结论是否还在 | [复现研究](../fields/computer-science/research-types/replication.md) |
-| 方法论研究与元科学 | 系统调查一个领域的论文测量做得怎么样 | [方法论研究与元科学](../fields/computer-science/research-types/meta_science.md) |
+| 基准评测 | 检查一个评测集或指标是否测到了想测的东西；数据污染的检查办法 | [基准评测](../07_fields/computer-science/practices/benchmarking.md#3-基准本身有效吗) |
+| 量表编制 | 定义构念、编题、信度、效度、测量不变性的完整流程 | [量表编制与测量研究](../07_fields/psychology/research-types/scale_development.md) |
+| 实验测量 | 定义被测量、校准、系统效应、不确定度预算 | [实验测量研究](../07_fields/physical-sciences/research-types/experimental_measurement.md) |
+| 问卷调查 | 测抽象概念时怎样选用验证过的量表 | [问卷调查](../06_methods/questionnaire_survey.md#第四步测量抽象概念时用验证过的量表) |
+| 复现研究 | 换一套数据或测法重做，看原结论是否还在 | [复现研究](../06_methods/replication.md) |
+| 方法论研究与元科学 | 系统调查一个领域的论文测量做得怎么样 | [方法论研究与元科学](../06_methods/meta_science.md) |
 
 ## 4. 它怎样影响整个项目
 
@@ -102,7 +102,7 @@
 | 化学（催化） | 有研究者提议多个课题组盲法轮流测量同一批样品，以确定现实的误差范围[^bligaard2016benchmarking-e8] |
 | 流行病学与营养学 | 任何研究设计都会有测量误差，解释效应时总要考虑[^hernan2020whatif-e16]；单一饮食暴露只有个体内随机误差时，它与健康结局的关联估计总会被削弱[^nci2025dietprimer-e3] |
 
-学科规矩的细节见各学科篇，例如[计算机](../fields/computer-science/README.md)、[心理学](../fields/psychology/README.md#测量用有效度证据的量表)。
+学科规矩的细节见各学科篇，例如[计算机](../07_fields/computer-science/README.md)、[心理学](../07_fields/psychology/README.md#测量用有效度证据的量表)。
 
 ## 6. 常见错误
 

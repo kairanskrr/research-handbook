@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-05
 
-本章讲题目定下来之后，怎样为一个项目做计划：从最终要交出的成果倒推出要做哪些事，怎样定里程碑，怎样判断"做完了"，以及计划怎样随着结果更新。怎么选题见[选题](../1_before/02_choosing_a_problem.md)；日常怎样推进、去风险、记日志、排日程见[推进研究](../2_during/01_making_progress.md)；论文怎么写见[写作](../3_after/01_writing.md)；怎样和导师沟通见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)；项目材料怎么整理见[整理科研材料](../2_during/03_organizing_materials.md)。
+本章讲题目定下来之后，怎样为一个项目做计划：从最终要交出的成果倒推出要做哪些事，怎样定里程碑，怎样判断"做完了"，以及计划怎样随着结果更新。怎么选题见[选题](02_choosing_a_problem.md)；日常怎样推进、去风险、记日志、排日程见[推进研究](../2_during/01_making_progress.md)；论文怎么写见[写作](../3_after/01_writing.md)；怎样和导师沟通见[合作与导师](../4_throughout/01_collaboration_and_advisors.md)；项目材料怎么整理见[整理科研材料](../2_during/03_organizing_materials.md)。
 
 **读完本章，你应该能：**
 

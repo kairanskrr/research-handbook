@@ -135,7 +135,7 @@
 - **给合作者留时间。** 投稿前提前通知所有合作者；会议论文至少提前两周把稿子发出去，让资深合作者能安排时间[^herremans2020successful-e1]。以期刊为主的学科，对应的时间点是投稿前或提交修改稿前 `[本项目分析]`。
 - **谈不拢怎么办。** 医学期刊的署名规范写明：对谁该署名达不成一致时，应由研究所在的机构调查，而不是期刊编辑[^icmje2026recommendations-e5]。各机构的具体程序，本文资料未涉及。
 
-**署名顺序各学科不一样。** 例如经济学的惯例是按姓氏字母排[^einav2006surname-e1]，心理学按贡献排[^einav2006surname-e3]。具体惯例见各学科概况，例如[经济学](../fields/economics/README.md#署名按字母顺序)、[数学](../fields/mathematics/README.md#一个人或几个人做按字母署名)、[社会学](../fields/sociology/README.md#署名)、[教育学](../fields/education/README.md)、[历史与考古](../fields/history-archaeology/README.md)、[物理科学](../fields/physical-sciences/README.md#署名)。计算机方向的署名顺序惯例，本文资料未涉及，进组时问清导师 `[本项目分析]`。署名和引用的诚信要求，见[科研诚信与伦理](integrity_and_ethics.md)。
+**署名顺序各学科不一样。** 例如经济学的惯例是按姓氏字母排[^einav2006surname-e1]，心理学按贡献排[^einav2006surname-e3]。具体惯例见各学科概况，例如[经济学](../07_fields/economics/README.md#署名按字母顺序)、[数学](../07_fields/mathematics/README.md#一个人或几个人做按字母署名)、[社会学](../07_fields/sociology/README.md#署名)、[教育学](../07_fields/education/README.md)、[历史与考古](../07_fields/history-archaeology/README.md)、[物理科学](../07_fields/physical-sciences/README.md#署名)。计算机方向的署名顺序惯例，本文资料未涉及，进组时问清导师 `[本项目分析]`。署名和引用的诚信要求，见[科研诚信与伦理](integrity_and_ethics.md)。
 
 **为什么：** 越晚谈，各人对贡献的记忆和期待差得越远，越难谈拢 `[本项目分析]`。
 

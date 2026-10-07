@@ -114,7 +114,7 @@
 
 **不要夸大样本的代表性。** 尤其不要在局限部分承认抽样偏差，到了结论又把结果写得几乎普遍适用[^baltes2022sampling-e9]。
 
-抽样的具体做法随方法而不同，见[问卷调查](../fields/computer-science/research-types/questionnaire_survey.md#第一步从研究问题出发定义总体分析单元和抽样框)、[仓库挖掘](../fields/computer-science/research-types/repository_mining.md#第三步筛选和抽样项目)等方法文档。
+抽样的具体做法随方法而不同，见[问卷调查](../06_methods/questionnaire_survey.md#第一步从研究问题出发定义总体分析单元和抽样框)、[仓库挖掘](../07_fields/computer-science/practices/repository_mining.md#第三步筛选和抽样项目)等方法文档。
 
 **写下来：** 写出你的分析单元、总体、抽样框和样本，各一句话。再写一句：抽样框和总体差在哪里，这个差别可能让结论偏向哪个方向。
 

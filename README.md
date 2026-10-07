@@ -14,7 +14,7 @@
 | 正处在某个阶段：刚开题、在做实验、准备投稿 | [通用篇](guide/general/README.md)中对应的阶段 |
 | 遇到了具体问题：实验做不出来、被拒稿、导师没空…… | [常见问题速查](guide/faq.md) |
 | 进入一个新学科，想了解它的惯例 | 下面"领域篇"里你的学科 |
-| 要用某种研究方法：随机对照试验、访谈、档案研究…… | [研究类型目录](guide/fields/README.md#研究类型) |
+| 要用某种研究方法：随机对照试验、访谈、档案研究…… | [研究类型目录](guide/07_fields/README.md#研究类型) |
 
 ## 目录
 
@@ -29,21 +29,21 @@
 
 ### 领域篇：各学科的惯例
 
-每个学科一篇领域概况：研究怎样运转、和其他学科哪里不同、要守哪些规范、新手常犯什么错。学科划分按经济合作与发展组织（OECD）的分类，完整对照见[领域篇目录](guide/fields/README.md)。
+每个学科一篇领域概况：研究怎样运转、和其他学科哪里不同、要守哪些规范、新手常犯什么错。学科划分按经济合作与发展组织（OECD）的分类，完整对照见[领域篇目录](guide/07_fields/README.md)。
 
-- **自然科学**：[数学](guide/fields/mathematics/README.md) · [计算机](guide/fields/computer-science/README.md) · [物理](guide/fields/physical-sciences/README.md) · [化学](guide/fields/chemistry/README.md) · [地球与环境科学](guide/fields/earth-environmental-sciences/README.md) · [生物科学](guide/fields/biological-sciences/README.md)
-- **工程与技术**：[土木](guide/fields/civil-engineering/README.md) · [电气、电子与信息](guide/fields/electrical-engineering/README.md) · [机械](guide/fields/mechanical-engineering/README.md) · [化学工程](guide/fields/chemical-engineering/README.md) · [材料与纳米技术](guide/fields/materials-engineering/README.md) · [医学工程](guide/fields/medical-engineering/README.md) · [环境工程](guide/fields/environmental-engineering/README.md) · [生物技术](guide/fields/biotechnology/README.md)
-- **医学与健康**：[基础医学](guide/fields/basic-medicine/README.md) · [临床医学](guide/fields/clinical-medicine/README.md) · [健康科学](guide/fields/health-sciences/README.md)
-- **农业与兽医**：[农业、林业与渔业](guide/fields/agriculture/README.md) · [动物科学与兽医学](guide/fields/animal-veterinary-science/README.md)
-- **社会科学**：[心理学](guide/fields/psychology/README.md) · [经济学](guide/fields/economics/README.md) · [教育学](guide/fields/education/README.md) · [社会学](guide/fields/sociology/README.md) · [法学](guide/fields/law/README.md) · [政治学](guide/fields/political-science/README.md) · [地理学](guide/fields/geography/README.md) · [媒体与传播](guide/fields/media-communication/README.md)
-- **人文与艺术**：[历史与考古](guide/fields/history-archaeology/README.md) · [语言与文学](guide/fields/languages-literature/README.md) · [哲学、伦理与宗教](guide/fields/philosophy-ethics-religion/README.md) · [艺术](guide/fields/arts/README.md)
+- **自然科学**：[数学](guide/07_fields/mathematics/README.md) · [计算机](guide/07_fields/computer-science/README.md) · [物理](guide/07_fields/physical-sciences/README.md) · [化学](guide/07_fields/chemistry/README.md) · [地球与环境科学](guide/07_fields/earth-environmental-sciences/README.md) · [生物科学](guide/07_fields/biological-sciences/README.md)
+- **工程与技术**：[土木](guide/07_fields/civil-engineering/README.md) · [电气、电子与信息](guide/07_fields/electrical-engineering/README.md) · [机械](guide/07_fields/mechanical-engineering/README.md) · [化学工程](guide/07_fields/chemical-engineering/README.md) · [材料与纳米技术](guide/07_fields/materials-engineering/README.md) · [医学工程](guide/07_fields/medical-engineering/README.md) · [环境工程](guide/07_fields/environmental-engineering/README.md) · [生物技术](guide/07_fields/biotechnology/README.md)
+- **医学与健康**：[基础医学](guide/07_fields/basic-medicine/README.md) · [临床医学](guide/07_fields/clinical-medicine/README.md) · [健康科学](guide/07_fields/health-sciences/README.md)
+- **农业与兽医**：[农业、林业与渔业](guide/07_fields/agriculture/README.md) · [动物科学与兽医学](guide/07_fields/animal-veterinary-science/README.md)
+- **社会科学**：[心理学](guide/07_fields/psychology/README.md) · [经济学](guide/07_fields/economics/README.md) · [教育学](guide/07_fields/education/README.md) · [社会学](guide/07_fields/sociology/README.md) · [法学](guide/07_fields/law/README.md) · [政治学](guide/07_fields/political-science/README.md) · [地理学](guide/07_fields/geography/README.md) · [媒体与传播](guide/07_fields/media-communication/README.md)
+- **人文与艺术**：[历史与考古](guide/07_fields/history-archaeology/README.md) · [语言与文学](guide/07_fields/languages-literature/README.md) · [哲学、伦理与宗教](guide/07_fields/philosophy-ethics-religion/README.md) · [艺术](guide/07_fields/arts/README.md)
 
 ### 研究类型：某一种研究具体怎么做
 
 每篇讲一种研究方法：适合回答什么问题、分几步做、每步容易错在哪、写论文前对照的检查清单。
 
-- [计算机的 19 种研究类型](guide/fields/README.md#研究类型)：综述研究、对照实验、问卷、访谈、案例研究、复现研究等，很多其他学科也通用
-- [其他学科的 23 种研究类型](guide/fields/README.md#其他学科的研究类型)：随机对照试验、准实验、田野实验、量表编制、实验测量、田间试验、档案研究、口述历史、规范法学研究、过程追踪、基于实践的研究等
+- [计算机的 19 种研究类型](guide/07_fields/README.md#研究类型)：综述研究、对照实验、问卷、访谈、案例研究、复现研究等，很多其他学科也通用
+- [其他学科的 23 种研究类型](guide/07_fields/README.md#其他学科的研究类型)：随机对照试验、准实验、田野实验、量表编制、实验测量、田间试验、档案研究、口述历史、规范法学研究、过程追踪、基于实践的研究等
 
 ## 怎么看出处
 
