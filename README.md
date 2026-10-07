@@ -10,8 +10,8 @@
 
 | 你的情况 | 从这里开始 |
 |---|---|
-| 第一次做科研，想知道一个课题从头到尾怎么做 | [总览](guide/general/00_workflow.md)，再按阶段往下读 |
-| 正处在某个阶段：刚开题、在做实验、准备投稿 | [通用篇](guide/general/README.md)中对应的阶段 |
+| 第一次做科研，想知道一个课题从头到尾怎么做 | [总览](guide/00_start-here/research-journey.md)，再按阶段往下读 |
+| 正处在某个阶段：刚开题、在做实验、准备投稿 | [通用篇](guide/README.md)中对应的阶段 |
 | 遇到了具体问题：实验做不出来、被拒稿、导师没空…… | [常见问题速查](guide/faq.md) |
 | 进入一个新学科，想了解它的惯例 | 下面"领域篇"里你的学科 |
 | 要用某种研究方法：随机对照试验、访谈、档案研究…… | [研究类型目录](guide/07_fields/README.md#研究类型) |
@@ -20,11 +20,11 @@
 
 ### 通用篇：所有学科共通的做法
 
-- [总览：一个课题从头到尾怎么做](guide/general/00_workflow.md)
-- **开始之前**：[什么是好的研究](guide/general/1_before/01_what_is_good_research.md) · [选题](guide/general/1_before/02_choosing_a_problem.md) · [读文献](guide/general/1_before/03_reading_literature.md) · [研究设计](guide/general/1_before/04_research_design.md) · [做计划](guide/general/1_before/05_planning.md)
-- **进行中**：[推进研究](guide/general/2_during/01_making_progress.md) · [证据与效度](guide/general/2_during/02_evidence_and_validity.md) · [整理科研材料](guide/general/2_during/03_organizing_materials.md)
-- **收尾与发表**：[写作](guide/general/3_after/01_writing.md) · [审稿与发表](guide/general/3_after/02_reviewing_and_publishing.md)
-- **贯穿全程**：[合作与导师](guide/general/4_throughout/01_collaboration_and_advisors.md) · [科研诚信与伦理](guide/general/4_throughout/02_integrity_and_ethics.md) · [心态与长期积累](guide/general/4_throughout/03_mindset_and_growth.md)
+- [总览：一个课题从头到尾怎么做](guide/00_start-here/research-journey.md)
+- **开始之前**：[什么是好的研究](guide/00_start-here/key-concepts.md) · [选题](guide/01_from-interest-to-project/02_find-problems.md) · [读文献](guide/01_from-interest-to-project/01_enter-a-field.md) · [研究设计](guide/02_from-project-to-study/01_question-to-evidence.md) · [做计划](guide/01_from-interest-to-project/04_research-plan.md)
+- **进行中**：[推进研究](guide/03_conduct-and-analyze/01_run-and-iterate.md) · [证据与效度](guide/02_from-project-to-study/03_validity-and-limits.md) · [整理科研材料](guide/08_throughout/organizing_materials.md)
+- **收尾与发表**：[写作](guide/04_write-and-publish/01_story-and-paper.md) · [审稿与发表](guide/04_write-and-publish/02_venue-and-submission.md)
+- **贯穿全程**：[合作与导师](guide/08_throughout/collaboration_and_advisors.md) · [科研诚信与伦理](guide/08_throughout/integrity_and_ethics.md) · [心态与长期积累](guide/08_throughout/mindset_and_growth.md)
 - [常见问题速查](guide/faq.md)
 
 ### 领域篇：各学科的惯例

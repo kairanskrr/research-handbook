@@ -4,7 +4,7 @@
 
 做研究时遇到问题，从这里找建议。每个问题列出最关键的几条做法，并链接到详细讨论的段落；做法的依据和出处见对应章节。
 
-第一次做研究，建议先读[总览：一个课题从头到尾怎么做](general/00_workflow.md)。
+第一次做研究，建议先读[总览：一个课题从头到尾怎么做](00_start-here/research-journey.md)。
 
 ## 选题与开始
 
@@ -14,7 +14,7 @@
 - 用重要性、可行性、你的优势、兴趣几个维度比较，先划掉被完全压倒的。
 - 拿不准时，请导师给每个想法打分，对分歧大的深入讨论。
 
-详见：[列一份候选问题清单](general/1_before/02_choosing_a_problem.md#2-列一份候选问题清单)；[用"重要性 × 可行性 × 你的优势"比较候选问题](general/1_before/02_choosing_a_problem.md#3-用重要性--可行性--你的优势比较候选问题)；[有意识地培养研究品味](general/1_before/02_choosing_a_problem.md#4-有意识地培养研究品味)
+详见：[列一份候选问题清单](01_from-interest-to-project/02_find-problems.md#9-快速初筛留下两到四个)；[用"重要性 × 可行性 × 你的优势"比较候选问题](01_from-interest-to-project/03_converge.md)；[有意识地培养研究品味](08_throughout/mindset_and_growth.md#1-有意识地培养研究品味)
 
 ### 题目定了，但不知道从哪里开始
 
@@ -22,14 +22,14 @@
 - 写出论文提纲，用它倒推要做的实验或分析。
 - 先做最可能失败的那一部分。
 
-详见：[第一周写一页项目简介](general/1_before/05_planning.md#2-第一周写一页项目简介)；[从终点倒推：先想清楚最后要说什么](general/1_before/05_planning.md#1-从终点倒推先想清楚最后要说什么)；[先做最可能失败的部分](general/2_during/01_making_progress.md#2-先做最可能失败的部分)
+详见：[第一周写一页项目简介](01_from-interest-to-project/03_converge.md#6-写成一页项目简介并反复修改)；[从终点倒推：先想清楚最后要说什么](01_from-interest-to-project/04_research-plan.md#1-定下终点投到哪里什么时候交)；[先做最可能失败的部分](01_from-interest-to-project/04_research-plan.md#4-排顺序最可能失败的先做)
 
 ### 担心自己的想法别人已经做过了
 
 - 动手前先查文献、问懂行的人；相关工作在项目开头就查，别等做完才发现别人早已发表。
 - 从几篇核心论文出发，顺着参考文献和被引用两个方向找。
 
-详见：[找文献：从几篇论文出发，顺着引用找](general/1_before/03_reading_literature.md#4-找文献从几篇论文出发顺着引用找)；[列一份候选问题清单](general/1_before/02_choosing_a_problem.md#2-列一份候选问题清单)；[第一周写一页项目简介](general/1_before/05_planning.md#2-第一周写一页项目简介)
+详见：[找文献：从几篇论文出发，顺着引用找](01_from-interest-to-project/01_enter-a-field.md#3-顺着引用找出核心论文关键的人和发表处)；[列一份候选问题清单](01_from-interest-to-project/02_find-problems.md#9-快速初筛留下两到四个)；[第一周写一页项目简介](01_from-interest-to-project/03_converge.md#6-写成一页项目简介并反复修改)
 
 ## 做研究的过程中
 
@@ -39,14 +39,14 @@
 - 把问题简化到能跑通为止，再一步步加回难度。
 - 把失败的具体情形整理出来，找导师或同伴讨论。
 
-详见：[卡住时，按固定步骤排查](general/2_during/01_making_progress.md#5-卡住时按固定步骤排查)；[有根据地决定坚持还是放弃](general/2_during/01_making_progress.md#6-有根据地决定坚持还是放弃)；[尽早汇报进展，包括坏消息](general/4_throughout/01_collaboration_and_advisors.md#3-尽早汇报进展包括坏消息)
+详见：[卡住时，按固定步骤排查](03_conduct-and-analyze/01_run-and-iterate.md#5-卡住时按固定步骤排查)；[有根据地决定坚持还是放弃](03_conduct-and-analyze/01_run-and-iterate.md#6-坚持还是换方向)；[尽早汇报进展，包括坏消息](08_throughout/collaboration_and_advisors.md#3-尽早汇报进展包括坏消息)
 
 ### 卡住了，不知道下一步做什么
 
 - 按固定步骤排查：列出所有能做的事，简化问题，换个角度看。
 - 回到项目简介和提纲，问：现在最大的不确定是什么？哪个最小的实验最能降低它？
 
-详见：[卡住时，按固定步骤排查](general/2_during/01_making_progress.md#5-卡住时按固定步骤排查)；[每周按主张回顾，持续更新计划](general/1_before/05_planning.md#6-每周按主张回顾持续更新计划)
+详见：[卡住时，按固定步骤排查](03_conduct-and-analyze/01_run-and-iterate.md#5-卡住时按固定步骤排查)；[每周按主张回顾，持续更新计划](08_throughout/planning_and_routines.md#4-每周回顾停下来拉远看一次)
 
 ### 范围越做越大，不知道什么时候算完成
 
@@ -54,7 +54,7 @@
 - 按"拿到了什么证据"定里程碑，而不是按"做了什么事"。
 - 用论文提纲当看板：还缺哪张图、哪张表，就离投稿还差多远。
 
-详见：[事先写下"怎样算完成"](general/1_before/05_planning.md#3-事先写下怎样算完成)；[按"拿到的证据"定里程碑，分层规划](general/1_before/05_planning.md#4-按拿到的证据定里程碑分层规划)；[把论文提纲当作项目看板](general/1_before/05_planning.md#5-把论文提纲当作项目看板)
+详见：[事先写下"怎样算完成"](01_from-interest-to-project/04_research-plan.md#3-给每个里程碑写下怎样算做完)；[按"拿到的证据"定里程碑，分层规划](01_from-interest-to-project/04_research-plan.md#2-把主张拆成里程碑每个里程碑是一份证据)；[把论文提纲当作项目看板](01_from-interest-to-project/04_research-plan.md)
 
 ### 纠结要不要换方向、放弃这个题目
 
@@ -62,7 +62,7 @@
 - 该停的信号：你在反复降低目标，或者项目收益明显递减；这时听听导师的判断。
 - 也警惕反方向的错误：换题太频繁比不肯换题更常见。
 
-详见：[有根据地决定坚持还是放弃](general/2_during/01_making_progress.md#6-有根据地决定坚持还是放弃)；[避开常见陷阱](general/1_before/02_choosing_a_problem.md#5-避开常见陷阱)
+详见：[有根据地决定坚持还是放弃](03_conduct-and-analyze/01_run-and-iterate.md#6-坚持还是换方向)；[避开常见陷阱](01_from-interest-to-project/02_find-problems.md)
 
 ### 结果好得出乎意料，或者和别人的对不上
 
@@ -71,7 +71,7 @@
 - 和别人的对不上时：先在自己的条件下把别人的结果重复出来，再改条件；数据和设置不同的数字不能直接比。
 - 说清可能的效度威胁。
 
-详见：[和强基线做公平的比较](general/2_during/02_evidence_and_validity.md#2-和强基线做公平的比较)；[留一份数据只用于最后检验](general/2_during/02_evidence_and_validity.md#4-留一份数据只用于最后检验)；[认真对待随机性和统计](general/2_during/02_evidence_and_validity.md#5-认真对待随机性和统计)；[说清效度威胁](general/2_during/02_evidence_and_validity.md#6-说清效度威胁)
+详见：[和强基线做公平的比较](05_research-strategies/compare_evaluate.md#2-什么样的证据才够)；[留一份数据只用于最后检验](05_research-strategies/compare_evaluate.md#2-什么样的证据才够)；[认真对待随机性和统计](03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)；[说清效度威胁](02_from-project-to-study/03_validity-and-limits.md)
 
 ### 几个月后找不到当时的结果、不记得是怎么得到的
 
@@ -79,7 +79,7 @@
 - 原始数据只读；用版本控制，不要用 final、final2 这样的文件名管版本。
 - 分开维护三种笔记：现状、按日期的研究日志、已确认的结论。
 
-详见：[原始数据只读，其余都能重新生成](general/2_during/03_organizing_materials.md#2-原始数据只读其余都能重新生成)；[每个结果都要能追溯到它是怎么来的](general/2_during/03_organizing_materials.md#3-每个结果都要能追溯到它是怎么来的)；[用版本控制，不要用文件名管版本](general/2_during/03_organizing_materials.md#4-用版本控制不要用文件名管版本)；[分清三种笔记](general/2_during/03_organizing_materials.md#5-分清三种笔记)
+详见：[原始数据只读，其余都能重新生成](08_throughout/organizing_materials.md#2-原始数据只读其余都能重新生成)；[每个结果都要能追溯到它是怎么来的](08_throughout/organizing_materials.md#3-每个结果都要能追溯到它是怎么来的)；[用版本控制，不要用文件名管版本](08_throughout/organizing_materials.md#4-用版本控制不要用文件名管版本)；[分清三种笔记](08_throughout/organizing_materials.md#5-分清三种笔记)
 
 ## 写作与发表
 
@@ -89,14 +89,14 @@
 - 按"背景—内容—结论"组织；引言回答五个问题。
 - 尽早动笔：实验没做完也能先写设计和空表格。
 
-详见：[先想清楚一个核心信息](general/3_after/01_writing.md#1-先想清楚一个核心信息)；[按"背景—内容—结论"组织，先亮出结论](general/3_after/01_writing.md#3-按背景内容结论组织先亮出结论)；[把引言写好：回答五个问题](general/3_after/01_writing.md#4-把引言写好回答五个问题)；[尽早动笔，把写作当作研究的一部分](general/3_after/01_writing.md#6-尽早动笔把写作当作研究的一部分)
+详见：[先想清楚一个核心信息](04_write-and-publish/01_story-and-paper.md#1-找到故事一句核心主张)；[按"背景—内容—结论"组织，先亮出结论](04_write-and-publish/01_story-and-paper.md#3-标题和摘要把整个故事讲完)；[把引言写好：回答五个问题](04_write-and-publish/01_story-and-paper.md#4-引言五个问题加一份贡献清单)；[尽早动笔，把写作当作研究的一部分](04_write-and-publish/01_story-and-paper.md#2-先搭提纲再写句子)
 
 ### 论文被拒了
 
 - 先接纳情绪，被拒是常态，不是针对你这个人。
 - 把审稿意见整理成修改清单，逐条改进后再投。
 
-详见：[面对拒稿：把意见变成修改清单](general/3_after/02_reviewing_and_publishing.md#6-面对拒稿把意见变成修改清单)；[把失败和被拒当作常态](general/4_throughout/03_mindset_and_growth.md#1-把失败和被拒当作常态)
+详见：[面对拒稿：把意见变成修改清单](04_write-and-publish/03_review-and-revision.md#6-被拒之后先重新评估再决定去哪)；[把失败和被拒当作常态](08_throughout/mindset_and_growth.md#1-有意识地培养研究品味)
 
 ### 要写回复审稿意见（rebuttal）
 
@@ -104,14 +104,14 @@
 - 把意见逐条列表，按重要性排序，最重要的先答；每条先点出问题，再直接回答；有分歧时拿数据说话。
 - 回复救不了一篇差论文，它主要在录用边缘时起作用。
 
-详见：[回复审稿意见：写给做决定的人看](general/3_after/02_reviewing_and_publishing.md#5-回复审稿意见写给做决定的人看)
+详见：[回复审稿意见：写给做决定的人看](04_write-and-publish/03_review-and-revision.md)
 
 ### 第一次当审稿人
 
 - 先判断论文的核心主张和证据是否成立，再看细节；意见要具体、有用。
 - 正确判断新颖性：简单而深刻的想法也是新颖的；不提不成立的批评。
 
-详见：[先弄清审稿人在判断什么、谁做决定](general/3_after/02_reviewing_and_publishing.md#1-先弄清审稿人在判断什么谁做决定)；[当审稿人：写一份公正、具体、有用的审稿意见](general/3_after/02_reviewing_and_publishing.md#3-当审稿人写一份公正具体有用的审稿意见)；[正确判断新颖性，不提不成立的批评](general/3_after/02_reviewing_and_publishing.md#4-正确判断新颖性不提不成立的批评)
+详见：[先弄清审稿人在判断什么、谁做决定](04_write-and-publish/02_venue-and-submission.md#6-投出去之后会发生什么)；[当审稿人：写一份公正、具体、有用的审稿意见](08_throughout/being_a_reviewer.md)；[正确判断新颖性，不提不成立的批评](08_throughout/being_a_reviewer.md#4-按它的套路评判它)
 
 ## 合作与心态
 
@@ -122,13 +122,13 @@
 - 坏消息也要尽早说。
 - 导师实在太忙，可以和组里的高年级同学或博士后结对，日常多和他们交流，重要节点再向导师汇报。
 
-详见：[先把彼此的期望说清楚](general/4_throughout/01_collaboration_and_advisors.md#1-先把彼此的期望说清楚)；[开好每一次会](general/4_throughout/01_collaboration_and_advisors.md#2-开好每一次会)；[项目是你的：主动提出下一步](general/4_throughout/01_collaboration_and_advisors.md#4-项目是你的主动提出下一步)；[和同伴合作](general/4_throughout/01_collaboration_and_advisors.md#5-和同伴合作)
+详见：[先把彼此的期望说清楚](08_throughout/collaboration_and_advisors.md#1-先问清导师怎么带人也说清你的情况)；[开好每一次会](08_throughout/collaboration_and_advisors.md#2-开好每一次会)；[项目是你的：主动提出下一步](08_throughout/collaboration_and_advisors.md#4-项目是你的主动提出下一步)；[和同伴合作](08_throughout/collaboration_and_advisors.md#5-和同伴组外的人合作)
 
 ### 合作中署名、分工有分歧
 
 - 尽早谈清署名和分工。谁该署名，以 ALLEA 准则的四个条件为准：有实质贡献、起草或修改过论文、同意终稿、对内容负责；具体规则再看所在领域和机构的规范。
 
-详见：[处理好署名和功劳](general/4_throughout/01_collaboration_and_advisors.md#6-处理好署名和功劳)；[署名和引用：给每个贡献者应得的认可](general/4_throughout/02_integrity_and_ethics.md#5-署名和引用给每个贡献者应得的认可)
+详见：[处理好署名和功劳](08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)；[署名和引用：给每个贡献者应得的认可](08_throughout/integrity_and_ethics.md#5-署名引用和利益冲突给每个贡献者应得的认可)
 
 ### 觉得自己不适合做研究、压力大、坚持不下去
 
@@ -136,11 +136,11 @@
 - 保持能长期维持的节奏，照顾好身体；别一个人闷头干。
 - 把困难告诉导师，一起想办法；压力大到影响生活时，去找学校的心理咨询或心理健康服务。`[本项目分析]`
 
-详见：[把失败和被拒当作常态](general/4_throughout/03_mindset_and_growth.md#1-把失败和被拒当作常态)；[保持能长期维持的节奏](general/4_throughout/03_mindset_and_growth.md#5-保持能长期维持的节奏)；[让门开着：别一个人闷头干](general/4_throughout/03_mindset_and_growth.md#4-让门开着别一个人闷头干)
+详见：[把失败和被拒当作常态](08_throughout/mindset_and_growth.md#1-有意识地培养研究品味)；[保持能长期维持的节奏](08_throughout/mindset_and_growth.md#6-保持能长期维持的节奏)；[让门开着：别一个人闷头干](08_throughout/mindset_and_growth.md#5-别一个人闷头干)
 
 ### 不确定某个做法是否越界（例如只报告好看的结果）
 
 - 只报告显著的结果、看到结果再改假设、挑选有利的数据，都是公认的不当做法。
 - 研究涉及人时，先保护人。
 
-详见：[报告全部结果，包括负面结果](general/4_throughout/02_integrity_and_ethics.md#2-报告全部结果包括负面结果)；[研究涉及人时，先保护人](general/4_throughout/02_integrity_and_ethics.md#4-研究涉及人时先保护人)；[守住红线；发现错误，主动更正](general/4_throughout/02_integrity_and_ethics.md#6-守住红线发现错误主动更正)
+详见：[报告全部结果，包括负面结果](08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)；[研究涉及人时，先保护人](08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；[守住红线；发现错误，主动更正](08_throughout/integrity_and_ethics.md#7-发现错误主动更正)

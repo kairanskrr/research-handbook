@@ -4,7 +4,7 @@
 
 本文讲**混合方法研究**（mixed methods research）和更宽泛的**多方法研究**（multi-method research）：围绕同一个研究问题，组合两种及以上的方法。例如先从代码仓库中挖出规律，再访谈开发者解释原因；或者先访谈形成假设，再用问卷在更大范围检验。
 
-本文只讲"怎么组合"。每个组成部分本身怎么做，见对应的文档：[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)、[访谈研究](interview_study.md)、[问卷调查](questionnaire_survey.md)等。怎样根据问题选方法，见通用篇的[研究设计与方法选择](../general/1_before/04_research_design.md)。
+本文只讲"怎么组合"。每个组成部分本身怎么做，见对应的文档：[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)、[访谈研究](interview_study.md)、[问卷调查](questionnaire_survey.md)等。怎样根据问题选方法，见通用篇的[研究设计与方法选择](../02_from-project-to-study/01_question-to-evidence.md)。
 
 **读完本文，你应该能：**
 

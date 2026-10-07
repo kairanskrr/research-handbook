@@ -195,7 +195,7 @@
 - **美国内政部，Secretary of the Interior's Standards and Guidelines for Archeology and Historic Preservation（1983）**：美国国家公园管理局网站免费下载，"考古记录"部分讲研究设计、野外记录、报告和保管。
 - **Historic England，Radiocarbon Dating and Chronological Modelling**：英格兰历史遗产局的放射性碳测年和年代建模指南，计划测年时查阅（本文未摘录其内容）。
 - **考古数据服务中心（Archaeology Data Service）的 Guides to Good Practice**：英国的考古数字档案机构发布，讲数字数据怎样创建、整理和存档（本文未摘录其内容）。
-- 研究设计的通用原则见通用篇的[研究设计](../../../general/1_before/04_research_design.md)；从单个遗址怎样推广结论，可参考计算机篇的[案例研究](../../../06_methods/case_study.md)。
+- 研究设计的通用原则见通用篇的[研究设计](../../../02_from-project-to-study/01_question-to-evidence.md)；从单个遗址怎样推广结论，可参考计算机篇的[案例研究](../../../06_methods/case_study.md)。
 
 [^cifa2023excavation-e1]: CIfA 2023，发掘标准，开头。[证据](../../../../sources/notes/cifa2023excavation.md#e1)
 [^cifa2023excavation-e9]: CIfA 2023，发掘通用指南 2.2。[证据](../../../../sources/notes/cifa2023excavation.md#e9)

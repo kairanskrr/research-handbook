@@ -4,7 +4,7 @@
 
 本文讲**问卷调查**（questionnaire survey）：设计一份以封闭式题目为主的问卷，发给一批人填写，再系统地分析回答。例如调查开发者怎样使用代码审查工具、安全工程师怎样处理漏洞报告；计算机以外，教育学调查教师怎样使用在线教学平台，也是同一类研究。
 
-如果你要做的是一对一的开放式访谈，那是另一类研究（定性调查，或称访谈研究）[^ralph2020empirical-e256]，见[访谈研究](interview_study.md)。抽样的基本概念（总体、抽样框、样本、代表性）见通用篇[说清为什么选这些样本](../general/1_before/04_research_design.md#5-说清为什么选这些样本)，涉及人的研究的一般伦理要求见[科研诚信与伦理](../general/4_throughout/02_integrity_and_ethics.md)，这里只讲问卷特有的部分。
+如果你要做的是一对一的开放式访谈，那是另一类研究（定性调查，或称访谈研究）[^ralph2020empirical-e256]，见[访谈研究](interview_study.md)。抽样的基本概念（总体、抽样框、样本、代表性）见通用篇[说清为什么选这些样本](../02_from-project-to-study/01_question-to-evidence.md#3-定下研究对象分析单元和总体)，涉及人的研究的一般伦理要求见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md)，这里只讲问卷特有的部分。
 
 **读完本文，你应该能：**
 
@@ -110,13 +110,13 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 - 试填后**和试填者聊一聊**，确认题目被轻松、正确地理解[^wagner2020challenges-e24]。多语言问卷，Wagner 等人请同为母语者的独立团队成员试填，检验每个译本[^wagner2020challenges-e25]。
 - **记下改了什么，写进论文**[^molleri2020empirically-e8][^ralph2020empirical-e242]。
-- 根据预调查反复改过的问卷，不能再用同一批预调查数据证明它有效 `[本项目分析]`，道理同通用篇[留一份数据只用于最后检验](../general/2_during/02_evidence_and_validity.md#4-留一份数据只用于最后检验)。
+- 根据预调查反复改过的问卷，不能再用同一批预调查数据证明它有效 `[本项目分析]`，道理同通用篇[留一份数据只用于最后检验](../05_research-strategies/compare_evaluate.md#2-什么样的证据才够)。
 
 ### 第六步：分析封闭题
 
 **先做描述统计。** 单选、多选题报告比例，用条形图展示。李克特题是**定序数据**：能排序，但不能确定相邻两档之间距离相等；只有距离明确的数据才能用全部统计检验[^wagner2020challenges-e15]。所以集中趋势用**众数和中位数**，用堆叠条形图展示每道题的完整分布[^wagner2020challenges-e16]；做检验时用秩检验（如 Wilcoxon 符号秩检验），因为定序数据不满足 t 检验等方法的假设[^wagner2020challenges-e17]。
 
-**再看效应量和代表性。** 问卷容易拿到大样本，样本越大越容易"显著"，所以要报告效应量（差异或关联有多大）[^wagner2020challenges-e18]。样本没有代表性时，显著性检验到底说明了什么并不清楚[^wagner2020challenges-e19]。可以把自己样本的人口学分布和大型公开调查比较，估计代表性；但公开调查本身也有偏差，例如 Stack Overflow 年度调查只覆盖它的注册用户[^wagner2020challenges-e5]。显著性和效应量的一般讲法见通用篇[认真对待随机性和统计](../general/2_during/02_evidence_and_validity.md#5-认真对待随机性和统计)。
+**再看效应量和代表性。** 问卷容易拿到大样本，样本越大越容易"显著"，所以要报告效应量（差异或关联有多大）[^wagner2020challenges-e18]。样本没有代表性时，显著性检验到底说明了什么并不清楚[^wagner2020challenges-e19]。可以把自己样本的人口学分布和大型公开调查比较，估计代表性；但公开调查本身也有偏差，例如 Stack Overflow 年度调查只覆盖它的注册用户[^wagner2020challenges-e5]。显著性和效应量的一般讲法见通用篇[认真对待随机性和统计](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 > **不同的看法：李克特数据能不能算平均数？**
 > - **按定序数据处理**：Wagner 等人认为李克特题是定序数据，应当用中位数而不是平均数，检验用秩检验[^wagner2020challenges-e15][^wagner2020challenges-e17]。
@@ -133,7 +133,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第八步：伦理、知情同意和匿名
 
-通用要求（风险、知情同意、隐私、伦理审查）见[科研诚信与伦理](../general/4_throughout/02_integrity_and_ethics.md)，这里只列问卷特有的几点。
+通用要求（风险、知情同意、隐私、伦理审查）见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md)，这里只列问卷特有的几点。
 
 - **别把公开邮箱当成招募名单。** 从 GitHub 提交记录里收集邮箱、群发未经请求的邀请，是常见但有伦理问题的做法[^wagner2020challenges-e8][^baltes2022sampling-e22]；按市场调查行业的伦理准则，用 GitHub 或 Stack Overflow 上的用户信息联系潜在参与者不合乎伦理[^wagner2020challenges-e9]。有作者这样做后收到了被打扰者的抱怨[^wagner2020challenges-e10]。他们当时写了一封简短、礼貌、由对方主动选择是否参加的邀请，同时充当知情同意书[^wagner2020challenges-e10]。新手应先问导师和伦理委员会。`[本项目分析]`
 - **知情同意可以写在问卷首页。** 填写一份明确说明属于研究项目的问卷，可以视为同意，不一定需要单独的同意书[^ralph2020empirical-e254]。给了报酬的，要说明报酬，以及怎样避免强迫[^ralph2020empirical-e255]。
@@ -141,7 +141,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第九步：报告
 
-除了研究型论文的一般写法（见[写作](../general/3_after/01_writing.md)），问卷论文要写清：
+除了研究型论文的一般写法（见[写作](../04_write-and-publish/01_story-and-paper.md)），问卷论文要写清：
 
 - 目标总体、抽样策略、招募方式（名单、广告、邀请、激励）[^ralph2020empirical-e235]；
 - 回应率，以及为提高回应用了哪些办法[^ralph2020empirical-e238][^molleri2020empirically-e9]；

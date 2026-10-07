@@ -124,7 +124,7 @@
 - **详细描述情境**，包括采取了哪些干预[^staron2025guidelines-e20]，例如组织类型、团队规模、项目背景 `[本项目分析]`。如果只能在公开组织名称和公开组织特征之间二选一，特征对读者更有用[^staron2025guidelines-e20]；
 - **讲清过程**：行动研究达不到自然科学那样的可重复性，但要讲清你得出结论所依据的过程[^santos2011action-e6]。
 
-效度的一般讨论见通用篇[证据、分析与效度](../general/2_during/02_evidence_and_validity.md)。
+效度的一般讨论见通用篇[证据、分析与效度](../02_from-project-to-study/03_validity-and-limits.md)。
 
 ---
 
@@ -138,7 +138,7 @@
 - **不为了论文牺牲问题本身**：协议的目标始终是解决真实问题[^santos2011action-e12]。
 - 不要强推参与者或组织不能接受的干预[^ralph2020empirical-e341]。
 
-研究伦理的一般原则见通用篇[科研诚信与伦理](../general/4_throughout/02_integrity_and_ethics.md)。所有研究都必须承认并减轻研究可能带来的风险和伤害[^ralph2020empirical-e65]。
+研究伦理的一般原则见通用篇[科研诚信与伦理](../08_throughout/integrity_and_ethics.md)。所有研究都必须承认并减轻研究可能带来的风险和伤害[^ralph2020empirical-e65]。
 
 ---
 

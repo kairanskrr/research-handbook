@@ -48,7 +48,7 @@ Wex 说，大陆法系主要以成文法典和制定法为基础，普通法以�
 
 **怎样缩小题目。** 讲义给的角度：只看一条法律在一个法域的适用；挑战某个法律术语的现行定义；把一个问题和另一个比较[^georgetown2020topic-e3]。但一开始别缩得太窄，缩小后的题目应当还能想出几个不同的论点[^georgetown2020topic-e4]。**做"抢先检查"。** 选定题目后、确定论点前，查一查别人是否写过同样的论点[^georgetown2026research-e4]。找到同题目的文章很正常，不等于被抢先[^georgetown2026research-e5]；只有别人发表了论点和理由都相同的文章，或你依据的事实变了（比如出了新判决），才算被抢先[^georgetown2020topic-e5]。
 
-**为什么。** 题目要"值得立论"：能支撑一个原创、有意义的论点[^georgetown2020topic-e1]。**容易错在哪里：**选了一个只能把现行法描述一遍的题目。通用的选题方法见通用篇[选题](../../../general/1_before/02_choosing_a_problem.md)。
+**为什么。** 题目要"值得立论"：能支撑一个原创、有意义的论点[^georgetown2020topic-e1]。**容易错在哪里：**选了一个只能把现行法描述一遍的题目。通用的选题方法见通用篇[选题](../../../01_from-interest-to-project/02_find-problems.md)。
 
 ### 第 2 步：写出研究问题和论点
 
@@ -130,7 +130,7 @@ Wex 说，大陆法系主要以成文法典和制定法为基础，普通法以�
 - 评价和改革的标准（见第 7 步）[^hutchinson2012defining-e36]；
 - 法域、法律截至哪一天、用了哪些推理方法和法条解释方法、没查哪些材料 `[本项目分析]`。
 
-论文结构方面，乔治城大学的学术写作清单要求引言里有全文路线图[^georgetown2026checklist-e2]，各方观点准确呈现并回应[^georgetown2026checklist-e3]，写作是分析而不是描述[^georgetown2026checklist-e4]。通用写法见通用篇[写作](../../../general/3_after/01_writing.md)。
+论文结构方面，乔治城大学的学术写作清单要求引言里有全文路线图[^georgetown2026checklist-e2]，各方观点准确呈现并回应[^georgetown2026checklist-e3]，写作是分析而不是描述[^georgetown2026checklist-e4]。通用写法见通用篇[写作](../../../04_write-and-publish/01_story-and-paper.md)。
 
 ### 第 9 步（可选）：加一点比较法
 

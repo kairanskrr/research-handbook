@@ -4,7 +4,7 @@
 
 本文讲**定量仿真研究**：建立一个模仿真实系统行为的计算模型，在模型上做实验，回答关于系统的问题。例如用仿真比较不同调度策略下的集群吞吐量，或者仿真一个软件项目在不同测试投入下的进度。
 
-如果你测的是真实运行的系统本身，那是[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你用仿真来评估自己提出的新方法或新工具，还要同时满足[工程研究](../07_fields/computer-science/practices/engineering_research.md)的要求。效度的基本概念见通用篇的[证据、分析与效度](../general/2_during/02_evidence_and_validity.md)。
+如果你测的是真实运行的系统本身，那是[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你用仿真来评估自己提出的新方法或新工具，还要同时满足[工程研究](../07_fields/computer-science/practices/engineering_research.md)的要求。效度的基本概念见通用篇的[证据、分析与效度](../02_from-project-to-study/03_validity-and-limits.md)。
 
 **读完本文，你应该能：**
 

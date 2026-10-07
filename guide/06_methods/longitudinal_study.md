@@ -4,7 +4,7 @@
 
 本文讲**纵向研究**（longitudinal study）：在一段时间内，对同一批对象反复测量同样的东西，看它怎样变化。例如跟踪一批项目好几年，看技术债怎样累积和偿还；或者每隔几个月调查同一批开发者，看他们的工作效率怎样变化。
 
-纵向数据很多来自代码仓库的历史，怎样从仓库里抽取和清洗数据，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；统计分析和效度威胁的一般做法，见通用篇的[证据、分析与效度](../general/2_during/02_evidence_and_validity.md)。本文只讲"随时间重复观察"带来的特殊问题。
+纵向数据很多来自代码仓库的历史，怎样从仓库里抽取和清洗数据，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；统计分析和效度威胁的一般做法，见通用篇的[证据、分析与效度](../02_from-project-to-study/03_validity-and-limits.md)。本文只讲"随时间重复观察"带来的特殊问题。
 
 **读完本文，你应该能：**
 
@@ -92,7 +92,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 - 只关心群体层面的变化：可以用重复测量的方法，例如重复测量方差分析、配对 t 检验；要研究不同对象的变化轨迹有何不同：可以用多层模型（也叫分层线性模型）[^kehr2015quantitative-e19]。
 - 要论证为什么选这种分析方法，并说明它适合数据前后相依的特点[^ralph2020empirical-e260]。
-- 纵向分析通常涉及很多变量和多次比较，更容易碰巧得到"显著"结果。建议调整显著性阈值，或者使用贝叶斯统计[^ralph2020empirical-e261]。多次比较和显著性的一般问题，见通用篇的[认真对待随机性和统计](../general/2_during/02_evidence_and_validity.md#5-认真对待随机性和统计)。
+- 纵向分析通常涉及很多变量和多次比较，更容易碰巧得到"显著"结果。建议调整显著性阈值，或者使用贝叶斯统计[^ralph2020empirical-e261]。多次比较和显著性的一般问题，见通用篇的[认真对待随机性和统计](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第七步：小心"时间"本身带来的效度威胁
 
@@ -106,7 +106,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第八步：报告
 
-除了通用的报告要求（见通用篇的[写作](../general/3_after/01_writing.md)），纵向研究要特别写清：对象是谁、怎样选出[^ralph2020empirical-e263]；时点和间隔怎样确定；每轮流失多少、缺失怎样处理[^ralph2020empirical-e262]；指标怎样从概念变成测量[^ralph2020empirical-e263]；收集数据的成本和用过的激励[^ralph2020empirical-e267]。公开数据集、采集脚本和分析脚本[^ralph2020empirical-e267]。承认了局限，结论就要真的受它约束[^ralph2020empirical-e103][^ralph2020empirical-e126]。
+除了通用的报告要求（见通用篇的[写作](../04_write-and-publish/01_story-and-paper.md)），纵向研究要特别写清：对象是谁、怎样选出[^ralph2020empirical-e263]；时点和间隔怎样确定；每轮流失多少、缺失怎样处理[^ralph2020empirical-e262]；指标怎样从概念变成测量[^ralph2020empirical-e263]；收集数据的成本和用过的激励[^ralph2020empirical-e267]。公开数据集、采集脚本和分析脚本[^ralph2020empirical-e267]。承认了局限，结论就要真的受它约束[^ralph2020empirical-e103][^ralph2020empirical-e126]。
 
 ---
 
