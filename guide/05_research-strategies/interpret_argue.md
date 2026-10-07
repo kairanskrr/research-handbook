@@ -1,0 +1,26 @@
+# 解读论证
+
+> **状态**：占位，待扩写 · **最后更新**：2026-10-07
+
+## 这是什么套路
+
+**解读论证产生的知识，是对文本、制度、思想的新理解。** 核心主张可以是"这段文本应当这样读""这条法律应当这样解释""这个论证不成立，因为……"，再用文本、史料和推理把这个理解论证出来 `[本项目分析]`。
+
+这类研究多见于人文社科 `[本项目分析]`。它和其他七种套路的区别、怎样按核心主张判断自己是否属于这一类，见[怎样选出主要套路](README.md#怎样选出主要套路)。
+
+## 为什么这里只是占位
+
+本手册的结构按所有学科都能用的方式设计，但内容先写计算机，其他学科以后再补。按这个安排，解读论证暂时只留占位：它要产生什么知识、需要什么证据、各学科怎样判断"论证得好不好"，都留待以后补写。
+
+## 现在可以先看哪里
+
+在补写之前，下面几篇学科文档已经讲了这类研究的具体做法。它们按学科写，资料多来自英美等少数国家和机构，读之前先看各篇开头对资料来源和适用范围的说明：
+
+| 学科 | 文档 | 讲什么 |
+|---|---|---|
+| 历史 | [档案研究](../fields/history-archaeology/research-types/archival_research.md) | 查阅未出版的原始记录，用它们回答关于过去的问题 |
+| 文学 | [文本细读与文学论证](../fields/languages-literature/research-types/close_reading.md) | 细读文本，提出一种解读，再用文本证据论证它 |
+| 哲学 | [哲学论证研究](../fields/philosophy-ethics-religion/research-types/philosophical_argument.md) | 提出论题、给出论证、回应反驳 |
+| 法学 | [规范法学研究](../fields/law/research-types/doctrinal_research.md) | 找到相关的法，解释法条和判决，提出论点 |
+
+这些学科的整体规矩，见各自的领域概况：[历史与考古](../fields/history-archaeology/README.md)、[语言与文学](../fields/languages-literature/README.md)、[哲学、伦理与宗教](../fields/philosophy-ethics-religion/README.md)、[法学](../fields/law/README.md)。

@@ -152,3 +152,9 @@
 - 位置：Summary
 - 原文："We often try easier tasks first, when instead we should try the most informative tasks first."
 - 要点：人们常先做容易的任务，其实应当先做信息量最大的任务。
+
+### E24
+
+- 位置：Some further practical ideas
+- 原文："For empirical work, measuring "ceilings" (an upper bound of how high performance could possibly be) is often useful." / "we can easily substitute a "cheating" version of that component (e.g. by looking at the test set or by using information that won't be available at deployment time)" / "Together with ceilings, they delineate a range of possible performance, which helps us interpret our core results."
+- 要点：做实证工作时，测出"上限"（效果最高可能有多好）常常很有用，例如把难实现的部分先换成"作弊"版本（偷看测试集，或用部署时拿不到的信息）；上限和基线一起划出效果可能落在的范围，帮助解读核心结果。

@@ -164,3 +164,231 @@
 - 位置：§7.0 Empirical Validity，第 19 页（作者转述 Creswell 2002 提出的八条策略，认为适合民族志和探索型案例研究）
 - 原文："2. Member checking: go back to research participants to ensure that the interpretations of the data make sense from their perspective. [...] 5. Report discrepant information: when reporting findings, report not only those results which confirm the emerging theory, but also those which appear to present different perspectives on the findings."
 - 要点：成员核查：回去找参与者，确认对数据的解读从他们的角度看说得通；报告不一致的信息：不只报告支持正在形成的理论的结果，也报告呈现不同视角的结果。
+
+### E28
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："In contrast, most non-empirical research in software engineering focuses on a very different type of question concerned with designing better ways to do software engineering" / "Design questions of the form, “What’s an effective way to achieve X?” or, “What strategies help to achieve X?”"
+- 要点：和关于"世界是什么样"的知识问题不同，软件工程中多数非实证研究关心的是设计问题：怎样更好地做事，形式如"实现 X 的有效办法是什么？""什么策略有助于实现 X？"
+
+### E29
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："These types of question are necessary when the goal is to design better procedures and tools for carrying out some activity or to design suitable social or regulatory policies. Such questions presuppose that the associated knowledge questions have already been addressed so that we have enough information about the nature of the design problem to be solved." / "In practice, a long term software engineering research program involves a mix of design questions and knowledge questions"
+- 要点：目标是设计更好的流程、工具或政策时，需要设计问题；但设计问题以相关的知识问题已经回答为前提，要先对待解决的设计问题有足够了解。长期的研究计划通常是设计问题和知识问题交替出现。
+
+### E30
+
+- 位置：Abstract
+- 原文："Selecting a research method for empirical software engineering research is problematic because the benefits and challenges to using each method are not yet well catalogued. Therefore, this chapter describes a number of empirical methods available. It examines the goals of each and analyzes the types of questions each best addresses."
+- 要点：这一章讲软件工程的实证研究方法，分析每种方法最适合回答哪类问题。
+
+### E31
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："One of the first steps in choosing an appropriate research method is to clarify the research question."
+- 要点：选研究方法的第一步之一，是先把研究问题弄清楚。
+
+### E32
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："In the early stages of a research program, we usually need to ask exploratory questions, as we attempt to understand the phenomena, and identify useful distinctions that clarify our understanding." / "Existence questions of the form, “Does X exist?”" / "Description and Classification questions such as, “What is X like?”, “What are its properties?”, “How can it be categorized?”, “How can we measure it?”"
+- 要点：研究刚起步时，通常先问探索性问题，包括"X 存在吗"（存在问题）和"X 是什么样、有什么性质、怎么分类、怎么测量"（描述与分类问题）。
+
+### E33
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Descriptive-Comparative questions of the form, “How does X differ from Y?” investigate similarities and differences between two or more phenomena."
+- 要点：描述性比较问题问"X 和 Y 有什么不同"。
+
+### E34
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Once we have a clearer understanding of the phenomena, we may need to ask base-rate questions about the normal patterns of occurrence of the phenomena. If we fail to ask base-rate questions, then we have no basis for saying whether a particular situation is normal or unusual."
+- 要点：弄清现象之后，要问基础比率问题：现象通常多常见、怎样分布。不问这类问题，就无法判断某个情况是正常还是反常。
+
+### E35
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Relationship questions such as, “Are X and Y related?” and, “Do occurrences of X correlate with the occurrences of Y?”"
+- 要点：关系问题问 X 和 Y 是否相关。
+
+### E36
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："It is a common mistake to confuse correlation with causality. In general it is much harder to demonstrate causality than to show that two variables are correlated."
+- 要点：把相关当成因果是常见错误；证明因果通常比证明相关难得多。
+
+### E37
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Causality questions of the form, “Does X cause Y?” and “Does X prevent Y?”" / "Causality-Comparative questions investigate relationships between different causes: “Does X cause more Y than does Z?”"
+- 要点：因果问题问"X 是否导致 Y"；因果比较问题问"X 是否比 Z 导致更多的 Y"。
+
+### E38
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："The classes of research question above are all knowledge questions focused on the way the world is. Empirical research in software engineering addresses these types of questions. In contrast, most non-empirical research in software engineering focuses on a very different type of question concerned with designing better ways to do software engineering"
+- 要点：以上都是关于"世界是什么样"的知识问题，由实证研究回答；另一类完全不同的问题是设计更好的做法。
+
+### E39
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Design questions of the form, “What’s an effective way to achieve X?” or, “What strategies help to achieve X?”"
+- 要点：设计问题问"做到 X 的有效办法是什么"。
+
+### E40
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Such questions presuppose that the associated knowledge questions have already been addressed so that we have enough information about the nature of the design problem to be solved. In practice, a long term software engineering research program involves a mix of design questions and knowledge questions"
+- 要点：设计问题的前提是相关的知识问题已经回答过，对要解决的问题有足够了解；长期的研究计划会混合设计问题和知识问题。
+
+### E41
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："It is possible that there are already good answers to these questions in the published literature. Jane and Joe must still ask these questions. But a literature survey, instead of an empirical study, may answer them."
+- 要点：这些探索性问题可能在已发表文献里已有好答案；仍然要问，但可以用文献调研而不是实证研究来回答。
+
+### E42
+
+- 位置：§1.0 Introduction
+- 原文："We describe the tradeoffs involved in choosing between these methods, but do not provide a recipe for building research strategies, as we doubt that such recipes exist. The selection of methods for a given research project depends on many local contingencies, including available resources, access to subjects, opportunity to control the variables of interest, and, of course, the skills of the researcher."
+- 要点：作者不提供组合研究方法的固定配方，认为这种配方不存在；选方法取决于资源、能否接触研究对象、能否控制变量、研究者技能等具体条件。
+
+### E43
+
+- 位置：§2.0 What kind of research question are you asking?
+- 原文："Joe’s question presupposes that we know what a “collaborative shared artifact” is, and can reliably identify one, and even reliably say which things are UML diagrams. Defining the precise meaning of terms is a crucial part of empirical research"
+- 要点：一个看似简单的"有多普遍"问题，预设了我们知道研究对象是什么、能可靠地认出它；把术语的确切含义定义清楚，是实证研究的关键一环。
+
+### E44
+
+- 位置：§2.0
+- 原文："Existence questions of the form, “Does X exist?”" [...] "Description and Classification questions such as, “What is X like?”, “What are its properties?”, “How can it be categorized?”, “How can we measure it?”"
+- 要点：探索性问题包括存在性问题（X 存在吗）和描述分类问题（X 是什么样的、有什么性质、怎样分类、怎样测量）。
+
+### E45
+
+- 位置：§2.0
+- 原文："In the early stages of a research program, we usually need to ask exploratory questions, as we attempt to understand the phenomena, and identify useful distinctions that clarify our understanding. Suitable research methods for exploratory questions tend to be those that offer rich, qualitative data, which help us to build tentative theories."
+- 要点：研究早期通常要先问探索性问题，理解现象、找出有用的区分；适合的方法往往能提供丰富的定性数据，帮助建立初步理论。
+
+### E46
+
+- 位置：§2.0
+- 原文："Frequency and distribution questions such as, “How often does X occur?” and, “What is" [...] "Often, these questions can be answered in terms of a standard distribution of a characteristic within a well-defined population."
+- 要点：频率和分布问题问"X 多常发生、平均有多少"，常常用一个定义清楚的总体中某特征的分布来回答。
+
+### E47
+
+- 位置：§2.0
+- 原文："Descriptive-Comparative questions of the form, “How does X differ from Y?” investigate similarities and differences between two or more phenomena." [...] "Descriptive-Process questions of the form, “How does X normally work?”, “What is the process by which X happens?”"
+- 要点：描述比较问题问 X 和 Y 有什么异同；描述过程问题问 X 通常怎样运作、经过什么过程发生。
+
+### E48
+
+- 位置：§2.0
+- 原文："Such questions presuppose that the associated knowledge questions have already been addressed so that we have enough information about the nature of the design problem to be solved."
+- 要点："怎样有效地做到 X"这类设计问题，预设了相关的知识问题已经回答过，我们对要解决的问题已经了解得足够多。
+
+### E49
+
+- 位置：§5.3 Survey research
+- 原文："The defining characteristic of survey research is the selection of a representative sample from a welldefined population, and the data analysis techniques used to generalize from that sample to the population, usually to answer base-rate questions."
+- 要点：调查研究的标志是从定义清楚的总体中选出有代表性的样本，再从样本推广到总体，通常用来回答基础比率问题。
+
+### E50
+
+- 位置：§5.3 Survey research
+- 原文："Identifying the unit of analysis is important for determining an appropriate sampling technique. For example, if the research question is about software companies, then sampling over individual developers may give a biased sample, with some companies being over-represented because several developers from the same company were included."
+- 要点：分析单元决定该怎样抽样；问题是关于公司的，却按开发者抽样，同一公司的多名开发者会让某些公司被过度代表。
+
+### E51
+
+- 位置：§5.3 Survey research
+- 原文："Low response rates increase the risk of bias." [...] "Or perhaps only people who are frustrated with UML answered his survey."
+- 要点：回复率低会增加偏差风险；例如可能只有对 UML 不满的人回答了问卷。
+
+### E52
+
+- 位置：§5.3 Survey research
+- 原文："Also, it is possible that what people say they do in response to survey questions bears no relationship to what they actually do, because they are unable to introspect reliably on their work practices."
+- 要点：人们在问卷里说自己做了什么，可能和实际做的毫无关系，因为人难以可靠地反省自己的工作方式。
+
+### E53
+
+- 位置：§5.3 Survey research
+- 原文："if he just wishes to establish how widely UML is used, then he would use a cross-sectional design to obtain a snapshot of participants’ current activities." [...] "A cohort study tracks changes over time for a group of participants."
+- 要点：只想知道某样东西用得多广，用横断面设计拍一张当前活动的"快照"；想看随时间的变化，用跟踪同一批对象的队列设计。
+
+### E54
+
+- 位置：§4.0 The Role of Theory Building
+- 原文："Many of the empirical studies conducted over the past few decades fail to relate the collected data to an underlying theory. The net result is that results are hard to interpret, and studies cannot be compared."
+- 要点：过去几十年的许多实证研究没有把数据和背后的理论联系起来，结果难以解读，研究之间也无法比较。
+
+### E55
+
+- 位置：§4.0 The Role of Theory Building
+- 原文："By defining the key terms, the results of empirical studies can be compared."
+- 要点：把关键术语定义清楚，不同实证研究的结果才能互相比较。
+
+### E56
+
+- 位置：§2.0
+- 原文："If high values of X correlate with high values of Y, it may be because X causes Y, or because Y causes X. But it is also possible that X and Y share some common cause and neither causes the other. Or perhaps they co-evolve in complex ways so that there is no clear cause-and-effect."
+- 要点：X 和 Y 相关，可能是 X 导致 Y，可能是 Y 导致 X，也可能二者有共同的原因、互不影响，还可能以复杂的方式共同演变、没有清楚的因果。
+
+### E57
+
+- 位置：§2.0
+- 原文："Causality questions of the form, “Does X cause Y?” and “Does X prevent Y?”" / "In software engineering we often ask whether using a particular tool or technique causes an improvement in quality, speed, and so on."
+- 要点：因果问题问"X 是否导致 Y""X 是否防止 Y"；软件工程常问某个工具或技术是否带来质量、速度等方面的改进。
+
+### E58
+
+- 位置：§2.0
+- 原文："Causality-Comparative questions investigate relationships between different causes: “Does X cause more Y than does Z?”" / "Causality-Comparative Interaction questions investigate how context affects a cause-effect relationship"
+- 要点：因果比较问题比较不同原因的作用（X 是否比 Z 导致更多 Y）；因果比较交互问题研究情境怎样影响因果关系。
+
+### E59
+
+- 位置：§3.0 What will you accept as an empirical truth?
+- 原文："pointing out that the only conclusive way to prove that A causes B is to manipulate A in a controlled setting, and measure the effect on B." / "he claims that laboratory experiments are useless, as they ignore the messy complexity of real software projects."
+- 要点：作者举的例子里，导师认为证明 A 导致 B 唯一确定的办法是在受控环境中操纵 A、测量 B 的变化；另一位有经验的从业者认为实验室实验忽略了真实项目的复杂性。
+
+### E60
+
+- 位置：§5.1 Controlled Experiments
+- 原文："Controlled experiments allow us to determine in precise terms how the variables are related and, specifically, whether a cause-effect relationship exists between them."
+- 要点：对照实验能精确确定变量之间的关系，尤其是它们之间是否存在因果关系。
+
+### E61
+
+- 位置：§5.1
+- 原文："Control is important – variables other than the chosen independent variables must not be allowed to affect the experiment."
+- 要点：控制很重要：选定的自变量以外的变量不能影响实验。
+
+### E62
+
+- 位置：§5.1
+- 原文："The reduction can also mask critical interaction effects, such as the interaction between expertise and preferred navigation environment. For these reasons, if Jane’s experiment confirms her hypothesis, it means she has evidence that fish-eye views are more efficient (as she defines efficiency), but it doesn’t necessarily mean that fisheye views are better suited to navigation!"
+- 要点：实验的简化可能掩盖关键的交互作用；实验支持了假设，只说明在研究者定义的指标下更好，不等于在更广的意义上更好。
+
+### E63
+
+- 位置：§5.1
+- 原文："It is a strength because basing analysis on hypotheses derived from theories reduces problems of “fishing for results”: Some correlations occur by chance, and if we look for long enough we’ll find them."
+- 要点：基于理论推出的假设来分析，能减少"钓结果"的问题：有些相关是偶然出现的，找得够久总能找到。
+
+### E64
+
+- 位置：§5.1
+- 原文："These variations are less powerful than true experiments, and require more careful interpretation."
+- 要点：准实验、时间序列实验等变体不如真实验有力，解释结果时要更小心。
+
+### E65
+
+- 位置：§7.0 Empirical Validity
+- 原文："Internal validity focuses on the study design, and particularly whether the results really do follow from the data. Typical mistakes include the failure to handle confounding variables properly, and misuse of statistical analysis."
+- 要点：内部效度关注研究设计，尤其是结果是否真的由数据得出；典型错误包括没有妥善处理混杂变量、误用统计分析。

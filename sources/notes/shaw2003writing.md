@@ -232,3 +232,33 @@
 - 位置：§4.1，Table 5（Blatant assertion 一行）
 - 原文："Blatant assertion No serious attempt to evaluate result. This is highly unlikely to be acceptable"
 - 要点：只有断言、不认真评估结果的论文，几乎不可能被接受。
+
+### E38
+
+- 位置：§2.1 What kinds of questions do software engineers investigate?
+- 原文："Software engineering research answers questions about methods of development or analysis, about details of designing or evaluating a particular instance, about generalizations over whole classes of systems or techniques, or about exploratory issues concerning existence or feasibility."
+- 要点：软件工程研究回答的问题分几类：开发或分析的方法、具体实例的设计或评估、对一整类系统或技术的概括、存在性或可行性的探索。
+
+### E39
+
+- 位置：§2.1，Table 1 Types of software engineering research questions
+- 原文："How good is Y? What is property X of artifact/method Y? What is a (better) design, implementation, maintenance, or adaptation for application X? How does X compare to Y? What is the current state of X / practice of Y?"
+- 要点：Table 1 中"具体实例的设计、评估或分析"一类问题的问法，包括"Y 有多好""X 和 Y 比较如何""X 的现状如何"。
+
+### E40
+
+- 位置：§2.1，Table 1 Types of software engineering research questions
+- 原文："Given X, what will Y (necessarily) be? What, exactly, do we mean by X? What are its important characteristics? What is a good formal/empirical model for X? What are the varieties of X, how are they related?"
+- 要点：Table 1 中"概括或刻画"一类问题的问法，包括"给定 X，Y 必然是什么"和"X 有哪些种类，彼此什么关系"。
+
+### E41
+
+- 位置：§5 How do you combine the elements into a research strategy?
+- 原文："Selecting a type of result that will answer a given question usually does not seem to present much difficulty, at least for researchers who think carefully about the choice. Blindly adopting the research paradigm someone used last year for a completely different problem is a different case, of course, and it can lead to serious misfits."
+- 要点：认真思考的研究者不难为问题选对结果类型；但照搬别人为完全不同问题用过的研究范式，会导致严重错配。
+
+### E42
+
+- 位置：§5 How do you combine the elements into a research strategy?
+- 原文："Choosing a good form of validation is much harder, and this is often a source of difficulty in completing a successful paper."
+- 要点：选好验证方式要难得多，常常是论文做不成的原因。
