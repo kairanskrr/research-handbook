@@ -26,6 +26,7 @@
   - [实证研究通用](#实证研究通用)
   - [计算机各研究类型的方法资料](#计算机各研究类型的方法资料)
   - [其他学科领域概况的资料](#其他学科领域概况的资料)
+  - [手册章节新增的资料](#手册章节新增的资料)
 - [数据集与工具](#数据集与工具)
 - [论文列表](#论文列表)
   - [LLM 与软件工程](#llm-与软件工程)
@@ -745,6 +746,27 @@
 - [Design-Based Research Process: Problems, Phases, and Applications](https://repository.isls.org/bitstream/1/1130/1/317-324.pdf) - Easterday 等人，Learning and Becoming in Practice: The International Conference of the Learning Sciences (ICLS) 2014 2014。国际学习科学大会论文，把基于设计的研究定义为"聚焦、理解、确定、构思、做出、检验"六个迭代阶段，并提出按项目阶段选方法（早期粗原型、后期随机对照检验）。🆓 `easterday2014design`
 - [An Introduction to Design-Based Research with an Example From Statistics Education](https://dspace.library.uu.nl/handle/1874/356250) - Bakker 等人，Approaches to Qualitative Research in Mathematics Education: Examples of Methodology and Methods 2015。专为硕士、博士生写的基于设计的研究入门章节：与随机对照试验和行动研究的比较、假设的学习轨迹、每轮的三个阶段、数据收集和分析矩阵、效度与信度，附统计教育的完整例子。🆓 `bakker2015introduction`
 - [Design-Based Research: A Methodology to Extend and Enrich Biology Education Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC8711803/) - Scott 等人，CBE–-Life Sciences Education 2020。开放获取的方法论文章，以大学生理学课程为例完整走一轮"设计—检验—评估—反思"，转述 Sandoval 2014 的"认识论承诺"和猜想图思路，并讨论合作、资源和严谨性方面的困难。🆓 `scott2020design`
+
+### 手册章节新增的资料
+
+主线、研究套路和贯穿全程各章新引用的资料（2026-10 新增），按章节分组。
+
+**研究套路：证明**
+
+- [seL4: Formal Verification of an OS Kernel](https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf) - Klein 等人，Proceedings of the 22nd ACM Symposium on Operating Systems Principles (SOSP) 2009。seL4 微内核的完整形式化验证（Isabelle/HOL，从抽象规约到 C 实现）。正文用它说明：证明结论带着明确的假设、规约正确不等于符合用户期望、机器检查证明的代价（约 20 人年、20 万行证明脚本）和收获（发现 144 个缺陷）。🆓 `klein2009sel4`
+
+**主线二：先做小规模试验，排除最大风险**
+
+- [A tutorial on pilot studies: the what, why and how](https://pmc.ncbi.nlm.nih.gov/articles/PMC2824145/) - Thabane 等人，BMC Medical Research Methodology 2010。临床研究方法学期刊上的预研究教程，开放获取（CC BY 2.0）。正文用它说明：预研究为可行性服务；做预研究的四类理由（流程、资源、管理、科学）；事先写明成功标准，结果分为停止 / 修改后继续 / 监控着继续 / 照原方案继续；不要用预研究估计效果、不要强调显著性；"停"也是成功；预研究数据合并必须事先计划；向参与者说明预研究目的。注意：该文 2023 年有一则更正（BMC Med Res Methodol 23:59），本章引用的段落未核对更正内容。🆓 `thabane2010tutorial`
+
+**贯穿全程：计划与日常节奏**
+
+- [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html) - Graham，网页 2009。Paul Graham 的经验文章，区分"做东西的人"和"管理者"两种日程。正文用它说明：需要连续思考的工作以至少半天为单位；一个会议能把下午切碎；把会议集中放在一天末尾。正文已注明它不是针对研究者的调查。🆓 `graham2009makers`
+- [The Cost of Interrupted Work: More Speed and Stress](https://www.ics.uci.edu/~gmark/chi08-mark.pdf) - Mark 等人，Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08) 2008。CHI 2008 短文，48 人的实验室实验（回邮件任务，每两分钟打断一次）。正文用它说明：被打断时完成得更快、质量不变，但压力、挫败感、紧迫感和努力更高，20 分钟内就出现；打断内容是否相关没有差别。正文已注明任务不是研究工作。🆓 `mark2008cost`
+
+**贯穿全程：科研诚信与伦理**
+
+- [NeurIPS 2025 Policy on the Use of Large Language Models](https://neurips.cc/Conferences/2025/LLM) - NeurIPS 2025 Program Chairs，Conference on Neural Information Processing Systems 2025。NeurIPS 2025 对作者和审稿人使用大模型的政策：大模型不能当作者，作者对全部内容负责；作为方法组成部分时要在实验设置中说明；只用于润色不需声明；未核实的大模型生成参考文献属于违规；审稿内容不得分享给大模型。只作为机器学习方向一个会议的例子。🆓 `neurips2025llm`
 
 ## 数据集与工具
 

@@ -639,6 +639,11 @@
 | `usgs2023nfmfield` | Guidelines for Field-Measured Water-Quality Properties | 网页 2023 | [链接](https://doi.org/10.3133/tm9A6.0) |
 | `zuur2010protocol` | A protocol for data exploration to avoid common statistical problems | Methods in Ecology and Evolution 2010 | [链接](https://doi.org/10.1111/j.2041-210X.2009.00001.x) |
 | `dormann2007spatial` | Methods to account for spatial autocorrelation in the analysis of species distributional data: a review | Ecography 2007 | [链接](https://doi.org/10.1111/j.2007.0906-7590.05171.x) |
+| `klein2009sel4` | seL4: Formal Verification of an OS Kernel | Proceedings of the 22nd ACM Symposium on Operating Systems Principles (SOSP) 2009 | [链接](https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf) |
+| `thabane2010tutorial` | A tutorial on pilot studies: the what, why and how | BMC Medical Research Methodology 2010 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC2824145/) |
+| `graham2009makers` | Maker's Schedule, Manager's Schedule | 网页 2009 | [链接](http://www.paulgraham.com/makersschedule.html) |
+| `mark2008cost` | The Cost of Interrupted Work: More Speed and Stress | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08) 2008 | [链接](https://www.ics.uci.edu/~gmark/chi08-mark.pdf) |
+| `neurips2025llm` | NeurIPS 2025 Policy on the Use of Large Language Models | Conference on Neural Information Processing Systems 2025 | [链接](https://neurips.cc/Conferences/2025/LLM) |
 
 ## 待获取
 

@@ -86,3 +86,51 @@
 - 位置：Rule 10，第 8 页
 - 原文："Non-specific feedback and unenthusiastic reviews often imply that the reviewers did not “get” the big picture story line."
 - 要点：笼统、不热情的反馈往往说明读者没抓住主线；很具体的反馈通常指出某段逻辑不够。
+
+### E15
+
+- 位置：Rule 5，第 4 页
+- 原文："The context must communicate to the reader what gap the paper will fill." / "The content (“Here we”) first describes the novel method or approach that you used to fill the gap or question. Then you present the meat—your executive summary of the results." / "the conclusion interprets the results to answer the question that was posed at the end of the context section."
+- 要点：摘要按"背景—内容—结论"写：背景说明论文要填补什么缺口；内容先说用了什么新方法，再给结果的概要；结论解释结果，回答背景末尾提出的问题。
+
+### E16
+
+- 位置：Rule 5，第 4 页
+- 原文："This structure helps you avoid the most common mistake with the abstract, which is to talk about results before the reader is ready to understand them."
+- 要点：摘要最常见的错误，是在读者还没准备好理解时就谈结果。
+
+### E17
+
+- 位置：Rule 1，第 2 页
+- 原文："The title is the ultimate refinement of the paper’s contribution. Thinking about the title early—and regularly returning to hone it—can help not only the writing of the paper but also the process of designing experiments or developing theories."
+- 要点：标题是对论文贡献的最终提炼；尽早想标题并反复打磨，对写作和设计实验都有帮助。
+
+### E18
+
+- 位置：Rule 6，第 6 页
+- 原文："The last paragraph of the introduction is special: it compactly summarizes the results, which fill the gap you just established."
+- 要点：引言最后一段要简要概括结果，说明它们怎样填补了前面提出的缺口。
+
+### E19
+
+- 位置：Rule 7，第 6 页
+- 原文："figures are often viewed by readers who skip directly from the abstract in order to save time. Thus, the title of the figure should communicate the conclusion of the analysis, and the legend should explain how it was done."
+- 要点：很多读者看完摘要直接看图，所以图的标题要说出分析的结论，图注要说明是怎么做的。
+
+### E20
+
+- 位置：Rule 7，第 6–7 页
+- 原文："Each paragraph convinces the reader of the answer given in its last sentence. This makes it easy to find the paragraph in which a suspicious conclusion is drawn and to check the logic of that"
+- 要点：结果部分每段先提出要回答的问题，最后一句给出答案；这样读者容易找到可疑结论出在哪一段，并检查那一段的逻辑。
+
+### E21
+
+- 位置：Rule 9，第 7 页
+- 原文："Make an outline. We like to write one informal sentence for each planned paragraph."
+- 要点：先写提纲，每个计划中的段落写一句非正式的话。
+
+### E22
+
+- 位置：Rule 8，第 7 页
+- 原文："Each of the following paragraphs in the discussion section starts by describing an area of weakness or strength of the paper. It then evaluates the strength or weakness by linking it to the relevant literature."
+- 要点：讨论部分的段落各讲论文的一个弱点或长处，并结合相关文献评价它。

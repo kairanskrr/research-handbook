@@ -44,3 +44,15 @@
 - 位置：The Abstract
 - 原文："State the problem, your approach and solution, and the main contributions of the paper."
 - 要点：摘要写清问题、方法与解决方案、主要贡献，背景和动机少写或不写。
+
+### E8
+
+- 位置：The Introduction
+- 原文："What is the problem?" / "Why is it interesting and important?" / "Why is it hard? (E.g., why do naive approaches fail?)" / "Why hasn't it been solved before? (Or, what's wrong with previous proposed solutions? How does mine differ?)" / "What are the key components of my approach and results? Also include any specific limitations."
+- 要点：引言的五个问题：问题是什么；为什么有趣、重要；为什么难；为什么以前没解决（已有方案哪里不行，我的有何不同）；我的方法和结果的关键部分是什么，包括具体的局限。
+
+### E9
+
+- 位置：Related Work
+- 原文："End, if it can be summarized quickly early on (in the Introduction or Preliminaries), or if sufficient comparisons require the technical content of the paper."
+- 要点：相关工作放在后面的情况：能在引言里先简短概括，或者要讲清比较必须先讲完论文的技术内容。

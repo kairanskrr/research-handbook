@@ -62,3 +62,9 @@
 - 位置：Brevity
 - 原文："Make every word count."
 - 要点：逐节、逐段、逐句、逐词检查，凡是不支持论点的都删掉。
+
+### E11
+
+- 位置：Make the organization and results clear
+- 原文："Some people like to write the abstract, and often also the introduction, last. Doing so makes them easier to write, because the rest of the paper is already complete and can just be described."
+- 要点：有人习惯最后写摘要和引言，因为那时正文已经完成，照着描述就行，写起来更容易。
