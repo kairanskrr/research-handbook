@@ -104,7 +104,7 @@
 
 为什么要组合：每种方法都有已知的缺陷，只能提供有限的证据；但各方法的缺陷不同，所以可以挑几种互相弥补[^easterbrook2008selecting-e1]。选哪几种没有固定配方，要看你有多少资源、能不能接触到研究对象、能不能控制想研究的变量，以及你自己会什么[^easterbrook2008selecting-e42]。
 
-为什么不能反过来，从"我会做实验"或"别人都这么做"出发：照搬别人为完全不同的问题用过的研究范式，会导致严重的错配[^shaw2003writing-e41]。怎样从套路走到具体方法，见[选择套路与方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
+为什么不能反过来，从"我会做实验"或"别人都这么做"出发：照搬别人为完全不同的问题用过的研究范式，会导致严重的错配[^shaw2003writing-e41]。怎样从套路走到具体方法，见[选定研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
 
 ## 为什么从头到尾都要想着套路
 
@@ -123,7 +123,7 @@
 ## 下一步
 
 - 想知道某种套路具体要做什么：点上面表格里的链接。
-- 已经定了套路，要选具体方法：见[选择套路与方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
+- 已经定了套路，要选具体方法：见[选定研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
 - 还没写出核心主张：回到[收敛成项目](../01_from-interest-to-project/03_converge.md)。
 
 [^shaw2002makes-e5]: Shaw 2002，§1.2.3。[证据](../../sources/notes/shaw2002makes.md#e5)

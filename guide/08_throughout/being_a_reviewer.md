@@ -94,7 +94,7 @@
 
 各套路需要什么证据，见各篇套路说明，例如[构建改进](../05_research-strategies/build_improve.md)、[比较评估](../05_research-strategies/compare_evaluate.md)。
 
-**别提站不住的批评。** 比如因为结果是负面的就拒稿、只因你自己会用别的方法就否定它。软件工程审稿标准列了一份"不成立的批评"清单，作者可以有理有据地反驳，见[审稿意见与修改](../04_write-and-publish/03_review-and-revision.md#3-决定改什么争什么)；当审稿人时，先对照这份清单检查自己 `[本项目分析]`。
+**别提站不住的批评。** 比如因为结果是负面的就拒稿、只因你自己会用别的方法就否定它。软件工程审稿标准列了一份"不成立的批评"清单，作者可以有理有据地反驳，见[审稿意见、修改与被拒之后](../04_write-and-publish/03_review-and-revision.md#3-决定改什么争什么)；当审稿人时，先对照这份清单检查自己 `[本项目分析]`。
 
 **为什么：** 一种套路有它自己的"什么算够"。拿构建改进的标准要求一篇观察研究"提出新方法"，等于要求作者写另一篇论文 `[本项目分析]`。
 
@@ -175,7 +175,7 @@
 ## 延伸阅读
 
 - 怎样读懂一篇论文的核心主张、判断它属于哪种套路：[研究套路](../05_research-strategies/README.md)
-- 站在作者一方，怎样回复审稿意见、怎样修改：[审稿意见与修改](../04_write-and-publish/03_review-and-revision.md)
+- 站在作者一方，怎样回复审稿意见、怎样修改：[审稿意见、修改与被拒之后](../04_write-and-publish/03_review-and-revision.md)
 - 审稿之外的科研诚信问题：[科研诚信与伦理](integrity_and_ethics.md)
 - 外部资料：Bourne & Korngreen 的《Ten Simple Rules for Reviewers》（PLoS Computational Biology，2006）；Roscoe 的《Writing reviews for systems conferences》（2007）；ACM SIGSOFT 实证研究标准中关于审稿的部分。
 

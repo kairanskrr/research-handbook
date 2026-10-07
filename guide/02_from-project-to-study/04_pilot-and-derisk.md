@@ -6,7 +6,7 @@
 
 ## 你现在在哪里
 
-你的研究设计基本定了：知道要证明哪条主张、需要什么证据（见[从问题到证据](01_question-to-evidence.md)），选好了研究套路和研究方法（见[选择研究套路与方法](02_choose-strategy-and-method.md)），也想过结论可能在哪里站不住（见[效度与局限](03_validity-and-limits.md)）。
+你的研究设计基本定了：知道要证明哪条主张、需要什么证据（见[从研究问题到证据清单](01_question-to-evidence.md)），选好了研究套路和研究方法（见[选定研究套路和方法](02_choose-strategy-and-method.md)），也想过结论可能在哪里站不住（见[效度与局限](03_validity-and-limits.md)）。
 
 在[收敛成项目](../01_from-interest-to-project/03_converge.md#5-你做得出来吗)时，你已经用一个小实验试过项目里最没把握的部分，那次试验回答的是"这个项目值不值得做、做不做得出来"。在[研究计划](../01_from-interest-to-project/04_research-plan.md#4-排顺序最可能失败的先做)里，你也把最可能失败的里程碑排在了最前面。
 
@@ -243,8 +243,8 @@
 | 出现这种情况 | 回到哪里 |
 |---|---|
 | 核心假设不成立，比如要测的差别几乎不存在 | [收敛成项目](../01_from-interest-to-project/03_converge.md#1-写出你想证明的那句话)，收窄或换一个主张 |
-| 需要的数据、工具或参与者拿不到 | [选择研究套路与方法](02_choose-strategy-and-method.md)，换一种能拿到的证据 |
-| 测量方法或标注规则怎么改都不可靠 | [从问题到证据](01_question-to-evidence.md)，重新想用什么来衡量 |
+| 需要的数据、工具或参与者拿不到 | [选定研究套路和方法](02_choose-strategy-and-method.md)，换一种能拿到的证据 |
+| 测量方法或标注规则怎么改都不可靠 | [从研究问题到证据清单](01_question-to-evidence.md)，重新想用什么来衡量 |
 | 试验暴露出原先没想到的效度威胁 | [效度与局限](03_validity-and-limits.md)，补上应对办法 |
 | 时间和费用远超计划 | [形成研究计划](../01_from-interest-to-project/04_research-plan.md#关键判断)，重新决定砍什么 |
 

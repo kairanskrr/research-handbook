@@ -34,7 +34,7 @@
 用 Markdown 脚注，脚注里写资料简称、位置和证据链接：
 
 ```markdown
-系统综述必须在开始检索前写好研究方案。[^kc-e1]
+系统综述必须在开始检索前写好研究方案。[^kitchenham2007guidelines-e1]
 
-[^kc-e1]: Kitchenham & Charters 2007，§5.3。[证据](../../../../sources/notes/kitchenham2007guidelines.md#e1)
+[^kitchenham2007guidelines-e1]: Kitchenham & Charters 2007，§5.3。[证据](../../sources/notes/kitchenham2007guidelines.md#e1)
 ```

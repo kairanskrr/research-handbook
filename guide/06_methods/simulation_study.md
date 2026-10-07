@@ -1,10 +1,14 @@
 # 定量仿真：用计算模型模拟系统或过程
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
 
 本文讲**定量仿真研究**：建立一个模仿真实系统行为的计算模型，在模型上做实验，回答关于系统的问题。例如用仿真比较不同调度策略下的集群吞吐量，或者仿真一个软件项目在不同测试投入下的进度。
 
-如果你测的是真实运行的系统本身，那是[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你用仿真来评估自己提出的新方法或新工具，还要同时满足[工程研究](../07_fields/computer-science/practices/engineering_research.md)的要求。效度的基本概念见通用篇的[证据、分析与效度](../02_from-project-to-study/03_validity-and-limits.md)。
+如果你测的是真实运行的系统本身，那是[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你用仿真来评估自己提出的新方法或新工具，还要同时满足[工程研究](../07_fields/computer-science/practices/engineering_research.md)的要求。效度的基本概念见[效度与局限：设计阶段就想清楚](../02_from-project-to-study/03_validity-and-limits.md)。
+
+**适用范围** `[本项目分析]`：本文的检查清单依据 ACM SIGSOFT（美国计算机协会软件工程分会）为软件工程写的实证研究标准，效度威胁的整理来自软件工程仿真研究的综述，例子以计算机系统和软件项目为主。验证与确认、输出数据分析的做法来自仿真方法的通用教程（Sargent 2010、Alexopoulos & Kim 2002），不限于计算机。其他学科用模型和模拟做研究时，先看本学科的规范，例如土木工程的数值模拟见[土木工程：数值模拟](../07_fields/civil-engineering/README.md#数值模拟先分清验证确认和校准)。
+
+**常服务的套路**：[构建改进](../05_research-strategies/build_improve.md)（真实系统不便直接实验时，在模型上评估新设计）。
 
 **读完本文，你应该能：**
 
@@ -148,7 +152,7 @@ de França & Travassos 的综述发现，软件工程仿真研究的报告质量
 
 ## 3. 检查清单
 
-下面主要依据 SIGSOFT 定量仿真标准。
+下面主要依据 SIGSOFT 定量仿真标准，它是为软件工程写的。
 
 **必须做到**
 

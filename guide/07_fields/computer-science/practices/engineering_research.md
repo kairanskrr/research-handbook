@@ -1,10 +1,10 @@
 # 工程研究：提出并评估新的方法、工具或系统
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
 
 本文讲计算机领域最常见的一类研究：**提出一个新的技术、算法、工具或系统，并证明它有效**。
 
-本文只讲这类研究特有的做法。通用的部分用链接指过去，不在这里重复：主张与证据怎么对应、基线怎么比才公平、消融实验、随机性与统计、效度威胁，见通用篇的[证据、分析与效度](../../../02_from-project-to-study/03_validity-and-limits.md)；论文怎么写，见[写作](../../../04_write-and-publish/01_story-and-paper.md)；代码和数据怎么整理，见[整理科研材料](../../../08_throughout/organizing_materials.md)。如果你只是系统地比较一批现有工具或模型，而不提出新方法，那是[基准评测](benchmarking.md)。
+**适用范围** `[本项目分析]`：这是计算机里"构建改进"这种研究套路的具体做法，例子和标准主要来自软件工程、系统、安全和机器学习。这类研究产生什么知识、审稿人要看到哪些证据、为什么要尽早跑基线、主张和证据怎样对应，这些各学科通用的部分见[构建改进](../../../05_research-strategies/build_improve.md)，本文不重复，只写计算机特有的部分：软件工程评审标准的具体要求、基线和基准在各方向的选法、评估代价的惯例、研究制品的公开和评估。其他通用内容：效度威胁见[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md)；多次运行和随机种子见[比较评估：差异是不是真的](../../../05_research-strategies/compare_evaluate.md#差异是不是真的)，统计的一般做法见[分析与解读：报告差多少、有多确定，而不只是 p 值](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)；论文怎么写见[讲清故事，写成论文](../../../04_write-and-publish/01_story-and-paper.md)；代码和数据怎么整理见[整理科研材料](../../../08_throughout/organizing_materials.md)。如果你只是系统地比较一批现有工具或模型，而不提出新方法，那是[基准评测](benchmarking.md)。
 
 **读完本文，你应该能：**
 
@@ -18,11 +18,9 @@
 
 ## 1. 这是什么研究，什么时候用
 
-ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准（软件工程界按研究方法给出的论文评审标准，下称 SIGSOFT 标准）把它定义为"发明并评估技术制品的研究"[^ralph2020empirical-e79]。这里的**制品**（artifact）范围很广：算法、模型、语言、方法、系统、工具，以及其他基于计算机的技术[^ralph2020empirical-e80]。在软件工程顶会 ICSE 上，报告一种新技术的论文是最常见的一类[^shaw2003writing-e26]。系统、安全、程序语言、机器学习等方向的大多数论文也属于这一类 `[本项目分析]`。
+这类研究产生什么知识、回答什么样的问题、和比较评估或经验报告怎么分，见[构建改进](../../../05_research-strategies/build_improve.md#1-这类研究产生什么知识)。下文常引用的 ACM SIGSOFT（美国计算机协会软件工程分会）实证研究标准（软件工程界按研究方法给出的论文评审标准，下称 SIGSOFT 标准），把它叫作"工程研究"，定义是"发明并评估技术制品的研究"[^ralph2020empirical-e79]。在软件工程顶会 ICSE 上，报告一种新技术的论文是最常见的一类[^shaw2003writing-e26]。系统、安全、程序语言、机器学习等方向的大多数论文也属于这一类 `[本项目分析]`。
 
-它回答的问题通常是："怎样做到（或自动做到）X？有没有更好的做法？"或者"怎样评估 X 的质量或正确性？"[^shaw2003writing-e25]
-
-**和相近的研究怎么区分**：工程研究的产出是一个新制品，以及它比现有做法更好的证据；评估已有方法的实验（"A 和 B 哪个更好"）归 SIGSOFT 的实验标准管；应用已有方法的经验报告不属于工程研究[^ralph2020empirical-e80]。审稿人要能一眼看出你做的是哪一种：提出了新技术并演示，还是把以前的技术用在新例子上，还是评估一项成熟技术。看不出来，就是没写清楚[^shaw2003writing-e31]。
+审稿人要能一眼看出你做的是哪一种：提出了新技术并演示，还是把以前的技术用在新例子上，还是评估一项成熟技术。看不出来，就是没写清楚[^shaw2003writing-e31]。
 
 > **关于名称**：你还会看到"设计科学"（design science）这个叫法。SIGSOFT 标准的作者认为，信息系统领域约 2004 年借用了"设计科学"这个词，用法不当；他们主张叫"工程研究"[^ralph2020empirical-e98]。
 
@@ -32,11 +30,12 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准（
 
 ### 第 1 步：说清问题，以及"新在哪里、比谁好"
 
-1. **先讲问题，再讲方案。** 说明要解决什么问题、为什么重要，以及**现有最好的方法为什么不够好**[^ralph2020empirical-e81][^ralph2020empirical-e82]。工程论文常用一个"问题"或"目标"来代替研究问题，这是可以的[^ralph2020empirical-e96]。
-2. **说清贡献是什么类型的成果。** 是一种技术（必须是可操作的过程，而不是建议或指导原则），还是体现某种技术的工具[^shaw2003writing-e27]？
-3. **具体写出你比谁好、好在哪里。** 说清你建立在哪些工作之上、替代了什么、和它们相比有什么不同[^shaw2003writing-e34]。最好逐个说出已有工作做到了什么、有什么限制，再说你在哪一点上超过了它们，例如"A 达到 60% 覆盖率；B 达到 80%，但只适用于无指针的情况；我们达到 90%，并放宽了限制"[^shaw2003writing-e3]。新制品要在某些维度上胜过已有制品，例如可扩展性、某类问题上的性能、对真实系统的适用性、理论保证[^ralph2020empirical-e95]。
+先讲问题再讲方案、逐个说清你比最接近的工作好在哪、新颖不等于复杂，这些通用做法见[构建改进](../../../05_research-strategies/build_improve.md#2-什么样的证据才够)。工程研究里还要写清两点：
 
-**新颖性不等于复杂**：SIGSOFT 标准明确说，"技术上不复杂"不是成立的批评，重要的是有效[^ralph2020empirical-e96]。新颖性怎么判断，见通用篇[审稿、回复审稿意见与发表](../../../08_throughout/being_a_reviewer.md#4-按它的套路评判它)。
+1. **贡献是什么类型的成果。** 是一种技术（必须是可操作的过程，而不是建议或指导原则），还是体现某种技术的工具[^shaw2003writing-e27]？
+2. **在哪个维度上胜过已有制品。** 说清你建立在哪些工作之上、替代了什么、和它们相比有什么不同[^shaw2003writing-e34]。SIGSOFT 标准举的维度有可扩展性、某类问题上的性能、对真实系统的适用性、理论保证[^ralph2020empirical-e95]。
+
+审稿人怎样判断新颖性，见[当审稿人](../../../08_throughout/being_a_reviewer.md#4-按它的套路评判它)。
 
 **容易错在哪**：夸大新颖性；只讲实现细节，漏掉关键思路[^ralph2020empirical-e91]。描述制品时要讲清整体流程、各部分如何配合，并**把新的部分明确标出来**[^ralph2020empirical-e83]。
 
@@ -54,13 +53,11 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准（
 | 各部分的必要性 | "组件 A 是提升的关键" | 消融实验（逐个去掉方法的组成部分，看效果变化） |
 | 易用性 | "开发者更快完成任务" | 有人参与的实验或案例研究 |
 
-**再检查主张的强度。** Shaw 把主张分为三种：全局的（"总是"）、有限定的（"提升 25%"）和存在性的（"找到一个实例"）。全局主张通常要分析论证，有限定的主张可以靠评估，存在性主张有时一个正例就够[^shaw2003writing-e30]。
-
-**验证要对准主张。** 声称性能提升，就要分析性能，而不是易用性或通用性[^shaw2003writing-e29]。van der Kouwe 等人把"声称达到了某个目标、却没用实验检验"列为一种基准评测缺陷[^vanderkouwe2019sok-e5]。怎样把主张写进引言和摘要，见通用篇[写作](../../../04_write-and-publish/01_story-and-paper.md#4-引言五个问题加一份贡献清单)。
+**再检查主张的强度，让验证对准主张。** 主张说得多满、证据就要多硬，声称性能提升就要分析性能，这两条规则见[构建改进](../../../05_research-strategies/build_improve.md#2-什么样的证据才够)。系统安全方向，van der Kouwe 等人把"声称达到了某个目标、却没用实验检验"列为一种基准评测缺陷[^vanderkouwe2019sok-e5]。怎样把主张写进引言和摘要，见[讲清故事，写成论文](../../../04_write-and-publish/01_story-and-paper.md#4-引言五个问题加一份贡献清单)。
 
 ### 第 3 步：为每条主张选对验证方式
 
-好研究要有清楚、令人信服的证据，证据应来自实际经验或系统分析，而不是说服性的论述或教科书式的例子[^shaw2002makes-e7]。下面是 Shaw 2003 对验证方式的分类：
+Shaw 2003 把软件工程论文的验证方式分成下面几类：
 
 | 方式 | 是什么 | 说服力 |
 |---|---|---|
@@ -80,13 +77,13 @@ SIGSOFT 标准要求用一种实证方法评估制品，并写明用的是哪一
 
 此外还要**从概念上**分析制品的长处、短处和局限[^ralph2020empirical-e81]；有理论贡献时，最好给出正确性论证，如定理、复杂度分析或证明[^ralph2020empirical-e88]。
 
-**两个例外**：如果问题本身是"能不能做到"，一个能运行的系统就可能足以回答[^shaw2003writing-e10]；制品越创新、概念分析越全面，对实证部分的要求越低；反过来，**创新程度越低，评估要越严格**[^ralph2020empirical-e94][^ralph2020empirical-e90]。
+问题本身是"能不能做到"时，或者制品很有创新时，对实证部分的要求会不同，这两个例外见[构建改进](../../../05_research-strategies/build_improve.md#2-什么样的证据才够)。
 
 **容易错在哪**：评估只有用户的主观评价；只有性能数字，却不和替代方案比较；没有对照、不重复；用玩具例子评估，还把它称作"案例研究"[^ralph2020empirical-e92][^ralph2020empirical-e93]。
 
 ### 第 4 步：选基线
 
-SIGSOFT 标准要求：和当前最好的替代方案做实证比较；做不到时，给出清楚、令人信服的理由[^ralph2020empirical-e85]。对方方法拿不到或跑不起来时，没和它比较不算缺陷[^ralph2020empirical-e95]，但要在论文里说明。基线选哪几类（最朴素的、更简单的、当前最好的）、怎样给对手同样好的配置，见通用篇[证据、分析与效度](../../../05_research-strategies/compare_evaluate.md#2-什么样的证据才够)。工程研究里还要注意：
+要和当前最好的替代方案比，基线至少有哪几类，见[构建改进](../../../05_research-strategies/build_improve.md#尽早把基线跑起来)；怎样给对手同样好的配置，见[比较评估](../../../05_research-strategies/compare_evaluate.md#对手是否被同等对待)。SIGSOFT 标准还说明：对方方法拿不到或跑不起来时，没和它比较不算缺陷[^ralph2020empirical-e95]，但要在论文里说明。工程研究里还要注意：
 
 - **只和自己以前的工作比，不算数**；给对手用非最优配置，也是常见缺陷[^vanderkouwe2019sok-e4]。
 - **基线本身要设对。** 系统安全方向计算开销时，合适的基线通常是默认设置、不加任何防御的原始系统[^vanderkouwe2019sok-e14]。
@@ -100,7 +97,7 @@ SIGSOFT 标准要求：和当前最好的替代方案做实证比较；做不到
 2. **讨论基准测的是不是你想测的东西**（构念效度）[^ralph2020empirical-e100]。用间接指标时尤其要小心：模糊测试（用大量自动生成的输入测试程序、以发现缺陷的技术）论文常用"不同崩溃数"代替"真实缺陷数"，而前者会严重多算缺陷，表面上的提升可能很小甚至不存在[^klees2018evaluating-e4]。引入新指标，要精确定义并说明它比已有指标好[^shaw2003writing-e36]。
 3. **评测对象要多样、有代表性，不要只挑对自己有利的。** 一个已发表的模糊测试工具在原论文选的程序上表现好，换成别的论文用过的两个程序，就不比基线好了[^klees2018evaluating-e3]。随意挑一部分基准子项、却当作整体结果报告，是一种缺陷[^vanderkouwe2019sok-e3]。
 4. **用接近实际的评测对象。** 只测某个具体操作的微基准，不能代表系统在实际中的速度[^vanderkouwe2019sok-e9]；在机器学习用于安全的研究中，只在实验室环境中评估、不讨论实际局限，是常见陷阱[^arp2022dos-e2]。能在广泛使用的开源项目或专业开发者中评估更好[^ralph2020empirical-e88]。
-5. **开发时用过的对象不能再拿来评估**[^blackburn2018sigplan-e12][^vanderkouwe2019sok-e10]。
+5. **开发时用过的对象不能再拿来评估**[^blackburn2018sigplan-e12][^vanderkouwe2019sok-e10]。道理见[比较评估：留一份数据只用于最后检验](../../../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验)。
 
 **容易错在哪：** 为自己的方法量身定做基准，或用与问题无关的测试掩盖弱点[^ralph2020empirical-e101]；一套基准用久了，工具会开始针对它做特殊优化，而这些优化没有根本性的好处[^klees2018evaluating-e7]。
 
@@ -110,11 +107,11 @@ SIGSOFT 标准要求：和当前最好的替代方案做实证比较；做不到
 
 **问题二：代价多大？** 先列出方案可能影响的所有性能维度（处理器、并发、内存、磁盘和网络读写等），每个维度至少用一个合适的测试[^vanderkouwe2019sok-e11]。凡是可以合理预期会受影响的操作都要测[^vanderkouwe2019sok-e2]。只测运行时间不够，还要测内存，以及程序体积、预处理时间等代价[^vanderkouwe2019sok-e6]。Zeller 讽刺过一种套路：给简单方法套上庞大的装置（如一个机器学习模型加一个语料库），总能提升一点，于是号称"更好"[^zeller2021devil-e6]。
 
-**问题三：能推广吗？** 在一个数据集上表现好，不代表在别的数据集上也好[^lones2021avoid-e10]。光是"对你自己有效"不够，还要有证据表明它对别人也有用[^shaw2003writing-e35]。
+**问题三：能推广吗？** 在一个数据集上好、只对你自己有效都不够，见[构建改进](../../../05_research-strategies/build_improve.md#2-什么样的证据才够)。在计算机里，通常靠多个基准、多种评测对象来回答（第 5 步） `[本项目分析]`。
 
-**问题四：每个部分都必要吗？** 用消融实验回答，做法见通用篇[证据、分析与效度](../../../05_research-strategies/build_improve.md#2-什么样的证据才够)。工程研究里特别要防的一种情况：如果比别人快只是因为实现得更好，而不是因为新设计，新颖性就值得怀疑[^vanderkouwe2019sok-e8]。
+**问题四：每个部分都必要吗？** 用消融实验回答，见[构建改进](../../../05_research-strategies/build_improve.md#2-什么样的证据才够)。工程研究里特别要防的一种情况：如果比别人快只是因为实现得更好，而不是因为新设计，新颖性就值得怀疑[^vanderkouwe2019sok-e8]。
 
-**别忘了重复和运行条件。** 要有足够的重复次数和运行时长来检验结果是否稳定[^ralph2020empirical-e99]；保存全部原始结果，而不只是汇总数字[^ralph2020empirical-e101]。重复次数、统计检验和效应量（差异有多大，而不只是有没有差异）的一般做法，见通用篇[证据、分析与效度](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)；测量流程的细节见[基准评测](benchmarking.md#第四步设计测量流程)。
+**别忘了重复和运行条件。** 要有足够的重复次数和运行时长来检验结果是否稳定[^ralph2020empirical-e99]；保存全部原始结果，而不只是汇总数字[^ralph2020empirical-e101]。重复次数、统计检验和效应量（差异有多大，而不只是有没有差异）的一般做法，见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)；测量流程的细节见[基准评测](benchmarking.md#第四步设计测量流程)。
 
 > **例子：评估模糊测试工具（安全方向）。** Klees 等人指出，提出一个新的模糊测试算法，必须选定有说服力的基线、一组评测程序（基准套件）和有意义的配置参数[^klees2018evaluating-e1]。他们检查了 32 篇论文，**每一篇的评估都有问题**[^klees2018evaluating-e2]。他们自己的实验表明：同样配置的多次运行结果差别很大，只跑一次可能得出错误结论[^klees2018evaluating-e9]；运行太短可能得出误导性的结论[^klees2018evaluating-e6]。换到其他方向，具体参数不同，但"基线、评测对象、指标、配置、随机性"这五项选择，是每个工程研究评估都要逐一想清楚的 `[本项目分析]`。
 
@@ -126,14 +123,14 @@ SIGSOFT 标准要求：和当前最好的替代方案做实证比较；做不到
 - **写明所有假设**，它们要合理、彼此不矛盾，也不和贡献的目标矛盾[^ralph2020empirical-e86]。
 - **披露所有主要局限**[^ralph2020empirical-e103]。只写无关紧要的、漏掉真正相关的，会让读者得出过强的结论[^blackburn2018sigplan-e3]。反面做法是"成果写进标题，局限藏进脚注"[^zeller2021devil-e3]。
 
-工程研究常见的真实威胁有：实现有错误，测到的不是你设计的方法；基线配置不当或复现得不对；评测对象没代表性或开发时看过；指标不能代表真正关心的质量；测量环境有干扰 `[本项目分析]`。效度威胁的一般写法，见通用篇[证据、分析与效度](../../../02_from-project-to-study/03_validity-and-limits.md)。
+工程研究常见的真实威胁有：实现有错误，测到的不是你设计的方法；基线配置不当或复现得不对；评测对象没代表性或开发时看过；指标不能代表真正关心的质量；测量环境有干扰 `[本项目分析]`。效度威胁的一般写法，见[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md)。
 
 ### 第 8 步：公开研究制品
 
 在 ACM 的定义里，研究**制品**指作者为研究制作的、或实验产生的数字对象，例如软件系统、运行实验的脚本、输入数据、原始实验数据、分析脚本[^acm2020artifact-e1]。结构良好、有文档的制品，让别人能直接在你的工作之上继续做[^acm2020artifact-e8]。ACM 的三类制品徽章（制品已评估、制品可获取、结果已验证）可以当作准备的目标，含义见[计算机领域概况](../README.md#制品评估与徽章)。
 
 - 提供源代码（或对非软件制品的完整描述）和输入数据[^ralph2020empirical-e87]。
-- 写清复现所需的信息：硬件平台、软件版本、各子项结果、绝对数字而不只是相对数字[^vanderkouwe2019sok-e13]。模糊测试等依赖初始输入的方法，要说明初始输入（seed）怎么得到，最好一并公开[^klees2018evaluating-e8]。随机数种子的记录见通用篇[证据、分析与效度](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+- 写清复现所需的信息：硬件平台、软件版本、各子项结果、绝对数字而不只是相对数字[^vanderkouwe2019sok-e13]。模糊测试等依赖初始输入的方法，要说明初始输入（seed）怎么得到，最好一并公开[^klees2018evaluating-e8]。随机数种子的记录见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 - 有专有部分不能公开时，写明它是什么、怎么获取[^acm2020artifact-e6]；复现包里缺了什么，从实际或伦理角度说明原因[^ralph2020empirical-e87]。有清楚、令人信服的原因时，不提供复现包不算缺陷[^ralph2020empirical-e97]。
 - 不能公开时，"制品已评估"徽章仍然可以申请：只需要提供给评审人[^acm2020artifact-e7]。
 
@@ -196,9 +193,7 @@ SIGSOFT 标准要求：和当前最好的替代方案做实证比较；做不到
 各资料的链接见[原始资料列表](../../../../sources/README.md)。
 
 [^ralph2020empirical-e79]: SIGSOFT 工程研究标准，定义。[证据](../../../../sources/notes/ralph2020empirical.md#e79)
-[^ralph2020empirical-e80]: SIGSOFT 工程研究标准，适用范围。[证据](../../../../sources/notes/ralph2020empirical.md#e80)
 [^ralph2020empirical-e81]: SIGSOFT 工程研究标准，必要项。[证据](../../../../sources/notes/ralph2020empirical.md#e81)
-[^ralph2020empirical-e82]: SIGSOFT 工程研究标准，脚注 2。[证据](../../../../sources/notes/ralph2020empirical.md#e82)
 [^ralph2020empirical-e83]: SIGSOFT 工程研究标准，脚注 1。[证据](../../../../sources/notes/ralph2020empirical.md#e83)
 [^ralph2020empirical-e84]: SIGSOFT 工程研究标准，必要项（方法）。[证据](../../../../sources/notes/ralph2020empirical.md#e84)
 [^ralph2020empirical-e85]: SIGSOFT 工程研究标准，必要项（方法）。[证据](../../../../sources/notes/ralph2020empirical.md#e85)
@@ -221,23 +216,16 @@ SIGSOFT 标准要求：和当前最好的替代方案做实证比较；做不到
 [^ralph2020empirical-e102]: SIGSOFT 基准评测标准，不成立的批评。[证据](../../../../sources/notes/ralph2020empirical.md#e102)
 [^ralph2020empirical-e103]: SIGSOFT General Standard，必要项。[证据](../../../../sources/notes/ralph2020empirical.md#e103)
 [^ralph2020empirical-e104]: SIGSOFT 基准评测标准，必要项。[证据](../../../../sources/notes/ralph2020empirical.md#e104)
-[^shaw2003writing-e25]: Shaw 2003，§2.1，表 1。[证据](../../../../sources/notes/shaw2003writing.md#e25)
 [^shaw2003writing-e26]: Shaw 2003，§3.2。[证据](../../../../sources/notes/shaw2003writing.md#e26)
 [^shaw2003writing-e27]: Shaw 2003，§3.1，表 3。[证据](../../../../sources/notes/shaw2003writing.md#e27)
 [^shaw2003writing-e28]: Shaw 2003，§4.1，表 5。[证据](../../../../sources/notes/shaw2003writing.md#e28)
 [^shaw2003writing-e10]: Shaw 2003，§4.1，表 5 后。[证据](../../../../sources/notes/shaw2003writing.md#e10)
-[^shaw2003writing-e29]: Shaw 2003，§4.3。[证据](../../../../sources/notes/shaw2003writing.md#e29)
-[^shaw2003writing-e30]: Shaw 2003，§5。[证据](../../../../sources/notes/shaw2003writing.md#e30)
-[^shaw2003writing-e3]: Shaw 2003，§3.3。[证据](../../../../sources/notes/shaw2003writing.md#e3)
 [^shaw2003writing-e31]: Shaw 2003，§2.3。[证据](../../../../sources/notes/shaw2003writing.md#e31)
 [^shaw2003writing-e32]: Shaw 2003，§4.2。[证据](../../../../sources/notes/shaw2003writing.md#e32)
 [^shaw2003writing-e33]: Shaw 2003，§4.1，表 5。[证据](../../../../sources/notes/shaw2003writing.md#e33)
 [^shaw2003writing-e34]: Shaw 2003，§1。[证据](../../../../sources/notes/shaw2003writing.md#e34)
-[^shaw2003writing-e35]: Shaw 2003，§4.3。[证据](../../../../sources/notes/shaw2003writing.md#e35)
 [^shaw2003writing-e36]: Shaw 2003，§3.3。[证据](../../../../sources/notes/shaw2003writing.md#e36)
 [^shaw2003writing-e37]: Shaw 2003，§4.1，表 5。[证据](../../../../sources/notes/shaw2003writing.md#e37)
-[^shaw2002makes-e7]: Shaw 2002，§2.3。[证据](../../../../sources/notes/shaw2002makes.md#e7)
-[^lones2021avoid-e10]: Lones 2021，§6.3。[证据](../../../../sources/notes/lones2021avoid.md#e10)
 [^blackburn2018sigplan-e1]: SIGPLAN 实证评估清单，Clearly Stated Claims。[证据](../../../../sources/notes/blackburn2018sigplan.md#e1)
 [^blackburn2018sigplan-e12]: SIGPLAN 实证评估清单，Tested on training set。[证据](../../../../sources/notes/blackburn2018sigplan.md#e12)
 [^blackburn2018sigplan-e3]: SIGPLAN 实证评估清单，Fails to acknowledge limitations。[证据](../../../../sources/notes/blackburn2018sigplan.md#e3)

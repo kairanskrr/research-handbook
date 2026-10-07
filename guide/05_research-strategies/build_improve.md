@@ -70,8 +70,8 @@
 | [工程研究](../07_fields/computer-science/practices/engineering_research.md)（计算机） | 计算机里这类研究的完整做法：选基线、选基准、设计评估、公开研究制品 |
 | [基准评测](../07_fields/computer-science/practices/benchmarking.md)（计算机） | 用一套标准的评测对象和自动化流程，和基线比较效果与代价 |
 | [优化研究](../07_fields/computer-science/practices/optimization_study.md)（计算机） | 把问题写成"在很多候选解中找最好的"，用搜索算法求解 |
-| [定量仿真](../06_methods/simulation_study.md)（计算机） | 真实系统不便直接实验时，在模型上评估新设计 |
-| [对照实验](../06_methods/controlled_experiment.md)（计算机） | 主张涉及人时（如"开发者用新工具更快找到漏洞"），请人参与比较 |
+| [定量仿真](../06_methods/simulation_study.md)（跨学科方法） | 真实系统不便直接实验时，在模型上评估新设计 |
+| [对照实验](../06_methods/controlled_experiment.md)（跨学科方法） | 主张涉及人时（如"开发者用新工具更快找到漏洞"），请人参与比较 |
 | [基于设计的研究](../07_fields/education/research-types/design_based_research.md)（教育） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
 | [合成与表征研究](../07_fields/chemistry/research-types/synthesis_study.md)（化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
 | [基于实践的研究](../07_fields/arts/research-types/practice_based_research.md)（艺术） | 以创作出的作品作为知识贡献的基础 |
@@ -100,7 +100,7 @@
 
 基线至少要有两类：比新方法更简单的替代方案，用来证明新方法多出的复杂度确有必要[^lones2021avoid-e1]；以及当前最好的方法[^lones2021avoid-e2]。这两条来自机器学习的建议；对手的方法拿不到或跑不起来时怎么办，见计算机篇[工程研究](../07_fields/computer-science/practices/engineering_research.md#第-4-步选基线)。
 
-早跑基线还有一个好处 `[本项目分析]`：你会很快发现基线跑不起来、评测数据有问题这类卡点。这正是[小规模试做与降低风险](../02_from-project-to-study/04_pilot-and-derisk.md)要提前暴露的风险。
+早跑基线还有一个好处 `[本项目分析]`：你会很快发现基线跑不起来、评测数据有问题这类卡点。这正是[先做小规模试验，排除最大风险](../02_from-project-to-study/04_pilot-and-derisk.md)要提前暴露的风险。
 
 ### 动手前估一估改进空间
 
@@ -119,10 +119,10 @@
 | 阶段 | 构建改进要特别注意的 |
 |---|---|
 | [收敛成项目](../01_from-interest-to-project/03_converge.md) | 主张写成"在某条件下比谁好多少"，对比表要具体到每项最接近的工作 |
-| [从问题到证据](../02_from-project-to-study/01_question-to-evidence.md) | 先画出空的结果表：行是你的方法和各基线，列是效果、代价、不同数据集 |
+| [从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md) | 先画出空的结果表：行是你的方法和各基线，列是效果、代价、不同数据集 |
 | [效度与局限](../02_from-project-to-study/03_validity-and-limits.md) | 开发时参考过的例子不能再用来评估，要在没见过的数据上检验（编程语言领域的评估清单把这列为要求[^blackburn2018sigplan-e12]） |
 | [执行与迭代](../03_conduct-and-analyze/01_run-and-iterate.md) | 一样一样加改动，留着能做消融的版本 |
-| [论文与故事](../04_write-and-publish/01_story-and-paper.md) | 按"问题 → 技术 → 评估"写，把新的部分标出来，诚实写局限 |
+| [讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md) | 按"问题 → 技术 → 评估"写，把新的部分标出来，诚实写局限 |
 
 ## 5. 哪些学科常用
 

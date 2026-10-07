@@ -4,7 +4,7 @@
 
 本文讲政治学里两种紧密相连的定性方法。一是**过程追踪**（process tracing）：在一个案例内部一步步检查事情是怎样发生的，用来检验或提出因果解释。二是**比较案例研究**：有意挑选少数几个案例互相比较。本文的主要资料是政治学方法论文献。Bennett 和 Checkel 指出，当代政治学者和社会学者都认为，很多问题的答案要把社会和制度的结构背景与个人决策结合起来[^bennett2012process-e1]；他们还认为，过程追踪和历史学家 Clayton Roberts 所说的"历史解释"密切相关[^bennett2012process-e6]。社会学的比较历史研究（[社会学领域概况](../../sociology/README.md#几种主要的研究路子)说明那里的资料没有专门讲它）或许可以参照本文 `[本项目分析]`。
 
-政治学有哪几条研究路子，见[政治学领域概况](../README.md#几条研究路子并存)。案例研究的通用做法（定义案例、多来源印证、保持证据链、分析性推广）见计算机篇的[案例研究与民族志](../../../06_methods/case_study.md)，本文不重复。在档案馆里怎样工作，见[档案研究](../../history-archaeology/research-types/archival_research.md)；访谈的通用流程见[访谈研究](../../../06_methods/interview_study.md)。
+政治学有哪几条研究路子，见[政治学领域概况](../README.md#几条研究路子并存)。案例研究的通用做法（定义案例、多来源印证、保持证据链、分析性推广）见研究方法里的[案例研究与民族志](../../../06_methods/case_study.md)，本文不重复。在档案馆里怎样工作，见[档案研究](../../history-archaeology/research-types/archival_research.md)；访谈的通用流程见[访谈研究](../../../06_methods/interview_study.md)。
 
 **读完本文，你应该能：**
 

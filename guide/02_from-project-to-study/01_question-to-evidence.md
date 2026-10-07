@@ -279,7 +279,7 @@
 
 ## 下一步
 
-证据清单写好了，你已经知道每个问题要什么证据、怎样算回答了。下一步是决定**用什么办法拿到这些证据**：选研究套路、选研究方法。见[选择研究套路与方法](02_choose-strategy-and-method.md)。
+证据清单写好了，你已经知道每个问题要什么证据、怎样算回答了。下一步是决定**用什么办法拿到这些证据**：选研究套路、选研究方法。见[选定研究套路和方法](02_choose-strategy-and-method.md)。
 
 [^easterbrook2008selecting-e15]: Easterbrook 等 2008（软件工程研究方法），§5.2。[证据](../../sources/notes/easterbrook2008selecting.md#e15)
 [^easterbrook2008selecting-e31]: Easterbrook 等 2008（软件工程研究方法），§2.0。[证据](../../sources/notes/easterbrook2008selecting.md#e31)

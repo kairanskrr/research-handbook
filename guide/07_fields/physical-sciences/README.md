@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲物理科学（这里以物理学和天文学为主）的研究实际怎样运转：理论、实验、计算的分工，几千人的大合作，arXiv 预印本，盲分析和"5σ"发现标准，以及数据和代码共享。各学科共通的做法（选题、写作、审稿、科研伦理）见[通用篇](../../README.md)，这里不重复。
+本文讲物理科学（这里以物理学和天文学为主）的研究实际怎样运转：理论、实验、计算的分工，几千人的大合作，arXiv 预印本，盲分析和"5σ"发现标准，以及数据和代码共享。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
 
 文中很多具体例子来自粒子物理和引力波天文学，因为本文找到的公开规范主要来自这两个方向。凝聚态、光学等方向的惯例可能不同，要以本组和目标期刊的要求为准 `[本项目分析]`。
 
@@ -84,7 +84,7 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 - 大合作可以有自己的署名约定，只要署名程序透明[^aps2024ethics-e6]。例如 LIGO 的观测论文按字母顺序列出所有有资格的成员[^ligo2018publication-e1]；取得资格，大约要用一年时间、把至少一半的研究精力投入合作组[^ligo2018publication-e2]。
 - 有资格的成员可以要求不在某篇论文上署名[^ligo2018publication-e3]。合作组内部达不成共识时，持不同意见的人可以要求去掉自己的名字[^junk2021reproducibility-e14]。
 
-按字母排序的几千人名单，看不出谁做了哪项分析。本文没有找到资料说明大合作里个人贡献一般怎样被外界看到；建议尽早问导师，本组学生通常靠什么让别人知道自己的工作 `[本项目分析]`。可以参考的一点是，LIGO 把"鼓励年轻科学家和工程师参与报告和发表"写进了政策目标[^ligo2018publication-e11]。通用的署名做法见通用篇[合作与导师](../../08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)。
+按字母排序的几千人名单，看不出谁做了哪项分析。本文没有找到资料说明大合作里个人贡献一般怎样被外界看到；建议尽早问导师，本组学生通常靠什么让别人知道自己的工作 `[本项目分析]`。可以参考的一点是，LIGO 把"鼓励年轻科学家和工程师参与报告和发表"写进了政策目标[^ligo2018publication-e11]。通用的署名做法见贯穿全程的[合作与导师](../../08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)。
 
 ---
 
@@ -130,7 +130,7 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 > - **支持**：Roodman 认为盲分析是减少实验者偏差的最好办法[^roodman2003blind-e1]。
 > - **质疑**：物理学家 Golub 在一篇未经同行评审的短评中指出，盲分析会严重妨碍寻找系统误差，也会让人没法研究落在被遮住区域里的意外事件[^golub2023blind-e1]；为一个可能并不存在的问题引入它[^golub2023blind-e2]，在他看来是过度了[^golub2023blind-e3]。
 >
-> 实际做法：看数据之前，和导师一起决定要不要盲、怎么盲，并写下来；揭盲后如果确实要改，就在论文里写明改了什么、为什么 `[本项目分析]`。通用的做法见通用篇[证据、分析与效度](../../05_research-strategies/compare_evaluate.md#2-什么样的证据才够)。
+> 实际做法：看数据之前，和导师一起决定要不要盲、怎么盲，并写下来；揭盲后如果确实要改，就在论文里写明改了什么、为什么 `[本项目分析]`。通用的做法见研究套路[比较评估](../../05_research-strategies/compare_evaluate.md#2-什么样的证据才够)。
 
 ---
 
@@ -154,7 +154,7 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 **大合作的数据公开（以 CERN 为例）。** LHC 实验的论文全部开放获取[^cern2020opendata-e1]，发表时同时把补充数据放到 HEPData 等平台[^cern2020opendata-e2]；重建后的数据，目标是在运行期结束后五年内开始公开[^cern2020opendata-e3]。用开放数据的外部研究者要知道：合作组多年积累的隐性知识你拿不到[^cern2020opendata-e4]，结论由你自己负责[^cern2020opendata-e5]。
 
-**计算的可复现。** 粒子物理的经验：不只源代码，运行环境也要做版本控制[^junk2021reproducibility-e19]；在不同架构的计算机上跑同一程序、比较结果[^junk2021reproducibility-e20]。但能复现只说明计算步骤没错，不说明假设和输入数据可靠[^junk2021reproducibility-e18]。已发表结果常见的缺陷是没给出相关的不确定度，别人就没法精确复现结论[^junk2021reproducibility-e26]。整理代码和数据的通用做法见通用篇[整理科研材料](../../08_throughout/organizing_materials.md)。
+**计算的可复现。** 粒子物理的经验：不只源代码，运行环境也要做版本控制[^junk2021reproducibility-e19]；在不同架构的计算机上跑同一程序、比较结果[^junk2021reproducibility-e20]。但能复现只说明计算步骤没错，不说明假设和输入数据可靠[^junk2021reproducibility-e18]。已发表结果常见的缺陷是没给出相关的不确定度，别人就没法精确复现结论[^junk2021reproducibility-e26]。整理代码和数据的通用做法见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md)。
 
 ---
 
@@ -162,12 +162,12 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 **本领域的研究类型文档**：[实验测量研究](research-types/experimental_measurement.md)。
 
-| 研究类型 | 一句话说明 | 和计算机篇的关系 |
+| 研究类型 | 一句话说明 | 和已有方法文档的关系 |
 |---|---|---|
 | 理论研究 | 推导和发展理论，例如量子场论的形式理论、弦论[^arxivtaxonomy-e2] | 相通：[理论研究](../computer-science/practices/theoretical_research.md)。差异：在粒子物理，要检验的模型一般先在理论论文里发表，再由实验者去测[^junk2021reproducibility-e23] |
-| 唯象研究 | 联系理论和实验，算出可观测的预言[^arxivtaxonomy-e3] | 计算机篇没有对应类型 |
+| 唯象研究 | 联系理论和实验，算出可观测的预言[^arxivtaxonomy-e3] | 没有对应文档 |
 | 数值计算与模拟 | 用计算机求解物理模型，如计算物理、格点计算[^arxivtaxonomy-e5][^arxivtaxonomy-e4] | 相通：[定量仿真](../../06_methods/simulation_study.md)。差异：Physical Review 要求在数据声明里说明模拟代码和参数能否获取[^apsdataavailability-e6] |
-| 实验研究 | 做实验并报告结果，例如粒子物理实验[^arxivtaxonomy-e1] | 计算机篇的[对照实验](../../06_methods/controlled_experiment.md)针对人类参与者，方法不同；物理实验的特有做法见上文的盲分析和 5σ |
+| 实验研究 | 做实验并报告结果，例如粒子物理实验[^arxivtaxonomy-e1] | 研究方法里的[对照实验](../../06_methods/controlled_experiment.md)针对人类参与者，方法不同；物理实验的特有做法见上文的盲分析和 5σ |
 | 仪器与方法 | 设计探测器、望远镜，开发数据分析方法和软件[^arxivtaxonomy-e6] | 相通：[工程研究](../computer-science/practices/engineering_research.md)。差异：天文期刊接受专门的软件论文[^aassoftware-e4] |
 | 用公开数据做分析 | 合作组外的研究者用 LHC 等实验公开的数据，发表自己的分析[^cern2020opendata-e5] | 相通：[复现研究](../../06_methods/replication.md)。差异：外部研究者缺少合作组的隐性知识[^cern2020opendata-e4] |
 

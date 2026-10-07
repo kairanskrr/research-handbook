@@ -1,10 +1,12 @@
 # 理论研究：证明与形式化分析
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
 
 本文讲**以定理和证明为主要成果的研究**：例如证明一个算法的复杂度上界或下界、证明一个协议在某种攻击者模型下是安全的、用形式化方法证明一个系统满足某个性质。
 
-如果你的主要成果是一个造出来的系统或工具，用实验说明它好用，见[工程研究](engineering_research.md)；如果是在统一的任务上比较多种方法的性能，见[基准评测](benchmarking.md)。很多论文两者都有：证明部分看本文，实验部分看通用篇的[证据、分析与效度](../../../02_from-project-to-study/03_validity-and-limits.md)。
+**适用范围** `[本项目分析]`：这是理论计算机，以及软件工程、系统、安全中形式化方向的做法，属于[证明](../../../05_research-strategies/prove.md)这种研究套路。证明产生什么知识、审稿人要看到哪些证据（假设写全、证明完整、别人能检查、要不要机器检查、假设离现实多远），这些通用部分见套路页；本文讲在计算机里怎样选题、推进、写和检查证明。
+
+如果你的主要成果是一个造出来的系统或工具，用实验说明它好用，见[工程研究](engineering_research.md)；如果是在统一的任务上比较多种方法的性能，见[基准评测](benchmarking.md)。很多论文两者都有：证明部分看本文，实验部分看[构建改进](../../../05_research-strategies/build_improve.md)。
 
 **关于依据**：ACM SIGSOFT 实证标准（Empirical Standards，软件工程领域的研究评审标准）面向实证研究，**没有理论研究的标准**。本文的做法和检查清单是根据 Lamport、Tao、Aaronson 等人的文章整理的 `[本项目分析]`。其中 Tao 和 Lamport 的很多建议写给数学家，适用于一切以证明为成果的工作，文中标为〔数学通用〕；只在计算机领域成立的做法标为〔计算机〕。
 
@@ -48,7 +50,7 @@
 
 **怎么做：**
 
-1. **先做可行的问题，不要一上来死磕著名难题。** Tao（陶哲轩，数学家）指出，著名难题几乎从不是凭空解决的[^taocareer-e13]；他建议把大部分时间放在更可行的"低垂的果实"上，积累经验、能力和信誉，等准备好了再做更有雄心的项目[^taocareer-e14]。Hamming（Richard Hamming，贝尔实验室的数学家）的说法是：问题重要，不在于结果有多大，而在于你有合理的切入办法[^hamming1986you-e2]。一般的选题方法见通用篇的[选题](../../../01_from-interest-to-project/02_find-problems.md)。
+1. **先做可行的问题，不要一上来死磕著名难题。** Tao（陶哲轩，数学家）指出，著名难题几乎从不是凭空解决的[^taocareer-e13]；他建议把大部分时间放在更可行的"低垂的果实"上，积累经验、能力和信誉，等准备好了再做更有雄心的项目[^taocareer-e14]。Hamming（Richard Hamming，贝尔实验室的数学家）的说法是：问题重要，不在于结果有多大，而在于你有合理的切入办法[^hamming1986you-e2]。一般的选题方法见[找到候选问题](../../../01_from-interest-to-project/02_find-problems.md)。
 2. **确认问题仍然开放。** 找到这个问题的关键论文，查有哪些后续论文引用了它[^taocareer-e16]，看是否已经有人解决、改进或否定了它。也要查有没有相关的**下界和不可能性结果**：和已知不可能性结果冲突却不提它，是错误"突破"的典型信号[^aaronson2008ten-e3]。拿不准时问导师或这个方向的专家 `[本项目分析]`。查文献的方法见[读文献与文献调研](../../../01_from-interest-to-project/01_enter-a-field.md)。
 3. **确认你用的定义就是大家用的定义。** 写下问题的精确陈述，和标准文献逐字对照：计算模型、输入规模怎么算、攻击者能做什么、"安全"指什么 `[本项目分析]`。记号也要尽量和已有文献一致[^taowriting-e8]。
 
@@ -138,7 +140,7 @@
 - 期刊版不只是加页数，是把会议版里省略或压缩的证明补全、改正；
 - 不要把一次拒稿看得太重：近一半哥德尔奖（理论计算机最佳论文奖）获奖论文最初被顶级理论会议拒过，或根本没在那里发表[^fortnow2009time-e8]。
 
-审稿和回复审稿意见见通用篇的[审稿、回复审稿意见与发表](../../../04_write-and-publish/02_venue-and-submission.md)。
+投稿见[选择发表渠道与投稿](../../../04_write-and-publish/02_venue-and-submission.md)，回复审稿意见见[审稿意见、修改与被拒之后](../../../04_write-and-publish/03_review-and-revision.md)。
 
 ---
 
@@ -197,7 +199,7 @@ SIGSOFT 实证标准没有理论研究的标准，下面的清单根据本文资
 - **Lamport 2012，How to Write a 21st Century Proof**：结构化证明的更新版，含作者二十年的经验和一个机器检查证明的例子。适合想了解证明助手的人。
 - **Tao 的 Career advice 和 On writing 两组网页**：每页一条建议，很短。"Be sceptical of your own work""On the importance of partial progress"讲推进和自查，"Use good notation""Create lemmas""On local and global errors"讲写作和找错。
 - **Aaronson 2008，Ten Signs a Claimed Mathematical Breakthrough is Wrong**：理论计算机视角的十个"错误信号"。适合投稿前拿来自查；作者也强调这些只是启发式，没通过不一定错，全部通过也不一定对[^aaronson2008ten-e6]。
-- **Hamming 1986，You and Your Research**：讲怎么选重要且有切入办法的问题，见通用篇的[选题](../../../01_from-interest-to-project/02_find-problems.md)。
+- **Hamming 1986，You and Your Research**：讲怎么选重要且有切入办法的问题，见[找到候选问题](../../../01_from-interest-to-project/02_find-problems.md)。
 
 [^lamport2012how-e1]: Lamport 2012，§1。[证据](../../../../sources/notes/lamport2012how.md#e1)
 [^lamport2012how-e3]: Lamport 2012，§1。[证据](../../../../sources/notes/lamport2012how.md#e3)

@@ -6,7 +6,7 @@
 
 ## 你现在在哪里
 
-你有一份研究计划（见[形成研究计划](../01_from-interest-to-project/04_research-plan.md)），研究设计也想清楚了，最没把握的部分已经用小实验试过（见[试做与降低风险](../02_from-project-to-study/04_pilot-and-derisk.md)）。现在要真正做起来，而且要做上几周、几个月。
+你有一份研究计划（见[形成研究计划](../01_from-interest-to-project/04_research-plan.md)），研究设计也想清楚了，最没把握的部分已经用小实验试过（见[先做小规模试验，排除最大风险](../02_from-project-to-study/04_pilot-and-derisk.md)）。现在要真正做起来，而且要做上几周、几个月。
 
 这时你可能遇到的是：
 
@@ -75,7 +75,7 @@
 
 **适用范围** `[本项目分析]`："一天出结果"来自计算机和机器学习。在一次实验要几个月的学科（临床研究、野外调查、长期培养、大规模访谈），可以用小样本试做、模拟，或先用公开数据检验想法，来缩短每一轮。
 
-先做哪一部分，见[形成研究计划](../01_from-interest-to-project/04_research-plan.md#4-排顺序最可能失败的先做)和[试做与降低风险](../02_from-project-to-study/04_pilot-and-derisk.md)。
+先做哪一部分，见[形成研究计划](../01_from-interest-to-project/04_research-plan.md#4-排顺序最可能失败的先做)和[先做小规模试验，排除最大风险](../02_from-project-to-study/04_pilot-and-derisk.md)。
 
 **写下来：** 估一下你现在一轮"想法 → 结果"要多久。写出一个能把它缩短一半的办法。
 
@@ -187,7 +187,7 @@
 >
 > **需要您决定：** 代理合约是去掉，还是单独报告？
 
-会后，把商定的下一步写下来发给导师[^huang2023advisor-e7]。和导师日常的配合，见[导师与合作](../08_throughout/collaboration_and_advisors.md)。
+会后，把商定的下一步写下来发给导师[^huang2023advisor-e7]。和导师日常的配合，见[合作与导师](../08_throughout/collaboration_and_advisors.md)。
 
 **写下来：** 按上面的格式，写出你这周的周报。"改动"和"卡在"两栏不要空着不写；真的没有，就写"无"。
 
@@ -263,14 +263,14 @@
 | 出现这种情况 | 回到哪里 |
 |---|---|
 | 一直写不出具体的假设，探索了很久没有收获 | [收敛成项目](../01_from-interest-to-project/03_converge.md)，重新想要证明哪句话 |
-| 卡住的原因是设计本身：拿到的数据回答不了研究问题 | [从问题到证据](../02_from-project-to-study/01_question-to-evidence.md) |
-| 某个关键部分被证明做不成，而它当初没有试过 | [试做与降低风险](../02_from-project-to-study/04_pilot-and-derisk.md)，把剩下的风险都先试一遍 |
+| 卡住的原因是设计本身：拿到的数据回答不了研究问题 | [从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md) |
+| 某个关键部分被证明做不成，而它当初没有试过 | [先做小规模试验，排除最大风险](../02_from-project-to-study/04_pilot-and-derisk.md)，把剩下的风险都先试一遍 |
 | 改动多到原来的计划已经对不上 | [形成研究计划](../01_from-interest-to-project/04_research-plan.md#7-计划怎样改)第 7 节，从主张开始重改计划 |
 | 想换的不是做法，而是问题本身 | [收敛成项目](../01_from-interest-to-project/03_converge.md)，和导师一起重写一页简介 |
 
 ## 下一步
 
-证据拿到以后，下一步是系统地分析它们：结果说明了什么、不说明什么、怎样排除别的解释。见[分析与解释](02_analyze-and-interpret.md)。
+证据拿到以后，下一步是系统地分析它们：结果说明了什么、不说明什么、怎样排除别的解释。见[分析与解读](02_analyze-and-interpret.md)。
 
 [^carlini2022rapid-e1]: Carlini 2022，开头段。[证据](../../sources/notes/carlini2022rapid.md#e1)
 [^carlini2022rapid-e2]: Carlini 2022，"(Machine learning) research does not support rapid iteration" 一节。[证据](../../sources/notes/carlini2022rapid.md#e2)

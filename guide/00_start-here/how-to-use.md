@@ -31,7 +31,7 @@
 | 参考层 | 讲什么 | 什么时候来查 |
 |---|---|---|
 | [研究套路](../05_research-strategies/README.md) | 八种研究各产生什么知识、需要什么证据、常用哪些方法 | 你写出了核心主张，想知道自己做的是哪一种研究、审稿人会要什么证据 |
-| 研究方法（目前放在各学科篇的"研究类型"下，例如[计算机篇](../07_fields/computer-science/README.md#研究类型)） | 一种具体做法怎么做好，比如[对照实验](../06_methods/controlled_experiment.md)、[访谈](../06_methods/interview_study.md)、[问卷](../06_methods/questionnaire_survey.md) | 你已经定了套路，要动手收集和分析证据 |
+| [研究方法](../06_methods/README.md) | 一种具体做法怎么做好，比如[对照实验](../06_methods/controlled_experiment.md)、[访谈](../06_methods/interview_study.md)、[问卷](../06_methods/questionnaire_survey.md)；只在计算机里用的做法见[计算机特有的研究实践](../07_fields/computer-science/practices/README.md) | 你已经定了套路，要动手收集和分析证据 |
 | [学科篇](../07_fields/README.md) | 某个学科、某个研究社区特有的规矩，比如发表文化、伦理审批 | 你要进入一个学科，或者想知道"在这个社区里什么证据才会被接受" |
 | [贯穿全程](../08_throughout/README.md) | 不属于某个阶段、但一直要面对的事：计划和日常安排、材料整理、导师与合作、诚信和伦理、心态与成长、当审稿人 | 遇到这些事的时候 |
 | [常见问题速查](../faq.md) | 按"遇到了什么情况"列出建议，链接到详细的段落 | 你有一个具体的麻烦，想直接找办法 |

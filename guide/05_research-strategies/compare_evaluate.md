@@ -44,7 +44,7 @@
 
 ## 2. 什么样的证据才够
 
-问自己：**一个被你比输了的工具的作者，会从哪里挑你的毛病？** 可以从下面四处逐一检查。
+问自己：**一个被你比输了的工具的作者，会从哪里挑你的毛病？** 可以从下面五处逐一检查。
 
 ### 对手是否被同等对待
 
@@ -74,9 +74,25 @@
 - **判断类工具要报它准不准**。系统安全方向的缺陷清单指出，不知道系统有多准，就无法判断它的价值[^vanderkouwe2019sok-e7]。漏洞检测正是这种工具，"准不准"要看误报和漏报各有多少：只报检出率、不报误报，开发者得到的信息是不完整的 `[本项目分析]`。
 - **把代价也算进去**。系统安全方向提醒，只测运行时间不够，还要看内存等其他开销[^vanderkouwe2019sok-e6]；评估随机算法的指南也说，实际选算法时，还要看成本差异，比如需要用户提供的输入和执行时间[^arcuri2014hitchhiker-e6]。对大模型工具来说，调用费用和耗时也是代价 `[本项目分析]`。
 
+### 留一份数据只用于最后检验
+
+下面的做法主要出自机器学习和编程语言方向的评测文献。比较时你多半也要调东西：给每个工具调参数、改提示写法、改输出解析。调的时候看过的数据，不能再拿来报告最终结果 `[本项目分析]`。
+
+- **一开始就划出一份检验数据。** 机器学习的方法指南建议：项目一开始就分出一部分数据，只在项目最后用一次，评估最终的那一个方案[^lones2021avoid-e3]。
+- **开发时参考过的例子，不能再拿来评估。** 编程语言方向的实证评估清单写道：系统想做到通用，开发时却仔细参考了某些具体例子，评估就必须用和这些例子不同的数据[^blackburn2018sigplan-e12]。
+- **别拿检验数据反复试方案。** 同一份机器学习指南说，常见的做法是随手试不同的模型和参数，直到在检验数据上效果好[^lones2021avoid-e4]；检验数据用的次数越多，结果就越只对这份数据好[^lones2021avoid-e5]。
+
+评估用的信息混进了开发过程，机器学习里叫"数据泄漏"。一项调查在 17 个领域发现了这类问题，涉及 294 篇论文，有些得出了严重过于乐观的结论[^kapoor2023leakage-e1]。
+
+在大模型检测合约的例子里：先用一小批合约调提示写法，定稿后，在另一批从没看过的合约上只跑一次，报告这一次的结果 `[本项目分析]`。道理也不限于机器学习：根据一批样本提出的假设，要换一批样本来检验 `[本项目分析]`。
+
 ### 差异是不是真的
 
+下面的做法主要出自模糊测试、软件工程和机器学习的评测文献，也有一条来自政治学的复现经验。
+
 - **多次运行，看分布**。模糊测试这类带随机性的工具，要做足够多次试验来描述性能分布，并用统计检验确认差异不是偶然[^klees2018evaluating-e10]。只比单次运行可能得出相反的结论：在同一个程序上，一次运行里 AFL 找到的崩溃比 AFLFast 多，30 次运行的中位数却是 AFLFast 远多于 AFL[^klees2018evaluating-e11]。大模型的输出也带随机性，同样适用 `[本项目分析]`。
+- **记下随机种子，并换几个种子重复**。随机种子是程序生成随机数的起点，固定它，"随机"的过程就能重现。软件分析方向指出，带随机性的算法不给出种子，别人就无法精确复现[^menzies2019bad-e8]；政治学期刊的复现经验也建议在代码里设定种子，保证每次都跑出论文里的结果[^eubank2016lessons-e7]。训练神经网络的经验是，排错时固定种子，让两次运行结果相同[^karpathy2019recipe-e4]。评估时则要换多个种子重复，两者并不矛盾 `[本项目分析]`。
+- **报告波动，检验做多了要校正**。只评估一次不可靠，可能高估，也可能低估[^lones2021avoid-e6]。怎样报告波动、效应量和多重比较，见[分析与解读：报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 - **报告差多少，而不只是"显著"**。效应量是衡量差异有多大的数。运行次数多到几千次时，几乎任何差异都会显著，所以必须同时分析效应量[^arcuri2014hitchhiker-e9]。
 - **分对象报告**。评估随机算法的指南举过一个例子：五个对象上的效应量是 0.6、0.6、0.6、0.6、0.1，平均是 0.5，看起来"没有差别"，其实一方在四个对象上更好、在一个上差得多[^arcuri2014hitchhiker-e21]。
 
@@ -98,7 +114,7 @@
 | [优化研究](../07_fields/computer-science/practices/optimization_study.md) | 比较搜索、优化类算法 | 搜索算法至少要和随机搜索比，确认成功不是因为问题本身太简单[^arcuri2014hitchhiker-e4] |
 | [系统综述与元分析](../07_fields/health-sciences/research-types/meta_analysis.md) | 不自己做实验，而是合并已发表研究里的比较结果 | 健康领域常用 |
 
-方法和套路是两层：同一种方法可以服务不同的套路，见[选择套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
+方法和套路是两层：同一种方法可以服务不同的套路，见[选定研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
 
 ## 4. 它怎样影响整个项目
 
@@ -110,7 +126,7 @@
 | 选题 | 值得比的地方，是大家需要做选择、而现有结论互相矛盾或没人公平比过的地方。健康领域的 Cochrane 手册把"平息相互矛盾的结论"列为元分析（合并多项研究结果的统计方法）的好处之一[^higgins2024cochrane-e13] |
 | 设计 | 动手前定好对象、指标、运行次数和"多大差异才算有意义"。软件工程的实证研究标准把验证性研究里先看结果再提假设、只报告显著的检验，列为反面做法[^ralph2020empirical-e27] |
 | 执行 | 保存全部原始结果，不要只存汇总值[^ralph2020empirical-e158]。记下每个工具和模型的版本，因为同一个大模型接口背后的模型可能会更新 |
-| 写作 | 计算机几份评测指南的共同要求：给出每个对象上的结果，而不只是总分[^heiserbenchmarking-e18]；除了相对数，还要给绝对数[^vanderkouwe2019sok-e23]；写清平台和软件版本[^vanderkouwe2019sok-e13]；报告所有 p 值，不论是否显著[^arcuri2014hitchhiker-e17]。写作的整体做法见[论文的故事与结构](../04_write-and-publish/01_story-and-paper.md) |
+| 写作 | 计算机几份评测指南的共同要求：给出每个对象上的结果，而不只是总分[^heiserbenchmarking-e18]；除了相对数，还要给绝对数[^vanderkouwe2019sok-e23]；写清平台和软件版本[^vanderkouwe2019sok-e13]；报告所有 p 值，不论是否显著[^arcuri2014hitchhiker-e17]。写作的整体做法见[讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md) |
 
 **比输了怎么办** `[本项目分析]`：比较评估的结论没有"失败"一说。"新工具在真实合约上并不比老工具好"，本身就是有价值的主张，前提是比较足够公平。
 
@@ -131,6 +147,7 @@
 | 只挑对某个工具有利的任务 | 换一批任务结论可能反过来[^klees2018evaluating-e3]；系统方向的指南直言，只评估有利的场景是在欺骗读者[^heiserbenchmarking-e3] |
 | 为某个工具量身定做评测集 | 软件工程的基准评测标准把它列为反面做法[^ralph2020empirical-e157] |
 | 只报检出率，不报误报 | 不知道准确率，就无法判断工具的价值[^vanderkouwe2019sok-e7] |
+| 调方案时反复看检验数据 | 检验数据用的次数越多，结果越只对这份数据好[^lones2021avoid-e5] |
 | 每个工具只跑一次 | 单次运行可能得出相反的结论[^klees2018evaluating-e11] |
 | 只说"显著"，不说差多少 | 运行次数多时几乎任何差异都显著[^arcuri2014hitchhiker-e9] |
 | 只给所有任务的平均分 | 平均会掩盖一方在个别对象上大幅落后[^arcuri2014hitchhiker-e21] |
@@ -191,3 +208,12 @@
 [^lejaeghere2016reproducibility-e4]: Lejaeghere 等人 2016，摘要。[证据](../../sources/notes/lejaeghere2016reproducibility.md#e4)
 [^higgins2024cochrane-e5]: Cochrane 手册 6.5 版，第 1 章，§1.2。[证据](../../sources/notes/higgins2024cochrane.md#e5)
 [^higgins2024cochrane-e13]: Cochrane 手册 6.5 版，第 10 章，Key Points。[证据](../../sources/notes/higgins2024cochrane.md#e13)
+[^lones2021avoid-e3]: Lones 2021，§3.1，第 8 页。[证据](../../sources/notes/lones2021avoid.md#e3)
+[^lones2021avoid-e4]: Lones 2021，§4.3，第 15 页。[证据](../../sources/notes/lones2021avoid.md#e4)
+[^lones2021avoid-e5]: Lones 2021，§4.3，第 15 页。[证据](../../sources/notes/lones2021avoid.md#e5)
+[^lones2021avoid-e6]: Lones 2021，§4.4，第 15 页。[证据](../../sources/notes/lones2021avoid.md#e6)
+[^blackburn2018sigplan-e12]: SIGPLAN 实证评估清单，Tested on training set。[证据](../../sources/notes/blackburn2018sigplan.md#e12)
+[^kapoor2023leakage-e1]: Kapoor & Narayanan 2023，Summary。[证据](../../sources/notes/kapoor2023leakage.md#e1)
+[^menzies2019bad-e8]: Menzies & Shepperd 2019，§4.4。[证据](../../sources/notes/menzies2019bad.md#e8)
+[^eubank2016lessons-e7]: Eubank 2016，Randomizations and Simulations。[证据](../../sources/notes/eubank2016lessons.md#e7)
+[^karpathy2019recipe-e4]: Karpathy 2019，第 2 步 fix random seed。[证据](../../sources/notes/karpathy2019recipe.md#e4)

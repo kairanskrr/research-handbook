@@ -6,7 +6,7 @@
 
 你想弄清的是"这个现象到底是什么样的"：它存不存在、有哪些种类、有多常见、和别的东西有什么不同。你不打算做出一个新工具，也还没打算解释它为什么会这样。这时你走的就是**观察描述**这一套路。
 
-研究套路的意思见[核心术语](../00_start-here/key-concepts.md#研究套路)，它和解释因果、测量、综合的分界见[套路总览](README.md#怎样选出主要套路)；怎样从几种套路里选出自己的，见[选研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
+研究套路的意思见[核心术语](../00_start-here/key-concepts.md#研究套路)，它和解释因果、测量、综合的分界见[研究套路](README.md#怎样选出主要套路)里"怎样选出主要套路"一节；怎样从几种套路里选出自己的，见[选定研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md)。
 
 ---
 
@@ -81,7 +81,7 @@
 
 观察描述不只决定你怎么设计，它从读文献到写论文都在起作用。
 
-**读文献时** `[本项目分析]`：先查有没有人描述过同一个现象，答案可能已经在文献里[^easterbrook2008selecting-e41]。特别留意别人用的定义和分类：把关键术语定义清楚，不同研究的结果才能互相比较[^easterbrook2008selecting-e55]。能沿用别人的定义，就别自己另起一套。找文献的做法见[进入领域](../01_from-interest-to-project/01_enter-a-field.md)。
+**读文献时** `[本项目分析]`：先查有没有人描述过同一个现象，答案可能已经在文献里[^easterbrook2008selecting-e41]。特别留意别人用的定义和分类：把关键术语定义清楚，不同研究的结果才能互相比较[^easterbrook2008selecting-e55]。能沿用别人的定义，就别自己另起一套。找文献的做法见[进入领域、探索文献](../01_from-interest-to-project/01_enter-a-field.md)。
 
 **选题时** `[本项目分析]`：描述性问题在一个方向刚起步时最有价值。大模型写合约还是新现象，"它通常会出什么问题"本身就值得回答。如果你原本想做"构建改进"，却发现没人知道问题有多普遍，先做一项描述研究常常更扎实（理由见第 1 节[^easterbrook2008selecting-e48]）。收敛题目时，用"所以呢"检验一下：数字算出来以后，谁会因此改变做法？见[收敛成项目](../01_from-interest-to-project/03_converge.md)。
 
@@ -91,15 +91,15 @@
 
 **分析时**：混杂指同时影响两个变量、让它们看起来有关系的第三个因素。流行病学的方法文献指出，分析只为描述关联时，不需要调整混杂；目标是因果时才需要[^hernan2018cword-e7]。但别把描述悄悄说成因果：问卷数据常被当成实验数据，看到并不存在的因果关系[^torchiano2017lessons-e2]。怎样解读结果，见[分析与解读](../03_conduct-and-analyze/02_analyze-and-interpret.md)。
 
-**写作时**：主张里写明范围，例如"在某三个模型、某种提示下"。很少有软件工程研究真能声称样本有代表性，夸大代表性既没必要也不科学[^baltes2022sampling-e8]。不要在局限一节承认抽样偏差，到了结论又写得像普遍成立[^baltes2022sampling-e9][^ralph2020empirical-e66]。论文怎样讲清"这说明了什么"，见[论文的故事](../04_write-and-publish/01_story-and-paper.md)。
+**写作时**：主张里写明范围，例如"在某三个模型、某种提示下"。很少有软件工程研究真能声称样本有代表性，夸大代表性既没必要也不科学[^baltes2022sampling-e8]。不要在局限一节承认抽样偏差，到了结论又写得像普遍成立[^baltes2022sampling-e9][^ralph2020empirical-e66]。论文怎样讲清"这说明了什么"，见[讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md)。
 
 ## 5. 哪些学科常用
 
 只列本文资料能支持的；其他学科是否常用，本文资料未涉及。
 
 - **计算机（尤其软件工程）**：软件工程的问卷调查标准把"详细描述一个现象或人群的性质"列为问卷的一种用途[^ralph2020empirical-e234]。仓库挖掘的发现本身也常是描述性的，例如 GitHub 上多数项目是个人的、不活跃的[^kalliamvakou2014promises-e1]，67% 的项目只有一名提交者[^kalliamvakou2014promises-e5]。见[计算机领域概况](../07_fields/computer-science/README.md)。
-- **医学与公共卫生**：按医学观察性研究报告规范 STROBE 的解释文件，横断面研究在同一时间点调查一个样本，常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]。见[卫生科学](../07_fields/health-sciences/README.md)、[临床医学](../07_fields/clinical-medicine/README.md)。
-- **兽医学**：按兽医观察性研究报告规范 STROBE-Vet，观察性研究可以用来估计某种状况的患病率或发病率，研究它在时间和空间上的分布[^sargeant2016strobevet-e2]。见[动物与兽医科学](../07_fields/animal-veterinary-science/README.md)。
+- **医学与公共卫生**：按医学观察性研究报告规范 STROBE 的解释文件，横断面研究在同一时间点调查一个样本，常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]。见[健康科学](../07_fields/health-sciences/README.md)、[临床医学](../07_fields/clinical-medicine/README.md)。
+- **兽医学**：按兽医观察性研究报告规范 STROBE-Vet，观察性研究可以用来估计某种状况的患病率或发病率，研究它在时间和空间上的分布[^sargeant2016strobevet-e2]。见[动物科学与兽医学](../07_fields/animal-veterinary-science/README.md)。
 - **环境工程与地球科学**：美国环境保护署的规划指南把"估计"（例如确定某种污染物的平均浓度）列为数据的一种用途[^epa2006dqo-e2]。见[环境工程](../07_fields/environmental-engineering/README.md)、[地球与环境科学](../07_fields/earth-environmental-sciences/README.md)。
 - **政治学**：政治学的案例研究方法文献指出，推断是描述性而非因果性时，案例研究通常更有用[^gerring2004case-e7]。见[政治学](../07_fields/political-science/README.md)。
 - **语言学**：语言学讨论里，"描写"一种语言和"记录"语言被当作两类工作；Himmelmann 曾要求把两者分开，但也有学者认为，有些对这一要求的解读走得太远[^riesberg2018adequacy-e2]。见[语言与文学](../07_fields/languages-literature/README.md)。

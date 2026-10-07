@@ -1,10 +1,12 @@
 # 优化研究：把问题建模成优化问题，用搜索求解
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
 
 本文讲**优化研究**：把一个计算机问题表述成"在很多候选解中找最好的那个"，再用搜索算法、进化算法等优化技术求解，并用实验说明求解效果。软件工程里的**基于搜索的软件工程**（Search-Based Software Engineering，常缩写为 SBSE），例如自动生成测试用例，就是典型例子。
 
-优化研究常常也是一项[工程研究](engineering_research.md)（你提出了新方法），评估时也像一次[基准评测](benchmarking.md)。"怎样公平配置对手、怎样控制测量环境"见基准评测；显著性检验、效应量的基本概念见通用篇的[证据、分析与效度](../../../02_from-project-to-study/03_validity-and-limits.md)。本文只讲优化研究特有的部分。
+**适用范围** `[本项目分析]`：这是计算机的做法，例子和标准主要来自软件工程里基于搜索的软件工程。提出新的搜索方法时，它属于[构建改进](../../../05_research-strategies/build_improve.md)这种研究套路；拿几种算法比高低时，属于[比较评估](../../../05_research-strategies/compare_evaluate.md)。这些套路各学科通用的部分（要什么证据、怎样公平比较）见套路页，本文只讲优化研究特有的部分。
+
+优化研究常常也是一项[工程研究](engineering_research.md)（你提出了新方法），评估时也像一次[基准评测](benchmarking.md)。"怎样公平配置对手、怎样控制测量环境"见基准评测；显著性检验、效应量的基本概念见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 **读完本文，你应该能：**
 
@@ -74,7 +76,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准这
 2. **同等调参。** 把自己的方法精心调好、对手用默认参数，是特别糟糕的做法：这种比较只能说明"用好新方法，能胜过用坏另一个方法"[^menzies2019bad-e5][^menzies2019bad-e6]。怎样做到同等调优，见基准评测的[第三步](benchmarking.md#第三步选被比较的系统公平地配置每一个)。
 3. **给每个方法相同的搜索预算**，例如相同的适应度评估次数或相同的运行时间，并在论文中写明 `[本项目分析]`。上面 400 次评估的例子说明，读者需要知道预算有多大，才能判断搜索到底起了多大作用[^arcuri2014hitchhiker-e3]。
 4. **报告成本。** 实际选算法时，除了效果和 p 值，还要看成本差异，例如执行时间、需要用户提供多少输入[^arcuri2014hitchhiker-e6]。
-5. **调参用的问题实例，最好不要同时用来做最终评估。** 否则参数可能只是恰好适合这几个实例 `[本项目分析]`；道理同通用篇的"[留一份数据只用于最后检验](../../../05_research-strategies/compare_evaluate.md#2-什么样的证据才够)"。
+5. **调参用的问题实例，最好不要同时用来做最终评估。** 否则参数可能只是恰好适合这几个实例 `[本项目分析]`；道理同[构建改进](../../../05_research-strategies/build_improve.md#对后面各阶段的影响)里"开发时参考过的例子不能再用来评估"一条。
 
 更进一步，可以系统地分析不同参数选择的影响，并说明最终参数是怎么选出来的，标准把这列为"做得出色"[^ralph2020empirical-e390]。
 
@@ -86,7 +88,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准这
 
 1. **找出所有随机性来源**：算法本身的随机性；测量环境随机量的适应度函数（例如以执行时间打分，每次测都不一样）；数据抽样或交叉验证[^ralph2020empirical-e384]。
 2. **每个方法独立运行多次**，得到结果的分布，而不是一个数[^arcuri2014hitchhiker-e5][^ralph2020empirical-e384]。
-3. **记录随机种子。** 不提供种子，别人就无法精确复现[^menzies2019bad-e8]。
+3. **记录随机种子。** 不提供种子，别人就无法精确复现[^menzies2019bad-e8]。固定种子和换种子重复的关系，见[比较评估：差异是不是真的](../../../05_research-strategies/compare_evaluate.md#差异是不是真的)。
 4. **写清运行了多少次、用了什么统计检验**[^arcuri2014hitchhiker-e12]。
 
 > **不同的看法：要跑多少次？**
@@ -119,7 +121,7 @@ Arcuri & Briand 建议，数值型结果（如覆盖率）用双侧的 Mann-Whit
 
 - **报告整个分布，而不只是平均数或中位数**，例如画箱线图[^ralph2020empirical-e388][^ralph2020empirical-e392]。
 - **给效应量加置信区间**，例如用自助法（bootstrap，从已有结果中反复有放回地抽样来估计不确定性）[^arcuri2014hitchhiker-e18]。
-- **比较两个以上的方法时，两两比较**，每对都做检验、都给效应量[^arcuri2014hitchhiker-e19]；比较次数多了要不要做多重比较校正，见通用篇的[认真对待随机性和统计](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+- **比较两个以上的方法时，两两比较**，每对都做检验、都给效应量[^arcuri2014hitchhiker-e19]；比较次数多了要不要做多重比较校正，见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第六步：选问题实例，看能推广多远
 
@@ -200,7 +202,7 @@ Arcuri & Briand 建议，数值型结果（如覆盖率）用双侧的 Mann-Whit
 - **ACM SIGSOFT Empirical Standards，Optimization Studies**：优化研究的检查清单，含审稿时不成立的批评。原文在 submodule `repos/acmsigsoft__EmpiricalStandards/docs/standards/OptimizationStudies.md`。
 - **Arcuri & Briand 2014，A Hitchhiker's Guide to Statistical Tests for Assessing Randomized Algorithms in Software Engineering**：怎样比较随机化算法的详细指南：运行次数、检验方法、效应量、多个研究对象的分析。第 11 节是可直接照做的实用建议。卢森堡大学机构库有作者存档版。它是 ICSE 2011 论文 `arcuri2011practical` 的扩展版。
 - **Menzies & Shepperd 2019，"Bad smells" in software analytics papers**：数据驱动研究中的常见问题，包括不调参、不和简单方法比较。
-- 本领域相关文档：[基准评测](benchmarking.md)（公平配置、测量流程）、[工程研究](engineering_research.md)（提出并评估新方法）。
+- 计算机篇的相关实践：[基准评测](benchmarking.md)（公平配置、测量流程）、[工程研究](engineering_research.md)（提出并评估新方法）。
 
 [^ralph2020empirical-e374]: SIGSOFT 优化研究标准，定义与适用范围。[证据](../../../../sources/notes/ralph2020empirical.md#e374)
 [^ralph2020empirical-e375]: SIGSOFT 优化研究标准，脚注 3。[证据](../../../../sources/notes/ralph2020empirical.md#e375)

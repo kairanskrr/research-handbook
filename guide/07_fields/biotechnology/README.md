@@ -4,7 +4,7 @@
 
 本文讲生物技术研究实际怎样运转。按本项目采用的经济合作与发展组织（OECD）学科分类，本文合并覆盖四个二级学科：2.8 环境生物技术、2.9 工业生物技术、3.4 医学生物技术、4.4 农业生物技术。它们的共同点是：改造生物（菌株、细胞、植物、动物）或利用生物过程，做出有用的东西 `[本项目分析]`。
 
-生物技术的实验室日常和生物科学很像 `[本项目分析]`。实验记录本、生物学重复和技术重复、试剂和细胞系验证、动物实验规范，见[生物科学篇](../biological-sciences/README.md)，这里不重复。本文只写生物技术多出来的部分：生物安全等级和审批、重组和合成 DNA 的规定、两用研究、转基因生物的国际规则、工程式的研发和放大、测量与描述的标准。人体试验见[临床医学篇](../clinical-medicine/README.md)，专利见[电气、电子与信息工程篇](../electrical-engineering/README.md#发表还是申请专利以美国为例)，各学科共通的做法见[通用篇](../../README.md)。
+生物技术的实验室日常和生物科学很像 `[本项目分析]`。实验记录本、生物学重复和技术重复、试剂和细胞系验证、动物实验规范，见[生物科学篇](../biological-sciences/README.md)，这里不重复。本文只写生物技术多出来的部分：生物安全等级和审批、重组和合成 DNA 的规定、两用研究、转基因生物的国际规则、工程式的研发和放大、测量与描述的标准。人体试验见[临床医学篇](../clinical-medicine/README.md)，专利见[电气、电子与信息工程篇](../electrical-engineering/README.md#发表还是申请专利以美国为例)，各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。
 
 **读完本文，你应该能：**
 
@@ -153,7 +153,7 @@ WHO 给科研人员的清单，开工前就要问[^who2022responsible-e6]：成�
 
 - **菌株和细胞系构建**：设计并构建能完成某个功能的工程菌、细胞或植株。思路接近[工程研究](../computer-science/practices/engineering_research.md)，不同在于开工前可能要报批，而且要按"设计—构建—测试"多轮迭代。
 - **生物过程开发和放大**：优化培养基、温度、补料等条件，提高产量，再逐级放大。条件优化可参考[优化研究](../computer-science/practices/optimization_study.md)；放大见上文和[化学工程篇](../chemical-engineering/README.md#实验室结果离工业还有多远放大)。
-- **检测和测量方法开发**：例如新的 qPCR 检测、传感器菌株。按 MIQE 等规范报告；和已有方法的比较可参考[基准测试](../computer-science/practices/benchmarking.md)。
+- **检测和测量方法开发**：例如新的 qPCR 检测、传感器菌株。按 MIQE 等规范报告；和已有方法的比较可参考[基准评测](../computer-science/practices/benchmarking.md)。
 - **跨实验室比对和复现**：多个实验室用同一方案测同一样品，如 iGEM 的跨实验室研究[^beal2016reproducibility-e1]。见[复现研究](../../06_methods/replication.md)。
 - **建模**：代谢模型、发酵过程模型，见[定量仿真](../../06_methods/simulation_study.md)。
 - **组学分析、动物实验**：见[生物科学篇](../biological-sciences/README.md#常见的研究类型)。**人体试验**（基因治疗、细胞治疗等）：见[临床医学篇](../clinical-medicine/README.md#常见的研究类型)。

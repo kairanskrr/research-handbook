@@ -4,7 +4,7 @@
 
 本文讲**田野实验**（field experiment）：在真实世界里，和政府、非政府组织、企业或社区合作，随机决定谁接受一项干预（发现金、开培训、送信动员投票等），再比较各组的结果。经济学（尤其是发展经济学）和政治学都用这种方法 `[本项目分析]`。
 
-本文只讲田野实验特有的做法。下面这些内容别处已经讲过，本文不重复：经济学的识别策略和美国经济学会（American Economic Association，AEA）的登记要求，见[经济学领域概况](../README.md)；政治学的预分析计划和选举实验伦理争论，见[政治学领域概况](../../political-science/README.md)；随机试验的通用做法（随机序列、意向性分析、报告规范），见临床医学篇的[随机对照试验](../../clinical-medicine/research-types/randomized_controlled_trial.md)；实验室里的对照实验，见计算机篇的[对照实验](../../../06_methods/controlled_experiment.md)。
+本文只讲田野实验特有的做法。下面这些内容别处已经讲过，本文不重复：经济学的识别策略和美国经济学会（American Economic Association，AEA）的登记要求，见[经济学领域概况](../README.md)；政治学的预分析计划和选举实验伦理争论，见[政治学领域概况](../../political-science/README.md)；随机试验的通用做法（随机序列、意向性分析、报告规范），见临床医学篇的[随机对照试验](../../clinical-medicine/research-types/randomized_controlled_trial.md)；实验室里的对照实验，见研究方法里的[对照实验](../../../06_methods/controlled_experiment.md)。
 
 **读完本文，你应该能：**
 
@@ -124,7 +124,7 @@
 
 **整群的标准误。** 忽略整群分配，标准误会偏小[^egapclusterrandomization-e3]：EGAP 的例子里，200 个观测来自 10 个群、组内相关系数为 0.5 时，有效样本只有约 19[^egapclusterrandomization-e2]。Duflo 等人引用的模拟显示，群少于 50 个时常用的聚类稳健标准误容易错误地拒绝"没有效应"，这时可以用随机化推断[^duflo2007toolkit-e32]。
 
-**多个结果。** Duflo 等人主张，收集的结果变量无论显著与否都应报告[^duflo2007toolkit-e33]。统计检验的一般问题见通用篇的[证据、分析与效度](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+**多个结果。** Duflo 等人主张，收集的结果变量无论显著与否都应报告[^duflo2007toolkit-e33]。统计检验的一般问题见主线章节[报告差多少、有多确定，而不只是 p 值](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第 9 步：想清溢出
 
@@ -138,7 +138,7 @@
 
 ### 第 10 步：处理好真实社区里的伦理
 
-通用的知情同意、风险评估见通用篇的[研究涉及人时，先保护人](../../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；选举实验的伦理争论见[政治学领域概况](../../political-science/README.md#伦理在真实政治环境里做研究)。田野实验要多想几件事：
+通用的知情同意、风险评估见贯穿全程的[研究涉及人时，先保护人](../../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；选举实验的伦理争论见[政治学领域概况](../../political-science/README.md#伦理在真实政治环境里做研究)。田野实验要多想几件事：
 
 - **审批不是终点。** J-PAL 的伦理指南说，伦理审查委员会的审查不能代替研究者自己的责任，要问自己，也要问所在社区的人是否认可方案[^jpal2022ethics-e1]；在设计和实施中征询当地伙伴、社区和政府的意见[^jpal2022ethics-e3]。
 - **伙伴批准不等于你没责任。** 美国政治学会（American Political Science Association，APSA）2020 年的人类受试者原则说：和第三方合作不会把伦理责任全部转给对方[^apsa2020humansubjects-e14]；选举机构等当局批准也不能免除研究者的全部伦理考量[^apsa2020humansubjects-e15]。

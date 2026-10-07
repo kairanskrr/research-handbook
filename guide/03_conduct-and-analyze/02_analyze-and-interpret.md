@@ -79,7 +79,7 @@
 
 这么做的目的，不是说事先预测比事后探索高级，而是让人分清哪个是哪个[^nosek2018preregistration-e4]。探索性的发现往往正是下一个项目的起点 `[本项目分析]`。
 
-**如果动手前没写分析计划** `[本项目分析]`：现在补写一份，按你看结果之前"本来会怎么做"来写，越早越好；论文里诚实说明哪些分析是看到结果后才定的。下次在[从问题到证据](../02_from-project-to-study/01_question-to-evidence.md)那一步就把分析计划写好。
+**如果动手前没写分析计划** `[本项目分析]`：现在补写一份，按你看结果之前"本来会怎么做"来写，越早越好；论文里诚实说明哪些分析是看到结果后才定的。下次在[从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md)那一步就把分析计划写好。
 
 **写下来：** 画一张分析清单，每做一项分析就加一行。
 
@@ -266,14 +266,14 @@
 | 出现这种情况 | 回到哪里 |
 |---|---|
 | 数据检查发现大问题，结果要重跑 | [执行与迭代](01_run-and-iterate.md) |
-| 现有的数据根本回答不了研究问题 | [从问题到证据](../02_from-project-to-study/01_question-to-evidence.md)，重新想需要什么证据 |
+| 现有的数据根本回答不了研究问题 | [从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md)，重新想需要什么证据 |
 | 有一个致命的其他解释，现有设计排除不了 | [效度与局限](../02_from-project-to-study/03_validity-and-limits.md)，补设计 |
 | 核心主张被否定，改小之后也没什么意思了 | [收敛成项目](../01_from-interest-to-project/03_converge.md)，换一个候选结论 |
 | 探索中发现了一个更有意思的问题 | [收敛成项目](../01_from-interest-to-project/03_converge.md)，把它当成新的候选，和导师商量 |
 
 ## 下一步
 
-结论和证据对齐之后，下一步是把它们讲成一个故事，写成论文：先讲什么、证据怎么排、局限放在哪里。见[论文的故事与结构](../04_write-and-publish/01_story-and-paper.md)。
+结论和证据对齐之后，下一步是把它们讲成一个故事，写成论文：先讲什么、证据怎么排、局限放在哪里。见[讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md)。
 
 [^allea2023european-e3]: ALLEA 2023，§3.1 Research Misconduct。[证据](../../sources/notes/allea2023european.md#e3)
 [^allea2023european-e12]: ALLEA 2023，§2.7。[证据](../../sources/notes/allea2023european.md#e12)
