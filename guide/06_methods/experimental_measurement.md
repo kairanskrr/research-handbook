@@ -1,7 +1,5 @@
 # 实验测量研究
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
-
 本文讲**以测量为中心的实验**：目标是测出一个物理量的值，并说清这个值有多可信。例如测一个常数、一种材料的某项性质、一个粒子的寿命。工程里的试验台测试（测效率、载荷、流量等）也可以按本文的步骤做 `[本项目分析]`；工程期刊对不确定度的要求见[机械工程学科概况](../07_fields/mechanical-engineering/README.md#测量结果要带上不确定度)。5σ 发现标准、盲分析的基本概念，[物理科学学科概况](../07_fields/physical-sciences/README.md)已经讲过，本文只讲具体怎么做。计算机里的性能测量也要对付噪声和测量偏差，可以对照计算机学科的[基准评测](../07_fields/computer-science/practices/benchmarking.md#第四步设计测量流程)读。
 
 **适用范围** `[本项目分析]`：本文原为[物理科学](../07_fields/physical-sciences/README.md)写，资料主要是计量领域的《测量不确定度表示指南》（GUM）、美国国家标准与技术研究院（NIST）的统计手册、粒子物理里关于盲分析和可重复性的文章，以及美国航空航天学会（AIAA）对数值和实验准确度的编辑政策。[化学科学](../07_fields/chemistry/README.md)、[机械工程](../07_fields/mechanical-engineering/README.md)、[土木工程](../07_fields/civil-engineering/README.md)、[电气、电子与信息工程](../07_fields/electrical-engineering/README.md)、[材料工程与纳米技术](../07_fields/materials-engineering/README.md)的学科概况也指向本篇。盲分析的做法主要来自粒子物理；其他学科使用时，先看本学科的规范。

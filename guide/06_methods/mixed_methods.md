@@ -1,7 +1,5 @@
 # 混合方法：用两种及以上方法研究同一个问题
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
-
 本文讲**混合方法研究**（mixed methods research）和更宽泛的**多方法研究**（multi-method research）：围绕同一个研究问题，组合两种及以上的方法。例如先从代码仓库中挖出规律，再访谈开发者解释原因；或者先访谈形成假设，再用问卷在更大范围检验。
 
 本文只讲"怎么组合"。每个组成部分本身怎么做，见对应的文档：[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)、[访谈研究](interview_study.md)、[问卷调查](questionnaire_survey.md)等。怎样根据问题选方法、什么时候需要组合，见[选定研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md#4-需要时组合几种方法)。

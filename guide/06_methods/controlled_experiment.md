@@ -1,7 +1,5 @@
 # 对照实验：有人参与，比较工具或方法对人的影响
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
-
 本文讲**有人类参与者的对照实验**：研究者主动改变一个因素（例如开发者用哪个调试工具），把参与者随机分组，在其他条件尽量相同的情况下，比较这个因素对人的表现有什么影响。
 
 如果被比较的是软件系统、工具或模型本身，可以自动运行、重复测量，不需要人参与，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你提出了一个新工具，想知道整篇论文该怎样评估它，先看[工程研究](../07_fields/computer-science/practices/engineering_research.md)，有人参与的实验只是其中一种评估方式。统计检验的一般讲法见[分析与解读](../03_conduct-and-analyze/02_analyze-and-interpret.md)，效度见[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)，本文不重复。

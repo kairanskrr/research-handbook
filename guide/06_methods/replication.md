@@ -1,7 +1,5 @@
 # 复现研究：有计划地重做已发表的研究，检验结论是否成立
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
-
 本文讲**复现研究**（replication study）：有意、有计划地重做一项已发表的研究（称为**原研究**），看它的结果能否再次得到[^ralph2020empirical-e208]。重做时可以用原作者的**制品**（artifact：论文配套的代码、数据和脚本），也可以自己重新实现、换一批数据或换一个情境。
 
 本文不讲怎样让**自己的**研究容易被别人复现，那部分见[工程研究](../07_fields/computer-science/practices/engineering_research.md)、[基准评测](../07_fields/computer-science/practices/benchmarking.md)中关于公开制品的步骤，以及[整理科研材料](../08_throughout/organizing_materials.md)；ACM 制品徽章见[计算机学科概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)。

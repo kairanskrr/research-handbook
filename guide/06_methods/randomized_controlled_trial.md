@@ -1,7 +1,5 @@
 # 随机对照试验
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
-
 本文讲怎样设计和实施一项**随机对照试验**（randomized controlled trial）：把受试者随机分到不同干预组，比较他们的结局。伦理审批、试验登记、署名、利益冲突、数据共享这些规则，[临床医学学科概况](../07_fields/clinical-medicine/README.md)已经讲过，这里只讲它们落在试验的哪一步。观察性研究（队列、病例对照、横断面）不在本文范围。
 
 **适用范围** `[本项目分析]`：本文原为[临床医学](../07_fields/clinical-medicine/README.md)写，资料主要是临床试验的两份报告规范（CONSORT 2025、SPIRIT 2025）及其解释文章、世界医学会的《赫尔辛基宣言》、国际医学期刊编辑委员会（ICMJE）的建议和世界卫生组织的登记说明。所以下文的"必须""应该"，都是临床医学对试验的要求。[健康科学](../07_fields/health-sciences/README.md)、[基础医学](../07_fields/basic-medicine/README.md)、[动物科学与兽医学](../07_fields/animal-veterinary-science/README.md)、[医学工程](../07_fields/medical-engineering/README.md)的学科概况也指向本篇。在其他学科做随机分组的研究，先看本学科的规范；和政府、企业合作在真实项目里随机，见[田野实验](field_experiment.md)；请人到实验室参加的随机实验，见[对照实验](controlled_experiment.md)。

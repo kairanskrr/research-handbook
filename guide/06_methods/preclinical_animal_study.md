@@ -1,7 +1,5 @@
 # 临床前动物研究
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
-
 本文讲**临床前动物研究**：在活体动物身上做实验，结果要为人类医学提供依据，例如为一种药物或疗法进入人体试验铺路。它讲怎样一步步把这类实验设计好、做好、写好。为什么很多临床前发现到了人身上不灵、美国一次研讨会提出的四项核心报告要求，见[基础医学学科概况](../07_fields/basic-medicine/README.md)；3R 原则（替代、减少、优化）和 ARRIVE 报告规范的基本内容，见[生物科学学科概况](../07_fields/biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。本文不再重复。在细胞、组织或分子上做的实验，见[实验台实验](bench_experiment.md)；用人做的对照实验，见研究方法里的[对照实验](controlled_experiment.md)。
 
 **适用范围** `[本项目分析]`：本篇原为基础医学学科篇写，依据主要来自动物研究的报告指南（ARRIVE 2.0 及其解释文件）、英国 NC3Rs（推动 3R 原则的机构）和美国国立卫生研究院（NIH）的材料，以及生物医学期刊上的方法学文章。除[基础医学](../07_fields/basic-medicine/README.md)外，[生物科学](../07_fields/biological-sciences/README.md)、[动物科学与兽医学](../07_fields/animal-veterinary-science/README.md)、[医学工程](../07_fields/medical-engineering/README.md)的学科概况也把它列为常用方法。不同学科、不同国家的动物伦理审批和报告要求不同；用之前先看本学科的规范、所在单位动物伦理委员会的规定和目标期刊的作者须知。

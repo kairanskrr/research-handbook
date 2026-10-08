@@ -56,9 +56,9 @@
 5. **"不同的看法"只在分歧影响操作时写**：并列写出各自的做法和理由，再给一段 `[本项目分析]` 的实际操作建议，不要强行合成一个结论。
 6. **写明出处来自哪个领域。** 不要把计算机、软件工程或机器学习的做法写成所有学科的规律。
 
-### 写完后更新状态
+### 写完后更新目录页
 
-每篇文件开头写状态和最后更新日期。新增或改动了章节、方法、学科篇，同时更新所在的目录页：主线见仓库首页 [`README.md`](README.md) 的目录，研究套路见 [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md)，研究方法见 [`guide/06_methods/README.md`](guide/06_methods/README.md)，学科篇和各学科独有的实践见 [`guide/07_fields/README.md`](guide/07_fields/README.md)，贯穿全程见 [`guide/08_throughout/README.md`](guide/08_throughout/README.md)。
+新增或改动了章节、方法、学科篇，同时更新所在的目录页：主线见仓库首页 [`README.md`](README.md) 的目录，研究套路见 [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md)，研究方法见 [`guide/06_methods/README.md`](guide/06_methods/README.md)，学科篇和各学科独有的实践见 [`guide/07_fields/README.md`](guide/07_fields/README.md)，贯穿全程见 [`guide/08_throughout/README.md`](guide/08_throughout/README.md)。
 
 ## 许可说明
 

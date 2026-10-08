@@ -1,7 +1,5 @@
 # 数据科学研究：用预测或统计建模从已有数据中得出新结论
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
-
 本文讲**数据科学研究**：对已有数据做预测建模或统计建模，用建模结果回答一个科学问题。例如"能不能根据代码变更的特征，预测哪次提交会引入缺陷"；也包括在其他学科里用机器学习做科研，例如用模型预测内战或疾病。
 
 相近的几篇：数据怎样从代码仓库、缺陷库里挖出来，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；比较现有工具或模型谁更好，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；提出新的学习方法或工具，见[工程研究](../07_fields/computer-science/practices/engineering_research.md)。基线怎么选，见[构建改进：尽早把基线跑起来](../05_research-strategies/build_improve.md#尽早把基线跑起来)；测试数据为什么只用一次、怎样对待随机性，见[比较评估：留一份数据只用于最后检验](../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验)和[比较评估：差异是不是真的](../05_research-strategies/compare_evaluate.md#差异是不是真的)；统计的一般做法见[分析与解读：报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。这些是各类研究共通的内容，本文只讲数据科学特有的部分。
