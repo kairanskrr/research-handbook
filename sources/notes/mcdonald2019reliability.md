@@ -98,3 +98,9 @@
 - 位置：§5.4.2 Passive voice
 - 原文："passive voice can obfuscate the role of researchers in performing the analysis."
 - 要点：方法部分用被动语态，可能掩盖研究者在分析中的作用。
+
+### E17
+
+- 位置：摘要
+- 原文："Drawing on a meta-analysis of a representative sample of CSCW and HCI publications from 2016-2018" / "notably, IRR is rare, occurring in around 1/9 of qualitative papers."
+- 要点：作者分析了 2016–2018 年 CSCW 和人机交互发表物的代表性样本；其中定性论文只有约九分之一计算了编码者间信度。

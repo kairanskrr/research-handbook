@@ -4,7 +4,7 @@
 
 **适用范围** `[本项目分析]`：本篇原为基础医学学科篇写，依据主要来自动物研究的报告指南（ARRIVE 2.0 及其解释文件）、英国 NC3Rs（推动 3R 原则的机构）和美国国立卫生研究院（NIH）的材料，以及生物医学期刊上的方法学文章。除[基础医学](../07_fields/basic-medicine/README.md)外，[生物科学](../07_fields/biological-sciences/README.md)、[动物科学与兽医学](../07_fields/animal-veterinary-science/README.md)、[医学工程](../07_fields/medical-engineering/README.md)的学科概况也把它列为常用方法。不同学科、不同国家的动物伦理审批和报告要求不同；用之前先看本学科的规范、所在单位动物伦理委员会的规定和目标期刊的作者须知。
 
-**常服务的套路**：套路页暂未列出。各种套路见[研究套路](../05_research-strategies/README.md)。
+**常服务的套路**：[解释因果](../05_research-strategies/explain_causality.md)（证明一种处理在动物身上带来了某个效应）`[本项目分析]`。依据是这类研究的第一个目标：在动物模型里证明处理和效应之间的因果关系[^henderson2013threats-e13]，见下面第 1 节。
 
 **读完本文，你应该能：**
 

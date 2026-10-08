@@ -6,7 +6,7 @@
 
 **适用范围** `[本项目分析]`：本篇原为历史与考古学科篇写，资料来自上面这些口述历史机构和历史学者。除[历史与考古](../07_fields/history-archaeology/README.md)外，[语言与文学](../07_fields/languages-literature/README.md)、[社会学](../07_fields/sociology/README.md)的学科概况也链接到本篇。这些学科做访谈时，匿名、存档和伦理审查的习惯可能和口述历史不同；用之前先看本学科的规范。
 
-**常服务的套路**：套路页暂未列出。各种套路见[研究套路](../05_research-strategies/README.md)。
+**常服务的套路**：[解读论证](../05_research-strategies/interpret_argue.md)（解读亲历者的讲述，把它当作需要核对的证据，得出自己的结论）`[本项目分析]`。依据：访谈和其他证据冲突时，历史学者要解释这些差异[^shopes2002making-e5]；你的结论可以和受访者不同，但要来自恰当引用的证据[^oha2018principles-e31]。具体见下面第十步。
 
 **读完本文，你应该能：**
 

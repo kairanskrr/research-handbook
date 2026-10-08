@@ -133,21 +133,34 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在化学里的样子"一栏是本项目的归纳；每条标准只代表脚注里那本期刊或那个方向（合成多出自 JOC，比较和测量出自催化方向） `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在化学里的样子"一栏是本项目的归纳；每条标准只代表脚注里那本期刊、那份指南或那个方向（合成和机理出自 JOC，比较和测量出自催化方向，分析方法验证出自 IUPAC 2002 年的一份指南） `[本项目分析]`。
 
 | 套路 | 在化学里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [构建改进](../../05_research-strategies/build_improve.md) | 合成方法学和全合成：发展新反应、新试剂，或做出一个特定分子 | JOC 期待概念上的新意，不只是把已有反应换一类底物、试剂或催化剂再做一遍[^acsjocguidelines-e30]；新化合物要证明结构和纯度[^acsjocguidelines-e1]；产率报分离纯化、称重后的结果[^acsjocguidelines-e9] | [合成与表征研究](../../06_methods/synthesis_study.md) |
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 催化：用活性、选择性、失活情况比较新催化剂和标准催化剂[^bligaard2016benchmarking-e1] | 在相同条件下和成熟或最先进的催化剂比较[^bligaard2016benchmarking-e17]；比较选择性要在相同转化率下测[^bligaard2016benchmarking-e15] | 暂无专门的方法篇 |
 | [测量](../../05_research-strategies/measure.md) | 催化：弄清一项测量的现实误差有多大 | 有研究者提议多个课题组盲法轮流测量同一批样品，以确定现实的误差范围[^bligaard2016benchmarking-e8] | [实验测量研究](../../06_methods/experimental_measurement.md) |
+| [测量](../../05_research-strategies/measure.md) | 分析方法开发：建立一个测定方法，并证明它适合某个分析目的 | 按 IUPAC 2002 年的指南：检验方法依赖的假设，测出并记录性能指标，说明它是否适合这个目的[^thompson2002harmonized-e1]（要测哪些指标见表后） | 暂无专门的方法篇 |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 机理研究：用实验或理论计算弄清反应是怎样进行的[^acsjocguidelines-e32] | JOC 期待机理研究在方法上有进展，或对反应过程给出新见解；只确认已知的机理不够[^acsjocguidelines-e32]。用到计算时，方法和结果要写到别人能重复计算[^acsjocguidelines-e33] | [实验测量研究](../../06_methods/experimental_measurement.md)、[定量仿真](../../06_methods/simulation_study.md) |
 
-机理研究、分析方法开发、计算化学各属于哪种套路、按什么标准评判，本文资料未涉及。
+表里后两行的归类是本项目分析 `[本项目分析]`：
+
+- **分析方法开发归"测量"**，因为核心主张是"这把尺子准不准、适不适合用"。
+- **机理研究归"解释因果"**，因为它回答"反应为什么这样发生"。机理研究具体要拿出哪些实验证据才算够，本文资料未涉及。
+- **计算化学按核心主张归类，不单列一行。** JOC 的作者须知说机理研究可以是实验的，也可以是理论的[^acsjocguidelines-e32]。以比较计算方法精度为主的工作按什么标准评判，本文资料未涉及。
+
+分析方法验证的标准出自国际纯粹与应用化学联合会（IUPAC）2002 年的技术报告《单实验室方法验证协调指南》。它是写给分析实验室做方法验证用的，不是哪本期刊的审稿标准；投稿时还要看目标期刊的要求。报告里和新手最相关的几点：
+
+- **要测的指标。** 典型的有选择性、正确度、精密度、回收率、检出限、定量限、耐用性等[^thompson2002harmonized-e2]。
+- **"适合用途"由谁定。** 看方法的性能是否满足分析者和数据使用者商定的标准[^thompson2002harmonized-e3]。
+- **耐用性怎么查。** 故意给操作步骤加一些小变化，看结果变多少[^thompson2002harmonized-e6]。
+- **单个实验室能做到哪一步。** "完整"验证通常指多个实验室参加的协同研究[^thompson2002harmonized-e4]；这并不总是可行或必要，这时可以只做单个实验室验证[^thompson2002harmonized-e5]。
 
 ---
 
 ## 本学科常用的研究方法
 
-下面的归类是本项目分析 `[本项目分析]`。合成方法学、全合成和目标分子合成，见[合成与表征研究](../../06_methods/synthesis_study.md)。机理和物理化学测量，见[实验测量研究](../../06_methods/experimental_measurement.md)；它和[对照实验](../../06_methods/controlled_experiment.md)一样讲究一次只改一个因素，但对象是化学体系而不是人。计算化学见[定量仿真](../../06_methods/simulation_study.md)，要交代理论方法、基组、程序和坐标[^acsjocguidelines-e13]；比较不同计算方法时，可参考计算机的[基准评测](../computer-science/practices/benchmarking.md)。复现和独立核查见[复现研究](../../06_methods/replication.md)，合成化学里"重复出产率和选择性"本身就是一项要求很高的工作[^orgsyninstructions-e4]。综述见[综述研究](../../06_methods/review_study.md)。分析方法开发暂无对应的方法篇。
+下面的归类是本项目分析 `[本项目分析]`。合成方法学、全合成和目标分子合成，见[合成与表征研究](../../06_methods/synthesis_study.md)。机理和物理化学测量，见[实验测量研究](../../06_methods/experimental_measurement.md)；它和[对照实验](../../06_methods/controlled_experiment.md)一样讲究一次只改一个因素，但对象是化学体系而不是人。计算化学见[定量仿真](../../06_methods/simulation_study.md)，要交代理论方法、基组、程序和坐标[^acsjocguidelines-e13]；比较不同计算方法时，可参考计算机的[基准评测](../computer-science/practices/benchmarking.md)。复现和独立核查见[复现研究](../../06_methods/replication.md)，合成化学里"重复出产率和选择性"本身就是一项要求很高的工作[^orgsyninstructions-e4]。综述见[综述研究](../../06_methods/review_study.md)。分析方法开发暂无对应的方法篇，验证要看哪些指标见上文[常用套路与证据标准](#常用套路与证据标准)。
 
 ---
 
@@ -271,6 +284,14 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 [^iupacfaircookbook-e1]: IUPAC FAIR Chemistry Cookbook，首页。[证据](../../../sources/notes/iupacfaircookbook.md#e1)
 [^iupacfaircookbook-e2]: IUPAC FAIR Chemistry Cookbook，首页。[证据](../../../sources/notes/iupacfaircookbook.md#e2)
 [^acsjocguidelines-e30]: JOC 作者须知，Scope of the Journal (a)。[证据](../../../sources/notes/acsjocguidelines.md#e30)
+[^acsjocguidelines-e32]: JOC 作者须知，Scope of the Journal (b)。[证据](../../../sources/notes/acsjocguidelines.md#e32)
+[^acsjocguidelines-e33]: JOC 作者须知，Computational Data。[证据](../../../sources/notes/acsjocguidelines.md#e33)
+[^thompson2002harmonized-e1]: Thompson 等人 2002（IUPAC 技术报告），§3。[证据](../../../sources/notes/thompson2002harmonized.md#e1)
+[^thompson2002harmonized-e2]: Thompson 等人 2002（IUPAC 技术报告），§3。[证据](../../../sources/notes/thompson2002harmonized.md#e2)
+[^thompson2002harmonized-e3]: Thompson 等人 2002（IUPAC 技术报告），附录 A12。[证据](../../../sources/notes/thompson2002harmonized.md#e3)
+[^thompson2002harmonized-e4]: Thompson 等人 2002（IUPAC 技术报告），§1.1。[证据](../../../sources/notes/thompson2002harmonized.md#e4)
+[^thompson2002harmonized-e5]: Thompson 等人 2002（IUPAC 技术报告），§1.1。[证据](../../../sources/notes/thompson2002harmonized.md#e5)
+[^thompson2002harmonized-e6]: Thompson 等人 2002（IUPAC 技术报告），附录 A11。[证据](../../../sources/notes/thompson2002harmonized.md#e6)
 [^bligaard2016benchmarking-e1]: Bligaard 等人 2016，摘要。[证据](../../../sources/notes/bligaard2016benchmarking.md#e1)
 [^bligaard2016benchmarking-e8]: Bligaard 等人 2016，§2.2.1，第 2595 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e8)
 [^bligaard2016benchmarking-e15]: Bligaard 等人 2016，§2.3.1，第 2597 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e15)

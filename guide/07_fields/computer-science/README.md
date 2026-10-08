@@ -98,15 +98,19 @@
 
 ### 各方向的惯例不一样
 
-计算机各方向差别很大，判断一篇论文够不够格，要了解目标会议和学术社区的标准[^hicks2014reviewing-e9]。下表只列本文资料能支持的几点，**以目标会议的征稿启事为准**：
+计算机各方向差别很大，判断一篇论文够不够格，要了解目标会议和学术社区的标准[^hicks2014reviewing-e9]。各方向特有的发表处、审稿重点和证据标准，分别写在[计算机各方向](subfields/README.md)下的方向页里。
+
+下表各举一例。大多是某个会议某一年的规定，不是整个方向的通则；**以你要投的会议当年的征稿启事为准**。
 
 | 方向 | 值得注意的惯例（举例） |
 |---|---|
-| 理论 | 会议也很受重视，但有把会议论文补全、修改、扩展后再投期刊的长期传统[^cra1999evaluating-e4]；证明怎么做、怎么写，见[理论研究](practices/theoretical_research.md) |
-| 系统 | 制品评估普遍；评估在录用后进行，时间紧[^sysartifactsguide-e2] |
-| 安全 | 必须讨论研究伦理，USENIX Security 要求所有投稿都讨论研究伦理[^usenixsec2026cfp-e2]；涉及漏洞要负责任地披露（见下文） |
-| 机器学习 | 双盲加 arXiv 预印本并存[^neurips2025cfp-e5]；投稿要填论文检查清单[^neurips2025cfp-e3]；录用论文的审稿意见和讨论会公开[^neurips2025cfp-e9] |
-| 软件工程 | SIGSOFT 实证标准认为没有通用的质量标准，不同研究方法有不同的评审标准[^ralph2020empirical-e142] |
+| [理论](subfields/theory.md) | 理论界也看重会议，但有把会议论文补全、扩展后再投期刊的长期传统[^cra1999evaluating-e4] |
+| [系统](subfields/systems.md) | 以 OSDI 2024（操作系统设计与实现研讨会）为例：录用到提交制品之间时间很短，论文还在审时就该准备制品[^sysartifactsguide-e2] |
+| [安全](subfields/security.md) | USENIX Security 2026 要求所有投稿都讨论研究伦理[^usenixsec2026cfp-e2]；漏洞披露见下文 |
+| [机器学习](subfields/machine_learning.md) | 以 NeurIPS 2025 为例：发了署名预印本不会因此被拒[^neurips2025cfp-e5]；投稿要填论文检查清单[^neurips2025cfp-e3]；录用论文的审稿意见和讨论会公开[^neurips2025cfp-e9] |
+| [软件工程](subfields/software_engineering.md) | 软件工程的 SIGSOFT 实证标准认为，没有通用的质量标准，不同研究方法有不同的评审标准[^ralph2020empirical-e142] |
+| [程序语言](subfields/programming_languages.md) | SIGPLAN（美国计算机协会程序设计语言分会）的实证评估清单说，制品评估通常在论文审稿之后进行，检查论文的主张和证据与制品是否一致[^blackburn2018sigplan-e31] |
+| [人机交互](subfields/hci.md) | McDonald 等人统计的定性研究论文里，只有约九分之一计算了编码者间信度（几名编码者结果一致的程度）[^mcdonald2019reliability-e2] |
 
 ### 伦理问题有本领域的特点
 
@@ -176,6 +180,8 @@
 ## 研究类型
 
 计算机研究用到的具体做法分两类：只在计算机里用的研究实践，放在计算机篇；别的学科也用的研究方法，放在[研究方法](../../06_methods/README.md)目录。它们分别服务哪种套路，见上文[常用套路与证据标准](#常用套路与证据标准)。
+
+同一种做法，不同方向的要求可能不同（见上文[各方向的惯例不一样](#各方向的惯例不一样)）；各方向特有的规矩见[计算机各方向](subfields/README.md)。
 
 ### 计算机特有的研究实践
 
@@ -306,3 +312,5 @@
 [^kalliamvakou2014promises-e1]: Kalliamvakou 等人 2014，摘要。[证据](../../../sources/notes/kalliamvakou2014promises.md#e1)
 [^sainz2023nlp-e2]: Sainz 等人 2023，摘要。[证据](../../../sources/notes/sainz2023nlp.md#e2)
 [^klein2009sel4-e8]: Klein 等人 2009，摘要。[证据](../../../sources/notes/klein2009sel4.md#e8)
+[^blackburn2018sigplan-e31]: SIGPLAN 实证评估清单，FAQ（与制品评估的关系）。[证据](../../../sources/notes/blackburn2018sigplan.md#e31)
+[^mcdonald2019reliability-e2]: McDonald 等人 2019，摘要。[证据](../../../sources/notes/mcdonald2019reliability.md#e2)

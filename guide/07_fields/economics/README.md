@@ -49,7 +49,7 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 
 > **不同的看法：设计派还是结构派？**
 >
-> 注意：下面三条都来自 Angrist 和 Pischke 这一篇文章，他们本人是设计派。批评者的观点是他们转述的，本文没有读批评者的原文。
+> 注意：下面三条都来自 Angrist 和 Pischke 这一篇文章，他们本人是设计派，批评者的观点是他们转述的。结构派几位作者自己的说法见下文[常用套路与证据标准](#常用套路与证据标准)。
 >
 > - **设计派**（Angrist 和 Pischke）：好的结构模型能同时告诉我们机制和因果效应，但它的估计应该和假设更弱的方法对得上[^angrist2010credibility-e15]。他们更信服好的研究设计得出的结果，而不是好理论推出的结论[^angrist2010credibility-e19]。
 > - **批评者**（据 Angrist 和 Pischke 转述，包括 Heckman、Rosenzweig 和 Wolpin、Deaton 等人）：为了追求内部效度，设计派的研究变得狭窄、特殊[^angrist2010credibility-e20]。具体有两条：一个实验得出的结论，换个环境可能不成立（外部效度问题）；研究者在做小问题，大问题没人回答[^angrist2010credibility-e16]。
@@ -130,25 +130,39 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。经济学实证研究的主流是解释因果，下表按拿到因果证据的两种途径分两行。表的分组和"在经济学里的样子"一栏是本项目的归纳；每条要求只代表脚注里那份资料（多为 AEA 期刊政策）`[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。经济学实证研究的主流是解释因果，下表前两行是拿到因果证据的两种途径；第三行是理论建模；最后两行是结构估计和校准，它们靠经济模型做定量推断。表的分组和"在经济学里的样子"一栏是本项目的归纳；"证据和评判标准"一栏的每条只代表脚注里那份资料（多为 AEA 期刊 2026 年版的政策和几位经济学者的文章），不是整个学科的规定 `[本项目分析]`。
 
 | 套路 | 在经济学里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
-| [解释因果](../../05_research-strategies/explain_causality.md)（随机实验） | 随机决定谁接受干预，例如发现金、给补贴；最直接，但耗时、昂贵，有时根本做不了[^angrist2010credibility-e3] | AEA 期刊要求田野实验投稿前在注册平台登记，干预开始前登记才算"预注册"[^aea2026rct-e1][^aea2026rct-e5]；实验说明随稿提交[^aea2026data-e10]；做得好的观察性研究可能比执行糟糕的随机试验更可信[^angrist2010credibility-e18] | [田野实验](../../06_methods/field_experiment.md) |
-| [解释因果](../../05_research-strategies/explain_causality.md)（准实验） | 利用制度或自然事件造成的变化，最常用工具变量、断点回归、双重差分[^angrist2010credibility-e4] | 先回答"你的识别策略是什么"[^angrist2010credibility-e10]；按方法逐项检查漏洞（趋势、扎堆、别的渠道）[^angrist2010credibility-e9]；撒大网跑大量回归，不能为因果解释提供多少依据[^angrist2010credibility-e13]；接收前交复现包[^aea2026data-e1] | [准实验与因果识别](../../06_methods/quasi_experiment.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md)（随机实验） | 随机决定谁接受干预，如发现金、给补贴 `[本项目分析]`；耗时、昂贵，有时做不了[^angrist2010credibility-e3] | AEA 期刊：田野实验投稿前登记[^aea2026rct-e1]，干预开始前登记才算"预注册"[^aea2026rct-e5]；实验说明随稿提交[^aea2026data-e10] | [田野实验](../../06_methods/field_experiment.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md)（准实验） | 借制度或自然事件造成的变化；最常用工具变量、断点回归、双重差分[^angrist2010credibility-e4] | 先说清识别策略[^angrist2010credibility-e10]，按方法逐项查漏洞，见上文[可信性革命](#可信性革命先回答你的识别策略是什么)；AEA 期刊要求接收前交复现包[^aea2026data-e1] | [准实验与因果识别](../../06_methods/quasi_experiment.md) |
+| [证明](../../05_research-strategies/prove.md)（理论建模） | 写出行为人、目标、约束和均衡[^varian1997build-e4]，从模型推出结论 `[本项目分析]` | Varian 建议先写最简单、仍有意思的模型[^varian1997build-e5]，再推广，看结论有多一般[^varian1997build-e6]；纯理论论文按什么标准审稿，本文资料未涉及 | 计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)可参考 |
+| [解释因果](../../05_research-strategies/explain_causality.md)（结构估计） | 估计一个经济模型的参数，再用它分析没实施过的政策（见表后）；例如兼并分析[^angrist2010credibility-e21] | 写清模型假设；估计和模拟的程序都放进复现包[^aea2026data-e11] | 目前没有对应文档 |
+| [解释因果](../../05_research-strategies/explain_causality.md)（校准与计算实验） | 建一个模型经济，调参数让它在几个关键统计特征上像真实经济，再改政策参数看结果[^angrist2010credibility-e14] | 报告参数有多不确定、结果对模型设定有多敏感（见表后）；模拟程序放进复现包[^aea2026data-e11] | [定量仿真](../../06_methods/simulation_study.md)（以计算机为例） |
+
+"结构估计"和"校准"两行的说明。下面和后面"两派的分歧"里引的 Nevo 和 Whinston、Low 和 Meghir、Keane、Kydland 和 Prescott、Hansen 和 Heckman 五篇文章，都发表在《经济学展望杂志》（Journal of Economic Perspectives）。本文只读了它们在美国经济学会网站上的摘要，所以只转述摘要里作者的说法：
+
+- **结构估计**：按 Nevo 和 Whinston 的说法，结构建模用数据去识别一个经济模型的参数，这个模型建立在个人选择之上[^nevo2010taking-e1]。Low 和 Meghir 认为，结构模型能找出决定结果的机制，并用来分析没有实施过的政策[^low2017use-e2]。
+- **校准与计算实验**：据 Angrist 和 Pischke 2010 年的描述，很多宏观经济学家用这种做法[^angrist2010credibility-e14]。Kydland 和 Prescott 认为，在整个国家的层面拿真人做实验不可行，但可以建一个模型经济，算出模型里的人会怎样行动[^kydland1996computational-e1]，用来回答一个提得清楚的定量问题[^kydland1996computational-e2]。Hansen 和 Heckman 质疑校准所需的微观估计并不是现成的[^hansen1996empirical-e1]，主张常规报告参数有多不确定、结果对模型设定有多敏感[^hansen1996empirical-e2]。
+
+**两派的分歧会影响你怎样设计研究**，所以这里把两边并列：
+
+- **设计派**：Angrist 和 Pischke 更信服好的研究设计得出的结果，而不是好理论推出的结论[^angrist2010credibility-e19]；结构估计应该和假设更弱的方法得到的结果对得上[^angrist2010credibility-e15]；校准能说明模型的含义，但不直接提供因果效应的证据[^angrist2010credibility-e14]。
+- **结构派**：Low 和 Meghir 认为，结构模型的主要好处，是能超出只给出简约式因果关系的常规研究[^low2017use-e1]。Nevo 和 Whinston 认为，可信的分析可以是结构的，也可以是非结构的，对某些问题结构分析有重要优势[^nevo2010taking-e2]。Keane 认为，统计工作摆脱不了假设，结论总是有条件的[^keane2010structural-e1]；能做对照实验，也不等于不需要理论[^keane2010structural-e3]。
 
 怎么用这张表 `[本项目分析]`：
 
-- **两行共同的追问是识别**：这个数字靠什么假设才成立。效应在经济上有多大，也要单独讲清，不能只报显著性[^cochrane2005writing-e7]。
-- **理论建模、结构估计和宏观的校准计算实验**，套路页目前没有涉及经济学，本文不硬归类；它们的做法见下一节。
+- **前两行共同的追问是识别**：这个数字靠什么假设才成立。效应在经济上有多大，也要单独讲清，不能只报显著性[^cochrane2005writing-e7]。
+- **结构估计和校准放在解释因果下，是本项目的归类。** 它们的核心主张常是"某项政策会带来多大影响"，但这类结论主要靠模型假设，不像前两行那样靠研究设计。
+- **用了模型，就把模型当成证据的一部分交出来。** 说清模型假设了什么、参数从哪来、结论对假设有多敏感，求解和模拟的代码一起交[^aea2026data-e11]。
 
 ## 本学科常用的研究方法
 
 跨学科的研究方法和经济学的对应如下；对应关系和差异说明是本项目的归纳 `[本项目分析]`：
 
 - **田野实验**见[田野实验](../../06_methods/field_experiment.md)，**实验室实验**的通用流程见[对照实验](../../06_methods/controlled_experiment.md)。
-- **用观察数据做因果推断**见[准实验与因果识别](../../06_methods/quasi_experiment.md)，数据处理见[数据科学](../../06_methods/data_science.md)。经济学的核心追问是识别策略，而不是预测准确度[^angrist2010credibility-e10]。
-- **理论建模**：写出行为人、目标、约束和均衡[^varian1997build-e4]，从最简单的例子入手[^varian1997build-e5]；可参考计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)。**结构估计**（例如兼并分析[^angrist2010credibility-e21]）目前没有对应文档。**校准与计算实验**见[定量仿真](../../06_methods/simulation_study.md)，差别是参数靠"校准"而不是估计[^angrist2010credibility-e14]。
+- **用观察数据做因果推断**见[准实验与因果识别](../../06_methods/quasi_experiment.md)，数据处理见[数据科学](../../06_methods/data_science.md)。经济学这里的核心追问是识别策略[^angrist2010credibility-e10]。
+- **理论建模**和**结构估计**目前没有对应的方法文档，评判标准见上文[常用套路与证据标准](#常用套路与证据标准)；理论建模可参考计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)。**校准与计算实验**可参考[定量仿真](../../06_methods/simulation_study.md)，那篇的例子以计算机为主。
 - **问卷调查**见[问卷调查](../../06_methods/questionnaire_survey.md)，AEA 期刊要求随稿提交问卷原文[^aea2026data-e10]。**复现研究**见[复现研究](../../06_methods/replication.md)。**元研究**（例如统计顶级期刊上 p 值的分布[^brodeur2016star-e2]）见[方法论研究与元科学](../../06_methods/meta_science.md)。
 
 ---
@@ -255,10 +269,10 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 [^aea2026data-e2]: AEA Data and Code Availability Policy，开头。[证据](../../../sources/notes/aea2026data.md#e2)
 [^aea2026data-e3]: AEA Data and Code Availability Policy，开头。[证据](../../../sources/notes/aea2026data.md#e3)
 [^aea2026data-e4]: AEA Data and Code Availability Policy，Non-Public Data。[证据](../../../sources/notes/aea2026data.md#e4)
-[^aea2026data-e5]: AEA Data and Code Availability Policy，DCAS #7。[证据](../../../sources/notes/aea2026data.md#e5)
+[^aea2026data-e5]: AEA Data and Code Availability Policy，数据与代码可得性标准（Data and Code Availability Standard，DCAS）第 7 条。[证据](../../../sources/notes/aea2026data.md#e5)
 [^aea2026data-e6]: AEA Data and Code Availability Policy，Computer Code。[证据](../../../sources/notes/aea2026data.md#e6)
-[^aea2026data-e7]: AEA Data and Code Availability Policy，DCAS #13。[证据](../../../sources/notes/aea2026data.md#e7)
-[^aea2026data-e9]: AEA Data and Code Availability Policy，DCAS #12。[证据](../../../sources/notes/aea2026data.md#e9)
+[^aea2026data-e7]: AEA Data and Code Availability Policy，数据与代码可得性标准（DCAS）第 13 条。[证据](../../../sources/notes/aea2026data.md#e7)
+[^aea2026data-e9]: AEA Data and Code Availability Policy，数据与代码可得性标准（DCAS）第 12 条。[证据](../../../sources/notes/aea2026data.md#e9)
 [^aea2026data-e10]: AEA Policy for Papers Conducting Experiments and Collecting Primary Data，Original Instructions。[证据](../../../sources/notes/aea2026data.md#e10)
 [^aea2026rct-e1]: About the AEA RCT Registry。[证据](../../../sources/notes/aea2026rct.md#e1)
 [^aea2026rct-e2]: About the AEA RCT Registry。[证据](../../../sources/notes/aea2026rct.md#e2)
@@ -276,3 +290,14 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 [^aea2026disclosure-e4]: AEA Disclosure Policy，Instructions。[证据](../../../sources/notes/aea2026disclosure.md#e4)
 [^aea2026disclosure-e5]: AEA Disclosure Policy，IRB Approval。[证据](../../../sources/notes/aea2026disclosure.md#e5)
 [^aea2026disclosure-e6]: AEA Disclosure Policy，Instructions。[证据](../../../sources/notes/aea2026disclosure.md#e6)
+[^aea2026data-e11]: AEA Data and Code Availability Policy，Code for Analysis（数据与代码可得性标准第 8 条）。[证据](../../../sources/notes/aea2026data.md#e11)
+[^nevo2010taking-e1]: Nevo & Whinston 2010，摘要（只读了摘要）。[证据](../../../sources/notes/nevo2010taking.md#e1)
+[^nevo2010taking-e2]: Nevo & Whinston 2010，摘要（只读了摘要）。[证据](../../../sources/notes/nevo2010taking.md#e2)
+[^low2017use-e1]: Low & Meghir 2017，摘要（只读了摘要）。[证据](../../../sources/notes/low2017use.md#e1)
+[^low2017use-e2]: Low & Meghir 2017，摘要（只读了摘要）。[证据](../../../sources/notes/low2017use.md#e2)
+[^keane2010structural-e1]: Keane 2010，摘要（只读了摘要）。[证据](../../../sources/notes/keane2010structural.md#e1)
+[^keane2010structural-e3]: Keane 2010，摘要（只读了摘要）。[证据](../../../sources/notes/keane2010structural.md#e3)
+[^kydland1996computational-e1]: Kydland & Prescott 1996，摘要（只读了摘要）。[证据](../../../sources/notes/kydland1996computational.md#e1)
+[^kydland1996computational-e2]: Kydland & Prescott 1996，摘要（只读了摘要）。[证据](../../../sources/notes/kydland1996computational.md#e2)
+[^hansen1996empirical-e1]: Hansen & Heckman 1996，摘要（只读了摘要）。[证据](../../../sources/notes/hansen1996empirical.md#e1)
+[^hansen1996empirical-e2]: Hansen & Heckman 1996，摘要（只读了摘要）。[证据](../../../sources/notes/hansen1996empirical.md#e2)

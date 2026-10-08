@@ -188,3 +188,15 @@
 - 位置：Experimental Section
 - 原文："The Experimental Section should describe methods in sufficient detail to permit repetition of the work by others."
 - 要点：实验部分要详细到别人能重复。
+
+### E32
+
+- 位置：Scope of the Journal，(b)
+- 原文："Manuscripts focusing on mechanistic studies (experimental or theoretical) should show methodological advances or provide novel insight into the course of chemical reactions, rather than only confirming previously established mechanisms."
+- 要点：JOC 期待机理研究（实验的或理论的）在方法上有进展，或对反应怎样进行提供新见解；只确认已知机理不够。
+
+### E33
+
+- 位置：Data Requirements，Computational Data
+- 原文："When computational results are included in a manuscript, complete details of methods and results, reported in sufficient detail to allow other researchers to repeat the computations, should be included either within the article in a Computational Methods section or as Supporting Information."
+- 要点：论文含计算结果时，方法和结果要完整写出，详细到别人能重复这些计算，放在正文的计算方法一节或支持信息里。

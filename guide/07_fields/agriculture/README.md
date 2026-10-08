@@ -150,14 +150,17 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的两种。表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料 `[本项目分析]`。作物模型、农户调查、综述等其他套路的证据标准，本文资料未涉及。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的五种。表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料：后三行各自只有一两份资料，是某个项目、某篇论文的做法或建议，不是全行业公认的规定 `[本项目分析]`。测量等其他套路的证据标准，以及农业领域系统综述专门的报告规范，本文资料未涉及。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [解释因果](../../05_research-strategies/explain_causality.md) | 在小区上施加肥料、耕作等处理，估计处理效应 | 重复、随机化、区组、实验单位大小都要有意识地决定[^casler2015fundamentals-e1]；重复要和施加处理在同一尺度上[^casler2015fundamentals-e4]；随机化防止未知的变异来源带来偏倚和混杂[^casler2015fundamentals-e13]；用来下结论的数据报告标准误或置信区间（美国三学会期刊）[^asa2024style-e3] | [田间试验](practices/field_trial.md) |
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 在多个地点和年份重复同一试验，看品种、技术等处理在不同环境下的差别[^casler2015fundamentals-e9]；在农民田里拿新做法和"农民常规做法"比[^kool2020reproducibility-e3] | 优先增加地点和年份，而不是重复数[^casler2015fundamentals-e8]；不把交互作用归因到没有重复的环境变量上[^casler2015fundamentals-e9]；农场试验不默认"农民常规做法"人人皆知[^kool2020reproducibility-e3]，并说明效应在什么条件下出现、对谁有用[^kool2020reproducibility-e7] | [田间试验：多环境试验](practices/field_trial.md#第-7-步多环境试验)、[田间试验：农场试验](practices/field_trial.md#第-8-步和农民一起做农场试验) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 开发、校准和改进作物模型，用它预测新地点、新年份的作物表现。以预测作物发育期的物候模型为例，改进有两条路：改模型结构，或改校准[^wallach2023proposal-e7] | 作物模型几乎总要校准（用观测数据调整参数），因为模型只是近似[^wallach2023proposal-e2]。物候模型怎么校准没有共识，拿到同样数据的团队做法也差别很大[^wallach2023proposal-e1][^wallach2023proposal-e5]。国际农业模型比对与改进项目（Agricultural Model Intercomparison and Improvement Project，AgMIP）2023 年一项小麦物候研究的检验办法：检验数据的地点、年份都不和校准数据重合，也不给建模者看[^wallach2023proposal-e3]；误差和简单的基准模型比[^wallach2023proposal-e6]；每步校准都填文档表[^wallach2023proposal-e4]。AgMIP 2013 年的方案建议：为改进模型做的试验要同时收集气象、土壤和作物数据[^boote2013protocols-e1]，并存档留给后来的研究者[^boote2013protocols-e2] | [定量仿真：校准并留出检验数据](../../06_methods/simulation_study.md#第四步用真实数据校准并留出检验数据) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 用农户住户调查收集地块面积、投入和产出，描述农业生产，并分析其中的关系，例如农场大小和单位面积产量的关系[^carletto2013guesstimates-e8] | 世界银行研究人员 2013 年的一篇工作论文，用了马拉维、乌干达、坦桑尼亚、尼日尔四国的"生活水平测量研究—农业综合调查"（Living Standards Measurement Study–Integrated Surveys on Agriculture，LSMS-ISA）数据[^carletto2013guesstimates-e7]。结论：农户自报的地块面积有误差，误差还可能和农业结果相关[^carletto2013guesstimates-e1]；小地块多报、大地块少报[^carletto2013guesstimates-e2]；加控制变量解决不了[^carletto2013guesstimates-e3]。皮尺加罗盘绕地块测量是金标准，但全国性调查做不起[^carletto2013guesstimates-e5]；GPS 在小地块上也不完美，但误差可能和农业结果关系更小[^carletto2013guesstimates-e6]，作者主张把 GPS 测面积作为调查的常规部分[^carletto2013guesstimates-e4] | [问卷调查](../../06_methods/questionnaire_survey.md)、[访谈研究](../../06_methods/interview_study.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 汇总已发表的田间试验做元分析（把多项研究的数据合起来统计），回答有机农业、保护性农业这类争议很大的问题[^krupnik2019does-e6] | 国际玉米小麦改良中心（西班牙文缩写 CIMMYT）等机构的研究者 2019 年提出三条评判元分析的建议：看论文和数据是怎么收集的；看研究问题的理由、耕作系统怎么界定、结论外推到什么尺度[^krupnik2019does-e1]；用在高度政治化的话题上时，解读要更保守[^krupnik2019does-e2]。他们指出，把农民多样的管理做法简化成能统计的类别是农学元分析的难点[^krupnik2019does-e5]；小区和试验站的试验不一定代表整块田或整个农场[^krupnik2019does-e3]；脱离具体耕作系统的"全球平均"结果难以指导政策和农民实践[^krupnik2019does-e4] | [综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)（以健康领域为例） |
 
-怎么用这张表 `[本项目分析]`：同一个田间试验常常两者兼有，例如既比较几个品种，又估计施氮量的效应。按你最想支持的那个主张定主要套路；无论哪种，实验单位、重复和随机化的要求都一样。
+怎么用这张表 `[本项目分析]`：同一个田间试验常常前两种兼有，例如既比较几个品种，又估计施氮量的效应。按你最想支持的那个主张定主要套路；无论哪种，实验单位、重复和随机化的要求都一样。如果你的作物模型或元分析要用田间试验的数据，前两行对试验的要求也决定了这些数据可不可靠。
 
 ## 本学科常用的研究方法
 
@@ -281,3 +284,26 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 [^afs2014fishes-e4]: 美国渔业学会等 2014，3. Statutory Requirements。[证据](../../../sources/notes/afs2014fishes.md#e4)
 [^afs2014fishes-e5]: 美国渔业学会等 2014，3.1 International Regulations。[证据](../../../sources/notes/afs2014fishes.md#e5)
 [^afs2014fishes-e6]: 美国渔业学会等 2014，Final Disposition of Experimental Animals。[证据](../../../sources/notes/afs2014fishes.md#e6)
+[^wallach2023proposal-e1]: Wallach 等人 2023，Abstract。[证据](../../../sources/notes/wallach2023proposal.md#e1)
+[^wallach2023proposal-e2]: Wallach 等人 2023，§1 Introduction。[证据](../../../sources/notes/wallach2023proposal.md#e2)
+[^wallach2023proposal-e3]: Wallach 等人 2023，§2.1、§2.3。[证据](../../../sources/notes/wallach2023proposal.md#e3)
+[^wallach2023proposal-e4]: Wallach 等人 2023，§1 Introduction。[证据](../../../sources/notes/wallach2023proposal.md#e4)
+[^wallach2023proposal-e5]: Wallach 等人 2023，§1 Introduction。[证据](../../../sources/notes/wallach2023proposal.md#e5)
+[^wallach2023proposal-e6]: Wallach 等人 2023，§3.3。[证据](../../../sources/notes/wallach2023proposal.md#e6)
+[^wallach2023proposal-e7]: Wallach 等人 2023，§1 Introduction。[证据](../../../sources/notes/wallach2023proposal.md#e7)
+[^boote2013protocols-e1]: Boote & Jones 2013，AgMIP 作物模型改进团队方案，Framework for Proposed Crop Model Improvement Activities。[证据](../../../sources/notes/boote2013protocols.md#e1)
+[^boote2013protocols-e2]: Boote & Jones 2013，AgMIP 作物模型改进团队方案，Framework for Proposed Crop Model Improvement Activities。[证据](../../../sources/notes/boote2013protocols.md#e2)
+[^carletto2013guesstimates-e1]: Carletto 等人 2013，世界银行工作论文 6550，Abstract。[证据](../../../sources/notes/carletto2013guesstimates.md#e1)
+[^carletto2013guesstimates-e2]: Carletto 等人 2013，世界银行工作论文 6550，§4 Conclusions。[证据](../../../sources/notes/carletto2013guesstimates.md#e2)
+[^carletto2013guesstimates-e3]: Carletto 等人 2013，世界银行工作论文 6550，§4 Conclusions。[证据](../../../sources/notes/carletto2013guesstimates.md#e3)
+[^carletto2013guesstimates-e4]: Carletto 等人 2013，世界银行工作论文 6550，§4 Conclusions。[证据](../../../sources/notes/carletto2013guesstimates.md#e4)
+[^carletto2013guesstimates-e5]: Carletto 等人 2013，世界银行工作论文 6550，§1 脚注 3。[证据](../../../sources/notes/carletto2013guesstimates.md#e5)
+[^carletto2013guesstimates-e6]: Carletto 等人 2013，世界银行工作论文 6550，Abstract。[证据](../../../sources/notes/carletto2013guesstimates.md#e6)
+[^carletto2013guesstimates-e7]: Carletto 等人 2013，世界银行工作论文 6550，§1。[证据](../../../sources/notes/carletto2013guesstimates.md#e7)
+[^carletto2013guesstimates-e8]: Carletto 等人 2013，世界银行工作论文 6550，§1。[证据](../../../sources/notes/carletto2013guesstimates.md#e8)
+[^krupnik2019does-e1]: Krupnik 等人 2019，Summary。[证据](../../../sources/notes/krupnik2019does.md#e1)
+[^krupnik2019does-e2]: Krupnik 等人 2019，Summary。[证据](../../../sources/notes/krupnik2019does.md#e2)
+[^krupnik2019does-e3]: Krupnik 等人 2019，Conclusions。[证据](../../../sources/notes/krupnik2019does.md#e3)
+[^krupnik2019does-e4]: Krupnik 等人 2019，Conclusions。[证据](../../../sources/notes/krupnik2019does.md#e4)
+[^krupnik2019does-e5]: Krupnik 等人 2019，Conclusions。[证据](../../../sources/notes/krupnik2019does.md#e5)
+[^krupnik2019does-e6]: Krupnik 等人 2019，Summary。[证据](../../../sources/notes/krupnik2019does.md#e6)

@@ -43,7 +43,7 @@
 
 例如，主要套路是[构建改进](../05_research-strategies/build_improve.md)，清单里却没有"和已有方法比较"；主要套路是[解释因果](../05_research-strategies/explain_causality.md)，清单里却没有"排除其他解释"。这些漏项要先补上，否则方法选得再好，也拼不出完整的论证 `[本项目分析]`。
 
-八篇套路说明是：[观察描述](../05_research-strategies/observe_describe.md)、[测量](../05_research-strategies/measure.md)、[比较评估](../05_research-strategies/compare_evaluate.md)、[解释因果](../05_research-strategies/explain_causality.md)、[构建改进](../05_research-strategies/build_improve.md)、[综合](../05_research-strategies/synthesize.md)、[证明](../05_research-strategies/prove.md)、[解读论证](../05_research-strategies/interpret_argue.md)（目前只有占位）。每篇的第 3 节还列了这种套路常用的方法，可以作为下一节的起点。
+八篇套路说明是：[观察描述](../05_research-strategies/observe_describe.md)、[测量](../05_research-strategies/measure.md)、[比较评估](../05_research-strategies/compare_evaluate.md)、[解释因果](../05_research-strategies/explain_causality.md)、[构建改进](../05_research-strategies/build_improve.md)、[综合](../05_research-strategies/synthesize.md)、[证明](../05_research-strategies/prove.md)、[解读论证](../05_research-strategies/interpret_argue.md)。每篇的第 3 节还列了这种套路常用的方法，可以作为下一节的起点。
 
 **写下来：** 写出核心主张和主要套路。打开对应的套路说明，把"什么样的证据才够"一节和你的证据清单逐条对照，补上漏掉的证据。
 

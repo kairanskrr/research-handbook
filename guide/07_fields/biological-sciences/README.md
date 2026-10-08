@@ -152,11 +152,19 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 |---|---|---|---|
 | [解释因果](../../05_research-strategies/explain_causality.md) | 细胞和分子实验：改变一个因素（例如敲低一个基因），看结果会不会变 | 一次只改一个因素[^vaux2012replicates-e6]；设对照组，不设要说明理由[^perciedusert2020reporting-e1]；n 按独立的实验单位算，不按测量次数算[^perciedusert2020reporting-e4]；技术重复不能拿来算 P 值[^vaux2012replicates-e1] | [实验台实验](../../06_methods/bench_experiment.md) |
 | [解释因果](../../05_research-strategies/explain_causality.md) | 动物实验：在活体动物上做处理和测量 | 一般要经过"伤害—收益"审批[^perciedusert2020arrive-e6]，按 3R 原则设计[^nc3rsthe3rs-e2]；真正随机分组[^perciedusert2020reporting-e7]，写清各阶段谁知道分组[^perciedusert2020reporting-e8]；按 ARRIVE 核心 10 项报告[^perciedusert2020arrive-e3] | [临床前动物研究](../../06_methods/preclinical_animal_study.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 组学的描述性研究：用基因芯片或高通量测序产生大批数据，描述样品处在什么状态 | 交出足够的信息，让别人能无歧义地解读结果、有可能重复实验[^fgedmiame-e1][^fgedminseqe-e1]：原始数据、处理后的数据、实验和数据处理流程[^fgedmiame-e2][^fgedminseqe-e2]（两份最低信息标准见表后） | [数据科学研究](../../06_methods/data_science.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 系统综述和元分析：把已发表的研究汇总起来，回答一个问题 | 用结构化、透明、可重复的方法收集和汇总证据[^odea2021preferred-e1]；报告做了什么、为什么这样做、发现了什么，读者才能判断结论能不能信[^odea2021preferred-e2]（生态学的报告清单和动物实验的偏倚评价工具见表后） | [综述研究](../../06_methods/review_study.md)、[元分析](../../06_methods/meta_analysis.md) |
 
 怎么用这张表 `[本项目分析]`：
 
 - **复现已发表的实验，也按这些标准做。** 大型复现项目发现了什么，见上文[可复现性](#可复现性领域正在面对的问题)；做法见[复现研究](../../06_methods/replication.md)。
-- **其他套路本文资料未涉及。** 组学的描述性研究、系统综述等在生物科学里按什么标准评判，先读目标期刊的要求。
+- **其他套路本文资料未涉及。** 例如开发新实验技术或分析软件的研究在生物科学里按什么标准评判，先读目标期刊的要求。
+
+组学和系统综述两行引用的是具体组织在具体年份发布的标准，不是生物科学的统一规定；现在具体交什么、按什么报告，以目标期刊和数据仓库的要求为准 `[本项目分析]`。
+
+- **组学数据：MIAME 和 MINSEQE。** MIAME（Minimum Information About a Microarray Experiment，基因芯片实验最低信息标准）2001 年提出[^fgedmiame-e1]；MINSEQE（Minimum Information about a high-throughput nucleotide SEQuencing Experiment，高通量测序实验最低信息标准）1.0 版发布于 2012 年[^fgedminseqe-e3]。两者都由功能基因组数据学会（Functional Genomics Data Society，FGED）维护，这个学会已经停止运作[^fgedmiame-e3]。MIAME 特别要求写清哪个数据文件对应哪个样品，哪些是技术重复、哪些是生物学重复[^fgedmiame-e2]。数据交到哪个数据库，见上文[数据交到公共数据库](#数据交到公共数据库)。
+- **生态学和进化生物学的综述：PRISMA-EcoEvo。** 它是系统综述报告规范 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）面向这两个学科的扩展版，2021 年发布，有 27 个主要条目[^odea2021preferred-e5]。其中一条：把综述的目标和方法登记在公开、带时间戳的存档里，最好在检索文献之前[^odea2021preferred-e6]。它的作者评估了 2010–2019 年发表的 102 篇系统综述和元分析，发现报告质量远不理想[^odea2021preferred-e3]；引用了报告指南的少数论文（约 16%），报告质量明显高于平均[^odea2021preferred-e4]。分子和细胞方向的系统综述用哪份清单，本文资料未涉及；通用的 PRISMA 2020 见[元分析](../../06_methods/meta_analysis.md#第-8-步按-prisma-2020-报告)。
+- **汇总动物实验：SYRCLE 偏倚风险工具。** SYRCLE 是实验动物系统综述中心（SYstematic Review Centre for Laboratory animal Experimentation）[^hooijmans2014syrcle-e4]。它 2014 年发表的工具有 10 个条目，用来逐篇评价纳入的动物研究有没有偏倚[^hooijmans2014syrcle-e1]；工具改编自 Cochrane 协作网评价随机对照试验的偏倚风险工具[^hooijmans2014syrcle-e2][^hooijmans2014syrcle-e3]。
 
 ---
 
@@ -277,3 +285,19 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 [^freedman2015economics-e5]: Freedman 等人 2015，解决方案部分。[证据](../../../sources/notes/freedman2015economics.md#e5)
 [^nihrigorguidance-e1]: NIH，Rigorous experimental design for robust and unbiased results。[证据](../../../sources/notes/nihrigorguidance.md#e1)
 [^nihrigorguidance-e5]: NIH，Consideration of relevant biological variables。[证据](../../../sources/notes/nihrigorguidance.md#e5)
+[^fgedmiame-e1]: FGED，MIAME 页面，页首。[证据](../../../sources/notes/fgedmiame.md#e1)
+[^fgedmiame-e2]: FGED，MIAME 页面，六个关键要素。[证据](../../../sources/notes/fgedmiame.md#e2)
+[^fgedmiame-e3]: FGED，MIAME 页面，页首。[证据](../../../sources/notes/fgedmiame.md#e3)
+[^fgedminseqe-e1]: FGED，MINSEQE 页面，页首。[证据](../../../sources/notes/fgedminseqe.md#e1)
+[^fgedminseqe-e2]: FGED，MINSEQE 页面，五个要素。[证据](../../../sources/notes/fgedminseqe.md#e2)
+[^fgedminseqe-e3]: FGED，MINSEQE 页面，MINSEQE specification。[证据](../../../sources/notes/fgedminseqe.md#e3)
+[^odea2021preferred-e1]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e1)
+[^odea2021preferred-e2]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e2)
+[^odea2021preferred-e3]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e3)
+[^odea2021preferred-e4]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e4)
+[^odea2021preferred-e5]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e5)
+[^odea2021preferred-e6]: O'Dea 等人 2021（PRISMA-EcoEvo），Table 1，条目 3.1。[证据](../../../sources/notes/odea2021preferred.md#e6)
+[^hooijmans2014syrcle-e1]: Hooijmans 等人 2014，Abstract。[证据](../../../sources/notes/hooijmans2014syrcle.md#e1)
+[^hooijmans2014syrcle-e2]: Hooijmans 等人 2014，Abstract。[证据](../../../sources/notes/hooijmans2014syrcle.md#e2)
+[^hooijmans2014syrcle-e3]: Hooijmans 等人 2014，Abstract。[证据](../../../sources/notes/hooijmans2014syrcle.md#e3)
+[^hooijmans2014syrcle-e4]: Hooijmans 等人 2014，Background。[证据](../../../sources/notes/hooijmans2014syrcle.md#e4)

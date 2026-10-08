@@ -144,14 +144,15 @@
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的三种。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的四种。
 
-表的分组和"在艺术里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个机构、那个国家的做法，其他套路本文资料未涉及 `[本项目分析]`。
+表的分组和"在艺术里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个机构、那个国家或那篇文章的做法 `[本项目分析]`。表里的测量一行属于音乐认知（也叫音乐心理学），它和心理学交叉，通用规矩见[心理学篇](../psychology/README.md) `[本项目分析]`。综合（例如艺术领域的系统综述）等其他套路，本文资料未涉及。
 
 | 套路 | 在艺术里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [构建改进](../../05_research-strategies/build_improve.md) | 基于实践的研究：创作出的作品是知识贡献的基础[^candy2006practice-e1] | 作品加过程记录和文字分析，用来展示批判性反思[^candy2006practice-e5]；新知识要能分享、能被核验或质疑[^candy2006practice-e8]；英国 REF 2021 评原创性、重要性和严谨性，忽略自我评价质量的材料[^ref2019panel-e5]；《维也纳宣言》主张由覆盖作品所涉各项学科能力的同行评议来认定[^aec2020vienna-e4] | [基于实践的研究](practices/practice_based_research.md) |
 | [解读论证](../../05_research-strategies/interpret_argue.md) | 艺术史、音乐学、戏剧研究等关于艺术的研究[^oecd2015frascati-e12]，研究作品、文献和档案 | 仔细记录发现，向他人公开所用的资料、证据和数据，不歪曲证据（美国 CAA）[^caa2014standards-e1]；照片来源、他人口头或手写的意见，相关时都要注明[^caa2014standards-e3][^caa2014standards-e4] | [档案研究](../../06_methods/archival_research.md)；资料批判见[历史与考古篇](../history-archaeology/README.md#证据在这里指什么) |
+| [测量](../../05_research-strategies/measure.md) | 音乐认知的实验：用行为任务测听者怎样感知节奏、音高、情绪等，也做跨文化比较 | 本行出自 2020 年一篇 20 位作者的立场文章，源于德国马克斯·普朗克实证美学研究所 2018 年的研讨，作者说明它不是完整清单[^jacoby2020crosscultural-e3]。文章指出，音乐心理学的被试几乎都来自 WEIRD 社会（Western, Educated, Industrialized, Rich, Democratic，即西方、受过教育、工业化、富裕、民主），材料也多取自西方音乐[^jacoby2020crosscultural-e1]，结论不一定代表全人类[^jacoby2020crosscultural-e2]。建议：外来的概念、记谱法或量表，别不经确认就用在另一种音乐文化的被试身上[^jacoby2020crosscultural-e5]；跨文化用评分量表，要做控制实验确认被试看懂了，材料要和熟悉该文化的专家一起预试[^jacoby2020crosscultural-e6]；也可改用打拍、唱旋律这类不靠语言的任务[^jacoby2020crosscultural-e7]；想更贴近真实的音乐生活（生态效度），就用更多样的音乐和表演场景，但要和实验控制取舍[^jacoby2020crosscultural-e8] | [对照实验](../../06_methods/controlled_experiment.md)；被试和量表的通用要求见心理学篇的[被试：学生样本和 WEIRD 样本](../psychology/README.md#被试学生样本和-weird-样本)、[测量：用有效度证据的量表](../psychology/README.md#测量用有效度证据的量表) |
 | [观察描述](../../05_research-strategies/observe_describe.md) | 民族音乐学和在世艺术传统的田野研究：观察、参与、访谈、录音 | 田野笔记、录音、照片等记录对历史记录也重要，应当归档保存（美国 SEM）[^sem2008irb-e3]；相关田野资料要存放，并在社区里留一份发表的成果（美国 CAA）[^caa2014standards-e5]；怎样判断描述够不够，本文资料未涉及 | [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md) |
 
 怎么用这张表 `[本项目分析]`：
@@ -195,6 +196,7 @@
 - **艺术特有：**[基于实践的研究](practices/practice_based_research.md)。创作作品，作品是知识贡献的基础[^candy2006practice-e1]；成果是作品、记录加研究叙述。
 - [档案研究](../../06_methods/archival_research.md)：艺术史、音乐学研究作品、手稿、信件和机构档案。
 - [综述研究](../../06_methods/review_study.md)：写文献综述时可参考它的检索和取舍思路，不必照搬系统综述的流程；不要转引，要回到原文[^candy2006practice-e12]。
+- [对照实验](../../06_methods/controlled_experiment.md)：音乐认知的实验。差异见上文[常用套路与证据标准](#常用套路与证据标准)的测量一行：被试和材料不要只限于西方，跨文化用量表要先确认被试看懂了。
 - [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md)：民族音乐学和在世艺术传统的田野研究。差异见上文：往往不匿名、资料要归档并还给社区。
 - [行动研究](../../06_methods/action_research.md)：实践引导的研究常落在它的大范围里[^candy2006practice-e3]，可参考它"计划—行动—反思"的循环；差异是，这里改进的常常是研究者自己的创作实践，而不是一个合作组织。
 - 设计研究可参考教育学的[基于设计的研究](../education/practices/design_based_research.md)。Candy 指出，设计研究更多研究"设计实践怎样运转、怎样改进"，常由专门的研究者而不是设计师来做；视觉艺术更重创作过程和由此产生的作品[^candy2006practice-e14]。
@@ -306,3 +308,10 @@
 [^sem2008irb-e1]: SEM 2008，SEM Policy Guidelines for Institutional Review Boards。[证据](../../../sources/notes/sem2008irb.md#e1)
 [^sem2008irb-e2]: SEM 2008，SEM Policy Guidelines for Institutional Review Boards。[证据](../../../sources/notes/sem2008irb.md#e2)
 [^sem2008irb-e3]: SEM 2008，SEM Policy Guidelines for Institutional Review Boards。[证据](../../../sources/notes/sem2008irb.md#e3)
+[^jacoby2020crosscultural-e1]: Jacoby 等 2020，第 186 页，引言。[证据](../../../sources/notes/jacoby2020crosscultural.md#e1)
+[^jacoby2020crosscultural-e2]: Jacoby 等 2020，第 186 页，引言。[证据](../../../sources/notes/jacoby2020crosscultural.md#e2)
+[^jacoby2020crosscultural-e3]: Jacoby 等 2020，第 186 页，引言。[证据](../../../sources/notes/jacoby2020crosscultural.md#e3)
+[^jacoby2020crosscultural-e5]: Jacoby 等 2020，第 191 页，Empirical Methods: Issues。[证据](../../../sources/notes/jacoby2020crosscultural.md#e5)
+[^jacoby2020crosscultural-e6]: Jacoby 等 2020，第 191 页，Empirical Methods: Recommendations。[证据](../../../sources/notes/jacoby2020crosscultural.md#e6)
+[^jacoby2020crosscultural-e7]: Jacoby 等 2020，第 191 页，Empirical Methods: Recommendations。[证据](../../../sources/notes/jacoby2020crosscultural.md#e7)
+[^jacoby2020crosscultural-e8]: Jacoby 等 2020，第 188 页，Music: Recommendations。[证据](../../../sources/notes/jacoby2020crosscultural.md#e8)

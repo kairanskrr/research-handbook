@@ -146,16 +146,23 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那家机构或期刊 `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那家机构、那本期刊或那篇文章 `[本项目分析]`。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [观察描述](../../05_research-strategies/observe_describe.md) | 野外观测和采样，或分析站网、卫星数据，弄清一个地方或系统现在是什么状况 | 美国环境保护署的规划指南把"估计"（例如某种污染物的平均浓度）列为数据的一种用途[^epa2006dqo-e2]；样品记录要完整、名称不能含糊[^igsnabout-e1]；投 AGU 期刊时，数据在投稿时就要能让编辑和审稿人拿到[^fox2021agudata-e3] | [野外观测研究](../../06_methods/field_study.md)、[数据科学研究](../../06_methods/data_science.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 野外操纵试验：在野外施加或比较处理，例如比较放牧和不放牧的样地[^davies2015pseudoreplication-e11] | 先排查**伪重复**：处理没有真正重复、或重复之间不独立，却仍用统计检验检验处理效应[^davies2015pseudoreplication-e1]。在昂贵的景观尺度操纵试验里，这是真实存在但有争议的问题[^davies2015pseudoreplication-e6]；怎么设计、怎么写，见表后 | [野外观测研究](../../06_methods/field_study.md#第二步设计采样在哪什么时候采多少)、[田间试验](../agriculture/practices/field_trial.md)（农业的实践，可参考） |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 用观测或模式数据推断因果：地球系统太大，可重复的干预实验做不到或有伦理问题[^runge2019inferring-e1]，多数分支目前用计算机模拟实验代替[^runge2019inferring-e2] | 最常用的仍是相关和回归；用因果推断方法时，要先检查它依赖的假设[^runge2019inferring-e3]（常见的几条见表后） | [数据科学研究](../../06_methods/data_science.md)、[定量仿真](../../06_methods/simulation_study.md) |
 | [构建改进](../../05_research-strategies/build_improve.md) | 开发或改进数值模式 | GMD 要求投稿时就提供确切版本的代码和数据，做不到就拒稿[^gmdcodepolicy-e3]；审稿时可能检查模型能否下载、编译、跑通测试算例[^gmdcodepolicy-e8]；AGU 期刊要求提供到"有足够算力的读者能重复模拟"的程度[^fox2021agudata-e7] | [定量仿真](../../06_methods/simulation_study.md) |
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 模式比较计划：协调全球气候模式模拟的设计和数据分发[^eyring2016cmip6-e1]，在多个模式的框架下理解气候变化[^eyring2016cmip6-e4] | 参加 CMIP6 的模式必须跑一组规定试验，并采用共同的数据标准[^eyring2016cmip6-e2] | [定量仿真](../../06_methods/simulation_study.md)、上文[模式比较计划](#模式比较计划) |
 | [综合](../../05_research-strategies/synthesize.md) | IPCC 评估报告，有专门写给报告作者的不确定性指南[^mastrandrea2010ipcc-e1] | 信度按证据的类型、数量、质量、一致性和各方一致的程度来判断[^mastrandrea2010ipcc-e2]；可能性用词对应固定的概率区间[^mastrandrea2010ipcc-e6] | 上文[IPCC 的用语](#表达不确定性ipcc-的用语)、[综述研究](../../06_methods/review_study.md) |
 
-怎么用这张表 `[本项目分析]`：一个项目常同时有野外、实验室和模拟三部分（见上文），按核心主张定主要套路，其他部分按各自的标准做。野外操纵试验、解释因果的研究在本学科怎样评判，本文资料未涉及。
+怎么用这张表 `[本项目分析]`：一个项目常同时有野外、实验室和模拟三部分（见上文），按核心主张定主要套路，其他部分按各自的标准做。本学科的学会或期刊对因果研究有没有专门的评判标准，本文资料未涉及。
+
+两行"解释因果"的标准出自两篇观点文章，是作者的主张，不是学会或期刊的统一规定 `[本项目分析]`：
+
+- **野外操纵试验：Davies 和 Gray 2015 年（生态学）。** 他们主张：仔细界定假设和关心的总体，承认统计推断的局限，用嵌套、随机效应等统计方法[^davies2015pseudoreplication-e3]。对照样地怎么选、论文里怎么交代，见[野外观测研究：对付不可重复的事件](../../06_methods/field_study.md#第十步对付不可重复的事件)。
+- **用数据推断因果：Runge 等人 2019 年（地球系统科学）。** 很多时间序列因果推断方法假设原因在结果之前、所有直接的共同驱动因素都观测到了[^runge2019inferring-e4]。用之前要想清它们会不会不成立：相关的驱动因素常常测不到，测不到的驱动因素可能让检出的联系是假的[^runge2019inferring-e5]；时间分辨率不够，因果联系可能看起来同时发生，甚至成环[^runge2019inferring-e7]。相比之下，"没有因果联系"这类结论需要的假设更弱，更稳健[^runge2019inferring-e6]。因果推断的一般逻辑见[解释因果](../../05_research-strategies/explain_causality.md)。
 
 ---
 
@@ -305,3 +312,14 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 [^mastrandrea2010ipcc-e13]: Mastrandrea 等 2010，引言。[证据](../../../sources/notes/mastrandrea2010ipcc.md#e13)
 [^mastrandrea2010ipcc-e14]: Mastrandrea 等 2010，第 10 段。[证据](../../../sources/notes/mastrandrea2010ipcc.md#e14)
 [^epa2006dqo-e2]: EPA 2006（QA/G-4），Introduction，PDF 第 16 页。[证据](../../../sources/notes/epa2006dqo.md#e2)
+[^davies2015pseudoreplication-e1]: Davies & Gray 2015，Abstract。[证据](../../../sources/notes/davies2015pseudoreplication.md#e1)
+[^davies2015pseudoreplication-e3]: Davies & Gray 2015，Abstract。[证据](../../../sources/notes/davies2015pseudoreplication.md#e3)
+[^davies2015pseudoreplication-e6]: Davies & Gray 2015，Abstract。[证据](../../../sources/notes/davies2015pseudoreplication.md#e6)
+[^davies2015pseudoreplication-e11]: Davies & Gray 2015，Discussion，Question 1。[证据](../../../sources/notes/davies2015pseudoreplication.md#e11)
+[^runge2019inferring-e1]: Runge 等人 2019，Introduction。[证据](../../../sources/notes/runge2019inferring.md#e1)
+[^runge2019inferring-e2]: Runge 等人 2019，Introduction。[证据](../../../sources/notes/runge2019inferring.md#e2)
+[^runge2019inferring-e3]: Runge 等人 2019，Introduction。[证据](../../../sources/notes/runge2019inferring.md#e3)
+[^runge2019inferring-e4]: Runge 等人 2019，Causal inference methods。[证据](../../../sources/notes/runge2019inferring.md#e4)
+[^runge2019inferring-e5]: Runge 等人 2019，Challenges。[证据](../../../sources/notes/runge2019inferring.md#e5)
+[^runge2019inferring-e6]: Runge 等人 2019，Challenges。[证据](../../../sources/notes/runge2019inferring.md#e6)
+[^runge2019inferring-e7]: Runge 等人 2019，Challenges。[证据](../../../sources/notes/runge2019inferring.md#e7)

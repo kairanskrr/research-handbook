@@ -26,7 +26,7 @@
 | 自己设计并发放问卷 | 见下文"本学科常用的研究方法" | 抽样和问题措辞；想比较不同年份时，题目措辞要保持不变（见下文"纵向研究"）`[本项目分析]` |
 | 民族志 / 田野研究 | 长时间待在一个社区或组织里观察、参与、记笔记 `[本项目分析]` | 英国社会学会提醒，长期田野中参与者很容易忘记自己正在被研究[^bsa2017statement-e4]；Freese 和 Peterson 指出，田野笔记一旦离开记录者，就失去了大部分价值[^freese2017replication-e20] |
 | 深度访谈 | 和一批人做开放式的长访谈，从中归纳意义和机制 `[本项目分析]` | 访谈对象怎样选、何时停止，见下文"本学科常用的研究方法" |
-| 比较历史研究 | 比较少数国家、地区或时期，解释某种社会变化 `[本项目分析]` | 本文资料没有专门讲这种方法；在档案馆里工作的做法见[历史与考古篇](../history-archaeology/README.md#在档案馆里工作) |
+| 比较历史研究 | 比较少数国家、地区或时期，解释某种社会变化 `[本项目分析]` | 评判标准见下文[常用套路与证据标准](#常用套路与证据标准)；在档案馆里工作的做法见[历史与考古篇](../history-archaeology/README.md#在档案馆里工作) |
 
 ### 理论放在什么位置
 
@@ -138,15 +138,25 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那本期刊、那个机构（多为美国）`[本项目分析]`。比较历史研究等其他路子常用什么套路，本文资料未涉及。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那本期刊、那个机构、那几位作者（多为美国）`[本项目分析]`。
 
 | 套路 | 在社会学里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [观察描述](../../05_research-strategies/observe_describe.md)（定量） | 用总体样本描述一个人群和它的变化；结果即使只适用于目标总体也有价值[^freese2017replication-e13] | 说清结论在什么人群、时期、条件下成立[^freese2017replication-e14]；想测量变化，就别改变测量[^freese2017replication-e10]；引用数据集本身[^icpsrdata-e4]；Sociological Science 要求统计类论文交复现包[^sociologicalsciencepolicy-e3] | [问卷调查](../../06_methods/questionnaire_survey.md)、[纵向研究](../../06_methods/longitudinal_study.md)、[数据科学研究](../../06_methods/data_science.md) |
 | [观察描述](../../05_research-strategies/observe_describe.md)（定性） | 民族志、深度访谈，关心动机和意义[^freese2017replication-e15] | "重复"也许不是评判定性研究的合适说法[^freese2017replication-e15]；有人主张逐个案例迭代，直到"饱和"[^freese2017replication-e19]；化名、改细节要权衡核查的可能[^freese2017replication-e16]；Sociological Science 不要求复现包，但鼓励共享访谈提纲、编码方案[^sociologicalsciencepolicy-e5] | [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md)、[扎根理论](../../06_methods/grounded_theory.md) |
 | [解释因果](../../05_research-strategies/explain_causality.md) | 用自己收集的实验数据检验假设[^sociologicalsciencepolicy-e8] | 写明是否预注册[^sociologicalsciencepolicy-e8]；换一种合理的分析设定，结论还在不在[^freese2017replication-e3]；不能只报"最好看"的设定[^freese2017replication-e9] | [对照实验](../../06_methods/controlled_experiment.md)、[过程追踪与比较案例研究](../../06_methods/process_tracing.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md)（比较历史研究） | 比较少数几个社会的历史，想概括出因果结论[^mahoney2005clarifying-e1]，课题如革命、福利国家、民主与威权[^mahoney2005clarifying-e4] | 挑选案例，搭出近似的对照比较[^skocpol1980uses-e2]；结论只在划定的适用范围内成立[^mahoney2005clarifying-e2]；详见表后 | [过程追踪与比较案例研究](../../06_methods/process_tracing.md)、[档案研究](../../06_methods/archival_research.md) |
 
 怎么用这张表 `[本项目分析]`：先按核心主张找到你的套路，再读对应的套路页和方法篇。社会学方法多样（见[和其他学科不同的地方](#和其他学科不同的地方)），同一套路下，定量和定性的"够不够"标准不同，以目标期刊的要求为准。
+
+"比较历史研究"一行的依据是两篇美国学者的方法论文章：Skocpol 和 Somers 1980 年的期刊论文，以及 Mahoney 2005 年发在美国政治学会定性方法分会通讯上的短文。它们代表作者的看法，不是学会规范。
+
+- **为什么只能"近似"对照。** 这类宏观现象变量太多、案例太少[^skocpol1980uses-e2]，完美的对照比较做不到[^skocpol1980uses-e5]。
+- **两种比较设计。** 一种是找几个都出现了某个结果的案例，它们在其他方面各不相同，却有共同的假设原因（求同法）[^skocpol1980uses-e3]。另一种是拿结果和原因都出现的案例，去对比两者都没出现、其他方面尽量相似的"反面"案例（求异法）；Skocpol 和 Somers 认为，单用时后一种更有力[^skocpol1980uses-e4]。怎样有目的地选案例、为什么不能只挑结果相同的案例，见[过程追踪与比较案例研究](../../06_methods/process_tracing.md#第八步做比较时有目的地选案例)。
+- **结论能推多远。** 这类因果论证主要靠归纳得出，不能轻易推广到研究过的案例以外[^skocpol1980uses-e8]；Mahoney 也说，这些概括受"适用范围条件"限定[^mahoney2005clarifying-e2]。只有两三个案例时，推断主要靠案例内部的分析，而不是案例之间的比较[^mahoney2005clarifying-e3]。
+- **方法代替不了理论。** 方法本身不能保证结论可靠[^skocpol1980uses-e7]。
+
+比较历史研究也不都是在解释因果。Skocpol 和 Somers 区分了至少三种用法，表里写的只是其中接近假设检验的"宏观因果分析"[^skocpol1980uses-e1]，它是批评和否定错误理论的有力工具[^skocpol1980uses-e6]。他们认为，"对比式"的写法在理论上可能很误导：几乎任何主题都能套到案例材料上，既不经明确检验，也不承认它其实是一种雏形理论[^skocpol1980uses-e9]。所以不管用哪种写法，都要把你的解释明说出来，并说明哪些案例能检验它 `[本项目分析]`。
 
 ## 本学科常用的研究方法
 
@@ -157,7 +167,7 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 - **纵向研究与追踪调查**：见[纵向研究](../../06_methods/longitudinal_study.md)。差异：美国综合社会调查（General Social Survey）年复一年保持核心题目措辞不变[^freese2017replication-e10]；追踪调查中要定期提醒参与者同意了什么[^asa2018code-e2]。
 - **深度访谈、民族志与参与观察、扎根理论**：见[访谈研究](../../06_methods/interview_study.md)、[案例研究与民族志](../../06_methods/case_study.md)、[扎根理论](../../06_methods/grounded_theory.md)。差异：长期田野中，同意要随时间重新协商[^bsa2017statement-e4]，化名和改细节的取舍更突出[^freese2017replication-e16]；网上田野的边界和伦理还没有定论[^jerolmack2024ethnography-e6]。
 - **混合方法、调查实验**：见[混合方法](../../06_methods/mixed_methods.md)（例如先用调查数据找规律，再用访谈解释机制）、[对照实验](../../06_methods/controlled_experiment.md)；预注册见[心理学篇](../psychology/README.md#之后改了什么)。
-- **比较历史研究**：本文资料没有专门讲；可参考[过程追踪与比较案例研究](../../06_methods/process_tracing.md)和[档案研究](../../06_methods/archival_research.md)。
+- **比较历史研究**：比较少数几个社会的历史，找宏观结果的原因，评判标准见上文[常用套路与证据标准](#常用套路与证据标准)。具体做法可参考[过程追踪与比较案例研究](../../06_methods/process_tracing.md)和[档案研究](../../06_methods/archival_research.md)。
 
 ---
 
@@ -280,3 +290,16 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 [^asrsubmission-e7]: ASR 投稿指南，Manuscript Submission。[证据](../../../sources/notes/asrsubmission.md#e7)
 [^wesleyan2015sociology-e1]: 卫斯理大学社会学系 2015，Scholarship。[证据](../../../sources/notes/wesleyan2015sociology.md#e1)
 [^wesleyan2015sociology-e2]: 卫斯理大学社会学系 2015，Scholarship。[证据](../../../sources/notes/wesleyan2015sociology.md#e2)
+[^skocpol1980uses-e1]: Skocpol & Somers 1980，第 175 页。[证据](../../../sources/notes/skocpol1980uses.md#e1)
+[^skocpol1980uses-e2]: Skocpol & Somers 1980，第 182 页。[证据](../../../sources/notes/skocpol1980uses.md#e2)
+[^skocpol1980uses-e3]: Skocpol & Somers 1980，第 183 页。[证据](../../../sources/notes/skocpol1980uses.md#e3)
+[^skocpol1980uses-e4]: Skocpol & Somers 1980，第 183 页。[证据](../../../sources/notes/skocpol1980uses.md#e4)
+[^skocpol1980uses-e5]: Skocpol & Somers 1980，第 193–194 页。[证据](../../../sources/notes/skocpol1980uses.md#e5)
+[^skocpol1980uses-e6]: Skocpol & Somers 1980，第 194 页。[证据](../../../sources/notes/skocpol1980uses.md#e6)
+[^skocpol1980uses-e7]: Skocpol & Somers 1980，第 195 页。[证据](../../../sources/notes/skocpol1980uses.md#e7)
+[^skocpol1980uses-e8]: Skocpol & Somers 1980，第 195 页。[证据](../../../sources/notes/skocpol1980uses.md#e8)
+[^skocpol1980uses-e9]: Skocpol & Somers 1980，第 193 页。[证据](../../../sources/notes/skocpol1980uses.md#e9)
+[^mahoney2005clarifying-e1]: Mahoney 2005（Qualitative Methods 通讯），第 20 页。[证据](../../../sources/notes/mahoney2005clarifying.md#e1)
+[^mahoney2005clarifying-e2]: Mahoney 2005（Qualitative Methods 通讯），第 20 页。[证据](../../../sources/notes/mahoney2005clarifying.md#e2)
+[^mahoney2005clarifying-e3]: Mahoney 2005（Qualitative Methods 通讯），第 21 页。[证据](../../../sources/notes/mahoney2005clarifying.md#e3)
+[^mahoney2005clarifying-e4]: Mahoney 2005（Qualitative Methods 通讯），第 20 页。[证据](../../../sources/notes/mahoney2005clarifying.md#e4)

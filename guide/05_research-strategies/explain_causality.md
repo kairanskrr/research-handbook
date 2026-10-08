@@ -107,16 +107,20 @@
 |---|---|---|
 | 能改变 X，对象是软件系统或模型 | 系统上的受控实验、消融，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)、[工程研究](../07_fields/computer-science/practices/engineering_research.md) | 只改一处，其他完全相同，多次运行 |
 | 能改变 X，对象是人 | [对照实验](../06_methods/controlled_experiment.md) | 随机分组，只让一个因素不同 |
+| 能改变 X，对象是培养的细胞、提取的分子 | [实验台实验](../06_methods/bench_experiment.md) | 一次只改变一个因素，其他因素保持不变[^vaux2012replicates-e6]；验证性实验事先估算样本量、定好主要结局指标[^perciedusert2020reporting-e13] |
+| 能改变 X，对象是动物，结论要为人类医学提供依据 | [临床前动物研究](../06_methods/preclinical_animal_study.md) | 在动物模型里证明处理和效应之间的因果关系，再论证它能推广到病人身上[^henderson2013threats-e13] |
 | 评价一种医疗干预 | [随机对照试验](../06_methods/randomized_controlled_trial.md) | 随机分配，按医学的报告规范写清分组和实施过程 |
 | 能和政府、企业合作，在真实世界里随机 | [田野实验](../06_methods/field_experiment.md) | 在真实运行的项目里随机分组 |
 | 不能随机，但有制度规则或自然事件造成的变化 | [准实验与因果识别](../06_methods/quasi_experiment.md) | 论证处理的变化"近似随机" |
 | 只有观察数据，关心病因或干预效果 | [观察性流行病学](../06_methods/observational_epidemiology.md) | 写出目标试验，调整混杂因素 |
+| 只有带位置的观察数据，关心环境或邻近地区怎样影响结果 | [空间分析研究](../07_fields/geography/practices/spatial_analysis.md)（地理学的实践） | 用考虑空间关系的回归模型；误差在空间上成团，可能是漏掉了一个有空间格局的变量[^rey2023geographic-e17] |
 | 想弄清一个或几个案例里事情怎样发生 | [过程追踪](../06_methods/process_tracing.md)、[案例研究](../06_methods/case_study.md) | 在案例内部逐步检验机制 |
 
 几点说明：
 
 - **对照实验擅长回答"是不是"，不擅长回答"怎么样、为什么"。** 拿软件工程的工具评估来说：开发者怎么用一个工具、要懂哪些概念，这类问题更适合用非实验的定量或定性方法；而且往往要先有这些答案，才知道实验该比较什么、用什么任务、测什么[^ko2015practical-e1]。
 - **定性方法也能讲因果，它擅长的是机制。** 案例研究能深入理解现象如何、为何发生，揭示因果关系背后的机制[^easterbrook2008selecting-e11]；什么时候该用它而不是实验，见上面"不同的看法"。政治学的过程追踪，是分析一个案例内部的过程和事件顺序，用来提出或检验关于因果机制的假设[^bennett2012process-e3]。
+- **实验台实验、临床前动物研究和空间分析为什么放在这里** `[本项目分析]`。前两种都是自己动手改变一个因素：实验台实验一次只改变一个因素[^vaux2012replicates-e6]；临床前动物研究的第一个目标，就是在动物模型里证明处理和效应之间的因果关系[^henderson2013threats-e13]。空间分析有一部分研究环境怎样影响个人，例如社会和物理环境对健康的影响[^kwan2012uncertain-e4]，这部分属于解释因果；它描述空间分布的那部分，属于[观察描述](observe_describe.md)。
 - **方法可以组合。** 可以从统计分析里挑几个案例做过程追踪，弄清因果方向是不是反了、相关是不是虚假的[^bennett2012process-e24]。也可以先做定量研究，再用定性研究解释其中的意外结果[^easterbrook2008selecting-e4]。多方法设计见[混合方法](../06_methods/mixed_methods.md)。
 
 ## 4. 它怎样影响整个项目
@@ -230,3 +234,8 @@
 [^ofosu2023preanalysis-e3]: Ofosu & Posner 2023，Empirical Approach。[证据](../../sources/notes/ofosu2023preanalysis.md#e3)
 [^aera2006standards-e4]: AERA 2006，§2 Design and Logic。[证据](../../sources/notes/aera2006standards.md#e4)
 [^ies2013common-e3]: IES & NSF 2013，Types of Research。[证据](../../sources/notes/ies2013common.md#e3)
+[^vaux2012replicates-e6]: Vaux 等人 2012，Sidebar A。[证据](../../sources/notes/vaux2012replicates.md#e6)
+[^perciedusert2020reporting-e13]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 13。[证据](../../sources/notes/perciedusert2020reporting.md#e13)
+[^henderson2013threats-e13]: Henderson 等人 2013，Introduction。[证据](../../sources/notes/henderson2013threats.md#e13)
+[^rey2023geographic-e17]: Rey 等 2023（在线教材），Spatial Regression。[证据](../../sources/notes/rey2023geographic.md#e17)
+[^kwan2012uncertain-e4]: Kwan 2012，第 959 页。[证据](../../sources/notes/kwan2012uncertain.md#e4)

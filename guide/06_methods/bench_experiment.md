@@ -6,7 +6,7 @@
 
 **适用范围** `[本项目分析]`：本篇原为生物科学学科篇写，例子是细胞生物学、分子生物学的细胞和分子实验；依据主要来自生物医学期刊的方法学文章，以及动物研究的报告指南（ARRIVE 2.0 解释文件、Landis 等人 2012）。除[生物科学](../07_fields/biological-sciences/README.md)外，[基础医学](../07_fields/basic-medicine/README.md)、[生物技术](../07_fields/biotechnology/README.md)的学科概况也把它列为常用方法。其他学科（例如化学、材料、心理学）也做实验室里的对照实验，但对照、重复和报告的规矩不尽相同；用之前先看本学科的规范和目标期刊的作者须知。
 
-**常服务的套路**：套路页暂未列出。各种套路见[研究套路](../05_research-strategies/README.md)。
+**常服务的套路**：[解释因果](../05_research-strategies/explain_causality.md)（改变一个因素，看结果会不会变）`[本项目分析]`。依据是它的基本做法：一次只改变一个因素，其他因素保持不变[^vaux2012replicates-e6]。
 
 **读完本文，你应该能：**
 

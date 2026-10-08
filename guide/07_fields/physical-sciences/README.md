@@ -151,7 +151,7 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在物理里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个方向（多为粒子物理），其他方向以本组和目标期刊为准 `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在物理里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个方向或那本期刊（多为粒子物理；理论研究几行主要出自 Physical Review A），其他方向以本组和目标期刊为准 `[本项目分析]`。
 
 | 套路 | 在物理里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
@@ -159,8 +159,20 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 | [观察描述](../../05_research-strategies/observe_describe.md) | 搜寻新粒子、新效应，回答"有没有" | 粒子物理宣布发现按惯例要 5σ[^junk2021reproducibility-e4]；写清全局 p 值怎么定义[^lyons2013discovering-e4]；零结果写成信号强度的上限，照样发表[^junk2021reproducibility-e25] | 上文[5σ](#5σ宣布发现的门槛)和[盲分析](#盲分析先定方法再看答案) |
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 比较计算程序或方法。例如一项社区合作在 71 种单质晶体上比较了 15 个固体计算程序[^lejaeghere2016reproducibility-e3] | 看同一批体系上的逐对差异；该研究发现新近程序之间的差异和不同高精度实验之间的差异相当[^lejaeghere2016reproducibility-e4] | [定量仿真](../../06_methods/simulation_study.md) |
 | [构建改进](../../05_research-strategies/build_improve.md) | 设计探测器、望远镜，开发数据分析方法和软件[^arxivtaxonomy-e6] | 天文期刊接受专门的软件论文[^aassoftware-e4]，但审稿人不直接审查软件[^aassoftware-e5]；数值模拟论文要声明代码和参数能否获取[^apsdataavailability-e6] | [工程研究](../computer-science/practices/engineering_research.md)（计算机的实践，可参考） |
+| [构建改进](../../05_research-strategies/build_improve.md) | 理论方法：发展新的理论技巧、形式体系或近似方法[^aps2011uncertainty-e3] | 对近似方法来说，和实验或其他理论的比较本身就评估了方法的误差[^aps2011uncertainty-e3] | [理论研究](../computer-science/practices/theoretical_research.md)（计算机的实践，可参考） |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 理论解释和唯象：解释以前没解释的现象[^aps2011uncertainty-e3]；唯象指联系理论和实验的理论工作[^arxivtaxonomy-e3] | 解释现象时，和实验半定量地符合就已经有意义[^aps2011uncertainty-e3] | 暂无专门的方法篇 |
+| [测量](../../05_research-strategies/measure.md) | 精密理论计算：算出要和高精度实验比较的数值，或提供作参考数据的基准结果[^aps2011uncertainty-e3] | 这两类最需要仔细评估理论不确定度[^aps2011uncertainty-e4]；只要可行，就给出不确定度估计（什么时候必须给、怎么估，见表后） | [定量仿真](../../06_methods/simulation_study.md) |
 
-理论和唯象研究（推导理论、算出可观测的预言）按哪种套路、什么标准评判，本文资料未涉及。在粒子物理，要检验的模型一般先在理论或唯象论文里发表，再由实验者去测[^junk2021reproducibility-e23]。
+理论研究按核心主张分到表里最后三行：发展新方法归构建改进，解释现象归解释因果，给出要和实验比较的精确数值归测量 `[本项目分析]`。在粒子物理，要检验的模型一般先在理论或唯象论文里发表，再由实验者去测[^junk2021reproducibility-e23]。
+
+这三行的标准出自 Physical Review A（美国物理学会的期刊之一）编辑部 2011 年的一篇社论，只代表这本期刊当时的要求。社论的出发点是：实验论文不详细讨论测量不确定度，这本期刊通常不会接收[^aps2011uncertainty-e2]；而理论论文投来时，数值结果不带不确定度估计并不少见[^aps2011uncertainty-e1]。社论对理论计算的要求：
+
+- **什么时候必须给。** 只要可行就要给；以下三种情况尤其要给：声称精度高或比以前更准；主要目的是和高精度实验比较；主要目的是内插或外推已有的实验数据[^aps2011uncertainty-e7]。
+- **不确定度从哪来。** 一是数值结果是否收敛，例如随基组大小、积分步长变化；二是计算一开始就没包含的物理效应[^aps2011uncertainty-e5]。
+- **要多严格。** 要的是估计，不是误差的确切大小或严格上界[^aps2011uncertainty-e6]。
+- **给不出时。** 社论承认，很多情况下确实给不出有意义的误差估计，例如复杂体系的散射过程[^aps2011uncertainty-e8]。
+
+其他物理期刊怎样评判理论论文，形式理论（例如弦论[^arxivtaxonomy-e2]）按什么标准评判，本文资料未涉及。
 
 ---
 
@@ -217,6 +229,14 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 [^arxivtaxonomy-e4]: arXiv Category Taxonomy，hep-lat。[证据](../../../sources/notes/arxivtaxonomy.md#e4)
 [^arxivtaxonomy-e5]: arXiv Category Taxonomy，physics.comp-ph。[证据](../../../sources/notes/arxivtaxonomy.md#e5)
 [^arxivtaxonomy-e6]: arXiv Category Taxonomy，astro-ph.IM。[证据](../../../sources/notes/arxivtaxonomy.md#e6)
+[^aps2011uncertainty-e1]: Physical Review A 编辑部 2011，第 1–2 段。[证据](../../../sources/notes/aps2011uncertainty.md#e1)
+[^aps2011uncertainty-e2]: Physical Review A 编辑部 2011，第 2 段。[证据](../../../sources/notes/aps2011uncertainty.md#e2)
+[^aps2011uncertainty-e3]: Physical Review A 编辑部 2011，第 3 段。[证据](../../../sources/notes/aps2011uncertainty.md#e3)
+[^aps2011uncertainty-e4]: Physical Review A 编辑部 2011，第 4 段。[证据](../../../sources/notes/aps2011uncertainty.md#e4)
+[^aps2011uncertainty-e5]: Physical Review A 编辑部 2011，第 4 段。[证据](../../../sources/notes/aps2011uncertainty.md#e5)
+[^aps2011uncertainty-e6]: Physical Review A 编辑部 2011，第 4 段。[证据](../../../sources/notes/aps2011uncertainty.md#e6)
+[^aps2011uncertainty-e7]: Physical Review A 编辑部 2011，第 5 段。[证据](../../../sources/notes/aps2011uncertainty.md#e7)
+[^aps2011uncertainty-e8]: Physical Review A 编辑部 2011，第 5 段。[证据](../../../sources/notes/aps2011uncertainty.md#e8)
 [^junk2021reproducibility-e1]: Junk & Lyons 2021，摘要。[证据](../../../sources/notes/junk2021reproducibility.md#e1)
 [^junk2021reproducibility-e2]: Junk & Lyons 2021，§1。[证据](../../../sources/notes/junk2021reproducibility.md#e2)
 [^junk2021reproducibility-e3]: Junk & Lyons 2021，§1。[证据](../../../sources/notes/junk2021reproducibility.md#e3)

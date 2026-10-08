@@ -34,7 +34,7 @@
 
 ### 参考层：需要时再查
 
-- **[研究套路](guide/05_research-strategies/README.md)**：一项研究靠什么逻辑产生新知识、需要什么证据。[观察描述](guide/05_research-strategies/observe_describe.md) · [测量](guide/05_research-strategies/measure.md) · [比较评估](guide/05_research-strategies/compare_evaluate.md) · [解释因果](guide/05_research-strategies/explain_causality.md) · [构建改进](guide/05_research-strategies/build_improve.md) · [综合](guide/05_research-strategies/synthesize.md) · [证明](guide/05_research-strategies/prove.md) · [解读论证](guide/05_research-strategies/interpret_argue.md)（占位）
+- **[研究套路](guide/05_research-strategies/README.md)**：一项研究靠什么逻辑产生新知识、需要什么证据。[观察描述](guide/05_research-strategies/observe_describe.md) · [测量](guide/05_research-strategies/measure.md) · [比较评估](guide/05_research-strategies/compare_evaluate.md) · [解释因果](guide/05_research-strategies/explain_causality.md) · [构建改进](guide/05_research-strategies/build_improve.md) · [综合](guide/05_research-strategies/synthesize.md) · [证明](guide/05_research-strategies/prove.md) · [解读论证](guide/05_research-strategies/interpret_argue.md)
 - **[研究方法](guide/06_methods/README.md)**：两个及以上学科都在用的 28 种具体做法，每篇讲适合回答什么问题、分几步做、检查清单和常见错误。
   - 以已发表的研究为材料：[综述研究](guide/06_methods/review_study.md) · [案例调查](guide/06_methods/case_survey.md) · [方法论研究与元科学](guide/06_methods/meta_science.md) · [系统综述与元分析（健康领域）](guide/06_methods/meta_analysis.md)
   - 基于已有数据或模型：[数据科学研究](guide/06_methods/data_science.md) · [纵向研究](guide/06_methods/longitudinal_study.md) · [定量仿真](guide/06_methods/simulation_study.md) · [准实验与因果识别](guide/06_methods/quasi_experiment.md) · [观察性流行病学研究](guide/06_methods/observational_epidemiology.md)

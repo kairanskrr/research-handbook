@@ -137,14 +137,15 @@ WHO 给科研人员的清单，开工前就要问[^who2022responsible-e6]：成�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。本文资料能支持的，是生物技术里的两种套路；其他套路（例如弄清机制的[解释因果](../../05_research-strategies/explain_causality.md)）本文资料未涉及。表的分组和"在生物技术里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料所在的方向 `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。本文资料能支持的，是生物技术里的三种套路；综合等其他套路在本学科怎样用，本文资料未涉及。表的分组和"在生物技术里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料所在的方向 `[本项目分析]`。
 
 | 套路 | 在生物技术里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [构建改进](../../05_research-strategies/build_improve.md) | 设计并构建工程菌、细胞系或植株，或开发生物过程并逐级放大，按"设计—构建—测试"多轮迭代 | 生物系统常对细胞或环境条件的微小变化很敏感（合成生物学）[^beal2016reproducibility-e6]，所以每轮的构建体、宿主、条件都要记全；说"能工业化"之前要知道，放大时多数参数会变，不能照搬实验室条件（工业微生物工艺，企业作者的经验）[^crater2018scaleup-e3][^crater2018scaleup-e7] | [实验台实验](../../06_methods/bench_experiment.md)；建模用[定量仿真](../../06_methods/simulation_study.md)；放大见上文[从摇瓶到发酵罐：放大](#从摇瓶到发酵罐放大) |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 弄清机制：敲除、过表达或突变某个基因，或加入抑制剂，看表型、产量或通路是否跟着变，以此说明"是这个因素造成的" | 下面几条来自 MDAR（Materials Design Analysis Reporting，材料、设计、分析、报告框架）。它是多家出版机构的编辑和美国开放科学中心 2021 年发表的生命科学报告框架[^macleod2021mdar-e2]，面向探索性实验室研究，不取代已有的专门标准（如上文的 MIQE）[^macleod2021mdar-e1]。写明实验独立做了几次[^macleod2021mdar-e3]，重复是生物学重复（不同实验单位）还是技术重复（同一单位测多次）[^macleod2021mdar-e4]；只有技术重复时要说明，误差反映的是操作的波动，不是生物学的波动[^macleod2021mdar-e7]；对照组定义清楚，没设对照要说明理由[^macleod2021mdar-e6]；离群值怎么处理，做实验前定好[^macleod2021mdar-e9]；细胞系对照国际细胞系鉴定委员会（International Cell Line Authentication Committee，ICLAC）的错认细胞系名单，名单上的不用，其他的定期鉴定[^macleod2021mdar-e10]。实验单位怎么定、怎么随机，探索性结果为什么要靠验证性实验确认，见实验台实验页 | [实验台实验](../../06_methods/bench_experiment.md)（[探索性和验证性](../../06_methods/bench_experiment.md#1-这是什么研究什么时候用)、[找实验单位](../../06_methods/bench_experiment.md#第-2-步画出层级找到实验单位)）；进入动物的部分见[临床前动物研究](../../06_methods/preclinical_animal_study.md) |
 | [测量](../../05_research-strategies/measure.md) | 测表达量、产量、荧光强度，开发新的检测方法，或多个实验室测同一批样品做比对 | qPCR 按 MIQE 清单报告，"必需"条目是审稿人评价、别人重复工作所必需的[^bustin2009miqe-e8]；只用一个未经验证的内参基因不可接受[^bustin2009miqe-e5]；荧光读数受仪器影响[^beal2016reproducibility-e3]，要用校准过的测量得到标准单位[^beal2016reproducibility-e5] | [实验测量研究](../../06_methods/experimental_measurement.md)、[复现研究](../../06_methods/replication.md)；上文[测量和描述：写到别人能复现](#测量和描述写到别人能复现) |
 
-**怎么用这张表** `[本项目分析]`：很多项目两种套路都有，例如构建一株新菌（构建改进），它的产量数据要按测量的标准来报。按核心主张定主要套路，其余部分按各自的标准要求；进入动物或人体的部分，按下一节所列方法和[临床医学篇](../clinical-medicine/README.md)的规矩。
+**怎么用这张表** `[本项目分析]`：很多项目几种套路都有，例如构建一株新菌（构建改进），它的产量数据要按测量的标准来报，再敲掉一个基因说明产量为什么提高（解释因果）。按核心主张定主要套路，其余部分按各自的标准要求；进入动物或人体的部分，按下一节所列方法和[临床医学篇](../clinical-medicine/README.md)的规矩。
 
 ---
 
@@ -153,6 +154,7 @@ WHO 给科研人员的清单，开工前就要问[^who2022responsible-e6]：成�
 生物技术没有独有的研究方法页，常用的都是跨学科方法，见[研究方法总览](../../06_methods/README.md)。下面的对应关系是本项目的归纳 `[本项目分析]`。
 
 - **菌株和细胞系构建、生物过程开发**：见[实验台实验（湿实验）](../../06_methods/bench_experiment.md)。思路接近计算机的[工程研究](../computer-science/practices/engineering_research.md)，条件优化可参考[优化研究](../computer-science/practices/optimization_study.md)，不同在于开工前可能要报批。
+- **机制研究**（敲除、过表达、抑制剂实验）：也用[实验台实验](../../06_methods/bench_experiment.md)，报告要求见上一节表中"解释因果"一行。
 - **检测和测量方法开发、跨实验室比对**：见[实验测量研究](../../06_methods/experimental_measurement.md)、[复现研究](../../06_methods/replication.md)，跨实验室的例子如 iGEM 的研究[^beal2016reproducibility-e1]。建模（代谢模型、发酵过程模型）见[定量仿真](../../06_methods/simulation_study.md)。
 - **动物实验、人体试验**：见[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)。组学分析见[生物科学篇](../biological-sciences/README.md)。
 
@@ -288,3 +290,11 @@ WHO 给科研人员的清单，开工前就要问[^who2022responsible-e6]：成�
 [^crater2018scaleup-e10]: Crater 和 Lievense 2018，Guiding principles for process scale-up。[证据](../../../sources/notes/crater2018scaleup.md#e10)
 [^mclaughlin2020sbol3-e1]: McLaughlin 等人 2020，Abstract。[证据](../../../sources/notes/mclaughlin2020sbol3.md#e1)
 [^mclaughlin2020sbol3-e2]: McLaughlin 等人 2020，Introduction。[证据](../../../sources/notes/mclaughlin2020sbol3.md#e2)
+[^macleod2021mdar-e1]: Macleod 等人 2021（MDAR，PNAS），正文。[证据](../../../sources/notes/macleod2021mdar.md#e1)
+[^macleod2021mdar-e2]: Macleod 等人 2021（MDAR，PNAS），正文和利益声明。[证据](../../../sources/notes/macleod2021mdar.md#e2)
+[^macleod2021mdar-e3]: Macleod 等人 2021（MDAR），Elaboration §2.4。[证据](../../../sources/notes/macleod2021mdar.md#e3)
+[^macleod2021mdar-e4]: Macleod 等人 2021（MDAR），Elaboration §2.4。[证据](../../../sources/notes/macleod2021mdar.md#e4)
+[^macleod2021mdar-e6]: Macleod 等人 2021（MDAR），Elaboration §2.4。[证据](../../../sources/notes/macleod2021mdar.md#e6)
+[^macleod2021mdar-e7]: Macleod 等人 2021（MDAR），Elaboration §3.2。[证据](../../../sources/notes/macleod2021mdar.md#e7)
+[^macleod2021mdar-e9]: Macleod 等人 2021（MDAR），Elaboration §2.3。[证据](../../../sources/notes/macleod2021mdar.md#e9)
+[^macleod2021mdar-e10]: Macleod 等人 2021（MDAR），Elaboration §1.4。[证据](../../../sources/notes/macleod2021mdar.md#e10)

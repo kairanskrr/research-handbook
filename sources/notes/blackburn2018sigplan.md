@@ -189,3 +189,9 @@
 - 位置：FAQ › How does the checklist relate to the artifact evaluation process?
 - 原文："Artifact evaluation typically occurs after reviewing a paper, to check that the claims and evidence given in the paper match reality, in the artifact."
 - 要点：制品评审（artifact evaluation）通常在论文审稿之后进行，检查论文中的主张和证据与提交的制品是否一致。
+
+### E32
+
+- 位置：FAQ › How did you determine which items to include?
+- 原文："The committee examined a sampling of papers from the last several years of ASPLOS, ICFP, OOPSLA, PLDI, and POPL, and considered those that contained some form of empirical evaluation."
+- 要点：清单委员会抽查了 ASPLOS、ICFP、OOPSLA、PLDI、POPL 近几年含实证评估的论文，从中总结常见的好做法和坏做法。

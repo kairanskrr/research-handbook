@@ -134,18 +134,25 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出本文资料能支持的几种。表的分组和"在哲学里的样子"一栏是本项目的归纳；标准多出自美国的资料和一位教师的讲义，只代表脚注里的来源 `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出本文资料能支持的几种。表的分组和"在哲学里的样子"一栏是本项目的归纳；标准多出自美国的资料、一位教师的讲义和斯坦福哲学百科的条目，只代表脚注里的来源 `[本项目分析]`。
 
 | 套路 | 在哲学里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [解读论证](../../05_research-strategies/interpret_argue.md)（主要套路） | 为一个主张做有理由的辩护[^pryor2012writing-e1]。论证多是演绎的，但前提很少绝对无可置疑，所以通常不能一锤定音[^pryor2025terms-e12] | 证据是有争议的前提、对案例的判断和概念区分；最看重推理的质量[^apaphil1996research-e9]；要回应最强、最紧要的反驳[^pryor2012writing-e17]；伦理学和政治哲学常用反思平衡检验原则[^knight2023reflective-e3] | [哲学论证研究](practices/philosophical_argument.md) |
 | [解读论证](../../05_research-strategies/interpret_argue.md)（哲学史与文本解读） | 解释某位哲学家的观点和论证 | 引用原文段落支持你的解读；讨论文本里找不到直接证据的观点时要明说[^pryor2012writing-e25] | [文本细读与文学论证](../languages-literature/practices/close_reading.md)（文学，可参考） |
-| [证明](../../05_research-strategies/prove.md) | 逻辑学等方向接近数学[^apaphil1996research-e5]；数学证明是演绎论证的典型[^pryor2025terms-e3] | 哲学里形式化方向的评判标准，本文资料未涉及 | [理论研究](../computer-science/practices/theoretical_research.md)（计算机，可参考） |
+| [证明](../../05_research-strategies/prove.md) | 逻辑学等方向接近数学[^apaphil1996research-e5]；数学证明是演绎论证的典型[^pryor2025terms-e3]；形式认识论用概率论、模态逻辑等工具研究知识和推理[^weisberg2021formal-e1] | 证明先要正确；形式结果还要接回哲学问题；详见表后 | [证明：什么样的证据才够](../../05_research-strategies/prove.md#2-什么样的证据才够)、[理论研究](../computer-science/practices/theoretical_research.md)（计算机，可参考） |
 | [观察描述](../../05_research-strategies/observe_describe.md)、[解释因果](../../05_research-strategies/explain_causality.md)（实验哲学） | 研究人们对哲学概念的"直觉"，通常调查普通人的判断[^sytsma2026experimental-e2]；也检验某些案例判断是否随和哲学无关的因素变化[^sytsma2026experimental-e16] | 用系统方法，不根据个别或有偏的回答下结论[^sytsma2026experimental-e10]；从哲学论证出发，结果接回论证并说明局限[^sytsma2026experimental-e5][^sytsma2026experimental-e7]；样本量和统计报告的要求在提高[^sytsma2026experimental-e8] | [问卷调查](../../06_methods/questionnaire_survey.md)、[对照实验](../../06_methods/controlled_experiment.md)、[数据科学](../../06_methods/data_science.md)（语料库研究） |
+
+"证明"一行的说明。这部分只依据两份资料：美国数学会的伦理准则（2022 年修订），以及《斯坦福哲学百科》里 Weisberg 写的形式认识论条目（2021 年修订）。逻辑学期刊各自的审稿标准，本文资料未涉及，以目标期刊的说明为准。
+
+- **证明先要正确。** 美国数学会的准则要求数学期刊的编辑，只在合理确信论文正确时才接收[^ams2022ethical-e9]；哲学里的形式化论文可以参照这个要求 `[本项目分析]`。
+- **形式结果要接回哲学问题。** Weisberg 以归纳问题为例指出：形式化能精确表述归纳怎样进行，但它依赖概率公理等假设，本身解决不了休谟提出的那类问题；它的用处是把这些假设分离出来、讲清楚，再为它们论证[^weisberg2021formal-e2]。
+- **当心理想化。** 模型常做理想化假设，例如假设人相信自己信念推出的一切[^weisberg2021formal-e4]。条目转述的几位作者认为，模型既简单又理想化、结果又不稳健时，要怀疑它能否用到现实[^weisberg2021formal-e3]。
 
 怎么用这张表 `[本项目分析]`：
 
-- **多数哲学论文属于解读论证。** 这个套路页还是占位，具体做法先看[哲学论证研究](practices/philosophical_argument.md)。
+- **多数哲学论文属于解读论证。** 这类研究产生什么知识、什么证据才够，见[解读论证](../../05_research-strategies/interpret_argue.md)套路页；哲学论文从选题、构造论证到回应反驳的具体做法，见[哲学论证研究](practices/philosophical_argument.md)。
+- **做形式化方向，两头都要过关。** 证明本身按[证明](../../05_research-strategies/prove.md#2-什么样的证据才够)套路的标准查；形式结果还要说明它的假设为什么在哲学上站得住、结论能不能用回原来的问题。
 - **按问题选套路。** 问题能靠收集数据回答（"人们实际怎样判断"），就走实证的套路；问题是"这个主张在道理上站不站得住"，就是解读论证。宗教学按所借用的学科（文本、历史、社会学、人类学）选套路和方法[^aar2019literacy-e2]。
 
 ---
@@ -300,3 +307,8 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 [^aar2019literacy-e6]: 美国宗教学会 2019，Faith-based。[证据](../../../sources/notes/aar2019literacy.md#e6)
 [^aar2019literacy-e7]: 美国宗教学会 2019，Executive Summary。[证据](../../../sources/notes/aar2019literacy.md#e7)
 [^aar2019literacy-e8]: 美国宗教学会 2019，Experiential。[证据](../../../sources/notes/aar2019literacy.md#e8)
+[^weisberg2021formal-e1]: Weisberg 2021，斯坦福哲学百科 Formal Epistemology，开头。[证据](../../../sources/notes/weisberg2021formal.md#e1)
+[^weisberg2021formal-e2]: Weisberg 2021，斯坦福哲学百科 Formal Epistemology，§2.2。[证据](../../../sources/notes/weisberg2021formal.md#e2)
+[^weisberg2021formal-e3]: Weisberg 2021，斯坦福哲学百科 Formal Epistemology，§5.1。[证据](../../../sources/notes/weisberg2021formal.md#e3)
+[^weisberg2021formal-e4]: Weisberg 2021，斯坦福哲学百科 Formal Epistemology，§6.3。[证据](../../../sources/notes/weisberg2021formal.md#e4)
+[^ams2022ethical-e9]: 美国数学会伦理准则（2022 年修订），IV. Publications。[证据](../../../sources/notes/ams2022ethical.md#e9)

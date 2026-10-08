@@ -6,7 +6,7 @@
 
 **适用范围** `[本项目分析]`：本篇原为历史与考古学科篇写，资料主要来自英美档案机构和档案学界的文件、美国历史学界的准则和方法文章（另有两条软件工程文献，只用来对比）。除[历史与考古](../07_fields/history-archaeology/README.md)外，[艺术](../07_fields/arts/README.md)、[语言与文学](../07_fields/languages-literature/README.md)、[社会学](../07_fields/sociology/README.md)的学科概况也链接到本篇。各学科对"什么算一手资料"、怎样引用档案有自己的习惯；用之前先看本学科的规范。
 
-**常服务的套路**：套路页暂未列出（[解读论证](../05_research-strategies/interpret_argue.md#现在可以先看哪里)页目前是占位页，在"现在可以先看哪里"里指向本篇）。
+**常服务的套路**：[解读论证](../05_research-strategies/interpret_argue.md)（从零碎的记录搭起一个关于过去的论点）`[本项目分析]`。依据是素养指南的要求：考察并综合多种资料，用来建立、支撑或反驳一个论点[^saaacrl2018primary-e16]，具体见下面第九步。
 
 **读完本文，你应该能：**
 

@@ -768,6 +768,125 @@
 
 - [NeurIPS 2025 Policy on the Use of Large Language Models](https://neurips.cc/Conferences/2025/LLM) - NeurIPS 2025 Program Chairs，Conference on Neural Information Processing Systems 2025。NeurIPS 2025 对作者和审稿人使用大模型的政策：大模型不能当作者，作者对全部内容负责；作为方法组成部分时要在实验设置中说明；只用于润色不需声明；未核实的大模型生成参考文献属于违规；审稿内容不得分享给大模型。只作为机器学习方向一个会议的例子。🆓 `neurips2025llm`
 
+**计算机各方向：软件工程**
+
+- [ICSE 2026 Research Track: Call for Papers](https://conf.researchr.org/track/icse-2026/icse-2026-research-track) - ICSE 2026 Program Committee Chairs，网页 2025。ICSE 2026 研究论文征稿启事（会议官网，公开网页）。正文用它说明：ICSE 的研究领域和范围、两轮投稿和 3 天作者回复期、10+2 页篇幅、双向匿名与预印本规则、五条评审标准（含"可验证与透明"）、录用/修改/拒稿三种结果、开放科学政策（默认分享制品）、涉及人类参与者的政策、与 TSE/TOSEM 的合作、影子程序委员会。2026-10-08 读取。🆓 `icse2026cfp`
+
+**计算机各方向：机器学习**
+
+- [NeurIPS Paper Checklist Guidelines](https://neurips.cc/public/guides/PaperChecklist) - NeurIPS，网页。NeurIPS 官方的论文检查清单指南网页（与 NeurIPS 2025 征稿启事配套，含大语言模型使用声明项），2026-10-08 读取。正文用它说明：清单必交、不交直接拒稿；答"否"可以但要给理由；局限、误差线、算力、超参数、许可证、参与者报酬、社会影响、理论证明等各项要求。会议官方公开网页。🆓 `neurips2025checklist`
+- [Responsible NLP Research Checklist](https://aclrollingreview.org/responsibleNLPresearch/) - ACL Rolling Review，网页 2024。ACL 滚动评审（计算语言学学会 ACL 的统一审稿服务）的负责任 NLP 研究检查清单说明，页面注明按 2024 年 10 月一轮更新，2026-10-08 读取。正文用它说明：清单在投稿表单里填、系统性不答会被直接拒稿；报告单次运行还是多种子平均、不在留出集上调参、写明指标实现和数据语言、算力含全部实验、参与者报酬、伦理审查批准不代替社会影响讨论。官方公开网页。🆓 `arr2024responsible`
+
+**计算机各方向：安全**
+
+- [47th IEEE Symposium on Security and Privacy: Call for Papers](https://sp2026.ieee-security.org/cfpapers.html) - IEEE S&P 2026 Program Committee，网页 2025。IEEE S&P 2026 征稿启事（会议官方网页）。正文用它说明：知识系统化（SoK）论文的要求、理论论文要说明与实践的关系、强制的"伦理考量"小节、研究伦理委员会、漏洞披露时限和匿名、涉及人的数据的伦理审查说明、公开的综合审稿意见、页数、被拒后一年内不能再投、两个截稿日、无有条件录用、匿名制品仓库。2026-10-08 读取。🆓 `ieeesp2026cfp`
+- [NDSS Symposium 2026 Call for Papers](https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/) - NDSS Symposium 2026 Program Committee，网页 2025。NDSS Symposium 2026 征稿启事（Internet Society 主办的会议官方网页）。正文用它说明：两轮投稿、"大修"结果、13 页正文、可选的伦理小节及伦理不当可拒稿、伦理审查豁免不一定够、高影响漏洞的披露计划、SoK 论文、制品评估。2026-10-08 读取。🆓 `ndss2026cfp`
+- [ACM Conference on Computer and Communications Security (CCS) 2025: Call for Papers](https://www.sigsac.org/ccs/CCS2025/call-for-papers/) - ACM CCS 2025 Program Committee，网页 2025。ACM CCS 2025 征稿启事（ACM SIGSAC 会议官方网页）。正文用它说明：两轮审稿和"小修"结果、理论论文要说明与实践的关系、摘要引言写给一般安全研究者、评审标准和伦理程序、12 页正文且审稿人不必读附录、贡献依赖制品时审稿期间就要提供。2026-10-08 读取。🆓 `ccs2025cfp`
+
+**计算机各方向：系统**
+
+- [OSDI '26 Call for Papers: 20th USENIX Symposium on Operating Systems Design and Implementation](https://www.usenix.org/conference/osdi26/call-for-papers) - USENIX Association，网页 2025。OSDI '26 征稿启事（USENIX 官方网页）。正文用它说明：会议看重什么、评审标准、12 页上限和反对注水、研究与运行系统两个轨道、取消作者回复期并改为有条件录用、预印本允许但系统名要匿名、审稿人不必读补充材料。2026-10-08 读取。🆓 `osdi2026cfp`
+- [SOSP 2025 Call for Papers: The 31st ACM Symposium on Operating Systems Principles](https://sigops.org/s/conferences/sosp/2025/cfp.html) - SOSP 2025 Program Committee，网页 2025。SOSP 2025 征稿启事（ACM SIGOPS 官方网页）。正文用它说明：系统方向的范围、SOSP 的传统偏好、评审标准（要实现方案）、新方向评价标准可不同、作者回复的限制、12 页技术内容、系统名和本单位系统的匿名、有条件录用和制品评估。2026-10-08 读取。🆓 `sosp2025cfp`
+
+**计算机各方向：理论**
+
+- [STOC 2026 Call for Papers: 58th ACM Symposium on Theory of Computing](https://acm-stoc.org/stoc2026/stoc2026-cfp.html) - STOC 2026 Program Committee，网页 2025。STOC 2026 征稿启事（ACM SIGACT 主办会议的官方网页）。正文用它说明：理论方向的主题范围、投稿无页数上限但前 12 页要写给广泛读者、必须提供可完整核验的证明、双盲但允许预印本且不得为匿名削弱论文、录用后公开带证明的完整版、SIGACT 一稿多投政策、定稿 12 页、引用不用 et al.、日期。2026-10-08 读取。FOCS 和 SODA 的官方网页对脚本访问返回拦截页，未能取得，正文未写这两个会议的规则。🆓 `stoc2026cfp`
+
+**计算机各方向：程序语言**
+
+- [PACMPL Issue PLDI 2026: Call for Papers](https://pldi26.sigplan.org/track/pldi-2026-papers) - PLDI 2026 Organizers，网页 2025。PLDI 2026（PACMPL Issue PLDI 2026）征稿启事及双盲评审问答（会议官网，公开网页）。正文用它说明：PLDI 的范围、论文发表在期刊 PACMPL、审稿标准、鼓励按 SIGPLAN 实证评估指南准备、两轮审稿与有条件录用、作者回复、双盲细则（含系统改名）、预印本与宣传规则、利益冲突申报、20 页篇幅、补充材料、制品评估及 2026 年新增的"制品意向"。2026-10-08 读取。🆓 `pldi2026cfp`
+- [PACMPL Issue POPL 2026: Call for Papers](https://popl26.sigplan.org/track/POPL-2026-popl-research-papers) - POPL 2026 Organizers，网页 2025。POPL 2026（PACMPL Issue POPL 2026）征稿启事（会议官网，公开网页）。正文用它说明：POPL 的范围、审稿标准、完全双盲、补充材料（可含证明脚本）、预印本、作者回复不得有新技术结果、所有论文有条件录用、25 页篇幅、制品评估自愿且不影响录用。2026-10-08 读取。🆓 `popl2026cfp`
+
+**计算机各方向：人机交互**
+
+- [CHI 2026 Papers: Call for Papers, Guide to a Successful Submission, Papers Review Process, Guide to Reviewing Papers, Contributions to CHI, and Anonymization Policy](https://chi2026.acm.org/authors/papers/) - ACM CHI 2026 Papers Chairs，网页 2025。ACM CHI 2026 官网的征稿页及配套的作者指南、审稿流程、审稿人指南、贡献类型说明和匿名政策（6 个网页合为一个条目，位置写页面名），2026-10-08 读取。正文用它说明：CHI 2026 的日期、篇幅（按词数）、修改后重投流程、录用率、贡献类型和各自的评审问题、按子领域定义严谨、透明和材料分享、伦理审查、匿名和预印本、大语言模型文字标注。会议官方公开网页。🆓 `chi2026papers`
+- [Usability Evaluation Considered Harmful (Some of the Time)](https://www.billbuxton.com/usabilityHarmful.pdf) - Greenberg 等人，Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2008。CHI 2008 的观点文章，CHI 2026 审稿指南把它列为"什么是好的 CHI 论文"之争的参考读物。正文用它说明：评估方法要和研究问题相称；早期可用性评估可能压制创意；"存在性证明"只是弱验证；小改动应做冒险的假设检验。已用 Crossref 核对标题、作者和页码。🆓 `greenberg2008usability`
+
+**学科篇：化学**
+
+- [Harmonized guidelines for single-laboratory validation of methods of analysis (IUPAC Technical Report)](https://publications.iupac.org/pac/2002/pdf/7405x0835.pdf) - Thompson 等人，Pure and Applied Chemistry 2002。IUPAC 2002 年的单实验室方法验证指南（技术报告）。正文用它说明分析方法开发要验证哪些性能指标、"适合用途"怎么判断、完整验证和单实验室验证的区别。合法来源：IUPAC 官网公开 PDF，报告声明注明出处即可转载；官网对脚本返回验证页，文本取自 Internet Archive 保存的同一 PDF（web.archive.org/web/2020id_/…）。🆓 `thompson2002harmonized`
+
+**学科篇：物理科学**
+
+- [Editorial: Uncertainty Estimates](https://doi.org/10.1103/PhysRevA.83.040001) - The Editors，Physical Review A 2011。Physical Review A 编辑部 2011 年的社论 "Editorial: Uncertainty Estimates"。正文用它说明理论论文的几种类型，以及哪些理论计算论文要给出不确定度估计、不确定度从哪里来。合法来源：美国物理学会期刊网站上免费阅读的社论，PDF 从 journals.aps.org/pra/pdf/10.1103/PhysRevA.83.040001 下载。只代表这本期刊 2011 年的编辑政策。🆓 `aps2011uncertainty`
+
+**学科篇：数学**
+
+- [SIAM Journal on Numerical Analysis (SINUM)](https://www.siam.org/publications/journals/siam-journal-on-numerical-analysis-sinum) - Society for Industrial and Applied Mathematics，Journal web page 2024。SIAM 数值分析杂志的介绍页。正文用它说明数值方法论文看重收敛性、精度、稳定性、复杂度的严格分析和展示算法表现的计算结果。🆓 `siamsinumabout`
+- [SIAM Journal on Scientific Computing (SISC)](https://www.siam.org/publications/journals/siam-journal-on-scientific-computing-sisc) - Society for Industrial and Applied Mathematics，Journal web page 2024。SIAM 科学计算杂志的介绍页。正文用它说明这本期刊的论文要附上展示方法有效性的计算结果。🆓 `siamsiscabout`
+- [About Bulletin of the American Mathematical Society](https://www.ams.org/publications/journals/journalsframework/aboutbull) - American Mathematical Society，Journal web page 2024。《美国数学会通报》的介绍页。正文用它说明阐述性文章要写得让非专题专家的数学家也能有所领悟。🆓 `amsbullabout`
+- [Leroy P. Steele Prize for Mathematical Exposition](https://www.ams.org/prizes-awards/paview.cgi?parent_id=26) - American Mathematical Society，Prize web page 2024。AMS Steele 数学阐述奖的页面。正文用它说明 AMS 设有专门奖励综述和阐述性写作的奖项。🆓 `amssteeleexposition`
+
+**学科篇：生物科学**
+
+- [MIAME: Minimum Information About a Microarray Experiment](https://www.fged.org/projects/miame/) - FGED Society，Project web page。功能基因组数据学会（FGED）的 MIAME 页面。正文用它说明基因芯片实验最少要交哪些信息（六个关键要素）。页面注明学会已停止运作，网页仍可访问。🆓 `fgedmiame`
+- [MINSEQE: Minimum Information about a high-throughput SEQuencing Experiment](https://www.fged.org/projects/minseqe/) - FGED Society，Project web page 2012。FGED 的 MINSEQE 页面。正文用它说明高通量测序实验最少要交的五个要素，以及 1.0 版发布时间（2012 年 6 月）。🆓 `fgedminseqe`
+- [Preferred reporting items for systematic reviews and meta-analyses in ecology and evolutionary biology: a PRISMA extension](https://doi.org/10.1111/brv.12721) - O'Dea 等人，Biological Reviews 2021。PRISMA-EcoEvo 1.0，生态学和进化生物学的系统综述和元分析报告清单。正文用它说明系统综述的定义、报告要求、事先登记，以及对 102 篇已发表综述的报告质量评估。🆓 `odea2021preferred`
+- [SYRCLE's risk of bias tool for animal studies](https://doi.org/10.1186/1471-2288-14-43) - Hooijmans 等人，BMC Medical Research Methodology 2014。SYRCLE 的动物研究偏倚风险工具。正文用它说明汇总动物实验时怎样逐篇评价偏倚风险。🆓 `hooijmans2014syrcle`
+
+**学科篇：地球与环境科学**
+
+- [Inferring causation from time series in Earth system sciences](https://doi.org/10.1038/s41467-019-10105-3) - Runge 等人，Nature Communications 2019。地球系统科学里用时间序列推断因果的观点综述。正文用它说明为什么地学难做干预实验、因果推断方法依赖哪些假设、常见陷阱（测不到的驱动因素、时间分辨率）。🆓 `runge2019inferring`
+
+**学科篇：经济学**
+
+- [Taking the Dogma out of Econometrics: Structural Modeling and Credible Inference](https://www.aeaweb.org/articles?id=10.1257/jep.24.2.69) - Nevo 等人，Journal of Economic Perspectives 2010。为结构建模辩护的评论文章。正文用它说明结构建模是什么，以及"可信的分析可以是结构的，也可以是非结构的"这一观点。🆓 `nevo2010taking`
+- [The Use of Structural Models in Econometrics](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.33) - Low 等人，Journal of Economic Perspectives 2017。介绍结构模型在实证中的作用。正文用它说明结构模型用来找机制、分析没实施过的政策。🆓 `low2017use`
+- [A Structural Perspective on the Experimentalist School](https://www.aeaweb.org/articles?id=10.1257/jep.24.2.47) - Keane，Journal of Economic Perspectives 2010。从结构派角度评论"实验派"。正文用它说明结论离不开假设、市场营销学重视外部验证。🆓 `keane2010structural`
+- [The Computational Experiment: An Econometric Tool](https://www.aeaweb.org/articles?id=10.1257/jep.10.1.69) - Kydland 等人，Journal of Economic Perspectives 1996。校准方法倡导者对"计算实验"的说明。正文用它说明计算实验是什么、用来回答什么问题。🆓 `kydland1996computational`
+- [The Empirical Foundations of Calibration](https://www.aeaweb.org/articles?id=10.1257/jep.10.1.87) - Hansen 等人，Journal of Economic Perspectives 1996。对校准方法的批评性讨论。正文用它说明校准所需的微观估计并非现成、应报告参数不确定性和设定敏感性。🆓 `hansen1996empirical`
+
+**学科篇：社会学**
+
+- [The Uses of Comparative History in Macrosocial Inquiry](https://doi.org/10.1017/S0010417500009282) - Skocpol 等人，Comparative Studies in Society and History 1980。比较历史研究的经典方法论文章（美国哈佛大学两位社会学者，1980）。正文用它说明：比较历史研究至少有三种用法，其中"宏观因果分析"接近假设检验；求同法和求异法两种比较设计；完美对照做不到、方法代替不了理论、结论难以推广到研究过的案例以外；对"对比式"写法暗藏理论的批评。2026-10-08 读取。🆓 `skocpol1980uses`
+- [Clarifying Comparative-Historical Methodology](https://doi.org/10.5281/zenodo.998194) - Mahoney，Qualitative Methods: Newsletter of the American Political Science Association Organized Section on Qualitative Methods 2005。美国政治学会定性方法分会通讯上的短文（作者 James Mahoney，当时在美国布朗大学，比较历史分析方法的代表学者），回应 Kittel 对比较历史方法的批评。正文用它说明：比较历史分析介于单案例和大样本研究之间、比较多个案例以得出因果概括；概括受适用范围条件限定；案例很少时主要靠案例内部分析；它研究过的课题（革命、福利国家、民主与威权）。2026-10-08 读取。Zenodo 的 DOI 不在 Crossref（由 DataCite 登记），书目信息按 Zenodo 记录核对。🆓 `mahoney2005clarifying`
+
+**学科篇：法学**
+
+- [Methodology of Comparative Legal Research](https://doi.org/10.5553/REM/.000010) - Van Hoecke，Law and Method 2015。比利时根特大学、英国伦敦玛丽女王大学比较法学者 Van Hoecke 在荷兰开放获取期刊 Law and Method 上的方法学文章。正文用它说明：比较法研究的六种方法；按研究问题选法域和方法；深入比较要能读当地语言、向当地学者核对；比较不能停在立法和判例；不用本国学理框架看外国法；照搬外国法不算方法；历史法用于理解今天的法律从哪里来。2026-10-08 读取。🆓 `vanhoecke2015methodology`
+- [European Legal History – Concepts, Methods, Challenges](https://www.lhlt.mpg.de/1009830/gplh_1_duve.pdf) - Duve，Entanglements in Legal History: Conceptual Approaches 2014。德国马克斯·普朗克欧洲法律史研究所所长 Thomas Duve 的方法论文章，收在该所开放获取文集（CC BY-NC-ND 3.0 DE）。正文用它说明法律史（尤其比较/全球法律史）的几条方法主张：研究的地域范围是结果而非前提；反思自己使用的"法"的概念，不拿自己的概念套别处；扎实的史料功夫和相应语言、区域知识。2026-10-08 下载。🆓 `duve2014european`
+- [The Nature of Law](https://plato.stanford.edu/entries/lawphil-nature/) - Atiq 等人，The Stanford Encyclopedia of Philosophy 2025。斯坦福哲学百科条目 "The Nature of Law"（2025 年 4 月实质修订，作者为美国康奈尔大学的 Atiq 和 Marmor），第 2 节专讲法理学的方法论。正文用它说明法哲学的几种主要路径（概念分析、Dworkin 的建构性解释、自然化法理学）各按什么标准评判，以及"方法论多元"的现状。2026-10-08 读取。🆓 `atiq2025nature`
+
+**学科篇：哲学、伦理与宗教**
+
+- [Formal Epistemology](https://plato.stanford.edu/entries/formal-epistemology/) - Weisberg，The Stanford Encyclopedia of Philosophy 2021。斯坦福哲学百科（美国斯坦福大学主办，开放获取）的 Formal Epistemology 条目，作者 Jonathan Weisberg（加拿大多伦多大学），2015 年首发、2021 年 3 月实质修订。正文用它说明：形式认识论用数学和逻辑工具研究知识和推理；形式表述本身不解决哲学问题，依赖的假设要站得住；模型的理想化假设和不稳健结果要警惕。2026-10-08 读取。这是一位作者的百科综述，不是学会或期刊规定。🆓 `weisberg2021formal`
+
+**学科篇：语言与文学**
+
+- [Language: Research Transparency; Preparing Your Materials](https://www.cambridge.org/core/journals/language/information/journal-policies/research-transparency) - Linguistic Society of America，Journal website, Cambridge University Press 2026。美国语言学会旗舰期刊 *Language* 的官方作者说明（剑桥大学出版社网站，公开网页）。正文用它说明：所有稿件必须有数据可得性声明、鼓励存入有永久标识符的存储库、强烈鼓励共享代码、数据来源要引用、定量和实验研究要能凭文章和补充材料重做、报告语感判断要准备进一步举证。2026-10-08 读取。🆓 `lsalanguage2026transparency`
+- [Statistical Methods for Linguistic Research: Foundational Ideas – Part I](https://arxiv.org/abs/1601.01126) - Vasishth 等人，Language and Linguistics Compass 2016。面向语言学和心理语言学的统计方法综述。正文用它说明语言实验的统计要求（作者建议）：事先按功效分析定样本量、不显著不等于没有效应、探索性分析要标明并分开报告、检查模型假设并重复结果。DOI 已用 Crossref 核对（标题、作者 Vasishth、Nicenboim，Language and Linguistics Compass 10(8):349–369）。🆓 `vasishth2016statistical`
+- [Reproducibility in Computational Linguistics: Are We Willing to Share?](https://aclanthology.org/J18-4003/) - Wieling 等人，Computational Linguistics 2018。调查计算语言学会议论文的数据和代码共享与复现情况。正文用它说明：语料和代码处理的细节（预处理、软件版本等）影响能否复现；10 篇论文里约 6 篇大致复现、只有 1 篇完全一致。DOI 已用 Crossref 核对（标题、作者 Wieling、Rawee、van Noord，Computational Linguistics 44(4):641–649）。🆓 `wieling2018reproducibility`
+
+**学科篇：农业、林业与渔业**
+
+- [Proposal and extensive test of a calibration protocol for crop phenology models](https://doi.org/10.1007/s13593-023-00900-0) - Wallach 等人，Agronomy for Sustainable Development 2023。AgMIP 框架内 19 个建模团队检验一套小麦物候模型校准方案。正文用它说明：作物模型几乎总要校准、校准没有共识、用地点和年份都不重合且不公开的数据检验、和基准模型比、为每一步留文档。🆓 `wallach2023proposal`
+- [Protocols for AgMIP Crop Model Improvement Teams](https://agmip.org/wp-content/uploads/2019/03/Protocols-for-AgMIP-Crop-Model-Improvement-Teams.pdf) - Boote 等人，Agricultural Model Intercomparison and Improvement Project (AgMIP) 2013。AgMIP 2013 年给作物模型改进团队的组织方案。正文用它说明：为改进模型做的试验要同时收集气象、土壤和作物数据，数据要能供将来使用。🆓 `boote2013protocols`
+- [From Guesstimates to GPStimates: Land Area Measurement and Implications for Agricultural Analysis](https://hdl.handle.net/10986/15910) - Carletto 等人，World Bank 2013。世界银行政策研究工作论文 6550，用 LSMS-ISA 四国数据比较农户自报和 GPS 测得的地块面积。正文用它说明农户调查里面积测量的误差及其后果。期刊版为 Journal of African Economies 2015（DOI 10.1093/jae/ejv011，非开放获取，未使用）。🆓 `carletto2013guesstimates`
+- [Does Size Matter? A Critical Review of Meta-analysis in Agronomy](https://doi.org/10.1017/S0014479719000012) - Krupnik 等人，Experimental Agriculture 2019。CIMMYT 等机构研究者对有机农业和保护性农业元分析的批评性评述，提出评判农学元分析的三条建议。🆓 `krupnik2019does`
+
+**学科篇：动物科学与兽医学**
+
+- [Scoping Reviews, Systematic Reviews, and Meta-Analysis: Applications in Veterinary Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC6997489/) - Sargeant 等人，Frontiers in Veterinary Science 2020。Frontiers in Veterinary Science 上的开放获取方法综述（CC BY 4.0），作者在加拿大圭尔夫大学和美国艾奥瓦州立大学。正文用它说明兽医学系统综述的做法和评判标准：事先写研究方案并可公开登记、兽医文献检索的难处、两人独立筛选和提取、偏倚风险评估、发表偏倚、按 PRISMA 报告、用 GRADE 评证据质量。2026-10-08 经 Europe PMC 全文接口读取。🆓 `sargeant2020scoping`
+
+**学科篇：生物技术**
+
+- [The MDAR (Materials Design Analysis Reporting) Framework for transparent reporting in the life sciences](https://pmc.ncbi.nlm.nih.gov/articles/PMC8092464/) - Macleod 等人，Proceedings of the National Academy of Sciences 2021。生命科学期刊通用的最低报告框架 MDAR，由多家出版机构编辑和美国开放科学中心制定，2021 年发表。正文用它补生物技术"解释因果"（机制研究）一行：实验独立做了几次、生物学重复和技术重复、研究单位、对照组、技术重复的误差含义、随机化与区组、离群值规则、细胞系对照 ICLAC 名单。2026-10-08 读取。🆓 `macleod2021mdar`
+
+**学科篇：艺术**
+
+- [Cross-Cultural Work in Music Cognition: Challenges, Insights, and Recommendations](https://doi.org/10.1525/mp.2020.37.3.185) - Jacoby 等人，Music Perception 2020。Music Perception 2020 年的立场文章，20 位音乐心理学、民族音乐学等方向的作者，源于 2018 年德国马克斯·普朗克实证美学研究所的研讨。正文用它说明音乐认知实验（测量套路）的证据标准：被试和材料偏西方的问题、数据可复现和有效、跨文化使用评分量表要做控制实验和预试、可改用打拍、唱旋律等不靠语言的任务。🆓 `jacoby2020crosscultural`
+
+**学科篇：环境工程**
+
+- [Causal Analysis/Diagnosis Decision Information System (CADDIS)](https://www.epa.gov/caddis) - U.S. Environmental Protection Agency，网页 2026。美国环境保护署的 CADDIS（因果分析/诊断决策信息系统）官方网站，页面显示 2026-01-22 更新。正文用它写环境工程表格中"解释因果"一行：针对具体地点的因果评估（主要是溪流生态系统），先列候选原因、考虑全部证据、先排除、按证据类型打分、结论分五类。2026-10-08 读取。🆓 `epa2026caddis`
+- [Guidelines and Standards for Evidence Synthesis in Environmental Management. Version 5.1](https://environmentalevidence.org/information-for-authors/) - Collaboration for Environmental Evidence，网页 2022。环境证据协作组（Collaboration for Environmental Evidence）的《Guidelines and Standards for Evidence Synthesis in Environmental Management》5.1 版（2022），官网免费公开。官网有访问验证，脚本无法直接下载，原文经互联网档案馆 2026 年 5 月的快照读取 Section 1 和 Section 9。正文用它写"综合"一行：先注册方案、透明报告并推荐 ROSES、结论报告哪些方面、适用范围、发表偏倚、"没有证据"不等于"证据表明没有"。🆓 `cee2022guidelines`
+- [What is the adsorption efficiency and capacity of biodegradable polymer blend foams filled with carbonaceous materials in the removal of heavy metals from water? A systematic review protocol](https://europepmc.org/article/PMC/PMC13151128) - Mokoena 等人，Environmental Evidence 2026。Environmental Evidence 上的开放获取（CC BY 4.0）系统综述方案，南非 University of the Free State 团队，主题是用可降解聚合物泡沫去除水中重金属。正文用它举例：环境工程题目的系统综述按 CEE 指南和 ROSES 做，纳入实验室和中试研究，评判纳入研究的内部效度、外部效度和报告透明度。DOI 已用 Crossref 核对标题和作者。🆓 `mokoena2026adsorption`
+
+**常见问题速查**
+
+- [The importance of being second](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005203) - The PLOS Biology Staff Editors，PLOS Biology 2018。常见问题"做到一半被抢先"一条，用它说明：被抢先常被期刊以缺乏新颖性拒稿；但至少有期刊（PLOS Biology，2018 年起）明确接收证实或扩展刚发表研究的"互补"稿件，限期六个月，仍需达到深度要求。🆓 `plosbiology2018importance`
+- [Whistleblowers (Handling Misconduct – Complainant)](https://ori.hhs.gov/whistleblowers) - Office of Research Integrity, U.S. Department of Health and Human Services，网页。常见问题"发现合作者的做法可能越界"一条，用它说明（限美国公共卫生署资助的研究）：举报前先读所在机构的规定、交给指定负责人；善意举报的含义；机构有义务保护善意举报人；查清是调查机构的责任，不是举报人的。🆓 `oriwhistleblowers`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

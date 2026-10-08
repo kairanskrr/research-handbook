@@ -644,6 +644,56 @@
 | `graham2009makers` | Maker's Schedule, Manager's Schedule | 网页 2009 | [链接](http://www.paulgraham.com/makersschedule.html) |
 | `mark2008cost` | The Cost of Interrupted Work: More Speed and Stress | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08) 2008 | [链接](https://www.ics.uci.edu/~gmark/chi08-mark.pdf) |
 | `neurips2025llm` | NeurIPS 2025 Policy on the Use of Large Language Models | Conference on Neural Information Processing Systems 2025 | [链接](https://neurips.cc/Conferences/2025/LLM) |
+| `icse2026cfp` | ICSE 2026 Research Track: Call for Papers | 网页 2025 | [链接](https://conf.researchr.org/track/icse-2026/icse-2026-research-track) |
+| `neurips2025checklist` | NeurIPS Paper Checklist Guidelines | 网页 | [链接](https://neurips.cc/public/guides/PaperChecklist) |
+| `arr2024responsible` | Responsible NLP Research Checklist | 网页 2024 | [链接](https://aclrollingreview.org/responsibleNLPresearch/) |
+| `ieeesp2026cfp` | 47th IEEE Symposium on Security and Privacy: Call for Papers | 网页 2025 | [链接](https://sp2026.ieee-security.org/cfpapers.html) |
+| `ndss2026cfp` | NDSS Symposium 2026 Call for Papers | 网页 2025 | [链接](https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/) |
+| `ccs2025cfp` | ACM Conference on Computer and Communications Security (CCS) 2025: Call for Papers | 网页 2025 | [链接](https://www.sigsac.org/ccs/CCS2025/call-for-papers/) |
+| `osdi2026cfp` | OSDI '26 Call for Papers: 20th USENIX Symposium on Operating Systems Design and Implementation | 网页 2025 | [链接](https://www.usenix.org/conference/osdi26/call-for-papers) |
+| `sosp2025cfp` | SOSP 2025 Call for Papers: The 31st ACM Symposium on Operating Systems Principles | 网页 2025 | [链接](https://sigops.org/s/conferences/sosp/2025/cfp.html) |
+| `stoc2026cfp` | STOC 2026 Call for Papers: 58th ACM Symposium on Theory of Computing | 网页 2025 | [链接](https://acm-stoc.org/stoc2026/stoc2026-cfp.html) |
+| `pldi2026cfp` | PACMPL Issue PLDI 2026: Call for Papers | 网页 2025 | [链接](https://pldi26.sigplan.org/track/pldi-2026-papers) |
+| `popl2026cfp` | PACMPL Issue POPL 2026: Call for Papers | 网页 2025 | [链接](https://popl26.sigplan.org/track/POPL-2026-popl-research-papers) |
+| `chi2026papers` | CHI 2026 Papers: Call for Papers, Guide to a Successful Submission, Papers Review Process, Guide to Reviewing Papers, Contributions to CHI, and Anonymization Policy | 网页 2025 | [链接](https://chi2026.acm.org/authors/papers/) |
+| `greenberg2008usability` | Usability Evaluation Considered Harmful (Some of the Time) | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2008 | [链接](https://www.billbuxton.com/usabilityHarmful.pdf) |
+| `thompson2002harmonized` | Harmonized guidelines for single-laboratory validation of methods of analysis (IUPAC Technical Report) | Pure and Applied Chemistry 2002 | [链接](https://publications.iupac.org/pac/2002/pdf/7405x0835.pdf) |
+| `aps2011uncertainty` | Editorial: Uncertainty Estimates | Physical Review A 2011 | [链接](https://doi.org/10.1103/PhysRevA.83.040001) |
+| `siamsinumabout` | SIAM Journal on Numerical Analysis (SINUM) | Journal web page 2024 | [链接](https://www.siam.org/publications/journals/siam-journal-on-numerical-analysis-sinum) |
+| `siamsiscabout` | SIAM Journal on Scientific Computing (SISC) | Journal web page 2024 | [链接](https://www.siam.org/publications/journals/siam-journal-on-scientific-computing-sisc) |
+| `amsbullabout` | About Bulletin of the American Mathematical Society | Journal web page 2024 | [链接](https://www.ams.org/publications/journals/journalsframework/aboutbull) |
+| `amssteeleexposition` | Leroy P. Steele Prize for Mathematical Exposition | Prize web page 2024 | [链接](https://www.ams.org/prizes-awards/paview.cgi?parent_id=26) |
+| `fgedmiame` | MIAME: Minimum Information About a Microarray Experiment | Project web page | [链接](https://www.fged.org/projects/miame/) |
+| `fgedminseqe` | MINSEQE: Minimum Information about a high-throughput SEQuencing Experiment | Project web page 2012 | [链接](https://www.fged.org/projects/minseqe/) |
+| `odea2021preferred` | Preferred reporting items for systematic reviews and meta-analyses in ecology and evolutionary biology: a PRISMA extension | Biological Reviews 2021 | [链接](https://doi.org/10.1111/brv.12721) |
+| `hooijmans2014syrcle` | SYRCLE's risk of bias tool for animal studies | BMC Medical Research Methodology 2014 | [链接](https://doi.org/10.1186/1471-2288-14-43) |
+| `runge2019inferring` | Inferring causation from time series in Earth system sciences | Nature Communications 2019 | [链接](https://doi.org/10.1038/s41467-019-10105-3) |
+| `nevo2010taking` | Taking the Dogma out of Econometrics: Structural Modeling and Credible Inference | Journal of Economic Perspectives 2010 | [链接](https://www.aeaweb.org/articles?id=10.1257/jep.24.2.69) |
+| `low2017use` | The Use of Structural Models in Econometrics | Journal of Economic Perspectives 2017 | [链接](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.33) |
+| `keane2010structural` | A Structural Perspective on the Experimentalist School | Journal of Economic Perspectives 2010 | [链接](https://www.aeaweb.org/articles?id=10.1257/jep.24.2.47) |
+| `kydland1996computational` | The Computational Experiment: An Econometric Tool | Journal of Economic Perspectives 1996 | [链接](https://www.aeaweb.org/articles?id=10.1257/jep.10.1.69) |
+| `hansen1996empirical` | The Empirical Foundations of Calibration | Journal of Economic Perspectives 1996 | [链接](https://www.aeaweb.org/articles?id=10.1257/jep.10.1.87) |
+| `skocpol1980uses` | The Uses of Comparative History in Macrosocial Inquiry | Comparative Studies in Society and History 1980 | [链接](https://doi.org/10.1017/S0010417500009282) |
+| `mahoney2005clarifying` | Clarifying Comparative-Historical Methodology | Qualitative Methods: Newsletter of the American Political Science Association Organized Section on Qualitative Methods 2005 | [链接](https://doi.org/10.5281/zenodo.998194) |
+| `vanhoecke2015methodology` | Methodology of Comparative Legal Research | Law and Method 2015 | [链接](https://doi.org/10.5553/REM/.000010) |
+| `duve2014european` | European Legal History – Concepts, Methods, Challenges | Entanglements in Legal History: Conceptual Approaches 2014 | [链接](https://www.lhlt.mpg.de/1009830/gplh_1_duve.pdf) |
+| `atiq2025nature` | The Nature of Law | The Stanford Encyclopedia of Philosophy 2025 | [链接](https://plato.stanford.edu/entries/lawphil-nature/) |
+| `weisberg2021formal` | Formal Epistemology | The Stanford Encyclopedia of Philosophy 2021 | [链接](https://plato.stanford.edu/entries/formal-epistemology/) |
+| `lsalanguage2026transparency` | Language: Research Transparency; Preparing Your Materials | Journal website, Cambridge University Press 2026 | [链接](https://www.cambridge.org/core/journals/language/information/journal-policies/research-transparency) |
+| `vasishth2016statistical` | Statistical Methods for Linguistic Research: Foundational Ideas – Part I | Language and Linguistics Compass 2016 | [链接](https://arxiv.org/abs/1601.01126) |
+| `wieling2018reproducibility` | Reproducibility in Computational Linguistics: Are We Willing to Share? | Computational Linguistics 2018 | [链接](https://aclanthology.org/J18-4003/) |
+| `wallach2023proposal` | Proposal and extensive test of a calibration protocol for crop phenology models | Agronomy for Sustainable Development 2023 | [链接](https://doi.org/10.1007/s13593-023-00900-0) |
+| `boote2013protocols` | Protocols for AgMIP Crop Model Improvement Teams | Agricultural Model Intercomparison and Improvement Project (AgMIP) 2013 | [链接](https://agmip.org/wp-content/uploads/2019/03/Protocols-for-AgMIP-Crop-Model-Improvement-Teams.pdf) |
+| `carletto2013guesstimates` | From Guesstimates to GPStimates: Land Area Measurement and Implications for Agricultural Analysis | World Bank 2013 | [链接](https://hdl.handle.net/10986/15910) |
+| `krupnik2019does` | Does Size Matter? A Critical Review of Meta-analysis in Agronomy | Experimental Agriculture 2019 | [链接](https://doi.org/10.1017/S0014479719000012) |
+| `sargeant2020scoping` | Scoping Reviews, Systematic Reviews, and Meta-Analysis: Applications in Veterinary Medicine | Frontiers in Veterinary Science 2020 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC6997489/) |
+| `macleod2021mdar` | The MDAR (Materials Design Analysis Reporting) Framework for transparent reporting in the life sciences | Proceedings of the National Academy of Sciences 2021 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC8092464/) |
+| `jacoby2020crosscultural` | Cross-Cultural Work in Music Cognition: Challenges, Insights, and Recommendations | Music Perception 2020 | [链接](https://doi.org/10.1525/mp.2020.37.3.185) |
+| `epa2026caddis` | Causal Analysis/Diagnosis Decision Information System (CADDIS) | 网页 2026 | [链接](https://www.epa.gov/caddis) |
+| `cee2022guidelines` | Guidelines and Standards for Evidence Synthesis in Environmental Management. Version 5.1 | 网页 2022 | [链接](https://environmentalevidence.org/information-for-authors/) |
+| `mokoena2026adsorption` | What is the adsorption efficiency and capacity of biodegradable polymer blend foams filled with carbonaceous materials in the removal of heavy metals from water? A systematic review protocol | Environmental Evidence 2026 | [链接](https://europepmc.org/article/PMC/PMC13151128) |
+| `plosbiology2018importance` | The importance of being second | PLOS Biology 2018 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005203) |
+| `oriwhistleblowers` | Whistleblowers (Handling Misconduct – Complainant) | 网页 | [链接](https://ori.hhs.gov/whistleblowers) |
 
 ## 待获取
 

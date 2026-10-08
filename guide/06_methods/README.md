@@ -48,7 +48,7 @@
 | [问卷调查](questionnaire_survey.md) | 用问卷向大量人收集数据，再系统分析 | 计算机 | [观察描述](../05_research-strategies/observe_describe.md)、[测量](../05_research-strategies/measure.md) |
 | [量表编制与测量研究](scale_development.md) | 以测量工具本身为成果：新编、翻译改编量表，或为已有量表积累信度和效度证据 | 心理学与认知科学 | [测量](../05_research-strategies/measure.md) |
 | [访谈研究](interview_study.md) | 深度访谈一批人，用定性分析归纳主题 | 计算机 | [观察描述](../05_research-strategies/observe_describe.md) |
-| [口述历史](oral_history.md) | 访谈亲历者、录音存档，再把访谈当作需要核对的证据来用 | 历史与考古 | 暂未列出 |
+| [口述历史](oral_history.md) | 访谈亲历者、录音存档，再把访谈当作需要核对的证据来用 | 历史与考古 | [解读论证](../05_research-strategies/interpret_argue.md) |
 | [案例研究与民族志](case_study.md) | 在真实环境里深入研究少数对象 | 计算机 | [观察描述](../05_research-strategies/observe_describe.md)、[解释因果](../05_research-strategies/explain_causality.md) |
 | [扎根理论](grounded_theory.md) | 一边收集数据一边分析，从数据中逐步归纳出理论 | 计算机 | [观察描述](../05_research-strategies/observe_describe.md) |
 | [行动研究](action_research.md) | 和真实组织合作推动一项改变，一边改进一边研究 | 计算机 | [构建改进](../05_research-strategies/build_improve.md)、[观察描述](../05_research-strategies/observe_describe.md) |
@@ -57,8 +57,8 @@
 
 | 方法 | 做什么 | 原来为哪个学科写 | 常服务的套路 |
 |---|---|---|---|
-| [实验台实验（湿实验）](bench_experiment.md) | 在实验台上用培养的细胞、提取的分子和试剂做处理，和对照比较，检验一个假设 | 生物科学 | 暂未列出 |
-| [临床前动物研究](preclinical_animal_study.md) | 在活体动物身上做实验，为人类医学提供依据 | 基础医学 | 暂未列出 |
+| [实验台实验（湿实验）](bench_experiment.md) | 在实验台上用培养的细胞、提取的分子和试剂做处理，和对照比较，检验一个假设 | 生物科学 | [解释因果](../05_research-strategies/explain_causality.md) |
+| [临床前动物研究](preclinical_animal_study.md) | 在活体动物身上做实验，为人类医学提供依据 | 基础医学 | [解释因果](../05_research-strategies/explain_causality.md) |
 | [合成与表征研究](synthesis_study.md) | 设计路线、做反应、纯化和表征产物，报告产率和底物范围 | 化学科学 | [构建改进](../05_research-strategies/build_improve.md) |
 | [实验测量研究](experimental_measurement.md) | 测出一个物理量的值，并说清这个值有多可信 | 物理科学 | [测量](../05_research-strategies/measure.md) |
 | [野外观测研究](field_study.md) | 到河流、土壤、大气等现场布点、测量、取样，再用这些数据回答问题 | 地球与环境科学 | [观察描述](../05_research-strategies/observe_describe.md) |

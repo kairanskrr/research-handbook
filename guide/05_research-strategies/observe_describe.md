@@ -70,11 +70,14 @@
 | [纵向研究](../06_methods/longitudinal_study.md) | 想描述现象随时间怎样变化[^ralph2020empirical-e257] | 只想知道"现在用得多广"，一次横断面的"快照"就够；要看变化，才需要跟踪同一批对象[^easterbrook2008selecting-e53] |
 | [数据科学](../06_methods/data_science.md) | 对已有数据集做探索性分析 | 只看一个时间点的分析，SIGSOFT 标准建议参考探索性数据科学标准[^ralph2020empirical-e258] |
 | [行动研究](../06_methods/action_research.md) | 想看一项改变引入真实组织后，里面的人怎么反应。行动研究的意义就在于引入改变，并观察参与者的反应[^ralph2020empirical-e342] | 研究者要在真实环境里实施干预；只观察、不干预的，按案例研究的标准做[^ralph2020empirical-e331] |
+| [空间分析研究](../07_fields/geography/practices/spatial_analysis.md)（地理学的实践） | 想知道一个现象在空间上怎样分布、是否成团。空间自相关指观测值彼此有多相似，和它们位置有多近有多大关系[^rey2023geographic-e11] | 人常把随机看成规律[^rey2023geographic-e13]，"是否成团"要靠检验：p 值足够小，才能拒绝"这张地图的格局是随机的"[^rey2023geographic-e15]；区域数据的结论会随尺度和分区方式改变[^kwan2018limits-e2] |
 | [综述](../06_methods/review_study.md) | 文献里可能已经有答案 | 探索性问题仍然要问，但可以用文献调研而不是新的实证研究来回答[^easterbrook2008selecting-e41]；见[综合](synthesize.md) |
 
 表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见跨学科方法[野外观测研究](../06_methods/field_study.md)（原多用于地球与环境科学）、[观察性流行病学](../06_methods/observational_epidemiology.md)（原多用于健康科学）中的横断面研究，以及语言与文学的实践[语言记录](../07_fields/languages-literature/practices/language_documentation.md)。
 
 **行动研究为什么放在这里。** 软件工程的评审标准把行动研究定义为研究一项干预（例如引入某种方法或工具）如何影响真实环境的实证研究[^ralph2020empirical-e330]。它服务两个套路：在真实组织里引入一项改进，属于[构建改进](build_improve.md)；看真实环境里的人怎么反应，属于观察描述 `[本项目分析]`。同一份标准也写明，行动研究不是实验[^ralph2020empirical-e343]，所以本手册不把它归入[解释因果](explain_causality.md) `[本项目分析]`。
+
+**空间分析为什么放在这里** `[本项目分析]`：它的一部分工作是描述现象在空间上怎样分布、检验是否成团，属于观察描述；研究环境怎样影响个人的那部分，属于[解释因果](explain_causality.md)。
 
 **常见的组合** `[本项目分析]`：先用访谈或人工细读少量样本，归纳出类别；再用仓库挖掘或问卷，统计每一类有多常见。例如先人工读 50 份生成合约归纳漏洞类型，再用工具在几千份合约上统计分布，最后抽样人工复核工具的判定。
 
@@ -193,3 +196,7 @@
 [^ralph2020empirical-e342]: SIGSOFT 行动研究标准，不成立的批评。[证据](../../sources/notes/ralph2020empirical.md#e342)
 [^ralph2020empirical-e343]: SIGSOFT 行动研究标准，不成立的批评。[证据](../../sources/notes/ralph2020empirical.md#e343)
 [^riesberg2018adequacy-e2]: Riesberg 2018，第 152 页。[证据](../../sources/notes/riesberg2018adequacy.md#e2)
+[^rey2023geographic-e11]: Rey 等 2023（在线教材），Global Spatial Autocorrelation。[证据](../../sources/notes/rey2023geographic.md#e11)
+[^rey2023geographic-e13]: Rey 等 2023（在线教材），Global Spatial Autocorrelation。[证据](../../sources/notes/rey2023geographic.md#e13)
+[^rey2023geographic-e15]: Rey 等 2023（在线教材），Global Spatial Autocorrelation。[证据](../../sources/notes/rey2023geographic.md#e15)
+[^kwan2018limits-e2]: Kwan 2018，第 1486 页。[证据](../../sources/notes/kwan2018limits.md#e2)

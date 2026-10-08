@@ -140,23 +140,39 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那个国家、那位作者 `[本项目分析]`。比较法、法律史、法哲学的证据标准，本文资料未涉及。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那个国家、那位作者 `[本项目分析]`。
 
 | 套路 | 在法学里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [解读论证](../../05_research-strategies/interpret_argue.md)（规范研究） | 系统阐述某一领域的法律规则，分析规则之间的关系，解释疑难之处[^hutchinson2012defining-e1]；先找到法律渊源，再解释和分析文本[^hutchinson2012defining-e6] | 核心是分析一手法律资料，不只是文献综述[^hutchinson2012defining-e9]；交稿前核查法律是否仍然有效（美国）[^northwesterngoodlaw-e2]；至少写一句方法说明[^hutchinson2012defining-e17] | [规范法学研究](practices/doctrinal_research.md) |
 | [解读论证](../../05_research-strategies/interpret_argue.md)（改革导向研究） | 评估现有规则是否妥当，对不足的规则提出修改建议[^hutchinson2012defining-e2] | 提出问题、列出可选方案、提出评价标准、推荐首选方案[^hutchinson2012defining-e36]；判断哪种做法"更好"时，说明用了什么标准[^hutchinson2012defining-e34]；质量也看法院或法律改革机构是否引用[^hutchinson2012defining-e24] | [规范法学研究：评价现行法](practices/doctrinal_research.md#第-7-步评价现行法提出改革建议) |
+| [解读论证](../../05_research-strategies/interpret_argue.md)（比较法研究） | 比较不同国家法律体系的规则和做法[^hutchinson2012defining-e21]；例如"功能法"：看各国怎样解决同一个实际问题[^vanhoecke2015methodology-e11] | 选哪些国家、用哪种比较方法，都主要看研究问题[^vanhoecke2015methodology-e2][^vanhoecke2015methodology-e3]；比较不停在条文上；详见表后 | [规范法学研究](practices/doctrinal_research.md) |
+| [解读论证](../../05_research-strategies/interpret_argue.md)（法律史） | 弄清今天的法律从哪里来、为什么是现在这样[^vanhoecke2015methodology-e9] | 反思自己用的"法"的概念；扎实地处理史料；详见表后 | [档案研究](../../06_methods/archival_research.md)、[历史与考古学科概况](../history-archaeology/README.md) |
+| [解读论证](../../05_research-strategies/interpret_argue.md)（法哲学） | 讨论法律原则的概念基础[^hutchinson2012defining-e3]，例如分析"法"这个概念[^atiq2025nature-e1] | 看一种解说能否对具体案例给出直觉上正确的结果[^atiq2025nature-e3]；路径多样；详见表后 | [哲学论证研究](../philosophy-ethics-religion/practices/philosophical_argument.md) |
 | [观察描述](../../05_research-strategies/observe_describe.md)、[解释因果](../../05_research-strategies/explain_causality.md)（实证法学研究） | 用定量数据或定性信息认识现实世界[^epstein2002rules-e1]，例如统计判决结果、访谈律师 | Epstein 和 King 主张：先确定目标总体，避免选择偏差[^epstein2002rules-e6]；编码规则写到别人完全看得懂[^epstein2002rules-e14]；报告每个结论有多不确定[^epstein2002rules-e8]；别人不用向你要信息就能重做[^epstein2002rules-e5]。详见下文[推断规则](#实证法学研究epstein-和-king-的推断规则) | [数据科学研究](../../06_methods/data_science.md)、[访谈研究](../../06_methods/interview_study.md) |
 
-怎么用这张表 `[本项目分析]`：规范研究是法学最被接受的方法[^hutchinson2012defining-e5]，但一篇文章常混合几类：Hutchinson 考察的 32 篇澳大利亚刑法改革文章全都在一定程度上用了规范方法，其中 23 篇提出了改革建议[^hutchinson2015doctrinal-e14][^hutchinson2015doctrinal-e10]。只要文中有"这条规则导致了……"这类关于现实的判断，这部分就要按实证法学研究那一行的标准对待。
+比较法、法律史、法哲学三行的说明。这三行的标准各只来自一份资料，是作者的主张，不是这些方向公认的统一规范：
+
+- **比较法**，依据 Van Hoecke 2015 年的文章（作者当时在英国和比利时的大学任比较法教授）。他归纳出六种比较方法[^vanhoecke2015methodology-e1]，用哪种主要看研究问题[^vanhoecke2015methodology-e2]。他的具体主张：
+  - 选哪几个国家，主要看研究问题怎么问[^vanhoecke2015methodology-e3]；即使是因为会哪种语言而选，也要给出学术上的理由[^vanhoecke2015methodology-e4]。
+  - 深入比较必须能读当地语言；只能读英文资料时，联系当地学者，核对自己的理解，问清那里的法律最近有没有改[^vanhoecke2015methodology-e5]。
+  - 比较不要停在立法、甚至判例上，社会现实可能和规则显示的很不一样[^vanhoecke2015methodology-e6]。
+  - 不要用本国法律的眼光和学理框架看外国法[^vanhoecke2015methodology-e7]；照搬外国法算不上方法[^vanhoecke2015methodology-e8]。
+- **法律史**，依据 Duve 2014 年讨论欧洲法律史方法的文章（作者是德国马克斯·普朗克欧洲法律史研究所所长）。他主张：研究的"法律空间"（大致是研究覆盖的地域）应当是研究的结果，不是事先划定的框框[^duve2014european-e1]；要反思自己用来组织分析的"法"的概念，拿自己过去的概念去套别的地区，只能得出"外面不一样"的结论[^duve2014european-e2]；从全球视角写法律史，要有相应的技能和地区知识，扎实地处理史料[^duve2014european-e3]。
+- **法哲学**，依据 Atiq 和 Marmor 为《斯坦福哲学百科》写的条目（2025 年修订，作者在美国康奈尔大学，讨论的主要是英美分析法学）。他们把法理学的方法分成五种主要路径[^atiq2025nature-e1]，下面举两种：
+  - 概念分析：以符合我们直觉的方式刻画"法"这个概念[^atiq2025nature-e2]，成败看它能否对具体案例给出直觉上正确的结果，而且讲得出道理、不是临时拼凑[^atiq2025nature-e3]。关键问题是这些直觉从哪来、靠不靠得住[^atiq2025nature-e4]；Leiter 倡导的"自然化法理学"就坚持只用经验方法，拒绝依靠直觉[^atiq2025nature-e5]。
+  - Dworkin 的解释路径：解释法律实践时，既要"契合"实际的实践，又要能在道德上"证成"[^atiq2025nature-e6]；但条目作者指出，用什么具体标准在道德上评价相互竞争的理论，仍不清楚[^atiq2025nature-e6]。
+  - 条目作者认为，法理学的现状最贴切的描述也许是"方法论多元"[^atiq2025nature-e7]。
+
+怎么用这张表 `[本项目分析]`：规范研究是法学最被接受的方法[^hutchinson2012defining-e5]，但一篇文章常混合几类：Hutchinson 考察的 32 篇澳大利亚刑法改革文章全都在一定程度上用了规范方法，其中 23 篇提出了改革建议[^hutchinson2015doctrinal-e14][^hutchinson2015doctrinal-e10]。只要文中有"这条规则导致了……"这类关于现实的判断，这部分就要按实证法学研究那一行的标准对待。同样，比较外国法常常是为了给本国法提改革建议：比较的部分按比较法那一行，建议的部分按改革导向那一行。
 
 ## 本学科常用的研究方法
 
 **本学科独有的方法**：[规范法学研究](practices/doctrinal_research.md)，包括规范研究和改革导向研究的具体做法。相关的还有哲学的[哲学论证研究](../philosophy-ethics-religion/practices/philosophical_argument.md)。其他方法：
 
-- **理论和法哲学研究**：讨论法律原则的概念基础[^hutchinson2012defining-e3]，靠的是论证，不是形式化证明 `[本项目分析]`。
-- **比较法研究**：比较不同法律体系的规则和做法[^hutchinson2012defining-e21]。引用外国法律要按它本国的方式[^goudkamp2026oscola-e6]，并留意翻译和制度背景的差别 `[本项目分析]`。
-- **法律史**：方法接近历史学 `[本项目分析]`，见[档案研究](../../06_methods/archival_research.md)和[历史与考古学科概况](../history-archaeology/README.md)。
+- **理论和法哲学研究**：讨论法律原则的概念基础[^hutchinson2012defining-e3]，靠的是论证，不是形式化证明 `[本项目分析]`。几种主要路径各按什么标准评判，见上文[常用套路与证据标准](#常用套路与证据标准)。
+- **比较法研究**：比较不同法律体系的规则和做法[^hutchinson2012defining-e21]。引用外国法律要按它本国的方式[^goudkamp2026oscola-e6]，并留意翻译和制度背景的差别 `[本项目分析]`。Van Hoecke 的说法是，比较法研究者要做专业人士，而不是做游客[^vanhoecke2015methodology-e10]；他的具体主张见上文表后的说明。
+- **法律史**：方法接近历史学 `[本项目分析]`，评判标准见上文表后的说明，具体做法见[档案研究](../../06_methods/archival_research.md)和[历史与考古学科概况](../history-archaeology/README.md)。
 - **实证法学研究**：统计判决、编码判例，见[数据科学研究](../../06_methods/data_science.md)；访谈法官、律师、当事人，见[访谈研究](../../06_methods/interview_study.md)。访谈时要注意：受访的法官、资深律师人少、容易被认出 `[本项目分析]`，还有保密的法律边界（见上文）。
 - **案例研究**：注意，法学里的"案例"（case）通常指法院的案件，而方法篇里的[案例研究](../../06_methods/case_study.md)指在真实环境里深入研究少数对象（如一个机构、一个项目）的方法。分析几个判决不等于做了一项案例研究 `[本项目分析]`。
 - **系统综述**：方法篇里的[综述研究](../../06_methods/review_study.md)讲的是按方案检索、筛选文献。规范研究里的文献综述只是第一步[^hutchinson2012defining-e8]，不能代替对一手法律资料的分析。
@@ -294,3 +310,24 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 [^hutchinson2012defining-e31]: Hutchinson & Duncan 2012，§III B，第 114 页。[证据](../../../sources/notes/hutchinson2012defining.md#e31)
 [^hutchinson2015doctrinal-e10]: Hutchinson 2015，§3.1。[证据](../../../sources/notes/hutchinson2015doctrinal.md#e10)
 [^hutchinson2015doctrinal-e14]: Hutchinson 2015，§3.1。[证据](../../../sources/notes/hutchinson2015doctrinal.md#e14)
+[^vanhoecke2015methodology-e1]: Van Hoecke 2015，§4 How does one compare?。[证据](../../../sources/notes/vanhoecke2015methodology.md#e1)
+[^vanhoecke2015methodology-e2]: Van Hoecke 2015，§7 Conclusion。[证据](../../../sources/notes/vanhoecke2015methodology.md#e2)
+[^vanhoecke2015methodology-e3]: Van Hoecke 2015，§2。[证据](../../../sources/notes/vanhoecke2015methodology.md#e3)
+[^vanhoecke2015methodology-e4]: Van Hoecke 2015，§2。[证据](../../../sources/notes/vanhoecke2015methodology.md#e4)
+[^vanhoecke2015methodology-e5]: Van Hoecke 2015，§2。[证据](../../../sources/notes/vanhoecke2015methodology.md#e5)
+[^vanhoecke2015methodology-e6]: Van Hoecke 2015，§3 What has to be compared?。[证据](../../../sources/notes/vanhoecke2015methodology.md#e6)
+[^vanhoecke2015methodology-e7]: Van Hoecke 2015，§6 Tertium comparationis。[证据](../../../sources/notes/vanhoecke2015methodology.md#e7)
+[^vanhoecke2015methodology-e8]: Van Hoecke 2015，§7 Conclusion。[证据](../../../sources/notes/vanhoecke2015methodology.md#e8)
+[^vanhoecke2015methodology-e9]: Van Hoecke 2015，§4.5 The historical method。[证据](../../../sources/notes/vanhoecke2015methodology.md#e9)
+[^vanhoecke2015methodology-e10]: Van Hoecke 2015，§4 How does one compare?。[证据](../../../sources/notes/vanhoecke2015methodology.md#e10)
+[^vanhoecke2015methodology-e11]: Van Hoecke 2015，§7 Conclusion。[证据](../../../sources/notes/vanhoecke2015methodology.md#e11)
+[^duve2014european-e1]: Duve 2014，第 56 页。[证据](../../../sources/notes/duve2014european.md#e1)
+[^duve2014european-e2]: Duve 2014，第 56–57 页。[证据](../../../sources/notes/duve2014european.md#e2)
+[^duve2014european-e3]: Duve 2014，第 60 页。[证据](../../../sources/notes/duve2014european.md#e3)
+[^atiq2025nature-e1]: Atiq & Marmor 2025（斯坦福哲学百科），§2。[证据](../../../sources/notes/atiq2025nature.md#e1)
+[^atiq2025nature-e2]: Atiq & Marmor 2025，§2.1。[证据](../../../sources/notes/atiq2025nature.md#e2)
+[^atiq2025nature-e3]: Atiq & Marmor 2025，§2.1。[证据](../../../sources/notes/atiq2025nature.md#e3)
+[^atiq2025nature-e4]: Atiq & Marmor 2025，§2.1。[证据](../../../sources/notes/atiq2025nature.md#e4)
+[^atiq2025nature-e5]: Atiq & Marmor 2025，§2.2。[证据](../../../sources/notes/atiq2025nature.md#e5)
+[^atiq2025nature-e6]: Atiq & Marmor 2025，§2.5。[证据](../../../sources/notes/atiq2025nature.md#e6)
+[^atiq2025nature-e7]: Atiq & Marmor 2025，§2.5。[证据](../../../sources/notes/atiq2025nature.md#e7)

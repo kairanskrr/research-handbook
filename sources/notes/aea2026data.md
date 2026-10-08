@@ -62,3 +62,9 @@
 - 位置：附属政策 Policy for Papers Conducting Experiments and Collecting Primary Data，Original Instructions
 - 原文："The original instructions for the experiment or survey should be summarized in the submitted manuscript as part of the discussion of the experimental or survey design and should be provided in full as an appendix at the time of submission."
 - 要点：做实验或问卷的论文，投稿时就要提交完整的实验说明或问卷原文作为附录。
+
+### E11
+
+- 位置：Code for Analysis (DCAS #8)
+- 原文："Programs that produce computational results such as estimation, simulation, model solution, and visualization must be included. Ideally, these programs reproduce all the computational exhibits in the paper and approved online appendices with minimal human intervention."
+- 要点：产生计算结果的程序（估计、模拟、模型求解、作图）都必须放进复现包；理想情况下，这些程序几乎不用人工干预就能复现论文和附录里所有计算出来的图表。

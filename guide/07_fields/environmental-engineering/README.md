@@ -186,13 +186,14 @@
 - [野外观测研究](../../06_methods/field_study.md)、[纵向研究](../../06_methods/longitudinal_study.md)：现场监测和长期重复监测同一地点。按数据质量目标做计划，配齐质量控制样品（见上文）。
 - [定量仿真](../../06_methods/simulation_study.md)：水质模型、大气扩散模型、地下水迁移模型。要写清是应用已有模型还是开发新模型[^epa2002qapp-e5]。
 - [数据科学](../../06_methods/data_science.md)：分析已有的监测数据。先查数据的质量保证和质量控制信息[^epa2006dqo-e10]，并正确处理低于报告限的数据[^helsel2020statistical-e2]。
+- [综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)：系统汇总已有研究。环境领域的系统综述可参照环境证据协作组的指南：它不受理没有事先注册方案的综述[^cee2022guidelines-e1]，详见下一节表中"综合"一行。
 - [案例研究](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md)、[问卷调查](../../06_methods/questionnaire_survey.md)：研究污染事件、社区经历和公众认知时会用到。涉及人时要经过伦理委员会批准，ES&T 要求在论文里写明[^estauthorguidelines-e18]。
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出环境工程常用的四种套路，以及每种通常靠什么证据、按什么标准评判。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出本文资料能支持的六种套路，以及每种通常靠什么证据、按什么标准评判。
 
-表的分组和"在环境工程里的样子"一栏是本项目的归纳；标准多出自美国环境保护署的指南和 ES&T 一本期刊的作者指南，只代表脚注里的出处。解释因果、综合等其他套路在本学科怎样用，本文资料未涉及 `[本项目分析]`。
+表的分组和"在环境工程里的样子"一栏是本项目的归纳；标准多出自美国环境保护署的指南和 ES&T 一本期刊的作者指南，只代表脚注里的出处。要注意两点：解释因果一行依据的 CADDIS（Causal Analysis/Diagnosis Decision Information System，因果分析/诊断决策信息系统）是美国环境保护署的在线系统，主要针对溪流生态系统[^epa2026caddis-e1]；综合一行依据的是环境证据协作组 2022 年的指南，面向整个环境管理领域；两者都不是专为环境工程写的。证明、解读论证等其他套路在本学科怎样用，本文资料未涉及 `[本项目分析]`。
 
 | 套路 | 在环境工程里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
@@ -200,6 +201,8 @@
 | [观察描述](../../05_research-strategies/observe_describe.md) | 现场监测，例如估计某种污染物的平均浓度[^epa2006dqo-e2] | 采样前按[数据质量目标流程](#采样前先做计划epa-的数据质量目标流程)做计划[^epa2006dqo-e1]；采样误差一般远大于测量误差[^epa2006dqo-e7]；ES&T 要求监测研究的结论能适用于采样地点和时间以外[^estauthorguidelines-e7] | [野外观测研究](../../06_methods/field_study.md)、[纵向研究](../../06_methods/longitudinal_study.md)、[数据科学](../../06_methods/data_science.md) |
 | [测量](../../05_research-strategies/measure.md) | 开发新的测量技术；测定方法检出限 | ES&T 要求新测量技术尽可能用真实环境样品验证[^estauthorguidelines-e3]；方法检出限要包含样品处理的全部步骤[^epa2016mdl-e3]，分至少 3 批测定[^epa2016mdl-e4] | [实验测量研究](../../06_methods/experimental_measurement.md)、上文[检出限](#检出限和测不到的数据) |
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 用生命周期评价比较几种产品或方案的总环境影响[^epa2006lca-e4] | 按同一功能比较[^epa2006lca-e8]；写明假设[^epa2006lca-e9]；判断哪个方案更好涉及主观判断[^epa2006lca-e10] | 上文[生命周期评价](#生命周期评价) |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 查明某个具体地点出问题的原因，例如某段河流里的生物受损是不是某股排放出水造成的[^epa2026caddis-e2]。CADDIS 专门处理这类"这个地点为什么出问题"的个案[^epa2026caddis-e3] | 按 CADDIS 的做法：一开始列出几个候选原因，最后相互比较[^epa2026caddis-e6]；现场观察、区域监测、实验室实验等相关证据都要考虑[^epa2026caddis-e4]，证据种类和数量越多，越不容易被一项有问题的数据误导[^epa2026caddis-e9]；排除比确认更有把握，所以先尽量排除，例如效应出现在排放源上游，就能排除这个源[^epa2026caddis-e5]；本地点的数据、不止一个关联、把直接原因和效应紧密连起来的证据，得分最高[^epa2026caddis-e8]；每个候选原因最后归为已排除、已诊断、可能、不太可能或不确定，证据不够时也可能找不出原因[^epa2026caddis-e7] | 本学科没有单独的做法页；数据来自[野外观测研究](../../06_methods/field_study.md)、[数据科学](../../06_methods/data_science.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 用**系统综述**（按事先写好的方案检索、筛选、评判、汇总已有研究）回答一个问题，例如南非一个团队 2026 年发表的方案：汇总用一类可降解泡沫材料去除水中重金属的效果[^mokoena2026adsorption-e1]，纳入实验室和中试研究[^mokoena2026adsorption-e2] | 环境证据协作组（Collaboration for Environmental Evidence，CEE）2022 年的指南（5.1 版）：不受理没有事先注册方案的综述，也不接受事后补写的方案[^cee2022guidelines-e1]；做法要报告到别人能检验结果，推荐用 ROSES 清单（RepOrting standards for Systematic Evidence Syntheses，系统证据综合报告标准）[^cee2022guidelines-e2]；结论里可以报告纳入研究的质量、相关性、效应大小、效应是否一致[^cee2022guidelines-e5]，并指出证据在哪里可能不适用[^cee2022guidelines-e6]；不把"没有证据表明有效应"当成"有证据表明没有效应"[^cee2022guidelines-e3]。上面那份方案用一份清单评判每项研究的内部效度、外部效度和报告透明度[^mokoena2026adsorption-e3]，例如是否考虑了水中的竞争离子、复杂的水体基质等干扰因素[^mokoena2026adsorption-e4] | [综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md) |
 
 怎么用这张表 `[本项目分析]`：先按核心主张找到你的套路，再读对应的套路页和做法页。很多课题是混合的，例如开发一种新吸附剂（构建改进），同时为它建一套检测方法（测量）；这时按核心主张定主要套路，其他部分按各自的标准要求。
 
@@ -325,3 +328,21 @@
 [^roy2019citizen-e4]: Roy & Edwards 2019，Characteristics of quality citizen science projects。[证据](../../../sources/notes/roy2019citizen.md#e4)
 [^roy2019citizen-e5]: Roy & Edwards 2019，Persistent attacks on merited expertise。[证据](../../../sources/notes/roy2019citizen.md#e5)
 [^roy2019citizen-e6]: Roy & Edwards 2019，Abstract。[证据](../../../sources/notes/roy2019citizen.md#e6)
+[^epa2026caddis-e1]: 美国环境保护署 CADDIS 网站，Basic Information About CADDIS。[证据](../../../sources/notes/epa2026caddis.md#e1)
+[^epa2026caddis-e2]: 美国环境保护署 CADDIS 网站，About Causal Assessment。[证据](../../../sources/notes/epa2026caddis.md#e2)
+[^epa2026caddis-e3]: 美国环境保护署 CADDIS 网站，About Causal Assessment。[证据](../../../sources/notes/epa2026caddis.md#e3)
+[^epa2026caddis-e4]: 美国环境保护署 CADDIS 网站，About Causal Assessment，Weighing of Evidence。[证据](../../../sources/notes/epa2026caddis.md#e4)
+[^epa2026caddis-e5]: 美国环境保护署 CADDIS 网站，About Causal Assessment，Rejection。[证据](../../../sources/notes/epa2026caddis.md#e5)
+[^epa2026caddis-e6]: 美国环境保护署 CADDIS 网站，Step 5. Identify Probable Causes。[证据](../../../sources/notes/epa2026caddis.md#e6)
+[^epa2026caddis-e7]: 美国环境保护署 CADDIS 网站，Step 5. Identify Probable Causes。[证据](../../../sources/notes/epa2026caddis.md#e7)
+[^epa2026caddis-e8]: 美国环境保护署 CADDIS 网站，About Scoring the Evidence。[证据](../../../sources/notes/epa2026caddis.md#e8)
+[^epa2026caddis-e9]: 美国环境保护署 CADDIS 网站，Step 5. Identify Probable Causes。[证据](../../../sources/notes/epa2026caddis.md#e9)
+[^cee2022guidelines-e1]: 环境证据协作组 2022（5.1 版），§1.1。[证据](../../../sources/notes/cee2022guidelines.md#e1)
+[^cee2022guidelines-e2]: 环境证据协作组 2022（5.1 版），§9.2。[证据](../../../sources/notes/cee2022guidelines.md#e2)
+[^cee2022guidelines-e3]: 环境证据协作组 2022（5.1 版），§9.1。[证据](../../../sources/notes/cee2022guidelines.md#e3)
+[^cee2022guidelines-e5]: 环境证据协作组 2022（5.1 版），§9.3。[证据](../../../sources/notes/cee2022guidelines.md#e5)
+[^cee2022guidelines-e6]: 环境证据协作组 2022（5.1 版），§9.3.1。[证据](../../../sources/notes/cee2022guidelines.md#e6)
+[^mokoena2026adsorption-e1]: Mokoena 等 2026，Methods。[证据](../../../sources/notes/mokoena2026adsorption.md#e1)
+[^mokoena2026adsorption-e2]: Mokoena 等 2026，Searching for articles。[证据](../../../sources/notes/mokoena2026adsorption.md#e2)
+[^mokoena2026adsorption-e3]: Mokoena 等 2026，Study validity assessment。[证据](../../../sources/notes/mokoena2026adsorption.md#e3)
+[^mokoena2026adsorption-e4]: Mokoena 等 2026，Study validity assessment。[证据](../../../sources/notes/mokoena2026adsorption.md#e4)

@@ -8,7 +8,7 @@
 
 **适用范围** `[本项目分析]`：这是社会与经济地理学常用的研究方法，上面提到的公共卫生、生态学等方向也会用到。描述空间分布、检验"环境怎样影响个人"的通用逻辑，见研究套路里的[观察描述](../../../05_research-strategies/observe_describe.md)和[解释因果](../../../05_research-strategies/explain_causality.md)；选题、做计划、写作等各学科共通的步骤，见主线各章，例如[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md)和[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md)。
 
-**常服务的套路**：套路页暂未列出。
+**常服务的套路**：[观察描述](../../../05_research-strategies/observe_describe.md)（描述现象在空间上怎样分布、检验是否成团）、[解释因果](../../../05_research-strategies/explain_causality.md)（研究环境或邻近地区怎样影响结果）`[本项目分析]`。依据：用莫兰指数（检验空间上是否成团的统计量，见第 6 步）检验时，p 值足够小，才能拒绝"这张地图的格局是随机的"[^rey2023geographic-e15]，这是在检验分布；研究社会和物理环境对健康的影响，是关心环境的作用[^kwan2012uncertain-e4]。
 
 **读完本文，你应该能：**
 
@@ -217,6 +217,7 @@
 [^nust2021practical-e10]: Nüst & Pebesma 2021（EarthArXiv 作者接受稿），Challenges。[证据](../../../../sources/notes/nust2021practical.md#e10)
 [^kwan2018limits-e1]: Kwan 2018，第 1486 页。[证据](../../../../sources/notes/kwan2018limits.md#e1)
 [^kwan2018limits-e2]: Kwan 2018，第 1486 页。[证据](../../../../sources/notes/kwan2018limits.md#e2)
+[^kwan2012uncertain-e4]: Kwan 2012，第 959 页。[证据](../../../../sources/notes/kwan2012uncertain.md#e4)
 [^kwan2012uncertain-e6]: Kwan 2012，第 963 页。[证据](../../../../sources/notes/kwan2012uncertain.md#e6)
 [^kwan2012uncertain-e7]: Kwan 2012，第 963–964 页。[证据](../../../../sources/notes/kwan2012uncertain.md#e7)
 [^kwan2012uncertain-e9]: Kwan 2012，第 966 页注 2。[证据](../../../../sources/notes/kwan2012uncertain.md#e9)

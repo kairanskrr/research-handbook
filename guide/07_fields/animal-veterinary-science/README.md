@@ -128,14 +128,15 @@
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的两种；表的分组和"在本学科里的样子"一栏是本项目的归纳 `[本项目分析]`。系统综述等其他套路的证据标准，本文资料未涉及。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的三种；表的分组和"在本学科里的样子"一栏是本项目的归纳，每条标准只代表脚注里那份资料 `[本项目分析]`。测量、构建改进等其他套路的证据标准，本文资料未涉及。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [解释因果](../../05_research-strategies/explain_causality.md) | 饲养试验、营养试验：把动物或栏随机分到不同日粮或处理；攻毒试验：在研究设施里人为让动物感染病原，检验干预效果[^oconnor2010reflect-e8]；兽医临床试验：招募主人的宠物，类似人体临床试验[^bertout2021recommendations-e2] | 家畜试验按 REFLECT 报告[^oconnor2010reflect-e2]；写清处理分配在哪一层、结局在哪一层测[^oconnor2010reflect-e4]，分析要处理同栏动物不独立[^oconnor2010reflect-e6]；攻毒条件要考虑能否推广到现实[^oconnor2010reflect-e10] | [随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md) |
 | [观察描述](../../05_research-strategies/observe_describe.md) | 兽医流行病学：估计患病率或发病率、看它在时间和空间上的分布，也找风险因素、评价诊断试验[^sargeant2016strobevet-e2]；很多研究不严格属于队列、病例对照、横断面三种经典设计[^sargeant2016strobevet-e5] | 按 STROBE-Vet 报告[^sargeant2016strobevet-e1]；主人或管理者和动物两类参与者都要写[^sargeant2016strobevet-e6]；设计、抽样、分析都要处理成群饲养带来的不独立[^sargeant2016strobevet-e7]；检验假设时说明设想的因果结构，强烈鼓励画因果图[^sargeant2016strobevet-e9] | [观察性流行病学研究](../../06_methods/observational_epidemiology.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 兽医系统综述：汇总已有研究，回答四类问题之一：描述性问题（如某病的患病率）、干预问题、暴露或病因问题、诊断试验准确性[^sargeant2020scoping-e3] | 本行出自加拿大、美国两所兽医学院学者 2020 年的一篇方法综述，不是学会规定 `[本项目分析]`。和通用做法一样：事先写方案[^sargeant2020scoping-e1]，两人独立筛选和提取数据[^sargeant2020scoping-e5][^sargeant2020scoping-e6]，按 PRISMA（系统综述和元分析优先报告条目）报告[^sargeant2020scoping-e9]，细节见元分析页。兽医学要多注意三点：方案除了 PROSPERO（国际前瞻性系统综述登记平台），还可公开在 SYREAF（Systematic Reviews for Animals and Food，动物与食品系统综述）网站上[^sargeant2020scoping-e2]；兽医学缺少人医那样的检索过滤器，要查多个数据库[^sargeant2020scoping-e4]；一项研究发现，猪和牛疫苗试验的会议摘要后来正式发表的不到 10%，要考虑发表偏倚[^sargeant2020scoping-e8]。偏倚风险高的研究也不剔除，除非事先写进了纳入标准[^sargeant2020scoping-e7] | [系统综述与元分析](../../06_methods/meta_analysis.md)、[综述研究](../../06_methods/review_study.md) |
 
-怎么用这张表 `[本项目分析]`：两种套路共同的难点是实验单位。不管做试验还是做观察，先按[上文](#实验单位是一头动物还是一栏动物)画出"动物—栏—圈舍—农场"的结构，再定样本量和分析方法。
+怎么用这张表 `[本项目分析]`：解释因果和观察描述共同的难点是实验单位。不管做试验还是做观察，先按[上文](#实验单位是一头动物还是一栏动物)画出"动物—栏—圈舍—农场"的结构，再定样本量和分析方法。
 
 ## 本学科常用的研究方法
 
@@ -222,6 +223,15 @@
 [^oconnor2010reflect-e14]: O'Connor 等人 2010（REFLECT），首页脚注。[证据](../../../sources/notes/oconnor2010reflect.md#e14)
 [^oconnor2010reflect-e15]: O'Connor 等人 2010（REFLECT），Results。[证据](../../../sources/notes/oconnor2010reflect.md#e15)
 [^oconnor2010reflect-e16]: O'Connor 等人 2010（REFLECT），Table 2，Item 3。[证据](../../../sources/notes/oconnor2010reflect.md#e16)
+[^sargeant2020scoping-e1]: Sargeant & O'Connor 2020，Systematic Reviews。[证据](../../../sources/notes/sargeant2020scoping.md#e1)
+[^sargeant2020scoping-e2]: Sargeant & O'Connor 2020，Systematic Reviews。[证据](../../../sources/notes/sargeant2020scoping.md#e2)
+[^sargeant2020scoping-e3]: Sargeant & O'Connor 2020，Define the review question。[证据](../../../sources/notes/sargeant2020scoping.md#e3)
+[^sargeant2020scoping-e4]: Sargeant & O'Connor 2020，Conduct a comprehensive search for studies。[证据](../../../sources/notes/sargeant2020scoping.md#e4)
+[^sargeant2020scoping-e5]: Sargeant & O'Connor 2020，Selecting relevant studies。[证据](../../../sources/notes/sargeant2020scoping.md#e5)
+[^sargeant2020scoping-e6]: Sargeant & O'Connor 2020，Collect data from relevant studies。[证据](../../../sources/notes/sargeant2020scoping.md#e6)
+[^sargeant2020scoping-e7]: Sargeant & O'Connor 2020，Assess risk of bias in relevant studies。[证据](../../../sources/notes/sargeant2020scoping.md#e7)
+[^sargeant2020scoping-e8]: Sargeant & O'Connor 2020，Synthesize the results。[证据](../../../sources/notes/sargeant2020scoping.md#e8)
+[^sargeant2020scoping-e9]: Sargeant & O'Connor 2020，Present the results。[证据](../../../sources/notes/sargeant2020scoping.md#e9)
 [^page2016conduct-e1]: Page 等人 2016，Introduction。[证据](../../../sources/notes/page2016conduct.md#e1)
 [^page2016conduct-e2]: Page 等人 2016，Introduction。[证据](../../../sources/notes/page2016conduct.md#e2)
 [^page2016conduct-e3]: Page 等人 2016，Table 1。[证据](../../../sources/notes/page2016conduct.md#e3)

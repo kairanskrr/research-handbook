@@ -132,17 +132,26 @@ LSA 1992 年那份声明的起因，是一些会员担心美国联邦的人类�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的两种。表的归类和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料（多为美国的学会和大学讲义）`[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的三种。表的归类和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料（多为美国的学会、期刊和大学讲义，以及几位学者的方法学文章），不是整个学科的通则 `[本项目分析]`。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [解读论证](../../05_research-strategies/interpret_argue.md) | 文学研究：先观察文本里的事实和细节，再解释这些观察[^kain1998closereading-e1][^kain1998closereading-e2]；研究手稿和版本时，还关心文本怎样形成 | 证据是文本的语言、意象、句法和形式[^yorkclosereading-e1]。阐释没有唯一答案，但有高下之分[^uncwritinglit-e2]：避开读者自己就能得出的结论[^uncwritinglit-e4]，用推理说明证据怎样支撑论点[^uncwritinglit-e3]，引文要有分析[^uncwritinglit-e8]，论点答得出"那又怎样"[^uncwritinglit-e9]。学术版本的基本任务是给出可靠的文本[^mlacseguidelines-e1] | [文本细读与文学论证](practices/close_reading.md)、[档案研究](../../06_methods/archival_research.md) |
 | [观察描述](../../05_research-strategies/observe_describe.md) | 语言学：记录一种语言，即创建、注释、保存和传播它的透明记录[^good2018scope-e1]；以及描写它的结构。Himmelmann 主张把记录和描写这两种工作分开[^riesberg2018adequacy-e2] | 写清数据在什么条件下收集[^berezkroeker2018reproducible-e6]；例句能定位到页码、语料行号或录音时间码[^berezkroeker2018reproducible-e7]；语感判断要明说[^berezkroeker2018reproducible-e9]；数据存进承诺长期保存和开放的档案馆[^berezkroeker2018reproducible-e10] | [语言记录与语言学田野调查](practices/language_documentation.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md)（语料库研究） | 语言学：从大量真实语言材料里统计某种形式出现多少、在什么条件下出现 `[本项目分析]`；语料库要转成机器可读、可检索的形式[^rice2018corpora-e1] | 写数据可得性声明，注明并引用数据来源，共享分析代码；详见表后 | [数据科学](../../06_methods/data_science.md)、上文[语料库和实验](#语言学语料库和实验) |
+| [解释因果](../../05_research-strategies/explain_causality.md)（语言实验） | 语音实验、心理语言学实验：改变一个条件（例如句子结构），看阅读时间、发音等是否跟着变 `[本项目分析]` | 别人能凭文章和补充材料重做[^lsalanguage2026transparency-e6]；事先定好样本量；探索和验证分开报告；详见表后 | [对照实验](../../06_methods/controlled_experiment.md)、[心理学篇](../psychology/README.md#一场可重复性危机改变了这个领域) |
+
+"语料库研究"和"语言实验"两行的说明。下面的标准来自一本期刊和几位学者的文章，不是整个语言学的通则，投稿时以目标期刊的要求为准：
+
+- **期刊要求。** 美国语言学会（LSA）的旗舰期刊 *Language*[^lsalanguage2026transparency-e8]，在本文 2026 年 10 月读取的作者说明里要求：每篇稿件都有数据可得性声明，说明读者在哪里、怎样拿到支撑研究的材料[^lsalanguage2026transparency-e1]；因伦理或法律原因不能公开的，在声明里说明[^lsalanguage2026transparency-e3]；数据来源要注明，公开的数据要正式引用[^lsalanguage2026transparency-e5]；强烈鼓励共享分析代码和模型[^lsalanguage2026transparency-e4]；报告定量分析或实验结果的文章，要能让别人凭文章和补充材料重做[^lsalanguage2026transparency-e6]。报告语感判断（例如某个句子能不能说）的作者，审稿人或编辑质疑时，要准备进一步拿出依据[^lsalanguage2026transparency-e7]。
+- **小语料库也有用。** Rice 认为，小的、没有标注的语料库也能揭示很多规律[^rice2018corpora-e2]。
+- **处理细节会影响复现。** Wieling 等人 2018 年调查了计算语言学学会（Association for Computational Linguistics）2011 年和 2016 年年会的论文，挑出 10 篇，用作者给的数据和代码复现，只有 1 篇结果完全一致[^wieling2018reproducibility-e1]。他们转述 Fokkens 等人的研究说，预处理、实验设置、软件版本等细节都会影响能否精确复现[^wieling2018reproducibility-e2]。这是计算语言学的调查，用到一般的语料库研究是本项目的推断 `[本项目分析]`。
+- **实验的统计。** Vasishth 和 Nicenboim 2016 年写过一篇面向语言学的统计方法文章（本文读的是作者放在 arXiv 上的预印本）。他们建议：检查模型假设，尽量重复结果[^vasishth2016statistical-e1]；事先按统计功效定好样本量，不要边做边看、显著了就停[^vasishth2016statistical-e3]。统计功效指效应真实存在时，研究能把它查出来的概率 `[本项目分析]`。功效不够时，p 值大于 0.05 只能说"没找到效应"[^vasishth2016statistical-e2]。探索性分析可以做，但要标明，和主要分析分开报告[^vasishth2016statistical-e4]。语音学里"测了几个参数就报告几个"的建议，见上文[语料库和实验](#语言学语料库和实验)。
 
 怎么用这张表 `[本项目分析]`：
 
 - **先按核心主张找到你的套路**，再读对应的套路页和做法页。横跨两边的课题（例如用语料库研究文学风格），解读部分按文学研究的标准，数据部分按语言学的标准。
-- **语料库研究和语言实验**属于哪种套路，看核心主张；它们按套路的证据标准，本文资料未涉及。做实验时，至少分清探索和验证（见上文[语料库和实验](#语言学语料库和实验)）。
+- **语料库研究和语言实验也按核心主张归套路。** 主张"某种用法在什么条件下多、什么条件下少"，是观察描述；主张"改变某个条件造成了某种差别"，是解释因果，要按实验的标准做。具体做法见上文[语料库和实验](#语言学语料库和实验)和[数据引用和可复现](#语言学数据引用和可复现)。
 
 ---
 
@@ -156,7 +165,7 @@ LSA 1992 年那份声明的起因，是一些会员担心美国联邦的人类�
 - [档案研究](../../06_methods/archival_research.md)：查手稿、书信和版本
 - [口述历史](../../06_methods/oral_history.md)：授权和存档的做法和语言记录相近
 - [综述研究](../../06_methods/review_study.md)：梳理前人怎样阐释一个作家或问题时，可借"写清检索和取舍"的思路；文学研究的综述更重给自己的论点定位
-- [访谈研究](../../06_methods/interview_study.md)、[数据科学](../../06_methods/data_science.md)、[对照实验](../../06_methods/controlled_experiment.md)：分别对应田野访谈、语料库的数据处理、语音和心理语言学实验。偏计算的方向（计算语言学）按[计算机篇](../computer-science/README.md)的惯例走
+- [访谈研究](../../06_methods/interview_study.md)、[数据科学](../../06_methods/data_science.md)、[对照实验](../../06_methods/controlled_experiment.md)：分别对应田野访谈、语料库的数据处理、语音和心理语言学实验，评判标准见上文[常用套路与证据标准](#常用套路与证据标准)。偏计算的方向（计算语言学）按[计算机篇](../computer-science/README.md)的惯例走
 
 ---
 
@@ -298,3 +307,18 @@ LSA 1992 年那份声明的起因，是一些会员担心美国联邦的人类�
 [^kain1998closereading-e2]: 哈佛学院写作中心讲义，How to Do a Close Reading，开头。[证据](../../../sources/notes/kain1998closereading.md#e2)
 [^good2018scope-e1]: Good 2018，摘要。[证据](../../../sources/notes/good2018scope.md#e1)
 [^riesberg2018adequacy-e2]: Riesberg 2018，第 152 页。[证据](../../../sources/notes/riesberg2018adequacy.md#e2)
+[^lsalanguage2026transparency-e1]: *Language*（美国语言学会期刊）作者说明，Research transparency，Data availability。[证据](../../../sources/notes/lsalanguage2026transparency.md#e1)
+[^lsalanguage2026transparency-e3]: *Language* 作者说明，Research transparency，Data availability。[证据](../../../sources/notes/lsalanguage2026transparency.md#e3)
+[^lsalanguage2026transparency-e4]: *Language* 作者说明，Research transparency，Code and model availability。[证据](../../../sources/notes/lsalanguage2026transparency.md#e4)
+[^lsalanguage2026transparency-e5]: *Language* 作者说明，Preparing your materials，Data requirements and referencing。[证据](../../../sources/notes/lsalanguage2026transparency.md#e5)
+[^lsalanguage2026transparency-e6]: *Language* 作者说明，Preparing your materials，Large-scale empirical or experimental studies。[证据](../../../sources/notes/lsalanguage2026transparency.md#e6)
+[^lsalanguage2026transparency-e7]: *Language* 作者说明，Preparing your materials，Articles reporting judgements。[证据](../../../sources/notes/lsalanguage2026transparency.md#e7)
+[^lsalanguage2026transparency-e8]: 美国语言学会网站，Language 介绍页。[证据](../../../sources/notes/lsalanguage2026transparency.md#e8)
+[^vasishth2016statistical-e1]: Vasishth & Nicenboim 2016（arXiv 预印本），摘要。[证据](../../../sources/notes/vasishth2016statistical.md#e1)
+[^vasishth2016statistical-e2]: Vasishth & Nicenboim 2016（arXiv 预印本），§3.2。[证据](../../../sources/notes/vasishth2016statistical.md#e2)
+[^vasishth2016statistical-e3]: Vasishth & Nicenboim 2016（arXiv 预印本），§5。[证据](../../../sources/notes/vasishth2016statistical.md#e3)
+[^vasishth2016statistical-e4]: Vasishth & Nicenboim 2016（arXiv 预印本），§6。[证据](../../../sources/notes/vasishth2016statistical.md#e4)
+[^wieling2018reproducibility-e1]: Wieling 等 2018，摘要。[证据](../../../sources/notes/wieling2018reproducibility.md#e1)
+[^wieling2018reproducibility-e2]: Wieling 等 2018，§1（转述 Fokkens 等 2013）。[证据](../../../sources/notes/wieling2018reproducibility.md#e2)
+[^rice2018corpora-e1]: Rice 2018，§4，第 163 页。[证据](../../../sources/notes/rice2018corpora.md#e1)
+[^rice2018corpora-e2]: Rice 2018，§5，第 170 页。[证据](../../../sources/notes/rice2018corpora.md#e2)

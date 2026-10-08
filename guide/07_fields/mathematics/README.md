@@ -146,13 +146,19 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 |---|---|---|---|
 | [证明](../../05_research-strategies/prove.md) | 证明新定理、给出反例、改进已知结果。数学家除了想知道定理成立，还想理解它的证明[^thurston1994proof-e2] | 结果的可靠性主要来自数学家仔细、批判地思考其中的想法[^thurston1994proof-e11]；编辑只在合理确信正确时才接收[^ams2022ethical-e9]；论文要写得让人容易检查论证[^taowriting-e19] | [理论研究](../computer-science/practices/theoretical_research.md)（标〔数学通用〕的部分） |
 | [证明](../../05_research-strategies/prove.md)（借助计算） | 计算机辅助证明、实验数学 | 重要论断要严格验证，并完整公开计算细节[^stodden2013setting-e4]；符号计算最好用两个不同的软件互相核对[^stodden2013setting-e5] | [理论研究：机器检查](../computer-science/practices/theoretical_research.md#第-4-步检查自己的证明-数学通用机器检查部分为计算机) |
-| [构建改进](../../05_research-strategies/build_improve.md) | 应用数学里的数值方法和模型 | 要公开别人重复计算所需的数据和代码[^stodden2013setting-e1]；其他评判标准本文资料未涉及 | [定量仿真](../../06_methods/simulation_study.md) |
-| [综合](../../05_research-strategies/synthesize.md) | 综述与讲义（expository），把一个方向的思路讲清楚 | Thurston 主张数学家不只交流定义、定理和证明，也交流思考方式[^thurston1994proof-e15]；具体评判标准本文资料未涉及 | [综述研究](../../06_methods/review_study.md) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 应用数学里的数值方法和模型 | 常见两类证据：对算法收敛性、精度、稳定性的分析，加上展示方法确实有效的计算结果（两本期刊的说法见表后）；ICERM 报告建议公开别人重复计算所需的数据和代码[^stodden2013setting-e1] | [定量仿真](../../06_methods/simulation_study.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 综述与讲义（expository），把一个方向的思路讲清楚 | Thurston 主张数学家不只交流定义、定理和证明，也交流思考方式[^thurston1994proof-e15]；要写得让非本专题的数学家也能看懂（AMS 的例子见表后）；更细的评判标准本文资料未涉及 | [综述研究](../../06_methods/review_study.md) |
 
 怎么用这张表 `[本项目分析]`：
 
 - **数学论文以证明为主。** 其他几行多见于应用和计算方向；一篇论文同时有定理和数值实验时，按核心主张定主要套路。
 - **"够不够"看目标期刊和同行。** 数学没有统一的报告清单（见上文[本领域的规范](#本领域的规范)），审稿人主要检查论证是否正确。
+- **构建改进和综合两行参考的是具体期刊或学会的介绍网页**（引用的是 2024 年的存档），只说明这些期刊刊登什么，不是审稿标准，更不是整个数学界的统一规定。投稿前读目标期刊自己的说明。
+
+两行参考的网页说了什么：
+
+- **数值方法。** 美国工业与应用数学学会（Society for Industrial and Applied Mathematics，SIAM）的《SIAM 数值分析杂志》（SIAM Journal on Numerical Analysis，SINUM）刊登发展和分析数值方法的论文，主题包括对算法收敛性、精度、稳定性和计算复杂度的严格研究[^siamsinumabout-e1]，也包括展示算法表现和适用范围的计算结果[^siamsinumabout-e2]。同一学会的《SIAM 科学计算杂志》（SIAM Journal on Scientific Computing，SISC）在介绍里说，它的论文附有计算结果，展示所提技术的有效性[^siamsiscabout-e1]。
+- **综述与阐述。** AMS 的《美国数学会通报》（Bulletin）刊登介绍当代研究的阐述性文章，写法要让不是这个专题专家的数学家也能有所领悟[^amsbullabout-e1]。AMS 还设有 Steele 数学阐述奖，颁给一本书或一篇分量很重的综述或阐述性论文[^amssteeleexposition-e1]；可见学会把讲清楚一个方向当成值得表彰的成果 `[本项目分析]`。
 
 ---
 
@@ -262,6 +268,11 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 [^arxivmoderation-e2]: arXiv，Content Moderation，开头。[证据](../../../sources/notes/arxivmoderation.md#e2)
 [^arxivmoderation-e3]: arXiv，Content Moderation。[证据](../../../sources/notes/arxivmoderation.md#e3)
 [^stodden2013setting-e1]: Stodden 等 2013（ICERM 报告），Abstract。[证据](../../../sources/notes/stodden2013setting.md#e1)
+[^siamsinumabout-e1]: SIAM，SINUM 期刊介绍页（2024 年快照）。[证据](../../../sources/notes/siamsinumabout.md#e1)
+[^siamsinumabout-e2]: SIAM，SINUM 期刊介绍页（2024 年快照）。[证据](../../../sources/notes/siamsinumabout.md#e2)
+[^siamsiscabout-e1]: SIAM，SISC 期刊介绍页（2024 年快照）。[证据](../../../sources/notes/siamsiscabout.md#e1)
+[^amsbullabout-e1]: AMS，Bulletin 期刊介绍页（2024 年快照）。[证据](../../../sources/notes/amsbullabout.md#e1)
+[^amssteeleexposition-e1]: AMS，Steele 数学阐述奖页面（2024 年快照）。[证据](../../../sources/notes/amssteeleexposition.md#e1)
 [^stodden2013setting-e2]: Stodden 等 2013，Introduction。[证据](../../../sources/notes/stodden2013setting.md#e2)
 [^stodden2013setting-e3]: Stodden 等 2013，Introduction。[证据](../../../sources/notes/stodden2013setting.md#e3)
 [^stodden2013setting-e4]: Stodden 等 2013，Journals 一节。[证据](../../../sources/notes/stodden2013setting.md#e4)

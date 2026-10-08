@@ -92,3 +92,21 @@
 - 位置：§3.3.4 Data Strategies
 - 原文："Data strategy papers have lower control over human behavioral variables but have the potential for higher precision of system data. They may have potential for higher realism (if the data was collected from field sites) and higher generalizability (if the project data is from many projects)."
 - 要点：数据策略对人的行为变量控制较低，但系统数据的精度可能更高；数据来自真实现场时真实性可能较高，来自很多项目时推广性可能较高。
+
+### E16
+
+- 位置：摘要
+- 原文："We find that the majority of the 151 papers published in both venues in 2017 (ICSE and the EMSE journal) present research that the authors claim should benefit human stakeholders at some point in time, but most of these do not use research strategies that directly involve human participants."
+- 要点：ICSE 和 EMSE 期刊 2017 年的 151 篇论文中，多数声称研究最终会让人受益，但其中大部分没有采用直接让人参与的研究策略。
+
+### E17
+
+- 位置：摘要
+- 原文："we find that the majority of papers published at ICSE 2017 presented solutions (mostly technical) to address a software engineering problem, while" / "the majority of papers published in the EMSE journal in 2017 are descriptive contributions that present insights about software engineering problems or how technical solutions are used."
+- 要点：ICSE 2017 的多数论文提出（多为技术性的）解决方案；EMSE 期刊 2017 年的多数论文是描述性贡献，讲软件工程问题或技术方案的使用情况。
+
+### E18
+
+- 位置：§1 Introduction
+- 原文："The Empirical Software Engineering and Measurement (ESEM) conference and the Empirical Software Engineering (EMSE) journal also attract papers that consider social aspects as their focus is on empirical methods, many of which directly involve human participants."
+- 要点：ESEM 会议和 EMSE 期刊以实证方法为重点，也吸引研究社会层面的论文，其中很多方法直接让人参与。
