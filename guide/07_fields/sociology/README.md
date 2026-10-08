@@ -1,8 +1,8 @@
-# 社会学：领域概况
+# 社会学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲社会学的研究实际怎样运转：几种主要的研究路子（分析大型调查数据、自己做调查、民族志、深度访谈、比较历史研究），理论在研究中的位置，书和长篇期刊论文并存的发表方式，涉及人的研究的伦理，数据档案和再利用，以及定量和定性两边关于透明与复现的争论。各学科共通的做法（选题、研究设计、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲社会学的研究实际怎样运转：几种主要的研究路子（分析大型调查数据、自己做调查、民族志、深度访谈、比较历史研究），理论在研究中的位置，书和长篇期刊论文并存的发表方式，涉及人的研究的伦理，数据档案和再利用，以及定量和定性两边关于透明与复现的争论。各学科共通的做法（选题、研究设计、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 本文的资料主要来自美国社会学会和英国社会学会的伦理文件、美国的一个数据档案机构、两本社会学期刊的投稿政策、美国一所大学社会学系的终身教职要求，以及几位美国社会学者的综述和社论。写到某个学会或期刊的要求时，指的是**那一家、那个国家的做法**，不是全世界通行的规定；其他国家和单位以本地规定为准。另外，OECD 学科分类里的"5.9 其他社会科学"没有单独的学科篇：做这类交叉方向的读者，可以先读本文，再看相邻的[心理学](../psychology/README.md)、[经济学](../economics/README.md)和[历史与考古](../history-archaeology/README.md)学科篇。`[本项目分析]`
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 本领域研究怎样运转
+## 本学科研究怎样运转
 
 ### 几种主要的研究路子
 
@@ -25,9 +25,9 @@
 | 路子 | 大致怎么做 | 要特别当心什么 |
 |---|---|---|
 | 分析现成的大型调查数据（二次分析） | 用别人收集、公开存档的数据回答自己的问题。Freese 和 Peterson 指出，大多数定量社会科学研究用的数据不是作者自己收集的，而是作为研究共同体的大型公共资源建立起来的[^freese2017replication-e11] | 数据来源和分析之间隔着一长串环节，原始数据本身也会出错。有人质疑"美国人越来越孤立"的结论，结果发现提供数据的调查中心把 41 人错误编码成了"没有可倾诉的人"[^freese2017replication-e4] |
-| 自己设计并发放问卷 | 见下文"常见的研究类型" | 抽样和问题措辞；想比较不同年份时，题目措辞要保持不变（见下文"纵向研究"）`[本项目分析]` |
+| 自己设计并发放问卷 | 见下文"本学科常用的研究方法" | 抽样和问题措辞；想比较不同年份时，题目措辞要保持不变（见下文"纵向研究"）`[本项目分析]` |
 | 民族志 / 田野研究 | 长时间待在一个社区或组织里观察、参与、记笔记 `[本项目分析]` | 英国社会学会提醒，长期田野中参与者很容易忘记自己正在被研究[^bsa2017statement-e4]；Freese 和 Peterson 指出，田野笔记一旦离开记录者，就失去了大部分价值[^freese2017replication-e20] |
-| 深度访谈 | 和一批人做开放式的长访谈，从中归纳意义和机制 `[本项目分析]` | 访谈对象怎样选、何时停止，见下文"常见的研究类型" |
+| 深度访谈 | 和一批人做开放式的长访谈，从中归纳意义和机制 `[本项目分析]` | 访谈对象怎样选、何时停止，见下文"本学科常用的研究方法" |
 | 比较历史研究 | 比较少数国家、地区或时期，解释某种社会变化 `[本项目分析]` | 本文资料没有专门讲这种方法；在档案馆里工作的做法见[历史与考古篇](../history-archaeology/README.md#在档案馆里工作) |
 
 ### 理论放在什么位置
@@ -41,7 +41,7 @@
 
 ### 项目周期长，书和论文并存
 
-Freese 和 Peterson 提到，许多研究项目的周期很长，所以要留下让合作者和将来的自己都看得懂的记录[^freese2017replication-e8]。本文资料没有给出社会学项目周期的统计，做计划时请向导师和同组前辈了解本方向的情况。
+Freese 和 Peterson 提到，许多研究项目的周期很长，所以要留下让合作者和将来的自己都看得懂的记录[^freese2017replication-e8]。
 
 社会学同时出版专著和期刊论文 `[本项目分析]`。举一个具体单位的例子：美国卫斯理大学社会学系 2015 年修订的终身教职要求写明，主要成果可以是一本书，也可以是一系列论文[^wesleyan2015sociology-e1]；如果是书，该系通常期望它在声誉好的出版社出版或被接受出版[^wesleyan2015sociology-e2]。这只是一所美国大学、一个系的规定，不能推广到别的学校。本文资料没有统计社会学中书和论文各占多少；哪种形式更受重视，以你所在单位和导师的要求为准。
 
@@ -52,7 +52,6 @@ Freese 和 Peterson 提到，许多研究项目的周期很长，所以要留下
 - **篇幅。** ASR 论文上限 15,000 词，含正文、参考文献和脚注，不含图表[^asrsubmission-e2]。Sociological Science 则要求新见解与字数之比要高，不鼓励过多引用和不必要的文献综述[^sociologicalsciencepolicy-e10]。
 - **一稿一投，匿名评审（ASR 的规定）。** 稿件在 ASR 审稿期间又投别的期刊，美国社会学会视为不道德[^asrsubmission-e3]。ASR 采用匿名审稿，引用自己的工作要写成"Smith (1992) 认为"，不要写"我认为 (Smith 1992)"[^asrsubmission-e4]。曾被 ASR 拒绝的稿件，ASR 不再考虑[^asrsubmission-e7]。
 - **审稿可能多轮。** 这是 Sociological Science 对社会学期刊"主流模式"的描述：要多数（有时全体）审稿人赞成才能发表，导致多轮修改、审稿时间越来越长[^sociologicalsciencepolicy-e1]。这是一本刻意走不同路线的期刊自己的看法，不是统计结果。它自己的做法是：不要求"修改后重投"，投稿后 30 天内给出决定[^sociologicalsciencepolicy-e2]。
-- **引用格式（ASR）。** 正文里写"作者姓 年份"；直接引用或指向具体段落时加页码[^asrsubmission-e5]。
 
 ### 署名
 
@@ -67,19 +66,17 @@ Freese 和 Peterson 提到，许多研究项目的周期很长，所以要留下
 | 定量数据从哪来 | 定量社会科学多用别人收集、作为公共资源建立的大型数据[^freese2017replication-e11] | 心理学的实验和数据规范见[心理学篇](../psychology/README.md) |
 | 关心什么样的样本 | 更关注总体样本或历史案例，结果即使只适用于目标总体也有价值[^freese2017replication-e13] | 实验心理学常用有意不具代表性的样本，研究一般的心理过程[^freese2017replication-e13] |
 | 结果不一致时先问什么 | 在 Freese 和 Peterson 的印象里，社会学家先看两项研究的**样本**有何不同[^freese2017replication-e12] | 心理学家先看两项研究的**设计**有何不同[^freese2017replication-e12] |
-| 署名顺序 | 美国社会学会准则：默认按贡献[^asa2018code-e12] | 经济学惯例按姓氏字母顺序，见[经济学篇](../economics/README.md#署名按字母顺序) |
 | 发表形式 | 期刊论文和专著并存 `[本项目分析]`；例如 ASR 论文上限 15,000 词[^asrsubmission-e2] | 计算机多数方向以会议论文为主，见[计算机篇](../computer-science/README.md#会议是主要的发表渠道) |
-| 复现规范 | 各期刊、各方法差别大 `[本项目分析]`。例如 Sociological Science 强制要求定量论文交复现包，对访谈、参与观察类研究不作要求[^sociologicalsciencepolicy-e3][^sociologicalsciencepolicy-e5] | 美国经济学会（AEA）的期刊要求含实证的论文在接收前交数据和代码，见[经济学篇](../economics/README.md#数据和代码要能复现) |
 
 Freese 和 Peterson 写道，许多社会学者（包括他们自己）以社会学是"最不守规矩的社会科学"、因而富有创造力为傲[^freese2017replication-e21]。方法多样是社会学的特点，也意味着很难用一套统一规则约束所有研究 `[本项目分析]`。
 
 ---
 
-## 本领域的规范和报告标准
+## 本学科的规范和报告标准
 
 ### 伦理：美国社会学会准则与英国社会学会声明
 
-本节依据两份文件：美国社会学会（American Sociological Association，下称 ASA）2018 年的伦理准则，和英国社会学会（British Sociological Association，下称 BSA）2017 年的《伦理实践声明》。它们是两个国家的专业学会为本会会员写的规范，不是法律，也不替代你所在单位的伦理审查；不在美国、英国做研究的读者，可以把它们当作参考，具体以本国法规和本单位伦理委员会的要求为准 `[本项目分析]`。BSA 的声明也提醒，各国的数据保护、人权、版权和诽谤等法律会影响研究怎样开展、数据怎样存放和发表[^bsa2017statement-e13]。它还明说自己不提供解决伦理难题的"配方"，研究者要依据基本原则自己判断[^bsa2017statement-e1]。涉及人的研究的一般要求（伦理审查、知情同意、保护隐私）见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)，这里只讲社会学的特点。
+本节依据两份文件：美国社会学会（American Sociological Association，下称 ASA）2018 年的伦理准则，和英国社会学会（British Sociological Association，下称 BSA）2017 年的《伦理实践声明》。它们是学会为会员写的规范，不是法律，也不替代你所在单位的伦理审查；在别的国家，以本国法规和本单位伦理委员会为准 `[本项目分析]`。BSA 的声明也提醒，各国的数据保护、人权、版权和诽谤等法律会影响研究怎样开展、数据怎样存放和发表[^bsa2017statement-e13]。它还明说自己不提供解决伦理难题的"配方"，研究者要依据基本原则自己判断[^bsa2017statement-e1]。一般要求见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)，这里只讲社会学的特点。
 
 - **知情同意是一个过程，不是一次签字。** ASA 准则规定，没有本人或法定代理人的知情同意，不得让人参与研究（准则另有规定的除外）[^asa2018code-e1]。在追踪调查、民族志这类要反复接触参与者的研究里，要定期提醒他们同意了什么、随时可以退出，研究程序变了也要告诉他们[^asa2018code-e2]。BSA 声明同样说，田野研究中的同意可能要随时间重新协商[^bsa2017statement-e4]。
 - **通过"把关人"进入现场，仍要本人同意。** 经由机构负责人等把关人进入研究现场时，BSA 声明要求仍直接取得参与者本人的知情同意，同时顾及把关人的利益[^bsa2017statement-e5]。
@@ -129,7 +126,7 @@ Freese 和 Peterson 写道，许多社会学者（包括他们自己）以社会
 3. **可重复**：按原程序收集新数据，能不能再观察到；
 4. **可推广**：换方法、换场景，结论是否一致。
 
-他们指出，社会学的惯例大多是把"提供数据供核验"当作伦理问题，靠个别索取来处理。他们引用 Young 和 Horvath 2015 年的报告：研究生在课堂练习中尝试核验 53 项社会学结果，超过一半的作者拒绝提供数据或代码[^freese2017replication-e5]。他们还担心，发表的结果只是众多分析选择里"最好看"的那一种。原因可能是反复换分析，直到支持想要的假设（p-hacking）；或者看到结果后才提出假设，却写成事先提出（HARKing）[^freese2017replication-e9]。这两种做法的细节和对策，见[心理学篇](../psychology/README.md#问题出在哪p-hacking-和看到结果再提假设)。
+他们指出，社会学的惯例大多是把"提供数据供核验"当作伦理问题，靠个别索取来处理。他们引用 Young 和 Horvath 2015 年的报告：研究生在课堂练习中尝试核验 53 项社会学结果，超过一半的作者拒绝提供数据或代码[^freese2017replication-e5]。他们还担心，发表的结果只是众多分析选择里"最好看"的那一种，原因可能是反复换分析直到支持想要的假设，或看到结果后才提出假设却写成事先提出[^freese2017replication-e9]，细节和对策见[心理学篇](../psychology/README.md#问题出在哪p-hacking-和看到结果再提假设)。
 
 **之后的变化（只举一本期刊为例）**：Sociological Science 规定，自 2023 年 4 月 1 日之后收到的投稿起，用统计或计算方法的论文必须存放复现包（代码，以及法律和伦理允许时的数据）才能发表[^sociologicalsciencepolicy-e3]；数据不能公开的，必须在正文说明原因，代码仍须公开[^sociologicalsciencepolicy-e4]。它建议至少标明哪段代码对应哪张表、哪幅图[^sociologicalsciencepolicy-e7]，但不检查复现包能否真的复现[^sociologicalsciencepolicy-e9]。用自己收集的实验数据检验假设的论文，还须说明是否预注册[^sociologicalsciencepolicy-e8]。这些只是这一本期刊的规定；本文资料没有其他社会学期刊的情况，以目标期刊为准。
 
@@ -141,33 +138,39 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[过程追踪与比较案例研究](../../06_methods/process_tracing.md)、[档案研究](../../06_methods/archival_research.md)、[口述历史](../../06_methods/oral_history.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那本期刊、那个机构（多为美国）`[本项目分析]`。比较历史研究等其他路子常用什么套路，本文资料未涉及。
 
-社会学常用的研究方法，和研究方法里已有文档的对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体依据见脚注）：
+| 套路 | 在社会学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [观察描述](../../05_research-strategies/observe_describe.md)（定量） | 用总体样本描述一个人群和它的变化；结果即使只适用于目标总体也有价值[^freese2017replication-e13] | 说清结论在什么人群、时期、条件下成立[^freese2017replication-e14]；想测量变化，就别改变测量[^freese2017replication-e10]；引用数据集本身[^icpsrdata-e4]；Sociological Science 要求统计类论文交复现包[^sociologicalsciencepolicy-e3] | [问卷调查](../../06_methods/questionnaire_survey.md)、[纵向研究](../../06_methods/longitudinal_study.md)、[数据科学研究](../../06_methods/data_science.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md)（定性） | 民族志、深度访谈，关心动机和意义[^freese2017replication-e15] | "重复"也许不是评判定性研究的合适说法[^freese2017replication-e15]；有人主张逐个案例迭代，直到"饱和"[^freese2017replication-e19]；化名、改细节要权衡核查的可能[^freese2017replication-e16]；Sociological Science 不要求复现包，但鼓励共享访谈提纲、编码方案[^sociologicalsciencepolicy-e5] | [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md)、[扎根理论](../../06_methods/grounded_theory.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 用自己收集的实验数据检验假设[^sociologicalsciencepolicy-e8] | 写明是否预注册[^sociologicalsciencepolicy-e8]；换一种合理的分析设定，结论还在不在[^freese2017replication-e3]；不能只报"最好看"的设定[^freese2017replication-e9] | [对照实验](../../06_methods/controlled_experiment.md)、[过程追踪与比较案例研究](../../06_methods/process_tracing.md) |
 
-- **二次分析大型调查数据**：Freese 和 Peterson 说，大多数定量社会科学研究用的是别人收集的数据[^freese2017replication-e11]。数据清洗和分析的通用做法可参考[数据科学](../../06_methods/data_science.md)。差异：重点是理解数据怎样收集、怎样编码，并引用数据集本身[^icpsrdata-e4]。
-- **问卷调查**：见[问卷调查](../../06_methods/questionnaire_survey.md)。差异：和实验心理学相比，社会学更关注总体样本[^freese2017replication-e13]，抽样的基本概念见主线章节[说清为什么选这些样本](../../02_from-project-to-study/01_question-to-evidence.md#3-定下研究对象分析单元和总体)。
-- **纵向研究与追踪调查**：见[纵向研究](../../06_methods/longitudinal_study.md)。差异：Freese 和 Peterson 举例，美国综合社会调查（General Social Survey）年复一年保持核心题目措辞不变，遵循一句据说出自 Duncan 的格言："想测量变化，就别改变测量"[^freese2017replication-e10]；ASA 准则还要求在追踪调查中定期提醒参与者同意的内容[^asa2018code-e2]。
-- **深度访谈**：见[访谈研究](../../06_methods/interview_study.md)。差异：Freese 和 Peterson 介绍过一种主张：逐个案例迭代，每做完一个案例就把研究问题改得更精细，直到研究者主观上觉得"饱和"、再加地点也得不到多少新信息为止[^freese2017replication-e19]。
-- **民族志与参与观察**：见[案例研究与民族志](../../06_methods/case_study.md)。差异：长期田野中，同意要随时间重新协商[^bsa2017statement-e4]，化名和改细节的取舍更突出[^freese2017replication-e16]；网上田野的边界和伦理还没有定论[^jerolmack2024ethnography-e6]。
-- **扎根理论**：从访谈或田野资料中逐步归纳出理论。见[扎根理论](../../06_methods/grounded_theory.md)。
-- **混合方法**：例如先用调查数据找规律，再用访谈解释机制。见[混合方法](../../06_methods/mixed_methods.md)。
-- **调查实验和其他实验**：预注册等做法见[心理学篇](../psychology/README.md#之后改了什么)，实验设计见[对照实验](../../06_methods/controlled_experiment.md)。差异：以 Sociological Science 为例，检验假设的实验须说明是否预注册[^sociologicalsciencepolicy-e8]。
-- **比较历史研究**：没有对应文档；使用档案的方法见[历史与考古篇](../history-archaeology/README.md#在档案馆里工作)。
+怎么用这张表 `[本项目分析]`：先按核心主张找到你的套路，再读对应的套路页和方法篇。社会学方法多样（见[和其他学科不同的地方](#和其他学科不同的地方)），同一套路下，定量和定性的"够不够"标准不同，以目标期刊的要求为准。
+
+## 本学科常用的研究方法
+
+社会学没有本学科独有的方法篇。常用方法和跨学科方法篇的对应如下，另可参考[口述历史](../../06_methods/oral_history.md)（对应关系和差异说明是本项目的归纳 `[本项目分析]`，依据见脚注）：
+
+- **二次分析大型调查数据**：大多数定量社会科学研究用的是别人收集的数据[^freese2017replication-e11]。通用做法见[数据科学研究](../../06_methods/data_science.md)。差异：重点是理解数据怎样收集、怎样编码，并引用数据集本身[^icpsrdata-e4]。
+- **问卷调查**：见[问卷调查](../../06_methods/questionnaire_survey.md)。差异：社会学更关注总体样本[^freese2017replication-e13]，抽样的基本概念见[定下研究对象](../../02_from-project-to-study/01_question-to-evidence.md#3-定下研究对象分析单元和总体)。
+- **纵向研究与追踪调查**：见[纵向研究](../../06_methods/longitudinal_study.md)。差异：美国综合社会调查（General Social Survey）年复一年保持核心题目措辞不变[^freese2017replication-e10]；追踪调查中要定期提醒参与者同意了什么[^asa2018code-e2]。
+- **深度访谈、民族志与参与观察、扎根理论**：见[访谈研究](../../06_methods/interview_study.md)、[案例研究与民族志](../../06_methods/case_study.md)、[扎根理论](../../06_methods/grounded_theory.md)。差异：长期田野中，同意要随时间重新协商[^bsa2017statement-e4]，化名和改细节的取舍更突出[^freese2017replication-e16]；网上田野的边界和伦理还没有定论[^jerolmack2024ethnography-e6]。
+- **混合方法、调查实验**：见[混合方法](../../06_methods/mixed_methods.md)（例如先用调查数据找规律，再用访谈解释机制）、[对照实验](../../06_methods/controlled_experiment.md)；预注册见[心理学篇](../psychology/README.md#之后改了什么)。
+- **比较历史研究**：本文资料没有专门讲；可参考[过程追踪与比较案例研究](../../06_methods/process_tracing.md)和[档案研究](../../06_methods/archival_research.md)。
 
 ---
 
 ## 给新手的建议
 
-1. **先想清楚结论要推到多大范围。** 写下研究对象是谁、在什么时期和条件下；结论只说到这个范围为止[^freese2017replication-e14]。
-2. **用现成数据前，先读编码手册和数据收集过程。** 数据错误可能出在调查机构那一环[^freese2017replication-e4]；记下所用数据的版本或发布日期[^sociologicalsciencepolicy-e6]。
-3. **征求同意时就想好数据将来怎么处理。** 写清保密的限度[^asa2018code-e3]，以及数据可能怎样共享[^bsa2017statement-e8][^icpsrdata-e8]。
-4. **做田野时，把同意当作持续的过程。** 定期提醒参与者研究在进行、他们可以退出[^asa2018code-e2][^bsa2017statement-e4]。
-5. **从第一天起就记录每一个分析选择。** 这既方便别人核查，也让漫长项目后的自己还看得懂[^freese2017replication-e8]；代码要能对应到每张表和图[^sociologicalsciencepolicy-e7]。
-6. **在论文里说清数据在什么条件下可得。** 数据可以有正当理由不公开，但要让读者知道这项研究能否被独立核验[^freese2017replication-e7]。
-7. **早点和导师商量署名和成果形式。** 按美国社会学会准则，默认按贡献排署名，来自你学位论文的成果通常你是第一作者[^asa2018code-e12][^asa2018code-e13]。出书还是发论文，看所在单位的评价方式；例如美国卫斯理大学社会学系两种都认[^wesleyan2015sociology-e1]，别的单位未必如此。
+1. **用现成数据前，先读编码手册和数据收集过程。** 数据错误可能出在调查机构那一环[^freese2017replication-e4]；记下所用数据的版本或发布日期[^sociologicalsciencepolicy-e6]。
+2. **征求同意时就想好数据将来怎么处理。** 写清保密的限度[^asa2018code-e3]，以及数据可能怎样共享[^bsa2017statement-e8][^icpsrdata-e8]。
+3. **做田野时，把同意当作持续的过程。** 定期提醒参与者研究在进行、他们可以退出[^asa2018code-e2][^bsa2017statement-e4]。
+4. **从第一天起就记录每一个分析选择**，代码要能对应到每张表和图[^sociologicalsciencepolicy-e7]。通用做法见[整理科研材料](../../08_throughout/organizing_materials.md)。
+5. **在论文里说清数据在什么条件下可得。** 数据可以有正当理由不公开，但要让读者知道这项研究能否被独立核验[^freese2017replication-e7]。
+6. **早点和导师商量署名和成果形式。** 惯例见上文[署名](#署名)和[书和论文并存](#项目周期长书和论文并存)；出书还是发论文，看所在单位的评价方式。
 
 ---
 
@@ -181,8 +184,6 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 | 用了公开数据集，只引用介绍它的论文，不引用数据集本身 | ICPSR 要求引用包含版本和持久标识符等要素[^icpsrdata-e4] |
 | 通过单位领导进入现场，就当作员工都同意了 | BSA 声明要求直接取得参与者本人的同意[^bsa2017statement-e5] |
 | 在网络群组里潜伏观察，以为网上的东西都可以随便用 | 有访问限制的网络空间要有知情同意程序[^asa2018code-e8] |
-| 只报告"最好看"的模型设定 | 结果可能只是众多分析选择中的一种巧合[^freese2017replication-e9] |
-| 结论写得比样本和时期能支持的范围更大 | 实证研究检验的主要是命题适用的范围[^freese2017replication-e14] |
 | 改了参与者的细节，却没想过这会影响分析 | 改掉的细节（如性别）可能正是别人想检验的因素[^freese2017replication-e17] |
 
 ---
@@ -277,7 +278,6 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 [^asrsubmission-e2]: ASR 投稿指南，Manuscript Preparation。[证据](../../../sources/notes/asrsubmission.md#e2)
 [^asrsubmission-e3]: ASR 投稿指南，Ethics。[证据](../../../sources/notes/asrsubmission.md#e3)
 [^asrsubmission-e4]: ASR 投稿指南，Anonymized Manuscript。[证据](../../../sources/notes/asrsubmission.md#e4)
-[^asrsubmission-e5]: ASR 投稿指南，Anonymized Manuscript。[证据](../../../sources/notes/asrsubmission.md#e5)
 [^asrsubmission-e6]: ASR 投稿指南，References。[证据](../../../sources/notes/asrsubmission.md#e6)
 [^asrsubmission-e7]: ASR 投稿指南，Manuscript Submission。[证据](../../../sources/notes/asrsubmission.md#e7)
 [^wesleyan2015sociology-e1]: 卫斯理大学社会学系 2015，Scholarship。[证据](../../../sources/notes/wesleyan2015sociology.md#e1)

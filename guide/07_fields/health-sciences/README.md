@@ -1,8 +1,8 @@
-# 健康科学：领域概况
+# 健康科学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲健康科学（公共卫生、流行病学、卫生服务研究、营养学、护理学、体育科学、环境与职业健康等）的研究实际怎样运转。它和临床医学共用很多规则：《赫尔辛基宣言》、国际医学期刊编辑委员会（ICMJE）的建议、试验登记、CONSORT 和 STROBE 等报告规范、证据金字塔。这些[临床医学篇](../clinical-medicine/README.md)已经讲过，本文默认你读过，只给链接。各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。
+本文讲健康科学（公共卫生、流行病学、卫生服务研究、营养学、护理学、体育科学、环境与职业健康等）的研究实际怎样运转。它和临床医学共用很多规则：《赫尔辛基宣言》、国际医学期刊编辑委员会（ICMJE）的建议、试验登记、CONSORT 和 STROBE 等报告规范、证据金字塔。这些[临床医学篇](../clinical-medicine/README.md)已经讲过，本文默认你读过，只给链接。各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。健康科学常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 本文只写健康科学更突出的几件事：研究对象常常是**人群**；很多问题要靠观察性数据回答；不少研究用的是本来不为研究而收集的数据；质性研究有自己的质量标准；伦理除了个人，还要考虑群体和社区。本文资料以流行病学和公共卫生为主。护理学、体育科学等方向的专门规范，本文资料未涉及，以导师或目标期刊要求为准。`[本项目分析]`
 
@@ -11,7 +11,8 @@
 - 说清观察性研究为什么容易被混杂、测量误差和选择偏倚带偏；
 - 动手分析前，先说清自己要回答"关联"问题还是"因果"问题；
 - 用登记、医保、电子病历这类现成数据做研究时，知道要报告什么；
-- 知道人群研究在伦理上还要考虑群体和社区。
+- 知道人群研究在伦理上还要考虑群体和社区；
+- 知道健康科学常用哪几种研究套路，每种靠什么证据、按什么标准评判。
 
 ---
 
@@ -23,7 +24,7 @@
 
 ### 很多问题要靠观察性数据回答
 
-随机试验回答不了所有问题，这一点临床医学篇[已经讲过](../clinical-medicine/README.md#常见的研究类型)。Cochrane 手册也说，干预的危害这类证据，常常要来自非随机研究[^higgins2024cochrane-e8]。
+随机试验回答不了所有问题，这一点临床医学篇[已经讲过](../clinical-medicine/README.md#本学科常用的研究方法)。Cochrane 手册也说，干预的危害这类证据，常常要来自非随机研究[^higgins2024cochrane-e8]。
 
 有些问题，做试验根本不合伦理。Hernán 举的例子：想知道每天喝一杯葡萄酒对慢性病的长期影响，让人按分组长期喝酒的试验不合伦理，所以观察性分析成了估计这种长期效应的最好机会[^hernan2018cword-e11]。所以新手要先学会识别[观察性研究的三个坑](#观察性研究的三个坑) `[本项目分析]`。
 
@@ -61,7 +62,7 @@
 
 ### 坑一：混杂——"有关联"不等于"有作用"
 
-混杂和偏倚的定义见[临床医学篇](../clinical-medicine/README.md#常见的研究类型)。简单说，**混杂**是关联本身是真的，但背后有一个没考虑到的因素同时影响暴露和结局，所以不能解释为因果[^vandenbroucke2007strobe-e5]。Hernán 的例子：假设数据显示，每天喝一杯葡萄酒的人，心脏病风险是不喝的人的 0.8 倍（风险比 0.8）。这**不等于**每天喝一杯能让风险降低 20%[^hernan2018cword-e3]。可能是这类人本来收入更高，吃得起有营养的食物，有时间锻炼，也更容易得到预防保健，所以即使不喝酒，风险也更低[^hernan2018cword-e4]。
+混杂和偏倚的定义见[临床医学篇](../clinical-medicine/README.md#本学科常用的研究方法)。简单说，**混杂**是关联本身是真的，但背后有一个没考虑到的因素同时影响暴露和结局，所以不能解释为因果[^vandenbroucke2007strobe-e5]。Hernán 的例子：假设数据显示，每天喝一杯葡萄酒的人，心脏病风险是不喝的人的 0.8 倍（风险比 0.8）。这**不等于**每天喝一杯能让风险降低 20%[^hernan2018cword-e3]。可能是这类人本来收入更高，吃得起有营养的食物，有时间锻炼，也更容易得到预防保健，所以即使不喝酒，风险也更低[^hernan2018cword-e4]。
 
 ### 坑二：暴露测不准，尤其是饮食
 
@@ -98,7 +99,7 @@ Hernán 2018 年在《美国公共卫生杂志》（American Journal of Public H
 
 报告规范是什么、怎样在 EQUATOR 网络上找，见[临床医学篇](../clinical-medicine/README.md#报告规范按研究类型选清单)。健康科学还常用下面几份。除 RECORD 外，本文只读了 EQUATOR 网站的 COREQ 条目页，没有读这些规范的原文；用之前请读原文 `[本项目分析]`。
 
-| 研究类型 | 报告规范 | 说明 |
+| 研究设计 | 报告规范 | 说明 |
 |---|---|---|
 | 用常规收集数据的观察性研究 | RECORD | STROBE 的扩展，13 项[^benchimol2015record-e3]；只管怎么报告，不规定研究怎么做[^benchimol2015record-e14] |
 | 质性研究 | COREQ、SRQR | EQUATOR 把两者列为质性研究的主要报告规范[^equatorcoreq-e3]；COREQ 是针对访谈和焦点小组的 32 项清单[^equatorcoreq-e1]，原文是 Tong、Sainsbury 和 Craig 2007 年的论文[^equatorcoreq-e2] |
@@ -142,31 +143,32 @@ Mays 和 Pope 2000 年在《英国医学杂志》（BMJ）上写道，当时质�
 
 ### 系统综述：Cochrane 手册
 
-Cochrane 手册（Cochrane Handbook for Systematic Reviews of Interventions）讲干预效果的系统综述，具体讲 Cochrane 用的方法[^higgins2024cochrane-e12]。报告按 PRISMA（见[临床医学篇](../clinical-medicine/README.md#报告规范按研究类型选清单)），一般做法见研究方法里的[综述研究](../../06_methods/review_study.md)。本文只读了手册的第 1 章（引言）和第 24 章（纳入非随机研究），其中几点值得新手记住：
-
-- 研究问题和方法事先写进方案，以减少偏倚[^higgins2024cochrane-e1]。问干预效果，一般用 PICO 框架：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]。
-- 开始新的原始研究之前，一般应先做系统综述[^higgins2024cochrane-e3]。
-- 团队要既懂专业又懂方法，并且没有潜在利益冲突[^higgins2024cochrane-e6]；会做决策或受决策影响的人，应参与综述的重要决定[^higgins2024cochrane-e2]。
-- 纳入非随机研究时，解释结果要始终谨慎[^higgins2024cochrane-e7]；判断这类研究，要看具体设计特征（比如哪些部分是前瞻设计的），不要只看"队列""病例对照"这类标签[^higgins2024cochrane-e10]。
-- 高质量的系统综述往往费力又费时[^higgins2024cochrane-e4]，别把它当成轻松的入门项目 `[本项目分析]`。
+Cochrane 手册讲干预效果的系统综述，具体讲 Cochrane 用的方法[^higgins2024cochrane-e12]；完整步骤（方案、偏倚评价、合并、证据分级、按 PRISMA 报告）见研究方法里的[系统综述与元分析](../../06_methods/meta_analysis.md)。健康科学的综述常要纳入非随机研究，这时解释结果要始终谨慎[^higgins2024cochrane-e7]；判断这类研究，要看具体设计特征（比如哪些部分是前瞻设计的），不要只看"队列""病例对照"这类标签[^higgins2024cochrane-e10]。
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出健康科学（以流行病学和公共卫生为主）常用的三种套路。表的分组和"在健康科学里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料 `[本项目分析]`。
 
-**相关学科的研究类型文档**：[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)。
+| 套路 | 在健康科学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md) | 估计饮食、政策、环境暴露对人群健康的影响；长期随机试验不合伦理时，观察性分析是最好的机会[^hernan2018cword-e11]；也有随机分配社区、医院或科室的整群随机试验[^cioms2016ethical-e16] | 用观察性数据做因果分析，可以看作模拟一个"目标试验"[^hernan2018cword-e5]；目标是因果就要调整混杂[^hernan2018cword-e7]，不只凭显著性检验挑混杂因素[^vandenbroucke2007strobe-e9]；用现成数据时按 RECORD 报告[^benchimol2015record-e3] | [观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 横断面研究常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]；质性研究用访谈、焦点小组了解人们的经历和看法 | 如实报告参与情况和不参与的原因[^vandenbroucke2007strobe-e13]；给出测量的效度或信度估计值[^vandenbroucke2007strobe-e10]；质性研究靠三角互证、反身性、找反例提高可信度[^mays2000assessing-e5][^mays2000assessing-e6][^mays2000assessing-e8]，按 COREQ 或 SRQR 报告[^equatorcoreq-e3] | [观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[访谈研究](../../06_methods/interview_study.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 干预效果的系统综述，干预既有临床的，也有公共卫生和政策层面的[^higgins2024cochrane-e11] | 纳入非随机研究时解释要始终谨慎[^higgins2024cochrane-e7]；看具体设计特征，不只看"队列""病例对照"这类标签[^higgins2024cochrane-e10] | [系统综述与元分析](../../06_methods/meta_analysis.md) |
 
-队列、病例对照、横断面研究，以及系统综述，见[临床医学篇](../clinical-medicine/README.md#常见的研究类型)。健康科学里还常见：
+怎么用这张表 `[本项目分析]`：
 
-| 类型 | 一句话说明 |
-|---|---|
-| 用常规收集数据的研究 | 用登记、行政数据、电子病历等现成数据[^benchimol2015record-e2]，按 RECORD 报告。思路和计算机篇的[仓库挖掘研究](../computer-science/practices/repository_mining.md)相通，但健康数据涉及隐私和伦理审批 `[本项目分析]` |
-| 整群随机试验 | 随机分配社区、医院或科室，而不是个人[^cioms2016ethical-e16] |
-| 质性研究（访谈、焦点小组） | 了解人们的经历和看法 `[本项目分析]`；按 COREQ 或 SRQR 报告[^equatorcoreq-e3] |
-| 质量改进研究 | 研究怎样改进医疗服务 `[本项目分析]`；按 SQUIRE 报告[^equatorcoreq-e4] |
-| 经济学评价 | 比较干预的成本和效果 `[本项目分析]`；按 CHEERS 报告[^equatorcoreq-e5] |
+- **先分清病因问题和效果问题。** "每天吃五份果蔬"本身对健康的影响是病因问题，"推动人们这样吃"的干预效果是效果问题[^higgins2024cochrane-e9]。两者都属于解释因果，但目标试验和数据来源不同。
+- **"比较两种干预"在健康科学里通常就是因果问题**，要用随机试验或观察性的因果设计，不能只做描述性比较。
+
+## 本学科常用的研究方法
+
+跨学科的研究方法：[观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)、[访谈研究](../../06_methods/interview_study.md)。队列、病例对照、横断面研究的区别见[临床医学篇](../clinical-medicine/README.md#本学科常用的研究方法)。健康科学里还常见下面几类，目前没有单独的做法页：
+
+- **用常规收集数据的研究**：用登记、行政数据、电子病历等现成数据[^benchimol2015record-e2]，按 RECORD 报告。思路和计算机篇的[仓库挖掘](../computer-science/practices/repository_mining.md)相通，但健康数据涉及隐私和伦理审批 `[本项目分析]`。
+- **整群随机试验**：随机分配社区、医院或科室，而不是个人[^cioms2016ethical-e16]。
+- **质量改进研究**和**经济学评价**：分别按 SQUIRE[^equatorcoreq-e4] 和 CHEERS[^equatorcoreq-e5] 报告。
 
 ---
 
@@ -202,6 +204,7 @@ Cochrane 手册（Cochrane Handbook for Systematic Reviews of Interventions）�
 - **Cochrane 手册**：做干预效果的系统综述时读。先读第 1 章；纳入非随机研究时读第 24 章。
 - **Mays & Pope 2000，Assessing quality in qualitative research**：三页短文，讲怎样判断质性健康研究的质量。
 
+[^vandenbroucke2007strobe-e3]: Vandenbroucke 等人 2007，Box 1。[证据](../../../sources/notes/vandenbroucke2007strobe.md#e3)
 [^cioms2016ethical-e1]: CIOMS 2016，Preface（Scope of the 2016 version）。[证据](../../../sources/notes/cioms2016ethical.md#e1)
 [^cioms2016ethical-e3]: CIOMS 2016，Preface。[证据](../../../sources/notes/cioms2016ethical.md#e3)
 [^cioms2016ethical-e4]: CIOMS 2016，Guideline 1。[证据](../../../sources/notes/cioms2016ethical.md#e4)
@@ -219,12 +222,6 @@ Cochrane 手册（Cochrane Handbook for Systematic Reviews of Interventions）�
 [^cioms2016ethical-e16]: CIOMS 2016，Guideline 21 评注。[证据](../../../sources/notes/cioms2016ethical.md#e16)
 [^cioms2016ethical-e17]: CIOMS 2016，Guideline 21。[证据](../../../sources/notes/cioms2016ethical.md#e17)
 [^cioms2016ethical-e18]: CIOMS 2016，Preface（Scope of the 2016 version）。[证据](../../../sources/notes/cioms2016ethical.md#e18)
-[^higgins2024cochrane-e1]: Cochrane 手册 6.5 版，第 1 章 Key Points。[证据](../../../sources/notes/higgins2024cochrane.md#e1)
-[^higgins2024cochrane-e2]: Cochrane 手册，第 1 章 Key Points。[证据](../../../sources/notes/higgins2024cochrane.md#e2)
-[^higgins2024cochrane-e3]: Cochrane 手册，§1.1。[证据](../../../sources/notes/higgins2024cochrane.md#e3)
-[^higgins2024cochrane-e4]: Cochrane 手册，§1.1。[证据](../../../sources/notes/higgins2024cochrane.md#e4)
-[^higgins2024cochrane-e5]: Cochrane 手册，§1.2。[证据](../../../sources/notes/higgins2024cochrane.md#e5)
-[^higgins2024cochrane-e6]: Cochrane 手册，第 1 章 Key Points。[证据](../../../sources/notes/higgins2024cochrane.md#e6)
 [^higgins2024cochrane-e7]: Cochrane 手册，第 24 章 Key Points。[证据](../../../sources/notes/higgins2024cochrane.md#e7)
 [^higgins2024cochrane-e8]: Cochrane 手册，§24.1。[证据](../../../sources/notes/higgins2024cochrane.md#e8)
 [^higgins2024cochrane-e9]: Cochrane 手册，§24.1。[证据](../../../sources/notes/higgins2024cochrane.md#e9)

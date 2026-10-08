@@ -1,10 +1,14 @@
 # 过程追踪与比较案例研究
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲政治学里两种紧密相连的定性方法。一是**过程追踪**（process tracing）：在一个案例内部一步步检查事情是怎样发生的，用来检验或提出因果解释。二是**比较案例研究**：有意挑选少数几个案例互相比较。本文的主要资料是政治学方法论文献。Bennett 和 Checkel 指出，当代政治学者和社会学者都认为，很多问题的答案要把社会和制度的结构背景与个人决策结合起来[^bennett2012process-e1]；他们还认为，过程追踪和历史学家 Clayton Roberts 所说的"历史解释"密切相关[^bennett2012process-e6]。社会学的比较历史研究（[社会学领域概况](../07_fields/sociology/README.md#几种主要的研究路子)说明那里的资料没有专门讲它）或许可以参照本文 `[本项目分析]`。
+本文讲政治学里两种紧密相连的定性方法。一是**过程追踪**（process tracing）：在一个案例内部一步步检查事情是怎样发生的，用来检验或提出因果解释。二是**比较案例研究**：有意挑选少数几个案例互相比较。本文的主要资料是政治学方法论文献。Bennett 和 Checkel 指出，当代政治学者和社会学者都认为，很多问题的答案要把社会和制度的结构背景与个人决策结合起来[^bennett2012process-e1]；他们还认为，过程追踪和历史学家 Clayton Roberts 所说的"历史解释"密切相关[^bennett2012process-e6]。社会学的比较历史研究（[社会学学科概况](../07_fields/sociology/README.md#几种主要的研究路子)说明那里的资料没有专门讲它）或许可以参照本文 `[本项目分析]`。
 
-政治学有哪几条研究路子，见[政治学领域概况](../07_fields/political-science/README.md#几条研究路子并存)。案例研究的通用做法（定义案例、多来源印证、保持证据链、分析性推广）见研究方法里的[案例研究与民族志](case_study.md)，本文不重复。在档案馆里怎样工作，见[档案研究](archival_research.md)；访谈的通用流程见[访谈研究](interview_study.md)。
+政治学有哪几条研究路子，见[政治学学科概况](../07_fields/political-science/README.md#几条研究路子并存)。案例研究的通用做法（定义案例、多来源印证、保持证据链、分析性推广）见研究方法里的[案例研究与民族志](case_study.md)，本文不重复。在档案馆里怎样工作，见[档案研究](archival_research.md)；访谈的通用流程见[访谈研究](interview_study.md)。
+
+**适用范围** `[本项目分析]`：本篇原为政治学学科篇写，资料主要是政治学方法论文献，以及美国政治学会和政治学期刊编辑关于伦理、透明度的文件。除[政治学](../07_fields/political-science/README.md)外，[历史与考古](../07_fields/history-archaeology/README.md)、[社会学](../07_fields/sociology/README.md)的学科概况也链接到本篇。其他学科用它时，对案例选择和证据透明的要求可能不同；用之前先看本学科的规范。
+
+**常服务的套路**：[解释因果](../05_research-strategies/explain_causality.md#3-常用的研究方法)。
 
 **读完本文，你应该能：**
 
@@ -87,7 +91,7 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 
 ### 第六步：把精英访谈当作证据来用
 
-精英访谈指访问官员、议员、外交官、政党和组织负责人 `[本项目分析]`。访谈的通用流程见[访谈研究](interview_study.md)，伦理问题见[政治学领域概况](../07_fields/political-science/README.md#伦理在真实政治环境里做研究)。作为过程追踪的证据，要注意：
+精英访谈指访问官员、议员、外交官、政党和组织负责人 `[本项目分析]`。访谈的通用流程见[访谈研究](interview_study.md)，伦理问题见[政治学学科概况](../07_fields/political-science/README.md#伦理在真实政治环境里做研究)。作为过程追踪的证据，要注意：
 
 - **受访者的话也要打折。** 第五步关于动机的分析同样适用[^bennett2012process-e30]；官员常有理由美化自己在事件中的角色 `[本项目分析]`。
 - **用文件核对回忆。** 有文件佐证的回忆，比没有佐证的更可信[^bennett2012process-e48]。可以对比当事人的公开言论和当时以为不会很快公开的私下讨论[^bennett2012process-e47]。
@@ -125,7 +129,7 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 ### 第九步：写作与透明
 
 - **把机制假设写在明处**，哪怕叙述没那么流畅；这是 Bennett 和 Checkel 的主张[^bennett2012process-e7]。
-- **讲清证据怎样产生、分析怎样进行。** 定性透明度审议的总结说，各方明确一致：要详细说明证据是怎样产生的[^jacobs2021qualitative-e19]。签署了期刊编辑透明声明的期刊，要求讲清结论依赖的分析步骤[^dart2014jets-e4]；数据受限的，投稿时就要告诉编辑[^dart2014jets-e3]。这场透明度争论的来龙去脉见[政治学领域概况](../07_fields/political-science/README.md#数据获取与研究透明data-access-and-research-transparencyda-rt)。
+- **讲清证据怎样产生、分析怎样进行。** 定性透明度审议的总结说，各方明确一致：要详细说明证据是怎样产生的[^jacobs2021qualitative-e19]。签署了期刊编辑透明声明的期刊，要求讲清结论依赖的分析步骤[^dart2014jets-e4]；数据受限的，投稿时就要告诉编辑[^dart2014jets-e3]。这场透明度争论的来龙去脉见[政治学学科概况](../07_fields/political-science/README.md#数据获取与研究透明data-access-and-research-transparencyda-rt)。
 - **不必公开全部原始材料。** 定性研究透明度审议的各工作组一致认为，不应统一要求共享定性数据[^jacobs2021qualitative-e15]。可以用雪城大学定性数据仓库开发的"透明探究注释"（Annotation for Transparent Inquiry）这类工具，在论文段落上叠加引文、原文摘录和资料链接[^jacobs2021qualitative-e18]。
 - **说清能推广到哪里**[^jacobs2021qualitative-e23]，单个案例的弱点常在代表性[^gerring2004case-e3]；**承认剩下的不确定性**[^bennett2012process-e45]。
 - **推理写到多细？** 把证据证明力等环节写得形式化，便于读者评价[^jacobs2021qualitative-e24]；但过长的附录会遮住重点，形式化的贝叶斯写法可能不如叙事好读[^jacobs2021qualitative-e25]。可以正文用叙事，只对关键证据写明属于哪种检验、理由是什么，细节放附录 `[本项目分析]`。

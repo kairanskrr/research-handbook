@@ -1,8 +1,8 @@
-# 电气、电子与信息工程：领域概况
+# 电气、电子与信息工程：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲电气工程、电子工程、信息工程（以下简称"电子信息领域"）的研究实际怎样运转：要做实物、要测量，还常常要在发表、专利和标准之间做安排。这个领域和计算机领域有大片交叉，共通的做法见[计算机篇](../computer-science/README.md)；各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。这里只写本领域特有的东西。
+本文讲电气工程、电子工程、信息工程（以下简称"电子信息"）的研究实际怎样运转：要做实物、要测量，还常常要在发表、专利和标准之间做安排。这个领域和计算机领域有大片交叉，共通的做法见[计算机篇](../computer-science/README.md)；各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。这里只写本学科特有的东西。
 
 **读完本文，你应该能：**
 
@@ -17,9 +17,9 @@
 
 ### 和计算机科学是什么关系
 
-两个学科一直走得很近。按 2005 年计算学科课程总报告的回顾，1990 年代以前，想做软件和计算理论的学生选计算机科学，想做硬件的选电气工程[^shackelford2005computing-e1]。两边都在开发新技术，常在大学的同一个学院，有时需要彼此帮忙[^shackelford2005computing-e2]。1970 年代中期微处理器出现后，计算机工程从电气工程里分了出来，成为独立学科[^shackelford2005computing-e3]。计算机工程研究硬件、软件、通信以及它们之间的相互作用[^shackelford2005computing-e4]。这份报告还提到，有的大学把电气工程和计算机科学放在同一个学院[^shackelford2005computing-e6]。同一份报告这样区分侧重点：在计算机工程里，关注的是硬件设备上的软件；在计算机科学里，软件是表达想法的媒介[^shackelford2005computing-e5]。
+两个学科一直走得很近。按 2005 年计算学科课程总报告的回顾，1990 年代以前，想做软件和计算理论的学生选计算机科学，想做硬件的选电气工程[^shackelford2005computing-e1]。两边都在开发新技术，常在大学的同一个学院，有时需要彼此帮忙[^shackelford2005computing-e2]。1970 年代中期微处理器出现后，计算机工程从电气工程里分了出来，成为独立学科[^shackelford2005computing-e3]。计算机工程研究硬件、软件、通信以及它们之间的相互作用[^shackelford2005computing-e4]。同一份报告这样区分侧重点：在计算机工程里，关注的是硬件设备上的软件；在计算机科学里，软件是表达想法的媒介[^shackelford2005computing-e5]。
 
-交叉的方向包括硬件（芯片、体系结构）、信号处理、通信与网络、控制 `[本项目分析]`。做这些方向，计算机篇的不少内容可以直接参考，下面"常见的研究类型"一节给出了对应文档 `[本项目分析]`。
+交叉的方向包括硬件（芯片、体系结构）、信号处理、通信与网络、控制 `[本项目分析]`。做这些方向，可参考计算机篇的不少内容 `[本项目分析]`。
 
 ### 研究要和实物打交道：流片与实验平台
 
@@ -43,7 +43,7 @@ Europractice 寄回的原型芯片一般没有封装，也没有测过[^europrac
 
 - **仿真偏乐观。** 在无线网络研究里，仿真很灵活，但为了建模必须做很多简化，结果往往偏乐观[^lamela2019repeatable-e1]。
 - **测量难重复。** 真实的无线实验受噪声、干扰、多径（信号经不同路径反射后叠加）等随机因素影响，同样的输入可能得到差别很大的结果[^lamela2019repeatable-e3]。Vandewalle 等人认为，实物实验大概是最难复现的一类工作，往往最多只能得到统计上等价的结果[^vandewalle2009reproducible-e6]。
-- **怎么办。** 测量做不到完全重复，就让测量数据能被别人再用[^vandewalle2009reproducible-e6]；同时详细写明实验装置和测量设备[^vandewalle2009reproducible-e7]。Lamela 等人的办法是：在真实实验中记录实验条件，再在仿真器里回放，让实验条件可以重复[^lamela2019repeatable-e4]。仿真研究怎样做验证和确认，见[定量仿真](../../06_methods/simulation_study.md)。
+- **怎么办。** 让测量数据能被别人再用，并写明装置（见下文[常用套路与证据标准](#常用套路与证据标准)）。Lamela 等人的办法是：在真实实验中记录实验条件，再在仿真器里回放，让实验条件可以重复[^lamela2019repeatable-e4]。仿真研究怎样做验证和确认，见[定量仿真](../../06_methods/simulation_study.md)。
 
 ### 发表：以 IEEE 为例，会议版可以发展成期刊版
 
@@ -74,7 +74,7 @@ IEEE 的署名条件有三条，要同时满足[^ieee2026pspb-e6][^ieee2026pspb-
 
 下表是本项目的归纳，用来帮你快速定位差别，不是严格的学科划分 `[本项目分析]`。
 
-| | 电子信息领域 | 计算机领域 |
+| | 电子信息 | 计算机领域 |
 |---|---|---|
 | 结果从哪来 | 理论推导、仿真，再加上实物测量（芯片、电路、实验平台） | 以代码、系统和数据上的实验为主 |
 | 周期受谁控制 | 还要受流片轮次、平台预约等外部排期影响 | 主要受会议截稿日控制 |
@@ -92,15 +92,14 @@ IEEE 的署名条件有三条，要同时满足[^ieee2026pspb-e6][^ieee2026pspb-
 IEEE 的出版运行手册收有《IEEE 伦理准则》全文。其中和本领域研究关系较大的两条 `[本项目分析]`：
 
 - **公众安全放在首位。** 发现可能危害公众或环境的因素，要及时披露[^ieee2026pspb-e1]。做电力、医疗电子、汽车电子等方向时，这一条尤其要记住 `[本项目分析]`。
-- **利益冲突要披露。** 能避免就避免；避免不了，就告诉受影响的各方[^ieee2026pspb-e2]。论文里也要写明资助来源和潜在的利益冲突[^ieee2026pspb-e10]。
+- **利益冲突要披露**[^ieee2026pspb-e2]，论文里要写明资助来源和潜在的利益冲突[^ieee2026pspb-e10]。
 
 IEEE 出版规则中值得单独记住的几条：
 
-- 方法和材料要写到别人能评估、能重做的程度[^ieee2026pspb-e9]。
 - 在自己旧作（包括会议论文）的基础上写新稿，要引用旧作，并简要说明新贡献是什么[^ieee2026pspb-e12]。
 - 涉及军事、国防等受出口管制的敏感信息，IEEE 不能发表；大学里常教的一般科学、数学、工程原理和已公开的信息不在此列[^ieeeauthorsubmission-e3]。
 
-其余几条是各学科通用的诚信要求：根据数据如实陈述结论、恰当承认别人的贡献[^ieee2026pspb-e3]，不抄袭（IEEE 把不注明出处地使用别人的文字、想法、流程、结果或算法都算作抄袭）[^ieee2026pspb-e11]，发现错误及时更正[^ieee2026pspb-e14]。详细内容见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#7-发现错误主动更正)。
+其余是各学科通用的诚信要求，例如 IEEE 把不注明出处地使用别人的文字、想法、流程、结果或算法都算作抄袭[^ieee2026pspb-e11]，见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md)。
 
 ### 可复现性：信号处理领域的讨论
 
@@ -135,7 +134,7 @@ IEEE 现在的做法：
 
 **怎样两头都不耽误。** 伯克利建议最好在公开前至少 1～2 个月向学校提交发明披露[^berkeleydisclose-e2]。美国的"临时申请"可以几天内提交，甚至直接用论文稿或幻灯片，先占住优先权日期[^utahprotecting-e5]。罗格斯明确承诺，只要提前告知，就会在不推迟发表的前提下配合申请专利，也绝不阻止研究者发表[^rutgersinventionfaq-e3]。
 
-**和企业合作。** 伯克利要求合作开始前就向学校提交发明披露[^berkeleydisclose-e1]。罗格斯提醒，大学本来就不是保密的好地方，因为研究者的主要职责之一是发表[^rutgersinventionfaq-e6]。Vandewalle 等人也提到，企业里常常先申请专利再发表，资助研究的企业也可能不愿公开代码[^vandewalle2009reproducible-e9]。这时至少在内部做到可复现，让同事能复现你的结果[^vandewalle2009reproducible-e10]。
+**和企业合作。** 伯克利要求合作开始前就向学校提交发明披露[^berkeleydisclose-e1]。Vandewalle 等人也提到，企业里常常先申请专利再发表，资助研究的企业也可能不愿公开代码[^vandewalle2009reproducible-e9]。这时至少在内部做到可复现，让同事能复现你的结果[^vandewalle2009reproducible-e10]。
 
 ### 标准组织
 
@@ -148,31 +147,37 @@ IEEE 现在的做法：
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出本文资料能支持的四种，其他套路本文资料未涉及。表的分组和第二栏是本项目的归纳，每条标准只代表脚注里的方向（多为无线网络和信号处理） `[本项目分析]`。
 
-本领域常用的方法，有不少在研究方法和计算机篇的实践里有对应文档，可以直接参考。下面只写本领域额外要注意的地方：
+| 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md) | 提出新的电路、芯片、算法或通信系统并评估 | 无线网络研究里，仿真为建模做了很多简化，结果往往偏乐观[^lamela2019repeatable-e1]；实验平台结果真实，是验证和调优协议必不可少的一步[^lamela2019repeatable-e2]；芯片原型寄回后由设计者自己测试和验证[^europracticempw-e3] | [工程研究](../computer-science/practices/engineering_research.md)（计算机篇）、[定量仿真](../../06_methods/simulation_study.md) |
+| [比较评估](../../05_research-strategies/compare_evaluate.md) | 在相同条件下比较多个算法或方案 | 写明确切的数据集、初始化和终止条件、参数值[^vandewalle2009reproducible-e1]；常用测试图像网上有多个版本，要说清用哪一版[^vandewalle2009reproducible-e4]；写明测试用的平台[^vandewalle2009reproducible-e8] | [基准评测](../computer-science/practices/benchmarking.md)（计算机篇） |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 在真实环境里测信道、器件或系统的特性 | 无线实验受噪声、干扰、多径影响，同样输入结果可能差很多[^lamela2019repeatable-e3]；实物实验难以完全复现，就让测量数据能被别人再用[^vandewalle2009reproducible-e6]，并详细写明装置和测量设备[^vandewalle2009reproducible-e7] | [实验测量研究](../../06_methods/experimental_measurement.md) |
+| [证明](../../05_research-strategies/prove.md) | 推导性能界限、证明算法性质 | 信号处理介于理论和实验之间，定理常配数值仿真帮助理解[^vandewalle2009reproducible-e12] | [理论研究](../computer-science/practices/theoretical_research.md)（计算机篇） |
 
-- [工程研究](../computer-science/practices/engineering_research.md)：提出新的电路、算法或系统并评估。评估可能要包括原型的实测结果，不能只靠仿真 `[本项目分析]`。
-- [定量仿真](../../06_methods/simulation_study.md)：电路仿真、链路级或网络仿真。无线网络研究的经验是仿真结果偏乐观，最好有实验平台或实测结果对照[^lamela2019repeatable-e1][^lamela2019repeatable-e2]。
-- [基准评测](../computer-science/practices/benchmarking.md)：在相同条件下比较多个方案。除了软件环境，还要写明测量装置、设备和测试平台[^vandewalle2009reproducible-e7][^vandewalle2009reproducible-e8]。
-- [理论研究](../computer-science/practices/theoretical_research.md)：推导性能界限、证明算法性质。Vandewalle 等人认为信号处理介于理论和实验之间，定理常配上数值仿真，帮助理解结果[^vandewalle2009reproducible-e12]。
-- [优化研究](../computer-science/practices/optimization_study.md)：把问题建模成优化问题求解，例如资源分配、电路参数选择 `[本项目分析]`。
-- [复现研究](../../06_methods/replication.md)：重做已发表的研究。注意上文的术语问题。
-- **测量研究**（没有单独文档）：在真实环境中系统地测量信道、器件或系统的特性 `[本项目分析]`。要点是让测量数据能被别人再用，并详细写明装置[^vandewalle2009reproducible-e6][^vandewalle2009reproducible-e7]。
+怎么用这张表 `[本项目分析]`：先按核心主张定主要套路；例如提出新电路、同时推导它的性能界限，推导部分按证明的标准要求。和计算机交叉的方向，也看[计算机篇的同名一节](../computer-science/README.md#常用套路与证据标准)。
+
+## 本学科常用的研究方法
+
+本学科没有独有的方法文档，用的是[研究方法](../../06_methods/README.md)里的跨学科方法和计算机篇的实践：
+
+- [实验测量研究](../../06_methods/experimental_measurement.md)、[定量仿真](../../06_methods/simulation_study.md)：两样都要，见上文[仿真和测量](#仿真和测量两样都要各有局限)。
+- [工程研究](../computer-science/practices/engineering_research.md)、[基准评测](../computer-science/practices/benchmarking.md)、[理论研究](../computer-science/practices/theoretical_research.md)、[优化研究](../computer-science/practices/optimization_study.md)（计算机篇）：评估新电路、新系统时，可能要有原型实测，不能只靠仿真；资源分配、电路参数选择等可以建模成优化问题 `[本项目分析]`。
+- [复现研究](../../06_methods/replication.md)：注意 reproduce 和 replicate 的用法，见上文[可复现性](#可复现性信号处理领域的讨论)。
 
 ---
 
 ## 给新手的建议
 
-1. **从第一天起为每张图写生成脚本。** Vandewalle 等人从一开始就考虑复现后，整理工作从约一周缩到约一天[^vandewalle2009reproducible-e11]。整理材料的通用做法见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md)。
-2. **仿真和测量都做，并说清两者的差距。** 至少在无线网络研究里，只有仿真，结论容易偏乐观[^lamela2019repeatable-e1]。
+1. **从第一天起为每张图写生成脚本。** Vandewalle 等人从一开始就考虑复现后，整理工作从约一周缩到约一天[^vandewalle2009reproducible-e11]。通用做法见[整理科研材料](../../08_throughout/organizing_materials.md)。
+2. **仿真和测量都做，并说清两者的差距**（理由见上文[仿真和测量](#仿真和测量两样都要各有局限)）。
 3. **流片和平台实验，按外部排期倒推计划。** 提交前把检查做足，出了错可能要等下一轮 `[本项目分析]`。
 4. **写论文前先想专利。** 投稿、报告、上传预印本之前，先问导师成果要不要申请专利；需要的话，尽早联系本单位负责专利的部门（伯克利的建议是公开前至少 1～2 个月[^berkeleydisclose-e2]）。
 5. **会议论文转期刊，要真正扩展内容。** 投 IEEE 期刊时，引用会议版，写清新增了什么[^ieee2026pspb-e5][^ieeeauthorsubmission-e1]。
 6. **签保密协议前，先问清能公开什么。** 设计套件、企业数据、合作代码都可能受限[^europracticempw-e2][^vandewalle2009reproducible-e9]；能公开的部分（测量数据、仿真代码）尽量公开 `[本项目分析]`。
-7. **读文献时先查术语定义。** reproduce 和 replicate 在不同群体里的用法正好对调[^barba2018terminologies-e2]。
 
 ---
 
@@ -181,14 +186,13 @@ IEEE 现在的做法：
 | 错误 | 为什么是问题 |
 |---|---|
 | 只有仿真结果，就宣称方案在真实系统中有效 | 在无线网络研究里，仿真因为简化往往偏乐观[^lamela2019repeatable-e1] |
-| 只报一次实测结果，不说明装置和条件 | 无线实验受随机因素影响，同样输入结果可能差很多[^lamela2019repeatable-e3]；Vandewalle 等人也要求详细写明装置和测量设备[^vandewalle2009reproducible-e7] |
+| 只报一次实测结果，不说明装置和条件 | 无线实验受随机因素影响，同样输入结果可能差很多[^lamela2019repeatable-e3] |
 | 论文不写确切参数、数据版本和测试平台 | 别人复现不了，过一段时间自己也复现不了[^vandewalle2009reproducible-e1][^vandewalle2009reproducible-e5] |
 | 把会议论文稍作修改就投 IEEE 期刊，也不引用会议版 | IEEE 要求期刊版有实质新增内容并引用前作[^ieee2026pspb-e5] |
 | 以为一稿多投总是允许或总是禁止 | 在 IEEE，由各下属单位自行决定，要看具体期刊的规定[^ieeeauthorsubmission-e2] |
 | IEEE 会议论文录用后没人去报告 | IEEE 可以不把它收进 IEEE Xplore[^ieee2026pspb-e13] |
 | 先在会上报告或发预印本，再想起申请专利 | 按美国大学的说明，在大多数美国以外的国家已经失去申请资格[^berkeleydisclose-e4] |
 | 只给做理论和写论文的人署名，忽略做原型和测试的人 | IEEE 把原型开发列为可以构成署名资格的贡献[^ieee2026pspb-e6] |
-| 不写资助来源和利益冲突 | IEEE 要求在论文里写明[^ieee2026pspb-e10] |
 
 ---
 
@@ -205,7 +209,6 @@ IEEE 现在的做法：
 [^shackelford2005computing-e3]: Shackelford 等人 2005，§2.2.1，第 10 页。[证据](../../../sources/notes/shackelford2005computing.md#e3)
 [^shackelford2005computing-e4]: Shackelford 等人 2005，§2.3.1，第 13 页。[证据](../../../sources/notes/shackelford2005computing.md#e4)
 [^shackelford2005computing-e5]: Shackelford 等人 2005，§2.2.3，第 12 页。[证据](../../../sources/notes/shackelford2005computing.md#e5)
-[^shackelford2005computing-e6]: Shackelford 等人 2005，§3.4.1，第 30 页。[证据](../../../sources/notes/shackelford2005computing.md#e6)
 [^europracticempw-e1]: Europractice，MPW Prototyping，页首。[证据](../../../sources/notes/europracticempw.md#e1)
 [^europracticempw-e2]: Europractice，MPW Prototyping，Selecting and Accessing Technology。[证据](../../../sources/notes/europracticempw.md#e2)
 [^europracticempw-e3]: Europractice，MPW Prototyping，Fabricating and Packaging Prototypes。[证据](../../../sources/notes/europracticempw.md#e3)
@@ -229,18 +232,15 @@ IEEE 现在的做法：
 [^vandewalle2009reproducible-e13]: Vandewalle 等人 2009，Case study: super-resolution，第 42 页。[证据](../../../sources/notes/vandewalle2009reproducible.md#e13)
 [^ieee2026pspb-e1]: IEEE PSPB Operations Manual 2026，§2.7（《IEEE 伦理准则》第 1 条）。[证据](../../../sources/notes/ieee2026pspb.md#e1)
 [^ieee2026pspb-e2]: IEEE PSPB Operations Manual 2026，§2.7（《IEEE 伦理准则》第 3 条）。[证据](../../../sources/notes/ieee2026pspb.md#e2)
-[^ieee2026pspb-e3]: IEEE PSPB Operations Manual 2026，§2.7（《IEEE 伦理准则》第 5 条）。[证据](../../../sources/notes/ieee2026pspb.md#e3)
 [^ieee2026pspb-e4]: IEEE PSPB Operations Manual 2026，§8.1.7.F。[证据](../../../sources/notes/ieee2026pspb.md#e4)
 [^ieee2026pspb-e5]: IEEE PSPB Operations Manual 2026，§8.1.7.F。[证据](../../../sources/notes/ieee2026pspb.md#e5)
 [^ieee2026pspb-e6]: IEEE PSPB Operations Manual 2026，§8.2.1.A.1。[证据](../../../sources/notes/ieee2026pspb.md#e6)
 [^ieee2026pspb-e7]: IEEE PSPB Operations Manual 2026，§8.2.1.A.1。[证据](../../../sources/notes/ieee2026pspb.md#e7)
 [^ieee2026pspb-e8]: IEEE PSPB Operations Manual 2026，§8.2.1.A.2。[证据](../../../sources/notes/ieee2026pspb.md#e8)
-[^ieee2026pspb-e9]: IEEE PSPB Operations Manual 2026，§8.2.1.B.3。[证据](../../../sources/notes/ieee2026pspb.md#e9)
 [^ieee2026pspb-e10]: IEEE PSPB Operations Manual 2026，§8.2.1.B.2。[证据](../../../sources/notes/ieee2026pspb.md#e10)
 [^ieee2026pspb-e11]: IEEE PSPB Operations Manual 2026，§8.2.1.B.9。[证据](../../../sources/notes/ieee2026pspb.md#e11)
 [^ieee2026pspb-e12]: IEEE PSPB Operations Manual 2026，§8.2.1.B.12。[证据](../../../sources/notes/ieee2026pspb.md#e12)
 [^ieee2026pspb-e13]: IEEE PSPB Operations Manual 2026，§8.2.1.B.16。[证据](../../../sources/notes/ieee2026pspb.md#e13)
-[^ieee2026pspb-e14]: IEEE PSPB Operations Manual 2026，§8.2.1.B.8。[证据](../../../sources/notes/ieee2026pspb.md#e14)
 [^ieee2026pspb-e15]: IEEE PSPB Operations Manual 2026，§4.3.7。[证据](../../../sources/notes/ieee2026pspb.md#e15)
 [^ieeeauthorsubmission-e1]: IEEE 作者中心，Submission and Peer Review Policies，Multiple Submission and Prior Publication。[证据](../../../sources/notes/ieeeauthorsubmission.md#e1)
 [^ieeeauthorsubmission-e2]: IEEE 作者中心，Submission and Peer Review Policies，Multiple Submission and Prior Publication。[证据](../../../sources/notes/ieeeauthorsubmission.md#e2)
@@ -265,7 +265,6 @@ IEEE 现在的做法：
 [^rutgersinventionfaq-e3]: Rutgers 技术转移常见问题，What if I want to publish my results?。[证据](../../../sources/notes/rutgersinventionfaq.md#e3)
 [^rutgersinventionfaq-e4]: Rutgers 技术转移常见问题，What constitutes a public disclosure?。[证据](../../../sources/notes/rutgersinventionfaq.md#e4)
 [^rutgersinventionfaq-e5]: Rutgers 技术转移常见问题，Oral disclosures。[证据](../../../sources/notes/rutgersinventionfaq.md#e5)
-[^rutgersinventionfaq-e6]: Rutgers 技术转移常见问题，面向企业合作方的问题。[证据](../../../sources/notes/rutgersinventionfaq.md#e6)
 [^berkeleydisclose-e1]: UC Berkeley IPIRA，When to Disclose an Invention to OTL。[证据](../../../sources/notes/berkeleydisclose.md#e1)
 [^berkeleydisclose-e2]: UC Berkeley IPIRA，When to Disclose an Invention to OTL。[证据](../../../sources/notes/berkeleydisclose.md#e2)
 [^berkeleydisclose-e3]: UC Berkeley IPIRA，FAQ（宽限期）。[证据](../../../sources/notes/berkeleydisclose.md#e3)

@@ -80,7 +80,7 @@
 **怎么做：**
 
 1. **越早考虑越好**，在设计阶段就想，不要等论文写完再补一段伦理说明。安全会议 USENIX Security '26 的伦理指南就建议"在研究过程中尽早"考虑[^usenixsec2026cfp-e9]。
-2. **先查所在学科和机构的规定，看要不要过伦理审查。** 以心理学为例，美国心理学会的伦理准则要求：需要机构审批时，研究开始前如实提交方案、获得批准，并按批准的方案执行[^apa2017ethical-e2]。软件工程的伦理补充标准把"论文写明是哪个伦理审查委员会批准的，并附批准编号"列为加分项[^ralph2020empirical-e73]。不同国家、学科、机构的规定差别很大，具体要求见各学科的领域概况，例如[计算机](../07_fields/computer-science/README.md#伦理问题有本领域的特点)、[心理学](../07_fields/psychology/README.md#伦理美国心理学会伦理准则与机构审批)、[临床医学](../07_fields/clinical-medicine/README.md#研究对象是人伦理排在第一位)、[教育学](../07_fields/education/README.md#伦理未成年人守门人和研究自己的学生)、[社会学](../07_fields/sociology/README.md#伦理美国社会学会准则与英国社会学会声明)、[媒体与传播](../07_fields/media-communication/README.md#网络和社交媒体研究的伦理)。
+2. **先查所在学科和机构的规定，看要不要过伦理审查。** 以心理学为例，美国心理学会的伦理准则要求：需要机构审批时，研究开始前如实提交方案、获得批准，并按批准的方案执行[^apa2017ethical-e2]。软件工程的伦理补充标准把"论文写明是哪个伦理审查委员会批准的，并附批准编号"列为加分项[^ralph2020empirical-e73]。不同国家、学科、机构的规定差别很大，具体要求见各学科的学科概况，例如[计算机](../07_fields/computer-science/README.md#伦理问题有本领域的特点)、[心理学](../07_fields/psychology/README.md#伦理美国心理学会伦理准则与机构审批)、[临床医学](../07_fields/clinical-medicine/README.md#研究对象是人伦理排在第一位)、[教育学](../07_fields/education/README.md#伦理未成年人守门人和研究自己的学生)、[社会学](../07_fields/sociology/README.md#伦理美国社会学会准则与英国社会学会声明)、[媒体与传播](../07_fields/media-communication/README.md#网络和社交媒体研究的伦理)。
 3. **用一个框架逐条检查。** 计算机安全方向可以用《Menlo 报告》，这是美国一份面向信息与通信技术研究的伦理原则报告；USENIX Security '26 强烈建议作者熟悉它[^usenixsec2026cfp-e10]。它沿用了《贝尔蒙报告》（保护人体研究对象的伦理原则和指南[^bailey2012menlo-e7]）的三条原则，又加了一条[^bailey2012menlo-e2]：
 
 | 原则 | 具体要求 |

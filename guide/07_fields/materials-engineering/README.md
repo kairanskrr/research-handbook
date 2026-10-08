@@ -1,8 +1,8 @@
-# 材料工程与纳米技术：领域概况
+# 材料工程与纳米技术：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲材料工程的研究实际怎样运转，也包括纳米技术。在本项目采用的学科分类里，材料工程是 2.5，纳米技术是 2.10（见[学科篇总览](../README.md)），本文把两者放在一起讲。这个领域和化学、物理、生物、电子工程都有大片交叉：合成和化学实验的通用规范见[化学篇](../chemistry/README.md)，凝聚态物理和预印本文化见[物理科学篇](../physical-sciences/README.md)，纳米材料进入细胞和动物实验的部分见[生物科学篇](../biological-sciences/README.md)。各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。这里只写本领域特有的东西。
+本文讲材料工程的研究实际怎样运转，也包括纳米技术。在本项目采用的学科分类里，材料工程是 2.5，纳米技术是 2.10（见[学科篇总览](../README.md)），本文把两者放在一起讲。这个领域和化学、物理、生物、电子工程都有大片交叉：合成和化学实验的通用规范见[化学篇](../chemistry/README.md)，凝聚态物理和预印本文化见[物理科学篇](../physical-sciences/README.md)，纳米材料进入细胞和动物实验的部分见[生物科学篇](../biological-sciences/README.md)。各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。这里只写本学科特有的东西。
 
 **读完本文，你应该能：**
 
@@ -30,26 +30,25 @@
 
 ### 表征常常要借用共享平台
 
-电子显微镜等高端表征设备一般不在每个课题组里，很多时候要用学校的公共测试平台或国家级的用户设施 `[本项目分析]`。下面举一个具体例子：美国能源部的一个纳米科学用户设施 Molecular Foundry（设在劳伦斯伯克利国家实验室）。它只是一家设施的规则；其他国家、其他平台的规则不同，以你实际使用的平台为准 `[本项目分析]`。
+电子显微镜等高端表征设备一般不在每个课题组里，很多时候要用学校的公共测试平台或国家级的用户设施 `[本项目分析]`。下面举一个具体例子：美国能源部的一个纳米科学用户设施 Molecular Foundry（设在劳伦斯伯克利国家实验室）。它只是一家设施的规则，以你实际使用的平台为准 `[本项目分析]`。
 
-- **要申请。** 任何有兴趣的研究者都可以申请，申请要经过竞争性的同行评审[^lblfoundryuser-e1]，一般在每年两次的征集中提交[^lblfoundryuser-e4]。
-- **不保密的研究免费，保密的付费。** 非专有（不保密）的研究免费使用[^lblfoundryuser-e2]；专有（保密）项目在进行期间按全成本付费[^lblfoundryuser-e3]。
+- **要申请。** 任何研究者都可以申请，要经过竞争性的同行评审[^lblfoundryuser-e1]，一般在每年两次的征集中提交[^lblfoundryuser-e4]。不保密的研究免费[^lblfoundryuser-e2]，保密项目按全成本付费[^lblfoundryuser-e3]。
 - **先培训再上手。** 到了设施，开始工作前还要上额外的安全培训课[^lblfoundryuser-e5]。
 - **发表时要致谢。** 用到该设施的成果，要在致谢中按规定措辞写上它[^lblfoundryuser-e6]。
 
-这对研究节奏的影响是：机时要提前申请和预约，样品要提前准备好，测试方案要在上机前想清楚 `[本项目分析]`。排期的通用方法见贯穿全程的[计划与日常节奏](../../08_throughout/planning_and_routines.md)。
+这对研究节奏的影响是：机时要提前申请和预约，样品要提前准备好，测试方案要在上机前想清楚 `[本项目分析]`。排期的通用方法见[计划与日常节奏](../../08_throughout/planning_and_routines.md)。
 
 ### 计算：密度泛函理论和高通量筛选
 
 很多课题会配合计算，常用的一种是**密度泛函理论**（density functional theory，DFT），一种从量子力学出发计算原子尺度结构和性质的方法 `[本项目分析]`。按 Lejaeghere 等人 2016 年文中的说法，每年发表的密度泛函理论论文超过 1.5 万篇，它也越来越多地被自动化使用，用来建大型数据库[^lejaeghere2016reproducibility-e1]。**高通量筛选**是一次计算成千上万个结构的性质[^draxl2018nomad-e3]，用来寻找有希望的材料 `[本项目分析]`。
 
-计算也有可复现问题。计算程序很多，实现细节差别很大[^lejaeghere2016reproducibility-e2]。Lejaeghere 等人组织了一次社区合作，比较了 15 个程序、40 种势或基组在 71 种单质晶体上的结果[^lejaeghere2016reproducibility-e3]。（势和基组是计算里描述原子和电子的近似设置，通常以文件形式随程序提供 `[本项目分析]`。）结论是：较新的程序和赝势（一类常用的势）之间非常一致，差别和不同高精度实验之间的差别相当；较老的方法一致性差一些[^lejaeghere2016reproducibility-e4]。因此他们主张只用某个程序最新版的势文件[^lejaeghere2016reproducibility-e5]。他们也承认，要完整说明一次计算，连程序默认值和写死在代码里的参数都得写上[^lejaeghere2016reproducibility-e6]。对新手来说，这意味着论文里至少要写明程序名和版本、势文件或基组、主要数值设置 `[本项目分析]`。仿真研究的一般做法见研究方法里的[定量仿真](../../06_methods/simulation_study.md)。
+计算也有可复现问题。计算程序很多，实现细节差别很大[^lejaeghere2016reproducibility-e2]。Lejaeghere 等人组织了一次社区合作，比较了 15 个程序、40 种势或基组在 71 种单质晶体上的结果[^lejaeghere2016reproducibility-e3]。（势和基组是计算里描述原子和电子的近似设置，通常以文件形式随程序提供 `[本项目分析]`。）结论是：较新的程序和赝势（一类常用的势）之间非常一致，差别和不同高精度实验之间的差别相当；较老的方法一致性差一些[^lejaeghere2016reproducibility-e4]。因此他们主张只用某个程序最新版的势文件[^lejaeghere2016reproducibility-e5]。他们也承认，要完整说明一次计算，连程序默认值和写死在代码里的参数都得写上[^lejaeghere2016reproducibility-e6]。仿真研究的一般做法见研究方法里的[定量仿真](../../06_methods/simulation_study.md)。
 
 ### 发表
 
 本文资料没有找到关于本领域署名惯例、审稿周期、期刊和会议地位的可靠公开说明，这些以导师和目标期刊的要求为准。能确定的几点：
 
-- **有预印本渠道。** 预印本是正式发表前先公开的论文稿 `[本项目分析]`。预印本网站 arXiv 设有材料科学分类 cond-mat.mtrl-sci，覆盖合成、表征、结构、力学性质、缺陷、界面等[^arxivtaxonomy-e7]；纳米结构的物理研究（量子点、纳米管、石墨烯等）在介观与纳米物理分类 cond-mat.mes-hall[^arxivtaxonomy-e8]。偏化学的工作，发表规范可参考[化学篇](../chemistry/README.md) `[本项目分析]`。
+- **有预印本渠道。** 预印本网站 arXiv 设有材料科学分类 cond-mat.mtrl-sci，覆盖合成、表征、结构、力学性质、缺陷、界面等[^arxivtaxonomy-e7]；纳米结构的物理研究（量子点、纳米管、石墨烯等）在介观与纳米物理分类 cond-mat.mes-hall[^arxivtaxonomy-e8]。偏化学的工作，发表规范可参考[化学篇](../chemistry/README.md) `[本项目分析]`。
 - **期刊可能要求公开材料和数据。** 以 Nature Portfolio 期刊为例，发表的条件之一是及时向读者提供材料、数据、代码和流程[^naturereportingstandards-e1]；获取上有任何限制，投稿时就要告诉编辑[^naturereportingstandards-e3]。其他出版方的规定可能不同，投稿前查目标期刊 `[本项目分析]`。
 
 ---
@@ -81,9 +80,9 @@
 - **用两种以上独立方法**表征同一性质，价值大得多[^faria2018minimum-e7]。
 - **说明波动来自哪里**：是同一批材料测了多次，还是做了多个批次[^faria2018minimum-e8]。
 - **尽量在接近后续实验所用液体的介质中表征**，例如做细胞实验就在相近的液体里测[^faria2018minimum-e9]。
-- **写清统计信息**：独立实验次数，以及用标准差、标准误还是置信区间表示不确定性[^faria2018minimum-e11]；尽可能提供原始数据[^faria2018minimum-e12]。
+- **写清统计信息**，例如独立实验次数[^faria2018minimum-e11]。通用做法见主线章节[报告差多少、有多确定，而不只是 p 值](../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
-动物实验部分，MIRIBEL 写明要遵循动物研究报告指南 ARRIVE[^faria2018minimum-e16]，见[生物科学篇](../biological-sciences/README.md)。统计的通用做法见主线章节[报告差多少、有多确定，而不只是 p 值](../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+动物实验部分，MIRIBEL 写明要遵循动物研究报告指南 ARRIVE[^faria2018minimum-e16]，见[生物科学篇](../biological-sciences/README.md)。
 
 ### 器件性能报告：以太阳能电池为例
 
@@ -103,7 +102,7 @@
 
 钙钛矿太阳能电池（一类新型太阳能电池）研究里也有类似问题。Jacobsson 等人 2022 年在这类电池的数据库论文中指出，电池之间、批次之间的差异可能很大，会掩盖本来统计上显著的差别；他们也说这不是钙钛矿领域独有的问题[^jacobsson2022open-e4]。还有实验室之间的差异，通常被归因于论文里没写出来的"隐藏参数"[^jacobsson2022open-e5]。他们猜测的例子有手套箱体积、制备时的气氛成分、前驱体配比的细微变化、化学杂质，并说明这些只是假设[^jacobsson2022open-e6]。所以这些看似琐碎的条件，也值得记在实验记录里 `[本项目分析]`。
 
-**只报"冠军器件"。** Jacobsson 等人人工查阅了截至 2020 年 2 月的 1.5 万多篇钙钛矿太阳能电池论文，提取了 4.24 万多个器件的数据[^jacobsson2022open-e3]。他们发现，一个典型项目写论文前可能做了成百上千个器件，但在含原始器件数据的论文中，平均每篇能提取到数据的器件不到 6 个[^jacobsson2022open-e7]；常见的情况是一个参数改几档，每档只给出最好那个器件的数据[^jacobsson2022open-e8]。这组数字只来自钙钛矿太阳能电池论文，不能直接推广到整个材料领域；但只看最好的器件，读者无法判断结果有多容易重复，这一点对其他器件研究同样值得注意 `[本项目分析]`。可以参考上文 Nature 系列期刊的做法：说明测了多少个器件[^naturesolarcellsreporting-e4]，报告最好器件的同时报告平均值[^naturematerials2015checklist-e5]。报告全部结果的通用原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
+**只报"冠军器件"。** Jacobsson 等人人工查阅了截至 2020 年 2 月的 1.5 万多篇钙钛矿太阳能电池论文，提取了 4.24 万多个器件的数据[^jacobsson2022open-e3]。他们发现，一个典型项目写论文前可能做了成百上千个器件，但在含原始器件数据的论文中，平均每篇能提取到数据的器件不到 6 个[^jacobsson2022open-e7]；常见的情况是一个参数改几档，每档只给出最好那个器件的数据[^jacobsson2022open-e8]。这组数字只来自钙钛矿太阳能电池论文，不能直接推广到整个材料领域；但只看最好的器件，读者无法判断结果有多容易重复，这一点对其他器件研究同样值得注意 `[本项目分析]`。报告全部结果的通用原则见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
 
 ### 材料数据共享与 FAIR 原则
 
@@ -113,7 +112,7 @@
 
 计算数据有专门的数据库可存，NOMAD 是一个例子。它的建设者 Draxl 和 Scheffler 指出，高通量计算产生的信息只有极小一部分被用上[^draxl2018nomad-e1]，论文之外的大量信息通常被丢弃甚至删掉[^draxl2018nomad-e2]。按他们 2018 年的介绍，NOMAD 数据库接收计算程序直接输出的原始文件，条件是写明作者、能查到程序和版本、输入输出文件完整[^draxl2018nomad-e5]；数据可以先不公开，但最长三年后全部公开[^draxl2018nomad-e6]；免费保存至少 10 年，也方便课题组回忆几年前到底做了什么[^draxl2018nomad-e4]。现行规则以 NOMAD 官网为准 `[本项目分析]`。
 
-Jacobsson 等人认为，共享数据对自己也有好处：能让数据被再利用、给原论文带来更多关注，也能回应纳税人、资助机构和出版方对开放的要求[^jacobsson2022open-e9]。整理数据的通用方法见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md#2-原始数据只读其余都能重新生成)。
+整理数据的通用方法见[整理科研材料](../../08_throughout/organizing_materials.md#2-原始数据只读其余都能重新生成)。
 
 ### 纳米材料的实验室安全（以美国 NIOSH 指南为例）
 
@@ -128,31 +127,38 @@ Jacobsson 等人认为，共享数据对自己也有好处：能让数据被再�
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[合成与表征研究](../../06_methods/synthesis_study.md)、[实验测量研究](../../06_methods/experimental_measurement.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的四种，其他套路本文资料未涉及。表的分组和第二栏是本项目的归纳，每条标准只代表脚注里的那个方向 `[本项目分析]`。
 
-本领域常用的方法，有不少在研究方法和计算机篇的实践里有对应文档，可以直接参考。下面只写本领域额外要注意的地方：
+| 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md) | 制备新材料、器件或工艺，再测性能 | 新纳米材料要给出别人能照着做的合成步骤，并写纯化方法[^faria2018minimum-e3]；器件要说明测了多少块、做性能的统计分析[^naturesolarcellsreporting-e4][^naturesolarcellsreporting-e5]，最好器件和平均效率一起报[^naturematerials2015checklist-e5] | [合成与表征研究](../../06_methods/synthesis_study.md)、[工程研究](../computer-science/practices/engineering_research.md)（计算机篇） |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 弄清做出来的材料是什么、批次之间差多少 | 写清每个参数用什么技术、仪器、流程测[^faria2018minimum-e6]；同一性质用两种以上独立方法[^faria2018minimum-e7]；报分布，不只报平均值[^faria2018minimum-e10]；说明波动来自同一批还是多个批次[^faria2018minimum-e8] | [实验测量研究](../../06_methods/experimental_measurement.md) |
+| [比较评估](../../05_research-strategies/compare_evaluate.md) | 比较不同计算程序或方法，例如 15 个程序在 71 种单质晶体上的比较[^lejaeghere2016reproducibility-e3] | 写明程序、版本和势文件，只用程序最新版的势文件[^lejaeghere2016reproducibility-e5]；完整说明一次计算，连默认值和写死在代码里的参数都要写[^lejaeghere2016reproducibility-e6] | [基准评测](../computer-science/practices/benchmarking.md)（计算机篇）、[定量仿真](../../06_methods/simulation_study.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 把大量已发表论文的数据汇总成数据库再分析，例如人工查阅 1.5 万多篇钙钛矿电池论文，提取 4.24 万多个器件的数据[^jacobsson2022open-e3] | 样品性质常受制备和处理历史影响，数据难做到 FAIR[^jacobsson2022open-e2]；论文常一个参数改几档、每档只给最好器件的数据[^jacobsson2022open-e8] | [数据科学](../../06_methods/data_science.md) |
 
-- **合成与表征研究**（没有对应文档）：做出新材料并弄清它的结构和性质。要点是可重复的合成步骤、多种独立的表征方法、说明批次情况[^faria2018minimum-e3][^faria2018minimum-e7][^faria2018minimum-e8]。
-- [工程研究](../computer-science/practices/engineering_research.md)：设计并做出新器件、新工艺，再评估性能。器件结果要说明做了多少个，最好值和平均值一起报[^naturesolarcellsreporting-e4][^naturematerials2015checklist-e5]。
-- [定量仿真](../../06_methods/simulation_study.md)：密度泛函理论计算、分子动力学等。要写明程序、版本和势文件，优先用最新的势文件[^lejaeghere2016reproducibility-e5]。
-- [基准评测](../computer-science/practices/benchmarking.md)：在相同条件下比较多种方法。Lejaeghere 等人比较多个计算程序的工作就是一例[^lejaeghere2016reproducibility-e3]。
-- [数据科学](../../06_methods/data_science.md)：在材料数据库上做挖掘和机器学习。要注意实验数据受样品历史影响，样品质量也常常没有充分表征[^jacobsson2022open-e2][^draxl2018nomad-e7]。
-- [复现研究](../../06_methods/replication.md)：重做已发表的合成或器件。复现不出来时，可以先排查批次差异和论文没写的"隐藏参数" `[本项目分析]`，后者常被认为是实验室之间结果不一致的原因[^jacobsson2022open-e5]。
-- **纳米材料的生物效应和安全性研究**：要同时遵守材料表征和生物实验两套规范，见上文最低信息报告和[生物科学篇](../biological-sciences/README.md)。
+怎么用这张表 `[本项目分析]`：先按核心主张定主要套路。例如做出新器件、同时详细表征材料，按构建改进的标准要求，表征部分按观察描述的要求写清。
+
+## 本学科常用的研究方法
+
+本学科没有独有的方法文档，用的是[研究方法](../../06_methods/README.md)里的跨学科方法和计算机篇的实践：
+
+- [合成与表征研究](../../06_methods/synthesis_study.md)、[实验测量研究](../../06_methods/experimental_measurement.md)：报告要求见上文[最低信息报告](#最低信息报告以纳米生物研究为例)和[器件性能报告](#器件性能报告以太阳能电池为例)。
+- [定量仿真](../../06_methods/simulation_study.md)：见上文[计算](#计算密度泛函理论和高通量筛选)；[数据科学](../../06_methods/data_science.md)：材料数据库上的挖掘和机器学习，见上文[材料数据共享](#材料数据共享与-fair-原则)。
+- [复现研究](../../06_methods/replication.md)：复现不出来时，先排查批次差异和"隐藏参数"，见上文[可重复性](#可重复性批次差异和冠军器件)。
+- [工程研究](../computer-science/practices/engineering_research.md)、[基准评测](../computer-science/practices/benchmarking.md)（计算机篇）。纳米材料的生物效应研究还要遵守生物实验规范，见[生物科学篇](../biological-sciences/README.md)。
 
 ---
 
 ## 给新手的建议
 
 1. **从第一批样品起就记"琐碎"条件。** Jacobsson 等人在钙钛矿电池研究中猜测，手套箱体积、制备气氛、前驱体配比、杂质都可能是"隐藏参数"[^jacobsson2022open-e6]，记下来，日后排查才有依据 `[本项目分析]`。实验记录的通用做法见主线章节[执行与迭代](../../03_conduct-and-analyze/01_run-and-iterate.md#3-每次运行都留下记录)。
-2. **每个关键性质至少用两种方法表征**，并写清每种方法的仪器和流程[^faria2018minimum-e6][^faria2018minimum-e7]。
-3. **做多个批次、多个器件，报告分布。** 说明测了多少个、波动来自同一批还是多个批次，再给平均值和最好值[^naturesolarcellsreporting-e4][^naturematerials2015checklist-e5][^faria2018minimum-e8]。
-4. **写论文前，对照目标期刊的报告表自查。** 没有专门报告表的方向，可以借用相近方向的清单，例如 MIRIBEL[^faria2018minimum-e14]或太阳能电池报告表 `[本项目分析]`。
-5. **共享平台的机时提前申请**，上机前把样品和测试方案准备好；发表时别忘了致谢平台[^lblfoundryuser-e6] `[本项目分析]`。
-6. **计算工作保留完整的输入输出文件**，写明程序版本和势文件[^lejaeghere2016reproducibility-e5]；可以考虑存到公开的材料数据库[^draxl2018nomad-e5]。
-7. **第一次操作纳米粉末前，先完成本单位的安全培训**，问清通风、存放和清洁要求[^niosh2009approaches-e3][^niosh2009approaches-e4] `[本项目分析]`。
+2. **关键性质用两种以上方法表征；做多个批次、多个器件，报告分布**，具体要求见上文[常用套路与证据标准](#常用套路与证据标准)。
+3. **写论文前，对照目标期刊的报告表自查。** 没有专门报告表的方向，可以借用相近方向的清单，例如 MIRIBEL[^faria2018minimum-e14]或太阳能电池报告表 `[本项目分析]`。
+4. **共享平台的机时提前申请**，上机前把样品和测试方案准备好；发表时别忘了致谢平台[^lblfoundryuser-e6] `[本项目分析]`。
+5. **计算工作保留完整的输入输出文件**，可以存到公开的材料数据库[^draxl2018nomad-e5]。
+6. **第一次操作纳米粉末前，先完成本单位的安全培训**，问清通风、存放和清洁要求[^niosh2009approaches-e3][^niosh2009approaches-e4] `[本项目分析]`。
 
 ---
 
@@ -161,12 +167,8 @@ Jacobsson 等人认为，共享数据对自己也有好处：能让数据被再�
 | 错误 | 为什么是问题 |
 |---|---|
 | 只报平均粒径 | 平均值相同的两批颗粒，粒径范围可能差很远，只看平均值没法判断生物学效应[^faria2018minimum-e4] |
-| 只写"用某仪器测得"，不写方法和测的是哪种尺寸 | 测量流程和尺寸类型都要写清[^faria2018minimum-e5][^faria2018minimum-e6] |
 | 只做一个批次，就当作这种材料的性质 | 纳米材料合成的批次差异可能相当显著[^mulhopt2018characterization-e3]，单个批次未必有代表性[^mulhopt2018characterization-e4] |
-| 只报"冠军器件"，不说测了多少个 | 读者无法判断结果有多容易重复；Nature Materials 社论建议同时报告平均效率[^naturematerials2015checklist-e5] |
 | 太阳能电池只给一个扫描方向的曲线 | Nature 系列期刊的报告表要求正反两个方向[^naturesolarcellsreporting-e2] |
-| 计算用旧版势文件，也不写程序版本 | 较老的方法和势文件结果一致性差[^lejaeghere2016reproducibility-e4][^lejaeghere2016reproducibility-e5] |
-| 数据只留下写进论文的几张图 | 论文之外的大量信息常被丢弃甚至删掉[^draxl2018nomad-e2]，别人和自己以后都用不上 `[本项目分析]` |
 | 在敞开的台面上称量、转移纳米粉末，用干扫清理 | NIOSH 建议避免敞开操作，不要干扫或用气枪吹[^niosh2009approaches-e10][^niosh2009approaches-e8] |
 
 ---
@@ -198,7 +200,6 @@ Jacobsson 等人认为，共享数据对自己也有好处：能让数据被再�
 [^faria2018minimum-e9]: Faria 等人 2018，Material Characterisation：General guidelines。[证据](../../../sources/notes/faria2018minimum.md#e9)
 [^faria2018minimum-e10]: Faria 等人 2018，Material Characterisation：General guidelines。[证据](../../../sources/notes/faria2018minimum.md#e10)
 [^faria2018minimum-e11]: Faria 等人 2018，Experimental Protocol Details：Details of data analysis。[证据](../../../sources/notes/faria2018minimum.md#e11)
-[^faria2018minimum-e12]: Faria 等人 2018，Experimental Protocol Details：General guidelines。[证据](../../../sources/notes/faria2018minimum.md#e12)
 [^faria2018minimum-e13]: Faria 等人 2018，Summary and Outlook。[证据](../../../sources/notes/faria2018minimum.md#e13)
 [^faria2018minimum-e14]: Faria 等人 2018，引言。[证据](../../../sources/notes/faria2018minimum.md#e14)
 [^faria2018minimum-e15]: Faria 等人 2018，Defining the Scope of a Minimum Information Standard。[证据](../../../sources/notes/faria2018minimum.md#e15)
@@ -246,7 +247,6 @@ Jacobsson 等人认为，共享数据对自己也有好处：能让数据被再�
 [^jacobsson2022open-e6]: Jacobsson 等人 2022，Example uses of the Perovskite Database。[证据](../../../sources/notes/jacobsson2022open.md#e6)
 [^jacobsson2022open-e7]: Jacobsson 等人 2022，Future expansion of the database。[证据](../../../sources/notes/jacobsson2022open.md#e7)
 [^jacobsson2022open-e8]: Jacobsson 等人 2022，Future expansion of the database。[证据](../../../sources/notes/jacobsson2022open.md#e8)
-[^jacobsson2022open-e9]: Jacobsson 等人 2022，Future expansion of the database。[证据](../../../sources/notes/jacobsson2022open.md#e9)
 [^naturematerials2015checklist-e1]: Nature Materials 2015 社论，导语。[证据](../../../sources/notes/naturematerials2015checklist.md#e1)
 [^naturematerials2015checklist-e2]: Nature Materials 2015 社论，第 1 段。[证据](../../../sources/notes/naturematerials2015checklist.md#e2)
 [^naturematerials2015checklist-e3]: Nature Materials 2015 社论，第 2 段。[证据](../../../sources/notes/naturematerials2015checklist.md#e3)

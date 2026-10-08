@@ -1,8 +1,13 @@
 # 随机对照试验
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲怎样设计和实施一项**随机对照试验**（randomized controlled trial）：把受试者随机分到不同干预组，比较他们的结局。伦理审批、试验登记、署名、利益冲突、数据共享这些规则，[临床医学领域概况](../07_fields/clinical-medicine/README.md)已经讲过，这里只讲它们落在试验的哪一步。观察性研究（队列、病例对照、横断面）不在本文范围。
+本文讲怎样设计和实施一项**随机对照试验**（randomized controlled trial）：把受试者随机分到不同干预组，比较他们的结局。伦理审批、试验登记、署名、利益冲突、数据共享这些规则，[临床医学学科概况](../07_fields/clinical-medicine/README.md)已经讲过，这里只讲它们落在试验的哪一步。观察性研究（队列、病例对照、横断面）不在本文范围。
+
+**适用范围** `[本项目分析]`：本文原为[临床医学](../07_fields/clinical-medicine/README.md)写，资料主要是临床试验的两份报告规范（CONSORT 2025、SPIRIT 2025）及其解释文章、世界医学会的《赫尔辛基宣言》、国际医学期刊编辑委员会（ICMJE）的建议和世界卫生组织的登记说明。所以下文的"必须""应该"，都是临床医学对试验的要求。[健康科学](../07_fields/health-sciences/README.md)、[基础医学](../07_fields/basic-medicine/README.md)、[动物科学与兽医学](../07_fields/animal-veterinary-science/README.md)、[医学工程](../07_fields/medical-engineering/README.md)的学科概况也指向本篇。在其他学科做随机分组的研究，先看本学科的规范；和政府、企业合作在真实项目里随机，见[田野实验](field_experiment.md)；请人到实验室参加的随机实验，见[对照实验](controlled_experiment.md)。
+
+**常服务的套路**：[解释因果](../05_research-strategies/explain_causality.md)。
+
 
 **读完本文，你应该能：**
 - 用 PICO 把临床问题写成一个试验能回答的问题，并选好主要结局；
@@ -17,15 +22,15 @@
 
 随机对照试验回答**因果问题**："对这类病人，干预 A 比对照 C 更能改善结局 O 吗？"随机分配做得正确时，能消除分组时的选择偏倚，让已知和未知的预后因素在组间均衡[^hopewell2025consortee-e1]。所以设计、实施、分析和报告都恰当的随机试验，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2]。关键在"都恰当"，下面每一步都是为了守住这一点 `[本项目分析]`。
 
-**和队列研究的区别**（哪些问题更适合观察性研究，见领域概况的[常见的研究类型](../07_fields/clinical-medicine/README.md#常见的研究类型)）：
+**和队列研究的区别**（观察性研究怎么做，见[观察性流行病学研究](observational_epidemiology.md)）：
 
 | | 随机对照试验 | 队列研究 |
 |---|---|---|
 | 谁决定受试者接受什么干预 | 研究者，用随机方法分配 | 不由研究者安排[^icmje2026recommendations-e21] |
 | 事前登记 | 必须在招募第一位受试者之前（见第 7 步） | 国际医学期刊编辑委员会（ICMJE）鼓励但不强制[^icmje2026recommendations-e21] |
-| 报告规范 | CONSORT 2025（见第 10 步） | STROBE，见[领域概况](../07_fields/clinical-medicine/README.md#报告规范按研究类型选清单) |
+| 报告规范 | CONSORT 2025（见第 10 步） | STROBE，见[临床医学学科概况](../07_fields/clinical-medicine/README.md#报告规范按研究类型选清单) |
 
-**和研究方法里的对照实验比。** 两者逻辑相同：主动改变一个因素，随机分组，比较结果。[对照实验](controlled_experiment.md)一篇讲过的被试内设计、任务设计、预实验，这里不再重复。临床试验多出来的是下文的分配隐藏、多类人员设盲、入组前登记、独立的数据监查和意向性分析 `[本项目分析]`。
+**和对照实验比。** 两者逻辑相同：主动改变一个因素，随机分组，比较结果。[对照实验](controlled_experiment.md)一篇讲过的被试内设计、任务设计、预实验，这里不再重复。临床试验多出来的是下文的分配隐藏、多类人员设盲、入组前登记、独立的数据监查和意向性分析 `[本项目分析]`。
 
 **设计的几种类型。** CONSORT 2025 适用于所有随机试验，但以最常见的两组平行设计为主[^hopewell2025consort-e9]；其他主要设计有多臂平行、交叉、整群和析因设计，各有专门的 CONSORT 扩展版[^hopewell2025consortee-e2]。本文以两组平行设计为例；用其他设计，先找对应的扩展版。
 
@@ -57,7 +62,7 @@
 ### 第 3 步：算样本量
 
 **怎么做：**
-- 按主要结局计算。试验要足够大：如果真有一个事先规定大小、有临床意义的差异，试验有很高的概率检测到它；这个概率叫**把握度**（power，研究方法里的对照实验一篇叫"功效"）[^hopewell2025consortee-e14]。
+- 按主要结局计算。试验要足够大：如果真有一个事先规定大小、有临床意义的差异，试验有很高的概率检测到它；这个概率叫**把握度**（power，[对照实验](controlled_experiment.md)一篇叫"功效"）[^hopewell2025consortee-e14]。
 - 写明全部假设：依据哪个主要结局和时间点、统计检验、α 值（第一类错误，即假阳性的概率）及是否双侧、把握度，以及每组目标人数[^hopewell2025consortee-e15]。
 - 为失访或不依从放大了样本量的，写明细节[^hopewell2025consortee-e16]。方案里还要写明怎样招够人[^chan2025spirit-e1]。
 
@@ -106,9 +111,9 @@
 
 **写方案**：方案是计划方法和实施过程最重要的记录[^chan2025spirit-e4]。按 SPIRIT 2025 写，它有 34 项最低限度条目和一张入组、干预、评估的时间安排图[^chan2025spirit-e5]。第 1～6 步的决定都写进去，还要写明由谁、怎样取得知情同意[^chan2025spirit-e6]；按《赫尔辛基宣言》，临床试验的方案还必须写明试验结束后的安排[^wma2024helsinki-e15]。方案在分配任何受试者之前定稿；完整的统计分析计划在数据库锁定、开始分析之前定稿[^hopewell2025consortee-e38]。
 
-**过伦理**：完整方案必须在入组之前提交研究伦理委员会批准[^chan2025spirit-e7]。知情同意的要求见[领域概况](../07_fields/clinical-medicine/README.md#研究对象是人伦理排在第一位)。
+**过伦理**：完整方案必须在入组之前提交研究伦理委员会批准[^chan2025spirit-e7]。知情同意的要求见[临床医学学科概况](../07_fields/clinical-medicine/README.md#研究对象是人伦理排在第一位)。
 
-**做登记**：《赫尔辛基宣言》要求在招募第一位受试者之前，在公开数据库登记[^wma2024helsinki-e9]；ICMJE 建议医学期刊把"在第一位病人签署入组同意时或之前登记"作为考虑发表的前提[^icmje2026recommendations-e15]。伦理批准不等于登记、事后补登记没用、登记时要写数据共享计划，见领域概况的[先登记，再招募第一位病人](../07_fields/clinical-medicine/README.md#先登记再招募第一位病人)和[数据共享声明](../07_fields/clinical-medicine/README.md#数据共享声明)。
+**做登记**：《赫尔辛基宣言》要求在招募第一位受试者之前，在公开数据库登记[^wma2024helsinki-e9]；ICMJE 建议医学期刊把"在第一位病人签署入组同意时或之前登记"作为考虑发表的前提[^icmje2026recommendations-e15]。伦理批准不等于登记、事后补登记没用、登记时要写数据共享计划，见临床医学学科概况的[先登记，再招募第一位病人](../07_fields/clinical-medicine/README.md#先登记再招募第一位病人)和[数据共享声明](../07_fields/clinical-medicine/README.md#数据共享声明)。
 
 **去哪登记**：按世界卫生组织（WHO）国际临床试验注册平台的说明，WHO 本身不是登记库，要向 WHO 登记网络中的任一一级登记库提交[^whotrialregistration-e1]；在一个一级登记库或 ICMJE 认可的登记库登记一次即可[^whotrialregistration-e2]。各国对临床试验的监管、法律和伦理要求不同[^whotrialregistration-e3]，以本国规定为准。
 
@@ -162,7 +167,7 @@ CONSORT（Consolidated Standards of Reporting Trials，临床试验报告统一�
 - [ ] 报告所有计划的结局[^hopewell2025consortee-e51]，附效应量的置信区间[^hopewell2025consortee-e52]
 
 **做到更好**
-- [ ] 采用本领域的核心结局集[^hopewell2025consortee-e10]
+- [ ] 采用所研究疾病领域的核心结局集[^hopewell2025consortee-e10]
 - [ ] 用集中分配或第三方分配[^hopewell2025consortee-e27]
 - [ ] 统计分析计划在数据库锁定前定稿[^hopewell2025consortee-e38]
 - [ ] 研究结束后 12 个月内把主要结果发布到一级登记库（CONSORT 解释文章转述的世界卫生组织 2015 年声明）[^hopewell2025consortee-e57]
@@ -194,7 +199,7 @@ CONSORT（Consolidated Standards of Reporting Trials，临床试验报告统一�
 
 - **CONSORT 2025 声明及其解释文章**（Hopewell 等人 2025；解释文章发表于 BMJ，PubMed Central 有免费全文）：声明是 30 项清单和流程图，写论文时对照用；解释文章是本文主要依据，逐条讲每个条目的含义、理由和实证依据，其中随机化、分配隐藏、盲法、意向性分析几节，设计阶段就值得读。
 - **SPIRIT 2025 声明**（Chan 等人 2025）：34 项方案条目，写方案时逐条对照。
-- **《赫尔辛基宣言》（世界医学会，2024 年版）、ICMJE 建议（面向医学期刊）、WHO 国际临床试验注册平台网页**：伦理、登记、数据共享的基础文件，见[领域概况](../07_fields/clinical-medicine/README.md)；登记前去 WHO 网页查一级登记库。
+- **《赫尔辛基宣言》（世界医学会，2024 年版）、ICMJE 建议（面向医学期刊）、WHO 国际临床试验注册平台网页**：伦理、登记、数据共享的基础文件，见[临床医学学科概况](../07_fields/clinical-medicine/README.md)；登记前去 WHO 网页查一级登记库。
 - 本文资料未涉及：具体的样本量公式和软件、最小化法和缺失数据填补的具体做法、整群和交叉等设计的细节。请看 CONSORT 对应的扩展版，或向试验统计师请教。
 
 [^hopewell2025consortee-e1]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Box 5（Treatment allocation in trials）。[证据](../../sources/notes/hopewell2025consortee.md#e1)

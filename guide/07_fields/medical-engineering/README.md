@@ -1,8 +1,8 @@
-# 医学工程：领域概况
+# 医学工程：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲医学工程（也叫生物医学工程）的研究实际怎样运转：做器械、做算法，从台架试验一路走到动物实验和人体研究；做出来的东西将来可能成为医疗器械，所以研究阶段就要想到设计文档、法规和伦理。和计算机领域共通的做法（工程研究、仿真、对照实验）见研究方法和[计算机篇](../computer-science/README.md)的实践；人体研究和动物研究的规则分别见[临床医学篇](../clinical-medicine/README.md)和[生物科学篇](../biological-sciences/README.md)；各学科都适用的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。这里只写本领域特有的东西。
+本文讲医学工程（也叫生物医学工程）的研究实际怎样运转：做器械、做算法，从台架试验一路走到动物实验和人体研究；做出来的东西将来可能成为医疗器械，所以研究阶段就要想到设计文档、法规和伦理。人体研究和动物研究的规则分别见[临床医学篇](../clinical-medicine/README.md)和[生物科学篇](../biological-sciences/README.md)；各学科都适用的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。这里只写本学科特有的东西。常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)；具体做法见文末的[本学科常用的研究方法](#本学科常用的研究方法)。
 
 **读完本文，你应该能：**
 
@@ -116,8 +116,6 @@
 - **验证和确认是两回事。** 验证看求解数学模型的程序有没有写对[^fda2023cmscredibility-e9]；确认看模型在多大程度上准确反映真实世界[^fda2023cmscredibility-e13]。
 - **校准不等于确认。** 用调参数的同一批数据去比较，不算确认证据，比确认证据弱[^fda2023cmscredibility-e10]。要留出独立的数据来检验 `[本项目分析]`。
 
-仿真研究的一般做法（建模、验证与确认、校准、敏感性分析）见[定量仿真](../../06_methods/simulation_study.md#第三步验证与确认)。
-
 ### 用到机器学习：找对报告规范
 
 上面的 FDA 指南不管机器学习模型[^fda2023cmscredibility-e2]。做临床预测模型（不管用回归还是机器学习），可以按 TRIPOD+AI 报告[^collins2024tripodai-e2]：它有一份 27 项的清单和一份 13 项的摘要清单[^collins2024tripodai-e1]。这篇 2024 年文章的表 1 还按研究类型列了其他报告规范，例如医学影像人工智能研究、人工智能决策支持系统的早期临床评估、含人工智能成分的临床试验报告，各有对应的规范，具体名称查原文表 1[^collins2024tripodai-e3]。
@@ -127,36 +125,42 @@
 - **术语。** 在机器学习研究里，"验证数据"可能指调参用的数据，也可能指评估模型表现的数据[^collins2024tripodai-e6]。TRIPOD+AI 的作者认为不存在"已经验证好的预测模型"，文中把"验证"改称"评估"[^collins2024tripodai-e4]。
 - **数据分开。** 评估数据要和训练、调参、选模型用的数据分开，两边不能有同一个受试者[^collins2024tripodai-e5]。同一个病人的多张图像分到训练集和测试集两边，就违反了这一条 `[本项目分析]`。
 
-BMES 准则也要求：可能用于公共健康决策的人工智能系统和数据驱动模型，要在实际用途上验证，并讲清局限、适用范围和数据来源[^bmes2021ethics-e9]。数据驱动研究的一般做法见[数据科学研究](../../06_methods/data_science.md)。
-
 ### 人和动物：伦理审查（详见其他篇）
 
-涉及人的研究，知情同意、伦理审查、登记等规则见[临床医学篇](../clinical-medicine/README.md#研究对象是人伦理排在第一位)和贯穿全程的[研究涉及人时，先保护人](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；涉及动物的研究，见[生物科学篇](../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。和本领域相关的一点：英国国家动物研究替代、优化与减少中心（NC3Rs）把数学和计算机模型列为"完全替代"动物的方法之一[^nc3rsthe3rs-e4]，这也是做好计算模型的一个价值 `[本项目分析]`。写进论文时按目标期刊要求说明伦理审批：例如 TBME 页面引用的是 2000 年修订的《赫尔辛基宣言》[^embstbmeprepare-e9]，而 ICMJE 要求符合 2024 年修订版[^icmje2026recommendations-e11]。
+涉及人的研究见[临床医学篇](../clinical-medicine/README.md#研究对象是人伦理排在第一位)和[研究涉及人时，先保护人](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；涉及动物的研究见[生物科学篇](../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)和[临床前动物研究](../../06_methods/preclinical_animal_study.md)。和本领域相关的一点：英国国家动物研究替代、优化与减少中心（NC3Rs）把数学和计算机模型列为"完全替代"动物的方法之一[^nc3rsthe3rs-e4]，这也是做好计算模型的一个价值 `[本项目分析]`。写进论文时按目标期刊要求说明伦理审批：例如 TBME 页面引用的是 2000 年修订的《赫尔辛基宣言》[^embstbmeprepare-e9]，而 ICMJE 要求符合 2024 年修订版[^icmje2026recommendations-e11]。
 
-### 职业伦理：BMES 和 IEEE 的准则
+### 职业伦理：BMES 准则
 
-BMES 准则不是法律，规定的是监管要求之外，生物医学工程师还应遵守的职业伦理[^bmes2021ethics-e1]。除上面已经提到的几条，和研究最相关的还有下面几条（最后一条出自 IEEE）：
+BMES 准则不是法律，规定的是监管要求之外，生物医学工程师还应遵守的职业伦理[^bmes2021ethics-e1]。除上面已经提到的几条，和研究最相关的还有下面几条：
 
 - **为尽可能广泛的人群设计**：考虑不同年龄、性别、体型、能力和生理特征[^bmes2021ethics-e8]。只用健康年轻志愿者测出的性能，未必适用于病人 `[本项目分析]`。
 - **公开数据和方法**：项目结束后，在人体数据隐私限制之内尽量公开[^bmes2021ethics-e5]。
 - **声明利益冲突**：经济上的和学术观点上的都要声明[^bmes2021ethics-e10]。本领域的成果可能涉及专利或创业公司 `[本项目分析]`；TBME 要求披露的利益就包括作者在可能授权、申请专利或使用这项成果的公司里的经济利益[^embstbmeprepare-e8]。
-- **公众安全放在首位**：这一条来自《IEEE 伦理准则》第 1 条，要求把公众的安全、健康和福祉放在首位[^ieee2026pspb-e1]。
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的几种。表的分组和"在医学工程里的样子"一栏是本项目的归纳；标准多出自美国的法规、指南和个别期刊，只代表脚注里的出处。观察描述、综合等套路在本学科怎样用，本文资料未涉及 `[本项目分析]`。
 
-本领域的方法有不少在研究方法和计算机篇的实践里有对应文档，可以直接参考。下面只写额外要注意的地方：
+| 套路 | 在医学工程里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md)：器械和原型 | 提出新的器械、传感器或方法。TBME 收的论文就包括有生物医学应用的方法和技术开发[^embstbmeprepare-e1]；性能可以用台架试验来测，按 FDA 的用法它包括体外、尸体等非临床试验[^fda2023cmscredibility-e11] | 分清验证（输出满足设计输入）[^cfr2023designcontrols-e4]和确认（在实际或模拟使用条件下满足用户需要）[^cfr2023designcontrols-e5]；原型缺少成品必需的安全功能，不能当成品看[^fda1997designcontrol-e2] | [工程研究](../computer-science/practices/engineering_research.md)（计算机篇，可参考） |
+| [构建改进](../../05_research-strategies/build_improve.md)：计算模型 | 在计算机上评估器械，例如植入式支架的耐久性[^fda2023cmscredibility-e3] | 按美国 FDA 2023 年指南：可信度针对具体的使用情境[^fda2023cmscredibility-e5]；风险越高要的证据越多[^fda2023cmscredibility-e7]；校准数据不算确认证据[^fda2023cmscredibility-e10] | [定量仿真](../../06_methods/simulation_study.md) |
+| [构建改进](../../05_research-strategies/build_improve.md)：诊断或预测算法 | 开发或评估临床预测模型，不管用回归还是机器学习[^collins2024tripodai-e2] | 按 TRIPOD+AI 报告[^collins2024tripodai-e2]；评估数据和训练数据不能有同一个受试者[^collins2024tripodai-e5]；BMES 准则要求在实际用途上验证，讲清局限和数据来源[^bmes2021ethics-e9] | [数据科学研究](../../06_methods/data_science.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md)：器械的临床研究 | 检验器械用在病人身上是否安全有效。在美国，为确定器械安全性和有效性的临床研究适用 21 CFR 812[^cfr2026ide-e2] | 设计、实施、分析和报告都恰当的随机试验，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2]；ICMJE 所说的干预包括器械[^icmje2026recommendations-e17]，它建议期刊把"在第一位病人签署入组同意时或之前登记"作为考虑发表的前提[^icmje2026recommendations-e15] | [随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md) |
 
-- [工程研究](../computer-science/practices/engineering_research.md)：提出新的器械、传感器、算法并评估。要写清它在"原型→台架→动物→人体"这条链上走到了哪一步 `[本项目分析]`。
-- **台架试验**（没有单独文档）：在实验台、体外或尸体上测性能[^fda2023cmscredibility-e11]。测试条件要尽量接近实际使用，并写清装置 `[本项目分析]`。
-- [定量仿真](../../06_methods/simulation_study.md)：有限元分析、流体仿真、电磁仿真、生理模型。按上文"计算模型怎样才算可信"说清使用情境，并做确认 `[本项目分析]`。
-- [数据科学研究](../../06_methods/data_science.md)：用病人数据开发诊断或预测算法。按 TRIPOD+AI 等规范报告[^collins2024tripodai-e2]，评估数据和训练数据要分开[^collins2024tripodai-e5]。
-- [对照实验](../../06_methods/controlled_experiment.md)：比较不同设计对使用者（医生、护士、病人）的影响，例如可用性测试 `[本项目分析]`。涉及人，要先过伦理审查；用的是研究用器械，在美国还可能适用第 812 部分[^cfr2026ide-e2]。
-- **动物实验**：见[生物科学篇](../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。
-- **临床研究**：见[临床医学篇](../clinical-medicine/README.md#常见的研究类型)。
+怎么用这张表 `[本项目分析]`：
+
+- **一个项目常常跨几行。** 例如先做原型和台架试验，再用计算模型补充，最后进入动物和人体研究。按这篇论文的核心主张定主要套路，并写清项目在"原型→台架→动物→人体"这条链上走到了哪一步。
+- **同一套路，投工程期刊和投医学期刊，"够不够"可能不同。** 投稿前对照目标期刊的要求，见上文[发表：工程期刊和医学期刊两套习惯](#发表工程期刊和医学期刊两套习惯)。
+
+## 本学科常用的研究方法
+
+本学科没有单独的学科独有方法页。跨学科的研究方法里，常用的有[定量仿真](../../06_methods/simulation_study.md)、[数据科学研究](../../06_methods/data_science.md)、[对照实验](../../06_methods/controlled_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)；做新器械、新算法，可以参考计算机篇的[工程研究](../computer-science/practices/engineering_research.md)。下面只写额外要注意的地方：
+
+- **台架试验**（没有单独文档）：测试条件要尽量接近实际使用，并写清装置 `[本项目分析]`。
+- **对照实验**：比较不同设计对使用者（医生、护士、病人）的影响，例如可用性测试 `[本项目分析]`。用的是研究用器械，在美国还可能适用第 812 部分[^cfr2026ide-e2]。
 
 ---
 
@@ -164,11 +168,8 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 
 1. **先写需求，再做原型。** 和合作医生一起把"要解决什么临床问题、达到什么指标"写成工程语言[^fda1997designcontrol-e4]。
 2. **从第一天起好好记录。** 设计决策、测试结果、改动原因都记下来[^bmes2021ethics-e3]；项目将来要转化时，这些记录会用上 `[本项目分析]`。
-3. **分清验证和确认。** "按要求做出来了"和"真正满足用户需要"是两回事（这对定义出自美国已删除的旧条文，概念本身仍然有用）[^cfr2023designcontrols-e4][^cfr2023designcontrols-e5]。
-4. **模型先定用途，再谈可信。** 写清模型用来回答什么问题，留出独立数据做确认[^fda2023cmscredibility-e6][^fda2023cmscredibility-e10]。
-5. **涉及人或动物，先问伦理审查。** 器械研究还要问清本地关于研究用器械的规定；在美国要看第 812 部分[^cfr2026ide-e2]。
-6. **投稿前看清是哪一类期刊。** 工程期刊和医学期刊对摘要、会议论文、登记的要求可能不同，例如 TBME 和 ICMJE 的规定[^embstbmeprepare-e2][^embstbmeprepare-e4][^icmje2026recommendations-e15]。
-7. **对外介绍时，说清成果处在哪个阶段。** 别让一个台架原型听起来像马上能治病的产品[^bmes2021ethics-e11]。
+3. **涉及人或动物，先问伦理审查。** 器械研究还要问清本地关于研究用器械的规定；在美国要看第 812 部分[^cfr2026ide-e2]。
+4. **对外介绍时，说清成果处在哪个阶段。** 别让一个台架原型听起来像马上能治病的产品[^bmes2021ethics-e11]。
 
 ---
 
@@ -180,9 +181,7 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 | 需求只停留在一份笼统的概念说明 | 再简单的说法也可能牵出大量设计问题，概念说明不等于设计要求[^fda1997designcontrol-e3]；关键需求到后期才发现，返工代价大[^fda1997designcontrol-e5] |
 | 只做了验证（规格达标），就说器械"满足临床需要" | 验证和确认是两回事；按美国旧条文的说法，确认要在实际或模拟使用条件下测试[^cfr2023designcontrols-e5] |
 | 把 21 CFR 820.30 或 FDA 1997 年指南当成现行要求 | 前者已从现行法规中删去，设计和开发改按 ISO 13485 第 7.3 条[^cfr2026qmsr-e1][^cfr2026qmsr-e2]；后者据 AABB 新闻已撤回[^aabb2026qmsr-e2] |
-| 用调参数的数据来证明模型准确 | 那是校准证据，不是确认证据，比确认证据弱[^fda2023cmscredibility-e10] |
 | 同一个病人的数据同时出现在训练集和测试集 | 评估数据要和训练数据分开，不能有同一个受试者[^collins2024tripodai-e5] |
-| 把 FDA 2023 计算模型指南套到机器学习模型上 | 这份指南只管基于物理或机理的模型[^fda2023cmscredibility-e2] |
 | 已发表过会议长文，再几乎原样投 TBME | TBME 可能因此不考虑这篇稿件[^embstbmeprepare-e4] |
 | 器械临床试验开始后才登记 | ICMJE 建议期刊把"第一位病人签署入组同意时或之前登记"作为考虑发表的前提，器械也在干预范围内[^icmje2026recommendations-e15][^icmje2026recommendations-e17] |
 | 不披露自己在相关公司的股份或专利 | TBME 要求披露这类经济利益[^embstbmeprepare-e8] |
@@ -268,5 +267,5 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 [^icmje2026recommendations-e11]: ICMJE 2026，§II.E。[证据](../../../sources/notes/icmje2026recommendations.md#e11)
 [^ieee2026pspb-e4]: IEEE PSPB Operations Manual 2026，§8.1.7.F。[证据](../../../sources/notes/ieee2026pspb.md#e4)
 [^ieee2026pspb-e6]: IEEE PSPB Operations Manual 2026，§8.2.1.A.1。[证据](../../../sources/notes/ieee2026pspb.md#e6)
-[^ieee2026pspb-e1]: IEEE PSPB Operations Manual 2026，§2.7（《IEEE 伦理准则》第 1 条）。[证据](../../../sources/notes/ieee2026pspb.md#e1)
 [^nc3rsthe3rs-e4]: NC3Rs，The 3Rs，Replacement。[证据](../../../sources/notes/nc3rsthe3rs.md#e4)
+[^hopewell2025consort-e2]: Hopewell 等人 2025（CONSORT 2025），Introduction。[证据](../../../sources/notes/hopewell2025consort.md#e2)

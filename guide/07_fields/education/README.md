@@ -1,8 +1,8 @@
-# 教育学：领域概况
+# 教育学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲教育学研究实际怎样运转：研究多在学校和课堂里做，要和校长、教师、学生、家长打交道；方法从随机对照试验到课堂民族志都有；伦理上常要面对未成年人和"老师研究自己的学生"；证据标准、效应量解读和重复研究也有本领域的讲究。各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复；和心理学重叠的部分（预注册、统计功效、测量）见[心理学篇](../psychology/README.md)。本文的规范类资料来自美国（美国教育研究协会、美国教育部教育科学研究所）和英国（英国教育研究协会、英国慈善机构教育捐赠基金会），每条都写明是谁的规定；在其他国家做研究，以当地法规、所在单位和合作学校的要求为准 `[本项目分析]`。
+本文讲教育学研究实际怎样运转：研究多在学校和课堂里做，要和校长、教师、学生、家长打交道；方法从随机对照试验到课堂民族志都有；伦理上常要面对未成年人和"老师研究自己的学生"；证据标准、效应量解读和重复研究也有本学科的讲究。各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复；常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)；和心理学重叠的部分（预注册、统计功效、测量）见[心理学篇](../psychology/README.md)。本文的规范类资料来自美国（美国教育研究协会、美国教育部教育科学研究所）和英国（英国教育研究协会、英国慈善机构教育捐赠基金会），每条都写明是谁的规定；在其他国家做研究，以当地法规、所在单位和合作学校的要求为准 `[本项目分析]`。
 
 **读完本文，你应该能：**
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 本领域研究怎样运转
+## 本学科研究怎样运转
 
 ### 研究多在学校里做：先过"守门人"
 
@@ -69,12 +69,10 @@
 | 谁来做研究 | 除了大学研究者，还有为拿学位或改进教学而做研究的一线教师[^bera2024ethical-e1] | 主要是大学和企业的研究者 |
 | 参与者 | 常是未成年人；美国 AERA 准则要求家长同意加孩子本人赞同[^aera2011code-e2][^aera2011code-e3] | 多为成年人 |
 | 时间约束 | 跟着校历和考试季走[^eef2022recruitment-e3] | 计算机跟着会议截止日期走 |
-| 分组单位 | 有的试验按整所学校等群体分组[^wwc2022handbook-e15] | 多按个人分组 |
-| 证据评级 | 有专门给研究评级的机构，如美国的 WWC[^wwc2022handbook-e1] | 计算机有制品评估；心理学重预注册和注册报告 |
 
 ---
 
-## 本领域的规范和报告标准
+## 本学科的规范和报告标准
 
 ### 伦理：未成年人、守门人和"研究自己的学生"
 
@@ -86,7 +84,7 @@
 - **研究自己的学生。** BERA 把"研究者是参与者的老师"列为要仔细处理的情况，要尽量让学生放心：不参加完全没问题[^bera2024ethical-e12]。AERA 准则要求优先选和自己没有师生、上下级关系的参与者，不得不选时要特别确保同意是自愿的[^aera2011code-e7]，并保护学生不因拒绝或退出而吃亏[^aera2011code-e6]；研究者的权威本身就会给人压力[^aera2011code-e8]。BERA 建议的办法包括：把研究者身份讲清楚，请独立的第三方参与研究过程[^bera2024ethical-e11]。一个可行的做法是请同事收同意书、等成绩评定结束后再看谁同意了 `[本项目分析]`。
 - **对照组的公平问题。** BERA：干预只给一组、对照组得不到，而干预可能被看作好处；缓解办法之一是试验结束后，把被证明有效的干预提供给对照组[^bera2024ethical-e13]。
 - **保密有例外。** BERA：得知虐待等情况时，研究者可能负有法定的报告义务[^bera2024ethical-e14]；这种例外要事先写进说明和同意书[^bera2024ethical-e15]。
-- **报告全部结果，共享数据。** BERA 要求报告干预和评估的所有结果，包括负面结果[^bera2024ethical-e16]；AERA 把共享数据作为常规做法[^aera2011code-e9]。具体做法见贯穿全程的[报告全部结果](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)和[让结果能被复现](../../08_throughout/integrity_and_ethics.md#3-让别人能核查你的工作)。
+- **报告全部结果，共享数据。** BERA 要求报告干预和评估的所有结果，包括负面结果[^bera2024ethical-e16]；AERA 把共享数据作为常规做法[^aera2011code-e9]。通用做法见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
 
 ### 报告标准：AERA 的实证研究报告标准
 
@@ -130,32 +128,41 @@
 
 ### 重复研究很少
 
-Makel 和 Plucker 2014 年在 Educational Researcher 发表了一项分析（本文只读到摘要和 AERA 的新闻稿）。摘要说：他们查了按 5 年影响因子排名前 100 的教育期刊的全部发表历史，只有 0.13% 的文章是重复研究；原研究和重复研究的作者没有重叠时，重复成功的可能性明显更低[^makel2014facts-e1][^makel2014facts-e3]。AERA 新闻稿补充了这些已发表重复研究的细分数字：67.4% 重复成功[^makel2014facts-e4]；48.2% 由原团队自己做[^makel2014facts-e6]；完全由新团队做的成功率 54%，原作者在同一篇论文里做的是 88.7%[^makel2014facts-e5]。作者列出投稿、资助、审稿、招聘、晋升等环节对重复研究的不利偏向[^makel2014facts-e9]，建议期刊为重复研究设专门的文章类型、在学生训练中加入重复研究[^makel2014facts-e7]。
+Makel 和 Plucker 2014 年在 Educational Researcher 发表了一项分析（本文只读到摘要和 AERA 的新闻稿）。摘要说：他们查了按 5 年影响因子排名前 100 的教育期刊的全部发表历史，只有 0.13% 的文章是重复研究；原研究和重复研究的作者没有重叠时，重复成功的可能性明显更低[^makel2014facts-e1][^makel2014facts-e3]。作者列出投稿、资助、审稿、招聘、晋升等环节对重复研究的不利偏向[^makel2014facts-e9]，建议期刊为重复研究设专门的文章类型、在学生训练中加入重复研究[^makel2014facts-e7]。
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[基于设计的研究](practices/design_based_research.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出本文资料能支持的四种；分组和概括是本项目的归纳，每条标准只代表脚注里那家机构（多为美、英）`[本项目分析]`。
 
-**相关学科的研究类型文档**：[田野实验](../../06_methods/field_experiment.md)、[量表编制与测量研究](../../06_methods/scale_development.md)。
+| 套路 | 在教育学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md) | 检验一种做法有没有效果，例如估计缩小班额对成绩的影响[^aera2006standards-e4] | 美国 WWC 的评级主要看结果能否支持因果推断[^wwc2022handbook-e16]，只审四类设计[^wwc2022handbook-e5]；每组不能只有一个班或一位老师[^wwc2022handbook-e11]。详见上文[证据标准](#证据标准what-works-clearinghouse-怎样给研究评级)和[效应量](#效应量别拿-cohen-的标准衡量教育干预) | [田野实验](../../06_methods/field_experiment.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)、[对照实验](../../06_methods/controlled_experiment.md) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 在真实课堂里和教师一起多轮设计、改进教学干预，同时提炼设计原则[^anderson2012design-e1]；IES 和 NSF 称为"设计与开发研究"[^ies2013common-e4] | 学界普遍同意它既要产出有效的干预，也要产出有用的理论[^easterday2014design-e1]；大多数这类研究不产出能证明"什么有效"的效应量[^anderson2012design-e9]，要证明有效，还需要后续的效力或有效性研究 | [基于设计的研究](practices/design_based_research.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 描述某个场景里发生了什么、人们怎样理解，例如某所幼儿园怎样教早期读写[^aera2006standards-e4]；探索性研究考察概念之间的关系，通常是相关的[^ies2013common-e3] | AERA 报告标准：写清怎样进入现场、研究者担任什么角色[^aera2006standards-e5]；每个论断给出证据，报告重要的反例[^aera2006standards-e11] | [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md)、[问卷调查](../../06_methods/questionnaire_survey.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 收集已有的教育研究，评估质量，汇总达标的证据，例如美国 WWC[^wwc2022handbook-e1] | WWC 按设计和执行给出三级评级[^wwc2022handbook-e2]；对开发者或作者自编测验的效应量更谨慎[^wwc2022handbook-e14] | [综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md) |
 
-教育学的很多方法和研究方法里涉及人的那几种相通，可以先读对应文档，再注意下表的差异 `[本项目分析]`：
+怎么用这张表 `[本项目分析]`：
 
-| 研究类型 | 研究方法文档 | 教育学里要多注意什么 |
+- **先想清你的研究在[证据链](#一项研究常常只做证据链上的一段)的哪一段。** 早期探索性研究多是观察描述，设计与开发研究是构建改进，效力、有效性和推广研究是解释因果。
+- **一个项目常组合几种套路。** 例如基于设计的研究通常用混合方法[^anderson2012design-e10]；这时按核心主张定主要套路，其他部分按各自套路的标准要求。
+
+## 本学科常用的研究方法
+
+本学科独有的方法是[基于设计的研究](practices/design_based_research.md)。其他方法和别的涉及人的学科相通，可以先读对应的方法篇，再注意下表的差异 `[本项目分析]`：
+
+| 研究方法 | 方法篇 | 教育学里要多注意什么 |
 |---|---|---|
-| 随机对照试验（含整班、整校随机分组） | [对照实验](../../06_methods/controlled_experiment.md) | 有的按整所学校等群体分组[^wwc2022handbook-e15]；前测在分组前做完[^eef2022recruitment-e11]；控制流失[^wwc2022handbook-e10]；效应量预期要现实[^kraft2019interpreting-e16] |
-| 准实验（例如比较实施和未实施某做法的学校） | 无对应文档；因果识别思路见[经济学篇](../economics/README.md) | 必须证明两组干预前相当[^wwc2022handbook-e6]；避免一个班对一个班[^wwc2022handbook-e11] |
-| 课堂观察、案例研究与民族志 | [案例研究与民族志](../../06_methods/case_study.md) | 有学生不同意时怎样处理[^bera2024ethical-e8][^bera2024ethical-e9]；报告怎样进入现场、研究者担任什么角色[^aera2006standards-e5] |
+| 随机对照试验（含整班、整校随机分组） | [田野实验](../../06_methods/field_experiment.md)、[对照实验](../../06_methods/controlled_experiment.md) | 有的按整所学校等群体分组[^wwc2022handbook-e15]；前测在分组前做完[^eef2022recruitment-e11] |
+| 准实验（例如比较实施和未实施某做法的学校） | [准实验与因果识别](../../06_methods/quasi_experiment.md) | 必须证明两组干预前相当[^wwc2022handbook-e6]；避免一个班对一个班[^wwc2022handbook-e11] |
+| 课堂观察、案例研究与民族志 | [案例研究与民族志](../../06_methods/case_study.md) | 有学生不同意时怎样处理[^bera2024ethical-e8][^bera2024ethical-e9]；报告怎样进入现场[^aera2006standards-e5] |
 | 访谈（教师、学生、家长） | [访谈研究](../../06_methods/interview_study.md) | 访谈儿童要家长同意加本人赞同[^aera2011code-e2][^aera2011code-e3]；保密的法定例外[^bera2024ethical-e14] |
-| 问卷调查 | [问卷调查](../../06_methods/questionnaire_survey.md) | 注意被研究过多群体的负担[^bera2024ethical-e23]；量表质量见[心理学篇](../psychology/README.md#测量用有效度证据的量表) |
+| 问卷调查与量表 | [问卷调查](../../06_methods/questionnaire_survey.md)、[量表编制与测量研究](../../06_methods/scale_development.md) | 注意被研究过多群体的负担[^bera2024ethical-e23] |
 | 行动研究、实践者研究（教师研究自己的课堂） | [行动研究](../../06_methods/action_research.md) | 双重身份带来的权力关系[^bera2024ethical-e10]；告知学校管理层[^bera2024ethical-e24] |
-| 基于设计的研究 | 无对应文档，见下文；常用[混合方法](../../06_methods/mixed_methods.md)[^anderson2012design-e10] | 迭代多、周期难界定[^anderson2012design-e3] |
 | 重复研究 | [复现研究](../../06_methods/replication.md) | 在教育期刊中极少；作者与原研究不重叠时更难成功[^makel2014facts-e1][^makel2014facts-e3] |
 
-**行动研究在两个领域的含义不同。** 研究方法里讲的行动研究，是研究者和一个组织合作、亲自推动一项改变。按 Anderson 和 Shattuck 的说法，教育学的行动研究里，教育者既是研究者又是教师[^anderson2012design-e4]，通常由教师自己完成[^anderson2012design-e5]。研究方法里那种"研究者和实践者组队"的做法，在教育学里更接近下面的基于设计的研究 `[本项目分析]`。
-
-**基于设计的研究**（design-based research）在真实的教育环境中进行[^anderson2012design-e2]：研究者和教师合作，多轮迭代地设计、改进一种教学干预，同时提炼设计原则和理论[^anderson2012design-e1]。它的难处：很难知道什么时候算做完[^anderson2012design-e3]；研究者全程参与设计和实施，要保证结论可信是个挑战[^anderson2012design-e6]；大多数这类研究不产出能证明"什么有效"的效应量[^anderson2012design-e9]。按 IES 和 NSF 的分类，它接近"设计与开发研究"[^ies2013common-e4]；要证明干预有效，还需要后续的效力或有效性研究 `[本项目分析]`。
+**行动研究在两处的含义不同。** 方法篇里的行动研究，是研究者和一个组织合作、亲自推动一项改变。按 Anderson 和 Shattuck 的说法，教育学的行动研究里，教育者既是研究者又是教师[^anderson2012design-e4]，通常由教师自己完成[^anderson2012design-e5]。方法篇里那种"研究者和实践者组队"的做法，在教育学里更接近基于设计的研究 `[本项目分析]`。
 
 ---
 
@@ -164,10 +171,8 @@ Makel 和 Plucker 2014 年在 Educational Researcher 发表了一项分析（本
 1. **提前大半年按校历排时间。** EEF 对 9 月开始实施的项目，期望前一年 1 月就开始招募[^eef2022recruitment-e4]；把考试季、学年末和伦理审查都排进计划[^eef2022recruitment-e3][^eef2022recruitment-e7]。
 2. **先找守门人，再找参与者；校长同意不等于每个人同意。**[^bera2024ethical-e2][^bera2024ethical-e3]
 3. **研究自己的学生时，把"同不同意"和成绩、评价彻底分开。** 让学生知道不参加没有任何影响[^bera2024ethical-e12][^aera2011code-e6]。
-4. **想说"有效"，要有可比的对照组，而且每组不止一个班。**[^wwc2022handbook-e11]
-5. **主要结果尽量用独立的标准化测验，自编测验作为补充。**[^wwc2022handbook-e14][^kraft2019interpreting-e8]
-6. **按现实的效应量算样本量。** Kraft 汇总的 747 项教育随机对照试验，效应量中位数是 0.10 个标准差[^kraft2019interpreting-e16]；按 0.5 去算，研究很可能功效不足[^kraft2019interpreting-e4]。
-7. **事先登记，报告全部结果，包括负面结果。**[^bera2024ethical-e16][^ies2018rees-e1]
+4. **主要结果尽量用独立的标准化测验，自编测验作为补充。**[^wwc2022handbook-e14][^kraft2019interpreting-e8]
+5. **按现实的效应量算样本量。** Kraft 汇总的 747 项教育随机对照试验，效应量中位数是 0.10 个标准差[^kraft2019interpreting-e16]；按 0.5 去算，研究很可能功效不足[^kraft2019interpreting-e4]。
 
 ---
 
@@ -313,18 +318,13 @@ Makel 和 Plucker 2014 年在 Educational Researcher 发表了一项分析（本
 [^kraft2019interpreting-e22]: Kraft 2019，第 5 页。[证据](../../../sources/notes/kraft2019interpreting.md#e22)
 [^makel2014facts-e1]: Makel & Plucker 2014，摘要。[证据](../../../sources/notes/makel2014facts.md#e1)
 [^makel2014facts-e3]: Makel & Plucker 2014，摘要。[证据](../../../sources/notes/makel2014facts.md#e3)
-[^makel2014facts-e4]: Makel & Plucker 2014，AERA 新闻稿。[证据](../../../sources/notes/makel2014facts.md#e4)
-[^makel2014facts-e5]: Makel & Plucker 2014，AERA 新闻稿。[证据](../../../sources/notes/makel2014facts.md#e5)
-[^makel2014facts-e6]: Makel & Plucker 2014，AERA 新闻稿。[证据](../../../sources/notes/makel2014facts.md#e6)
 [^makel2014facts-e7]: Makel & Plucker 2014，AERA 新闻稿。[证据](../../../sources/notes/makel2014facts.md#e7)
 [^makel2014facts-e9]: Makel & Plucker 2014，AERA 新闻稿。[证据](../../../sources/notes/makel2014facts.md#e9)
 [^makel2014facts-e10]: AERA 2014 新闻稿编者注。[证据](../../../sources/notes/makel2014facts.md#e10)
+[^easterday2014design-e1]: Easterday 等 2014，Introduction，第 317 页。[证据](../../../sources/notes/easterday2014design.md#e1)
 [^anderson2012design-e1]: Anderson & Shattuck 2012，引言。[证据](../../../sources/notes/anderson2012design.md#e1)
-[^anderson2012design-e2]: Anderson & Shattuck 2012，What is DBR?。[证据](../../../sources/notes/anderson2012design.md#e2)
-[^anderson2012design-e3]: Anderson & Shattuck 2012，Involving multiple iterations。[证据](../../../sources/notes/anderson2012design.md#e3)
 [^anderson2012design-e4]: Anderson & Shattuck 2012，collaborative partnership。[证据](../../../sources/notes/anderson2012design.md#e4)
 [^anderson2012design-e5]: Anderson & Shattuck 2012，Comparison to Action Research。[证据](../../../sources/notes/anderson2012design.md#e5)
-[^anderson2012design-e6]: Anderson & Shattuck 2012，Problems with DBR。[证据](../../../sources/notes/anderson2012design.md#e6)
 [^anderson2012design-e9]: Anderson & Shattuck 2012，Results。[证据](../../../sources/notes/anderson2012design.md#e9)
 [^anderson2012design-e10]: Anderson & Shattuck 2012，Use of mixed methods。[证据](../../../sources/notes/anderson2012design.md#e10)
 [^edworkingpapersabout-e1]: EdWorkingPapers，About。[证据](../../../sources/notes/edworkingpapersabout.md#e1)

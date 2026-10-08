@@ -1,8 +1,8 @@
-# 哲学、伦理与宗教：领域概况
+# 哲学、伦理与宗教：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲哲学研究实际怎样运转：成果主要是论证，怎样读和写一篇哲学论文，怎样对待反驳，论文和专著的位置，匿名审稿，以及怎样查清期刊的审稿时间和接收率；也简要介绍用实证方法做哲学的"实验哲学"，以及宗教学和神学的区别。各学科共通的做法（选题、读文献、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲哲学研究实际怎样运转：成果主要是论证，怎样读和写一篇哲学论文，怎样对待反驳，论文和专著的位置，匿名审稿，以及怎样查清期刊的审稿时间和接收率；也简要介绍用实证方法做哲学的"实验哲学"，以及宗教学和神学的区别。各学科共通的做法（选题、读文献、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。哲学常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)；具体做法见[本学科常用的研究方法](#本学科常用的研究方法)。
 
 **关于资料**：本文的资料主要来自美国：美国哲学学会（American Philosophical Association）1996、2016、2022 年的三份文件，美国宗教学会（American Academy of Religion）2019 年的一份教学指南，美国纽约大学一位哲学教师写给本科生的写作和阅读指南，以及《斯坦福哲学百科全书》（Stanford Encyclopedia of Philosophy，免费的在线哲学百科）的几个条目。注意：美国哲学学会的英文简称也是 APA，和[心理学篇](../psychology/README.md)里的美国心理学会（American Psychological Association）不是一家。下文写到某个学会、某本期刊的做法时，指的就是那一家，不是全世界的通行规定；其他国家和单位的要求以本地规定为准 `[本项目分析]`。宗教学和神学的研究方法，本文找到的资料很少，只讲了两者的基本区别。
 
@@ -11,6 +11,7 @@
 - 说清一篇哲学论文要做什么：为一个小而清楚的主张给出论证，并回应最强的反驳；
 - 用"先找结论、再拆论证、最后评价"的方法读哲学文献；
 - 了解哲学的发表方式：论文为主、匿名审稿，以及投稿前该查清哪些信息；
+- 知道哲学研究常用哪几种研究套路，每种靠什么证据、按什么标准评判；
 - 知道实验哲学是什么，做实证部分时该去哪里学方法；
 - 分清宗教学（把宗教当作研究对象）和神学（从某个信仰传统内部出发）的基本区别。
 
@@ -127,39 +128,36 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 
 ## 本领域的规范
 
-- **期刊投稿和审稿**（美国哲学学会 2022 年的建议）：投稿前查看期刊网站[^apaphil2022journal-e3]，包括接收率、平均审稿时间、接收到出版的平均时间[^apaphil2022journal-e4]；据此选刊，并把稿件按匿名审稿的要求准备好[^apaphil2022journal-e5]；不一稿多投[^apaphil2022journal-e6]。当审稿人时，审稿是无偿的职业责任[^apaphil2022journal-e10]，收到邀请最多一周内答复[^apaphil2022journal-e11]，不去搜索作者身份[^apaphil2022journal-e8]，不过分计较小的文字瑕疵，作者可能英语不是母语[^apaphil2022journal-e15]。
+- **期刊投稿和审稿**（美国哲学学会 2022 年的建议）：投稿前查看期刊网站上的接收率、平均审稿时间、接收到出版的平均时间[^apaphil2022journal-e4]，并把稿件按匿名审稿的要求准备好[^apaphil2022journal-e5]。当审稿人时，收到邀请最多一周内答复[^apaphil2022journal-e11]，不去搜索作者身份[^apaphil2022journal-e8]，不过分计较小的文字瑕疵，作者可能英语不是母语[^apaphil2022journal-e15]；通用做法见[当审稿人](../../08_throughout/being_a_reviewer.md)。
 - **职业行为**（美国哲学学会 2016 年行为准则）：尊重不同的哲学观点和传统[^apaphil2016conduct-e1]，在一切职业交往中保持诚信[^apaphil2016conduct-e2]，并以学术自由为核心价值[^apaphil2016conduct-e3]。
-- **实验哲学**：按实证研究的标准来，可以预注册、公开数据和代码[^sytsma2026experimental-e9]，并通过伦理审批（见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md)）`[本项目分析]`。
 - **引用**：美国哲学学会 1996 年的声明说，哲学引用当代文献是有选择的，引用时批评和赞同一样常见[^apaphil1996research-e6]。所以被引用不等于被认可，引用别人的观点时要说清你是赞同还是反驳 `[本项目分析]`。引用格式按目标期刊要求，本文资料未涉及统一格式。
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[哲学论证研究](practices/philosophical_argument.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出本文资料能支持的几种。表的分组和"在哲学里的样子"一栏是本项目的归纳；标准多出自美国的资料和一位教师的讲义，只代表脚注里的来源 `[本项目分析]`。
 
-**相关学科的研究类型文档**：[规范法学研究](../law/practices/doctrinal_research.md)。
+| 套路 | 在哲学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解读论证](../../05_research-strategies/interpret_argue.md)（主要套路） | 为一个主张做有理由的辩护[^pryor2012writing-e1]。论证多是演绎的，但前提很少绝对无可置疑，所以通常不能一锤定音[^pryor2025terms-e12] | 证据是有争议的前提、对案例的判断和概念区分；最看重推理的质量[^apaphil1996research-e9]；要回应最强、最紧要的反驳[^pryor2012writing-e17]；伦理学和政治哲学常用反思平衡检验原则[^knight2023reflective-e3] | [哲学论证研究](practices/philosophical_argument.md) |
+| [解读论证](../../05_research-strategies/interpret_argue.md)（哲学史与文本解读） | 解释某位哲学家的观点和论证 | 引用原文段落支持你的解读；讨论文本里找不到直接证据的观点时要明说[^pryor2012writing-e25] | [文本细读与文学论证](../languages-literature/practices/close_reading.md)（文学，可参考） |
+| [证明](../../05_research-strategies/prove.md) | 逻辑学等方向接近数学[^apaphil1996research-e5]；数学证明是演绎论证的典型[^pryor2025terms-e3] | 哲学里形式化方向的评判标准，本文资料未涉及 | [理论研究](../computer-science/practices/theoretical_research.md)（计算机，可参考） |
+| [观察描述](../../05_research-strategies/observe_describe.md)、[解释因果](../../05_research-strategies/explain_causality.md)（实验哲学） | 研究人们对哲学概念的"直觉"，通常调查普通人的判断[^sytsma2026experimental-e2]；也检验某些案例判断是否随和哲学无关的因素变化[^sytsma2026experimental-e16] | 用系统方法，不根据个别或有偏的回答下结论[^sytsma2026experimental-e10]；从哲学论证出发，结果接回论证并说明局限[^sytsma2026experimental-e5][^sytsma2026experimental-e7]；样本量和统计报告的要求在提高[^sytsma2026experimental-e8] | [问卷调查](../../06_methods/questionnaire_survey.md)、[对照实验](../../06_methods/controlled_experiment.md)、[数据科学](../../06_methods/data_science.md)（语料库研究） |
 
-本领域还没有专门的研究类型文档。下面的分类为本项目归纳 `[本项目分析]`，能借用研究方法或计算机篇实践文档的，给出链接和差异：
+怎么用这张表 `[本项目分析]`：
 
-- **论证型论文**：提出一个论题，给出论证，回应反驳（见上文"一篇哲学论文要做什么"）。形式逻辑、形式认识论等方向可参考[理论研究](../computer-science/practices/theoretical_research.md)的"把证明写得可以检查"；差异：多数哲学论证的前提不是公理，而是有争议的主张或对案例的判断，所以重点是为前提辩护和回应反驳，而不是推导本身。
-- **哲学史与文本解读**：解释某位哲学家的观点和论证。要引用原文段落支持你的解读；讨论他"可能持有"但文本里找不到直接证据的观点时，要明说[^pryor2012writing-e25]。文本和历史背景的处理可参考[历史与考古篇](../history-archaeology/README.md)。
-- **伦理学与政治哲学**：针对具体问题提出原则，常用反思平衡[^knight2023reflective-e3]。
-- **实验哲学（问卷与情境短文）**：见[问卷调查](../../06_methods/questionnaire_survey.md)和[对照实验](../../06_methods/controlled_experiment.md)；差异：要从哲学论证出发，结果要接回论证[^sytsma2026experimental-e5][^sytsma2026experimental-e7]。
-- **实验哲学（语料库研究）**：系统分析大量文本中词语的用法；数据处理可参考[数据科学](../../06_methods/data_science.md)。
-- **宗教学**：按所用方法（文本、历史、社会学、人类学）借用相应学科的规范[^aar2019literacy-e2]，见上文。
+- **多数哲学论文属于解读论证。** 这个套路页还是占位，具体做法先看[哲学论证研究](practices/philosophical_argument.md)。
+- **按问题选套路。** 问题能靠收集数据回答（"人们实际怎样判断"），就走实证的套路；问题是"这个主张在道理上站不站得住"，就是解读论证。宗教学按所借用的学科（文本、历史、社会学、人类学）选套路和方法[^aar2019literacy-e2]。
 
 ---
 
 ## 给新手的建议
 
-1. **一篇论文只讲一个小观点。** 写之前用一句话说出你的论题和主要理由；说不出来，先别动笔[^pryor2012writing-e5] `[本项目分析]`。
-2. **先写详细提纲，再写全文。** Pryor 认为提纲是写好哲学论文的大部分工作[^pryor2012writing-e7]。
-3. **读文献时画出论证结构。** 结论是什么、前提有哪些、哪些前提没被论证[^pryor2006reading-e4][^pryor2006reading-e5]。读不懂就多读几遍，这很正常[^pryor2006reading-e6]。
-4. **把你要反对的观点先写到对方会认可的程度。** 先准确复述[^pryor2012writing-e15]，按最合理的理解来批评[^pryor2012writing-e14]。
-5. **主动找最强的反驳。** 写一节"反驳与回应"，只处理最强的几个[^pryor2012writing-e17]；修不好就改论题[^pryor2012writing-e19]。
-6. **投稿前查清期刊要求，并为"慢"做好准备。** 查看接收率、审稿时间等信息[^apaphil2022journal-e4]。参考数字：美国哲学学会"期刊调查"中 2019–2023 年 97 种期刊的作者自报问卷（无法核实），初审平均 3.22 个月[^andrews2024journal-e5]；《哲学史杂志》从接收到出版平均 1.31 年[^jhp2025statistics-e3]。时间计划要把这些算进去 `[本项目分析]`。
-7. **做实验哲学，先补实证方法。** 按心理学的标准做预注册、算样本量、完整报告，见[心理学篇](../psychology/README.md#之后改了什么) `[本项目分析]`。
+1. **一篇论文只讲一个小观点，先写详细提纲。** 写之前用一句话说出你的论题和主要理由[^pryor2012writing-e5]；提纲是写好哲学论文的大部分工作[^pryor2012writing-e7]。
+2. **读文献时画出论证结构。** 结论是什么、前提有哪些、哪些前提没被论证[^pryor2006reading-e4][^pryor2006reading-e5]。读不懂就多读几遍，这很正常[^pryor2006reading-e6]。
+3. **先把对方观点准确复述，再找最强的反驳。** 按最合理的理解来批评[^pryor2012writing-e14]；只处理最强的几个反驳，修不好就改论题[^pryor2012writing-e17][^pryor2012writing-e19]。
+4. **投稿前查清期刊要求，并为"慢"做好准备。** 查看接收率、审稿时间等信息[^apaphil2022journal-e4]。参考数字：美国哲学学会"期刊调查"中 2019–2023 年 97 种期刊的作者自报问卷（无法核实），初审平均 3.22 个月[^andrews2024journal-e5]；《哲学史杂志》从接收到出版平均 1.31 年[^jhp2025statistics-e3]。时间计划要把这些算进去 `[本项目分析]`。
 
 ---
 
@@ -168,29 +166,34 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 | 错误 | 为什么是问题 |
 |---|---|
 | 只陈述自己的看法，或只复述哲学家说了什么 | 哲学论文必须给出论证[^pryor2012writing-e2] |
-| 一篇论文想解决大问题 | 结果往往是论文难读，满纸没辩护好、没解释清的主张[^pryor2012writing-e6] |
 | 攻击一个"稻草人"：听起来相似、其实不同的观点 | Pryor 说学生常在这上面浪费时间[^pryor2012writing-e12]；批评前要先准确复述[^pryor2012writing-e15] |
 | 回避对自己不利的反驳 | 自己提出来，比指望读者想不到要好[^pryor2012writing-e16] |
 | 随手用"所以""因此"让论证显得严密 | "P，所以 Q"就是在声称 P 是 Q 的好理由，你得对[^pryor2012writing-e9] |
 | 关键概念不定义，或同一个概念换着说法 | 读者分不清你指的是不是同一个东西 `[本项目分析]`；Pryor 要求说清怎么理解核心概念、同一个东西始终用同一个名字[^pryor2012writing-e10][^pryor2012writing-e11] |
 | 用"自古以来人类就……"或词典定义开头 | 不需要热身；词典不是好的哲学权威[^pryor2012writing-e21][^pryor2012writing-e22] |
 | 读文献时把辅助论证当成主论证，或读错作者的结论 | 会误解整篇文章[^pryor2006reading-e2][^pryor2006reading-e3] |
-| 稿件里留下作者信息，或在正文中自曝身份 | 美国哲学学会建议期刊三重匿名审稿[^apaphil2022journal-e1]，作者要按匿名审稿的要求准备稿件[^apaphil2022journal-e5] |
 | 把实验哲学当作"发个问卷问问" | 系统方法正是为了避免根据有偏的回答下结论[^sytsma2026experimental-e10]；一些早期研究的样本量和统计报告达不到今天的标准[^sytsma2026experimental-e8] |
 | 宗教研究中把描述和宣信混在一起 | 美国宗教学会的教学指南把区分宣信性陈述和描述性、分析性陈述，列为大学毕业生应有的能力[^aar2019literacy-e7] |
 
 ---
 
+## 本学科常用的研究方法
+
+**哲学独有的实践**：[哲学论证研究](practices/philosophical_argument.md)，讲提出论题、给出论证、回应反驳的完整做法。
+
+**跨学科的研究方法**：实验哲学的情境短文问卷见[问卷调查](../../06_methods/questionnaire_survey.md)、[对照实验](../../06_methods/controlled_experiment.md)，语料库研究见[数据科学](../../06_methods/data_science.md)；宗教学的访谈和田野工作见[访谈研究](../../06_methods/interview_study.md)、[案例研究与民族志](../../06_methods/case_study.md)；哲学史、宗教史用到未出版的原始记录时，见[档案研究](../../06_methods/archival_research.md)。
+
+**相关学科的方法**：[规范法学研究](../law/practices/doctrinal_research.md)、[文本细读与文学论证](../languages-literature/practices/close_reading.md)。
+
+---
+
 ## 延伸阅读
 
-- **Jim Pryor，Guidelines on Writing a Philosophy Paper**（jimpryor.net）：一位美国哲学教师写给本科生的免费写作指南。写第一篇哲学论文前读。
-- **Jim Pryor，Guidelines on Reading Philosophy**：怎样读懂一篇哲学文章、拆出论证。
+- **Jim Pryor，Guidelines on Writing a Philosophy Paper / Guidelines on Reading Philosophy**（jimpryor.net）：一位美国哲学教师写给本科生的免费写作和阅读指南。写第一篇哲学论文前读。
 - **美国哲学学会，Statement on Best Practices in Journal Publishing**（2022）：一家美国学会对期刊、作者、审稿人的建议。第一次投稿或审稿前读。
 - **美国哲学学会，Statement on Research**（1996）：哲学研究是什么、和其他学科有何不同，反映当时美国的情况。向别的学科解释哲学研究时有用。
-- **《斯坦福哲学百科全书》Experimental Philosophy**（2026 新条目）：实验哲学的方法、代表性研究和争议。想做实证哲学时读。
-- **《斯坦福哲学百科全书》Reflective Equilibrium、Thought Experiments**：两种常用哲学方法的介绍和讨论。
-- **美国宗教学会，AAR Religious Literacy Guidelines**（2019）：宗教学和其他宗教路径的区别（美国大学教学指南，不是研究方法规范）。
-- **《斯坦福哲学百科全书》Philosophy and Christian Theology**：哲学和基督教神学的关系（只讲基督教）。
+- **《斯坦福哲学百科全书》Experimental Philosophy**（2026 新条目）、**Reflective Equilibrium**、**Thought Experiments**：实验哲学的方法和争议，以及两种常用哲学方法。
+- **美国宗教学会，AAR Religious Literacy Guidelines**（2019，美国大学教学指南，不是研究方法规范）和**《斯坦福哲学百科全书》Philosophy and Christian Theology**（只讲基督教）：宗教学、神学和哲学的区别。
 
 [^apaphil1996research-e1]: 美国哲学学会 1996，Statement on Research，第 3 段。[证据](../../../sources/notes/apaphil1996research.md#e1)
 [^apaphil1996research-e2]: 美国哲学学会 1996，Statement on Research，第 2 段。[证据](../../../sources/notes/apaphil1996research.md#e2)
@@ -206,14 +209,12 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 [^apaphil1996research-e12]: 美国哲学学会 1996，Statement on Research，第 9 段。[证据](../../../sources/notes/apaphil1996research.md#e12)
 [^apaphil2022journal-e1]: 美国哲学学会 2022，Statement on Best Practices in Journal Publishing，Communicating with Authors。[证据](../../../sources/notes/apaphil2022journal.md#e1)
 [^apaphil2022journal-e2]: 美国哲学学会 2022，Communicating with Authors。[证据](../../../sources/notes/apaphil2022journal.md#e2)
-[^apaphil2022journal-e3]: 美国哲学学会 2022，Guidelines for Authors / Manuscript Preparation。[证据](../../../sources/notes/apaphil2022journal.md#e3)
 [^apaphil2022journal-e4]: 美国哲学学会 2022，Guidelines for Authors / Manuscript Preparation。[证据](../../../sources/notes/apaphil2022journal.md#e4)
 [^apaphil2022journal-e5]: 美国哲学学会 2022，Guidelines for Authors / Manuscript Preparation。[证据](../../../sources/notes/apaphil2022journal.md#e5)
 [^apaphil2022journal-e6]: 美国哲学学会 2022，Manuscript Submission/Resubmission。[证据](../../../sources/notes/apaphil2022journal.md#e6)
 [^apaphil2022journal-e7]: 美国哲学学会 2022，Requests for Information。[证据](../../../sources/notes/apaphil2022journal.md#e7)
 [^apaphil2022journal-e8]: 美国哲学学会 2022，Guidelines for Referees / Conflicts of Interest and Anonymity。[证据](../../../sources/notes/apaphil2022journal.md#e8)
 [^apaphil2022journal-e9]: 美国哲学学会 2022，Guidelines for Referees / Conflicts of Interest and Anonymity。[证据](../../../sources/notes/apaphil2022journal.md#e9)
-[^apaphil2022journal-e10]: 美国哲学学会 2022，Guidelines for Referees / Professional Responsibility。[证据](../../../sources/notes/apaphil2022journal.md#e10)
 [^apaphil2022journal-e11]: 美国哲学学会 2022，Guidelines for Referees / Appropriate Response Times。[证据](../../../sources/notes/apaphil2022journal.md#e11)
 [^apaphil2022journal-e12]: 美国哲学学会 2022，Consideration of Previously Posted Papers。[证据](../../../sources/notes/apaphil2022journal.md#e12)
 [^apaphil2022journal-e13]: 美国哲学学会 2022，Consideration of Previously Posted Papers。[证据](../../../sources/notes/apaphil2022journal.md#e13)
@@ -222,6 +223,8 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 [^apaphil2016conduct-e1]: 美国哲学学会 2016，Code of Conduct，I. Code of Ethics。[证据](../../../sources/notes/apaphil2016conduct.md#e1)
 [^apaphil2016conduct-e2]: 美国哲学学会 2016，Code of Conduct，I. Code of Ethics。[证据](../../../sources/notes/apaphil2016conduct.md#e2)
 [^apaphil2016conduct-e3]: 美国哲学学会 2016，Code of Conduct，I. Code of Ethics。[证据](../../../sources/notes/apaphil2016conduct.md#e3)
+[^pryor2025terms-e3]: Pryor，Philosophical Terms and Methods，Philosophical Arguments / Different Flavors of Argument。[证据](../../../sources/notes/pryor2025terms.md#e3)
+[^pryor2025terms-e12]: Pryor，Philosophical Terms and Methods，Philosophical Arguments / Conclusive or Not?。[证据](../../../sources/notes/pryor2025terms.md#e12)
 [^pryor2012writing-e1]: Pryor，Guidelines on Writing a Philosophy Paper，What Does One Do in a Philosophy Paper?。[证据](../../../sources/notes/pryor2012writing.md#e1)
 [^pryor2012writing-e2]: Pryor，Writing，What Does One Do in a Philosophy Paper?。[证据](../../../sources/notes/pryor2012writing.md#e2)
 [^pryor2012writing-e3]: Pryor，Writing，What Does One Do in a Philosophy Paper?。[证据](../../../sources/notes/pryor2012writing.md#e3)

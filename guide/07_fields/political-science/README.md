@@ -1,8 +1,8 @@
-# 政治学：领域概况
+# 政治学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲政治学（含国际关系、公共行政与公共政策）的研究实际怎样运转：定量、实验、定性、形式理论几条路子并存；围绕"数据和研究过程要多透明"的长期争论；期刊的复现核验和田野实验的预分析计划；以及在真实政治环境里做研究特有的伦理问题。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。本文的规范部分主要依据美国政治学会和美国期刊的文件；其他国家和单位以本地规定为准 `[本项目分析]`。
+本文讲政治学（含国际关系、公共行政与公共政策）的研究实际怎样运转：定量、实验、定性、形式理论几条路子并存；围绕"数据和研究过程要多透明"的长期争论；期刊的复现核验和田野实验的预分析计划；以及在真实政治环境里做研究特有的伦理问题。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复；常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。本文的规范部分主要依据美国政治学会和美国期刊的文件；其他国家和单位以本地规定为准 `[本项目分析]`。
 
 **读完本文，你应该能：**
 
@@ -13,14 +13,14 @@
 
 ---
 
-## 本领域研究怎样运转
+## 本学科研究怎样运转
 
 ### 几条研究路子并存
 
 政治学没有一种主导方法，同一个系里常常同时有下面几类研究 `[本项目分析]`：
 
 - **观察数据的定量分析**：用选举结果、民意调查、议会投票、冲突事件等数据做统计分析，常常要回答因果问题。因果识别的思路和经济学相近，见[经济学篇](../economics/README.md#可信性革命先回答你的识别策略是什么) `[本项目分析]`。
-- **实验**：田野实验在真实世界里随机干预（例如随机给一部分选民寄动员信），实验室实验在受控环境中进行 `[本项目分析]`；调查实验就是"在问卷调查里做的实验"[^egapsurveyexperiments-e1]。在登记了预分析计划（下文讲）的研究里，实验占绝大多数。Ofosu 和 Posner 抽查了 195 份 2011–2016 年登记的计划，登记平台是两个：研究网络"治理与政治证据网络"（Evidence in Governance and Politics，EGAP）的平台，和美国经济学会（AEA）的平台[^ofosu2023preanalysis-e1]。其中 63% 来自田野实验，27% 来自调查实验，4% 来自实验室实验，观察性研究只占 4%[^ofosu2023preanalysis-e3]。这个样本也包括经济学的计划，只反映登记了计划的研究，不代表整个政治学的方法构成 `[本项目分析]`。
+- **实验**：田野实验在真实世界里随机干预（例如随机给一部分选民寄动员信），实验室实验在受控环境中进行 `[本项目分析]`；调查实验就是"在问卷调查里做的实验"[^egapsurveyexperiments-e1]。在登记了预分析计划（下文讲）的研究里，实验占绝大多数：Ofosu 和 Posner 抽查的 195 份 2011–2016 年的计划中，63% 来自田野实验，27% 来自调查实验，4% 来自实验室实验，观察性研究只占 4%[^ofosu2023preanalysis-e3]。这个样本也包括经济学的计划，不代表整个政治学的方法构成 `[本项目分析]`。
 - **定性的案例研究和过程追踪**：深入研究一个或少数几个国家、事件、政策，梳理事情一步步怎样发生，用来检验或提出因果解释 `[本项目分析]`。
 - **比较研究**：系统比较若干国家或地区的制度和结果，可以是定性的，也可以是定量的 `[本项目分析]`。
 - **精英访谈**：访问官员、议员、外交官、政党和组织负责人 `[本项目分析]`。按美国政治学会 2020 年的人类受试者原则，研究有权力的人时，伦理上允许的做法和研究普通人不完全一样（见下文"伦理"一节）[^apsa2020humansubjects-e4]。
@@ -49,21 +49,19 @@
 
 ---
 
-## 和其他领域不同的地方
+## 和其他学科不同的地方
 
 | | 政治学 | 对照 |
 |---|---|---|
 | 研究方法 | 定量、实验、定性案例、形式理论、诠释研究并存 `[本项目分析]` | 经济学的实证研究更集中于因果识别 `[本项目分析]`，见[经济学篇](../economics/README.md#可信性革命先回答你的识别策略是什么) |
 | 透明度争论的焦点 | 统一的透明和数据共享要求，是否适用于定性研究（如访谈全文）[^jacobs2021qualitative-e1][^jacobs2021qualitative-e7] | 经济学的数据政策主要针对定量数据和代码，见[经济学篇](../economics/README.md#数据和代码要能复现) `[本项目分析]` |
 | 对政治过程的影响 | 研究可能直接介入选举等真实政治过程，美国政治学会 2020 年的人类受试者原则专门有一条讲这种影响[^apsa2020humansubjects-e11] | 心理学的研究对象多是个体被试，见[心理学篇](../psychology/README.md) `[本项目分析]` |
-| 研究有权力的人 | 研究官员等有权力的一方时，美国政治学会 2020 年的原则允许更多例外[^apsa2020humansubjects-e4] | 贯穿全程讲的人类受试者保护以保护参与者为主，见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人) `[本项目分析]` |
-| 预注册 | Ofosu 和 Posner 抽查的 195 份 2011–2016 年计划，大多来自田野实验和调查实验，登记平台之一是 EGAP 的平台[^ofosu2023preanalysis-e1][^ofosu2023preanalysis-e3] | 美国经济学会（AEA）期刊要求田野实验在它的随机对照试验注册平台登记，见[经济学篇](../economics/README.md#田野实验要登记预分析计划) |
 
 社会学也常用访谈、民族志和问卷调查，见[社会学篇](../sociology/README.md#几种主要的研究路子)；政治学的特殊之处在于研究对象常常是权力本身，以及研究可能反过来影响政治过程 `[本项目分析]`。
 
 ---
 
-## 本领域的规范和报告标准
+## 本学科的规范和报告标准
 
 ### 数据获取与研究透明（Data Access and Research Transparency，DA-RT）
 
@@ -100,7 +98,7 @@
 
 ### 预分析计划
 
-**预分析计划**（pre-analysis plan）是在分析之前写好、通常登记在第三方网站上的研究设计和分析计划[^egappreanalysis-e1]。EGAP 网络的方法指南建议：
+**预分析计划**（pre-analysis plan）是在分析之前写好、通常登记在第三方网站上的研究设计和分析计划[^egappreanalysis-e1]。研究网络"治理与政治证据网络"（Evidence in Governance and Politics，EGAP）的方法指南建议：
 
 - 至少写清全部待检验的假设、相关变量怎样测量，并有可核实的时间戳[^egappreanalysis-e2]；
 - 假设不止一个时，事先写明怎样处理多重检验[^egappreanalysis-e3]；
@@ -108,7 +106,7 @@
 - 实验研究最晚在最终数据收集前登记，观察性研究最晚在任何分析（包括看描述统计）之前登记；之后可以随时修订[^egappreanalysis-e6]；
 - 探索性分析可以做，计划的作用是把它的来龙去脉写清楚[^egappreanalysis-e5]。
 
-据 Ofosu 和 Posner 观察，研究生现在被教导，登记预分析计划是做研究的必备环节[^ofosu2023preanalysis-e2]。但他们检查上面那 195 份 2011–2016 年登记的计划，发现了不少漏洞：44% 没写清要放哪些控制变量[^ofosu2023preanalysis-e6]；只有 25% 写了怎样处理缺失或样本流失[^ofosu2023preanalysis-e8]。再看样本里对应的论文：14 篇模型偏离了计划，只有 1 篇作了说明[^ofosu2023preanalysis-e7]；中位数论文漏报了计划中 25% 的假设[^ofosu2023preanalysis-e9]；报告了未登记假设的论文中，82% 没有说明[^ofosu2023preanalysis-e10]。成本也不小。他们 2018 年调查了 EGAP 和扶贫行动创新组织（Innovations for Poverty Action，IPA）两个研究网络的研究者，发给 664 人，收回 155 份[^ofosu2023preanalysis-e4][^ofosu2023preanalysis-e5]。在这 155 人中，88% 说一个典型项目的计划要写一周或更久[^ofosu2023preanalysis-e11]，但 64% 同意"很花时间，但值得"[^ofosu2023preanalysis-e13]。赶在选举前做实验时，写计划的延误可能让项目做不成[^ofosu2023preanalysis-e12]，所以要提前准备 `[本项目分析]`。探索性研究和验证性研究的区别见主线章节[从研究问题到证据清单](../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
+据 Ofosu 和 Posner 观察，研究生现在被教导，登记预分析计划是做研究的必备环节[^ofosu2023preanalysis-e2]。但他们检查上面那 195 份计划（登记在 EGAP 和美国经济学会的平台上[^ofosu2023preanalysis-e1]），发现了不少漏洞：44% 没写清要放哪些控制变量[^ofosu2023preanalysis-e6]；只有 25% 写了怎样处理缺失或样本流失[^ofosu2023preanalysis-e8]。再看样本里对应的论文：14 篇模型偏离了计划，只有 1 篇作了说明[^ofosu2023preanalysis-e7]；中位数论文漏报了计划中 25% 的假设[^ofosu2023preanalysis-e9]；报告了未登记假设的论文中，82% 没有说明[^ofosu2023preanalysis-e10]。成本也不小。他们 2018 年调查了 EGAP 和扶贫行动创新组织（Innovations for Poverty Action，IPA）两个研究网络的研究者，发给 664 人，收回 155 份[^ofosu2023preanalysis-e4][^ofosu2023preanalysis-e5]。在这 155 人中，88% 说一个典型项目的计划要写一周或更久[^ofosu2023preanalysis-e11]，但 64% 同意"很花时间，但值得"[^ofosu2023preanalysis-e13]。赶在选举前做实验时，写计划的延误可能让项目做不成[^ofosu2023preanalysis-e12]，所以要提前准备 `[本项目分析]`。探索性研究和验证性研究的区别见主线章节[从研究问题到证据清单](../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
 
 ### 伦理：在真实政治环境里做研究
 
@@ -130,34 +128,37 @@
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[过程追踪与比较案例研究](../../06_methods/process_tracing.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那家机构或期刊（多为美国）`[本项目分析]`。形式理论、诠释研究的证据标准，本文资料未涉及；形式理论里证明的一般写法可参考计算机的[理论研究](../computer-science/practices/theoretical_research.md)。
 
-**相关学科的研究类型文档**：[田野实验](../../06_methods/field_experiment.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)。
+| 套路 | 在政治学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md)（实验和观察数据） | 在登记了预分析计划的研究里，63% 是田野实验，27% 是调查实验[^ofosu2023preanalysis-e3] | 预分析计划写清全部假设、变量怎样测量，带可核实的时间戳[^egappreanalysis-e2]，事先写明多重检验怎样处理[^egappreanalysis-e3]；偏离计划要说明[^ofosu2023preanalysis-e7]；AJPS 发表前核验能否重现结果[^ajps2026verification-e4]；一般不应未经同意损害政治过程[^apsa2020humansubjects-e11] | [田野实验](../../06_methods/field_experiment.md)、[对照实验](../../06_methods/controlled_experiment.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md)（案例内部） | 过程追踪：分析一个案例内部的过程和事件顺序，提出或检验因果机制的假设[^bennett2012process-e3]；这个用法 1979 年由政治学者 George 引入[^bennett2012process-e2] | 说明证据怎样产生、怎样得出结论、怎样保护参与者[^jacobs2021qualitative-e9]；引用公开资料给出足够的位置信息，具体到页码[^jacobs2021qualitative-e16] | [过程追踪与比较案例研究](../../06_methods/process_tracing.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 推断是描述性而非因果性时，案例研究通常更有用[^gerring2004case-e7] | 同样要说明证据怎样产生、怎样得出结论[^jacobs2021qualitative-e9] | [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md) |
+| [测量](../../05_research-strategies/measure.md) | 用调查实验测敏感态度，因为直接问会低估[^egapsurveyexperiments-e2] | 用列举实验、背书实验等间接设计[^egapsurveyexperiments-e5]；问卷结果不一定能推到真实世界[^egapsurveyexperiments-e7]。详见上文[调查实验](#调查实验在问卷里测敏感态度) | [问卷调查](../../06_methods/questionnaire_survey.md)（调查实验） |
 
-政治学常用的研究方法，和研究方法和计算机篇的实践里已有的文档对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注）：
+怎么用这张表 `[本项目分析]`：政治学方法多元，评价标准并不统一：有的定性研究者甚至认为"透明"这个概念和他们对知识怎样产生的理解不相容[^jacobs2021qualitative-e14]。先按核心主张找到你的套路，再看目标期刊认可什么样的证据；定量和定性研究在透明上的要求不同，见上文[数据获取与研究透明](#数据获取与研究透明data-access-and-research-transparencyda-rt)。
 
-- **田野实验和实验室实验**：通用流程见[对照实验](../../06_methods/controlled_experiment.md)。差异：干预可能影响真实政治过程，要额外考虑社会层面的影响[^apsa2020humansubjects-e11]；Ofosu 和 Posner 抽查的 195 份 2011–2016 年计划中，三分之二来自这类研究[^ofosu2023preanalysis-e3]。
-- **问卷调查和调查实验**：见[问卷调查](../../06_methods/questionnaire_survey.md)。差异：测敏感或政治敏感的态度时，可以用列举实验、背书实验等间接测量[^egapsurveyexperiments-e5][^egapsurveyexperiments-e4]。
-- **案例研究和过程追踪**：见[案例研究](../../06_methods/case_study.md)。差异：常研究国家、战争、改革等宏观事件；引用档案和文献时要给出足够的位置信息，具体到页码[^jacobs2021qualitative-e16]。
-- **精英访谈和田野访谈**：见[访谈研究](../../06_methods/interview_study.md)。差异：受访者可能是官员，可以不承诺保密[^apsa2020humansubjects-e19]；在威权或冲突环境中，访谈记录本身可能危及受访者[^jacobs2021qualitative-e10]。社会学的访谈和民族志做法见[社会学篇](../sociology/README.md#几种主要的研究路子)。
-- **观察数据的定量分析**：见[数据科学](../../06_methods/data_science.md)和[经济学篇](../economics/README.md#数据和代码要能复现)。差异：投 AJPS 这类期刊，发表前要通过期刊的复现核验[^ajps2026verification-e4]。
-- **多方法研究**（例如先做跨国统计，再挑案例深入）：见[混合方法](../../06_methods/mixed_methods.md)。
-- **形式理论**：见[理论研究](../computer-science/practices/theoretical_research.md)。本文资料未涉及形式理论的专门规范。
-- **复现研究**：见[复现研究](../../06_methods/replication.md)。
+## 本学科常用的研究方法
+
+政治学没有本学科独有的方法篇；常用方法和跨学科方法篇的对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，依据见脚注）：
+
+- **田野实验、实验室实验和调查实验**：见[田野实验](../../06_methods/field_experiment.md)、[对照实验](../../06_methods/controlled_experiment.md)、[问卷调查](../../06_methods/questionnaire_survey.md)。差异：干预可能影响真实政治过程，要额外考虑社会层面的影响[^apsa2020humansubjects-e11]。
+- **案例研究和过程追踪**：见[过程追踪与比较案例研究](../../06_methods/process_tracing.md)、[案例研究与民族志](../../06_methods/case_study.md)。差异：常研究国家、战争、改革等宏观事件 `[本项目分析]`。
+- **精英访谈和田野访谈**：见[访谈研究](../../06_methods/interview_study.md)。差异：受访者可能是官员，可以不承诺保密[^apsa2020humansubjects-e19]；在威权或冲突环境中，访谈记录本身可能危及受访者[^jacobs2021qualitative-e10]。
+- **观察数据的定量分析**：见[准实验与因果识别](../../06_methods/quasi_experiment.md)、[数据科学研究](../../06_methods/data_science.md)。差异：投 AJPS 这类期刊，发表前要通过复现核验[^ajps2026verification-e4]。
+- **多方法研究、复现研究**：见[混合方法](../../06_methods/mixed_methods.md)（例如先做跨国统计，再挑案例深入）、[复现研究](../../06_methods/replication.md)。
 
 ---
 
 ## 给新手的建议
 
-1. **先弄清你所在方向认可什么证据。** 政治学方法多元，评价研究的标准并不统一，例如有的定性研究者根本不接受"透明"这个概念[^jacobs2021qualitative-e14]；投稿前读几篇目标期刊近年的同类论文 `[本项目分析]`。
-2. **从第一天起按"别人能核验"来整理。** 用到随机性的分析设随机数种子[^eubank2016lessons-e7]；投稿前在另一台电脑（最好是不同的操作系统）上跑一遍复现包[^eubank2016lessons-e5]，逐个核对代码结果和论文里的数字[^eubank2016lessons-e6]。
-3. **做实验，先写预分析计划。** 写清控制变量、缺失和流失的处理办法——这些恰是常被漏掉的[^ofosu2023preanalysis-e6][^ofosu2023preanalysis-e8]；计划外的分析照做，但在论文中标明并说明理由[^ofosu2023preanalysis-e14]。
-4. **做定性研究，把过程写出来。** 说明证据怎样产生、怎样得出结论、怎样保护参与者[^jacobs2021qualitative-e9]；不能公开全文时，考虑提供关键片段[^jacobs2021qualitative-e13]。
-5. **出发前做风险评估。** 想清楚这个设计在研究地的政体下风险多大[^apsa2020humansubjects-e12]，访谈时间、地点、用词会不会暴露受访者[^jacobs2021qualitative-e10]，当地有哪些法律要求[^apsa2020humansubjects-e17]。
-6. **数据受限要早说。** 签署期刊编辑透明声明的期刊要求在投稿时就告诉编辑[^dart2014jets-e3]；在 AJPS，数据可以申请豁免，但代码等其他材料仍要交[^ajps2026verification-e6]。
-7. **涉及真实选举的干预，多找人讨论。** 不要把伦理判断交给审查委员会了事[^apsa2020humansubjects-e3]。
+1. **从第一天起按"别人能核验"来整理。** 用到随机性的分析设随机数种子[^eubank2016lessons-e7]；投稿前在另一台电脑（最好是不同的操作系统）上跑一遍复现包[^eubank2016lessons-e5]，逐个核对代码结果和论文里的数字[^eubank2016lessons-e6]。
+2. **做实验，先写预分析计划。** 写清控制变量、缺失和流失的处理办法——这些恰是常被漏掉的[^ofosu2023preanalysis-e6][^ofosu2023preanalysis-e8]；计划外的分析照做，但在论文中标明并说明理由[^ofosu2023preanalysis-e14]。
+3. **出发前做风险评估。** 想清楚这个设计在研究地的政体下风险多大[^apsa2020humansubjects-e12]，访谈时间、地点、用词会不会暴露受访者[^jacobs2021qualitative-e10]，当地有哪些法律要求[^apsa2020humansubjects-e17]。
+4. **数据受限要早说。** 签署期刊编辑透明声明的期刊要求在投稿时就告诉编辑[^dart2014jets-e3]；在 AJPS，数据可以申请豁免，但代码等其他材料仍要交[^ajps2026verification-e6]。
 
 ---
 
@@ -167,14 +168,10 @@
 |---|---|
 | 改了代码没更新论文，或者手抄结果出错 | 在 QJPS 这一本期刊，2012 年 9 月以来内部审查的 24 篇论文中，14 篇论文结果和作者自己的代码对不上[^eubank2016lessons-e2]；Eubank 认为多数复现问题正出在这里[^eubank2016lessons-e6] |
 | 预分析计划写得含糊，控制变量、缺失处理都没写 | 留下事后挑选分析的空间 `[本项目分析]`；Ofosu 和 Posner 抽查的 195 份 2011–2016 年计划中，44% 没写清控制变量[^ofosu2023preanalysis-e6] |
-| 偏离预分析计划或加了新假设却不说明 | 在 Ofosu 和 Posner 的样本中，14 篇偏离计划的论文只有 1 篇说明[^ofosu2023preanalysis-e7]，报告未登记假设的论文 82% 没有说明[^ofosu2023preanalysis-e10] |
 | 以为"匿名化"就能放心公开访谈全文 | 在受监控的社区，细节就足以认出受访者[^jacobs2021qualitative-e10]；形势变化后风险可能升高[^jacobs2021qualitative-e11] |
 | 期刊要求共享数据，就把受访者材料交出去 | 保护参与者的义务不因期刊要求而解除[^apsa2020humansubjects-e9] |
-| 以为选举机构或合作方批准了，伦理问题就解决了 | 批准不能免除研究者的伦理考量[^apsa2020humansubjects-e15][^apsa2020humansubjects-e14] |
 | 在威权环境照搬民主国家的研究设计 | 同样的请愿签名，在威权体制下可能让参与者遭报复[^apsa2020humansubjects-e12] |
 | 以为在美国研究官员，伦理审查可以按"公职人员豁免"处理 | 美国政治学会 2020 年的原则指出，美国的新规定已不再对研究民选官员和公职人员给予豁免[^apsa2020humansubjects-e5]（这是美国规则，2019 年 1 月起施行 `[本项目分析]`） |
-| 导师在学生的学位论文上署名，或研究助理不致谢 | 美国政治学会的伦理指南（2012 年修订版）明确不允许[^apsa2012ethics-e7][^apsa2012ethics-e8] |
-| 只看问卷实验结果就推断真实世界的行为 | 问卷里测出的结果不一定能推到真实世界[^egapsurveyexperiments-e7] |
 
 ---
 
@@ -284,3 +281,6 @@
 [^egappreanalysis-e4]: EGAP，10 Things to Know About Pre-Analysis Plans，§9。[证据](../../../sources/notes/egappreanalysis.md#e4)
 [^apsa2020humansubjects-e6]: 美国政治学会 2020，Consent 5。[证据](../../../sources/notes/apsa2020humansubjects.md#e6)
 [^apsa2020humansubjects-e21]: 美国政治学会 2020，Impact 10a。[证据](../../../sources/notes/apsa2020humansubjects.md#e21)
+[^bennett2012process-e2]: Bennett & Checkel 2012，Defining Process Tracing，第 7 页。[证据](../../../sources/notes/bennett2012process.md#e2)
+[^bennett2012process-e3]: Bennett & Checkel 2012，Defining Process Tracing，第 10 页。[证据](../../../sources/notes/bennett2012process.md#e3)
+[^gerring2004case-e7]: Gerring 2004，Conclusion，第 352 页。[证据](../../../sources/notes/gerring2004case.md#e7)

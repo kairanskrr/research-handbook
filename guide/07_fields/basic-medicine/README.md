@@ -1,8 +1,8 @@
-# 基础医学：领域概况
+# 基础医学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲基础医学的研究实际怎样运转。基础医学包括解剖学、生理学、病理学、药理学、毒理学、免疫学、医学微生物学等。它的很多日常做法和实验室方向的生命科学相同：课题组怎样分工、实验记录本怎么记、生物学重复和技术重复怎么分、动物实验的 3R 原则（替代、减少、优化）和 ARRIVE 动物研究报告规范，这些见[生物科学篇](../biological-sciences/README.md)。涉及病人的临床试验、试验登记、国际医学期刊编辑委员会（International Committee of Medical Journal Editors，ICMJE）的署名标准和临床报告规范，见[临床医学篇](../clinical-medicine/README.md)。各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。本文只写基础医学特有的东西：为什么很多临床前发现到了人身上就不灵，以及为此要守的规矩。
+本文讲基础医学的研究实际怎样运转。基础医学包括解剖学、生理学、病理学、药理学、毒理学、免疫学、医学微生物学等。它的很多日常做法和实验室方向的生命科学相同：课题组怎样分工、实验记录本怎么记、生物学重复和技术重复怎么分、动物实验的 3R 原则（替代、减少、优化）和 ARRIVE 动物研究报告规范，这些见[生物科学学科概况](../biological-sciences/README.md)。涉及病人的临床试验、试验登记、国际医学期刊编辑委员会（International Committee of Medical Journal Editors，ICMJE）的署名标准和临床报告规范，见[临床医学学科概况](../clinical-medicine/README.md)。各学科共通的做法见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。本文只写基础医学特有的东西：为什么很多临床前发现到了人身上就不灵，以及为此要守的规矩。常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)；具体怎么做，见[本学科常用的研究方法](#本学科常用的研究方法)。
 
 **读完本文，你应该能：**
 
@@ -33,20 +33,17 @@
 1. **模型本身不像人。** 动物模型难以模拟人类癌症发生和进展的复杂过程[^mak2014lost-e3]。卒中领域的研究者分析多项失败的临床试验时也承认，没有一种动物模型能完全再现人类卒中[^landis2012call-e3]。
 2. **临床前研究方法差、报告不清。** 这一类是你能控制的 `[本项目分析]`。在药物 NXY-059 的卒中动物研究里，报告了随机分组、分组隐藏或盲法评估的论文，效应量明显小于没报告这些信息的论文[^landis2012call-e4]。设计差、报告又不清的一系列研究，可能合起来成为大型、昂贵、最终失败的临床试验的依据，让病人白白承担风险[^landis2012call-e5]。
 
-Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的动物；做随机分组和结局评估者盲法；两种性别、不同年龄的动物都纳入；阳性和阴性数据都发表[^mak2014lost-e6]。他们还写到，因为阴性结果常常不发表，动物研究对"治疗有效"的可能性似乎高估了约 30%[^mak2014lost-e4]。所以，基础医学里"做得严谨、写得清楚"不只是为了论文好看，而是因为下游的人和病人会依赖你的结果 `[本项目分析]`。
+Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的动物；做随机分组和结局评估者盲法；两种性别、不同年龄的动物都纳入；阳性和阴性数据都发表[^mak2014lost-e6]。他们还写到，因为阴性结果常常不发表，动物研究对"治疗有效"的可能性似乎高估了约 30%[^mak2014lost-e4]；怎样报告阴性结果，见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。所以，基础医学里"做得严谨、写得清楚"不只是为了论文好看，而是因为下游的人和病人会依赖你的结果 `[本项目分析]`。
 
 ### 组织方式、发表和署名
 
-- **课题组和实验室。** 和实验室方向的生命科学一样，以课题组为单位；分工、记录本、试剂和动物的管理见[生物科学篇](../biological-sciences/README.md#本领域研究怎样运转) `[本项目分析]`。
-- **发表。** 以期刊为主 `[本项目分析]`。预印本平台和注意事项见生物科学篇的[发表：期刊和预印本](../biological-sciences/README.md#发表期刊和预印本)。
-- **署名。** ICMJE 的四条署名标准见临床医学篇的[署名：ICMJE 的四条标准](../clinical-medicine/README.md#署名icmje-的四条标准)。你的目标期刊是否采用，以它的作者须知为准 `[本项目分析]`。
-- **审稿周期、项目周期。** 本文资料未涉及，以导师或目标期刊的说明为准。
+课题组分工、记录本、试剂和动物管理和实验室方向的生命科学一样，见[生物科学学科概况](../biological-sciences/README.md)；发表以期刊为主，预印本见该篇的[发表：期刊和预印本](../biological-sciences/README.md#发表期刊和预印本) `[本项目分析]`。署名标准见临床医学学科概况的[署名：ICMJE 的四条标准](../clinical-medicine/README.md#署名icmje-的四条标准)，目标期刊是否采用以作者须知为准 `[本项目分析]`。审稿周期、项目周期本文资料未涉及。
 
 ---
 
 ## 和其他领域不同的地方
 
-下表和[计算机篇](../computer-science/README.md)对照。基础医学一栏依据所附脚注；计算机一栏是本项目的概括，细节以计算机篇为准 `[本项目分析]`。
+下表和[计算机学科概况](../computer-science/README.md)对照。基础医学一栏依据所附脚注；计算机一栏是本项目的概括，细节以计算机学科概况为准 `[本项目分析]`。
 
 | | 基础医学 | 计算机 |
 |---|---|---|
@@ -73,7 +70,7 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 - **事先指定主要终点**、评估时间和分析方法，不要做完再挑[^landis2012call-e11]。
 - **报告同一实验做了几次。** 这能抵消"只发表最好那次结果"的倾向[^landis2012call-e15]。
 
-这几条和 ARRIVE 动物研究报告规范的核心项一致，ARRIVE 的内容见[生物科学篇](../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范) `[本项目分析]`。会议文章还观察到：很少有动物研究报告随机、盲法或样本量依据，但大多数都写了遵守动物法规，因为期刊要求写[^landis2012call-e14]。
+这几条和 ARRIVE 动物研究报告规范的核心项一致，ARRIVE 的内容见[生物科学学科概况](../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范) `[本项目分析]`。会议文章还观察到：很少有动物研究报告随机、盲法或样本量依据，但大多数都写了遵守动物法规，因为期刊要求写[^landis2012call-e14]。
 
 ### 分清探索性实验和验证性实验
 
@@ -84,7 +81,7 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 《英国药理学杂志》（British Journal of Pharmacology）2018 年发表了一份给作者和审稿人的设计与分析指南，更新了 2015 年版，也是该刊审稿的评判标准[^curtis2018experimental-e1]。下面只是这一本期刊 2018 年版的规定，不是整个学科的统一要求；投别的期刊，以对方的作者须知为准 `[本项目分析]`。指南作者自己也说，部分规定是人为划定的，有些会改[^curtis2018experimental-e12]，投稿前要查该刊最新版 `[本项目分析]`。
 
 - **每组 n 至少为 5 才做统计。** n 小于 5 的组不能做统计检验，结果要标为"探索性"或"初步"[^curtis2018experimental-e2]。
-- **n 是独立样本数。** 三份样品各测五次，按 n = 15 做统计是常见错误，n 应为 3[^curtis2018experimental-e3]；同一只小鼠的五个细胞是技术重复，n = 1[^curtis2018experimental-e10]。实验单位怎么定，见[生物科学篇](../biological-sciences/README.md#先弄清实验单位再算-n)。
+- **n 是独立样本数。** 三份样品各测五次，按 n = 15 做统计是常见错误，n 应为 3[^curtis2018experimental-e3]；同一只小鼠的五个细胞是技术重复，n = 1[^curtis2018experimental-e10]。实验单位怎么定，见[生物科学学科概况](../biological-sciences/README.md#先弄清实验单位再算-n)。
 - **功效分析算出的样本量再加 50%**。功效分析算出的是最低样本量；该刊鼓励（不是硬性规定）再加 50%，以降低漏掉真实差异的风险[^curtis2018experimental-e9]。
 - **归一化之后要换统计方法。** 把每个值除以配对对照后，对照组均值恒为 1、没有标准误。这时不能用方差分析等参数检验，只能用非参数检验；这种情况在蛋白质印迹（Western blot）分析中常见[^curtis2018experimental-e4]。
 - **显著性阈值在方法部分写明，结果部分不能换**[^curtis2018experimental-e5]。
@@ -107,7 +104,7 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 - **展示整块胶。** 用蛋白质印迹验证时，要展示整块胶，不只是目标大小附近那一段[^uhlen2016proposal-e5]。
 - **论文里写清试剂。** 至少写货号和批号，最好加上研究资源标识符（Research Resource Identifier，RRID，一个免费、各期刊通用的试剂编号）[^uhlen2016proposal-e6][^uhlen2016proposal-e7]。生产方应对每个新批次重复验证[^uhlen2016proposal-e8]，所以换批号后要留意结果是否变化 `[本项目分析]`。
 
-读这份建议时要知道它的产业关联：文章的编辑协助由 Phase Five Communications 提供，费用由试剂公司 Thermo Fisher Scientific 支付；第一作者 Uhlen 是 Atlas Antibodies 等抗体相关公司的联合创始人[^uhlen2016proposal-e10]。细胞系鉴定等其他试剂问题，见[生物科学篇](../biological-sciences/README.md#试剂抗体和细胞系要验证)。
+读这份建议时要知道它的产业关联：文章的编辑协助由 Phase Five Communications 提供，费用由试剂公司 Thermo Fisher Scientific 支付；第一作者 Uhlen 是 Atlas Antibodies 等抗体相关公司的联合创始人[^uhlen2016proposal-e10]。细胞系鉴定等其他试剂问题，见[生物科学学科概况](../biological-sciences/README.md#试剂抗体和细胞系要验证)。
 
 ### 用人体组织和生物样本库：先确认同意和伦理批准
 
@@ -138,27 +135,27 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 - **独立的质量检查。** 做质量保证的人不参与他检查的那项研究[^oecd1998glp-e7]。
 - **全部归档。** 研究计划、原始数据、受试物样品、标本和最终报告都要保存[^oecd1998glp-e13]。
 
-### 阴性结果也要报告
+---
 
-很多人认为科学界、晋升委员会、资助机构和期刊偏爱阳性结果，这会导致偏倚[^landis2012call-e13]。在基础医学，这会直接影响转化：前面说过，阴性结果不发表可能让动物研究高估疗效[^mak2014lost-e4]。怎样报告负面结果，见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
+## 常用套路与证据标准
+
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的三种。表的分组和"在基础医学里的样子"一栏是本项目的归纳；每条标准只代表脚注里的出处（多为临床前动物研究和癌症、卒中方向），其他方向本文资料未涉及 `[本项目分析]`。构建改进（例如建立新的疾病模型）等套路的评判标准，本文资料未涉及。
+
+| 套路 | 在基础医学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md) | 在细胞或疾病动物模型上检验机制和药物效果，结果可能成为临床试验的依据[^landis2012call-e5] | 至少报告样本量怎么估计、怎样随机、是否设盲、数据怎样处理[^landis2012call-e1]；没报告随机、分组隐藏或盲法的研究，效应量明显更大[^landis2012call-e4]；探索性实验只能提出假设，要用后续实验确认[^landis2012call-e17]；要外推到人，临床前指南最常建议在不止一种动物模型中重现效应，并独立重复[^henderson2013threats-e8] | [临床前动物研究](../../06_methods/preclinical_animal_study.md)、[实验台实验](../../06_methods/bench_experiment.md) |
+| [测量](../../05_research-strategies/measure.md) | 检查抗体等测量工具本身靠不靠得住。用抗体得到的数据质量差别很大[^uhlen2016proposal-e1] | 按用途和样品验证，在印迹里好不代表在别的用途里也好[^uhlen2016proposal-e2]；使用者在自己的用途里至少做一种验证，论文写明货号、批号[^uhlen2016proposal-e6] | [实验台实验：确认试剂和细胞系](../../06_methods/bench_experiment.md#第-7-步确认试剂和细胞系) |
+| [综合](../../05_research-strategies/synthesize.md) | 汇总已发表的临床前研究，例如比较同一药物的多项卒中动物研究[^landis2012call-e4] | 看纳入研究是否报告了随机和盲法，因为这会影响效应量[^landis2012call-e4]；阴性结果常不发表，动物研究可能高估疗效约 30%[^mak2014lost-e4] | [综述研究](../../06_methods/review_study.md)、[元分析](../../06_methods/meta_analysis.md) |
+
+怎么用这张表 `[本项目分析]`：先按核心主张找到你的套路，再读对应的套路页和做法页。一个课题常常混合几种套路，例如先验证抗体（测量），再用它检验一个机制（解释因果）；每部分按各自的标准要求。
 
 ---
 
-## 常见的研究类型
+## 本学科常用的研究方法
 
-**本领域的研究类型文档**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)。
+**跨学科的研究方法**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[实验台实验（湿实验）](../../06_methods/bench_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[定量仿真](../../06_methods/simulation_study.md)、[复现研究](../../06_methods/replication.md)、[综述研究](../../06_methods/review_study.md)。基础医学目前没有本学科独有的研究方法页。
 
-**相关学科的研究类型文档**：[实验台实验（湿实验）](../../06_methods/bench_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)。
-
-下面的分组和"相通"的判断为本项目分析 `[本项目分析]`。
-
-- **细胞和分子实验**：在培养细胞、组织切片或提取的分子上做处理和测量，生理学、免疫学、微生物学都大量使用。设计原则见[生物科学篇](../biological-sciences/README.md#常见的研究类型)；本领域特别要注意抗体验证。
-- **动物模型研究（临床前研究）**：在疾病动物模型上测试机制或药物。按上面四项核心要求和 ARRIVE 设计和报告；结论要说明模型和人的差距。
-- **药理学实验**：测药物的效应、剂量关系和作用机制。按目标期刊的设计与分析规定做，例如上面的《英国药理学杂志》。
-- **毒理学和安全性研究**：评估物质的毒性。为监管申报做的要遵守良好实验室规范[^oecd1998glp-e2]。
-- **人体样本研究**：用手术组织、血液、病理档案或生物样本库的样本。要伦理批准，并确认当初的同意覆盖你的用途[^wma2016taipei-e6]。
-- **非动物替代方法**：如体外研究、计算机建模、流行病学研究等[^mak2014lost-e11]。计算建模见研究方法里的[定量仿真](../../06_methods/simulation_study.md)。
-- **复现研究和系统综述**：重做或汇总已发表的临床前研究，见[复现研究](../../06_methods/replication.md)和[综述研究](../../06_methods/review_study.md)。
+本学科的特别要求 `[本项目分析]`：细胞和分子实验特别要注意抗体验证；动物模型研究按上面四项核心要求做，结论要说明模型和人的差距；药理学实验按目标期刊的设计与分析规定做；为监管申报做的毒理学和安全性研究要遵守良好实验室规范[^oecd1998glp-e2]；人体样本研究要确认当初的同意覆盖你的用途[^wma2016taipei-e6]。非动物替代方法包括体外研究、计算机建模、流行病学研究等[^mak2014lost-e11]。
 
 ---
 
@@ -226,7 +223,6 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 [^landis2012call-e10]: Landis 等人 2012，Ad hoc exclusion of data。[证据](../../../sources/notes/landis2012call.md#e10)
 [^landis2012call-e11]: Landis 等人 2012，Retrospective primary end-point selection。[证据](../../../sources/notes/landis2012call.md#e11)
 [^landis2012call-e12]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../../sources/notes/landis2012call.md#e12)
-[^landis2012call-e13]: Landis 等人 2012，The path to implementation。[证据](../../../sources/notes/landis2012call.md#e13)
 [^landis2012call-e14]: Landis 等人 2012，The path to implementation。[证据](../../../sources/notes/landis2012call.md#e14)
 [^landis2012call-e15]: Landis 等人 2012，Small effect sizes。[证据](../../../sources/notes/landis2012call.md#e15)
 [^landis2012call-e16]: Landis 等人 2012，Abstract。[证据](../../../sources/notes/landis2012call.md#e16)
@@ -244,6 +240,7 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 [^curtis2018experimental-e11]: Curtis 等人 2018，Flexibility and pilot data。[证据](../../../sources/notes/curtis2018experimental.md#e11)
 [^curtis2018experimental-e12]: Curtis 等人 2018，Conclusions。[证据](../../../sources/notes/curtis2018experimental.md#e12)
 [^curtis2018experimental-e13]: Curtis 等人 2018，Introduction。[证据](../../../sources/notes/curtis2018experimental.md#e13)
+[^henderson2013threats-e8]: Henderson 等人 2013，Results，Threats to Internal Validity, Construct Validity, and External Validity。[证据](../../../sources/notes/henderson2013threats.md#e8)
 [^uhlen2016proposal-e1]: Uhlen 等人 2016，引言。[证据](../../../sources/notes/uhlen2016proposal.md#e1)
 [^uhlen2016proposal-e2]: Uhlen 等人 2016，引言。[证据](../../../sources/notes/uhlen2016proposal.md#e2)
 [^uhlen2016proposal-e3]: Uhlen 等人 2016，引言。[证据](../../../sources/notes/uhlen2016proposal.md#e3)

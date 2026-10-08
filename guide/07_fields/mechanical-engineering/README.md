@@ -1,13 +1,13 @@
-# 机械工程：领域概况
+# 机械工程：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲机械工程（流体、热工、固体力学、动力学与控制、制造、机器人硬件等方向）的研究怎样运转。这里的结论常来自两处：试验台上的测量，和计算机上的数值仿真。两样都要交代清楚"有多准" `[本项目分析]`。各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)；仿真、工程研究、优化研究的通用方法见研究方法和计算机篇的实践（链接在下文"常见的研究类型"）。和实物、测量、专利打交道的共性问题，可对照[电气、电子与信息工程篇](../electrical-engineering/README.md)。这里只写本领域特有的东西。
+本文讲机械工程（流体、热工、固体力学、动力学与控制、制造、机器人硬件等方向）的研究怎样运转。这里的结论常来自两处：试验台上的测量，和计算机上的数值仿真。两样都要交代清楚"有多准" `[本项目分析]`。各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)；本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。和实物、测量、专利打交道的共性问题，可对照[电子信息篇](../electrical-engineering/README.md)。这里只写本学科特有的东西。
 
 **读完本文，你应该能：**
 
-- 说清试验、数值仿真和"设计—制造—测试"各起什么作用；
-- 按国际通行的测量不确定度指南，报告一个测量结果和它的不确定度；
+- 说清试验、数值仿真和"设计—制造—测试"各起什么作用，各按什么标准评判；
+- 知道为什么测量结果要带不确定度，以及部分期刊对它的要求；
 - 知道部分期刊对数值精度（网格收敛、迭代收敛）有哪些硬性要求；
 - 分清校准和确认；
 - 以美国机械工程师学会（ASME）为例，了解会议论文转期刊、署名和利益冲突的规定；
@@ -26,10 +26,6 @@
 - **设计—制造—测试**：提出新的机构、结构或控制方法，做出样机，在试验台上测性能。思路和计算机篇的[工程研究](../computer-science/practices/engineering_research.md)一致：先写清主张，再为每条主张选验证方式。
 
 这类工作常受硬件拖累：加工零件、搭试验台、预约风洞都要时间，装错一次可能要返工 `[本项目分析]`。排期方法见贯穿全程的[计划与日常节奏](../../08_throughout/planning_and_routines.md)。
-
-### 计算和实验要一起设计
-
-美国桑迪亚国家实验室的 Oberkampf 和 Trucano 在 2002 年的报告里，把专门用来检验计算模型的实验叫"确认实验"。他们建议：这种实验由做实验的、建模的、写代码的和用代码的人从头到尾一起设计，并坦率说明各自方法的长处和短处[^oberkampf2002verification-e6]。他们还建议，可能的话在不同设施里做同一个确认实验[^oberkampf2002verification-e10]，这样能看出设施本身带来的偏差 `[本项目分析]`。
 
 ### 发表：以 ASME 为例
 
@@ -64,22 +60,9 @@ ASME 对其《伦理准则》的解释准则（2012 年版）写明：多人参�
 
 国际通行的依据是计量指南联合委员会（JCGM）的《测量不确定度表示指南》（简称 GUM），国际计量局（BIPM）网站可免费下载。GUM 开篇就讲了原因：报告物理量的测量结果，必须定量说明结果的质量，让用的人能判断它有多可靠；没有这个说明，测量结果彼此之间、和标准里的参考值之间都无法比较[^jcgm2008gum-e1]。
 
-**不确定度从哪来。** GUM 列了很多来源，例如：对环境条件的影响了解不够、仪器分辨力有限、测量方法里的近似和假设、看似相同条件下重复测量的差异[^jcgm2008gum-e2]。
+怎样定义被测量、做校准、列不确定度预算、算扩展不确定度，见跨学科方法[实验测量研究](../../06_methods/experimental_measurement.md#第五步做不确定度预算)。本学科还要注意两点：
 
-**两种评定方法。** A 类：对一组重复观测做统计分析；B 类：用统计分析以外的办法[^jcgm2008gum-e3]，例如根据仪器说明书或校准证书来估 `[本项目分析]`。A 类、B 类是按评定方法分的，不等于"随机误差"和"系统误差"[^jcgm2008gum-e4]。
-
-**报告时写什么。** GUM 的原则是宁可多给信息，不要少给[^jcgm2008gum-e7]：
-
-- 列出所有不确定度分量，写清每个是怎样评定的[^jcgm2008gum-e8]；
-- 如果报告扩展不确定度 U，要写明用的包含因子 k[^jcgm2008gum-e9]。扩展不确定度就是把标准不确定度乘以 k，得到一个更宽的区间 `[本项目分析]`。美国国家标准与技术研究院（NIST）对本院测量结果的政策是按惯例取 k = 2[^taylor1994nist-e1]。这是 NIST 自己的规定，其他单位以本单位或目标期刊的要求为准 `[本项目分析]`。
-
-**三个容易混的地方：**
-
-- **不确定度不管"过失"。** 记错数、算错数，不在不确定度的涵盖范围内[^jcgm2008gum-e5]，要靠检查数据去发现。
-- **先修正已知的系统偏差。** GUM 假定测量结果已经对识别出的重要系统效应做了修正[^jcgm2008gum-e10]。
-- **"准确度"不配数字。** NIST 技术说明 1297 指出，准确度是定性概念，数字应该配给不确定度[^taylor1994nist-e2]；它也提到，"精密度"常被简单当作"重复性"用[^taylor1994nist-e3]。读文献时先看作者怎么用这些词 `[本项目分析]`。
-
-GUM 也提醒：它只提供框架，代替不了批判性思考、诚实和专业技能[^jcgm2008gum-e6]。
+**"准确度"不配数字。** NIST 技术说明 1297 指出，准确度是定性概念，数字应该配给不确定度[^taylor1994nist-e2]；它也提到，"精密度"常被简单当作"重复性"用[^taylor1994nist-e3]。读文献时先看作者怎么用这些词 `[本项目分析]`。
 
 **期刊的要求（以美国航空航天学会 AIAA 为例）。** AIAA 期刊写明：没有充分给出数据精度的实验论文不接收[^aiaaeditorialpolicy-e1]，具体由各刊主编和负责的副主编执行[^aiaaeditorialpolicy-e2]。它要求作者：估计系统性偏差的不确定度并说明方法[^aiaaeditorialpolicy-e3]，量化结果的重复性[^aiaaeditorialpolicy-e4]，指出没计入总不确定度的已知来源[^aiaaeditorialpolicy-e5]，写出实验条件和数据采集顺序[^aiaaeditorialpolicy-e6]，写明包含因子[^aiaaeditorialpolicy-e8]。投其他期刊时，先查目标期刊的作者须知 `[本项目分析]`。
 
@@ -110,11 +93,11 @@ AIAA 对数值论文也有要求，例如用到商业软件时要引用公开的
 
 ### 校准不是确认
 
-验证（verification，查方程解得对不对）和确认（validation，查模型对真实世界够不够准）的一般方法，见研究方法里的[定量仿真](../../06_methods/simulation_study.md#第三步验证与确认)。Oberkampf 和 Trucano 的说法是：验证主要是数学问题，确认主要是物理问题[^oberkampf2002verification-e2]。
+验证（verification，查方程解得对不对）和确认（validation，查模型对真实世界够不够准）的一般方法，见研究方法里的[定量仿真](../../06_methods/simulation_study.md#第三步验证与确认)。美国桑迪亚国家实验室的 Oberkampf 和 Trucano（2002 年）的说法是：验证主要是数学问题，确认主要是物理问题[^oberkampf2002verification-e2]。
 
 本领域要特别提防的是第三件事：**校准**（calibration）。校准是调整参数，让计算结果和实验数据吻合[^oberkampf2002verification-e5]。按实验调好参数，再宣称模型"确认通过"，这是混淆。他们指出，计算流体力学代码按实验测量值校准太常见，很多人分不清自己是在校准还是在确认[^oberkampf2002verification-e7]。
 
-他们建议的一种做法：实验数据整理好后，先不给计算方看结果，只给算题需要的全部条件[^oberkampf2002verification-e8]；计算方先量化自己解的误差和不确定度，再拿来和实验比[^oberkampf2002verification-e9]。这和物理学的[盲分析](../physical-sciences/README.md#盲分析先定方法再看答案)思路相近 `[本项目分析]`。不过作者也说，这种严格的独立性是针对工程分析用的代码，大学研究者开发的代码不一定要做到这个程度[^oberkampf2002verification-e11]。
+他们把专门检验计算模型的实验叫"确认实验"，建议由做实验的、建模的、写代码的和用代码的人从头到尾一起设计[^oberkampf2002verification-e6]，可能的话在不同设施里做同一个确认实验[^oberkampf2002verification-e10]。另一种做法：实验数据整理好后，先不给计算方看结果，只给算题需要的全部条件[^oberkampf2002verification-e8]；计算方先量化自己解的误差和不确定度，再拿来和实验比[^oberkampf2002verification-e9]。这和物理学的[盲分析](../physical-sciences/README.md#盲分析先定方法再看答案)思路相近 `[本项目分析]`。不过作者也说，这种严格的独立性是针对工程分析用的代码，大学研究者开发的代码不一定要做到这个程度[^oberkampf2002verification-e11]。
 
 ### ASME 的伦理准则
 
@@ -151,17 +134,24 @@ ASME 要求会员遵守它的《工程师伦理准则》[^asme2024ethics-e1]。�
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的两种，其他套路本文资料未涉及。表的分组和第二栏是本项目的归纳，每条标准只代表脚注里的那份指南或那本期刊 `[本项目分析]`。
 
-本领域常用的方法，不少在研究方法和计算机篇的实践里有对应文档。下面只写本领域额外要注意的地方：
+| 套路 | 在机械工程里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md) | 设计—制造—测试：提出新的机构、结构或控制方法，做出样机上试验台测；或在数值仿真上评估设计 | 测量结果要带不确定度，否则无法和别人的比较[^jcgm2008gum-e1]；《流体工程杂志》要求在几套疏密明显不同的网格上证明结果收敛[^jfenumaccuracy-e2]，只用一套网格、和实验大致吻合不够[^jfenumaccuracy-e3]；按实验调参数是校准[^oberkampf2002verification-e5]，别当成确认[^oberkampf2002verification-e7] | [工程研究](../computer-science/practices/engineering_research.md)（计算机篇）、[定量仿真](../../06_methods/simulation_study.md) |
+| [测量](../../05_research-strategies/measure.md) | 在试验台、风洞、水槽上把一个量测准，并说清有多准；也包括专门检验计算模型的确认实验 | 列出全部不确定度分量并写清怎样评定[^jcgm2008gum-e8]，报扩展不确定度时写明包含因子[^jcgm2008gum-e9]；AIAA 期刊不接收没有充分给出数据精度的实验论文[^aiaaeditorialpolicy-e1]；确认实验由做实验、建模、写代码和用代码的人一起设计[^oberkampf2002verification-e6] | [实验测量研究](../../06_methods/experimental_measurement.md) |
 
-- [定量仿真](../../06_methods/simulation_study.md)：计算流体力学、有限元等。那篇举的是离散事件、系统动力学、基于智能体的仿真；本领域的仿真多是解偏微分方程 `[本项目分析]`，除了验证与确认，还可能被要求报告网格收敛、迭代收敛等数值误差[^jfenumaccuracy-e2][^celik2008procedure-e1]。
-- [工程研究](../computer-science/practices/engineering_research.md)：提出新的机构、结构、控制方法并评估。本领域常要做样机、上试验台测，测量结果要带不确定度[^jcgm2008gum-e1]。
-- [优化研究](../computer-science/practices/optimization_study.md)：例如结构优化、形状优化。如果每次评估都要跑一次仿真，优化结果的可信度还取决于每次仿真的数值精度 `[本项目分析]`。
-- **试验研究**（没有对应文档）：在试验台、风洞等设施上测量。要点是按 GUM 评定和报告不确定度[^jcgm2008gum-e8]，并写清实验条件和采集顺序[^aiaaeditorialpolicy-e6]。
-- **确认实验**（没有对应文档）：专门为检验计算模型设计的实验，要和计算方一起设计[^oberkampf2002verification-e6]。
+怎么用这张表 `[本项目分析]`：先按核心主张定主要套路。例如做出新样机、同时测它的效率，主张是"新设计更好"，按构建改进的标准要求；测量部分仍要满足测量的要求。
+
+## 本学科常用的研究方法
+
+本学科没有独有的方法文档，用的是[研究方法](../../06_methods/README.md)里的跨学科方法和计算机篇的实践：
+
+- [实验测量研究](../../06_methods/experimental_measurement.md)：试验台、风洞等设施上的测量，期刊要求见上文[测量结果要带上不确定度](#测量结果要带上不确定度)。
+- [定量仿真](../../06_methods/simulation_study.md)：那篇举的是离散事件、系统动力学、基于智能体的仿真；本学科的仿真多是解偏微分方程，还要报告网格收敛、迭代收敛等数值误差，见上文[数值结果要证明网格够细](#数值结果要证明网格够细) `[本项目分析]`。
+- [工程研究](../computer-science/practices/engineering_research.md)、[优化研究](../computer-science/practices/optimization_study.md)（计算机篇）：结构优化、形状优化如果每次评估都要跑一次仿真，结果的可信度还取决于每次仿真的数值精度 `[本项目分析]`。
 
 ---
 
@@ -235,15 +225,8 @@ ASME 要求会员遵守它的《工程师伦理准则》[^asme2024ethics-e1]。�
 [^asme2024ethics-e5]: ASME 学会政策 P-15.7（2024），Fundamental Canons 第 5 条。[证据](../../../sources/notes/asme2024ethics.md#e5)
 [^jcgm2008gum-e1]: JCGM 100:2008（GUM），0.1。[证据](../../../sources/notes/jcgm2008gum.md#e1)
 [^jcgm2008gum-e2]: JCGM 100:2008（GUM），3.3.2。[证据](../../../sources/notes/jcgm2008gum.md#e2)
-[^jcgm2008gum-e3]: JCGM 100:2008（GUM），2.3.2、2.3.3。[证据](../../../sources/notes/jcgm2008gum.md#e3)
-[^jcgm2008gum-e4]: JCGM 100:2008（GUM），3.3.3。[证据](../../../sources/notes/jcgm2008gum.md#e4)
-[^jcgm2008gum-e5]: JCGM 100:2008（GUM），3.4.7。[证据](../../../sources/notes/jcgm2008gum.md#e5)
-[^jcgm2008gum-e6]: JCGM 100:2008（GUM），3.4.8。[证据](../../../sources/notes/jcgm2008gum.md#e6)
-[^jcgm2008gum-e7]: JCGM 100:2008（GUM），7.1.4。[证据](../../../sources/notes/jcgm2008gum.md#e7)
 [^jcgm2008gum-e8]: JCGM 100:2008（GUM），7.1.4。[证据](../../../sources/notes/jcgm2008gum.md#e8)
 [^jcgm2008gum-e9]: JCGM 100:2008（GUM），7.2.3。[证据](../../../sources/notes/jcgm2008gum.md#e9)
-[^jcgm2008gum-e10]: JCGM 100:2008（GUM），3.2.4。[证据](../../../sources/notes/jcgm2008gum.md#e10)
-[^taylor1994nist-e1]: Taylor 与 Kuyatt 1994（NIST TN 1297），6.5。[证据](../../../sources/notes/taylor1994nist.md#e1)
 [^taylor1994nist-e2]: Taylor 与 Kuyatt 1994（NIST TN 1297），D.1.1.1。[证据](../../../sources/notes/taylor1994nist.md#e2)
 [^taylor1994nist-e3]: Taylor 与 Kuyatt 1994（NIST TN 1297），D.1.2。[证据](../../../sources/notes/taylor1994nist.md#e3)
 [^aiaaeditorialpolicy-e1]: AIAA，Editorial Policy Statement on Numerical and Experimental Accuracy，开头。[证据](../../../sources/notes/aiaaeditorialpolicy.md#e1)

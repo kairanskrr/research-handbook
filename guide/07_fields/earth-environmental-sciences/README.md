@@ -1,8 +1,8 @@
-# 地球与环境科学：领域概况
+# 地球与环境科学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲地球与环境科学（地质、地球物理、大气与气候、海洋、水文，以及和生态相邻的环境科学）的研究里几件具体的事：野外工作、样品、数值模式、模式比较计划，以及数据、代码和不确定性怎样报告。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。采样计划、质量控制样品、检出限这类测量问题，见[环境工程](../environmental-engineering/README.md)；以实验室为主的生态和生命科学研究，见[生物科学](../biological-sciences/README.md)；考古发掘的伦理，见[历史与考古](../history-archaeology/README.md)。
+本文讲地球与环境科学（地质、地球物理、大气与气候、海洋、水文，以及和生态相邻的环境科学）的研究里几件具体的事：野外工作、样品、数值模式、模式比较计划，以及数据、代码和不确定性怎样报告。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)；本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。采样计划、质量控制样品、检出限这类测量问题，见[环境工程](../environmental-engineering/README.md)；以实验室为主的生态和生命科学研究，见[生物科学](../biological-sciences/README.md)；考古发掘的伦理，见[历史与考古](../history-archaeology/README.md)。
 
 本文的规范类资料主要来自三家，各管各的：**美国地球物理学会**（American Geophysical Union，AGU）的伦理政策管它的会员和参加其活动的人，它的数据指南管投 AGU 期刊的稿件；期刊**《地球科学模式开发》**（Geoscientific Model Development，GMD，欧洲地球科学联合会 EGU 旗下、由出版社 Copernicus 出版）的代码政策只管投 GMD 的稿件；**政府间气候变化专门委员会**（Intergovernmental Panel on Climate Change，IPCC）的不确定性指南是写给它的评估报告作者的。它们都不是全学科的统一规定。你所在国家、单位和目标期刊的要求，以它们自己的规定为准 `[本项目分析]`。
 
@@ -18,13 +18,7 @@
 
 ### 三种工作方式，常在一个项目里交织
 
-`[本项目分析]` 本领域的研究大体有三种工作方式，一个项目常同时用到几种。野外季节怎样安排、观测网络怎样组织，本文资料未涉及，以导师和本组的惯例为准。
-
-| 工作方式 | 做什么 | 本文对应的部分 |
-|---|---|---|
-| 野外观测和采样 | 去现场测量、布设仪器，采集岩石、沉积物、水、冰芯等样品 | [野外工作](#野外工作先把安全和许可办好)、[样品](#样品给每个样品一个永久编号) |
-| 实验室分析 | 对样品做化学、物理测定 | [样品](#样品给每个样品一个永久编号)；测量的质量控制见[环境工程](../environmental-engineering/README.md) |
-| 数值模拟 | 用数值模式（numerical model，用计算机求解描述地球系统的方程）模拟大气、海洋、地下水等 | [模式和代码](#数值模式代码没准备好论文就没准备好) |
+`[本项目分析]` 本学科的研究大体有三种工作方式：去现场测量和采样（见[野外工作](#野外工作先把安全和许可办好)、[样品](#样品给每个样品一个永久编号)），在实验室对样品做化学、物理测定，以及用**数值模式**（numerical model，用计算机求解描述地球系统的方程）模拟大气、海洋、地下水等（见[数值模式](#数值模式代码没准备好论文就没准备好)）。一个项目常同时用到几种。野外季节怎样安排、观测网络怎样组织，本文资料未涉及，以导师和本组的惯例为准。
 
 ### 模式比较计划
 
@@ -152,20 +146,24 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[野外观测研究](../../06_methods/field_study.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那家机构或期刊 `[本项目分析]`。
 
-**相关学科的研究类型文档**：[空间分析研究](../geography/practices/spatial_analysis.md)。
+| 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [观察描述](../../05_research-strategies/observe_describe.md) | 野外观测和采样，或分析站网、卫星数据，弄清一个地方或系统现在是什么状况 | 美国环境保护署的规划指南把"估计"（例如某种污染物的平均浓度）列为数据的一种用途[^epa2006dqo-e2]；样品记录要完整、名称不能含糊[^igsnabout-e1]；投 AGU 期刊时，数据在投稿时就要能让编辑和审稿人拿到[^fox2021agudata-e3] | [野外观测研究](../../06_methods/field_study.md)、[数据科学研究](../../06_methods/data_science.md) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 开发或改进数值模式 | GMD 要求投稿时就提供确切版本的代码和数据，做不到就拒稿[^gmdcodepolicy-e3]；审稿时可能检查模型能否下载、编译、跑通测试算例[^gmdcodepolicy-e8]；AGU 期刊要求提供到"有足够算力的读者能重复模拟"的程度[^fox2021agudata-e7] | [定量仿真](../../06_methods/simulation_study.md) |
+| [比较评估](../../05_research-strategies/compare_evaluate.md) | 模式比较计划：协调全球气候模式模拟的设计和数据分发[^eyring2016cmip6-e1]，在多个模式的框架下理解气候变化[^eyring2016cmip6-e4] | 参加 CMIP6 的模式必须跑一组规定试验，并采用共同的数据标准[^eyring2016cmip6-e2] | [定量仿真](../../06_methods/simulation_study.md)、上文[模式比较计划](#模式比较计划) |
+| [综合](../../05_research-strategies/synthesize.md) | IPCC 评估报告，有专门写给报告作者的不确定性指南[^mastrandrea2010ipcc-e1] | 信度按证据的类型、数量、质量、一致性和各方一致的程度来判断[^mastrandrea2010ipcc-e2]；可能性用词对应固定的概率区间[^mastrandrea2010ipcc-e6] | 上文[IPCC 的用语](#表达不确定性ipcc-的用语)、[综述研究](../../06_methods/review_study.md) |
 
-| 研究类型 | 一句话说明 | 和已有方法文档的关系 |
-|---|---|---|
-| 野外观测与采样 | 去现场测量、采样，为后续分析提供数据 `[本项目分析]` | 没有对应文档；安全和许可见上文 |
-| 样品的实验室分析 | 对岩石、水、冰芯等样品做测定 `[本项目分析]` | 没有对应文档；样品编号见上文，测量质量控制见[环境工程](../environmental-engineering/README.md) |
-| 数值模拟与模式开发 | 用数值模式模拟地球系统，或开发、评估模式 `[本项目分析]` | 相通：[定量仿真](../../06_methods/simulation_study.md)。差异：GMD 要求投稿时就提供确切版本的代码和数据，否则拒稿[^gmdcodepolicy-e3]；有些地球系统模式许可受限[^gmd2019editorial-e6] |
-| 多模式比较 | 按统一协调的试验设计，在多个模式的框架下研究气候[^eyring2016cmip6-e1][^eyring2016cmip6-e4] | 相通：[基准评测](../computer-science/practices/benchmarking.md)。差异：参加 CMIP 的模式要跑规定试验、采用共同的数据标准[^eyring2016cmip6-e2] |
-| 用已有观测数据做分析 | 分析卫星、站网等已有数据 `[本项目分析]` | 相通：[数据科学研究](../../06_methods/data_science.md)。差异：投 AGU 期刊时，要给出数据的具体来源，不能只给门户网站[^fox2021agudata-e6] |
-| 数据论文 | 整理一套数据集发表，数据集本身接受评审[^gmdcodepolicy-e10] | 没有对应文档 |
+怎么用这张表 `[本项目分析]`：一个项目常同时有野外、实验室和模拟三部分（见上文），按核心主张定主要套路，其他部分按各自的标准做。野外操纵试验、解释因果的研究在本学科怎样评判，本文资料未涉及。
+
+---
+
+## 本学科常用的研究方法
+
+下面的归类是本项目分析 `[本项目分析]`。野外观测与采样见[野外观测研究](../../06_methods/field_study.md)（跨学科方法）。数值模拟、模式开发和多模式比较见[定量仿真](../../06_methods/simulation_study.md)，比较的思路可参考计算机的[基准评测](../computer-science/practices/benchmarking.md)；有些地球系统模式许可受限[^gmd2019editorial-e6]。用已有观测数据做分析见[数据科学研究](../../06_methods/data_science.md)，空间数据见地理学的[空间分析研究](../geography/practices/spatial_analysis.md)；投 AGU 期刊时要给出数据的具体来源，不能只给门户网站[^fox2021agudata-e6]。样品的实验室分析和数据论文（整理一套数据集发表，数据集本身接受评审[^gmdcodepolicy-e10]）暂无对应的方法篇，测量质量控制见[环境工程](../environmental-engineering/README.md)。
 
 ---
 
@@ -308,3 +306,4 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 [^mastrandrea2010ipcc-e12]: Mastrandrea 等 2010，第 4 段。[证据](../../../sources/notes/mastrandrea2010ipcc.md#e12)
 [^mastrandrea2010ipcc-e13]: Mastrandrea 等 2010，引言。[证据](../../../sources/notes/mastrandrea2010ipcc.md#e13)
 [^mastrandrea2010ipcc-e14]: Mastrandrea 等 2010，第 10 段。[证据](../../../sources/notes/mastrandrea2010ipcc.md#e14)
+[^epa2006dqo-e2]: EPA 2006（QA/G-4），Introduction，PDF 第 16 页。[证据](../../../sources/notes/epa2006dqo.md#e2)

@@ -1,14 +1,15 @@
-# 经济学与商学：领域概况
+# 经济学与商学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲经济学的研究实际怎样运转：理论和实证的分工，围绕"因果识别"的实证方法，工作论文先行、期刊审稿很慢的发表方式，以及研讨会、求职论文、按字母署名等惯例。本文以经济学为主；商学院里的金融、管理、市场营销等方向各有惯例，这里没有展开 `[本项目分析]`。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲经济学的研究实际怎样运转：理论和实证的分工，围绕"因果识别"的实证方法，工作论文先行、期刊审稿很慢的发表方式，以及研讨会、求职论文、按字母署名等惯例。本文以经济学为主；商学院里的金融、管理、市场营销等方向各有惯例，这里没有展开 `[本项目分析]`。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复；常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 **读完本文，你应该能：**
 
 - 用大白话说清什么是"识别策略"，以及几种常见因果识别方法各靠什么假设；
 - 理解工作论文、"五大期刊"、研讨会和求职论文在经济学里的位置；
 - 知道美国经济学会（American Economic Association，AEA）期刊对数据、代码、实验登记和利益披露的要求；
+- 知道经济学实证研究主要走哪种研究套路、按什么标准评判；
 - 避开设定搜索、只看显著性等新手常犯的错误。
 
 ---
@@ -46,11 +47,7 @@ Angrist 和 Pischke 把实证经济学的这场变化称为"可信性革命"，�
 
 好的设计还有一个好处：方法容易讲清楚，结果可以直接呈现[^angrist2010credibility-e11]。随机实验也不是万能的：Angrist 和 Pischke 承认，做得好的观察性研究，可能比执行糟糕的随机试验更可信[^angrist2010credibility-e18]。
 
-Cochrane 给实证新手的几条自问，可以直接用作检查清单：
-
-- 是什么经济机制让你的解释变量发生了变化？真正的自然实验并不常有[^cochrane2005writing-e5]。
-- 哪些控制变量该放、哪些不该放？Cochrane 认为多数论文放的解释变量太多了[^cochrane2005writing-e6]。
-- 结果在经济上有多大意义？样本很大时，再小的效应也会"统计显著"[^cochrane2005writing-e7]。
+Cochrane 给实证新手的几条自问，可以直接用作检查清单：是什么经济机制让你的解释变量发生了变化？真正的自然实验并不常有[^cochrane2005writing-e5]。哪些控制变量该放、哪些不该放？他认为多数论文放的解释变量太多了[^cochrane2005writing-e6]。结果在经济上有多大意义？样本很大时，再小的效应也会"统计显著"[^cochrane2005writing-e7]。
 
 > **不同的看法：设计派还是结构派？**
 >
@@ -76,9 +73,7 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：
 
 ### 研讨会报告
 
-在经济学里，研讨会（seminar）报告是打磨论文的主要场合 `[本项目分析]`。Varian 认为，越多地讲自己的工作，最终的论文越好，因为报告逼你直奔重点[^varian1997build-e7]。听众会当场插话提问[^varian1997build-e10][^cochrane2005writing-e12]；Cochrane 给某个冬季学季的金融研讨会计过时，没有一篇论文在一小时内讲到主要结果[^cochrane2005writing-e12]。他建议不要文献综述和铺垫，直接讲重点[^cochrane2005writing-e8]。
-
-报告后要马上记下听众在哪里没听懂、问了什么、推荐了什么文献[^varian1997build-e8]。当听众不再提问时，说明论文快可以投了[^varian1997build-e9]。
+在经济学里，研讨会（seminar）报告是打磨论文的主要场合 `[本项目分析]`。Varian 认为，越多地讲自己的工作，最终的论文越好，因为报告逼你直奔重点[^varian1997build-e7]。听众会当场插话提问[^varian1997build-e10][^cochrane2005writing-e12]；Cochrane 给某个冬季学季的金融研讨会计过时，没有一篇论文在一小时内讲到主要结果[^cochrane2005writing-e12]。他建议不要文献综述和铺垫，直接讲重点[^cochrane2005writing-e8]。报告后要马上记下听众在哪里没听懂、问了什么、推荐了什么文献[^varian1997build-e8]。当听众不再提问时，说明论文快可以投了[^varian1997build-e9]。
 
 ### 求职论文
 
@@ -135,22 +130,28 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[田野实验](../../06_methods/field_experiment.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。经济学实证研究的主流是解释因果，下表按拿到因果证据的两种途径分两行。表的分组和"在经济学里的样子"一栏是本项目的归纳；每条要求只代表脚注里那份资料（多为 AEA 期刊政策）`[本项目分析]`。
 
-**相关学科的研究类型文档**：[观察性流行病学研究](../../06_methods/observational_epidemiology.md)。
+| 套路 | 在经济学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md)（随机实验） | 随机决定谁接受干预，例如发现金、给补贴；最直接，但耗时、昂贵，有时根本做不了[^angrist2010credibility-e3] | AEA 期刊要求田野实验投稿前在注册平台登记，干预开始前登记才算"预注册"[^aea2026rct-e1][^aea2026rct-e5]；实验说明随稿提交[^aea2026data-e10]；做得好的观察性研究可能比执行糟糕的随机试验更可信[^angrist2010credibility-e18] | [田野实验](../../06_methods/field_experiment.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md)（准实验） | 利用制度或自然事件造成的变化，最常用工具变量、断点回归、双重差分[^angrist2010credibility-e4] | 先回答"你的识别策略是什么"[^angrist2010credibility-e10]；按方法逐项检查漏洞（趋势、扎堆、别的渠道）[^angrist2010credibility-e9]；撒大网跑大量回归，不能为因果解释提供多少依据[^angrist2010credibility-e13]；接收前交复现包[^aea2026data-e1] | [准实验与因果识别](../../06_methods/quasi_experiment.md) |
 
-经济学常用的研究方法，和研究方法和计算机篇的实践里已有的文档对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注）：
+怎么用这张表 `[本项目分析]`：
 
-- **田野实验和实验室实验**：在真实环境或实验室里随机分组。通用流程见[对照实验](../../06_methods/controlled_experiment.md)。差异：AEA 期刊要求田野实验在投稿前登记[^aea2026rct-e1]，实验说明要随稿提交[^aea2026data-e10]。
-- **用观察数据做因果推断（准实验）**：工具变量、双重差分、断点回归等。数据处理的通用做法见[数据科学](../../06_methods/data_science.md)。差异：经济学的核心追问是识别策略，而不是预测准确度[^angrist2010credibility-e10]。
-- **理论建模**：写出行为人、目标、约束和均衡[^varian1997build-e4]。见[理论研究](../computer-science/practices/theoretical_research.md)。差异：Varian 建议从最简单的例子入手，而不是先求一般[^varian1997build-e5]。
-- **结构估计**：把完整的经济模型拿去拟合数据，再模拟没发生过的情形，例如兼并分析[^angrist2010credibility-e21]。没有对应文档。
-- **校准与计算实验**（很多宏观经济学家采用[^angrist2010credibility-e14]）：见[定量仿真](../../06_methods/simulation_study.md)。差异：模型参数靠"校准"而不是估计[^angrist2010credibility-e14]。
-- **问卷调查**：见[问卷调查](../../06_methods/questionnaire_survey.md)。差异：AEA 期刊要求随稿提交问卷原文[^aea2026data-e10]。
-- **复现研究**：见[复现研究](../../06_methods/replication.md)。AEA 期刊在发表前就会检查可复现性[^aea2026data-e3]。
-- **元研究**：研究"已发表研究的整体规律"，例如统计顶级期刊上 p 值的分布[^brodeur2016star-e2]。见[方法论研究与元科学](../../06_methods/meta_science.md)。
+- **两行共同的追问是识别**：这个数字靠什么假设才成立。效应在经济上有多大，也要单独讲清，不能只报显著性[^cochrane2005writing-e7]。
+- **理论建模、结构估计和宏观的校准计算实验**，套路页目前没有涉及经济学，本文不硬归类；它们的做法见下一节。
+
+## 本学科常用的研究方法
+
+跨学科的研究方法和经济学的对应如下；对应关系和差异说明是本项目的归纳 `[本项目分析]`：
+
+- **田野实验**见[田野实验](../../06_methods/field_experiment.md)，**实验室实验**的通用流程见[对照实验](../../06_methods/controlled_experiment.md)。
+- **用观察数据做因果推断**见[准实验与因果识别](../../06_methods/quasi_experiment.md)，数据处理见[数据科学](../../06_methods/data_science.md)。经济学的核心追问是识别策略，而不是预测准确度[^angrist2010credibility-e10]。
+- **理论建模**：写出行为人、目标、约束和均衡[^varian1997build-e4]，从最简单的例子入手[^varian1997build-e5]；可参考计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)。**结构估计**（例如兼并分析[^angrist2010credibility-e21]）目前没有对应文档。**校准与计算实验**见[定量仿真](../../06_methods/simulation_study.md)，差别是参数靠"校准"而不是估计[^angrist2010credibility-e14]。
+- **问卷调查**见[问卷调查](../../06_methods/questionnaire_survey.md)，AEA 期刊要求随稿提交问卷原文[^aea2026data-e10]。**复现研究**见[复现研究](../../06_methods/replication.md)。**元研究**（例如统计顶级期刊上 p 值的分布[^brodeur2016star-e2]）见[方法论研究与元科学](../../06_methods/meta_science.md)。
 
 ---
 
@@ -175,7 +176,6 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：
 | 只报告统计显著性，不讲效应有多大 | 样本很大时，再小的效应也会显著[^cochrane2005writing-e7] |
 | 把所有能想到的变量都放进回归当控制 | Cochrane 认为多数论文放的解释变量太多了[^cochrane2005writing-e6]；有些变量本身就是结果的一部分，控制它会把要估的效应也控制掉 `[本项目分析]` |
 | 只声称工具变量"与其他影响因素无关"，不论证它为什么成立 | 工具变量的假设必须充分论证[^angrist2010credibility-e5] |
-| 把论文写成探索过程的游记，主要结果放在最后 | 读者不关心你试过而失败的做法[^cochrane2005writing-e2]；结论要放最前面[^cochrane2005writing-e1] |
 | 报告前二十分钟都在铺垫和讲文献 | 研讨会上直接讲重点[^cochrane2005writing-e8]；听众插话会把时间耗光[^cochrane2005writing-e12] |
 | 写"数据可应要求提供"就算公开 | 如果索取要经作者本人批准，一般不被接受[^aea2026data-e4] |
 | 田野实验做完才想起登记 | AEA 期刊要求投稿前登记，并鼓励尽早[^aea2026rct-e1]；干预开始后才登记，就不算预注册[^aea2026rct-e5] |
@@ -221,8 +221,6 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：
 [^angrist2010credibility-e20]: Angrist & Pischke 2010，External Validity。[证据](../../../sources/notes/angrist2010credibility.md#e20)
 [^angrist2010credibility-e21]: Angrist & Pischke 2010，Industrial Disorganization。[证据](../../../sources/notes/angrist2010credibility.md#e21)
 [^angrist2010credibility-e18]: Angrist & Pischke 2010，Other Empirical Work in the Age of Heavy Metal。[证据](../../../sources/notes/angrist2010credibility.md#e18)
-[^cochrane2005writing-e1]: Cochrane 2005，§1 Organization。[证据](../../../sources/notes/cochrane2005writing.md#e1)
-[^cochrane2005writing-e2]: Cochrane 2005，§1 Organization。[证据](../../../sources/notes/cochrane2005writing.md#e2)
 [^cochrane2005writing-e3]: Cochrane 2005，§2 Writing。[证据](../../../sources/notes/cochrane2005writing.md#e3)
 [^cochrane2005writing-e4]: Cochrane 2005，§3 Tips for empirical work。[证据](../../../sources/notes/cochrane2005writing.md#e4)
 [^cochrane2005writing-e5]: Cochrane 2005，§3 Tips for empirical work。[证据](../../../sources/notes/cochrane2005writing.md#e5)

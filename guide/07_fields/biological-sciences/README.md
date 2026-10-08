@@ -1,8 +1,8 @@
-# 生物科学：领域概况
+# 生物科学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲生物科学（以实验室里的生命科学为主）的研究实际怎样运转：实验室怎样组织、实验为什么慢、记录本怎么记、重复和对照怎么做、动物研究有哪些规矩、论文怎样发表和署名、数据交到哪里。野外生态学、进化生物学等方向有自己的做法，本文只在个别地方提到。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲生物科学（以实验室里的生命科学为主）的研究实际怎样运转：实验室怎样组织、实验为什么慢、记录本怎么记、重复和对照怎么做、动物研究有哪些规矩、论文怎样发表和署名、数据交到哪里。野外生态学、进化生物学等方向有自己的做法，本文只在个别地方提到。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。生物科学常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 **读完本文，你应该能：**
 
@@ -53,9 +53,9 @@
 - **第一作者**：传统上贡献最大，得到的认可也最多[^tscharntke2007author-e1]。
 - **最后作者**：在生物医学，按非正式惯例，常和第一作者得到同样多的认可[^tscharntke2007author-e2]。评审委员会和资助机构常把它看作领导课题组的标志，但这只是非正式惯例，并不总被遵守[^tscharntke2007author-e3]。
 - **中间作者**：怎样排序，各国、各领域传统差别很大[^tscharntke2007author-e4]。有作者建议在致谢里写明本文用的是哪种排序方式[^tscharntke2007author-e5]。
-- **通讯作者**：按下面 ICMJE 的定义，是投稿、审稿、发表过程中主要负责和期刊沟通的那个人[^icmje2026recommendations-e28]。
+- **通讯作者**：按 ICMJE 的定义，是投稿、审稿、发表过程中主要负责和期刊沟通的那个人[^icmje2026recommendations-e28]。
 
-谁能署名，没有一套全生命科学统一的规定，以目标期刊的作者须知为准 `[本项目分析]`。常被提到的一套是国际医学期刊编辑委员会（International Committee of Medical Journal Editors，ICMJE）的规范。它是为医学期刊定的，你投的生物学期刊是否采用，要看期刊自己的说明 `[本项目分析]`。ICMJE 要求四个条件同时满足：对构思、设计或数据的获取、分析、解释有实质贡献；起草或认真修改过论文；同意最终版本；同意对整个工作负责[^icmje2026recommendations-e2]。不满足的人写进致谢[^icmje2026recommendations-e26]。排序由作者们共同决定，不由编辑决定[^icmje2026recommendations-e27]。谁符合署名条件，最好在规划研究时就定下来，随工作进展再调整[^icmje2026recommendations-e4]。署名的一般原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#5-署名引用和利益冲突给每个贡献者应得的认可)。
+谁能署名，没有一套全生命科学统一的规定，以目标期刊的作者须知为准 `[本项目分析]`。常被提到的国际医学期刊编辑委员会（ICMJE）署名规范是为医学期刊定的，它的署名条件和"开工时就谈"的做法，见贯穿全程的[合作与导师：署名](../../08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)。
 
 ---
 
@@ -144,26 +144,27 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 - Freedman 等人综合既往研究，估计不可复现的临床前研究累计超过 50%。但这个数是推算出来的，区间很宽：假设各类问题大量重叠时低到 18%，假设几乎不重叠时高到 88.5%[^freedman2015economics-e4]。所以它只能当作粗略估计，不能说成"一半以上的研究是错的" `[本项目分析]`。
 - 有的资助机构把严谨性写进了申请和评审标准。例如 NIH 把科学严谨性定义为在实验设计、方法、分析、解释和报告各个环节严格运用科学方法，做到稳健、无偏[^nihrigorguidance-e1]。
 
-### 生物信息学：实验室里的计算部分
+---
 
-很多生物课题都有一块计算工作，比如处理测序数据、分析图像、建模 `[本项目分析]`。这部分照计算研究的规矩来：程序完成的步骤，记下程序名、版本、参数和输入[^sandve2013ten-e13]；用公共数据库时，记下获取步骤、版本号或下载日期[^wilson2017good-e21]；结果要让做湿实验的同事看得懂，这会影响项目怎么管理[^noble2009quick-e12]。具体做法见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md)和研究方法里的[数据科学](../../06_methods/data_science.md)。
+## 常用套路与证据标准
+
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的；分组和"在生物科学里的样子"一栏是本项目的归纳 `[本项目分析]`。
+
+| 套路 | 在生物科学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md) | 细胞和分子实验：改变一个因素（例如敲低一个基因），看结果会不会变 | 一次只改一个因素[^vaux2012replicates-e6]；设对照组，不设要说明理由[^perciedusert2020reporting-e1]；n 按独立的实验单位算，不按测量次数算[^perciedusert2020reporting-e4]；技术重复不能拿来算 P 值[^vaux2012replicates-e1] | [实验台实验](../../06_methods/bench_experiment.md) |
+| [解释因果](../../05_research-strategies/explain_causality.md) | 动物实验：在活体动物上做处理和测量 | 一般要经过"伤害—收益"审批[^perciedusert2020arrive-e6]，按 3R 原则设计[^nc3rsthe3rs-e2]；真正随机分组[^perciedusert2020reporting-e7]，写清各阶段谁知道分组[^perciedusert2020reporting-e8]；按 ARRIVE 核心 10 项报告[^perciedusert2020arrive-e3] | [临床前动物研究](../../06_methods/preclinical_animal_study.md) |
+
+怎么用这张表 `[本项目分析]`：
+
+- **复现已发表的实验，也按这些标准做。** 大型复现项目发现了什么，见上文[可复现性](#可复现性领域正在面对的问题)；做法见[复现研究](../../06_methods/replication.md)。
+- **其他套路本文资料未涉及。** 组学的描述性研究、系统综述等在生物科学里按什么标准评判，先读目标期刊的要求。
 
 ---
 
-## 常见的研究类型
+## 本学科常用的研究方法
 
-**本领域的研究类型文档**：[实验台实验（湿实验）](../../06_methods/bench_experiment.md)。
-
-**相关学科的研究类型文档**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)。
-
-下面是本领域常见的研究方法。分组和"相通"的判断为本项目分析 `[本项目分析]`。
-
-- **细胞和分子实验**：在培养的细胞或提取的分子上做处理和测量。设计原则和[对照实验](../../06_methods/controlled_experiment.md)相通，但那篇讲的是人类参与者；这里的实验单位是独立的培养物或样品，要特别注意验证试剂和细胞系。
-- **动物实验（活体实验）**：在活体动物上做处理和测量。一般要经过伦理审批[^perciedusert2020arrive-e6]，按 3R 原则设计，按 ARRIVE 报告。
-- **组学和生物信息学分析**：分析测序、蛋白质组等大规模数据，或挖掘公共数据库。方法上接近[数据科学](../../06_methods/data_science.md)和[仓库挖掘](../computer-science/practices/repository_mining.md)，不同在于数据背后的样品和实验条件要交代清楚。
-- **计算建模和仿真**：用数学或计算机模型研究生物过程，见[定量仿真](../../06_methods/simulation_study.md)。
-- **复现研究**：有计划地重做已发表的实验，见[复现研究](../../06_methods/replication.md)。湿实验复现的特殊困难是方法细节和材料难以获得[^errington2021challenges-e1][^errington2021challenges-e5]。
-- **系统综述和元分析**：汇总已发表的研究，见[综述研究](../../06_methods/review_study.md)。
+下面的归类是本项目分析 `[本项目分析]`。细胞和分子实验见[实验台实验（湿实验）](../../06_methods/bench_experiment.md)；它和[对照实验](../../06_methods/controlled_experiment.md)逻辑相通，但那篇讲的是人类参与者。动物实验见[临床前动物研究](../../06_methods/preclinical_animal_study.md)。组学和生物信息学分析接近[数据科学](../../06_methods/data_science.md)，数据背后的样品和实验条件要交代清楚；程序、版本、参数怎样记录，见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md)。计算建模见[定量仿真](../../06_methods/simulation_study.md)，复现见[复现研究](../../06_methods/replication.md)（湿实验复现的难处是方法细节和材料难以获得[^errington2021challenges-e1][^errington2021challenges-e5]），系统综述和元分析见[综述研究](../../06_methods/review_study.md)。
 
 ---
 
@@ -175,7 +176,7 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 4. **当天记录，写错不擦**[^schnell2015ten-e3][^schnell2015ten-e4]。试剂的来源和批号也记进去 `[本项目分析]`。
 5. **新的细胞系和抗体先验证再用**[^nihrigorguidance-e4]。
 6. **做动物实验前读一遍 ARRIVE**，按它设计，而不是写论文时才补[^perciedusert2020arrive-e7]。
-7. **署名早谈**：ICMJE 建议在规划研究时就确定谁符合署名条件[^icmje2026recommendations-e4]。**发预印本前查期刊政策**，记住发了就撤不下来[^biorxivabout-e4][^biorxivabout-e5]。
+7. **发预印本前查期刊政策**，记住发了就撤不下来[^biorxivabout-e4][^biorxivabout-e5]。
 
 ---
 
@@ -229,10 +230,6 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 [^biorxivabout-e4]: bioRxiv，About bioRxiv。[证据](../../../sources/notes/biorxivabout.md#e4)
 [^biorxivabout-e5]: bioRxiv，Journal Preprint Policies。[证据](../../../sources/notes/biorxivabout.md#e5)
 [^biorxivabout-e6]: bioRxiv，About bioRxiv。[证据](../../../sources/notes/biorxivabout.md#e6)
-[^icmje2026recommendations-e2]: ICMJE 2026，II.A.2 Who Is an Author?。[证据](../../../sources/notes/icmje2026recommendations.md#e2)
-[^icmje2026recommendations-e26]: ICMJE 2026，II.A.2 Who Is an Author?。[证据](../../../sources/notes/icmje2026recommendations.md#e26)
-[^icmje2026recommendations-e4]: ICMJE 2026，II.A.2 Who Is an Author?。[证据](../../../sources/notes/icmje2026recommendations.md#e4)
-[^icmje2026recommendations-e27]: ICMJE 2026，II.A.2 Who Is an Author?。[证据](../../../sources/notes/icmje2026recommendations.md#e27)
 [^icmje2026recommendations-e28]: ICMJE 2026，II.A.2 Who Is an Author?。[证据](../../../sources/notes/icmje2026recommendations.md#e28)
 [^perciedusert2020arrive-e1]: Percie du Sert 等人 2020（ARRIVE 2.0），Abstract。[证据](../../../sources/notes/perciedusert2020arrive.md#e1)
 [^perciedusert2020arrive-e2]: Percie du Sert 等人 2020（ARRIVE 2.0），Abstract。[证据](../../../sources/notes/perciedusert2020arrive.md#e2)
@@ -277,9 +274,6 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 [^plosdatapolicy-e4]: PLOS 数据政策，Minimal data set。[证据](../../../sources/notes/plosdatapolicy.md#e4)
 [^plosdatapolicy-e5]: PLOS 数据政策，Minimal data set。[证据](../../../sources/notes/plosdatapolicy.md#e5)
 [^plosdatapolicy-e6]: PLOS 数据政策，Minimal data set。[证据](../../../sources/notes/plosdatapolicy.md#e6)
-[^sandve2013ten-e13]: Sandve 等人 2013，Rule 1。[证据](../../../sources/notes/sandve2013ten.md#e13)
-[^wilson2017good-e21]: Wilson 等人 2017，Data management。[证据](../../../sources/notes/wilson2017good.md#e21)
-[^noble2009quick-e12]: Noble 2009，Conclusion。[证据](../../../sources/notes/noble2009quick.md#e12)
 [^tscharntke2007author-e5]: Tscharntke 等人 2007，第 3 段。[证据](../../../sources/notes/tscharntke2007author.md#e5)
 [^vaux2012replicates-e3]: Vaux 等人 2012，Sidebar A。[证据](../../../sources/notes/vaux2012replicates.md#e3)
 [^freedman2015economics-e5]: Freedman 等人 2015，解决方案部分。[证据](../../../sources/notes/freedman2015economics.md#e5)

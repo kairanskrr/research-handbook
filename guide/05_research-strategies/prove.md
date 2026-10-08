@@ -1,6 +1,6 @@
 # 证明
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 >
 > 本篇的道理适用于一切以证明为主要成果的研究，例子和具体做法以计算机为例；和数学、哲学不同的地方，文中单独指出。
 
@@ -67,7 +67,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 |---|---|---|
 | 手工证明（定理与证明） | 复杂度上下界、算法正确性、不可能性结果、新定义的性质 | [理论研究](../07_fields/computer-science/practices/theoretical_research.md)：选题、推进证明、结构化地写证明、检查自己的错误 |
 | 机器检查的证明（交互式定理证明：人引导、证明助手逐步检查） | 细节繁多、出错代价大的系统和算法 | [理论研究](../07_fields/computer-science/practices/theoretical_research.md#第-4-步检查自己的证明-数学通用机器检查部分为计算机)的机器检查部分 |
-| 计算机辅助证明、实验数学 | 用计算探索猜想，或让计算成为证明的一部分 | [数学领域概况](../07_fields/mathematics/README.md#本领域的规范)的"本领域的规范"一节 |
+| 计算机辅助证明、实验数学 | 用计算探索猜想，或让计算成为证明的一部分 | [数学学科概况](../07_fields/mathematics/README.md#本领域的规范)的"本领域的规范"一节 |
 
 按 seL4 论文的说法，交互式定理证明需要人的介入和创造力来构造和引导证明；好处是不像静态分析、模型检测（由程序自动遍历系统的可能状态、检查某个性质）这类更自动的验证方法那样，只能处理特定性质或有限的状态空间[^klein2009sel4-e5]。计算机辅助证明方面，前面提到的研讨会报告建议期刊要求：做出重要论断的论文（例如用计算机证明一个长期未解的数学结果），要做严格验证，并完整公开计算细节[^stodden2013setting-e4]。
 
@@ -100,7 +100,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 
 只列本文资料能支持的学科：
 
-- **数学**：Thurston 观察到，数学家除了想知道定理成立，还想理解它的证明[^thurston1994proof-e2]。学科规矩见[数学领域概况](../07_fields/mathematics/README.md)。
+- **数学**：Thurston 观察到，数学家除了想知道定理成立，还想理解它的证明[^thurston1994proof-e2]。学科规矩见[数学学科概况](../07_fields/mathematics/README.md)。
 - **理论计算机**：算法证明细节繁多（见第 2 节），有专门授予最佳理论论文的哥德尔奖[^fortnow2009time-e8]。具体做法见[理论研究](../07_fields/computer-science/practices/theoretical_research.md)。
 - **软件工程、系统、安全中的形式化方向**：形式化模型要靠证明支撑[^shaw2003writing-e9]；软件工程的评审标准把定理和复杂度分析列为工程研究的加分项[^ralph2020empirical-e88]；seL4 内核有从抽象规约到 C 实现的机器检查证明[^klein2009sel4-e8]。
 - **电子工程（信号处理）**：Vandewalle 等认为信号处理介于理论科学和实验科学之间，定理常和数值仿真一起出现[^vandewalle2009reproducible-e12]。
@@ -124,7 +124,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 ## 7. 延伸阅读
 
 - **[理论研究](../07_fields/computer-science/practices/theoretical_research.md)**：本套路在计算机里的完整做法，从选题、推进、写证明到自查。它的延伸阅读列了 Lamport、Tao、Aaronson 的原文。
-- **[数学领域概况](../07_fields/mathematics/README.md)**：数学怎样运转，适合打算在数学期刊发表的人。
+- **[数学学科概况](../07_fields/mathematics/README.md)**：数学怎样运转，适合打算在数学期刊发表的人。
 - **Thurston 1994，On proof and progress in mathematics**：数学家实际上怎样理解、交流和检查证明。
 - **Klein 等 2009，seL4: Formal Verification of an OS Kernel**：一个完整的形式化验证项目，写清了假设、代价和证明发现的缺陷。适合考虑做机器检查证明的人。
 - **[解读论证](interpret_argue.md)** 和 **[哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md)**：对照阅读，看演绎论证在前提可争议时怎么做。

@@ -1,10 +1,15 @@
 # 田野实验
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
 本文讲**田野实验**（field experiment）：在真实世界里，和政府、非政府组织、企业或社区合作，随机决定谁接受一项干预（发现金、开培训、送信动员投票等），再比较各组的结果。经济学（尤其是发展经济学）和政治学都用这种方法 `[本项目分析]`。
 
-本文只讲田野实验特有的做法。下面这些内容别处已经讲过，本文不重复：经济学的识别策略和美国经济学会（American Economic Association，AEA）的登记要求，见[经济学领域概况](../07_fields/economics/README.md)；政治学的预分析计划和选举实验伦理争论，见[政治学领域概况](../07_fields/political-science/README.md)；随机试验的通用做法（随机序列、意向性分析、报告规范），见临床医学篇的[随机对照试验](randomized_controlled_trial.md)；实验室里的对照实验，见研究方法里的[对照实验](controlled_experiment.md)。
+本文只讲田野实验特有的做法。下面这些内容别处已经讲过，本文不重复：经济学的识别策略和美国经济学会（American Economic Association，AEA）的登记要求，见[经济学与商学学科概况](../07_fields/economics/README.md)；政治学的预分析计划和选举实验伦理争论，见[政治学学科概况](../07_fields/political-science/README.md)；临床医学里随机试验的做法（随机序列、意向性分析、报告规范），见[随机对照试验](randomized_controlled_trial.md)；实验室里的对照实验，见[对照实验](controlled_experiment.md)。
+
+**适用范围** `[本项目分析]`：本文原为[经济学与商学](../07_fields/economics/README.md)（尤其是发展经济学）和[政治学](../07_fields/political-science/README.md)写，资料主要是 Duflo 等人的方法综述、J-PAL（麻省理工学院的贫困行动实验室）的研究资源、EGAP（政治学的实验研究网络）的方法指南，以及美国经济学会、美国政治学会的规定。所以登记、伦理、预分析计划这些要求，都是这两个学科的惯例。[教育学](../07_fields/education/README.md)的学科概况也指向本篇。其他学科做田野实验，先看本学科的规范；医疗干预的随机试验见[随机对照试验](randomized_controlled_trial.md)。
+
+**常服务的套路**：[解释因果](../05_research-strategies/explain_causality.md)。
+
 
 **读完本文，你应该能：**
 
@@ -62,7 +67,7 @@
 
 ### 第 3 步：做功效计算
 
-**功效**（statistical power）是：如果干预真有某个大小的效应，你的实验能得到显著结果的概率 `[本项目分析]`。**最小可检测效应**（minimum detectable effect）是：比它小的效应，即使存在也可能分辨不出来[^jpal2021power-e1]。样本量计算的一般步骤见临床医学篇的[算样本量](randomized_controlled_trial.md#第-3-步算样本量)，下面只讲田野实验要多注意的地方。
+**功效**（statistical power）是：如果干预真有某个大小的效应，你的实验能得到显著结果的概率 `[本项目分析]`。**最小可检测效应**（minimum detectable effect）是：比它小的效应，即使存在也可能分辨不出来[^jpal2021power-e1]。样本量计算的步骤也可参考[随机对照试验](randomized_controlled_trial.md)一篇的[算样本量](randomized_controlled_trial.md#第-3-步算样本量)，下面只讲田野实验要多注意的地方。
 
 **怎么做：**
 
@@ -89,7 +94,7 @@
 
 ### 第 5 步：登记，写预分析计划
 
-登记要求和预分析计划（pre-analysis plan，看数据前写好的分析计划）的写法，见[经济学领域概况](../07_fields/economics/README.md#田野实验要登记预分析计划)和[政治学领域概况](../07_fields/political-science/README.md#预分析计划)。要点：AEA 的期刊要求田野实验在投稿前到美国经济学会的随机对照试验登记平台登记，并鼓励尽早[^aea2026rct-e1]；在干预开始前登记的，才标为"预注册"[^aea2026rct-e5]。其他期刊和资助方以各自要求为准 `[本项目分析]`。田野实验的计划要多写几件事：
+登记要求和预分析计划（pre-analysis plan，看数据前写好的分析计划）的写法，见[经济学与商学学科概况](../07_fields/economics/README.md#田野实验要登记预分析计划)和[政治学学科概况](../07_fields/political-science/README.md#预分析计划)。要点：AEA 的期刊要求田野实验在投稿前到美国经济学会的随机对照试验登记平台登记，并鼓励尽早[^aea2026rct-e1]；在干预开始前登记的，才标为"预注册"[^aea2026rct-e5]。其他期刊和资助方以各自要求为准 `[本项目分析]`。田野实验的计划要多写几件事：
 
 - **控制哪些变量**要事先写定[^duflo2007toolkit-e13]，**要单独分析哪些子群体**也要事先写明[^duflo2007toolkit-e34]。
 - **流失和不依从怎样处理。** 这两项最常被漏掉：Ofosu 和 Posner 抽查了 EGAP 和 AEA 两个登记平台上 2011–2016 年登记的 195 份计划[^ofosu2023preanalysis-e1]，只有 25% 写了怎样处理缺失值或流失，13% 写了怎样处理不依从[^ofosu2023preanalysis-e8]。
@@ -138,7 +143,7 @@
 
 ### 第 10 步：处理好真实社区里的伦理
 
-通用的知情同意、风险评估见贯穿全程的[研究涉及人时，先保护人](../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；选举实验的伦理争论见[政治学领域概况](../07_fields/political-science/README.md#伦理在真实政治环境里做研究)。田野实验要多想几件事：
+通用的知情同意、风险评估见贯穿全程的[研究涉及人时，先保护人](../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)；选举实验的伦理争论见[政治学学科概况](../07_fields/political-science/README.md#伦理在真实政治环境里做研究)。田野实验要多想几件事：
 
 - **审批不是终点。** J-PAL 的伦理指南说，伦理审查委员会的审查不能代替研究者自己的责任，要问自己，也要问所在社区的人是否认可方案[^jpal2022ethics-e1]；在设计和实施中征询当地伙伴、社区和政府的意见[^jpal2022ethics-e3]。
 - **伙伴批准不等于你没责任。** 美国政治学会（American Political Science Association，APSA）2020 年的人类受试者原则说：和第三方合作不会把伦理责任全部转给对方[^apsa2020humansubjects-e14]；选举机构等当局批准也不能免除研究者的全部伦理考量[^apsa2020humansubjects-e15]。

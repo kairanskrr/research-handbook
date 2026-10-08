@@ -1,8 +1,8 @@
-# 土木工程：领域概况
+# 土木工程：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲土木工程（结构、岩土、交通、水资源、施工管理等方向）的研究实际怎样运转：大尺度试验和现场试验要排期、要审批、要管安全；数值模型要和试验对得上；一部分成果最终会进入设计规范和标准 `[本项目分析]`。各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)；仿真和工程研究的通用方法见研究方法里的[定量仿真](../../06_methods/simulation_study.md)和计算机篇的[工程研究](../computer-science/practices/engineering_research.md)。这里只写本领域特有的东西。
+本文讲土木工程（结构、岩土、交通、水资源、施工管理等方向）的研究实际怎样运转：大尺度试验和现场试验要排期、要审批、要管安全；数值模型要和试验对得上；一部分成果最终会进入设计规范和标准 `[本项目分析]`。各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。这里只写本学科特有的东西。
 
 本文引用的规定都来自美国的具体单位：美国土木工程师学会（American Society of Civil Engineers，ASCE）的准则、期刊政策和标准；美国国家科学基金会资助的两个试验设施各自的文件；美国国家标准与技术研究院 2008 财年的一份预算说明。它们只代表这些单位在当时的做法，不是土木工程的通用规矩。中国和其他国家的学会、期刊、规范体系和你所在单位的规定可能不同，以本地规定为准 `[本项目分析]`。
 
@@ -99,7 +99,6 @@ ASCE 伦理准则 1914 年首次通过，2020 年 10 月最近一次修订，是
 - 只在知识充分、真心相信时发表专业意见，并如实表达[^asce2020code-e3]。写论文结论和给工程建议时都适用 `[本项目分析]`。
 - 工作中用到现有或新兴技术时，要考虑它的能力、局限和影响[^asce2020code-e13]；及时向委托方和雇主告知工作的风险和局限[^asce2020code-e14]。
 - 只把自己亲自完成的工作算作自己的功劳，注明别人的贡献[^asce2020code-e16]。
-- 只在自己能胜任的领域提供服务[^asce2020code-e15]。
 
 ### 研究和设计规范、标准
 
@@ -130,7 +129,7 @@ Stagge 等人 2019 年发表了一项调查：他们从六种水文与水资源�
 - 在被调查的六种期刊里，提供了代码、数据或软件的论文，数量都是提供了使用说明的 2 到 3 倍[^stagge2019assessing-e5]，也就是说，不少人给了材料却没写怎么用 `[本项目分析]`；
 - 期刊政策有用，但不能只靠政策：在这六种期刊里，数据政策越强，材料可得率和可复现率往往越高，但期刊之间差异很大[^stagge2019assessing-e6]；要求写数据可得性声明的两种期刊（HESS 和 WRR，都不是 ASCE 期刊），公开材料的论文比例反而较低，更多论文让读者去找作者或第三方要材料[^stagge2019assessing-e7]。
 
-Rosenberg 等人 2020 年社论里的检查清单建议：写明哪段代码生成哪张图、哪个表，去掉只在自己电脑上有效的本地路径[^rosenberg2020next-e3]；按"懂本领域、但不熟悉你的数据和代码"的读者写使用说明[^rosenberg2020next-e4]；用了专有软件或运行很久的步骤，尽量公开每一步的输入和输出数据[^rosenberg2020next-e5]。试验数据也一样：利哈伊设施 2016 年的用户指南要求研究者上传描述试验装置的元数据、未处理的原始数据和转换后的数据[^nherilehigh2016users-e6]，让有资质的研究者能重做试验并重新生成派生数据[^nherilehigh2016users-e7]。整理材料的通用做法见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md)。
+Rosenberg 等人 2020 年社论附了一份检查清单，例如写明哪段代码生成哪张图、哪个表，去掉只在自己电脑上有效的本地路径[^rosenberg2020next-e3]；其余是整理材料的通用做法，见[整理科研材料](../../08_throughout/organizing_materials.md)。试验数据也一样：利哈伊设施 2016 年的用户指南要求研究者上传描述试验装置的元数据、未处理的原始数据和转换后的数据[^nherilehigh2016users-e6]，让有资质的研究者能重做试验并重新生成派生数据[^nherilehigh2016users-e7]。
 
 ### 大尺度试验和现场试验的安全
 
@@ -144,32 +143,37 @@ Rosenberg 等人 2020 年社论里的检查清单建议：写明哪段代码生�
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的两种；比较评估、解释因果、综合等套路在土木工程里怎样用，本文资料未涉及。表的分组和"在土木工程里的样子"一栏是本项目的归纳，每条标准只代表脚注里的那家单位或那份文献 `[本项目分析]`。
 
-本领域常用的方法，有一部分在研究方法和计算机篇的实践里有对应文档，可以参考。下面只写本领域额外要注意的地方：
+| 套路 | 在土木工程里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md) | 提出新的结构体系、构件、材料用法或分析方法，常配有限元、水文、交通等数值模型 | 利哈伊设施要求大尺度试验事先提交试验矩阵和每次试验预计的试件损伤，书面批准后才能做[^nherilehigh2016users-e2]；数值模型要分清验证、确认和校准[^oberkampf2003verification-e1][^oberkampf2003verification-e5]，用模态试验调参数是校准，不该叫确认[^oberkampf2003verification-e2]；模型在一组条件下有效，换一组条件可能无效[^sargent2010verification-e2] | [工程研究](../computer-science/practices/engineering_research.md)（计算机篇）、[定量仿真](../../06_methods/simulation_study.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 在试验室或真实场地测出结构、土体的实际表现，包括现场试验和长期监测 | 利哈伊设施要求上传描述试验装置的元数据、未处理的原始数据和转换后的数据[^nherilehigh2016users-e6]，让有资质的研究者能重做试验、重新生成派生数据[^nherilehigh2016users-e7]；投 ASCE 期刊要写数据可得性声明[^ascedataavailability-e2] | [实验测量研究](../../06_methods/experimental_measurement.md) |
 
-- [工程研究](../computer-science/practices/engineering_research.md)：提出新的结构体系、构件、材料用法、分析方法或管理方法并评估。评估常常要有物理试验，不能只靠数值模拟 `[本项目分析]`。
-- [定量仿真](../../06_methods/simulation_study.md)：有限元分析、水文模型、交通仿真等。本领域要特别分清验证、确认和校准[^oberkampf2003verification-e5]，并说明模型在什么条件下确认过[^sargent2010verification-e2]。
-- **试验研究**（没有单独文档）：在试验室对材料、构件或缩尺、足尺结构加载。可以参考利哈伊设施的要求：事先写好试验矩阵和每次试验预计的试件损伤[^nherilehigh2016users-e2]，并上传原始数据和描述试验装置的元数据[^nherilehigh2016users-e6]。
-- **现场试验与监测**（没有单独文档）：在真实场地或在役结构上测量。可以参考得克萨斯大学设施的要求：办好场地许可，激振点附近有敏感结构时征得业主同意，并管好安全[^nheriutexas2020safety-e5][^nheriutexas2020safety-e6]。
-- [案例研究](../../06_methods/case_study.md)：施工管理、工程事故分析等方向常用 `[本项目分析]`。
-- [优化研究](../computer-science/practices/optimization_study.md)：结构优化、水资源调度、交通网络设计等 `[本项目分析]`。
-- [复现研究](../../06_methods/replication.md)：重做已发表的研究。Stagge 等人对六种水文与水资源期刊 2017 年论文的抽样调查显示，360 篇里只有 1.1% 既公开了材料、结果又被完整复现[^stagge2019assessing-e2]。
+怎么用这张表 `[本项目分析]`：先按核心主张定主要套路。例如提出新节点、再做加载试验看它怎样破坏，主张是"新节点更好"，就按构建改进的标准要求，试验数据按观察描述的要求写清。
+
+## 本学科常用的研究方法
+
+土木工程没有独有的方法文档，用的是[研究方法](../../06_methods/README.md)里的跨学科方法和计算机篇的实践：
+
+- [实验测量研究](../../06_methods/experimental_measurement.md)：试验室加载试验、现场试验和监测。先排期、先报批，见上文[大尺度试验](#大尺度试验排队审批准备都要很久)。
+- [定量仿真](../../06_methods/simulation_study.md)：先分清验证、确认和校准，见上文[数值模拟](#数值模拟先分清验证确认和校准)。
+- [工程研究](../computer-science/practices/engineering_research.md)、[优化研究](../computer-science/practices/optimization_study.md)（计算机篇）：评估新结构常要有物理试验，不能只靠数值模拟；结构优化、水资源调度、交通网络设计可参考优化研究 `[本项目分析]`。
+- [案例研究](../../06_methods/case_study.md)：施工管理、工程事故分析等方向常用 `[本项目分析]`。[复现研究](../../06_methods/replication.md)：见上文[可复现性](#可复现性水文与水资源领域的一项调查)。
 
 ---
 
 ## 给新手的建议
 
-1. **大尺度试验从写申请时就排期。** 以利哈伊设施为例，写申请时就尽早联系设施[^nherilehigh2016users-e9]；试验矩阵和每次试验预计的试件损伤要事先交设施书面批准[^nherilehigh2016users-e2]。测点布置也要在这时想好 `[本项目分析]`。
-2. **试验前先用模型预测。** 预测既是试验设计的依据，也是事后检验模型的标尺 `[本项目分析]`。
-3. **别把校准当确认。** 用来调参数的试验数据，不要再拿来证明模型可靠[^oberkampf2003verification-e2][^oberkampf2003verification-e5]；留一部分独立的试验结果做检验，道理见研究套路[比较评估：留一份数据只用于最后检验](../../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验) `[本项目分析]`。
-4. **合作开始前问清数据和发表权。** 哪些能公开、发表前要不要合作方审阅，事先谈好 `[本项目分析]`。ASCE 期刊的数据政策页面（2022 年存档版本）也鼓励作者在签数据协议时就谈好数据怎么提供给读者[^ascedataavailability-e9]。
-5. **从第一天起整理数据和代码。** 用相对路径，写使用说明，记下哪段代码生成哪张图[^rosenberg2020next-e3][^stagge2019assessing-e4]。
-6. **引用规范写明版本。** 规范会修订，例如 ASCE 标准至少每 5 年更新或重新确认一次[^asce2026standards-e3]；结论可能随版本变化 `[本项目分析]`。
-7. **投稿前查清会议论文和预印本的规定。** 以 ASCE 为例，按 2011 年的一篇社论，出版了论文集的会议论文，转投期刊一般要 50% 新内容[^hendrickson2011conference-e2]；现行规定以目标期刊作者指南为准。
-8. **安全优先于进度。** 没培训不碰设备，出了状况先停工；两家 NHERI 设施的文件都这样要求[^nherilehigh2016users-e11][^nheriutexas2020safety-e8]。
+1. **大尺度试验从写申请时就排期。** 以利哈伊设施为例，写申请时就尽早联系设施[^nherilehigh2016users-e9]；试验矩阵和每次试验预计的试件损伤要事先交设施书面批准[^nherilehigh2016users-e2]。测点布置也要在这时想好，并先用模型预测一遍 `[本项目分析]`。
+2. **别把校准当确认。** 用模态试验调参数是校准，不是确认[^oberkampf2003verification-e2][^oberkampf2003verification-e5]；留一部分独立的试验结果做检验，道理见[比较评估：留一份数据只用于最后检验](../../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验) `[本项目分析]`。
+3. **合作开始前问清数据和发表权。** ASCE 期刊的数据政策页面鼓励作者在签数据协议时就谈好数据怎么提供给读者[^ascedataavailability-e9]。
+4. **从第一天起整理数据和代码**，别让路径写死在自己电脑上[^stagge2019assessing-e4]。
+5. **引用规范写明版本。** 规范会修订，例如 ASCE 标准至少每 5 年更新或重新确认一次[^asce2026standards-e3]。
+6. **投稿前查清会议论文和预印本的规定。** 以 ASCE 为例，按 2011 年的一篇社论，出版了论文集的会议论文，转投期刊一般要 50% 新内容[^hendrickson2011conference-e2]；现行规定以目标期刊作者指南为准。
+7. **安全优先于进度。** 没培训不碰设备，出了状况先停工；两家 NHERI 设施的文件都这样要求[^nherilehigh2016users-e11][^nheriutexas2020safety-e8]。
 
 ---
 
@@ -182,10 +186,8 @@ Rosenberg 等人 2020 年社论里的检查清单建议：写明哪段代码生�
 | 改了模型之后没有重新检查 | 模型任何改动之后都要重新验证和确认[^sargent2010verification-e20] |
 | 试验开始后临时改加载方案 | 在利哈伊设施，未经批准不得偏离试验矩阵[^nherilehigh2016users-e3] |
 | 现场试验没征得业主同意就在有人住的建筑旁激振 | 在得克萨斯大学设施，50 英尺内有敏感结构必须征得业主同意[^nheriutexas2020safety-e6] |
-| 赶进度，出了故障不停工 | 得克萨斯大学设施的安全计划写明：安全、稳妥的流程永远优先于进度[^nheriutexas2020safety-e8] |
 | 只声称"材料可得"，却不把材料放到读者拿得到的地方 | Stagge 等人调查的水文与水资源期刊论文里，声称有材料可得的，只有 48.6% 的材料能在网上拿到[^stagge2019assessing-e2]；ASCE 期刊政策也写明，不能因为不想共享就声称数据是专有的[^ascedataavailability-e9] |
 | 公开了代码，但路径写死、没有说明 | 别人跑不出结果[^stagge2019assessing-e4][^stagge2019assessing-e5] |
-| 会议论文稍作修改就投 ASCE 期刊 | 按 2011 年的社论，ASCE 一般要求相对会议论文有 50% 新内容[^hendrickson2011conference-e2] |
 | 在自己不熟悉的问题上给出确定的工程结论 | ASCE 伦理准则要求只在知识充分时发表专业意见[^asce2020code-e3] |
 
 ---
@@ -240,8 +242,6 @@ Rosenberg 等人 2020 年社论里的检查清单建议：写明哪段代码生�
 [^rosenberg2020next-e1]: Rosenberg 等人 2020，正文 Figure 1 之后。[证据](../../../sources/notes/rosenberg2020next.md#e1)
 [^rosenberg2020next-e2]: Rosenberg 等人 2020，正文第 2 段。[证据](../../../sources/notes/rosenberg2020next.md#e2)
 [^rosenberg2020next-e3]: Rosenberg 等人 2020，Checklist。[证据](../../../sources/notes/rosenberg2020next.md#e3)
-[^rosenberg2020next-e4]: Rosenberg 等人 2020，Checklist。[证据](../../../sources/notes/rosenberg2020next.md#e4)
-[^rosenberg2020next-e5]: Rosenberg 等人 2020，Checklist。[证据](../../../sources/notes/rosenberg2020next.md#e5)
 [^rosenberg2018new-e1]: Rosenberg & Watkins 2018，正文第 1 段。[证据](../../../sources/notes/rosenberg2018new.md#e1)
 [^ascedataavailability-e2]: ASCE Library，Data Availability Statement（2022 年快照）。[证据](../../../sources/notes/ascedataavailability.md#e2)
 [^ascedataavailability-e3]: ASCE Library，Data Availability Statement（2022 年快照），可选说法列表。[证据](../../../sources/notes/ascedataavailability.md#e3)

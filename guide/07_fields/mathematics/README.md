@@ -1,14 +1,14 @@
-# 数学：领域概况
+# 数学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲数学研究实际怎样运转：成果是证明，合作规模小、按字母署名，以期刊为主、发表慢，arXiv 预印本，以及导师、选题、讨论班在其中的作用。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。**怎样写证明、怎样检查自己的证明**，计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)已经讲过（标〔数学通用〕的部分都适用于数学），本文也不重复。
+本文讲数学研究实际怎样运转：成果是证明，合作规模小、按字母署名，以期刊为主、发表慢，arXiv 预印本，以及导师、选题、讨论班在其中的作用。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。**怎样写证明、怎样检查自己的证明**，计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)已经讲过（标〔数学通用〕的部分都适用于数学），本文也不重复。数学常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 **读完本文，你应该能：**
 
 - 说清数学论文从想法到发表要经过哪些环节，为什么慢；
 - 理解按字母署名、arXiv 预印本、匿名审稿在数学里的含义；
-- 知道怎样和导师相处、怎样选第一个问题、怎样用讨论班和文献学习；
+- 知道数学常用哪些研究套路、各看什么证据，以及怎样用讨论班和文献学习；
 - 避开新手在署名、宣布结果、投稿上最常犯的错误。
 
 ---
@@ -81,25 +81,20 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 
 ### 导师和选题
 
-- **导师是最好的指导来源之一**。导师不只帮你做课题，还会把你引向相关的人、会议、文献、开放问题，以及圈内流传但没写下来的知识[^taocareer-e23]。
-- **别躲着导师**。主动躲着导师（或反过来）是很坏的信号[^taocareer-e24]。导师没空，就定期找至少一位别的数学家讨论，最好是有经验的[^taocareer-e25]。
-- **也别完全依赖导师**。毕业后主要靠自己做数学[^taocareer-e26]；AMS 伦理准则也写明，数学博士学位证明的既是数学知识，也是在数学上的独立成就[^ams2022ethical-e12]。陶哲轩的说法是：追随数学本身，比追随某位数学家更好[^taocareer-e37]。
-- **第一个问题选可行的**。著名难题几乎从不是凭空解决的[^taocareer-e13]；大部分时间花在更可行的问题上，积累经验、能力和信誉，等准备好了再去碰更大的项目[^taocareer-e14]。
-- **问清出路**。AMS 伦理准则提出，指导博士生的人应向学生介绍学术界内外的就业机会[^ams2022ethical-e13]，你可以主动问 `[本项目分析]`。
+怎样和导师相处、怎样选第一个问题，见[合作与导师](../../08_throughout/collaboration_and_advisors.md)和[找到候选问题](../../01_from-interest-to-project/02_find-problems.md)。数学里有两点值得特别记住：
 
-一般的选题方法和导师相处，见主线章节[找到候选问题](../../01_from-interest-to-project/02_find-problems.md)和[合作与导师](../../08_throughout/collaboration_and_advisors.md)。
+- **学位要证明你能独立做数学。** AMS 伦理准则写明，数学博士学位证明的既是数学知识，也是在数学上的独立成就[^ams2022ethical-e12]。导师没空时，定期找至少一位别的数学家讨论[^taocareer-e25]。
+- **第一个问题选可行的。** 著名难题几乎从不是凭空解决的[^taocareer-e13]；大部分时间花在更可行的问题上，积累经验、能力和信誉，等准备好了再去碰更大的项目[^taocareer-e14]。AMS 伦理准则还提出，指导博士生的人应介绍学术界内外的就业机会[^ams2022ethical-e13]，你可以主动问 `[本项目分析]`。
 
 ### 读文献和讨论班
 
-数学里很多东西是"听"会的，不只是"读"会的 `[本项目分析]`：
+数学里很多东西是"听"会的，不只是"读"会的 `[本项目分析]`。一般的读文献方法见[进入领域、探索文献](../../01_from-interest-to-project/01_enter-a-field.md)，这里只讲数学的做法：
 
 - Thurston 读研时并不明白"证明"是什么，是靠参加**讨论班**（seminar，小范围、定期的学术报告和讨论）、读论文、和其他研究生交流，慢慢明白的[^thurston1994proof-e6]。
 - 同一个子领域里，一个重要证明的思路常常几分钟就能当面讲清[^thurston1994proof-e4]。当面交流能用的沟通方式，远超正式的数学语言[^thurston1994proof-e5]。
 - 想知道一个领域默认哪些事实成立，Thurston 的办法是：看领域里其他论文不加证明直接引用了哪些事实、参考文献里列了什么[^thurston1994proof-e7]。
 - 也去听和自己方向不直接相关的报告：知道别人在做什么、觉得什么有意思，常常给自己的工作带来新视角[^taocareer-e32]。听不懂全部很正常，学到一点就不算白听[^taocareer-e33]。Thurston 也坦言，一般的学术报告会（colloquium，面向较广听众的报告），大部分听众收获不多[^thurston1994proof-e3]。
 - 跟进新文献：订阅自己方向的 arXiv 新论文通知[^taocareer-e27]；从一篇相关论文出发，往前查参考文献、往后用 MathSciNet（一个数学文献数据库）查谁引用了它[^taocareer-e36]。
-
-一般的读文献方法见主线章节[进入领域、探索文献](../../01_from-interest-to-project/01_enter-a-field.md)。
 
 ---
 
@@ -115,7 +110,6 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 | 节奏 | 不被认为有时效性，发表延迟常见[^amsculture2006rates-e2] | 跟着会议截稿日走 |
 | 合作规模 | 几乎总是少数几人[^amsculture2004joint-e2] | 从个人到大团队都有 `[本项目分析]` |
 | 署名 | 传统上按字母排序[^amsculture2004joint-e3] | 本文没有找到署名顺序的资料；不要默认按字母，进组时问清 `[本项目分析]` |
-| 发表数量 | 发得少，看质量[^amsculture2006rates-e4] | 见计算机篇 |
 | 主要证据 | 证明 `[本项目分析]` | 实验和测量（理论方向除外）`[本项目分析]` |
 | 预印本 | 正式发表要等几年，所以应把预印本放到网上[^taocareer-e28] | 普遍发 arXiv，但要遵守会议的匿名规则 |
 
@@ -146,26 +140,38 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-| 类型 | 一句话说明 | 去哪里看 |
-|---|---|---|
-| 定理证明 | 证明新定理、给出反例、改进已知结果 | [理论研究](../computer-science/practices/theoretical_research.md)。标〔数学通用〕的部分都适用；"投稿：会议与期刊"一步是计算机的做法，数学以期刊为主[^amsculture2006rates-e1] |
-| 计算机辅助证明、实验数学 | 用计算探索猜想，或让计算成为证明的一部分 | [理论研究](../computer-science/practices/theoretical_research.md#第-4-步检查自己的证明-数学通用机器检查部分为计算机)的机器检查部分；计算细节的公开和核对见上文"本领域的规范" |
-| 数值计算与建模（应用数学） | 用数学模型和计算研究一个系统 | [定量仿真](../../06_methods/simulation_study.md)。差别：数学论文可能还要证明方法本身的性质，例如收敛性（网格或步长越细，算出的结果是否越接近真解） `[本项目分析]` |
-| 综述与讲义（expository） | 把一个方向的思路讲清楚 | Thurston 认为数学家应更重视交流思考方式，不只交流定义、定理和证明[^thurston1994proof-e15]。和计算机的[综述研究](../../06_methods/review_study.md)不同：数学的综述和讲义多是作者对一个方向的梳理，不一定做系统检索 `[本项目分析]` |
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出数学里本文资料能支持的几种。表的分组和"在数学里的样子"一栏是本项目的归纳 `[本项目分析]`。
+
+| 套路 | 在数学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [证明](../../05_research-strategies/prove.md) | 证明新定理、给出反例、改进已知结果。数学家除了想知道定理成立，还想理解它的证明[^thurston1994proof-e2] | 结果的可靠性主要来自数学家仔细、批判地思考其中的想法[^thurston1994proof-e11]；编辑只在合理确信正确时才接收[^ams2022ethical-e9]；论文要写得让人容易检查论证[^taowriting-e19] | [理论研究](../computer-science/practices/theoretical_research.md)（标〔数学通用〕的部分） |
+| [证明](../../05_research-strategies/prove.md)（借助计算） | 计算机辅助证明、实验数学 | 重要论断要严格验证，并完整公开计算细节[^stodden2013setting-e4]；符号计算最好用两个不同的软件互相核对[^stodden2013setting-e5] | [理论研究：机器检查](../computer-science/practices/theoretical_research.md#第-4-步检查自己的证明-数学通用机器检查部分为计算机) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 应用数学里的数值方法和模型 | 要公开别人重复计算所需的数据和代码[^stodden2013setting-e1]；其他评判标准本文资料未涉及 | [定量仿真](../../06_methods/simulation_study.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 综述与讲义（expository），把一个方向的思路讲清楚 | Thurston 主张数学家不只交流定义、定理和证明，也交流思考方式[^thurston1994proof-e15]；具体评判标准本文资料未涉及 | [综述研究](../../06_methods/review_study.md) |
+
+怎么用这张表 `[本项目分析]`：
+
+- **数学论文以证明为主。** 其他几行多见于应用和计算方向；一篇论文同时有定理和数值实验时，按核心主张定主要套路。
+- **"够不够"看目标期刊和同行。** 数学没有统一的报告清单（见上文[本领域的规范](#本领域的规范)），审稿人主要检查论证是否正确。
+
+---
+
+## 本学科常用的研究方法
+
+数学没有专属的方法篇。定理证明和计算机辅助证明见[理论研究](../computer-science/practices/theoretical_research.md)：标〔数学通用〕的部分都适用，"投稿：会议与期刊"一步是计算机的做法，数学以期刊为主[^amsculture2006rates-e1]。数值计算与建模见[定量仿真](../../06_methods/simulation_study.md)，数学论文可能还要证明方法本身的性质，例如收敛性（网格或步长越细，结果是否越接近真解）。综述与讲义见[综述研究](../../06_methods/review_study.md)，但数学的综述多是作者对一个方向的梳理，不一定做系统检索。这两处判断是本项目分析 `[本项目分析]`。
 
 ---
 
 ## 给新手的建议
 
 1. **把部分结果当成果。** 部分进展是完全解决问题的关键垫脚石[^taocareer-e6]；几个月没有明显进展并不少见[^taocareer-e35]。
-2. **定期和导师说话，也找第二个人讨论。** 主动躲着导师是坏信号[^taocareer-e24]；导师没空就找另一位有经验的数学家[^taocareer-e25]。
-3. **常去讨论班，也去听别的方向。** Thurston 就是靠讨论班、读论文和同学交流，才弄懂"证明"是什么的[^thurston1994proof-e6]；听不懂全部也值得[^taocareer-e33]。
-4. **结果成熟了再宣布，宣布了就尽快发全文。** 先别宣布还只是草稿的结果[^taocareer-e30]；宣布后要及时发表完整细节[^ams2022ethical-e3]。
-5. **投稿前找好 arXiv 背书人。** 第一次投稿需要背书[^arxivendorsement-e1]，导师是合适的人选[^arxivendorsement-e2]。
-6. **按论文的实际水平选期刊。** 勉强够格就投顶刊，可能耗时很久最后被拒[^taowriting-e17]；交终稿，不交初稿，否则反而更慢[^taowriting-e21]。
-7. **别用发文数量和别的学科比。** 数学评价看质量不看速度[^amsculture2006rates-e4]。申请跨学科的职位或基金时，可以附上 AMS 关于按字母署名的声明，向评审解释 `[本项目分析]`。
+2. **常去讨论班，也去听别的方向。** Thurston 就是靠讨论班、读论文和同学交流，才弄懂"证明"是什么的[^thurston1994proof-e6]；听不懂全部也值得[^taocareer-e33]。
+3. **结果成熟了再宣布，宣布了就尽快发全文。** 先别宣布还只是草稿的结果[^taocareer-e30]；宣布后要及时发表完整细节[^ams2022ethical-e3]。
+4. **投稿前找好 arXiv 背书人。** 第一次投稿需要背书[^arxivendorsement-e1]，导师是合适的人选[^arxivendorsement-e2]。
+5. **按论文的实际水平选期刊。** 勉强够格就投顶刊，可能耗时很久最后被拒[^taowriting-e17]；交终稿，不交初稿，否则反而更慢[^taowriting-e21]。
+6. **别用发文数量和别的学科比。** 数学评价看质量不看速度[^amsculture2006rates-e4]。申请跨学科的职位或基金时，可以附上 AMS 关于按字母署名的声明，向评审解释 `[本项目分析]`。
 
 ---
 
@@ -180,7 +186,6 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 | 发现自己已发表的论文有错，不吭声 | 应及时更正或撤回[^ams2022ethical-e4] |
 | 以为发表了、上了 arXiv 就一定对 | arXiv 审核不是同行评审[^arxivmoderation-e1]；Thurston 也提到，有些已发表的定理圈内都知道是错的或证明不完整[^thurston1994proof-e8] |
 | 一上来就死磕著名难题 | 难题几乎从不是凭空解决的[^taocareer-e13]，先做可行的问题[^taocareer-e14] |
-| 审稿时用稿件里的想法做自己的研究 | 审稿人不能把稿件里的想法据为己有[^ams2022ethical-e10] |
 | 计算机辅助的结果只给结论，不给代码和计算细节 | 重要论断要完整公开计算细节[^stodden2013setting-e4] |
 
 ---
@@ -193,7 +198,6 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 - **Thurston 1994，On proof and progress in mathematics**：讲数学家实际怎样理解、交流和检查证明。适合刚开始读研、想知道"数学研究到底是什么"的人。
 - **陶哲轩的 Career advice 系列**：每页一条建议。新手先读 "Talk to your advisor""Take the initiative""Attend talks and conferences""Make your work available""Be patient"。
 - **ICERM 2013 报告，Setting the Default to Reproducible**：做数值计算、实验数学、计算机辅助证明的人读。
-- **[理论研究](../computer-science/practices/theoretical_research.md)**：怎样推进证明、写证明、查自己的错。
 
 [^thurston1994proof-e1]: Thurston 1994，§1。[证据](../../../sources/notes/thurston1994proof.md#e1)
 [^thurston1994proof-e2]: Thurston 1994，§1。[证据](../../../sources/notes/thurston1994proof.md#e2)
@@ -238,10 +242,7 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 [^taocareer-e13]: Tao，Don't base career decisions on glamour or fame。[证据](../../../sources/notes/taocareer.md#e13)
 [^taocareer-e14]: Tao，Don't prematurely obsess on a single "big problem" or "big theory"。[证据](../../../sources/notes/taocareer.md#e14)
 [^taocareer-e6]: Tao，On the importance of partial progress。[证据](../../../sources/notes/taocareer.md#e6)
-[^taocareer-e23]: Tao，Talk to your advisor。[证据](../../../sources/notes/taocareer.md#e23)
-[^taocareer-e24]: Tao，Talk to your advisor。[证据](../../../sources/notes/taocareer.md#e24)
 [^taocareer-e25]: Tao，Talk to your advisor。[证据](../../../sources/notes/taocareer.md#e25)
-[^taocareer-e26]: Tao，Take the initiative。[证据](../../../sources/notes/taocareer.md#e26)
 [^taocareer-e27]: Tao，Take the initiative。[证据](../../../sources/notes/taocareer.md#e27)
 [^taocareer-e28]: Tao，Make your work available。[证据](../../../sources/notes/taocareer.md#e28)
 [^taocareer-e29]: Tao，Make your work available。[证据](../../../sources/notes/taocareer.md#e29)
@@ -252,7 +253,6 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 [^taocareer-e34]: Tao，Be patient。[证据](../../../sources/notes/taocareer.md#e34)
 [^taocareer-e35]: Tao，Be patient。[证据](../../../sources/notes/taocareer.md#e35)
 [^taocareer-e36]: Tao，Don't be afraid to learn things outside your field。[证据](../../../sources/notes/taocareer.md#e36)
-[^taocareer-e37]: Tao，Take the initiative。[证据](../../../sources/notes/taocareer.md#e37)
 [^taowriting-e17]: Tao，Submit to an appropriate journal。[证据](../../../sources/notes/taowriting.md#e17)
 [^taowriting-e18]: Tao，Submit to an appropriate journal。[证据](../../../sources/notes/taowriting.md#e18)
 [^taowriting-e19]: Tao，Submit to an appropriate journal。[证据](../../../sources/notes/taowriting.md#e19)

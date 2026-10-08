@@ -58,7 +58,7 @@
 
 ### 写完后更新状态
 
-每篇文件开头写状态和最后更新日期。新增或改动了章节、方法、学科篇，同时更新所在的目录页：主线见仓库首页 [`README.md`](README.md) 的目录，研究套路见 [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md)，研究方法见 [`guide/06_methods/README.md`](guide/06_methods/README.md)，学科篇和各学科的研究类型见 [`guide/07_fields/README.md`](guide/07_fields/README.md)，贯穿全程见 [`guide/08_throughout/README.md`](guide/08_throughout/README.md)。
+每篇文件开头写状态和最后更新日期。新增或改动了章节、方法、学科篇，同时更新所在的目录页：主线见仓库首页 [`README.md`](README.md) 的目录，研究套路见 [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md)，研究方法见 [`guide/06_methods/README.md`](guide/06_methods/README.md)，学科篇和各学科独有的实践见 [`guide/07_fields/README.md`](guide/07_fields/README.md)，贯穿全程见 [`guide/08_throughout/README.md`](guide/08_throughout/README.md)。
 
 ## 许可说明
 

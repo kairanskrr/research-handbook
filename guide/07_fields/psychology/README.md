@@ -1,14 +1,15 @@
-# 心理学与认知科学：领域概况
+# 心理学与认知科学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲心理学与认知科学的研究实际怎样运转：一场"可重复性危机"之后，这个领域在样本量、预注册、数据公开、测量和报告上形成了哪些新规矩。各学科共通的做法（选题、研究设计、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。本文的资料主要来自实验心理学和社会心理学，临床、发展、神经科学等方向有各自的规范，以目标期刊和所在机构的要求为准。文中的伦理准则和报告标准多出自美国心理学会，其他国家和机构有自己的规定。`[本项目分析]`
+本文讲心理学与认知科学的研究实际怎样运转：一场"可重复性危机"之后，这个领域在样本量、预注册、数据公开、测量和报告上形成了哪些新规矩。各学科共通的做法（选题、研究设计、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复；常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。本文的资料主要来自实验心理学和社会心理学，临床、发展、神经科学等方向有各自的规范，以目标期刊和所在机构的要求为准。文中的伦理准则和报告标准多出自美国心理学会，其他国家和机构有自己的规定。`[本项目分析]`
 
 **读完本文，你应该能：**
 
 - 说清心理学的"可重复性危机"是怎么回事，之后领域改了什么；
 - 认出常见的可疑研究做法，知道预注册、注册报告、功效分析各自防的是什么；
 - 知道做涉及人的心理学研究，伦理、测量、被试和报告上要守哪些规范；
+- 知道心理学常用哪几种研究套路，每种靠什么证据、按什么标准评判；
 - 避开新手最常犯的错误。
 
 ---
@@ -33,7 +34,7 @@
 
 具体是什么样子？作者描述：第一次分析不显著时，研究者会继续"看看"，例如去掉"异常值"再试、只看一部分参与者或试次、换一种方式计算结果指标[^nelson2018psychology-e6]。
 
-这类做法很普遍。Nelson 等人引用的一项调查里，约 65% 的受访者承认报告研究时略去过某个结果指标[^nelson2018psychology-e5]。p-hacking 普遍，正是因为研究者通常意识不到自己在这样做，或者不觉得有什么后果[^nelson2018psychology-e8]。另一种问题是**看到结果再提假设**（hypothesizing after the results are known，HARKing），把事后解释写成事先预测[^nosek2018preregistration-e2]。光靠"我很诚实"防不住：记忆会出错，人会不自觉地往想要的方向推理[^nosek2018preregistration-e3]。贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)也讲了这两种做法。
+这类做法很普遍。Nelson 等人引用的一项调查里，约 65% 的受访者承认报告研究时略去过某个结果指标[^nelson2018psychology-e5]。p-hacking 普遍，正是因为研究者通常意识不到自己在这样做，或者不觉得有什么后果[^nelson2018psychology-e8]。另一种问题是**看到结果再提假设**（hypothesizing after the results are known，HARKing），把事后解释写成事先预测[^nosek2018preregistration-e2]。为什么光靠诚实防不住，见主线章节[分清：你是在检验，还是在探索](../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)和贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
 
 这类做法常被统称为**可疑研究做法**（questionable research practices，QRP）`[本项目分析]`。Flake 和 Fried 指出，测量上也有类似问题，他们称为**可疑测量做法**（questionable measurement practices，QMP）：研究者在测量上做的、让人怀疑测量和结论是否成立的决定[^flake2020measurement-e1]。见下文[测量](#测量用有效度证据的量表)一节。
 
@@ -49,7 +50,7 @@ Nelson 等人列出了这几年的变化：作者主动公开数据；顶级期�
 | 更大的样本与功效分析 | 事先算出需要多少人（见[下文](#统计功效和样本量)） | 统计功效不足[^nelson2018psychology-e9] |
 | 公开数据和材料 | 例如开放科学框架（Open Science Framework，OSF），一个让研究者记录、共享、报告研究的在线平台[^nelson2018psychology-e15] | 别人无法核查和重做 |
 
-**预注册要点。** 预注册的基本概念见主线章节[分清探索性研究和验证性研究](../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)，这里补充几点。预注册不是说事先预测比事后探索更高级，而是让人分清哪个是哪个[^nosek2018preregistration-e4]。Simmons 等人 2018 年写道：它不限制探索性分析；结果和预测不符，也完全可以发表[^simmons2018false-e2]。做研究时偏离了计划，如实报告改了什么、为什么改，仍比不预注册可信得多[^nosek2018preregistration-e5]。计划中的所有分析结果都要报告[^nosek2018preregistration-e6]。
+**预注册要点。** 预注册是什么、不限制探索、偏离计划怎么办，主线章节[要不要事先公开你的计划](../../02_from-project-to-study/01_question-to-evidence.md#6-要不要事先公开你的计划)已经讲过（资料多出自心理学），这里不重复。
 
 **注册报告要点。** 分两个阶段审稿。第一阶段，作者在看到结果之前，把研究问题和方法交给期刊审[^nosek2018preregistration-e7]；通过后获得"原则性接收"：只要按批准的方案做、按证据解读结果，不管假设是否得到支持，期刊都会发表[^chambers2022past-e2]。第二阶段只看研究执行得好不好、是否按计划做，不评判结果是否"重要"[^nosek2018preregistration-e7]。开放科学中心（Center for Open Science，COS）的页面显示，目前有 300 多本期刊采用这种形式，有的作为常规投稿类型，有的只在某期专刊中使用[^cosregisteredreports-e1]。它的代价是：第一阶段审稿通常让研究推迟几个月才能开始[^chambers2022past-e6]；它特别适合检验假设的研究，不是为纯探索性研究设计的[^chambers2022past-e5]。
 
@@ -82,7 +83,6 @@ Nelson 等人列出了这几年的变化：作者主动公开数据；顶级期�
 | 研究对象 | 人的心理过程，抑郁、人格、态度这类概念往往无法直接观察[^flake2020measurement-e2] | 多为人造系统，可以直接运行和测量 |
 | 报告标准 | 美国心理学会的期刊论文报告标准（JARS，见[下文](#报告标准美国心理学会的-jars)）[^apajars-e1] | 各会议的征稿启事、制品评估；软件工程有 SIGSOFT 实证标准 |
 | 可重复性的重点 | 预注册、注册报告、样本量、完整披露[^nelson2018psychology-e2] | 代码、数据等制品能否运行和复现 |
-| 伦理 | 美国心理学会伦理准则，约束其会员和学生会员[^apa2017ethical-e1]；另需所在机构审批 | 各会议伦理要求，如安全方向的漏洞披露 |
 
 ---
 
@@ -90,14 +90,12 @@ Nelson 等人列出了这几年的变化：作者主动公开数据；顶级期�
 
 ### 伦理：美国心理学会伦理准则与机构审批
 
-各学科共通的伦理原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)。美国心理学会（APA）的伦理准则约束其会员和学生会员[^apa2017ethical-e1]；不在美国、不是会员，也常被当作参考，但实际要以本国和本单位的规定为准 `[本项目分析]`。准则里和做研究关系最大的几条：
+各学科共通的伦理原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)。美国心理学会（APA）的伦理准则约束其会员和学生会员[^apa2017ethical-e1]；不在美国、不是会员，也常被当作参考，但实际要以本国和本单位的规定为准 `[本项目分析]`。准则里和做研究关系最大、又是心理学特有的几条（知情同意、发表后共享数据、更正错误等通用要求见上面的链接）：
 
 - **先审批，再开始。** 需要机构审批时，要如实提交方案、获批后才开始，并按批准的方案执行[^apa2017ethical-e2]。这里的机构审批，一般指所在单位伦理审查委员会的审批。美国叫"机构审查委员会"（Institutional Review Board，IRB），各国名称和要求不同 `[本项目分析]`。
-- **知情同意。** 要告诉参与者的内容包括：可以拒绝参加，开始后也可以退出[^apa2017ethical-e3]。
 - **学生被试要有替代选项。** 参加研究是课程要求或能换加分时，必须提供同等的替代活动[^apa2017ethical-e4]。
 - **欺骗要有充分理由。** 欺骗指研究中不告诉参与者真实情况，例如隐瞒研究的真实目的 `[本项目分析]`。只有研究价值足够大、又没有可行的不欺骗方案时才可以这样做[^apa2017ethical-e5]；之后要尽早说明（最迟在数据收集结束时），并允许参与者撤回数据[^apa2017ethical-e6]。
 - **事后说明（debriefing）。** 研究结束后及时告诉参与者研究的性质、结果和结论，纠正他们可能产生的误解[^apa2017ethical-e7]。
-- **发表后共享数据，发现错误要更正。** 论文发表后，同行为了重新分析、核实结论来要数据，不能扣着不给[^apa2017ethical-e10]；发现已发表数据有重大错误，要通过更正、撤稿等方式纠正[^apa2017ethical-e12]。
 
 ### 报告标准：美国心理学会的 JARS
 
@@ -139,22 +137,28 @@ Henrich 等人指出，行为科学家常常只用来自"西方、受过教育�
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[量表编制与测量研究](../../06_methods/scale_development.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出心理学（以实验和社会心理学为主）常用的三种。表的分组和"在心理学里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料 `[本项目分析]`。
 
-**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)。
+| 套路 | 在心理学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md) | 用实验检验关于心理过程的假设 | 在看到结果之前定好研究问题和分析计划[^nosek2018preregistration-e1]；事先功效分析要能说清为什么选这个效应量[^lakens2022sample-e3]；完整披露测量、实验操纵、剔除的数据和样本量规则[^nelson2018psychology-e10]；按 JARS 报告样本量怎么定、剔除标准[^appelbaum2018journal-e2][^appelbaum2018journal-e5] | [对照实验](../../06_methods/controlled_experiment.md) |
+| [测量](../../05_research-strategies/measure.md) | 给抑郁、人格、态度这类无法直接观察的构念找到可靠的测法[^flake2020measurement-e2] | 用在被测人群中已确立效度和信度的工具[^apa2017ethical-e11]；照原样用已有量表并注明出处[^flake2020measurement-e4]；报告量表是否验证过、本样本上的信度[^appelbaum2018journal-e4] | [量表编制与测量研究](../../06_methods/scale_development.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 用元分析合并已发表研究的效应 | 已发表的效应量会因发表偏差被高估[^lakens2022sample-e5]，合并前要考虑这一点 `[本项目分析]` | [系统综述与元分析](../../06_methods/meta_analysis.md)、[综述研究](../../06_methods/review_study.md) |
 
-心理学的很多方法和研究方法里涉及人的那几种相通，可以先读对应文档，再注意下表的差异 `[本项目分析]`：
+怎么用这张表 `[本项目分析]`：不管走哪种套路，心理学审稿人都会看样本量的理由和是否完整披露；测量是实验的前提，实验结论再漂亮，测不准也救不回来[^flake2020measurement-e2]。
 
-| 研究类型 | 研究方法文档 | 心理学里要多注意什么 |
+## 本学科常用的研究方法
+
+心理学用的方法多和研究方法里涉及人的那几种相通，先读对应文档，再注意下表的差异 `[本项目分析]`：
+
+| 研究做法 | 研究方法 | 心理学里要多注意什么 |
 |---|---|---|
-| 实验（含被试间、被试内设计） | [对照实验](../../06_methods/controlled_experiment.md) | 那篇讲的是比较工具或方法对人的影响；心理学实验研究的是心理过程本身。用欺骗要有充分理由，并按准则做事后说明[^apa2017ethical-e5][^apa2017ethical-e7]；样本量和预注册见上文 |
-| 问卷与量表研究 | [问卷调查](../../06_methods/questionnaire_survey.md) | 测心理构念时，要用有效度证据的量表，并报告本样本上的信度[^appelbaum2018journal-e4]（见上文[测量](#测量用有效度证据的量表)） |
+| 实验（含被试间、被试内设计） | [对照实验](../../06_methods/controlled_experiment.md) | 那篇讲的是比较工具或方法对人的影响；心理学实验研究的是心理过程本身。用欺骗要有充分理由，并按准则做事后说明[^apa2017ethical-e5][^apa2017ethical-e7] |
+| 问卷与量表研究 | [问卷调查](../../06_methods/questionnaire_survey.md)、[量表编制与测量研究](../../06_methods/scale_development.md) | 测心理构念时，见上文[测量](#测量用有效度证据的量表) |
 | 访谈与其他定性研究 | [访谈研究](../../06_methods/interview_study.md) | 报告时对照 JARS–Qual[^apajars-e2] |
-| 重复研究 | [复现研究](../../06_methods/replication.md) | 顶级期刊已在经常发表重复研究[^nelson2018psychology-e2]；JARS–Quant 有专门的重复研究模块[^appelbaum2018journal-e9] |
-| 综述与元分析 | [综述研究](../../06_methods/review_study.md) | 用已发表效应量时要考虑发表偏差[^lakens2022sample-e5] |
-| 纵向研究 | [纵向研究](../../06_methods/longitudinal_study.md) | JARS–Quant 有纵向研究模块[^appelbaum2018journal-e9] |
+| 重复研究、纵向研究 | [复现研究](../../06_methods/replication.md)、[纵向研究](../../06_methods/longitudinal_study.md) | 顶级期刊已在经常发表重复研究[^nelson2018psychology-e2]；JARS–Quant 有重复研究和纵向研究的专门模块[^appelbaum2018journal-e9] |
 
 ---
 
@@ -223,11 +227,8 @@ Henrich 等人指出，行为科学家常常只用来自"西方、受过教育�
 [^nelson2018psychology-e15]: Nelson 等人 2018，The Renaissance Begins。[证据](../../../sources/notes/nelson2018psychology.md#e15)
 [^nelson2018psychology-e16]: Nelson 等人 2018，Unintentional Errors。[证据](../../../sources/notes/nelson2018psychology.md#e16)
 [^simmons2018false-e1]: Simmons、Nelson、Simonsohn 2018，第 256 页。[证据](../../../sources/notes/simmons2018false.md#e1)
-[^simmons2018false-e2]: Simmons 等人 2018，第 258 页。[证据](../../../sources/notes/simmons2018false.md#e2)
 [^nosek2018preregistration-e1]: Nosek 等人 2018，Abstract。[证据](../../../sources/notes/nosek2018preregistration.md#e1)
 [^nosek2018preregistration-e2]: Nosek 等人 2018，Mental Constraints on Distinguishing Predictions and Postdictions。[证据](../../../sources/notes/nosek2018preregistration.md#e2)
-[^nosek2018preregistration-e3]: Nosek 等人 2018，Mental Constraints on Distinguishing Predictions and Postdictions。[证据](../../../sources/notes/nosek2018preregistration.md#e3)
-[^nosek2018preregistration-e4]: Nosek 等人 2018，Preregistration Distinguishes Prediction and Postdiction。[证据](../../../sources/notes/nosek2018preregistration.md#e4)
 [^nosek2018preregistration-e5]: Nosek 等人 2018，Challenge 1。[证据](../../../sources/notes/nosek2018preregistration.md#e5)
 [^nosek2018preregistration-e6]: Nosek 等人 2018，Challenge 6。[证据](../../../sources/notes/nosek2018preregistration.md#e6)
 [^nosek2018preregistration-e7]: Nosek 等人 2018，Advancing the Motive for Preregistration。[证据](../../../sources/notes/nosek2018preregistration.md#e7)
@@ -253,16 +254,13 @@ Henrich 等人指出，行为科学家常常只用来自"西方、受过教育�
 [^henrich2010weirdest-e8]: Henrich 等人 2010，§6.3。[证据](../../../sources/notes/henrich2010weirdest.md#e8)
 [^apa2017ethical-e1]: 美国心理学会伦理准则，Introduction and Applicability。[证据](../../../sources/notes/apa2017ethical.md#e1)
 [^apa2017ethical-e2]: 美国心理学会伦理准则，8.01。[证据](../../../sources/notes/apa2017ethical.md#e2)
-[^apa2017ethical-e3]: 美国心理学会伦理准则，8.02(a)。[证据](../../../sources/notes/apa2017ethical.md#e3)
 [^apa2017ethical-e4]: 美国心理学会伦理准则，8.04(b)。[证据](../../../sources/notes/apa2017ethical.md#e4)
 [^apa2017ethical-e5]: 美国心理学会伦理准则，8.07(a)。[证据](../../../sources/notes/apa2017ethical.md#e5)
 [^apa2017ethical-e6]: 美国心理学会伦理准则，8.07(c)。[证据](../../../sources/notes/apa2017ethical.md#e6)
 [^apa2017ethical-e7]: 美国心理学会伦理准则，8.08(a)。[证据](../../../sources/notes/apa2017ethical.md#e7)
 [^apa2017ethical-e8]: 美国心理学会伦理准则，8.12(b)。[证据](../../../sources/notes/apa2017ethical.md#e8)
 [^apa2017ethical-e9]: 美国心理学会伦理准则，8.12(c)。[证据](../../../sources/notes/apa2017ethical.md#e9)
-[^apa2017ethical-e10]: 美国心理学会伦理准则，8.14(a)。[证据](../../../sources/notes/apa2017ethical.md#e10)
 [^apa2017ethical-e11]: 美国心理学会伦理准则，9.02(b)。[证据](../../../sources/notes/apa2017ethical.md#e11)
-[^apa2017ethical-e12]: 美国心理学会伦理准则，8.10(b)。[证据](../../../sources/notes/apa2017ethical.md#e12)
 [^apajars-e1]: 美国心理学会 APA Style 网站 JARS 页面，What are APA Style JARS?。[证据](../../../sources/notes/apajars.md#e1)
 [^apajars-e2]: 美国心理学会 APA Style 网站 JARS 页面，Guidelines。[证据](../../../sources/notes/apajars.md#e2)
 [^apajars-e3]: 美国心理学会 APA Style 网站 JARS 页面，What are APA Style JARS?。[证据](../../../sources/notes/apajars.md#e3)

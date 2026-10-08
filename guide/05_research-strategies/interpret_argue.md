@@ -1,6 +1,6 @@
 # 解读论证
 
-> **状态**：占位，待扩写 · **最后更新**：2026-10-07
+> **状态**：占位，待扩写 · **最后更新**：2026-10-08
 
 ## 这是什么套路
 
@@ -14,13 +14,13 @@
 
 ## 现在可以先看哪里
 
-在补写之前，下面几篇学科文档已经讲了这类研究的具体做法。它们按学科写，资料多来自英美等少数国家和机构，读之前先看各篇开头对资料来源和适用范围的说明：
+在补写之前，下面几篇文档已经讲了这类研究的具体做法。它们原来都是为某个学科写的，资料多来自英美等少数国家和机构，读之前先看各篇开头对资料来源和适用范围的说明：
 
 | 学科 | 文档 | 讲什么 |
 |---|---|---|
-| 历史 | [档案研究](../06_methods/archival_research.md) | 查阅未出版的原始记录，用它们回答关于过去的问题 |
-| 文学 | [文本细读与文学论证](../07_fields/languages-literature/practices/close_reading.md) | 细读文本，提出一种解读，再用文本证据论证它 |
-| 哲学 | [哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md) | 提出论题、给出论证、回应反驳 |
-| 法学 | [规范法学研究](../07_fields/law/practices/doctrinal_research.md) | 找到相关的法，解释法条和判决，提出论点 |
+| 历史 | [档案研究](../06_methods/archival_research.md)（跨学科方法，原多用于历史） | 查阅未出版的原始记录，用它们回答关于过去的问题 |
+| 文学 | [文本细读与文学论证](../07_fields/languages-literature/practices/close_reading.md)（语言与文学的实践） | 细读文本，提出一种解读，再用文本证据论证它 |
+| 哲学 | [哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md)（哲学、伦理与宗教的实践） | 提出论题、给出论证、回应反驳 |
+| 法学 | [规范法学研究](../07_fields/law/practices/doctrinal_research.md)（法学的实践） | 找到相关的法，解释法条和判决，提出论点 |
 
-这些学科的整体规矩，见各自的领域概况：[历史与考古](../07_fields/history-archaeology/README.md)、[语言与文学](../07_fields/languages-literature/README.md)、[哲学、伦理与宗教](../07_fields/philosophy-ethics-religion/README.md)、[法学](../07_fields/law/README.md)。
+这些学科的整体规矩，见各自的学科概况：[历史与考古](../07_fields/history-archaeology/README.md)、[语言与文学](../07_fields/languages-literature/README.md)、[哲学、伦理与宗教](../07_fields/philosophy-ethics-religion/README.md)、[法学](../07_fields/law/README.md)。

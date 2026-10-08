@@ -1,6 +1,6 @@
 # 构建改进
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 >
 > 本页讲的道理适用于各学科，例子和具体做法以计算机为例。
 
@@ -67,14 +67,17 @@
 
 | 方法 | 在构建改进里的作用 |
 |---|---|
-| [工程研究](../07_fields/computer-science/practices/engineering_research.md)（计算机） | 计算机里这类研究的完整做法：选基线、选基准、设计评估、公开研究制品 |
-| [基准评测](../07_fields/computer-science/practices/benchmarking.md)（计算机） | 用一套标准的评测对象和自动化流程，和基线比较效果与代价 |
-| [优化研究](../07_fields/computer-science/practices/optimization_study.md)（计算机） | 把问题写成"在很多候选解中找最好的"，用搜索算法求解 |
+| [工程研究](../07_fields/computer-science/practices/engineering_research.md)（计算机的实践） | 计算机里这类研究的完整做法：选基线、选基准、设计评估、公开研究制品 |
+| [基准评测](../07_fields/computer-science/practices/benchmarking.md)（计算机的实践） | 用一套标准的评测对象和自动化流程，和基线比较效果与代价 |
+| [优化研究](../07_fields/computer-science/practices/optimization_study.md)（计算机的实践） | 把问题写成"在很多候选解中找最好的"，用搜索算法求解 |
 | [定量仿真](../06_methods/simulation_study.md)（跨学科方法） | 真实系统不便直接实验时，在模型上评估新设计 |
 | [对照实验](../06_methods/controlled_experiment.md)（跨学科方法） | 主张涉及人时（如"开发者用新工具更快找到漏洞"），请人参与比较 |
-| [基于设计的研究](../07_fields/education/practices/design_based_research.md)（教育） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
-| [合成与表征研究](../06_methods/synthesis_study.md)（化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
-| [基于实践的研究](../07_fields/arts/practices/practice_based_research.md)（艺术） | 以创作出的作品作为知识贡献的基础 |
+| [行动研究](../06_methods/action_research.md)（跨学科方法） | 和真实组织合作，在组织里引入一项改进，一边推动改变，一边研究它带来了什么 |
+| [基于设计的研究](../07_fields/education/practices/design_based_research.md)（教育学的实践） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
+| [合成与表征研究](../06_methods/synthesis_study.md)（跨学科方法，原多用于化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
+| [基于实践的研究](../07_fields/arts/practices/practice_based_research.md)（艺术的实践） | 以创作出的作品作为知识贡献的基础 |
+
+**行动研究为什么放在这里。** 软件工程的评审标准把行动研究定义为研究一项干预（例如引入某种方法或工具）如何影响真实环境的实证研究[^ralph2020empirical-e330]；行动研究的意义就在于引入改变，并观察参与者的反应[^ralph2020empirical-e342]。所以它服务两个套路：在真实组织里引入一项改进，属于构建改进；看真实环境里的人怎么反应，属于[观察描述](observe_describe.md) `[本项目分析]`。同一份标准也写明，行动研究不是实验[^ralph2020empirical-e343]，所以本手册不把它归入[解释因果](explain_causality.md) `[本项目分析]`。
 
 一个项目常常组合几种方法：例如用基准评测证明效果，再用一个小规模的对照实验说明开发者确实用得上 `[本项目分析]`。
 
@@ -196,4 +199,7 @@
 [^easterday2014design-e1]: Easterday 等人 2014，Introduction，第 317 页。[证据](../../sources/notes/easterday2014design.md#e1)
 [^bakker2015introduction-e3]: Bakker & van Eerde 2015，§16.1.2.1，第 430 页。[证据](../../sources/notes/bakker2015introduction.md#e3)
 [^acsjocguidelines-e30]: JOC 作者须知，Scope of the Journal (a)。[证据](../../sources/notes/acsjocguidelines.md#e30)
+[^ralph2020empirical-e330]: SIGSOFT 行动研究标准，定义。[证据](../../sources/notes/ralph2020empirical.md#e330)
+[^ralph2020empirical-e342]: SIGSOFT 行动研究标准，不成立的批评。[证据](../../sources/notes/ralph2020empirical.md#e342)
+[^ralph2020empirical-e343]: SIGSOFT 行动研究标准，不成立的批评。[证据](../../sources/notes/ralph2020empirical.md#e343)
 [^candy2006practice-e1]: Candy 2006，Summary，第 1 页。[证据](../../sources/notes/candy2006practice.md#e1)

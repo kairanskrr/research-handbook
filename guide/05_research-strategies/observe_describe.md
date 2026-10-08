@@ -1,6 +1,6 @@
 # 观察描述
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-07
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 >
 > 本页的道理适用于各学科，例子和具体做法以计算机为例。文中引用的软件工程评审标准（ACM SIGSOFT 实证研究标准）、医学和兽医的报告规范、美国环境保护署的规划指南等，只代表各自领域的做法，都标明了出处，不是所有研究的通则。
 
@@ -71,9 +71,12 @@
 | [案例研究](../06_methods/case_study.md) | 想深入描述少数真实场景里实际发生了什么 | 用代表性换深度[^easterbrook2008selecting-e19]，不要假装一两个现场有代表性[^baltes2022sampling-e10] |
 | [纵向研究](../06_methods/longitudinal_study.md) | 想描述现象随时间怎样变化[^ralph2020empirical-e257] | 只想知道"现在用得多广"，一次横断面的"快照"就够；要看变化，才需要跟踪同一批对象[^easterbrook2008selecting-e53] |
 | [数据科学](../06_methods/data_science.md) | 对已有数据集做探索性分析 | 只看一个时间点的分析，SIGSOFT 标准建议参考探索性数据科学标准[^ralph2020empirical-e258] |
+| [行动研究](../06_methods/action_research.md) | 想看一项改变引入真实组织后，里面的人怎么反应。行动研究的意义就在于引入改变，并观察参与者的反应[^ralph2020empirical-e342] | 研究者要在真实环境里实施干预；只观察、不干预的，按案例研究的标准做[^ralph2020empirical-e331] |
 | [综述](../06_methods/review_study.md) | 文献里可能已经有答案 | 探索性问题仍然要问，但可以用文献调研而不是新的实证研究来回答[^easterbrook2008selecting-e41]；见[综合](synthesize.md) |
 
-表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见[野外观测研究](../06_methods/field_study.md)、[观察性流行病学](../06_methods/observational_epidemiology.md)中的横断面研究、[语言记录](../07_fields/languages-literature/practices/language_documentation.md)。
+表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见跨学科方法[野外观测研究](../06_methods/field_study.md)（原多用于地球与环境科学）、[观察性流行病学](../06_methods/observational_epidemiology.md)（原多用于健康科学）中的横断面研究，以及语言与文学的实践[语言记录](../07_fields/languages-literature/practices/language_documentation.md)。
+
+**行动研究为什么放在这里。** 软件工程的评审标准把行动研究定义为研究一项干预（例如引入某种方法或工具）如何影响真实环境的实证研究[^ralph2020empirical-e330]。它服务两个套路：在真实组织里引入一项改进，属于[构建改进](build_improve.md)；看真实环境里的人怎么反应，属于观察描述 `[本项目分析]`。同一份标准也写明，行动研究不是实验[^ralph2020empirical-e343]，所以本手册不把它归入[解释因果](explain_causality.md) `[本项目分析]`。
 
 **常见的组合** `[本项目分析]`：先用访谈或人工细读少量样本，归纳出类别；再用仓库挖掘或问卷，统计每一类有多常见。例如先人工读 50 份生成合约归纳漏洞类型，再用工具在几千份合约上统计分布，最后抽样人工复核工具的判定。
 
@@ -97,7 +100,7 @@
 
 只列本文资料能支持的；其他学科是否常用，本文资料未涉及。
 
-- **计算机（尤其软件工程）**：软件工程的问卷调查标准把"详细描述一个现象或人群的性质"列为问卷的一种用途[^ralph2020empirical-e234]。仓库挖掘的发现本身也常是描述性的，例如 GitHub 上多数项目是个人的、不活跃的[^kalliamvakou2014promises-e1]，67% 的项目只有一名提交者[^kalliamvakou2014promises-e5]。见[计算机领域概况](../07_fields/computer-science/README.md)。
+- **计算机（尤其软件工程）**：软件工程的问卷调查标准把"详细描述一个现象或人群的性质"列为问卷的一种用途[^ralph2020empirical-e234]。仓库挖掘的发现本身也常是描述性的，例如 GitHub 上多数项目是个人的、不活跃的[^kalliamvakou2014promises-e1]，67% 的项目只有一名提交者[^kalliamvakou2014promises-e5]。见[计算机学科概况](../07_fields/computer-science/README.md)。
 - **医学与公共卫生**：按医学观察性研究报告规范 STROBE 的解释文件，横断面研究在同一时间点调查一个样本，常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]。见[健康科学](../07_fields/health-sciences/README.md)、[临床医学](../07_fields/clinical-medicine/README.md)。
 - **兽医学**：按兽医观察性研究报告规范 STROBE-Vet，观察性研究可以用来估计某种状况的患病率或发病率，研究它在时间和空间上的分布[^sargeant2016strobevet-e2]。见[动物科学与兽医学](../07_fields/animal-veterinary-science/README.md)。
 - **环境工程与地球科学**：美国环境保护署的规划指南把"估计"（例如确定某种污染物的平均浓度）列为数据的一种用途[^epa2006dqo-e2]。见[环境工程](../07_fields/environmental-engineering/README.md)、[地球与环境科学](../07_fields/earth-environmental-sciences/README.md)。
@@ -187,4 +190,8 @@
 [^vandenbroucke2007strobe-e3]: Vandenbroucke 等人 2007，Box 1。[证据](../../sources/notes/vandenbroucke2007strobe.md#e3)
 [^sargeant2016strobevet-e2]: Sargeant 等人 2016，Introduction。[证据](../../sources/notes/sargeant2016strobevet.md#e2)
 [^gerring2004case-e7]: Gerring 2004，Conclusion，第 352 页。[证据](../../sources/notes/gerring2004case.md#e7)
+[^ralph2020empirical-e330]: SIGSOFT 行动研究标准，定义。[证据](../../sources/notes/ralph2020empirical.md#e330)
+[^ralph2020empirical-e331]: SIGSOFT 行动研究标准，适用范围。[证据](../../sources/notes/ralph2020empirical.md#e331)
+[^ralph2020empirical-e342]: SIGSOFT 行动研究标准，不成立的批评。[证据](../../sources/notes/ralph2020empirical.md#e342)
+[^ralph2020empirical-e343]: SIGSOFT 行动研究标准，不成立的批评。[证据](../../sources/notes/ralph2020empirical.md#e343)
 [^riesberg2018adequacy-e2]: Riesberg 2018，第 152 页。[证据](../../sources/notes/riesberg2018adequacy.md#e2)

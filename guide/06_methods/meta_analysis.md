@@ -1,10 +1,15 @@
 # 系统综述与元分析（健康领域）
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，研究方法里的[综述研究](review_study.md#2-系统综述怎么做)已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[领域概况](../07_fields/health-sciences/README.md)。
+本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，[综述研究](review_study.md#2-系统综述怎么做)一篇已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[健康科学学科概况](../07_fields/health-sciences/README.md)。
 
 **本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。诊断准确性、预后等其他类型综述的专门方法，本文资料未涉及，同样以导师或目标期刊要求为准。
+
+**适用范围** `[本项目分析]`：本文原为[健康科学](../07_fields/health-sciences/README.md)写，资料主要是 Cochrane 手册、PRISMA 2020 报告规范、PROSPERO 登记平台的规定和 GRADE 方法的文献，讲的都是健康领域干预效果综述的做法。[临床医学](../07_fields/clinical-medicine/README.md)和[心理学与认知科学](../07_fields/psychology/README.md)的学科概况也指向本篇。其他学科做元分析时，合并效应的统计思路可以参考；登记平台、偏倚风险工具和证据分级标准，先看本学科的规范。
+
+**常服务的套路**：[综合](../05_research-strategies/synthesize.md)、[比较评估](../05_research-strategies/compare_evaluate.md)。
+
 
 **读完本文，你应该能：** 判断自己的问题该不该做系统综述、要不要做元分析；在开始筛选之前写好方案并登记；用 RoB 2 和 ROBINS-I 两个工具评价纳入研究的偏倚风险；选对效应指标和模型，正确解读 I² 和漏斗图；用 GRADE 方法给每个结局的证据定级，并按 PRISMA 2020 报告。
 
@@ -21,17 +26,17 @@
 | 好处 | 适用面广 `[本项目分析]` | 提高精确度，回答单个研究没问过的问题，平息相互矛盾的结论[^higgins2024cochrane-e13] |
 | 风险 | 容易退化成逐篇罗列 `[本项目分析]` | 不仔细考虑设计、偏倚、研究间差异和报告偏倚时，可能严重误导[^higgins2024cochrane-e13] |
 
-**什么时候做系统综述：** 先用 PICO 框架把问题说清楚：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]；再估计工作量。这两点和"开始新研究前先做综述"的建议，[领域概况](../07_fields/health-sciences/README.md#系统综述cochrane-手册)已讲过。还要注意：按 PROSPERO（下文第 1 步介绍的登记平台）2023 年存档页面的规定，它不登记少于两人做的综述[^crd2023prospero-e7]，也不登记培训课程作业式的"迷你"综述[^crd2023prospero-e9]。一个人做的课程练习多半登记不了；能不能当作正式系统综述投稿，先问导师或目标期刊 `[本项目分析]`。
+**什么时候做系统综述：** 先用 PICO 框架把问题说清楚：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]；再估计工作量。这两点和"开始新研究前先做综述"的建议，[健康科学学科概况](../07_fields/health-sciences/README.md#系统综述cochrane-手册)已讲过。还要注意：按 PROSPERO（下文第 1 步介绍的登记平台）2023 年存档页面的规定，它不登记少于两人做的综述[^crd2023prospero-e7]，也不登记培训课程作业式的"迷你"综述[^crd2023prospero-e9]。一个人做的课程练习多半登记不了；能不能当作正式系统综述投稿，先问导师或目标期刊 `[本项目分析]`。
 
 **什么时候不做元分析：** 系统综述不一定要有元分析[^higgins2024cochrane-e16]。Cochrane 手册列出的情况有：没有研究或只有一项研究，无法合并[^higgins2024cochrane-e19]；结局或效应估计报告不全，或各研究用的效应指标不同；证据本身有偏倚[^higgins2024cochrane-e17]；人群、干预、对照、结局不够相似，合并后得不到有临床意义的答案，例如各研究的对照组形式不同[^higgins2024cochrane-e15]；结果差异很大，尤其效应方向不一致，这时报一个平均值可能误导[^higgins2024cochrane-e16]。但"差异大、异质性高"本身不一定是放弃的理由。手册认为这时仍应考虑元分析，做得恰当、解释得当，它可能给出重要信息[^higgins2024cochrane-e17]。不做元分析时，也不要按"显著的几篇、不显著的几篇"来计票，手册称这种方法不可接受[^higgins2024cochrane-e18]。
 
-**纳入哪些设计：** 在 GRADE 评级里，随机试验的证据从"高"起评，非随机研究从"低"起评（见第 7 步）[^higgins2024cochrane-e66]；但有些证据，尤其是关于干预危害的，常常要来自非随机研究[^higgins2024cochrane-e8]。观察性研究的混杂、测量误差、选择偏倚见领域概况的[观察性研究的三个坑](../07_fields/health-sciences/README.md#观察性研究的三个坑)。合并高偏倚风险观察性研究的元分析，不能和合并低偏倚风险随机试验的元分析等同看待[^murad2016new-e5]，详见临床医学篇的[证据金字塔](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)。
+**纳入哪些设计：** 在 GRADE 评级里，随机试验的证据从"高"起评，非随机研究从"低"起评（见第 7 步）[^higgins2024cochrane-e66]；但有些证据，尤其是关于干预危害的，常常要来自非随机研究[^higgins2024cochrane-e8]。观察性研究的混杂、测量误差、选择偏倚见健康科学学科概况的[观察性研究的三个坑](../07_fields/health-sciences/README.md#观察性研究的三个坑)。合并高偏倚风险观察性研究的元分析，不能和合并低偏倚风险随机试验的元分析等同看待[^murad2016new-e5]，详见临床医学学科概况的[证据金字塔](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)。
 
 ---
 
 ## 2. 怎么做
 
-下面八步按时间顺序排。第 1 步之后的检索、筛选、提取，照研究方法里的[综述研究的执行阶段](review_study.md#第二阶段执行)做；健康领域的检索还要查试验登记库，见第 6 步。
+下面八步按时间顺序排。第 1 步之后的检索、筛选、提取，照[综述研究](review_study.md)一篇的[执行阶段](review_study.md#第二阶段执行)做；健康领域的检索还要查试验登记库，见第 6 步。
 
 ### 第 1 步：写方案，在 PROSPERO 登记
 
@@ -108,7 +113,7 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 
 ### 第 7 步：用 GRADE 给每个结局的证据定级
 
-GRADE（Grading of Recommendations Assessment, Development and Evaluation，推荐分级的评估、制订与评价）是给证据可信程度定级的方法，Cochrane 手册第 14 章用它评定证据确定性[^higgins2024cochrane-e64]。它不是设计越"高级"证据就越强，而是逐个结局看证据有多可信，这和[临床医学篇](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)讲的证据金字塔思路不同 `[本项目分析]`。
+GRADE（Grading of Recommendations Assessment, Development and Evaluation，推荐分级的评估、制订与评价）是给证据可信程度定级的方法，Cochrane 手册第 14 章用它评定证据确定性[^higgins2024cochrane-e64]。它不是设计越"高级"证据就越强，而是逐个结局看证据有多可信，这和[临床医学学科概况](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)讲的证据金字塔思路不同 `[本项目分析]`。
 
 **怎么做：**
 - **按结局评，不按研究评。** 每个结局的证据分四级：高、中、低、极低[^higgins2024cochrane-e64]。按 2013 年版 GRADE 手册的说法，"高"指很有把握真实效应接近估计值；"极低"指真实效应很可能与估计值差别很大[^schunemann2013grade-e1]。
@@ -123,7 +128,7 @@ GRADE（Grading of Recommendations Assessment, Development and Evaluation，推�
 
 ### 第 8 步：按 PRISMA 2020 报告
 
-PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导怎么做[^page2021prisma-e16]；通用部分见研究方法里的[综述研究的报告阶段](review_study.md#第三阶段报告)。Cochrane 手册要求 Cochrane 的方案和综述符合 PRISMA 2020 和它的方案版（PRISMA for Protocols）[^higgins2024cochrane-e70]。和元分析有关、容易漏的条目：
+PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导怎么做[^page2021prisma-e16]；通用部分见[综述研究](review_study.md)一篇的[报告阶段](review_study.md#第三阶段报告)。Cochrane 手册要求 Cochrane 的方案和综述符合 PRISMA 2020 和它的方案版（PRISMA for Protocols）[^higgins2024cochrane-e70]。和元分析有关、容易漏的条目：
 
 - 每个结局的效应指标（第 12 项）[^page2021prisma-e8]；模型、判断异质性的方法、软件（第 13d 项）[^page2021prisma-e9]；亚组分析、元回归、敏感性分析（第 13e、13f 项）[^page2021prisma-e10]
 - 报告偏倚和证据确定性的评估方法（第 14、15 项）[^page2021prisma-e11]；每项研究的偏倚风险（第 18 项）[^page2021prisma-e12]；每个元分析的合并估计、置信区间和异质性指标（第 20b 项）[^page2021prisma-e13]

@@ -1,8 +1,8 @@
-# 法学：领域概况
+# 法学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲法学研究实际怎样运转：法学研究有哪几类，"规范研究"到底在做什么，一手和二手法律资料怎样找、怎样确认没有过时，引注规则，以及各国很不一样的发表方式。各学科共通的做法（选题、读文献、写作、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲法学研究实际怎样运转：法学研究有哪几类，"规范研究"到底在做什么，一手和二手法律资料怎样找、怎样确认没有过时，引注规则，以及各国很不一样的发表方式。各学科共通的做法（选题、读文献、写作、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 **先说一句最重要的提醒：法学和具体的国家、法律体系绑在一起。** 本文的资料来自美国、英国和澳大利亚：美国的法律评论、英国的引注标准和学会准则、两位澳大利亚和英国学者的文章。所以下文写到某个做法时，都会写明是**哪个国家、哪家机构**的做法。它们不是全世界通用的规则；你所在国家的法律体系、引注习惯、期刊制度和伦理审查办法，**以本国、本校和目标期刊的规定为准** `[本项目分析]`。
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 本领域研究怎样运转
+## 本学科研究怎样运转
 
 ### 法学研究有哪几类
 
@@ -56,7 +56,7 @@
 
 **一手资料**是法律本身，例如立法和判例 `[本项目分析]`；**二手资料**是关于法律的评论：教科书、期刊文章、政府报告、政策文件、法律改革文件、媒体报道等[^hutchinson2012defining-e11]。英国 OSCOLA 引注标准规定，为同一个观点同时引一手和二手资料时，**先引一手资料**[^goudkamp2026oscola-e4]。教科书说"法律是这样"，不能代替你自己去读法条和判决 `[本项目分析]`。
 
-**和历史学的"一手资料"不同。** 历史研究者把一手资料当作事实的证据，法学研究者读一手资料，是为了推出"法律是什么"[^hutchinson2012defining-e12]。规范研究主要关注"有权威的声音"[^hutchinson2012defining-e13]：立法和判决的分量，来自制定它们的议会或法院[^hutchinson2012defining-e31]。历史学怎样审视一份资料（谁写的、为什么写），见[历史与考古领域概况](../history-archaeology/README.md)；做法律史或研究立法过程时，这套方法同样适用 `[本项目分析]`。
+**和历史学的"一手资料"不同。** 历史研究者把一手资料当作事实的证据，法学研究者读一手资料，是为了推出"法律是什么"[^hutchinson2012defining-e12]。规范研究主要关注"有权威的声音"[^hutchinson2012defining-e13]：立法和判决的分量，来自制定它们的议会或法院[^hutchinson2012defining-e31]。历史学怎样审视一份资料（谁写的、为什么写），见[历史与考古学科概况](../history-archaeology/README.md)；做法律史或研究立法过程时，这套方法同样适用 `[本项目分析]`。
 
 **法律会变，所以每次都要核查是否仍然有效：**
 
@@ -90,7 +90,7 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 
 注意：**同时投多家只是美国法律评论的惯例**。很多其他学科的期刊把一稿多投当作不端行为；投稿前一定要看目标期刊的规定 `[本项目分析]`。
 
-**SSRN 的法学研究网络。** SSRN（社会科学研究网络）的法学研究网络（Legal Scholarship Network）是开放获取的预印本平台，用来加快传播工作论文和早期研究[^ssrnlsn-e1]。LWI 的指南说，给美国法律评论写投稿信时，可以提到 SSRN 下载量（如果很多）[^lwipublishingtips-e7]。经济学也有先发工作论文的习惯，见[经济学领域概况](../economics/README.md)。
+**SSRN 的法学研究网络。** SSRN（社会科学研究网络）的法学研究网络（Legal Scholarship Network）是开放获取的预印本平台，用来加快传播工作论文和早期研究[^ssrnlsn-e1]。LWI 的指南说，给美国法律评论写投稿信时，可以提到 SSRN 下载量（如果很多）[^lwipublishingtips-e7]。经济学也有先发工作论文的习惯，见[经济学学科概况](../economics/README.md)。
 
 **英国和澳大利亚：更看重同行评审期刊。** Hutchinson 和 Duncan 的文章主要讲澳大利亚和英国。他们说，学者被引导去面向学术读者的同行评审期刊发表，而不是面向执业者的刊物[^hutchinson2012defining-e26]。他们还指出，法学研究的质量不只看同行引用，也看法院或法律改革机构是否引用了它[^hutchinson2012defining-e24]。专著在各国法学界的地位，本文资料未涉及，以导师或所在单位的评价规定为准。
 
@@ -98,23 +98,19 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 
 ---
 
-## 和其他领域不同的地方
+## 和其他学科不同的地方
 
-下表的计算机一栏和"研究对象""地域性"两行是本项目的归纳 `[本项目分析]`；计算机的情况见[计算机篇](../computer-science/README.md)。
+下表的计算机一栏和"研究对象""地域性"两行是本项目的归纳 `[本项目分析]`；发表、引注的差别见上文，计算机的情况见[计算机篇](../computer-science/README.md)。
 
 | | 法学 | 对照：计算机 |
 |---|---|---|
 | 研究对象 | 法律文本和法律实践；规范研究追问"法律是什么、应该是什么" | 多为人造的系统，要证明新东西更好 |
 | 证据 | 一手法律资料（立法、判例），它的分量来自议会或法院的权威，而不是自然发生、可观察的现象[^hutchinson2012defining-e31] | 实验和测量数据 |
-| 可重复性 | 第一步（找到法律）容易重复[^hutchinson2012defining-e30]，第二步（解释）因人而异[^hutchinson2012defining-e14] | 强调制品和复现 |
-| 发表（美国） | 多为学生运营的法律评论[^lwipublishingtips-e1]，可同时投多家[^lwipublishingtips-e2] | 同行评审的会议，一稿多投属不端 |
-| 发表（英国、澳大利亚） | 学者被引导投同行评审期刊[^hutchinson2012defining-e26] | — |
-| 引注 | 各国标准不同 `[本项目分析]`；英国 OSCOLA 是脚注体例[^goudkamp2026oscola-e2] | 作者-年份或编号体例 |
 | 地域性 | 和某个国家的法律体系绑定 | 结论多不分国家 |
 
 ---
 
-## 本领域的规范和报告标准
+## 本学科的规范和报告标准
 
 ### 实证法学研究：Epstein 和 King 的"推断规则"
 
@@ -144,21 +140,28 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[规范法学研究](practices/doctrinal_research.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的套路；分组和概括是本项目的归纳，每条标准只代表脚注里那个国家、那位作者 `[本项目分析]`。比较法、法律史、法哲学的证据标准，本文资料未涉及。
 
-**相关学科的研究类型文档**：[哲学论证研究](../philosophy-ethics-religion/practices/philosophical_argument.md)。
+| 套路 | 在法学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解读论证](../../05_research-strategies/interpret_argue.md)（规范研究） | 系统阐述某一领域的法律规则，分析规则之间的关系，解释疑难之处[^hutchinson2012defining-e1]；先找到法律渊源，再解释和分析文本[^hutchinson2012defining-e6] | 核心是分析一手法律资料，不只是文献综述[^hutchinson2012defining-e9]；交稿前核查法律是否仍然有效（美国）[^northwesterngoodlaw-e2]；至少写一句方法说明[^hutchinson2012defining-e17] | [规范法学研究](practices/doctrinal_research.md) |
+| [解读论证](../../05_research-strategies/interpret_argue.md)（改革导向研究） | 评估现有规则是否妥当，对不足的规则提出修改建议[^hutchinson2012defining-e2] | 提出问题、列出可选方案、提出评价标准、推荐首选方案[^hutchinson2012defining-e36]；判断哪种做法"更好"时，说明用了什么标准[^hutchinson2012defining-e34]；质量也看法院或法律改革机构是否引用[^hutchinson2012defining-e24] | [规范法学研究：评价现行法](practices/doctrinal_research.md#第-7-步评价现行法提出改革建议) |
+| [观察描述](../../05_research-strategies/observe_describe.md)、[解释因果](../../05_research-strategies/explain_causality.md)（实证法学研究） | 用定量数据或定性信息认识现实世界[^epstein2002rules-e1]，例如统计判决结果、访谈律师 | Epstein 和 King 主张：先确定目标总体，避免选择偏差[^epstein2002rules-e6]；编码规则写到别人完全看得懂[^epstein2002rules-e14]；报告每个结论有多不确定[^epstein2002rules-e8]；别人不用向你要信息就能重做[^epstein2002rules-e5]。详见下文[推断规则](#实证法学研究epstein-和-king-的推断规则) | [数据科学研究](../../06_methods/data_science.md)、[访谈研究](../../06_methods/interview_study.md) |
 
-- **规范研究**：找到并解释立法和判例，整理、重述或批判某一领域的法律（见上文）。
-- **改革导向研究和政策分析**：评估现有规则，提出修改建议[^hutchinson2012defining-e2]。
-- **理论和法哲学研究**：讨论法律原则的概念基础[^hutchinson2012defining-e3]。和计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)不同，这里没有形式化证明，靠的是论证 `[本项目分析]`。
+怎么用这张表 `[本项目分析]`：规范研究是法学最被接受的方法[^hutchinson2012defining-e5]，但一篇文章常混合几类：Hutchinson 考察的 32 篇澳大利亚刑法改革文章全都在一定程度上用了规范方法，其中 23 篇提出了改革建议[^hutchinson2015doctrinal-e14][^hutchinson2015doctrinal-e10]。只要文中有"这条规则导致了……"这类关于现实的判断，这部分就要按实证法学研究那一行的标准对待。
+
+## 本学科常用的研究方法
+
+**本学科独有的方法**：[规范法学研究](practices/doctrinal_research.md)，包括规范研究和改革导向研究的具体做法。相关的还有哲学的[哲学论证研究](../philosophy-ethics-religion/practices/philosophical_argument.md)。其他方法：
+
+- **理论和法哲学研究**：讨论法律原则的概念基础[^hutchinson2012defining-e3]，靠的是论证，不是形式化证明 `[本项目分析]`。
 - **比较法研究**：比较不同法律体系的规则和做法[^hutchinson2012defining-e21]。引用外国法律要按它本国的方式[^goudkamp2026oscola-e6]，并留意翻译和制度背景的差别 `[本项目分析]`。
-- **法律史**：方法接近历史学 `[本项目分析]`，见[历史与考古领域概况](../history-archaeology/README.md)。
-- **实证法学研究（定量）**：统计判决、编码判例。和研究方法里的[数据科学](../../06_methods/data_science.md)相通；Epstein 和 King 提醒的一个问题是判例的选择偏差，例如只看已公开的判决[^epstein2002rules-e7]。
-- **访谈研究**：访谈法官、律师、当事人。做法见研究方法里的[访谈研究](../../06_methods/interview_study.md)；差别在于受访的法官、资深律师人少、容易被认出 `[本项目分析]`，还有保密的法律边界（见上文）。
-- **案例研究**：注意，法学里的"案例"（case）通常指法院的案件，而研究方法里的[案例研究](../../06_methods/case_study.md)指在真实环境里深入研究少数对象（如一个机构、一个项目）的方法。分析几个判决不等于做了一项案例研究 `[本项目分析]`。
-- **系统综述**：研究方法里的[综述研究](../../06_methods/review_study.md)讲的是按方案检索、筛选文献。规范研究里的文献综述只是第一步[^hutchinson2012defining-e8]，不能代替对一手法律资料的分析。
+- **法律史**：方法接近历史学 `[本项目分析]`，见[档案研究](../../06_methods/archival_research.md)和[历史与考古学科概况](../history-archaeology/README.md)。
+- **实证法学研究**：统计判决、编码判例，见[数据科学研究](../../06_methods/data_science.md)；访谈法官、律师、当事人，见[访谈研究](../../06_methods/interview_study.md)。访谈时要注意：受访的法官、资深律师人少、容易被认出 `[本项目分析]`，还有保密的法律边界（见上文）。
+- **案例研究**：注意，法学里的"案例"（case）通常指法院的案件，而方法篇里的[案例研究](../../06_methods/case_study.md)指在真实环境里深入研究少数对象（如一个机构、一个项目）的方法。分析几个判决不等于做了一项案例研究 `[本项目分析]`。
+- **系统综述**：方法篇里的[综述研究](../../06_methods/review_study.md)讲的是按方案检索、筛选文献。规范研究里的文献综述只是第一步[^hutchinson2012defining-e8]，不能代替对一手法律资料的分析。
 
 ---
 
@@ -167,11 +170,8 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 1. **先确定你研究的是哪个国家、哪个法律体系。** 资料、引注和发表惯例都跟着它走 `[本项目分析]`。
 2. **一手资料亲自读，并在交稿前核查是否仍然有效。** 美国判例用引证工具，并读后来引用它的判决的上下文[^northwesterngoodlaw-e4]；英国立法看 legislation.gov.uk 的变更提示[^legislationgovukhelp-e1]；其他国家问本校法学图书馆员 `[本项目分析]`。
 3. **说清你的贡献不只是描述现行法。** 是重述、重新组合、批判，还是提出改革建议，开头就说清楚[^hutchinson2012defining-e22][^hutchinson2012defining-e23] `[本项目分析]`。
-4. **把方法写出来，哪怕只是一段。** 至少说明资料怎样收集[^hutchinson2012defining-e17]，最好也说明怎样分析 `[本项目分析]`。
-5. **从一开始就用对引注标准。** 先问目标期刊或学校用英国的 OSCOLA、美国的《蓝皮书》还是别的标准 `[本项目分析]`，然后保持一致[^goudkamp2026oscola-e1]。
-6. **做实证研究，先读 Epstein 和 King 的推断规则。** 按他们的建议，写清选了哪些案件、怎么选、怎么编码，并准备好公开数据[^epstein2002rules-e6][^epstein2002rules-e16]。
-7. **访谈前先想好保密能做到什么程度。** 英国 SLSA 的原则要求不做不现实的保证[^slsa2021ethics-e5]；并走本单位的伦理审查 `[本项目分析]`。
-8. **投稿前读目标期刊的投稿须知。** 美国法律评论一般可以同时投多家[^lwipublishingtips-e2]；别的期刊不要默认也行 `[本项目分析]`。
+4. **从一开始就用对引注标准。** 先问目标期刊或学校用英国的 OSCOLA、美国的《蓝皮书》还是别的标准 `[本项目分析]`，然后保持一致[^goudkamp2026oscola-e1]。
+5. **投稿前读目标期刊的投稿须知。** 美国法律评论一般可以同时投多家[^lwipublishingtips-e2]；别的期刊不要默认也行 `[本项目分析]`。
 
 ---
 
@@ -183,12 +183,8 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 | 引用一个已被推翻或修改的判例、法条 | 交稿前没有核查是否仍然有效[^northwesterngoodlaw-e2] |
 | 看到引证工具的红色标记就认定判例失效 | 红色不一定说明它已失效，要读上下文[^northwesterngoodlaw-e3] |
 | 文章只把现行法描述一遍 | 读者看不到你的新看法；学者可以自己选题目和深度，不必像律师那样只为客户找一个答案[^hutchinson2012defining-e20] `[本项目分析]` |
-| 学位论文不写研究方法 | Hutchinson 和 Duncan 认为至少要有一句说明资料怎样收集[^hutchinson2012defining-e17] |
 | 引注体例混用，或判例不给页码、段落号 | 违反 OSCOLA 的一致原则[^goudkamp2026oscola-e1]；OSCOLA 要求精确定位[^goudkamp2026oscola-e3] |
-| 引用自己旧作的原话不加引号 | 例如《耶鲁法学杂志》明确要求，引自己的旧作也要加引号和引注[^yljsubmissions-e2] |
 | 把美国法律评论的"同时投多家"用到其他期刊 | 这只是美国法律评论的惯例，很多其他期刊不允许 `[本项目分析]` |
-| 只挑几个支持自己观点的"关键判例"，得出普遍结论 | Epstein 和 King 认为，这样的结论只是"可能"成立[^epstein2002rules-e11]；应先确定目标总体、记录选择过程[^epstein2002rules-e6] |
-| 只用已公开的判决，推断所有判决的情况 | 结论可能朝一个方向偏[^epstein2002rules-e7] |
 | 直接问法官或律师"你为什么这样做"，就当成答案 | Epstein 和 King 认为这是测量动机最差的方法之一[^epstein2002rules-e17] |
 | 向受访的法官、律师承诺"绝对保密" | 英国 SLSA 的原则提醒：不做不现实的保证，研究者可能被要求作证或交出文件[^slsa2021ethics-e5][^slsa2021ethics-e10] |
 
@@ -197,11 +193,13 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 ## 延伸阅读
 
 - **Hutchinson & Duncan 2012**，Defining and Describing What We Do: Doctrinal Legal Research（Deakin Law Review，开放获取）：想弄清"规范研究到底是什么方法、怎样写方法部分"，先读这篇。视角是澳大利亚和英国。
-- **Epstein & King 2002**，The Rules of Inference（University of Chicago Law Review，作者主页免费）：想做实证法学研究时可以读。很长（133 页），可以先读第 II 部分和第 VIII 部分（怎样选择观察对象）。这是两位作者的主张，针对的是美国法律评论。
+- **Epstein & King 2002**，The Rules of Inference（University of Chicago Law Review，作者主页免费）：想做实证法学研究时可以读。很长（133 页），可以先读第 II 部分和第 VIII 部分（怎样选择观察对象）。
 - **OSCOLA 第 5 版**（2026，牛津法学院官网免费 PDF）：英国的法律引注标准，写法学论文要用 OSCOLA 时查。
 - **英国社会法律研究协会研究伦理原则**（2021 年修订）：英国学会的伦理原则；访谈法官、律师，或使用保密文件之前可以参考。
 - **美国法律写作学会 Publishing Tips**：想向美国法律评论投稿时读，讲同时投稿、加速审阅和录用后的流程。
 
+[^hutchinson2012defining-e34]: Hutchinson & Duncan 2012，§III，第 103 页（引 Minow）。[证据](../../../sources/notes/hutchinson2012defining.md#e34)
+[^hutchinson2012defining-e36]: Hutchinson & Duncan 2012，§III，第 103 页（引 Minow）。[证据](../../../sources/notes/hutchinson2012defining.md#e36)
 [^hutchinson2012defining-e1]: Hutchinson & Duncan 2012，§III，第 101 页。[证据](../../../sources/notes/hutchinson2012defining.md#e1)
 [^hutchinson2012defining-e2]: Hutchinson & Duncan 2012，§III，第 101 页。[证据](../../../sources/notes/hutchinson2012defining.md#e2)
 [^hutchinson2012defining-e3]: Hutchinson & Duncan 2012，§III，第 101 页。[证据](../../../sources/notes/hutchinson2012defining.md#e3)
@@ -259,7 +257,6 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 [^legislationgovukhelp-e1]: legislation.gov.uk 帮助页，"How will I know if the legislation I am viewing is up to date"。[证据](../../../sources/notes/legislationgovukhelp.md#e1)
 [^legislationgovukhelp-e2]: legislation.gov.uk 帮助页，"How up to date is the revised content"。[证据](../../../sources/notes/legislationgovukhelp.md#e2)
 [^yljsubmissions-e1]: 《耶鲁法学杂志》投稿须知，Attribution。[证据](../../../sources/notes/yljsubmissions.md#e1)
-[^yljsubmissions-e2]: 《耶鲁法学杂志》投稿须知，Attribution。[证据](../../../sources/notes/yljsubmissions.md#e2)
 [^yljsubmissions-e3]: 《耶鲁法学杂志》投稿须知，Articles and Essays。[证据](../../../sources/notes/yljsubmissions.md#e3)
 [^yljsubmissions-e4]: 《耶鲁法学杂志》投稿须知，Articles and Essays。[证据](../../../sources/notes/yljsubmissions.md#e4)
 [^yljsubmissions-e6]: 《耶鲁法学杂志》数据保存政策。[证据](../../../sources/notes/yljsubmissions.md#e6)
@@ -297,3 +294,5 @@ Epstein 和 King 批评过这种做法：美国法学界一些最有声望的刊
 [^goudkamp2026oscola-e9]: OSCOLA 官网介绍页。[证据](../../../sources/notes/goudkamp2026oscola.md#e9)
 [^lwipublishingtips-e10]: 美国法律写作学会 Publishing Tips，Using ExpressO and/or Scholastica。[证据](../../../sources/notes/lwipublishingtips.md#e10)
 [^hutchinson2012defining-e31]: Hutchinson & Duncan 2012，§III B，第 114 页。[证据](../../../sources/notes/hutchinson2012defining.md#e31)
+[^hutchinson2015doctrinal-e10]: Hutchinson 2015，§3.1。[证据](../../../sources/notes/hutchinson2015doctrinal.md#e10)
+[^hutchinson2015doctrinal-e14]: Hutchinson 2015，§3.1。[证据](../../../sources/notes/hutchinson2015doctrinal.md#e14)

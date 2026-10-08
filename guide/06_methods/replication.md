@@ -4,7 +4,7 @@
 
 本文讲**复现研究**（replication study）：有意、有计划地重做一项已发表的研究（称为**原研究**），看它的结果能否再次得到[^ralph2020empirical-e208]。重做时可以用原作者的**制品**（artifact：论文配套的代码、数据和脚本），也可以自己重新实现、换一批数据或换一个情境。
 
-本文不讲怎样让**自己的**研究容易被别人复现，那部分见[工程研究](../07_fields/computer-science/practices/engineering_research.md)、[基准评测](../07_fields/computer-science/practices/benchmarking.md)中关于公开制品的步骤，以及[整理科研材料](../08_throughout/organizing_materials.md)；ACM 制品徽章见[计算机领域概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)。
+本文不讲怎样让**自己的**研究容易被别人复现，那部分见[工程研究](../07_fields/computer-science/practices/engineering_research.md)、[基准评测](../07_fields/computer-science/practices/benchmarking.md)中关于公开制品的步骤，以及[整理科研材料](../08_throughout/organizing_materials.md)；ACM 制品徽章见[计算机学科概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)。
 
 **适用范围** `[本项目分析]`：本文的规范和例子都来自计算机：检查清单依据 ACM SIGSOFT（美国计算机协会软件工程分会）为软件工程写的复现研究标准，报告规范来自软件工程，术语来自 ACM（美国计算机协会）的制品评估规定，例子来自软件工程、模糊测试、人工智能和机器学习。心理学、医学等学科对复现有各自的讨论和规范，术语用法也可能不同（见第 1 节），做之前先看本学科的规范。
 
@@ -35,7 +35,7 @@ SIGSOFT（美国计算机协会软件工程分会）的实证研究标准给复�
 | 可复现（reproducibility） | 不同团队 | 相同 | 独立团队用原作者的制品得到相同结果[^acm2020artifact-e17] |
 | 可重现（replicability） | 不同团队 | 不同 | 独立团队用自己独立开发的制品得到相同结果[^acm2020artifact-e18] |
 
-ACM "结果已验证"徽章的两级"已复现""已重现"，就按是否用了原作者的制品来区分[^acm2020artifact-e5]，徽章的完整说明见[计算机领域概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)。
+ACM "结果已验证"徽章的两级"已复现""已重现"，就按是否用了原作者的制品来区分[^acm2020artifact-e5]，徽章的完整说明见[计算机学科概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)。
 
 读文献时注意：
 
@@ -61,7 +61,7 @@ SIGSOFT 标准要求从三个角度写明你做的是哪一类复现[^ralph2020e
 
 | | 复现研究 | 复现基线 | 制品评估 |
 |---|---|---|---|
-| 目的 | 检验原研究的结论是否成立 | 把别人的方法跑起来，当作比较对象（见[工程研究](../07_fields/computer-science/practices/engineering_research.md)、[基准评测](../07_fields/computer-science/practices/benchmarking.md)） | 检查论文附带的制品能否运行、是否与论文一致（见[计算机领域概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)） |
+| 目的 | 检验原研究的结论是否成立 | 把别人的方法跑起来，当作比较对象（见[工程研究](../07_fields/computer-science/practices/engineering_research.md)、[基准评测](../07_fields/computer-science/practices/benchmarking.md)） | 检查论文附带的制品能否运行、是否与论文一致（见[计算机学科概况：制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章)） |
 | 成果 | 一篇独立的论文 | 你自己论文的一部分 | 一枚徽章 |
 
 **什么时候值得做** `[本项目分析]`：一个结论被广泛引用、很多工作建立在它之上，却还没有人独立检验过；或者你怀疑它依赖某个特定条件，例如特定的数据、评测程序或参数设置（例子见第一步）。如果只是要在别人的结果上继续做，先在自己的条件下把原结果做出来即可，不必写成复现论文，它只是你研究计划里的一个里程碑，例如[形成研究计划](../01_from-interest-to-project/04_research-plan.md#2-把主张拆成里程碑每个里程碑是一份证据)第 2 节里的"现有的两个基线工具能复现它们论文里报告的结果"。

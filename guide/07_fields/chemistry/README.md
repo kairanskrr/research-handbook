@@ -1,14 +1,14 @@
-# 化学科学：领域概况
+# 化学科学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲化学研究实际怎样运转：课题组和实验台、把安全当成研究的一部分、记录本、新化合物要交哪些表征数据、合成步骤为什么常常重复不出来、谱图和原始数据怎样报告、ChemRxiv 预印本和署名。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲化学研究实际怎样运转：课题组和实验台、把安全当成研究的一部分、记录本、新化合物要交哪些表征数据、合成步骤为什么常常重复不出来、谱图和原始数据怎样报告、ChemRxiv 预印本和署名。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。化学常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 本文的具体规定多来自美国化学会（American Chemical Society，ACS）和它旗下的期刊，以及美国的安全调查报告，因为这些资料公开、写得具体。**它们是美国机构和具体期刊的规定，不是全世界化学界统一的规矩**；你所在国家、单位和目标期刊有自己的规定时，以本地和目标期刊为准 `[本项目分析]`。例子也偏重有机合成，因为本文找到的具体报告规范多出自这个方向；物理化学、分析化学等方向的惯例可能不同 `[本项目分析]`。
 
 **读完本文，你应该能：**
 
-- 说清自己做的是化学的哪一类工作，这对日常工作和论文要求有什么影响；
+- 说清自己做的是化学的哪一类工作、属于哪种研究套路，这对论文要交的证据有什么影响；
 - 把危害评估当成实验设计的一步，知道什么时候必须重新评估；
 - 知道一个新化合物要交哪些证据，才能证明"它是什么"和"它有多纯"；
 - 理解合成结果为什么常常重复不出来，自己怎样把步骤写到别人能重复；
@@ -63,19 +63,15 @@ Bergman 和 Danheiser（加州大学伯克利分校和麻省理工学院的两�
 
 ### 发表：期刊为主，ChemRxiv 是化学的预印本平台
 
-化学的正式成果一般发表在期刊上 `[本项目分析]`，这和计算机领域以会议为主不同，见[计算机篇](../computer-science/README.md#会议是主要的发表渠道)。几点要知道：
+化学的正式成果一般发表在期刊上 `[本项目分析]`，这和计算机领域以会议为主不同，见[计算机篇](../computer-science/README.md#会议是主要的发表渠道)；审稿要多久，本文资料未涉及，以目标期刊的说明为准。几点要知道：
 
 - **短篇快报和完整论文。** 有的期刊发表短篇的快报（communication 或 letter）。美国化学会的出版伦理准则说，在已发表的快报基础上扩展成完整论文一般可以，但要引用早先的快报，投稿时告诉编辑[^acs2026ethical-e6]。同一准则还要求：一项研究应避免拆成多篇发表[^acs2026ethical-e5]；一稿同时只能投一家期刊[^acs2026ethical-e6]。
 - **ChemRxiv。** 它是化学及相关领域未发表预印本的免费平台[^chemrxivabout-e1]，由美国化学会等几家化学学会共同拥有和管理[^chemrxivabout-e4]。上线前只做基本筛查，**不经过同行评审**[^chemrxivabout-e2]；筛查人员不评价内容是否正确、完整、重要[^chemrxivabout-e5]。**发了就基本删不掉**：ChemRxiv 说，发上去的内容可以被引用、算作学术记录的一部分，除极少数情况外不能删除[^chemrxivabout-e6]。
 - **先查目标期刊的预印本政策。** ChemRxiv 说大多数期刊接受投稿前发过预印本的稿件，但有的期刊有限制，建议上传前先查[^chemrxivabout-e7]。以 JOC 为例：允许投稿前发预印本，但要在投稿信里说明并给链接[^acsjocguidelines-e14]；投稿之后不先问主编就发预印本，它不鼓励[^acsjocguidelines-e15]。
 
-审稿要多久，本文资料未涉及，以目标期刊的说明为准。
-
 ### 署名：所有作者都要对结果负责
 
-美国化学会的出版伦理准则对署名的要求是：合作者应是对工作有重要科学贡献、并愿意为结果的诚信和准确共同负责的人[^acs2026ethical-e7]；投稿作者负责把稿件发给每位在世的合作者，并取得他们同意[^acs2026ethical-e8]；有贡献但不够署名的人（如技术人员）可以写进致谢[^acs2026ethical-e9]。
-
-Bergman 和 Danheiser 强调两点：筹集经费很重要，但署名还应要求直接参与研究并有重要的智力贡献[^bergman2016reproducibility-e9]；发表的结果由所有合作者共同负责，包括课题负责人[^bergman2016reproducibility-e10]。署名的一般原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#5-署名引用和利益冲突给每个贡献者应得的认可)。
+美国化学会的出版伦理准则对署名的要求是：合作者应是对工作有重要科学贡献、并愿意为结果的诚信和准确共同负责的人[^acs2026ethical-e7]；投稿作者负责把稿件发给每位在世的合作者，并取得他们同意[^acs2026ethical-e8]；有贡献但不够署名的人（如技术人员）可以写进致谢[^acs2026ethical-e9]。Bergman 和 Danheiser 强调两点：筹集经费很重要，但署名还应要求直接参与研究并有重要的智力贡献[^bergman2016reproducibility-e9]；发表的结果由所有合作者共同负责，包括课题负责人[^bergman2016reproducibility-e10]。署名的一般原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#5-署名引用和利益冲突给每个贡献者应得的认可)。
 
 ---
 
@@ -137,21 +133,23 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[合成与表征研究](../../06_methods/synthesis_study.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在化学里的样子"一栏是本项目的归纳；每条标准只代表脚注里那本期刊或那个方向（合成多出自 JOC，比较和测量出自催化方向） `[本项目分析]`。
 
-**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
+| 套路 | 在化学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md) | 合成方法学和全合成：发展新反应、新试剂，或做出一个特定分子 | JOC 期待概念上的新意，不只是把已有反应换一类底物、试剂或催化剂再做一遍[^acsjocguidelines-e30]；新化合物要证明结构和纯度[^acsjocguidelines-e1]；产率报分离纯化、称重后的结果[^acsjocguidelines-e9] | [合成与表征研究](../../06_methods/synthesis_study.md) |
+| [比较评估](../../05_research-strategies/compare_evaluate.md) | 催化：用活性、选择性、失活情况比较新催化剂和标准催化剂[^bligaard2016benchmarking-e1] | 在相同条件下和成熟或最先进的催化剂比较[^bligaard2016benchmarking-e17]；比较选择性要在相同转化率下测[^bligaard2016benchmarking-e15] | 暂无专门的方法篇 |
+| [测量](../../05_research-strategies/measure.md) | 催化：弄清一项测量的现实误差有多大 | 有研究者提议多个课题组盲法轮流测量同一批样品，以确定现实的误差范围[^bligaard2016benchmarking-e8] | [实验测量研究](../../06_methods/experimental_measurement.md) |
 
-下面是本领域常见的研究方法。分组和"相通"的判断为本项目分析 `[本项目分析]`。
+机理研究、分析方法开发、计算化学各属于哪种套路、按什么标准评判，本文资料未涉及。
 
-- **合成方法学**：发展新反应或新试剂，用一系列底物说明适用范围。核心证据是表征数据和可重复的步骤（见上文）。
-- **全合成和目标分子合成**：用多步反应合成某个特定分子（如天然产物）。步骤多，每一步的纯化和表征都要交代。
-- **机理和物理化学测量**：测量速率、能量、光谱等，检验对反应过程的解释。方法上和研究方法里的[对照实验](../../06_methods/controlled_experiment.md)一样讲究一次只改一个因素，但对象是化学体系而不是人 `[本项目分析]`。
-- **分析方法开发**：建立新的测定方法并验证它的准确度和重复性。
-- **计算化学**：用量子化学或分子模拟研究分子和反应，见[定量仿真](../../06_methods/simulation_study.md)。不同在于要交代理论方法、基组、程序和坐标[^acsjocguidelines-e13]；比较不同计算方法时，可参考[基准评测](../computer-science/practices/benchmarking.md)。
-- **复现和独立核查**：见[复现研究](../../06_methods/replication.md)。合成化学里，"重复出产率和选择性"本身就是一项要求很高的工作[^orgsyninstructions-e4]。
-- **综述**：见[综述研究](../../06_methods/review_study.md)。
+---
+
+## 本学科常用的研究方法
+
+下面的归类是本项目分析 `[本项目分析]`。合成方法学、全合成和目标分子合成，见[合成与表征研究](../../06_methods/synthesis_study.md)。机理和物理化学测量，见[实验测量研究](../../06_methods/experimental_measurement.md)；它和[对照实验](../../06_methods/controlled_experiment.md)一样讲究一次只改一个因素，但对象是化学体系而不是人。计算化学见[定量仿真](../../06_methods/simulation_study.md)，要交代理论方法、基组、程序和坐标[^acsjocguidelines-e13]；比较不同计算方法时，可参考计算机的[基准评测](../computer-science/practices/benchmarking.md)。复现和独立核查见[复现研究](../../06_methods/replication.md)，合成化学里"重复出产率和选择性"本身就是一项要求很高的工作[^orgsyninstructions-e4]。综述见[综述研究](../../06_methods/review_study.md)。分析方法开发暂无对应的方法篇。
 
 ---
 
@@ -163,7 +161,6 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 4. **记录本当天记，写日期，写清用量和现象。** 原始谱图文件（FID 等）单独保存[^csb2011texastech-e18][^acsjocguidelines-e12]。
 5. **对自己想要的结果多一分怀疑。** 好的课题负责人会训练组员怀疑那些自己希望是对的结果[^bergman2016reproducibility-e11]。不修谱图、不挑最好的一次产率[^acsjocguidelines-e7][^bergman2016reproducibility-e4]。
 6. **写实验步骤时，假设读者是一个没来过你们实验室的人。** 按上面的自查清单写，投稿前请同事做一次内部核查[^orgsyninstructions-e6]。
-7. **投稿前读目标期刊的作者须知和预印本政策。** 例如 ACS 旗下各刊自己决定数据政策执行哪一级[^acsdatapolicy-e2]，预印本也有的期刊有限制[^chemrxivabout-e7]。
 
 ---
 
@@ -185,12 +182,10 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 
 ## 延伸阅读
 
-- **CSB，Texas Tech University Laboratory Explosion（2011）**：美国化学安全与危害调查委员会的事故案例研究，讲清一次放大实验怎样变成事故。进实验室之前值得读一遍。
-- **ACS，Identifying and Evaluating Hazards in Research Laboratories（2015）**：美国化学会的危害评估指南，介绍检查清单等工具；第 6 章讲"条件一变就重新评估"。
+- **CSB，Texas Tech University Laboratory Explosion（2011）**：美国化学安全与危害调查委员会的事故案例研究，讲清一次放大实验怎样变成事故。进实验室之前值得读一遍。**ACS，Identifying and Evaluating Hazards in Research Laboratories（2015）**：美国化学会的危害评估指南，介绍检查清单等工具；第 6 章讲"条件一变就重新评估"。
 - **Bergman & Danheiser 2016，Reproducibility in Chemical Research（Angewandte Chemie 社论）**：两页，讲化学里重复不出结果的几种原因，以及对课题负责人和作者的建议。
 - **《Organic Syntheses》作者须知**：比一般期刊详细得多的合成步骤写作要求，适合当自查清单。
-- **目标期刊的作者须知**，例如 JOC 的表征和纯度要求、ACS 的研究数据政策。每次投稿前都要重新读。
-- **ACS，Ethical Guidelines to Publication of Chemical Research**：美国化学会旗下期刊的出版伦理准则，包括数据保存、署名和重复发表。
+- **目标期刊的作者须知**，例如 JOC 的表征和纯度要求、ACS 的研究数据政策。每次投稿前都要重新读。**ACS，Ethical Guidelines to Publication of Chemical Research**：美国化学会旗下期刊的出版伦理准则，包括数据保存、署名和重复发表。
 - **IUPAC FAIR Chemistry Cookbook**：想把数据整理成机器可读、可重用格式时读。
 
 [^chemrxivabout-e1]: ChemRxiv，About ChemRxiv。[证据](../../../sources/notes/chemrxivabout.md#e1)
@@ -277,3 +272,8 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 [^acsdatapolicy-e5]: ACS 研究数据政策，Data Availability Statements。[证据](../../../sources/notes/acsdatapolicy.md#e5)
 [^iupacfaircookbook-e1]: IUPAC FAIR Chemistry Cookbook，首页。[证据](../../../sources/notes/iupacfaircookbook.md#e1)
 [^iupacfaircookbook-e2]: IUPAC FAIR Chemistry Cookbook，首页。[证据](../../../sources/notes/iupacfaircookbook.md#e2)
+[^acsjocguidelines-e30]: JOC 作者须知，Scope of the Journal (a)。[证据](../../../sources/notes/acsjocguidelines.md#e30)
+[^bligaard2016benchmarking-e1]: Bligaard 等人 2016，摘要。[证据](../../../sources/notes/bligaard2016benchmarking.md#e1)
+[^bligaard2016benchmarking-e8]: Bligaard 等人 2016，§2.2.1，第 2595 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e8)
+[^bligaard2016benchmarking-e15]: Bligaard 等人 2016，§2.3.1，第 2597 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e15)
+[^bligaard2016benchmarking-e17]: Bligaard 等人 2016，§2.3.1，第 2597 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e17)

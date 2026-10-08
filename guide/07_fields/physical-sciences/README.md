@@ -1,8 +1,8 @@
-# 物理科学：领域概况
+# 物理科学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲物理科学（这里以物理学和天文学为主）的研究实际怎样运转：理论、实验、计算的分工，几千人的大合作，arXiv 预印本，盲分析和"5σ"发现标准，以及数据和代码共享。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。
+本文讲物理科学（这里以物理学和天文学为主）的研究实际怎样运转：理论、实验、计算的分工，几千人的大合作，arXiv 预印本，盲分析和"5σ"发现标准，以及数据和代码共享。各学科共通的做法（选题、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。物理常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。
 
 文中很多具体例子来自粒子物理和引力波天文学，因为本文找到的公开规范主要来自这两个方向。凝聚态、光学等方向的惯例可能不同，要以本组和目标期刊的要求为准 `[本项目分析]`。
 
@@ -29,11 +29,7 @@
 | hep-ph（唯象） | 联系理论和实验的理论工作[^arxivtaxonomy-e3] |
 | hep-lat（格点） | 格点场论，包括它的算法和专用硬件[^arxivtaxonomy-e4] |
 
-arXiv 也有按做法单列的其他分类，例如计算物理（physics.comp-ph）[^arxivtaxonomy-e5]，天体物理的仪器与方法（astro-ph.IM，含探测器、望远镜设计和数据分析软件）[^arxivtaxonomy-e6]。
-
-在实验粒子物理，理论和实验分工明确[^junk2021reproducibility-e21]。要检验的模型一般先在理论或唯象论文里发表，然后才做实验[^junk2021reproducibility-e23]。实验者几乎从不检验自己提出的理论，这能减少**确认偏差**（只看见支持自己想法的证据）[^junk2021reproducibility-e22]。
-
-你属于哪一类，决定了你每天做什么、和谁合作、论文长什么样。进组前先问清楚 `[本项目分析]`。
+在实验粒子物理，理论和实验分工明确[^junk2021reproducibility-e21]。要检验的模型一般先在理论或唯象论文里发表，然后才做实验[^junk2021reproducibility-e23]。实验者几乎从不检验自己提出的理论，这能减少**确认偏差**（只看见支持自己想法的证据）[^junk2021reproducibility-e22]。你属于哪一类，决定了你每天做什么、和谁合作、论文长什么样。进组前先问清楚 `[本项目分析]`。
 
 ### 大合作：几千人做一个实验
 
@@ -67,9 +63,7 @@ LIGO 有几条和学生直接相关的规定。别的合作组不一定一样，
 
 **arXiv 是从物理开始的。** 它的前身是 1991 年开始运行的高能物理理论（hep-th）电子邮件预印本服务器[^ginsparg2011twenty-e1][^ginsparg2011twenty-e2]，由 Paul Ginsparg 创办[^arxivabout-e1]。在那之前，作者只能把论文复印件寄给少数人[^ginsparg2011twenty-e3]，非名校的年轻研究者常常拿不到[^ginsparg2011twenty-e4]。
 
-**现在预印本和期刊并存，各起不同作用**[^ginsparg2011twenty-e5]。物理学家很快接受了审稿之前就公开论文的做法，其他学科不一定如此[^ginsparg2011twenty-e6]。计算机学者 Vardi 也注意到，物理学家靠 arXiv 预印本和很快的审稿周期来快速传播成果[^vardi2009conferences-e4]。
-
-几件要知道的事：
+**现在预印本和期刊并存，各起不同作用**[^ginsparg2011twenty-e5]。物理学家很快接受了审稿之前就公开论文的做法，其他学科不一定如此[^ginsparg2011twenty-e6]。几件要知道的事：
 
 - **arXiv 不做同行评审。** 它只审核稿件是否属于该学科、是否有学术价值[^arxivabout-e2]，内容由提交者自己负责[^arxivabout-e3]。
 - **第一次投稿要先获得"背书"（endorsement）**，第一次投某个新分类时也要[^arxivendorsement-e1]。研究生可以找导师，或本单位同领域、也在 arXiv 上发文的教授背书[^arxivendorsement-e2]。背书也不是同行评审[^arxivendorsement-e4]。
@@ -95,7 +89,6 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 | 主要发表渠道 | 期刊，加上 arXiv 预印本，两者并存[^ginsparg2011twenty-e5] | 计算机以会议为主[^vardi2009conferences-e1]；生物医学长期只认审过的期刊论文为优先权依据[^ginsparg2011twenty-e7] |
 | 宣布"发现"的统计门槛 | 按惯例，p 值小于 2.87×10⁻⁷（5σ）[^junk2021reproducibility-e31] | 一些学科常用 0.05[^junk2021reproducibility-e31] |
 | 发表前的审查 | 大合作有严格的多级内部审查，很多分析是盲的[^junk2021reproducibility-e32] | |
-| 零结果 | 照样发表[^junk2021reproducibility-e24]，一般写成信号强度的上限[^junk2021reproducibility-e25] | |
 
 ### 5σ：宣布"发现"的门槛
 
@@ -158,18 +151,29 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**本领域的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表的分组和"在物理里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个方向（多为粒子物理），其他方向以本组和目标期刊为准 `[本项目分析]`。
 
-| 研究类型 | 一句话说明 | 和已有方法文档的关系 |
-|---|---|---|
-| 理论研究 | 推导和发展理论，例如量子场论的形式理论、弦论[^arxivtaxonomy-e2] | 相通：[理论研究](../computer-science/practices/theoretical_research.md)。差异：在粒子物理，要检验的模型一般先在理论论文里发表，再由实验者去测[^junk2021reproducibility-e23] |
-| 唯象研究 | 联系理论和实验，算出可观测的预言[^arxivtaxonomy-e3] | 没有对应文档 |
-| 数值计算与模拟 | 用计算机求解物理模型，如计算物理、格点计算[^arxivtaxonomy-e5][^arxivtaxonomy-e4] | 相通：[定量仿真](../../06_methods/simulation_study.md)。差异：Physical Review 要求在数据声明里说明模拟代码和参数能否获取[^apsdataavailability-e6] |
-| 实验研究 | 做实验并报告结果，例如粒子物理实验[^arxivtaxonomy-e1] | 研究方法里的[对照实验](../../06_methods/controlled_experiment.md)针对人类参与者，方法不同；物理实验的特有做法见上文的盲分析和 5σ |
-| 仪器与方法 | 设计探测器、望远镜，开发数据分析方法和软件[^arxivtaxonomy-e6] | 相通：[工程研究](../computer-science/practices/engineering_research.md)。差异：天文期刊接受专门的软件论文[^aassoftware-e4] |
-| 用公开数据做分析 | 合作组外的研究者用 LHC 等实验公开的数据，发表自己的分析[^cern2020opendata-e5] | 相通：[复现研究](../../06_methods/replication.md)。差异：外部研究者缺少合作组的隐性知识[^cern2020opendata-e4] |
+| 套路 | 在物理里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [测量](../../05_research-strategies/measure.md) | 精密测量一个常数、一种性质或一个参数 | 测量结果必须带上可信程度的定量说明[^jcgm2008gum-e1]；系统误差没估计进不确定度，可能造成假发现[^junk2021reproducibility-e7]；精密测量常先把答案藏起来[^roodman2003blind-e7] | [实验测量研究](../../06_methods/experimental_measurement.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 搜寻新粒子、新效应，回答"有没有" | 粒子物理宣布发现按惯例要 5σ[^junk2021reproducibility-e4]；写清全局 p 值怎么定义[^lyons2013discovering-e4]；零结果写成信号强度的上限，照样发表[^junk2021reproducibility-e25] | 上文[5σ](#5σ宣布发现的门槛)和[盲分析](#盲分析先定方法再看答案) |
+| [比较评估](../../05_research-strategies/compare_evaluate.md) | 比较计算程序或方法。例如一项社区合作在 71 种单质晶体上比较了 15 个固体计算程序[^lejaeghere2016reproducibility-e3] | 看同一批体系上的逐对差异；该研究发现新近程序之间的差异和不同高精度实验之间的差异相当[^lejaeghere2016reproducibility-e4] | [定量仿真](../../06_methods/simulation_study.md) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 设计探测器、望远镜，开发数据分析方法和软件[^arxivtaxonomy-e6] | 天文期刊接受专门的软件论文[^aassoftware-e4]，但审稿人不直接审查软件[^aassoftware-e5]；数值模拟论文要声明代码和参数能否获取[^apsdataavailability-e6] | [工程研究](../computer-science/practices/engineering_research.md)（计算机的实践，可参考） |
+
+理论和唯象研究（推导理论、算出可观测的预言）按哪种套路、什么标准评判，本文资料未涉及。在粒子物理，要检验的模型一般先在理论或唯象论文里发表，再由实验者去测[^junk2021reproducibility-e23]。
+
+---
+
+## 本学科常用的研究方法
+
+下面的归类是本项目分析 `[本项目分析]`。
+
+- **实验测量**：[实验测量研究](../../06_methods/experimental_measurement.md)（跨学科方法）。物理实验特有的盲分析和 5σ 见上文。研究方法里的[对照实验](../../06_methods/controlled_experiment.md)针对人类参与者，做法不同。
+- **理论研究**：可参考计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)。唯象研究没有对应的方法篇。
+- **数值计算与模拟**（计算物理、格点计算[^arxivtaxonomy-e5][^arxivtaxonomy-e4]）：[定量仿真](../../06_methods/simulation_study.md)。
+- **用公开数据做分析**：合作组外的研究者用 LHC 等实验公开的数据发表自己的分析，结论由自己负责[^cern2020opendata-e5]，见[复现研究](../../06_methods/replication.md)。外部研究者缺少合作组的隐性知识[^cern2020opendata-e4]。
 
 ---
 
@@ -180,9 +184,8 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 3. **接手别人的分析，先复现前人的结果。** 这是粒子物理新学生的第一件事[^junk2021reproducibility-e17]。
 4. **结果和已知值一致时，同样认真找错。** 一致不说明测量做对了[^roodman2003blind-e4]，Millikan 之后的电子电荷测量史就是教训[^feynman1974cargo-e14]。
 5. **零结果也要发表。** 决定检验一个理论，就要无论结果如何都发表[^feynman1974cargo-e18]；粒子物理把零结果写成上限照样发表[^junk2021reproducibility-e25]。
-6. **开始写论文时就定署名。** 谁署名、什么顺序、谁进致谢，和所有成员确认[^aps2024ethics-e5]。
-7. **从第一天起，按要公开的标准整理代码和数据。** 投稿时要写数据声明[^apsdataavailability-e1]，代码要能被引用到确切版本[^aassoftware-e2]。
-8. **发 arXiv 前查清两件事**：合作组是否要求先做内部审查[^ligo2018publication-e6]，目标期刊对预印本的政策[^aps2024ethics-e8]。正式发表后回去更新链接[^aps2024ethics-e8]。
+6. **从第一天起，按要公开的标准整理代码和数据。** 投稿时要写数据声明[^apsdataavailability-e1]，代码要能被引用到确切版本[^aassoftware-e2]。
+7. **发 arXiv 前查清两件事**：合作组是否要求先做内部审查[^ligo2018publication-e6]，目标期刊对预印本的政策[^aps2024ethics-e8]。正式发表后回去更新链接[^aps2024ethics-e8]。
 
 ---
 
@@ -199,7 +202,6 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 | 把只提供经费的人列为作者 | 不够署名资格，应写进致谢[^aps2024ethics-e9] |
 | 只在致谢里写"感谢某软件"，不引用具体版本 | 读者拿不到你用的确切版本[^aassoftware-e2]；Physical Review 要求公开软件写进参考文献[^apsdataavailability-e3] |
 | 论文里只给直方图，不给相关不确定度 | 别人没法精确复现结论[^junk2021reproducibility-e26] |
-| 对外介绍时夸大应用前景 | APS 认为超出已证实范围的宣称可能误导人[^aps2024ethics-e14] |
 
 ---
 
@@ -208,10 +210,8 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 - **Junk & Lyons 2021，Reproducibility and Replication of Experimental Particle Physics Results**：两位实验粒子物理学家介绍粒子物理怎样保证结果可靠，包括内部审查、盲分析、5σ、软件和数据保存。想了解大合作怎样运转，先读这篇。
 - **APS Ethics Standards（2024）**：美国物理学会的伦理标准，署名、重复发表、预印本、数据保存都有规定。
 - **LIGO Publication and Presentation Policy（2018）**：一份公开的大合作发表政策全文，可以看到署名资格、内部审查、学位论文规则的具体写法。进入任何大合作前，找本合作组的同类文件来读。
-- **Roodman 2003，Blind Analysis in Particle Physics**：会议论文，讲清实验者偏差和几种盲分析方法。配合 Golub 2023 的质疑一起读。
-- **Lyons 2013，Discovering the Significance of 5σ**：讲粒子物理为什么用 5σ，以及统一用 5σ 的问题。
-- **Feynman 1974，Cargo Cult Science**：讲"不要骗自己"，含 Millikan 油滴实验之后的测量史。
-- **Physical Review 数据可获取性声明指南、AAS 软件政策**：投稿前对照检查。
+- **Roodman 2003，Blind Analysis in Particle Physics**：会议论文，讲清实验者偏差和几种盲分析方法。配合 Golub 2023 的质疑一起读。**Lyons 2013，Discovering the Significance of 5σ**：讲粒子物理为什么用 5σ，以及统一用 5σ 的问题。
+- **Feynman 1974，Cargo Cult Science**：讲"不要骗自己"，含 Millikan 油滴实验之后的测量史。**Physical Review 数据可获取性声明指南、AAS 软件政策**：投稿前对照检查。
 
 [^arxivtaxonomy-e1]: arXiv Category Taxonomy，hep-ex。[证据](../../../sources/notes/arxivtaxonomy.md#e1)
 [^arxivtaxonomy-e2]: arXiv Category Taxonomy，hep-th。[证据](../../../sources/notes/arxivtaxonomy.md#e2)
@@ -241,7 +241,6 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 [^junk2021reproducibility-e21]: Junk & Lyons 2021，§7。[证据](../../../sources/notes/junk2021reproducibility.md#e21)
 [^junk2021reproducibility-e22]: Junk & Lyons 2021，§7。[证据](../../../sources/notes/junk2021reproducibility.md#e22)
 [^junk2021reproducibility-e23]: Junk & Lyons 2021，§7。[证据](../../../sources/notes/junk2021reproducibility.md#e23)
-[^junk2021reproducibility-e24]: Junk & Lyons 2021，§10。[证据](../../../sources/notes/junk2021reproducibility.md#e24)
 [^junk2021reproducibility-e25]: Junk & Lyons 2021，§7。[证据](../../../sources/notes/junk2021reproducibility.md#e25)
 [^junk2021reproducibility-e26]: Junk & Lyons 2021，§4.2。[证据](../../../sources/notes/junk2021reproducibility.md#e26)
 [^junk2021reproducibility-e28]: Junk & Lyons 2021，§3。[证据](../../../sources/notes/junk2021reproducibility.md#e28)
@@ -290,13 +289,11 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 [^arxivendorsement-e1]: arXiv，Endorsement。[证据](../../../sources/notes/arxivendorsement.md#e1)
 [^arxivendorsement-e2]: arXiv，Endorsement，How can I get endorsed?。[证据](../../../sources/notes/arxivendorsement.md#e2)
 [^arxivendorsement-e4]: arXiv，Endorsement。[证据](../../../sources/notes/arxivendorsement.md#e4)
-[^vardi2009conferences-e4]: Vardi 2009，正文第 7 段。[证据](../../../sources/notes/vardi2009conferences.md#e4)
 [^vardi2009conferences-e1]: Vardi 2009，正文第 2 段。[证据](../../../sources/notes/vardi2009conferences.md#e1)
 [^aps2024ethics-e1]: APS Ethics Standards 2024，Integrity。[证据](../../../sources/notes/aps2024ethics.md#e1)
 [^aps2024ethics-e2]: APS Ethics Standards 2024，Research Results。[证据](../../../sources/notes/aps2024ethics.md#e2)
 [^aps2024ethics-e3]: APS Ethics Standards 2024，Research Results。[证据](../../../sources/notes/aps2024ethics.md#e3)
 [^aps2024ethics-e4]: APS Ethics Standards 2024，Authorship。[证据](../../../sources/notes/aps2024ethics.md#e4)
-[^aps2024ethics-e5]: APS Ethics Standards 2024，Authorship。[证据](../../../sources/notes/aps2024ethics.md#e5)
 [^aps2024ethics-e6]: APS Ethics Standards 2024，Authorship。[证据](../../../sources/notes/aps2024ethics.md#e6)
 [^aps2024ethics-e7]: APS Ethics Standards 2024，Authorship。[证据](../../../sources/notes/aps2024ethics.md#e7)
 [^aps2024ethics-e8]: APS Ethics Standards 2024，Redundant Publication。[证据](../../../sources/notes/aps2024ethics.md#e8)
@@ -329,3 +326,6 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 [^cern2020opendata-e3]: CERN 2020 开放数据政策，Level 3。[证据](../../../sources/notes/cern2020opendata.md#e3)
 [^cern2020opendata-e4]: CERN 2020 开放数据政策，Level 3。[证据](../../../sources/notes/cern2020opendata.md#e4)
 [^cern2020opendata-e5]: CERN 2020 开放数据政策，Level 3。[证据](../../../sources/notes/cern2020opendata.md#e5)
+[^jcgm2008gum-e1]: JCGM 100:2008（GUM），0.1。[证据](../../../sources/notes/jcgm2008gum.md#e1)
+[^lejaeghere2016reproducibility-e3]: Lejaeghere 等人 2016，摘要。[证据](../../../sources/notes/lejaeghere2016reproducibility.md#e3)
+[^lejaeghere2016reproducibility-e4]: Lejaeghere 等人 2016，摘要。[证据](../../../sources/notes/lejaeghere2016reproducibility.md#e4)

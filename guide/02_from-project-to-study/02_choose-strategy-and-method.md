@@ -70,7 +70,7 @@
 | 已有研究合起来说明了什么 | [综述研究](../06_methods/review_study.md)、[案例调查](../06_methods/case_survey.md) | 已有研究足够多，值得合起来看 |
 | 在给定条件下必然成立 | [理论研究](../07_fields/computer-science/practices/theoretical_research.md) | 能把对象写成精确的定义 |
 
-其他学科的方法（田野实验、随机对照试验、档案研究、细读等），见[学科篇](../07_fields/README.md#其他学科的研究类型)里"其他学科的研究类型"一节。
+其他学科常用的方法（田野实验、随机对照试验、档案研究等）也收在[研究方法](../06_methods/README.md)；只有某一个学科使用的做法（如文本细读），见[学科篇](../07_fields/README.md#学科独有的实践)里"学科独有的实践"一节。
 
 挑方法之前，也先查一下文献：有些问题已经有不错的答案，读文献就能回答，不必自己再做一项实证研究[^easterbrook2008selecting-e41]。
 
@@ -195,7 +195,7 @@
 
 | 要了解的 | 去哪里看 |
 |---|---|
-| 你所在的方向惯用什么方法、什么样的评估 | [计算机领域概况](../07_fields/computer-science/README.md#各方向的惯例不一样) |
+| 你所在的方向惯用什么方法、什么样的评估 | [计算机学科概况](../07_fields/computer-science/README.md#各方向的惯例不一样) |
 | 是否要求提交可复现的代码和数据 | [制品评估与徽章](../07_fields/computer-science/README.md#制品评估与徽章) |
 | 研究涉及人，或者会发现真实系统的漏洞时，有哪些伦理要求 | [伦理问题有本领域的特点](../07_fields/computer-science/README.md#伦理问题有本领域的特点)；通用原则见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人) |
 | 其他学科的规矩 | [学科篇](../07_fields/README.md)里各学科的概况 |

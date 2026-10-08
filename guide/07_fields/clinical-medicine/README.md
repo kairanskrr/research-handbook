@@ -1,14 +1,14 @@
-# 临床医学：领域概况
+# 临床医学：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲临床医学研究实际怎样运转：研究对象是人，所以伦理审查、事前登记、报告规范、署名和利益冲突都有成文的硬规则。各学科共通的做法（选题、研究设计、写作、审稿）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。本文只写临床医学特有的东西。
+本文讲临床医学研究实际怎样运转：研究对象是人，所以伦理审查、事前登记、报告规范、署名和利益冲突都有成文的硬规则。各学科共通的做法（选题、研究设计、写作、审稿）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)，这里不重复。本文只写临床医学特有的东西。临床医学常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)；具体怎么做，见[本学科常用的研究方法](#本学科常用的研究方法)。
 
 **读完本文，你应该能：**
 
 - 说清一项临床研究从立项到发表要过哪几道关；
 - 知道临床试验为什么必须在招募第一位病人之前登记；
-- 按研究类型找到对应的报告规范；
+- 按研究设计找到对应的报告规范；
 - 理解"证据金字塔"有什么用、又有什么局限；
 - 避开新手在伦理、登记、署名和利益冲突上最常犯的错误。
 
@@ -24,9 +24,7 @@
 
 - **先过伦理委员会，再开始研究。** 研究方案必须在研究开始前交研究伦理委员会审查批准[^wma2024helsinki-e4]。跨国合作的研究，发起国和实施国的伦理委员会都要批准[^wma2024helsinki-e5]。
 - **知情同意要讲清楚、记下来。** 要用通俗的话告诉对方研究目的、方法、可能的获益、风险和负担、资金来源、利益冲突等[^wma2024helsinki-e6]；然后由医生或其他合格人员取得对方自愿的同意，并用纸质或电子方式正式记录[^wma2024helsinki-e7]。
-- **医学期刊的编辑组织也这样要求。** 国际医学期刊编辑委员会（International Committee of Medical Journal Editors，ICMJE）要求，涉及人的研究在计划、实施、报告各环节都符合 2024 年版《赫尔辛基宣言》[^icmje2026recommendations-e11]。
-
-伦理的通用原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)。
+- **医学期刊的编辑组织也这样要求。** 国际医学期刊编辑委员会（International Committee of Medical Journal Editors，ICMJE）要求，涉及人的研究在计划、实施、报告各环节都符合 2024 年版《赫尔辛基宣言》[^icmje2026recommendations-e11]。伦理的通用原则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)。
 
 ### 医生兼研究者：两个角色要分开
 
@@ -65,7 +63,7 @@
 
 ## 和其他领域不同的地方
 
-下表和[计算机篇](../computer-science/README.md)对照。临床医学一列依据所附脚注；计算机一列是本项目对计算机篇的概括，细节以该篇为准 `[本项目分析]`：
+下表和[计算机学科概况](../computer-science/README.md)对照。临床医学一列依据所附脚注；计算机一列是本项目对计算机学科概况的概括，细节以该篇为准 `[本项目分析]`：
 
 | | 临床医学 | 计算机 |
 |---|---|---|
@@ -86,7 +84,7 @@
 
 找报告规范，去 EQUATOR 网络（Enhancing the QUAlity and Transparency Of health Research，提高健康研究质量与透明度网络）。这是一个国际倡议，通过推广透明准确的报告和可靠的报告规范，提高健康研究文献的可靠性[^equatorreporting-e1]。
 
-| 研究类型 | 报告规范 | 说明 |
+| 研究设计 | 报告规范 | 说明 |
 |---|---|---|
 | 随机试验 | CONSORT 2025 | 30 项清单加一张受试者流程图[^hopewell2025consort-e1] |
 | 试验方案 | SPIRIT | 专门规范试验方案怎么写[^hopewell2025consort-e4] |
@@ -121,27 +119,22 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 
 ---
 
-## 常见的研究类型
+## 本学科常用的研究方法
 
-**本领域的研究类型文档**：[随机对照试验](../../06_methods/randomized_controlled_trial.md)。
+临床医学没有独有的方法页，常用的都是跨学科方法：[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)。各种设计一句话说明如下：
 
-**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md)。
-
-| 类型 | 一句话说明 |
+| 设计 | 一句话说明 |
 |---|---|
 | 随机对照试验 | 把受试者随机分到不同干预组，比较结局。设计、实施、分析和报告都恰当时，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2] |
 | 队列研究 | 先记录一群人的暴露情况（比如是否吸烟），随时间跟踪，再看结局是否发生[^vandenbroucke2007strobe-e1] |
 | 病例对照研究 | 比较得了某病的人（病例）和没得的人（对照）过去的暴露情况[^vandenbroucke2007strobe-e2] |
 | 横断面研究 | 在同一时间点调查一个样本，常用来看暴露、危险因素或疾病的患病率[^vandenbroucke2007strobe-e3]；难以确定暴露发生在疾病之前[^vandenbroucke2007strobe-e4] |
 | 病例报告 | 关于单个病人诊疗的报告，样本量为一[^gagnier2013care-e7]；能提出假设[^gagnier2013care-e1]，但很难判断因果[^gagnier2013care-e6] |
-| 系统综述与荟萃分析 | 系统综述是按一定流程挑选已有研究的过程；荟萃分析是把多项研究的结果用统计方法合并成一个效应量[^murad2016new-e7]。做法见研究方法里的[综述研究](../../06_methods/review_study.md)，流程相通 `[本项目分析]`；临床医学按 PRISMA 2020 报告[^page2021prisma-e1] |
+| 系统综述与荟萃分析 | 系统综述是按一定流程挑选已有研究的过程；荟萃分析是把多项研究的结果用统计方法合并成一个效应量[^murad2016new-e7]。做法见[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)和[综述研究](../../06_methods/review_study.md)，流程相通 `[本项目分析]`；临床医学按 PRISMA 2020 报告[^page2021prisma-e1] |
 
 **随机试验回答不了所有问题。** 观察性研究更适合发现罕见或迟发的不良反应，也更能反映日常医疗中的实际效果[^vonelm2007strobe-e1]。病例报告也有它的位置：沙利度胺与先天畸形的关系，最初就是从病例报告发现的[^gagnier2013care-e2]。
 
-做观察性研究，要分清两个概念[^vandenbroucke2007strobe-e5]：
-
-- **偏倚**（bias）：信息或研究对象的选择有缺陷，得出了错的关联；
-- **混杂**（confounding）：关联本身是真的，但有一个没考虑到的因素同时和暴露、结局相关，所以不能解释为因果。
+做观察性研究，要分清**偏倚**（信息或研究对象的选择有缺陷，得出了错的关联）和**混杂**（关联是真的，但有一个没考虑到的因素同时和暴露、结局相关，所以不能解释为因果）[^vandenbroucke2007strobe-e5]。具体怎么处理，见[观察性流行病学研究](../../06_methods/observational_epidemiology.md#第五步处理混杂先画因果图再定调整什么)。
 
 ### 证据金字塔：有用，但别机械套用
 
@@ -155,15 +148,27 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 
 ---
 
+## 常用套路与证据标准
+
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表列出临床医学常用的三种套路；表的分组和"在临床医学里的样子"一栏是本项目的归纳，其他套路本文资料未涉及 `[本项目分析]`。
+
+| 套路 | 在临床医学里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [解释因果](../../05_research-strategies/explain_causality.md) | 评价一种干预能否改善健康结局。设计、实施、分析和报告都恰当的随机试验，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2] | 招募第一位受试者前登记[^wma2024helsinki-e9]；按 CONSORT 2025 报告[^hopewell2025consort-e1]；用观察数据时，要分清偏倚和混杂[^vandenbroucke2007strobe-e5] | [随机对照试验](../../06_methods/randomized_controlled_trial.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md) |
+| [观察描述](../../05_research-strategies/observe_describe.md) | 横断面研究看患病率[^vandenbroucke2007strobe-e3]；病例报告描述单个病人的诊疗[^gagnier2013care-e7] | 横断面研究难以确定暴露发生在疾病之前[^vandenbroucke2007strobe-e4]；病例报告能提出假设，但很难判断因果[^gagnier2013care-e1][^gagnier2013care-e6]；分别按 STROBE[^vonelm2007strobe-e2]、CARE[^gagnier2013care-e5] 报告 | [观察性流行病学研究](../../06_methods/observational_epidemiology.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 系统综述与荟萃分析[^murad2016new-e7] | 按 PRISMA 2020 报告[^page2021prisma-e1]；证据强度取决于纳入研究的质量，不只看设计[^murad2016new-e5] | [系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md) |
+
+怎么用这张表 `[本项目分析]`：先按核心主张找到套路。"比较两种疗法"看起来是[比较评估](../../05_research-strategies/compare_evaluate.md)，但问干预效果时一般用 PICO 框架（人群、干预、对照、结局）[^higgins2024cochrane-e5]，在临床医学里通常要按解释因果的标准来设计。引用证据等级时，看研究质量，不只看设计名称，见上文[证据金字塔](#证据金字塔有用但别机械套用)。
+
+---
+
 ## 给新手的建议
 
-1. **先读两份文件：《赫尔辛基宣言》和 ICMJE 建议。** 都是公开的；很多医学期刊都采用 ICMJE 建议[^icmje2026recommendations-e1]。
-2. **把"伦理批准"和"试验登记"都排进时间表，放在招募之前。** 两者缺一不可，也不能互相替代[^icmje2026recommendations-e18]。
-3. **写方案时就打开对应的报告规范。** 方案写清主要结局等关键方法，能减少事后悄悄改动[^hopewell2025consort-e3]；试验方案可以按 SPIRIT 写[^hopewell2025consort-e4]。
-4. **立项时就谈好署名。** 按 ICMJE 四条标准来[^icmje2026recommendations-e4]；多中心项目尤其要早定[^icmje2026recommendations-e6]。
-5. **如果受试者是你自己的病人，请别人去谈知情同意。** 请与这层关系无关的合格人员去取得同意[^wma2024helsinki-e8]。
-6. **论文和登记记录要对得上。** 有改动就写出来，说明改了什么[^hopewell2025consort-e8]。
-7. **引用证据等级时，看研究质量，不只看设计名称。** 见上文"证据金字塔"一节[^murad2016new-e2]。
+1. **把"伦理批准"和"试验登记"都排进时间表，放在招募之前。** 两者缺一不可，也不能互相替代[^icmje2026recommendations-e18]。
+2. **写方案时就打开对应的报告规范。** 方案写清主要结局等关键方法，能减少事后悄悄改动[^hopewell2025consort-e3]；试验方案可以按 SPIRIT 写[^hopewell2025consort-e4]。
+3. **立项时就谈好署名。** 按 ICMJE 四条标准来[^icmje2026recommendations-e4]；多中心项目尤其要早定[^icmje2026recommendations-e6]。
+4. **如果受试者是你自己的病人，请别人去谈知情同意。** 请与这层关系无关的合格人员去取得同意[^wma2024helsinki-e8]。
+5. **论文和登记记录要对得上。** 有改动就写出来，说明改了什么[^hopewell2025consort-e8]。
 
 ---
 
@@ -171,16 +176,11 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 
 | 错误 | 为什么是问题 |
 |---|---|
-| 以为伦理批准了就等于登记了 | 两者是不同的要求[^icmje2026recommendations-e18] |
 | 投稿时才去登记试验 | 事后登记达不到登记的任何目的[^icmje2026recommendations-e20]，ICMJE 期刊可能不考虑发表[^icmje2026recommendations-e15] |
 | 以为教育项目、流程改进不算"临床试验" | ICMJE 的干预定义包括这些[^icmje2026recommendations-e17] |
-| 只发表阳性结果 | 宣言要求阴性和不确定的结果也公开[^wma2024helsinki-e10] |
 | 给导师、科室主任"挂名" | 只做一般性指导、只拿经费不够署名[^icmje2026recommendations-e7] |
 | 自己去找自己的病人谈知情同意 | 有依赖关系时，应由无关的合格人员去谈[^wma2024helsinki-e8] |
-| 把"符合 CONSORT"当成"研究质量高" | 报告规范不是质量评分表[^hopewell2025consort-e7] |
 | 数据共享声明写"未定" | ICMJE 不接受这个回答[^icmje2026recommendations-e23] |
-| 用横断面研究的结果说"A 导致 B" | 难以确定暴露发生在疾病之前[^vandenbroucke2007strobe-e4] |
-| 认为"荟萃分析一定是最强证据" | 综述的证据强度取决于纳入研究的质量[^murad2016new-e5] |
 | 引用 Ioannidis 2005 时说"已证明大多数研究是错的" | 那是基于模型的论证，不是实测 `[本项目分析]` |
 
 ---
@@ -189,7 +189,6 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 
 - **《赫尔辛基宣言》（WMA，2024 年版）**：临床研究伦理的基础文件。做任何涉及人的研究之前读。
 - **ICMJE 建议**：关于署名、利益冲突、试验登记、数据共享、预印本的建议，很多医学期刊采用。投稿前读，尤其是第 II 部分和第 III.L 节。
-- **EQUATOR 网络**：按研究类型查找报告规范的入口。动手写方案前去查。
 - **CONSORT 2025、STROBE、PRISMA 2020、CARE**：分别对应随机试验、观察性研究、系统综述和病例报告。STROBE 有配套的解释文章（Vandenbroucke 等人 2007），可以一起读。
 - **Murad 等人 2016，New evidence pyramid**：篇幅很短，讲证据金字塔的局限。适合想正确理解"证据等级"的人。
 - **Ioannidis 2005，Why Most Published Research Findings Are False**：讲研究设计的灵活性和利益冲突怎样影响结论可信度。读时注意它是模型论证。
@@ -253,6 +252,7 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 [^gagnier2013care-e5]: Gagnier 等人 2013，Discussion。[证据](../../../sources/notes/gagnier2013care.md#e5)
 [^gagnier2013care-e6]: Gagnier 等人 2013，Limitations。[证据](../../../sources/notes/gagnier2013care.md#e6)
 [^gagnier2013care-e7]: Gagnier 等人 2013，Conclusions。[证据](../../../sources/notes/gagnier2013care.md#e7)
+[^higgins2024cochrane-e5]: Higgins 等人（编）2024（Cochrane 手册），第 1 章 §1.2。[证据](../../../sources/notes/higgins2024cochrane.md#e5)
 [^murad2016new-e1]: Murad 等人 2016，正文第 2 段。[证据](../../../sources/notes/murad2016new.md#e1)
 [^murad2016new-e2]: Murad 等人 2016，Rationale for modification 1。[证据](../../../sources/notes/murad2016new.md#e2)
 [^murad2016new-e3]: Murad 等人 2016，Rationale for modification 1。[证据](../../../sources/notes/murad2016new.md#e3)

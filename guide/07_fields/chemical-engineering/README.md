@@ -1,8 +1,8 @@
-# 化学工程：领域概况
+# 化学工程：学科概况
 
-> **状态**：初稿，待审阅 · **最后更新**：2026-10-06
+> **状态**：初稿，待审阅 · **最后更新**：2026-10-08
 
-本文讲化学工程的研究实际怎样运转：在实验室里测反应和材料，用模型算过程，还要考虑放大、安全、成本和环境影响。化学工程和化学有大片交叉，偏化学本身的内容见[化学领域概况](../chemistry/README.md)；仿真、优化、基准评测这些方法在研究方法和计算机篇的实践里有专门文档，下文给出链接并说明差别；各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。这里只写本领域特有的东西。
+本文讲化学工程的研究实际怎样运转：在实验室里测反应和材料，用模型算过程，还要考虑放大、安全、成本和环境影响。化学工程和化学有大片交叉，偏化学本身的内容见[化学篇](../chemistry/README.md)；本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)；各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。这里只写本学科特有的东西。
 
 **读完本文，你应该能：**
 
@@ -20,15 +20,15 @@
 
 化学工程的研究跨度很大。以美国化学会（American Chemical Society，ACS）的期刊《Industrial & Engineering Chemistry Research》（下称 I&EC Research）为例，它按主题把论文分成动力学、催化与反应工程，材料与界面，过程系统工程，分离，热力学、传递与流体力学等栏目[^acsiecrauthorguide-e2]，也接收过程设计与开发方面的论文，包括建模和放大方法[^acsiecrauthorguide-e1]。这只是一份期刊的分类，但能看出研究对象既有反应和材料本身，也有由许多设备组成的整个过程 `[本项目分析]`。
 
-一个典型的课题，常常是几种工作的组合：在实验室测反应速率、选择性或物性；用这些数据建立模型；再用模型去设计、优化或评估一个过程 `[本项目分析]`。本文资料没有关于项目周期的统计，以导师的安排为准。
+一个典型的课题，常常是几种工作的组合：在实验室测反应速率、选择性或物性；用这些数据建立模型；再用模型去设计、优化或评估一个过程 `[本项目分析]`。
 
 ### 实验室结果离工业还有多远：放大
 
 **放大**（scale-up）指把实验室里几克、几毫升的过程，做到中试装置乃至工业装置的规模 `[本项目分析]`。这一步不是"多做一点"那么简单：
 
 - **催化剂性能还会在更大的装置里测。** Bligaard 等人（2016 年的一篇观点文章，作者是美国能源部催化科学项目资助的一批研究者）提到，催化剂性能常在成排几乎相同的实验台规模反应器和中试规模反应器里测[^bligaard2016benchmarking-e3]。
-- **实验室规模的数据会让估算偏差。** 一份专门针对碳捕集与利用（把二氧化碳收集起来、再做成产品的技术）的生命周期评估指南指出：技术成熟度低的工艺还没做热集成和优化，能耗、溶剂消耗偏高，又缺少反应后提纯等辅助工序，所以基于实验室规模的评估可能高估也可能低估环境影响[^muller2020lca-e7]。同系列、同样只针对碳捕集与利用的技术经济评估指南要求，技术成熟度低时要考虑学习曲线和改进，而且对作为对照的现有技术也要这样做[^zimmermann2020tea-e12]。
-- **量变了，危险也会变。** 下文"实验安全"一节讲的是一所大学化学系的事故。事故发生前，学生把合成量放大到约 10 克，并假定少量时有效的防护措施在量大时同样有效[^csb2011texastech-e2][^csb2011texastech-e3]。
+- **实验室规模的数据会让估算偏差。** 一份专门针对碳捕集与利用（把二氧化碳收集起来、再做成产品的技术）的生命周期评估指南指出：技术成熟度低的工艺还没做热集成和优化，能耗、溶剂消耗偏高，又缺少反应后提纯等辅助工序，所以基于实验室规模的评估可能高估也可能低估环境影响[^muller2020lca-e7]。同系列的技术经济评估指南也要求，技术成熟度低时考虑学习曲线和改进[^zimmermann2020tea-e12]。
+- **量变了，危险也会变。** 见下文[实验安全](#实验安全是研究的一部分动手前先做危害评估)里那次放大到约 10 克后发生的事故[^csb2011texastech-e2]。
 
 所以，论文里说"有工业应用前景"时，要说清结果是在什么规模下得到的，放大后哪些结论可能变 `[本项目分析]`。
 
@@ -50,8 +50,7 @@
 
 - **企业的数据常常不公开。** 碳捕集与利用的技术经济评估指南提到，据报道企业常按内部标准做这类评估，但通常不发表[^zimmermann2020tea-e2]。所以你能对比的公开数据可能有限 `[本项目分析]`。
 - **专利要在发表前处理好。** I&EC Research 要求作者在首次发表前解决好专利和知识产权问题，期刊不会因此推迟发表[^acsiecrauthorguide-e10]。
-- **先报告学校，再公开或合作。** 按美国加州大学伯克利分校的说明：和企业合作前，先向学校技术许可办公室提交发明披露[^berkeleydisclose-e1]；最好在公开前至少 1～2 个月提交[^berkeleydisclose-e2]；一旦公开，在美国只剩一年申请期限，在大多数其他国家直接失去申请资格[^berkeleydisclose-e4]。这些是美国一所大学按美国法律写的说明，**中国和其他国家的规定、你所在单位的政策可能不同，以本单位为准** `[本项目分析]`。更详细的说明见[电气、电子与信息工程领域概况](../electrical-engineering/README.md#发表还是申请专利以美国为例)。
-- **给资助方的报告也能发表，但看版权。** I&EC Research 允许发表用在资助方报告里的材料，前提是至少一位作者拥有版权[^acsiecrauthorguide-e6]。
+- **先报告学校，再公开或合作。** 按美国伯克利的说明，和企业合作前、公开前至少 1～2 个月，都要先向学校提交发明披露[^berkeleydisclose-e1][^berkeleydisclose-e2]；一旦公开，在大多数美国以外的国家直接失去申请资格[^berkeleydisclose-e4]。**各国和各单位规定不同，以本单位为准** `[本项目分析]`。详见[电子信息篇：发表还是申请专利](../electrical-engineering/README.md#发表还是申请专利以美国为例)。
 
 ---
 
@@ -61,7 +60,7 @@
 
 | | 化学工程 | 化学 | 计算机领域 |
 |---|---|---|---|
-| 关心的问题 | 除了"能不能反应"，还关心放大、成本、能耗和环境影响 | 偏重分子、反应和材料本身（见[化学领域概况](../chemistry/README.md)） | 以算法、系统和软件为主 |
+| 关心的问题 | 除了"能不能反应"，还关心放大、成本、能耗和环境影响 | 偏重分子、反应和材料本身（见[化学篇](../chemistry/README.md)） | 以算法、系统和软件为主 |
 | 结果从哪来 | 实验室测量、过程模型和仿真，常常两者结合 | 以实验室合成和表征为主 | 以代码、系统和数据上的实验为主 |
 | "比较"怎么做 | 要统一反应条件、转化率、系统边界等前提（见下文） | 和化学工程有交叉，例如催化 | 有公开的基准数据集和评测流程（见[基准评测](../computer-science/practices/benchmarking.md)） |
 | 安全 | 实验本身可能有爆炸、毒性等危害，动手前要评估 | 同样重要 | 一般没有实验室物理危害 |
@@ -77,10 +76,8 @@
 
 - 把公众的安全、健康和福祉放在首位，并保护环境[^aichecodeethics-e2]；
 - 发现工作会损害同事或公众的健康安全时，正式告知雇主或客户[^aichecodeethics-e3]；
-- 主动寻求并认真对待别人对自己工作的批评[^aichecodeethics-e4]；
-- 发表意见、提供信息，都要客观真实[^aichecodeethics-e5]；
-- 避免利益冲突，绝不泄露保密信息[^aichecodeethics-e6]——和企业合作时尤其要记住；
-- 只在自己胜任的领域提供专业服务[^aichecodeethics-e7]。
+- 主动听取对自己工作的批评，发表意见、提供信息都要客观真实[^aichecodeethics-e4][^aichecodeethics-e5]；
+- 避免利益冲突，绝不泄露保密信息[^aichecodeethics-e6]——和企业合作时尤其要记住。
 
 科研诚信的一般规则见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md)。
 
@@ -129,29 +126,35 @@
 - **功能单位按用途定。** 新产品和传统产品不一样时，按实际用途中的性能比较，例如洗涤剂按洗涤效果比，而不是按质量比[^muller2020lca-e9]。
 - **不要把排除在外的东西当成免费。** 不算上游工序，不等于二氧化碳、氢气、电可以按零成本计[^zimmermann2020tea-e8]；也不要在基准情景里假设电价为零或为负[^zimmermann2020tea-e14]，或假设乐观的未来制氢技术、比目前可行更大的生产规模[^zimmermann2020tea-e13]。
 - **统一口径。** 不同来源的数据换算到同一年份、同一热值基准[^zimmermann2020tea-e11]。分清"捕集一吨二氧化碳的成本"和"减排一吨二氧化碳的成本"[^zimmermann2020tea-e15]。
-- **计算和数据分开放，但互相链接**[^zimmermann2020tea-e16]，方便检查和更新。
 - **结论建立在不确定性和敏感性分析上**[^zimmermann2020tea-e17]。指标要和对照值比较后再解读[^zimmermann2020tea-e18]。负的生命周期评估结果只是比较的结果，不一定说明产品是碳中和或负排放的[^muller2020lca-e10]。
 - **报告写全。** 写出全部假设、数据、方法、结果和局限[^zimmermann2020tea-e19][^muller2020lca-e11]；保密数据拿不到要明说[^zimmermann2020tea-e10]；列出做评估的人，说明是否经过审查[^zimmermann2020tea-e20]。
 - **数据不够就收缩问题。** 数据质量提不到够用，要么调整目标和范围，要么停止研究[^zimmermann2020tea-e9]。早期阶段，生命周期评估最有用的是找出影响最大的环节，再做敏感性分析[^muller2020lca-e8]。
 
 ### 数据公开和利益冲突
 
-美国化学会所有期刊都强烈鼓励作者发表时公开研究数据[^acsiecrauthorguide-e7]，但 I&EC Research 自己没有专门的数据要求[^acsiecrauthorguide-e8]。它要求通讯作者代表全体作者声明可能的偏倚来源，包括单位、资助和经济关系[^acsiecrauthorguide-e11]。和企业合作的研究尤其要写清楚 `[本项目分析]`。
+美国化学会所有期刊都强烈鼓励作者发表时公开研究数据[^acsiecrauthorguide-e7]，但 I&EC Research 自己没有专门的数据要求[^acsiecrauthorguide-e8]。利益冲突的声明是各学科通用的要求，见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#5-署名引用和利益冲突给每个贡献者应得的认可)；和企业合作的研究尤其要写清楚 `[本项目分析]`。
 
 ---
 
-## 常见的研究类型
+## 常用套路与证据标准
 
-**相关学科的研究类型文档**：[合成与表征研究](../../06_methods/synthesis_study.md)。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的三种，其他套路本文资料未涉及。表的分组和第二栏是本项目的归纳；催化的标准来自一篇观点文章，技术经济分析和生命周期评估的标准来自碳捕集与利用方向的指南，都不是全学科通用的规定 `[本项目分析]`。
 
-本领域常用的方法，有不少在研究方法和计算机篇的实践里有对应文档，可以参考。下面只写本领域额外要注意的地方：
+| 套路 | 在化学工程里的样子 | 常用证据和评判标准 | 具体做法 |
+|---|---|---|---|
+| [构建改进](../../05_research-strategies/build_improve.md) | 提出新的工艺、催化剂或设备，或用过程模型设计一个过程 | 和最先进的催化剂在相同条件下比[^bligaard2016benchmarking-e17]，做不加催化剂的对照[^bligaard2016benchmarking-e18]；过程方案先核对物料衡算、能量衡算，不能违反热力学定律[^zimmermann2020tea-e5] | [合成与表征研究](../../06_methods/synthesis_study.md)、[定量仿真](../../06_methods/simulation_study.md)、[优化研究](../computer-science/practices/optimization_study.md)（计算机篇） |
+| [比较评估](../../05_research-strategies/compare_evaluate.md) | 比较几种催化剂；用技术经济分析和生命周期评估把新工艺和现有路线比 | 催化剂的选择性在相同转化率下比[^bligaard2016benchmarking-e15]；写清比较对象、地点、规模[^zimmermann2020tea-e6]；考虑学习曲线时，对照技术也同样考虑[^zimmermann2020tea-e12]；功能单位按实际用途定[^muller2020lca-e9] | [基准评测](../computer-science/practices/benchmarking.md)（计算机篇）、上文[技术经济分析和生命周期评估](#技术经济分析和生命周期评估前提写清楚结论才可信) |
+| [测量](../../05_research-strategies/measure.md) | 测反应速率、选择性等数据，让别人能拿来比 | 测本征速率，验证没有传质、传热和混合的影响[^bligaard2016benchmarking-e5][^bligaard2016benchmarking-e12]；写清转换频率怎样算出[^bligaard2016benchmarking-e14]；有作者建议多个课题组盲法轮测同一批样品，定出现实的误差范围[^bligaard2016benchmarking-e8] | [实验测量研究](../../06_methods/experimental_measurement.md)、上文[催化和动力学数据](#催化和动力学数据怎样报告别人才能比较) |
 
-- **实验室动力学和催化测量**（没有对应文档）：测反应速率、选择性、稳定性。按上文"催化和动力学数据"一节报告。
-- [定量仿真](../../06_methods/simulation_study.md)：过程模拟、反应器建模。差别在于模型要守物料衡算和能量衡算，参数常来自自己或文献的实验数据 `[本项目分析]`。
-- [优化研究](../computer-science/practices/optimization_study.md)：过程设计和操作条件优化。差别在于目标常常不止一个（成本、能耗、排放），约束来自物理和安全限制 `[本项目分析]`。
-- [基准评测](../computer-science/practices/benchmarking.md)：在相同条件下比较多种方案。计算机领域多用公开数据集和自动化流程 `[本项目分析]`；催化研究的"基准"是标准催化剂、标准反应条件，前提统一更难[^bligaard2016benchmarking-e7]。
-- **技术经济分析和生命周期评估**（没有对应文档）：按上文一节做和报告。
-- [工程研究](../computer-science/practices/engineering_research.md)：提出新的工艺、设备或材料并评估。要说明结果在什么规模下得到 `[本项目分析]`。
+怎么用这张表 `[本项目分析]`：先按核心主张定主要套路。例如提出新催化剂、再用技术经济分析论证它值得做，按构建改进的标准要求，经济部分按比较评估的要求写清前提。
+
+## 本学科常用的研究方法
+
+本学科没有独有的方法文档，用的是[研究方法](../../06_methods/README.md)里的跨学科方法和计算机篇的实践 `[本项目分析]`：
+
+- [合成与表征研究](../../06_methods/synthesis_study.md)、[实验测量研究](../../06_methods/experimental_measurement.md)：改用量、改条件前先做危害评估，见上文[实验安全](#实验安全是研究的一部分动手前先做危害评估)。
+- [定量仿真](../../06_methods/simulation_study.md)：过程模拟、反应器建模，参数常来自实验数据。
+- [优化研究](../computer-science/practices/optimization_study.md)、[基准评测](../computer-science/practices/benchmarking.md)、[工程研究](../computer-science/practices/engineering_research.md)（计算机篇）：过程优化的目标常常不止一个（成本、能耗、排放），约束来自物理和安全限制；催化的"基准"是标准催化剂、标准反应条件，前提统一更难[^bligaard2016benchmarking-e7]。技术经济分析和生命周期评估没有单独的方法文档，按上文一节做。
 
 ---
 
@@ -159,11 +162,10 @@
 
 1. **动手前做危害评估，改用量先找负责人。** 得克萨斯理工大学的事故里，放大没有经过负责人，也没有正式的危害评估[^csb2011texastech-e2][^csb2011texastech-e6]。具体流程以你所在单位为准。
 2. **把安全要求和未遂事件写下来。** 口头传达的限制，学生都说不知道[^csb2011texastech-e5]；未遂事件没有传开，教训就丢了[^csb2011texastech-e13]。
-3. **测数据前，先想好别人怎样拿它比较。** 测本征速率，选择性配转化率，和标准催化剂比[^bligaard2016benchmarking-e5][^bligaard2016benchmarking-e11][^bligaard2016benchmarking-e17]。
-4. **建模先核对衡算。** 碳捕集与利用的技术经济评估指南把核对物料衡算、能量衡算和热力学列为评估的前提[^zimmermann2020tea-e5]；做其他过程也值得先过这一关 `[本项目分析]`。
-5. **说"有工业前景"之前，写清规模和假设。** 碳捕集与利用的生命周期评估指南提醒，基于实验室规模的环境影响估算可能偏高也可能偏低[^muller2020lca-e7]。
-6. **做技术经济分析和生命周期评估，把假设放到最显眼的地方。** 以二氧化碳制甲醇为例，文献报告的碳足迹从负值到正值都有[^muller2020lca-e5]，统一电力和二氧化碳供应的假设后差异才缩小[^muller2020lca-e6]。
-7. **签合作协议前，问清能发表什么、要不要先申请专利。** 期刊不会因为专利问题推迟发表[^acsiecrauthorguide-e10]；按美国一所大学的说明，公开后在美国以外的大多数国家就不能再申请[^berkeleydisclose-e4]，你所在国家和单位以本地规定为准。
+3. **测数据前，先想好别人怎样拿它比较**，标准见上文[常用套路与证据标准](#常用套路与证据标准)。
+4. **说"有工业前景"之前，写清规模和假设。** 碳捕集与利用的生命周期评估指南提醒，基于实验室规模的环境影响估算可能偏高也可能偏低[^muller2020lca-e7]。
+5. **做技术经济分析和生命周期评估，把假设放到最显眼的地方。** 以二氧化碳制甲醇为例，文献报告的碳足迹从负值到正值都有[^muller2020lca-e5]，统一电力和二氧化碳供应的假设后差异才缩小[^muller2020lca-e6]。
+6. **签合作协议前，问清能发表什么、要不要先申请专利。** 期刊不会因为专利问题推迟发表[^acsiecrauthorguide-e10]；按美国一所大学的说明，公开后在美国以外的大多数国家就不能再申请[^berkeleydisclose-e4]，你所在国家和单位以本地规定为准。
 
 ---
 
@@ -173,15 +175,10 @@
 |---|---|
 | 自己决定把用量放大，假定小量时的防护措施照样有效 | 得克萨斯理工大学的事故正是这样发生的[^csb2011texastech-e2][^csb2011texastech-e3] |
 | 安全限制只口头说，实验记录不写日期和用量 | 调查发现学生不知道限制，记录也查不清用量[^csb2011texastech-e5][^csb2011texastech-e15] |
-| 组会只谈结果，不谈怎么做、有什么风险 | 得克萨斯理工大学的组会就是这样，实际操作和安全影响没人讨论[^csb2011texastech-e14] |
 | 用某一个时间点的转化率算转换频率 | 应基于速率测量，并改变浓度来检验[^bligaard2016benchmarking-e6] |
-| 报告选择性不给转化率，或在不同转化率下比较选择性 | 这样的选择性没法比较[^bligaard2016benchmarking-e11][^bligaard2016benchmarking-e15] |
 | 只在高转化率下做循环实验，就说催化剂稳定 | 这证明不了稳定性[^bligaard2016benchmarking-e16] |
-| 没有不加催化剂的对照实验 | 说不清反应是不是催化剂引起的[^bligaard2016benchmarking-e18] |
 | 技术经济分析里把没算进边界的原料、电力当成免费 | 碳捕集与利用指南指出，供应商不会免费提供[^zimmermann2020tea-e8] |
-| 从文献直接拿成本数据，不统一年份和口径 | 碳捕集与利用指南要求统一口径[^zimmermann2020tea-e11] |
 | 把负的生命周期评估结果说成"负排放" | 负值只是比较的结果[^muller2020lca-e10] |
-| 论文没写新的或重大的危害 | I&EC Research 要求在实验部分突出写明[^acsiecrauthorguide-e9] |
 
 ---
 
@@ -199,19 +196,16 @@
 [^acsiecrauthorguide-e3]: 美国化学会，I&EC Research 作者指南，Scope of the Journal。[证据](../../../sources/notes/acsiecrauthorguide.md#e3)
 [^acsiecrauthorguide-e4]: 美国化学会，I&EC Research 作者指南，Scope of the Journal。[证据](../../../sources/notes/acsiecrauthorguide.md#e4)
 [^acsiecrauthorguide-e5]: 美国化学会，I&EC Research 作者指南，Prior Publication Policy。[证据](../../../sources/notes/acsiecrauthorguide.md#e5)
-[^acsiecrauthorguide-e6]: 美国化学会，I&EC Research 作者指南，Prior Publication Policy。[证据](../../../sources/notes/acsiecrauthorguide.md#e6)
 [^acsiecrauthorguide-e7]: 美国化学会，I&EC Research 作者指南，Research Data Policy。[证据](../../../sources/notes/acsiecrauthorguide.md#e7)
 [^acsiecrauthorguide-e8]: 美国化学会，I&EC Research 作者指南，Data Requirements。[证据](../../../sources/notes/acsiecrauthorguide.md#e8)
 [^acsiecrauthorguide-e9]: 美国化学会，I&EC Research 作者指南，Safety Considerations。[证据](../../../sources/notes/acsiecrauthorguide.md#e9)
 [^acsiecrauthorguide-e10]: 美国化学会，I&EC Research 作者指南，Patent Activities and Intellectual Property。[证据](../../../sources/notes/acsiecrauthorguide.md#e10)
-[^acsiecrauthorguide-e11]: 美国化学会，I&EC Research 作者指南，Conflict of Interest Disclosure。[证据](../../../sources/notes/acsiecrauthorguide.md#e11)
 [^aichecodeethics-e1]: 美国化学工程师学会，Code of Ethics，导言段。[证据](../../../sources/notes/aichecodeethics.md#e1)
 [^aichecodeethics-e2]: 美国化学工程师学会，Code of Ethics，第 1 条。[证据](../../../sources/notes/aichecodeethics.md#e2)
 [^aichecodeethics-e3]: 美国化学工程师学会，Code of Ethics，第 2 条。[证据](../../../sources/notes/aichecodeethics.md#e3)
 [^aichecodeethics-e4]: 美国化学工程师学会，Code of Ethics，第 3 条。[证据](../../../sources/notes/aichecodeethics.md#e4)
 [^aichecodeethics-e5]: 美国化学工程师学会，Code of Ethics，第 4 条。[证据](../../../sources/notes/aichecodeethics.md#e5)
 [^aichecodeethics-e6]: 美国化学工程师学会，Code of Ethics，第 5 条。[证据](../../../sources/notes/aichecodeethics.md#e6)
-[^aichecodeethics-e7]: 美国化学工程师学会，Code of Ethics，第 7 条。[证据](../../../sources/notes/aichecodeethics.md#e7)
 [^berkeleydisclose-e1]: 伯克利 IPIRA，When to Disclose an Invention to OTL，When to disclose。[证据](../../../sources/notes/berkeleydisclose.md#e1)
 [^berkeleydisclose-e2]: 伯克利 IPIRA，When to disclose。[证据](../../../sources/notes/berkeleydisclose.md#e2)
 [^berkeleydisclose-e4]: 伯克利 IPIRA，FAQ。[证据](../../../sources/notes/berkeleydisclose.md#e4)
@@ -274,7 +268,6 @@
 [^zimmermann2020tea-e13]: Zimmermann 等人 2020，Inventory › Hydrogen as an input。[证据](../../../sources/notes/zimmermann2020tea.md#e13)
 [^zimmermann2020tea-e14]: Zimmermann 等人 2020，Inventory › Electricity as an input。[证据](../../../sources/notes/zimmermann2020tea.md#e14)
 [^zimmermann2020tea-e15]: Zimmermann 等人 2020，Inventory › Deriving a CO2 Price。[证据](../../../sources/notes/zimmermann2020tea.md#e15)
-[^zimmermann2020tea-e16]: Zimmermann 等人 2020，Calculation › Best Practices。[证据](../../../sources/notes/zimmermann2020tea.md#e16)
 [^zimmermann2020tea-e17]: Zimmermann 等人 2020，Interpretation › Uncertainty and Sensitivity Analysis。[证据](../../../sources/notes/zimmermann2020tea.md#e17)
 [^zimmermann2020tea-e18]: Zimmermann 等人 2020，Interpretation › Interpretation of Indicators。[证据](../../../sources/notes/zimmermann2020tea.md#e18)
 [^zimmermann2020tea-e19]: Zimmermann 等人 2020，Reporting › Content。[证据](../../../sources/notes/zimmermann2020tea.md#e19)
