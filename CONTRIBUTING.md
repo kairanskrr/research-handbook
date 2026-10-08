@@ -34,7 +34,7 @@
 
 ### 新内容放在哪里
 
-整理内容的目录结构和分层规则见 [`docs/restructure-plan.md`](docs/restructure-plan.md) §4，读法见 [`guide/00_start-here/how-to-use.md`](guide/00_start-here/how-to-use.md)。简单说：
+读法见 [`guide/00_start-here/how-to-use.md`](guide/00_start-here/how-to-use.md)。简单说：
 
 | 内容 | 放在哪里 |
 |---|---|

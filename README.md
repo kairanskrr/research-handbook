@@ -2,6 +2,8 @@
 
 从选题到发表，把一项研究做扎实。
 
+**网页版**：<https://kairanskrr.github.io/research-handbook/>，可以按目录翻阅、全文搜索，点脚注就地看原文；分精简版和完整版。
+
 写给刚开始做科研的人：怎样选题、读文献、设计研究、推进项目、写作投稿，以及各个学科有哪些自己的规矩。内容来自资深研究者的经验和各领域公认的方法规范，每条建议都能追溯到原文出处。
 
 ## 从哪里读
@@ -85,8 +87,8 @@ sources/                        原始资料
 papers/                         论文的 BibTeX（references.bib）和索引
 repos/                          作为参考资料引入的 GitHub 仓库（git submodule）
 templates/                      文档模板
-scripts/                        论文下载脚本
-docs/                           项目自身的规划文档
+scripts/                        论文下载脚本、网页版构建脚本
+site/                           网页版的页面
 ```
 
 克隆本仓库：
@@ -104,5 +106,5 @@ git clone --recursive https://github.com/kairanskrr/research-handbook.git
 ## 许可证
 
 - **文档内容**（`guide/`、`sources/` 中我们撰写的部分、`templates/`）：[CC BY-SA 4.0](LICENSE)。可以自由转载、改编、商用，但要署名，改编后的版本也要以 CC BY-SA 4.0 发布。
-- **代码**（`scripts/`）：[MIT](scripts/LICENSE)。
+- **代码**（`scripts/`、`site/`）：[MIT](scripts/LICENSE)。
 - **第三方内容不在此列**：证据摘录中引用的原文、`papers/` 中的论文、`repos/` 下的子模块，版权归原作者，按各自的许可证使用。
