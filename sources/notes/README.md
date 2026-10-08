@@ -36,5 +36,5 @@
 ```markdown
 系统综述必须在开始检索前写好研究方案。[^kitchenham2007guidelines-e1]
 
-[^kitchenham2007guidelines-e1]: Kitchenham & Charters 2007，§5.3。[证据](../../sources/notes/kitchenham2007guidelines.md#e1)
+[^kitchenham2007guidelines-e1]: Kitchenham & Charters 2007，§5.3。[证据](kitchenham2007guidelines.md#e1)
 ```

@@ -4,7 +4,7 @@
 
 本文讲**档案研究**：到档案馆查阅没有出版过的原始记录（信件、日记、会议记录、机构文件等），或使用它们的数字化版本，用这些记录回答一个关于过去的问题。Ithaka S+R 2012 年访谈了 39 位美国历史学者和研究生，报告认为使用一手资料仍是历史研究方法的核心[^rutner2012supporting-e19]。文学、法学、政治学、社会学的研究者也会进档案馆 `[本项目分析]`；各学科对"什么算一手资料"看法不同[^saaacrl2018primary-e2]，但查档和审视资料的步骤是共通的。
 
-一手和二手资料的区别、档案馆的基本规矩、上面那项 2012 年 39 人访谈研究的背景，已在[历史与考古领域概况](../README.md#在档案馆里工作)讲过，这里不重复。本文资料主要有三类：美国档案学界的两份公开文件，即美国档案工作者协会（Society of American Archivists，SAA）的查档指南（下称"SAA 查档指南"）和它与美国大学与研究图书馆协会（ACRL）合编的《一手资料素养指南》（下称"素养指南"）；英国国家档案馆和美国国家档案与记录管理局的官网页面，只代表这两家机构；以及领域概况用过的几份资料。所以本文反映的是**英美的做法**，其他国家以当地档案馆和法律的规定为准 `[本项目分析]`。注意：领域概况里的"SAA"指美国考古学会，是另一个组织。
+一手和二手资料的区别、档案馆的基本规矩、上面那项 2012 年 39 人访谈研究的背景，已在[历史与考古领域概况](../07_fields/history-archaeology/README.md#在档案馆里工作)讲过，这里不重复。本文资料主要有三类：美国档案学界的两份公开文件，即美国档案工作者协会（Society of American Archivists，SAA）的查档指南（下称"SAA 查档指南"）和它与美国大学与研究图书馆协会（ACRL）合编的《一手资料素养指南》（下称"素养指南"）；英国国家档案馆和美国国家档案与记录管理局的官网页面，只代表这两家机构；以及领域概况用过的几份资料。所以本文反映的是**英美的做法**，其他国家以当地档案馆和法律的规定为准 `[本项目分析]`。注意：领域概况里的"SAA"指美国考古学会，是另一个组织。
 
 **读完本文，你应该能：**
 
@@ -24,7 +24,7 @@
 
 **和相近的研究类型怎么区分** `[本项目分析，依据下列资料]`：
 
-| | 档案研究 | 案例研究（见研究方法里的[案例研究与民族志](../../../06_methods/case_study.md)） | 口述历史（见[领域概况](../README.md#口述历史受访者的同意和控制权)） |
+| | 档案研究 | 案例研究（见研究方法里的[案例研究与民族志](case_study.md)） | 口述历史（见[领域概况](../07_fields/history-archaeology/README.md#口述历史受访者的同意和控制权)） |
 |---|---|---|---|
 | 研究对象 | 过去留下的记录 | 当下正在发生的现象[^ralph2020empirical-e414] | 亲历者对过去的讲述 |
 | 能否产生新资料 | 不能，只能用留存下来的 | 能，可以访谈、观察 | 能，访谈本身就是新资料 |
@@ -79,7 +79,7 @@
 **怎么做：**
 - **守规矩，也懂原因。** 只用铅笔，是因为万一在档案上留下痕迹还能擦掉[^schmidt2016using-e21]。材料要保持拿到时的顺序，以后才能找到，也才能放在原来的上下文里看[^schmidt2016using-e22]。
 - **先看最重要的。** 先申请对你最有用的材料，确保有时间看完[^schmidt2016using-e29]。
-- **每条笔记、每张照片都带完整出处**：收藏名和档案馆给的编号[^schmidt2016using-e30]，以及箱号、文件夹号[^schmidt2016using-e34]。拍照的技巧和"只拍不想"的代价，见[领域概况](../README.md#在档案馆里工作)。
+- **每条笔记、每张照片都带完整出处**：收藏名和档案馆给的编号[^schmidt2016using-e30]，以及箱号、文件夹号[^schmidt2016using-e34]。拍照的技巧和"只拍不想"的代价，见[领域概况](../07_fields/history-archaeology/README.md#在档案馆里工作)。
 - **看页边。** 很多信件因为页边批注而有了另一层意义[^cronon2009learning-e37]。一个问号证明不了论点，但能让你换个角度看其他证据[^cronon2009learning-e38]。
 - **追线索，记缺口。** 文献会把你引向下一个去处[^cronon2009learning-e39]；缺口和不确定之处也记下来，以后的研究可能带来新线索[^cronon2009learning-e36]。
 
@@ -104,7 +104,7 @@
 
 **为什么：** 美国历史学会（American Historical Association，AHA）的职业准则说，历史研究要讨论资料告诉了我们什么，**也要讨论它们照不亮什么**[^aha2023standards-e24]。
 
-**容易错在哪里：** 把"档案里没有记载"当成"历史上没有发生" `[本项目分析]`；用今天的标准评判当时的人（当下主义，见[领域概况的常见错误](../README.md#常见错误)）。
+**容易错在哪里：** 把"档案里没有记载"当成"历史上没有发生" `[本项目分析]`；用今天的标准评判当时的人（当下主义，见[领域概况的常见错误](../07_fields/history-archaeology/README.md#常见错误)）。
 
 ### 第六步：整理和引用
 
@@ -113,7 +113,7 @@
 - **选引用格式。** 《芝加哥格式手册》的注释—参考书目体系，能容纳放不进"作者—年份"体系的特殊资料[^chicago2024citation-e3]；用哪种体系，先问导师[^chicago2024citation-e5]。
 - **注明你对原文做过的任何改动**，不管是数字版还是印刷版[^aha2023standards-e22]。数字化记录容易复制，这让准确引用更加重要[^aha2023standards-e23]。引的是原件、缩微胶片还是网上的数字版，也要写清 `[本项目分析]`。
 - **不要转引装作亲见。** 从别人书里借来一手资料的出处、却不注明那本书，AHA 视为不当[^aha2023standards-e11]。
-- **整理照片和笔记。** 素养指南把转录、拍照、下载都列为需要有办法管理的研究资料[^saaacrl2018primary-e7]。具体做法见贯穿全程的[整理科研材料](../../../08_throughout/organizing_materials.md#5-分清三种笔记)。
+- **整理照片和笔记。** 素养指南把转录、拍照、下载都列为需要有办法管理的研究资料[^saaacrl2018primary-e7]。具体做法见贯穿全程的[整理科研材料](../08_throughout/organizing_materials.md#5-分清三种笔记)。
 
 **为什么：** AHA 准则要求准备好公开所用的资料和证据[^aha2023standards-e15]；出处记不全，这一条就做不到 `[本项目分析]`。
 
@@ -195,111 +195,111 @@
 - **Cronon 等，Learning to Do Historical Research 的 Manuscripts 一页**：以一个真实收藏为例，演示怎样找收藏、在阅览室里看文件、追线索。
 - **英国国家档案馆 Start here 栏目**、**美国国家档案与记录管理局 Getting Started 页面**：两家机构各自的入门说明，讲网上有什么、没有什么、怎样准备到访。
 - **AHA，Statement on Standards of Professional Conduct**：美国历史学会关于引用、改动标注、查阅限制和承诺的职业准则。
-- 文学研究者用档案的特点，见[语言与文学领域概况](../../languages-literature/README.md#文学研究档案和学术版本)。
+- 文学研究者用档案的特点，见[语言与文学领域概况](../07_fields/languages-literature/README.md#文学研究档案和学术版本)。
 
-[^saaacrl2018primary-e2]: SAA 与 ACRL/RBMS 2018，附录 1，Discipline 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e2)
-[^saaacrl2018primary-e3]: SAA 与 ACRL/RBMS 2018，Core Ideas，Analytical Concepts。[证据](../../../../sources/notes/saaacrl2018primary.md#e3)
-[^saaacrl2018primary-e4]: SAA 与 ACRL/RBMS 2018，Core Ideas，Theoretical Concepts。[证据](../../../../sources/notes/saaacrl2018primary.md#e4)
-[^saaacrl2018primary-e5]: SAA 与 ACRL/RBMS 2018，Core Ideas，Theoretical Concepts。[证据](../../../../sources/notes/saaacrl2018primary.md#e5)
-[^saaacrl2018primary-e6]: SAA 与 ACRL/RBMS 2018，Core Ideas，Theoretical Concepts。[证据](../../../../sources/notes/saaacrl2018primary.md#e6)
-[^saaacrl2018primary-e7]: SAA 与 ACRL/RBMS 2018，Core Ideas，Practical Considerations。[证据](../../../../sources/notes/saaacrl2018primary.md#e7)
-[^saaacrl2018primary-e8]: SAA 与 ACRL/RBMS 2018，Learning Objectives 1.C、1.D。[证据](../../../../sources/notes/saaacrl2018primary.md#e8)
-[^saaacrl2018primary-e10]: SAA 与 ACRL/RBMS 2018，Learning Objectives 2.C。[证据](../../../../sources/notes/saaacrl2018primary.md#e10)
-[^saaacrl2018primary-e11]: SAA 与 ACRL/RBMS 2018，Learning Objectives 3.B。[证据](../../../../sources/notes/saaacrl2018primary.md#e11)
-[^saaacrl2018primary-e12]: SAA 与 ACRL/RBMS 2018，Learning Objectives 3.C。[证据](../../../../sources/notes/saaacrl2018primary.md#e12)
-[^saaacrl2018primary-e13]: SAA 与 ACRL/RBMS 2018，Learning Objectives 4.B。[证据](../../../../sources/notes/saaacrl2018primary.md#e13)
-[^saaacrl2018primary-e14]: SAA 与 ACRL/RBMS 2018，Learning Objectives 4.D。[证据](../../../../sources/notes/saaacrl2018primary.md#e14)
-[^saaacrl2018primary-e15]: SAA 与 ACRL/RBMS 2018，Learning Objectives 4.E。[证据](../../../../sources/notes/saaacrl2018primary.md#e15)
-[^saaacrl2018primary-e16]: SAA 与 ACRL/RBMS 2018，Learning Objectives 5.A。[证据](../../../../sources/notes/saaacrl2018primary.md#e16)
-[^saaacrl2018primary-e17]: SAA 与 ACRL/RBMS 2018，Learning Objectives 5.C。[证据](../../../../sources/notes/saaacrl2018primary.md#e17)
-[^saaacrl2018primary-e18]: SAA 与 ACRL/RBMS 2018，Learning Objectives 5.B、5.D。[证据](../../../../sources/notes/saaacrl2018primary.md#e18)
-[^saaacrl2018primary-e19]: SAA 与 ACRL/RBMS 2018，Core Ideas，Ethical Concepts。[证据](../../../../sources/notes/saaacrl2018primary.md#e19)
-[^saaacrl2018primary-e20]: SAA 与 ACRL/RBMS 2018，附录 1，Authenticity 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e20)
-[^saaacrl2018primary-e21]: SAA 与 ACRL/RBMS 2018，附录 1，Silences 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e21)
-[^saaacrl2018primary-e22]: SAA 与 ACRL/RBMS 2018，附录 1，Research Question 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e22)
-[^saaacrl2018primary-e23]: SAA 与 ACRL/RBMS 2018，附录 1，Privacy 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e23)
-[^saaacrl2018primary-e24]: SAA 与 ACRL/RBMS 2018，附录 1，Copyright 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e24)
-[^saaacrl2018primary-e25]: SAA 与 ACRL/RBMS 2018，附录 1，Evidence 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e25)
-[^saaacrl2018primary-e26]: SAA 与 ACRL/RBMS 2018，附录 1，Public Domain 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e26)
-[^saaacrl2018primary-e27]: SAA 与 ACRL/RBMS 2018，附录 1，Mediation 条。[证据](../../../../sources/notes/saaacrl2018primary.md#e27)
-[^schmidt2016using-e1]: Schmidt 2016（SAA 查档指南），What Are Archives。[证据](../../../../sources/notes/schmidt2016using.md#e1)
-[^schmidt2016using-e2]: Schmidt 2016，Types of Archives。[证据](../../../../sources/notes/schmidt2016using.md#e2)
-[^schmidt2016using-e3]: Schmidt 2016，Finding and Evaluating Archives。[证据](../../../../sources/notes/schmidt2016using.md#e3)
-[^schmidt2016using-e4]: Schmidt 2016，Finding and Evaluating Archives。[证据](../../../../sources/notes/schmidt2016using.md#e4)
-[^schmidt2016using-e5]: Schmidt 2016，Finding and Evaluating Archives，Finding Aids。[证据](../../../../sources/notes/schmidt2016using.md#e5)
-[^schmidt2016using-e6]: Schmidt 2016，Finding and Evaluating Archives，Finding Aids。[证据](../../../../sources/notes/schmidt2016using.md#e6)
-[^schmidt2016using-e7]: Schmidt 2016，Finding and Evaluating Archives，Digital Collections。[证据](../../../../sources/notes/schmidt2016using.md#e7)
-[^schmidt2016using-e8]: Schmidt 2016，Finding and Evaluating Archives，Digital Collections。[证据](../../../../sources/notes/schmidt2016using.md#e8)
-[^schmidt2016using-e9]: Schmidt 2016，Finding and Evaluating Archives，Archival Staff。[证据](../../../../sources/notes/schmidt2016using.md#e9)
-[^schmidt2016using-e10]: Schmidt 2016，Finding and Evaluating Archives，Archival Staff。[证据](../../../../sources/notes/schmidt2016using.md#e10)
-[^schmidt2016using-e11]: Schmidt 2016，Finding and Evaluating Archives，Archival Staff。[证据](../../../../sources/notes/schmidt2016using.md#e11)
-[^schmidt2016using-e12]: Schmidt 2016，Requesting Materials Remotely。[证据](../../../../sources/notes/schmidt2016using.md#e12)
-[^schmidt2016using-e13]: Schmidt 2016，Requesting Materials Remotely。[证据](../../../../sources/notes/schmidt2016using.md#e13)
-[^schmidt2016using-e14]: Schmidt 2016，Requesting Materials Remotely。[证据](../../../../sources/notes/schmidt2016using.md#e14)
-[^schmidt2016using-e15]: Schmidt 2016，Planning to Visit an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e15)
-[^schmidt2016using-e16]: Schmidt 2016，Planning to Visit an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e16)
-[^schmidt2016using-e17]: Schmidt 2016，Planning to Visit an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e17)
-[^schmidt2016using-e18]: Schmidt 2016，Planning to Visit an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e18)
-[^schmidt2016using-e19]: Schmidt 2016，Planning to Visit an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e19)
-[^schmidt2016using-e20]: Schmidt 2016，Typical Usage Guidelines。[证据](../../../../sources/notes/schmidt2016using.md#e20)
-[^schmidt2016using-e21]: Schmidt 2016，Typical Usage Guidelines。[证据](../../../../sources/notes/schmidt2016using.md#e21)
-[^schmidt2016using-e22]: Schmidt 2016，Typical Usage Guidelines。[证据](../../../../sources/notes/schmidt2016using.md#e22)
-[^schmidt2016using-e23]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../../../sources/notes/schmidt2016using.md#e23)
-[^schmidt2016using-e24]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../../../sources/notes/schmidt2016using.md#e24)
-[^schmidt2016using-e25]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../../../sources/notes/schmidt2016using.md#e25)
-[^schmidt2016using-e26]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../../../sources/notes/schmidt2016using.md#e26)
-[^schmidt2016using-e27]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../../../sources/notes/schmidt2016using.md#e27)
-[^schmidt2016using-e28]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../../../sources/notes/schmidt2016using.md#e28)
-[^schmidt2016using-e29]: Schmidt 2016，Visiting an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e29)
-[^schmidt2016using-e30]: Schmidt 2016，Visiting an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e30)
-[^schmidt2016using-e31]: Schmidt 2016，Visiting an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e31)
-[^schmidt2016using-e32]: Schmidt 2016，Visiting an Archives。[证据](../../../../sources/notes/schmidt2016using.md#e32)
-[^schmidt2016using-e33]: Schmidt 2016，附录：带注释的检索指南样例。[证据](../../../../sources/notes/schmidt2016using.md#e33)
-[^schmidt2016using-e34]: Schmidt 2016，附录：带注释的检索指南样例。[证据](../../../../sources/notes/schmidt2016using.md#e34)
-[^schmidt2016using-e35]: Schmidt 2016，Typical Usage Guidelines，Request forms。[证据](../../../../sources/notes/schmidt2016using.md#e35)
-[^tnastarthere-e1]: 英国国家档案馆，What are archives?。[证据](../../../../sources/notes/tnastarthere.md#e1)
-[^tnastarthere-e2]: 英国国家档案馆，How to use archives。[证据](../../../../sources/notes/tnastarthere.md#e2)
-[^tnastarthere-e4]: 英国国家档案馆，What's online。[证据](../../../../sources/notes/tnastarthere.md#e4)
-[^tnastarthere-e5]: 英国国家档案馆，What's online。[证据](../../../../sources/notes/tnastarthere.md#e5)
-[^tnastarthere-e7]: 英国国家档案馆，What's not online。[证据](../../../../sources/notes/tnastarthere.md#e7)
-[^tnastarthere-e8]: 英国国家档案馆，What's not online。[证据](../../../../sources/notes/tnastarthere.md#e8)
-[^naragettingstarted-e1]: 美国国家档案与记录管理局，Getting Started Overview。[证据](../../../../sources/notes/naragettingstarted.md#e1)
-[^cronon2009learning-e29]: Cronon 等 2009，Manuscripts，How to Find Manuscript Collections。[证据](../../../../sources/notes/cronon2009learning.md#e29)
-[^cronon2009learning-e30]: Cronon 等 2009，Manuscripts，How to Find Manuscript Collections。[证据](../../../../sources/notes/cronon2009learning.md#e30)
-[^cronon2009learning-e31]: Cronon 等 2009，Manuscripts，How to Find Manuscript Collections。[证据](../../../../sources/notes/cronon2009learning.md#e31)
-[^cronon2009learning-e32]: Cronon 等 2009，Manuscripts，Navigating the Reading Room。[证据](../../../../sources/notes/cronon2009learning.md#e32)
-[^cronon2009learning-e33]: Cronon 等 2009，Manuscripts，Navigating the Reading Room。[证据](../../../../sources/notes/cronon2009learning.md#e33)
-[^cronon2009learning-e34]: Cronon 等 2009，Manuscripts，Ask Your Research Question and Lots of Others。[证据](../../../../sources/notes/cronon2009learning.md#e34)
-[^cronon2009learning-e35]: Cronon 等 2009，Manuscripts，Ask Your Research Question and Lots of Others。[证据](../../../../sources/notes/cronon2009learning.md#e35)
-[^cronon2009learning-e36]: Cronon 等 2009，Manuscripts，Little Things Are Big。[证据](../../../../sources/notes/cronon2009learning.md#e36)
-[^cronon2009learning-e37]: Cronon 等 2009，Manuscripts，Little Things Are Big。[证据](../../../../sources/notes/cronon2009learning.md#e37)
-[^cronon2009learning-e38]: Cronon 等 2009，Manuscripts，Little Things Are Big。[证据](../../../../sources/notes/cronon2009learning.md#e38)
-[^cronon2009learning-e39]: Cronon 等 2009，Manuscripts，Sniff Out Paper Trails。[证据](../../../../sources/notes/cronon2009learning.md#e39)
-[^cronon2009learning-e40]: Cronon 等 2009，Manuscripts，Sniff Out Paper Trails。[证据](../../../../sources/notes/cronon2009learning.md#e40)
-[^cronon2009learning-e41]: Cronon 等 2009，Manuscripts，Dos and Don'ts。[证据](../../../../sources/notes/cronon2009learning.md#e41)
-[^cronon2009learning-e42]: Cronon 等 2009，Manuscripts，Dos and Don'ts。[证据](../../../../sources/notes/cronon2009learning.md#e42)
-[^cronon2009learning-e43]: Cronon 等 2009，Manuscripts，Think Like A Narrator。[证据](../../../../sources/notes/cronon2009learning.md#e43)
-[^cronon2009learning-e44]: Cronon 等 2009，Manuscripts，Think Like A Narrator。[证据](../../../../sources/notes/cronon2009learning.md#e44)
-[^cronon2009learning-e45]: Cronon 等 2009，Manuscripts，Dos and Don'ts。[证据](../../../../sources/notes/cronon2009learning.md#e45)
-[^rutner2012supporting-e19]: Rutner & Schonfeld 2012，第 8 页。[证据](../../../../sources/notes/rutner2012supporting.md#e19)
-[^rutner2012supporting-e12]: Rutner & Schonfeld 2012，第 11 页。[证据](../../../../sources/notes/rutner2012supporting.md#e12)
-[^rutner2012supporting-e13]: Rutner & Schonfeld 2012，第 10 页。[证据](../../../../sources/notes/rutner2012supporting.md#e13)
-[^rutner2012supporting-e15]: Rutner & Schonfeld 2012，第 13 页。[证据](../../../../sources/notes/rutner2012supporting.md#e15)
-[^rutner2012supporting-e16]: Rutner & Schonfeld 2012，第 16 页。[证据](../../../../sources/notes/rutner2012supporting.md#e16)
-[^rutner2012supporting-e17]: Rutner & Schonfeld 2012，第 19 页。[证据](../../../../sources/notes/rutner2012supporting.md#e17)
-[^rutner2012supporting-e18]: Rutner & Schonfeld 2012，第 17 页。[证据](../../../../sources/notes/rutner2012supporting.md#e18)
-[^aha2023standards-e21]: AHA 职业行为准则（2023 修订），§3。[证据](../../../../sources/notes/aha2023standards.md#e21)
-[^aha2023standards-e22]: AHA 职业行为准则，§2。[证据](../../../../sources/notes/aha2023standards.md#e22)
-[^aha2023standards-e23]: AHA 职业行为准则，§2。[证据](../../../../sources/notes/aha2023standards.md#e23)
-[^aha2023standards-e24]: AHA 职业行为准则，§2。[证据](../../../../sources/notes/aha2023standards.md#e24)
-[^aha2023standards-e25]: AHA 职业行为准则，§3。[证据](../../../../sources/notes/aha2023standards.md#e25)
-[^aha2023standards-e11]: AHA 职业行为准则，§4。[证据](../../../../sources/notes/aha2023standards.md#e11)
-[^aha2023standards-e26]: AHA 职业行为准则，§3。[证据](../../../../sources/notes/aha2023standards.md#e26)
-[^aha2023standards-e14]: AHA 职业行为准则，§2。[证据](../../../../sources/notes/aha2023standards.md#e14)
-[^aha2023standards-e15]: AHA 职业行为准则，§3。[证据](../../../../sources/notes/aha2023standards.md#e15)
-[^aha2023standards-e10]: AHA 职业行为准则，§3。[证据](../../../../sources/notes/aha2023standards.md#e10)
-[^aha2023standards-e8]: AHA 职业行为准则，§3。[证据](../../../../sources/notes/aha2023standards.md#e8)
-[^chicago2024citation-e3]: 《芝加哥格式手册》官网引用速查页。[证据](../../../../sources/notes/chicago2024citation.md#e3)
-[^chicago2024citation-e5]: 《芝加哥格式手册》官网引用速查页。[证据](../../../../sources/notes/chicago2024citation.md#e5)
-[^ralph2020empirical-e414]: ACM SIGSOFT 实证研究标准，Case Study and Ethnography。[证据](../../../../sources/notes/ralph2020empirical.md#e414)
-[^wohlin2021case-e3]: Wohlin 2021，§4 Results。[证据](../../../../sources/notes/wohlin2021case.md#e3)
+[^saaacrl2018primary-e2]: SAA 与 ACRL/RBMS 2018，附录 1，Discipline 条。[证据](../../sources/notes/saaacrl2018primary.md#e2)
+[^saaacrl2018primary-e3]: SAA 与 ACRL/RBMS 2018，Core Ideas，Analytical Concepts。[证据](../../sources/notes/saaacrl2018primary.md#e3)
+[^saaacrl2018primary-e4]: SAA 与 ACRL/RBMS 2018，Core Ideas，Theoretical Concepts。[证据](../../sources/notes/saaacrl2018primary.md#e4)
+[^saaacrl2018primary-e5]: SAA 与 ACRL/RBMS 2018，Core Ideas，Theoretical Concepts。[证据](../../sources/notes/saaacrl2018primary.md#e5)
+[^saaacrl2018primary-e6]: SAA 与 ACRL/RBMS 2018，Core Ideas，Theoretical Concepts。[证据](../../sources/notes/saaacrl2018primary.md#e6)
+[^saaacrl2018primary-e7]: SAA 与 ACRL/RBMS 2018，Core Ideas，Practical Considerations。[证据](../../sources/notes/saaacrl2018primary.md#e7)
+[^saaacrl2018primary-e8]: SAA 与 ACRL/RBMS 2018，Learning Objectives 1.C、1.D。[证据](../../sources/notes/saaacrl2018primary.md#e8)
+[^saaacrl2018primary-e10]: SAA 与 ACRL/RBMS 2018，Learning Objectives 2.C。[证据](../../sources/notes/saaacrl2018primary.md#e10)
+[^saaacrl2018primary-e11]: SAA 与 ACRL/RBMS 2018，Learning Objectives 3.B。[证据](../../sources/notes/saaacrl2018primary.md#e11)
+[^saaacrl2018primary-e12]: SAA 与 ACRL/RBMS 2018，Learning Objectives 3.C。[证据](../../sources/notes/saaacrl2018primary.md#e12)
+[^saaacrl2018primary-e13]: SAA 与 ACRL/RBMS 2018，Learning Objectives 4.B。[证据](../../sources/notes/saaacrl2018primary.md#e13)
+[^saaacrl2018primary-e14]: SAA 与 ACRL/RBMS 2018，Learning Objectives 4.D。[证据](../../sources/notes/saaacrl2018primary.md#e14)
+[^saaacrl2018primary-e15]: SAA 与 ACRL/RBMS 2018，Learning Objectives 4.E。[证据](../../sources/notes/saaacrl2018primary.md#e15)
+[^saaacrl2018primary-e16]: SAA 与 ACRL/RBMS 2018，Learning Objectives 5.A。[证据](../../sources/notes/saaacrl2018primary.md#e16)
+[^saaacrl2018primary-e17]: SAA 与 ACRL/RBMS 2018，Learning Objectives 5.C。[证据](../../sources/notes/saaacrl2018primary.md#e17)
+[^saaacrl2018primary-e18]: SAA 与 ACRL/RBMS 2018，Learning Objectives 5.B、5.D。[证据](../../sources/notes/saaacrl2018primary.md#e18)
+[^saaacrl2018primary-e19]: SAA 与 ACRL/RBMS 2018，Core Ideas，Ethical Concepts。[证据](../../sources/notes/saaacrl2018primary.md#e19)
+[^saaacrl2018primary-e20]: SAA 与 ACRL/RBMS 2018，附录 1，Authenticity 条。[证据](../../sources/notes/saaacrl2018primary.md#e20)
+[^saaacrl2018primary-e21]: SAA 与 ACRL/RBMS 2018，附录 1，Silences 条。[证据](../../sources/notes/saaacrl2018primary.md#e21)
+[^saaacrl2018primary-e22]: SAA 与 ACRL/RBMS 2018，附录 1，Research Question 条。[证据](../../sources/notes/saaacrl2018primary.md#e22)
+[^saaacrl2018primary-e23]: SAA 与 ACRL/RBMS 2018，附录 1，Privacy 条。[证据](../../sources/notes/saaacrl2018primary.md#e23)
+[^saaacrl2018primary-e24]: SAA 与 ACRL/RBMS 2018，附录 1，Copyright 条。[证据](../../sources/notes/saaacrl2018primary.md#e24)
+[^saaacrl2018primary-e25]: SAA 与 ACRL/RBMS 2018，附录 1，Evidence 条。[证据](../../sources/notes/saaacrl2018primary.md#e25)
+[^saaacrl2018primary-e26]: SAA 与 ACRL/RBMS 2018，附录 1，Public Domain 条。[证据](../../sources/notes/saaacrl2018primary.md#e26)
+[^saaacrl2018primary-e27]: SAA 与 ACRL/RBMS 2018，附录 1，Mediation 条。[证据](../../sources/notes/saaacrl2018primary.md#e27)
+[^schmidt2016using-e1]: Schmidt 2016（SAA 查档指南），What Are Archives。[证据](../../sources/notes/schmidt2016using.md#e1)
+[^schmidt2016using-e2]: Schmidt 2016，Types of Archives。[证据](../../sources/notes/schmidt2016using.md#e2)
+[^schmidt2016using-e3]: Schmidt 2016，Finding and Evaluating Archives。[证据](../../sources/notes/schmidt2016using.md#e3)
+[^schmidt2016using-e4]: Schmidt 2016，Finding and Evaluating Archives。[证据](../../sources/notes/schmidt2016using.md#e4)
+[^schmidt2016using-e5]: Schmidt 2016，Finding and Evaluating Archives，Finding Aids。[证据](../../sources/notes/schmidt2016using.md#e5)
+[^schmidt2016using-e6]: Schmidt 2016，Finding and Evaluating Archives，Finding Aids。[证据](../../sources/notes/schmidt2016using.md#e6)
+[^schmidt2016using-e7]: Schmidt 2016，Finding and Evaluating Archives，Digital Collections。[证据](../../sources/notes/schmidt2016using.md#e7)
+[^schmidt2016using-e8]: Schmidt 2016，Finding and Evaluating Archives，Digital Collections。[证据](../../sources/notes/schmidt2016using.md#e8)
+[^schmidt2016using-e9]: Schmidt 2016，Finding and Evaluating Archives，Archival Staff。[证据](../../sources/notes/schmidt2016using.md#e9)
+[^schmidt2016using-e10]: Schmidt 2016，Finding and Evaluating Archives，Archival Staff。[证据](../../sources/notes/schmidt2016using.md#e10)
+[^schmidt2016using-e11]: Schmidt 2016，Finding and Evaluating Archives，Archival Staff。[证据](../../sources/notes/schmidt2016using.md#e11)
+[^schmidt2016using-e12]: Schmidt 2016，Requesting Materials Remotely。[证据](../../sources/notes/schmidt2016using.md#e12)
+[^schmidt2016using-e13]: Schmidt 2016，Requesting Materials Remotely。[证据](../../sources/notes/schmidt2016using.md#e13)
+[^schmidt2016using-e14]: Schmidt 2016，Requesting Materials Remotely。[证据](../../sources/notes/schmidt2016using.md#e14)
+[^schmidt2016using-e15]: Schmidt 2016，Planning to Visit an Archives。[证据](../../sources/notes/schmidt2016using.md#e15)
+[^schmidt2016using-e16]: Schmidt 2016，Planning to Visit an Archives。[证据](../../sources/notes/schmidt2016using.md#e16)
+[^schmidt2016using-e17]: Schmidt 2016，Planning to Visit an Archives。[证据](../../sources/notes/schmidt2016using.md#e17)
+[^schmidt2016using-e18]: Schmidt 2016，Planning to Visit an Archives。[证据](../../sources/notes/schmidt2016using.md#e18)
+[^schmidt2016using-e19]: Schmidt 2016，Planning to Visit an Archives。[证据](../../sources/notes/schmidt2016using.md#e19)
+[^schmidt2016using-e20]: Schmidt 2016，Typical Usage Guidelines。[证据](../../sources/notes/schmidt2016using.md#e20)
+[^schmidt2016using-e21]: Schmidt 2016，Typical Usage Guidelines。[证据](../../sources/notes/schmidt2016using.md#e21)
+[^schmidt2016using-e22]: Schmidt 2016，Typical Usage Guidelines。[证据](../../sources/notes/schmidt2016using.md#e22)
+[^schmidt2016using-e23]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../sources/notes/schmidt2016using.md#e23)
+[^schmidt2016using-e24]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../sources/notes/schmidt2016using.md#e24)
+[^schmidt2016using-e25]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../sources/notes/schmidt2016using.md#e25)
+[^schmidt2016using-e26]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../sources/notes/schmidt2016using.md#e26)
+[^schmidt2016using-e27]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../sources/notes/schmidt2016using.md#e27)
+[^schmidt2016using-e28]: Schmidt 2016，Notes on Copyright, Restrictions, and Unprocessed Collections。[证据](../../sources/notes/schmidt2016using.md#e28)
+[^schmidt2016using-e29]: Schmidt 2016，Visiting an Archives。[证据](../../sources/notes/schmidt2016using.md#e29)
+[^schmidt2016using-e30]: Schmidt 2016，Visiting an Archives。[证据](../../sources/notes/schmidt2016using.md#e30)
+[^schmidt2016using-e31]: Schmidt 2016，Visiting an Archives。[证据](../../sources/notes/schmidt2016using.md#e31)
+[^schmidt2016using-e32]: Schmidt 2016，Visiting an Archives。[证据](../../sources/notes/schmidt2016using.md#e32)
+[^schmidt2016using-e33]: Schmidt 2016，附录：带注释的检索指南样例。[证据](../../sources/notes/schmidt2016using.md#e33)
+[^schmidt2016using-e34]: Schmidt 2016，附录：带注释的检索指南样例。[证据](../../sources/notes/schmidt2016using.md#e34)
+[^schmidt2016using-e35]: Schmidt 2016，Typical Usage Guidelines，Request forms。[证据](../../sources/notes/schmidt2016using.md#e35)
+[^tnastarthere-e1]: 英国国家档案馆，What are archives?。[证据](../../sources/notes/tnastarthere.md#e1)
+[^tnastarthere-e2]: 英国国家档案馆，How to use archives。[证据](../../sources/notes/tnastarthere.md#e2)
+[^tnastarthere-e4]: 英国国家档案馆，What's online。[证据](../../sources/notes/tnastarthere.md#e4)
+[^tnastarthere-e5]: 英国国家档案馆，What's online。[证据](../../sources/notes/tnastarthere.md#e5)
+[^tnastarthere-e7]: 英国国家档案馆，What's not online。[证据](../../sources/notes/tnastarthere.md#e7)
+[^tnastarthere-e8]: 英国国家档案馆，What's not online。[证据](../../sources/notes/tnastarthere.md#e8)
+[^naragettingstarted-e1]: 美国国家档案与记录管理局，Getting Started Overview。[证据](../../sources/notes/naragettingstarted.md#e1)
+[^cronon2009learning-e29]: Cronon 等 2009，Manuscripts，How to Find Manuscript Collections。[证据](../../sources/notes/cronon2009learning.md#e29)
+[^cronon2009learning-e30]: Cronon 等 2009，Manuscripts，How to Find Manuscript Collections。[证据](../../sources/notes/cronon2009learning.md#e30)
+[^cronon2009learning-e31]: Cronon 等 2009，Manuscripts，How to Find Manuscript Collections。[证据](../../sources/notes/cronon2009learning.md#e31)
+[^cronon2009learning-e32]: Cronon 等 2009，Manuscripts，Navigating the Reading Room。[证据](../../sources/notes/cronon2009learning.md#e32)
+[^cronon2009learning-e33]: Cronon 等 2009，Manuscripts，Navigating the Reading Room。[证据](../../sources/notes/cronon2009learning.md#e33)
+[^cronon2009learning-e34]: Cronon 等 2009，Manuscripts，Ask Your Research Question and Lots of Others。[证据](../../sources/notes/cronon2009learning.md#e34)
+[^cronon2009learning-e35]: Cronon 等 2009，Manuscripts，Ask Your Research Question and Lots of Others。[证据](../../sources/notes/cronon2009learning.md#e35)
+[^cronon2009learning-e36]: Cronon 等 2009，Manuscripts，Little Things Are Big。[证据](../../sources/notes/cronon2009learning.md#e36)
+[^cronon2009learning-e37]: Cronon 等 2009，Manuscripts，Little Things Are Big。[证据](../../sources/notes/cronon2009learning.md#e37)
+[^cronon2009learning-e38]: Cronon 等 2009，Manuscripts，Little Things Are Big。[证据](../../sources/notes/cronon2009learning.md#e38)
+[^cronon2009learning-e39]: Cronon 等 2009，Manuscripts，Sniff Out Paper Trails。[证据](../../sources/notes/cronon2009learning.md#e39)
+[^cronon2009learning-e40]: Cronon 等 2009，Manuscripts，Sniff Out Paper Trails。[证据](../../sources/notes/cronon2009learning.md#e40)
+[^cronon2009learning-e41]: Cronon 等 2009，Manuscripts，Dos and Don'ts。[证据](../../sources/notes/cronon2009learning.md#e41)
+[^cronon2009learning-e42]: Cronon 等 2009，Manuscripts，Dos and Don'ts。[证据](../../sources/notes/cronon2009learning.md#e42)
+[^cronon2009learning-e43]: Cronon 等 2009，Manuscripts，Think Like A Narrator。[证据](../../sources/notes/cronon2009learning.md#e43)
+[^cronon2009learning-e44]: Cronon 等 2009，Manuscripts，Think Like A Narrator。[证据](../../sources/notes/cronon2009learning.md#e44)
+[^cronon2009learning-e45]: Cronon 等 2009，Manuscripts，Dos and Don'ts。[证据](../../sources/notes/cronon2009learning.md#e45)
+[^rutner2012supporting-e19]: Rutner & Schonfeld 2012，第 8 页。[证据](../../sources/notes/rutner2012supporting.md#e19)
+[^rutner2012supporting-e12]: Rutner & Schonfeld 2012，第 11 页。[证据](../../sources/notes/rutner2012supporting.md#e12)
+[^rutner2012supporting-e13]: Rutner & Schonfeld 2012，第 10 页。[证据](../../sources/notes/rutner2012supporting.md#e13)
+[^rutner2012supporting-e15]: Rutner & Schonfeld 2012，第 13 页。[证据](../../sources/notes/rutner2012supporting.md#e15)
+[^rutner2012supporting-e16]: Rutner & Schonfeld 2012，第 16 页。[证据](../../sources/notes/rutner2012supporting.md#e16)
+[^rutner2012supporting-e17]: Rutner & Schonfeld 2012，第 19 页。[证据](../../sources/notes/rutner2012supporting.md#e17)
+[^rutner2012supporting-e18]: Rutner & Schonfeld 2012，第 17 页。[证据](../../sources/notes/rutner2012supporting.md#e18)
+[^aha2023standards-e21]: AHA 职业行为准则（2023 修订），§3。[证据](../../sources/notes/aha2023standards.md#e21)
+[^aha2023standards-e22]: AHA 职业行为准则，§2。[证据](../../sources/notes/aha2023standards.md#e22)
+[^aha2023standards-e23]: AHA 职业行为准则，§2。[证据](../../sources/notes/aha2023standards.md#e23)
+[^aha2023standards-e24]: AHA 职业行为准则，§2。[证据](../../sources/notes/aha2023standards.md#e24)
+[^aha2023standards-e25]: AHA 职业行为准则，§3。[证据](../../sources/notes/aha2023standards.md#e25)
+[^aha2023standards-e11]: AHA 职业行为准则，§4。[证据](../../sources/notes/aha2023standards.md#e11)
+[^aha2023standards-e26]: AHA 职业行为准则，§3。[证据](../../sources/notes/aha2023standards.md#e26)
+[^aha2023standards-e14]: AHA 职业行为准则，§2。[证据](../../sources/notes/aha2023standards.md#e14)
+[^aha2023standards-e15]: AHA 职业行为准则，§3。[证据](../../sources/notes/aha2023standards.md#e15)
+[^aha2023standards-e10]: AHA 职业行为准则，§3。[证据](../../sources/notes/aha2023standards.md#e10)
+[^aha2023standards-e8]: AHA 职业行为准则，§3。[证据](../../sources/notes/aha2023standards.md#e8)
+[^chicago2024citation-e3]: 《芝加哥格式手册》官网引用速查页。[证据](../../sources/notes/chicago2024citation.md#e3)
+[^chicago2024citation-e5]: 《芝加哥格式手册》官网引用速查页。[证据](../../sources/notes/chicago2024citation.md#e5)
+[^ralph2020empirical-e414]: ACM SIGSOFT 实证研究标准，Case Study and Ethnography。[证据](../../sources/notes/ralph2020empirical.md#e414)
+[^wohlin2021case-e3]: Wohlin 2021，§4 Results。[证据](../../sources/notes/wohlin2021case.md#e3)

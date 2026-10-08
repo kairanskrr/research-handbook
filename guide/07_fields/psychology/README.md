@@ -141,9 +141,9 @@ Henrich 等人指出，行为科学家常常只用来自"西方、受过教育�
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[量表编制与测量研究](research-types/scale_development.md)。
+**本领域的研究类型文档**：[量表编制与测量研究](../../06_methods/scale_development.md)。
 
-**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../health-sciences/research-types/meta_analysis.md)。
+**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)。
 
 心理学的很多方法和研究方法里涉及人的那几种相通，可以先读对应文档，再注意下表的差异 `[本项目分析]`：
 

@@ -128,9 +128,9 @@ Malekzadeh 等人的指南按研究阶段列出一系列问题，可以在提交
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[空间分析研究](research-types/spatial_analysis.md)。
+**本领域的研究类型文档**：[空间分析研究](practices/spatial_analysis.md)。
 
-**相关学科的研究类型文档**：[野外观测研究](../earth-environmental-sciences/research-types/field_study.md)。
+**相关学科的研究类型文档**：[野外观测研究](../../06_methods/field_study.md)。
 
 下面的对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注。
 

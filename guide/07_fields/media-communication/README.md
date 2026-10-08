@@ -137,7 +137,7 @@ Lombard、Snyder-Duch 和 Bracken 在网上公开了一份信度指南（2010 �
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[量表编制与测量研究](../psychology/research-types/scale_development.md)。
+**相关学科的研究类型文档**：[量表编制与测量研究](../../06_methods/scale_development.md)。
 
 传播学的很多方法和研究方法和计算机篇的实践里已有的文档相通，可以先读对应文档，再注意下表的差异 `[本项目分析]`：
 

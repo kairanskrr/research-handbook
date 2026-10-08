@@ -136,9 +136,9 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[哲学论证研究](research-types/philosophical_argument.md)。
+**本领域的研究类型文档**：[哲学论证研究](practices/philosophical_argument.md)。
 
-**相关学科的研究类型文档**：[规范法学研究](../law/research-types/doctrinal_research.md)。
+**相关学科的研究类型文档**：[规范法学研究](../law/practices/doctrinal_research.md)。
 
 本领域还没有专门的研究类型文档。下面的分类为本项目归纳 `[本项目分析]`，能借用研究方法或计算机篇实践文档的，给出链接和差异：
 

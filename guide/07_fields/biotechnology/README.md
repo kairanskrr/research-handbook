@@ -147,7 +147,7 @@ WHO 给科研人员的清单，开工前就要问[^who2022responsible-e6]：成�
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[实验台实验（湿实验）](../biological-sciences/research-types/bench_experiment.md)。
+**相关学科的研究类型文档**：[实验台实验（湿实验）](../../06_methods/bench_experiment.md)。
 
 下面的分组和"相通"的判断为本项目分析 `[本项目分析]`。
 

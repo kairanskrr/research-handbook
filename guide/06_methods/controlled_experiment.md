@@ -6,7 +6,7 @@
 
 如果被比较的是软件系统、工具或模型本身，可以自动运行、重复测量，不需要人参与，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你提出了一个新工具，想知道整篇论文该怎样评估它，先看[工程研究](../07_fields/computer-science/practices/engineering_research.md)，有人参与的实验只是其中一种评估方式。统计检验的一般讲法见[分析与解读](../03_conduct-and-analyze/02_analyze-and-interpret.md)，效度见[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)，本文不重复。
 
-**适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准、Ko 等人关于软件工具实验的指南，以及软件工程里关于学生与专业人员、抽样的讨论。其他学科做对照实验时，先看本学科的规范。可以对照的其他学科方法篇：医学干预的[随机对照试验](../07_fields/clinical-medicine/research-types/randomized_controlled_trial.md)，在真实世界里和政府、企业合作随机分组的[田野实验](../07_fields/economics/research-types/field_experiment.md)。
+**适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准、Ko 等人关于软件工具实验的指南，以及软件工程里关于学生与专业人员、抽样的讨论。其他学科做对照实验时，先看本学科的规范。可以对照的其他学科方法篇：医学干预的[随机对照试验](randomized_controlled_trial.md)，在真实世界里和政府、企业合作随机分组的[田野实验](field_experiment.md)。
 
 **常服务的套路**：[解释因果](../05_research-strategies/explain_causality.md)、[比较评估](../05_research-strategies/compare_evaluate.md)、[构建改进](../05_research-strategies/build_improve.md)。
 

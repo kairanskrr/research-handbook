@@ -146,7 +146,7 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[随机对照试验](../clinical-medicine/research-types/randomized_controlled_trial.md)、[临床前动物研究](../basic-medicine/research-types/preclinical_animal_study.md)。
+**相关学科的研究类型文档**：[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)。
 
 本领域的方法有不少在研究方法和计算机篇的实践里有对应文档，可以直接参考。下面只写额外要注意的地方：
 

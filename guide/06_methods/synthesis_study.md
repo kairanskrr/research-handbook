@@ -4,7 +4,7 @@
 
 本文讲怎样做好一项合成研究：设计路线，动手前评估危害，做反应、记录条件，后处理和纯化，表征产物，报告产率和底物范围，最后写出别人能照着做的实验部分。例子以有机合成为主，因为本文找到的具体规范多出自这个方向 `[本项目分析]`。
 
-安全事故案例、新化合物的表征要求、谱图不能修、《Organic Syntheses》的独立核查和数据公开，[化学领域概况](../README.md)已经讲过，本文只在用到时加链接。做纳米材料、薄膜、器件的，见[材料工程篇](../../materials-engineering/README.md#一个循环制备表征测性能)；放大到更大规模的问题见[化学工程篇](../../chemical-engineering/README.md#实验室结果离工业还有多远放大)。本文引用的期刊规定和社论只代表各自的期刊：美国化学会《有机化学杂志》（The Journal of Organic Chemistry，下文简称 JOC）和《Organic Syntheses》的作者须知，以及《Organic Letters》主编的社论。投稿前要读目标期刊自己的作者须知 `[本项目分析]`。
+安全事故案例、新化合物的表征要求、谱图不能修、《Organic Syntheses》的独立核查和数据公开，[化学领域概况](../07_fields/chemistry/README.md)已经讲过，本文只在用到时加链接。做纳米材料、薄膜、器件的，见[材料工程篇](../07_fields/materials-engineering/README.md#一个循环制备表征测性能)；放大到更大规模的问题见[化学工程篇](../07_fields/chemical-engineering/README.md#实验室结果离工业还有多远放大)。本文引用的期刊规定和社论只代表各自的期刊：美国化学会《有机化学杂志》（The Journal of Organic Chemistry，下文简称 JOC）和《Organic Syntheses》的作者须知，以及《Organic Letters》主编的社论。投稿前要读目标期刊自己的作者须知 `[本项目分析]`。
 
 **读完本文，你应该能：**
 
@@ -25,7 +25,7 @@
 | 核心证据 | 底物范围表、条件优化、可重复的通用步骤 | 每一步的步骤、产率和表征 | 结构证据和纯度 |
 | 最容易出问题的地方 | 底物挑得太"好"、失败的例子不报 | 中间体表征不全、产率算错 | 纯度不够，影响后续测量 |
 
-这张表是本文的归纳 `[本项目分析]`。期刊对"新"有要求。以 JOC 为例：它期待合成方法和全合成论文在策略、转化或路线上有概念上的新意，不只是把已有反应换一类底物、试剂或催化剂再做一遍[^acsjocguidelines-e30]。化合物要拿去做物理测量或生物测试的，JOC 要求证明纯度至少 95%[^acsjocguidelines-e4]。研究反应速率、机理或做计算的，不在本文范围，见[化学领域概况](../README.md#先分清自己做的是哪一类化学)。
+这张表是本文的归纳 `[本项目分析]`。期刊对"新"有要求。以 JOC 为例：它期待合成方法和全合成论文在策略、转化或路线上有概念上的新意，不只是把已有反应换一类底物、试剂或催化剂再做一遍[^acsjocguidelines-e30]。化合物要拿去做物理测量或生物测试的，JOC 要求证明纯度至少 95%[^acsjocguidelines-e4]。研究反应速率、机理或做计算的，不在本文范围，见[化学领域概况](../07_fields/chemistry/README.md#先分清自己做的是哪一类化学)。
 
 ## 2. 怎么做
 
@@ -39,11 +39,11 @@
 
 **为什么。** 前人的步骤能告诉你哪里会出问题。重做一个已知反应，常常比从头摸索快 `[本项目分析]`。
 
-**容易错在哪里。** 只查"能不能做"，不查"做的时候出过什么事" `[本项目分析]`。查文献的一般方法见主线章节[进入领域、探索文献](../../../01_from-interest-to-project/01_enter-a-field.md#3-顺着引用找出核心论文关键的人和发表处)；逆合成的具体技巧本文资料未涉及，请看有机合成教材或问导师。
+**容易错在哪里。** 只查"能不能做"，不查"做的时候出过什么事" `[本项目分析]`。查文献的一般方法见主线章节[进入领域、探索文献](../01_from-interest-to-project/01_enter-a-field.md#3-顺着引用找出核心论文关键的人和发表处)；逆合成的具体技巧本文资料未涉及，请看有机合成教材或问导师。
 
 ### 第 2 步：每个新反应、每次放大前，先做危害评估
 
-为什么要评估、用什么工具、哪些变化需要重新评估，见[化学领域概况的安全一节](../README.md#实验安全是研究的一部分不是额外的手续)。这里只强调一点：**按计划的规模评估。** 《Organic Syntheses》要求，每个反应前都针对计划的规模和所在的实验室，对每种化学品和每步操作做危害分析和风险评估[^orgsyninstructions-e13]。小量做过没事，不代表放大后也没事 `[本项目分析]`。2010 年得克萨斯理工大学的爆炸事故里，学生就是假定少量时管用的防护办法，量大时也同样管用[^csb2011texastech-e3]。
+为什么要评估、用什么工具、哪些变化需要重新评估，见[化学领域概况的安全一节](../07_fields/chemistry/README.md#实验安全是研究的一部分不是额外的手续)。这里只强调一点：**按计划的规模评估。** 《Organic Syntheses》要求，每个反应前都针对计划的规模和所在的实验室，对每种化学品和每步操作做危害分析和风险评估[^orgsyninstructions-e13]。小量做过没事，不代表放大后也没事 `[本项目分析]`。2010 年得克萨斯理工大学的爆炸事故里，学生就是假定少量时管用的防护办法，量大时也同样管用[^csb2011texastech-e3]。
 
 ### 第 3 步：做反应，边做边看
 
@@ -63,7 +63,7 @@
 
 **怎么做。**
 
-1. **记全变量。** 每次实验至少记：各物料的用量（质量和物质的量）和当量（equivalent，equiv，某试剂的物质的量是限量反应物的几倍）、浓度、温度、时间、加料顺序、试剂来源、批号和纯度 `[本项目分析]`。记录本的一般规矩见[化学领域概况](../README.md#实验记录本写给事后核查的人看)。
+1. **记全变量。** 每次实验至少记：各物料的用量（质量和物质的量）和当量（equivalent，equiv，某试剂的物质的量是限量反应物的几倍）、浓度、温度、时间、加料顺序、试剂来源、批号和纯度 `[本项目分析]`。记录本的一般规矩见[化学领域概况](../07_fields/chemistry/README.md#实验记录本写给事后核查的人看)。
 2. **一次只改一个条件。** 灵敏度筛查（sensitivity screen）是德国明斯特大学 Glorius 课题组为解决"重复不出来"的问题提出的办法[^schafer2024sensitivity-e9]：一次只把一个条件往高、往低两个方向改，其余不变，看产率怎么变，就知道排查时该先查哪个条件[^schafer2024sensitivity-e2]。改动幅度要够大：该组在 2024 年的文章里承认，原先建议的浓度变化 ±10% 常常不够，并说很多课题组已改用至少 ±50%[^schafer2024sensitivity-e6]。
 3. **需要更全面时，用实验设计方法。** 实验设计（Design of Experiments，DoE，按统计方案同时改几个条件）最能看清反应对条件有多敏感，但可能最费时费钱[^schafer2024sensitivity-e8]；作者把灵敏度筛查定位为初步工具，深入评估还要靠实验设计等方法[^schafer2024sensitivity-e7]。
 4. **用量要有理由。** 试剂明显过量（例如超过 1.5 当量）时，《Organic Syntheses》要求说明为什么要过量，最好说明少用会怎样[^orgsyninstructions-e20]。
@@ -84,7 +84,7 @@
 
 ### 第 6 步：表征：证明"是什么"和"有多纯"
 
-JOC 的基本要求（氢谱、碳谱，加高分辨质谱或元素分析；熔点和高分辨质谱都不能证明纯度）和"谱图不能修"，见[化学领域概况](../README.md#新化合物证明是什么和有多纯)[^acsjocguidelines-e3][^acsjocguidelines-e5]。规划表征时，再注意三点：
+JOC 的基本要求（氢谱、碳谱，加高分辨质谱或元素分析；熔点和高分辨质谱都不能证明纯度）和"谱图不能修"，见[化学领域概况](../07_fields/chemistry/README.md#新化合物证明是什么和有多纯)[^acsjocguidelines-e3][^acsjocguidelines-e5]。规划表征时，再注意三点：
 
 1. **先想清楚每个化合物要证明什么。** 新化合物要证明结构和纯度；按 JOC 的要求，已知化合物用新方法或改进的方法做出来的，也要给纯度证据[^acsjocguidelines-e19]。
 2. **关键节点数据要全。** 合成路线上的分叉点、汇合点和最后的新化合物，JOC 要求必须有元素分析或高分辨质谱数据[^acsjocguidelines-e20]。
@@ -92,7 +92,7 @@ JOC 的基本要求（氢谱、碳谱，加高分辨质谱或元素分析；熔�
 
 ### 第 7 步：如实报告产率
 
-**怎么做。** 产率要报分离纯化后称重的结果（JOC 的要求）[^acsjocguidelines-e9]，产率高得不现实的提醒见[化学领域概况](../README.md#新化合物证明是什么和有多纯)。这里补三点：
+**怎么做。** 产率要报分离纯化后称重的结果（JOC 的要求）[^acsjocguidelines-e9]，产率高得不现实的提醒见[化学领域概况](../07_fields/chemistry/README.md#新化合物证明是什么和有多纯)。这里补三点：
 
 - **转化率要标明。** 转化率指原料变成产物的比例，是用色谱或波谱测的，不是称出来的。JOC 要求表格里用转化率时，在列标题或脚注写明是哪种量，并给出几个代表性例子的分离产率[^acsjocguidelines-e25]。
 - **规模不同要写清。** 各例子规模不同时，JOC 要求每个产物都写出限量反应物的质量和物质的量[^acsjocguidelines-e24]。
@@ -131,7 +131,7 @@ JOC 的基本要求（氢谱、碳谱，加高分辨质谱或元素分析；熔�
 - [ ] 加热反应写温度和热源（油浴、加热套等）[^acsjocguidelines-e28]
 - [ ] 指出工作中意外的、新的或重大的危险[^acsjocguidelines-e16]
 - [ ] 第 3、5 步记下的加料、温度、监测、后处理和纯化细节都写进去（《Organic Syntheses》）[^orgsyninstructions-e15][^orgsyninstructions-e18]
-- [ ] 产率按第 7 步的要求报告（JOC）[^acsjocguidelines-e9]；数据格式上，美国化学会鼓励提供机器可读的数据[^acsdatapolicy-e5]，见[化学领域概况](../README.md#数据支持信息原始数据与-fair)
+- [ ] 产率按第 7 步的要求报告（JOC）[^acsjocguidelines-e9]；数据格式上，美国化学会鼓励提供机器可读的数据[^acsdatapolicy-e5]，见[化学领域概况](../07_fields/chemistry/README.md#数据支持信息原始数据与-fair)
 - [ ] 投稿前做一次内部核查：《Organic Syntheses》要求每个反应按所写规模至少做两次，并建议请一位没参与的同事来做[^orgsyninstructions-e6]；Bergman 和 Danheiser 也建议请不熟悉这个方向的同事只看支持信息重复一个代表性例子[^bergman2016reproducibility-e8]
 
 > **不同的看法：试剂来源要不要写？**
@@ -196,79 +196,79 @@ JOC 的基本要求（氢谱、碳谱，加高分辨质谱或元素分析；熔�
 - **Schäfer、Lückemeier 和 Glorius 2024（Chemical Science，开放获取）**：介绍灵敏度筛查的做法，适合优化条件和排查重复不出来的问题时读。
 - **Schuurmans 等人 2026（ACS Central Science，开放获取）**：讲搅拌和加料怎样影响结果和安全。
 
-[^acsjocguidelines-e19]: JOC 作者须知，Compound Characterization Data。[证据](../../../../sources/notes/acsjocguidelines.md#e19)
-[^acsjocguidelines-e20]: JOC 作者须知，Compound Characterization Data。[证据](../../../../sources/notes/acsjocguidelines.md#e20)
-[^acsjocguidelines-e21]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e21)
-[^acsjocguidelines-e22]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e22)
-[^acsjocguidelines-e9]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e9)
-[^acsjocguidelines-e23]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e23)
-[^acsjocguidelines-e24]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e24)
-[^acsjocguidelines-e25]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e25)
-[^acsjocguidelines-e26]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e26)
-[^acsjocguidelines-e27]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e27)
-[^acsjocguidelines-e28]: JOC 作者须知，Synthesis Experiments。[证据](../../../../sources/notes/acsjocguidelines.md#e28)
-[^acsjocguidelines-e29]: JOC 作者须知，General Experimental Methods。[证据](../../../../sources/notes/acsjocguidelines.md#e29)
-[^acsjocguidelines-e30]: JOC 作者须知，Scope of the Journal (a)。[证据](../../../../sources/notes/acsjocguidelines.md#e30)
-[^acsjocguidelines-e4]: JOC 作者须知，Purity。[证据](../../../../sources/notes/acsjocguidelines.md#e4)
-[^acsjocguidelines-e31]: JOC 作者须知，Experimental Section。[证据](../../../../sources/notes/acsjocguidelines.md#e31)
-[^acsjocguidelines-e3]: JOC 作者须知，NMR。[证据](../../../../sources/notes/acsjocguidelines.md#e3)
-[^acsjocguidelines-e5]: JOC 作者须知，Purity。[证据](../../../../sources/notes/acsjocguidelines.md#e5)
-[^acsjocguidelines-e16]: JOC 作者须知，Emphasis on Chemical Safety。[证据](../../../../sources/notes/acsjocguidelines.md#e16)
-[^orgsyninstructions-e15]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../../../sources/notes/orgsyninstructions.md#e15)
-[^orgsyninstructions-e16]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../../../sources/notes/orgsyninstructions.md#e16)
-[^orgsyninstructions-e17]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../../../sources/notes/orgsyninstructions.md#e17)
-[^orgsyninstructions-e11]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../../../sources/notes/orgsyninstructions.md#e11)
-[^orgsyninstructions-e18]: Organic Syntheses 作者须知，Reaction Workup。[证据](../../../../sources/notes/orgsyninstructions.md#e18)
-[^orgsyninstructions-e19]: Organic Syntheses 作者须知，Reagents（有效数字和浓度）。[证据](../../../../sources/notes/orgsyninstructions.md#e19)
-[^orgsyninstructions-e20]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../../../sources/notes/orgsyninstructions.md#e20)
-[^orgsyninstructions-e8]: Organic Syntheses 作者须知，Common Omissions。[证据](../../../../sources/notes/orgsyninstructions.md#e8)
-[^orgsyninstructions-e12]: Organic Syntheses 作者须知，Common Omissions。[证据](../../../../sources/notes/orgsyninstructions.md#e12)
-[^orgsyninstructions-e21]: Organic Syntheses 作者须知，Characterization。[证据](../../../../sources/notes/orgsyninstructions.md#e21)
-[^orgsyninstructions-e22]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../../../sources/notes/orgsyninstructions.md#e22)
-[^orgsyninstructions-e7]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../../../sources/notes/orgsyninstructions.md#e7)
-[^orgsyninstructions-e23]: Organic Syntheses 作者须知，Common Omissions。[证据](../../../../sources/notes/orgsyninstructions.md#e23)
-[^orgsyninstructions-e24]: Organic Syntheses 作者须知，Discussion Section。[证据](../../../../sources/notes/orgsyninstructions.md#e24)
-[^orgsyninstructions-e13]: Organic Syntheses 作者须知，Safety（Note 1）。[证据](../../../../sources/notes/orgsyninstructions.md#e13)
-[^orgsyninstructions-e25]: Organic Syntheses 作者须知，Common Omissions。[证据](../../../../sources/notes/orgsyninstructions.md#e25)
-[^orgsyninstructions-e14]: Organic Syntheses 作者须知，Common Omissions。[证据](../../../../sources/notes/orgsyninstructions.md#e14)
-[^orgsyninstructions-e6]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../../../sources/notes/orgsyninstructions.md#e6)
-[^acs2015identifying-e10]: ACS 2015，9.4 Job Hazard Analysis。[证据](../../../../sources/notes/acs2015identifying.md#e10)
-[^csb2011texastech-e3]: CSB 2011，4.0 Incident Description。[证据](../../../../sources/notes/csb2011texastech.md#e3)
-[^bergman2016reproducibility-e4]: Bergman & Danheiser 2016，Sources of Irreproducibility。[证据](../../../../sources/notes/bergman2016reproducibility.md#e4)
-[^bergman2016reproducibility-e8]: Bergman & Danheiser 2016，Recommendations。[证据](../../../../sources/notes/bergman2016reproducibility.md#e8)
-[^acsdatapolicy-e5]: ACS 研究数据政策，Data Availability Statements。[证据](../../../../sources/notes/acsdatapolicy.md#e5)
-[^kabeshov2026retrosynthesis-e1]: Kabeshov 等人 2026，第 2 段。[证据](../../../../sources/notes/kabeshov2026retrosynthesis.md#e1)
-[^kabeshov2026retrosynthesis-e2]: Kabeshov 等人 2026，第 2 段。[证据](../../../../sources/notes/kabeshov2026retrosynthesis.md#e2)
-[^schafer2024sensitivity-e1]: Schäfer 等人 2024，Introduction。[证据](../../../../sources/notes/schafer2024sensitivity.md#e1)
-[^schafer2024sensitivity-e2]: Schäfer 等人 2024，Introduction。[证据](../../../../sources/notes/schafer2024sensitivity.md#e2)
-[^schafer2024sensitivity-e3]: Schäfer 等人 2024，General parameters。[证据](../../../../sources/notes/schafer2024sensitivity.md#e3)
-[^schafer2024sensitivity-e4]: Schäfer 等人 2024，General parameters。[证据](../../../../sources/notes/schafer2024sensitivity.md#e4)
-[^schafer2024sensitivity-e5]: Schäfer 等人 2024，Homogeneous catalysis and cross-coupling reactions。[证据](../../../../sources/notes/schafer2024sensitivity.md#e5)
-[^schafer2024sensitivity-e6]: Schäfer 等人 2024，Introduction。[证据](../../../../sources/notes/schafer2024sensitivity.md#e6)
-[^schafer2024sensitivity-e7]: Schäfer 等人 2024，Conclusion and outlook。[证据](../../../../sources/notes/schafer2024sensitivity.md#e7)
-[^schafer2024sensitivity-e8]: Schäfer 等人 2024，Introduction。[证据](../../../../sources/notes/schafer2024sensitivity.md#e8)
-[^schafer2024sensitivity-e9]: Schäfer 等人 2024，Introduction。[证据](../../../../sources/notes/schafer2024sensitivity.md#e9)
-[^schuurmans2026stirring-e1]: Schuurmans 等人 2026，搅拌与加料一节。[证据](../../../../sources/notes/schuurmans2026stirring.md#e1)
-[^schuurmans2026stirring-e2]: Schuurmans 等人 2026，搅拌与加料一节。[证据](../../../../sources/notes/schuurmans2026stirring.md#e2)
-[^schuurmans2026stirring-e3]: Schuurmans 等人 2026，搅拌与安全一节。[证据](../../../../sources/notes/schuurmans2026stirring.md#e3)
-[^schuurmans2026stirring-e4]: Schuurmans 等人 2026，磁力搅拌器位置一节。[证据](../../../../sources/notes/schuurmans2026stirring.md#e4)
-[^kozlowski2022substrate-e1]: Kozlowski 2022，开头。[证据](../../../../sources/notes/kozlowski2022substrate.md#e1)
-[^kozlowski2022substrate-e2]: Kozlowski 2022，开头。[证据](../../../../sources/notes/kozlowski2022substrate.md#e2)
-[^kozlowski2022substrate-e3]: Kozlowski 2022，开头。[证据](../../../../sources/notes/kozlowski2022substrate.md#e3)
-[^kozlowski2022substrate-e4]: Kozlowski 2022，Figure 2 说明段。[证据](../../../../sources/notes/kozlowski2022substrate.md#e4)
-[^kozlowski2022substrate-e5]: Kozlowski 2022，Figure 2 说明段。[证据](../../../../sources/notes/kozlowski2022substrate.md#e5)
-[^kozlowski2022substrate-e6]: Kozlowski 2022，Drug-like Structures or Not?。[证据](../../../../sources/notes/kozlowski2022substrate.md#e6)
-[^kozlowski2022substrate-e7]: Kozlowski 2022，Substrates That Do Not Work。[证据](../../../../sources/notes/kozlowski2022substrate.md#e7)
-[^kozlowski2022substrate-e8]: Kozlowski 2022，Substrates That Do Not Work。[证据](../../../../sources/notes/kozlowski2022substrate.md#e8)
-[^kozlowski2022substrate-e9]: Kozlowski 2022，Reviewers。[证据](../../../../sources/notes/kozlowski2022substrate.md#e9)
-[^kozlowski2022substrate-e10]: Kozlowski 2022，Reviewers。[证据](../../../../sources/notes/kozlowski2022substrate.md#e10)
-[^kozlowski2022substrate-e11]: Kozlowski 2022，Reasonable Substrate Scope Examples。[证据](../../../../sources/notes/kozlowski2022substrate.md#e11)
-[^kozlowski2022substrate-e12]: Kozlowski 2022，Reasonable Substrate Scope Examples。[证据](../../../../sources/notes/kozlowski2022substrate.md#e12)
-[^kozlowski2022substrate-e13]: Kozlowski 2022，Reasonable Substrate Scope Examples。[证据](../../../../sources/notes/kozlowski2022substrate.md#e13)
-[^kozlowski2022substrate-e14]: Kozlowski 2022，Substrates That Do Not Work。[证据](../../../../sources/notes/kozlowski2022substrate.md#e14)
-[^rana2024standardizing-e1]: Rana 等人 2024，Introduction。[证据](../../../../sources/notes/rana2024standardizing.md#e1)
-[^rana2024standardizing-e2]: Rana 等人 2024，Introduction。[证据](../../../../sources/notes/rana2024standardizing.md#e2)
-[^rana2024standardizing-e3]: Rana 等人 2024，Results and Discussion。[证据](../../../../sources/notes/rana2024standardizing.md#e3)
-[^rana2024standardizing-e4]: Rana 等人 2024，Results and Discussion。[证据](../../../../sources/notes/rana2024standardizing.md#e4)
-[^rana2024standardizing-e5]: Rana 等人 2024，Conclusions。[证据](../../../../sources/notes/rana2024standardizing.md#e5)
-[^rana2024standardizing-e6]: Rana 等人 2024，Introduction。[证据](../../../../sources/notes/rana2024standardizing.md#e6)
+[^acsjocguidelines-e19]: JOC 作者须知，Compound Characterization Data。[证据](../../sources/notes/acsjocguidelines.md#e19)
+[^acsjocguidelines-e20]: JOC 作者须知，Compound Characterization Data。[证据](../../sources/notes/acsjocguidelines.md#e20)
+[^acsjocguidelines-e21]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e21)
+[^acsjocguidelines-e22]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e22)
+[^acsjocguidelines-e9]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e9)
+[^acsjocguidelines-e23]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e23)
+[^acsjocguidelines-e24]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e24)
+[^acsjocguidelines-e25]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e25)
+[^acsjocguidelines-e26]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e26)
+[^acsjocguidelines-e27]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e27)
+[^acsjocguidelines-e28]: JOC 作者须知，Synthesis Experiments。[证据](../../sources/notes/acsjocguidelines.md#e28)
+[^acsjocguidelines-e29]: JOC 作者须知，General Experimental Methods。[证据](../../sources/notes/acsjocguidelines.md#e29)
+[^acsjocguidelines-e30]: JOC 作者须知，Scope of the Journal (a)。[证据](../../sources/notes/acsjocguidelines.md#e30)
+[^acsjocguidelines-e4]: JOC 作者须知，Purity。[证据](../../sources/notes/acsjocguidelines.md#e4)
+[^acsjocguidelines-e31]: JOC 作者须知，Experimental Section。[证据](../../sources/notes/acsjocguidelines.md#e31)
+[^acsjocguidelines-e3]: JOC 作者须知，NMR。[证据](../../sources/notes/acsjocguidelines.md#e3)
+[^acsjocguidelines-e5]: JOC 作者须知，Purity。[证据](../../sources/notes/acsjocguidelines.md#e5)
+[^acsjocguidelines-e16]: JOC 作者须知，Emphasis on Chemical Safety。[证据](../../sources/notes/acsjocguidelines.md#e16)
+[^orgsyninstructions-e15]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../sources/notes/orgsyninstructions.md#e15)
+[^orgsyninstructions-e16]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../sources/notes/orgsyninstructions.md#e16)
+[^orgsyninstructions-e17]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../sources/notes/orgsyninstructions.md#e17)
+[^orgsyninstructions-e11]: Organic Syntheses 作者须知，Reaction Procedure。[证据](../../sources/notes/orgsyninstructions.md#e11)
+[^orgsyninstructions-e18]: Organic Syntheses 作者须知，Reaction Workup。[证据](../../sources/notes/orgsyninstructions.md#e18)
+[^orgsyninstructions-e19]: Organic Syntheses 作者须知，Reagents（有效数字和浓度）。[证据](../../sources/notes/orgsyninstructions.md#e19)
+[^orgsyninstructions-e20]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../sources/notes/orgsyninstructions.md#e20)
+[^orgsyninstructions-e8]: Organic Syntheses 作者须知，Common Omissions。[证据](../../sources/notes/orgsyninstructions.md#e8)
+[^orgsyninstructions-e12]: Organic Syntheses 作者须知，Common Omissions。[证据](../../sources/notes/orgsyninstructions.md#e12)
+[^orgsyninstructions-e21]: Organic Syntheses 作者须知，Characterization。[证据](../../sources/notes/orgsyninstructions.md#e21)
+[^orgsyninstructions-e22]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../sources/notes/orgsyninstructions.md#e22)
+[^orgsyninstructions-e7]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../sources/notes/orgsyninstructions.md#e7)
+[^orgsyninstructions-e23]: Organic Syntheses 作者须知，Common Omissions。[证据](../../sources/notes/orgsyninstructions.md#e23)
+[^orgsyninstructions-e24]: Organic Syntheses 作者须知，Discussion Section。[证据](../../sources/notes/orgsyninstructions.md#e24)
+[^orgsyninstructions-e13]: Organic Syntheses 作者须知，Safety（Note 1）。[证据](../../sources/notes/orgsyninstructions.md#e13)
+[^orgsyninstructions-e25]: Organic Syntheses 作者须知，Common Omissions。[证据](../../sources/notes/orgsyninstructions.md#e25)
+[^orgsyninstructions-e14]: Organic Syntheses 作者须知，Common Omissions。[证据](../../sources/notes/orgsyninstructions.md#e14)
+[^orgsyninstructions-e6]: Organic Syntheses 作者须知，Scale / reproducibility。[证据](../../sources/notes/orgsyninstructions.md#e6)
+[^acs2015identifying-e10]: ACS 2015，9.4 Job Hazard Analysis。[证据](../../sources/notes/acs2015identifying.md#e10)
+[^csb2011texastech-e3]: CSB 2011，4.0 Incident Description。[证据](../../sources/notes/csb2011texastech.md#e3)
+[^bergman2016reproducibility-e4]: Bergman & Danheiser 2016，Sources of Irreproducibility。[证据](../../sources/notes/bergman2016reproducibility.md#e4)
+[^bergman2016reproducibility-e8]: Bergman & Danheiser 2016，Recommendations。[证据](../../sources/notes/bergman2016reproducibility.md#e8)
+[^acsdatapolicy-e5]: ACS 研究数据政策，Data Availability Statements。[证据](../../sources/notes/acsdatapolicy.md#e5)
+[^kabeshov2026retrosynthesis-e1]: Kabeshov 等人 2026，第 2 段。[证据](../../sources/notes/kabeshov2026retrosynthesis.md#e1)
+[^kabeshov2026retrosynthesis-e2]: Kabeshov 等人 2026，第 2 段。[证据](../../sources/notes/kabeshov2026retrosynthesis.md#e2)
+[^schafer2024sensitivity-e1]: Schäfer 等人 2024，Introduction。[证据](../../sources/notes/schafer2024sensitivity.md#e1)
+[^schafer2024sensitivity-e2]: Schäfer 等人 2024，Introduction。[证据](../../sources/notes/schafer2024sensitivity.md#e2)
+[^schafer2024sensitivity-e3]: Schäfer 等人 2024，General parameters。[证据](../../sources/notes/schafer2024sensitivity.md#e3)
+[^schafer2024sensitivity-e4]: Schäfer 等人 2024，General parameters。[证据](../../sources/notes/schafer2024sensitivity.md#e4)
+[^schafer2024sensitivity-e5]: Schäfer 等人 2024，Homogeneous catalysis and cross-coupling reactions。[证据](../../sources/notes/schafer2024sensitivity.md#e5)
+[^schafer2024sensitivity-e6]: Schäfer 等人 2024，Introduction。[证据](../../sources/notes/schafer2024sensitivity.md#e6)
+[^schafer2024sensitivity-e7]: Schäfer 等人 2024，Conclusion and outlook。[证据](../../sources/notes/schafer2024sensitivity.md#e7)
+[^schafer2024sensitivity-e8]: Schäfer 等人 2024，Introduction。[证据](../../sources/notes/schafer2024sensitivity.md#e8)
+[^schafer2024sensitivity-e9]: Schäfer 等人 2024，Introduction。[证据](../../sources/notes/schafer2024sensitivity.md#e9)
+[^schuurmans2026stirring-e1]: Schuurmans 等人 2026，搅拌与加料一节。[证据](../../sources/notes/schuurmans2026stirring.md#e1)
+[^schuurmans2026stirring-e2]: Schuurmans 等人 2026，搅拌与加料一节。[证据](../../sources/notes/schuurmans2026stirring.md#e2)
+[^schuurmans2026stirring-e3]: Schuurmans 等人 2026，搅拌与安全一节。[证据](../../sources/notes/schuurmans2026stirring.md#e3)
+[^schuurmans2026stirring-e4]: Schuurmans 等人 2026，磁力搅拌器位置一节。[证据](../../sources/notes/schuurmans2026stirring.md#e4)
+[^kozlowski2022substrate-e1]: Kozlowski 2022，开头。[证据](../../sources/notes/kozlowski2022substrate.md#e1)
+[^kozlowski2022substrate-e2]: Kozlowski 2022，开头。[证据](../../sources/notes/kozlowski2022substrate.md#e2)
+[^kozlowski2022substrate-e3]: Kozlowski 2022，开头。[证据](../../sources/notes/kozlowski2022substrate.md#e3)
+[^kozlowski2022substrate-e4]: Kozlowski 2022，Figure 2 说明段。[证据](../../sources/notes/kozlowski2022substrate.md#e4)
+[^kozlowski2022substrate-e5]: Kozlowski 2022，Figure 2 说明段。[证据](../../sources/notes/kozlowski2022substrate.md#e5)
+[^kozlowski2022substrate-e6]: Kozlowski 2022，Drug-like Structures or Not?。[证据](../../sources/notes/kozlowski2022substrate.md#e6)
+[^kozlowski2022substrate-e7]: Kozlowski 2022，Substrates That Do Not Work。[证据](../../sources/notes/kozlowski2022substrate.md#e7)
+[^kozlowski2022substrate-e8]: Kozlowski 2022，Substrates That Do Not Work。[证据](../../sources/notes/kozlowski2022substrate.md#e8)
+[^kozlowski2022substrate-e9]: Kozlowski 2022，Reviewers。[证据](../../sources/notes/kozlowski2022substrate.md#e9)
+[^kozlowski2022substrate-e10]: Kozlowski 2022，Reviewers。[证据](../../sources/notes/kozlowski2022substrate.md#e10)
+[^kozlowski2022substrate-e11]: Kozlowski 2022，Reasonable Substrate Scope Examples。[证据](../../sources/notes/kozlowski2022substrate.md#e11)
+[^kozlowski2022substrate-e12]: Kozlowski 2022，Reasonable Substrate Scope Examples。[证据](../../sources/notes/kozlowski2022substrate.md#e12)
+[^kozlowski2022substrate-e13]: Kozlowski 2022，Reasonable Substrate Scope Examples。[证据](../../sources/notes/kozlowski2022substrate.md#e13)
+[^kozlowski2022substrate-e14]: Kozlowski 2022，Substrates That Do Not Work。[证据](../../sources/notes/kozlowski2022substrate.md#e14)
+[^rana2024standardizing-e1]: Rana 等人 2024，Introduction。[证据](../../sources/notes/rana2024standardizing.md#e1)
+[^rana2024standardizing-e2]: Rana 等人 2024，Introduction。[证据](../../sources/notes/rana2024standardizing.md#e2)
+[^rana2024standardizing-e3]: Rana 等人 2024，Results and Discussion。[证据](../../sources/notes/rana2024standardizing.md#e3)
+[^rana2024standardizing-e4]: Rana 等人 2024，Results and Discussion。[证据](../../sources/notes/rana2024standardizing.md#e4)
+[^rana2024standardizing-e5]: Rana 等人 2024，Conclusions。[证据](../../sources/notes/rana2024standardizing.md#e5)
+[^rana2024standardizing-e6]: Rana 等人 2024，Introduction。[证据](../../sources/notes/rana2024standardizing.md#e6)

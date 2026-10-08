@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲怎样做一个口述历史项目：从定题、选受访者、签授权书、录音、访谈，到转录、存档，再到把访谈当证据用、引用和发表。口述历史的伦理原则（知情同意、受访者审阅、不承诺做不到的事）在[历史与考古领域概况](../README.md#口述历史受访者的同意和控制权)里已经讲过，这里不重复，只讲具体怎么做。
+本文讲怎样做一个口述历史项目：从定题、选受访者、签授权书、录音、访谈，到转录、存档，再到把访谈当证据用、引用和发表。口述历史的伦理原则（知情同意、受访者审阅、不承诺做不到的事）在[历史与考古领域概况](../07_fields/history-archaeology/README.md#口述历史受访者的同意和控制权)里已经讲过，这里不重复，只讲具体怎么做。
 
 本文资料主要有：美国口述历史协会（Oral History Association，OHA）2018 年和 2019 年的两份文件；美国贝勒大学口述历史研究所 2012 年的网上入门讲义（一所大学的教学材料，下称"贝勒讲义"）；英国口述历史学会（Oral History Society，OHS）的指南；Neuenschwander 2014 年谈美国法律的一篇论述；Shopes 2002 年的一篇入门文章。所以下面写的多是美国和英国这几家机构、几位作者的建议，不是全世界通行的规矩。**其他国家的法律、档案制度和伦理审查规定不同，以你所在国家和机构的规定为准** `[本项目分析]`。
 
@@ -22,7 +22,7 @@
 
 **什么时候用。** 先问两个问题：口述历史是不是获取这些信息的最好办法？有没有你能找到、而且能够也愿意告诉你的人[^baylor2012introduction-e5]？如果亲历者已经不在，或者问题完全可以靠档案回答，就不必勉强做 `[本项目分析]`。
 
-**和一般访谈研究的区别。** 访谈技巧（怎么提问、怎么转录、怎么编码）见研究方法里的[访谈研究](../../../06_methods/interview_study.md)，社会学里的深度访谈见[社会学领域概况](../../sociology/README.md)。最关键的区别（讲述进入公共记录、受访者不默认匿名）在[领域概况](../README.md#口述历史受访者的同意和控制权)里已经讲过。下表再补充几点：
+**和一般访谈研究的区别。** 访谈技巧（怎么提问、怎么转录、怎么编码）见研究方法里的[访谈研究](interview_study.md)，社会学里的深度访谈见[社会学领域概况](../07_fields/sociology/README.md)。最关键的区别（讲述进入公共记录、受访者不默认匿名）在[领域概况](../07_fields/history-archaeology/README.md#口述历史受访者的同意和控制权)里已经讲过。下表再补充几点：
 
 | | 口述历史 | 一般的定性访谈研究 |
 |---|---|---|
@@ -31,7 +31,7 @@
 | 保密的含义 | 英国 OHS 引用英国数据档案馆列的责任：对受访者要保密，但不一定匿名[^ohs2019legal-e3] | 通常同时要求保密和匿名 `[本项目分析]` |
 | 谁的版权 | OHA 伦理声明：受访者是原始录音的版权持有人，未经他正式授权不公开[^oha2018principles-e37] | 通常不涉及 `[本项目分析]` |
 
-所以，口述历史的录音本身就是一份**长久留存的史料**，而不只是你这一篇论文的原始数据 `[本项目分析]`。你可能是唯一记录这位受访者故事的人，所以贝勒讲义建议，也录下你眼前研究兴趣以外的回忆[^baylor2012introduction-e42]。做语言记录（为一种语言录音、建档）的人，也会面对类似的存档和社区问题，见[语言与文学领域概况](../../languages-literature/README.md#语言学田野调查和濒危语言)。
+所以，口述历史的录音本身就是一份**长久留存的史料**，而不只是你这一篇论文的原始数据 `[本项目分析]`。你可能是唯一记录这位受访者故事的人，所以贝勒讲义建议，也录下你眼前研究兴趣以外的回忆[^baylor2012introduction-e42]。做语言记录（为一种语言录音、建档）的人，也会面对类似的存档和社区问题，见[语言与文学领域概况](../07_fields/languages-literature/README.md#语言学田野调查和濒危语言)。
 
 ## 2. 怎么做
 
@@ -52,12 +52,12 @@
 
 ### 第三步：做背景研究，写提纲
 
-- **怎么做**：OHA 要求查一手和二手资料，熟悉受访者、题目和历史背景[^oha2018principles-e17]，并熟练使用要用的录音设备[^oha2018principles-e36]。查档的方法见[档案研究](archival_research.md)和领域概况的[在档案馆里工作](../README.md#在档案馆里工作)。OHA 建议准备一份开放式提纲，列出要谈的主题和大致的问题[^oha2018principles-e18]。贝勒讲义提醒，不要把问题一字一句写死：那样会妨碍坦率回答和追问细节，让本该开放的交流变得死板[^baylor2012introduction-e12]。
+- **怎么做**：OHA 要求查一手和二手资料，熟悉受访者、题目和历史背景[^oha2018principles-e17]，并熟练使用要用的录音设备[^oha2018principles-e36]。查档的方法见[档案研究](archival_research.md)和领域概况的[在档案馆里工作](../07_fields/history-archaeology/README.md#在档案馆里工作)。OHA 建议准备一份开放式提纲，列出要谈的主题和大致的问题[^oha2018principles-e18]。贝勒讲义提醒，不要把问题一字一句写死：那样会妨碍坦率回答和追问细节，让本该开放的交流变得死板[^baylor2012introduction-e12]。
 - **为什么**：贝勒讲义说，背景研究让你问出能引出故事的问题，也让你听得懂访谈中提到的人名地名[^baylor2012introduction-e8]。研究也不止在访谈前做：访谈之间做研究是为了澄清和核实，访谈之后做是为了检验准确性[^baylor2012introduction-e8]。
 
 ### 第四步：讲清楚，签好授权书
 
-知情同意的原则见[领域概况](../README.md#口述历史受访者的同意和控制权)。这里讲文件怎么准备。
+知情同意的原则见[领域概况](../07_fields/history-archaeology/README.md#口述历史受访者的同意和控制权)。这里讲文件怎么准备。
 
 - **分清两类文件。** 英国 OHS 用两份：访谈前签"参与协议"，访谈后签涵盖版权和查阅条件的"录音协议"[^ohs2019legal-e6]。OHA 也要求：双方对怎么进行达成一致后，开录前就把约定正式记下来[^oha2018principles-e27]；法律授权书（release form）最好在访谈结束时签[^oha2018principles-e25]。
 - **录音归谁。** 签之前先弄清：
@@ -82,7 +82,7 @@
 
 ### 第六步：访谈
 
-一般的访谈技巧见[访谈研究](../../../06_methods/interview_study.md)。口述历史的资料特别强调下面几点（第一条来自 OHA，其余来自贝勒讲义）：
+一般的访谈技巧见[访谈研究](interview_study.md)。口述历史的资料特别强调下面几点（第一条来自 OHA，其余来自贝勒讲义）：
 
 - **问开放式问题，再追问。** 请对方澄清、展开、反思[^oha2018principles-e22]，不满足于表面的回答；同时让受访者用自己的方式和语言谈他关心的事[^oha2018principles-e23]，必要时超出项目焦点[^oha2018principles-e24]。
 - **不诱导。** 带倾向的问题会暴露你的偏见。讲义的例子：不问"桑镇是不是个又穷又苦的地方？"，而问"说说你对自己长大的地方有什么感受"[^baylor2012introduction-e13]。一次只问一个问题[^baylor2012introduction-e14]。
@@ -116,7 +116,7 @@
 
 ### 第九步：备份、编元数据、存档
 
-- **马上备份。** OHA 的要求见[领域概况](../README.md#口述历史受访者的同意和控制权)：尽快导出原始录音，多做几份，分开存放[^oha2018principles-e11]。贝勒讲义补充：导出的是未剪辑的原始录音[^baylor2012introduction-e41]。OHA 2019 年的指南提醒，有备份不等于存了档[^oha2019archiving-e4]。
+- **马上备份。** OHA 的要求见[领域概况](../07_fields/history-archaeology/README.md#口述历史受访者的同意和控制权)：尽快导出原始录音，多做几份，分开存放[^oha2018principles-e11]。贝勒讲义补充：导出的是未剪辑的原始录音[^baylor2012introduction-e41]。OHA 2019 年的指南提醒，有备份不等于存了档[^oha2019archiving-e4]。
 - **统一命名。** OHA 2019 年的指南要求给每份访谈及其组成部分一个唯一编号或名称[^oha2019archiving-e13]；贝勒讲义要求文件和文件夹命名一致[^baylor2012introduction-e35]。
 - **编元数据**（metadata，描述这份录音的信息）。OHA 要求至少让后人知道访谈了谁、何时何地访谈[^oha2018principles-e29]。OHA 的存档指南把元数据分成五类：管理、描述、技术、保存、权利与查阅[^oha2019archiving-e2]。
 - **随录音交出的材料**：OHA 2019 年的指南列了受访者、访谈者和在场其他人签字的授权书[^oha2019archiving-e5]；贝勒讲义列了人名和术语的正确写法清单、对杂音和设备故障的说明、研究笔记、提纲和通信[^baylor2012introduction-e36]。
@@ -134,9 +134,9 @@
 
 ### 第十一步：引用、发表，留意法律风险
 
-- **引用。** 贝勒讲义说，口述历史通常算未出版的一手资料；引用要给足信息，让读者能找到原件存放的地方[^baylor2012introduction-e39]，例如写清受访者、访谈者、访谈日期和收藏机构 `[本项目分析]`。引用时忠于原意的要求见[领域概况](../README.md#口述历史受访者的同意和控制权)；OHA 也要求避免刻板印象和歪曲受访者的话[^oha2018principles-e38]。
+- **引用。** 贝勒讲义说，口述历史通常算未出版的一手资料；引用要给足信息，让读者能找到原件存放的地方[^baylor2012introduction-e39]，例如写清受访者、访谈者、访谈日期和收藏机构 `[本项目分析]`。引用时忠于原意的要求见[领域概况](../07_fields/history-archaeology/README.md#口述历史受访者的同意和控制权)；OHA 也要求避免刻板印象和歪曲受访者的话[^oha2018principles-e38]。
 - **发表和做公共作品**：贝勒讲义说，要有转让版权的签字授权书，并事先告诉受访者录音可能用于作品或出版[^baylor2012introduction-e40]。
-- **履行承诺**：美国历史学会（American Historical Association，AHA）的准则写明，对口述历史访谈作出的承诺必须遵守[^aha2023standards-e8]；公开访谈记录等其他要求见[领域概况](../README.md#历史学美国历史学会aha的职业行为准则)。
+- **履行承诺**：美国历史学会（American Historical Association，AHA）的准则写明，对口述历史访谈作出的承诺必须遵守[^aha2023standards-e8]；公开访谈记录等其他要求见[领域概况](../07_fields/history-archaeology/README.md#历史学美国历史学会aha的职业行为准则)。
 
 **法律风险（美国）。** 这一部分只讲美国法律，主要依据 Neuenschwander 2014 年的一篇论述（他著有 A Guide to Oral History and the Law），是一位作者的分析，不构成法律意见 `[本项目分析]`。他列出四个方面：授权协议、保护受限访谈、隐私侵权、版权[^neuenschwander2014legal-e1]。
 
@@ -197,125 +197,125 @@
 - **Neuenschwander，Major Legal Challenges Facing Oral History in the Digital Age（2014）**：一篇论述，讲美国的授权书、传票、诽谤和版权问题，含波士顿学院案。
 - **Shopes，Making Sense of Oral History（2002）**：一篇入门文章，讲怎样把访谈当证据读，讲记忆的可靠性和怎样对照核实。
 
-[^baylor2012introduction-e1]: 贝勒大学口述历史研究所 2012，Discovering oral history: What is it?。[证据](../../../../sources/notes/baylor2012introduction.md#e1)
-[^baylor2012introduction-e2]: 贝勒大学口述历史研究所 2012，Discovering oral history: What is it?。[证据](../../../../sources/notes/baylor2012introduction.md#e2)
-[^baylor2012introduction-e3]: 贝勒大学口述历史研究所 2012，Understanding oral history: Why do it?。[证据](../../../../sources/notes/baylor2012introduction.md#e3)
-[^baylor2012introduction-e4]: 贝勒大学口述历史研究所 2012，Discovering oral history: What is it?。[证据](../../../../sources/notes/baylor2012introduction.md#e4)
-[^baylor2012introduction-e5]: 贝勒大学口述历史研究所 2012，Planning a project。[证据](../../../../sources/notes/baylor2012introduction.md#e5)
-[^baylor2012introduction-e6]: 贝勒大学口述历史研究所 2012，Planning a project。[证据](../../../../sources/notes/baylor2012introduction.md#e6)
-[^baylor2012introduction-e7]: 贝勒大学口述历史研究所 2012，Focusing & researching a topic。[证据](../../../../sources/notes/baylor2012introduction.md#e7)
-[^baylor2012introduction-e8]: 贝勒大学口述历史研究所 2012，Focusing & researching a topic。[证据](../../../../sources/notes/baylor2012introduction.md#e8)
-[^baylor2012introduction-e9]: 贝勒大学口述历史研究所 2012，Selecting narrators。[证据](../../../../sources/notes/baylor2012introduction.md#e9)
-[^baylor2012introduction-e10]: 贝勒大学口述历史研究所 2012，Selecting narrators。[证据](../../../../sources/notes/baylor2012introduction.md#e10)
-[^baylor2012introduction-e11]: 贝勒大学口述历史研究所 2012，Selecting narrators。[证据](../../../../sources/notes/baylor2012introduction.md#e11)
-[^baylor2012introduction-e12]: 贝勒大学口述历史研究所 2012，Creating an interview outline。[证据](../../../../sources/notes/baylor2012introduction.md#e12)
-[^baylor2012introduction-e13]: 贝勒大学口述历史研究所 2012，Composing questions。[证据](../../../../sources/notes/baylor2012introduction.md#e13)
-[^baylor2012introduction-e14]: 贝勒大学口述历史研究所 2012，Composing questions。[证据](../../../../sources/notes/baylor2012introduction.md#e14)
-[^baylor2012introduction-e15]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e15)
-[^baylor2012introduction-e16]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e16)
-[^baylor2012introduction-e17]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e17)
-[^baylor2012introduction-e18]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e18)
-[^baylor2012introduction-e19]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e19)
-[^baylor2012introduction-e20]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e20)
-[^baylor2012introduction-e21]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../../../sources/notes/baylor2012introduction.md#e21)
-[^baylor2012introduction-e23]: 贝勒大学口述历史研究所 2012，Choosing digital recorders。[证据](../../../../sources/notes/baylor2012introduction.md#e23)
-[^baylor2012introduction-e24]: 贝勒大学口述历史研究所 2012，Choosing digital recorders。[证据](../../../../sources/notes/baylor2012introduction.md#e24)
-[^baylor2012introduction-e25]: 贝勒大学口述历史研究所 2012，Making contact & setting up。[证据](../../../../sources/notes/baylor2012introduction.md#e25)
-[^baylor2012introduction-e26]: 贝勒大学口述历史研究所 2012，Preparing legal documents。[证据](../../../../sources/notes/baylor2012introduction.md#e26)
-[^baylor2012introduction-e28]: 贝勒大学口述历史研究所 2012，Preparing legal documents。[证据](../../../../sources/notes/baylor2012introduction.md#e28)
-[^baylor2012introduction-e29]: 贝勒大学口述历史研究所 2012，Preparing legal documents。[证据](../../../../sources/notes/baylor2012introduction.md#e29)
-[^baylor2012introduction-e30]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e30)
-[^baylor2012introduction-e31]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e31)
-[^baylor2012introduction-e32]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e32)
-[^baylor2012introduction-e33]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e33)
-[^baylor2012introduction-e34]: 贝勒大学口述历史研究所 2012，Indexing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e34)
-[^baylor2012introduction-e35]: 贝勒大学口述历史研究所 2012，Protecting & preserving recordings。[证据](../../../../sources/notes/baylor2012introduction.md#e35)
-[^baylor2012introduction-e36]: 贝勒大学口述历史研究所 2012，Protecting & preserving recordings。[证据](../../../../sources/notes/baylor2012introduction.md#e36)
-[^baylor2012introduction-e38]: 贝勒大学口述历史研究所 2012，Critiquing & citing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e38)
-[^baylor2012introduction-e39]: 贝勒大学口述历史研究所 2012，Critiquing & citing oral histories。[证据](../../../../sources/notes/baylor2012introduction.md#e39)
-[^baylor2012introduction-e40]: 贝勒大学口述历史研究所 2012，Reaching the public。[证据](../../../../sources/notes/baylor2012introduction.md#e40)
-[^baylor2012introduction-e41]: 贝勒大学口述历史研究所 2012，Using digital media。[证据](../../../../sources/notes/baylor2012introduction.md#e41)
-[^baylor2012introduction-e42]: 贝勒大学口述历史研究所 2012，Establishing ethical relationships。[证据](../../../../sources/notes/baylor2012introduction.md#e42)
-[^oha2018principles-e15]: OHA 2018，最佳实践，Preparation。[证据](../../../../sources/notes/oha2018principles.md#e15)
-[^oha2018principles-e16]: OHA 2018，伦理声明，Collaboration。[证据](../../../../sources/notes/oha2018principles.md#e16)
-[^oha2018principles-e17]: OHA 2018，最佳实践，Preparation。[证据](../../../../sources/notes/oha2018principles.md#e17)
-[^oha2018principles-e18]: OHA 2018，最佳实践，Preparation。[证据](../../../../sources/notes/oha2018principles.md#e18)
-[^oha2018principles-e19]: OHA 2018，最佳实践，Preparation。[证据](../../../../sources/notes/oha2018principles.md#e19)
-[^oha2018principles-e20]: OHA 2018，最佳实践，Interviewing。[证据](../../../../sources/notes/oha2018principles.md#e20)
-[^oha2018principles-e21]: OHA 2018，最佳实践，Interviewing。[证据](../../../../sources/notes/oha2018principles.md#e21)
-[^oha2018principles-e22]: OHA 2018，最佳实践，Interviewing。[证据](../../../../sources/notes/oha2018principles.md#e22)
-[^oha2018principles-e23]: OHA 2018，最佳实践，Interviewing（b）。[证据](../../../../sources/notes/oha2018principles.md#e23)
-[^oha2018principles-e24]: OHA 2018，最佳实践，Interviewing（c）。[证据](../../../../sources/notes/oha2018principles.md#e24)
-[^oha2018principles-e25]: OHA 2018，最佳实践，Interviewing。[证据](../../../../sources/notes/oha2018principles.md#e25)
-[^oha2018principles-e26]: OHA 2018，最佳实践，脚注 6。[证据](../../../../sources/notes/oha2018principles.md#e26)
-[^oha2018principles-e27]: OHA 2018，最佳实践，Preparation（d）。[证据](../../../../sources/notes/oha2018principles.md#e27)
-[^oha2018principles-e28]: OHA 2018，最佳实践，脚注 8。[证据](../../../../sources/notes/oha2018principles.md#e28)
-[^oha2018principles-e29]: OHA 2018，伦理声明，Stewardship。[证据](../../../../sources/notes/oha2018principles.md#e29)
-[^oha2018principles-e30]: OHA 2018，伦理声明，Stewardship。[证据](../../../../sources/notes/oha2018principles.md#e30)
-[^oha2018principles-e10]: OHA 2018，最佳实践，Access & Use（c）。[证据](../../../../sources/notes/oha2018principles.md#e10)
-[^oha2018principles-e14]: OHA 2018，最佳实践，Interviewing（a）。[证据](../../../../sources/notes/oha2018principles.md#e14)
-[^oha2018principles-e13]: OHA 2018，伦理声明，Collaboration。[证据](../../../../sources/notes/oha2018principles.md#e13)
-[^oha2018principles-e8]: OHA 2018，最佳实践，Access & Use（c）。[证据](../../../../sources/notes/oha2018principles.md#e8)
-[^oha2018principles-e31]: OHA 2018，伦理声明，Using Oral Sources。[证据](../../../../sources/notes/oha2018principles.md#e31)
-[^oha2018principles-e32]: OHA 2018，伦理声明，Collaboration。[证据](../../../../sources/notes/oha2018principles.md#e32)
-[^oha2018principles-e11]: OHA 2018，最佳实践，Preservation。[证据](../../../../sources/notes/oha2018principles.md#e11)
-[^oha2018principles-e33]: OHA 2018，最佳实践，Preservation（b）。[证据](../../../../sources/notes/oha2018principles.md#e33)
-[^oha2018principles-e34]: OHA 2018，最佳实践，Preparation。[证据](../../../../sources/notes/oha2018principles.md#e34)
-[^oha2018principles-e35]: OHA 2018，最佳实践，Access & Use。[证据](../../../../sources/notes/oha2018principles.md#e35)
-[^oha2018principles-e36]: OHA 2018，伦理声明，Preparation & Communication。[证据](../../../../sources/notes/oha2018principles.md#e36)
-[^oha2018principles-e37]: OHA 2018，伦理声明，Collaboration。[证据](../../../../sources/notes/oha2018principles.md#e37)
-[^oha2018principles-e38]: OHA 2018，最佳实践，Access & Use（a）。[证据](../../../../sources/notes/oha2018principles.md#e38)
-[^oha2019archiving-e1]: OHA 2019 存档指南，Introduction 及脚注 1。[证据](../../../../sources/notes/oha2019archiving.md#e1)
-[^oha2019archiving-e2]: OHA 2019 存档指南，Metadata and Description。[证据](../../../../sources/notes/oha2019archiving.md#e2)
-[^oha2019archiving-e4]: OHA 2019 存档指南，Preservation。[证据](../../../../sources/notes/oha2019archiving.md#e4)
-[^oha2019archiving-e5]: OHA 2019 存档指南，Preservation。[证据](../../../../sources/notes/oha2019archiving.md#e5)
-[^oha2019archiving-e6]: OHA 2019 存档指南，Access。[证据](../../../../sources/notes/oha2019archiving.md#e6)
-[^oha2019archiving-e8]: OHA 2019 存档指南，Access，Transcription。[证据](../../../../sources/notes/oha2019archiving.md#e8)
-[^oha2019archiving-e9]: OHA 2019 存档指南，Access，Transcription。[证据](../../../../sources/notes/oha2019archiving.md#e9)
-[^oha2019archiving-e10]: OHA 2019 存档指南，Ownership and Rights Management。[证据](../../../../sources/notes/oha2019archiving.md#e10)
-[^oha2019archiving-e12]: OHA 2019 存档指南，Ownership and Rights Management。[证据](../../../../sources/notes/oha2019archiving.md#e12)
-[^oha2019archiving-e13]: OHA 2019 存档指南，Appraisal & Accessioning。[证据](../../../../sources/notes/oha2019archiving.md#e13)
-[^oha2019archiving-e14]: OHA 2019 存档指南，Ownership and Rights Management。[证据](../../../../sources/notes/oha2019archiving.md#e14)
-[^ohs2019legal-e1]: 英国 OHS 2019，总页。[证据](../../../../sources/notes/ohs2019legal.md#e1)
-[^ohs2019legal-e3]: 英国 OHS 2019，Preparation。[证据](../../../../sources/notes/ohs2019legal.md#e3)
-[^ohs2019legal-e2]: 英国 OHS 2019，Preparation。[证据](../../../../sources/notes/ohs2019legal.md#e2)
-[^ohs2019legal-e5]: 英国 OHS 2019，Preparation。[证据](../../../../sources/notes/ohs2019legal.md#e5)
-[^ohs2019legal-e6]: 英国 OHS 2019，1st approach。[证据](../../../../sources/notes/ohs2019legal.md#e6)
-[^ohs2019legal-e7]: 英国 OHS 2019，1st approach。[证据](../../../../sources/notes/ohs2019legal.md#e7)
-[^ohs2019legal-e8]: 英国 OHS 2019，1st approach。[证据](../../../../sources/notes/ohs2019legal.md#e8)
-[^ohs2019legal-e9]: 英国 OHS 2019，During interview。[证据](../../../../sources/notes/ohs2019legal.md#e9)
-[^ohs2019legal-e10]: 英国 OHS 2019，During interview。[证据](../../../../sources/notes/ohs2019legal.md#e10)
-[^ohs2019legal-e11]: 英国 OHS 2019，During interview。[证据](../../../../sources/notes/ohs2019legal.md#e11)
-[^ohs2019legal-e12]: 英国 OHS 2019，After。[证据](../../../../sources/notes/ohs2019legal.md#e12)
-[^ohs2019legal-e13]: 英国 OHS 2019，After。[证据](../../../../sources/notes/ohs2019legal.md#e13)
-[^ohs2019legal-e14]: 英国 OHS 2019，After。[证据](../../../../sources/notes/ohs2019legal.md#e14)
-[^ohs2019legal-e15]: 英国 OHS 2019，Archiving。[证据](../../../../sources/notes/ohs2019legal.md#e15)
-[^ohs2019legal-e16]: 英国 OHS 2019，Archiving。[证据](../../../../sources/notes/ohs2019legal.md#e16)
-[^ohs2019legal-e17]: 英国 OHS 2019，Archiving。[证据](../../../../sources/notes/ohs2019legal.md#e17)
-[^ohs2019legal-e18]: 英国 OHS 2019，Archiving。[证据](../../../../sources/notes/ohs2019legal.md#e18)
-[^ohs2026wellbeing-e1]: 英国 OHS，Looking after yourself。[证据](../../../../sources/notes/ohs2026wellbeing.md#e1)
-[^ohs2026wellbeing-e2]: 英国 OHS，Looking after yourself。[证据](../../../../sources/notes/ohs2026wellbeing.md#e2)
-[^ohs2026wellbeing-e3]: 英国 OHS，Looking after yourself。[证据](../../../../sources/notes/ohs2026wellbeing.md#e3)
-[^ohs2026wellbeing-e4]: 英国 OHS，Looking after yourself。[证据](../../../../sources/notes/ohs2026wellbeing.md#e4)
-[^ohs2026wellbeing-e5]: 英国 OHS，Looking after yourself。[证据](../../../../sources/notes/ohs2026wellbeing.md#e5)
-[^neuenschwander2014legal-e1]: Neuenschwander 2014，开头。[证据](../../../../sources/notes/neuenschwander2014legal.md#e1)
-[^neuenschwander2014legal-e2]: Neuenschwander 2014，知情同意与授权书。[证据](../../../../sources/notes/neuenschwander2014legal.md#e2)
-[^neuenschwander2014legal-e3]: Neuenschwander 2014，知情同意与授权书。[证据](../../../../sources/notes/neuenschwander2014legal.md#e3)
-[^neuenschwander2014legal-e4]: Neuenschwander 2014，波士顿学院案。[证据](../../../../sources/notes/neuenschwander2014legal.md#e4)
-[^neuenschwander2014legal-e5]: Neuenschwander 2014，波士顿学院案。[证据](../../../../sources/notes/neuenschwander2014legal.md#e5)
-[^neuenschwander2014legal-e6]: Neuenschwander 2014，波士顿学院案。[证据](../../../../sources/notes/neuenschwander2014legal.md#e6)
-[^neuenschwander2014legal-e7]: Neuenschwander 2014，波士顿学院案的教训。[证据](../../../../sources/notes/neuenschwander2014legal.md#e7)
-[^neuenschwander2014legal-e8]: Neuenschwander 2014，波士顿学院案的教训。[证据](../../../../sources/notes/neuenschwander2014legal.md#e8)
-[^neuenschwander2014legal-e9]: Neuenschwander 2014，隐私侵权。[证据](../../../../sources/notes/neuenschwander2014legal.md#e9)
-[^neuenschwander2014legal-e10]: Neuenschwander 2014，诽谤自查清单。[证据](../../../../sources/notes/neuenschwander2014legal.md#e10)
-[^neuenschwander2014legal-e11]: Neuenschwander 2014，诽谤。[证据](../../../../sources/notes/neuenschwander2014legal.md#e11)
-[^neuenschwander2014legal-e12]: Neuenschwander 2014，知情同意与授权书。[证据](../../../../sources/notes/neuenschwander2014legal.md#e12)
-[^shopes2002making-e2]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e2)
-[^shopes2002making-e3]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e3)
-[^shopes2002making-e4]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e4)
-[^shopes2002making-e5]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e5)
-[^shopes2002making-e6]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e6)
-[^shopes2002making-e7]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e7)
-[^shopes2002making-e8]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e8)
-[^shopes2002making-e9]: Shopes 2002，Interpreting Oral History。[证据](../../../../sources/notes/shopes2002making.md#e9)
-[^aha2023standards-e8]: AHA 2023，§3 Scholarship。[证据](../../../../sources/notes/aha2023standards.md#e8)
+[^baylor2012introduction-e1]: 贝勒大学口述历史研究所 2012，Discovering oral history: What is it?。[证据](../../sources/notes/baylor2012introduction.md#e1)
+[^baylor2012introduction-e2]: 贝勒大学口述历史研究所 2012，Discovering oral history: What is it?。[证据](../../sources/notes/baylor2012introduction.md#e2)
+[^baylor2012introduction-e3]: 贝勒大学口述历史研究所 2012，Understanding oral history: Why do it?。[证据](../../sources/notes/baylor2012introduction.md#e3)
+[^baylor2012introduction-e4]: 贝勒大学口述历史研究所 2012，Discovering oral history: What is it?。[证据](../../sources/notes/baylor2012introduction.md#e4)
+[^baylor2012introduction-e5]: 贝勒大学口述历史研究所 2012，Planning a project。[证据](../../sources/notes/baylor2012introduction.md#e5)
+[^baylor2012introduction-e6]: 贝勒大学口述历史研究所 2012，Planning a project。[证据](../../sources/notes/baylor2012introduction.md#e6)
+[^baylor2012introduction-e7]: 贝勒大学口述历史研究所 2012，Focusing & researching a topic。[证据](../../sources/notes/baylor2012introduction.md#e7)
+[^baylor2012introduction-e8]: 贝勒大学口述历史研究所 2012，Focusing & researching a topic。[证据](../../sources/notes/baylor2012introduction.md#e8)
+[^baylor2012introduction-e9]: 贝勒大学口述历史研究所 2012，Selecting narrators。[证据](../../sources/notes/baylor2012introduction.md#e9)
+[^baylor2012introduction-e10]: 贝勒大学口述历史研究所 2012，Selecting narrators。[证据](../../sources/notes/baylor2012introduction.md#e10)
+[^baylor2012introduction-e11]: 贝勒大学口述历史研究所 2012，Selecting narrators。[证据](../../sources/notes/baylor2012introduction.md#e11)
+[^baylor2012introduction-e12]: 贝勒大学口述历史研究所 2012，Creating an interview outline。[证据](../../sources/notes/baylor2012introduction.md#e12)
+[^baylor2012introduction-e13]: 贝勒大学口述历史研究所 2012，Composing questions。[证据](../../sources/notes/baylor2012introduction.md#e13)
+[^baylor2012introduction-e14]: 贝勒大学口述历史研究所 2012，Composing questions。[证据](../../sources/notes/baylor2012introduction.md#e14)
+[^baylor2012introduction-e15]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e15)
+[^baylor2012introduction-e16]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e16)
+[^baylor2012introduction-e17]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e17)
+[^baylor2012introduction-e18]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e18)
+[^baylor2012introduction-e19]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e19)
+[^baylor2012introduction-e20]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e20)
+[^baylor2012introduction-e21]: 贝勒大学口述历史研究所 2012，Getting the story。[证据](../../sources/notes/baylor2012introduction.md#e21)
+[^baylor2012introduction-e23]: 贝勒大学口述历史研究所 2012，Choosing digital recorders。[证据](../../sources/notes/baylor2012introduction.md#e23)
+[^baylor2012introduction-e24]: 贝勒大学口述历史研究所 2012，Choosing digital recorders。[证据](../../sources/notes/baylor2012introduction.md#e24)
+[^baylor2012introduction-e25]: 贝勒大学口述历史研究所 2012，Making contact & setting up。[证据](../../sources/notes/baylor2012introduction.md#e25)
+[^baylor2012introduction-e26]: 贝勒大学口述历史研究所 2012，Preparing legal documents。[证据](../../sources/notes/baylor2012introduction.md#e26)
+[^baylor2012introduction-e28]: 贝勒大学口述历史研究所 2012，Preparing legal documents。[证据](../../sources/notes/baylor2012introduction.md#e28)
+[^baylor2012introduction-e29]: 贝勒大学口述历史研究所 2012，Preparing legal documents。[证据](../../sources/notes/baylor2012introduction.md#e29)
+[^baylor2012introduction-e30]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e30)
+[^baylor2012introduction-e31]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e31)
+[^baylor2012introduction-e32]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e32)
+[^baylor2012introduction-e33]: 贝勒大学口述历史研究所 2012，Transcribing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e33)
+[^baylor2012introduction-e34]: 贝勒大学口述历史研究所 2012，Indexing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e34)
+[^baylor2012introduction-e35]: 贝勒大学口述历史研究所 2012，Protecting & preserving recordings。[证据](../../sources/notes/baylor2012introduction.md#e35)
+[^baylor2012introduction-e36]: 贝勒大学口述历史研究所 2012，Protecting & preserving recordings。[证据](../../sources/notes/baylor2012introduction.md#e36)
+[^baylor2012introduction-e38]: 贝勒大学口述历史研究所 2012，Critiquing & citing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e38)
+[^baylor2012introduction-e39]: 贝勒大学口述历史研究所 2012，Critiquing & citing oral histories。[证据](../../sources/notes/baylor2012introduction.md#e39)
+[^baylor2012introduction-e40]: 贝勒大学口述历史研究所 2012，Reaching the public。[证据](../../sources/notes/baylor2012introduction.md#e40)
+[^baylor2012introduction-e41]: 贝勒大学口述历史研究所 2012，Using digital media。[证据](../../sources/notes/baylor2012introduction.md#e41)
+[^baylor2012introduction-e42]: 贝勒大学口述历史研究所 2012，Establishing ethical relationships。[证据](../../sources/notes/baylor2012introduction.md#e42)
+[^oha2018principles-e15]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e15)
+[^oha2018principles-e16]: OHA 2018，伦理声明，Collaboration。[证据](../../sources/notes/oha2018principles.md#e16)
+[^oha2018principles-e17]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e17)
+[^oha2018principles-e18]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e18)
+[^oha2018principles-e19]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e19)
+[^oha2018principles-e20]: OHA 2018，最佳实践，Interviewing。[证据](../../sources/notes/oha2018principles.md#e20)
+[^oha2018principles-e21]: OHA 2018，最佳实践，Interviewing。[证据](../../sources/notes/oha2018principles.md#e21)
+[^oha2018principles-e22]: OHA 2018，最佳实践，Interviewing。[证据](../../sources/notes/oha2018principles.md#e22)
+[^oha2018principles-e23]: OHA 2018，最佳实践，Interviewing（b）。[证据](../../sources/notes/oha2018principles.md#e23)
+[^oha2018principles-e24]: OHA 2018，最佳实践，Interviewing（c）。[证据](../../sources/notes/oha2018principles.md#e24)
+[^oha2018principles-e25]: OHA 2018，最佳实践，Interviewing。[证据](../../sources/notes/oha2018principles.md#e25)
+[^oha2018principles-e26]: OHA 2018，最佳实践，脚注 6。[证据](../../sources/notes/oha2018principles.md#e26)
+[^oha2018principles-e27]: OHA 2018，最佳实践，Preparation（d）。[证据](../../sources/notes/oha2018principles.md#e27)
+[^oha2018principles-e28]: OHA 2018，最佳实践，脚注 8。[证据](../../sources/notes/oha2018principles.md#e28)
+[^oha2018principles-e29]: OHA 2018，伦理声明，Stewardship。[证据](../../sources/notes/oha2018principles.md#e29)
+[^oha2018principles-e30]: OHA 2018，伦理声明，Stewardship。[证据](../../sources/notes/oha2018principles.md#e30)
+[^oha2018principles-e10]: OHA 2018，最佳实践，Access & Use（c）。[证据](../../sources/notes/oha2018principles.md#e10)
+[^oha2018principles-e14]: OHA 2018，最佳实践，Interviewing（a）。[证据](../../sources/notes/oha2018principles.md#e14)
+[^oha2018principles-e13]: OHA 2018，伦理声明，Collaboration。[证据](../../sources/notes/oha2018principles.md#e13)
+[^oha2018principles-e8]: OHA 2018，最佳实践，Access & Use（c）。[证据](../../sources/notes/oha2018principles.md#e8)
+[^oha2018principles-e31]: OHA 2018，伦理声明，Using Oral Sources。[证据](../../sources/notes/oha2018principles.md#e31)
+[^oha2018principles-e32]: OHA 2018，伦理声明，Collaboration。[证据](../../sources/notes/oha2018principles.md#e32)
+[^oha2018principles-e11]: OHA 2018，最佳实践，Preservation。[证据](../../sources/notes/oha2018principles.md#e11)
+[^oha2018principles-e33]: OHA 2018，最佳实践，Preservation（b）。[证据](../../sources/notes/oha2018principles.md#e33)
+[^oha2018principles-e34]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e34)
+[^oha2018principles-e35]: OHA 2018，最佳实践，Access & Use。[证据](../../sources/notes/oha2018principles.md#e35)
+[^oha2018principles-e36]: OHA 2018，伦理声明，Preparation & Communication。[证据](../../sources/notes/oha2018principles.md#e36)
+[^oha2018principles-e37]: OHA 2018，伦理声明，Collaboration。[证据](../../sources/notes/oha2018principles.md#e37)
+[^oha2018principles-e38]: OHA 2018，最佳实践，Access & Use（a）。[证据](../../sources/notes/oha2018principles.md#e38)
+[^oha2019archiving-e1]: OHA 2019 存档指南，Introduction 及脚注 1。[证据](../../sources/notes/oha2019archiving.md#e1)
+[^oha2019archiving-e2]: OHA 2019 存档指南，Metadata and Description。[证据](../../sources/notes/oha2019archiving.md#e2)
+[^oha2019archiving-e4]: OHA 2019 存档指南，Preservation。[证据](../../sources/notes/oha2019archiving.md#e4)
+[^oha2019archiving-e5]: OHA 2019 存档指南，Preservation。[证据](../../sources/notes/oha2019archiving.md#e5)
+[^oha2019archiving-e6]: OHA 2019 存档指南，Access。[证据](../../sources/notes/oha2019archiving.md#e6)
+[^oha2019archiving-e8]: OHA 2019 存档指南，Access，Transcription。[证据](../../sources/notes/oha2019archiving.md#e8)
+[^oha2019archiving-e9]: OHA 2019 存档指南，Access，Transcription。[证据](../../sources/notes/oha2019archiving.md#e9)
+[^oha2019archiving-e10]: OHA 2019 存档指南，Ownership and Rights Management。[证据](../../sources/notes/oha2019archiving.md#e10)
+[^oha2019archiving-e12]: OHA 2019 存档指南，Ownership and Rights Management。[证据](../../sources/notes/oha2019archiving.md#e12)
+[^oha2019archiving-e13]: OHA 2019 存档指南，Appraisal & Accessioning。[证据](../../sources/notes/oha2019archiving.md#e13)
+[^oha2019archiving-e14]: OHA 2019 存档指南，Ownership and Rights Management。[证据](../../sources/notes/oha2019archiving.md#e14)
+[^ohs2019legal-e1]: 英国 OHS 2019，总页。[证据](../../sources/notes/ohs2019legal.md#e1)
+[^ohs2019legal-e3]: 英国 OHS 2019，Preparation。[证据](../../sources/notes/ohs2019legal.md#e3)
+[^ohs2019legal-e2]: 英国 OHS 2019，Preparation。[证据](../../sources/notes/ohs2019legal.md#e2)
+[^ohs2019legal-e5]: 英国 OHS 2019，Preparation。[证据](../../sources/notes/ohs2019legal.md#e5)
+[^ohs2019legal-e6]: 英国 OHS 2019，1st approach。[证据](../../sources/notes/ohs2019legal.md#e6)
+[^ohs2019legal-e7]: 英国 OHS 2019，1st approach。[证据](../../sources/notes/ohs2019legal.md#e7)
+[^ohs2019legal-e8]: 英国 OHS 2019，1st approach。[证据](../../sources/notes/ohs2019legal.md#e8)
+[^ohs2019legal-e9]: 英国 OHS 2019，During interview。[证据](../../sources/notes/ohs2019legal.md#e9)
+[^ohs2019legal-e10]: 英国 OHS 2019，During interview。[证据](../../sources/notes/ohs2019legal.md#e10)
+[^ohs2019legal-e11]: 英国 OHS 2019，During interview。[证据](../../sources/notes/ohs2019legal.md#e11)
+[^ohs2019legal-e12]: 英国 OHS 2019，After。[证据](../../sources/notes/ohs2019legal.md#e12)
+[^ohs2019legal-e13]: 英国 OHS 2019，After。[证据](../../sources/notes/ohs2019legal.md#e13)
+[^ohs2019legal-e14]: 英国 OHS 2019，After。[证据](../../sources/notes/ohs2019legal.md#e14)
+[^ohs2019legal-e15]: 英国 OHS 2019，Archiving。[证据](../../sources/notes/ohs2019legal.md#e15)
+[^ohs2019legal-e16]: 英国 OHS 2019，Archiving。[证据](../../sources/notes/ohs2019legal.md#e16)
+[^ohs2019legal-e17]: 英国 OHS 2019，Archiving。[证据](../../sources/notes/ohs2019legal.md#e17)
+[^ohs2019legal-e18]: 英国 OHS 2019，Archiving。[证据](../../sources/notes/ohs2019legal.md#e18)
+[^ohs2026wellbeing-e1]: 英国 OHS，Looking after yourself。[证据](../../sources/notes/ohs2026wellbeing.md#e1)
+[^ohs2026wellbeing-e2]: 英国 OHS，Looking after yourself。[证据](../../sources/notes/ohs2026wellbeing.md#e2)
+[^ohs2026wellbeing-e3]: 英国 OHS，Looking after yourself。[证据](../../sources/notes/ohs2026wellbeing.md#e3)
+[^ohs2026wellbeing-e4]: 英国 OHS，Looking after yourself。[证据](../../sources/notes/ohs2026wellbeing.md#e4)
+[^ohs2026wellbeing-e5]: 英国 OHS，Looking after yourself。[证据](../../sources/notes/ohs2026wellbeing.md#e5)
+[^neuenschwander2014legal-e1]: Neuenschwander 2014，开头。[证据](../../sources/notes/neuenschwander2014legal.md#e1)
+[^neuenschwander2014legal-e2]: Neuenschwander 2014，知情同意与授权书。[证据](../../sources/notes/neuenschwander2014legal.md#e2)
+[^neuenschwander2014legal-e3]: Neuenschwander 2014，知情同意与授权书。[证据](../../sources/notes/neuenschwander2014legal.md#e3)
+[^neuenschwander2014legal-e4]: Neuenschwander 2014，波士顿学院案。[证据](../../sources/notes/neuenschwander2014legal.md#e4)
+[^neuenschwander2014legal-e5]: Neuenschwander 2014，波士顿学院案。[证据](../../sources/notes/neuenschwander2014legal.md#e5)
+[^neuenschwander2014legal-e6]: Neuenschwander 2014，波士顿学院案。[证据](../../sources/notes/neuenschwander2014legal.md#e6)
+[^neuenschwander2014legal-e7]: Neuenschwander 2014，波士顿学院案的教训。[证据](../../sources/notes/neuenschwander2014legal.md#e7)
+[^neuenschwander2014legal-e8]: Neuenschwander 2014，波士顿学院案的教训。[证据](../../sources/notes/neuenschwander2014legal.md#e8)
+[^neuenschwander2014legal-e9]: Neuenschwander 2014，隐私侵权。[证据](../../sources/notes/neuenschwander2014legal.md#e9)
+[^neuenschwander2014legal-e10]: Neuenschwander 2014，诽谤自查清单。[证据](../../sources/notes/neuenschwander2014legal.md#e10)
+[^neuenschwander2014legal-e11]: Neuenschwander 2014，诽谤。[证据](../../sources/notes/neuenschwander2014legal.md#e11)
+[^neuenschwander2014legal-e12]: Neuenschwander 2014，知情同意与授权书。[证据](../../sources/notes/neuenschwander2014legal.md#e12)
+[^shopes2002making-e2]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e2)
+[^shopes2002making-e3]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e3)
+[^shopes2002making-e4]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e4)
+[^shopes2002making-e5]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e5)
+[^shopes2002making-e6]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e6)
+[^shopes2002making-e7]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e7)
+[^shopes2002making-e8]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e8)
+[^shopes2002making-e9]: Shopes 2002，Interpreting Oral History。[证据](../../sources/notes/shopes2002making.md#e9)
+[^aha2023standards-e8]: AHA 2023，§3 Scholarship。[证据](../../sources/notes/aha2023standards.md#e8)

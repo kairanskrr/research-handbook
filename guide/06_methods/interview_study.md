@@ -8,7 +8,7 @@
 
 本文是三篇定性研究文档中讲**抽样与饱和、访谈、编码和主题分析、定性质量标准**的一篇；[案例研究](case_study.md)和[扎根理论](grounded_theory.md)用到这些内容时链接到这里。
 
-**适用范围** `[本项目分析]`：本文的审稿标准和多数例子来自软件工程（SIGSOFT 标准、Runeson 和 Höst 的案例研究指南、Baltes 和 Ralph 的抽样指南），编码一致性的讨论来自人机交互和协同工作方向（McDonald 等人）；主题分析和访谈提纲的做法分别出自心理学（Braun 和 Clarke）和护理学（Kallio 等人）的方法文献。其他学科做访谈研究时，先看本学科的规范。历史学用访谈留下关于过去的记录，做法和这里不同，见[口述历史](../07_fields/history-archaeology/research-types/oral_history.md)。
+**适用范围** `[本项目分析]`：本文的审稿标准和多数例子来自软件工程（SIGSOFT 标准、Runeson 和 Höst 的案例研究指南、Baltes 和 Ralph 的抽样指南），编码一致性的讨论来自人机交互和协同工作方向（McDonald 等人）；主题分析和访谈提纲的做法分别出自心理学（Braun 和 Clarke）和护理学（Kallio 等人）的方法文献。其他学科做访谈研究时，先看本学科的规范。历史学用访谈留下关于过去的记录，做法和这里不同，见[口述历史](oral_history.md)。
 
 **常服务的套路**：[观察描述](../05_research-strategies/observe_describe.md)。
 

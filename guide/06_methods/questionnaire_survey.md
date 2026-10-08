@@ -6,7 +6,7 @@
 
 如果你要做的是一对一的开放式访谈，那是另一类研究（定性调查，或称访谈研究）[^ralph2020empirical-e256]，见[访谈研究](interview_study.md)。抽样的基本概念（总体、抽样框、样本、代表性）见[定下研究对象：分析单元和总体](../02_from-project-to-study/01_question-to-evidence.md#3-定下研究对象分析单元和总体)，涉及人的研究的一般伦理要求见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md)，这里只讲问卷特有的部分。
 
-**适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准，以及软件工程领域关于问卷研究、抽样和心理测量的几篇方法文章（Wagner 等人、Torchiano 等人、Molléri 等人、Baltes 和 Ralph、Graziotin 等人）。其他学科做问卷时，先看本学科的规范。如果你要新编或改编一个量表，见心理学的[量表编制与测量研究](../07_fields/psychology/research-types/scale_development.md)。
+**适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准，以及软件工程领域关于问卷研究、抽样和心理测量的几篇方法文章（Wagner 等人、Torchiano 等人、Molléri 等人、Baltes 和 Ralph、Graziotin 等人）。其他学科做问卷时，先看本学科的规范。如果你要新编或改编一个量表，见心理学的[量表编制与测量研究](scale_development.md)。
 
 **常服务的套路**：[观察描述](../05_research-strategies/observe_describe.md)、[测量](../05_research-strategies/measure.md)。
 

@@ -146,7 +146,7 @@ Rosenberg 等人 2020 年社论里的检查清单建议：写明哪段代码生�
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
 
 本领域常用的方法，有一部分在研究方法和计算机篇的实践里有对应文档，可以参考。下面只写本领域额外要注意的地方：
 

@@ -139,9 +139,9 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[合成与表征研究](research-types/synthesis_study.md)。
+**本领域的研究类型文档**：[合成与表征研究](../../06_methods/synthesis_study.md)。
 
-**相关学科的研究类型文档**：[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
 
 下面是本领域常见的研究方法。分组和"相通"的判断为本项目分析 `[本项目分析]`。
 

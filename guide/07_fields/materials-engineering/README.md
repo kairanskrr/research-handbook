@@ -130,7 +130,7 @@ Jacobsson 等人认为，共享数据对自己也有好处：能让数据被再�
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[合成与表征研究](../chemistry/research-types/synthesis_study.md)、[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+**相关学科的研究类型文档**：[合成与表征研究](../../06_methods/synthesis_study.md)、[实验测量研究](../../06_methods/experimental_measurement.md)。
 
 本领域常用的方法，有不少在研究方法和计算机篇的实践里有对应文档，可以直接参考。下面只写本领域额外要注意的地方：
 

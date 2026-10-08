@@ -143,7 +143,7 @@ Freese 和 Peterson 认为，定性社会科学首先是一种解释性的事业
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[过程追踪与比较案例研究](../political-science/research-types/process_tracing.md)、[档案研究](../history-archaeology/research-types/archival_research.md)、[口述历史](../history-archaeology/research-types/oral_history.md)。
+**相关学科的研究类型文档**：[过程追踪与比较案例研究](../../06_methods/process_tracing.md)、[档案研究](../../06_methods/archival_research.md)、[口述历史](../../06_methods/oral_history.md)。
 
 社会学常用的研究方法，和研究方法里已有文档的对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体依据见脚注）：
 

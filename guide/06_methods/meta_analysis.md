@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，研究方法里的[综述研究](../../../06_methods/review_study.md#2-系统综述怎么做)已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[领域概况](../README.md)。
+本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，研究方法里的[综述研究](review_study.md#2-系统综述怎么做)已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[领域概况](../07_fields/health-sciences/README.md)。
 
 **本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。诊断准确性、预后等其他类型综述的专门方法，本文资料未涉及，同样以导师或目标期刊要求为准。
 
@@ -21,17 +21,17 @@
 | 好处 | 适用面广 `[本项目分析]` | 提高精确度，回答单个研究没问过的问题，平息相互矛盾的结论[^higgins2024cochrane-e13] |
 | 风险 | 容易退化成逐篇罗列 `[本项目分析]` | 不仔细考虑设计、偏倚、研究间差异和报告偏倚时，可能严重误导[^higgins2024cochrane-e13] |
 
-**什么时候做系统综述：** 先用 PICO 框架把问题说清楚：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]；再估计工作量。这两点和"开始新研究前先做综述"的建议，[领域概况](../README.md#系统综述cochrane-手册)已讲过。还要注意：按 PROSPERO（下文第 1 步介绍的登记平台）2023 年存档页面的规定，它不登记少于两人做的综述[^crd2023prospero-e7]，也不登记培训课程作业式的"迷你"综述[^crd2023prospero-e9]。一个人做的课程练习多半登记不了；能不能当作正式系统综述投稿，先问导师或目标期刊 `[本项目分析]`。
+**什么时候做系统综述：** 先用 PICO 框架把问题说清楚：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]；再估计工作量。这两点和"开始新研究前先做综述"的建议，[领域概况](../07_fields/health-sciences/README.md#系统综述cochrane-手册)已讲过。还要注意：按 PROSPERO（下文第 1 步介绍的登记平台）2023 年存档页面的规定，它不登记少于两人做的综述[^crd2023prospero-e7]，也不登记培训课程作业式的"迷你"综述[^crd2023prospero-e9]。一个人做的课程练习多半登记不了；能不能当作正式系统综述投稿，先问导师或目标期刊 `[本项目分析]`。
 
 **什么时候不做元分析：** 系统综述不一定要有元分析[^higgins2024cochrane-e16]。Cochrane 手册列出的情况有：没有研究或只有一项研究，无法合并[^higgins2024cochrane-e19]；结局或效应估计报告不全，或各研究用的效应指标不同；证据本身有偏倚[^higgins2024cochrane-e17]；人群、干预、对照、结局不够相似，合并后得不到有临床意义的答案，例如各研究的对照组形式不同[^higgins2024cochrane-e15]；结果差异很大，尤其效应方向不一致，这时报一个平均值可能误导[^higgins2024cochrane-e16]。但"差异大、异质性高"本身不一定是放弃的理由。手册认为这时仍应考虑元分析，做得恰当、解释得当，它可能给出重要信息[^higgins2024cochrane-e17]。不做元分析时，也不要按"显著的几篇、不显著的几篇"来计票，手册称这种方法不可接受[^higgins2024cochrane-e18]。
 
-**纳入哪些设计：** 在 GRADE 评级里，随机试验的证据从"高"起评，非随机研究从"低"起评（见第 7 步）[^higgins2024cochrane-e66]；但有些证据，尤其是关于干预危害的，常常要来自非随机研究[^higgins2024cochrane-e8]。观察性研究的混杂、测量误差、选择偏倚见领域概况的[观察性研究的三个坑](../README.md#观察性研究的三个坑)。合并高偏倚风险观察性研究的元分析，不能和合并低偏倚风险随机试验的元分析等同看待[^murad2016new-e5]，详见临床医学篇的[证据金字塔](../../clinical-medicine/README.md#证据金字塔有用但别机械套用)。
+**纳入哪些设计：** 在 GRADE 评级里，随机试验的证据从"高"起评，非随机研究从"低"起评（见第 7 步）[^higgins2024cochrane-e66]；但有些证据，尤其是关于干预危害的，常常要来自非随机研究[^higgins2024cochrane-e8]。观察性研究的混杂、测量误差、选择偏倚见领域概况的[观察性研究的三个坑](../07_fields/health-sciences/README.md#观察性研究的三个坑)。合并高偏倚风险观察性研究的元分析，不能和合并低偏倚风险随机试验的元分析等同看待[^murad2016new-e5]，详见临床医学篇的[证据金字塔](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)。
 
 ---
 
 ## 2. 怎么做
 
-下面八步按时间顺序排。第 1 步之后的检索、筛选、提取，照研究方法里的[综述研究的执行阶段](../../../06_methods/review_study.md#第二阶段执行)做；健康领域的检索还要查试验登记库，见第 6 步。
+下面八步按时间顺序排。第 1 步之后的检索、筛选、提取，照研究方法里的[综述研究的执行阶段](review_study.md#第二阶段执行)做；健康领域的检索还要查试验登记库，见第 6 步。
 
 ### 第 1 步：写方案，在 PROSPERO 登记
 
@@ -108,7 +108,7 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 
 ### 第 7 步：用 GRADE 给每个结局的证据定级
 
-GRADE（Grading of Recommendations Assessment, Development and Evaluation，推荐分级的评估、制订与评价）是给证据可信程度定级的方法，Cochrane 手册第 14 章用它评定证据确定性[^higgins2024cochrane-e64]。它不是设计越"高级"证据就越强，而是逐个结局看证据有多可信，这和[临床医学篇](../../clinical-medicine/README.md#证据金字塔有用但别机械套用)讲的证据金字塔思路不同 `[本项目分析]`。
+GRADE（Grading of Recommendations Assessment, Development and Evaluation，推荐分级的评估、制订与评价）是给证据可信程度定级的方法，Cochrane 手册第 14 章用它评定证据确定性[^higgins2024cochrane-e64]。它不是设计越"高级"证据就越强，而是逐个结局看证据有多可信，这和[临床医学篇](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)讲的证据金字塔思路不同 `[本项目分析]`。
 
 **怎么做：**
 - **按结局评，不按研究评。** 每个结局的证据分四级：高、中、低、极低[^higgins2024cochrane-e64]。按 2013 年版 GRADE 手册的说法，"高"指很有把握真实效应接近估计值；"极低"指真实效应很可能与估计值差别很大[^schunemann2013grade-e1]。
@@ -123,7 +123,7 @@ GRADE（Grading of Recommendations Assessment, Development and Evaluation，推�
 
 ### 第 8 步：按 PRISMA 2020 报告
 
-PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导怎么做[^page2021prisma-e16]；通用部分见研究方法里的[综述研究的报告阶段](../../../06_methods/review_study.md#第三阶段报告)。Cochrane 手册要求 Cochrane 的方案和综述符合 PRISMA 2020 和它的方案版（PRISMA for Protocols）[^higgins2024cochrane-e70]。和元分析有关、容易漏的条目：
+PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导怎么做[^page2021prisma-e16]；通用部分见研究方法里的[综述研究的报告阶段](review_study.md#第三阶段报告)。Cochrane 手册要求 Cochrane 的方案和综述符合 PRISMA 2020 和它的方案版（PRISMA for Protocols）[^higgins2024cochrane-e70]。和元分析有关、容易漏的条目：
 
 - 每个结局的效应指标（第 12 项）[^page2021prisma-e8]；模型、判断异质性的方法、软件（第 13d 项）[^page2021prisma-e9]；亚组分析、元回归、敏感性分析（第 13e、13f 项）[^page2021prisma-e10]
 - 报告偏倚和证据确定性的评估方法（第 14、15 项）[^page2021prisma-e11]；每项研究的偏倚风险（第 18 项）[^page2021prisma-e12]；每个元分析的合并估计、置信区间和异质性指标（第 20b 项）[^page2021prisma-e13]
@@ -181,99 +181,99 @@ PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导�
 - **Cochrane 手册**（6.5 版，官网免费在线）：第 10 章讲元分析，先读开头"Do not start here!"一节；第 8、25 章分别讲 RoB 2、ROBINS-I；第 13 章讲漏斗图；第 14 章讲 GRADE；第 12 章讲不做元分析时怎样综合。
 - **PRISMA 2020**：完整清单和流程图模板。**GRADE 手册**（2013 年 10 月版，免费在线）：升降级理由的解释，它用"证据质量"一词。**PROSPERO 官网**：本文只读到 2023 年的存档页面，登记前读现行须知。
 
-各资料的链接见[原始资料列表](../../../../sources/README.md)。
+各资料的链接见[原始资料列表](../../sources/README.md)。
 
-[^moher2009prisma-e1]: Moher 等人 2009，Terminology。[证据](../../../../sources/notes/moher2009prisma.md#e1)
-[^moher2009prisma-e2]: Moher 等人 2009，Terminology。[证据](../../../../sources/notes/moher2009prisma.md#e2)
-[^moher2009prisma-e3]: Moher 等人 2009，Box 1。[证据](../../../../sources/notes/moher2009prisma.md#e3)
-[^higgins2024cochrane-e13]: Cochrane 手册 2024，第 10 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e13)
-[^higgins2024cochrane-e14]: Cochrane 手册 2024，第 10 章 §10.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e14)
-[^higgins2024cochrane-e15]: Cochrane 手册 2024，第 10 章 §10.10.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e15)
-[^higgins2024cochrane-e16]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e16)
-[^higgins2024cochrane-e17]: Cochrane 手册 2024，第 12 章 §12.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e17)
-[^higgins2024cochrane-e18]: Cochrane 手册 2024，第 12 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e18)
-[^higgins2024cochrane-e19]: Cochrane 手册 2024，第 12 章表 12.1.a。[证据](../../../../sources/notes/higgins2024cochrane.md#e19)
-[^higgins2024cochrane-e20]: Cochrane 手册 2024，第 7 章 §7.1.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e20)
-[^higgins2024cochrane-e21]: Cochrane 手册 2024，第 7 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e21)
-[^higgins2024cochrane-e22]: Cochrane 手册 2024，第 8 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e22)
-[^higgins2024cochrane-e23]: Cochrane 手册 2024，第 8 章 §8.2.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e23)
-[^higgins2024cochrane-e24]: Cochrane 手册 2024，第 8 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e24)
-[^higgins2024cochrane-e25]: Cochrane 手册 2024，第 8 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e25)
-[^higgins2024cochrane-e26]: Cochrane 手册 2024，第 8 章 §8.2.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e26)
-[^higgins2024cochrane-e27]: Cochrane 手册 2024，第 8 章 §8.2.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e27)
-[^higgins2024cochrane-e28]: Cochrane 手册 2024，第 25 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e28)
-[^higgins2024cochrane-e29]: Cochrane 手册 2024，第 25 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e29)
-[^higgins2024cochrane-e30]: Cochrane 手册 2024，第 25 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e30)
-[^higgins2024cochrane-e31]: Cochrane 手册 2024，第 25 章 §25.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e31)
-[^higgins2024cochrane-e32]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e32)
-[^higgins2024cochrane-e33]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e33)
-[^higgins2024cochrane-e34]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e34)
-[^higgins2024cochrane-e35]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e35)
-[^higgins2024cochrane-e36]: Cochrane 手册 2024，第 10 章 §10.5.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e36)
-[^higgins2024cochrane-e37]: Cochrane 手册 2024，第 10 章 §10.2.1、§10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e37)
-[^higgins2024cochrane-e38]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e38)
-[^higgins2024cochrane-e39]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e39)
-[^higgins2024cochrane-e40]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e40)
-[^higgins2024cochrane-e41]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e41)
-[^higgins2024cochrane-e42]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e42)
-[^higgins2024cochrane-e43]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e43)
-[^higgins2024cochrane-e44]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e44)
-[^higgins2024cochrane-e45]: Cochrane 手册 2024，第 10 章 §10.10.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e45)
-[^higgins2024cochrane-e46]: Cochrane 手册 2024，第 10 章 §10.10.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e46)
-[^higgins2024cochrane-e47]: Cochrane 手册 2024，第 10 章 §10.10.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e47)
-[^higgins2024cochrane-e48]: Cochrane 手册 2024，第 10 章 §10.10.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e48)
-[^higgins2024cochrane-e49]: Cochrane 手册 2024，第 10 章 §10.10.2（强制要求 C63）。[证据](../../../../sources/notes/higgins2024cochrane.md#e49)
-[^higgins2024cochrane-e50]: Cochrane 手册 2024，第 10 章 §10.10.4.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e50)
-[^higgins2024cochrane-e51]: Cochrane 手册 2024，第 10 章 §10.10.4.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e51)
-[^higgins2024cochrane-e52]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e52)
-[^higgins2024cochrane-e53]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e53)
-[^higgins2024cochrane-e54]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e54)
-[^higgins2024cochrane-e55]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e55)
-[^higgins2024cochrane-e56]: Cochrane 手册 2024，第 10 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e56)
-[^higgins2024cochrane-e57]: Cochrane 手册 2024，第 13 章 §13.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e57)
-[^higgins2024cochrane-e58]: Cochrane 手册 2024，第 13 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e58)
-[^higgins2024cochrane-e59]: Cochrane 手册 2024，第 13 章 §13.3.4.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e59)
-[^higgins2024cochrane-e60]: Cochrane 手册 2024，第 13 章 §13.3.4.4。[证据](../../../../sources/notes/higgins2024cochrane.md#e60)
-[^higgins2024cochrane-e61]: Cochrane 手册 2024，第 13 章 §13.3.4.4。[证据](../../../../sources/notes/higgins2024cochrane.md#e61)
-[^higgins2024cochrane-e62]: Cochrane 手册 2024，第 13 章 §13.3.4.6。[证据](../../../../sources/notes/higgins2024cochrane.md#e62)
-[^higgins2024cochrane-e63]: Cochrane 手册 2024，第 13 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e63)
-[^higgins2024cochrane-e64]: Cochrane 手册 2024，第 14 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e64)
-[^higgins2024cochrane-e65]: Cochrane 手册 2024，第 14 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e65)
-[^higgins2024cochrane-e66]: Cochrane 手册 2024，第 14 章 §14.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e66)
-[^higgins2024cochrane-e67]: Cochrane 手册 2024，第 14 章 §14.2（强制要求 C74）。[证据](../../../../sources/notes/higgins2024cochrane.md#e67)
-[^higgins2024cochrane-e68]: Cochrane 手册 2024，第 14 章 §14.2（强制要求 C75）。[证据](../../../../sources/notes/higgins2024cochrane.md#e68)
-[^higgins2024cochrane-e69]: Cochrane 手册 2024，第 14 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e69)
-[^higgins2024cochrane-e70]: Cochrane 手册 2024，第 III 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e70)
-[^higgins2024cochrane-e71]: Cochrane 手册 2024，第 10 章 §10.4.4。[证据](../../../../sources/notes/higgins2024cochrane.md#e71)
-[^higgins2024cochrane-e72]: Cochrane 手册 2024，第 10 章要点。[证据](../../../../sources/notes/higgins2024cochrane.md#e72)
-[^higgins2024cochrane-e73]: Cochrane 手册 2024，第 10 章 §10.10.3（强制要求 C69）。[证据](../../../../sources/notes/higgins2024cochrane.md#e73)
-[^higgins2024cochrane-e74]: Cochrane 手册 2024，第 14 章 §14.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e74)
-[^higgins2024cochrane-e5]: Cochrane 手册 2024，第 1 章 §1.2。[证据](../../../../sources/notes/higgins2024cochrane.md#e5)
-[^higgins2024cochrane-e8]: Cochrane 手册 2024，第 24 章 §24.1。[证据](../../../../sources/notes/higgins2024cochrane.md#e8)
-[^higgins2024cochrane-e75]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../../../sources/notes/higgins2024cochrane.md#e75)
-[^crd2023prospero-e1]: PROSPERO 网站 2023 年存档，Registering a review。[证据](../../../../sources/notes/crd2023prospero.md#e1)
-[^crd2023prospero-e2]: PROSPERO 网站 2023 年存档，Registering a review。[证据](../../../../sources/notes/crd2023prospero.md#e2)
-[^crd2023prospero-e3]: PROSPERO 网站 2023 年存档，Inclusion criteria。[证据](../../../../sources/notes/crd2023prospero.md#e3)
-[^crd2023prospero-e4]: PROSPERO 网站 2023 年存档，Requirements for registration。[证据](../../../../sources/notes/crd2023prospero.md#e4)
-[^crd2023prospero-e5]: PROSPERO 网站 2023 年存档，Integrity of data and prospective registration。[证据](../../../../sources/notes/crd2023prospero.md#e5)
-[^crd2023prospero-e6]: PROSPERO 网站 2023 年存档，PROSPERO does not accept。[证据](../../../../sources/notes/crd2023prospero.md#e6)
-[^crd2023prospero-e7]: PROSPERO 网站 2023 年存档，登记资格自查页。[证据](../../../../sources/notes/crd2023prospero.md#e7)
-[^crd2023prospero-e8]: PROSPERO 网站 2023 年存档，登记资格自查页。[证据](../../../../sources/notes/crd2023prospero.md#e8)
-[^crd2023prospero-e9]: PROSPERO 网站 2023 年存档，首页通知。[证据](../../../../sources/notes/crd2023prospero.md#e9)
-[^crd2023prospero-e10]: PROSPERO 网站 2023 年存档，When to register your review。[证据](../../../../sources/notes/crd2023prospero.md#e10)
-[^crd2023prospero-e11]: PROSPERO 网站 2023 年存档，Other considerations。[证据](../../../../sources/notes/crd2023prospero.md#e11)
-[^page2021prisma-e6]: PRISMA 2020（Page 等人 2021），第 24a 项。[证据](../../../../sources/notes/page2021prisma.md#e6)
-[^page2021prisma-e7]: PRISMA 2020，第 24b、24c 项。[证据](../../../../sources/notes/page2021prisma.md#e7)
-[^page2021prisma-e8]: PRISMA 2020，第 12 项。[证据](../../../../sources/notes/page2021prisma.md#e8)
-[^page2021prisma-e9]: PRISMA 2020，第 13d 项。[证据](../../../../sources/notes/page2021prisma.md#e9)
-[^page2021prisma-e10]: PRISMA 2020，第 13e、13f 项。[证据](../../../../sources/notes/page2021prisma.md#e10)
-[^page2021prisma-e11]: PRISMA 2020，第 14、15 项。[证据](../../../../sources/notes/page2021prisma.md#e11)
-[^page2021prisma-e12]: PRISMA 2020，第 18 项。[证据](../../../../sources/notes/page2021prisma.md#e12)
-[^page2021prisma-e13]: PRISMA 2020，第 20b 项。[证据](../../../../sources/notes/page2021prisma.md#e13)
-[^page2021prisma-e14]: PRISMA 2020，第 27 项。[证据](../../../../sources/notes/page2021prisma.md#e14)
-[^page2021prisma-e15]: PRISMA 2020，引言。[证据](../../../../sources/notes/page2021prisma.md#e15)
-[^page2021prisma-e16]: PRISMA 2020，引言。[证据](../../../../sources/notes/page2021prisma.md#e16)
-[^murad2016new-e5]: Murad 等人 2016，Rationale for modification 2。[证据](../../../../sources/notes/murad2016new.md#e5)
-[^schunemann2013grade-e1]: GRADE 手册 2013，表 5.1。[证据](../../../../sources/notes/schunemann2013grade.md#e1)
-[^schunemann2013grade-e3]: GRADE 手册 2013，§5。[证据](../../../../sources/notes/schunemann2013grade.md#e3)
-[^schunemann2013grade-e4]: GRADE 手册 2013，§5.3.1。[证据](../../../../sources/notes/schunemann2013grade.md#e4)
+[^moher2009prisma-e1]: Moher 等人 2009，Terminology。[证据](../../sources/notes/moher2009prisma.md#e1)
+[^moher2009prisma-e2]: Moher 等人 2009，Terminology。[证据](../../sources/notes/moher2009prisma.md#e2)
+[^moher2009prisma-e3]: Moher 等人 2009，Box 1。[证据](../../sources/notes/moher2009prisma.md#e3)
+[^higgins2024cochrane-e13]: Cochrane 手册 2024，第 10 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e13)
+[^higgins2024cochrane-e14]: Cochrane 手册 2024，第 10 章 §10.1。[证据](../../sources/notes/higgins2024cochrane.md#e14)
+[^higgins2024cochrane-e15]: Cochrane 手册 2024，第 10 章 §10.10.1。[证据](../../sources/notes/higgins2024cochrane.md#e15)
+[^higgins2024cochrane-e16]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../sources/notes/higgins2024cochrane.md#e16)
+[^higgins2024cochrane-e17]: Cochrane 手册 2024，第 12 章 §12.1。[证据](../../sources/notes/higgins2024cochrane.md#e17)
+[^higgins2024cochrane-e18]: Cochrane 手册 2024，第 12 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e18)
+[^higgins2024cochrane-e19]: Cochrane 手册 2024，第 12 章表 12.1.a。[证据](../../sources/notes/higgins2024cochrane.md#e19)
+[^higgins2024cochrane-e20]: Cochrane 手册 2024，第 7 章 §7.1.2。[证据](../../sources/notes/higgins2024cochrane.md#e20)
+[^higgins2024cochrane-e21]: Cochrane 手册 2024，第 7 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e21)
+[^higgins2024cochrane-e22]: Cochrane 手册 2024，第 8 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e22)
+[^higgins2024cochrane-e23]: Cochrane 手册 2024，第 8 章 §8.2.3。[证据](../../sources/notes/higgins2024cochrane.md#e23)
+[^higgins2024cochrane-e24]: Cochrane 手册 2024，第 8 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e24)
+[^higgins2024cochrane-e25]: Cochrane 手册 2024，第 8 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e25)
+[^higgins2024cochrane-e26]: Cochrane 手册 2024，第 8 章 §8.2.1。[证据](../../sources/notes/higgins2024cochrane.md#e26)
+[^higgins2024cochrane-e27]: Cochrane 手册 2024，第 8 章 §8.2.2。[证据](../../sources/notes/higgins2024cochrane.md#e27)
+[^higgins2024cochrane-e28]: Cochrane 手册 2024，第 25 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e28)
+[^higgins2024cochrane-e29]: Cochrane 手册 2024，第 25 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e29)
+[^higgins2024cochrane-e30]: Cochrane 手册 2024，第 25 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e30)
+[^higgins2024cochrane-e31]: Cochrane 手册 2024，第 25 章 §25.1。[证据](../../sources/notes/higgins2024cochrane.md#e31)
+[^higgins2024cochrane-e32]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../sources/notes/higgins2024cochrane.md#e32)
+[^higgins2024cochrane-e33]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../sources/notes/higgins2024cochrane.md#e33)
+[^higgins2024cochrane-e34]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../sources/notes/higgins2024cochrane.md#e34)
+[^higgins2024cochrane-e35]: Cochrane 手册 2024，第 10 章 §10.4.3。[证据](../../sources/notes/higgins2024cochrane.md#e35)
+[^higgins2024cochrane-e36]: Cochrane 手册 2024，第 10 章 §10.5.1。[证据](../../sources/notes/higgins2024cochrane.md#e36)
+[^higgins2024cochrane-e37]: Cochrane 手册 2024，第 10 章 §10.2.1、§10.3。[证据](../../sources/notes/higgins2024cochrane.md#e37)
+[^higgins2024cochrane-e38]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e38)
+[^higgins2024cochrane-e39]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e39)
+[^higgins2024cochrane-e40]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e40)
+[^higgins2024cochrane-e41]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e41)
+[^higgins2024cochrane-e42]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e42)
+[^higgins2024cochrane-e43]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e43)
+[^higgins2024cochrane-e44]: Cochrane 手册 2024，第 10 章 §10.10.4.1。[证据](../../sources/notes/higgins2024cochrane.md#e44)
+[^higgins2024cochrane-e45]: Cochrane 手册 2024，第 10 章 §10.10.1。[证据](../../sources/notes/higgins2024cochrane.md#e45)
+[^higgins2024cochrane-e46]: Cochrane 手册 2024，第 10 章 §10.10.2。[证据](../../sources/notes/higgins2024cochrane.md#e46)
+[^higgins2024cochrane-e47]: Cochrane 手册 2024，第 10 章 §10.10.2。[证据](../../sources/notes/higgins2024cochrane.md#e47)
+[^higgins2024cochrane-e48]: Cochrane 手册 2024，第 10 章 §10.10.2。[证据](../../sources/notes/higgins2024cochrane.md#e48)
+[^higgins2024cochrane-e49]: Cochrane 手册 2024，第 10 章 §10.10.2（强制要求 C63）。[证据](../../sources/notes/higgins2024cochrane.md#e49)
+[^higgins2024cochrane-e50]: Cochrane 手册 2024，第 10 章 §10.10.4.2。[证据](../../sources/notes/higgins2024cochrane.md#e50)
+[^higgins2024cochrane-e51]: Cochrane 手册 2024，第 10 章 §10.10.4.3。[证据](../../sources/notes/higgins2024cochrane.md#e51)
+[^higgins2024cochrane-e52]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../sources/notes/higgins2024cochrane.md#e52)
+[^higgins2024cochrane-e53]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../sources/notes/higgins2024cochrane.md#e53)
+[^higgins2024cochrane-e54]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../sources/notes/higgins2024cochrane.md#e54)
+[^higgins2024cochrane-e55]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../sources/notes/higgins2024cochrane.md#e55)
+[^higgins2024cochrane-e56]: Cochrane 手册 2024，第 10 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e56)
+[^higgins2024cochrane-e57]: Cochrane 手册 2024，第 13 章 §13.1。[证据](../../sources/notes/higgins2024cochrane.md#e57)
+[^higgins2024cochrane-e58]: Cochrane 手册 2024，第 13 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e58)
+[^higgins2024cochrane-e59]: Cochrane 手册 2024，第 13 章 §13.3.4.3。[证据](../../sources/notes/higgins2024cochrane.md#e59)
+[^higgins2024cochrane-e60]: Cochrane 手册 2024，第 13 章 §13.3.4.4。[证据](../../sources/notes/higgins2024cochrane.md#e60)
+[^higgins2024cochrane-e61]: Cochrane 手册 2024，第 13 章 §13.3.4.4。[证据](../../sources/notes/higgins2024cochrane.md#e61)
+[^higgins2024cochrane-e62]: Cochrane 手册 2024，第 13 章 §13.3.4.6。[证据](../../sources/notes/higgins2024cochrane.md#e62)
+[^higgins2024cochrane-e63]: Cochrane 手册 2024，第 13 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e63)
+[^higgins2024cochrane-e64]: Cochrane 手册 2024，第 14 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e64)
+[^higgins2024cochrane-e65]: Cochrane 手册 2024，第 14 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e65)
+[^higgins2024cochrane-e66]: Cochrane 手册 2024，第 14 章 §14.2。[证据](../../sources/notes/higgins2024cochrane.md#e66)
+[^higgins2024cochrane-e67]: Cochrane 手册 2024，第 14 章 §14.2（强制要求 C74）。[证据](../../sources/notes/higgins2024cochrane.md#e67)
+[^higgins2024cochrane-e68]: Cochrane 手册 2024，第 14 章 §14.2（强制要求 C75）。[证据](../../sources/notes/higgins2024cochrane.md#e68)
+[^higgins2024cochrane-e69]: Cochrane 手册 2024，第 14 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e69)
+[^higgins2024cochrane-e70]: Cochrane 手册 2024，第 III 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e70)
+[^higgins2024cochrane-e71]: Cochrane 手册 2024，第 10 章 §10.4.4。[证据](../../sources/notes/higgins2024cochrane.md#e71)
+[^higgins2024cochrane-e72]: Cochrane 手册 2024，第 10 章要点。[证据](../../sources/notes/higgins2024cochrane.md#e72)
+[^higgins2024cochrane-e73]: Cochrane 手册 2024，第 10 章 §10.10.3（强制要求 C69）。[证据](../../sources/notes/higgins2024cochrane.md#e73)
+[^higgins2024cochrane-e74]: Cochrane 手册 2024，第 14 章 §14.2。[证据](../../sources/notes/higgins2024cochrane.md#e74)
+[^higgins2024cochrane-e5]: Cochrane 手册 2024，第 1 章 §1.2。[证据](../../sources/notes/higgins2024cochrane.md#e5)
+[^higgins2024cochrane-e8]: Cochrane 手册 2024，第 24 章 §24.1。[证据](../../sources/notes/higgins2024cochrane.md#e8)
+[^higgins2024cochrane-e75]: Cochrane 手册 2024，第 10 章 §10.10.3。[证据](../../sources/notes/higgins2024cochrane.md#e75)
+[^crd2023prospero-e1]: PROSPERO 网站 2023 年存档，Registering a review。[证据](../../sources/notes/crd2023prospero.md#e1)
+[^crd2023prospero-e2]: PROSPERO 网站 2023 年存档，Registering a review。[证据](../../sources/notes/crd2023prospero.md#e2)
+[^crd2023prospero-e3]: PROSPERO 网站 2023 年存档，Inclusion criteria。[证据](../../sources/notes/crd2023prospero.md#e3)
+[^crd2023prospero-e4]: PROSPERO 网站 2023 年存档，Requirements for registration。[证据](../../sources/notes/crd2023prospero.md#e4)
+[^crd2023prospero-e5]: PROSPERO 网站 2023 年存档，Integrity of data and prospective registration。[证据](../../sources/notes/crd2023prospero.md#e5)
+[^crd2023prospero-e6]: PROSPERO 网站 2023 年存档，PROSPERO does not accept。[证据](../../sources/notes/crd2023prospero.md#e6)
+[^crd2023prospero-e7]: PROSPERO 网站 2023 年存档，登记资格自查页。[证据](../../sources/notes/crd2023prospero.md#e7)
+[^crd2023prospero-e8]: PROSPERO 网站 2023 年存档，登记资格自查页。[证据](../../sources/notes/crd2023prospero.md#e8)
+[^crd2023prospero-e9]: PROSPERO 网站 2023 年存档，首页通知。[证据](../../sources/notes/crd2023prospero.md#e9)
+[^crd2023prospero-e10]: PROSPERO 网站 2023 年存档，When to register your review。[证据](../../sources/notes/crd2023prospero.md#e10)
+[^crd2023prospero-e11]: PROSPERO 网站 2023 年存档，Other considerations。[证据](../../sources/notes/crd2023prospero.md#e11)
+[^page2021prisma-e6]: PRISMA 2020（Page 等人 2021），第 24a 项。[证据](../../sources/notes/page2021prisma.md#e6)
+[^page2021prisma-e7]: PRISMA 2020，第 24b、24c 项。[证据](../../sources/notes/page2021prisma.md#e7)
+[^page2021prisma-e8]: PRISMA 2020，第 12 项。[证据](../../sources/notes/page2021prisma.md#e8)
+[^page2021prisma-e9]: PRISMA 2020，第 13d 项。[证据](../../sources/notes/page2021prisma.md#e9)
+[^page2021prisma-e10]: PRISMA 2020，第 13e、13f 项。[证据](../../sources/notes/page2021prisma.md#e10)
+[^page2021prisma-e11]: PRISMA 2020，第 14、15 项。[证据](../../sources/notes/page2021prisma.md#e11)
+[^page2021prisma-e12]: PRISMA 2020，第 18 项。[证据](../../sources/notes/page2021prisma.md#e12)
+[^page2021prisma-e13]: PRISMA 2020，第 20b 项。[证据](../../sources/notes/page2021prisma.md#e13)
+[^page2021prisma-e14]: PRISMA 2020，第 27 项。[证据](../../sources/notes/page2021prisma.md#e14)
+[^page2021prisma-e15]: PRISMA 2020，引言。[证据](../../sources/notes/page2021prisma.md#e15)
+[^page2021prisma-e16]: PRISMA 2020，引言。[证据](../../sources/notes/page2021prisma.md#e16)
+[^murad2016new-e5]: Murad 等人 2016，Rationale for modification 2。[证据](../../sources/notes/murad2016new.md#e5)
+[^schunemann2013grade-e1]: GRADE 手册 2013，表 5.1。[证据](../../sources/notes/schunemann2013grade.md#e1)
+[^schunemann2013grade-e3]: GRADE 手册 2013，§5。[证据](../../sources/notes/schunemann2013grade.md#e3)
+[^schunemann2013grade-e4]: GRADE 手册 2013，§5.3.1。[证据](../../sources/notes/schunemann2013grade.md#e4)

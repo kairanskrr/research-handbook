@@ -4,7 +4,7 @@
 
 本文讲细胞生物学、分子生物学里常见的一类研究：在实验台上用培养的细胞、提取的分子和试剂做处理，和对照比较，检验一个假设。重点是一个实验从设计到写进论文，每一步具体怎么做。
 
-实验单位、两种重复、对照、随机、盲法、试剂验证、记录本的规矩，以及动物实验的 3R 原则和 ARRIVE 报告规范，见[生物科学领域概况](../README.md)。临床前研究（进入人体试验之前的细胞和动物研究）的报告要求、《英国药理学杂志》的规定、抗体验证，见[基础医学领域概况](../../basic-medicine/README.md)。统计的一般做法见主线章节[报告差多少、有多确定，而不只是 p 值](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。本文只讲实验台上具体怎么做。
+实验单位、两种重复、对照、随机、盲法、试剂验证、记录本的规矩，以及动物实验的 3R 原则和 ARRIVE 报告规范，见[生物科学领域概况](../07_fields/biological-sciences/README.md)。临床前研究（进入人体试验之前的细胞和动物研究）的报告要求、《英国药理学杂志》的规定、抗体验证，见[基础医学领域概况](../07_fields/basic-medicine/README.md)。统计的一般做法见主线章节[报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。本文只讲实验台上具体怎么做。
 
 **读完本文，你应该能：**
 
@@ -20,9 +20,9 @@
 
 实验台实验回答"改变这个因素，结果会不会变"这类问题 `[本项目分析]`。例如敲低某个基因后，细胞增殖会不会变慢。基本做法是一次只改变一个因素，其他因素保持不变[^vaux2012replicates-e6]。
 
-它和研究方法里的[对照实验](../../../06_methods/controlled_experiment.md)逻辑相同：操纵一个变量，随机分组，控制其他条件。不同在于，人类参与者天然是独立的个体；在实验台上，"独立的个体"（实验单位）要靠你自己设计出来，这里最容易出错 `[本项目分析]`。和动物实验相比，细胞实验不涉及动物福利审批，但伪重复、试剂出错、批次效应、图像处理越界这些风险是一样的 `[本项目分析]`。
+它和研究方法里的[对照实验](controlled_experiment.md)逻辑相同：操纵一个变量，随机分组，控制其他条件。不同在于，人类参与者天然是独立的个体；在实验台上，"独立的个体"（实验单位）要靠你自己设计出来，这里最容易出错 `[本项目分析]`。和动物实验相比，细胞实验不涉及动物福利审批，但伪重复、试剂出错、批次效应、图像处理越界这些风险是一样的 `[本项目分析]`。
 
-**先分清探索性实验和验证性实验。** 探索性实验测多个指标、在数据里找规律、提出假设；预实验也属于这一类[^perciedusert2020reporting-e12]。验证性实验检验一个具体的假设：事先估算样本量，事先定好主要结局指标，用推断统计分析[^perciedusert2020reporting-e13]。探索性实验的结果只能当作"提出的假设"，要靠后续的验证性实验来确认，详见[基础医学领域概况](../../basic-medicine/README.md#分清探索性实验和验证性实验)[^landis2012call-e12][^landis2012call-e17]。新手常把探索时看到的现象直接写成结论 `[本项目分析]`。
+**先分清探索性实验和验证性实验。** 探索性实验测多个指标、在数据里找规律、提出假设；预实验也属于这一类[^perciedusert2020reporting-e12]。验证性实验检验一个具体的假设：事先估算样本量，事先定好主要结局指标，用推断统计分析[^perciedusert2020reporting-e13]。探索性实验的结果只能当作"提出的假设"，要靠后续的验证性实验来确认，详见[基础医学领域概况](../07_fields/basic-medicine/README.md#分清探索性实验和验证性实验)[^landis2012call-e12][^landis2012call-e17]。新手常把探索时看到的现象直接写成结论 `[本项目分析]`。
 
 ---
 
@@ -36,7 +36,7 @@
 
 **为什么**：没有事先定好主要结局，或收完数据再换，容易只挑显著的结果来报告。事先登记研究方案，可以免于"选择性报告结局"（也叫 p 值操纵，p-hacking）的嫌疑[^perciedusert2020reporting-e25]。
 
-**容易错在哪**：统计显著不等于生物学上重要[^cumming2007error-e7]。只看到部分效应，就不要说某个基因"必需"（见[领域概况](../README.md#对照随机分组和盲法)）。
+**容易错在哪**：统计显著不等于生物学上重要[^cumming2007error-e7]。只看到部分效应，就不要说某个基因"必需"（见[领域概况](../07_fields/biological-sciences/README.md#对照随机分组和盲法)）。
 
 ### 第 2 步：画出层级，找到实验单位
 
@@ -52,11 +52,11 @@
 
 **为什么**：重复做在了错误的层次上，实验做完以后再巧妙的统计方法也补救不了[^lazic2018what-e1]。这个错误不少见：Lazic 等人检索了 2011 年 1 月到 2016 年 9 月发表的一批动物研究论文，只有 22% 做了真正的重复，46% 有伪重复[^lazic2018what-e9]。这是动物研究的数据，细胞实验的比例本文资料未涉及 `[本项目分析]`。
 
-> **不同的看法：要不要用"生物学重复 / 技术重复"这对说法？** 领域概况沿用了这对说法（[见此](../README.md#先弄清实验单位再算-n)）。Lazic 等人认为它定义不一致，也说不清该重复什么，主张改用上面三种单位来想[^lazic2018what-e2]。他们也承认，把哪一层当作 n 是一个科学判断，看法可能不同，但标准越严，结果越可信[^lazic2018what-e6]。实际建议 `[本项目分析]`：组里可以继续用"生物学重复"这个词，但设计时用上面三条标准逐一检查；拿不准就选更严的那一层，并在论文里写清 n 指的是什么。
+> **不同的看法：要不要用"生物学重复 / 技术重复"这对说法？** 领域概况沿用了这对说法（[见此](../07_fields/biological-sciences/README.md#先弄清实验单位再算-n)）。Lazic 等人认为它定义不一致，也说不清该重复什么，主张改用上面三种单位来想[^lazic2018what-e2]。他们也承认，把哪一层当作 n 是一个科学判断，看法可能不同，但标准越严，结果越可信[^lazic2018what-e6]。实际建议 `[本项目分析]`：组里可以继续用"生物学重复"这个词，但设计时用上面三条标准逐一检查；拿不准就选更严的那一层，并在论文里写清 n 指的是什么。
 
 ### 第 3 步：设计对照
 
-**怎么做**：阴性对照、阳性对照的作用见[领域概况](../README.md#对照随机分组和盲法)。落到实验台上，例如：敲低实验配一个无关序列的对照，药物实验配一个溶剂对照，再配一个已知有效的处理作阳性对照 `[本项目分析]`。
+**怎么做**：阴性对照、阳性对照的作用见[领域概况](../07_fields/biological-sciences/README.md#对照随机分组和盲法)。落到实验台上，例如：敲低实验配一个无关序列的对照，药物实验配一个溶剂对照，再配一个已知有效的处理作阳性对照 `[本项目分析]`。
 
 **容易错在哪**：对照组和处理组不在同一天做、不用同一批试剂。样品分批处理时不注意安排，就可能把批次效应误当成处理效应[^landis2012call-e7]。
 
@@ -71,7 +71,7 @@
 
 **为什么**：统计功效低时，真实的效应更容易漏掉；即使测到了，效应量也常被高估[^perciedusert2020reporting-e14]。"显著了就停，不显著就再加几次"正是事先定停止规则要防的做法[^landis2012call-e9]，它会增加假阳性的机会 `[本项目分析]`。
 
-**容易错在哪**：有的期刊对 n 和显著性阈值有硬性规定。例如《英国药理学杂志》（British Journal of Pharmacology）2018 年的指南规定，做统计分析的数据每组 n 至少为 5[^curtis2018experimental-e14]，显著性阈值写在方法部分、结果部分不能再换[^curtis2018experimental-e5]。这只是这一家期刊的规定，其他期刊以各自的作者须知为准；该刊的其他规定见[基础医学领域概况](../../basic-medicine/README.md#一家药理学期刊的具体规定英国药理学杂志) `[本项目分析]`。
+**容易错在哪**：有的期刊对 n 和显著性阈值有硬性规定。例如《英国药理学杂志》（British Journal of Pharmacology）2018 年的指南规定，做统计分析的数据每组 n 至少为 5[^curtis2018experimental-e14]，显著性阈值写在方法部分、结果部分不能再换[^curtis2018experimental-e5]。这只是这一家期刊的规定，其他期刊以各自的作者须知为准；该刊的其他规定见[基础医学领域概况](../07_fields/basic-medicine/README.md#一家药理学期刊的具体规定英国药理学杂志) `[本项目分析]`。
 
 ### 第 5 步：在实验台上做随机和盲法
 
@@ -91,15 +91,15 @@
 
 ### 第 7 步：确认试剂和细胞系
 
-为什么要验证，见[领域概况](../README.md#试剂抗体和细胞系要验证)。具体到实验台上：
+为什么要验证，见[领域概况](../07_fields/biological-sciences/README.md#试剂抗体和细胞系要验证)。具体到实验台上：
 
 - **细胞系**：新到的细胞系先做身份鉴定 `[本项目分析]`。短串联重复序列分析是公认的鉴定标准[^freedman2015economics-e3]。花费不大：Freedman 等人估算，对一项美国国立卫生研究院（NIH）资助、平均 45 万美元的四年期课题，从可靠来源买细胞系并每年鉴定一次，约 1000 美元，占经费的 0.2%[^freedman2015economics-e10]。
-- **抗体**：在自己的用途和样品中至少做一种验证[^uhlen2016proposal-e6]；验证的思路见[基础医学领域概况](../../basic-medicine/README.md#抗体要按用途验证试剂要写到能被找到)。
+- **抗体**：在自己的用途和样品中至少做一种验证[^uhlen2016proposal-e6]；验证的思路见[基础医学领域概况](../07_fields/basic-medicine/README.md#抗体要按用途验证试剂要写到能被找到)。
 - **记下来**：每种试剂的来源、货号、批号写进记录本 `[本项目分析]`；论文里抗体至少写货号和批号[^uhlen2016proposal-e6]。
 
 ### 第 8 步：边做边记
 
-记录本的通行规矩见[领域概况](../README.md#实验记录本是第一手记录)：按时间顺序记、每条写日期和主题[^schnell2015ten-e10]，做完立即写[^schnell2015ten-e3]。实验台上要额外注意：
+记录本的通行规矩见[领域概况](../07_fields/biological-sciences/README.md#实验记录本是第一手记录)：按时间顺序记、每条写日期和主题[^schnell2015ten-e10]，做完立即写[^schnell2015ten-e3]。实验台上要额外注意：
 
 - **失败的实验也记。** 错误本身是科研过程的一部分，不要擦掉或销毁记录[^schnell2015ten-e11]。写下失败的原因（污染、仪器故障、试剂过期），这是之后判断能否排除这次数据的依据 `[本项目分析]`。
 - **原始图像原样保存，并记下仪器设置**，比如曝光时间、增益[^rossner2004what-e8]。
@@ -172,7 +172,7 @@
 
 ## 4. 常见错误
 
-和领域概况[常见错误](../README.md#常见错误)重复的（伪重复、不鉴定细胞系、方法写得太简略）不再列。
+和领域概况[常见错误](../07_fields/biological-sciences/README.md#常见错误)重复的（伪重复、不鉴定细胞系、方法写得太简略）不再列。
 
 | 错误 | 为什么是问题 |
 |---|---|
@@ -192,79 +192,79 @@
 - **Cumming、Fidler 和 Vaux 2007，Error bars in experimental biology（Journal of Cell Biology）**：误差线规则，讲清 n 和代表性实验。画第一张图前读。
 - **Rossner 和 Yamada 2004，What's in a picture?（Journal of Cell Biology）**：用示例图讲哪些图像处理可以、哪些不行。处理第一张印迹图前读。
 - **Weissgerber 等人 2015，Beyond bar and line graphs（PLOS Biology）**：为什么小样本不该只画柱状图。
-- Vaux 等人 2012 和 ARRIVE 2.0 解释文件见[领域概况](../README.md#延伸阅读)；Landis 等人 2012 和 Curtis 等人 2018 见[基础医学领域概况](../../basic-medicine/README.md#延伸阅读)。
+- Vaux 等人 2012 和 ARRIVE 2.0 解释文件见[领域概况](../07_fields/biological-sciences/README.md#延伸阅读)；Landis 等人 2012 和 Curtis 等人 2018 见[基础医学领域概况](../07_fields/basic-medicine/README.md#延伸阅读)。
 
-[^vaux2012replicates-e6]: Vaux 等人 2012，Sidebar A。[证据](../../../../sources/notes/vaux2012replicates.md#e6)
-[^vaux2012replicates-e8]: Vaux 等人 2012，Sidebar A。[证据](../../../../sources/notes/vaux2012replicates.md#e8)
-[^lazic2018what-e1]: Lazic 等人 2018，Introduction。[证据](../../../../sources/notes/lazic2018what.md#e1)
-[^lazic2018what-e2]: Lazic 等人 2018，Introduction。[证据](../../../../sources/notes/lazic2018what.md#e2)
-[^lazic2018what-e3]: Lazic 等人 2018，Box 2。[证据](../../../../sources/notes/lazic2018what.md#e3)
-[^lazic2018what-e4]: Lazic 等人 2018，Requirements for genuine replication。[证据](../../../../sources/notes/lazic2018what.md#e4)
-[^lazic2018what-e5]: Lazic 等人 2018，Cell culture experiments。[证据](../../../../sources/notes/lazic2018what.md#e5)
-[^lazic2018what-e6]: Lazic 等人 2018，Cell culture experiments。[证据](../../../../sources/notes/lazic2018what.md#e6)
-[^lazic2018what-e7]: Lazic 等人 2018，Requirements for genuine replication。[证据](../../../../sources/notes/lazic2018what.md#e7)
-[^lazic2018what-e8]: Lazic 等人 2018，Analysis of hierarchical data。[证据](../../../../sources/notes/lazic2018what.md#e8)
-[^lazic2018what-e9]: Lazic 等人 2018，What is the extent of the problem? 和 Box 1。[证据](../../../../sources/notes/lazic2018what.md#e9)
-[^lazic2018what-e10]: Lazic 等人 2018，Requirements for genuine replication。[证据](../../../../sources/notes/lazic2018what.md#e10)
-[^cumming2007error-e1]: Cumming 等人 2007，Rule 1。[证据](../../../../sources/notes/cumming2007error.md#e1)
-[^cumming2007error-e2]: Cumming 等人 2007，Rule 2。[证据](../../../../sources/notes/cumming2007error.md#e2)
-[^cumming2007error-e3]: Cumming 等人 2007，Replicates or independent samples—what is n?。[证据](../../../../sources/notes/cumming2007error.md#e3)
-[^cumming2007error-e4]: Cumming 等人 2007，Rule 3。[证据](../../../../sources/notes/cumming2007error.md#e4)
-[^cumming2007error-e5]: Cumming 等人 2007，Rule 4。[证据](../../../../sources/notes/cumming2007error.md#e5)
-[^cumming2007error-e6]: Cumming 等人 2007，Statistical significance tests and P values。[证据](../../../../sources/notes/cumming2007error.md#e6)
-[^cumming2007error-e7]: Cumming 等人 2007，Statistical significance tests and P values。[证据](../../../../sources/notes/cumming2007error.md#e7)
-[^cumming2007error-e8]: Cumming 等人 2007，Replicates or independent samples—what is n?。[证据](../../../../sources/notes/cumming2007error.md#e8)
-[^perciedusert2020reporting-e12]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 13。[证据](../../../../sources/notes/perciedusert2020reporting.md#e12)
-[^perciedusert2020reporting-e13]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 13。[证据](../../../../sources/notes/perciedusert2020reporting.md#e13)
-[^perciedusert2020reporting-e14]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 2b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e14)
-[^perciedusert2020reporting-e15]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 2b 和 Box 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e15)
-[^perciedusert2020reporting-e16]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 2b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e16)
-[^perciedusert2020reporting-e17]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e17)
-[^perciedusert2020reporting-e18]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e18)
-[^perciedusert2020reporting-e19]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e19)
-[^perciedusert2020reporting-e20]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e20)
-[^perciedusert2020reporting-e21]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 4，Box 4。[证据](../../../../sources/notes/perciedusert2020reporting.md#e21)
-[^perciedusert2020reporting-e22]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 4b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e22)
-[^perciedusert2020reporting-e23]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e23)
-[^perciedusert2020reporting-e24]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e24)
-[^perciedusert2020reporting-e25]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 6b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e25)
-[^perciedusert2020reporting-e26]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 7a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e26)
-[^perciedusert2020reporting-e27]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 10a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e27)
-[^perciedusert2020reporting-e28]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 9a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e28)
-[^perciedusert2020reporting-e29]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 1a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e29)
-[^perciedusert2020reporting-e30]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 6b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e30)
-[^perciedusert2020reporting-e31]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 7a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e31)
-[^landis2012call-e9]: Landis 等人 2012，Interim data analysis。[证据](../../../../sources/notes/landis2012call.md#e9)
-[^landis2012call-e7]: Landis 等人 2012，Randomization and blinding。[证据](../../../../sources/notes/landis2012call.md#e7)
-[^landis2012call-e12]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../../../sources/notes/landis2012call.md#e12)
-[^landis2012call-e17]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../../../sources/notes/landis2012call.md#e17)
-[^landis2012call-e15]: Landis 等人 2012，Small effect sizes。[证据](../../../../sources/notes/landis2012call.md#e15)
-[^landis2012call-e6]: Landis 等人 2012，Box 1。[证据](../../../../sources/notes/landis2012call.md#e6)
-[^landis2012call-e1]: Landis 等人 2012，Abstract。[证据](../../../../sources/notes/landis2012call.md#e1)
-[^curtis2018experimental-e14]: Curtis 等人 2018，Key points of the updated guidance。[证据](../../../../sources/notes/curtis2018experimental.md#e14)
-[^curtis2018experimental-e5]: Curtis 等人 2018，Key points of the updated guidance。[证据](../../../../sources/notes/curtis2018experimental.md#e5)
-[^curtis2018experimental-e11]: Curtis 等人 2018，Flexibility and pilot data。[证据](../../../../sources/notes/curtis2018experimental.md#e11)
-[^uhlen2016proposal-e6]: Uhlen 等人 2016，Suggestions for providers and users。[证据](../../../../sources/notes/uhlen2016proposal.md#e6)
-[^freedman2015economics-e3]: Freedman 等人 2015，正文，细胞系的例子。[证据](../../../../sources/notes/freedman2015economics.md#e3)
-[^freedman2015economics-e10]: Freedman 等人 2015，正文，细胞系的例子。[证据](../../../../sources/notes/freedman2015economics.md#e10)
-[^schnell2015ten-e10]: Schnell 2015，Rule 5。[证据](../../../../sources/notes/schnell2015ten.md#e10)
-[^schnell2015ten-e11]: Schnell 2015，Rule 5。[证据](../../../../sources/notes/schnell2015ten.md#e11)
-[^schnell2015ten-e3]: Schnell 2015，Rule 4。[证据](../../../../sources/notes/schnell2015ten.md#e3)
-[^rossner2004what-e1]: Rossner 和 Yamada 2004，引言。[证据](../../../../sources/notes/rossner2004what.md#e1)
-[^rossner2004what-e2]: Rossner 和 Yamada 2004，Journal guidelines。[证据](../../../../sources/notes/rossner2004what.md#e2)
-[^rossner2004what-e3]: Rossner 和 Yamada 2004，Journal guidelines。[证据](../../../../sources/notes/rossner2004what.md#e3)
-[^rossner2004what-e4]: Rossner 和 Yamada 2004，Gross misrepresentation。[证据](../../../../sources/notes/rossner2004what.md#e4)
-[^rossner2004what-e5]: Rossner 和 Yamada 2004，Cleaning up background。[证据](../../../../sources/notes/rossner2004what.md#e5)
-[^rossner2004what-e6]: Rossner 和 Yamada 2004，Splicing lanes together。[证据](../../../../sources/notes/rossner2004what.md#e6)
-[^rossner2004what-e7]: Rossner 和 Yamada 2004，Linear vs. nonlinear adjustments。[证据](../../../../sources/notes/rossner2004what.md#e7)
-[^rossner2004what-e8]: Rossner 和 Yamada 2004，Other data-management issues。[证据](../../../../sources/notes/rossner2004what.md#e8)
-[^rossner2004what-e9]: Rossner 和 Yamada 2004，Brightness/contrast adjustments。[证据](../../../../sources/notes/rossner2004what.md#e9)
-[^rossner2004what-e10]: Rossner 和 Yamada 2004，Other data-management issues。[证据](../../../../sources/notes/rossner2004what.md#e10)
-[^rossner2004what-e11]: Rossner 和 Yamada 2004，Conclusion。[证据](../../../../sources/notes/rossner2004what.md#e11)
-[^weissgerber2015beyond-e1]: Weissgerber 等人 2015，Introduction。[证据](../../../../sources/notes/weissgerber2015beyond.md#e1)
-[^weissgerber2015beyond-e2]: Weissgerber 等人 2015，Introduction。[证据](../../../../sources/notes/weissgerber2015beyond.md#e2)
-[^weissgerber2015beyond-e3]: Weissgerber 等人 2015，Recommendations for a New Data Presentation Paradigm。[证据](../../../../sources/notes/weissgerber2015beyond.md#e3)
-[^weissgerber2015beyond-e4]: Weissgerber 等人 2015，Introduction 和 Are Your Figures Worth a Thousand Words?。[证据](../../../../sources/notes/weissgerber2015beyond.md#e4)
-[^weissgerber2015beyond-e5]: Weissgerber 等人 2015，Are Your Figures Worth a Thousand Words?。[证据](../../../../sources/notes/weissgerber2015beyond.md#e5)
-[^errington2021challenges-e7]: Errington 等人 2021（eLife e67995），Abstract。[证据](../../../../sources/notes/errington2021challenges.md#e7)
-[^errington2021challenges-e8]: Errington 等人 2021（eLife e67995），Requesting assistance from original authors。[证据](../../../../sources/notes/errington2021challenges.md#e8)
+[^vaux2012replicates-e6]: Vaux 等人 2012，Sidebar A。[证据](../../sources/notes/vaux2012replicates.md#e6)
+[^vaux2012replicates-e8]: Vaux 等人 2012，Sidebar A。[证据](../../sources/notes/vaux2012replicates.md#e8)
+[^lazic2018what-e1]: Lazic 等人 2018，Introduction。[证据](../../sources/notes/lazic2018what.md#e1)
+[^lazic2018what-e2]: Lazic 等人 2018，Introduction。[证据](../../sources/notes/lazic2018what.md#e2)
+[^lazic2018what-e3]: Lazic 等人 2018，Box 2。[证据](../../sources/notes/lazic2018what.md#e3)
+[^lazic2018what-e4]: Lazic 等人 2018，Requirements for genuine replication。[证据](../../sources/notes/lazic2018what.md#e4)
+[^lazic2018what-e5]: Lazic 等人 2018，Cell culture experiments。[证据](../../sources/notes/lazic2018what.md#e5)
+[^lazic2018what-e6]: Lazic 等人 2018，Cell culture experiments。[证据](../../sources/notes/lazic2018what.md#e6)
+[^lazic2018what-e7]: Lazic 等人 2018，Requirements for genuine replication。[证据](../../sources/notes/lazic2018what.md#e7)
+[^lazic2018what-e8]: Lazic 等人 2018，Analysis of hierarchical data。[证据](../../sources/notes/lazic2018what.md#e8)
+[^lazic2018what-e9]: Lazic 等人 2018，What is the extent of the problem? 和 Box 1。[证据](../../sources/notes/lazic2018what.md#e9)
+[^lazic2018what-e10]: Lazic 等人 2018，Requirements for genuine replication。[证据](../../sources/notes/lazic2018what.md#e10)
+[^cumming2007error-e1]: Cumming 等人 2007，Rule 1。[证据](../../sources/notes/cumming2007error.md#e1)
+[^cumming2007error-e2]: Cumming 等人 2007，Rule 2。[证据](../../sources/notes/cumming2007error.md#e2)
+[^cumming2007error-e3]: Cumming 等人 2007，Replicates or independent samples—what is n?。[证据](../../sources/notes/cumming2007error.md#e3)
+[^cumming2007error-e4]: Cumming 等人 2007，Rule 3。[证据](../../sources/notes/cumming2007error.md#e4)
+[^cumming2007error-e5]: Cumming 等人 2007，Rule 4。[证据](../../sources/notes/cumming2007error.md#e5)
+[^cumming2007error-e6]: Cumming 等人 2007，Statistical significance tests and P values。[证据](../../sources/notes/cumming2007error.md#e6)
+[^cumming2007error-e7]: Cumming 等人 2007，Statistical significance tests and P values。[证据](../../sources/notes/cumming2007error.md#e7)
+[^cumming2007error-e8]: Cumming 等人 2007，Replicates or independent samples—what is n?。[证据](../../sources/notes/cumming2007error.md#e8)
+[^perciedusert2020reporting-e12]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 13。[证据](../../sources/notes/perciedusert2020reporting.md#e12)
+[^perciedusert2020reporting-e13]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 13。[证据](../../sources/notes/perciedusert2020reporting.md#e13)
+[^perciedusert2020reporting-e14]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 2b。[证据](../../sources/notes/perciedusert2020reporting.md#e14)
+[^perciedusert2020reporting-e15]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 2b 和 Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e15)
+[^perciedusert2020reporting-e16]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 2b。[证据](../../sources/notes/perciedusert2020reporting.md#e16)
+[^perciedusert2020reporting-e17]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3a。[证据](../../sources/notes/perciedusert2020reporting.md#e17)
+[^perciedusert2020reporting-e18]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3a。[证据](../../sources/notes/perciedusert2020reporting.md#e18)
+[^perciedusert2020reporting-e19]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3b。[证据](../../sources/notes/perciedusert2020reporting.md#e19)
+[^perciedusert2020reporting-e20]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 3b。[证据](../../sources/notes/perciedusert2020reporting.md#e20)
+[^perciedusert2020reporting-e21]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 4，Box 4。[证据](../../sources/notes/perciedusert2020reporting.md#e21)
+[^perciedusert2020reporting-e22]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 4b。[证据](../../sources/notes/perciedusert2020reporting.md#e22)
+[^perciedusert2020reporting-e23]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 5。[证据](../../sources/notes/perciedusert2020reporting.md#e23)
+[^perciedusert2020reporting-e24]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 5。[证据](../../sources/notes/perciedusert2020reporting.md#e24)
+[^perciedusert2020reporting-e25]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 6b。[证据](../../sources/notes/perciedusert2020reporting.md#e25)
+[^perciedusert2020reporting-e26]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 7a。[证据](../../sources/notes/perciedusert2020reporting.md#e26)
+[^perciedusert2020reporting-e27]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 10a。[证据](../../sources/notes/perciedusert2020reporting.md#e27)
+[^perciedusert2020reporting-e28]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 9a。[证据](../../sources/notes/perciedusert2020reporting.md#e28)
+[^perciedusert2020reporting-e29]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 1a。[证据](../../sources/notes/perciedusert2020reporting.md#e29)
+[^perciedusert2020reporting-e30]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 6b。[证据](../../sources/notes/perciedusert2020reporting.md#e30)
+[^perciedusert2020reporting-e31]: Percie du Sert 等人 2020（ARRIVE 2.0 解释文件），Item 7a。[证据](../../sources/notes/perciedusert2020reporting.md#e31)
+[^landis2012call-e9]: Landis 等人 2012，Interim data analysis。[证据](../../sources/notes/landis2012call.md#e9)
+[^landis2012call-e7]: Landis 等人 2012，Randomization and blinding。[证据](../../sources/notes/landis2012call.md#e7)
+[^landis2012call-e12]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../sources/notes/landis2012call.md#e12)
+[^landis2012call-e17]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../sources/notes/landis2012call.md#e17)
+[^landis2012call-e15]: Landis 等人 2012，Small effect sizes。[证据](../../sources/notes/landis2012call.md#e15)
+[^landis2012call-e6]: Landis 等人 2012，Box 1。[证据](../../sources/notes/landis2012call.md#e6)
+[^landis2012call-e1]: Landis 等人 2012，Abstract。[证据](../../sources/notes/landis2012call.md#e1)
+[^curtis2018experimental-e14]: Curtis 等人 2018，Key points of the updated guidance。[证据](../../sources/notes/curtis2018experimental.md#e14)
+[^curtis2018experimental-e5]: Curtis 等人 2018，Key points of the updated guidance。[证据](../../sources/notes/curtis2018experimental.md#e5)
+[^curtis2018experimental-e11]: Curtis 等人 2018，Flexibility and pilot data。[证据](../../sources/notes/curtis2018experimental.md#e11)
+[^uhlen2016proposal-e6]: Uhlen 等人 2016，Suggestions for providers and users。[证据](../../sources/notes/uhlen2016proposal.md#e6)
+[^freedman2015economics-e3]: Freedman 等人 2015，正文，细胞系的例子。[证据](../../sources/notes/freedman2015economics.md#e3)
+[^freedman2015economics-e10]: Freedman 等人 2015，正文，细胞系的例子。[证据](../../sources/notes/freedman2015economics.md#e10)
+[^schnell2015ten-e10]: Schnell 2015，Rule 5。[证据](../../sources/notes/schnell2015ten.md#e10)
+[^schnell2015ten-e11]: Schnell 2015，Rule 5。[证据](../../sources/notes/schnell2015ten.md#e11)
+[^schnell2015ten-e3]: Schnell 2015，Rule 4。[证据](../../sources/notes/schnell2015ten.md#e3)
+[^rossner2004what-e1]: Rossner 和 Yamada 2004，引言。[证据](../../sources/notes/rossner2004what.md#e1)
+[^rossner2004what-e2]: Rossner 和 Yamada 2004，Journal guidelines。[证据](../../sources/notes/rossner2004what.md#e2)
+[^rossner2004what-e3]: Rossner 和 Yamada 2004，Journal guidelines。[证据](../../sources/notes/rossner2004what.md#e3)
+[^rossner2004what-e4]: Rossner 和 Yamada 2004，Gross misrepresentation。[证据](../../sources/notes/rossner2004what.md#e4)
+[^rossner2004what-e5]: Rossner 和 Yamada 2004，Cleaning up background。[证据](../../sources/notes/rossner2004what.md#e5)
+[^rossner2004what-e6]: Rossner 和 Yamada 2004，Splicing lanes together。[证据](../../sources/notes/rossner2004what.md#e6)
+[^rossner2004what-e7]: Rossner 和 Yamada 2004，Linear vs. nonlinear adjustments。[证据](../../sources/notes/rossner2004what.md#e7)
+[^rossner2004what-e8]: Rossner 和 Yamada 2004，Other data-management issues。[证据](../../sources/notes/rossner2004what.md#e8)
+[^rossner2004what-e9]: Rossner 和 Yamada 2004，Brightness/contrast adjustments。[证据](../../sources/notes/rossner2004what.md#e9)
+[^rossner2004what-e10]: Rossner 和 Yamada 2004，Other data-management issues。[证据](../../sources/notes/rossner2004what.md#e10)
+[^rossner2004what-e11]: Rossner 和 Yamada 2004，Conclusion。[证据](../../sources/notes/rossner2004what.md#e11)
+[^weissgerber2015beyond-e1]: Weissgerber 等人 2015，Introduction。[证据](../../sources/notes/weissgerber2015beyond.md#e1)
+[^weissgerber2015beyond-e2]: Weissgerber 等人 2015，Introduction。[证据](../../sources/notes/weissgerber2015beyond.md#e2)
+[^weissgerber2015beyond-e3]: Weissgerber 等人 2015，Recommendations for a New Data Presentation Paradigm。[证据](../../sources/notes/weissgerber2015beyond.md#e3)
+[^weissgerber2015beyond-e4]: Weissgerber 等人 2015，Introduction 和 Are Your Figures Worth a Thousand Words?。[证据](../../sources/notes/weissgerber2015beyond.md#e4)
+[^weissgerber2015beyond-e5]: Weissgerber 等人 2015，Are Your Figures Worth a Thousand Words?。[证据](../../sources/notes/weissgerber2015beyond.md#e5)
+[^errington2021challenges-e7]: Errington 等人 2021（eLife e67995），Abstract。[证据](../../sources/notes/errington2021challenges.md#e7)
+[^errington2021challenges-e8]: Errington 等人 2021（eLife e67995），Requesting assistance from original authors。[证据](../../sources/notes/errington2021challenges.md#e8)

@@ -6,7 +6,7 @@
 
 相近的几篇：数据怎样从代码仓库、缺陷库里挖出来，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；比较现有工具或模型谁更好，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；提出新的学习方法或工具，见[工程研究](../07_fields/computer-science/practices/engineering_research.md)。基线怎么选，见[构建改进：尽早把基线跑起来](../05_research-strategies/build_improve.md#尽早把基线跑起来)；测试数据为什么只用一次、怎样对待随机性，见[比较评估：留一份数据只用于最后检验](../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验)和[比较评估：差异是不是真的](../05_research-strategies/compare_evaluate.md#差异是不是真的)；统计的一般做法见[分析与解读：报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。这些是各类研究共通的内容，本文只讲数据科学特有的部分。
 
-**适用范围** `[本项目分析]`：本文的检查清单主要依据 ACM SIGSOFT（美国计算机协会软件工程分会）为软件工程写的数据科学标准，很多例子来自软件工程、系统安全和机器学习。防数据泄漏的部分依据跨学科的资料：REFORMS 清单由计算机、社会科学、生物医学等领域的研究者共同制定，数据泄漏的调查覆盖 17 个领域（见第 2 节）。其他学科用预测或统计建模做研究时，这部分可以直接参考；统计建模和报告的其他要求，先看本学科的规范，例如健康领域用观察数据研究病因时，见[观察性流行病学研究](../07_fields/health-sciences/research-types/observational_epidemiology.md)。
+**适用范围** `[本项目分析]`：本文的检查清单主要依据 ACM SIGSOFT（美国计算机协会软件工程分会）为软件工程写的数据科学标准，很多例子来自软件工程、系统安全和机器学习。防数据泄漏的部分依据跨学科的资料：REFORMS 清单由计算机、社会科学、生物医学等领域的研究者共同制定，数据泄漏的调查覆盖 17 个领域（见第 2 节）。其他学科用预测或统计建模做研究时，这部分可以直接参考；统计建模和报告的其他要求，先看本学科的规范，例如健康领域用观察数据研究病因时，见[观察性流行病学研究](observational_epidemiology.md)。
 
 **常服务的套路**：[观察描述](../05_research-strategies/observe_describe.md)（对已有数据集做探索性分析）。
 

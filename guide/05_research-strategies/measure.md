@@ -64,8 +64,8 @@
 | 方法 | 能给你什么 | 去哪里看 |
 |---|---|---|
 | 基准评测 | 检查一个评测集或指标是否测到了想测的东西；数据污染的检查办法 | [基准评测](../07_fields/computer-science/practices/benchmarking.md#3-基准本身有效吗) |
-| 量表编制 | 定义构念、编题、信度、效度、测量不变性的完整流程 | [量表编制与测量研究](../07_fields/psychology/research-types/scale_development.md) |
-| 实验测量 | 定义被测量、校准、系统效应、不确定度预算 | [实验测量研究](../07_fields/physical-sciences/research-types/experimental_measurement.md) |
+| 量表编制 | 定义构念、编题、信度、效度、测量不变性的完整流程 | [量表编制与测量研究](../06_methods/scale_development.md) |
+| 实验测量 | 定义被测量、校准、系统效应、不确定度预算 | [实验测量研究](../06_methods/experimental_measurement.md) |
 | 问卷调查 | 测抽象概念时怎样选用验证过的量表 | [问卷调查](../06_methods/questionnaire_survey.md#第四步测量抽象概念时用验证过的量表) |
 | 复现研究 | 换一套数据或测法重做，看原结论是否还在 | [复现研究](../06_methods/replication.md) |
 | 方法论研究与元科学 | 系统调查一个领域的论文测量做得怎么样 | [方法论研究与元科学](../06_methods/meta_science.md) |

@@ -109,11 +109,11 @@
 |---|---|---|
 | 能改变 X，对象是软件系统或模型 | 系统上的受控实验、消融，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)、[工程研究](../07_fields/computer-science/practices/engineering_research.md) | 只改一处，其他完全相同，多次运行 |
 | 能改变 X，对象是人 | [对照实验](../06_methods/controlled_experiment.md) | 随机分组，只让一个因素不同 |
-| 评价一种医疗干预 | [随机对照试验](../07_fields/clinical-medicine/research-types/randomized_controlled_trial.md) | 随机分配，按医学的报告规范写清分组和实施过程 |
-| 能和政府、企业合作，在真实世界里随机 | [田野实验](../07_fields/economics/research-types/field_experiment.md) | 在真实运行的项目里随机分组 |
-| 不能随机，但有制度规则或自然事件造成的变化 | [准实验与因果识别](../07_fields/economics/research-types/quasi_experiment.md) | 论证处理的变化"近似随机" |
-| 只有观察数据，关心病因或干预效果 | [观察性流行病学](../07_fields/health-sciences/research-types/observational_epidemiology.md) | 写出目标试验，调整混杂因素 |
-| 想弄清一个或几个案例里事情怎样发生 | [过程追踪](../07_fields/political-science/research-types/process_tracing.md)、[案例研究](../06_methods/case_study.md) | 在案例内部逐步检验机制 |
+| 评价一种医疗干预 | [随机对照试验](../06_methods/randomized_controlled_trial.md) | 随机分配，按医学的报告规范写清分组和实施过程 |
+| 能和政府、企业合作，在真实世界里随机 | [田野实验](../06_methods/field_experiment.md) | 在真实运行的项目里随机分组 |
+| 不能随机，但有制度规则或自然事件造成的变化 | [准实验与因果识别](../06_methods/quasi_experiment.md) | 论证处理的变化"近似随机" |
+| 只有观察数据，关心病因或干预效果 | [观察性流行病学](../06_methods/observational_epidemiology.md) | 写出目标试验，调整混杂因素 |
+| 想弄清一个或几个案例里事情怎样发生 | [过程追踪](../06_methods/process_tracing.md)、[案例研究](../06_methods/case_study.md) | 在案例内部逐步检验机制 |
 
 几点说明：
 

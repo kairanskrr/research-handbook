@@ -34,7 +34,7 @@
 
 - **你是任课教师，又是研究者。** Scott 等人的分法是：问题是"我怎样改进自己的课堂"，更接近行动研究；问题能产出可推广、可能广泛影响教学的结果，才符合基于设计的研究[^scott2020design-e6][^scott2020design-e7]。
 - **你的目标是"证明这个干预有效"。** 那更像是效力研究或有效性研究的任务 `[本项目分析]`。美国教育科学研究所（Institute of Education Sciences，IES）和美国国家科学基金会（National Science Foundation，NSF）这两家资助方，为它们资助的教育研究划分了几种类型，见领域概况的[证据链一节](../README.md#一项研究常常只做证据链上的一段)。基于设计的研究大致对应其中的"设计与开发研究" `[本项目分析]`：依据已有理论和证据，迭代地设计开发干预[^ies2013common-e4]；按这两家的要求，项目结束时要交出一套"行动理论"（说明干预为什么会起作用的一串因果设想）、一组干预组成部分，以及有希望改善结果的**初步**证据[^ies2013common-e10]。
-- **和其他学科对照** `[本项目分析]`。计算机篇的[工程研究](../../computer-science/practices/engineering_research.md)也"造东西再评估"；艺术领域的[基于实践的研究](../../arts/research-types/practice_based_research.md)以创作本身为研究。基于设计的研究的特点是在真实课堂里、和教师一起、边改边研究。
+- **和其他学科对照** `[本项目分析]`。计算机篇的[工程研究](../../computer-science/practices/engineering_research.md)也"造东西再评估"；艺术领域的[基于实践的研究](../../arts/practices/practice_based_research.md)以创作本身为研究。基于设计的研究的特点是在真实课堂里、和教师一起、边改边研究。
 
 **时间要算够。** 迭代多，很难知道什么时候算做完[^anderson2012design-e3]。Anderson 和 Shattuck 提到，Herrington 等人 2007 年专门写文章，讨论怎样在四年里把它做成博士论文[^anderson2012design-e7]；他们自己提出的部分解决办法，是资深研究者设立多年期计划，让研究生承担并"拥有"其中重要的一块[^anderson2012design-e18]。硕士或短期博士项目，可以只做一到两轮，并在开题时说清楚 `[本项目分析]`。
 

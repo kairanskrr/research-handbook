@@ -152,9 +152,9 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[实验台实验（湿实验）](research-types/bench_experiment.md)。
+**本领域的研究类型文档**：[实验台实验（湿实验）](../../06_methods/bench_experiment.md)。
 
-**相关学科的研究类型文档**：[临床前动物研究](../basic-medicine/research-types/preclinical_animal_study.md)。
+**相关学科的研究类型文档**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)。
 
 下面是本领域常见的研究方法。分组和"相通"的判断为本项目分析 `[本项目分析]`。
 

@@ -72,9 +72,9 @@
 | [优化研究](../07_fields/computer-science/practices/optimization_study.md)（计算机） | 把问题写成"在很多候选解中找最好的"，用搜索算法求解 |
 | [定量仿真](../06_methods/simulation_study.md)（跨学科方法） | 真实系统不便直接实验时，在模型上评估新设计 |
 | [对照实验](../06_methods/controlled_experiment.md)（跨学科方法） | 主张涉及人时（如"开发者用新工具更快找到漏洞"），请人参与比较 |
-| [基于设计的研究](../07_fields/education/research-types/design_based_research.md)（教育） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
-| [合成与表征研究](../07_fields/chemistry/research-types/synthesis_study.md)（化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
-| [基于实践的研究](../07_fields/arts/research-types/practice_based_research.md)（艺术） | 以创作出的作品作为知识贡献的基础 |
+| [基于设计的研究](../07_fields/education/practices/design_based_research.md)（教育） | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 |
+| [合成与表征研究](../06_methods/synthesis_study.md)（化学） | 新反应、新路线的方法学研究，用底物范围和产率说明能做什么、不能做什么 |
+| [基于实践的研究](../07_fields/arts/practices/practice_based_research.md)（艺术） | 以创作出的作品作为知识贡献的基础 |
 
 一个项目常常组合几种方法：例如用基准评测证明效果，再用一个小规模的对照实验说明开发者确实用得上 `[本项目分析]`。
 
@@ -155,7 +155,7 @@
 - **设计问题和知识问题**：Easterbrook 等人 2008，§2。
 - **评估会在哪里出错**：Lipton & Steinhardt 2019《Troubling Trends in Machine Learning Scholarship》。
 - **计算机的具体做法**：计算机篇的[工程研究](../07_fields/computer-science/practices/engineering_research.md)，含检查清单。
-- **非计算机的例子**：[基于设计的研究](../07_fields/education/research-types/design_based_research.md)。
+- **非计算机的例子**：[基于设计的研究](../07_fields/education/practices/design_based_research.md)。
 
 [^easterbrook2008selecting-e28]: Easterbrook 等人 2008，§2.0。[证据](../../sources/notes/easterbrook2008selecting.md#e28)
 [^easterbrook2008selecting-e29]: Easterbrook 等人 2008，§2.0。[证据](../../sources/notes/easterbrook2008selecting.md#e29)

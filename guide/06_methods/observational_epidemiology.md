@@ -4,7 +4,7 @@
 
 本文讲怎样做好三种最常见的观察性流行病学研究：**队列研究、病例对照研究、横断面研究**。观察性研究的意思是：研究者不施加干预，只是"观察"[^song2010observational-e1]。
 
-[健康科学领域概况](../README.md)已经讲过[观察性研究的三个坑](../README.md#观察性研究的三个坑)（混杂、测量不准、谁参加了研究），也讲过[先说清关联还是因果](../README.md#动手前先说清你要回答关联问题还是因果问题)和"目标试验"的基本想法；三种设计的一句话定义见[临床医学篇](../../clinical-medicine/README.md#常见的研究类型)。本文默认你读过这些，只讲**具体怎么做**。用登记、医保、电子病历等现成数据时的报告要求，见领域概况的[这一节](../README.md#用常规收集的数据写清编码链接和数据的来历)，本文只补充几条。
+[健康科学领域概况](../07_fields/health-sciences/README.md)已经讲过[观察性研究的三个坑](../07_fields/health-sciences/README.md#观察性研究的三个坑)（混杂、测量不准、谁参加了研究），也讲过[先说清关联还是因果](../07_fields/health-sciences/README.md#动手前先说清你要回答关联问题还是因果问题)和"目标试验"的基本想法；三种设计的一句话定义见[临床医学篇](../07_fields/clinical-medicine/README.md#常见的研究类型)。本文默认你读过这些，只讲**具体怎么做**。用登记、医保、电子病历等现成数据时的报告要求，见领域概况的[这一节](../07_fields/health-sciences/README.md#用常规收集的数据写清编码链接和数据的来历)，本文只补充几条。
 
 **读完本文，你应该能：** 按问题选对设计；写清暴露、结局和随访起点，选好对照；用因果图挑选要调整的混杂因素，认出选择偏倚和信息偏倚；设计敏感性分析，并按报告规范写论文。
 
@@ -30,15 +30,15 @@
 
 **和相近类型的区别** `[本项目分析]`：
 
-- **随机对照试验**：研究者分配干预，见[临床医学篇](../../clinical-medicine/README.md#常见的研究类型)。观察性研究的因果分析，可以看作在模拟一个做不了的试验（见第一步）。
-- **研究方法里的[数据科学研究](../../../06_methods/data_science.md)**：那里重点是预测，防的是数据泄漏；本文的研究多数想回答病因或效果问题，主要对手是混杂和偏倚。用同一份电子病历，"预测谁会再入院"和"某种药是否减少再入院"是两种研究。
-- **研究方法里的[纵向研究](../../../06_methods/longitudinal_study.md)**：队列研究也是长期重复观察同一批人，那篇讲的时点选择、流失、相依数据分析都适用。不同的是，队列研究的核心是**比较暴露组和非暴露组的结局**，所以要多花力气在混杂和选择偏倚上。
+- **随机对照试验**：研究者分配干预，见[临床医学篇](../07_fields/clinical-medicine/README.md#常见的研究类型)。观察性研究的因果分析，可以看作在模拟一个做不了的试验（见第一步）。
+- **研究方法里的[数据科学研究](data_science.md)**：那里重点是预测，防的是数据泄漏；本文的研究多数想回答病因或效果问题，主要对手是混杂和偏倚。用同一份电子病历，"预测谁会再入院"和"某种药是否减少再入院"是两种研究。
+- **研究方法里的[纵向研究](longitudinal_study.md)**：队列研究也是长期重复观察同一批人，那篇讲的时点选择、流失、相依数据分析都适用。不同的是，队列研究的核心是**比较暴露组和非暴露组的结局**，所以要多花力气在混杂和选择偏倚上。
 
 ## 2. 怎么做
 
 ### 第一步：把问题写成一个"目标试验"
 
-先分清关联问题还是因果问题：纯粹描述关联，不需要调整混杂[^hernan2018cword-e7]（理由见[领域概况](../README.md#动手前先说清你要回答关联问题还是因果问题)）。如果是因果问题，先写出你想做但做不了的那个试验的方案，再说明怎样用观察性数据去模拟它[^hernan2020whatif-e1][^hernan2016target-e1]。
+先分清关联问题还是因果问题：纯粹描述关联，不需要调整混杂[^hernan2018cword-e7]（理由见[领域概况](../07_fields/health-sciences/README.md#动手前先说清你要回答关联问题还是因果问题)）。如果是因果问题，先写出你想做但做不了的那个试验的方案，再说明怎样用观察性数据去模拟它[^hernan2020whatif-e1][^hernan2016target-e1]。
 
 **怎么做**：Hernán 和 Robins 2016 年的文章列出目标试验方案的 7 个部分，逐项写下来[^hernan2016target-e2]：
 
@@ -75,7 +75,7 @@
 
 ### 第四步：测量暴露，尤其是自我报告和饮食
 
-为什么测不准会出问题，见领域概况的[坑二](../README.md#坑二暴露测不准尤其是饮食)。具体做法：
+为什么测不准会出问题，见领域概况的[坑二](../07_fields/health-sciences/README.md#坑二暴露测不准尤其是饮食)。具体做法：
 
 - **两组用同样的方法测。** 访谈者先问完所有病例再问对照，会因为越问越熟练带来偏倚，可以随机安排访谈顺序[^vandenbroucke2007strobe-e25]。STROBE 解释文章引用的一个例子：匹配的病例和对照的样本总在同一批次检测，实验室人员分不出谁是病例[^vandenbroucke2007strobe-e45]。
 - **能设盲就设盲。** 病例回忆或报告过去暴露的准确程度可能和对照不同（回忆偏倚）；访谈者知道研究假设，可能有意无意地选择性收集数据[^vandenbroucke2007strobe-e26]。What If 一书的例子：分娩后才让母亲回忆孕期饮酒量，回忆会受妊娠结局的影响[^hernan2020whatif-e17]。用训练有素的访谈者、标准化的访谈来减少访谈者偏倚[^song2010observational-e9]。
@@ -100,7 +100,7 @@
 3. **由图推出要调整的变量**（调整集），在论文里写明；如果另用了别的调整集，说明理由，结果分开报告[^tennant2021dags-e5]。研究目的里先写清要估计的量[^tennant2021dags-e6]。
 4. **分析时用分层或多变量模型调整**[^vandenbroucke2007strobe-e30]。
 
-**为什么不能只靠统计挑变量**：只凭关联或统计标准，不足以判断什么是混杂[^hernan2020whatif-e6]。从观察性数据做因果推断，需要事先的因果知识；把它画成图，你的假设就变得明确，别人也能具体地批评[^hernan2020whatif-e7]。另见领域概况的["不要让软件替你挑混杂因素"](../README.md#动手前先说清你要回答关联问题还是因果问题)。
+**为什么不能只靠统计挑变量**：只凭关联或统计标准，不足以判断什么是混杂[^hernan2020whatif-e6]。从观察性数据做因果推断，需要事先的因果知识；把它画成图，你的假设就变得明确，别人也能具体地批评[^hernan2020whatif-e7]。另见领域概况的["不要让软件替你挑混杂因素"](../07_fields/health-sciences/README.md#动手前先说清你要回答关联问题还是因果问题)。
 
 **容易错在哪里**：
 
@@ -112,17 +112,17 @@
 
 ### 第六步：防选择偏倚和信息偏倚
 
-**选择偏倚**是由"哪些人进入分析"制造出来的关联；它和混杂不同，随机试验里也会有[^hernan2020whatif-e12]。随机化能防混杂，但防不了随机化之后的选择偏倚[^hernan2020whatif-e15]。来源包括：只分析结局数据完整的人（不管数据为什么缺）[^hernan2020whatif-e13]，以及前面讲的对照选择不当[^hernan2020whatif-e14]、零时刻定错[^hernan2016target-e5]。参与者自己选择参加与否带来的偏倚，见领域概况的[坑三](../README.md#坑三谁参加了研究本身就可能制造关联)。
+**选择偏倚**是由"哪些人进入分析"制造出来的关联；它和混杂不同，随机试验里也会有[^hernan2020whatif-e12]。随机化能防混杂，但防不了随机化之后的选择偏倚[^hernan2020whatif-e15]。来源包括：只分析结局数据完整的人（不管数据为什么缺）[^hernan2020whatif-e13]，以及前面讲的对照选择不当[^hernan2020whatif-e14]、零时刻定错[^hernan2016target-e5]。参与者自己选择参加与否带来的偏倚，见领域概况的[坑三](../07_fields/health-sciences/README.md#坑三谁参加了研究本身就可能制造关联)。
 
 **信息偏倚**来自测量。除了第四步的回忆偏倚，还要防**检出偏倚**：例如吃某种会引起胃部不适的药的人，做胃镜更多，于是查出更多溃疡，即使药并不导致溃疡；可以测量各组接受医疗检查的强度，并在分析中调整[^vandenbroucke2007strobe-e27]。理想情况下，结局判定不应受"知道谁用了药"的影响；从死亡登记独立获取的死亡就不受影响[^hernan2016target-e8]。测量偏倚在任何设计中都可能出现，解释结果时总要考虑[^hernan2020whatif-e16]。
 
 ### 第七步：分析
 
-- **主要分析事先写进方案**，报告时说明哪些分析是看了数据才想到的[^vandenbroucke2007strobe-e33]。这就是主线章节讲的[探索性和验证性之分](../../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
+- **主要分析事先写进方案**，报告时说明哪些分析是看了数据才想到的[^vandenbroucke2007strobe-e33]。这就是主线章节讲的[探索性和验证性之分](../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
 - **同时给出未调整和调整后的估计**，读者能看出调整让结果变了多少、往哪个方向变[^vandenbroucke2007strobe-e34]。
 - **缺失数据**：只分析数据完整的人，可能有偏，而且总会损失效率；各种缺失数据处理方法的假设一般无法验证，最好当作敏感性分析来看[^vandenbroucke2007strobe-e35]。给混杂因素加一个"缺失"类别，可能增加残余混杂[^vandenbroucke2007strobe-e46]。
 - **病例对照研究不要拿病例和对照的基线差异判断混杂**：对照代表源人群，本来就和病例在很多方面不同[^vandenbroucke2007strobe-e40]。
-- **样本量**：用为别的目的已收集好的数据时，关键看精度够不够，样本量的考虑可以是非正式的；不要做事后功效计算[^vandenbroucke2007strobe-e44]。统计的一般做法见主线章节[报告差多少、有多确定，而不只是 p 值](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+- **样本量**：用为别的目的已收集好的数据时，关键看精度够不够，样本量的考虑可以是非正式的；不要做事后功效计算[^vandenbroucke2007strobe-e44]。统计的一般做法见主线章节[报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第八步：敏感性分析
 
@@ -137,7 +137,7 @@
 - **STROBE**：适用于队列、病例对照、横断面三种设计[^vonelm2007strobe-e2]，共 22 项[^vonelm2007strobe-e4]。它只管怎样报告，不规定怎样设计，也不是质量评价工具[^vonelm2007strobe-e3]。
 - **用常规收集的数据**：在 STROBE 之外按它的扩展 RECORD（13 项）报告[^benchimol2015record-e3]。领域概况没讲的几条：链接了多个数据库时，可以用流程图展示每一步链接上的人数[^benchimol2015record-e16]；详细写出研究人群怎样一步步筛出来[^benchimol2015record-e19]；说明研究者能多大程度接触原始数据库，以及数据怎样清洗[^benchimol2015record-e17]。原因是，不熟悉建队列细节或研究目的的数据分析员来建队列，容易出错[^benchimol2015record-e18]。
 - **饮食研究**：再加 STROBE 的营养流行病学扩展 STROBE-nut，它在 STROBE 上增加了 24 条建议[^lachat2016strobenut-e1]，例如写清饮食评估方法验证研究的参照方法、时间和人群[^lachat2016strobenut-e6]。
-- **局限**：不只列出偏倚，还要讨论它们可能的方向和大小[^vandenbroucke2007strobe-e41]。真实的不确定性比置信区间反映的更大[^vandenbroucke2007strobe-e42]。调整后的结果仍可能有随机误差、选择偏倚、信息偏倚或残余混杂[^vandenbroucke2007strobe-e34]；"因果"措辞的争论见[领域概况](../README.md#动手前先说清你要回答关联问题还是因果问题)。
+- **局限**：不只列出偏倚，还要讨论它们可能的方向和大小[^vandenbroucke2007strobe-e41]。真实的不确定性比置信区间反映的更大[^vandenbroucke2007strobe-e42]。调整后的结果仍可能有随机误差、选择偏倚、信息偏倚或残余混杂[^vandenbroucke2007strobe-e34]；"因果"措辞的争论见[领域概况](../07_fields/health-sciences/README.md#动手前先说清你要回答关联问题还是因果问题)。
 
 ## 3. 检查清单
 
@@ -157,7 +157,7 @@
 - [ ] 画出因果图并放进论文，写明调整集[^tennant2021dags-e2][^tennant2021dags-e5]
 - [ ] 做敏感性分析：换暴露和结局定义[^vandenbroucke2007strobe-e37]、评估未测量混杂[^hernan2020whatif-e11]、换缺失数据处理方法[^vandenbroucke2007strobe-e35]
 - [ ] 用"反过来"的分析间接检查混杂[^hernan2016target-e7]
-- [ ] 写清暴露测量方法的验证研究，包括参照方法、时间和人群[^lachat2016strobenut-e6]；更多见领域概况的[坑二](../README.md#坑二暴露测不准尤其是饮食)
+- [ ] 写清暴露测量方法的验证研究，包括参照方法、时间和人群[^lachat2016strobenut-e6]；更多见领域概况的[坑二](../07_fields/health-sciences/README.md#坑二暴露测不准尤其是饮食)
 - [ ] 说明你模拟的目标试验和理想试验的差别[^hernan2016target-e10]
 
 **这些情况可以不做，不算缺陷**
@@ -198,109 +198,109 @@
 - **美国国家癌症研究所的饮食评估入门资料（Dietary Assessment Primer）和 STROBE-nut（Lachat 等人 2016）**：做饮食研究时读，前者讲测量误差，后者讲怎样报告。
 - 本文资料没有讲具体的统计方法（如逆概率加权、倾向评分）怎样实施，以导师、统计学合作者或上述教材为准。
 
-[^song2010observational-e1]: Song & Chung 2010，引言。[证据](../../../../sources/notes/song2010observational.md#e1)
-[^song2010observational-e2]: Song & Chung 2010，Cohort Studies。[证据](../../../../sources/notes/song2010observational.md#e2)
-[^song2010observational-e3]: Song & Chung 2010，Case-Control Studies 与 Table 4。[证据](../../../../sources/notes/song2010observational.md#e3)
-[^song2010observational-e4]: Song & Chung 2010，Cohort Studies（与病例系列的区别）。[证据](../../../../sources/notes/song2010observational.md#e4)
-[^song2010observational-e5]: Song & Chung 2010，Selection of Subjects in Cohort Studies。[证据](../../../../sources/notes/song2010observational.md#e5)
-[^song2010observational-e6]: Song & Chung 2010，Attrition Bias。[证据](../../../../sources/notes/song2010observational.md#e6)
-[^song2010observational-e7]: Song & Chung 2010，Selection of Cases。[证据](../../../../sources/notes/song2010observational.md#e7)
-[^song2010observational-e8]: Song & Chung 2010，Selection of Controls。[证据](../../../../sources/notes/song2010observational.md#e8)
-[^song2010observational-e9]: Song & Chung 2010，Bias in Case-Control Studies。[证据](../../../../sources/notes/song2010observational.md#e9)
-[^song2010observational-e10]: Song & Chung 2010，Cohort Studies（回顾性队列）。[证据](../../../../sources/notes/song2010observational.md#e10)
-[^vandenbroucke2007strobe-e14]: Vandenbroucke 等人 2007，Box 1。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e14)
-[^vandenbroucke2007strobe-e15]: Vandenbroucke 等人 2007，Box 1。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e15)
-[^vandenbroucke2007strobe-e16]: Vandenbroucke 等人 2007，Box 1。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e16)
-[^vandenbroucke2007strobe-e17]: Vandenbroucke 等人 2007，Item 4。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e17)
-[^vandenbroucke2007strobe-e18]: Vandenbroucke 等人 2007，Item 6。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e18)
-[^vandenbroucke2007strobe-e19]: Vandenbroucke 等人 2007，Item 6。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e19)
-[^vandenbroucke2007strobe-e20]: Vandenbroucke 等人 2007，Box 2。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e20)
-[^vandenbroucke2007strobe-e21]: Vandenbroucke 等人 2007，Box 2。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e21)
-[^vandenbroucke2007strobe-e22]: Vandenbroucke 等人 2007，Box 2。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e22)
-[^vandenbroucke2007strobe-e23]: STROBE 清单，Item 7。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e23)
-[^vandenbroucke2007strobe-e24]: Vandenbroucke 等人 2007，Box 4。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e24)
-[^vandenbroucke2007strobe-e25]: Vandenbroucke 等人 2007，Item 8。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e25)
-[^vandenbroucke2007strobe-e26]: Vandenbroucke 等人 2007，Box 3。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e26)
-[^vandenbroucke2007strobe-e27]: Vandenbroucke 等人 2007，Box 3。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e27)
-[^vandenbroucke2007strobe-e28]: Vandenbroucke 等人 2007，Box 3。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e28)
-[^vandenbroucke2007strobe-e29]: Vandenbroucke 等人 2007，Box 5。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e29)
-[^vandenbroucke2007strobe-e30]: Vandenbroucke 等人 2007，Box 5。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e30)
-[^vandenbroucke2007strobe-e31]: Vandenbroucke 等人 2007，Item 16。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e31)
-[^vandenbroucke2007strobe-e32]: Vandenbroucke 等人 2007，Item 16。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e32)
-[^vandenbroucke2007strobe-e33]: Vandenbroucke 等人 2007，Item 12。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e33)
-[^vandenbroucke2007strobe-e34]: Vandenbroucke 等人 2007，Item 16。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e34)
-[^vandenbroucke2007strobe-e35]: Vandenbroucke 等人 2007，Box 6。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e35)
-[^vandenbroucke2007strobe-e36]: Vandenbroucke 等人 2007，Item 12(d)。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e36)
-[^vandenbroucke2007strobe-e37]: Vandenbroucke 等人 2007，Item 12(e)。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e37)
-[^vandenbroucke2007strobe-e38]: Vandenbroucke 等人 2007，Item 12(e)。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e38)
-[^vandenbroucke2007strobe-e39]: Vandenbroucke 等人 2007，Item 12(e)。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e39)
-[^vandenbroucke2007strobe-e40]: Vandenbroucke 等人 2007，Item 14。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e40)
-[^vandenbroucke2007strobe-e41]: Vandenbroucke 等人 2007，Item 19。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e41)
-[^vandenbroucke2007strobe-e42]: Vandenbroucke 等人 2007，Item 20。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e42)
-[^vandenbroucke2007strobe-e43]: Vandenbroucke 等人 2007，Item 20。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e43)
-[^vandenbroucke2007strobe-e44]: Vandenbroucke 等人 2007，Item 10。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e44)
-[^vandenbroucke2007strobe-e45]: Vandenbroucke 等人 2007，Item 8，Example 2。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e45)
-[^vandenbroucke2007strobe-e46]: Vandenbroucke 等人 2007，Box 6。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e46)
-[^vandenbroucke2007strobe-e47]: Vandenbroucke 等人 2007，Item 20。[证据](../../../../sources/notes/vandenbroucke2007strobe.md#e47)
-[^vonelm2007strobe-e2]: von Elm 等人 2007，Aims and Use of the STROBE Statement。[证据](../../../../sources/notes/vonelm2007strobe.md#e2)
-[^vonelm2007strobe-e3]: von Elm 等人 2007，Aims and Use of the STROBE Statement。[证据](../../../../sources/notes/vonelm2007strobe.md#e3)
-[^vonelm2007strobe-e4]: von Elm 等人 2007，STROBE Components。[证据](../../../../sources/notes/vonelm2007strobe.md#e4)
-[^benchimol2015record-e3]: Benchimol 等人 2015，摘要与引言。[证据](../../../../sources/notes/benchimol2015record.md#e3)
-[^benchimol2015record-e16]: Benchimol 等人 2015，RECORD 6.3。[证据](../../../../sources/notes/benchimol2015record.md#e16)
-[^benchimol2015record-e17]: Benchimol 等人 2015，RECORD 12.1、12.2。[证据](../../../../sources/notes/benchimol2015record.md#e17)
-[^benchimol2015record-e18]: Benchimol 等人 2015，RECORD 12.1、12.2 解释。[证据](../../../../sources/notes/benchimol2015record.md#e18)
-[^benchimol2015record-e19]: Benchimol 等人 2015，RECORD 13.1。[证据](../../../../sources/notes/benchimol2015record.md#e19)
-[^hernan2018cword-e7]: Hernán 2018，Better Confounding Adjustment。[证据](../../../../sources/notes/hernan2018cword.md#e7)
-[^hernan2016target-e1]: Hernán & Robins 2016，摘要。[证据](../../../../sources/notes/hernan2016target.md#e1)
-[^hernan2016target-e2]: Hernán & Robins 2016，引言（Table 1）。[证据](../../../../sources/notes/hernan2016target.md#e2)
-[^hernan2016target-e3]: Hernán & Robins 2016，Eligibility criteria。[证据](../../../../sources/notes/hernan2016target.md#e3)
-[^hernan2016target-e4]: Hernán & Robins 2016，Emulating the Target Trial。[证据](../../../../sources/notes/hernan2016target.md#e4)
-[^hernan2016target-e5]: Hernán & Robins 2016，Defining Time Zero。[证据](../../../../sources/notes/hernan2016target.md#e5)
-[^hernan2016target-e6]: Hernán & Robins 2016，Defining Time Zero。[证据](../../../../sources/notes/hernan2016target.md#e6)
-[^hernan2016target-e7]: Hernán & Robins 2016，Assignment procedures。[证据](../../../../sources/notes/hernan2016target.md#e7)
-[^hernan2016target-e8]: Hernán & Robins 2016，Outcome。[证据](../../../../sources/notes/hernan2016target.md#e8)
-[^hernan2016target-e9]: Hernán & Robins 2016，Assignment procedures。[证据](../../../../sources/notes/hernan2016target.md#e9)
-[^hernan2016target-e10]: Hernán & Robins 2016，Discussion。[证据](../../../../sources/notes/hernan2016target.md#e10)
-[^hernan2016target-e11]: Hernán & Robins 2016，Discussion。[证据](../../../../sources/notes/hernan2016target.md#e11)
-[^hernan2016target-e12]: Hernán & Robins 2016，Outcome。[证据](../../../../sources/notes/hernan2016target.md#e12)
-[^hernan2020whatif-e1]: Hernán & Robins，What If，第 3.6 节。[证据](../../../../sources/notes/hernan2020whatif.md#e1)
-[^hernan2020whatif-e2]: Hernán & Robins，What If，第 3.6 节。[证据](../../../../sources/notes/hernan2020whatif.md#e2)
-[^hernan2020whatif-e3]: Hernán & Robins，What If，第 3.6 节。[证据](../../../../sources/notes/hernan2020whatif.md#e3)
-[^hernan2020whatif-e4]: Hernán & Robins，What If，第 7.1 节。[证据](../../../../sources/notes/hernan2020whatif.md#e4)
-[^hernan2020whatif-e5]: Hernán & Robins，What If，第 7.1 节。[证据](../../../../sources/notes/hernan2020whatif.md#e5)
-[^hernan2020whatif-e6]: Hernán & Robins，What If，第 7.4 节。[证据](../../../../sources/notes/hernan2020whatif.md#e6)
-[^hernan2020whatif-e7]: Hernán & Robins，What If，第 7.4 节。[证据](../../../../sources/notes/hernan2020whatif.md#e7)
-[^hernan2020whatif-e8]: Hernán & Robins，What If，第 7.6 节。[证据](../../../../sources/notes/hernan2020whatif.md#e8)
-[^hernan2020whatif-e9]: Hernán & Robins，What If，第 7.6 节。[证据](../../../../sources/notes/hernan2020whatif.md#e9)
-[^hernan2020whatif-e10]: Hernán & Robins，What If，第 7.6 节。[证据](../../../../sources/notes/hernan2020whatif.md#e10)
-[^hernan2020whatif-e11]: Hernán & Robins，What If，第 7.3 节。[证据](../../../../sources/notes/hernan2020whatif.md#e11)
-[^hernan2020whatif-e12]: Hernán & Robins，What If，第 8 章开头。[证据](../../../../sources/notes/hernan2020whatif.md#e12)
-[^hernan2020whatif-e13]: Hernán & Robins，What If，第 8.2 节。[证据](../../../../sources/notes/hernan2020whatif.md#e13)
-[^hernan2020whatif-e14]: Hernán & Robins，What If，第 8 章 Fine Point（病例对照研究中的选择偏倚）。[证据](../../../../sources/notes/hernan2020whatif.md#e14)
-[^hernan2020whatif-e15]: Hernán & Robins，What If，第 8.3 节。[证据](../../../../sources/notes/hernan2020whatif.md#e15)
-[^hernan2020whatif-e16]: Hernán & Robins，What If，第 9 章开头。[证据](../../../../sources/notes/hernan2020whatif.md#e16)
-[^hernan2020whatif-e17]: Hernán & Robins，What If，第 9.2 节。[证据](../../../../sources/notes/hernan2020whatif.md#e17)
-[^hernan2020whatif-e18]: Hernán & Robins，What If，第 9.2 节。[证据](../../../../sources/notes/hernan2020whatif.md#e18)
-[^hernan2020whatif-e19]: Hernán & Robins，What If，第 8.2 节。[证据](../../../../sources/notes/hernan2020whatif.md#e19)
-[^nci2025dietprimer-e1]: 美国国家癌症研究所，Dietary Assessment Primer，Key Concepts about Measurement Error。[证据](../../../../sources/notes/nci2025dietprimer.md#e1)
-[^nci2025dietprimer-e2]: 同上。[证据](../../../../sources/notes/nci2025dietprimer.md#e2)
-[^nci2025dietprimer-e3]: 美国国家癌症研究所，Dietary Assessment Primer，Effects of Measurement Error。[证据](../../../../sources/notes/nci2025dietprimer.md#e3)
-[^nci2025dietprimer-e4]: 同上。[证据](../../../../sources/notes/nci2025dietprimer.md#e4)
-[^nci2025dietprimer-e5]: 同上。[证据](../../../../sources/notes/nci2025dietprimer.md#e5)
-[^nci2025dietprimer-e6]: 美国国家癌症研究所，Dietary Assessment Primer，Learn More about Misreporting。[证据](../../../../sources/notes/nci2025dietprimer.md#e6)
-[^nci2025dietprimer-e7]: 同上。[证据](../../../../sources/notes/nci2025dietprimer.md#e7)
-[^nci2025dietprimer-e8]: 同上。[证据](../../../../sources/notes/nci2025dietprimer.md#e8)
-[^nci2025dietprimer-e9]: 美国国家癌症研究所，Dietary Assessment Primer，Effects of Measurement Error，Table 1。[证据](../../../../sources/notes/nci2025dietprimer.md#e9)
-[^lachat2016strobenut-e1]: Lachat 等人 2016，摘要。[证据](../../../../sources/notes/lachat2016strobenut.md#e1)
-[^lachat2016strobenut-e2]: Lachat 等人 2016，引言。[证据](../../../../sources/notes/lachat2016strobenut.md#e2)
-[^lachat2016strobenut-e3]: Lachat 等人 2016，引言。[证据](../../../../sources/notes/lachat2016strobenut.md#e3)
-[^lachat2016strobenut-e4]: Lachat 等人 2016，nut-9。[证据](../../../../sources/notes/lachat2016strobenut.md#e4)
-[^lachat2016strobenut-e5]: Lachat 等人 2016，nut-12.2。[证据](../../../../sources/notes/lachat2016strobenut.md#e5)
-[^lachat2016strobenut-e6]: Lachat 等人 2016，nut-8.6。[证据](../../../../sources/notes/lachat2016strobenut.md#e6)
-[^tennant2021dags-e1]: Tennant 等人 2021，摘要。[证据](../../../../sources/notes/tennant2021dags.md#e1)
-[^tennant2021dags-e2]: Tennant 等人 2021，Recommendations。[证据](../../../../sources/notes/tennant2021dags.md#e2)
-[^tennant2021dags-e3]: Tennant 等人 2021，Recommendations。[证据](../../../../sources/notes/tennant2021dags.md#e3)
-[^tennant2021dags-e4]: Tennant 等人 2021，Recommendations。[证据](../../../../sources/notes/tennant2021dags.md#e4)
-[^tennant2021dags-e5]: Tennant 等人 2021，Recommendations。[证据](../../../../sources/notes/tennant2021dags.md#e5)
-[^tennant2021dags-e6]: Tennant 等人 2021，Recommendations。[证据](../../../../sources/notes/tennant2021dags.md#e6)
-[^tennant2021dags-e7]: Tennant 等人 2021，Recommendations。[证据](../../../../sources/notes/tennant2021dags.md#e7)
+[^song2010observational-e1]: Song & Chung 2010，引言。[证据](../../sources/notes/song2010observational.md#e1)
+[^song2010observational-e2]: Song & Chung 2010，Cohort Studies。[证据](../../sources/notes/song2010observational.md#e2)
+[^song2010observational-e3]: Song & Chung 2010，Case-Control Studies 与 Table 4。[证据](../../sources/notes/song2010observational.md#e3)
+[^song2010observational-e4]: Song & Chung 2010，Cohort Studies（与病例系列的区别）。[证据](../../sources/notes/song2010observational.md#e4)
+[^song2010observational-e5]: Song & Chung 2010，Selection of Subjects in Cohort Studies。[证据](../../sources/notes/song2010observational.md#e5)
+[^song2010observational-e6]: Song & Chung 2010，Attrition Bias。[证据](../../sources/notes/song2010observational.md#e6)
+[^song2010observational-e7]: Song & Chung 2010，Selection of Cases。[证据](../../sources/notes/song2010observational.md#e7)
+[^song2010observational-e8]: Song & Chung 2010，Selection of Controls。[证据](../../sources/notes/song2010observational.md#e8)
+[^song2010observational-e9]: Song & Chung 2010，Bias in Case-Control Studies。[证据](../../sources/notes/song2010observational.md#e9)
+[^song2010observational-e10]: Song & Chung 2010，Cohort Studies（回顾性队列）。[证据](../../sources/notes/song2010observational.md#e10)
+[^vandenbroucke2007strobe-e14]: Vandenbroucke 等人 2007，Box 1。[证据](../../sources/notes/vandenbroucke2007strobe.md#e14)
+[^vandenbroucke2007strobe-e15]: Vandenbroucke 等人 2007，Box 1。[证据](../../sources/notes/vandenbroucke2007strobe.md#e15)
+[^vandenbroucke2007strobe-e16]: Vandenbroucke 等人 2007，Box 1。[证据](../../sources/notes/vandenbroucke2007strobe.md#e16)
+[^vandenbroucke2007strobe-e17]: Vandenbroucke 等人 2007，Item 4。[证据](../../sources/notes/vandenbroucke2007strobe.md#e17)
+[^vandenbroucke2007strobe-e18]: Vandenbroucke 等人 2007，Item 6。[证据](../../sources/notes/vandenbroucke2007strobe.md#e18)
+[^vandenbroucke2007strobe-e19]: Vandenbroucke 等人 2007，Item 6。[证据](../../sources/notes/vandenbroucke2007strobe.md#e19)
+[^vandenbroucke2007strobe-e20]: Vandenbroucke 等人 2007，Box 2。[证据](../../sources/notes/vandenbroucke2007strobe.md#e20)
+[^vandenbroucke2007strobe-e21]: Vandenbroucke 等人 2007，Box 2。[证据](../../sources/notes/vandenbroucke2007strobe.md#e21)
+[^vandenbroucke2007strobe-e22]: Vandenbroucke 等人 2007，Box 2。[证据](../../sources/notes/vandenbroucke2007strobe.md#e22)
+[^vandenbroucke2007strobe-e23]: STROBE 清单，Item 7。[证据](../../sources/notes/vandenbroucke2007strobe.md#e23)
+[^vandenbroucke2007strobe-e24]: Vandenbroucke 等人 2007，Box 4。[证据](../../sources/notes/vandenbroucke2007strobe.md#e24)
+[^vandenbroucke2007strobe-e25]: Vandenbroucke 等人 2007，Item 8。[证据](../../sources/notes/vandenbroucke2007strobe.md#e25)
+[^vandenbroucke2007strobe-e26]: Vandenbroucke 等人 2007，Box 3。[证据](../../sources/notes/vandenbroucke2007strobe.md#e26)
+[^vandenbroucke2007strobe-e27]: Vandenbroucke 等人 2007，Box 3。[证据](../../sources/notes/vandenbroucke2007strobe.md#e27)
+[^vandenbroucke2007strobe-e28]: Vandenbroucke 等人 2007，Box 3。[证据](../../sources/notes/vandenbroucke2007strobe.md#e28)
+[^vandenbroucke2007strobe-e29]: Vandenbroucke 等人 2007，Box 5。[证据](../../sources/notes/vandenbroucke2007strobe.md#e29)
+[^vandenbroucke2007strobe-e30]: Vandenbroucke 等人 2007，Box 5。[证据](../../sources/notes/vandenbroucke2007strobe.md#e30)
+[^vandenbroucke2007strobe-e31]: Vandenbroucke 等人 2007，Item 16。[证据](../../sources/notes/vandenbroucke2007strobe.md#e31)
+[^vandenbroucke2007strobe-e32]: Vandenbroucke 等人 2007，Item 16。[证据](../../sources/notes/vandenbroucke2007strobe.md#e32)
+[^vandenbroucke2007strobe-e33]: Vandenbroucke 等人 2007，Item 12。[证据](../../sources/notes/vandenbroucke2007strobe.md#e33)
+[^vandenbroucke2007strobe-e34]: Vandenbroucke 等人 2007，Item 16。[证据](../../sources/notes/vandenbroucke2007strobe.md#e34)
+[^vandenbroucke2007strobe-e35]: Vandenbroucke 等人 2007，Box 6。[证据](../../sources/notes/vandenbroucke2007strobe.md#e35)
+[^vandenbroucke2007strobe-e36]: Vandenbroucke 等人 2007，Item 12(d)。[证据](../../sources/notes/vandenbroucke2007strobe.md#e36)
+[^vandenbroucke2007strobe-e37]: Vandenbroucke 等人 2007，Item 12(e)。[证据](../../sources/notes/vandenbroucke2007strobe.md#e37)
+[^vandenbroucke2007strobe-e38]: Vandenbroucke 等人 2007，Item 12(e)。[证据](../../sources/notes/vandenbroucke2007strobe.md#e38)
+[^vandenbroucke2007strobe-e39]: Vandenbroucke 等人 2007，Item 12(e)。[证据](../../sources/notes/vandenbroucke2007strobe.md#e39)
+[^vandenbroucke2007strobe-e40]: Vandenbroucke 等人 2007，Item 14。[证据](../../sources/notes/vandenbroucke2007strobe.md#e40)
+[^vandenbroucke2007strobe-e41]: Vandenbroucke 等人 2007，Item 19。[证据](../../sources/notes/vandenbroucke2007strobe.md#e41)
+[^vandenbroucke2007strobe-e42]: Vandenbroucke 等人 2007，Item 20。[证据](../../sources/notes/vandenbroucke2007strobe.md#e42)
+[^vandenbroucke2007strobe-e43]: Vandenbroucke 等人 2007，Item 20。[证据](../../sources/notes/vandenbroucke2007strobe.md#e43)
+[^vandenbroucke2007strobe-e44]: Vandenbroucke 等人 2007，Item 10。[证据](../../sources/notes/vandenbroucke2007strobe.md#e44)
+[^vandenbroucke2007strobe-e45]: Vandenbroucke 等人 2007，Item 8，Example 2。[证据](../../sources/notes/vandenbroucke2007strobe.md#e45)
+[^vandenbroucke2007strobe-e46]: Vandenbroucke 等人 2007，Box 6。[证据](../../sources/notes/vandenbroucke2007strobe.md#e46)
+[^vandenbroucke2007strobe-e47]: Vandenbroucke 等人 2007，Item 20。[证据](../../sources/notes/vandenbroucke2007strobe.md#e47)
+[^vonelm2007strobe-e2]: von Elm 等人 2007，Aims and Use of the STROBE Statement。[证据](../../sources/notes/vonelm2007strobe.md#e2)
+[^vonelm2007strobe-e3]: von Elm 等人 2007，Aims and Use of the STROBE Statement。[证据](../../sources/notes/vonelm2007strobe.md#e3)
+[^vonelm2007strobe-e4]: von Elm 等人 2007，STROBE Components。[证据](../../sources/notes/vonelm2007strobe.md#e4)
+[^benchimol2015record-e3]: Benchimol 等人 2015，摘要与引言。[证据](../../sources/notes/benchimol2015record.md#e3)
+[^benchimol2015record-e16]: Benchimol 等人 2015，RECORD 6.3。[证据](../../sources/notes/benchimol2015record.md#e16)
+[^benchimol2015record-e17]: Benchimol 等人 2015，RECORD 12.1、12.2。[证据](../../sources/notes/benchimol2015record.md#e17)
+[^benchimol2015record-e18]: Benchimol 等人 2015，RECORD 12.1、12.2 解释。[证据](../../sources/notes/benchimol2015record.md#e18)
+[^benchimol2015record-e19]: Benchimol 等人 2015，RECORD 13.1。[证据](../../sources/notes/benchimol2015record.md#e19)
+[^hernan2018cword-e7]: Hernán 2018，Better Confounding Adjustment。[证据](../../sources/notes/hernan2018cword.md#e7)
+[^hernan2016target-e1]: Hernán & Robins 2016，摘要。[证据](../../sources/notes/hernan2016target.md#e1)
+[^hernan2016target-e2]: Hernán & Robins 2016，引言（Table 1）。[证据](../../sources/notes/hernan2016target.md#e2)
+[^hernan2016target-e3]: Hernán & Robins 2016，Eligibility criteria。[证据](../../sources/notes/hernan2016target.md#e3)
+[^hernan2016target-e4]: Hernán & Robins 2016，Emulating the Target Trial。[证据](../../sources/notes/hernan2016target.md#e4)
+[^hernan2016target-e5]: Hernán & Robins 2016，Defining Time Zero。[证据](../../sources/notes/hernan2016target.md#e5)
+[^hernan2016target-e6]: Hernán & Robins 2016，Defining Time Zero。[证据](../../sources/notes/hernan2016target.md#e6)
+[^hernan2016target-e7]: Hernán & Robins 2016，Assignment procedures。[证据](../../sources/notes/hernan2016target.md#e7)
+[^hernan2016target-e8]: Hernán & Robins 2016，Outcome。[证据](../../sources/notes/hernan2016target.md#e8)
+[^hernan2016target-e9]: Hernán & Robins 2016，Assignment procedures。[证据](../../sources/notes/hernan2016target.md#e9)
+[^hernan2016target-e10]: Hernán & Robins 2016，Discussion。[证据](../../sources/notes/hernan2016target.md#e10)
+[^hernan2016target-e11]: Hernán & Robins 2016，Discussion。[证据](../../sources/notes/hernan2016target.md#e11)
+[^hernan2016target-e12]: Hernán & Robins 2016，Outcome。[证据](../../sources/notes/hernan2016target.md#e12)
+[^hernan2020whatif-e1]: Hernán & Robins，What If，第 3.6 节。[证据](../../sources/notes/hernan2020whatif.md#e1)
+[^hernan2020whatif-e2]: Hernán & Robins，What If，第 3.6 节。[证据](../../sources/notes/hernan2020whatif.md#e2)
+[^hernan2020whatif-e3]: Hernán & Robins，What If，第 3.6 节。[证据](../../sources/notes/hernan2020whatif.md#e3)
+[^hernan2020whatif-e4]: Hernán & Robins，What If，第 7.1 节。[证据](../../sources/notes/hernan2020whatif.md#e4)
+[^hernan2020whatif-e5]: Hernán & Robins，What If，第 7.1 节。[证据](../../sources/notes/hernan2020whatif.md#e5)
+[^hernan2020whatif-e6]: Hernán & Robins，What If，第 7.4 节。[证据](../../sources/notes/hernan2020whatif.md#e6)
+[^hernan2020whatif-e7]: Hernán & Robins，What If，第 7.4 节。[证据](../../sources/notes/hernan2020whatif.md#e7)
+[^hernan2020whatif-e8]: Hernán & Robins，What If，第 7.6 节。[证据](../../sources/notes/hernan2020whatif.md#e8)
+[^hernan2020whatif-e9]: Hernán & Robins，What If，第 7.6 节。[证据](../../sources/notes/hernan2020whatif.md#e9)
+[^hernan2020whatif-e10]: Hernán & Robins，What If，第 7.6 节。[证据](../../sources/notes/hernan2020whatif.md#e10)
+[^hernan2020whatif-e11]: Hernán & Robins，What If，第 7.3 节。[证据](../../sources/notes/hernan2020whatif.md#e11)
+[^hernan2020whatif-e12]: Hernán & Robins，What If，第 8 章开头。[证据](../../sources/notes/hernan2020whatif.md#e12)
+[^hernan2020whatif-e13]: Hernán & Robins，What If，第 8.2 节。[证据](../../sources/notes/hernan2020whatif.md#e13)
+[^hernan2020whatif-e14]: Hernán & Robins，What If，第 8 章 Fine Point（病例对照研究中的选择偏倚）。[证据](../../sources/notes/hernan2020whatif.md#e14)
+[^hernan2020whatif-e15]: Hernán & Robins，What If，第 8.3 节。[证据](../../sources/notes/hernan2020whatif.md#e15)
+[^hernan2020whatif-e16]: Hernán & Robins，What If，第 9 章开头。[证据](../../sources/notes/hernan2020whatif.md#e16)
+[^hernan2020whatif-e17]: Hernán & Robins，What If，第 9.2 节。[证据](../../sources/notes/hernan2020whatif.md#e17)
+[^hernan2020whatif-e18]: Hernán & Robins，What If，第 9.2 节。[证据](../../sources/notes/hernan2020whatif.md#e18)
+[^hernan2020whatif-e19]: Hernán & Robins，What If，第 8.2 节。[证据](../../sources/notes/hernan2020whatif.md#e19)
+[^nci2025dietprimer-e1]: 美国国家癌症研究所，Dietary Assessment Primer，Key Concepts about Measurement Error。[证据](../../sources/notes/nci2025dietprimer.md#e1)
+[^nci2025dietprimer-e2]: 同上。[证据](../../sources/notes/nci2025dietprimer.md#e2)
+[^nci2025dietprimer-e3]: 美国国家癌症研究所，Dietary Assessment Primer，Effects of Measurement Error。[证据](../../sources/notes/nci2025dietprimer.md#e3)
+[^nci2025dietprimer-e4]: 同上。[证据](../../sources/notes/nci2025dietprimer.md#e4)
+[^nci2025dietprimer-e5]: 同上。[证据](../../sources/notes/nci2025dietprimer.md#e5)
+[^nci2025dietprimer-e6]: 美国国家癌症研究所，Dietary Assessment Primer，Learn More about Misreporting。[证据](../../sources/notes/nci2025dietprimer.md#e6)
+[^nci2025dietprimer-e7]: 同上。[证据](../../sources/notes/nci2025dietprimer.md#e7)
+[^nci2025dietprimer-e8]: 同上。[证据](../../sources/notes/nci2025dietprimer.md#e8)
+[^nci2025dietprimer-e9]: 美国国家癌症研究所，Dietary Assessment Primer，Effects of Measurement Error，Table 1。[证据](../../sources/notes/nci2025dietprimer.md#e9)
+[^lachat2016strobenut-e1]: Lachat 等人 2016，摘要。[证据](../../sources/notes/lachat2016strobenut.md#e1)
+[^lachat2016strobenut-e2]: Lachat 等人 2016，引言。[证据](../../sources/notes/lachat2016strobenut.md#e2)
+[^lachat2016strobenut-e3]: Lachat 等人 2016，引言。[证据](../../sources/notes/lachat2016strobenut.md#e3)
+[^lachat2016strobenut-e4]: Lachat 等人 2016，nut-9。[证据](../../sources/notes/lachat2016strobenut.md#e4)
+[^lachat2016strobenut-e5]: Lachat 等人 2016，nut-12.2。[证据](../../sources/notes/lachat2016strobenut.md#e5)
+[^lachat2016strobenut-e6]: Lachat 等人 2016，nut-8.6。[证据](../../sources/notes/lachat2016strobenut.md#e6)
+[^tennant2021dags-e1]: Tennant 等人 2021，摘要。[证据](../../sources/notes/tennant2021dags.md#e1)
+[^tennant2021dags-e2]: Tennant 等人 2021，Recommendations。[证据](../../sources/notes/tennant2021dags.md#e2)
+[^tennant2021dags-e3]: Tennant 等人 2021，Recommendations。[证据](../../sources/notes/tennant2021dags.md#e3)
+[^tennant2021dags-e4]: Tennant 等人 2021，Recommendations。[证据](../../sources/notes/tennant2021dags.md#e4)
+[^tennant2021dags-e5]: Tennant 等人 2021，Recommendations。[证据](../../sources/notes/tennant2021dags.md#e5)
+[^tennant2021dags-e6]: Tennant 等人 2021，Recommendations。[证据](../../sources/notes/tennant2021dags.md#e6)
+[^tennant2021dags-e7]: Tennant 等人 2021，Recommendations。[证据](../../sources/notes/tennant2021dags.md#e7)

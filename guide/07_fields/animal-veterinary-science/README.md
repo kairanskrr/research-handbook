@@ -137,7 +137,7 @@
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[临床前动物研究](../basic-medicine/research-types/preclinical_animal_study.md)、[田间试验](../agriculture/research-types/field_trial.md)、[随机对照试验](../clinical-medicine/research-types/randomized_controlled_trial.md)。
+**相关学科的研究类型文档**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[田间试验](../agriculture/practices/field_trial.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)。
 
 下面是本项目整理的常见类型，不是完整分类 `[本项目分析]`。
 

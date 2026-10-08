@@ -6,7 +6,7 @@
 
 如果你要从大量代码仓库里批量抽数据做统计，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；如果你提出了一个新工具，想"拿一个例子演示一下"，那属于[工程研究](../07_fields/computer-science/practices/engineering_research.md)的评估环节，不是本文说的案例研究。
 
-**适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准、Runeson 和 Höst 的案例研究指南、Easterbrook 等人的方法选择指南、Wohlin 对案例研究定义的讨论，以及 Sharp 等人关于软件工程中民族志的文章。其他学科做案例研究时，先看本学科的规范。政治学用少数案例检验因果机制的做法，见[过程追踪与比较案例研究](../07_fields/political-science/research-types/process_tracing.md)。
+**适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准、Runeson 和 Höst 的案例研究指南、Easterbrook 等人的方法选择指南、Wohlin 对案例研究定义的讨论，以及 Sharp 等人关于软件工程中民族志的文章。其他学科做案例研究时，先看本学科的规范。政治学用少数案例检验因果机制的做法，见[过程追踪与比较案例研究](process_tracing.md)。
 
 **常服务的套路**：[观察描述](../05_research-strategies/observe_describe.md)、[解释因果](../05_research-strategies/explain_causality.md)。
 

@@ -4,7 +4,7 @@
 
 本文讲**以测量工具本身为成果的研究**：新编一个量表，把国外量表翻译改编过来，或者为一个已有量表积累信度和效度证据。
 
-如果你只是在研究里**使用**一个现成量表，见心理学领域概况的[测量](../README.md#测量用有效度证据的量表)一节；问卷怎样抽样、发放、分析，见研究方法里的[问卷调查](../../../06_methods/questionnaire_survey.md)（它的第四步讲"用验证过的量表"）。两者的区别：问卷调查是**拿尺子去量**，本文是**造尺子、检验尺子准不准**。`[本项目分析]`
+如果你只是在研究里**使用**一个现成量表，见心理学领域概况的[测量](../07_fields/psychology/README.md#测量用有效度证据的量表)一节；问卷怎样抽样、发放、分析，见研究方法里的[问卷调查](questionnaire_survey.md)（它的第四步讲"用验证过的量表"）。两者的区别：问卷调查是**拿尺子去量**，本文是**造尺子、检验尺子准不准**。`[本项目分析]`
 
 **读完本文，你应该能：** 判断自己该新编、改编，还是直接用现成量表；按步骤完成一项量表编制（定义构念、编题、专家评审、认知访谈、试测、因子分析、信度、效度）；说清为什么只报一个 Cronbach α 不够，什么时候必须检验测量不变性；翻译改编量表时知道国际测验委员会的指南要求什么；认出并避开可疑测量做法。
 
@@ -12,13 +12,13 @@
 
 ## 1. 这是什么研究，什么时候用
 
-抑郁、自尊、态度这类东西叫**构念**（construct），没法直接观察（详见领域概况的[测量](../README.md#测量用有效度证据的量表)一节）。量表就是用一组题目间接测量构念的工具[^boateng2018best-e1]。量表编制研究回答的是："这组题目的分数，能不能当作这个构念的分数来解释？"下表的划分为本项目分析。
+抑郁、自尊、态度这类东西叫**构念**（construct），没法直接观察（详见领域概况的[测量](../07_fields/psychology/README.md#测量用有效度证据的量表)一节）。量表就是用一组题目间接测量构念的工具[^boateng2018best-e1]。量表编制研究回答的是："这组题目的分数，能不能当作这个构念的分数来解释？"下表的划分为本项目分析。
 
 | | 使用现成量表 | 翻译改编量表 | 新编量表 |
 |---|---|---|---|
 | 什么时候 | 已有量表适合你的构念和人群 | 好量表只有别的语言或文化版本 | 确实没有合适的量表 |
 | 主要工作 | 选量表、照原样用、报告本样本信度 | 取得许可、翻译、试测、检验等值性 | 本文第 2 节全部步骤 |
-| 主要依据 | [心理学领域概况·测量](../README.md#测量用有效度证据的量表) | 国际测验委员会的翻译改编指南（见第 10 步） | 本文 |
+| 主要依据 | [心理学领域概况·测量](../07_fields/psychology/README.md#测量用有效度证据的量表) | 国际测验委员会的翻译改编指南（见第 10 步） | 本文 |
 
 **先找现成的。** 开发并验证一个量表可能要好几年，所以动手之前先在文献里找验证过的量表[^graziotin2021psychometrics-e4]。已有类似量表时，要说明为什么还要新编、新量表和已有的有什么不同[^boateng2018best-e3]。
 
@@ -49,7 +49,7 @@
 
 ### 第 4 步：用认知访谈检查题目是否被正确理解
 
-**怎么做：** 请几位目标人群作答草稿题目，再请他们说出作答时在想什么[^boateng2018best-e9]。Boateng 等人认为，预测试做 5 到 15 次访谈、分两到三轮比较理想，或者做到不再有新发现为止；访谈发现的问题和你怎么改的，都要报告[^boateng2018best-e10]。访谈的一般做法见研究方法里的[访谈研究](../../../06_methods/interview_study.md)。**为什么：** 你以为"我经常感到疲惫"问的是情绪，作答者可能想的是加班。只有听他们说出来才知道 `[本项目分析]`。
+**怎么做：** 请几位目标人群作答草稿题目，再请他们说出作答时在想什么[^boateng2018best-e9]。Boateng 等人认为，预测试做 5 到 15 次访谈、分两到三轮比较理想，或者做到不再有新发现为止；访谈发现的问题和你怎么改的，都要报告[^boateng2018best-e10]。访谈的一般做法见研究方法里的[访谈研究](interview_study.md)。**为什么：** 你以为"我经常感到疲惫"问的是情绪，作答者可能想的是加班。只有听他们说出来才知道 `[本项目分析]`。
 
 ### 第 5 步：试测，做题目分析
 
@@ -133,15 +133,15 @@
 
 ### 第 11 步：报告你做了什么，并尽量事先定好
 
-**可疑测量做法**指研究者在测量上做的、让人怀疑测量和结论是否成立的决定[^flake2020measurement-e1]。光是挑哪些题加总，就有很大的操作空间（例子见领域概况的[测量](../README.md#测量用有效度证据的量表)一节）。效度评估也有同样的问题：Hussey 和 Hughes 称之为**效度操纵**（v-hacking），即有选择地挑指标、算法和界值来报告，让量表看起来更有效[^hussey2020hidden-e7]。
+**可疑测量做法**指研究者在测量上做的、让人怀疑测量和结论是否成立的决定[^flake2020measurement-e1]。光是挑哪些题加总，就有很大的操作空间（例子见领域概况的[测量](../07_fields/psychology/README.md#测量用有效度证据的量表)一节）。效度评估也有同样的问题：Hussey 和 Hughes 称之为**效度操纵**（v-hacking），即有选择地挑指标、算法和界值来报告，让量表看起来更有效[^hussey2020hidden-e7]。
 
 **怎么防：**
-- **把测量方案写进预注册**：用哪些指标、什么界值、什么测量模型、怎样决策[^hussey2020hidden-e9]。预注册的一般做法见[心理学领域概况](../README.md#之后改了什么)。
+- **把测量方案写进预注册**：用哪些指标、什么界值、什么测量模型、怎样决策[^hussey2020hidden-e9]。预注册的一般做法见[心理学领域概况](../07_fields/psychology/README.md#之后改了什么)。
 - **报告完整。** 据 Flake 和 Fried 转述，Flake 等人 2017 年检查《人格与社会心理学杂志》论文用到的 433 个量表：40% 没说来源，19% 没报告题数，9% 没报告作答选项[^flake2020measurement-e9]。你的论文至少要写清：构念定义、全部题目和选项、计分方法、删改了哪些题和原因、认知访谈的发现和修改[^boateng2018best-e10]、每一步分析的结果 `[本项目分析]`。
 - **改动要声明。** 改量表不是绝对不行，问题在于不声明、不说明理由[^flake2020measurement-e12]。
 - **证据不足就写成局限。** 自编量表至少要说明为什么自编、为什么不用已有量表；效度证据很少时，作为研究局限来讨论[^flake2020measurement-e13]。JARS 也要求说明量表是已验证的还是为本研究临时编的，尽可能报告本样本的信度，相关时报告聚合、区分效度[^appelbaum2018journal-e12]。
 
-测量出了问题，样本再大、预注册再严格也补不回来：Flake 和 Fried 说，就算做到了这些，我们仍然可能不知道自己测的到底是不是抑郁[^flake2020measurement-e15]。一般研究中效度威胁怎么写，另见主线章节[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md)。
+测量出了问题，样本再大、预注册再严格也补不回来：Flake 和 Fried 说，就算做到了这些，我们仍然可能不知道自己测的到底是不是抑郁[^flake2020measurement-e15]。一般研究中效度威胁怎么写，另见主线章节[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)。
 
 ---
 
@@ -197,75 +197,75 @@
 - **Graziotin 等人 2021**：写给软件工程研究者的心理测量入门。
 - 本文没有读到 McNeish 2018（"Thanks coefficient alpha, we'll take it from here"）、Flake、Pek 与 Hehman 2017 和《教育与心理测验标准》的原文；文中凡涉及后两者的内容，都是据上面几篇的转述。
 
-[^boateng2018best-e1]: Boateng 等人 2018，Introduction。[证据](../../../../sources/notes/boateng2018best.md#e1)
-[^boateng2018best-e2]: Boateng 等人 2018，Scale development overview。[证据](../../../../sources/notes/boateng2018best.md#e2)
-[^boateng2018best-e3]: Boateng 等人 2018，Step 1，Domain identification。[证据](../../../../sources/notes/boateng2018best.md#e3)
-[^boateng2018best-e4]: Boateng 等人 2018，Step 1，Item generation。[证据](../../../../sources/notes/boateng2018best.md#e4)
-[^boateng2018best-e5]: Boateng 等人 2018，Step 1，Item generation。[证据](../../../../sources/notes/boateng2018best.md#e5)
-[^boateng2018best-e6]: Boateng 等人 2018，Step 1，Item generation。[证据](../../../../sources/notes/boateng2018best.md#e6)
-[^boateng2018best-e7]: Boateng 等人 2018，Step 1，Item generation（常见陷阱）。[证据](../../../../sources/notes/boateng2018best.md#e7)
-[^boateng2018best-e8]: Boateng 等人 2018，Step 2，Evaluation by experts。[证据](../../../../sources/notes/boateng2018best.md#e8)
-[^boateng2018best-e9]: Boateng 等人 2018，Step 3，Cognitive interviews。[证据](../../../../sources/notes/boateng2018best.md#e9)
-[^boateng2018best-e10]: Boateng 等人 2018，Step 3，Cognitive interviews。[证据](../../../../sources/notes/boateng2018best.md#e10)
-[^boateng2018best-e11]: Boateng 等人 2018，Step 4，Establishing the sample size。[证据](../../../../sources/notes/boateng2018best.md#e11)
-[^boateng2018best-e12]: Boateng 等人 2018，Step 4，Determining the type of data to use。[证据](../../../../sources/notes/boateng2018best.md#e12)
-[^boateng2018best-e13]: Boateng 等人 2018，Step 5，Inter-item and item-total correlations。[证据](../../../../sources/notes/boateng2018best.md#e13)
-[^boateng2018best-e14]: Boateng 等人 2018，Step 6，Extraction of factors。[证据](../../../../sources/notes/boateng2018best.md#e14)
-[^boateng2018best-e15]: Boateng 等人 2018，Step 6，Extraction of factors。[证据](../../../../sources/notes/boateng2018best.md#e15)
-[^boateng2018best-e16]: Boateng 等人 2018，Step 7，Confirmatory factor analysis。[证据](../../../../sources/notes/boateng2018best.md#e16)
-[^boateng2018best-e17]: Boateng 等人 2018，Step 8，Cronbach's alpha。[证据](../../../../sources/notes/boateng2018best.md#e17)
-[^boateng2018best-e18]: Boateng 等人 2018，Step 8，Test–retest reliability。[证据](../../../../sources/notes/boateng2018best.md#e18)
-[^boateng2018best-e19]: Boateng 等人 2018，Step 9，Tests of validity。[证据](../../../../sources/notes/boateng2018best.md#e19)
-[^boateng2018best-e20]: Boateng 等人 2018，Step 9，Construct validity。[证据](../../../../sources/notes/boateng2018best.md#e20)
-[^boateng2018best-e21]: Boateng 等人 2018，Step 9，Construct validity（已知组比较）。[证据](../../../../sources/notes/boateng2018best.md#e21)
-[^boateng2018best-e22]: Boateng 等人 2018，Step 9，Criterion validity。[证据](../../../../sources/notes/boateng2018best.md#e22)
-[^hussey2020hidden-e1]: Hussey & Hughes 2020，Abstract。[证据](../../../../sources/notes/hussey2020hidden.md#e1)
-[^hussey2020hidden-e2]: Hussey & Hughes 2020，Introduction。[证据](../../../../sources/notes/hussey2020hidden.md#e2)
-[^hussey2020hidden-e3]: Hussey & Hughes 2020，Introduction（引 Flake 等人 2017）。[证据](../../../../sources/notes/hussey2020hidden.md#e3)
-[^hussey2020hidden-e4]: Hussey & Hughes 2020，Purpose of the Present Study。[证据](../../../../sources/notes/hussey2020hidden.md#e4)
-[^hussey2020hidden-e5]: Hussey & Hughes 2020，Introduction。[证据](../../../../sources/notes/hussey2020hidden.md#e5)
-[^hussey2020hidden-e6]: Hussey & Hughes 2020，Discussion。[证据](../../../../sources/notes/hussey2020hidden.md#e6)
-[^hussey2020hidden-e7]: Hussey & Hughes 2020，Discussion。[证据](../../../../sources/notes/hussey2020hidden.md#e7)
-[^hussey2020hidden-e8]: Hussey & Hughes 2020，Discussion。[证据](../../../../sources/notes/hussey2020hidden.md#e8)
-[^hussey2020hidden-e9]: Hussey & Hughes 2020，Discussion。[证据](../../../../sources/notes/hussey2020hidden.md#e9)
-[^hussey2020hidden-e10]: Hussey & Hughes 2020，Purpose of the Present Study。[证据](../../../../sources/notes/hussey2020hidden.md#e10)
-[^putnick2016measurement-e1]: Putnick & Bornstein 2016，Abstract。[证据](../../../../sources/notes/putnick2016measurement.md#e1)
-[^putnick2016measurement-e2]: Putnick & Bornstein 2016，Abstract。[证据](../../../../sources/notes/putnick2016measurement.md#e2)
-[^putnick2016measurement-e3]: Putnick & Bornstein 2016，Introduction。[证据](../../../../sources/notes/putnick2016measurement.md#e3)
-[^putnick2016measurement-e4]: Putnick & Bornstein 2016，Testing Measurement Invariance。[证据](../../../../sources/notes/putnick2016measurement.md#e4)
-[^putnick2016measurement-e5]: Putnick & Bornstein 2016，Testing Measurement Invariance。[证据](../../../../sources/notes/putnick2016measurement.md#e5)
-[^putnick2016measurement-e6]: Putnick & Bornstein 2016，Configural invariance。[证据](../../../../sources/notes/putnick2016measurement.md#e6)
-[^putnick2016measurement-e7]: Putnick & Bornstein 2016，Introduction。[证据](../../../../sources/notes/putnick2016measurement.md#e7)
-[^itc2017guidelines-e1]: 国际测验委员会 2017，Summary。[证据](../../../../sources/notes/itc2017guidelines.md#e1)
-[^itc2017guidelines-e2]: 国际测验委员会 2017，PC-1。[证据](../../../../sources/notes/itc2017guidelines.md#e2)
-[^itc2017guidelines-e3]: 国际测验委员会 2017，PC-2。[证据](../../../../sources/notes/itc2017guidelines.md#e3)
-[^itc2017guidelines-e4]: 国际测验委员会 2017，TD-2。[证据](../../../../sources/notes/itc2017guidelines.md#e4)
-[^itc2017guidelines-e5]: 国际测验委员会 2017，TD-2。[证据](../../../../sources/notes/itc2017guidelines.md#e5)
-[^itc2017guidelines-e6]: 国际测验委员会 2017，TD-5。[证据](../../../../sources/notes/itc2017guidelines.md#e6)
-[^itc2017guidelines-e7]: 国际测验委员会 2017，C-3。[证据](../../../../sources/notes/itc2017guidelines.md#e7)
-[^itc2017guidelines-e8]: 国际测验委员会 2017，SSI-2。[证据](../../../../sources/notes/itc2017guidelines.md#e8)
-[^itc2017guidelines-e9]: 国际测验委员会 2017，Doc-1。[证据](../../../../sources/notes/itc2017guidelines.md#e9)
-[^flake2020measurement-e1]: Flake & Fried 2020，Abstract。[证据](../../../../sources/notes/flake2020measurement.md#e1)
-[^flake2020measurement-e7]: Flake & Fried 2020，问题 1。[证据](../../../../sources/notes/flake2020measurement.md#e7)
-[^flake2020measurement-e8]: Flake & Fried 2020，问题 2。[证据](../../../../sources/notes/flake2020measurement.md#e8)
-[^flake2020measurement-e9]: Flake & Fried 2020，问题 3（引 Flake 等人 2017）。[证据](../../../../sources/notes/flake2020measurement.md#e9)
-[^flake2020measurement-e10]: Flake & Fried 2020，问题 4。[证据](../../../../sources/notes/flake2020measurement.md#e10)
-[^flake2020measurement-e11]: Flake & Fried 2020，问题 5（引 Flake 等人 2017）。[证据](../../../../sources/notes/flake2020measurement.md#e11)
-[^flake2020measurement-e12]: Flake & Fried 2020，问题 5。[证据](../../../../sources/notes/flake2020measurement.md#e12)
-[^flake2020measurement-e13]: Flake & Fried 2020，问题 6。[证据](../../../../sources/notes/flake2020measurement.md#e13)
-[^flake2020measurement-e15]: Flake & Fried 2020，Summary。[证据](../../../../sources/notes/flake2020measurement.md#e15)
-[^graziotin2021psychometrics-e4]: Graziotin 等人 2021，§13。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e4)
-[^graziotin2021psychometrics-e1]: Graziotin 等人 2021，§1.1。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e1)
-[^graziotin2021psychometrics-e5]: Graziotin 等人 2021，§3。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e5)
-[^graziotin2021psychometrics-e6]: Graziotin 等人 2021，§5。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e6)
-[^graziotin2021psychometrics-e7]: Graziotin 等人 2021，§7。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e7)
-[^graziotin2021psychometrics-e8]: Graziotin 等人 2021，§7.2。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e8)
-[^graziotin2021psychometrics-e9]: Graziotin 等人 2021，§7.2。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e9)
-[^graziotin2021psychometrics-e10]: Graziotin 等人 2021，§9。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e10)
-[^graziotin2021psychometrics-e11]: Graziotin 等人 2021，§10（引《教育与心理测验标准》）。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e11)
-[^graziotin2021psychometrics-e12]: Graziotin 等人 2021，§11。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e12)
-[^graziotin2021psychometrics-e13]: Graziotin 等人 2021，§11.1。[证据](../../../../sources/notes/graziotin2021psychometrics.md#e13)
-[^appelbaum2018journal-e10]: Appelbaum 等人 2018，Changes in Table 1，Psychometrics。[证据](../../../../sources/notes/appelbaum2018journal.md#e10)
-[^appelbaum2018journal-e11]: Appelbaum 等人 2018，Changes in Table 1，Psychometrics。[证据](../../../../sources/notes/appelbaum2018journal.md#e11)
-[^appelbaum2018journal-e12]: Appelbaum 等人 2018，Table 1，Method — Psychometrics。[证据](../../../../sources/notes/appelbaum2018journal.md#e12)
-[^appelbaum2018journal-e13]: Appelbaum 等人 2018，Table 1，Method — Psychometrics。[证据](../../../../sources/notes/appelbaum2018journal.md#e13)
+[^boateng2018best-e1]: Boateng 等人 2018，Introduction。[证据](../../sources/notes/boateng2018best.md#e1)
+[^boateng2018best-e2]: Boateng 等人 2018，Scale development overview。[证据](../../sources/notes/boateng2018best.md#e2)
+[^boateng2018best-e3]: Boateng 等人 2018，Step 1，Domain identification。[证据](../../sources/notes/boateng2018best.md#e3)
+[^boateng2018best-e4]: Boateng 等人 2018，Step 1，Item generation。[证据](../../sources/notes/boateng2018best.md#e4)
+[^boateng2018best-e5]: Boateng 等人 2018，Step 1，Item generation。[证据](../../sources/notes/boateng2018best.md#e5)
+[^boateng2018best-e6]: Boateng 等人 2018，Step 1，Item generation。[证据](../../sources/notes/boateng2018best.md#e6)
+[^boateng2018best-e7]: Boateng 等人 2018，Step 1，Item generation（常见陷阱）。[证据](../../sources/notes/boateng2018best.md#e7)
+[^boateng2018best-e8]: Boateng 等人 2018，Step 2，Evaluation by experts。[证据](../../sources/notes/boateng2018best.md#e8)
+[^boateng2018best-e9]: Boateng 等人 2018，Step 3，Cognitive interviews。[证据](../../sources/notes/boateng2018best.md#e9)
+[^boateng2018best-e10]: Boateng 等人 2018，Step 3，Cognitive interviews。[证据](../../sources/notes/boateng2018best.md#e10)
+[^boateng2018best-e11]: Boateng 等人 2018，Step 4，Establishing the sample size。[证据](../../sources/notes/boateng2018best.md#e11)
+[^boateng2018best-e12]: Boateng 等人 2018，Step 4，Determining the type of data to use。[证据](../../sources/notes/boateng2018best.md#e12)
+[^boateng2018best-e13]: Boateng 等人 2018，Step 5，Inter-item and item-total correlations。[证据](../../sources/notes/boateng2018best.md#e13)
+[^boateng2018best-e14]: Boateng 等人 2018，Step 6，Extraction of factors。[证据](../../sources/notes/boateng2018best.md#e14)
+[^boateng2018best-e15]: Boateng 等人 2018，Step 6，Extraction of factors。[证据](../../sources/notes/boateng2018best.md#e15)
+[^boateng2018best-e16]: Boateng 等人 2018，Step 7，Confirmatory factor analysis。[证据](../../sources/notes/boateng2018best.md#e16)
+[^boateng2018best-e17]: Boateng 等人 2018，Step 8，Cronbach's alpha。[证据](../../sources/notes/boateng2018best.md#e17)
+[^boateng2018best-e18]: Boateng 等人 2018，Step 8，Test–retest reliability。[证据](../../sources/notes/boateng2018best.md#e18)
+[^boateng2018best-e19]: Boateng 等人 2018，Step 9，Tests of validity。[证据](../../sources/notes/boateng2018best.md#e19)
+[^boateng2018best-e20]: Boateng 等人 2018，Step 9，Construct validity。[证据](../../sources/notes/boateng2018best.md#e20)
+[^boateng2018best-e21]: Boateng 等人 2018，Step 9，Construct validity（已知组比较）。[证据](../../sources/notes/boateng2018best.md#e21)
+[^boateng2018best-e22]: Boateng 等人 2018，Step 9，Criterion validity。[证据](../../sources/notes/boateng2018best.md#e22)
+[^hussey2020hidden-e1]: Hussey & Hughes 2020，Abstract。[证据](../../sources/notes/hussey2020hidden.md#e1)
+[^hussey2020hidden-e2]: Hussey & Hughes 2020，Introduction。[证据](../../sources/notes/hussey2020hidden.md#e2)
+[^hussey2020hidden-e3]: Hussey & Hughes 2020，Introduction（引 Flake 等人 2017）。[证据](../../sources/notes/hussey2020hidden.md#e3)
+[^hussey2020hidden-e4]: Hussey & Hughes 2020，Purpose of the Present Study。[证据](../../sources/notes/hussey2020hidden.md#e4)
+[^hussey2020hidden-e5]: Hussey & Hughes 2020，Introduction。[证据](../../sources/notes/hussey2020hidden.md#e5)
+[^hussey2020hidden-e6]: Hussey & Hughes 2020，Discussion。[证据](../../sources/notes/hussey2020hidden.md#e6)
+[^hussey2020hidden-e7]: Hussey & Hughes 2020，Discussion。[证据](../../sources/notes/hussey2020hidden.md#e7)
+[^hussey2020hidden-e8]: Hussey & Hughes 2020，Discussion。[证据](../../sources/notes/hussey2020hidden.md#e8)
+[^hussey2020hidden-e9]: Hussey & Hughes 2020，Discussion。[证据](../../sources/notes/hussey2020hidden.md#e9)
+[^hussey2020hidden-e10]: Hussey & Hughes 2020，Purpose of the Present Study。[证据](../../sources/notes/hussey2020hidden.md#e10)
+[^putnick2016measurement-e1]: Putnick & Bornstein 2016，Abstract。[证据](../../sources/notes/putnick2016measurement.md#e1)
+[^putnick2016measurement-e2]: Putnick & Bornstein 2016，Abstract。[证据](../../sources/notes/putnick2016measurement.md#e2)
+[^putnick2016measurement-e3]: Putnick & Bornstein 2016，Introduction。[证据](../../sources/notes/putnick2016measurement.md#e3)
+[^putnick2016measurement-e4]: Putnick & Bornstein 2016，Testing Measurement Invariance。[证据](../../sources/notes/putnick2016measurement.md#e4)
+[^putnick2016measurement-e5]: Putnick & Bornstein 2016，Testing Measurement Invariance。[证据](../../sources/notes/putnick2016measurement.md#e5)
+[^putnick2016measurement-e6]: Putnick & Bornstein 2016，Configural invariance。[证据](../../sources/notes/putnick2016measurement.md#e6)
+[^putnick2016measurement-e7]: Putnick & Bornstein 2016，Introduction。[证据](../../sources/notes/putnick2016measurement.md#e7)
+[^itc2017guidelines-e1]: 国际测验委员会 2017，Summary。[证据](../../sources/notes/itc2017guidelines.md#e1)
+[^itc2017guidelines-e2]: 国际测验委员会 2017，PC-1。[证据](../../sources/notes/itc2017guidelines.md#e2)
+[^itc2017guidelines-e3]: 国际测验委员会 2017，PC-2。[证据](../../sources/notes/itc2017guidelines.md#e3)
+[^itc2017guidelines-e4]: 国际测验委员会 2017，TD-2。[证据](../../sources/notes/itc2017guidelines.md#e4)
+[^itc2017guidelines-e5]: 国际测验委员会 2017，TD-2。[证据](../../sources/notes/itc2017guidelines.md#e5)
+[^itc2017guidelines-e6]: 国际测验委员会 2017，TD-5。[证据](../../sources/notes/itc2017guidelines.md#e6)
+[^itc2017guidelines-e7]: 国际测验委员会 2017，C-3。[证据](../../sources/notes/itc2017guidelines.md#e7)
+[^itc2017guidelines-e8]: 国际测验委员会 2017，SSI-2。[证据](../../sources/notes/itc2017guidelines.md#e8)
+[^itc2017guidelines-e9]: 国际测验委员会 2017，Doc-1。[证据](../../sources/notes/itc2017guidelines.md#e9)
+[^flake2020measurement-e1]: Flake & Fried 2020，Abstract。[证据](../../sources/notes/flake2020measurement.md#e1)
+[^flake2020measurement-e7]: Flake & Fried 2020，问题 1。[证据](../../sources/notes/flake2020measurement.md#e7)
+[^flake2020measurement-e8]: Flake & Fried 2020，问题 2。[证据](../../sources/notes/flake2020measurement.md#e8)
+[^flake2020measurement-e9]: Flake & Fried 2020，问题 3（引 Flake 等人 2017）。[证据](../../sources/notes/flake2020measurement.md#e9)
+[^flake2020measurement-e10]: Flake & Fried 2020，问题 4。[证据](../../sources/notes/flake2020measurement.md#e10)
+[^flake2020measurement-e11]: Flake & Fried 2020，问题 5（引 Flake 等人 2017）。[证据](../../sources/notes/flake2020measurement.md#e11)
+[^flake2020measurement-e12]: Flake & Fried 2020，问题 5。[证据](../../sources/notes/flake2020measurement.md#e12)
+[^flake2020measurement-e13]: Flake & Fried 2020，问题 6。[证据](../../sources/notes/flake2020measurement.md#e13)
+[^flake2020measurement-e15]: Flake & Fried 2020，Summary。[证据](../../sources/notes/flake2020measurement.md#e15)
+[^graziotin2021psychometrics-e4]: Graziotin 等人 2021，§13。[证据](../../sources/notes/graziotin2021psychometrics.md#e4)
+[^graziotin2021psychometrics-e1]: Graziotin 等人 2021，§1.1。[证据](../../sources/notes/graziotin2021psychometrics.md#e1)
+[^graziotin2021psychometrics-e5]: Graziotin 等人 2021，§3。[证据](../../sources/notes/graziotin2021psychometrics.md#e5)
+[^graziotin2021psychometrics-e6]: Graziotin 等人 2021，§5。[证据](../../sources/notes/graziotin2021psychometrics.md#e6)
+[^graziotin2021psychometrics-e7]: Graziotin 等人 2021，§7。[证据](../../sources/notes/graziotin2021psychometrics.md#e7)
+[^graziotin2021psychometrics-e8]: Graziotin 等人 2021，§7.2。[证据](../../sources/notes/graziotin2021psychometrics.md#e8)
+[^graziotin2021psychometrics-e9]: Graziotin 等人 2021，§7.2。[证据](../../sources/notes/graziotin2021psychometrics.md#e9)
+[^graziotin2021psychometrics-e10]: Graziotin 等人 2021，§9。[证据](../../sources/notes/graziotin2021psychometrics.md#e10)
+[^graziotin2021psychometrics-e11]: Graziotin 等人 2021，§10（引《教育与心理测验标准》）。[证据](../../sources/notes/graziotin2021psychometrics.md#e11)
+[^graziotin2021psychometrics-e12]: Graziotin 等人 2021，§11。[证据](../../sources/notes/graziotin2021psychometrics.md#e12)
+[^graziotin2021psychometrics-e13]: Graziotin 等人 2021，§11.1。[证据](../../sources/notes/graziotin2021psychometrics.md#e13)
+[^appelbaum2018journal-e10]: Appelbaum 等人 2018，Changes in Table 1，Psychometrics。[证据](../../sources/notes/appelbaum2018journal.md#e10)
+[^appelbaum2018journal-e11]: Appelbaum 等人 2018，Changes in Table 1，Psychometrics。[证据](../../sources/notes/appelbaum2018journal.md#e11)
+[^appelbaum2018journal-e12]: Appelbaum 等人 2018，Table 1，Method — Psychometrics。[证据](../../sources/notes/appelbaum2018journal.md#e12)
+[^appelbaum2018journal-e13]: Appelbaum 等人 2018，Table 1，Method — Psychometrics。[证据](../../sources/notes/appelbaum2018journal.md#e13)

@@ -67,24 +67,24 @@
 
 | 学科 | 方法篇 |
 |---|---|
-| 临床医学 | [随机对照试验](../07_fields/clinical-medicine/research-types/randomized_controlled_trial.md) |
-| 健康科学 | [系统综述与元分析（健康领域）](../07_fields/health-sciences/research-types/meta_analysis.md)、[观察性流行病学研究](../07_fields/health-sciences/research-types/observational_epidemiology.md) |
-| 基础医学 | [临床前动物研究](../07_fields/basic-medicine/research-types/preclinical_animal_study.md) |
-| 生物科学 | [实验台实验（湿实验）](../07_fields/biological-sciences/research-types/bench_experiment.md) |
-| 化学科学 | [合成与表征研究](../07_fields/chemistry/research-types/synthesis_study.md) |
-| 物理科学 | [实验测量研究](../07_fields/physical-sciences/research-types/experimental_measurement.md) |
-| 地球与环境科学 | [野外观测研究](../07_fields/earth-environmental-sciences/research-types/field_study.md) |
-| 农业、林业与渔业 | [田间试验](../07_fields/agriculture/research-types/field_trial.md) |
-| 经济学与商学 | [田野实验](../07_fields/economics/research-types/field_experiment.md)、[准实验与因果识别](../07_fields/economics/research-types/quasi_experiment.md) |
-| 心理学与认知科学 | [量表编制与测量研究](../07_fields/psychology/research-types/scale_development.md) |
-| 政治学 | [过程追踪与比较案例研究](../07_fields/political-science/research-types/process_tracing.md) |
-| 社会与经济地理学 | [空间分析研究](../07_fields/geography/research-types/spatial_analysis.md) |
-| 教育学 | [基于设计的研究](../07_fields/education/research-types/design_based_research.md) |
-| 法学 | [规范法学研究](../07_fields/law/research-types/doctrinal_research.md) |
-| 历史与考古 | [考古发掘与野外调查](../07_fields/history-archaeology/research-types/archaeological_excavation.md)、[档案研究](../07_fields/history-archaeology/research-types/archival_research.md)、[口述历史](../07_fields/history-archaeology/research-types/oral_history.md) |
-| 语言与文学 | [文本细读与文学论证](../07_fields/languages-literature/research-types/close_reading.md)、[语言记录与语言学田野调查](../07_fields/languages-literature/research-types/language_documentation.md) |
-| 哲学、伦理与宗教 | [哲学论证研究](../07_fields/philosophy-ethics-religion/research-types/philosophical_argument.md) |
-| 艺术 | [基于实践的研究](../07_fields/arts/research-types/practice_based_research.md) |
+| 临床医学 | [随机对照试验](randomized_controlled_trial.md) |
+| 健康科学 | [系统综述与元分析（健康领域）](meta_analysis.md)、[观察性流行病学研究](observational_epidemiology.md) |
+| 基础医学 | [临床前动物研究](preclinical_animal_study.md) |
+| 生物科学 | [实验台实验（湿实验）](bench_experiment.md) |
+| 化学科学 | [合成与表征研究](synthesis_study.md) |
+| 物理科学 | [实验测量研究](experimental_measurement.md) |
+| 地球与环境科学 | [野外观测研究](field_study.md) |
+| 农业、林业与渔业 | [田间试验](../07_fields/agriculture/practices/field_trial.md) |
+| 经济学与商学 | [田野实验](field_experiment.md)、[准实验与因果识别](quasi_experiment.md) |
+| 心理学与认知科学 | [量表编制与测量研究](scale_development.md) |
+| 政治学 | [过程追踪与比较案例研究](process_tracing.md) |
+| 社会与经济地理学 | [空间分析研究](../07_fields/geography/practices/spatial_analysis.md) |
+| 教育学 | [基于设计的研究](../07_fields/education/practices/design_based_research.md) |
+| 法学 | [规范法学研究](../07_fields/law/practices/doctrinal_research.md) |
+| 历史与考古 | [考古发掘与野外调查](../07_fields/history-archaeology/practices/archaeological_excavation.md)、[档案研究](archival_research.md)、[口述历史](oral_history.md) |
+| 语言与文学 | [文本细读与文学论证](../07_fields/languages-literature/practices/close_reading.md)、[语言记录与语言学田野调查](../07_fields/languages-literature/practices/language_documentation.md) |
+| 哲学、伦理与宗教 | [哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md) |
+| 艺术 | [基于实践的研究](../07_fields/arts/practices/practice_based_research.md) |
 
 共 23 篇，列表和学科分类见[学科篇：其他学科的研究类型](../07_fields/README.md#其他学科的研究类型)。
 

@@ -150,7 +150,7 @@ IEEE 现在的做法：
 
 ## 常见的研究类型
 
-**相关学科的研究类型文档**：[实验测量研究](../physical-sciences/research-types/experimental_measurement.md)。
+**相关学科的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
 
 本领域常用的方法，有不少在研究方法和计算机篇的实践里有对应文档，可以直接参考。下面只写本领域额外要注意的地方：
 

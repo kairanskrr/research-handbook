@@ -2,9 +2,9 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲政治学里两种紧密相连的定性方法。一是**过程追踪**（process tracing）：在一个案例内部一步步检查事情是怎样发生的，用来检验或提出因果解释。二是**比较案例研究**：有意挑选少数几个案例互相比较。本文的主要资料是政治学方法论文献。Bennett 和 Checkel 指出，当代政治学者和社会学者都认为，很多问题的答案要把社会和制度的结构背景与个人决策结合起来[^bennett2012process-e1]；他们还认为，过程追踪和历史学家 Clayton Roberts 所说的"历史解释"密切相关[^bennett2012process-e6]。社会学的比较历史研究（[社会学领域概况](../../sociology/README.md#几种主要的研究路子)说明那里的资料没有专门讲它）或许可以参照本文 `[本项目分析]`。
+本文讲政治学里两种紧密相连的定性方法。一是**过程追踪**（process tracing）：在一个案例内部一步步检查事情是怎样发生的，用来检验或提出因果解释。二是**比较案例研究**：有意挑选少数几个案例互相比较。本文的主要资料是政治学方法论文献。Bennett 和 Checkel 指出，当代政治学者和社会学者都认为，很多问题的答案要把社会和制度的结构背景与个人决策结合起来[^bennett2012process-e1]；他们还认为，过程追踪和历史学家 Clayton Roberts 所说的"历史解释"密切相关[^bennett2012process-e6]。社会学的比较历史研究（[社会学领域概况](../07_fields/sociology/README.md#几种主要的研究路子)说明那里的资料没有专门讲它）或许可以参照本文 `[本项目分析]`。
 
-政治学有哪几条研究路子，见[政治学领域概况](../README.md#几条研究路子并存)。案例研究的通用做法（定义案例、多来源印证、保持证据链、分析性推广）见研究方法里的[案例研究与民族志](../../../06_methods/case_study.md)，本文不重复。在档案馆里怎样工作，见[档案研究](../../history-archaeology/research-types/archival_research.md)；访谈的通用流程见[访谈研究](../../../06_methods/interview_study.md)。
+政治学有哪几条研究路子，见[政治学领域概况](../07_fields/political-science/README.md#几条研究路子并存)。案例研究的通用做法（定义案例、多来源印证、保持证据链、分析性推广）见研究方法里的[案例研究与民族志](case_study.md)，本文不重复。在档案馆里怎样工作，见[档案研究](archival_research.md)；访谈的通用流程见[访谈研究](interview_study.md)。
 
 **读完本文，你应该能：**
 
@@ -32,7 +32,7 @@
 | 长处 | Gerring：更擅长揭示因果机制[^gerring2004case-e4] | 能控制一部分其他因素 | 效应大小、代表性 |
 | 短处 | Gerring：代表性常常不足[^gerring2004case-e3] | 最相似的案例也很少只差一个因素[^bennett2012process-e42] | 机制常常是黑箱 |
 
-三者可以组合。Bennett 和 Checkel 举了一种组合：从统计分析里挑几个案例做过程追踪，弄清因果方向是不是反了、相关是不是虚假的[^bennett2012process-e24]。多方法设计的一般做法见[混合方法](../../../06_methods/mixed_methods.md)。
+三者可以组合。Bennett 和 Checkel 举了一种组合：从统计分析里挑几个案例做过程追踪，弄清因果方向是不是反了、相关是不是虚假的[^bennett2012process-e24]。多方法设计的一般做法见[混合方法](mixed_methods.md)。
 
 ---
 
@@ -76,7 +76,7 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 
 ### 第五步：批判地使用资料
 
-档案馆里的具体操作，以及怎样审视每一份资料的来历和可靠性，见[档案研究](../../history-archaeology/research-types/archival_research.md#第五步审视每一份资料)。这里只讲过程追踪特别要注意的几点：
+档案馆里的具体操作，以及怎样审视每一份资料的来历和可靠性，见[档案研究](archival_research.md#第五步审视每一份资料)。这里只讲过程追踪特别要注意的几点：
 
 - **问"谁说的、为什么这么说"。** 提供证据的人可能想推销某种解释。先根据他可能的动机给证据打折，再用他说的话反过来判断他的动机[^bennett2012process-e30]。
 - **场合不同，分量不同。** 即兴发言和准备好的讲话不同，公开声明和私下或保密的说法不同[^bennett2012process-e31]。还要弄清公开声明是谁执笔的[^bennett2012process-e48]。
@@ -87,7 +87,7 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 
 ### 第六步：把精英访谈当作证据来用
 
-精英访谈指访问官员、议员、外交官、政党和组织负责人 `[本项目分析]`。访谈的通用流程见[访谈研究](../../../06_methods/interview_study.md)，伦理问题见[政治学领域概况](../README.md#伦理在真实政治环境里做研究)。作为过程追踪的证据，要注意：
+精英访谈指访问官员、议员、外交官、政党和组织负责人 `[本项目分析]`。访谈的通用流程见[访谈研究](interview_study.md)，伦理问题见[政治学领域概况](../07_fields/political-science/README.md#伦理在真实政治环境里做研究)。作为过程追踪的证据，要注意：
 
 - **受访者的话也要打折。** 第五步关于动机的分析同样适用[^bennett2012process-e30]；官员常有理由美化自己在事件中的角色 `[本项目分析]`。
 - **用文件核对回忆。** 有文件佐证的回忆，比没有佐证的更可信[^bennett2012process-e48]。可以对比当事人的公开言论和当时以为不会很快公开的私下讨论[^bennett2012process-e47]。
@@ -117,7 +117,7 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 
 **为什么不随机抽。** Seawright 和 Gerring 的模拟显示，只有五个或更少案例时，随机抽出来的样本常常明显不代表总体[^seawright2008case-e5]。**容易错在哪：**
 
-- **只说"方便"。** 时间、经费、能否进入都是正当理由，但不是选 A 不选 B 的方法理由[^seawright2008case-e3]。事后也要弄清这些案例在总体中处于什么位置[^seawright2008case-e4]，并报告选案例时已经知道什么、哪些案例差点入选[^jacobs2021qualitative-e22]。通用的有目的选样见[案例研究](../../../06_methods/case_study.md#第三步有目的地选案例并说清为什么)。
+- **只说"方便"。** 时间、经费、能否进入都是正当理由，但不是选 A 不选 B 的方法理由[^seawright2008case-e3]。事后也要弄清这些案例在总体中处于什么位置[^seawright2008case-e4]，并报告选案例时已经知道什么、哪些案例差点入选[^jacobs2021qualitative-e22]。通用的有目的选样见[案例研究](case_study.md#第三步有目的地选案例并说清为什么)。
 - **以为最相似案例真的只差一个因素。** 很少能做到，要用过程追踪说明其他差异不能解释结果[^bennett2012process-e42]。
 
 **最大的坑：只挑结果相同的案例。** Geddes 1990 年指出，想理解革命就只挑几场革命来研究，是她所在领域最持久的惯例之一[^geddes1990cases-e1]。她认为问题在于：只研究结果相同的 A 和 B，只拿到一半信息，即它们有什么共同点[^geddes1990cases-e3]；这样的样本真正能解释的，只有入选案例之间的差异[^geddes1990cases-e4]。她的例子：几个高速增长的新兴工业化国家都压制劳工，但也许别的国家同样压制劳工却没发展起来[^geddes1990cases-e5]；把增长慢的国家也放进来后，这个表面关系消失了[^geddes1990cases-e6]。**怎么避开：**把结果不同的案例也放进来[^geddes1990cases-e6]。Seawright 和 Gerring 认为极端案例可以选，前提是不把它当作总体的代表[^seawright2008case-e9]，并参照背后那一大批案例[^seawright2008case-e10]。
@@ -125,7 +125,7 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 ### 第九步：写作与透明
 
 - **把机制假设写在明处**，哪怕叙述没那么流畅；这是 Bennett 和 Checkel 的主张[^bennett2012process-e7]。
-- **讲清证据怎样产生、分析怎样进行。** 定性透明度审议的总结说，各方明确一致：要详细说明证据是怎样产生的[^jacobs2021qualitative-e19]。签署了期刊编辑透明声明的期刊，要求讲清结论依赖的分析步骤[^dart2014jets-e4]；数据受限的，投稿时就要告诉编辑[^dart2014jets-e3]。这场透明度争论的来龙去脉见[政治学领域概况](../README.md#数据获取与研究透明data-access-and-research-transparencyda-rt)。
+- **讲清证据怎样产生、分析怎样进行。** 定性透明度审议的总结说，各方明确一致：要详细说明证据是怎样产生的[^jacobs2021qualitative-e19]。签署了期刊编辑透明声明的期刊，要求讲清结论依赖的分析步骤[^dart2014jets-e4]；数据受限的，投稿时就要告诉编辑[^dart2014jets-e3]。这场透明度争论的来龙去脉见[政治学领域概况](../07_fields/political-science/README.md#数据获取与研究透明data-access-and-research-transparencyda-rt)。
 - **不必公开全部原始材料。** 定性研究透明度审议的各工作组一致认为，不应统一要求共享定性数据[^jacobs2021qualitative-e15]。可以用雪城大学定性数据仓库开发的"透明探究注释"（Annotation for Transparent Inquiry）这类工具，在论文段落上叠加引文、原文摘录和资料链接[^jacobs2021qualitative-e18]。
 - **说清能推广到哪里**[^jacobs2021qualitative-e23]，单个案例的弱点常在代表性[^gerring2004case-e3]；**承认剩下的不确定性**[^bennett2012process-e45]。
 - **推理写到多细？** 把证据证明力等环节写得形式化，便于读者评价[^jacobs2021qualitative-e24]；但过长的附录会遮住重点，形式化的贝叶斯写法可能不如叙事好读[^jacobs2021qualitative-e25]。可以正文用叙事，只对关键证据写明属于哪种检验、理由是什么，细节放附录 `[本项目分析]`。
@@ -198,104 +198,104 @@ Bennett 和 Checkel 认为，他们提出的十条标准可以作为起点和检
 - **Geddes 1990，How the Cases You Choose Affect the Answers You Get**（本文用的是加州大学伯克利分校的工作论文版，正式版发表于 Political Analysis）：用实例说明只挑结果相同的案例会得出什么错误结论。选案例前读。
 - **Jacobs、Büthe 等 2021，The Qualitative Transparency Deliberations**（Perspectives on Politics；本文用的是作者接受稿）：定性研究怎样在保护受访者的前提下做到透明，附大量具体做法。写作和准备附录时读。
 
-[^bennett2012process-e1]: Bennett & Checkel 2012，Introduction，第 5 页。[证据](../../../../sources/notes/bennett2012process.md#e1)
-[^bennett2012process-e2]: Bennett & Checkel 2012，Defining Process Tracing，第 7 页。[证据](../../../../sources/notes/bennett2012process.md#e2)
-[^bennett2012process-e3]: Bennett & Checkel 2012，Defining Process Tracing，第 10 页。[证据](../../../../sources/notes/bennett2012process.md#e3)
-[^bennett2012process-e4]: Bennett & Checkel 2012，Defining Process Tracing，第 10 页。[证据](../../../../sources/notes/bennett2012process.md#e4)
-[^bennett2012process-e5]: Bennett & Checkel 2012，Defining Process Tracing，第 11 页。[证据](../../../../sources/notes/bennett2012process.md#e5)
-[^bennett2012process-e6]: Bennett & Checkel 2012，Defining Process Tracing，第 11 页。[证据](../../../../sources/notes/bennett2012process.md#e6)
-[^bennett2012process-e7]: Bennett & Checkel 2012，Defining Process Tracing，第 11 页。[证据](../../../../sources/notes/bennett2012process.md#e7)
-[^bennett2012process-e8]: Bennett & Checkel 2012，Defining Process Tracing，第 12 页。[证据](../../../../sources/notes/bennett2012process.md#e8)
-[^bennett2012process-e9]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 19 页。[证据](../../../../sources/notes/bennett2012process.md#e9)
-[^bennett2012process-e10]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 19 页。[证据](../../../../sources/notes/bennett2012process.md#e10)
-[^bennett2012process-e11]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 19 页。[证据](../../../../sources/notes/bennett2012process.md#e11)
-[^bennett2012process-e12]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 20 页。[证据](../../../../sources/notes/bennett2012process.md#e12)
-[^bennett2012process-e13]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 20 页。[证据](../../../../sources/notes/bennett2012process.md#e13)
-[^bennett2012process-e14]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 20 页。[证据](../../../../sources/notes/bennett2012process.md#e14)
-[^bennett2012process-e15]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 21 页。[证据](../../../../sources/notes/bennett2012process.md#e15)
-[^bennett2012process-e17]: Bennett & Checkel 2012，Techniques and Standards，第 22 页。[证据](../../../../sources/notes/bennett2012process.md#e17)
-[^bennett2012process-e18]: Bennett & Checkel 2012，Techniques and Standards，第 22 页。[证据](../../../../sources/notes/bennett2012process.md#e18)
-[^bennett2012process-e19]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../../../sources/notes/bennett2012process.md#e19)
-[^bennett2012process-e20]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../../../sources/notes/bennett2012process.md#e20)
-[^bennett2012process-e21]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../../../sources/notes/bennett2012process.md#e21)
-[^bennett2012process-e22]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../../../sources/notes/bennett2012process.md#e22)
-[^bennett2012process-e23]: Bennett & Checkel 2012，Techniques and Standards，第 23–24 页。[证据](../../../../sources/notes/bennett2012process.md#e23)
-[^bennett2012process-e24]: Bennett & Checkel 2012，Techniques and Standards，第 24 页。[证据](../../../../sources/notes/bennett2012process.md#e24)
-[^bennett2012process-e25]: Bennett & Checkel 2012，Standards of Good Process Tracing，第 26 页。[证据](../../../../sources/notes/bennett2012process.md#e25)
-[^bennett2012process-e26]: Bennett & Checkel 2012，标准 1，第 26 页。[证据](../../../../sources/notes/bennett2012process.md#e26)
-[^bennett2012process-e27]: Bennett & Checkel 2012，标准 1，第 26 页。[证据](../../../../sources/notes/bennett2012process.md#e27)
-[^bennett2012process-e28]: Bennett & Checkel 2012，标准 1，第 27 页。[证据](../../../../sources/notes/bennett2012process.md#e28)
-[^bennett2012process-e29]: Bennett & Checkel 2012，标准 2，第 28 页。[证据](../../../../sources/notes/bennett2012process.md#e29)
-[^bennett2012process-e30]: Bennett & Checkel 2012，标准 3，第 28 页。[证据](../../../../sources/notes/bennett2012process.md#e30)
-[^bennett2012process-e31]: Bennett & Checkel 2012，标准 3，第 29 页。[证据](../../../../sources/notes/bennett2012process.md#e31)
-[^bennett2012process-e32]: Bennett & Checkel 2012，标准 3，第 29 页。[证据](../../../../sources/notes/bennett2012process.md#e32)
-[^bennett2012process-e33]: Bennett & Checkel 2012，标准 3，第 29 页。[证据](../../../../sources/notes/bennett2012process.md#e33)
-[^bennett2012process-e34]: Bennett & Checkel 2012，标准 4，第 29 页。[证据](../../../../sources/notes/bennett2012process.md#e34)
-[^bennett2012process-e35]: Bennett & Checkel 2012，标准 5，第 30 页。[证据](../../../../sources/notes/bennett2012process.md#e35)
-[^bennett2012process-e36]: Bennett & Checkel 2012，标准 5，第 30 页。[证据](../../../../sources/notes/bennett2012process.md#e36)
-[^bennett2012process-e37]: Bennett & Checkel 2012，标准 6，第 31 页。[证据](../../../../sources/notes/bennett2012process.md#e37)
-[^bennett2012process-e38]: Bennett & Checkel 2012，标准 6，第 32 页。[证据](../../../../sources/notes/bennett2012process.md#e38)
-[^bennett2012process-e39]: Bennett & Checkel 2012，标准 6，第 32 页。[证据](../../../../sources/notes/bennett2012process.md#e39)
-[^bennett2012process-e40]: Bennett & Checkel 2012，标准 6，第 32 页。[证据](../../../../sources/notes/bennett2012process.md#e40)
-[^bennett2012process-e41]: Bennett & Checkel 2012，标准 7，第 33 页。[证据](../../../../sources/notes/bennett2012process.md#e41)
-[^bennett2012process-e42]: Bennett & Checkel 2012，标准 7，第 33 页。[证据](../../../../sources/notes/bennett2012process.md#e42)
-[^bennett2012process-e43]: Bennett & Checkel 2012，标准 8，第 34 页。[证据](../../../../sources/notes/bennett2012process.md#e43)
-[^bennett2012process-e44]: Bennett & Checkel 2012，标准 9，第 34 页。[证据](../../../../sources/notes/bennett2012process.md#e44)
-[^bennett2012process-e45]: Bennett & Checkel 2012，标准 10，第 35 页。[证据](../../../../sources/notes/bennett2012process.md#e45)
-[^bennett2012process-e46]: Bennett & Checkel 2012，Standards of Good Process Tracing，第 35 页。[证据](../../../../sources/notes/bennett2012process.md#e46)
-[^bennett2012process-e47]: Bennett & Checkel 2012，Process Tracing on General Categories of Theories，第 37 页。[证据](../../../../sources/notes/bennett2012process.md#e47)
-[^bennett2012process-e48]: Bennett & Checkel 2012，Process Tracing on General Categories of Theories，第 38 页。[证据](../../../../sources/notes/bennett2012process.md#e48)
-[^bennett2012process-e49]: Bennett & Checkel 2012，Process Tracing on General Categories of Theories，第 38 页。[证据](../../../../sources/notes/bennett2012process.md#e49)
-[^bennett2012process-e50]: Bennett & Checkel 2012，Conclusion，第 40 页。[证据](../../../../sources/notes/bennett2012process.md#e50)
-[^collier2011understanding-e1]: Collier 2011，引言，第 823 页。[证据](../../../../sources/notes/collier2011understanding.md#e1)
-[^collier2011understanding-e2]: Collier 2011，Teaching Exercises，第 823–824 页。[证据](../../../../sources/notes/collier2011understanding.md#e2)
-[^collier2011understanding-e3]: Collier 2011，Descriptive Inference，第 824 页。[证据](../../../../sources/notes/collier2011understanding.md#e3)
-[^collier2011understanding-e4]: Collier 2011，Causal Inference，第 825 页。[证据](../../../../sources/notes/collier2011understanding.md#e4)
-[^collier2011understanding-e5]: Collier 2011，Causal Inference，第 825 页。[证据](../../../../sources/notes/collier2011understanding.md#e5)
-[^collier2011understanding-e6]: Collier 2011，Straw-in-the-Wind Tests，第 826 页。[证据](../../../../sources/notes/collier2011understanding.md#e6)
-[^collier2011understanding-e7]: Collier 2011，Hoop Tests，第 826 页。[证据](../../../../sources/notes/collier2011understanding.md#e7)
-[^collier2011understanding-e8]: Collier 2011，Smoking-Gun Tests，第 827 页。[证据](../../../../sources/notes/collier2011understanding.md#e8)
-[^collier2011understanding-e9]: Collier 2011，Doubly Decisive Tests，第 827 页。[证据](../../../../sources/notes/collier2011understanding.md#e9)
-[^collier2011understanding-e10]: Collier 2011，Doubly Decisive Tests，第 827 页。[证据](../../../../sources/notes/collier2011understanding.md#e10)
-[^collier2011understanding-e12]: Collier 2011，Conclusion，第 828–829 页。[证据](../../../../sources/notes/collier2011understanding.md#e12)
-[^seawright2008case-e1]: Seawright & Gerring 2008，引言，第 294 页。[证据](../../../../sources/notes/seawright2008case.md#e1)
-[^seawright2008case-e3]: Seawright & Gerring 2008，引言，第 295 页。[证据](../../../../sources/notes/seawright2008case.md#e3)
-[^seawright2008case-e4]: Seawright & Gerring 2008，引言，第 295 页。[证据](../../../../sources/notes/seawright2008case.md#e4)
-[^seawright2008case-e5]: Seawright & Gerring 2008，Why Not Choose Cases Randomly?，第 295 页。[证据](../../../../sources/notes/seawright2008case.md#e5)
-[^seawright2008case-e6]: Seawright & Gerring 2008，Techniques of Case Selection，第 296 页。[证据](../../../../sources/notes/seawright2008case.md#e6)
-[^seawright2008case-e7]: Seawright & Gerring 2008，Techniques of Case Selection，第 296 页。[证据](../../../../sources/notes/seawright2008case.md#e7)
-[^seawright2008case-e8]: Seawright & Gerring 2008，Typical Case，第 299 页。[证据](../../../../sources/notes/seawright2008case.md#e8)
-[^seawright2008case-e9]: Seawright & Gerring 2008，Extreme Case，第 301 页。[证据](../../../../sources/notes/seawright2008case.md#e9)
-[^seawright2008case-e10]: Seawright & Gerring 2008，Extreme Case，第 301 页。[证据](../../../../sources/notes/seawright2008case.md#e10)
-[^seawright2008case-e11]: Seawright & Gerring 2008，Deviant Case，第 302 页。[证据](../../../../sources/notes/seawright2008case.md#e11)
-[^seawright2008case-e12]: Seawright & Gerring 2008，Deviant Case，第 302 页。[证据](../../../../sources/notes/seawright2008case.md#e12)
-[^seawright2008case-e13]: Seawright & Gerring 2008，Most Similar，第 304 页。[证据](../../../../sources/notes/seawright2008case.md#e13)
-[^seawright2008case-e14]: Seawright & Gerring 2008，Most Different，第 306 页。[证据](../../../../sources/notes/seawright2008case.md#e14)
-[^seawright2008case-e15]: Seawright & Gerring 2008，Complications，第 306 页。[证据](../../../../sources/notes/seawright2008case.md#e15)
-[^seawright2008case-e16]: Seawright & Gerring 2008，Complications，第 306 页。[证据](../../../../sources/notes/seawright2008case.md#e16)
-[^gerring2004case-e1]: Gerring 2004，摘要，第 341 页。[证据](../../../../sources/notes/gerring2004case.md#e1)
-[^gerring2004case-e2]: Gerring 2004，Scope of Proposition，第 348 页。[证据](../../../../sources/notes/gerring2004case.md#e2)
-[^gerring2004case-e3]: Gerring 2004，Unit Homogeneity，第 348 页。[证据](../../../../sources/notes/gerring2004case.md#e3)
-[^gerring2004case-e4]: Gerring 2004，Causal Insight，第 349 页。[证据](../../../../sources/notes/gerring2004case.md#e4)
-[^gerring2004case-e5]: Gerring 2004，Strategy of Research，第 350 页。[证据](../../../../sources/notes/gerring2004case.md#e5)
-[^gerring2004case-e6]: Gerring 2004，Strategy of Research，第 350 页。[证据](../../../../sources/notes/gerring2004case.md#e6)
-[^gerring2004case-e7]: Gerring 2004，Conclusion，第 352 页。[证据](../../../../sources/notes/gerring2004case.md#e7)
-[^geddes1990cases-e1]: Geddes 1990，开头。[证据](../../../../sources/notes/geddes1990cases.md#e1)
-[^geddes1990cases-e3]: Geddes 1990，The Nature of the Problem。[证据](../../../../sources/notes/geddes1990cases.md#e3)
-[^geddes1990cases-e4]: Geddes 1990，The Nature of the Problem。[证据](../../../../sources/notes/geddes1990cases.md#e4)
-[^geddes1990cases-e5]: Geddes 1990，A Straightforward Case of Selection on the Dependent Variable。[证据](../../../../sources/notes/geddes1990cases.md#e5)
-[^geddes1990cases-e6]: Geddes 1990，A Straightforward Case of Selection on the Dependent Variable。[证据](../../../../sources/notes/geddes1990cases.md#e6)
-[^jacobs2021qualitative-e16]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e16)
-[^jacobs2021qualitative-e17]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e17)
-[^jacobs2021qualitative-e18]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e18)
-[^jacobs2021qualitative-e19]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e19)
-[^jacobs2021qualitative-e20]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 26 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e20)
-[^jacobs2021qualitative-e21]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 26 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e21)
-[^jacobs2021qualitative-e22]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 26 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e22)
-[^jacobs2021qualitative-e23]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 27 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e23)
-[^jacobs2021qualitative-e24]: Jacobs、Büthe 等 2021，Potential Benefits of Transparency（作者接受稿第 15 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e24)
-[^jacobs2021qualitative-e25]: Jacobs、Büthe 等 2021，Costs and Risks（作者接受稿第 20 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e25)
-[^jacobs2021qualitative-e15]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 24 页）。[证据](../../../../sources/notes/jacobs2021qualitative.md#e15)
-[^dart2014jets-e3]: Journal Editors' Transparency Statement 2014，第 1 条。[证据](../../../../sources/notes/dart2014jets.md#e3)
-[^dart2014jets-e4]: Journal Editors' Transparency Statement 2014，第 2 条。[证据](../../../../sources/notes/dart2014jets.md#e4)
-[^apsa2020humansubjects-e19]: 美国政治学会 2020，Confidentiality 9b。[证据](../../../../sources/notes/apsa2020humansubjects.md#e19)
+[^bennett2012process-e1]: Bennett & Checkel 2012，Introduction，第 5 页。[证据](../../sources/notes/bennett2012process.md#e1)
+[^bennett2012process-e2]: Bennett & Checkel 2012，Defining Process Tracing，第 7 页。[证据](../../sources/notes/bennett2012process.md#e2)
+[^bennett2012process-e3]: Bennett & Checkel 2012，Defining Process Tracing，第 10 页。[证据](../../sources/notes/bennett2012process.md#e3)
+[^bennett2012process-e4]: Bennett & Checkel 2012，Defining Process Tracing，第 10 页。[证据](../../sources/notes/bennett2012process.md#e4)
+[^bennett2012process-e5]: Bennett & Checkel 2012，Defining Process Tracing，第 11 页。[证据](../../sources/notes/bennett2012process.md#e5)
+[^bennett2012process-e6]: Bennett & Checkel 2012，Defining Process Tracing，第 11 页。[证据](../../sources/notes/bennett2012process.md#e6)
+[^bennett2012process-e7]: Bennett & Checkel 2012，Defining Process Tracing，第 11 页。[证据](../../sources/notes/bennett2012process.md#e7)
+[^bennett2012process-e8]: Bennett & Checkel 2012，Defining Process Tracing，第 12 页。[证据](../../sources/notes/bennett2012process.md#e8)
+[^bennett2012process-e9]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 19 页。[证据](../../sources/notes/bennett2012process.md#e9)
+[^bennett2012process-e10]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 19 页。[证据](../../sources/notes/bennett2012process.md#e10)
+[^bennett2012process-e11]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 19 页。[证据](../../sources/notes/bennett2012process.md#e11)
+[^bennett2012process-e12]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 20 页。[证据](../../sources/notes/bennett2012process.md#e12)
+[^bennett2012process-e13]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 20 页。[证据](../../sources/notes/bennett2012process.md#e13)
+[^bennett2012process-e14]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 20 页。[证据](../../sources/notes/bennett2012process.md#e14)
+[^bennett2012process-e15]: Bennett & Checkel 2012，Bayesianism and Process Tracing，第 21 页。[证据](../../sources/notes/bennett2012process.md#e15)
+[^bennett2012process-e17]: Bennett & Checkel 2012，Techniques and Standards，第 22 页。[证据](../../sources/notes/bennett2012process.md#e17)
+[^bennett2012process-e18]: Bennett & Checkel 2012，Techniques and Standards，第 22 页。[证据](../../sources/notes/bennett2012process.md#e18)
+[^bennett2012process-e19]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../sources/notes/bennett2012process.md#e19)
+[^bennett2012process-e20]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../sources/notes/bennett2012process.md#e20)
+[^bennett2012process-e21]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../sources/notes/bennett2012process.md#e21)
+[^bennett2012process-e22]: Bennett & Checkel 2012，Techniques and Standards，第 23 页。[证据](../../sources/notes/bennett2012process.md#e22)
+[^bennett2012process-e23]: Bennett & Checkel 2012，Techniques and Standards，第 23–24 页。[证据](../../sources/notes/bennett2012process.md#e23)
+[^bennett2012process-e24]: Bennett & Checkel 2012，Techniques and Standards，第 24 页。[证据](../../sources/notes/bennett2012process.md#e24)
+[^bennett2012process-e25]: Bennett & Checkel 2012，Standards of Good Process Tracing，第 26 页。[证据](../../sources/notes/bennett2012process.md#e25)
+[^bennett2012process-e26]: Bennett & Checkel 2012，标准 1，第 26 页。[证据](../../sources/notes/bennett2012process.md#e26)
+[^bennett2012process-e27]: Bennett & Checkel 2012，标准 1，第 26 页。[证据](../../sources/notes/bennett2012process.md#e27)
+[^bennett2012process-e28]: Bennett & Checkel 2012，标准 1，第 27 页。[证据](../../sources/notes/bennett2012process.md#e28)
+[^bennett2012process-e29]: Bennett & Checkel 2012，标准 2，第 28 页。[证据](../../sources/notes/bennett2012process.md#e29)
+[^bennett2012process-e30]: Bennett & Checkel 2012，标准 3，第 28 页。[证据](../../sources/notes/bennett2012process.md#e30)
+[^bennett2012process-e31]: Bennett & Checkel 2012，标准 3，第 29 页。[证据](../../sources/notes/bennett2012process.md#e31)
+[^bennett2012process-e32]: Bennett & Checkel 2012，标准 3，第 29 页。[证据](../../sources/notes/bennett2012process.md#e32)
+[^bennett2012process-e33]: Bennett & Checkel 2012，标准 3，第 29 页。[证据](../../sources/notes/bennett2012process.md#e33)
+[^bennett2012process-e34]: Bennett & Checkel 2012，标准 4，第 29 页。[证据](../../sources/notes/bennett2012process.md#e34)
+[^bennett2012process-e35]: Bennett & Checkel 2012，标准 5，第 30 页。[证据](../../sources/notes/bennett2012process.md#e35)
+[^bennett2012process-e36]: Bennett & Checkel 2012，标准 5，第 30 页。[证据](../../sources/notes/bennett2012process.md#e36)
+[^bennett2012process-e37]: Bennett & Checkel 2012，标准 6，第 31 页。[证据](../../sources/notes/bennett2012process.md#e37)
+[^bennett2012process-e38]: Bennett & Checkel 2012，标准 6，第 32 页。[证据](../../sources/notes/bennett2012process.md#e38)
+[^bennett2012process-e39]: Bennett & Checkel 2012，标准 6，第 32 页。[证据](../../sources/notes/bennett2012process.md#e39)
+[^bennett2012process-e40]: Bennett & Checkel 2012，标准 6，第 32 页。[证据](../../sources/notes/bennett2012process.md#e40)
+[^bennett2012process-e41]: Bennett & Checkel 2012，标准 7，第 33 页。[证据](../../sources/notes/bennett2012process.md#e41)
+[^bennett2012process-e42]: Bennett & Checkel 2012，标准 7，第 33 页。[证据](../../sources/notes/bennett2012process.md#e42)
+[^bennett2012process-e43]: Bennett & Checkel 2012，标准 8，第 34 页。[证据](../../sources/notes/bennett2012process.md#e43)
+[^bennett2012process-e44]: Bennett & Checkel 2012，标准 9，第 34 页。[证据](../../sources/notes/bennett2012process.md#e44)
+[^bennett2012process-e45]: Bennett & Checkel 2012，标准 10，第 35 页。[证据](../../sources/notes/bennett2012process.md#e45)
+[^bennett2012process-e46]: Bennett & Checkel 2012，Standards of Good Process Tracing，第 35 页。[证据](../../sources/notes/bennett2012process.md#e46)
+[^bennett2012process-e47]: Bennett & Checkel 2012，Process Tracing on General Categories of Theories，第 37 页。[证据](../../sources/notes/bennett2012process.md#e47)
+[^bennett2012process-e48]: Bennett & Checkel 2012，Process Tracing on General Categories of Theories，第 38 页。[证据](../../sources/notes/bennett2012process.md#e48)
+[^bennett2012process-e49]: Bennett & Checkel 2012，Process Tracing on General Categories of Theories，第 38 页。[证据](../../sources/notes/bennett2012process.md#e49)
+[^bennett2012process-e50]: Bennett & Checkel 2012，Conclusion，第 40 页。[证据](../../sources/notes/bennett2012process.md#e50)
+[^collier2011understanding-e1]: Collier 2011，引言，第 823 页。[证据](../../sources/notes/collier2011understanding.md#e1)
+[^collier2011understanding-e2]: Collier 2011，Teaching Exercises，第 823–824 页。[证据](../../sources/notes/collier2011understanding.md#e2)
+[^collier2011understanding-e3]: Collier 2011，Descriptive Inference，第 824 页。[证据](../../sources/notes/collier2011understanding.md#e3)
+[^collier2011understanding-e4]: Collier 2011，Causal Inference，第 825 页。[证据](../../sources/notes/collier2011understanding.md#e4)
+[^collier2011understanding-e5]: Collier 2011，Causal Inference，第 825 页。[证据](../../sources/notes/collier2011understanding.md#e5)
+[^collier2011understanding-e6]: Collier 2011，Straw-in-the-Wind Tests，第 826 页。[证据](../../sources/notes/collier2011understanding.md#e6)
+[^collier2011understanding-e7]: Collier 2011，Hoop Tests，第 826 页。[证据](../../sources/notes/collier2011understanding.md#e7)
+[^collier2011understanding-e8]: Collier 2011，Smoking-Gun Tests，第 827 页。[证据](../../sources/notes/collier2011understanding.md#e8)
+[^collier2011understanding-e9]: Collier 2011，Doubly Decisive Tests，第 827 页。[证据](../../sources/notes/collier2011understanding.md#e9)
+[^collier2011understanding-e10]: Collier 2011，Doubly Decisive Tests，第 827 页。[证据](../../sources/notes/collier2011understanding.md#e10)
+[^collier2011understanding-e12]: Collier 2011，Conclusion，第 828–829 页。[证据](../../sources/notes/collier2011understanding.md#e12)
+[^seawright2008case-e1]: Seawright & Gerring 2008，引言，第 294 页。[证据](../../sources/notes/seawright2008case.md#e1)
+[^seawright2008case-e3]: Seawright & Gerring 2008，引言，第 295 页。[证据](../../sources/notes/seawright2008case.md#e3)
+[^seawright2008case-e4]: Seawright & Gerring 2008，引言，第 295 页。[证据](../../sources/notes/seawright2008case.md#e4)
+[^seawright2008case-e5]: Seawright & Gerring 2008，Why Not Choose Cases Randomly?，第 295 页。[证据](../../sources/notes/seawright2008case.md#e5)
+[^seawright2008case-e6]: Seawright & Gerring 2008，Techniques of Case Selection，第 296 页。[证据](../../sources/notes/seawright2008case.md#e6)
+[^seawright2008case-e7]: Seawright & Gerring 2008，Techniques of Case Selection，第 296 页。[证据](../../sources/notes/seawright2008case.md#e7)
+[^seawright2008case-e8]: Seawright & Gerring 2008，Typical Case，第 299 页。[证据](../../sources/notes/seawright2008case.md#e8)
+[^seawright2008case-e9]: Seawright & Gerring 2008，Extreme Case，第 301 页。[证据](../../sources/notes/seawright2008case.md#e9)
+[^seawright2008case-e10]: Seawright & Gerring 2008，Extreme Case，第 301 页。[证据](../../sources/notes/seawright2008case.md#e10)
+[^seawright2008case-e11]: Seawright & Gerring 2008，Deviant Case，第 302 页。[证据](../../sources/notes/seawright2008case.md#e11)
+[^seawright2008case-e12]: Seawright & Gerring 2008，Deviant Case，第 302 页。[证据](../../sources/notes/seawright2008case.md#e12)
+[^seawright2008case-e13]: Seawright & Gerring 2008，Most Similar，第 304 页。[证据](../../sources/notes/seawright2008case.md#e13)
+[^seawright2008case-e14]: Seawright & Gerring 2008，Most Different，第 306 页。[证据](../../sources/notes/seawright2008case.md#e14)
+[^seawright2008case-e15]: Seawright & Gerring 2008，Complications，第 306 页。[证据](../../sources/notes/seawright2008case.md#e15)
+[^seawright2008case-e16]: Seawright & Gerring 2008，Complications，第 306 页。[证据](../../sources/notes/seawright2008case.md#e16)
+[^gerring2004case-e1]: Gerring 2004，摘要，第 341 页。[证据](../../sources/notes/gerring2004case.md#e1)
+[^gerring2004case-e2]: Gerring 2004，Scope of Proposition，第 348 页。[证据](../../sources/notes/gerring2004case.md#e2)
+[^gerring2004case-e3]: Gerring 2004，Unit Homogeneity，第 348 页。[证据](../../sources/notes/gerring2004case.md#e3)
+[^gerring2004case-e4]: Gerring 2004，Causal Insight，第 349 页。[证据](../../sources/notes/gerring2004case.md#e4)
+[^gerring2004case-e5]: Gerring 2004，Strategy of Research，第 350 页。[证据](../../sources/notes/gerring2004case.md#e5)
+[^gerring2004case-e6]: Gerring 2004，Strategy of Research，第 350 页。[证据](../../sources/notes/gerring2004case.md#e6)
+[^gerring2004case-e7]: Gerring 2004，Conclusion，第 352 页。[证据](../../sources/notes/gerring2004case.md#e7)
+[^geddes1990cases-e1]: Geddes 1990，开头。[证据](../../sources/notes/geddes1990cases.md#e1)
+[^geddes1990cases-e3]: Geddes 1990，The Nature of the Problem。[证据](../../sources/notes/geddes1990cases.md#e3)
+[^geddes1990cases-e4]: Geddes 1990，The Nature of the Problem。[证据](../../sources/notes/geddes1990cases.md#e4)
+[^geddes1990cases-e5]: Geddes 1990，A Straightforward Case of Selection on the Dependent Variable。[证据](../../sources/notes/geddes1990cases.md#e5)
+[^geddes1990cases-e6]: Geddes 1990，A Straightforward Case of Selection on the Dependent Variable。[证据](../../sources/notes/geddes1990cases.md#e6)
+[^jacobs2021qualitative-e16]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e16)
+[^jacobs2021qualitative-e17]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e17)
+[^jacobs2021qualitative-e18]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e18)
+[^jacobs2021qualitative-e19]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 25 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e19)
+[^jacobs2021qualitative-e20]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 26 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e20)
+[^jacobs2021qualitative-e21]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 26 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e21)
+[^jacobs2021qualitative-e22]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 26 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e22)
+[^jacobs2021qualitative-e23]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 27 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e23)
+[^jacobs2021qualitative-e24]: Jacobs、Büthe 等 2021，Potential Benefits of Transparency（作者接受稿第 15 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e24)
+[^jacobs2021qualitative-e25]: Jacobs、Büthe 等 2021，Costs and Risks（作者接受稿第 20 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e25)
+[^jacobs2021qualitative-e15]: Jacobs、Büthe 等 2021，Implications for Research Practice（作者接受稿第 24 页）。[证据](../../sources/notes/jacobs2021qualitative.md#e15)
+[^dart2014jets-e3]: Journal Editors' Transparency Statement 2014，第 1 条。[证据](../../sources/notes/dart2014jets.md#e3)
+[^dart2014jets-e4]: Journal Editors' Transparency Statement 2014，第 2 条。[证据](../../sources/notes/dart2014jets.md#e4)
+[^apsa2020humansubjects-e19]: 美国政治学会 2020，Confidentiality 9b。[证据](../../sources/notes/apsa2020humansubjects.md#e19)

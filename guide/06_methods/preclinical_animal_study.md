@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲**临床前动物研究**：在活体动物身上做实验，结果要为人类医学提供依据，例如为一种药物或疗法进入人体试验铺路。它讲怎样一步步把这类实验设计好、做好、写好。为什么很多临床前发现到了人身上不灵、美国一次研讨会提出的四项核心报告要求，见[基础医学领域概况](../README.md)；3R 原则（替代、减少、优化）和 ARRIVE 报告规范的基本内容，见[生物科学领域概况](../../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。本文不再重复。在细胞、组织或分子上做的实验，见[实验室台面实验](../../biological-sciences/research-types/bench_experiment.md)；用人做的对照实验，见研究方法里的[对照实验](../../../06_methods/controlled_experiment.md)。
+本文讲**临床前动物研究**：在活体动物身上做实验，结果要为人类医学提供依据，例如为一种药物或疗法进入人体试验铺路。它讲怎样一步步把这类实验设计好、做好、写好。为什么很多临床前发现到了人身上不灵、美国一次研讨会提出的四项核心报告要求，见[基础医学领域概况](../07_fields/basic-medicine/README.md)；3R 原则（替代、减少、优化）和 ARRIVE 报告规范的基本内容，见[生物科学领域概况](../07_fields/biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。本文不再重复。在细胞、组织或分子上做的实验，见[实验室台面实验](bench_experiment.md)；用人做的对照实验，见研究方法里的[对照实验](controlled_experiment.md)。
 
 **读完本文，你应该能：**
 
@@ -24,7 +24,7 @@
 | 构念效度威胁 | 把模型和人类疾病的关系想错了 | 只用动物的旋转行为代表帕金森病，而人的帕金森病还有震颤和认知症状[^henderson2013threats-e3] |
 | 外部效度威胁 | 动物身上成立的关系，换到病人身上就不成立 | 近交系小鼠的反应可能只属于这个品系[^henderson2013threats-e6] |
 
-和细胞实验相比，它多了动物伦理审批（第 7 步）和 ARRIVE 报告规范（第 12 步）；和临床试验相比，它的对象是动物，结论还要再跨一步才到人 `[本项目分析]`。**先判断你的实验属于哪一种。** 探索性实验用来找线索、提出假设；验证性实验用来检验一个事先定好的假设。分清这一点，才能正确解读结果[^perciedusert2020reporting-e56]；它也决定了后面很多步怎么做 `[本项目分析]`。通用的讲法见主线章节[分清探索性研究和验证性研究](../../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)，本领域的说法见[基础医学领域概况](../README.md#分清探索性实验和验证性实验)。如果你的结果要被别人拿去当做人体试验的依据，就按验证性实验来做 `[本项目分析]`。
+和细胞实验相比，它多了动物伦理审批（第 7 步）和 ARRIVE 报告规范（第 12 步）；和临床试验相比，它的对象是动物，结论还要再跨一步才到人 `[本项目分析]`。**先判断你的实验属于哪一种。** 探索性实验用来找线索、提出假设；验证性实验用来检验一个事先定好的假设。分清这一点，才能正确解读结果[^perciedusert2020reporting-e56]；它也决定了后面很多步怎么做 `[本项目分析]`。通用的讲法见主线章节[分清探索性研究和验证性研究](../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)，本领域的说法见[基础医学领域概况](../07_fields/basic-medicine/README.md#分清探索性实验和验证性实验)。如果你的结果要被别人拿去当做人体试验的依据，就按验证性实验来做 `[本项目分析]`。
 
 ---
 
@@ -34,7 +34,7 @@
 
 ### 第 1 步：先确认非用动物不可
 
-- **怎么做**：查文献，最好找动物研究的系统综述，确认问题还没有答案；再写清为什么必须用活体动物[^perciedusert2020reporting-e33]。能不用动物就不用，这是 3R 里的"替代"[^nc3rsthe3rs-e2]；可以换成什么，见[生物科学领域概况](../../biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。
+- **怎么做**：查文献，最好找动物研究的系统综述，确认问题还没有答案；再写清为什么必须用活体动物[^perciedusert2020reporting-e33]。能不用动物就不用，这是 3R 里的"替代"[^nc3rsthe3rs-e2]；可以换成什么，见[生物科学领域概况](../07_fields/biological-sciences/README.md#动物研究3r-原则和-arrive-报告规范)。
 - **为什么**：动物实验的审批一般基于"伤害—收益分析"：动物受到的伤害要和研究对社会的收益相权衡[^perciedusert2020arrive-e6]。此外，依据不足的动物证据如果被拿来启动人体试验，会增加科研浪费，也让受试者的风险和收益失衡[^perciedusert2020reporting-e70]。
 - **容易错在哪**：把"之前没人在这个模型里做过"当成证据空白。系统综述能告诉你，问题是不是其实已经有了答案 `[本项目分析]`。
 
@@ -54,7 +54,7 @@
   - **性别**：默认两种性别都纳入，在设计和分析中考虑性别；只用一种性别，要有说得通的理由 `[本项目分析，依据下列资料]`。以美国国立卫生研究院（National Institutes of Health，NIH）为例：对它资助的项目，NIH 要求脊椎动物研究在设计、分析和报告中考虑性别这个变量[^nihrigorguidance-e3]；只研究一种性别的申请，必须充分说明理由[^nihrigorguidance-e6]。这是美国 NIH 对其资助项目的要求；其他国家和资助机构以它们自己的规定为准 `[本项目分析]`。
   - **年龄**：写具体周龄，不写"成年"。"成年小鼠"可以是 6 到 20 周龄[^perciedusert2020reporting-e59]。
   - **来源**：记下供应商和批次。同一品系、不同来源，或同一来源、不同时间购入的动物，遗传上可能不同[^perciedusert2020reporting-e60]。
-- **为什么**：物种、品系、亚系、性别、体重、年龄会影响大多数实验结果[^perciedusert2020reporting-e59]。NIH 指出，性别常被动物研究忽视，导致人们对治疗反应中的性别差异认识不全[^nihrigorguidance-e6]。癌症领域的一篇短综述（Mak 等人 2014）转述的改进建议，也包括两种性别、不同年龄都纳入[^mak2014lost-e6]，详见[基础医学领域概况](../README.md#很多临床前发现到了人身上不灵)。
+- **为什么**：物种、品系、亚系、性别、体重、年龄会影响大多数实验结果[^perciedusert2020reporting-e59]。NIH 指出，性别常被动物研究忽视，导致人们对治疗反应中的性别差异认识不全[^nihrigorguidance-e6]。癌症领域的一篇短综述（Mak 等人 2014）转述的改进建议，也包括两种性别、不同年龄都纳入[^mak2014lost-e6]，详见[基础医学领域概况](../07_fields/basic-medicine/README.md#很多临床前发现到了人身上不灵)。
 - **容易错在哪**：以为只用雄性"变异小、更省动物"就不用解释 `[本项目分析]`。胚胎、幼体等性别可能无法判断的，可以不报告；按物种和实验情况本应能报告却没报告的，要说明理由[^perciedusert2020reporting-e71]。
 
 ### 第 4 步：定好研究类型、主要结局和分析计划
@@ -70,7 +70,7 @@
   2. **变异度**：最好来自系统综述和以往研究；只靠预实验，一般得不到够用的估计[^perciedusert2020reporting-e36]；
   3. **目标功效**：一般认为 80%～95% 可以接受；
   4. **预计损失**：把预计会排除或死亡的动物算进去[^perciedusert2020reporting-e39]。
-- **先弄清实验单位。** 样本量数的是实验单位，不是测量次数；整笼喂同一种饲料时，实验单位是笼[^perciedusert2020reporting-e6]。详见[生物科学领域概况](../../biological-sciences/README.md#先弄清实验单位再算-n)。
+- **先弄清实验单位。** 样本量数的是实验单位，不是测量次数；整笼喂同一种饲料时，实验单位是笼[^perciedusert2020reporting-e6]。详见[生物科学领域概况](../07_fields/biological-sciences/README.md#先弄清实验单位再算-n)。
 - **为什么**：动物太少、几乎不可能测出有意义差异的实验，不合伦理[^landis2012call-e8]。功效低时，真实效应容易漏掉，测到的效应常被高估，再加上发表偏倚，文献里的假阳性会增多[^perciedusert2020reporting-e38]。Button、Ioannidis 等人估计，神经科学动物研究的平均功效只有 20% 左右[^perciedusert2017experimental-e4]。反过来，动物太多也有伦理问题，还可能得到统计显著、却没有生物学意义的结果[^perciedusert2020reporting-e37]。
 - **容易错在哪**：没算就照"惯例"定每组只数，论文里也不提 `[本项目分析]`。没做功效分析，要明说，并写出每组样本量是怎么定的[^perciedusert2020reporting-e39]。
 - **工具**：英国国家动物研究替代、优化与减少中心（NC3Rs）的实验设计助手（Experimental Design Assistant，EDA）免费，能帮你算样本量、生成考虑区组的随机序列、安排盲法[^perciedusert2017experimental-e1][^perciedusert2017experimental-e2]。它不能代替统计专家，但能帮你更好地向统计专家求助[^perciedusert2017experimental-e5]。注意：介绍它的这篇论文，作者都参与了工具开发 `[本项目分析]`。
@@ -107,7 +107,7 @@
   1. **结局评估**：有主观成分时尤其重要，如评估行为、读组织切片[^perciedusert2020reporting-e49]。
   2. **数据分析**：分析前给数据编码，分析完再揭晓组别。分析者要做数据变换、缺失值、离群值等半主观的决定，这一步常被忽视[^perciedusert2020reporting-e50]。
   3. **评估者实在无法设盲**（如各组表型差别一眼就能看出）：把数据交给不知道预期结果的第三方分析，能减少部分偏倚[^perciedusert2020reporting-e49]。
-- **为什么**：系统综述显示，不设盲的结局评估会高估处理效应；缺少随机和盲法，可能让效应量虚高多达 30%～45%[^perciedusert2020reporting-e24]。卒中药物 NXY-059 的例子见[基础医学领域概况](../README.md#很多临床前发现到了人身上不灵)。
+- **为什么**：系统综述显示，不设盲的结局评估会高估处理效应；缺少随机和盲法，可能让效应量虚高多达 30%～45%[^perciedusert2020reporting-e24]。卒中药物 NXY-059 的例子见[基础医学领域概况](../07_fields/basic-medicine/README.md#很多临床前发现到了人身上不灵)。
 - **容易错在哪**：一个人包办分组、给药、打分和分析 `[本项目分析]`。
 
 ### 第 10 步：管住饲养和操作中的变量
@@ -129,7 +129,7 @@
   - **测过的指标都要报告**。只报显著的，文献就会偏向阳性结果[^perciedusert2020reporting-e55]。
   - **怎样随机、哪些阶段设了盲，都要写清**，这属于核心 10 项里的"减少主观偏倚的措施"[^perciedusert2020arrive-e3]（只写"随机"不写方法的问题，见第 8 步）。
   - **统计显著不等于有生物学或临床意义**，讨论效应大小[^perciedusert2020reporting-e72]。
-  - **讨论模型的局限**，结论别越过模型的边界（见[领域概况](../README.md#给新手的建议)）。
+  - **讨论模型的局限**，结论别越过模型的边界（见[领域概况](../07_fields/basic-medicine/README.md#给新手的建议)）。
 - **为什么**：交一份填好的清单不等于写全了。PLOS ONE 的一项随机对照试验发现，投稿时只要求作者交 ARRIVE 清单、编辑部不进一步核查，论文的报告并没有更完整[^perciedusert2020arrive-e11]。所以要逐项对照正文检查，不是勾完就算 `[本项目分析]`。
 
 ---
@@ -195,94 +195,94 @@
 - **Henderson 等人 2013，Threats to validity in the design and conduct of preclinical efficacy studies（PLOS Medicine，开放获取）**：汇总 26 份临床前设计指南，按内部、构念、外部效度分类。选模型、论证模型和人的关系时读。注意这些指南多数针对神经和脑血管疾病[^henderson2013threats-e1]，多数来自研讨会讨论，只有 3 份写明了制定方法[^henderson2013threats-e11]。
 - **Percie du Sert 等人 2017，The Experimental Design Assistant（PLOS Biology，开放获取）**：介绍免费的在线设计工具。需要算样本量、生成区组随机序列时读，然后直接用这个工具。注意作者都参与了这个工具的开发，属于利益相关方 `[本项目分析]`。
 - **Voelkl 等人 2018，Reproducibility of preclinical animal research improves with heterogeneity of study samples（PLOS Biology，开放获取）**：为什么"越标准化越好"不一定对，以及多实验室设计的好处。打算让结论走向临床时读。它是基于已发表数据的模拟研究。
-- **Landis 等人 2012，A call for transparent reporting to optimize the predictive value of preclinical research（Nature，PubMed Central 有作者稿）**：四项核心报告要求的出处，要点见[领域概况](../README.md#临床前研究至少报告四件事美国一次研讨会的建议)。
+- **Landis 等人 2012，A call for transparent reporting to optimize the predictive value of preclinical research（Nature，PubMed Central 有作者稿）**：四项核心报告要求的出处，要点见[领域概况](../07_fields/basic-medicine/README.md#临床前研究至少报告四件事美国一次研讨会的建议)。
 
-[^henderson2013threats-e1]: Henderson 等人 2013，Abstract。[证据](../../../../sources/notes/henderson2013threats.md#e1)
-[^henderson2013threats-e2]: Henderson 等人 2013，Editors' Summary。[证据](../../../../sources/notes/henderson2013threats.md#e2)
-[^henderson2013threats-e13]: Henderson 等人 2013，Introduction。[证据](../../../../sources/notes/henderson2013threats.md#e13)
-[^henderson2013threats-e3]: Henderson 等人 2013，Introduction。[证据](../../../../sources/notes/henderson2013threats.md#e3)
-[^henderson2013threats-e4]: Henderson 等人 2013，Box 1。[证据](../../../../sources/notes/henderson2013threats.md#e4)
-[^henderson2013threats-e5]: Henderson 等人 2013，Box 1。[证据](../../../../sources/notes/henderson2013threats.md#e5)
-[^henderson2013threats-e6]: Henderson 等人 2013，Introduction。[证据](../../../../sources/notes/henderson2013threats.md#e6)
-[^henderson2013threats-e7]: Henderson 等人 2013，Results。[证据](../../../../sources/notes/henderson2013threats.md#e7)
-[^henderson2013threats-e8]: Henderson 等人 2013，Results。[证据](../../../../sources/notes/henderson2013threats.md#e8)
-[^henderson2013threats-e9]: Henderson 等人 2013，Editors' Summary。[证据](../../../../sources/notes/henderson2013threats.md#e9)
-[^henderson2013threats-e11]: Henderson 等人 2013，Results，Guideline Characteristics。[证据](../../../../sources/notes/henderson2013threats.md#e11)
-[^henderson2013threats-e12]: Henderson 等人 2013，Discussion。[证据](../../../../sources/notes/henderson2013threats.md#e12)
-[^perciedusert2020reporting-e6]: Percie du Sert 等人 2020b，Item 1b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e6)
-[^perciedusert2020reporting-e32]: Percie du Sert 等人 2020b，Item 12b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e32)
-[^perciedusert2020reporting-e33]: Percie du Sert 等人 2020b，Item 12a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e33)
-[^perciedusert2020reporting-e34]: Percie du Sert 等人 2020b，Box 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e34)
-[^perciedusert2020reporting-e35]: Percie du Sert 等人 2020b，Box 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e35)
-[^perciedusert2020reporting-e36]: Percie du Sert 等人 2020b，Box 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e36)
-[^perciedusert2020reporting-e37]: Percie du Sert 等人 2020b，Item 2b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e37)
-[^perciedusert2020reporting-e38]: Percie du Sert 等人 2020b，Item 2b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e38)
-[^perciedusert2020reporting-e39]: Percie du Sert 等人 2020b，Box 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e39)
-[^perciedusert2020reporting-e40]: Percie du Sert 等人 2020b，Box 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e40)
-[^perciedusert2020reporting-e41]: Percie du Sert 等人 2020b，Item 4。[证据](../../../../sources/notes/perciedusert2020reporting.md#e41)
-[^perciedusert2020reporting-e42]: Percie du Sert 等人 2020b，Item 4。[证据](../../../../sources/notes/perciedusert2020reporting.md#e42)
-[^perciedusert2020reporting-e43]: Percie du Sert 等人 2020b，Box 4。[证据](../../../../sources/notes/perciedusert2020reporting.md#e43)
-[^perciedusert2020reporting-e44]: Percie du Sert 等人 2020b，Box 4。[证据](../../../../sources/notes/perciedusert2020reporting.md#e44)
-[^perciedusert2020reporting-e45]: Percie du Sert 等人 2020b，Box 4。[证据](../../../../sources/notes/perciedusert2020reporting.md#e45)
-[^perciedusert2020reporting-e46]: Percie du Sert 等人 2020b，Item 4b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e46)
-[^perciedusert2020reporting-e24]: Percie du Sert 等人 2020b，Item 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e24)
-[^perciedusert2020reporting-e47]: Percie du Sert 等人 2020b，Item 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e47)
-[^perciedusert2020reporting-e48]: Percie du Sert 等人 2020b，Box 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e48)
-[^perciedusert2020reporting-e49]: Percie du Sert 等人 2020b，Box 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e49)
-[^perciedusert2020reporting-e50]: Percie du Sert 等人 2020b，Box 5。[证据](../../../../sources/notes/perciedusert2020reporting.md#e50)
-[^perciedusert2020reporting-e51]: Percie du Sert 等人 2020b，Item 3。[证据](../../../../sources/notes/perciedusert2020reporting.md#e51)
-[^perciedusert2020reporting-e52]: Percie du Sert 等人 2020b，Item 3a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e52)
-[^perciedusert2020reporting-e53]: Percie du Sert 等人 2020b，Item 3b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e53)
-[^perciedusert2020reporting-e54]: Percie du Sert 等人 2020b，Item 6b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e54)
-[^perciedusert2020reporting-e55]: Percie du Sert 等人 2020b，Item 6a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e55)
-[^perciedusert2020reporting-e56]: Percie du Sert 等人 2020b，Item 13。[证据](../../../../sources/notes/perciedusert2020reporting.md#e56)
-[^perciedusert2020reporting-e57]: Percie du Sert 等人 2020b，Item 13。[证据](../../../../sources/notes/perciedusert2020reporting.md#e57)
-[^perciedusert2020reporting-e58]: Percie du Sert 等人 2020b，Item 17a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e58)
-[^perciedusert2020reporting-e26]: Percie du Sert 等人 2020b，Item 7a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e26)
-[^perciedusert2020reporting-e59]: Percie du Sert 等人 2020b，Item 8a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e59)
-[^perciedusert2020reporting-e60]: Percie du Sert 等人 2020b，Item 8b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e60)
-[^perciedusert2020reporting-e61]: Percie du Sert 等人 2020b，Item 15。[证据](../../../../sources/notes/perciedusert2020reporting.md#e61)
-[^perciedusert2020reporting-e62]: Percie du Sert 等人 2020b，Item 15。[证据](../../../../sources/notes/perciedusert2020reporting.md#e62)
-[^perciedusert2020reporting-e63]: Percie du Sert 等人 2020b，Item 9a、9b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e63)
-[^perciedusert2020reporting-e64]: Percie du Sert 等人 2020b，Item 14。[证据](../../../../sources/notes/perciedusert2020reporting.md#e64)
-[^perciedusert2020reporting-e65]: Percie du Sert 等人 2020b，Item 16c。[证据](../../../../sources/notes/perciedusert2020reporting.md#e65)
-[^perciedusert2020reporting-e66]: Percie du Sert 等人 2020b，Item 19。[证据](../../../../sources/notes/perciedusert2020reporting.md#e66)
-[^perciedusert2020reporting-e67]: Percie du Sert 等人 2020b，Item 19。[证据](../../../../sources/notes/perciedusert2020reporting.md#e67)
-[^perciedusert2020reporting-e68]: Percie du Sert 等人 2020b，Item 19。[证据](../../../../sources/notes/perciedusert2020reporting.md#e68)
-[^perciedusert2020reporting-e69]: Percie du Sert 等人 2020b，Item 19。[证据](../../../../sources/notes/perciedusert2020reporting.md#e69)
-[^perciedusert2020reporting-e70]: Percie du Sert 等人 2020b，Item 18。[证据](../../../../sources/notes/perciedusert2020reporting.md#e70)
-[^perciedusert2020reporting-e71]: Percie du Sert 等人 2020b，Item 8a。[证据](../../../../sources/notes/perciedusert2020reporting.md#e71)
-[^perciedusert2020reporting-e72]: Percie du Sert 等人 2020b，Item 10b。[证据](../../../../sources/notes/perciedusert2020reporting.md#e72)
-[^perciedusert2020arrive-e6]: Percie du Sert 等人 2020a，Why good reporting is important。[证据](../../../../sources/notes/perciedusert2020arrive.md#e6)
-[^perciedusert2020arrive-e3]: Percie du Sert 等人 2020a，Introducing ARRIVE 2.0。[证据](../../../../sources/notes/perciedusert2020arrive.md#e3)
-[^perciedusert2020arrive-e7]: Percie du Sert 等人 2020a，Introducing ARRIVE 2.0。[证据](../../../../sources/notes/perciedusert2020arrive.md#e7)
-[^perciedusert2020arrive-e10]: Percie du Sert 等人 2020a，Introducing ARRIVE 2.0。[证据](../../../../sources/notes/perciedusert2020arrive.md#e10)
-[^perciedusert2020arrive-e11]: Percie du Sert 等人 2020a，Why good reporting is important。[证据](../../../../sources/notes/perciedusert2020arrive.md#e11)
-[^perciedusert2017experimental-e1]: Percie du Sert 等人 2017，Introduction。[证据](../../../../sources/notes/perciedusert2017experimental.md#e1)
-[^perciedusert2017experimental-e2]: Percie du Sert 等人 2017，The EDA improves the reliability of experimental results and analysis。[证据](../../../../sources/notes/perciedusert2017experimental.md#e2)
-[^perciedusert2017experimental-e4]: Percie du Sert 等人 2017，同上（转引 Button、Ioannidis 等人的估计）。[证据](../../../../sources/notes/perciedusert2017experimental.md#e4)
-[^perciedusert2017experimental-e5]: Percie du Sert 等人 2017，The EDA enables an effective assessment of the experimental plans。[证据](../../../../sources/notes/perciedusert2017experimental.md#e5)
-[^landis2012call-e6]: Landis 等人 2012，Box 1, Blinding。[证据](../../../../sources/notes/landis2012call.md#e6)
-[^landis2012call-e9]: Landis 等人 2012，Interim data analysis。[证据](../../../../sources/notes/landis2012call.md#e9)
-[^landis2012call-e10]: Landis 等人 2012，Ad hoc exclusion of data。[证据](../../../../sources/notes/landis2012call.md#e10)
-[^landis2012call-e11]: Landis 等人 2012，Retrospective primary end-point selection。[证据](../../../../sources/notes/landis2012call.md#e11)
-[^landis2012call-e12]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../../../sources/notes/landis2012call.md#e12)
-[^landis2012call-e17]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../../../sources/notes/landis2012call.md#e17)
-[^landis2012call-e8]: Landis 等人 2012，Sample-size estimation。[证据](../../../../sources/notes/landis2012call.md#e8)
-[^nc3rsthe3rs-e2]: NC3Rs，Definitions of the 3Rs。[证据](../../../../sources/notes/nc3rsthe3rs.md#e2)
-[^nihrigorguidance-e3]: NIH，Consideration of relevant biological variables。[证据](../../../../sources/notes/nihrigorguidance.md#e3)
-[^nihrigorguidance-e6]: NIH，Consideration of relevant biological variables。[证据](../../../../sources/notes/nihrigorguidance.md#e6)
-[^mak2014lost-e6]: Mak 等人 2014，Limitations of animal models in cancer research。[证据](../../../../sources/notes/mak2014lost.md#e6)
-[^animalstudyregistry-e1]: animalstudyregistry.org 首页。[证据](../../../../sources/notes/animalstudyregistry.md#e1)
-[^animalstudyregistry-e2]: animalstudyregistry.org 首页。[证据](../../../../sources/notes/animalstudyregistry.md#e2)
-[^animalstudyregistry-e3]: animalstudyregistry.org 首页，Latest News。[证据](../../../../sources/notes/animalstudyregistry.md#e3)
-[^kilkenny2009survey-e1]: Kilkenny 等人 2009，Abstract。[证据](../../../../sources/notes/kilkenny2009survey.md#e1)
-[^kilkenny2009survey-e3]: Kilkenny 等人 2009，Results。[证据](../../../../sources/notes/kilkenny2009survey.md#e3)
-[^kilkenny2009survey-e4]: Kilkenny 等人 2009，Results。[证据](../../../../sources/notes/kilkenny2009survey.md#e4)
-[^voelkl2018reproducibility-e1]: Voelkl 等人 2018，Abstract。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e1)
-[^voelkl2018reproducibility-e2]: Voelkl 等人 2018，Introduction。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e2)
-[^voelkl2018reproducibility-e3]: Voelkl 等人 2018，Introduction。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e3)
-[^voelkl2018reproducibility-e4]: Voelkl 等人 2018，Discussion。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e4)
-[^voelkl2018reproducibility-e5]: Voelkl 等人 2018，Discussion。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e5)
-[^voelkl2018reproducibility-e6]: Voelkl 等人 2018，Discussion。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e6)
-[^voelkl2018reproducibility-e7]: Voelkl 等人 2018，Discussion。[证据](../../../../sources/notes/voelkl2018reproducibility.md#e7)
+[^henderson2013threats-e1]: Henderson 等人 2013，Abstract。[证据](../../sources/notes/henderson2013threats.md#e1)
+[^henderson2013threats-e2]: Henderson 等人 2013，Editors' Summary。[证据](../../sources/notes/henderson2013threats.md#e2)
+[^henderson2013threats-e13]: Henderson 等人 2013，Introduction。[证据](../../sources/notes/henderson2013threats.md#e13)
+[^henderson2013threats-e3]: Henderson 等人 2013，Introduction。[证据](../../sources/notes/henderson2013threats.md#e3)
+[^henderson2013threats-e4]: Henderson 等人 2013，Box 1。[证据](../../sources/notes/henderson2013threats.md#e4)
+[^henderson2013threats-e5]: Henderson 等人 2013，Box 1。[证据](../../sources/notes/henderson2013threats.md#e5)
+[^henderson2013threats-e6]: Henderson 等人 2013，Introduction。[证据](../../sources/notes/henderson2013threats.md#e6)
+[^henderson2013threats-e7]: Henderson 等人 2013，Results。[证据](../../sources/notes/henderson2013threats.md#e7)
+[^henderson2013threats-e8]: Henderson 等人 2013，Results。[证据](../../sources/notes/henderson2013threats.md#e8)
+[^henderson2013threats-e9]: Henderson 等人 2013，Editors' Summary。[证据](../../sources/notes/henderson2013threats.md#e9)
+[^henderson2013threats-e11]: Henderson 等人 2013，Results，Guideline Characteristics。[证据](../../sources/notes/henderson2013threats.md#e11)
+[^henderson2013threats-e12]: Henderson 等人 2013，Discussion。[证据](../../sources/notes/henderson2013threats.md#e12)
+[^perciedusert2020reporting-e6]: Percie du Sert 等人 2020b，Item 1b。[证据](../../sources/notes/perciedusert2020reporting.md#e6)
+[^perciedusert2020reporting-e32]: Percie du Sert 等人 2020b，Item 12b。[证据](../../sources/notes/perciedusert2020reporting.md#e32)
+[^perciedusert2020reporting-e33]: Percie du Sert 等人 2020b，Item 12a。[证据](../../sources/notes/perciedusert2020reporting.md#e33)
+[^perciedusert2020reporting-e34]: Percie du Sert 等人 2020b，Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e34)
+[^perciedusert2020reporting-e35]: Percie du Sert 等人 2020b，Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e35)
+[^perciedusert2020reporting-e36]: Percie du Sert 等人 2020b，Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e36)
+[^perciedusert2020reporting-e37]: Percie du Sert 等人 2020b，Item 2b。[证据](../../sources/notes/perciedusert2020reporting.md#e37)
+[^perciedusert2020reporting-e38]: Percie du Sert 等人 2020b，Item 2b。[证据](../../sources/notes/perciedusert2020reporting.md#e38)
+[^perciedusert2020reporting-e39]: Percie du Sert 等人 2020b，Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e39)
+[^perciedusert2020reporting-e40]: Percie du Sert 等人 2020b，Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e40)
+[^perciedusert2020reporting-e41]: Percie du Sert 等人 2020b，Item 4。[证据](../../sources/notes/perciedusert2020reporting.md#e41)
+[^perciedusert2020reporting-e42]: Percie du Sert 等人 2020b，Item 4。[证据](../../sources/notes/perciedusert2020reporting.md#e42)
+[^perciedusert2020reporting-e43]: Percie du Sert 等人 2020b，Box 4。[证据](../../sources/notes/perciedusert2020reporting.md#e43)
+[^perciedusert2020reporting-e44]: Percie du Sert 等人 2020b，Box 4。[证据](../../sources/notes/perciedusert2020reporting.md#e44)
+[^perciedusert2020reporting-e45]: Percie du Sert 等人 2020b，Box 4。[证据](../../sources/notes/perciedusert2020reporting.md#e45)
+[^perciedusert2020reporting-e46]: Percie du Sert 等人 2020b，Item 4b。[证据](../../sources/notes/perciedusert2020reporting.md#e46)
+[^perciedusert2020reporting-e24]: Percie du Sert 等人 2020b，Item 5。[证据](../../sources/notes/perciedusert2020reporting.md#e24)
+[^perciedusert2020reporting-e47]: Percie du Sert 等人 2020b，Item 5。[证据](../../sources/notes/perciedusert2020reporting.md#e47)
+[^perciedusert2020reporting-e48]: Percie du Sert 等人 2020b，Box 5。[证据](../../sources/notes/perciedusert2020reporting.md#e48)
+[^perciedusert2020reporting-e49]: Percie du Sert 等人 2020b，Box 5。[证据](../../sources/notes/perciedusert2020reporting.md#e49)
+[^perciedusert2020reporting-e50]: Percie du Sert 等人 2020b，Box 5。[证据](../../sources/notes/perciedusert2020reporting.md#e50)
+[^perciedusert2020reporting-e51]: Percie du Sert 等人 2020b，Item 3。[证据](../../sources/notes/perciedusert2020reporting.md#e51)
+[^perciedusert2020reporting-e52]: Percie du Sert 等人 2020b，Item 3a。[证据](../../sources/notes/perciedusert2020reporting.md#e52)
+[^perciedusert2020reporting-e53]: Percie du Sert 等人 2020b，Item 3b。[证据](../../sources/notes/perciedusert2020reporting.md#e53)
+[^perciedusert2020reporting-e54]: Percie du Sert 等人 2020b，Item 6b。[证据](../../sources/notes/perciedusert2020reporting.md#e54)
+[^perciedusert2020reporting-e55]: Percie du Sert 等人 2020b，Item 6a。[证据](../../sources/notes/perciedusert2020reporting.md#e55)
+[^perciedusert2020reporting-e56]: Percie du Sert 等人 2020b，Item 13。[证据](../../sources/notes/perciedusert2020reporting.md#e56)
+[^perciedusert2020reporting-e57]: Percie du Sert 等人 2020b，Item 13。[证据](../../sources/notes/perciedusert2020reporting.md#e57)
+[^perciedusert2020reporting-e58]: Percie du Sert 等人 2020b，Item 17a。[证据](../../sources/notes/perciedusert2020reporting.md#e58)
+[^perciedusert2020reporting-e26]: Percie du Sert 等人 2020b，Item 7a。[证据](../../sources/notes/perciedusert2020reporting.md#e26)
+[^perciedusert2020reporting-e59]: Percie du Sert 等人 2020b，Item 8a。[证据](../../sources/notes/perciedusert2020reporting.md#e59)
+[^perciedusert2020reporting-e60]: Percie du Sert 等人 2020b，Item 8b。[证据](../../sources/notes/perciedusert2020reporting.md#e60)
+[^perciedusert2020reporting-e61]: Percie du Sert 等人 2020b，Item 15。[证据](../../sources/notes/perciedusert2020reporting.md#e61)
+[^perciedusert2020reporting-e62]: Percie du Sert 等人 2020b，Item 15。[证据](../../sources/notes/perciedusert2020reporting.md#e62)
+[^perciedusert2020reporting-e63]: Percie du Sert 等人 2020b，Item 9a、9b。[证据](../../sources/notes/perciedusert2020reporting.md#e63)
+[^perciedusert2020reporting-e64]: Percie du Sert 等人 2020b，Item 14。[证据](../../sources/notes/perciedusert2020reporting.md#e64)
+[^perciedusert2020reporting-e65]: Percie du Sert 等人 2020b，Item 16c。[证据](../../sources/notes/perciedusert2020reporting.md#e65)
+[^perciedusert2020reporting-e66]: Percie du Sert 等人 2020b，Item 19。[证据](../../sources/notes/perciedusert2020reporting.md#e66)
+[^perciedusert2020reporting-e67]: Percie du Sert 等人 2020b，Item 19。[证据](../../sources/notes/perciedusert2020reporting.md#e67)
+[^perciedusert2020reporting-e68]: Percie du Sert 等人 2020b，Item 19。[证据](../../sources/notes/perciedusert2020reporting.md#e68)
+[^perciedusert2020reporting-e69]: Percie du Sert 等人 2020b，Item 19。[证据](../../sources/notes/perciedusert2020reporting.md#e69)
+[^perciedusert2020reporting-e70]: Percie du Sert 等人 2020b，Item 18。[证据](../../sources/notes/perciedusert2020reporting.md#e70)
+[^perciedusert2020reporting-e71]: Percie du Sert 等人 2020b，Item 8a。[证据](../../sources/notes/perciedusert2020reporting.md#e71)
+[^perciedusert2020reporting-e72]: Percie du Sert 等人 2020b，Item 10b。[证据](../../sources/notes/perciedusert2020reporting.md#e72)
+[^perciedusert2020arrive-e6]: Percie du Sert 等人 2020a，Why good reporting is important。[证据](../../sources/notes/perciedusert2020arrive.md#e6)
+[^perciedusert2020arrive-e3]: Percie du Sert 等人 2020a，Introducing ARRIVE 2.0。[证据](../../sources/notes/perciedusert2020arrive.md#e3)
+[^perciedusert2020arrive-e7]: Percie du Sert 等人 2020a，Introducing ARRIVE 2.0。[证据](../../sources/notes/perciedusert2020arrive.md#e7)
+[^perciedusert2020arrive-e10]: Percie du Sert 等人 2020a，Introducing ARRIVE 2.0。[证据](../../sources/notes/perciedusert2020arrive.md#e10)
+[^perciedusert2020arrive-e11]: Percie du Sert 等人 2020a，Why good reporting is important。[证据](../../sources/notes/perciedusert2020arrive.md#e11)
+[^perciedusert2017experimental-e1]: Percie du Sert 等人 2017，Introduction。[证据](../../sources/notes/perciedusert2017experimental.md#e1)
+[^perciedusert2017experimental-e2]: Percie du Sert 等人 2017，The EDA improves the reliability of experimental results and analysis。[证据](../../sources/notes/perciedusert2017experimental.md#e2)
+[^perciedusert2017experimental-e4]: Percie du Sert 等人 2017，同上（转引 Button、Ioannidis 等人的估计）。[证据](../../sources/notes/perciedusert2017experimental.md#e4)
+[^perciedusert2017experimental-e5]: Percie du Sert 等人 2017，The EDA enables an effective assessment of the experimental plans。[证据](../../sources/notes/perciedusert2017experimental.md#e5)
+[^landis2012call-e6]: Landis 等人 2012，Box 1, Blinding。[证据](../../sources/notes/landis2012call.md#e6)
+[^landis2012call-e9]: Landis 等人 2012，Interim data analysis。[证据](../../sources/notes/landis2012call.md#e9)
+[^landis2012call-e10]: Landis 等人 2012，Ad hoc exclusion of data。[证据](../../sources/notes/landis2012call.md#e10)
+[^landis2012call-e11]: Landis 等人 2012，Retrospective primary end-point selection。[证据](../../sources/notes/landis2012call.md#e11)
+[^landis2012call-e12]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../sources/notes/landis2012call.md#e12)
+[^landis2012call-e17]: Landis 等人 2012，An important note about exploratory experiments。[证据](../../sources/notes/landis2012call.md#e17)
+[^landis2012call-e8]: Landis 等人 2012，Sample-size estimation。[证据](../../sources/notes/landis2012call.md#e8)
+[^nc3rsthe3rs-e2]: NC3Rs，Definitions of the 3Rs。[证据](../../sources/notes/nc3rsthe3rs.md#e2)
+[^nihrigorguidance-e3]: NIH，Consideration of relevant biological variables。[证据](../../sources/notes/nihrigorguidance.md#e3)
+[^nihrigorguidance-e6]: NIH，Consideration of relevant biological variables。[证据](../../sources/notes/nihrigorguidance.md#e6)
+[^mak2014lost-e6]: Mak 等人 2014，Limitations of animal models in cancer research。[证据](../../sources/notes/mak2014lost.md#e6)
+[^animalstudyregistry-e1]: animalstudyregistry.org 首页。[证据](../../sources/notes/animalstudyregistry.md#e1)
+[^animalstudyregistry-e2]: animalstudyregistry.org 首页。[证据](../../sources/notes/animalstudyregistry.md#e2)
+[^animalstudyregistry-e3]: animalstudyregistry.org 首页，Latest News。[证据](../../sources/notes/animalstudyregistry.md#e3)
+[^kilkenny2009survey-e1]: Kilkenny 等人 2009，Abstract。[证据](../../sources/notes/kilkenny2009survey.md#e1)
+[^kilkenny2009survey-e3]: Kilkenny 等人 2009，Results。[证据](../../sources/notes/kilkenny2009survey.md#e3)
+[^kilkenny2009survey-e4]: Kilkenny 等人 2009，Results。[证据](../../sources/notes/kilkenny2009survey.md#e4)
+[^voelkl2018reproducibility-e1]: Voelkl 等人 2018，Abstract。[证据](../../sources/notes/voelkl2018reproducibility.md#e1)
+[^voelkl2018reproducibility-e2]: Voelkl 等人 2018，Introduction。[证据](../../sources/notes/voelkl2018reproducibility.md#e2)
+[^voelkl2018reproducibility-e3]: Voelkl 等人 2018，Introduction。[证据](../../sources/notes/voelkl2018reproducibility.md#e3)
+[^voelkl2018reproducibility-e4]: Voelkl 等人 2018，Discussion。[证据](../../sources/notes/voelkl2018reproducibility.md#e4)
+[^voelkl2018reproducibility-e5]: Voelkl 等人 2018，Discussion。[证据](../../sources/notes/voelkl2018reproducibility.md#e5)
+[^voelkl2018reproducibility-e6]: Voelkl 等人 2018，Discussion。[证据](../../sources/notes/voelkl2018reproducibility.md#e6)
+[^voelkl2018reproducibility-e7]: Voelkl 等人 2018，Discussion。[证据](../../sources/notes/voelkl2018reproducibility.md#e7)

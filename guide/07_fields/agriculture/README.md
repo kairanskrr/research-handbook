@@ -153,9 +153,9 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[田间试验](research-types/field_trial.md)。
+**本领域的研究类型文档**：[田间试验](practices/field_trial.md)。
 
-**相关学科的研究类型文档**：[野外观测研究](../earth-environmental-sciences/research-types/field_study.md)。
+**相关学科的研究类型文档**：[野外观测研究](../../06_methods/field_study.md)。
 
 下面的分组和"相通"的判断为本项目分析 `[本项目分析]`。
 

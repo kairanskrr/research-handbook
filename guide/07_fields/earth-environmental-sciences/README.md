@@ -154,9 +154,9 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[野外观测研究](research-types/field_study.md)。
+**本领域的研究类型文档**：[野外观测研究](../../06_methods/field_study.md)。
 
-**相关学科的研究类型文档**：[空间分析研究](../geography/research-types/spatial_analysis.md)。
+**相关学科的研究类型文档**：[空间分析研究](../geography/practices/spatial_analysis.md)。
 
 | 研究类型 | 一句话说明 | 和已有方法文档的关系 |
 |---|---|---|

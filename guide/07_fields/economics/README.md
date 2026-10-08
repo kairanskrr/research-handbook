@@ -137,9 +137,9 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[田野实验](research-types/field_experiment.md)、[准实验与因果识别](research-types/quasi_experiment.md)。
+**本领域的研究类型文档**：[田野实验](../../06_methods/field_experiment.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)。
 
-**相关学科的研究类型文档**：[观察性流行病学研究](../health-sciences/research-types/observational_epidemiology.md)。
+**相关学科的研究类型文档**：[观察性流行病学研究](../../06_methods/observational_epidemiology.md)。
 
 经济学常用的研究方法，和研究方法和计算机篇的实践里已有的文档对应如下（对应关系和差异说明是本项目的归纳 `[本项目分析]`，具体要求见所附脚注）：
 

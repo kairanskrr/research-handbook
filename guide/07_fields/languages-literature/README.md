@@ -137,9 +137,9 @@ LSA 1992 年那份声明的起因，是一些会员担心美国联邦的人类�
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[文本细读与文学论证](research-types/close_reading.md)、[语言记录与语言学田野调查](research-types/language_documentation.md)。
+**本领域的研究类型文档**：[文本细读与文学论证](practices/close_reading.md)、[语言记录与语言学田野调查](practices/language_documentation.md)。
 
-**相关学科的研究类型文档**：[档案研究](../history-archaeology/research-types/archival_research.md)、[口述历史](../history-archaeology/research-types/oral_history.md)。
+**相关学科的研究类型文档**：[档案研究](../../06_methods/archival_research.md)、[口述历史](../../06_methods/oral_history.md)。
 
 本领域还没有专门的研究类型文档。下面的分类为本项目归纳 `[本项目分析]`，能借用研究方法文档的，给出链接和差异：
 

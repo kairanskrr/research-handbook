@@ -73,7 +73,7 @@
 | [数据科学](../06_methods/data_science.md) | 对已有数据集做探索性分析 | 只看一个时间点的分析，SIGSOFT 标准建议参考探索性数据科学标准[^ralph2020empirical-e258] |
 | [综述](../06_methods/review_study.md) | 文献里可能已经有答案 | 探索性问题仍然要问，但可以用文献调研而不是新的实证研究来回答[^easterbrook2008selecting-e41]；见[综合](synthesize.md) |
 
-表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见[野外观测研究](../07_fields/earth-environmental-sciences/research-types/field_study.md)、[观察性流行病学](../07_fields/health-sciences/research-types/observational_epidemiology.md)中的横断面研究、[语言记录](../07_fields/languages-literature/research-types/language_documentation.md)。
+表中没有脚注的做法和注意事项是本项目的归纳 `[本项目分析]`。其他学科的对应做法，见[野外观测研究](../06_methods/field_study.md)、[观察性流行病学](../06_methods/observational_epidemiology.md)中的横断面研究、[语言记录](../07_fields/languages-literature/practices/language_documentation.md)。
 
 **常见的组合** `[本项目分析]`：先用访谈或人工细读少量样本，归纳出类别；再用仓库挖掘或问卷，统计每一类有多常见。例如先人工读 50 份生成合约归纳漏洞类型，再用工具在几千份合约上统计分布，最后抽样人工复核工具的判定。
 

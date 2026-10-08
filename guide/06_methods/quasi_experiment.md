@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲经济学里**不能随机分组时，怎样用观察性数据估计因果效应**。观察性数据指现成的、不是研究者安排分组得来的数据。全文按这个顺序讲：先写出识别策略，再选双重差分、断点回归、工具变量或合成控制，然后做安慰剂检验、算对标准误、把结果报告清楚。"可信性革命"的来龙去脉，以及几种方法各靠什么假设的一句话介绍，见[经济学领域概况](../README.md#可信性革命先回答你的识别策略是什么)，这里不重复。公共卫生和医学也用观察性数据估计因果效应，但用的词不一样，见健康科学篇的[观察性流行病学](../../health-sciences/research-types/observational_epidemiology.md)。两边的用词对照见第 1 节末尾。效度威胁、探索性和验证性分析等通用概念，见主线章节[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md)和[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
+本文讲经济学里**不能随机分组时，怎样用观察性数据估计因果效应**。观察性数据指现成的、不是研究者安排分组得来的数据。全文按这个顺序讲：先写出识别策略，再选双重差分、断点回归、工具变量或合成控制，然后做安慰剂检验、算对标准误、把结果报告清楚。"可信性革命"的来龙去脉，以及几种方法各靠什么假设的一句话介绍，见[经济学领域概况](../07_fields/economics/README.md#可信性革命先回答你的识别策略是什么)，这里不重复。公共卫生和医学也用观察性数据估计因果效应，但用的词不一样，见健康科学篇的[观察性流行病学](observational_epidemiology.md)。两边的用词对照见第 1 节末尾。效度威胁、探索性和验证性分析等通用概念，见主线章节[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)和[从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
 
 **读完本文，你应该能：**
 
@@ -53,7 +53,7 @@
 
 Roth 等人总结近年双重差分方法时，把要点归为三条：讲清用于识别的对照组；估计和推断方法要和识别假设匹配；检查结论对假设被违反有多稳健。他们还强调，选对假设往往要靠对具体情境的了解[^roth2023trending-e11]。
 
-**为什么。** 经济学界为什么这样看重识别策略，见[领域概况](../README.md#可信性革命先回答你的识别策略是什么)。
+**为什么。** 经济学界为什么这样看重识别策略，见[领域概况](../07_fields/economics/README.md#可信性革命先回答你的识别策略是什么)。
 
 **容易错在哪里。**
 
@@ -137,7 +137,7 @@ Bertrand、Duflo 和 Mullainathan 在美国州级女性工资数据中随机生�
 4. **检验和敏感性分析**：安慰剂检验、平衡检验、平行趋势敏感性分析[^roth2023trending-e6]。正文放不下的，放进网上附录[^lee2010rd-e8]。
 5. **结论的适用范围**：效应是谁的效应，比如分界线附近的人、遵从者[^cunningham2026remix-e5]。
 
-数据和代码的公开要求见领域概况的[数据和代码要能复现](../README.md#数据和代码要能复现)。
+数据和代码的公开要求见领域概况的[数据和代码要能复现](../07_fields/economics/README.md#数据和代码要能复现)。
 
 ---
 
@@ -196,69 +196,69 @@ Bertrand、Duflo 和 Mullainathan 在美国州级女性工资数据中随机生�
 - **Imbens & Lemieux 2008，Regression Discontinuity Designs: A Guide to Practice（NBER 工作论文免费）**：第 7 节讲各种检验，第 8 节是操作步骤总结。
 - **Cameron & Miller 2015，A Practitioner's Guide to Cluster-Robust Inference（作者主页免费）**：聚类标准误怎么算、聚类太少怎么办。
 - **Bertrand, Duflo & Mullainathan 2004（NBER 工作论文免费）**：用"假法律"说明双重差分标准误为什么会偏小。
-- **Angrist & Pischke 2010**：识别为什么重要，见[领域概况](../README.md#延伸阅读)。
+- **Angrist & Pischke 2010**：识别为什么重要，见[领域概况](../07_fields/economics/README.md#延伸阅读)。
 
-[^roth2023trending-e1]: Roth 等 2023，§1 Introduction。[证据](../../../../sources/notes/roth2023trending.md#e1)
-[^roth2023trending-e2]: Roth 等 2023，§2.3。[证据](../../../../sources/notes/roth2023trending.md#e2)
-[^roth2023trending-e3]: Roth 等 2023，§1 Introduction。[证据](../../../../sources/notes/roth2023trending.md#e3)
-[^roth2023trending-e4]: Roth 等 2023，§3.5 Recommendations。[证据](../../../../sources/notes/roth2023trending.md#e4)
-[^roth2023trending-e5]: Roth 等 2023，§1 Introduction。[证据](../../../../sources/notes/roth2023trending.md#e5)
-[^roth2023trending-e6]: Roth 等 2023，§4.6 Recommendations。[证据](../../../../sources/notes/roth2023trending.md#e6)
-[^roth2023trending-e7]: Roth 等 2023，§4.6 Recommendations。[证据](../../../../sources/notes/roth2023trending.md#e7)
-[^roth2023trending-e8]: Roth 等 2023，Table 1。[证据](../../../../sources/notes/roth2023trending.md#e8)
-[^roth2023trending-e9]: Roth 等 2023，§1 Introduction。[证据](../../../../sources/notes/roth2023trending.md#e9)
-[^roth2023trending-e10]: Roth 等 2023，§5.2 Recommendations。[证据](../../../../sources/notes/roth2023trending.md#e10)
-[^roth2023trending-e11]: Roth 等 2023，§7 Conclusion。[证据](../../../../sources/notes/roth2023trending.md#e11)
-[^roth2023trending-e12]: Roth 等 2023，§4.3。[证据](../../../../sources/notes/roth2023trending.md#e12)
-[^roth2023trending-e13]: Roth 等 2023，§1 Introduction。[证据](../../../../sources/notes/roth2023trending.md#e13)
-[^lee2010rd-e1]: Lee & Lemieux 2010，§3.1。[证据](../../../../sources/notes/lee2010rd.md#e1)
-[^lee2010rd-e2]: Lee & Lemieux 2010，§2.3。[证据](../../../../sources/notes/lee2010rd.md#e2)
-[^lee2010rd-e3]: Lee & Lemieux 2010，§4.6。[证据](../../../../sources/notes/lee2010rd.md#e3)
-[^lee2010rd-e4]: Lee & Lemieux 2010，§4.4.1。[证据](../../../../sources/notes/lee2010rd.md#e4)
-[^lee2010rd-e5]: Lee & Lemieux 2010，§4.6。[证据](../../../../sources/notes/lee2010rd.md#e5)
-[^lee2010rd-e6]: Lee & Lemieux 2010，§4.6。[证据](../../../../sources/notes/lee2010rd.md#e6)
-[^lee2010rd-e7]: Lee & Lemieux 2010，§4.6。[证据](../../../../sources/notes/lee2010rd.md#e7)
-[^lee2010rd-e8]: Lee & Lemieux 2010，§4.6。[证据](../../../../sources/notes/lee2010rd.md#e8)
-[^lee2010rd-e9]: Lee & Lemieux 2010，§1 Introduction。[证据](../../../../sources/notes/lee2010rd.md#e9)
-[^lee2010rd-e10]: Lee & Lemieux 2010，§1 Introduction。[证据](../../../../sources/notes/lee2010rd.md#e10)
-[^lee2010rd-e11]: Lee & Lemieux 2010，§3.4.1。[证据](../../../../sources/notes/lee2010rd.md#e11)
-[^imbens2008rd-e1]: Imbens & Lemieux 2008，§8。[证据](../../../../sources/notes/imbens2008rd.md#e1)
-[^imbens2008rd-e2]: Imbens & Lemieux 2008，§7。[证据](../../../../sources/notes/imbens2008rd.md#e2)
-[^imbens2008rd-e3]: Imbens & Lemieux 2008，§7.1。[证据](../../../../sources/notes/imbens2008rd.md#e3)
-[^imbens2008rd-e4]: Imbens & Lemieux 2008，§7.2。[证据](../../../../sources/notes/imbens2008rd.md#e4)
-[^imbens2008rd-e5]: Imbens & Lemieux 2008，§7.3。[证据](../../../../sources/notes/imbens2008rd.md#e5)
-[^imbens2008rd-e6]: Imbens & Lemieux 2008，§7.5。[证据](../../../../sources/notes/imbens2008rd.md#e6)
-[^imbens2008rd-e7]: Imbens & Lemieux 2008，§8。[证据](../../../../sources/notes/imbens2008rd.md#e7)
-[^angrist2010credibility-e5]: Angrist & Pischke 2010，Better Research Design。[证据](../../../../sources/notes/angrist2010credibility.md#e5)
-[^angrist2010credibility-e9]: Angrist & Pischke 2010，Whither Sensitivity Analysis?。[证据](../../../../sources/notes/angrist2010credibility.md#e9)
-[^angrist2010credibility-e13]: Angrist & Pischke 2010，Whither Sensitivity Analysis?。[证据](../../../../sources/notes/angrist2010credibility.md#e13)
-[^cunningham2026remix-e1]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e1)
-[^cunningham2026remix-e2]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e2)
-[^cunningham2026remix-e3]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章（转引 Bound、Jaeger 和 Baker 1995）。[证据](../../../../sources/notes/cunningham2026remix.md#e3)
-[^cunningham2026remix-e4]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e4)
-[^cunningham2026remix-e5]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e5)
-[^cunningham2026remix-e6]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e6)
-[^cunningham2026remix-e7]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e7)
-[^cunningham2026remix-e8]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../../../sources/notes/cunningham2026remix.md#e8)
-[^cunningham2026remix-e9]: Cunningham，The Remix（在线第二版，仍在修订）第 9 章。[证据](../../../../sources/notes/cunningham2026remix.md#e9)
-[^cunningham2026remix-e10]: Cunningham，The Remix（在线第二版，仍在修订）第 9 章。[证据](../../../../sources/notes/cunningham2026remix.md#e10)
-[^cunningham2026remix-e11]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../../../sources/notes/cunningham2026remix.md#e11)
-[^cunningham2026remix-e12]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../../../sources/notes/cunningham2026remix.md#e12)
-[^cunningham2026remix-e13]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../../../sources/notes/cunningham2026remix.md#e13)
-[^cunningham2026remix-e14]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../../../sources/notes/cunningham2026remix.md#e14)
-[^cunningham2026remix-e15]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../../../sources/notes/cunningham2026remix.md#e15)
-[^cunningham2026remix-e16]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../../../sources/notes/cunningham2026remix.md#e16)
-[^cunningham2026remix-e17]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../../../sources/notes/cunningham2026remix.md#e17)
-[^cunningham2026remix-e18]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../../../sources/notes/cunningham2026remix.md#e18)
-[^hernan2018cword-e5]: Hernán 2018，正文。[证据](../../../../sources/notes/hernan2018cword.md#e5)
-[^hernan2018cword-e13]: Hernán 2018，正文。[证据](../../../../sources/notes/hernan2018cword.md#e13)
-[^brodeur2016star-e2]: Brodeur 等 2016（2013 年讨论稿版），摘要。[证据](../../../../sources/notes/brodeur2016star.md#e2)
-[^brodeur2016star-e3]: Brodeur 等 2016（2013 年讨论稿版），摘要。[证据](../../../../sources/notes/brodeur2016star.md#e3)
-[^brodeur2016star-e5]: Brodeur 等 2016（2013 年讨论稿版），§1。[证据](../../../../sources/notes/brodeur2016star.md#e5)
-[^cameron2015practitioner-e1]: Cameron & Miller 2015，摘要。[证据](../../../../sources/notes/cameron2015practitioner.md#e1)
-[^cameron2015practitioner-e2]: Cameron & Miller 2015，§I。[证据](../../../../sources/notes/cameron2015practitioner.md#e2)
-[^cameron2015practitioner-e3]: Cameron & Miller 2015，§I。[证据](../../../../sources/notes/cameron2015practitioner.md#e3)
-[^cameron2015practitioner-e4]: Cameron & Miller 2015，§I。[证据](../../../../sources/notes/cameron2015practitioner.md#e4)
-[^cameron2015practitioner-e5]: Cameron & Miller 2015，§I。[证据](../../../../sources/notes/cameron2015practitioner.md#e5)
-[^bertrand2004trust-e1]: Bertrand, Duflo & Mullainathan 2004（2002 年工作论文版），摘要。[证据](../../../../sources/notes/bertrand2004trust.md#e1)
-[^bertrand2004trust-e2]: Bertrand, Duflo & Mullainathan 2004（2002 年工作论文版），摘要。[证据](../../../../sources/notes/bertrand2004trust.md#e2)
+[^roth2023trending-e1]: Roth 等 2023，§1 Introduction。[证据](../../sources/notes/roth2023trending.md#e1)
+[^roth2023trending-e2]: Roth 等 2023，§2.3。[证据](../../sources/notes/roth2023trending.md#e2)
+[^roth2023trending-e3]: Roth 等 2023，§1 Introduction。[证据](../../sources/notes/roth2023trending.md#e3)
+[^roth2023trending-e4]: Roth 等 2023，§3.5 Recommendations。[证据](../../sources/notes/roth2023trending.md#e4)
+[^roth2023trending-e5]: Roth 等 2023，§1 Introduction。[证据](../../sources/notes/roth2023trending.md#e5)
+[^roth2023trending-e6]: Roth 等 2023，§4.6 Recommendations。[证据](../../sources/notes/roth2023trending.md#e6)
+[^roth2023trending-e7]: Roth 等 2023，§4.6 Recommendations。[证据](../../sources/notes/roth2023trending.md#e7)
+[^roth2023trending-e8]: Roth 等 2023，Table 1。[证据](../../sources/notes/roth2023trending.md#e8)
+[^roth2023trending-e9]: Roth 等 2023，§1 Introduction。[证据](../../sources/notes/roth2023trending.md#e9)
+[^roth2023trending-e10]: Roth 等 2023，§5.2 Recommendations。[证据](../../sources/notes/roth2023trending.md#e10)
+[^roth2023trending-e11]: Roth 等 2023，§7 Conclusion。[证据](../../sources/notes/roth2023trending.md#e11)
+[^roth2023trending-e12]: Roth 等 2023，§4.3。[证据](../../sources/notes/roth2023trending.md#e12)
+[^roth2023trending-e13]: Roth 等 2023，§1 Introduction。[证据](../../sources/notes/roth2023trending.md#e13)
+[^lee2010rd-e1]: Lee & Lemieux 2010，§3.1。[证据](../../sources/notes/lee2010rd.md#e1)
+[^lee2010rd-e2]: Lee & Lemieux 2010，§2.3。[证据](../../sources/notes/lee2010rd.md#e2)
+[^lee2010rd-e3]: Lee & Lemieux 2010，§4.6。[证据](../../sources/notes/lee2010rd.md#e3)
+[^lee2010rd-e4]: Lee & Lemieux 2010，§4.4.1。[证据](../../sources/notes/lee2010rd.md#e4)
+[^lee2010rd-e5]: Lee & Lemieux 2010，§4.6。[证据](../../sources/notes/lee2010rd.md#e5)
+[^lee2010rd-e6]: Lee & Lemieux 2010，§4.6。[证据](../../sources/notes/lee2010rd.md#e6)
+[^lee2010rd-e7]: Lee & Lemieux 2010，§4.6。[证据](../../sources/notes/lee2010rd.md#e7)
+[^lee2010rd-e8]: Lee & Lemieux 2010，§4.6。[证据](../../sources/notes/lee2010rd.md#e8)
+[^lee2010rd-e9]: Lee & Lemieux 2010，§1 Introduction。[证据](../../sources/notes/lee2010rd.md#e9)
+[^lee2010rd-e10]: Lee & Lemieux 2010，§1 Introduction。[证据](../../sources/notes/lee2010rd.md#e10)
+[^lee2010rd-e11]: Lee & Lemieux 2010，§3.4.1。[证据](../../sources/notes/lee2010rd.md#e11)
+[^imbens2008rd-e1]: Imbens & Lemieux 2008，§8。[证据](../../sources/notes/imbens2008rd.md#e1)
+[^imbens2008rd-e2]: Imbens & Lemieux 2008，§7。[证据](../../sources/notes/imbens2008rd.md#e2)
+[^imbens2008rd-e3]: Imbens & Lemieux 2008，§7.1。[证据](../../sources/notes/imbens2008rd.md#e3)
+[^imbens2008rd-e4]: Imbens & Lemieux 2008，§7.2。[证据](../../sources/notes/imbens2008rd.md#e4)
+[^imbens2008rd-e5]: Imbens & Lemieux 2008，§7.3。[证据](../../sources/notes/imbens2008rd.md#e5)
+[^imbens2008rd-e6]: Imbens & Lemieux 2008，§7.5。[证据](../../sources/notes/imbens2008rd.md#e6)
+[^imbens2008rd-e7]: Imbens & Lemieux 2008，§8。[证据](../../sources/notes/imbens2008rd.md#e7)
+[^angrist2010credibility-e5]: Angrist & Pischke 2010，Better Research Design。[证据](../../sources/notes/angrist2010credibility.md#e5)
+[^angrist2010credibility-e9]: Angrist & Pischke 2010，Whither Sensitivity Analysis?。[证据](../../sources/notes/angrist2010credibility.md#e9)
+[^angrist2010credibility-e13]: Angrist & Pischke 2010，Whither Sensitivity Analysis?。[证据](../../sources/notes/angrist2010credibility.md#e13)
+[^cunningham2026remix-e1]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e1)
+[^cunningham2026remix-e2]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e2)
+[^cunningham2026remix-e3]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章（转引 Bound、Jaeger 和 Baker 1995）。[证据](../../sources/notes/cunningham2026remix.md#e3)
+[^cunningham2026remix-e4]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e4)
+[^cunningham2026remix-e5]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e5)
+[^cunningham2026remix-e6]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e6)
+[^cunningham2026remix-e7]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e7)
+[^cunningham2026remix-e8]: Cunningham，The Remix（在线第二版，仍在修订）第 7 章。[证据](../../sources/notes/cunningham2026remix.md#e8)
+[^cunningham2026remix-e9]: Cunningham，The Remix（在线第二版，仍在修订）第 9 章。[证据](../../sources/notes/cunningham2026remix.md#e9)
+[^cunningham2026remix-e10]: Cunningham，The Remix（在线第二版，仍在修订）第 9 章。[证据](../../sources/notes/cunningham2026remix.md#e10)
+[^cunningham2026remix-e11]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../sources/notes/cunningham2026remix.md#e11)
+[^cunningham2026remix-e12]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../sources/notes/cunningham2026remix.md#e12)
+[^cunningham2026remix-e13]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../sources/notes/cunningham2026remix.md#e13)
+[^cunningham2026remix-e14]: Cunningham，The Remix（在线第二版，仍在修订）第 10 章。[证据](../../sources/notes/cunningham2026remix.md#e14)
+[^cunningham2026remix-e15]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../sources/notes/cunningham2026remix.md#e15)
+[^cunningham2026remix-e16]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../sources/notes/cunningham2026remix.md#e16)
+[^cunningham2026remix-e17]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../sources/notes/cunningham2026remix.md#e17)
+[^cunningham2026remix-e18]: Cunningham，The Remix（在线第二版，仍在修订）第 11 章。[证据](../../sources/notes/cunningham2026remix.md#e18)
+[^hernan2018cword-e5]: Hernán 2018，正文。[证据](../../sources/notes/hernan2018cword.md#e5)
+[^hernan2018cword-e13]: Hernán 2018，正文。[证据](../../sources/notes/hernan2018cword.md#e13)
+[^brodeur2016star-e2]: Brodeur 等 2016（2013 年讨论稿版），摘要。[证据](../../sources/notes/brodeur2016star.md#e2)
+[^brodeur2016star-e3]: Brodeur 等 2016（2013 年讨论稿版），摘要。[证据](../../sources/notes/brodeur2016star.md#e3)
+[^brodeur2016star-e5]: Brodeur 等 2016（2013 年讨论稿版），§1。[证据](../../sources/notes/brodeur2016star.md#e5)
+[^cameron2015practitioner-e1]: Cameron & Miller 2015，摘要。[证据](../../sources/notes/cameron2015practitioner.md#e1)
+[^cameron2015practitioner-e2]: Cameron & Miller 2015，§I。[证据](../../sources/notes/cameron2015practitioner.md#e2)
+[^cameron2015practitioner-e3]: Cameron & Miller 2015，§I。[证据](../../sources/notes/cameron2015practitioner.md#e3)
+[^cameron2015practitioner-e4]: Cameron & Miller 2015，§I。[证据](../../sources/notes/cameron2015practitioner.md#e4)
+[^cameron2015practitioner-e5]: Cameron & Miller 2015，§I。[证据](../../sources/notes/cameron2015practitioner.md#e5)
+[^bertrand2004trust-e1]: Bertrand, Duflo & Mullainathan 2004（2002 年工作论文版），摘要。[证据](../../sources/notes/bertrand2004trust.md#e1)
+[^bertrand2004trust-e2]: Bertrand, Duflo & Mullainathan 2004（2002 年工作论文版），摘要。[证据](../../sources/notes/bertrand2004trust.md#e2)

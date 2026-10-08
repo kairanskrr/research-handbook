@@ -146,9 +146,9 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[临床前动物研究](research-types/preclinical_animal_study.md)。
+**本领域的研究类型文档**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)。
 
-**相关学科的研究类型文档**：[实验台实验（湿实验）](../biological-sciences/research-types/bench_experiment.md)、[随机对照试验](../clinical-medicine/research-types/randomized_controlled_trial.md)。
+**相关学科的研究类型文档**：[实验台实验（湿实验）](../../06_methods/bench_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)。
 
 下面的分组和"相通"的判断为本项目分析 `[本项目分析]`。
 

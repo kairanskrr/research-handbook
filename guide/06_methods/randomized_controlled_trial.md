@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲怎样设计和实施一项**随机对照试验**（randomized controlled trial）：把受试者随机分到不同干预组，比较他们的结局。伦理审批、试验登记、署名、利益冲突、数据共享这些规则，[临床医学领域概况](../README.md)已经讲过，这里只讲它们落在试验的哪一步。观察性研究（队列、病例对照、横断面）不在本文范围。
+本文讲怎样设计和实施一项**随机对照试验**（randomized controlled trial）：把受试者随机分到不同干预组，比较他们的结局。伦理审批、试验登记、署名、利益冲突、数据共享这些规则，[临床医学领域概况](../07_fields/clinical-medicine/README.md)已经讲过，这里只讲它们落在试验的哪一步。观察性研究（队列、病例对照、横断面）不在本文范围。
 
 **读完本文，你应该能：**
 - 用 PICO 把临床问题写成一个试验能回答的问题，并选好主要结局；
@@ -17,15 +17,15 @@
 
 随机对照试验回答**因果问题**："对这类病人，干预 A 比对照 C 更能改善结局 O 吗？"随机分配做得正确时，能消除分组时的选择偏倚，让已知和未知的预后因素在组间均衡[^hopewell2025consortee-e1]。所以设计、实施、分析和报告都恰当的随机试验，一般被认为是评价医疗干预的最高质量证据[^hopewell2025consort-e2]。关键在"都恰当"，下面每一步都是为了守住这一点 `[本项目分析]`。
 
-**和队列研究的区别**（哪些问题更适合观察性研究，见领域概况的[常见的研究类型](../README.md#常见的研究类型)）：
+**和队列研究的区别**（哪些问题更适合观察性研究，见领域概况的[常见的研究类型](../07_fields/clinical-medicine/README.md#常见的研究类型)）：
 
 | | 随机对照试验 | 队列研究 |
 |---|---|---|
 | 谁决定受试者接受什么干预 | 研究者，用随机方法分配 | 不由研究者安排[^icmje2026recommendations-e21] |
 | 事前登记 | 必须在招募第一位受试者之前（见第 7 步） | 国际医学期刊编辑委员会（ICMJE）鼓励但不强制[^icmje2026recommendations-e21] |
-| 报告规范 | CONSORT 2025（见第 10 步） | STROBE，见[领域概况](../README.md#报告规范按研究类型选清单) |
+| 报告规范 | CONSORT 2025（见第 10 步） | STROBE，见[领域概况](../07_fields/clinical-medicine/README.md#报告规范按研究类型选清单) |
 
-**和研究方法里的对照实验比。** 两者逻辑相同：主动改变一个因素，随机分组，比较结果。[对照实验](../../../06_methods/controlled_experiment.md)一篇讲过的被试内设计、任务设计、预实验，这里不再重复。临床试验多出来的是下文的分配隐藏、多类人员设盲、入组前登记、独立的数据监查和意向性分析 `[本项目分析]`。
+**和研究方法里的对照实验比。** 两者逻辑相同：主动改变一个因素，随机分组，比较结果。[对照实验](controlled_experiment.md)一篇讲过的被试内设计、任务设计、预实验，这里不再重复。临床试验多出来的是下文的分配隐藏、多类人员设盲、入组前登记、独立的数据监查和意向性分析 `[本项目分析]`。
 
 **设计的几种类型。** CONSORT 2025 适用于所有随机试验，但以最常见的两组平行设计为主[^hopewell2025consort-e9]；其他主要设计有多臂平行、交叉、整群和析因设计，各有专门的 CONSORT 扩展版[^hopewell2025consortee-e2]。本文以两组平行设计为例；用其他设计，先找对应的扩展版。
 
@@ -42,7 +42,7 @@
 - **想好在什么条件下检验**：从理想条件（解释性试验）到常规临床条件（实用性试验），是一条连续谱[^hopewell2025consortee-e6]。
 - **选对照时考虑伦理**：世界医学会的《赫尔辛基宣言》要求新干预原则上和已证实最好的干预比较；没有已证实的干预时，才可以用安慰剂或不干预作对照（这是例外之一）[^wma2024helsinki-e14]。
 
-**容易错在哪**：P 写得太宽或太窄，I 和 C 没写到能照着执行的程度 `[本项目分析]`。通用方法见主线章节[先把题目变成能回答的研究问题](../../../02_from-project-to-study/01_question-to-evidence.md#1-把主张拆成研究问题)。
+**容易错在哪**：P 写得太宽或太窄，I 和 C 没写到能照着执行的程度 `[本项目分析]`。通用方法见主线章节[先把题目变成能回答的研究问题](../02_from-project-to-study/01_question-to-evidence.md#1-把主张拆成研究问题)。
 
 ### 第 2 步：选结局，定一个主要结局
 
@@ -106,9 +106,9 @@
 
 **写方案**：方案是计划方法和实施过程最重要的记录[^chan2025spirit-e4]。按 SPIRIT 2025 写，它有 34 项最低限度条目和一张入组、干预、评估的时间安排图[^chan2025spirit-e5]。第 1～6 步的决定都写进去，还要写明由谁、怎样取得知情同意[^chan2025spirit-e6]；按《赫尔辛基宣言》，临床试验的方案还必须写明试验结束后的安排[^wma2024helsinki-e15]。方案在分配任何受试者之前定稿；完整的统计分析计划在数据库锁定、开始分析之前定稿[^hopewell2025consortee-e38]。
 
-**过伦理**：完整方案必须在入组之前提交研究伦理委员会批准[^chan2025spirit-e7]。知情同意的要求见[领域概况](../README.md#研究对象是人伦理排在第一位)。
+**过伦理**：完整方案必须在入组之前提交研究伦理委员会批准[^chan2025spirit-e7]。知情同意的要求见[领域概况](../07_fields/clinical-medicine/README.md#研究对象是人伦理排在第一位)。
 
-**做登记**：《赫尔辛基宣言》要求在招募第一位受试者之前，在公开数据库登记[^wma2024helsinki-e9]；ICMJE 建议医学期刊把"在第一位病人签署入组同意时或之前登记"作为考虑发表的前提[^icmje2026recommendations-e15]。伦理批准不等于登记、事后补登记没用、登记时要写数据共享计划，见领域概况的[先登记，再招募第一位病人](../README.md#先登记再招募第一位病人)和[数据共享声明](../README.md#数据共享声明)。
+**做登记**：《赫尔辛基宣言》要求在招募第一位受试者之前，在公开数据库登记[^wma2024helsinki-e9]；ICMJE 建议医学期刊把"在第一位病人签署入组同意时或之前登记"作为考虑发表的前提[^icmje2026recommendations-e15]。伦理批准不等于登记、事后补登记没用、登记时要写数据共享计划，见领域概况的[先登记，再招募第一位病人](../07_fields/clinical-medicine/README.md#先登记再招募第一位病人)和[数据共享声明](../07_fields/clinical-medicine/README.md#数据共享声明)。
 
 **去哪登记**：按世界卫生组织（WHO）国际临床试验注册平台的说明，WHO 本身不是登记库，要向 WHO 登记网络中的任一一级登记库提交[^whotrialregistration-e1]；在一个一级登记库或 ICMJE 认可的登记库登记一次即可[^whotrialregistration-e2]。各国对临床试验的监管、法律和伦理要求不同[^whotrialregistration-e3]，以本国规定为准。
 
@@ -134,13 +134,13 @@
 - **校正协变量按计划来**：常宜对分层变量做校正；是否校正某个协变量，不应看它在组间有没有显著差异[^hopewell2025consortee-e48]。
 - **亚组分析要克制**：一个亚组显著、另一个不显著，不能说明存在亚组差异；看过数据才做的亚组比较，尤其难被后续研究证实[^hopewell2025consortee-e49]。
 
-**容易错在哪**：对基线特征做显著性检验，用来"证明随机化成功"。只要随机化没被破坏，基线差异都是偶然造成的；这种检验不建议做，也不应报告[^hopewell2025consortee-e50]。统计的通用原则见主线章节[报告差多少、有多确定，而不只是 p 值](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+**容易错在哪**：对基线特征做显著性检验，用来"证明随机化成功"。只要随机化没被破坏，基线差异都是偶然造成的；这种检验不建议做，也不应报告[^hopewell2025consortee-e50]。统计的通用原则见主线章节[报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第 10 步：按 CONSORT 2025 报告
 
 CONSORT（Consolidated Standards of Reporting Trials，临床试验报告统一标准）2025 版有 30 项必报条目和一张受试者流程图[^hopewell2025consort-e1]，取代 2010 版[^hopewell2025consort-e11]。和配套的解释文章一起用[^hopewell2025consort-e12]；投稿时附上填好的清单，注明每一项写在稿件哪里[^hopewell2025consort-e13]。
 
-- **结果写全**：所有计划的主要和次要结局、每个时间点都要报告，不能只报显著的或"有意思"的[^hopewell2025consortee-e51]。道理见贯穿全程的[报告全部结果，包括负面结果](../../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
+- **结果写全**：所有计划的主要和次要结局、每个时间点都要报告，不能只报显著的或"有意思"的[^hopewell2025consortee-e51]。道理见贯穿全程的[报告全部结果，包括负面结果](../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
 - **报效应量和置信区间**，不要只报 P 值[^hopewell2025consortee-e52]；主要结局是二分类的，相对效应和绝对效应都要报[^hopewell2025consortee-e53]。
 - **用流程图交代每个人的去向**：把受试者排除出分析可能得出错误结论，两组排除人数不均衡尤其提示偏倚[^hopewell2025consortee-e54]。
 - **和方案、统计分析计划、登记记录对得上**：有没做的或改了的，就写出来[^hopewell2025consort-e8]。
@@ -194,97 +194,97 @@ CONSORT（Consolidated Standards of Reporting Trials，临床试验报告统一�
 
 - **CONSORT 2025 声明及其解释文章**（Hopewell 等人 2025；解释文章发表于 BMJ，PubMed Central 有免费全文）：声明是 30 项清单和流程图，写论文时对照用；解释文章是本文主要依据，逐条讲每个条目的含义、理由和实证依据，其中随机化、分配隐藏、盲法、意向性分析几节，设计阶段就值得读。
 - **SPIRIT 2025 声明**（Chan 等人 2025）：34 项方案条目，写方案时逐条对照。
-- **《赫尔辛基宣言》（世界医学会，2024 年版）、ICMJE 建议（面向医学期刊）、WHO 国际临床试验注册平台网页**：伦理、登记、数据共享的基础文件，见[领域概况](../README.md)；登记前去 WHO 网页查一级登记库。
+- **《赫尔辛基宣言》（世界医学会，2024 年版）、ICMJE 建议（面向医学期刊）、WHO 国际临床试验注册平台网页**：伦理、登记、数据共享的基础文件，见[领域概况](../07_fields/clinical-medicine/README.md)；登记前去 WHO 网页查一级登记库。
 - 本文资料未涉及：具体的样本量公式和软件、最小化法和缺失数据填补的具体做法、整群和交叉等设计的细节。请看 CONSORT 对应的扩展版，或向试验统计师请教。
 
-[^hopewell2025consortee-e1]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Box 5（Treatment allocation in trials）。[证据](../../../../sources/notes/hopewell2025consortee.md#e1)
-[^hopewell2025consortee-e2]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 9（Trial design），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e2)
-[^hopewell2025consortee-e3]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7（Specific objectives），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e3)
-[^hopewell2025consortee-e4]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e4)
-[^hopewell2025consortee-e5]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e5)
-[^hopewell2025consortee-e6]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e6)
-[^hopewell2025consortee-e7]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14（Outcomes），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e7)
-[^hopewell2025consortee-e8]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e8)
-[^hopewell2025consortee-e9]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e9)
-[^hopewell2025consortee-e10]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e10)
-[^hopewell2025consortee-e11]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7（Specific objectives），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e11)
-[^hopewell2025consortee-e12]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e12)
-[^hopewell2025consortee-e13]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 10（Changes to trial），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e13)
-[^hopewell2025consortee-e14]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a（Sample size），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e14)
-[^hopewell2025consortee-e15]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e15)
-[^hopewell2025consortee-e16]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e16)
-[^hopewell2025consortee-e17]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e17)
-[^hopewell2025consortee-e18]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e18)
-[^hopewell2025consortee-e19]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e19)
-[^hopewell2025consortee-e20]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e20)
-[^hopewell2025consortee-e21]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b（Type of randomisation），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e21)
-[^hopewell2025consortee-e22]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6（Randomisation and minimisation）。[证据](../../../../sources/notes/hopewell2025consortee.md#e22)
-[^hopewell2025consortee-e23]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6。[证据](../../../../sources/notes/hopewell2025consortee.md#e23)
-[^hopewell2025consortee-e24]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6。[证据](../../../../sources/notes/hopewell2025consortee.md#e24)
-[^hopewell2025consortee-e25]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e25)
-[^hopewell2025consortee-e26]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18（Allocation concealment），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e26)
-[^hopewell2025consortee-e27]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e27)
-[^hopewell2025consortee-e28]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e28)
-[^hopewell2025consortee-e29]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 19（Implementation），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e29)
-[^hopewell2025consortee-e30]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e30)
-[^hopewell2025consortee-e31]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e31)
-[^hopewell2025consortee-e32]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a（Blinding），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e32)
-[^hopewell2025consortee-e33]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e33)
-[^hopewell2025consortee-e34]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e34)
-[^hopewell2025consortee-e35]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e35)
-[^hopewell2025consortee-e36]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e36)
-[^hopewell2025consortee-e37]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Box 7（Blinding terminology）。[证据](../../../../sources/notes/hopewell2025consortee.md#e37)
-[^hopewell2025consortee-e38]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 3（Protocol and statistical analysis plan），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e38)
-[^hopewell2025consortee-e39]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b（Interim analyses and stopping），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e39)
-[^hopewell2025consortee-e40]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e40)
-[^hopewell2025consortee-e41]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e41)
-[^hopewell2025consortee-e42]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 10，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e42)
-[^hopewell2025consortee-e43]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e43)
-[^hopewell2025consortee-e44]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21b（Analysis population），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e44)
-[^hopewell2025consortee-e45]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e45)
-[^hopewell2025consortee-e46]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21c（Missing data），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e46)
-[^hopewell2025consortee-e47]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e47)
-[^hopewell2025consortee-e48]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21a（Statistical methods），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e48)
-[^hopewell2025consortee-e49]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21d（Additional analyses），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e49)
-[^hopewell2025consortee-e50]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 25（Baseline data），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e50)
-[^hopewell2025consortee-e51]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 26，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e51)
-[^hopewell2025consortee-e52]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 26（Outcomes and estimation），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e52)
-[^hopewell2025consortee-e53]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 26，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e53)
-[^hopewell2025consortee-e54]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 22a（Participant flow），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e54)
-[^hopewell2025consortee-e55]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 29（Interpretation），Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e55)
-[^hopewell2025consortee-e56]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e56)
-[^hopewell2025consortee-e57]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 2，Explanation（引用世界卫生组织 2015 年关于公开试验结果的声明）。[证据](../../../../sources/notes/hopewell2025consortee.md#e57)
-[^hopewell2025consortee-e58]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e58)
-[^hopewell2025consortee-e59]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e59)
-[^hopewell2025consortee-e60]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20b，Explanation。[证据](../../../../sources/notes/hopewell2025consortee.md#e60)
-[^hopewell2025consort-e2]: CONSORT 2025（Hopewell 等人 2025），Introduction，PDF 第 3 页。[证据](../../../../sources/notes/hopewell2025consort.md#e2)
-[^hopewell2025consort-e9]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../../../sources/notes/hopewell2025consort.md#e9)
-[^hopewell2025consort-e10]: CONSORT 2025（Hopewell 等人 2025），Implication and limitations，PDF 第 7 页。[证据](../../../../sources/notes/hopewell2025consort.md#e10)
-[^hopewell2025consort-e1]: CONSORT 2025（Hopewell 等人 2025），Abstract，Results，PDF 第 2 页。[证据](../../../../sources/notes/hopewell2025consort.md#e1)
-[^hopewell2025consort-e11]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../../../sources/notes/hopewell2025consort.md#e11)
-[^hopewell2025consort-e12]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../../../sources/notes/hopewell2025consort.md#e12)
-[^hopewell2025consort-e13]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../../../sources/notes/hopewell2025consort.md#e13)
-[^hopewell2025consort-e8]: CONSORT 2025（Hopewell 等人 2025），表 1 之后的说明段落，PDF 第 9 页。[证据](../../../../sources/notes/hopewell2025consort.md#e8)
-[^hopewell2025consort-e7]: CONSORT 2025（Hopewell 等人 2025），Implication and limitations，PDF 第 7 页。[证据](../../../../sources/notes/hopewell2025consort.md#e7)
-[^chan2025spirit-e1]: SPIRIT 2025（Chan 等人 2025），Table 1，item 20。[证据](../../../../sources/notes/chan2025spirit.md#e1)
-[^chan2025spirit-e2]: SPIRIT 2025（Chan 等人 2025），Table 1，item 21b。[证据](../../../../sources/notes/chan2025spirit.md#e2)
-[^chan2025spirit-e3]: SPIRIT 2025（Chan 等人 2025），Table 1，item 24c。[证据](../../../../sources/notes/chan2025spirit.md#e3)
-[^chan2025spirit-e4]: SPIRIT 2025（Chan 等人 2025），Introduction。[证据](../../../../sources/notes/chan2025spirit.md#e4)
-[^chan2025spirit-e5]: SPIRIT 2025（Chan 等人 2025），Updated SPIRIT 2025 statement。[证据](../../../../sources/notes/chan2025spirit.md#e5)
-[^chan2025spirit-e6]: SPIRIT 2025（Chan 等人 2025），Table 1，item 32a。[证据](../../../../sources/notes/chan2025spirit.md#e6)
-[^chan2025spirit-e7]: SPIRIT 2025（Chan 等人 2025），Definition of a randomised trial protocol。[证据](../../../../sources/notes/chan2025spirit.md#e7)
-[^chan2025spirit-e8]: SPIRIT 2025（Chan 等人 2025），Introduction。[证据](../../../../sources/notes/chan2025spirit.md#e8)
-[^chan2025spirit-e9]: SPIRIT 2025（Chan 等人 2025），Table 1，item 28a。[证据](../../../../sources/notes/chan2025spirit.md#e9)
-[^chan2025spirit-e10]: SPIRIT 2025（Chan 等人 2025），Table 1，item 28b。[证据](../../../../sources/notes/chan2025spirit.md#e10)
-[^chan2025spirit-e11]: SPIRIT 2025（Chan 等人 2025），Table 1，item 25b。[证据](../../../../sources/notes/chan2025spirit.md#e11)
-[^chan2025spirit-e12]: SPIRIT 2025（Chan 等人 2025），Definition of a randomised trial protocol。[证据](../../../../sources/notes/chan2025spirit.md#e12)
-[^whotrialregistration-e1]: WHO 国际临床试验注册平台，Trial registration 网页，How to register a trial。[证据](../../../../sources/notes/whotrialregistration.md#e1)
-[^whotrialregistration-e2]: WHO 国际临床试验注册平台，Trial registration 网页，How to register a trial。[证据](../../../../sources/notes/whotrialregistration.md#e2)
-[^whotrialregistration-e3]: WHO 国际临床试验注册平台，Trial registration 网页，How to register a trial，NOTE。[证据](../../../../sources/notes/whotrialregistration.md#e3)
-[^icmje2026recommendations-e21]: ICMJE 建议 2026 年 1 月版，§III.L.1 Registration。[证据](../../../../sources/notes/icmje2026recommendations.md#e21)
-[^icmje2026recommendations-e15]: ICMJE 建议 2026 年 1 月版，§III.L.1 Registration。[证据](../../../../sources/notes/icmje2026recommendations.md#e15)
-[^wma2024helsinki-e14]: WMA 2024（《赫尔辛基宣言》），Use of Placebo。[证据](../../../../sources/notes/wma2024helsinki.md#e14)
-[^wma2024helsinki-e15]: WMA 2024（《赫尔辛基宣言》），Scientific Requirements and Research Protocols。[证据](../../../../sources/notes/wma2024helsinki.md#e15)
-[^wma2024helsinki-e9]: WMA 2024（《赫尔辛基宣言》），Research Registration, Publication, and Dissemination of Results。[证据](../../../../sources/notes/wma2024helsinki.md#e9)
-[^wma2024helsinki-e16]: WMA 2024（《赫尔辛基宣言》），Research Ethics Committees。[证据](../../../../sources/notes/wma2024helsinki.md#e16)
-[^wma2024helsinki-e17]: WMA 2024（《赫尔辛基宣言》），Risks, Burdens, and Benefits。[证据](../../../../sources/notes/wma2024helsinki.md#e17)
+[^hopewell2025consortee-e1]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Box 5（Treatment allocation in trials）。[证据](../../sources/notes/hopewell2025consortee.md#e1)
+[^hopewell2025consortee-e2]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 9（Trial design），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e2)
+[^hopewell2025consortee-e3]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7（Specific objectives），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e3)
+[^hopewell2025consortee-e4]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e4)
+[^hopewell2025consortee-e5]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e5)
+[^hopewell2025consortee-e6]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e6)
+[^hopewell2025consortee-e7]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14（Outcomes），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e7)
+[^hopewell2025consortee-e8]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e8)
+[^hopewell2025consortee-e9]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e9)
+[^hopewell2025consortee-e10]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e10)
+[^hopewell2025consortee-e11]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 7（Specific objectives），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e11)
+[^hopewell2025consortee-e12]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 14，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e12)
+[^hopewell2025consortee-e13]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 10（Changes to trial），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e13)
+[^hopewell2025consortee-e14]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a（Sample size），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e14)
+[^hopewell2025consortee-e15]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e15)
+[^hopewell2025consortee-e16]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e16)
+[^hopewell2025consortee-e17]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e17)
+[^hopewell2025consortee-e18]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e18)
+[^hopewell2025consortee-e19]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e19)
+[^hopewell2025consortee-e20]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e20)
+[^hopewell2025consortee-e21]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b（Type of randomisation），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e21)
+[^hopewell2025consortee-e22]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6（Randomisation and minimisation）。[证据](../../sources/notes/hopewell2025consortee.md#e22)
+[^hopewell2025consortee-e23]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6。[证据](../../sources/notes/hopewell2025consortee.md#e23)
+[^hopewell2025consortee-e24]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6。[证据](../../sources/notes/hopewell2025consortee.md#e24)
+[^hopewell2025consortee-e25]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e25)
+[^hopewell2025consortee-e26]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18（Allocation concealment），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e26)
+[^hopewell2025consortee-e27]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e27)
+[^hopewell2025consortee-e28]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e28)
+[^hopewell2025consortee-e29]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 19（Implementation），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e29)
+[^hopewell2025consortee-e30]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e30)
+[^hopewell2025consortee-e31]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e31)
+[^hopewell2025consortee-e32]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a（Blinding），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e32)
+[^hopewell2025consortee-e33]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e33)
+[^hopewell2025consortee-e34]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e34)
+[^hopewell2025consortee-e35]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e35)
+[^hopewell2025consortee-e36]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e36)
+[^hopewell2025consortee-e37]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Box 7（Blinding terminology）。[证据](../../sources/notes/hopewell2025consortee.md#e37)
+[^hopewell2025consortee-e38]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 3（Protocol and statistical analysis plan），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e38)
+[^hopewell2025consortee-e39]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b（Interim analyses and stopping），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e39)
+[^hopewell2025consortee-e40]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e40)
+[^hopewell2025consortee-e41]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e41)
+[^hopewell2025consortee-e42]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 10，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e42)
+[^hopewell2025consortee-e43]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 16b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e43)
+[^hopewell2025consortee-e44]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21b（Analysis population），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e44)
+[^hopewell2025consortee-e45]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e45)
+[^hopewell2025consortee-e46]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21c（Missing data），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e46)
+[^hopewell2025consortee-e47]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e47)
+[^hopewell2025consortee-e48]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21a（Statistical methods），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e48)
+[^hopewell2025consortee-e49]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 21d（Additional analyses），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e49)
+[^hopewell2025consortee-e50]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 25（Baseline data），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e50)
+[^hopewell2025consortee-e51]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 26，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e51)
+[^hopewell2025consortee-e52]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 26（Outcomes and estimation），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e52)
+[^hopewell2025consortee-e53]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 26，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e53)
+[^hopewell2025consortee-e54]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 22a（Participant flow），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e54)
+[^hopewell2025consortee-e55]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 29（Interpretation），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e55)
+[^hopewell2025consortee-e56]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e56)
+[^hopewell2025consortee-e57]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 2，Explanation（引用世界卫生组织 2015 年关于公开试验结果的声明）。[证据](../../sources/notes/hopewell2025consortee.md#e57)
+[^hopewell2025consortee-e58]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e58)
+[^hopewell2025consortee-e59]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e59)
+[^hopewell2025consortee-e60]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 20b，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e60)
+[^hopewell2025consort-e2]: CONSORT 2025（Hopewell 等人 2025），Introduction，PDF 第 3 页。[证据](../../sources/notes/hopewell2025consort.md#e2)
+[^hopewell2025consort-e9]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../sources/notes/hopewell2025consort.md#e9)
+[^hopewell2025consort-e10]: CONSORT 2025（Hopewell 等人 2025），Implication and limitations，PDF 第 7 页。[证据](../../sources/notes/hopewell2025consort.md#e10)
+[^hopewell2025consort-e1]: CONSORT 2025（Hopewell 等人 2025），Abstract，Results，PDF 第 2 页。[证据](../../sources/notes/hopewell2025consort.md#e1)
+[^hopewell2025consort-e11]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../sources/notes/hopewell2025consort.md#e11)
+[^hopewell2025consort-e12]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../sources/notes/hopewell2025consort.md#e12)
+[^hopewell2025consort-e13]: CONSORT 2025（Hopewell 等人 2025），CONSORT 2025 statement。[证据](../../sources/notes/hopewell2025consort.md#e13)
+[^hopewell2025consort-e8]: CONSORT 2025（Hopewell 等人 2025），表 1 之后的说明段落，PDF 第 9 页。[证据](../../sources/notes/hopewell2025consort.md#e8)
+[^hopewell2025consort-e7]: CONSORT 2025（Hopewell 等人 2025），Implication and limitations，PDF 第 7 页。[证据](../../sources/notes/hopewell2025consort.md#e7)
+[^chan2025spirit-e1]: SPIRIT 2025（Chan 等人 2025），Table 1，item 20。[证据](../../sources/notes/chan2025spirit.md#e1)
+[^chan2025spirit-e2]: SPIRIT 2025（Chan 等人 2025），Table 1，item 21b。[证据](../../sources/notes/chan2025spirit.md#e2)
+[^chan2025spirit-e3]: SPIRIT 2025（Chan 等人 2025），Table 1，item 24c。[证据](../../sources/notes/chan2025spirit.md#e3)
+[^chan2025spirit-e4]: SPIRIT 2025（Chan 等人 2025），Introduction。[证据](../../sources/notes/chan2025spirit.md#e4)
+[^chan2025spirit-e5]: SPIRIT 2025（Chan 等人 2025），Updated SPIRIT 2025 statement。[证据](../../sources/notes/chan2025spirit.md#e5)
+[^chan2025spirit-e6]: SPIRIT 2025（Chan 等人 2025），Table 1，item 32a。[证据](../../sources/notes/chan2025spirit.md#e6)
+[^chan2025spirit-e7]: SPIRIT 2025（Chan 等人 2025），Definition of a randomised trial protocol。[证据](../../sources/notes/chan2025spirit.md#e7)
+[^chan2025spirit-e8]: SPIRIT 2025（Chan 等人 2025），Introduction。[证据](../../sources/notes/chan2025spirit.md#e8)
+[^chan2025spirit-e9]: SPIRIT 2025（Chan 等人 2025），Table 1，item 28a。[证据](../../sources/notes/chan2025spirit.md#e9)
+[^chan2025spirit-e10]: SPIRIT 2025（Chan 等人 2025），Table 1，item 28b。[证据](../../sources/notes/chan2025spirit.md#e10)
+[^chan2025spirit-e11]: SPIRIT 2025（Chan 等人 2025），Table 1，item 25b。[证据](../../sources/notes/chan2025spirit.md#e11)
+[^chan2025spirit-e12]: SPIRIT 2025（Chan 等人 2025），Definition of a randomised trial protocol。[证据](../../sources/notes/chan2025spirit.md#e12)
+[^whotrialregistration-e1]: WHO 国际临床试验注册平台，Trial registration 网页，How to register a trial。[证据](../../sources/notes/whotrialregistration.md#e1)
+[^whotrialregistration-e2]: WHO 国际临床试验注册平台，Trial registration 网页，How to register a trial。[证据](../../sources/notes/whotrialregistration.md#e2)
+[^whotrialregistration-e3]: WHO 国际临床试验注册平台，Trial registration 网页，How to register a trial，NOTE。[证据](../../sources/notes/whotrialregistration.md#e3)
+[^icmje2026recommendations-e21]: ICMJE 建议 2026 年 1 月版，§III.L.1 Registration。[证据](../../sources/notes/icmje2026recommendations.md#e21)
+[^icmje2026recommendations-e15]: ICMJE 建议 2026 年 1 月版，§III.L.1 Registration。[证据](../../sources/notes/icmje2026recommendations.md#e15)
+[^wma2024helsinki-e14]: WMA 2024（《赫尔辛基宣言》），Use of Placebo。[证据](../../sources/notes/wma2024helsinki.md#e14)
+[^wma2024helsinki-e15]: WMA 2024（《赫尔辛基宣言》），Scientific Requirements and Research Protocols。[证据](../../sources/notes/wma2024helsinki.md#e15)
+[^wma2024helsinki-e9]: WMA 2024（《赫尔辛基宣言》），Research Registration, Publication, and Dissemination of Results。[证据](../../sources/notes/wma2024helsinki.md#e9)
+[^wma2024helsinki-e16]: WMA 2024（《赫尔辛基宣言》），Research Ethics Committees。[证据](../../sources/notes/wma2024helsinki.md#e16)
+[^wma2024helsinki-e17]: WMA 2024（《赫尔辛基宣言》），Risks, Burdens, and Benefits。[证据](../../sources/notes/wma2024helsinki.md#e17)

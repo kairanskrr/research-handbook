@@ -2,7 +2,7 @@
 
 > **状态**：初稿，待审阅 · **最后更新**：2026-10-06
 
-本文讲**以测量为中心的实验**：目标是测出一个物理量的值，并说清这个值有多可信。例如测一个常数、一种材料的某项性质、一个粒子的寿命。工程里的试验台测试（测效率、载荷、流量等）也可以按本文的步骤做 `[本项目分析]`；工程期刊对不确定度的要求见[机械工程领域概况](../../mechanical-engineering/README.md#测量结果要带上不确定度)。5σ 发现标准、盲分析的基本概念，[物理科学领域概况](../README.md)已经讲过，本文只讲具体怎么做。计算机里的性能测量也要对付噪声和测量偏差，可以对照[基准评测](../../computer-science/practices/benchmarking.md#第四步设计测量流程)读。
+本文讲**以测量为中心的实验**：目标是测出一个物理量的值，并说清这个值有多可信。例如测一个常数、一种材料的某项性质、一个粒子的寿命。工程里的试验台测试（测效率、载荷、流量等）也可以按本文的步骤做 `[本项目分析]`；工程期刊对不确定度的要求见[机械工程领域概况](../07_fields/mechanical-engineering/README.md#测量结果要带上不确定度)。5σ 发现标准、盲分析的基本概念，[物理科学领域概况](../07_fields/physical-sciences/README.md)已经讲过，本文只讲具体怎么做。计算机里的性能测量也要对付噪声和测量偏差，可以对照[基准评测](../07_fields/computer-science/practices/benchmarking.md#第四步设计测量流程)读。
 
 **读完本文，你应该能：**
 
@@ -21,8 +21,8 @@
 | 研究类型 | 回答什么 | 去哪里看 |
 |---|---|---|
 | 实验测量（本文） | 一个量的值和它的不确定度 | 本文 |
-| 搜寻与发现 | 有没有新效应，显著到什么程度 | [物理科学领域概况：5σ](../README.md#5σ宣布发现的门槛)；最后报告的测量值或上限，仍按本文处理不确定度 `[本项目分析]` |
-| 性能基准评测 | 哪个计算机系统更快、更好 | 计算机篇[基准评测](../../computer-science/practices/benchmarking.md) |
+| 搜寻与发现 | 有没有新效应，显著到什么程度 | [物理科学领域概况：5σ](../07_fields/physical-sciences/README.md#5σ宣布发现的门槛)；最后报告的测量值或上限，仍按本文处理不确定度 `[本项目分析]` |
+| 性能基准评测 | 哪个计算机系统更快、更好 | 计算机篇[基准评测](../07_fields/computer-science/practices/benchmarking.md) |
 
 ## 2. 怎么做
 
@@ -55,7 +55,7 @@
 - **设一个核查标准**（check standard）：找一个稳定的样品，隔一段时间测一次，用来暴露测量过程随时间出现的误差[^nist2012ehandbook-e2]。它的材料和形状要和你平时测的样品接近[^nist2012ehandbook-e3]。它的读数如果在几轮测量里持续停在一个新水平，就是要查原因的信号[^nist2012ehandbook-e4]。
 - **先测一个已知的东西**：用同一套装置和分析测一个早有定论的信号（粒子物理叫"标准烛光"），强度和性质都符合预期，才说明整条链条在正常工作[^junk2021reproducibility-e46]。
 
-**容易错在哪里**：校准也会被自己的期望影响。Junk 和 Lyons 指出，潜意识的偏差可能在校准环节进入分析[^junk2021reproducibility-e48]。小课题组可以先把校准方法定下来、写进记录本，再看测量结果 `[本项目分析]`。模型参数的"校准"和"确认"不是一回事，见[机械工程领域概况](../../mechanical-engineering/README.md#校准不是确认)。
+**容易错在哪里**：校准也会被自己的期望影响。Junk 和 Lyons 指出，潜意识的偏差可能在校准环节进入分析[^junk2021reproducibility-e48]。小课题组可以先把校准方法定下来、写进记录本，再看测量结果 `[本项目分析]`。模型参数的"校准"和"确认"不是一回事，见[机械工程领域概况](../07_fields/mechanical-engineering/README.md#校准不是确认)。
 
 ### 第四步：找出并处理系统效应
 
@@ -87,7 +87,7 @@
 
 ### 第六步：盲分析，防止自己影响结果
 
-盲分析的定义和常见方法，见[物理科学领域概况](../README.md#盲分析先定方法再看答案)。这里讲为什么做、怎么落地。
+盲分析的定义和常见方法，见[物理科学领域概况](../07_fields/physical-sciences/README.md#盲分析先定方法再看答案)。这里讲为什么做、怎么落地。
 
 **为什么**：**实验者偏差**和其他偏差的关键区别是，它的大小没法估计，只能靠方法去预防[^klein2005blind-e1]。Klein 和 Roodman 认为，在核物理和粒子物理里，最常见的一种大概是**停止偏差**：结果接近预想值时，就停止查错、拿去发表[^klein2005blind-e2]。例如 1930—1940 年的一系列光速测量和后来的测定相差 17 千米/秒，他们引用的一份分析推测：研究者一直找误差，直到结果接近公认值才停下[^klein2005blind-e3]。他们查看历史测量，发现测量值倾向于靠近当时已发表的平均值，而不是后来的最终值，但也说这不一定说明有偏差[^klein2005blind-e4]。
 
@@ -123,13 +123,13 @@
 - **错了划掉，不要擦掉。** 纸质记录本写错了，划一条细线，在旁边写正确信息[^schnell2015ten-e4]。（Schnell 2015 是写给做计算的生物学者的，这里借用其中通用的记录原则 `[本项目分析]`。）
 - **记录运行条件。** 粒子物理实验会持续记录温度、气压、湿度等环境变量[^junk2021reproducibility-e42]。发现异常，要给受影响的数据做标记，以免它们让结果产生偏差[^junk2021reproducibility-e43]。
 - **记下采集顺序。** AIAA 期刊要求论文写出实验条件和数据采集的先后顺序[^aiaaeditorialpolicy-e6]，没有当时的记录就写不出来 `[本项目分析]`。
-- **保存每张图的原始数据**[^schnell2015ten-e7]。整理数据和代码的通用做法见贯穿全程的[整理科研材料](../../../08_throughout/organizing_materials.md)。
+- **保存每张图的原始数据**[^schnell2015ten-e7]。整理数据和代码的通用做法见贯穿全程的[整理科研材料](../08_throughout/organizing_materials.md)。
 
 **为什么**：记错数、算错数这类过失，不在不确定度的涵盖范围内[^jcgm2008gum-e5]，只能靠记录和检查去发现 `[本项目分析]`。
 
 ### 第九步：报告结果
 
-GUM 和 AIAA 对报告的要求（列出全部分量和评定方法、写明 k、写出没计入的来源等），[机械工程领域概况](../../mechanical-engineering/README.md#测量结果要带上不确定度)已经列过，"准确度"不配数字等用词问题也在那里。这里补充三点：
+GUM 和 AIAA 对报告的要求（列出全部分量和评定方法、写明 k、写出没计入的来源等），[机械工程领域概况](../07_fields/mechanical-engineering/README.md#测量结果要带上不确定度)已经列过，"准确度"不配数字等用词问题也在那里。这里补充三点：
 
 - **统计和系统分开写，系统部分按来源列出**[^junk2021reproducibility-e39]。这样读者能判断多取数据还有没有用，还是结果已经"受系统误差限制"[^junk2021reproducibility-e38]。
 - **有效数字**：GUM 说不确定度一般最多给两位有效数字就够了[^jcgm2008gum-e26]。粒子数据组（Particle Data Group）编《粒子物理评论》时的规则更具体：误差的前三位数字在 100—354 之间留两位，在 355—949 之间留一位[^pdg2024intro-e3]；中心值保留到和误差相同的位数，例如 0.827 ± 0.119 写成 0.83 ± 0.12[^pdg2024intro-e4]。
@@ -197,97 +197,97 @@ GUM 和 AIAA 对报告的要求（列出全部分量和评定方法、写明 k�
 - **Junk & Lyons 2021**：粒子物理怎样处理系统不确定度、控制样本、校准和重复实验。
 - **粒子数据组《粒子物理评论》Introduction 第 5 节**：粒子数据组怎样平均多个测量、处理不一致的数据、修约。
 
-[^jcgm2008gum-e11]: JCGM 100:2008（GUM），3.1.1。[证据](../../../../sources/notes/jcgm2008gum.md#e11)
-[^jcgm2008gum-e12]: JCGM 100:2008（GUM），3.1.3。[证据](../../../../sources/notes/jcgm2008gum.md#e12)
-[^jcgm2008gum-e13]: JCGM 100:2008（GUM），D.1.1。[证据](../../../../sources/notes/jcgm2008gum.md#e13)
-[^jcgm2008gum-e14]: JCGM 100:2008（GUM），3.4.2。[证据](../../../../sources/notes/jcgm2008gum.md#e14)
-[^jcgm2008gum-e15]: JCGM 100:2008（GUM），3.4.2。[证据](../../../../sources/notes/jcgm2008gum.md#e15)
-[^jcgm2008gum-e16]: JCGM 100:2008（GUM），3.4.2。[证据](../../../../sources/notes/jcgm2008gum.md#e16)
-[^jcgm2008gum-e17]: JCGM 100:2008（GUM），3.4.3。[证据](../../../../sources/notes/jcgm2008gum.md#e17)
-[^jcgm2008gum-e18]: JCGM 100:2008（GUM），3.2.3。[证据](../../../../sources/notes/jcgm2008gum.md#e18)
-[^jcgm2008gum-e10]: JCGM 100:2008（GUM），3.2.4。[证据](../../../../sources/notes/jcgm2008gum.md#e10)
-[^jcgm2008gum-e19]: JCGM 100:2008（GUM），3.2.4 注 1。[证据](../../../../sources/notes/jcgm2008gum.md#e19)
-[^jcgm2008gum-e3]: JCGM 100:2008（GUM），2.3.2、2.3.3。[证据](../../../../sources/notes/jcgm2008gum.md#e3)
-[^jcgm2008gum-e21]: JCGM 100:2008（GUM），4.2.7。[证据](../../../../sources/notes/jcgm2008gum.md#e21)
-[^jcgm2008gum-e22]: JCGM 100:2008（GUM），4.3.7。[证据](../../../../sources/notes/jcgm2008gum.md#e22)
-[^jcgm2008gum-e23]: JCGM 100:2008（GUM），5.1.2。[证据](../../../../sources/notes/jcgm2008gum.md#e23)
-[^jcgm2008gum-e24]: JCGM 100:2008（GUM），5.2.1。[证据](../../../../sources/notes/jcgm2008gum.md#e24)
-[^jcgm2008gum-e25]: JCGM 100:2008（GUM），3.3.7。[证据](../../../../sources/notes/jcgm2008gum.md#e25)
-[^jcgm2008gum-e9]: JCGM 100:2008（GUM），7.2.3。[证据](../../../../sources/notes/jcgm2008gum.md#e9)
-[^jcgm2008gum-e8]: JCGM 100:2008（GUM），7.1.4。[证据](../../../../sources/notes/jcgm2008gum.md#e8)
-[^jcgm2008gum-e26]: JCGM 100:2008（GUM），7.2.6。[证据](../../../../sources/notes/jcgm2008gum.md#e26)
-[^jcgm2008gum-e5]: JCGM 100:2008（GUM），3.4.7。[证据](../../../../sources/notes/jcgm2008gum.md#e5)
-[^jcgm2008gum-e27]: JCGM 100:2008（GUM），3.4.8。[证据](../../../../sources/notes/jcgm2008gum.md#e27)
-[^jcgm2008gum-e28]: JCGM 100:2008（GUM），0.1。[证据](../../../../sources/notes/jcgm2008gum.md#e28)
-[^nist2012ehandbook-e1]: NIST/SEMATECH e-Handbook，2.3.1。[证据](../../../../sources/notes/nist2012ehandbook.md#e1)
-[^nist2012ehandbook-e2]: NIST/SEMATECH e-Handbook，2.1.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e2)
-[^nist2012ehandbook-e3]: NIST/SEMATECH e-Handbook，2.1.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e3)
-[^nist2012ehandbook-e4]: NIST/SEMATECH e-Handbook，2.2.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e4)
-[^nist2012ehandbook-e5]: NIST/SEMATECH e-Handbook，2.5.1。[证据](../../../../sources/notes/nist2012ehandbook.md#e5)
-[^nist2012ehandbook-e6]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e6)
-[^nist2012ehandbook-e7]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e7)
-[^nist2012ehandbook-e8]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e8)
-[^nist2012ehandbook-e9]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e9)
-[^nist2012ehandbook-e10]: NIST/SEMATECH e-Handbook，2.5.4。[证据](../../../../sources/notes/nist2012ehandbook.md#e10)
-[^nist2012ehandbook-e11]: NIST/SEMATECH e-Handbook，2.5.4。[证据](../../../../sources/notes/nist2012ehandbook.md#e11)
-[^nist2012ehandbook-e12]: NIST/SEMATECH e-Handbook，2.5.4.1。[证据](../../../../sources/notes/nist2012ehandbook.md#e12)
-[^nist2012ehandbook-e13]: NIST/SEMATECH e-Handbook，2.5.4.1。[证据](../../../../sources/notes/nist2012ehandbook.md#e13)
-[^nist2012ehandbook-e14]: NIST/SEMATECH e-Handbook，2.5.6。[证据](../../../../sources/notes/nist2012ehandbook.md#e14)
-[^nist2012ehandbook-e15]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../../../sources/notes/nist2012ehandbook.md#e15)
-[^nist2012ehandbook-e16]: NIST/SEMATECH e-Handbook，2.5.7.1。[证据](../../../../sources/notes/nist2012ehandbook.md#e16)
-[^nist2012ehandbook-e17]: NIST/SEMATECH e-Handbook，2.1.1。[证据](../../../../sources/notes/nist2012ehandbook.md#e17)
-[^taylor1994nist-e1]: Taylor & Kuyatt 1994（NIST TN 1297），6.5。[证据](../../../../sources/notes/taylor1994nist.md#e1)
-[^junk2021reproducibility-e34]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e34)
-[^junk2021reproducibility-e35]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e35)
-[^junk2021reproducibility-e36]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e36)
-[^junk2021reproducibility-e37]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e37)
-[^junk2021reproducibility-e38]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e38)
-[^junk2021reproducibility-e39]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e39)
-[^junk2021reproducibility-e40]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e40)
-[^junk2021reproducibility-e41]: Junk & Lyons 2021，§3.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e41)
-[^junk2021reproducibility-e42]: Junk & Lyons 2021，§6.1。[证据](../../../../sources/notes/junk2021reproducibility.md#e42)
-[^junk2021reproducibility-e43]: Junk & Lyons 2021，§6.1。[证据](../../../../sources/notes/junk2021reproducibility.md#e43)
-[^junk2021reproducibility-e44]: Junk & Lyons 2021，§6.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e44)
-[^junk2021reproducibility-e45]: Junk & Lyons 2021，§6.3。[证据](../../../../sources/notes/junk2021reproducibility.md#e45)
-[^junk2021reproducibility-e46]: Junk & Lyons 2021，§6.4。[证据](../../../../sources/notes/junk2021reproducibility.md#e46)
-[^junk2021reproducibility-e47]: Junk & Lyons 2021，§6.4。[证据](../../../../sources/notes/junk2021reproducibility.md#e47)
-[^junk2021reproducibility-e48]: Junk & Lyons 2021，§6.5。[证据](../../../../sources/notes/junk2021reproducibility.md#e48)
-[^junk2021reproducibility-e10]: Junk & Lyons 2021，§6.6。[证据](../../../../sources/notes/junk2021reproducibility.md#e10)
-[^junk2021reproducibility-e49]: Junk & Lyons 2021，§6.6。[证据](../../../../sources/notes/junk2021reproducibility.md#e49)
-[^junk2021reproducibility-e50]: Junk & Lyons 2021，§6.6。[证据](../../../../sources/notes/junk2021reproducibility.md#e50)
-[^junk2021reproducibility-e51]: Junk & Lyons 2021，§6.9。[证据](../../../../sources/notes/junk2021reproducibility.md#e51)
-[^junk2021reproducibility-e52]: Junk & Lyons 2021，§5。[证据](../../../../sources/notes/junk2021reproducibility.md#e52)
-[^junk2021reproducibility-e53]: Junk & Lyons 2021，§5。[证据](../../../../sources/notes/junk2021reproducibility.md#e53)
-[^junk2021reproducibility-e54]: Junk & Lyons 2021，§5。[证据](../../../../sources/notes/junk2021reproducibility.md#e54)
-[^klein2005blind-e1]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e1)
-[^klein2005blind-e2]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e2)
-[^klein2005blind-e3]: Klein & Roodman 2005，§1。[证据](../../../../sources/notes/klein2005blind.md#e3)
-[^klein2005blind-e4]: Klein & Roodman 2005，§1。[证据](../../../../sources/notes/klein2005blind.md#e4)
-[^klein2005blind-e5]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e5)
-[^klein2005blind-e6]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e6)
-[^klein2005blind-e7]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e7)
-[^klein2005blind-e8]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e8)
-[^klein2005blind-e9]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e9)
-[^klein2005blind-e10]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e10)
-[^klein2005blind-e11]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e11)
-[^klein2005blind-e12]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e12)
-[^klein2005blind-e13]: Klein & Roodman 2005，§2。[证据](../../../../sources/notes/klein2005blind.md#e13)
-[^klein2005blind-e14]: Klein & Roodman 2005，§3.2。[证据](../../../../sources/notes/klein2005blind.md#e14)
-[^klein2005blind-e15]: Klein & Roodman 2005，§3.2.1。[证据](../../../../sources/notes/klein2005blind.md#e15)
-[^klein2005blind-e17]: Klein & Roodman 2005，§3.4。[证据](../../../../sources/notes/klein2005blind.md#e17)
-[^klein2005blind-e18]: Klein & Roodman 2005，§1。[证据](../../../../sources/notes/klein2005blind.md#e18)
-[^roodman2003blind-e4]: Roodman 2003，§2。[证据](../../../../sources/notes/roodman2003blind.md#e4)
-[^roodman2003blind-e5]: Roodman 2003，§1。[证据](../../../../sources/notes/roodman2003blind.md#e5)
-[^golub2023blind-e1]: Golub 2023（未经同行评审），§2。[证据](../../../../sources/notes/golub2023blind.md#e1)
-[^aiaaeditorialpolicy-e6]: AIAA Editorial Policy Statement，Statement of Experimental Design。[证据](../../../../sources/notes/aiaaeditorialpolicy.md#e6)
-[^aiaaeditorialpolicy-e9]: AIAA Editorial Policy Statement，Estimation of Precision Uncertainty。[证据](../../../../sources/notes/aiaaeditorialpolicy.md#e9)
-[^aiaaeditorialpolicy-e5]: AIAA Editorial Policy Statement，Statement of Total Uncertainty。[证据](../../../../sources/notes/aiaaeditorialpolicy.md#e5)
-[^schnell2015ten-e3]: Schnell 2015，Rule 4。[证据](../../../../sources/notes/schnell2015ten.md#e3)
-[^schnell2015ten-e4]: Schnell 2015，Rule 5。[证据](../../../../sources/notes/schnell2015ten.md#e4)
-[^schnell2015ten-e9]: Schnell 2015，Rule 3。[证据](../../../../sources/notes/schnell2015ten.md#e9)
-[^schnell2015ten-e7]: Schnell 2015，Rule 6。[证据](../../../../sources/notes/schnell2015ten.md#e7)
-[^pdg2024intro-e1]: Particle Data Group 2024，Introduction §5.2.2。[证据](../../../../sources/notes/pdg2024intro.md#e1)
-[^pdg2024intro-e2]: Particle Data Group 2024，Introduction §5.2.2。[证据](../../../../sources/notes/pdg2024intro.md#e2)
-[^pdg2024intro-e3]: Particle Data Group 2024，Introduction §5.3。[证据](../../../../sources/notes/pdg2024intro.md#e3)
-[^pdg2024intro-e4]: Particle Data Group 2024，Introduction §5.3。[证据](../../../../sources/notes/pdg2024intro.md#e4)
-[^pdg2024intro-e5]: Particle Data Group 2024，Introduction §5.4。[证据](../../../../sources/notes/pdg2024intro.md#e5)
+[^jcgm2008gum-e11]: JCGM 100:2008（GUM），3.1.1。[证据](../../sources/notes/jcgm2008gum.md#e11)
+[^jcgm2008gum-e12]: JCGM 100:2008（GUM），3.1.3。[证据](../../sources/notes/jcgm2008gum.md#e12)
+[^jcgm2008gum-e13]: JCGM 100:2008（GUM），D.1.1。[证据](../../sources/notes/jcgm2008gum.md#e13)
+[^jcgm2008gum-e14]: JCGM 100:2008（GUM），3.4.2。[证据](../../sources/notes/jcgm2008gum.md#e14)
+[^jcgm2008gum-e15]: JCGM 100:2008（GUM），3.4.2。[证据](../../sources/notes/jcgm2008gum.md#e15)
+[^jcgm2008gum-e16]: JCGM 100:2008（GUM），3.4.2。[证据](../../sources/notes/jcgm2008gum.md#e16)
+[^jcgm2008gum-e17]: JCGM 100:2008（GUM），3.4.3。[证据](../../sources/notes/jcgm2008gum.md#e17)
+[^jcgm2008gum-e18]: JCGM 100:2008（GUM），3.2.3。[证据](../../sources/notes/jcgm2008gum.md#e18)
+[^jcgm2008gum-e10]: JCGM 100:2008（GUM），3.2.4。[证据](../../sources/notes/jcgm2008gum.md#e10)
+[^jcgm2008gum-e19]: JCGM 100:2008（GUM），3.2.4 注 1。[证据](../../sources/notes/jcgm2008gum.md#e19)
+[^jcgm2008gum-e3]: JCGM 100:2008（GUM），2.3.2、2.3.3。[证据](../../sources/notes/jcgm2008gum.md#e3)
+[^jcgm2008gum-e21]: JCGM 100:2008（GUM），4.2.7。[证据](../../sources/notes/jcgm2008gum.md#e21)
+[^jcgm2008gum-e22]: JCGM 100:2008（GUM），4.3.7。[证据](../../sources/notes/jcgm2008gum.md#e22)
+[^jcgm2008gum-e23]: JCGM 100:2008（GUM），5.1.2。[证据](../../sources/notes/jcgm2008gum.md#e23)
+[^jcgm2008gum-e24]: JCGM 100:2008（GUM），5.2.1。[证据](../../sources/notes/jcgm2008gum.md#e24)
+[^jcgm2008gum-e25]: JCGM 100:2008（GUM），3.3.7。[证据](../../sources/notes/jcgm2008gum.md#e25)
+[^jcgm2008gum-e9]: JCGM 100:2008（GUM），7.2.3。[证据](../../sources/notes/jcgm2008gum.md#e9)
+[^jcgm2008gum-e8]: JCGM 100:2008（GUM），7.1.4。[证据](../../sources/notes/jcgm2008gum.md#e8)
+[^jcgm2008gum-e26]: JCGM 100:2008（GUM），7.2.6。[证据](../../sources/notes/jcgm2008gum.md#e26)
+[^jcgm2008gum-e5]: JCGM 100:2008（GUM），3.4.7。[证据](../../sources/notes/jcgm2008gum.md#e5)
+[^jcgm2008gum-e27]: JCGM 100:2008（GUM），3.4.8。[证据](../../sources/notes/jcgm2008gum.md#e27)
+[^jcgm2008gum-e28]: JCGM 100:2008（GUM），0.1。[证据](../../sources/notes/jcgm2008gum.md#e28)
+[^nist2012ehandbook-e1]: NIST/SEMATECH e-Handbook，2.3.1。[证据](../../sources/notes/nist2012ehandbook.md#e1)
+[^nist2012ehandbook-e2]: NIST/SEMATECH e-Handbook，2.1.2。[证据](../../sources/notes/nist2012ehandbook.md#e2)
+[^nist2012ehandbook-e3]: NIST/SEMATECH e-Handbook，2.1.2。[证据](../../sources/notes/nist2012ehandbook.md#e3)
+[^nist2012ehandbook-e4]: NIST/SEMATECH e-Handbook，2.2.2。[证据](../../sources/notes/nist2012ehandbook.md#e4)
+[^nist2012ehandbook-e5]: NIST/SEMATECH e-Handbook，2.5.1。[证据](../../sources/notes/nist2012ehandbook.md#e5)
+[^nist2012ehandbook-e6]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../sources/notes/nist2012ehandbook.md#e6)
+[^nist2012ehandbook-e7]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../sources/notes/nist2012ehandbook.md#e7)
+[^nist2012ehandbook-e8]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../sources/notes/nist2012ehandbook.md#e8)
+[^nist2012ehandbook-e9]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../sources/notes/nist2012ehandbook.md#e9)
+[^nist2012ehandbook-e10]: NIST/SEMATECH e-Handbook，2.5.4。[证据](../../sources/notes/nist2012ehandbook.md#e10)
+[^nist2012ehandbook-e11]: NIST/SEMATECH e-Handbook，2.5.4。[证据](../../sources/notes/nist2012ehandbook.md#e11)
+[^nist2012ehandbook-e12]: NIST/SEMATECH e-Handbook，2.5.4.1。[证据](../../sources/notes/nist2012ehandbook.md#e12)
+[^nist2012ehandbook-e13]: NIST/SEMATECH e-Handbook，2.5.4.1。[证据](../../sources/notes/nist2012ehandbook.md#e13)
+[^nist2012ehandbook-e14]: NIST/SEMATECH e-Handbook，2.5.6。[证据](../../sources/notes/nist2012ehandbook.md#e14)
+[^nist2012ehandbook-e15]: NIST/SEMATECH e-Handbook，2.5.2。[证据](../../sources/notes/nist2012ehandbook.md#e15)
+[^nist2012ehandbook-e16]: NIST/SEMATECH e-Handbook，2.5.7.1。[证据](../../sources/notes/nist2012ehandbook.md#e16)
+[^nist2012ehandbook-e17]: NIST/SEMATECH e-Handbook，2.1.1。[证据](../../sources/notes/nist2012ehandbook.md#e17)
+[^taylor1994nist-e1]: Taylor & Kuyatt 1994（NIST TN 1297），6.5。[证据](../../sources/notes/taylor1994nist.md#e1)
+[^junk2021reproducibility-e34]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e34)
+[^junk2021reproducibility-e35]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e35)
+[^junk2021reproducibility-e36]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e36)
+[^junk2021reproducibility-e37]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e37)
+[^junk2021reproducibility-e38]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e38)
+[^junk2021reproducibility-e39]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e39)
+[^junk2021reproducibility-e40]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e40)
+[^junk2021reproducibility-e41]: Junk & Lyons 2021，§3.3。[证据](../../sources/notes/junk2021reproducibility.md#e41)
+[^junk2021reproducibility-e42]: Junk & Lyons 2021，§6.1。[证据](../../sources/notes/junk2021reproducibility.md#e42)
+[^junk2021reproducibility-e43]: Junk & Lyons 2021，§6.1。[证据](../../sources/notes/junk2021reproducibility.md#e43)
+[^junk2021reproducibility-e44]: Junk & Lyons 2021，§6.3。[证据](../../sources/notes/junk2021reproducibility.md#e44)
+[^junk2021reproducibility-e45]: Junk & Lyons 2021，§6.3。[证据](../../sources/notes/junk2021reproducibility.md#e45)
+[^junk2021reproducibility-e46]: Junk & Lyons 2021，§6.4。[证据](../../sources/notes/junk2021reproducibility.md#e46)
+[^junk2021reproducibility-e47]: Junk & Lyons 2021，§6.4。[证据](../../sources/notes/junk2021reproducibility.md#e47)
+[^junk2021reproducibility-e48]: Junk & Lyons 2021，§6.5。[证据](../../sources/notes/junk2021reproducibility.md#e48)
+[^junk2021reproducibility-e10]: Junk & Lyons 2021，§6.6。[证据](../../sources/notes/junk2021reproducibility.md#e10)
+[^junk2021reproducibility-e49]: Junk & Lyons 2021，§6.6。[证据](../../sources/notes/junk2021reproducibility.md#e49)
+[^junk2021reproducibility-e50]: Junk & Lyons 2021，§6.6。[证据](../../sources/notes/junk2021reproducibility.md#e50)
+[^junk2021reproducibility-e51]: Junk & Lyons 2021，§6.9。[证据](../../sources/notes/junk2021reproducibility.md#e51)
+[^junk2021reproducibility-e52]: Junk & Lyons 2021，§5。[证据](../../sources/notes/junk2021reproducibility.md#e52)
+[^junk2021reproducibility-e53]: Junk & Lyons 2021，§5。[证据](../../sources/notes/junk2021reproducibility.md#e53)
+[^junk2021reproducibility-e54]: Junk & Lyons 2021，§5。[证据](../../sources/notes/junk2021reproducibility.md#e54)
+[^klein2005blind-e1]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e1)
+[^klein2005blind-e2]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e2)
+[^klein2005blind-e3]: Klein & Roodman 2005，§1。[证据](../../sources/notes/klein2005blind.md#e3)
+[^klein2005blind-e4]: Klein & Roodman 2005，§1。[证据](../../sources/notes/klein2005blind.md#e4)
+[^klein2005blind-e5]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e5)
+[^klein2005blind-e6]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e6)
+[^klein2005blind-e7]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e7)
+[^klein2005blind-e8]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e8)
+[^klein2005blind-e9]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e9)
+[^klein2005blind-e10]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e10)
+[^klein2005blind-e11]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e11)
+[^klein2005blind-e12]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e12)
+[^klein2005blind-e13]: Klein & Roodman 2005，§2。[证据](../../sources/notes/klein2005blind.md#e13)
+[^klein2005blind-e14]: Klein & Roodman 2005，§3.2。[证据](../../sources/notes/klein2005blind.md#e14)
+[^klein2005blind-e15]: Klein & Roodman 2005，§3.2.1。[证据](../../sources/notes/klein2005blind.md#e15)
+[^klein2005blind-e17]: Klein & Roodman 2005，§3.4。[证据](../../sources/notes/klein2005blind.md#e17)
+[^klein2005blind-e18]: Klein & Roodman 2005，§1。[证据](../../sources/notes/klein2005blind.md#e18)
+[^roodman2003blind-e4]: Roodman 2003，§2。[证据](../../sources/notes/roodman2003blind.md#e4)
+[^roodman2003blind-e5]: Roodman 2003，§1。[证据](../../sources/notes/roodman2003blind.md#e5)
+[^golub2023blind-e1]: Golub 2023（未经同行评审），§2。[证据](../../sources/notes/golub2023blind.md#e1)
+[^aiaaeditorialpolicy-e6]: AIAA Editorial Policy Statement，Statement of Experimental Design。[证据](../../sources/notes/aiaaeditorialpolicy.md#e6)
+[^aiaaeditorialpolicy-e9]: AIAA Editorial Policy Statement，Estimation of Precision Uncertainty。[证据](../../sources/notes/aiaaeditorialpolicy.md#e9)
+[^aiaaeditorialpolicy-e5]: AIAA Editorial Policy Statement，Statement of Total Uncertainty。[证据](../../sources/notes/aiaaeditorialpolicy.md#e5)
+[^schnell2015ten-e3]: Schnell 2015，Rule 4。[证据](../../sources/notes/schnell2015ten.md#e3)
+[^schnell2015ten-e4]: Schnell 2015，Rule 5。[证据](../../sources/notes/schnell2015ten.md#e4)
+[^schnell2015ten-e9]: Schnell 2015，Rule 3。[证据](../../sources/notes/schnell2015ten.md#e9)
+[^schnell2015ten-e7]: Schnell 2015，Rule 6。[证据](../../sources/notes/schnell2015ten.md#e7)
+[^pdg2024intro-e1]: Particle Data Group 2024，Introduction §5.2.2。[证据](../../sources/notes/pdg2024intro.md#e1)
+[^pdg2024intro-e2]: Particle Data Group 2024，Introduction §5.2.2。[证据](../../sources/notes/pdg2024intro.md#e2)
+[^pdg2024intro-e3]: Particle Data Group 2024，Introduction §5.3。[证据](../../sources/notes/pdg2024intro.md#e3)
+[^pdg2024intro-e4]: Particle Data Group 2024，Introduction §5.3。[证据](../../sources/notes/pdg2024intro.md#e4)
+[^pdg2024intro-e5]: Particle Data Group 2024，Introduction §5.4。[证据](../../sources/notes/pdg2024intro.md#e5)

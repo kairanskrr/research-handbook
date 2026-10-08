@@ -22,7 +22,7 @@
 
 **设计和建筑呢？** 欧洲音乐院校协会（AEC）等欧洲组织 2020 年联合发表的政策文件《维也纳宣言》，把建筑和设计也列为做艺术研究的门类[^aec2020vienna-e8]。英国 REF 2021 的另一个主评审组（Main Panel C）要求，建筑物、设计或干预这类成果要附一份含照片、图表的说明，让评审不去现场也能判断研究贡献[^ref2019panel-e13]。也就是说，至少在这两份文件里，设计和建筑成果可以当作研究成果来看 `[本项目分析]`。但 Candy 和 Edmonds 认为，设计研究的重点是理解设计实践本身、怎样改进它，而不是创作并反思新作品[^candy2018practice-e25]；Candy 2006 还说，设计研究常由专门的研究者而不是设计师本人来做[^candy2006practice-e34]。本文的做法能不能直接用在你的设计或建筑项目上，请和导师确认 `[本项目分析]`。
 
-**和相近类型的区别**（没有脚注的格子为本项目归纳 `[本项目分析]`；教育学里边设计、边研究的类型，见[基于设计的研究](../../education/research-types/design_based_research.md)）：
+**和相近类型的区别**（没有脚注的格子为本项目归纳 `[本项目分析]`；教育学里边设计、边研究的类型，见[基于设计的研究](../../education/practices/design_based_research.md)）：
 
 | | 基于实践的研究 | 实践引导的研究 | [行动研究](../../../06_methods/action_research.md)（研究方法） |
 |---|---|---|---|
@@ -194,7 +194,7 @@
 - **Bulley & Şahin 2021，PRAG-UK 报告**：第二份报告第 2.1 节讲成果结构和记录，适合写论文和准备记录时对照。
 - **QAA 2020，Characteristics Statement: Doctoral Degree**：英国博士考核的总体说明，可以了解作品型博士在英国怎样考核。
 - **JAR 投稿要求和审稿表**：想在这家期刊发表、或想知道"评审会问什么"时读。审稿表第 3 节可以当一份自查清单。
-- 本学科背景（名称、REF、版权、社区伦理）见[艺术领域概况](../README.md)；和组织合作推动改变的研究见研究方法里的[行动研究](../../../06_methods/action_research.md)；教育中的设计型研究见[基于设计的研究](../../education/research-types/design_based_research.md)。
+- 本学科背景（名称、REF、版权、社区伦理）见[艺术领域概况](../README.md)；和组织合作推动改变的研究见研究方法里的[行动研究](../../../06_methods/action_research.md)；教育中的设计型研究见[基于设计的研究](../../education/practices/design_based_research.md)。
 
 [^candy2006practice-e1]: Candy 2006，Summary，第 1 页。[证据](../../../../sources/notes/candy2006practice.md#e1)
 [^candy2006practice-e3]: Candy 2006，Practice Led Research，第 3 页。[证据](../../../../sources/notes/candy2006practice.md#e3)

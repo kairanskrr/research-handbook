@@ -123,9 +123,9 @@ ICMJE 规定，作者要**同时**满足四条[^icmje2026recommendations-e2]：
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[随机对照试验](research-types/randomized_controlled_trial.md)。
+**本领域的研究类型文档**：[随机对照试验](../../06_methods/randomized_controlled_trial.md)。
 
-**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../health-sciences/research-types/meta_analysis.md)、[观察性流行病学研究](../health-sciences/research-types/observational_epidemiology.md)。
+**相关学科的研究类型文档**：[系统综述与元分析（健康领域）](../../06_methods/meta_analysis.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md)。
 
 | 类型 | 一句话说明 |
 |---|---|

@@ -4,9 +4,9 @@
 
 本文讲**到现场去观测和采样**的研究：在河流、湖泊、地下水、土壤、岩石露头、大气或海洋里布点、测量、取样，再用这些数据回答问题。生态学的野外调查（样方、样线、物种调查）也可以参考本文 `[本项目分析]`。
 
-不在本文讲的：在野外**主动施加处理**的田间试验，见[农业领域概况](../../agriculture/README.md#田间试验的设计)；实验室测定的质量控制细节，见[环境工程领域概况](../../environmental-engineering/README.md#质量控制样品空白平行样加标)；只分析别人已经采好的数据，见研究方法里的[数据科学研究](../../../06_methods/data_science.md)；野外的安全、许可、伦理和骚扰问题，见本学科[领域概况](../README.md#野外工作先把安全和许可办好)。
+不在本文讲的：在野外**主动施加处理**的田间试验，见[农业领域概况](../07_fields/agriculture/README.md#田间试验的设计)；实验室测定的质量控制细节，见[环境工程领域概况](../07_fields/environmental-engineering/README.md#质量控制样品空白平行样加标)；只分析别人已经采好的数据，见研究方法里的[数据科学研究](data_science.md)；野外的安全、许可、伦理和骚扰问题，见本学科[领域概况](../07_fields/earth-environmental-sciences/README.md#野外工作先把安全和许可办好)。
 
-**先说清本文资料的来历。** 操作细节大多来自两家美国政府机构：美国地质调查局（United States Geological Survey，USGS）的《水质数据采集国家野外手册》，是 USGS 给**本局**水质野外人员定的规程[^usgs2018nfmprep-e2]；美国环境保护署（Environmental Protection Agency，EPA）的计划指南，是 EPA 为**它资助的项目**写的，适用范围见[环境工程领域概况](../../environmental-engineering/README.md#把计划写下来epa-的质量保证项目计划)。`[本项目分析]` 它们不是全学科的统一规定，对你没有约束力，但写得具体，适合当清单参考。你要遵守的，是你所在国家、单位、资助方和目标期刊的规定。
+**先说清本文资料的来历。** 操作细节大多来自两家美国政府机构：美国地质调查局（United States Geological Survey，USGS）的《水质数据采集国家野外手册》，是 USGS 给**本局**水质野外人员定的规程[^usgs2018nfmprep-e2]；美国环境保护署（Environmental Protection Agency，EPA）的计划指南，是 EPA 为**它资助的项目**写的，适用范围见[环境工程领域概况](../07_fields/environmental-engineering/README.md#把计划写下来epa-的质量保证项目计划)。`[本项目分析]` 它们不是全学科的统一规定，对你没有约束力，但写得具体，适合当清单参考。你要遵守的，是你所在国家、单位、资助方和目标期刊的规定。
 
 **读完本文，你应该能：**
 
@@ -24,7 +24,7 @@
 | 你做什么 | 到现场测量、采样，不改变研究对象 | 在现场施加处理（施肥、烧荒、围栏），比较效果 | 用站网、卫星、数据库里现成的数据 |
 | 数据从哪来 | 自己采 | 自己采 | 别人采 |
 | 最大的难点 | 采样设计、现场质量、错过了补不回来 | 真正的重复和随机化 | 弄清数据怎么来的、质量如何 |
-| 对应篇目 | 本文 | [农业领域概况](../../agriculture/README.md#田间试验的设计) | [数据科学研究](../../../06_methods/data_science.md) |
+| 对应篇目 | 本文 | [农业领域概况](../07_fields/agriculture/README.md#田间试验的设计) | [数据科学研究](data_science.md) |
 
 `[本项目分析]` 怎么选：想知道"某地某物现在是什么状态、怎样随时间和空间变化"，做野外观测；想知道"某个处理会不会造成某个变化"，而且你能控制处理，做操纵试验。只有观测数据时，能下的因果结论更弱，见下文第十一步。很多项目是混合的：先用野外观测摸清现状，再设计试验或模拟。
 
@@ -32,11 +32,11 @@
 
 ### 第一步：把问题变成在野外能回答的问题
 
-**怎么做**：先写清四件事：数据拿来做什么（估计平均值？比较两片区域？看趋势？）；目标总体是什么，也就是你想下结论的范围；采样单元是什么；误差能容忍多大。研究对象是空气、水、土壤这类连续介质时，EPA 指南要求把采样单元定义成一定的面积、体积或质量[^epa2006dqo-e6]。EPA 用七步的"数据质量目标流程"做这件事，各步内容见[环境工程领域概况](../../environmental-engineering/README.md#采样前先做计划epa-的数据质量目标流程)。
+**怎么做**：先写清四件事：数据拿来做什么（估计平均值？比较两片区域？看趋势？）；目标总体是什么，也就是你想下结论的范围；采样单元是什么；误差能容忍多大。研究对象是空气、水、土壤这类连续介质时，EPA 指南要求把采样单元定义成一定的面积、体积或质量[^epa2006dqo-e6]。EPA 用七步的"数据质量目标流程"做这件事，各步内容见[环境工程领域概况](../07_fields/environmental-engineering/README.md#采样前先做计划epa-的数据质量目标流程)。
 
 **为什么**：EPA 的指南说，采样前不做计划，收来的数据满足不了需要的可能性高得不可接受[^epa2006dqo-e1]。野外数据错过了时机就补不回来 `[本项目分析]`。
 
-**容易错在哪里**：只写"调查某湖的水质"，没说是要估计全湖平均，还是比较入湖口和出湖口。两种目的的布点完全不同 `[本项目分析]`。研究问题怎么写具体，见主线章节[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md)。
+**容易错在哪里**：只写"调查某湖的水质"，没说是要估计全湖平均，还是比较入湖口和出湖口。两种目的的布点完全不同 `[本项目分析]`。研究问题怎么写具体，见主线章节[从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md)。
 
 ### 第二步：设计采样：在哪、什么时候、采多少
 
@@ -53,13 +53,13 @@
 
 **时间上也要重复。** EPA 指南说，一般来说采样误差远大于测量误差[^epa2006dqo-e7]；预计空间或时间上的变化很大时，可以用便宜、精度稍低的分析方法，把钱花在更多地点和时间上[^epa2006dqo-e9]。Casler（一篇写给农学研究者的试验设计综述）也建议优先增加地点数和年份数，而不是每个地点内的重复数[^casler2015fundamentals-e27]。
 
-**采多少。** Casler 建议每次设计前都做统计功效分析（估算要多少样本，才有足够把握发现你关心的差异），参数只能靠猜也要做[^casler2015fundamentals-e21]。具体做法见[农业领域概况](../../agriculture/README.md#地点年份和功效分析)。
+**采多少。** Casler 建议每次设计前都做统计功效分析（估算要多少样本，才有足够把握发现你关心的差异），参数只能靠猜也要做[^casler2015fundamentals-e21]。具体做法见[农业领域概况](../07_fields/agriculture/README.md#地点年份和功效分析)。
 
-**容易错在哪里：伪重复。** 伪重复指处理没有真正重复、或重复之间不独立，却仍用统计检验来检验处理效应[^davies2015pseudoreplication-e1]。Casler 的例子：只用两块地，一块烧荒、一块不烧，统计算得没错，但设计没法明确解释结果[^casler2015fundamentals-e5]。他强调重复要和施加处理的空间、时间尺度一致[^casler2015fundamentals-e4]。观测研究里同理：比较"上游一个点"和"下游一个点"，每个点采 30 瓶水，每边仍只有一个点 `[本项目分析]`。更多例子见[农业领域概况](../../agriculture/README.md#伪重复处理和地块混在一起)。
+**容易错在哪里：伪重复。** 伪重复指处理没有真正重复、或重复之间不独立，却仍用统计检验来检验处理效应[^davies2015pseudoreplication-e1]。Casler 的例子：只用两块地，一块烧荒、一块不烧，统计算得没错，但设计没法明确解释结果[^casler2015fundamentals-e5]。他强调重复要和施加处理的空间、时间尺度一致[^casler2015fundamentals-e4]。观测研究里同理：比较"上游一个点"和"下游一个点"，每个点采 30 瓶水，每边仍只有一个点 `[本项目分析]`。更多例子见[农业领域概况](../07_fields/agriculture/README.md#伪重复处理和地块混在一起)。
 
 ### 第三步：办齐许可
 
-**怎么做**：进入许可、采样许可，需要时还有样品进出口许可，逐项办；还要查地点是否受保护。这些清单和伦理问题见[领域概况](../README.md#野外工作先把安全和许可办好)，这里不重复。两点补充：
+**怎么做**：进入许可、采样许可，需要时还有样品进出口许可，逐项办；还要查地点是否受保护。这些清单和伦理问题见[领域概况](../07_fields/earth-environmental-sciences/README.md#野外工作先把安全和许可办好)，这里不重复。两点补充：
 
 - USGS 规定其人员进入公有或私有土地选点、采样前必须取得许可，最好书面，口头许可要记录下来[^usgs2018nfmprep-e2]。没有书面许可时，至少记下谁、何时、同意了什么 `[本项目分析]`。
 - 涉及动物（例如采鱼）时，美国渔业学会等三家学会的指南要求研究者取得全部所需许可[^afs2014fishes-e4]；在美国以外做研究，要遵守所在国的野生动物法规[^afs2014fishes-e5]。
@@ -74,7 +74,7 @@
 - 小组里任何时候至少有一名有经验、受过训练的人[^usgs2018nfmprep-e13]；每晚向单位报平安，约好没接到电话就有人启动救援[^usgs2018nfmprep-e15]。
 - 选点时确认在一般和极端的水流、天气下都能到达[^usgs2018nfmprep-e4]。任何河流，包括季节性小河，都可能迅速变得太深太急，无法安全涉水[^usgs2018nfmprep-e7]。
 
-**容易错在哪里**：把安全准备当成走形式。风险评估要经人审核、告诉所有同行者，急救和举报渠道等，见[领域概况](../README.md#野外工作先把安全和许可办好)。
+**容易错在哪里**：把安全准备当成走形式。风险评估要经人审核、告诉所有同行者，急救和举报渠道等，见[领域概况](../07_fields/earth-environmental-sciences/README.md#野外工作先把安全和许可办好)。
 
 ### 第五步：仪器和现场校准
 
@@ -97,7 +97,7 @@
 
 ### 第七步：样品编号
 
-**怎么做**：给每个样品唯一编号，全程追踪，避免弄混[^epa2002qapp-e6]；出发前就准备好瓶签，写上站点、样品类型等（USGS 的清单条目）[^usgs2018nfmprep-e18]。能注册国际通用样品编号（IGSN，实物样品的全球唯一永久编号）就注册，做法见[领域概况](../README.md#样品给每个样品一个永久编号)；贴二维码时，标签上还要印出人能读的编号[^igsnpublications-e3]。监管链（记录样品每一步由谁经手）见[环境工程领域概况](../../environmental-engineering/README.md#样品编号和监管链)。
+**怎么做**：给每个样品唯一编号，全程追踪，避免弄混[^epa2002qapp-e6]；出发前就准备好瓶签，写上站点、样品类型等（USGS 的清单条目）[^usgs2018nfmprep-e18]。能注册国际通用样品编号（IGSN，实物样品的全球唯一永久编号）就注册，做法见[领域概况](../07_fields/earth-environmental-sciences/README.md#样品给每个样品一个永久编号)；贴二维码时，标签上还要印出人能读的编号[^igsnpublications-e3]。监管链（记录样品每一步由谁经手）见[环境工程领域概况](../07_fields/environmental-engineering/README.md#样品编号和监管链)。
 
 **为什么**：USGS 手册说，分析结果的好坏不可能超过被分析的那个样品本身[^usgs2018nfmprep-e1]。
 
@@ -108,13 +108,13 @@
 - **现场空白**：不含目标物的干净样品，带到现场、暴露于采样条件，再按普通样品送检[^epa2002qapp-e14]。USGS 要求在正式采样前就采空白，之后定期采[^usgs2018nfmprep-e10]。
 - **现场平行样**：同一时间、同一地点采两份以上，并标明身份[^epa2002qapp-e16]。按 USGS 手册，它用来估计水体的自然变化，以及采样、处理和分析带来的变化[^usgs2018nfmprep-e11]。
 
-**为什么**：EPA 指南说，质量控制不是为了消除误差，而是测出误差有多大[^epa2002qapp-e9]。加标样、检出限和"测不到"的数据，见[环境工程领域概况](../../environmental-engineering/README.md#质量控制样品空白平行样加标)。
+**为什么**：EPA 指南说，质量控制不是为了消除误差，而是测出误差有多大[^epa2002qapp-e9]。加标样、检出限和"测不到"的数据，见[环境工程领域概况](../07_fields/environmental-engineering/README.md#质量控制样品空白平行样加标)。
 
 **容易错在哪里**：现场平行样是质量控制，不是重复。同一点的两瓶水不能当成两个独立的采样点 `[本项目分析]`。
 
 ### 第九步：数据管理和存档
 
-**怎么做**：USGS 手册要求数据管理在采样之前就开始计划[^usgs2018nfmprep-e8]。USGS 的项目工作计划包括：范围、时间表和预算，标准操作程序，质量保证计划，数据管理计划，分析和发表计划[^usgs2018nfmprep-e17]。投 AGU 期刊时，野外观测数据也在必须公开之列[^fox2021agudata-e16]；投稿时就要能拿到、"可向作者索取"不合格等要求，以及存储库怎么选，见[领域概况](../README.md#数据投稿时就要能拿到)。
+**怎么做**：USGS 手册要求数据管理在采样之前就开始计划[^usgs2018nfmprep-e8]。USGS 的项目工作计划包括：范围、时间表和预算，标准操作程序，质量保证计划，数据管理计划，分析和发表计划[^usgs2018nfmprep-e17]。投 AGU 期刊时，野外观测数据也在必须公开之列[^fox2021agudata-e16]；投稿时就要能拿到、"可向作者索取"不合格等要求，以及存储库怎么选，见[领域概况](../07_fields/earth-environmental-sciences/README.md#数据投稿时就要能拿到)。
 
 ### 第十步：对付不可重复的事件
 
@@ -130,7 +130,7 @@
 
 ### 第十一步：分析野外观测数据
 
-先读研究方法里的[数据科学研究](../../../06_methods/data_science.md#第八步解释结果相关不等于因果)：观测数据里相关不等于因果。野外数据还有三个特别的问题。
+先读研究方法里的[数据科学研究](data_science.md#第八步解释结果相关不等于因果)：观测数据里相关不等于因果。野外数据还有三个特别的问题。
 
 **1. 混杂。** 两片区域的差异，可能部分来自土壤、湿度、坡向、海拔等没控制的变量[^davies2015pseudoreplication-e9]。设计时让对比的点在这些方面尽量一致[^davies2015pseudoreplication-e11]，并把它们测下来 `[本项目分析]`。
 
@@ -197,80 +197,80 @@
 - **Zuur 等 2010**：分析生态数据前的数据探索步骤，独立性那一步最相关。**Dormann 等 2007**：空间自相关的检查和处理方法综述。
 - **Helsel 等 2020**：USGS 的水资源统计教材，免费。
 
-[^epa2006dqo-e1]: EPA 2006，Introduction，PDF 第 11 页。[证据](../../../../sources/notes/epa2006dqo.md#e1)
-[^epa2006dqo-e7]: EPA 2006，Chapter 6，PDF 第 57 页。[证据](../../../../sources/notes/epa2006dqo.md#e7)
-[^epa2006dqo-e12]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../../../sources/notes/epa2006dqo.md#e12)
-[^epa2006dqo-e13]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../../../sources/notes/epa2006dqo.md#e13)
-[^epa2006dqo-e14]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../../../sources/notes/epa2006dqo.md#e14)
-[^epa2006dqo-e15]: EPA 2006，Chapter 7，PDF 第 84 页。[证据](../../../../sources/notes/epa2006dqo.md#e15)
-[^epa2006dqo-e9]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../../../sources/notes/epa2006dqo.md#e9)
-[^epa2006dqo-e6]: EPA 2006，Chapter 4，PDF 第 41 页。[证据](../../../../sources/notes/epa2006dqo.md#e6)
-[^epa2002qapp-e9]: EPA 2002，Element B5，PDF 第 39 页。[证据](../../../../sources/notes/epa2002qapp.md#e9)
-[^epa2002qapp-e14]: EPA 2002，Appendix B，PDF 第 71 页。[证据](../../../../sources/notes/epa2002qapp.md#e14)
-[^epa2002qapp-e16]: EPA 2002，Appendix B，PDF 第 69 页。[证据](../../../../sources/notes/epa2002qapp.md#e16)
-[^epa2002qapp-e6]: EPA 2002，Element B3，PDF 第 36 页。[证据](../../../../sources/notes/epa2002qapp.md#e6)
-[^epa2002qapp-e13]: EPA 2002，Element B5，PDF 第 39 页。[证据](../../../../sources/notes/epa2002qapp.md#e13)
-[^usgs2018nfmprep-e1]: USGS 2018，§1.1，PDF 第 11 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e1)
-[^usgs2018nfmprep-e3]: USGS 2018，§2.2，PDF 第 14 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e3)
-[^usgs2018nfmprep-e2]: USGS 2018，§2.1，PDF 第 14 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e2)
-[^usgs2018nfmprep-e4]: USGS 2018，§2.2，PDF 第 14 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e4)
-[^usgs2018nfmprep-e5]: USGS 2018，§2.0，PDF 第 13 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e5)
-[^usgs2018nfmprep-e6]: USGS 2018，§2.2.1，PDF 第 15 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e6)
-[^usgs2018nfmprep-e7]: USGS 2018，§2.2.1，PDF 第 15 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e7)
-[^usgs2018nfmprep-e8]: USGS 2018，§3.0，PDF 第 18 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e8)
-[^usgs2018nfmprep-e9]: USGS 2018，§3.0，PDF 第 18 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e9)
-[^usgs2018nfmprep-e10]: USGS 2018，§4.2，PDF 第 25 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e10)
-[^usgs2018nfmprep-e11]: USGS 2018，§4.2，PDF 第 25 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e11)
-[^usgs2018nfmprep-e13]: USGS 2018，表 1-4，PDF 第 26 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e13)
-[^usgs2018nfmprep-e14]: USGS 2018，§5.1.1，PDF 第 28 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e14)
-[^usgs2018nfmprep-e15]: USGS 2018，表 1-5，PDF 第 28 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e15)
-[^usgs2018nfmprep-e16]: USGS 2018，§5.2，PDF 第 31 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e16)
-[^usgs2018nfmprep-e17]: USGS 2018，§4.0，PDF 第 24 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e17)
-[^usgs2018nfmprep-e18]: USGS 2018，表 1-4，PDF 第 27 页。[证据](../../../../sources/notes/usgs2018nfmprep.md#e18)
-[^usgs2023nfmfield-e1]: USGS 2023，§1.0，PDF 第 9 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e1)
-[^usgs2023nfmfield-e2]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e2)
-[^usgs2023nfmfield-e3]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e3)
-[^usgs2023nfmfield-e4]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e4)
-[^usgs2023nfmfield-e5]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e5)
-[^usgs2023nfmfield-e6]: USGS 2023，PDF 第 12 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e6)
-[^usgs2023nfmfield-e7]: USGS 2023，PDF 第 12 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e7)
-[^usgs2023nfmfield-e8]: USGS 2023，Performance，PDF 第 12 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e8)
-[^usgs2023nfmfield-e9]: USGS 2023，Performance，PDF 第 12 页。[证据](../../../../sources/notes/usgs2023nfmfield.md#e9)
-[^casler2015fundamentals-e4]: Casler 2015，Replication。[证据](../../../../sources/notes/casler2015fundamentals.md#e4)
-[^casler2015fundamentals-e5]: Casler 2015，Replication。[证据](../../../../sources/notes/casler2015fundamentals.md#e5)
-[^casler2015fundamentals-e27]: Casler 2015，Number of replicates。[证据](../../../../sources/notes/casler2015fundamentals.md#e27)
-[^casler2015fundamentals-e21]: Casler 2015，结论部分。[证据](../../../../sources/notes/casler2015fundamentals.md#e21)
-[^davies2015pseudoreplication-e1]: Davies & Gray 2015，Abstract。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e1)
-[^davies2015pseudoreplication-e7]: Davies & Gray 2015，Discussion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e7)
-[^davies2015pseudoreplication-e8]: Davies & Gray 2015，Discussion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e8)
-[^davies2015pseudoreplication-e9]: Davies & Gray 2015，Discussion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e9)
-[^davies2015pseudoreplication-e10]: Davies & Gray 2015，Discussion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e10)
-[^davies2015pseudoreplication-e11]: Davies & Gray 2015，Discussion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e11)
-[^davies2015pseudoreplication-e12]: Davies & Gray 2015，Discussion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e12)
-[^davies2015pseudoreplication-e3]: Davies & Gray 2015，Abstract。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e3)
-[^davies2015pseudoreplication-e4]: Davies & Gray 2015，Conclusion。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e4)
-[^davies2015pseudoreplication-e2]: Davies & Gray 2015，Abstract。[证据](../../../../sources/notes/davies2015pseudoreplication.md#e2)
-[^afs2014fishes-e1]: 美国渔业学会等 2014，2.3。[证据](../../../../sources/notes/afs2014fishes.md#e1)
-[^afs2014fishes-e4]: 美国渔业学会等 2014，3。[证据](../../../../sources/notes/afs2014fishes.md#e4)
-[^afs2014fishes-e5]: 美国渔业学会等 2014，3.1。[证据](../../../../sources/notes/afs2014fishes.md#e5)
-[^greene2021safety-e3]: Greene 等 2021，§4.2.2。[证据](../../../../sources/notes/greene2021safety.md#e3)
-[^greene2021safety-e5]: Greene 等 2021，§4.2.6。[证据](../../../../sources/notes/greene2021safety.md#e5)
-[^igsnabout-e2]: IGSN e.V.，About IGSNs。[证据](../../../../sources/notes/igsnabout.md#e2)
-[^igsnabout-e4]: IGSN e.V.，About IGSNs。[证据](../../../../sources/notes/igsnabout.md#e4)
-[^igsnpublications-e3]: IGSN e.V.，Using IGSN in Publications。[证据](../../../../sources/notes/igsnpublications.md#e3)
-[^agu2023ethics-e7]: AGU 2023，VI.C 第 2 条。[证据](../../../../sources/notes/agu2023ethics.md#e7)
-[^agu2023ethics-e8]: AGU 2023，VI.C 第 4 条。[证据](../../../../sources/notes/agu2023ethics.md#e8)
-[^fox2021agudata-e16]: Fox 等 2021，引言。[证据](../../../../sources/notes/fox2021agudata.md#e16)
-[^fox2021agudata-e12]: Fox 等 2021，§1，Data Citation。[证据](../../../../sources/notes/fox2021agudata.md#e12)
-[^zuur2010protocol-e2]: Zuur 等 2010，Step 8。[证据](../../../../sources/notes/zuur2010protocol.md#e2)
-[^zuur2010protocol-e3]: Zuur 等 2010，Step 8。[证据](../../../../sources/notes/zuur2010protocol.md#e3)
-[^zuur2010protocol-e4]: Zuur 等 2010，Step 8。[证据](../../../../sources/notes/zuur2010protocol.md#e4)
-[^zuur2010protocol-e5]: Zuur 等 2010，Step 8。[证据](../../../../sources/notes/zuur2010protocol.md#e5)
-[^zuur2010protocol-e6]: Zuur 等 2010，Step 8。[证据](../../../../sources/notes/zuur2010protocol.md#e6)
-[^dormann2007spatial-e1]: Dormann 等 2007，引言。[证据](../../../../sources/notes/dormann2007spatial.md#e1)
-[^dormann2007spatial-e2]: Dormann 等 2007，引言。[证据](../../../../sources/notes/dormann2007spatial.md#e2)
-[^dormann2007spatial-e3]: Dormann 等 2007，摘要。[证据](../../../../sources/notes/dormann2007spatial.md#e3)
-[^dormann2007spatial-e4]: Dormann 等 2007，方法部分。[证据](../../../../sources/notes/dormann2007spatial.md#e4)
-[^helsel2020statistical-e7]: Helsel 等 2020，§1.1。[证据](../../../../sources/notes/helsel2020statistical.md#e7)
-[^helsel2020statistical-e9]: Helsel 等 2020，§9.4.2.4。[证据](../../../../sources/notes/helsel2020statistical.md#e9)
-[^helsel2020statistical-e10]: Helsel 等 2020，§9.4.2.4。[证据](../../../../sources/notes/helsel2020statistical.md#e10)
+[^epa2006dqo-e1]: EPA 2006，Introduction，PDF 第 11 页。[证据](../../sources/notes/epa2006dqo.md#e1)
+[^epa2006dqo-e7]: EPA 2006，Chapter 6，PDF 第 57 页。[证据](../../sources/notes/epa2006dqo.md#e7)
+[^epa2006dqo-e12]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../sources/notes/epa2006dqo.md#e12)
+[^epa2006dqo-e13]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../sources/notes/epa2006dqo.md#e13)
+[^epa2006dqo-e14]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../sources/notes/epa2006dqo.md#e14)
+[^epa2006dqo-e15]: EPA 2006，Chapter 7，PDF 第 84 页。[证据](../../sources/notes/epa2006dqo.md#e15)
+[^epa2006dqo-e9]: EPA 2006，Chapter 7，PDF 第 83 页。[证据](../../sources/notes/epa2006dqo.md#e9)
+[^epa2006dqo-e6]: EPA 2006，Chapter 4，PDF 第 41 页。[证据](../../sources/notes/epa2006dqo.md#e6)
+[^epa2002qapp-e9]: EPA 2002，Element B5，PDF 第 39 页。[证据](../../sources/notes/epa2002qapp.md#e9)
+[^epa2002qapp-e14]: EPA 2002，Appendix B，PDF 第 71 页。[证据](../../sources/notes/epa2002qapp.md#e14)
+[^epa2002qapp-e16]: EPA 2002，Appendix B，PDF 第 69 页。[证据](../../sources/notes/epa2002qapp.md#e16)
+[^epa2002qapp-e6]: EPA 2002，Element B3，PDF 第 36 页。[证据](../../sources/notes/epa2002qapp.md#e6)
+[^epa2002qapp-e13]: EPA 2002，Element B5，PDF 第 39 页。[证据](../../sources/notes/epa2002qapp.md#e13)
+[^usgs2018nfmprep-e1]: USGS 2018，§1.1，PDF 第 11 页。[证据](../../sources/notes/usgs2018nfmprep.md#e1)
+[^usgs2018nfmprep-e3]: USGS 2018，§2.2，PDF 第 14 页。[证据](../../sources/notes/usgs2018nfmprep.md#e3)
+[^usgs2018nfmprep-e2]: USGS 2018，§2.1，PDF 第 14 页。[证据](../../sources/notes/usgs2018nfmprep.md#e2)
+[^usgs2018nfmprep-e4]: USGS 2018，§2.2，PDF 第 14 页。[证据](../../sources/notes/usgs2018nfmprep.md#e4)
+[^usgs2018nfmprep-e5]: USGS 2018，§2.0，PDF 第 13 页。[证据](../../sources/notes/usgs2018nfmprep.md#e5)
+[^usgs2018nfmprep-e6]: USGS 2018，§2.2.1，PDF 第 15 页。[证据](../../sources/notes/usgs2018nfmprep.md#e6)
+[^usgs2018nfmprep-e7]: USGS 2018，§2.2.1，PDF 第 15 页。[证据](../../sources/notes/usgs2018nfmprep.md#e7)
+[^usgs2018nfmprep-e8]: USGS 2018，§3.0，PDF 第 18 页。[证据](../../sources/notes/usgs2018nfmprep.md#e8)
+[^usgs2018nfmprep-e9]: USGS 2018，§3.0，PDF 第 18 页。[证据](../../sources/notes/usgs2018nfmprep.md#e9)
+[^usgs2018nfmprep-e10]: USGS 2018，§4.2，PDF 第 25 页。[证据](../../sources/notes/usgs2018nfmprep.md#e10)
+[^usgs2018nfmprep-e11]: USGS 2018，§4.2，PDF 第 25 页。[证据](../../sources/notes/usgs2018nfmprep.md#e11)
+[^usgs2018nfmprep-e13]: USGS 2018，表 1-4，PDF 第 26 页。[证据](../../sources/notes/usgs2018nfmprep.md#e13)
+[^usgs2018nfmprep-e14]: USGS 2018，§5.1.1，PDF 第 28 页。[证据](../../sources/notes/usgs2018nfmprep.md#e14)
+[^usgs2018nfmprep-e15]: USGS 2018，表 1-5，PDF 第 28 页。[证据](../../sources/notes/usgs2018nfmprep.md#e15)
+[^usgs2018nfmprep-e16]: USGS 2018，§5.2，PDF 第 31 页。[证据](../../sources/notes/usgs2018nfmprep.md#e16)
+[^usgs2018nfmprep-e17]: USGS 2018，§4.0，PDF 第 24 页。[证据](../../sources/notes/usgs2018nfmprep.md#e17)
+[^usgs2018nfmprep-e18]: USGS 2018，表 1-4，PDF 第 27 页。[证据](../../sources/notes/usgs2018nfmprep.md#e18)
+[^usgs2023nfmfield-e1]: USGS 2023，§1.0，PDF 第 9 页。[证据](../../sources/notes/usgs2023nfmfield.md#e1)
+[^usgs2023nfmfield-e2]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../sources/notes/usgs2023nfmfield.md#e2)
+[^usgs2023nfmfield-e3]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../sources/notes/usgs2023nfmfield.md#e3)
+[^usgs2023nfmfield-e4]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../sources/notes/usgs2023nfmfield.md#e4)
+[^usgs2023nfmfield-e5]: USGS 2023，§2.1，PDF 第 10 页。[证据](../../sources/notes/usgs2023nfmfield.md#e5)
+[^usgs2023nfmfield-e6]: USGS 2023，PDF 第 12 页。[证据](../../sources/notes/usgs2023nfmfield.md#e6)
+[^usgs2023nfmfield-e7]: USGS 2023，PDF 第 12 页。[证据](../../sources/notes/usgs2023nfmfield.md#e7)
+[^usgs2023nfmfield-e8]: USGS 2023，Performance，PDF 第 12 页。[证据](../../sources/notes/usgs2023nfmfield.md#e8)
+[^usgs2023nfmfield-e9]: USGS 2023，Performance，PDF 第 12 页。[证据](../../sources/notes/usgs2023nfmfield.md#e9)
+[^casler2015fundamentals-e4]: Casler 2015，Replication。[证据](../../sources/notes/casler2015fundamentals.md#e4)
+[^casler2015fundamentals-e5]: Casler 2015，Replication。[证据](../../sources/notes/casler2015fundamentals.md#e5)
+[^casler2015fundamentals-e27]: Casler 2015，Number of replicates。[证据](../../sources/notes/casler2015fundamentals.md#e27)
+[^casler2015fundamentals-e21]: Casler 2015，结论部分。[证据](../../sources/notes/casler2015fundamentals.md#e21)
+[^davies2015pseudoreplication-e1]: Davies & Gray 2015，Abstract。[证据](../../sources/notes/davies2015pseudoreplication.md#e1)
+[^davies2015pseudoreplication-e7]: Davies & Gray 2015，Discussion。[证据](../../sources/notes/davies2015pseudoreplication.md#e7)
+[^davies2015pseudoreplication-e8]: Davies & Gray 2015，Discussion。[证据](../../sources/notes/davies2015pseudoreplication.md#e8)
+[^davies2015pseudoreplication-e9]: Davies & Gray 2015，Discussion。[证据](../../sources/notes/davies2015pseudoreplication.md#e9)
+[^davies2015pseudoreplication-e10]: Davies & Gray 2015，Discussion。[证据](../../sources/notes/davies2015pseudoreplication.md#e10)
+[^davies2015pseudoreplication-e11]: Davies & Gray 2015，Discussion。[证据](../../sources/notes/davies2015pseudoreplication.md#e11)
+[^davies2015pseudoreplication-e12]: Davies & Gray 2015，Discussion。[证据](../../sources/notes/davies2015pseudoreplication.md#e12)
+[^davies2015pseudoreplication-e3]: Davies & Gray 2015，Abstract。[证据](../../sources/notes/davies2015pseudoreplication.md#e3)
+[^davies2015pseudoreplication-e4]: Davies & Gray 2015，Conclusion。[证据](../../sources/notes/davies2015pseudoreplication.md#e4)
+[^davies2015pseudoreplication-e2]: Davies & Gray 2015，Abstract。[证据](../../sources/notes/davies2015pseudoreplication.md#e2)
+[^afs2014fishes-e1]: 美国渔业学会等 2014，2.3。[证据](../../sources/notes/afs2014fishes.md#e1)
+[^afs2014fishes-e4]: 美国渔业学会等 2014，3。[证据](../../sources/notes/afs2014fishes.md#e4)
+[^afs2014fishes-e5]: 美国渔业学会等 2014，3.1。[证据](../../sources/notes/afs2014fishes.md#e5)
+[^greene2021safety-e3]: Greene 等 2021，§4.2.2。[证据](../../sources/notes/greene2021safety.md#e3)
+[^greene2021safety-e5]: Greene 等 2021，§4.2.6。[证据](../../sources/notes/greene2021safety.md#e5)
+[^igsnabout-e2]: IGSN e.V.，About IGSNs。[证据](../../sources/notes/igsnabout.md#e2)
+[^igsnabout-e4]: IGSN e.V.，About IGSNs。[证据](../../sources/notes/igsnabout.md#e4)
+[^igsnpublications-e3]: IGSN e.V.，Using IGSN in Publications。[证据](../../sources/notes/igsnpublications.md#e3)
+[^agu2023ethics-e7]: AGU 2023，VI.C 第 2 条。[证据](../../sources/notes/agu2023ethics.md#e7)
+[^agu2023ethics-e8]: AGU 2023，VI.C 第 4 条。[证据](../../sources/notes/agu2023ethics.md#e8)
+[^fox2021agudata-e16]: Fox 等 2021，引言。[证据](../../sources/notes/fox2021agudata.md#e16)
+[^fox2021agudata-e12]: Fox 等 2021，§1，Data Citation。[证据](../../sources/notes/fox2021agudata.md#e12)
+[^zuur2010protocol-e2]: Zuur 等 2010，Step 8。[证据](../../sources/notes/zuur2010protocol.md#e2)
+[^zuur2010protocol-e3]: Zuur 等 2010，Step 8。[证据](../../sources/notes/zuur2010protocol.md#e3)
+[^zuur2010protocol-e4]: Zuur 等 2010，Step 8。[证据](../../sources/notes/zuur2010protocol.md#e4)
+[^zuur2010protocol-e5]: Zuur 等 2010，Step 8。[证据](../../sources/notes/zuur2010protocol.md#e5)
+[^zuur2010protocol-e6]: Zuur 等 2010，Step 8。[证据](../../sources/notes/zuur2010protocol.md#e6)
+[^dormann2007spatial-e1]: Dormann 等 2007，引言。[证据](../../sources/notes/dormann2007spatial.md#e1)
+[^dormann2007spatial-e2]: Dormann 等 2007，引言。[证据](../../sources/notes/dormann2007spatial.md#e2)
+[^dormann2007spatial-e3]: Dormann 等 2007，摘要。[证据](../../sources/notes/dormann2007spatial.md#e3)
+[^dormann2007spatial-e4]: Dormann 等 2007，方法部分。[证据](../../sources/notes/dormann2007spatial.md#e4)
+[^helsel2020statistical-e7]: Helsel 等 2020，§1.1。[证据](../../sources/notes/helsel2020statistical.md#e7)
+[^helsel2020statistical-e9]: Helsel 等 2020，§9.4.2.4。[证据](../../sources/notes/helsel2020statistical.md#e9)
+[^helsel2020statistical-e10]: Helsel 等 2020，§9.4.2.4。[证据](../../sources/notes/helsel2020statistical.md#e10)

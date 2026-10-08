@@ -160,7 +160,7 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 ## 常见的研究类型
 
-**本领域的研究类型文档**：[实验测量研究](research-types/experimental_measurement.md)。
+**本领域的研究类型文档**：[实验测量研究](../../06_methods/experimental_measurement.md)。
 
 | 研究类型 | 一句话说明 | 和已有方法文档的关系 |
 |---|---|---|

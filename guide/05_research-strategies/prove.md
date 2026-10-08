@@ -73,7 +73,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 
 **证明常和实验搭配。** 软件工程领域的 ACM SIGSOFT 实证研究标准，把"为关键的理论贡献（定理、复杂度分析、数学证明）给出正确性论证"列为工程研究的加分项[^ralph2020empirical-e88]；"理论保证"也可以是新工具胜过已有工具的那个维度[^ralph2020empirical-e95]。Vandewalle 等指出，信号处理里定理常配上数值仿真，帮助读者直观理解结果[^vandewalle2009reproducible-e12]。
 
-**和哲学论证对照。** 哲学家处理的论证大多也是（或自称是）演绎论证，数学证明正是这类论证的典型[^pryor2025terms-e3]。差别在前提：哲学论证的前提很少绝对无可置疑，所以即使推理有效，通常也不能一锤定音[^pryor2025terms-e12]。因此哲学论文的大部分功夫花在为前提辩护、回应反驳上，一般归入[解读论证](interpret_argue.md)套路，具体做法见[哲学论证研究](../07_fields/philosophy-ethics-religion/research-types/philosophical_argument.md) `[本项目分析]`。
+**和哲学论证对照。** 哲学家处理的论证大多也是（或自称是）演绎论证，数学证明正是这类论证的典型[^pryor2025terms-e3]。差别在前提：哲学论证的前提很少绝对无可置疑，所以即使推理有效，通常也不能一锤定音[^pryor2025terms-e12]。因此哲学论文的大部分功夫花在为前提辩护、回应反驳上，一般归入[解读论证](interpret_argue.md)套路，具体做法见[哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md) `[本项目分析]`。
 
 不要拿错验证方式：Shaw 在讨论软件工程研究时指出，用实地研究去验证一个形式化模型是否正确，和对一套经验法则做形式化验证一样不合适[^shaw2003writing-e14]。
 
@@ -127,7 +127,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 - **[数学领域概况](../07_fields/mathematics/README.md)**：数学怎样运转，适合打算在数学期刊发表的人。
 - **Thurston 1994，On proof and progress in mathematics**：数学家实际上怎样理解、交流和检查证明。
 - **Klein 等 2009，seL4: Formal Verification of an OS Kernel**：一个完整的形式化验证项目，写清了假设、代价和证明发现的缺陷。适合考虑做机器检查证明的人。
-- **[解读论证](interpret_argue.md)** 和 **[哲学论证研究](../07_fields/philosophy-ethics-religion/research-types/philosophical_argument.md)**：对照阅读，看演绎论证在前提可争议时怎么做。
+- **[解读论证](interpret_argue.md)** 和 **[哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md)**：对照阅读，看演绎论证在前提可争议时怎么做。
 
 [^shaw2003writing-e9]: Shaw 2003，§4.1。[证据](../../sources/notes/shaw2003writing.md#e9)
 [^shaw2003writing-e14]: Shaw 2003，§5。[证据](../../sources/notes/shaw2003writing.md#e14)
