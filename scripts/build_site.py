@@ -69,15 +69,19 @@ def bundle(REPO):
                 p = "guide/07_fields/%s/README.md" % f
                 add(p)
                 kids = []
-                pd = os.path.join(REPO, "guide/07_fields", f, "practices")
-                if os.path.isdir(pd):
+                for sub, overview in (("subfields", "各方向总览"), ("practices", "实践总览")):
+                    pd = os.path.join(REPO, "guide/07_fields", f, sub)
+                    if not os.path.isdir(pd):
+                        continue
+                    group = []
                     for g in sorted(os.listdir(pd)):
                         if g.endswith(".md"):
-                            q = "guide/07_fields/%s/practices/%s" % (f, g)
+                            q = "guide/07_fields/%s/%s/%s" % (f, sub, g)
                             add(q)
-                            lab = "实践总览" if g == "README.md" else short(pages[q]["title"])
-                            kids.append({"path": q, "label": lab})
-                    kids.sort(key=lambda k: k["label"] != "实践总览")
+                            lab = overview if g == "README.md" else short(pages[q]["title"])
+                            group.append({"path": q, "label": lab})
+                    group.sort(key=lambda k: k["label"] != overview)
+                    kids.extend(group)
                 items.append({"path": p, "label": short(pages[p]["title"]), "children": kids})
         else:
             for p in mdfiles(d):
