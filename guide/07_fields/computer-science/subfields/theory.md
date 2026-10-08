@@ -18,19 +18,19 @@
 
 **会议和期刊都重要。** 理论界也看重会议，但有把会议论文补全、扩展后再投期刊的长期传统，见[计算机学科概况](../README.md#会议是主要的发表渠道)[^cra1999evaluating-e4]。
 
-下表是 STOC 2026 的规则，只作为一个顶级理论会议某一年的例子，不是整个方向的惯例。**规则每年都会变，投稿前以当年的征稿启事为准。** 其他理论会议的规则，本文资料未涉及。
+下表列出三个理论会议**各自某一年**的规则，只作为例子，不是整个方向的惯例。**规则每年都会变，投稿前以当年的征稿启事为准。** FOCS 2025（Symposium on Foundations of Computer Science，计算机科学基础研讨会）由 IEEE 计算机学会的计算的数学基础技术委员会主办[^focs2025cfp-e1]；SODA 2025 是 ACM 和 SIAM（工业与应用数学学会）合办的离散算法研讨会[^soda2025cfp-e1]。三列的年份不一样：STOC 用 2026 年，FOCS 和 SODA 用 2025 年（SODA 2026 的投稿页本文没能读到）。表中没列的其他理论会议，本文资料未涉及。
 
-| 环节 | STOC 2026 的做法 |
-|---|---|
-| 时间 | 2025 年 11 月 4 日截稿，没有单独的摘要截止[^stoc2026cfp-e11] |
-| 投稿篇幅 | **没有页数上限**，鼓励直接投"完整版"[^stoc2026cfp-e2] |
-| 前 12 页 | 讲清论文的价值和关键想法，写给广泛的理论读者[^stoc2026cfp-e3] |
-| 证明 | 必须能完整核验主要结论[^stoc2026cfp-e4] |
-| 匿名 | 双盲审稿，但不能为了匿名削弱论文[^stoc2026cfp-e5] |
-| 录用后 | 定稿限 12 页[^stoc2026cfp-e8]；完整版要公开到预印本平台[^stoc2026cfp-e6] |
-| 一稿多投 | 按 SIGACT 的政策不允许[^stoc2026cfp-e7] |
+| 环节 | STOC 2026 | FOCS 2025 | SODA 2025 |
+|---|---|---|---|
+| 截稿 | 2025 年 11 月 4 日，没有单独的摘要截止[^stoc2026cfp-e11] | 2025 年 4 月 3 日[^focs2025cfp-e2] | 2024 年 7 月 5 日，没有单独的摘要截止[^soda2025cfp-e2] |
+| 投稿篇幅 | **没有页数上限**，鼓励直接投"完整版"[^stoc2026cfp-e2] | 没有页数上限，鼓励投完整版[^focs2025cfp-e3] | 没有页数上限，鼓励投完整版[^soda2025cfp-e3] |
+| 开头几页 | 前 12 页讲清价值和关键想法，写给广泛的理论读者[^stoc2026cfp-e3] | 前 10 页讲清价值和关键想法[^focs2025cfp-e3] | 前 10 页讲清价值，写给理论计算机和离散数学的广泛读者[^soda2025cfp-e3] |
+| 证明 | 必须能完整核验主要结论[^stoc2026cfp-e4] | 必须能完整核验主要数学结论[^focs2025cfp-e3] | 必须能完整核验主要数学结论[^soda2025cfp-e3] |
+| 匿名 | 双盲，但不能为了匿名削弱论文[^stoc2026cfp-e5] | 双盲，同样不能为了匿名削弱论文[^focs2025cfp-e4] | "相当轻量"的双盲，同样不能为了匿名削弱论文[^soda2025cfp-e4] |
+| 录用后 | 定稿限 12 页[^stoc2026cfp-e8]；完整版要公开到预印本平台[^stoc2026cfp-e6] | 定稿截止前公开带证明的完整版[^focs2025cfp-e5]；定稿页数本文资料未涉及 | 本文资料未涉及 |
+| 一稿多投 | 按 SIGACT 的政策不允许[^stoc2026cfp-e7] | 按 SIGACT 的政策不允许[^focs2025cfp-e6] | 不能同时投另一个有论文集的会议[^soda2025cfp-e5] |
 
-表里几格的展开，同样只属于 STOC 2026：
+表里几格的展开，只属于 STOC 2026：
 
 - **前 12 页**指标题页之后的前 12 页。要讲清论文在已有工作中有多重要，主要结论靠哪些关键的技术想法和概念想法；要写给广泛的理论计算机研究者，而不只是小方向的专家[^stoc2026cfp-e3]。
 - **其余部分**：摘要、目录和前 12 页之外的内容，委员会自行决定读不读[^stoc2026cfp-e4]。
@@ -39,7 +39,7 @@
 
 从这张表能看出两点 `[本项目分析]`：
 
-- **审稿人主要读前 12 页。** 证明可以很长，但论文的价值和关键想法必须在前面讲清，而且要让非本小方向的人看懂。
+- **审稿人主要读开头 10–12 页。** 证明可以很长，但论文的价值和关键想法必须在前面讲清，而且要让非本小方向的人看懂。三个会议在这一点上的写法几乎一样。
 - **完整证明必须有，而且最终要公开。** 正文放思路和关键证明，完整证明放在后面或预印本的完整版里，但不能省略。
 
 **理论论文也会投到应用方向的会议。** 例如密码学和安全协议的证明会投安全会议。IEEE S&P 2026（IEEE 安全与隐私研讨会）和 ACM CCS 2025（计算机与通信安全会议）都要求理论论文令人信服地说明结果和实践的关系[^ieeesp2026cfp-e2][^ccs2025cfp-e2]。这些会议的其他规定见[安全](security.md)。
@@ -76,7 +76,9 @@
 **引用和署名的习惯。**
 
 - STOC 2026 请作者引用时不要用"et al."（"等人"），而是平等列出所有作者的姓[^stoc2026cfp-e9]。
-- 美国数学会 2004 年的声明说，**数学家**传统上按姓氏字母顺序排列合作论文的作者[^amsculture2004joint-e3]。理论计算机是否普遍如此，本文资料未涉及；问导师，或看目标方向近年的论文。
+- 美国数学会 2004 年的声明说，**数学家**传统上按姓氏字母顺序排列合作论文的作者[^amsculture2004joint-e3]。
+- 理论计算机有没有成文的规定，本文资料未涉及；只有一份统计可以参考。Waltman 2012 年统计了 Web of Science 收录的多作者论文[^waltman2012empirical-e2]，按期刊学科分类比较[^waltman2012empirical-e3]。2007–2011 年，"计算机科学，理论与方法"这一类期刊的论文里，48.6% 的论文作者是按姓氏字母顺序排的；扣除碰巧按字母排的情况后，估计约 32.6% 是有意这样排的[^waltman2012empirical-e5]。"有意"的比例是用模型估计的，不是直接数出来的[^waltman2012empirical-e4]。同一时期"数学"类的这两个数是 83.3% 和 73.3%[^waltman2012empirical-e6]。
+- 怎么读这份统计 `[本项目分析]`：它只看期刊分类，不单独看 STOC、FOCS 这类会议的论文；数据也是十几年前的。它能说明的只是：理论计算机里按字母排作者不少见，但不像数学那样占绝大多数。你所在的方向怎么排，问导师，或看目标会议近年的论文。
 
 **不要把一次拒稿看得太重。** 会议程序委员会靠共识做决定，容易偏向稳妥的增量工作[^fortnow2009time-e3]；理论方向的具体例子（哥德尔奖论文最初被拒）见[理论研究](../practices/theoretical_research.md#第-6-步投稿会议与期刊-计算机)。
 
@@ -95,7 +97,7 @@
 
 ## 延伸阅读
 
-- **你要投的会议当年的征稿启事**，例如 STOC。特别注意前若干页的写法要求、证明要求和一稿多投政策。
+- **你要投的会议当年的征稿启事**，例如 STOC、FOCS、SODA。特别注意前若干页的写法要求、证明要求和一稿多投政策。
 - **Thurston 1994，On Proof and Progress in Mathematics**：数学家怎样理解、交流和检查证明。讲的是数学，适合想了解理论共同体怎样运转的人。
 - **Fortnow 2009，Time for Computer Science to Grow Up**：一位理论计算机学者对会议文化的批评。
 - 证明的写法和自查清单（Lamport、Aaronson 等），见[理论研究](../practices/theoretical_research.md)的延伸阅读。
@@ -124,6 +126,22 @@
 [^klein2009sel4-e2]: Klein 等人 2009，§4.5。[证据](../../../../sources/notes/klein2009sel4.md#e2)
 [^stoc2026cfp-e9]: STOC 2026 征稿启事，Recommended Best Practices for References。[证据](../../../../sources/notes/stoc2026cfp.md#e9)
 [^amsculture2004joint-e3]: 美国数学会 2004，第 3 段。[证据](../../../../sources/notes/amsculture2004joint.md#e3)
+[^focs2025cfp-e1]: FOCS 2025 征稿启事，Overview and Call for Papers。[证据](../../../../sources/notes/focs2025cfp.md#e1)
+[^focs2025cfp-e2]: FOCS 2025 征稿启事，Important dates。[证据](../../../../sources/notes/focs2025cfp.md#e2)
+[^focs2025cfp-e3]: FOCS 2025 征稿启事，Submission format。[证据](../../../../sources/notes/focs2025cfp.md#e3)
+[^focs2025cfp-e4]: FOCS 2025 征稿启事，Submission format（双盲）。[证据](../../../../sources/notes/focs2025cfp.md#e4)
+[^focs2025cfp-e5]: FOCS 2025 征稿启事，Submission instructions。[证据](../../../../sources/notes/focs2025cfp.md#e5)
+[^focs2025cfp-e6]: FOCS 2025 征稿启事，Prior and simultaneous submission。[证据](../../../../sources/notes/focs2025cfp.md#e6)
+[^soda2025cfp-e1]: SODA 2025 投稿页，页面标题。[证据](../../../../sources/notes/soda2025cfp.md#e1)
+[^soda2025cfp-e2]: SODA 2025 投稿页，Important Submission Information。[证据](../../../../sources/notes/soda2025cfp.md#e2)
+[^soda2025cfp-e3]: SODA 2025 投稿页，Submission Format。[证据](../../../../sources/notes/soda2025cfp.md#e3)
+[^soda2025cfp-e4]: SODA 2025 投稿页，Anonymous Submissions。[证据](../../../../sources/notes/soda2025cfp.md#e4)
+[^soda2025cfp-e5]: SODA 2025 投稿页，Simultaneous Submissions。[证据](../../../../sources/notes/soda2025cfp.md#e5)
+[^waltman2012empirical-e2]: Waltman 2012，§3。[证据](../../../../sources/notes/waltman2012empirical.md#e2)
+[^waltman2012empirical-e3]: Waltman 2012，§3.2。[证据](../../../../sources/notes/waltman2012empirical.md#e3)
+[^waltman2012empirical-e4]: Waltman 2012，§2。[证据](../../../../sources/notes/waltman2012empirical.md#e4)
+[^waltman2012empirical-e5]: Waltman 2012，§3.2 表 1。[证据](../../../../sources/notes/waltman2012empirical.md#e5)
+[^waltman2012empirical-e6]: Waltman 2012，§3.2 表 1。[证据](../../../../sources/notes/waltman2012empirical.md#e6)
 [^fortnow2009time-e3]: Fortnow 2009，正文。[证据](../../../../sources/notes/fortnow2009time.md#e3)
 [^lamport2012how-e13]: Lamport 2012，§6。[证据](../../../../sources/notes/lamport2012how.md#e13)
 [^aaronson2008ten-e3]: Aaronson 2008，第 4 条。[证据](../../../../sources/notes/aaronson2008ten.md#e3)

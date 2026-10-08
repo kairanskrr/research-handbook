@@ -72,7 +72,9 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 
 ### 署名：只有一项小样本统计
 
-哲学的署名惯例，本文只找到一项统计，而且不覆盖整个学科：Chang 和 Yeh 在 2023 年 iConference 会议上的一张海报（本文只读了公开摘要）。他们分析 2011–2020 年在哲学期刊发文最多的 100 位作者的 3,773 篇文章，56.5% 是单人署名[^chang2023prolific-e1]。这 100 人里有 28 位主要在心理学领域工作，他们比另外 72 位哲学作者更倾向合著[^chang2023prolific-e2]。样本只是"最高产的 100 人"，不能代表一般哲学研究者 `[本项目分析]`。合著时的署名顺序惯例，本文资料未涉及，以导师和合作者的约定为准。
+哲学的署名惯例，本文只找到一项统计，而且不覆盖整个学科：Chang 和 Yeh 在 2023 年 iConference 会议上的一张海报（本文只读了公开摘要）。他们分析 2011–2020 年在哲学期刊发文最多的 100 位作者的 3,773 篇文章，56.5% 是单人署名[^chang2023prolific-e1]。这 100 人里有 28 位主要在心理学领域工作，他们比另外 72 位哲学作者更倾向合著[^chang2023prolific-e2]。样本只是"最高产的 100 人"，不能代表一般哲学研究者 `[本项目分析]`。
+
+署名顺序：Fernandes 和 Cortez 2020 年在 Scientometrics 期刊上发表的文献计量研究（本文读的是作者主页上的投稿稿，数据 2020 年 5 月取自 Scopus 数据库）比较了 27 个大领域的作者排序。他们没有单列哲学，但"艺术与人文"这一领域取的样本全是哲学期刊：一组是 Noûs 一本期刊的论文[^fernandes2020alphabetic-e1]，另一组是 Noûs、Mind、Ethics 等九本哲学期刊 2018–2020 年的论文[^fernandes2020alphabetic-e3]。结果这个领域只有"中等程度"按姓名字母排序的倾向，不像经济学、数学那样强[^fernandes2020alphabetic-e2]；作者也提醒，只取少数期刊的样本不一定代表整个领域[^fernandes2020alphabetic-e4]。所以，至少在这些期刊里，哲学合著论文不一定按字母排；你们按什么排，以导师和合作者的约定为准 `[本项目分析]`。署名顺序在哲学里代表什么贡献，本文资料未涉及。
 
 ### 审稿：匿名，周期和接收率要查清
 
@@ -143,10 +145,12 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 | [证明](../../05_research-strategies/prove.md) | 逻辑学等方向接近数学[^apaphil1996research-e5]；数学证明是演绎论证的典型[^pryor2025terms-e3]；形式认识论用概率论、模态逻辑等工具研究知识和推理[^weisberg2021formal-e1] | 证明先要正确；形式结果还要接回哲学问题；详见表后 | [证明：什么样的证据才够](../../05_research-strategies/prove.md#2-什么样的证据才够)、[理论研究](../computer-science/practices/theoretical_research.md)（计算机，可参考） |
 | [观察描述](../../05_research-strategies/observe_describe.md)、[解释因果](../../05_research-strategies/explain_causality.md)（实验哲学） | 研究人们对哲学概念的"直觉"，通常调查普通人的判断[^sytsma2026experimental-e2]；也检验某些案例判断是否随和哲学无关的因素变化[^sytsma2026experimental-e16] | 用系统方法，不根据个别或有偏的回答下结论[^sytsma2026experimental-e10]；从哲学论证出发，结果接回论证并说明局限[^sytsma2026experimental-e5][^sytsma2026experimental-e7]；样本量和统计报告的要求在提高[^sytsma2026experimental-e8] | [问卷调查](../../06_methods/questionnaire_survey.md)、[对照实验](../../06_methods/controlled_experiment.md)、[数据科学](../../06_methods/data_science.md)（语料库研究） |
 
-"证明"一行的说明。这部分只依据两份资料：美国数学会的伦理准则（2022 年修订），以及《斯坦福哲学百科》里 Weisberg 写的形式认识论条目（2021 年修订）。逻辑学期刊各自的审稿标准，本文资料未涉及，以目标期刊的说明为准。
+"证明"一行的说明。这部分依据美国数学会的伦理准则（2022 年修订）、《斯坦福哲学百科》里 Weisberg 写的形式认识论条目（2021 年修订），以及三本逻辑学期刊网站上对投稿的要求。期刊网站只写了总的要求；审稿人具体按哪些条目评，本文资料未涉及，以目标期刊的说明为准。
 
+- **要有新意，而且结果要实在。** 符号逻辑学会（Association for Symbolic Logic）的 Journal of Symbolic Logic 要求投稿有创新，不能只是已有工作的小变体，还要让广泛的读者感兴趣[^asljslabout-e1]。逻辑学期刊 Studia Logica 在期刊宗旨里说，它接收论文的关键标准是方法：论文必须包含关于形式系统及其性质的重要、原创的结果[^studialogicaaims-e1]。
+- **讲清意义。** 同一学会的 Bulletin of Symbolic Logic 要求，"通讯"类稿件（报告重要新结果、新想法的稿件）除了写结果，还要给出足够的历史、背景和解释，让广泛的读者看出它的意义[^aslbslabout-e1]。
 - **证明先要正确。** 美国数学会的准则要求数学期刊的编辑，只在合理确信论文正确时才接收[^ams2022ethical-e9]；哲学里的形式化论文可以参照这个要求 `[本项目分析]`。
-- **形式结果要接回哲学问题。** Weisberg 以归纳问题为例指出：形式化能精确表述归纳怎样进行，但它依赖概率公理等假设，本身解决不了休谟提出的那类问题；它的用处是把这些假设分离出来、讲清楚，再为它们论证[^weisberg2021formal-e2]。
+- **形式结果要接回哲学问题。** Studia Logica 力求在数学技术和哲学相关性之间取得平衡[^studialogicaaims-e2]。Weisberg 以归纳问题为例指出：形式化能精确表述归纳怎样进行，但它依赖概率公理等假设，本身解决不了休谟提出的那类问题；它的用处是把这些假设分离出来、讲清楚，再为它们论证[^weisberg2021formal-e2]。
 - **当心理想化。** 模型常做理想化假设，例如假设人相信自己信念推出的一切[^weisberg2021formal-e4]。条目转述的几位作者认为，模型既简单又理想化、结果又不稳健时，要怀疑它能否用到现实[^weisberg2021formal-e3]。
 
 怎么用这张表 `[本项目分析]`：
@@ -274,6 +278,14 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 [^jhp2025statistics-e3]: Journal of the History of Philosophy，Submissions Statistics，2025-2026。[证据](../../../sources/notes/jhp2025statistics.md#e3)
 [^chang2023prolific-e1]: Chang & Yeh 2023，摘要。[证据](../../../sources/notes/chang2023prolific.md#e1)
 [^chang2023prolific-e2]: Chang & Yeh 2023，摘要。[证据](../../../sources/notes/chang2023prolific.md#e2)
+[^fernandes2020alphabetic-e1]: Fernandes & Cortez 2020，§3.1 数据集。[证据](../../../sources/notes/fernandes2020alphabetic.md#e1)
+[^fernandes2020alphabetic-e2]: Fernandes & Cortez 2020，结论。[证据](../../../sources/notes/fernandes2020alphabetic.md#e2)
+[^fernandes2020alphabetic-e3]: Fernandes & Cortez 2020，§3.1 数据集、表 3。[证据](../../../sources/notes/fernandes2020alphabetic.md#e3)
+[^fernandes2020alphabetic-e4]: Fernandes & Cortez 2020，§5 局限。[证据](../../../sources/notes/fernandes2020alphabetic.md#e4)
+[^asljslabout-e1]: 符号逻辑学会，The Journal of Symbolic Logic 期刊介绍页，开头。[证据](../../../sources/notes/asljslabout.md#e1)
+[^aslbslabout-e1]: 符号逻辑学会，The Bulletin of Symbolic Logic 期刊介绍页，Communications。[证据](../../../sources/notes/aslbslabout.md#e1)
+[^studialogicaaims-e1]: Studia Logica，Aims and Scope，第 3 段。[证据](../../../sources/notes/studialogicaaims.md#e1)
+[^studialogicaaims-e2]: Studia Logica，Aims and Scope，第 3 段。[证据](../../../sources/notes/studialogicaaims.md#e2)
 [^sytsma2026experimental-e1]: Sytsma 等 2026，开头。[证据](../../../sources/notes/sytsma2026experimental.md#e1)
 [^sytsma2026experimental-e2]: Sytsma 等 2026，开头。[证据](../../../sources/notes/sytsma2026experimental.md#e2)
 [^sytsma2026experimental-e3]: Sytsma 等 2026，开头。[证据](../../../sources/notes/sytsma2026experimental.md#e3)

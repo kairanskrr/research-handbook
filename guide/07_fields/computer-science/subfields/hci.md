@@ -81,7 +81,7 @@ CHI 2026 还新增了"协助直拒"：超出范围、或离录用标准太远的
 
 ### 涉及人的研究和伦理
 
-- **伦理审查**：CHI 2026 要求，涉及人类参与者的研究必须通过作者所在研究环境要求的伦理审查；各地要求不同，所以要给审稿人附一段简短说明[^chi2026papers-e8]。通用做法见[科研诚信与伦理](../../../08_throughout/integrity_and_ethics.md)。
+- **伦理审查**：CHI 2026 要求，涉及人类参与者的研究必须通过作者所在研究环境要求的伦理审查；各地要求不同，所以要给审稿人附一段简短说明[^chi2026papers-e8]。会议之上还有 ACM 的总规定：ACM 出版委员会 2021 年批准的《涉及人类参与者和受试者的研究政策》[^acm2021humanparticipants-e1]，适用于所有 ACM 出版物，包括 ACM 主办或合办的会议[^acm2021humanparticipants-e3]。它要求研究的计划、实施和报告既符合当地法律法规，也符合这项政策列出的一般原则，例如知情同意[^acm2021humanparticipants-e2]；当地要求伦理审查的，作者要让研究通过审查，并准备好随时向 ACM 出示书面证明[^acm2021humanparticipants-e4]。具体的 ACM 期刊或会议可以另定更严的要求[^acm2021humanparticipants-e5]。被认定违反这项政策的论文，视情节轻重可能被加"关注说明"（Note of Concern）或撤稿[^acm2021humanparticipants-e6]。通用做法见[科研诚信与伦理](../../../08_throughout/integrity_and_ethics.md)。
 - **纳入了谁**：留意研究纳入了谁、没纳入谁，主张的范围要和这一点相符[^chi2026papers-e31]。
 - **参与者会讨好研究者**：不要只问"我的工具好用吗"，原因和替代做法见[对照实验：定好怎么测](../../../06_methods/controlled_experiment.md#第-5-步定好怎么测)。
 - **大语言模型**：CHI 2026 要求，大语言模型生成的文字，凡用途超出修改作者自己的文字，都要标明[^chi2026papers-e9]。通用做法见[科研诚信与伦理：用大模型等工具时，责任仍然在你](../../../08_throughout/integrity_and_ethics.md#6-用大模型等工具时责任仍然在你)。
@@ -162,6 +162,12 @@ CHI 2026 还新增了"协助直拒"：超出范围、或离录用标准太远的
 [^mcdonald2019reliability-e17]: McDonald 等人 2019，摘要。[证据](../../../../sources/notes/mcdonald2019reliability.md#e17)
 [^mcdonald2019reliability-e9]: McDonald 等人 2019，§2.3。[证据](../../../../sources/notes/mcdonald2019reliability.md#e9)
 [^chi2026papers-e8]: CHI 2026 征稿页，Policy on Research Involving Human Participants and Subjects。[证据](../../../../sources/notes/chi2026papers.md#e8)
+[^acm2021humanparticipants-e1]: ACM 2021 涉及人的研究政策，标题下。[证据](../../../../sources/notes/acm2021humanparticipants.md#e1)
+[^acm2021humanparticipants-e2]: ACM 2021 涉及人的研究政策，Policy Statement。[证据](../../../../sources/notes/acm2021humanparticipants.md#e2)
+[^acm2021humanparticipants-e3]: ACM 2021 涉及人的研究政策，Scope of Policy。[证据](../../../../sources/notes/acm2021humanparticipants.md#e3)
+[^acm2021humanparticipants-e4]: ACM 2021 涉及人的研究政策，Roles and Responsibilities（Authors）。[证据](../../../../sources/notes/acm2021humanparticipants.md#e4)
+[^acm2021humanparticipants-e5]: ACM 2021 涉及人的研究政策，Policy Statement。[证据](../../../../sources/notes/acm2021humanparticipants.md#e5)
+[^acm2021humanparticipants-e6]: ACM 2021 涉及人的研究政策，Violations and Penalties。[证据](../../../../sources/notes/acm2021humanparticipants.md#e6)
 [^chi2026papers-e31]: CHI 2026，Guide to a Successful Submission，Maximizing Impact。[证据](../../../../sources/notes/chi2026papers.md#e31)
 [^chi2026papers-e9]: CHI 2026 征稿页，Policy on Use of Large Language Models。[证据](../../../../sources/notes/chi2026papers.md#e9)
 [^mcdonald2019reliability-e4]: McDonald 等人 2019，§2.2。[证据](../../../../sources/notes/mcdonald2019reliability.md#e4)

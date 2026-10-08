@@ -172,7 +172,9 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 - **要多严格。** 要的是估计，不是误差的确切大小或严格上界[^aps2011uncertainty-e6]。
 - **给不出时。** 社论承认，很多情况下确实给不出有意义的误差估计，例如复杂体系的散射过程[^aps2011uncertainty-e8]。
 
-其他物理期刊怎样评判理论论文，形式理论（例如弦论[^arxivtaxonomy-e2]）按什么标准评判，本文资料未涉及。
+另外两本物理期刊在网站上写了接收标准，可以作对照。注意它们针对的是所有投稿，不是专门评判理论论文的标准：JHEP（Journal of High Energy Physics，高能物理期刊；读的是 2026 年查阅的网页，页面没有注明日期）的收稿范围包括量子场论、弦和膜理论[^jhepabout-e1]，接收看科学质量、原创性和相关性[^jhepabout-e2]。SciPost Physics（荷兰 SciPost 基金会的开放获取期刊；读的是 2025 年 12 月的网页存档）要求稿件至少做到四条"期望"之一，比如在公认的长期难题上取得突破，或打开一个能引出后续工作的新方向[^scipost2025physics-e1]；还要满足全部一般要求，其中包括把细节写够，让内行专家能自己重走一遍你的论证和推导，并在结论里如实说明结果能用到哪里、有哪些局限[^scipost2025physics-e2]。
+
+形式理论（例如弦论[^arxivtaxonomy-e2]）按什么标准评判、其他物理期刊怎样评判理论论文，本文资料未涉及，以目标期刊为准。
 
 ---
 
@@ -237,6 +239,10 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 [^aps2011uncertainty-e6]: Physical Review A 编辑部 2011，第 4 段。[证据](../../../sources/notes/aps2011uncertainty.md#e6)
 [^aps2011uncertainty-e7]: Physical Review A 编辑部 2011，第 5 段。[证据](../../../sources/notes/aps2011uncertainty.md#e7)
 [^aps2011uncertainty-e8]: Physical Review A 编辑部 2011，第 5 段。[证据](../../../sources/notes/aps2011uncertainty.md#e8)
+[^jhepabout-e1]: JHEP，About 网页（2026 年查阅，页面未注明日期），Scope。[证据](../../../sources/notes/jhepabout.md#e1)
+[^jhepabout-e2]: JHEP，About 网页，Editorial policy。[证据](../../../sources/notes/jhepabout.md#e2)
+[^scipost2025physics-e1]: SciPost Physics，About 网页（2025 年 12 月存档），Acceptance Criteria。[证据](../../../sources/notes/scipost2025physics.md#e1)
+[^scipost2025physics-e2]: SciPost Physics，About 网页，Acceptance Criteria。[证据](../../../sources/notes/scipost2025physics.md#e2)
 [^junk2021reproducibility-e1]: Junk & Lyons 2021，摘要。[证据](../../../sources/notes/junk2021reproducibility.md#e1)
 [^junk2021reproducibility-e2]: Junk & Lyons 2021，§1。[证据](../../../sources/notes/junk2021reproducibility.md#e2)
 [^junk2021reproducibility-e3]: Junk & Lyons 2021，§1。[证据](../../../sources/notes/junk2021reproducibility.md#e3)

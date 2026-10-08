@@ -146,8 +146,11 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 表里后两行的归类是本项目分析 `[本项目分析]`：
 
 - **分析方法开发归"测量"**，因为核心主张是"这把尺子准不准、适不适合用"。
-- **机理研究归"解释因果"**，因为它回答"反应为什么这样发生"。机理研究具体要拿出哪些实验证据才算够，本文资料未涉及。
-- **计算化学按核心主张归类，不单列一行。** JOC 的作者须知说机理研究可以是实验的，也可以是理论的[^acsjocguidelines-e32]。以比较计算方法精度为主的工作按什么标准评判，本文资料未涉及。
+- **机理研究归"解释因果"**，因为它回答"反应为什么这样发生"。拿出哪些证据才算够，本文没有找到期刊的具体规定，只找到一条术语定义（不是审稿标准）：IUPAC《化学术语汇编》（Gold Book）沿用 1994 年《物理有机化学术语表》的说法，可以接受的机理必须和反应的计量关系、速率方程以及其他所有已有实验数据（例如立体化学走向）都相符，而且可能有好几个备选机理都没被证据排除[^iupacgoldbookmechanism-e1]；很多反应拿不到这些全部信息，提出的机理建立在不完整的数据上[^iupacgoldbookmechanism-e2]。所以写机理时，说清你的数据排除了哪些备选机理、哪些还没排除，不要把"和数据相符"写成"证明了" `[本项目分析]`。动力学同位素效应等具体实验各能说明什么、有什么局限，本文资料未涉及。
+- **计算化学按核心主张归类，不单列一行。** JOC 的作者须知说机理研究可以是实验的，也可以是理论的[^acsjocguidelines-e32]。以比较计算方法精度为主的工作（基准评测），本文没有找到期刊的评判标准，只找到 Mata 和 Suhm 2017 年在 Angewandte Chemie 发表的一篇观点文章，下面的建议只代表这两位作者：
+  - **尽量和实验挂钩。** 很多量子化学基准评测论文只拿另一种理论方法当参照，一个实验结果都没有[^mata2017benchmarking-e1]；作者承认这样做有正当理由[^mata2017benchmarking-e2]，但建议关注能测量的量，或让计算的量和实验数据有明确的对应关系[^mata2017benchmarking-e5]。
+  - **一次吻合不算数。** 只吻合一次可能是误差碰巧相互抵消，通常需要范围广、类型多样的数据集[^mata2017benchmarking-e3]；算的人事先知道实验结果，也有被影响的风险[^mata2017benchmarking-e4]。
+  - **失败的也要报。** 也讨论失败的方法，尤其是被广泛使用的[^mata2017benchmarking-e6]；尽量交代误差来源和关键近似[^mata2017benchmarking-e7]，在支持信息里给出结构和能量，方便别人重复[^mata2017benchmarking-e8]。
 
 分析方法验证的标准出自国际纯粹与应用化学联合会（IUPAC）2002 年的技术报告《单实验室方法验证协调指南》。它是写给分析实验室做方法验证用的，不是哪本期刊的审稿标准；投稿时还要看目标期刊的要求。报告里和新手最相关的几点：
 
@@ -296,3 +299,13 @@ JOC 明确说，修改数据或谱图（如校正基线、去掉溶剂峰或杂�
 [^bligaard2016benchmarking-e8]: Bligaard 等人 2016，§2.2.1，第 2595 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e8)
 [^bligaard2016benchmarking-e15]: Bligaard 等人 2016，§2.3.1，第 2597 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e15)
 [^bligaard2016benchmarking-e17]: Bligaard 等人 2016，§2.3.1，第 2597 页。[证据](../../../sources/notes/bligaard2016benchmarking.md#e17)
+[^iupacgoldbookmechanism-e1]: IUPAC Gold Book，mechanism of a reaction 词条（出自 IUPAC 1994 年《物理有机化学术语表》）。[证据](../../../sources/notes/iupacgoldbookmechanism.md#e1)
+[^iupacgoldbookmechanism-e2]: IUPAC Gold Book，mechanism of a reaction 词条。[证据](../../../sources/notes/iupacgoldbookmechanism.md#e2)
+[^mata2017benchmarking-e1]: Mata 和 Suhm 2017，Theory Benchmarking Theory。[证据](../../../sources/notes/mata2017benchmarking.md#e1)
+[^mata2017benchmarking-e2]: Mata 和 Suhm 2017，Theory Benchmarking Theory。[证据](../../../sources/notes/mata2017benchmarking.md#e2)
+[^mata2017benchmarking-e3]: Mata 和 Suhm 2017，Experiment Benchmarking Theory。[证据](../../../sources/notes/mata2017benchmarking.md#e3)
+[^mata2017benchmarking-e4]: Mata 和 Suhm 2017，Experiment Benchmarking Theory。[证据](../../../sources/notes/mata2017benchmarking.md#e4)
+[^mata2017benchmarking-e5]: Mata 和 Suhm 2017，Conclusions。[证据](../../../sources/notes/mata2017benchmarking.md#e5)
+[^mata2017benchmarking-e6]: Mata 和 Suhm 2017，Conclusions。[证据](../../../sources/notes/mata2017benchmarking.md#e6)
+[^mata2017benchmarking-e7]: Mata 和 Suhm 2017，Conclusions。[证据](../../../sources/notes/mata2017benchmarking.md#e7)
+[^mata2017benchmarking-e8]: Mata 和 Suhm 2017，Conclusions。[证据](../../../sources/notes/mata2017benchmarking.md#e8)

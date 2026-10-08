@@ -68,3 +68,21 @@
 - 位置：第 4 章开头
 - 原文："The reporting of the results from each analysis should include a brief description of the statistical method and a literature citation providing its full detail, verification of the degree to which assumptions have been met, and complete descriptions of sampling design and experimental observations in relation to the efficacy of the statistical analysis."
 - 要点：每项分析的报告要包括：统计方法的简要说明和给出完整细节的文献、假定满足到什么程度的检验、取样设计和观测的完整描述。
+
+### E12
+
+- 位置：Chapter 1，Research Papers 中对 Materials and Methods 的要求
+- 原文："In the Materials and Methods section, give enough detail to allow a competent scientist to repeat the experiments, mentally or in fact."
+- 要点：材料与方法部分要写得足够详细，让有能力的科学家能重复实验，至少能在脑子里推演一遍。
+
+### E13
+
+- 位置：Chapter 1，Research Papers 中对 Materials and Methods 的要求
+- 原文："In the materials section, describe the preparation method, equipment, and measurements, using SI-acceptable units."
+- 要点：材料部分要描述制备方法、设备和测量，用国际单位制认可的单位。
+
+### E14
+
+- 位置：Chapter 1，Research Papers 中对 Materials and Methods 的要求
+- 原文："When a product must be identified by trade name, add the name of the manufacturer or a major distributor parenthetically after the first mention of the product."
+- 要点：必须用商品名指明产品时，在第一次提到它的地方用括号注明生产商或主要经销商。

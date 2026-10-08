@@ -98,3 +98,9 @@
 - 位置：PDF 第 2 页
 - 原文："PRISMA 2020 is not intended to guide systematic review conduct, for which comprehensive resources are available."
 - 要点：PRISMA 2020 规范怎么报告，不指导怎么做。
+
+### E17
+
+- 位置：The PRISMA 2020 statement，Scope of the guideline
+- 原文："The PRISMA 2020 statement has been designed primarily for systematic reviews of studies that evaluate the effects of health interventions, irrespective of the design of the included studies." / "many items are applicable to systematic reviews with objectives other than evaluating interventions (such as evaluating aetiology, prevalence, or prognosis)"
+- 要点：PRISMA 2020 主要为评价健康干预效果的系统综述设计；但很多条目也适用于目标不是评价干预的系统综述（例如评价病因、患病率或预后）。

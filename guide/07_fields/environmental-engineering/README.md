@@ -50,7 +50,9 @@
 - **预印本可以发**：录用前发到 ChemRxiv、bioRxiv、arXiv 等有 DOI（数字对象标识符，一种永久链接）的平台，但要在稿件中引用[^estauthorguidelines-e16]。
 - **学位论文要注意**：投稿内容用在学位论文里的，要么把学位论文放进有 DOI 的公开仓库，要么在论文正式发表前推迟或撤下学位论文的网上版本[^estauthorguidelines-e17]。
 
-本领域以期刊还是会议发表为主、署名顺序惯例、审稿周期，本文资料未涉及，以导师和目标期刊的要求为准。
+**审稿要多久（跨学科统计，只作参考）。** Björk 和 Solomon 2013 年发表的研究，从 Scopus 引文数据库分层随机抽了 135 本期刊的 2700 篇论文[^bjork2013publishing-e1]；每本期刊取 2012 年最后刊出的 20 篇往前数，期刊被粗分成工程、地球科学、社会科学等九组[^bjork2013publishing-e2]。"投稿到录用"这段反映审稿和修改花的时间，"录用到刊出"反映出版流程和排队等待刊出的时间[^bjork2013publishing-e3]。工程组期刊这两段平均是 5.0 个月和 4.3 个月[^bjork2013publishing-e4]。但同一组里各期刊之间的差别，比组与组之间的差别大得多[^bjork2013publishing-e5]。这项研究没有单列环境工程，数据也是十多年前的，只能当大致参考；目标期刊实际要多久，以期刊公布的数据为准 `[本项目分析]`。
+
+本领域以期刊还是会议发表为主、署名顺序惯例，本文资料未涉及，以导师和目标期刊的要求为准。
 
 ---
 
@@ -347,3 +349,8 @@
 [^mokoena2026adsorption-e2]: Mokoena 等 2026，Searching for articles。[证据](../../../sources/notes/mokoena2026adsorption.md#e2)
 [^mokoena2026adsorption-e3]: Mokoena 等 2026，Study validity assessment。[证据](../../../sources/notes/mokoena2026adsorption.md#e3)
 [^mokoena2026adsorption-e4]: Mokoena 等 2026，Study validity assessment。[证据](../../../sources/notes/mokoena2026adsorption.md#e4)
+[^bjork2013publishing-e1]: Björk 与 Solomon 2013，摘要。[证据](../../../sources/notes/bjork2013publishing.md#e1)
+[^bjork2013publishing-e2]: Björk 与 Solomon 2013，§2 Methods。[证据](../../../sources/notes/bjork2013publishing.md#e2)
+[^bjork2013publishing-e3]: Björk 与 Solomon 2013，§3 Results。[证据](../../../sources/notes/bjork2013publishing.md#e3)
+[^bjork2013publishing-e4]: Björk 与 Solomon 2013，附录 Publication Time in Months by Discipline 表。[证据](../../../sources/notes/bjork2013publishing.md#e4)
+[^bjork2013publishing-e5]: Björk 与 Solomon 2013，§4 Discussion。[证据](../../../sources/notes/bjork2013publishing.md#e5)

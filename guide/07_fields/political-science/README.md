@@ -41,7 +41,13 @@
 
 ### 发表文化
 
-政治学既有期刊论文，也有学术专著 `[本项目分析]`。哪些方向更看重专著、会议论文的地位、审稿要多久、作者按什么顺序署名，本文资料未涉及，以导师和目标期刊的要求为准。工作论文先行的做法可参考[经济学篇](../economics/README.md#先发工作论文期刊发表很慢) `[本项目分析]`。
+政治学既有期刊论文，也有学术专著 `[本项目分析]`。下面几条只代表某所学校、某本期刊或某项跨学科统计，不是整个学科的规矩 `[本项目分析]`：
+
+- **专著和会议论文怎么算（一所美国学院的例子）。** 美国新泽西学院（The College of New Jersey）政治学系的续聘、终身教职和晋升标准（2023 年修订版）写明：书和文章没有精确的换算公式，一般一本书算两到四篇文章[^tcnj2023polisci-e1]；会议论文通常不经同行评审，主要被看作研究还在进行、准备投期刊的证据[^tcnj2023polisci-e2]；这个系认为，会议论文收进论文集正式出版在政治学很少见[^tcnj2023polisci-e3]。这只是这所学院这个系的规定，别的学校、别的国家可能不同，以你所在单位为准 `[本项目分析]`；哪些方向更看重专著，本文资料未涉及。
+- **审稿要多久。** 《美国政治学评论》（American Political Science Review）2020 年 6 月上任的编辑团队[^apsr2024editorial-e1]，在 2023 年秋的报告里给出了本团队任内的数字（表格收的稿件截至 2023 年 7 月底[^apsr2024editorial-e4]）：从投稿到"不送审直接拒稿"的中位数是 10 天，到"审后拒稿"是 74.5 天，到"审后请作者修改"是 89 天[^apsr2024editorial-e2]；本团队做出最终决定的稿件，总录用率是 7.9%[^apsr2024editorial-e3]。跨学科的统计里，Björk 和 Solomon 2013 年从 Scopus 引文数据库抽了 135 本期刊的 2700 篇论文[^bjork2013publishing-e1]，都是 2012 年前后刊出的，期刊被粗分成九组，没有单列政治学[^bjork2013publishing-e2]；其中社会科学组从投稿到录用平均 6.2 个月，从录用到刊出平均 7.9 个月[^bjork2013publishing-e6]。同一组里各期刊之间的差别，比各组之间的差别还大[^bjork2013publishing-e5]，所以目标期刊要多久，以它自己公布的数据为准 `[本项目分析]`。
+- **作者顺序。** Waltman 2012 年统计了 Web of Science 收录的多作者论文[^waltman2012empirical-e2]，按期刊分类比较 2007–2011 年的论文[^waltman2012empirical-e3]："政治学"这一类期刊里，60.8% 的论文作者恰好按字母排；扣除碰巧按字母排的情况后，估计有意按字母排的约占 36.3%[^waltman2012empirical-e7]。"有意"的比例是用模型估计的，不是直接数出来的[^waltman2012empirical-e4]。作者按字母排时，从顺序看不出谁贡献大[^waltman2012empirical-e8]。所以在政治学，有意按字母排的合作不少见，但多数论文不是这样；开工时就和合作者约定怎么排 `[本项目分析]`。
+
+工作论文先行的做法可参考[经济学篇](../economics/README.md#先发工作论文期刊发表很慢) `[本项目分析]`。
 
 署名上，美国政治学会的伦理指南（2012 年修订版）有明确规定，教师不能把学生的独立研究署成自己的，研究助理工作无论有无报酬都要充分致谢[^apsa2012ethics-e7]；导师无权要求在学生的学位论文上共同署名[^apsa2012ethics-e8]。
 
@@ -282,3 +288,19 @@
 [^bennett2012process-e2]: Bennett & Checkel 2012，Defining Process Tracing，第 7 页。[证据](../../../sources/notes/bennett2012process.md#e2)
 [^bennett2012process-e3]: Bennett & Checkel 2012，Defining Process Tracing，第 10 页。[证据](../../../sources/notes/bennett2012process.md#e3)
 [^gerring2004case-e7]: Gerring 2004，Conclusion，第 352 页。[证据](../../../sources/notes/gerring2004case.md#e7)
+[^tcnj2023polisci-e1]: The College of New Jersey 政治学系，学科标准（2023 年修订版），Evaluating Scholarship 部分。[证据](../../../sources/notes/tcnj2023polisci.md#e1)
+[^tcnj2023polisci-e2]: The College of New Jersey 政治学系，学科标准（2023 年修订版），Evaluating Scholarship 部分。[证据](../../../sources/notes/tcnj2023polisci.md#e2)
+[^tcnj2023polisci-e3]: The College of New Jersey 政治学系，学科标准（2023 年修订版），Evaluating Scholarship 部分。[证据](../../../sources/notes/tcnj2023polisci.md#e3)
+[^apsr2024editorial-e1]: APSR 编辑部 2024（2023 年秋报告），Executive Summary。[证据](../../../sources/notes/apsr2024editorial.md#e1)
+[^apsr2024editorial-e2]: APSR 编辑部 2024（2023 年秋报告），Executive Summary。[证据](../../../sources/notes/apsr2024editorial.md#e2)
+[^apsr2024editorial-e3]: APSR 编辑部 2024（2023 年秋报告），Summary of Submissions and Acceptance Decisions。[证据](../../../sources/notes/apsr2024editorial.md#e3)
+[^apsr2024editorial-e4]: APSR 编辑部 2024（2023 年秋报告），Table 1 注。[证据](../../../sources/notes/apsr2024editorial.md#e4)
+[^bjork2013publishing-e1]: Björk 与 Solomon 2013，摘要。[证据](../../../sources/notes/bjork2013publishing.md#e1)
+[^bjork2013publishing-e2]: Björk 与 Solomon 2013，§2 Methods。[证据](../../../sources/notes/bjork2013publishing.md#e2)
+[^bjork2013publishing-e6]: Björk 与 Solomon 2013，附录 Publication Time in Months by Discipline 表。[证据](../../../sources/notes/bjork2013publishing.md#e6)
+[^bjork2013publishing-e5]: Björk 与 Solomon 2013，§4 Discussion。[证据](../../../sources/notes/bjork2013publishing.md#e5)
+[^waltman2012empirical-e2]: Waltman 2012，§3。[证据](../../../sources/notes/waltman2012empirical.md#e2)
+[^waltman2012empirical-e3]: Waltman 2012，§3.2。[证据](../../../sources/notes/waltman2012empirical.md#e3)
+[^waltman2012empirical-e7]: Waltman 2012，§3.2 Table 1。[证据](../../../sources/notes/waltman2012empirical.md#e7)
+[^waltman2012empirical-e8]: Waltman 2012，摘要。[证据](../../../sources/notes/waltman2012empirical.md#e8)
+[^waltman2012empirical-e4]: Waltman 2012，§2。[证据](../../../sources/notes/waltman2012empirical.md#e4)

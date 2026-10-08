@@ -136,11 +136,11 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 |---|---|---|---|
 | [解释因果](../../05_research-strategies/explain_causality.md)（随机实验） | 随机决定谁接受干预，如发现金、给补贴 `[本项目分析]`；耗时、昂贵，有时做不了[^angrist2010credibility-e3] | AEA 期刊：田野实验投稿前登记[^aea2026rct-e1]，干预开始前登记才算"预注册"[^aea2026rct-e5]；实验说明随稿提交[^aea2026data-e10] | [田野实验](../../06_methods/field_experiment.md) |
 | [解释因果](../../05_research-strategies/explain_causality.md)（准实验） | 借制度或自然事件造成的变化；最常用工具变量、断点回归、双重差分[^angrist2010credibility-e4] | 先说清识别策略[^angrist2010credibility-e10]，按方法逐项查漏洞，见上文[可信性革命](#可信性革命先回答你的识别策略是什么)；AEA 期刊要求接收前交复现包[^aea2026data-e1] | [准实验与因果识别](../../06_methods/quasi_experiment.md) |
-| [证明](../../05_research-strategies/prove.md)（理论建模） | 写出行为人、目标、约束和均衡[^varian1997build-e4]，从模型推出结论 `[本项目分析]` | Varian 建议先写最简单、仍有意思的模型[^varian1997build-e5]，再推广，看结论有多一般[^varian1997build-e6]；纯理论论文按什么标准审稿，本文资料未涉及 | 计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)可参考 |
-| [解释因果](../../05_research-strategies/explain_causality.md)（结构估计） | 估计一个经济模型的参数，再用它分析没实施过的政策（见表后）；例如兼并分析[^angrist2010credibility-e21] | 写清模型假设；估计和模拟的程序都放进复现包[^aea2026data-e11] | 目前没有对应文档 |
+| [证明](../../05_research-strategies/prove.md)（理论建模） | 写出行为人、目标、约束和均衡[^varian1997build-e4]，从模型推出结论 `[本项目分析]` | Varian 建议先写最简单、仍有意思的模型[^varian1997build-e5]，再推广，看结论有多一般[^varian1997build-e6]。罗切斯特大学的 Thomson 1999 年在《经济文献杂志》（Journal of Economic Literature）上写给博士生的理论论文写作指南，建议讲清结果有意思、前人没做过[^thomson1999young-e1]，并逐个检查定理里的假设能不能去掉[^thomson1999young-e2]。计量经济学会（Econometric Society）的理论期刊 Theoretical Economics 的审稿人指南（2026 年 10 月查阅的网页版本，网页未注日期）：篇幅本身是评判标准之一[^te2026guidelines-e1]，审稿人要说明哪些结果该删、结果不那么一般时证明能否更短[^te2026guidelines-e2]，只要求必不可少的扩展[^te2026guidelines-e3]。贡献要多大才够发表，本文资料未涉及 | 计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)可参考 |
+| [解释因果](../../05_research-strategies/explain_causality.md)（结构估计） | 估计一个经济模型的参数，再用它分析没实施过的政策（见表后）；例如兼并分析[^angrist2010credibility-e21] | Low 和 Meghir 2017：写清推断依赖哪些假设，这是结构模型的价值所在[^low2017use-e3]；估计后报告标准误，说明每个参数由数据的哪个统计特征确定[^low2017use-e4]，再拿其他数据特征或简约式结果检验模型，最好是估计时没用到的[^low2017use-e5]。AEA 期刊：估计和模拟的程序都放进复现包[^aea2026data-e11] | 目前没有对应文档 |
 | [解释因果](../../05_research-strategies/explain_causality.md)（校准与计算实验） | 建一个模型经济，调参数让它在几个关键统计特征上像真实经济，再改政策参数看结果[^angrist2010credibility-e14] | 报告参数有多不确定、结果对模型设定有多敏感（见表后）；模拟程序放进复现包[^aea2026data-e11] | [定量仿真](../../06_methods/simulation_study.md)（以计算机为例） |
 
-"结构估计"和"校准"两行的说明。下面和后面"两派的分歧"里引的 Nevo 和 Whinston、Low 和 Meghir、Keane、Kydland 和 Prescott、Hansen 和 Heckman 五篇文章，都发表在《经济学展望杂志》（Journal of Economic Perspectives）。本文只读了它们在美国经济学会网站上的摘要，所以只转述摘要里作者的说法：
+"结构估计"和"校准"两行的说明。下面和后面"两派的分歧"里引的 Nevo 和 Whinston、Low 和 Meghir、Keane、Kydland 和 Prescott、Hansen 和 Heckman 五篇文章，都发表在《经济学展望杂志》（Journal of Economic Perspectives）。Low 和 Meghir 一篇读了全文（伦敦大学学院机构库保存的期刊版本）；其余四篇只读了美国经济学会网站上的摘要，所以只转述摘要里作者的说法：
 
 - **结构估计**：按 Nevo 和 Whinston 的说法，结构建模用数据去识别一个经济模型的参数，这个模型建立在个人选择之上[^nevo2010taking-e1]。Low 和 Meghir 认为，结构模型能找出决定结果的机制，并用来分析没有实施过的政策[^low2017use-e2]。
 - **校准与计算实验**：据 Angrist 和 Pischke 2010 年的描述，很多宏观经济学家用这种做法[^angrist2010credibility-e14]。Kydland 和 Prescott 认为，在整个国家的层面拿真人做实验不可行，但可以建一个模型经济，算出模型里的人会怎样行动[^kydland1996computational-e1]，用来回答一个提得清楚的定量问题[^kydland1996computational-e2]。Hansen 和 Heckman 质疑校准所需的微观估计并不是现成的[^hansen1996empirical-e1]，主张常规报告参数有多不确定、结果对模型设定有多敏感[^hansen1996empirical-e2]。
@@ -213,6 +213,11 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 [^varian1997build-e8]: Varian 1997，§1.8 Giving a seminar。[证据](../../../sources/notes/varian1997build.md#e8)
 [^varian1997build-e9]: Varian 1997，§1.11 When to stop。[证据](../../../sources/notes/varian1997build.md#e9)
 [^varian1997build-e10]: Varian 1997，§1.8 Giving a seminar。[证据](../../../sources/notes/varian1997build.md#e10)
+[^thomson1999young-e1]: Thomson 1999，§2 General Principles，第 159 页。[证据](../../../sources/notes/thomson1999young.md#e1)
+[^thomson1999young-e2]: Thomson 1999，§5 Writing Proofs，第 177 页。[证据](../../../sources/notes/thomson1999young.md#e2)
+[^te2026guidelines-e1]: Theoretical Economics 审稿人指南（2026 年 10 月查看），The opinion。[证据](../../../sources/notes/te2026guidelines.md#e1)
+[^te2026guidelines-e2]: Theoretical Economics 审稿人指南（2026 年 10 月查看），Substantive comments。[证据](../../../sources/notes/te2026guidelines.md#e2)
+[^te2026guidelines-e3]: Theoretical Economics 审稿人指南（2026 年 10 月查看），Substantive comments。[证据](../../../sources/notes/te2026guidelines.md#e3)
 [^angrist2010credibility-e1]: Angrist & Pischke 2010，摘要。[证据](../../../sources/notes/angrist2010credibility.md#e1)
 [^angrist2010credibility-e2]: Angrist & Pischke 2010，摘要。[证据](../../../sources/notes/angrist2010credibility.md#e2)
 [^angrist2010credibility-e3]: Angrist & Pischke 2010，引言。[证据](../../../sources/notes/angrist2010credibility.md#e3)
@@ -293,8 +298,11 @@ Cochrane 给实证新手的几条自问，可以直接用作检查清单：是�
 [^aea2026data-e11]: AEA Data and Code Availability Policy，Code for Analysis（数据与代码可得性标准第 8 条）。[证据](../../../sources/notes/aea2026data.md#e11)
 [^nevo2010taking-e1]: Nevo & Whinston 2010，摘要（只读了摘要）。[证据](../../../sources/notes/nevo2010taking.md#e1)
 [^nevo2010taking-e2]: Nevo & Whinston 2010，摘要（只读了摘要）。[证据](../../../sources/notes/nevo2010taking.md#e2)
-[^low2017use-e1]: Low & Meghir 2017，摘要（只读了摘要）。[证据](../../../sources/notes/low2017use.md#e1)
-[^low2017use-e2]: Low & Meghir 2017，摘要（只读了摘要）。[证据](../../../sources/notes/low2017use.md#e2)
+[^low2017use-e1]: Low & Meghir 2017，摘要。[证据](../../../sources/notes/low2017use.md#e1)
+[^low2017use-e2]: Low & Meghir 2017，摘要。[证据](../../../sources/notes/low2017use.md#e2)
+[^low2017use-e3]: Low & Meghir 2017，引言，第 33 页。[证据](../../../sources/notes/low2017use.md#e3)
+[^low2017use-e4]: Low & Meghir 2017，Standard Errors and Post-Estimation Checks，第 53 页。[证据](../../../sources/notes/low2017use.md#e4)
+[^low2017use-e5]: Low & Meghir 2017，Standard Errors and Post-Estimation Checks，第 53 页。[证据](../../../sources/notes/low2017use.md#e5)
 [^keane2010structural-e1]: Keane 2010，摘要（只读了摘要）。[证据](../../../sources/notes/keane2010structural.md#e1)
 [^keane2010structural-e3]: Keane 2010，摘要（只读了摘要）。[证据](../../../sources/notes/keane2010structural.md#e3)
 [^kydland1996computational-e1]: Kydland & Prescott 1996，摘要（只读了摘要）。[证据](../../../sources/notes/kydland1996computational.md#e1)

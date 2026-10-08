@@ -695,6 +695,35 @@
 | `plosbiology2018importance` | The importance of being second | PLOS Biology 2018 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005203) |
 | `oriwhistleblowers` | Whistleblowers (Handling Misconduct – Complainant) | 网页 | [链接](https://ori.hhs.gov/whistleblowers) |
 | `haddaway2018roses` | ROSES RepOrting standards for Systematic Evidence Syntheses: pro forma, flow-diagram and descriptive summary of the plan and conduct of environmental systematic reviews and systematic maps | Environmental Evidence 2018 | [链接](https://doi.org/10.1186/s13750-018-0121-7) |
+| `albert2003authorship` | How to Handle Authorship Disputes: A Guide for New Researchers | The COPE Report 2003 | [链接](https://web.archive.org/web/20241128073038/https://publicationethics.org/files/2003pdf12_0.pdf) |
+| `cope2019authorship` | COPE Discussion Document: Authorship | Committee on Publication Ethics 2019 | [链接](https://doi.org/10.24318/cope.2019.3.3) |
+| `thomson1999young` | The Young Person's Guide to Writing Economic Theory | Journal of Economic Literature 1999 | [链接](https://doi.org/10.1257/jel.37.1.157) |
+| `te2026guidelines` | Guidelines for Referees | 网页 2026 | [链接](https://www.econometricsociety.org/publications/theoretical-economics/policies/guidelines-for-referees) |
+| `asljslabout` | The Journal of Symbolic Logic | 网页 | [链接](https://aslonline.org/journals/the-journal-of-symbolic-logic/) |
+| `aslbslabout` | The Bulletin of Symbolic Logic | 网页 | [链接](https://aslonline.org/journals/the-bulletin-of-symbolic-logic/) |
+| `studialogicaaims` | Studia Logica: Aims and Scope | 网页 | [链接](https://link.springer.com/journal/11225/aims-and-scope) |
+| `fernandes2020alphabetic` | Alphabetic order of authors in scholarly publications: a bibliometric study for 27 scientific fields | Scientometrics 2020 | [链接](https://doi.org/10.1007/s11192-020-03686-0) |
+| `iupacgoldbookmechanism` | mechanism (of a reaction) | IUPAC Compendium of Chemical Terminology (the Gold Book), 5th ed., online version 5.0.0 2025 | [链接](https://doi.org/10.1351/goldbook.M03804) |
+| `mata2017benchmarking` | Benchmarking Quantum Chemical Methods: Are We Heading in the Right Direction? | Angewandte Chemie International Edition 2017 | [链接](https://doi.org/10.1002/anie.201611308) |
+| `scipost2025physics` | SciPost Physics: About (Acceptance Criteria) | 网页 | [链接](https://scipost.org/SciPostPhys/about) |
+| `jhepabout` | JHEP about | 网页 | [链接](https://jhep.sissa.it/jhep/help/JHEP/JHEP_about.jsp) |
+| `naturemethodsaims` | Aims & Scope | Journal 网页 | [链接](https://www.nature.com/nmeth/aims) |
+| `ploscompbiolsubmission` | Submission Guidelines | Journal 网页 | [链接](https://journals.plos.org/ploscompbiol/s/submission-guidelines) |
+| `hegerl2010good` | Good Practice Guidance Paper on Detection and Attribution Related to Anthropogenic Climate Change | Meeting Report of the Intergovernmental Panel on Climate Change Expert Meeting on Detection and Attribution of Anthropogenic Climate Change 2010 | [链接](https://archive.ipcc.ch/pdf/supporting-material/expert-meeting-detection-anthropogenic-2009-09.pdf) |
+| `cabiagbioevidencesynthesis` | Evidence Synthesis: Preparing your manuscript | Journal 网页 | [链接](https://cabiagbio.biomedcentral.com/submission-guidelines/preparing-your-manuscript/evidence-synthesis) |
+| `rosenzweig2013agricultural` | The Agricultural Model Intercomparison and Improvement Project (AgMIP): Protocols and pilot studies | Agricultural and Forest Meteorology 2013 | [链接](https://doi.org/10.1016/j.agrformet.2012.09.011) |
+| `fancourt2019evidence` | What is the evidence on the role of the arts in improving health and well-being? A scoping review | WHO Regional Office for Europe 2019 | [链接](https://iris.who.int/handle/10665/329834) |
+| `apa2024aesthetics` | Psychology of Aesthetics, Creativity, and the Arts: Journal Scope Statement and Submission Guidelines | Journal web page 2024 | [链接](https://www.apa.org/pubs/journals/aca) |
+| `sage2024musicscience` | Music & Science: Submission Guidelines | Journal web page 2024 | [链接](https://journals.sagepub.com/author-instructions/MNS) |
+| `focs2025cfp` | FOCS 2025: Call for Papers | 66th Annual IEEE Symposium on Foundations of Computer Science 2025 | [链接](https://focs.computer.org/2025/call-for-papers/) |
+| `soda2025cfp` | SODA25 Submissions | ACM-SIAM Symposium on Discrete Algorithms (SODA25) 2024 | [链接](https://www.siam.org/conferences-events/siam-conferences/soda25/submissions/) |
+| `waltman2012empirical` | An empirical analysis of the use of alphabetical authorship in scientific publishing | arXiv:1206.4863 2012 | [链接](https://arxiv.org/abs/1206.4863) |
+| `acm2021humanparticipants` | ACM Publications Policy on Research Involving Human Participants and Subjects | Association for Computing Machinery 2021 | [链接](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects) |
+| `bjork2013publishing` | The publishing delay in scholarly peer-reviewed journals | Journal of Informetrics 2013 | [链接](https://web.archive.org/web/20131008075840/http://openaccesspublishing.org/oa11/article.pdf) |
+| `lisee2008conference` | Conference proceedings as a source of scientific information: A bibliometric analysis | Journal of the American Society for Information Science and Technology 2008 | [链接](https://crctcs.openum.ca/files/sites/60/2015/10/Proceedings.pdf) |
+| `aerapublicationsfaq` | Publications FAQs | 网页 | [链接](https://www.aera.net/Publications/Publications-FAQs) |
+| `tcnj2023polisci` | Disciplinary Standards for Reappointment, Tenure, and Promotion in Political Science | 网页 2023 | [链接](https://academicaffairs.tcnj.edu/wp-content/uploads/sites/171/2023/05/Political-Science-Disciplinary-Standards.pdf) |
+| `apsr2024editorial` | American Political Science Review Editorial Report: Executive Summary (Fall 2023) | Political Science Today 2024 | [链接](https://www.cambridge.org/core/product/CFCD95D2AF8F273A6CA9D1ABAD66BD47/core-reader) |
 
 ## 待获取
 

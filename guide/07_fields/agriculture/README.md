@@ -150,17 +150,22 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的五种。表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料：后三行各自只有一两份资料，是某个项目、某篇论文的做法或建议，不是全行业公认的规定 `[本项目分析]`。测量等其他套路的证据标准，以及农业领域系统综述专门的报告规范，本文资料未涉及。相近的有 ROSES（RepOrting standards for Systematic Evidence Syntheses，系统证据综合报告标准）：Haddaway 等人 2018 年为保护和环境管理领域的系统综述和系统地图（systematic map，与系统综述并列的另一种证据综合）设计的报告表格和流程图[^haddaway2018roses-e2]。他们提出它，是因为 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）是为医疗卫生综述制定的，用到这个领域有局限，例如过分强调元分析[^haddaway2018roses-e1]。农业系统综述能不能套用 ROSES，以目标期刊的要求为准 `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的五种。表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料：后三行各自只有一两份资料，是某个项目、某篇论文的做法或建议，不是全行业公认的规定 `[本项目分析]`。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [解释因果](../../05_research-strategies/explain_causality.md) | 在小区上施加肥料、耕作等处理，估计处理效应 | 重复、随机化、区组、实验单位大小都要有意识地决定[^casler2015fundamentals-e1]；重复要和施加处理在同一尺度上[^casler2015fundamentals-e4]；随机化防止未知的变异来源带来偏倚和混杂[^casler2015fundamentals-e13]；用来下结论的数据报告标准误或置信区间（美国三学会期刊）[^asa2024style-e3] | [田间试验](practices/field_trial.md) |
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 在多个地点和年份重复同一试验，看品种、技术等处理在不同环境下的差别[^casler2015fundamentals-e9]；在农民田里拿新做法和"农民常规做法"比[^kool2020reproducibility-e3] | 优先增加地点和年份，而不是重复数[^casler2015fundamentals-e8]；不把交互作用归因到没有重复的环境变量上[^casler2015fundamentals-e9]；农场试验不默认"农民常规做法"人人皆知[^kool2020reproducibility-e3]，并说明效应在什么条件下出现、对谁有用[^kool2020reproducibility-e7] | [田间试验：多环境试验](practices/field_trial.md#第-7-步多环境试验)、[田间试验：农场试验](practices/field_trial.md#第-8-步和农民一起做农场试验) |
-| [构建改进](../../05_research-strategies/build_improve.md) | 开发、校准和改进作物模型，用它预测新地点、新年份的作物表现。以预测作物发育期的物候模型为例，改进有两条路：改模型结构，或改校准[^wallach2023proposal-e7] | 作物模型几乎总要校准（用观测数据调整参数），因为模型只是近似[^wallach2023proposal-e2]。物候模型怎么校准没有共识，拿到同样数据的团队做法也差别很大[^wallach2023proposal-e1][^wallach2023proposal-e5]。国际农业模型比对与改进项目（Agricultural Model Intercomparison and Improvement Project，AgMIP）2023 年一项小麦物候研究的检验办法：检验数据的地点、年份都不和校准数据重合，也不给建模者看[^wallach2023proposal-e3]；误差和简单的基准模型比[^wallach2023proposal-e6]；每步校准都填文档表[^wallach2023proposal-e4]。AgMIP 2013 年的方案建议：为改进模型做的试验要同时收集气象、土壤和作物数据[^boote2013protocols-e1]，并存档留给后来的研究者[^boote2013protocols-e2] | [定量仿真：校准并留出检验数据](../../06_methods/simulation_study.md#第四步用真实数据校准并留出检验数据) |
+| [构建改进](../../05_research-strategies/build_improve.md) | 开发、校准和改进作物模型，用它预测新地点、新年份的作物表现。以预测作物发育期的物候模型为例，改进有两条路：改模型结构，或改校准[^wallach2023proposal-e7] | 作物模型几乎总要校准（用观测数据调整参数），因为模型只是近似[^wallach2023proposal-e2]。物候模型怎么校准没有共识，拿到同样数据的团队做法也差别很大[^wallach2023proposal-e1][^wallach2023proposal-e5]。国际农业模型比对与改进项目（Agricultural Model Intercomparison and Improvement Project，AgMIP）2023 年一项小麦物候研究的检验办法：检验数据的地点、年份都不和校准数据重合，也不给建模者看[^wallach2023proposal-e3]；误差和简单的基准模型比[^wallach2023proposal-e6]；每步校准都填文档表[^wallach2023proposal-e4]。Rosenzweig 等人 2013 年介绍 AgMIP 总体方案的论文，给作物建模团队定的做法是：拿模型输出和观测到的生长、产量数据比，以此评价模型[^rosenzweig2013agricultural-e1]；同一种作物用多个模型，用这组模型给出的不同结果估计作物模型的不确定性[^rosenzweig2013agricultural-e2]；参数校准和代码改进都要记录[^rosenzweig2013agricultural-e3]。这篇论文在墨西哥奥夫雷贡附近的小麦试点里，用 5 个作物模型和 5 个全球气候模型模拟本世纪中叶的产量：在 A2 排放情景下，模拟产量的方差 88% 来自作物模型之间的差异，只有 10% 来自气候模型之间的差异[^rosenzweig2013agricultural-e4]。AgMIP 2013 年的方案建议：为改进模型做的试验要同时收集气象、土壤和作物数据[^boote2013protocols-e1]，并存档留给后来的研究者[^boote2013protocols-e2] | [定量仿真：校准并留出检验数据](../../06_methods/simulation_study.md#第四步用真实数据校准并留出检验数据) |
 | [观察描述](../../05_research-strategies/observe_describe.md) | 用农户住户调查收集地块面积、投入和产出，描述农业生产，并分析其中的关系，例如农场大小和单位面积产量的关系[^carletto2013guesstimates-e8] | 世界银行研究人员 2013 年的一篇工作论文，用了马拉维、乌干达、坦桑尼亚、尼日尔四国的"生活水平测量研究—农业综合调查"（Living Standards Measurement Study–Integrated Surveys on Agriculture，LSMS-ISA）数据[^carletto2013guesstimates-e7]。结论：农户自报的地块面积有误差，误差还可能和农业结果相关[^carletto2013guesstimates-e1]；小地块多报、大地块少报[^carletto2013guesstimates-e2]；加控制变量解决不了[^carletto2013guesstimates-e3]。皮尺加罗盘绕地块测量是金标准，但全国性调查做不起[^carletto2013guesstimates-e5]；GPS 在小地块上也不完美，但误差可能和农业结果关系更小[^carletto2013guesstimates-e6]，作者主张把 GPS 测面积作为调查的常规部分[^carletto2013guesstimates-e4] | [问卷调查](../../06_methods/questionnaire_survey.md)、[访谈研究](../../06_methods/interview_study.md) |
 | [综合](../../05_research-strategies/synthesize.md) | 汇总已发表的田间试验做元分析（把多项研究的数据合起来统计），回答有机农业、保护性农业这类争议很大的问题[^krupnik2019does-e6] | 国际玉米小麦改良中心（西班牙文缩写 CIMMYT）等机构的研究者 2019 年提出三条评判元分析的建议：看论文和数据是怎么收集的；看研究问题的理由、耕作系统怎么界定、结论外推到什么尺度[^krupnik2019does-e1]；用在高度政治化的话题上时，解读要更保守[^krupnik2019does-e2]。他们指出，把农民多样的管理做法简化成能统计的类别是农学元分析的难点[^krupnik2019does-e5]；小区和试验站的试验不一定代表整块田或整个农场[^krupnik2019does-e3]；脱离具体耕作系统的"全球平均"结果难以指导政策和农民实践[^krupnik2019does-e4] | [综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)（以健康领域为例） |
 
 怎么用这张表 `[本项目分析]`：同一个田间试验常常前两种兼有，例如既比较几个品种，又估计施氮量的效应。按你最想支持的那个主张定主要套路；无论哪种，实验单位、重复和随机化的要求都一样。如果你的作物模型或元分析要用田间试验的数据，前两行对试验的要求也决定了这些数据可不可靠。
+
+表里没有的两件事：
+
+- **测量：本文只找到"方法怎么写"的要求。** 美国三学会的出版手册要求：材料与方法写得足够详细，让有能力的科学家能重复实验[^asa2024style-e12]；描述制备方法、设备和测量，用国际单位制认可的单位[^asa2024style-e13]；必须用商品名指明产品时，第一次提到就在括号里注明生产商或主要经销商[^asa2024style-e14]；各个性状是怎么测的也要写清[^asa2024style-e1]。测量方法本身要怎样验证才算可靠，以及其他套路的证据标准，本文资料未涉及。
+- **系统综述的报告规范：本文没找到农业专用的，相近的是环境领域的 ROSES。** ROSES（RepOrting standards for Systematic Evidence Syntheses，系统证据综合报告标准）是 Haddaway 等人 2018 年为保护和环境管理领域的系统综述和系统地图（systematic map，与系统综述并列的另一种证据综合）设计的报告表格和流程图[^haddaway2018roses-e2]。他们提出它，是因为 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）是为医疗卫生综述制定的，用到这个领域有局限，例如过分强调元分析[^haddaway2018roses-e1]。至少有一本农业期刊明确要求用它：CABI 出版的《CABI Agriculture and Bioscience》2025 年的投稿指南写明，该刊接收按事先定好的方案做的系统综述和系统地图[^cabiagbioevidencesynthesis-e1]，所有这类投稿都必须附 ROSES 表格[^cabiagbioevidencesynthesis-e2]；它还建议在开始综述前公开方案，例如发到农业预印本平台 agriRxiv[^cabiagbioevidencesynthesis-e3]。投别的农业期刊时，用哪份规范以目标期刊的要求为准 `[本项目分析]`。
 
 ## 本学科常用的研究方法
 
@@ -235,6 +240,9 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 [^asa2024style-e7]: 美国农学会等 2024，出版手册第 5 章。[证据](../../../sources/notes/asa2024style.md#e7)
 [^asa2024style-e8]: 美国农学会等 2024，出版手册第 1 章。[证据](../../../sources/notes/asa2024style.md#e8)
 [^asa2024style-e9]: 美国农学会等 2024，出版手册第 4 章。[证据](../../../sources/notes/asa2024style.md#e9)
+[^asa2024style-e12]: 美国农学会等 2024，出版手册第 1 章 Research Papers。[证据](../../../sources/notes/asa2024style.md#e12)
+[^asa2024style-e13]: 美国农学会等 2024，出版手册第 1 章 Research Papers。[证据](../../../sources/notes/asa2024style.md#e13)
+[^asa2024style-e14]: 美国农学会等 2024，出版手册第 1 章 Research Papers。[证据](../../../sources/notes/asa2024style.md#e14)
 [^sciencesocietieseditorial-e1]: 美国农学会等，Editorial Policies，Data Policy。[证据](../../../sources/notes/sciencesocietieseditorial.md#e1)
 [^sciencesocietieseditorial-e2]: 美国农学会等，Editorial Policies，Data Policy。[证据](../../../sources/notes/sciencesocietieseditorial.md#e2)
 [^sciencesocietieseditorial-e3]: 美国农学会等，Editorial Policies，Prior Publication。[证据](../../../sources/notes/sciencesocietieseditorial.md#e3)
@@ -293,6 +301,10 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 [^wallach2023proposal-e7]: Wallach 等人 2023，§1 Introduction。[证据](../../../sources/notes/wallach2023proposal.md#e7)
 [^boote2013protocols-e1]: Boote & Jones 2013，AgMIP 作物模型改进团队方案，Framework for Proposed Crop Model Improvement Activities。[证据](../../../sources/notes/boote2013protocols.md#e1)
 [^boote2013protocols-e2]: Boote & Jones 2013，AgMIP 作物模型改进团队方案，Framework for Proposed Crop Model Improvement Activities。[证据](../../../sources/notes/boote2013protocols.md#e2)
+[^rosenzweig2013agricultural-e1]: Rosenzweig 等人 2013，§3.2 Crop Modeling Team Protocols。[证据](../../../sources/notes/rosenzweig2013agricultural.md#e1)
+[^rosenzweig2013agricultural-e2]: Rosenzweig 等人 2013，§3.2 Crop Modeling Team Protocols。[证据](../../../sources/notes/rosenzweig2013agricultural.md#e2)
+[^rosenzweig2013agricultural-e3]: Rosenzweig 等人 2013，§3.2 Crop Modeling Team Protocols。[证据](../../../sources/notes/rosenzweig2013agricultural.md#e3)
+[^rosenzweig2013agricultural-e4]: Rosenzweig 等人 2013，§5.1 小麦试点。[证据](../../../sources/notes/rosenzweig2013agricultural.md#e4)
 [^carletto2013guesstimates-e1]: Carletto 等人 2013，世界银行工作论文 6550，Abstract。[证据](../../../sources/notes/carletto2013guesstimates.md#e1)
 [^carletto2013guesstimates-e2]: Carletto 等人 2013，世界银行工作论文 6550，§4 Conclusions。[证据](../../../sources/notes/carletto2013guesstimates.md#e2)
 [^carletto2013guesstimates-e3]: Carletto 等人 2013，世界银行工作论文 6550，§4 Conclusions。[证据](../../../sources/notes/carletto2013guesstimates.md#e3)
@@ -309,3 +321,6 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 [^krupnik2019does-e6]: Krupnik 等人 2019，Summary。[证据](../../../sources/notes/krupnik2019does.md#e6)
 [^haddaway2018roses-e1]: Haddaway 等人 2018，Abstract。[证据](../../../sources/notes/haddaway2018roses.md#e1)
 [^haddaway2018roses-e2]: Haddaway 等人 2018，Abstract。[证据](../../../sources/notes/haddaway2018roses.md#e2)
+[^cabiagbioevidencesynthesis-e1]: 《CABI Agriculture and Bioscience》投稿指南 Evidence Synthesis（2025 年 5 月存档）。[证据](../../../sources/notes/cabiagbioevidencesynthesis.md#e1)
+[^cabiagbioevidencesynthesis-e2]: 《CABI Agriculture and Bioscience》投稿指南 Evidence Synthesis（2025 年 5 月存档）。[证据](../../../sources/notes/cabiagbioevidencesynthesis.md#e2)
+[^cabiagbioevidencesynthesis-e3]: 《CABI Agriculture and Bioscience》投稿指南 Evidence Synthesis（2025 年 5 月存档）。[证据](../../../sources/notes/cabiagbioevidencesynthesis.md#e3)

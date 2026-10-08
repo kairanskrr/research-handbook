@@ -144,21 +144,27 @@
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的四种。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，按核心主张来定，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的五种。
 
-表的分组和"在艺术里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个机构、那个国家或那篇文章的做法 `[本项目分析]`。表里的测量一行属于音乐认知（也叫音乐心理学），它和心理学交叉，通用规矩见[心理学篇](../psychology/README.md) `[本项目分析]`。综合（例如艺术领域的系统综述）等其他套路，本文资料未涉及。
+表的分组和"在艺术里的样子"一栏是本项目的归纳；每条标准只代表脚注里那个机构、那个国家或那篇文章的做法 `[本项目分析]`。表里的测量一行属于音乐认知（也叫音乐心理学），它和心理学交叉，通用规矩见[心理学篇](../psychology/README.md) `[本项目分析]`。其他套路本文资料未涉及。
 
 | 套路 | 在艺术里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
 | [构建改进](../../05_research-strategies/build_improve.md) | 基于实践的研究：创作出的作品是知识贡献的基础[^candy2006practice-e1] | 作品加过程记录和文字分析，用来展示批判性反思[^candy2006practice-e5]；新知识要能分享、能被核验或质疑[^candy2006practice-e8]；英国 REF 2021 评原创性、重要性和严谨性，忽略自我评价质量的材料[^ref2019panel-e5]；《维也纳宣言》主张由覆盖作品所涉各项学科能力的同行评议来认定[^aec2020vienna-e4] | [基于实践的研究](practices/practice_based_research.md) |
 | [解读论证](../../05_research-strategies/interpret_argue.md) | 艺术史、音乐学、戏剧研究等关于艺术的研究[^oecd2015frascati-e12]，研究作品、文献和档案 | 仔细记录发现，向他人公开所用的资料、证据和数据，不歪曲证据（美国 CAA）[^caa2014standards-e1]；照片来源、他人口头或手写的意见，相关时都要注明[^caa2014standards-e3][^caa2014standards-e4] | [档案研究](../../06_methods/archival_research.md)；资料批判见[历史与考古篇](../history-archaeology/README.md#证据在这里指什么) |
-| [测量](../../05_research-strategies/measure.md) | 音乐认知的实验：用行为任务测听者怎样感知节奏、音高、情绪等，也做跨文化比较 | 本行出自 2020 年一篇 20 位作者的立场文章，源于德国马克斯·普朗克实证美学研究所 2018 年的研讨，作者说明它不是完整清单[^jacoby2020crosscultural-e3]。文章指出，音乐心理学的被试几乎都来自 WEIRD 社会（Western, Educated, Industrialized, Rich, Democratic，即西方、受过教育、工业化、富裕、民主），材料也多取自西方音乐[^jacoby2020crosscultural-e1]，结论不一定代表全人类[^jacoby2020crosscultural-e2]。建议：外来的概念、记谱法或量表，别不经确认就用在另一种音乐文化的被试身上[^jacoby2020crosscultural-e5]；跨文化用评分量表，要做控制实验确认被试看懂了，材料要和熟悉该文化的专家一起预试[^jacoby2020crosscultural-e6]；也可改用打拍、唱旋律这类不靠语言的任务[^jacoby2020crosscultural-e7]；想更贴近真实的音乐生活（生态效度），就用更多样的音乐和表演场景，但要和实验控制取舍[^jacoby2020crosscultural-e8] | [对照实验](../../06_methods/controlled_experiment.md)；被试和量表的通用要求见心理学篇的[被试：学生样本和 WEIRD 样本](../psychology/README.md#被试学生样本和-weird-样本)、[测量：用有效度证据的量表](../psychology/README.md#测量用有效度证据的量表) |
+| [测量](../../05_research-strategies/measure.md) | 音乐认知的实验：用行为任务测听者怎样感知节奏、音高、情绪等，也做跨文化比较；实证美学和音乐科学期刊的投稿要求见表后 | 本行出自 2020 年一篇 20 位作者的立场文章，源于德国马克斯·普朗克实证美学研究所 2018 年的研讨，作者说明它不是完整清单[^jacoby2020crosscultural-e3]。文章指出，音乐心理学的被试几乎都来自 WEIRD 社会（Western, Educated, Industrialized, Rich, Democratic，即西方、受过教育、工业化、富裕、民主），材料也多取自西方音乐[^jacoby2020crosscultural-e1]，结论不一定代表全人类[^jacoby2020crosscultural-e2]。建议：外来的概念、记谱法或量表，别不经确认就用在另一种音乐文化的被试身上[^jacoby2020crosscultural-e5]；跨文化用评分量表，要做控制实验确认被试看懂了，材料要和熟悉该文化的专家一起预试[^jacoby2020crosscultural-e6]；也可改用打拍、唱旋律这类不靠语言的任务[^jacoby2020crosscultural-e7]；想更贴近真实的音乐生活（生态效度），就用更多样的音乐和表演场景，但要和实验控制取舍[^jacoby2020crosscultural-e8] | [对照实验](../../06_methods/controlled_experiment.md)；被试和量表的通用要求见心理学篇的[被试：学生样本和 WEIRD 样本](../psychology/README.md#被试学生样本和-weird-样本)、[测量：用有效度证据的量表](../psychology/README.md#测量用有效度证据的量表) |
 | [观察描述](../../05_research-strategies/observe_describe.md) | 民族音乐学和在世艺术传统的田野研究：观察、参与、访谈、录音 | 田野笔记、录音、照片等记录对历史记录也重要，应当归档保存（美国 SEM）[^sem2008irb-e3]；相关田野资料要存放，并在社区里留一份发表的成果（美国 CAA）[^caa2014standards-e5]；怎样判断描述够不够，本文资料未涉及 | [案例研究与民族志](../../06_methods/case_study.md)、[访谈研究](../../06_methods/interview_study.md) |
+| [综合](../../05_research-strategies/synthesize.md) | 艺术与健康研究的综述：汇总来自不同学科、用不同方法的研究 | 本行只出自一篇报告：世卫组织欧洲区域办事处 2019 年发布的 Fancourt 和 Finn 的范围综述（先摸清有哪些证据，见[综合](../../05_research-strategies/synthesize.md)里的映射研究）。它的目标是尽量广地呈现已有证据，不按研究方法筛选[^fancourt2019evidence-e1]；作者说明没有做系统检索，选范围综述而不选系统综述，是为了不受研究设计和结局指标的限制，作者认为这对如此跨学科的领域很重要[^fancourt2019evidence-e2]；证据质量参差，报告对照优势不同的多项研究的发现（三角互证），来弥补单项研究的弱点和偏倚[^fancourt2019evidence-e3]；只检索了英文和俄文文献[^fancourt2019evidence-e4]。艺术史、音乐学等方向的综述标准，本文资料未涉及 | [综述研究](../../06_methods/review_study.md) |
 
 怎么用这张表 `[本项目分析]`：
 
 - **先分清是哪一类研究**（见[先分清两类研究](#先分清两类研究)），再按核心主张找套路。实践引导的研究主要带来对实践的新理解[^candy2006practice-e1]，常落在行动研究的大范围里[^candy2006practice-e3]；它归入哪种套路，套路页暂未讨论，按你的核心主张来定。
 - **同一种套路，艺术里的"够不够"和别的学科很不同。** 基于实践的研究也是"做出新东西"，但一般不和基线比较（见[构建改进](../../05_research-strategies/build_improve.md#5-哪些学科常用)）；关键是把研究说清楚，好的实践不一定是好的实践研究[^bulley2021practice-e2]。
+
+**实证美学和音乐科学期刊的投稿要求。** 下面是两本期刊投稿说明的要点（据 2024 年的网页存档），只代表这两本期刊：
+
+- 《Psychology of Aesthetics, Creativity, and the Arts》（美国心理学会第 10 分会的期刊）刊发原创实证研究和对已有研究的综合评价，一般不鼓励质性研究、案例研究和文献综述[^apa2024aesthetics-e1]。它接收注册报告：先投引言和方法（含假设、用统计功效分析确定的样本量、分析流程），这一步通过，无论结果如何原则上都接收[^apa2024aesthetics-e2]（来龙去脉见心理学篇的[之后改了什么](../psychology/README.md#之后改了什么)）。投稿说明里写着，美国心理学会期望作者在审稿期间和发表后至少 5 年内能提供数据[^apa2024aesthetics-e3]；该刊还建议描述被试样本，并说明结论推广范围的限制[^apa2024aesthetics-e4]。
+- 《Music & Science》（Sage 出版）要求随文提交原始数据（如统计数据文件、复现代码、音频、视频），或在文中详细说明怎样获取[^sage2024musicscience-e1]，并标注清楚，让审稿人或读者能重做你的分析[^sage2024musicscience-e2]。方法部分要说明被试是否知情同意、是书面还是口头同意[^sage2024musicscience-e4]。审稿是双盲的，至少两位审稿人[^sage2024musicscience-e3]。
 
 ---
 
@@ -315,3 +321,15 @@
 [^jacoby2020crosscultural-e6]: Jacoby 等 2020，第 191 页，Empirical Methods: Recommendations。[证据](../../../sources/notes/jacoby2020crosscultural.md#e6)
 [^jacoby2020crosscultural-e7]: Jacoby 等 2020，第 191 页，Empirical Methods: Recommendations。[证据](../../../sources/notes/jacoby2020crosscultural.md#e7)
 [^jacoby2020crosscultural-e8]: Jacoby 等 2020，第 188 页，Music: Recommendations。[证据](../../../sources/notes/jacoby2020crosscultural.md#e8)
+[^fancourt2019evidence-e1]: Fancourt & Finn 2019，第 6 页，1.2 Methodology。[证据](../../../sources/notes/fancourt2019evidence.md#e1)
+[^fancourt2019evidence-e2]: Fancourt & Finn 2019，第 51 页，3.1 Strengths and limitations of the review。[证据](../../../sources/notes/fancourt2019evidence.md#e2)
+[^fancourt2019evidence-e3]: Fancourt & Finn 2019，第 viii 页，Summary。[证据](../../../sources/notes/fancourt2019evidence.md#e3)
+[^fancourt2019evidence-e4]: Fancourt & Finn 2019，第 51 页，3.1 Strengths and limitations of the review。[证据](../../../sources/notes/fancourt2019evidence.md#e4)
+[^apa2024aesthetics-e1]: APA，Psychology of Aesthetics, Creativity, and the Arts 期刊页面（2024 年存档），Journal scope statement。[证据](../../../sources/notes/apa2024aesthetics.md#e1)
+[^apa2024aesthetics-e2]: APA，同上，Submission guidelines：Registered Reports。[证据](../../../sources/notes/apa2024aesthetics.md#e2)
+[^apa2024aesthetics-e3]: APA，同上，Submission guidelines：Ethical Principles。[证据](../../../sources/notes/apa2024aesthetics.md#e3)
+[^apa2024aesthetics-e4]: APA，同上，Inclusive reporting standards。[证据](../../../sources/notes/apa2024aesthetics.md#e4)
+[^sage2024musicscience-e1]: Sage，Music & Science 投稿说明（2024 年存档），4.7 Data。[证据](../../../sources/notes/sage2024musicscience.md#e1)
+[^sage2024musicscience-e2]: Sage，同上，4.7 Data。[证据](../../../sources/notes/sage2024musicscience.md#e2)
+[^sage2024musicscience-e3]: Sage，同上，4.1 Peer review policy。[证据](../../../sources/notes/sage2024musicscience.md#e3)
+[^sage2024musicscience-e4]: Sage，同上，4.8 Research ethics and participant consent。[证据](../../../sources/notes/sage2024musicscience.md#e4)

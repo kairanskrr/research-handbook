@@ -31,7 +31,9 @@ ASME 既办期刊，也办会议。它的综合性年会叫"国际机械工程�
 
 **会议论文转期刊（ASME 期刊的规定）。** ASME 期刊接受在会议上发表过的论文，但要写明是哪个会议、会后改了什么[^asmeconfpapers-e1]；送不送审、发不发表由期刊主编决定[^asmeconfpapers-e2]。如果是 ASME 自己的会议，要等收到会议录用通知后才能投 ASME 期刊，以免重复投稿[^asmeconfpapers-e3]。期刊会重新独立审稿[^asmeconfpapers-e4]，期刊版要在脚注和参考文献里引用会议版[^asmeconfpapers-e5]。投其他出版方（如 Elsevier、Springer、国内期刊）时，以对方的规定为准 `[本项目分析]`。
 
-本文资料未涉及机械工程整体上以期刊为主还是以会议为主；各方向（例如机器人）可能不同，以导师和目标期刊、会议的要求为准。
+**期刊还是会议为主。** 本文资料没有直接统计机械工程论文发在期刊还是会议，只有一项间接数据：Lisée 等人 2008 年统计了 1980–2005 年 Thomson 引文索引（今 Web of Science 的前身）所收期刊论文的参考文献[^lisee2008conference-e1]。这 26 年里，机械工程论文引用的文献约 8% 是会议论文，计算机是 19.6%，都属于会议论文占比最高的一批子领域[^lisee2008conference-e2]；而 2005 年全部自然科学和工程论文的参考文献里，会议论文只占约 1.7%[^lisee2008conference-e3]。可见机械工程期刊论文引用的大多不是会议论文，但会议论文的分量比多数学科重；注意它统计的是"引用了什么"，不是"发在哪里"。各方向（例如机器人）可能不同，以导师和目标期刊、会议的要求为准 `[本项目分析]`。
+
+**审稿要多久（跨学科统计，只作参考）。** Björk 和 Solomon 2013 年发表的研究，从 Scopus 引文数据库分层随机抽了 135 本期刊的 2700 篇论文[^bjork2013publishing-e1]；每本期刊取 2012 年最后刊出的 20 篇往前数，期刊被粗分成工程、地球科学、社会科学等九组[^bjork2013publishing-e2]。"投稿到录用"这段反映审稿和修改花的时间，"录用到刊出"反映出版流程和排队等待刊出的时间[^bjork2013publishing-e3]。工程组期刊这两段平均是 5.0 个月和 4.3 个月[^bjork2013publishing-e4]。但同一组里各期刊之间的差别，比组与组之间的差别大得多[^bjork2013publishing-e5]。这项研究没有单列机械工程，数据也是十多年前的，只能当大致参考；目标期刊实际要多久，以期刊公布的数据为准 `[本项目分析]`。
 
 ### 署名：做试验、搭平台的人也要考虑
 
@@ -259,3 +261,11 @@ ASME 要求会员遵守它的《工程师伦理准则》[^asme2024ethics-e1]。�
 [^cmu2025machineshop-e6]: Carnegie Mellon University EHS，Machine Shop Safety Guideline（2025），7.o。[证据](../../../sources/notes/cmu2025machineshop.md#e6)
 [^cmu2025machineshop-e7]: Carnegie Mellon University EHS，Machine Shop Safety Guideline（2025），7.t。[证据](../../../sources/notes/cmu2025machineshop.md#e7)
 [^cmu2025machineshop-e8]: Carnegie Mellon University EHS，Machine Shop Safety Guideline（2025），7.m。[证据](../../../sources/notes/cmu2025machineshop.md#e8)
+[^lisee2008conference-e1]: Lisée、Larivière 与 Archambault 2008，Methods。[证据](../../../sources/notes/lisee2008conference.md#e1)
+[^lisee2008conference-e2]: Lisée、Larivière 与 Archambault 2008，Results（Figure 6 及其说明）。[证据](../../../sources/notes/lisee2008conference.md#e2)
+[^lisee2008conference-e3]: Lisée、Larivière 与 Archambault 2008，Results。[证据](../../../sources/notes/lisee2008conference.md#e3)
+[^bjork2013publishing-e1]: Björk 与 Solomon 2013，摘要。[证据](../../../sources/notes/bjork2013publishing.md#e1)
+[^bjork2013publishing-e2]: Björk 与 Solomon 2013，§2 Methods。[证据](../../../sources/notes/bjork2013publishing.md#e2)
+[^bjork2013publishing-e3]: Björk 与 Solomon 2013，§3 Results。[证据](../../../sources/notes/bjork2013publishing.md#e3)
+[^bjork2013publishing-e4]: Björk 与 Solomon 2013，附录 Publication Time in Months by Discipline 表。[证据](../../../sources/notes/bjork2013publishing.md#e4)
+[^bjork2013publishing-e5]: Björk 与 Solomon 2013，§4 Discussion。[证据](../../../sources/notes/bjork2013publishing.md#e5)

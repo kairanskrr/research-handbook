@@ -2,7 +2,7 @@
 
 本文讲地球与环境科学（地质、地球物理、大气与气候、海洋、水文，以及和生态相邻的环境科学）的研究里几件具体的事：野外工作、样品、数值模式、模式比较计划，以及数据、代码和不确定性怎样报告。各学科共通的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)；本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。采样计划、质量控制样品、检出限这类测量问题，见[环境工程](../environmental-engineering/README.md)；以实验室为主的生态和生命科学研究，见[生物科学](../biological-sciences/README.md)；考古发掘的伦理，见[历史与考古](../history-archaeology/README.md)。
 
-本文的规范类资料主要来自三家，各管各的：**美国地球物理学会**（American Geophysical Union，AGU）的伦理政策管它的会员和参加其活动的人，它的数据指南管投 AGU 期刊的稿件；期刊**《地球科学模式开发》**（Geoscientific Model Development，GMD，欧洲地球科学联合会 EGU 旗下、由出版社 Copernicus 出版）的代码政策只管投 GMD 的稿件；**政府间气候变化专门委员会**（Intergovernmental Panel on Climate Change，IPCC）的不确定性指南是写给它的评估报告作者的。它们都不是全学科的统一规定。你所在国家、单位和目标期刊的要求，以它们自己的规定为准 `[本项目分析]`。
+本文的规范类资料主要来自三家，各管各的：**美国地球物理学会**（American Geophysical Union，AGU）的伦理政策管它的会员和参加其活动的人，它的数据指南管投 AGU 期刊的稿件；期刊**《地球科学模式开发》**（Geoscientific Model Development，GMD，欧洲地球科学联合会 EGU 旗下、由出版社 Copernicus 出版）的代码政策只管投 GMD 的稿件；**政府间气候变化专门委员会**（Intergovernmental Panel on Climate Change，IPCC）的不确定性指南，以及它 2009 年专家会议的检测与归因指导文件，都是写给它的评估报告作者的。它们都不是全学科的统一规定。你所在国家、单位和目标期刊的要求，以它们自己的规定为准 `[本项目分析]`。
 
 **读完本文，你应该能：**
 
@@ -157,12 +157,19 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 模式比较计划：协调全球气候模式模拟的设计和数据分发[^eyring2016cmip6-e1]，在多个模式的框架下理解气候变化[^eyring2016cmip6-e4] | 参加 CMIP6 的模式必须跑一组规定试验，并采用共同的数据标准[^eyring2016cmip6-e2] | [定量仿真](../../06_methods/simulation_study.md)、上文[模式比较计划](#模式比较计划) |
 | [综合](../../05_research-strategies/synthesize.md) | IPCC 评估报告，有专门写给报告作者的不确定性指南[^mastrandrea2010ipcc-e1] | 信度按证据的类型、数量、质量、一致性和各方一致的程度来判断[^mastrandrea2010ipcc-e2]；可能性用词对应固定的概率区间[^mastrandrea2010ipcc-e6] | 上文[IPCC 的用语](#表达不确定性ipcc-的用语)、[综述研究](../../06_methods/review_study.md) |
 
-怎么用这张表 `[本项目分析]`：一个项目常同时有野外、实验室和模拟三部分（见上文），按核心主张定主要套路，其他部分按各自的标准做。本学科的学会或期刊对因果研究有没有专门的评判标准，本文资料未涉及。
+怎么用这张表 `[本项目分析]`：一个项目常同时有野外、实验室和模拟三部分（见上文），按核心主张定主要套路，其他部分按各自的标准做。本学科的学会或期刊对因果研究有没有专门的评判标准，本文资料未涉及；最接近的是下文 IPCC 专家会议的一份指导文件，它只管气候变化的"检测与归因"。
 
 两行"解释因果"的标准出自两篇观点文章，是作者的主张，不是学会或期刊的统一规定 `[本项目分析]`：
 
 - **野外操纵试验：Davies 和 Gray 2015 年（生态学）。** 他们主张：仔细界定假设和关心的总体，承认统计推断的局限，用嵌套、随机效应等统计方法[^davies2015pseudoreplication-e3]。对照样地怎么选、论文里怎么交代，见[野外观测研究：对付不可重复的事件](../../06_methods/field_study.md#第十步对付不可重复的事件)。
 - **用数据推断因果：Runge 等人 2019 年（地球系统科学）。** 很多时间序列因果推断方法假设原因在结果之前、所有直接的共同驱动因素都观测到了[^runge2019inferring-e4]。用之前要想清它们会不会不成立：相关的驱动因素常常测不到，测不到的驱动因素可能让检出的联系是假的[^runge2019inferring-e5]；时间分辨率不够，因果联系可能看起来同时发生，甚至成环[^runge2019inferring-e7]。相比之下，"没有因果联系"这类结论需要的假设更弱，更稳健[^runge2019inferring-e6]。因果推断的一般逻辑见[解释因果](../../05_research-strategies/explain_causality.md)。
+
+**气候变化的"检测与归因"：IPCC 专家会议的指导文件（Hegerl 等 2010）。** 2009 年 IPCC 第一、第二工作组开了一次专家会议，会后的《检测与归因良好做法指导文件》写给今后的 IPCC 报告作者，给出评判研究质量的准则和良好做法建议[^hegerl2010good-e2]。它不是学会或期刊的投稿要求；报告还注明，它不代表 IPCC 工作组或专委会认可，也没有经过 IPCC 的正式评审[^hegerl2010good-e1]。做气候变化及其影响的检测与归因研究，可以用下面几条自查 `[本项目分析]`：
+
+- **分清检测和归因。** 检测是证明气候或受气候影响的系统在统计意义上变了，但不说原因；归因是评估几个原因各自贡献多少，并说明统计上有多大把握，前提是先检测到变化[^hegerl2010good-e3]。
+- **写明归因于哪个原因，并排查别的解释。** 定量结果稳健、对因果链条中的过程理解扎实，结论更可信[^hegerl2010good-e6]。**混杂因素**指影响研究对象、但研究设计没考虑到的因素，可能让你得出错误的因果结论[^hegerl2010good-e4]；对其他可能的原因、混杂因素和观测数据局限考虑得多充分，影响归因的可信程度；用模式归因，要评估模式能否正确表现这条因果联系[^hegerl2010good-e7]。
+- **分几步归因要明说，每一步各给[信度](#表达不确定性ipcc-的用语)。** 例如先把海洋生物钙化下降归因于海水化学变化，再把海水化学变化归因于大气二氧化碳增加；总体结论一般不会强于最弱的那一步[^hegerl2010good-e5]。
+- **每一步都记录下来**，方便别人核查和重复[^hegerl2010good-e8]。
 
 ---
 
@@ -323,3 +330,11 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 [^runge2019inferring-e5]: Runge 等人 2019，Challenges。[证据](../../../sources/notes/runge2019inferring.md#e5)
 [^runge2019inferring-e6]: Runge 等人 2019，Challenges。[证据](../../../sources/notes/runge2019inferring.md#e6)
 [^runge2019inferring-e7]: Runge 等人 2019，Challenges。[证据](../../../sources/notes/runge2019inferring.md#e7)
+[^hegerl2010good-e1]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），报告封面。[证据](../../../sources/notes/hegerl2010good.md#e1)
+[^hegerl2010good-e2]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），Executive Summary，第 1 页。[证据](../../../sources/notes/hegerl2010good.md#e2)
+[^hegerl2010good-e3]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），§1，第 2 页。[证据](../../../sources/notes/hegerl2010good.md#e3)
+[^hegerl2010good-e4]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），§1，第 2 页。[证据](../../../sources/notes/hegerl2010good.md#e4)
+[^hegerl2010good-e5]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），§2 II，第 3 页。[证据](../../../sources/notes/hegerl2010good.md#e5)
+[^hegerl2010good-e6]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），§2，第 4 页。[证据](../../../sources/notes/hegerl2010good.md#e6)
+[^hegerl2010good-e7]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），§2，第 5 页。[证据](../../../sources/notes/hegerl2010good.md#e7)
+[^hegerl2010good-e8]: Hegerl 等人 2010（IPCC 检测与归因专家会议报告），§2，第 5 页。[证据](../../../sources/notes/hegerl2010good.md#e8)

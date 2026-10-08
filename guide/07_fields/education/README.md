@@ -52,7 +52,8 @@
 
 - **期刊和学会会议。** 例如 BERA 每年办大型国际会议，并出版同行评审期刊[^bera2024ethical-e22]；AERA 2013 年决定创办开放获取期刊 AERA Open[^makel2014facts-e10]。
 - **工作论文。** 面向教育政策的研究可以先发到工作论文系列，例如开放获取的 EdWorkingPapers[^edworkingpapersabout-e1]：论文在正式发表前公开、供讨论，没有经过同行评审[^edworkingpapersabout-e2]，主要收录对教育政策有重要意义、打算最终投期刊的研究[^edworkingpapersabout-e3]。
-- **审稿周期、会议论文算不算正式成果**：本文资料未涉及，以导师和目标期刊的要求为准。
+- **会议论文算不算正式发表（以美国 AERA 为例）。** AERA 不出版会议论文集；年会报告可以自愿放进它开放获取的在线论文库[^aerapublicationsfaq-e1]。放进论文库的年会论文，作者保留版权，会后可以投期刊[^aerapublicationsfaq-e2]。所以在 AERA 年会报告过，不等于在期刊发表过；你的单位把会议报告算不算成果，以单位规定为准 `[本项目分析]`。
+- **审稿要多久（跨学科统计，只作参考）。** Björk 和 Solomon 2013 年发表的研究，从 Scopus 引文数据库分层随机抽了 135 本期刊的 2700 篇论文[^bjork2013publishing-e1]；每本期刊取 2012 年最后刊出的 20 篇往前数，期刊被粗分成社会科学、工程等九组，没有单列教育学[^bjork2013publishing-e2]。"投稿到录用"反映审稿和修改的时间，"录用到刊出"反映出版流程和排队等待刊出的时间[^bjork2013publishing-e3]；社会科学组这两段平均是 6.2 个月和 7.9 个月[^bjork2013publishing-e6]。同一组里各期刊之间的差别，比组与组之间大得多[^bjork2013publishing-e5]，所以目标期刊实际要多久，以期刊公布的数据为准 `[本项目分析]`。
 - **署名。** 英国 BERA：学者和中小学教师合作的研究，凡有实质贡献的人都应列为合著者[^bera2024ethical-e18]；资历不决定第一作者，可以按贡献排序，也可以约定按字母排序[^bera2024ethical-e19]。美国 AERA 伦理准则：署名顺序按相对贡献，与地位无关[^aera2011code-e11]；主要来自学生学位论文的多作者论文，学生通常是第一作者[^aera2011code-e12]。通用做法见贯穿全程的[处理好署名和功劳](../../08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)。
 
 ---
@@ -328,3 +329,10 @@ Makel 和 Plucker 2014 年在 Educational Researcher 发表了一项分析（本
 [^edworkingpapersabout-e1]: EdWorkingPapers，About。[证据](../../../sources/notes/edworkingpapersabout.md#e1)
 [^edworkingpapersabout-e2]: EdWorkingPapers，About。[证据](../../../sources/notes/edworkingpapersabout.md#e2)
 [^edworkingpapersabout-e3]: EdWorkingPapers，Scope。[证据](../../../sources/notes/edworkingpapersabout.md#e3)
+[^aerapublicationsfaq-e1]: AERA，Publications FAQs（2026 年 10 月读取），AERA Online Paper Repository。[证据](../../../sources/notes/aerapublicationsfaq.md#e1)
+[^aerapublicationsfaq-e2]: AERA，Publications FAQs（2026 年 10 月读取），AERA Online Paper Repository。[证据](../../../sources/notes/aerapublicationsfaq.md#e2)
+[^bjork2013publishing-e1]: Björk 与 Solomon 2013，摘要。[证据](../../../sources/notes/bjork2013publishing.md#e1)
+[^bjork2013publishing-e2]: Björk 与 Solomon 2013，§2 Methods。[证据](../../../sources/notes/bjork2013publishing.md#e2)
+[^bjork2013publishing-e3]: Björk 与 Solomon 2013，§3 Results。[证据](../../../sources/notes/bjork2013publishing.md#e3)
+[^bjork2013publishing-e6]: Björk 与 Solomon 2013，附录 Publication Time in Months by Discipline 表。[证据](../../../sources/notes/bjork2013publishing.md#e6)
+[^bjork2013publishing-e5]: Björk 与 Solomon 2013，§4 Discussion。[证据](../../../sources/notes/bjork2013publishing.md#e5)

@@ -158,12 +158,13 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 怎么用这张表 `[本项目分析]`：
 
 - **复现已发表的实验，也按这些标准做。** 大型复现项目发现了什么，见上文[可复现性](#可复现性领域正在面对的问题)；做法见[复现研究](../../06_methods/replication.md)。
-- **其他套路本文资料未涉及。** 例如开发新实验技术或分析软件的研究在生物科学里按什么标准评判，先读目标期刊的要求。
+- **开发新实验技术或分析软件，先读目标期刊的要求。** 本文只读了两本期刊的说明，各自只代表本刊。《自然—方法》（Nature Methods）的办刊宗旨要求：方法要有充分的验证，要用在一个重要的生物学问题上，还要拿结果和现有方法比性能[^naturemethodsaims-e1]；选稿看读者面、对方法性能的评估是否全面、技术描述是否完整到别人能马上用上[^naturemethodsaims-e2]。《PLOS 计算生物学》（PLOS Computational Biology）接收的软件文章，介绍的是广泛有用、在提供新的生物学认识上有重大进步的开源（公开源代码、允许别人使用和修改）工具[^ploscompbiolsubmission-e1]；软件要已被广泛采用或有望被广泛采用，源代码要能匿名下载、用开源许可证，还要附上安装和使用文档，包括怎样用附带的测试数据检验软件[^ploscompbiolsubmission-e2]。
+- **其他套路本文资料未涉及。**
 
 组学和系统综述两行引用的是具体组织在具体年份发布的标准，不是生物科学的统一规定；现在具体交什么、按什么报告，以目标期刊和数据仓库的要求为准 `[本项目分析]`。
 
 - **组学数据：MIAME 和 MINSEQE。** MIAME（Minimum Information About a Microarray Experiment，基因芯片实验最低信息标准）2001 年提出[^fgedmiame-e1]；MINSEQE（Minimum Information about a high-throughput nucleotide SEQuencing Experiment，高通量测序实验最低信息标准）1.0 版发布于 2012 年[^fgedminseqe-e3]。两者都由功能基因组数据学会（Functional Genomics Data Society，FGED）维护，这个学会已经停止运作[^fgedmiame-e3]。MIAME 特别要求写清哪个数据文件对应哪个样品，哪些是技术重复、哪些是生物学重复[^fgedmiame-e2]。数据交到哪个数据库，见上文[数据交到公共数据库](#数据交到公共数据库)。
-- **生态学和进化生物学的综述：PRISMA-EcoEvo。** 它是系统综述报告规范 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）面向这两个学科的扩展版，2021 年发布，有 27 个主要条目[^odea2021preferred-e5]。其中一条：把综述的目标和方法登记在公开、带时间戳的存档里，最好在检索文献之前[^odea2021preferred-e6]。它的作者评估了 2010–2019 年发表的 102 篇系统综述和元分析，发现报告质量远不理想[^odea2021preferred-e3]；引用了报告指南的少数论文（约 16%），报告质量明显高于平均[^odea2021preferred-e4]。分子和细胞方向的系统综述用哪份清单，本文资料未涉及；通用的 PRISMA 2020 见[元分析](../../06_methods/meta_analysis.md#第-8-步按-prisma-2020-报告)。
+- **生态学和进化生物学的综述：PRISMA-EcoEvo。** 它是系统综述报告规范 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）面向这两个学科的扩展版，2021 年发布，有 27 个主要条目[^odea2021preferred-e5]。其中一条：把综述的目标和方法登记在公开、带时间戳的存档里，最好在检索文献之前[^odea2021preferred-e6]。它的作者评估了 2010–2019 年发表的 102 篇系统综述和元分析，发现报告质量远不理想[^odea2021preferred-e3]；引用了报告指南的少数论文（约 16%），报告质量明显高于平均[^odea2021preferred-e4]。分子和细胞方向（例如汇总体外实验）专门的系统综述报告清单，本文没有找到。通用的 PRISMA 2020 主要为评价健康干预效果的系统综述设计，但它的作者说明，很多条目也适用于目标不是评价干预的系统综述[^page2021prisma-e17]；可以先按它报告，用法见[元分析](../../06_methods/meta_analysis.md#第-8-步按-prisma-2020-报告)。汇总的是动物实验时，再用下一条的 SYRCLE 工具评价偏倚 `[本项目分析]`。
 - **汇总动物实验：SYRCLE 偏倚风险工具。** SYRCLE 是实验动物系统综述中心（SYstematic Review Centre for Laboratory animal Experimentation）[^hooijmans2014syrcle-e4]。它 2014 年发表的工具有 10 个条目，用来逐篇评价纳入的动物研究有没有偏倚[^hooijmans2014syrcle-e1]；工具改编自 Cochrane 协作网评价随机对照试验的偏倚风险工具[^hooijmans2014syrcle-e2][^hooijmans2014syrcle-e3]。
 
 ---
@@ -296,8 +297,13 @@ n 算错了，后面的统计就靠不住，还可能得出假阳性[^percieduse
 [^odea2021preferred-e3]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e3)
 [^odea2021preferred-e4]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e4)
 [^odea2021preferred-e5]: O'Dea 等人 2021（PRISMA-EcoEvo），Abstract。[证据](../../../sources/notes/odea2021preferred.md#e5)
+[^page2021prisma-e17]: Page 等人 2021（PRISMA 2020），Scope of the guideline。[证据](../../../sources/notes/page2021prisma.md#e17)
 [^odea2021preferred-e6]: O'Dea 等人 2021（PRISMA-EcoEvo），Table 1，条目 3.1。[证据](../../../sources/notes/odea2021preferred.md#e6)
 [^hooijmans2014syrcle-e1]: Hooijmans 等人 2014，Abstract。[证据](../../../sources/notes/hooijmans2014syrcle.md#e1)
+[^naturemethodsaims-e1]: Nature Methods，Aims & Scope。[证据](../../../sources/notes/naturemethodsaims.md#e1)
+[^naturemethodsaims-e2]: Nature Methods，Aims & Scope。[证据](../../../sources/notes/naturemethodsaims.md#e2)
+[^ploscompbiolsubmission-e1]: PLOS Computational Biology 投稿指南，Software Submissions。[证据](../../../sources/notes/ploscompbiolsubmission.md#e1)
+[^ploscompbiolsubmission-e2]: PLOS Computational Biology 投稿指南，Software Submissions。[证据](../../../sources/notes/ploscompbiolsubmission.md#e2)
 [^hooijmans2014syrcle-e2]: Hooijmans 等人 2014，Abstract。[证据](../../../sources/notes/hooijmans2014syrcle.md#e2)
 [^hooijmans2014syrcle-e3]: Hooijmans 等人 2014，Abstract。[证据](../../../sources/notes/hooijmans2014syrcle.md#e3)
 [^hooijmans2014syrcle-e4]: Hooijmans 等人 2014，Background。[证据](../../../sources/notes/hooijmans2014syrcle.md#e4)

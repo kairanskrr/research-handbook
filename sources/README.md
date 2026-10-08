@@ -891,6 +891,80 @@
 
 - [ROSES RepOrting standards for Systematic Evidence Syntheses: pro forma, flow-diagram and descriptive summary of the plan and conduct of environmental systematic reviews and systematic maps](https://doi.org/10.1186/s13750-018-0121-7) - Haddaway 等人，Environmental Evidence 2018。ROSES 报告标准的原始论文。农业页（240）用它说明 ROSES 是 2018 年为保护和环境管理领域的系统综述和系统地图设计的报告表格和流程图，提出原因是 PRISMA 为医疗卫生制定、用到该领域有局限；环境工程页（241）用它直接支持"ROSES 是什么"，不再只经由 CEE 指南转引。出版社网页和机构库（Bangor）的全文下载被机器人验证拦截，摘录只用摘要，取自 DOAJ 记录 https://doaj.org/api/articles/5dfd9f58a2c445afb74825e9d678b15c 。DOI、标题、作者已用 Crossref 核对。🆓 `haddaway2018roses`
 
+**常见问题速查（补充）**
+
+- [How to Handle Authorship Disputes: A Guide for New Researchers](https://web.archive.org/web/20241128073038/https://publicationethics.org/files/2003pdf12_0.pdf) - Albert 等人，The COPE Report 2003。出版伦理委员会教育委员会给新研究者的署名纠纷指南。正文用它说明：协商、带证据、向系主任或院长申诉（只在特殊情况下、并让导师知道）；编辑不太可能在其他作者不同意时加名字。🆓 `albert2003authorship`
+- [COPE Discussion Document: Authorship](https://doi.org/10.24318/cope.2019.3.3) - COPE Council，Committee on Publication Ethics 2019。出版伦理委员会理事会的署名讨论文件第 2 版（2019 年 9 月），CC BY-NC-ND 4.0 许可。正文用它说明：编辑没有条件裁决署名纠纷；在审稿件暂停审稿出版；发表后改署名需全体作者同意。🆓 `cope2019authorship`
+
+**学科篇：经济学（补充）**
+
+- [The Young Person's Guide to Writing Economic Theory](https://doi.org/10.1257/jel.37.1.157) - Thomson，Journal of Economic Literature 1999。罗切斯特大学 William Thomson 写给博士生的经济理论论文写作指南；正文用它说明理论论文要讲清结果新、有意思，并检查每个假设是否必需。🆓 `thomson1999young`
+- [Guidelines for Referees](https://www.econometricsociety.org/publications/theoretical-economics/policies/guidelines-for-referees) - Theoretical Economics，网页 2026。计量经济学会旗下理论期刊 Theoretical Economics 的审稿人指南（官方网页，2026 年 10 月查看，未注日期）；正文用它说明这份理论期刊审稿时看篇幅、结果取舍和必要的扩展。🆓 `te2026guidelines`
+
+**学科篇：哲学、伦理与宗教（补充）**
+
+- [The Journal of Symbolic Logic](https://aslonline.org/journals/the-journal-of-symbolic-logic/) - Association for Symbolic Logic，网页。哲学页"证明"一行的说明，用它说明 Journal of Symbolic Logic 对投稿的要求：有创新、不是已有工作的小变体、让广泛读者感兴趣。🆓 `asljslabout`
+- [The Bulletin of Symbolic Logic](https://aslonline.org/journals/the-bulletin-of-symbolic-logic/) - Association for Symbolic Logic，网页。哲学页"证明"一行的说明，用它说明 Bulletin of Symbolic Logic 要求报告新结果的短文讲清历史、背景和意义。🆓 `aslbslabout`
+- [Studia Logica: Aims and Scope](https://link.springer.com/journal/11225/aims-and-scope) - Studia Logica，网页。哲学页"证明"一行的说明，用它说明 Studia Logica 的接收关键标准（关于形式系统的重要、原创结果）以及数学技术与哲学相关性之间的平衡。🆓 `studialogicaaims`
+- [Alphabetic order of authors in scholarly publications: a bibliometric study for 27 scientific fields](https://doi.org/10.1007/s11192-020-03686-0) - Fernandes 等人，Scientometrics 2020。哲学页"署名"一节，用它说明"艺术与人文"领域（样本是 Noûs 一本期刊，以及 Noûs、Mind 等九本哲学期刊 2018–2020 年的论文）只有中等程度的按字母排序倾向，弱于经济学、数学；作者提醒样本不一定代表整个领域。DOI、标题、作者、卷页已用 Crossref 核对。🆓 `fernandes2020alphabetic`
+
+**学科篇：化学（补充）**
+
+- [mechanism (of a reaction)](https://doi.org/10.1351/goldbook.M03804) - International Union of Pure and Applied Chemistry，IUPAC Compendium of Chemical Terminology (the Gold Book), 5th ed., online version 5.0.0 2025。IUPAC 官方术语汇编对"反应机理"的定义（出自 IUPAC 1994 年《物理有机化学术语表》）。正文用它说明：可接受的机理要和计量关系、速率方程、其他实验数据都相符，可能有几个备选机理都没被排除；很多机理建立在不完整数据上。官方公开免费的术语定义，合法来源。🆓 `iupacgoldbookmechanism`
+- [Benchmarking Quantum Chemical Methods: Are We Heading in the Right Direction?](https://doi.org/10.1002/anie.201611308) - Mata 等人，Angewandte Chemie International Edition 2017。两位哥廷根大学研究者在 Angewandte Chemie 发表的观点文章，讨论量子化学方法基准评测怎样做才可靠。正文用它说明：只用理论当参照的基准评测的问题、一次吻合不算数、需要多样的数据集、比能测量的量、失败的方法也要报、交代误差来源、在支持信息里给结构和能量。出版社开放获取，合法来源。🆓 `mata2017benchmarking`
+
+**学科篇：物理科学（补充）**
+
+- [SciPost Physics: About (Acceptance Criteria)](https://scipost.org/SciPostPhys/about) - SciPost Foundation，网页。物理页"常用套路与证据标准"理论论文部分，用它说明 SciPost Physics 的接收标准（四条期望至少一条、全部一般标准，含论证和推导可由专家重现、客观说明局限）；这是对所有投稿的通用标准。🆓 `scipost2025physics`
+- [JHEP about](https://jhep.sissa.it/jhep/help/JHEP/JHEP_about.jsp) - Journal of High Energy Physics，网页。物理页理论论文部分，用它说明 JHEP 的收稿范围包括弦和膜理论、接收标准是科学质量、原创性和相关性（对所有投稿通用；页面未注明日期）。🆓 `jhepabout`
+
+**学科篇：生物科学（补充）**
+
+- [Aims & Scope](https://www.nature.com/nmeth/aims) - Nature Methods，Journal 网页。《自然—方法》（Nature Methods）官网的办刊宗旨页，2026-10-08 读取，期刊官方公开网页。正文用它说明这本期刊怎样评判新方法论文：要有充分验证、用在重要的生物学问题上、和现有方法比较性能；选稿看读者面、性能评估、技术描述。原文纯文本见 `src/naturemethodsaims.txt`。🆓 `naturemethodsaims`
+- [Submission Guidelines](https://journals.plos.org/ploscompbiol/s/submission-guidelines) - PLOS Computational Biology，Journal 网页。《PLOS 计算生物学》（PLOS Computational Biology）官网的投稿指南，2026-10-08 读取，期刊官方公开网页。正文用其中 Software Submissions 一节说明软件文章的要求：广泛有用、有重大进步的开源工具；已被或有望被广泛采用；源代码可匿名下载、开源许可证；附安装、使用和测试数据说明。原文纯文本见 `src/ploscompbiolsubmission.txt`。🆓 `ploscompbiolsubmission`
+
+**学科篇：地球与环境科学（补充）**
+
+- [Good Practice Guidance Paper on Detection and Attribution Related to Anthropogenic Climate Change](https://archive.ipcc.ch/pdf/supporting-material/expert-meeting-detection-anthropogenic-2009-09.pdf) - Hegerl 等人，Meeting Report of the Intergovernmental Panel on Climate Change Expert Meeting on Detection and Attribution of Anthropogenic Climate Change 2010。IPCC 第一、第二工作组 2009 年"检测与归因"专家会议报告中的《检测与归因良好做法指导文件》，写给 IPCC 报告作者。正文用它说明检测与归因的定义、混杂因素、多步归因、模式评估和记录要求；并说明它不代表 IPCC 认可、未经正式评审，不是学会或期刊标准。IPCC 官方公开文件的存档副本，合法来源。无 DOI。🆓 `hegerl2010good`
+
+**学科篇：农业、林业与渔业（补充二）**
+
+- [Evidence Synthesis: Preparing your manuscript](https://cabiagbio.biomedcentral.com/submission-guidelines/preparing-your-manuscript/evidence-synthesis) - CABI Agriculture and Bioscience，Journal 网页。CABI 出版的开放获取期刊《CABI Agriculture and Bioscience》投稿指南中"证据综合"文章类型的说明。原网址现在跳转到出版社期刊主页，原文经互联网档案馆 2025-05-27 的快照读取（期刊官方网页的公开存档）。正文用它说明：该刊接收按事先方案做的系统综述和系统地图，所有证据综合投稿必须附 ROSES 表格，建议事先公开方案（例如发到 agriRxiv）。原文纯文本见 `src/cabiagbioevidencesynthesis.txt`。🆓 `cabiagbioevidencesynthesis`
+- [The Agricultural Model Intercomparison and Improvement Project (AgMIP): Protocols and pilot studies](https://doi.org/10.1016/j.agrformet.2012.09.011) - Rosenzweig 等人，Agricultural and Forest Meteorology 2013。Rosenzweig 等人 2013 年介绍 AgMIP（国际农业模型比对与改进项目）总体方案和试点研究的论文。全文由美国国家航空航天局技术报告服务器（NASA Technical Reports Server）公开（第一作者单位为 NASA 戈达德空间研究所）；该服务器对脚本返回 403，经互联网档案馆 2024-12-25 的快照下载。正文用它写作物模型一行：用观测的生长和产量数据评价模型、多模型估计不确定性、记录校准和代码改进，以及墨西哥小麦试点中 88% 的产量方差来自作物模型之间的差异。原文纯文本见 `src/rosenzweig2013agricultural.txt`。🆓 `rosenzweig2013agricultural`
+
+**学科篇：艺术（补充）**
+
+- [What is the evidence on the role of the arts in improving health and well-being? A scoping review](https://iris.who.int/handle/10665/329834) - Fancourt 等人，WHO Regional Office for Europe 2019。艺术篇"常用套路与证据标准"新增的综合一行：这份世卫组织欧洲区域办事处报告是范围综述，不按研究方法筛选、没做系统检索及其理由、用三角互证应对证据质量参差、只检索英文和俄文。该报告没有 DOI（Crossref 查到的同名条目是一篇书评，不是本报告），书目信息据报告版权页和 Europe PMC 记录。🆓 `fancourt2019evidence`
+- [Psychology of Aesthetics, Creativity, and the Arts: Journal Scope Statement and Submission Guidelines](https://www.apa.org/pubs/journals/aca) - American Psychological Association，Journal web page 2024。艺术篇表后"实证美学和音乐科学期刊的投稿要求"：该刊是 APA 第 10 分会期刊，刊发范围（不鼓励质性研究、案例研究和文献综述）、注册报告第一阶段审什么、数据保留至少 5 年、建议描述样本和写推广范围限制。🆓 `apa2024aesthetics`
+- [Music & Science: Submission Guidelines](https://journals.sagepub.com/author-instructions/MNS) - Sage Publishing，Journal web page 2024。艺术篇表后"实证美学和音乐科学期刊的投稿要求"：Music & Science 的数据提交要求（含音频、视频、复现代码）、数据要标注清楚以便重做分析、知情同意的说明、双盲审稿至少两位审稿人。🆓 `sage2024musicscience`
+
+**计算机各方向：理论（补充）**
+
+- [FOCS 2025: Call for Papers](https://focs.computer.org/2025/call-for-papers/) - FOCS 2025 Program Committee，66th Annual IEEE Symposium on Foundations of Computer Science 2025。FOCS 2025 官方征稿启事。正文用它填理论会议规则表的 FOCS 一列：主办方、截稿、无页数上限、前 10 页、证明要求、双盲、录用后公开完整版、一稿多投。🆓 `focs2025cfp`
+- [SODA25 Submissions](https://www.siam.org/conferences-events/siam-conferences/soda25/submissions/) - SIAM，ACM-SIAM Symposium on Discrete Algorithms (SODA25) 2024。SODA 2025 官方投稿页（SIAM 网站）。正文用它填规则表的 SODA 一列：截稿、无页数上限、前 10 页、证明要求、轻量双盲、一稿多投。SODA 2026 的投稿页在 Internet Archive 没有存档，siam.org 和 WebFetch 均 403，所以改用 2025 年。🆓 `soda2025cfp`
+- [An empirical analysis of the use of alphabetical authorship in scientific publishing](https://arxiv.org/abs/1206.4863) - Waltman，arXiv:1206.4863 2012。基于 Web of Science 1981–2011 年论文的作者字母排序统计。正文用它说明：2007–2011 年"计算机科学，理论与方法"期刊分类中 48.6% 的论文作者按字母排，估计 32.6% 有意如此；数学类为 83.3% 和 73.3%；"有意"比例是模型估计。🆓 `waltman2012empirical`
+
+**计算机各方向：人机交互（补充）**
+
+- [ACM Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects) - ACM Publications Board，Association for Computing Machinery 2021。ACM 出版委员会 2021 年 8 月 15 日批准的涉及人的研究政策。正文用它说明：适用于所有 ACM 出版物（含 ACM 主办、合办的会议）；研究计划、实施、报告要符合当地法规和知情同意等原则；当地要求伦理审查的要通过审查并随时准备出示书面证明；具体会议可定更严的政策；违反可加关注说明或撤稿。🆓 `acm2021humanparticipants`
+
+**学科篇：环境工程（补充）**
+
+- [The publishing delay in scholarly peer-reviewed journals](https://web.archive.org/web/20131008075840/http://openaccesspublishing.org/oa11/article.pdf) - Bjork 等人，Journal of Informetrics 2013。Scopus 抽样 135 本期刊 2700 篇论文（2012 年刊出）的出版周期统计，按九个粗学科组报告。正文用它说明工程组（或社会科学组）期刊"投稿到录用""录用到刊出"的平均月数，并提醒同组期刊之间差别更大、没有单列本学科。🆓 `bjork2013publishing`
+
+**学科篇：机械工程（补充）**
+
+- [Conference proceedings as a source of scientific information: A bibliometric analysis](https://crctcs.openum.ca/files/sites/60/2015/10/Proceedings.pdf) - Lisee 等人，Journal of the American Society for Information Science and Technology 2008。Web of Science 1980–2005 年期刊论文参考文献中会议论文所占比例的分学科统计。正文用它说明 1980–2005 年机械工程论文的参考文献里约 8% 是会议论文（间接反映会议论文的分量，不是发表去向）。🆓 `lisee2008conference`
+
+**学科篇：教育学（补充）**
+
+- [Publications FAQs](https://www.aera.net/Publications/Publications-FAQs) - American Educational Research Association，网页。美国教育研究协会官网"出版常见问题"页（2026 年 10 月读取）。正文用它说明 AERA 不出版会议论文集、年会论文可放入开放获取的论文库、作者保留版权会后可投期刊。🆓 `aerapublicationsfaq`
+
+**学科篇：政治学（补充）**
+
+- [Disciplinary Standards for Reappointment, Tenure, and Promotion in Political Science](https://academicaffairs.tcnj.edu/wp-content/uploads/sites/171/2023/05/Political-Science-Disciplinary-Standards.pdf) - Department of Political Science, The College of New Jersey，网页 2023。美国新泽西学院政治学系的续聘、终身教职和晋升学科标准（2022–2023 年签署，2023 年 4 月修订版）。正文用它举例说明一所美国学院怎样折算专著和文章、怎样看待会议论文；只代表这一所学校。🆓 `tcnj2023polisci`
+- [American Political Science Review Editorial Report: Executive Summary (Fall 2023)](https://www.cambridge.org/core/product/CFCD95D2AF8F273A6CA9D1ABAD66BD47/core-reader) - Tripp 等人，Political Science Today 2024。《美国政治学评论》编辑部 2023 年秋报告的执行摘要，刊于 Political Science Today。正文用它说明这本期刊各类审稿决定的中位天数和录用率。🆓 `apsr2024editorial`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

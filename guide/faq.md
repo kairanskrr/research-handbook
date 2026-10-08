@@ -112,7 +112,8 @@
 **现在做什么：**
 1. 拿出"谁做了什么"的记录，逐人对照上面的条件；没有记录，现在补一张，发给所有人确认 `[本项目分析]`。
 2. 请导师或项目负责人主持，当面谈，谈定后写下来 `[本项目分析]`。下次开工时就谈：国际医学期刊编辑委员会（International Committee of Medical Journal Editors）2026 年版的规范建议，谁符合署名条件，最好在规划时定下，随进展调整[^icmje2026recommendations-e4]。
-3. 谈不拢：同一份规范写明，应由研究所在的机构调查，而不是期刊编辑[^icmje2026recommendations-e5]。各机构的具体程序，本文资料未涉及。
+3. 还是谈不拢：出版伦理委员会（Committee on Publication Ethics）2003 年给新研究者的署名纠纷指南（Albert 和 Wager 写）建议，和当事人协商，拿实验记录、稿件、署名规范等证据支持你的看法；仍不服导师的决定，可以向系主任或院长申诉，但只在特殊情况下这样做，并让导师知道[^albert2003authorship-e1]。
+4. 别指望期刊替你裁决。国际医学期刊编辑委员会的规范写明，应由研究所在的机构调查，而不是期刊编辑[^icmje2026recommendations-e5]。出版伦理委员会 2019 年第 2 版的《署名讨论文件》也说，编辑没有条件公正裁决署名纠纷，在审的稿件可以暂停，等你们解决[^cope2019authorship-e1][^cope2019authorship-e2]；已发表的论文要改顺序或增删作者，须全部作者同意[^cope2019authorship-e3]。被漏掉时可以联系期刊，但 2003 年那份指南提醒：其他作者不同意，编辑不太可能加上你的名字[^albert2003authorship-e2]。各机构的具体程序，本文资料未涉及。
 
 **细看：**[署名：开工时就谈，并随进展调整](08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)；学科惯例见[经济学](07_fields/economics/README.md#署名按字母顺序)、[数学](07_fields/mathematics/README.md#一个人或几个人做按字母署名)
 
@@ -239,6 +240,11 @@
 [^icmje2026recommendations-e1]: 国际医学期刊编辑委员会 2026，§I.B。[证据](../sources/notes/icmje2026recommendations.md#e1)
 [^icmje2026recommendations-e4]: 国际医学期刊编辑委员会 2026，§II.A.2 Who Is an Author?。[证据](../sources/notes/icmje2026recommendations.md#e4)
 [^icmje2026recommendations-e5]: 国际医学期刊编辑委员会 2026，§II.A.2。[证据](../sources/notes/icmje2026recommendations.md#e5)
+[^albert2003authorship-e1]: 出版伦理委员会 2003（Albert & Wager），How to handle authorship disputes when they occur，第 33 页。[证据](../sources/notes/albert2003authorship.md#e1)
+[^albert2003authorship-e2]: 出版伦理委员会 2003（Albert & Wager），What you can do if authorship issues are not resolved，第 33 页。[证据](../sources/notes/albert2003authorship.md#e2)
+[^cope2019authorship-e1]: 出版伦理委员会 2019，署名讨论文件第 2 版，Guidance for editors，第 7 页。[证据](../sources/notes/cope2019authorship.md#e1)
+[^cope2019authorship-e2]: 出版伦理委员会 2019，署名讨论文件第 2 版，Pre-publication authorship disputes，第 8 页。[证据](../sources/notes/cope2019authorship.md#e2)
+[^cope2019authorship-e3]: 出版伦理委员会 2019，署名讨论文件第 2 版，Post-publication authorship disputes，第 9 页。[证据](../sources/notes/cope2019authorship.md#e3)
 [^icmje2026recommendations-e27]: 国际医学期刊编辑委员会 2026，§II.A.2。[证据](../sources/notes/icmje2026recommendations.md#e27)
 [^einav2006surname-e1]: Einav & Yariv 2006，第 175 页。[证据](../sources/notes/einav2006surname.md#e1)
 [^einav2006surname-e3]: Einav & Yariv 2006，第 182 页脚注 8。[证据](../sources/notes/einav2006surname.md#e3)

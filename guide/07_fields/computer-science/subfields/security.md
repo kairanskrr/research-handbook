@@ -74,6 +74,8 @@
 
 另外，NDSS 2026 写明，伦理审查委员会的豁免不一定足以说明伦理问题已处理好[^ndss2026cfp-e3]。
 
+投 CCS 这类 ACM 会议，还要守 ACM 出版委员会 2021 年批准的《涉及人类参与者和受试者的研究政策》[^acm2021humanparticipants-e1]，它适用于所有 ACM 出版物，包括 ACM 主办或合办的会议[^acm2021humanparticipants-e3]。被认定违反的论文，视情节轻重可能被加"关注说明"（Note of Concern）或撤稿[^acm2021humanparticipants-e6]。具体要求（如伦理审查和书面证明）见[人机交互：涉及人的研究和伦理](hci.md#涉及人的研究和伦理)。
+
 **漏洞披露有具体时限和写法。** "先私下告知负责方、修好再公开"的通用原则见[科研诚信与伦理](../../../08_throughout/integrity_and_ethics.md#4-研究涉及人或可能伤害别人时先保护人)。各会议的要求：
 
 - **USENIX Security 2026**：论文写清向谁披露了、结果如何[^usenixsec2026cfp-e6]；投稿要匿名，但审稿期间仍可向厂商或公众披露漏洞[^usenixsec2026cfp-e3]。
@@ -150,6 +152,9 @@
 [^ndss2026cfp-e2]: NDSS 2026 征稿启事，Ethical Considerations。[证据](../../../../sources/notes/ndss2026cfp.md#e2)
 [^ccs2025cfp-e3]: ACM CCS 2025 征稿启事，评审标准。[证据](../../../../sources/notes/ccs2025cfp.md#e3)
 [^ndss2026cfp-e3]: NDSS 2026 征稿启事，Ethical Considerations。[证据](../../../../sources/notes/ndss2026cfp.md#e3)
+[^acm2021humanparticipants-e1]: ACM 2021 涉及人的研究政策，标题下。[证据](../../../../sources/notes/acm2021humanparticipants.md#e1)
+[^acm2021humanparticipants-e3]: ACM 2021 涉及人的研究政策，Scope of Policy。[证据](../../../../sources/notes/acm2021humanparticipants.md#e3)
+[^acm2021humanparticipants-e6]: ACM 2021 涉及人的研究政策，Violations and Penalties。[证据](../../../../sources/notes/acm2021humanparticipants.md#e6)
 [^usenixsec2026cfp-e6]: USENIX Security '26 伦理指南，Disclosures。[证据](../../../../sources/notes/usenixsec2026cfp.md#e6)
 [^usenixsec2026cfp-e3]: USENIX Security '26 征稿启事，Anonymous Submission。[证据](../../../../sources/notes/usenixsec2026cfp.md#e3)
 [^ieeesp2026cfp-e5]: IEEE S&P 2026 征稿启事，Ethical Considerations for Vulnerability Disclosure。[证据](../../../../sources/notes/ieeesp2026cfp.md#e5)
