@@ -887,6 +887,10 @@
 - [The importance of being second](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005203) - The PLOS Biology Staff Editors，PLOS Biology 2018。常见问题"做到一半被抢先"一条，用它说明：被抢先常被期刊以缺乏新颖性拒稿；但至少有期刊（PLOS Biology，2018 年起）明确接收证实或扩展刚发表研究的"互补"稿件，限期六个月，仍需达到深度要求。🆓 `plosbiology2018importance`
 - [Whistleblowers (Handling Misconduct – Complainant)](https://ori.hhs.gov/whistleblowers) - Office of Research Integrity, U.S. Department of Health and Human Services，网页。常见问题"发现合作者的做法可能越界"一条，用它说明（限美国公共卫生署资助的研究）：举报前先读所在机构的规定、交给指定负责人；善意举报的含义；机构有义务保护善意举报人；查清是调查机构的责任，不是举报人的。🆓 `oriwhistleblowers`
 
+**学科篇：农业、林业与渔业（补充）**
+
+- [ROSES RepOrting standards for Systematic Evidence Syntheses: pro forma, flow-diagram and descriptive summary of the plan and conduct of environmental systematic reviews and systematic maps](https://doi.org/10.1186/s13750-018-0121-7) - Haddaway 等人，Environmental Evidence 2018。ROSES 报告标准的原始论文。农业页（240）用它说明 ROSES 是 2018 年为保护和环境管理领域的系统综述和系统地图设计的报告表格和流程图，提出原因是 PRISMA 为医疗卫生制定、用到该领域有局限；环境工程页（241）用它直接支持"ROSES 是什么"，不再只经由 CEE 指南转引。出版社网页和机构库（Bangor）的全文下载被机器人验证拦截，摘录只用摘要，取自 DOAJ 记录 https://doaj.org/api/articles/5dfd9f58a2c445afb74825e9d678b15c 。DOI、标题、作者已用 Crossref 核对。🆓 `haddaway2018roses`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

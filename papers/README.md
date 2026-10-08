@@ -694,6 +694,7 @@
 | `mokoena2026adsorption` | What is the adsorption efficiency and capacity of biodegradable polymer blend foams filled with carbonaceous materials in the removal of heavy metals from water? A systematic review protocol | Environmental Evidence 2026 | [链接](https://europepmc.org/article/PMC/PMC13151128) |
 | `plosbiology2018importance` | The importance of being second | PLOS Biology 2018 | [链接](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005203) |
 | `oriwhistleblowers` | Whistleblowers (Handling Misconduct – Complainant) | 网页 | [链接](https://ori.hhs.gov/whistleblowers) |
+| `haddaway2018roses` | ROSES RepOrting standards for Systematic Evidence Syntheses: pro forma, flow-diagram and descriptive summary of the plan and conduct of environmental systematic reviews and systematic maps | Environmental Evidence 2018 | [链接](https://doi.org/10.1186/s13750-018-0121-7) |
 
 ## 待获取
 

@@ -150,7 +150,7 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的五种。表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料：后三行各自只有一两份资料，是某个项目、某篇论文的做法或建议，不是全行业公认的规定 `[本项目分析]`。测量等其他套路的证据标准，以及农业领域系统综述专门的报告规范，本文资料未涉及。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的五种。表的分组和"在本学科里的样子"一栏是本项目的归纳；每条标准只代表脚注里那份资料：后三行各自只有一两份资料，是某个项目、某篇论文的做法或建议，不是全行业公认的规定 `[本项目分析]`。测量等其他套路的证据标准，以及农业领域系统综述专门的报告规范，本文资料未涉及。相近的有 ROSES（RepOrting standards for Systematic Evidence Syntheses，系统证据综合报告标准）：Haddaway 等人 2018 年为保护和环境管理领域的系统综述和系统地图（systematic map，与系统综述并列的另一种证据综合）设计的报告表格和流程图[^haddaway2018roses-e2]。他们提出它，是因为 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）是为医疗卫生综述制定的，用到这个领域有局限，例如过分强调元分析[^haddaway2018roses-e1]。农业系统综述能不能套用 ROSES，以目标期刊的要求为准 `[本项目分析]`。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
@@ -307,3 +307,5 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 [^krupnik2019does-e4]: Krupnik 等人 2019，Conclusions。[证据](../../../sources/notes/krupnik2019does.md#e4)
 [^krupnik2019does-e5]: Krupnik 等人 2019，Conclusions。[证据](../../../sources/notes/krupnik2019does.md#e5)
 [^krupnik2019does-e6]: Krupnik 等人 2019，Summary。[证据](../../../sources/notes/krupnik2019does.md#e6)
+[^haddaway2018roses-e1]: Haddaway 等人 2018，Abstract。[证据](../../../sources/notes/haddaway2018roses.md#e1)
+[^haddaway2018roses-e2]: Haddaway 等人 2018，Abstract。[证据](../../../sources/notes/haddaway2018roses.md#e2)
