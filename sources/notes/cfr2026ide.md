@@ -38,3 +38,9 @@
 - 位置：§812.2(c) 和 (c)(6)
 - 原文："This part, with the exception of § 812.119, does not apply to investigations of the following categories of devices:" / "A device shipped solely for research on or with laboratory animals and labeled in accordance with § 812.5(c)."
 - 要点：只用于实验动物研究、并按规定贴了标签的器械，除 §812.119 外不适用本部分。
+
+### E7
+
+- 位置：§812.1(a)
+- 原文："An approved investigational device exemption (IDE) permits a device that otherwise would be required to comply with a performance standard or to have premarket approval to be shipped lawfully for the purpose of conducting investigations of that device." / "good manufacturing practice requirements under section 520(f) except for the requirements found in § 820.10(c), if applicable"
+- 要点：获批的研究用器械豁免（IDE）允许器械为开展研究而合法运送，并免除一系列要求，其中包括生产质量管理规范要求；但 §820.10(c)（设计和开发要求，如适用）不在免除之列。

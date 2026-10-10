@@ -735,6 +735,19 @@
 | `deeks2023cochrane` | Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy | Cochrane 2023 | [链接](https://www.cochrane.org/authors/handbooks-and-manuals/handbook-systematic-reviews-diagnostic-test-accuracy) |
 | `cdu2025distress` | Distress Protocol (template) | Charles Darwin University Research Integrity and Ethics 2025 | [链接](https://www.cdu.edu.au/files/2025-09/Distress%20Protocol%20Template.docx) |
 | `asce2025publishing` | Publishing in ASCE Journals | ASCE Library | [链接](https://ascelibrary.org/author-center/journal) |
+| `mendez2020enlisting` | Enlisting the Gatekeeper: Chain-Referral and Elite Access in Foreign Policy Analysis | SAGE Research Methods Cases 2020 | [链接](https://researchonline.lse.ac.uk/id/eprint/103025/4/Mendez_2020_Foreign_Policy_Analysis_Case_Study.pdf) |
+| `clifford2020tipsheet` | Tipsheet – Interviewing Elites | Duke Initiative on Survey Methodology 2020 | [链接](https://dism.duke.edu/files/2020/05/Tipsheet-Elite_Interviews.pdf) |
+| `bayliss2022radiocarbon` | Radiocarbon Dating and Chronological Modelling: Guidelines and Best Practice | Historic England 2022 | [链接](https://historicengland.org.uk/images-books/publications/radiocarbon-dating-chronological-modelling/heag312-radiocarbon-dating/) |
+| `saa2023styleguide` | Editorial Policy, Information for Authors, and Style Guide for American Antiquity, Latin American Antiquity, and Advances in Archaeological Practice | 网页 2023 | [链接](https://www.saa.org/common/Uploaded%20files/saadocs/Publications/Style%20Guide/saa-style-guide_english_updated_2021_final08023c15928949dabd02faafb269fb1c.pdf) |
+| `amantiquity2026instructions` | American Antiquity: Preparing your materials (author instructions) | 网页 2026 | [链接](https://www.cambridge.org/core/journals/american-antiquity/information/author-instructions/preparing-your-materials) |
+| `thieberger2019recording` | Recording Audio and Keeping Track of Recordings | 网页 2019 | [链接](https://www.paradisec.org.au/blog/wp-content/uploads/2019/08/Honiara-Audio.pdf) |
+| `roseslabrada2022audiovisual` | Audiovisual Recording Advice | 网页 2022 | [链接](https://depts.washington.edu/jacobsf/Documents/Audiovisual_recording_advice.pdf) |
+| `fda1996qsr` | Medical Devices; Current Good Manufacturing Practice (CGMP) Final Rule; Quality System Regulation | Federal Register, Vol. 61, No. 195, pp. 52602–52662 1996 | [链接](https://www.govinfo.gov/content/pkg/FR-1996-10-07/html/96-25720.htm) |
+| `eu2009contained` | Directive 2009/41/EC of the European Parliament and of the Council of 6 May 2009 on the contained use of genetically modified micro-organisms (Recast) | Official Journal of the European Union, L 125, pp. 75–97 2009 | [链接](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0041) |
+| `npc2020biosecurity` | Biosecurity Law of the People's Republic of China | 网页 2020 | [链接](https://subsites.chinadaily.com.cn/npc/2020-10/17/c_703568.htm) |
+| `igsnglossary` | Glossary | IGSN e.V. 网页 | [链接](https://ev.igsn.org/glossary) |
+| `igsnagents` | IGSN Agents and Registration | IGSN e.V. 网页 | [链接](https://ev.igsn.org/resources/igsn-agents-and-registration) |
+| `ukrio2023procedure` | Procedure for the Investigation of Misconduct in Research | UK Research Integrity Office 2023 | [链接](https://ukrio.org/wp-content/uploads/Procedure-for-the-Investigation-of-Misconduct-in-Research_Accessible.pdf) |
 
 ## 待获取
 

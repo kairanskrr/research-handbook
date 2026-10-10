@@ -90,7 +90,7 @@
 - **设计变更**：改设计之前要记录、评审、批准[^cfr2023designcontrols-e6]。
 - **设计历史文件**：把这些记录收在一起，证明设计是按批准的计划完成的[^cfr2023designcontrols-e7]。
 
-**对研究生意味着什么。** 现行美国法规约束的是器械"制造商"[^cfr2026qmsr-e4]；大学实验室的研究项目在什么情况下要遵守，本文资料未涉及，以导师和本单位负责法规或技术转移的部门的意见为准。即使不受约束，有两件事值得从第一天就做 `[本项目分析]`：
+**对研究生意味着什么。** 现行美国法规约束的是器械"制造商"[^cfr2026qmsr-e4]。研究阶段要不要遵守，FDA 在 1996 年发布旧法规时写过一句说明：设计控制不打算用于概念开发和可行性研究；但一旦决定要开发某个设计，就必须先定计划，确保最终投产的设计满足批准的要求[^fda1996qsr-e1]。这是对旧法规的说明，新法规是否照此理解，本文资料未涉及。另外，器械要拿到人身上做临床研究时，美国用"研究用器械豁免"（Investigational Device Exemption，IDE，见下一节）免掉一批上市前的要求，但现行条文写明，设计和开发要求（§820.10(c)，适用时）不在免除之列[^cfr2026ide-e7]。大学实验室的项目具体从哪一步起要遵守，本文资料未涉及，以导师和本单位负责法规或技术转移的部门的意见为准。即使不受约束，有两件事值得从第一天就做 `[本项目分析]`：
 
 1. **把需求写下来**：用户是谁、要解决什么临床问题、要达到什么指标。旧指南提醒，关键需求如果到确认阶段才发现，可能要付出昂贵的重新设计和返工[^fda1997designcontrol-e5]；如果预计要做临床试验，计划里还要留出相应的法规工作[^fda1997designcontrol-e8]。
 2. **把过程记下来**：BMES 准则要求在研究和设计的全过程中保持细致、完整、准确的记录[^bmes2021ethics-e3]。记录方法见贯穿全程的[整理科研材料](../../08_throughout/organizing_materials.md)。
@@ -217,6 +217,7 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 [^fda1997designcontrol-e7]: FDA 1997（已撤回），Introduction。[证据](../../../sources/notes/fda1997designcontrol.md#e7)
 [^fda1997designcontrol-e8]: FDA 1997（已撤回），Section B。[证据](../../../sources/notes/fda1997designcontrol.md#e8)
 [^fda1997designcontrol-e9]: FDA 1997（已撤回），Section F。[证据](../../../sources/notes/fda1997designcontrol.md#e9)
+[^fda1996qsr-e1]: FDA 1996，质量体系法规最终规则公告（61 FR 52602），第 62 条意见的答复，52616 页。[证据](../../../sources/notes/fda1996qsr.md#e1)
 [^cfr2023designcontrols-e1]: 21 CFR 820.30（2023 年 4 月 1 日版，现已删除），(a)。[证据](../../../sources/notes/cfr2023designcontrols.md#e1)
 [^cfr2023designcontrols-e2]: 21 CFR 820.30（2023 年版，现已删除），(c)。[证据](../../../sources/notes/cfr2023designcontrols.md#e2)
 [^cfr2023designcontrols-e3]: 21 CFR 820.30（2023 年版，现已删除），(e)。[证据](../../../sources/notes/cfr2023designcontrols.md#e3)
@@ -236,6 +237,7 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 [^cfr2026ide-e4]: 21 CFR Part 812（现行版），§812.2(b)(1)(ii)。[证据](../../../sources/notes/cfr2026ide.md#e4)
 [^cfr2026ide-e5]: 21 CFR Part 812（现行版），§812.3(o)。[证据](../../../sources/notes/cfr2026ide.md#e5)
 [^cfr2026ide-e6]: 21 CFR Part 812（现行版），§812.2(c)(6)。[证据](../../../sources/notes/cfr2026ide.md#e6)
+[^cfr2026ide-e7]: 21 CFR Part 812（现行版），§812.1(a)。[证据](../../../sources/notes/cfr2026ide.md#e7)
 [^bmes2021ethics-e1]: BMES Code of Ethics 2021，序言。[证据](../../../sources/notes/bmes2021ethics.md#e1)
 [^bmes2021ethics-e2]: BMES Code of Ethics 2021，1.1.1。[证据](../../../sources/notes/bmes2021ethics.md#e2)
 [^bmes2021ethics-e3]: BMES Code of Ethics 2021，2.1.3。[证据](../../../sources/notes/bmes2021ethics.md#e3)

@@ -7,7 +7,7 @@
 **先说清本文资料的来历。** 它们来自几个国家和一位学者，各有各的适用范围，都不是全学科的统一规定 `[本项目分析]`。在其他国家做发掘，许可、出土物归属和归档都按当地法规办；CIfA 的指南自己也要求遵守工作所在地的法律和本地指南[^cifa2023excavation-e12]。
 
 - **英国 CIfA**：英国特许考古学家协会（Chartered Institute for Archaeologists，英国考古从业者的职业组织）的四份标准和指南，分别管野外评估、发掘、地球物理勘探和档案。它们是对**本会会员**的要求 `[本项目分析，依据各文件的版本说明]`，针对在英国和马恩岛的工作[^cifa2020archives-e12]。
-- **英格兰 Historic England**：英格兰历史遗产局（英格兰的政府遗产机构）的项目管理指南。由它**资助**的研究项目必须遵守，其他人可以参考[^historicengland2015morphe-e1]。
+- **英格兰 Historic England**：英格兰历史遗产局（英格兰的政府遗产机构）的项目管理指南。由它**资助**的研究项目必须遵守，其他人可以参考[^historicengland2015morphe-e1]。另有它 2022 年出版的放射性碳测年指南（Bayliss 和 Marshall 编写），针对英格兰的考古项目[^bayliss2022radiocarbon-e7]，本文只用了其中的选样要点。
 - **美国 SAA**：美国考古学会（Society for American Archaeology）2024 年的伦理原则，是这个学会对考古学家的要求。
 - **美国内政部 1983 年标准**：美国内政部 1983 年在《联邦公报》上发布的考古记录标准和指南，用于美国联邦层面的历史保护工作 `[本项目分析，依据其版本说明]`。它已有四十多年，部分做法可能已更新。
 - **Harris 的地层学**：Edward Harris 的《考古地层学原理》（1989 年第 2 版），"哈里斯矩阵"就出自这本书。这是**一位学者提出的方法体系**，不是哪个机构的规定 `[本项目分析]`。
@@ -109,7 +109,12 @@
 1. **先用地层排出先后。** Harris 说，一个单位的绝对年代，永远改变不了它在地层序列中的位置[^harris1989principles-e13]。如果年代和序列对不上，要回头查是年代有问题还是记录有问题 `[本项目分析]`。
 2. **用出土物定年时，看最晚的那件。** Harris 说，地层中最晚的器物最接近地层的年代。它给出一条"不早于"的界限（拉丁文 terminus post quem，意思是"在此之后"）：地层一定晚于这件器物的制造时间。但前提是地层没有被后来的东西侵入[^harris1989principles-e12]。
 3. **警惕残留物和渗入物。** 残留物比所在地层早得多；渗入物比所在地层晚，是后来混进去的[^harris1989principles-e10]。
-4. **科学测年要事先计划。** CIfA 要求把科学测年策略写进设计书[^cifa2023excavation-e10]。放射性碳测年怎样选样、怎样建模，本文资料未涉及，见下文"延伸阅读"中英格兰历史遗产局的测年指南。
+4. **科学测年要事先计划。** CIfA 要求把科学测年策略写进设计书[^cifa2023excavation-e10]。放射性碳测年怎样选样，英格兰历史遗产局 2022 年的测年指南给了几条要点；它是为英格兰的考古项目写的[^bayliss2022radiocarbon-e7]：
+   - **先默认样品是"残留物"。** 残留物就是上一条说的、比所在地层早得多的东西。测年测的是样品本身，不是地层；只有样品是在这层土形成时埋进去的，地层先后才能用来核对年代[^bayliss2022radiocarbon-e2]。每个样品都要说清它和你要测的那次活动凭什么有关[^bayliss2022radiocarbon-e1]；除非能说明它是当时埋进去的，否则就当它是残留物[^bayliss2022radiocarbon-e3]。
+   - **测单个、短命的东西。** 只测确定来自同一个生物的材料（如一粒谷物），混进残留物的风险最小[^bayliss2022radiocarbon-e4]。木头和木炭要选细枝或树的外圈：一棵 300 年的橡树，树心的碳在树活着时就已有 300 年[^bayliss2022radiocarbon-e5]。
+   - **没有合适的样品，就不测。** 勉强送次等材料去测，得到的年代误导多于帮助[^bayliss2022radiocarbon-e6]。
+
+   测年结果怎样做统计建模（指南用的是贝叶斯年代建模），本文资料未涉及，见这份指南本身。
 
 ### 第 8 步：发掘后评估，再决定怎么分析
 
@@ -193,10 +198,17 @@
 - **CIfA，野外评估、发掘、地球物理勘探、考古档案四份标准和指南**：archaeologists.net 免费下载。针对英国的职业要求，设计书和报告的内容清单可以拿来当检查表 `[本项目分析]`。
 - **Historic England，MoRPHE Project Managers' Guide（2015）**：讲研究项目怎样分阶段、设检查点、记风险日志。
 - **美国内政部，Secretary of the Interior's Standards and Guidelines for Archeology and Historic Preservation（1983）**：美国国家公园管理局网站免费下载，"考古记录"部分讲研究设计、野外记录、报告和保管。
-- **Historic England，Radiocarbon Dating and Chronological Modelling**：英格兰历史遗产局的放射性碳测年和年代建模指南，计划测年时查阅（本文未摘录其内容）。
+- **Historic England，Radiocarbon Dating and Chronological Modelling**：英格兰历史遗产局 2022 年的放射性碳测年和年代建模指南（Bayliss 和 Marshall 编写），计划测年时查阅。本文只摘录了它的选样要点，建模部分没有摘录。
 - **考古数据服务中心（Archaeology Data Service）的 Guides to Good Practice**：英国的考古数字档案机构发布，讲数字数据怎样创建、整理和存档（本文未摘录其内容）。
 - 研究设计的通用原则见主线章节[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md)；从单个遗址怎样推广结论，可参考[案例研究](../../../06_methods/case_study.md)。
 
+[^bayliss2022radiocarbon-e1]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.2。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e1)
+[^bayliss2022radiocarbon-e2]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.2。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e2)
+[^bayliss2022radiocarbon-e3]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.2。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e3)
+[^bayliss2022radiocarbon-e4]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.2 Single-entity dating。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e4)
+[^bayliss2022radiocarbon-e5]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.3 Old-wood effect。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e5)
+[^bayliss2022radiocarbon-e6]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.3。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e6)
+[^bayliss2022radiocarbon-e7]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，摘要。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e7)
 [^cifa2023excavation-e1]: CIfA 2023，发掘标准，开头。[证据](../../../../sources/notes/cifa2023excavation.md#e1)
 [^cifa2023excavation-e9]: CIfA 2023，发掘通用指南 2.2。[证据](../../../../sources/notes/cifa2023excavation.md#e9)
 [^cifa2023excavation-e10]: CIfA 2023，发掘通用指南 2.12 (h)。[证据](../../../../sources/notes/cifa2023excavation.md#e10)

@@ -77,7 +77,7 @@
 
 **历史学：传统上多是一个人做。** 上文那项 39 人的美国访谈研究，把历史研究的典型做法称为"孤身学者"（lone scholar）[^rutner2012supporting-e8]。但合作在增加：AHA 2021 年的指南说，合作完成专著、学术版本、文章、展览、网站的历史学家越来越多[^aha2021collaborators-e1]。这份指南没有规定统一的署名顺序：视项目而定，可以按贡献大小，也可以按字母顺序[^aha2021collaborators-e2]。AHA 准则还要求，无论怎样排，都要说明受到的帮助，给合作者应得的认可[^aha2023standards-e18]。署名的一般原则见贯穿全程的[合作与导师](../../08_throughout/collaboration_and_advisors.md#6-署名开工时就谈并随进展调整)。
 
-**考古学：发掘项目要配齐专业人手。** 英国 CIfA 的发掘指南说，项目团队要能调动合适的专业知识和参考资料[^cifa2023excavation-e3]；项目设计书（动手前写好的整体方案）要写明人员安排，包括内部和外部的专家[^cifa2023excavation-e5]。美国 SAA 的伦理原则也说，考古学是多学科领域[^saa2024principles-e12]。至于考古论文怎样署名、怎样排序，本文没有找到可靠的资料，不在这里下结论；请问导师，或查目标期刊的规定。
+**考古学：发掘项目要配齐专业人手。** 英国 CIfA 的发掘指南说，项目团队要能调动合适的专业知识和参考资料[^cifa2023excavation-e3]；项目设计书（动手前写好的整体方案）要写明人员安排，包括内部和外部的专家[^cifa2023excavation-e5]。美国 SAA 的伦理原则也说，考古学是多学科领域[^saa2024principles-e12]。期刊层面，本文只查了一本：SAA 的期刊 American Antiquity，它的投稿说明（剑桥大学出版社网站，2026 年 10 月查阅）要求全体作者都确认：名单上的人按学科惯例都算作者，也没有漏掉该署名的人[^amantiquity2026instructions-e2]。投稿时，通讯作者要用 CRediT 写明每个人的贡献。CRediT 全称 Contributor Roles Taxonomy（贡献者角色分类），是一套标准的角色名称，用来说清谁具体做了什么。有贡献但够不上作者的人，也要这样写明、给予承认[^amantiquity2026instructions-e3]。别的考古期刊未必一样 `[本项目分析]`。至于作者怎样排序、排序代表什么，本文没有找到可靠的资料，不在这里下结论；请问导师，或查目标期刊的规定。
 
 ---
 
@@ -91,7 +91,7 @@
 | 能否"重做一次" | 记录是零碎的（AHA）[^aha2023standards-e14] | 发掘是侵入性的（CIfA）[^cifa2023excavation-e2] | 部分方向重视制品评估和复现（见计算机篇） |
 | 主要成果 | 专著（AHA 称"以书为本"）[^aha2013embargo-e1] | 每次发掘要有报告和档案（CIfA）[^cifa2023excavation-e1] | 会议论文（见计算机篇） |
 | 组织方式 | 传统上是"孤身学者"（2012 年 39 人美国访谈研究）[^rutner2012supporting-e8] | 项目团队加专家（CIfA）[^cifa2023excavation-e3] | — |
-| 引用 | 许多人用脚注体系[^chicago2024citation-e2] | 本文资料未涉及，以目标期刊要求为准 | — |
+| 引用 | 许多人用脚注体系[^chicago2024citation-e2] | SAA 期刊用作者–年份制：2023 年格式指南写作 (Wylie 1991)[^saa2023styleguide-e1]；American Antiquity 投稿说明（2026 年 10 月查阅）写"截至 2026 年 10 月"用《芝加哥手册》的写法，如 (Sauveterre 1998, 20)[^amantiquity2026instructions-e1]。细节以较新的投稿说明为准 `[本项目分析]`。其他考古期刊本文未涉及 | — |
 | 节奏 | 博士论文改成书，花五六年不少见（AHA）[^aha2013embargo-e2] | 先写项目设计书，各方同意后再做（CIfA）[^cifa2023excavation-e7] | 围着会议截稿日转（见计算机篇） |
 
 ---
@@ -213,6 +213,10 @@
 - **Hunt 2002，Against Presentism**：一篇短文，讲当下主义的两种表现和应对。
 - **《芝加哥格式手册》官网的引用速查页**：脚注和参考书目的写法示例。
 
+[^amantiquity2026instructions-e1]: American Antiquity 投稿说明（剑桥大学出版社网站，2026 年 10 月查阅），References and in-text citations。[证据](../../../sources/notes/amantiquity2026instructions.md#e1)
+[^amantiquity2026instructions-e2]: American Antiquity 投稿说明（2026 年 10 月查阅），Authorship and contributorship。[证据](../../../sources/notes/amantiquity2026instructions.md#e2)
+[^amantiquity2026instructions-e3]: American Antiquity 投稿说明（2026 年 10 月查阅），CRediT taxonomy for contributors。[证据](../../../sources/notes/amantiquity2026instructions.md#e3)
+[^saa2023styleguide-e1]: SAA 格式指南（2023 年 12 月修订版），3.4、3.4.1。[证据](../../../sources/notes/saa2023styleguide.md#e1)
 [^cronon2009learning-e1]: Cronon 等 2009，首页。[证据](../../../sources/notes/cronon2009learning.md#e1)
 [^cronon2009learning-e2]: Cronon 等 2009，首页。[证据](../../../sources/notes/cronon2009learning.md#e2)
 [^cronon2009learning-e3]: Cronon 等 2009，首页。[证据](../../../sources/notes/cronon2009learning.md#e3)

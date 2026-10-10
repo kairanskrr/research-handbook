@@ -1003,6 +1003,43 @@
 
 - [Publishing in ASCE Journals](https://ascelibrary.org/author-center/journal) - American Society of Civil Engineers，ASCE Library。正文用它说明 ASCE 期刊作者指南（2025 年 5 月快照）的预印本政策：预印本服务器上的论文不算已发表（前提是版权可转让给 ASCE），接收后要在预印本上补引用、DOI 和版权声明；同页"已发表内容"一节的说法与之不完全一致。🆓 `asce2025publishing`
 
+**研究方法：过程追踪（补充）**
+
+- [Enlisting the Gatekeeper: Chain-Referral and Elite Access in Foreign Policy Analysis](https://researchonline.lse.ac.uk/id/eprint/103025/4/Mendez_2020_Foreign_Policy_Analysis_Case_Study.pdf) - Mendez，SAGE Research Methods Cases 2020。一位研究者在过程追踪研究中用滚雪球（链式引荐）访谈美国和哥伦比亚决策精英的经验；转引 Tansey 2007 第 769 页关于随机抽样不适合精英决策过程的话；联系受访者时用单位邮箱和信笺。🆓 `mendez2020enlisting`
+- [Tipsheet – Interviewing Elites](https://dism.duke.edu/files/2020/05/Tipsheet-Elite_Interviews.pdf) - Clifford，Duke Initiative on Survey Methodology 2020。精英访谈提示单"Getting in the Door"部分：先寄正式预约信或邮件再电话跟进、借受访者联系其他受访者、约 20–45 分钟。文件未标日期，年份取服务器上传时间（2020 年 5 月）。🆓 `clifford2020tipsheet`
+
+**学科实践：考古发掘（补充）**
+
+- [Radiocarbon Dating and Chronological Modelling: Guidelines and Best Practice](https://historicengland.org.uk/images-books/publications/radiocarbon-dating-chronological-modelling/heag312-radiocarbon-dating/) - Bayliss 等人，Historic England 2022。正文用它说明放射性碳测年怎样选样：样品和目标事件的关联、"测的是样品不是地层单位"、黄金法则（默认样品是残留物）、单个个体测年、老木效应和短寿命材料、没有合适样品就不测。建模部分未摘录。🆓 `bayliss2022radiocarbon`
+
+**学科篇：历史与考古（补充）**
+
+- [Editorial Policy, Information for Authors, and Style Guide for American Antiquity, Latin American Antiquity, and Advances in Archaeological Practice](https://www.saa.org/common/Uploaded%20files/saadocs/Publications/Style%20Guide/saa-style-guide_english_updated_2021_final08023c15928949dabd02faafb269fb1c.pdf) - Society for American Archaeology，网页 2023。正文用它说明 SAA 期刊 2023 年 12 月版格式指南的文中引用是作者–年份制，例如 (Wylie 1991)。🆓 `saa2023styleguide`
+- [American Antiquity: Preparing your materials (author instructions)](https://www.cambridge.org/core/journals/american-antiquity/information/author-instructions/preparing-your-materials) - American Antiquity and Cambridge University Press，网页 2026。正文用它说明截至 2026 年 10 月 SAA 期刊用《芝加哥手册》作者–年份制，例如 (Sauveterre 1998, 20)；以及 American Antiquity 的署名要求（全体作者确认署名名单、用 CRediT 写明贡献、承认够不上作者的贡献者）。🆓 `amantiquity2026instructions`
+
+**学科实践：语言记录（补充）**
+
+- [Recording Audio and Keeping Track of Recordings](https://www.paradisec.org.au/blog/wp-content/uploads/2019/08/Honiara-Audio.pdf) - Thieberger，网页 2019。正文用它说明录音操作的通用原则：先读说明书、试录；耳机监听；避开噪声和风、用防风罩；麦克风靠近说话人、用支架；不用自动限幅、峰值约 -12；不录 mp3，最低 44.1 千赫兹、16 位 WAV。🆓 `thieberger2019recording`
+- [Audiovisual Recording Advice](https://depts.washington.edu/jacobsf/Documents/Audiovisual_recording_advice.pdf) - Roses Labrada，网页 2022。正文用它说明：音频最低 44.1 千赫兹、16 位无压缩格式；外接 XLR 立体声麦克风最好，但看场合选；远程录音时视频会议平台不一定能录无压缩音频，可在发音人身边另放录音设备。🆓 `roseslabrada2022audiovisual`
+
+**学科篇：医学工程（补充）**
+
+- [Medical Devices; Current Good Manufacturing Practice (CGMP) Final Rule; Quality System Regulation](https://www.govinfo.gov/content/pkg/FR-1996-10-07/html/96-25720.htm) - U.S. Food and Drug Administration，Federal Register, Vol. 61, No. 195, pp. 52602–52662 1996。FDA 1996 年发布旧版质量体系法规时，在第 62 条意见答复中说明设计控制不打算用于概念开发和可行性研究，但一旦决定开发某个设计就必须先定计划。正文用它回答"研究阶段要不要遵守设计控制"，并写明这是对旧法规的说明。（同一节还新引用了已有资料 cfr2026ide 的 §812.1(a)：IDE 不免除 §820.10(c) 设计和开发要求。）。🆓 `fda1996qsr`
+
+**学科篇：生物技术（补充）**
+
+- [Directive 2009/41/EC of the European Parliament and of the Council of 6 May 2009 on the contained use of genetically modified micro-organisms (Recast)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0041) - European Parliament and Council of the European Union，Official Journal of the European Union, L 125, pp. 75–97 2009。欧盟指令 2009/41/EC：基因修饰微生物封闭使用的定义；使用者做风险评估，把活动分为四类并对应 1–4 级防护；拿不准时从严；第 3 类及以上须主管机构事先同意。🆓 `eu2009contained`
+- [Biosecurity Law of the People's Republic of China](https://subsites.chinadaily.com.cn/npc/2020-10/17/c_703568.htm) - Standing Committee of the National People's Congress of the People's Republic of China，网页 2020。《中华人民共和国生物安全法》英文本：2020 年通过、2021 年施行；生物技术研发分高、中、低风险三类管理；中、高风险活动须批准或备案并做风险评估；病原微生物实验要在相应等级实验室进行。用英文本是为了让核对脚本能逐字核对。🆓 `npc2020biosecurity`
+
+**学科篇：地球与环境科学（补充二）**
+
+- [Glossary](https://ev.igsn.org/glossary) - IGSN e.V.，IGSN e.V. 网页。IGSN 分配机构（IGSN Agent）是注册编号的机构；注册由分配机构提交给登记机构 DataCite；个人用户要通过分配机构注册样品。🆓 `igsnglossary`
+- [IGSN Agents and Registration](https://ev.igsn.org/resources/igsn-agents-and-registration) - IGSN e.V.，IGSN e.V. 网页。IGSN 分配机构和 DataCite 前缀名单：基尔大学的服务只对本校开放；GFZ 数据服务、Lithodat 对外提供注册；名单上有美国地质调查局、澳大利亚地球科学局、KIGAM 等。🆓 `igsnagents`
+
+**常见问题速查（补充二）**
+
+- [Procedure for the Investigation of Misconduct in Research](https://ukrio.org/wp-content/uploads/Procedure-for-the-Investigation-of-Misconduct-in-Research_Accessible.pdf) - Parry 等人，UK Research Integrity Office 2023。英国科研诚信办公室 2023 年第 2 版范本程序：机构指定负责人接收举报；任何人可举报，可先非正式解决或向保密联络人咨询，可请联络人代为提出；善意举报人不受罚。🆓 `ukrio2023procedure`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

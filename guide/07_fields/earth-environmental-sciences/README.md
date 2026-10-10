@@ -79,7 +79,7 @@ AGU 的伦理政策管它的会员、员工、志愿者和参加 AGU 活动的�
 
 IGSN 组织认为，样品数据难以长期利用，主要是因为：论文里样品记录不完整，样品名称有歧义，找不到样品存在哪里[^igsnabout-e1]。**国际通用样品编号**（International Generic Sample Number，IGSN）就是为此设的：给实物样品用的全球唯一、永久的编号[^igsnabout-e2]，样品从注册到分析、发表都能被追踪[^igsnabout-e3]。它起源于地球科学，现在面向所有学科[^igsnabout-e5]。
 
-据 IGSN 组织的说明：IGSN 的机器可读形式是完整的 https://doi.org/ 链接[^igsnpublications-e2]；给样品袋贴二维码时，标签上还要印出人能读的编号[^igsnpublications-e3]；自 2017 年 5 月起，Copernicus 的地球科学期刊都能在文章"资产"栏列出 IGSN[^igsnpublications-e1][^gmdcodepolicy-e9]。怎样注册 IGSN、国内有没有对应渠道，本文资料未涉及，问导师或单位的数据管理部门。样品唯一编号和"监管链"（记录样品每一步由谁经手）的做法，另见[环境工程篇](../environmental-engineering/README.md#样品编号和监管链)。
+据 IGSN 组织的说明：IGSN 的机器可读形式是完整的 https://doi.org/ 链接[^igsnpublications-e2]；给样品袋贴二维码时，标签上还要印出人能读的编号[^igsnpublications-e3]；自 2017 年 5 月起，Copernicus 的地球科学期刊都能在文章"资产"栏列出 IGSN[^igsnpublications-e1][^gmdcodepolicy-e9]。怎样注册：IGSN 组织让个人用户通过"分配机构"（IGSN Agent，负责注册编号的机构）办理，再由它们提交给登记机构 DataCite[^igsnglossary-e1][^igsnglossary-e2]。IGSN 组织官网列出的分配机构里，有的面向本校人员，例如基尔大学[^igsnagents-e1]；有的对外提供注册服务，例如亥姆霍兹中心的数据服务机构 GFZ Data Services、Lithodat 公司[^igsnagents-e2]；用于 IGSN 的编号前缀名单上还有美国地质调查局、澳大利亚地球科学局、韩国地质资源研究院（KIGAM）等[^igsnagents-e3]。所以先问本单位有没有自己的服务，没有再找对外开放的机构 `[本项目分析]`。国内有没有对应渠道，本文资料未涉及，问导师或单位的数据管理部门。样品唯一编号和"监管链"（记录样品每一步由谁经手）的做法，另见[环境工程篇](../environmental-engineering/README.md#样品编号和监管链)。
 
 ### 数据：投稿时就要能拿到
 
@@ -276,6 +276,11 @@ AGU 伦理政策要求会员报告结果时包括对不确定性的刻画[^agu20
 [^igsnpublications-e1]: IGSN e.V.，Using IGSN in Publications。[证据](../../../sources/notes/igsnpublications.md#e1)
 [^igsnpublications-e2]: IGSN e.V.，Using IGSN in Publications。[证据](../../../sources/notes/igsnpublications.md#e2)
 [^igsnpublications-e3]: IGSN e.V.，Using IGSN in Publications。[证据](../../../sources/notes/igsnpublications.md#e3)
+[^igsnglossary-e1]: IGSN e.V.，Glossary，Allocating Agent。[证据](../../../sources/notes/igsnglossary.md#e1)
+[^igsnglossary-e2]: IGSN e.V.，Glossary，Registration Agency。[证据](../../../sources/notes/igsnglossary.md#e2)
+[^igsnagents-e1]: IGSN e.V.，IGSN Agents and Registration，Kiel University IGSN Service。[证据](../../../sources/notes/igsnagents.md#e1)
+[^igsnagents-e2]: IGSN e.V.，IGSN Agents and Registration，GFZ Data Services 和 Lithodat。[证据](../../../sources/notes/igsnagents.md#e2)
+[^igsnagents-e3]: IGSN e.V.，IGSN Agents and Registration，DataCite 前缀名单。[证据](../../../sources/notes/igsnagents.md#e3)
 [^greene2021safety-e1]: Greene 等 2021，§1。[证据](../../../sources/notes/greene2021safety.md#e1)
 [^greene2021safety-e2]: Greene 等 2021，§4.2.2。[证据](../../../sources/notes/greene2021safety.md#e2)
 [^greene2021safety-e3]: Greene 等 2021，§4.2.2。[证据](../../../sources/notes/greene2021safety.md#e3)

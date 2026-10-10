@@ -96,7 +96,8 @@ Collier 和 Bennett、Checkel 都用下面这套四种检验（例子多出自 V
 - **用访谈预测还没公开的材料。** 先预测保密档案解密后会显示什么，预测应验就是有力的证据[^bennett2012process-e20]。Checkel 就根据访谈和原始文件做出预测，后来被解密的会议记录证实[^bennett2012process-e21]。
 - **讲清是否保密。** 美国政治学会 2020 年的原则说，研究有权势的精英时可以不承诺保密，但要向受访者讲清楚[^apsa2020humansubjects-e19]。其他国家和单位以本地规定为准 `[本项目分析]`。
 - **把访谈记录做成可核对的样子。** 做一张访谈表，列出所有访谈的关键信息[^jacobs2021qualitative-e21]；引用某个回答时，给出这个问题的完整回答；不能公开全文时，报告有几次访谈和假设相符、几次不符[^jacobs2021qualitative-e17]。
-- 精英访谈怎样抽样、怎样约到受访者，本文资料未涉及，以导师和所在方向的惯例为准。
+- **挑谁。** Mendez 2020 转引 Tansey 2007 说，如果你关心的是少数人参与的某次具体决策，随机抽样只能碰运气；Mendez 接着说，越来越多方法学者认可非随机地挑选受访者[^mendez2020enlisting-e2]。Mendez 研究美国和哥伦比亚的"哥伦比亚计划"时用滚雪球抽样（请已经受访的人引荐下一位），访到了已知参与决策者的一半以上，他认为关键是和最早受访的几个人建立关系[^mendez2020enlisting-e1]。这是一位研究者的经验，不是系统研究 `[本项目分析]`。
+- **怎样约。** 美国杜克大学调查方法项目一份未标日期的精英访谈提示单建议：先寄正式的预约信或邮件，讲清研究大意、要占多少时间、谈话内容怎样记录和使用，再打电话跟进；也可以请受访者帮你联系别的受访者[^clifford2020tipsheet-e1]；时长取中等，例如 20–45 分钟[^clifford2020tipsheet-e2]。Mendez 建议往来都用单位邮箱或信笺[^mendez2020enlisting-e3]；其余细节以导师和所在方向的惯例为准。
 
 ### 第七步：认真对待意外和反证
 
@@ -301,3 +302,8 @@ Bennett 和 Checkel 认为，他们提出的十条标准可以作为起点和检
 [^dart2014jets-e3]: Journal Editors' Transparency Statement 2014，第 1 条。[证据](../../sources/notes/dart2014jets.md#e3)
 [^dart2014jets-e4]: Journal Editors' Transparency Statement 2014，第 2 条。[证据](../../sources/notes/dart2014jets.md#e4)
 [^apsa2020humansubjects-e19]: 美国政治学会 2020，Confidentiality 9b。[证据](../../sources/notes/apsa2020humansubjects.md#e19)
+[^mendez2020enlisting-e1]: Mendez 2020，Abstract 与 Project Overview。[证据](../../sources/notes/mendez2020enlisting.md#e1)
+[^mendez2020enlisting-e2]: Mendez 2020，Research Design 一节（转引 Tansey 2007 第 769 页）。[证据](../../sources/notes/mendez2020enlisting.md#e2)
+[^mendez2020enlisting-e3]: Mendez 2020，Practical Lessons Learned 第 6 条。[证据](../../sources/notes/mendez2020enlisting.md#e3)
+[^clifford2020tipsheet-e1]: 杜克大学调查方法项目提示单，Getting in the Door，第 1 页。[证据](../../sources/notes/clifford2020tipsheet.md#e1)
+[^clifford2020tipsheet-e2]: 杜克大学调查方法项目提示单，Getting in the Door，第 1 页。[证据](../../sources/notes/clifford2020tipsheet.md#e2)

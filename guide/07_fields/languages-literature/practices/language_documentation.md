@@ -10,6 +10,7 @@
 
 - 美国语言学会（Linguistic Society of America，LSA）1992、2010、2019 年的几份声明和决议。这是一个美国学会的主张。
 - 澳大利亚的语言档案馆 PARADISEC（太平洋及区域濒危文化数字资源档案馆）网站上的存档指南。它的格式、命名等要求只代表这一家档案馆。
+- 录音操作的两份实用建议：PARADISEC 的 Nick Thieberger 2019 年的培训讲义，和美国 Jacobs Research Funds 2022 年给申请人的录音录像建议。
 - 德国两家机构联合制定的《莱比锡注释规则》。
 - 期刊《语言记录与保护》（Language Documentation & Conservation）上的几篇文章，其中多数出自 2018 年的一期专刊。每篇代表作者本人的看法。
 - 语言学者 Bird 和 Simons 谈数字记录怎样长期可用的文章（本文依据的是它 2002 年的预印本），以及 Berez-Kroeker 等人 2018 年关于数据引用的立场声明。
@@ -84,8 +85,10 @@
 - **保留完整的原始录音。** Bird 和 Simons 建议：转写了一段叙事，就提供完整的原始录音，不要切成很多小片段[^bird2002portability-e2]。
 - **按档案馆的标准录。** 以 PARADISEC 为例：音频交 WAV 格式，尽量接近 24 位、96 千赫兹的存档标准[^paradisecdeposit-e6]；视频交 mkv 作为存档母版、mp4 作为日常副本[^paradisecdeposit-e7]。这是这一家档案馆的要求；开录前先查你要存的档案馆的要求 `[本项目分析]`。
 - **控制数量。** Bowern 提醒，大量录音录像会带来数据量大、转写跟不上、很多材料和项目关系不大等问题[^bowern2018fieldwork-e4]。PARADISEC 也请存档人不要为同一事件交多份录音录像[^paradisecdeposit-e2]。
+- **录音操作的基本功。** PARADISEC 的 Thieberger 2019 年的培训讲义建议：用之前先读说明书、试录[^thieberger2019recording-e4]；戴耳机监听，避开噪声和风（给麦克风套防风罩），麦克风尽量靠近说话人[^thieberger2019recording-e3]。能手动调输入音量时，不要用自动限幅（录音机自动压低过大声音的功能），让最响的地方在电平表上到 -12 左右[^thieberger2019recording-e2]。讲义没写单位；数码录音机的电平表一般以 dBFS 计，0 是能录下的最大音量，超过就会破音，所以 -12 是给突然变大的声音留出余地 `[本项目分析]`。不录 mp3，最低用 44.1 千赫兹、16 位的 WAV[^thieberger2019recording-e1]。
+- **用外接麦克风。** 美国 Jacobs Research Funds（一家研究资助基金）2022 年给申请人的建议说：音频最低录 44.1 千赫兹、16 位的无压缩格式（.wav 或 .aiff）[^roseslabrada2022audiovisual-e1]。最好用外接的立体声麦克风，通过 XLR 接口（专业麦克风常用的带锁扣的接头）连接，噼啪杂音少；但具体选哪种麦克风要看录音场合[^roseslabrada2022audiovisual-e2]。远程录音时，视频会议平台不一定能录无压缩音频，可以在发音人身边另放一台录音设备[^roseslabrada2022audiovisual-e3]。
 
-麦克风和录音机选什么型号、怎样摆放，本文资料未涉及；可以看你所用档案馆的技术指南，或请教有经验的同行。
+这两份是一位档案馆负责人的培训讲义和一家资助机构的建议，不是统一标准；最低要求以你要存的档案馆为准（如上面 PARADISEC 的 24 位、96 千赫兹）`[本项目分析]`。具体选哪款麦克风和录音机，本文不做推荐。
 
 ### 第五步：每次录音都记元数据
 
@@ -200,6 +203,13 @@ island-GEN.PL
 - **Bird & Simons，Seven Dimensions of Portability for Language Documentation and Description**：怎样让数字记录长期可用。本文依据 2002 年的 arXiv 预印本（免费）；修订版 2003 年发表于期刊 Language。
 - **期刊专刊 Reflections on Language Documentation 20 Years after Himmelmann 1998**（2018，开放获取）：其中 Himmelmann 谈转写，Bowern 谈田野方法，Leonard 谈去殖民化，Rice 谈语料库，每篇 8 到 16 页。各篇是作者本人的看法。
 
+[^roseslabrada2022audiovisual-e1]: Rosés Labrada 2022，Jacobs Research Funds 录音录像建议，第 2 段。[证据](../../../../sources/notes/roseslabrada2022audiovisual.md#e1)
+[^roseslabrada2022audiovisual-e2]: Rosés Labrada 2022，Jacobs Research Funds 录音录像建议，第 2 段。[证据](../../../../sources/notes/roseslabrada2022audiovisual.md#e2)
+[^roseslabrada2022audiovisual-e3]: Rosés Labrada 2022，Jacobs Research Funds 录音录像建议，第 3 段。[证据](../../../../sources/notes/roseslabrada2022audiovisual.md#e3)
+[^thieberger2019recording-e1]: Thieberger 2019，PARADISEC 培训讲义，"Record with NO compression""Basics"。[证据](../../../../sources/notes/thieberger2019recording.md#e1)
+[^thieberger2019recording-e2]: Thieberger 2019，PARADISEC 培训讲义，"Set levels"。[证据](../../../../sources/notes/thieberger2019recording.md#e2)
+[^thieberger2019recording-e3]: Thieberger 2019，PARADISEC 培训讲义，"Machinery""Recording"。[证据](../../../../sources/notes/thieberger2019recording.md#e3)
+[^thieberger2019recording-e4]: Thieberger 2019，PARADISEC 培训讲义，"Know your equipment"。[证据](../../../../sources/notes/thieberger2019recording.md#e4)
 [^good2018scope-e1]: Good 2018，摘要。[证据](../../../../sources/notes/good2018scope.md#e1)
 [^good2018scope-e2]: Good 2018，§1。[证据](../../../../sources/notes/good2018scope.md#e2)
 [^good2018scope-e3]: Good 2018，§2.1。[证据](../../../../sources/notes/good2018scope.md#e3)
