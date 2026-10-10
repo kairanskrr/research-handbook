@@ -69,7 +69,8 @@ Oberkampf 等人认为，对大多数复杂或大型系统，做真正的确认�
 - **不能一稿两发。** 社论说这是 ASCE 的长期政策：在 ASCE 期刊发表的内容，不能在别处发表过，也不能之后在别处发表[^hendrickson2011conference-e1]。
 - **会议论文转期刊要有一半新内容。** 可以在会议报告的基础上写期刊论文，但期刊论文要和已出版的会议论文"显著不同"，一般指有 50% 的新内容[^hendrickson2011conference-e2]。社论还说，这适用于所有出版论文集的会议；放到网上的论文被视为已发表[^hendrickson2011conference-e4]。
 - **交通方向的例子。** 从 2011 年 1 月的年会起，美国交通研究委员会（Transportation Research Board，TRB）把年会论文汇编放到网上，ASCE 因此把 TRB 年会论文视为已发表；作者可以选择不收入汇编，保留投 ASCE 期刊的权利[^hendrickson2011conference-e3]。
-- **和 IEEE 比较。** 这和电子信息领域 IEEE（电气与电子工程师学会）"期刊版要有实质性新增内容"的规定思路相近，但 ASCE 给出了"50% 新内容"这个具体说法（见[电子信息篇](../electrical-engineering/README.md)）`[本项目分析]`。ASCE 现行的预印本政策，本文资料未涉及，以目标期刊的作者指南为准。
+- **和 IEEE 比较。** 这和电子信息领域 IEEE（电气与电子工程师学会）"期刊版要有实质性新增内容"的规定思路相近，但 ASCE 给出了"50% 新内容"这个具体说法（见[电子信息篇](../electrical-engineering/README.md)）`[本项目分析]`。
+- **预印本。** 预印本是投稿前就公开在网上的论文稿。ASCE 的期刊作者指南网页（本文读到的是 Internet Archive 2025 年 5 月的快照）说：只要版权还能转让给 ASCE，放在预印本服务器上的论文不算已发表；论文被接收后，要在预印本上补上正式论文的完整引用和 DOI（数字对象标识符，论文的永久编号），并加上 ASCE 的版权声明（选开放获取的作者保留版权，改加一条说明）[^asce2025publishing-e1]。但同一页"已发表内容"一节又说，"已发表"可能包括放在机构库、预印本服务器等网站上的预印本[^asce2025publishing-e2]。两处说法不完全一致，投稿前最好向目标期刊编辑部确认 `[本项目分析]`。
 
 ---
 
@@ -252,6 +253,8 @@ Rosenberg 等人 2020 年社论附了一份检查清单，例如写明哪段代�
 [^hendrickson2011conference-e2]: Hendrickson 等人 2011，第 2 段。[证据](../../../sources/notes/hendrickson2011conference.md#e2)
 [^hendrickson2011conference-e3]: Hendrickson 等人 2011，第 3 段。[证据](../../../sources/notes/hendrickson2011conference.md#e3)
 [^hendrickson2011conference-e4]: Hendrickson 等人 2011，第 4 段。[证据](../../../sources/notes/hendrickson2011conference.md#e4)
+[^asce2025publishing-e1]: ASCE Library，Publishing in ASCE Journals（2025 年快照），Preprint Servers。[证据](../../../sources/notes/asce2025publishing.md#e1)
+[^asce2025publishing-e2]: ASCE Library，Publishing in ASCE Journals（2025 年快照），Previously Published Content。[证据](../../../sources/notes/asce2025publishing.md#e2)
 [^asce2026standards-e1]: ASCE，Codes and Standards 页面。[证据](../../../sources/notes/asce2026standards.md#e1)
 [^asce2026standards-e2]: ASCE，Codes and Standards 页面，Get involved with Standards。[证据](../../../sources/notes/asce2026standards.md#e2)
 [^asce2026standards-e3]: ASCE，Codes and Standards 页面，Get involved with Standards。[证据](../../../sources/notes/asce2026standards.md#e3)

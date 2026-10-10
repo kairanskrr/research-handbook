@@ -965,6 +965,44 @@
 - [Disciplinary Standards for Reappointment, Tenure, and Promotion in Political Science](https://academicaffairs.tcnj.edu/wp-content/uploads/sites/171/2023/05/Political-Science-Disciplinary-Standards.pdf) - Department of Political Science, The College of New Jersey，网页 2023。美国新泽西学院政治学系的续聘、终身教职和晋升学科标准（2022–2023 年签署，2023 年 4 月修订版）。正文用它举例说明一所美国学院怎样折算专著和文章、怎样看待会议论文；只代表这一所学校。🆓 `tcnj2023polisci`
 - [American Political Science Review Editorial Report: Executive Summary (Fall 2023)](https://www.cambridge.org/core/product/CFCD95D2AF8F273A6CA9D1ABAD66BD47/core-reader) - Tripp 等人，Political Science Today 2024。《美国政治学评论》编辑部 2023 年秋报告的执行摘要，刊于 Political Science Today。正文用它说明这本期刊各类审稿决定的中位天数和录用率。🆓 `apsr2024editorial`
 
+**主线二：从研究问题到证据（补充）**
+
+- [Registered reports in software engineering](https://arxiv.org/abs/2302.03649) - Ernst 等人，Empirical Software Engineering 2023。正文用它说明软件工程里哪些会议和期刊、从哪一年起接受注册报告（MSR 2020、Empirical Software Engineering 2020、TOSEM 2022，第一阶段可在 MSR/ICSME/ESEM 轨道审）。🆓 `ernst2023registered`
+
+**主线二：先做小规模试验，排除最大风险（补充）**
+
+- [Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans – TCPS 2 (2022)](https://ethics.gc.ca/eng/tcps2-eptc2_2022_chapter2-chapitre2.html) - Canadian Institutes of Health Research and Natural Sciences and Engineering Research Council of Canada and Social Sciences and Humanities Research Council of Canada，Government of Canada, Panel on Research Ethics 2022。加拿大三大联邦研究资助机构联合发布的人类研究伦理政策（2022 年版）。正文用它说明：在加拿大，预研究属于需要研究伦理委员会审查的研究，须在招募和收集数据前送审（Article 2.1、6.11）；为设计方案做的初步探索不需要审查；预研究审查按风险相称（Article 6.11、6.12）。🆓 `tcps2022ethical`
+
+**主线四：选择发表去处与投稿（补充）**
+
+- [Journals: Think. Check. Submit. Checklist](https://thinkchecksubmit.org/journals/) - Think. Check. Submit.，网页 2023。Think. Check. Submit. 官方期刊核对清单网页（英文版 2023 年 3 月更新、6 月修订；COPE、DOAJ 等出版业组织共同发起的倡议）。正文用它列出识别可疑刊物时可以核对的几个问题。🆓 `thinkchecksubmit2023checklist`
+
+**贯穿全程：合作与导师（补充）**
+
+- [ACM Policy on Authorship](https://www.acm.org/publications/policies/new-acm-policy-on-authorship) - Association for Computing Machinery，网页 2025。正文用它说明 ACM（美国计算机协会）对所有 ACM 期刊和会议的署名条件、禁止的署名做法、致谢写法和生成式人工智能不能当作者。🆓 `acm2025authorship`
+
+**研究方法：准实验（补充）**
+
+- [A Practical Introduction to Regression Discontinuity Designs: Foundations](https://arxiv.org/abs/1911.09511) - Cattaneo 等人，Cambridge University Press 2020。断点回归入门书。正文用它说明：不用全局高阶多项式、只在分界线附近做局部多项式估计；用数据驱动的均方误差最优带宽；置信区间报告稳健偏差校正置信区间（rdrobust 软件包）。🆓 `cattaneo2020practical`
+- [Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects](https://hdl.handle.net/1721.1/144417) - Abadie，Journal of Economic Literature 2021。合成控制方法的实用综述。正文用它说明什么情况下适合用合成控制：足够长的干预前时期、合适的对照单位池（排除采取过类似干预的单位、限于相近单位）、找不到可信组合时不该用、效应和结果波动的大小关系。🆓 `abadie2021using`
+
+**研究方法：随机对照试验（补充）**
+
+- [Treatment allocation by minimisation](https://pmc.ncbi.nlm.nih.gov/articles/PMC556084/) - Altman 等人，BMJ 2005。BMJ "Statistics Notes" 统计笔记。正文用它说明最小化法怎么做：第一个人随机分，之后按已入组者在各预后因素上的分布决定下一个人的分组，可加入随机成分。🆓 `altman2005treatment`
+
+**研究方法：系统综述与元分析（补充）**
+
+- [PRISMA-Diagnostic Test Accuracy](https://www.prisma-statement.org/dta) - PRISMA Executive，网页 2024。PRISMA 官方网站上 PRISMA-DTA（诊断准确性扩展版）的介绍页。正文用它说明报告诊断准确性系统综述有专门的 PRISMA 扩展版，2018 年发表。🆓 `prismadta2018`
+- [Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy](https://www.cochrane.org/authors/handbooks-and-manuals/handbook-systematic-reviews-diagnostic-test-accuracy) - Deeks 等人（编），Cochrane 2023。Cochrane 官方网站上诊断准确性系统综述手册的介绍页。正文用它说明 Cochrane 另有一本诊断准确性综述手册（2.0 版，2023 年 7 月更新）。🆓 `deeks2023cochrane`
+
+**研究方法：口述历史（补充）**
+
+- [Distress Protocol (template)](https://www.cdu.edu.au/files/2025-09/Distress%20Protocol%20Template.docx) - Charles Darwin University，Charles Darwin University Research Integrity and Ethics 2025。澳大利亚查尔斯·达尔文大学伦理办公室公开的情绪困扰应对方案模板（2025 年 9 月上传）。正文用它说明：访谈中留意困扰迹象；当场确认、提出暂停、提醒可以结束、可避开引发痛苦的话题；转介支持服务；事后跟进；保密记录。🆓 `cdu2025distress`
+
+**学科篇：土木工程（补充）**
+
+- [Publishing in ASCE Journals](https://ascelibrary.org/author-center/journal) - American Society of Civil Engineers，ASCE Library。正文用它说明 ASCE 期刊作者指南（2025 年 5 月快照）的预印本政策：预印本服务器上的论文不算已发表（前提是版权可转让给 ASCE），接收后要在预印本上补引用、DOI 和版权声明；同页"已发表内容"一节的说法与之不完全一致。🆓 `asce2025publishing`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

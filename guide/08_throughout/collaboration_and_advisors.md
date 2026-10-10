@@ -124,7 +124,7 @@
 
 **怎么做：**
 
-下面引用两份规范：国际医学期刊编辑委员会（ICMJE）的署名规范，是为医学期刊制定的；欧洲科学院联合会（ALLEA）的《欧洲科研诚信行为准则》，是欧洲的科研诚信准则。计算机方向会议和期刊各自的署名规定，本文资料未涉及，以投稿处的规定为准 `[本项目分析]`。
+下面引用两份规范：国际医学期刊编辑委员会（ICMJE）的署名规范，是为医学期刊制定的；欧洲科学院联合会（ALLEA）的《欧洲科研诚信行为准则》，是欧洲的科研诚信准则。计算机方向两家主要出版方的署名规定，单独放在本节列表后面；具体某个会议或期刊有没有额外规定，本文资料未涉及，以投稿处的规定为准 `[本项目分析]`。
 
 - **开工时就谈谁署名、怎么排。** 医学期刊的署名规范建议：谁符合署名条件，最好在规划研究时就定下来，随工作进展再调整[^icmje2026recommendations-e4]。欧洲准则要求署名顺序由作者们正式商定[^allea2023european-e8]。
 - **按条件判断谁该署名。** 欧洲准则给出四个条件：对研究设计、数据收集、分析或解释有实质贡献；起草或批判性修改过论文；同意最终版本；同意对内容负责[^allea2023european-e7]。实质贡献可以是编程、提出想法、修改、指导等；不要给没出力的朋友挂名[^herremans2020successful-e4]。医学期刊的规范还写明：只拿经费、只做一般性的课题组管理、只做语言润色，单凭这些都不够署名[^icmje2026recommendations-e7]。
@@ -133,7 +133,12 @@
 - **给合作者留时间。** 投稿前提前通知所有合作者；会议论文至少提前两周把稿子发出去，让资深合作者能安排时间[^herremans2020successful-e1]。以期刊为主的学科，对应的时间点是投稿前或提交修改稿前 `[本项目分析]`。
 - **谈不拢怎么办。** 医学期刊的署名规范写明：对谁该署名达不成一致时，应由研究所在的机构调查，而不是期刊编辑[^icmje2026recommendations-e5]。各机构的具体程序，本文资料未涉及。
 
-**署名顺序各学科不一样。** 例如经济学的惯例是按姓氏字母排[^einav2006surname-e1]，心理学按贡献排[^einav2006surname-e3]。具体惯例见各学科概况，例如[经济学](../07_fields/economics/README.md#署名按字母顺序)、[数学](../07_fields/mathematics/README.md#一个人或几个人做按字母署名)、[社会学](../07_fields/sociology/README.md#署名)、[教育学](../07_fields/education/README.md)、[历史与考古](../07_fields/history-archaeology/README.md)、[物理科学](../07_fields/physical-sciences/README.md#署名)。计算机方向的署名顺序惯例，本文资料未涉及，进组时问清导师 `[本项目分析]`。署名和引用的诚信要求，见[科研诚信与伦理](integrity_and_ethics.md)。
+**计算机方向的两家出版方怎么规定。**
+
+- **ACM（美国计算机协会）**：署名政策（2025 年 9 月 16 日更新版）适用于 ACM 旗下所有期刊、会议、杂志和图书[^acm2025authorship-e1]。每位作者都要同时满足：是可识别的真人；对研究有实质性的智力贡献（如构思、设计、分析），并参与起草或修改稿件；对发表的全部内容负责[^acm2025authorship-e2]。符合条件的人都应署名，送人情挂名、只挂名不出力、代写不署名、买卖署名都明确违规[^acm2025authorship-e3]。贡献不够署名的人写进致谢，写明各自做了什么，最好用 CRediT（一套标准的贡献者角色分类）的角色名[^acm2025authorship-e4]；生成式人工智能不能当作者，用它生成内容必须在论文里完整说明[^acm2025authorship-e5]。
+- **IEEE（电气电子工程师学会）**：它的出版运行手册（2026 年 6 月修订版）要求作者同时满足三条：在理论推导、系统或实验设计、原型开发、数据分析与解释中至少一项有重要的智力贡献[^ieee2026pspb-e6]；参与起草或在内容上修改论文；认可最终录用的版本，包括参考文献[^ieee2026pspb-e7]。
+
+**署名顺序各学科不一样。** 例如经济学的惯例是按姓氏字母排[^einav2006surname-e1]，心理学按贡献排[^einav2006surname-e3]。具体惯例见各学科概况，例如[经济学](../07_fields/economics/README.md#署名按字母顺序)、[数学](../07_fields/mathematics/README.md#一个人或几个人做按字母署名)、[社会学](../07_fields/sociology/README.md#署名)、[教育学](../07_fields/education/README.md)、[历史与考古](../07_fields/history-archaeology/README.md)、[物理科学](../07_fields/physical-sciences/README.md#署名)。计算机方向：IEEE 不规定作者顺序，由作者们自己决定[^ieee2026pspb-e8]。本文找到的统计只有一份：Waltman 2012 年统计了 Web of Science 收录的多作者论文[^waltman2012empirical-e2]，按期刊学科分类比较 2007–2011 年的情况[^waltman2012empirical-e3]；"计算机科学，理论与方法"这一类期刊里，48.6% 的论文作者按姓氏字母顺序排，用模型扣掉碰巧按字母排的情况后，估计约 32.6% 是有意这样排的[^waltman2012empirical-e5][^waltman2012empirical-e4]。文中列出了有意按字母排至少 15% 的全部 25 个类别[^waltman2012empirical-e9]，计算机类只有这一个在内，可见其他计算机类别都不到 15%。详见[理论计算机](../07_fields/computer-science/subfields/theory.md#这个方向特有的规矩)。计算机其他方向按贡献怎么排、导师通常排在哪，本文资料未涉及，进组时问清导师 `[本项目分析]`。署名和引用的诚信要求，见[科研诚信与伦理](integrity_and_ethics.md)。
 
 **为什么：** 越晚谈，各人对贡献的记忆和期待差得越远，越难谈拢 `[本项目分析]`。
 
@@ -250,3 +255,16 @@
 [^icmje2026recommendations-e7]: ICMJE 2026，§II.A.3。[证据](../../sources/notes/icmje2026recommendations.md#e7)
 [^einav2006surname-e1]: Einav & Yariv 2006，第 175 页。[证据](../../sources/notes/einav2006surname.md#e1)
 [^einav2006surname-e3]: Einav & Yariv 2006，第 182 页脚注 8。[证据](../../sources/notes/einav2006surname.md#e3)
+[^acm2025authorship-e1]: ACM Policy on Authorship 2025，Scope of Policy。[证据](../../sources/notes/acm2025authorship.md#e1)
+[^acm2025authorship-e2]: ACM Policy on Authorship 2025，Criteria for Authorship。[证据](../../sources/notes/acm2025authorship.md#e2)
+[^acm2025authorship-e3]: ACM Policy on Authorship 2025，Criteria for Authorship，Note。[证据](../../sources/notes/acm2025authorship.md#e3)
+[^acm2025authorship-e4]: ACM Policy on Authorship 2025，Criteria for Authorship。[证据](../../sources/notes/acm2025authorship.md#e4)
+[^acm2025authorship-e5]: ACM Policy on Authorship 2025，Criteria for Authorship。[证据](../../sources/notes/acm2025authorship.md#e5)
+[^ieee2026pspb-e6]: IEEE PSPB Operations Manual 2026，§8.2.1.A.1。[证据](../../sources/notes/ieee2026pspb.md#e6)
+[^ieee2026pspb-e7]: IEEE PSPB Operations Manual 2026，§8.2.1.A.1。[证据](../../sources/notes/ieee2026pspb.md#e7)
+[^ieee2026pspb-e8]: IEEE PSPB Operations Manual 2026，§8.2.1.A.2。[证据](../../sources/notes/ieee2026pspb.md#e8)
+[^waltman2012empirical-e2]: Waltman 2012，§3。[证据](../../sources/notes/waltman2012empirical.md#e2)
+[^waltman2012empirical-e3]: Waltman 2012，§3.2。[证据](../../sources/notes/waltman2012empirical.md#e3)
+[^waltman2012empirical-e4]: Waltman 2012，§2。[证据](../../sources/notes/waltman2012empirical.md#e4)
+[^waltman2012empirical-e5]: Waltman 2012，§3.2 表 1。[证据](../../sources/notes/waltman2012empirical.md#e5)
+[^waltman2012empirical-e9]: Waltman 2012，§3.2。[证据](../../sources/notes/waltman2012empirical.md#e9)

@@ -187,7 +187,7 @@
 
 **更进一步：注册报告。** 作者在看到结果之前，把研究问题和方法交给期刊审稿；第二阶段审稿不评判结果是否"重要"，只看研究做得好不好、是否按计划执行[^nosek2018preregistration-e7]。
 
-**计算机方向的现状。** 软件工程的实验标准把"在会议或期刊允许时预注册假设和设计"列为加分项，而不是必要项[^ralph2020empirical-e176]。计算机各个会议和期刊是否接受预注册或注册报告，本文资料未涉及，请查你目标去处的投稿说明。即使不正式公开，在仓库里带日期地存一份计划，也能起到"让自己分清事先和事后"的作用 `[本项目分析]`。
+**计算机方向的现状。** 软件工程的实验标准把"在会议或期刊允许时预注册假设和设计"列为加分项，而不是必要项[^ralph2020empirical-e176]。软件工程里已经有一些去处接受注册报告。据 Ernst 和 Baldassarre 2023 年的介绍，最早引入的是 2020 年的挖掘软件仓库国际会议（MSR，Mining Software Repositories）[^ernst2023registered-e1]；Empirical Software Engineering 期刊从 2020 年起支持这种形式，美国计算机协会（ACM）的 TOSEM 期刊（Transactions on Software Engineering and Methodology）从 2022 年起有类似的"Registered Paper"项目[^ernst2023registered-e2]。Empirical Software Engineering 的做法是把第一阶段（审研究计划）放到会议的专门轨道上办，当时可选 MSR、ICSME（软件维护与演化国际会议）和 ESEM（实证软件工程与度量会议）[^ernst2023registered-e3]。计算机其他方向的会议和期刊是否接受，本文资料未涉及；这些去处每年的规定也会变，请查你目标去处当年的投稿说明。即使不正式公开，在仓库里带日期地存一份计划，也能起到"让自己分清事先和事后"的作用 `[本项目分析]`。
 
 **也别把它想得太神奇。** 预注册不能杜绝糟糕的统计做法，但能让这些做法被发现[^nosek2018preregistration-e8]；它能不能提高结果的可重复性，目前还没有足够的实验证据[^nosek2018preregistration-e9]。
 
@@ -301,6 +301,9 @@
 [^ralph2020empirical-e42]: ACM SIGSOFT 实证研究标准，Sampling 补充文件，Application。[证据](../../sources/notes/ralph2020empirical.md#e42)
 [^ralph2020empirical-e119]: ACM SIGSOFT 实证研究标准，Repository Mining 标准，Antipatterns。[证据](../../sources/notes/ralph2020empirical.md#e119)
 [^ralph2020empirical-e176]: ACM SIGSOFT 实证研究标准，Experiments 标准，Desirable Attributes。[证据](../../sources/notes/ralph2020empirical.md#e176)
+[^ernst2023registered-e1]: Ernst & Baldassarre 2023，摘要。[证据](../../sources/notes/ernst2023registered.md#e1)
+[^ernst2023registered-e2]: Ernst & Baldassarre 2023，§2.1。[证据](../../sources/notes/ernst2023registered.md#e2)
+[^ernst2023registered-e3]: Ernst & Baldassarre 2023，§3。[证据](../../sources/notes/ernst2023registered.md#e3)
 [^ralph2020empirical-e202]: ACM SIGSOFT 实证研究标准，Data Science 标准，可接受的偏离。[证据](../../sources/notes/ralph2020empirical.md#e202)
 [^runeson2009guidelines-e3]: Runeson & Höst 2009（软件工程案例研究），§5.2.3。[证据](../../sources/notes/runeson2009guidelines.md#e3)
 [^flake2020measurement-e7]: Flake & Fried 2020（心理学，量表测量），Question 1。[证据](../../sources/notes/flake2020measurement.md#e7)

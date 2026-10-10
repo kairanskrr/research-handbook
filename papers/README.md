@@ -724,6 +724,17 @@
 | `aerapublicationsfaq` | Publications FAQs | 网页 | [链接](https://www.aera.net/Publications/Publications-FAQs) |
 | `tcnj2023polisci` | Disciplinary Standards for Reappointment, Tenure, and Promotion in Political Science | 网页 2023 | [链接](https://academicaffairs.tcnj.edu/wp-content/uploads/sites/171/2023/05/Political-Science-Disciplinary-Standards.pdf) |
 | `apsr2024editorial` | American Political Science Review Editorial Report: Executive Summary (Fall 2023) | Political Science Today 2024 | [链接](https://www.cambridge.org/core/product/CFCD95D2AF8F273A6CA9D1ABAD66BD47/core-reader) |
+| `ernst2023registered` | Registered reports in software engineering | Empirical Software Engineering 2023 | [链接](https://arxiv.org/abs/2302.03649) |
+| `tcps2022ethical` | Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans – TCPS 2 (2022) | Government of Canada, Panel on Research Ethics 2022 | [链接](https://ethics.gc.ca/eng/tcps2-eptc2_2022_chapter2-chapitre2.html) |
+| `thinkchecksubmit2023checklist` | Journals: Think. Check. Submit. Checklist | 网页 2023 | [链接](https://thinkchecksubmit.org/journals/) |
+| `acm2025authorship` | ACM Policy on Authorship | 网页 2025 | [链接](https://www.acm.org/publications/policies/new-acm-policy-on-authorship) |
+| `cattaneo2020practical` | A Practical Introduction to Regression Discontinuity Designs: Foundations | Cambridge University Press 2020 | [链接](https://arxiv.org/abs/1911.09511) |
+| `abadie2021using` | Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects | Journal of Economic Literature 2021 | [链接](https://hdl.handle.net/1721.1/144417) |
+| `altman2005treatment` | Treatment allocation by minimisation | BMJ 2005 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC556084/) |
+| `prismadta2018` | PRISMA-Diagnostic Test Accuracy | 网页 2024 | [链接](https://www.prisma-statement.org/dta) |
+| `deeks2023cochrane` | Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy | Cochrane 2023 | [链接](https://www.cochrane.org/authors/handbooks-and-manuals/handbook-systematic-reviews-diagnostic-test-accuracy) |
+| `cdu2025distress` | Distress Protocol (template) | Charles Darwin University Research Integrity and Ethics 2025 | [链接](https://www.cdu.edu.au/files/2025-09/Distress%20Protocol%20Template.docx) |
+| `asce2025publishing` | Publishing in ASCE Journals | ASCE Library | [链接](https://ascelibrary.org/author-center/journal) |
 
 ## 待获取
 

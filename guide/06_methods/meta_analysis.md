@@ -2,7 +2,7 @@
 
 本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，[综述研究](review_study.md#2-系统综述怎么做)一篇已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[健康科学学科概况](../07_fields/health-sciences/README.md)。
 
-**本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。诊断准确性、预后等其他类型综述的专门方法，本文资料未涉及，同样以导师或目标期刊要求为准。
+**本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。其他类型的综述有各自的规范。以诊断准确性综述（评价一项检查能多准确地查出疾病）为例：Cochrane 另有一本 Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy（官网 2026 年 10 月列出的是 2.0 版，2023 年 7 月更新）[^deeks2023cochrane-e1][^deeks2023cochrane-e2]；报告时有 PRISMA 的诊断准确性扩展版 PRISMA-DTA（2018 年发表）[^prismadta2018-e1]。这两份本文只读了官方网站上的介绍页，手册各章和 PRISMA-DTA 的清单正文都没有读，具体怎么做本文资料未涉及。预后等其他类型综述的专门方法，本文资料未涉及。这些综述都以导师或目标期刊要求为准。
 
 **适用范围** `[本项目分析]`：本文原为[健康科学](../07_fields/health-sciences/README.md)写，资料主要是 Cochrane 手册、PRISMA 2020 报告规范、PROSPERO 登记平台的规定和 GRADE 方法的文献，讲的都是健康领域干预效果综述的做法。[临床医学](../07_fields/clinical-medicine/README.md)和[心理学与认知科学](../07_fields/psychology/README.md)的学科概况也指向本篇。其他学科做元分析时，合并效应的统计思路可以参考；登记平台、偏倚风险工具和证据分级标准，先看本学科的规范。
 
@@ -280,3 +280,6 @@ PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导�
 [^schunemann2013grade-e1]: GRADE 手册 2013，表 5.1。[证据](../../sources/notes/schunemann2013grade.md#e1)
 [^schunemann2013grade-e3]: GRADE 手册 2013，§5。[证据](../../sources/notes/schunemann2013grade.md#e3)
 [^schunemann2013grade-e4]: GRADE 手册 2013，§5.3.1。[证据](../../sources/notes/schunemann2013grade.md#e4)
+[^deeks2023cochrane-e1]: Cochrane 网站，Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy 介绍页，About the Handbook。[证据](../../sources/notes/deeks2023cochrane.md#e1)
+[^deeks2023cochrane-e2]: Cochrane 网站，同上，How to cite the Handbook。[证据](../../sources/notes/deeks2023cochrane.md#e2)
+[^prismadta2018-e1]: PRISMA 官方网站，PRISMA-Diagnostic Test Accuracy 页面。[证据](../../sources/notes/prismadta2018.md#e1)

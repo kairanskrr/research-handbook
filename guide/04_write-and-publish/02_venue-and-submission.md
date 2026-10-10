@@ -45,7 +45,11 @@
 | 时间合适吗？ | 截稿日、审稿周期 | 离截稿日够不够做完最后的检查 |
 | 规则有什么特殊之处？ | 征稿启事的匿名、伦理、制品部分 | 安全会议可能要求讨论研究伦理（见第 4 节） |
 
-**一个没听说过的刊物主动约稿，先问导师。** 怎样识别不规范的刊物，本文资料未涉及；最稳妥的办法是只投导师和同行都认可的去处 `[本项目分析]`。
+**一个没听说过的刊物主动约稿，先问导师。** 要当心"掠夺性期刊"（也叫"伪期刊"）。国际医学期刊编辑委员会（International Committee of Medical Journal Editors，ICMJE）2026 年版的建议是写给医学期刊的，它这样描述这类刊物：几乎什么稿都收，收发表费，常在录用后才告诉你要交钱[^icmje2026recommendations-e34]；自称有同行评审，其实没有，还可能起一个和知名期刊相近的名字[^icmje2026recommendations-e35]。它也提醒，评估所投期刊的诚信、历史、做法和声誉，是作者自己的责任[^icmje2026recommendations-e36]。
+
+你可以用 Think. Check. Submit.（"想一想、查一查、再投稿"，出版业多家组织共同发起的倡议[^thinkchecksubmit2023checklist-e1]）的期刊核对清单（2023 年版）逐项查，例如：你和同事知道这本刊物吗[^thinkchecksubmit2023checklist-e2]，能不能找到并联系上出版者[^thinkchecksubmit2023checklist-e3]，它有没有写清用哪种同行评审、是不是保证录用或保证审稿极快[^thinkchecksubmit2023checklist-e4]，要收哪些费用写清楚了没有[^thinkchecksubmit2023checklist-e5]。清单建议：大多数或全部问题都能答"是"，才投[^thinkchecksubmit2023checklist-e6]。
+
+这些问题只能帮你排除可疑的刊物；最稳妥的办法仍是只投导师和同行都认可的去处 `[本项目分析]`。
 
 **写下来：** 列出两三个候选去处。对每一个，填上表的六行，并写出"我的论文最像它发过的哪一篇"。
 
@@ -154,8 +158,7 @@
 - **资助和利益冲突**：IEEE 2026 年版运行手册要求，资助来源和任何潜在的利益冲突都要在论文里写清楚[^ieee2026pspb-e10]；《欧洲科研诚信行为准则》2023 年版要求经济上的和非经济上的利益冲突都要披露[^allea2023european-e10]。
 - **自己已有的相似论文**：IEEE 期刊（作者中心网页，2026 年查阅）要求投稿时披露自己已发表或已投出的相似论文，并清楚说明新稿有什么不同[^ieeeauthorsubmission-e1]。
 - **不要一稿多投**：同一工作同时投多个地方，USENIX Security 2026 认定为不诚实或欺诈[^usenixsec2026cfp-e11]；美国物理学会 2024 年的准则也不允许同时投多个期刊[^aps2024ethics-e13]；按美国哲学学会 2022 年的说明，投稿本身就表示这篇稿件没有在别处审稿[^apaphil2022journal-e6]。
-
-是否允许、以及怎样声明使用写作辅助工具（例如大模型），本文资料未涉及，以目标去处的说明为准。
+- **写作辅助工具（例如大模型）**：各家规定不同，下面是两个例子。医学期刊遵循的 ICMJE 2026 年版建议说，聊天机器人不能列为作者，因为它不能对工作的准确、诚信和原创负责[^icmje2026recommendations-e29]；用人工智能辅助写作，要在致谢里说明；用于收集数据、分析或作图，要在方法部分说明[^icmje2026recommendations-e30]。IEEE 期刊（作者中心网页，2026 年查阅）要求在致谢里披露人工智能生成的内容（文字、图、代码等），写明用的是哪个系统、用在哪些部分[^ieeeauthorsubmission-e4]；只用来修改文字和语法的，不强制披露，但建议披露[^ieeeauthorsubmission-e5]。你的目标去处怎么规定，以它的说明为准。
 
 **写下来：** 把目标去处的征稿启事或作者指南逐条抄成一张待办表，每一行写"要求 / 我的做法 / 是否完成"。至少覆盖格式、匿名、制品和数据、伦理、署名、利益冲突、已有发表七项。
 
@@ -309,6 +312,8 @@
 [^ieee2026pspb-e13]: IEEE PSPB 运行手册 2026，§8.2.1.B.16，第 107 页。[证据](../../sources/notes/ieee2026pspb.md#e13)
 [^ieee2026pspb-e14]: IEEE PSPB 运行手册 2026，§8.2.1.B.8，第 106 页。[证据](../../sources/notes/ieee2026pspb.md#e14)
 [^ieeeauthorsubmission-e1]: IEEE 作者中心（2026-10-06 读取），Submission Policies — Multiple Submission and Prior Publication。[证据](../../sources/notes/ieeeauthorsubmission.md#e1)
+[^ieeeauthorsubmission-e4]: IEEE 作者中心（2026-10-10 读取），Guidelines for Artificial Intelligence (AI)-Generated Content。[证据](../../sources/notes/ieeeauthorsubmission.md#e4)
+[^ieeeauthorsubmission-e5]: IEEE 作者中心（2026-10-10 读取），Guidelines for Artificial Intelligence (AI)-Generated Content。[证据](../../sources/notes/ieeeauthorsubmission.md#e5)
 [^ieeeauthorposting-e1]: IEEE 作者中心（2026-10-06 读取），Article Sharing and Posting Policies — Preprint。[证据](../../sources/notes/ieeeauthorposting.md#e1)
 [^ieeeauthorposting-e2]: IEEE 作者中心（2026-10-06 读取），Article Sharing and Posting Policies — Author-submitted article。[证据](../../sources/notes/ieeeauthorposting.md#e2)
 [^neurips2025cfp-e2]: NeurIPS 2025 征稿启事，Paper Formatting Instructions。[证据](../../sources/notes/neurips2025cfp.md#e2)
@@ -346,6 +351,17 @@
 [^icmje2026recommendations-e22]: ICMJE 2026，§III.L.3。[证据](../../sources/notes/icmje2026recommendations.md#e22)
 [^icmje2026recommendations-e25]: ICMJE 2026，§IV.A.2。[证据](../../sources/notes/icmje2026recommendations.md#e25)
 [^icmje2026recommendations-e27]: ICMJE 2026，§II.A.2。[证据](../../sources/notes/icmje2026recommendations.md#e27)
+[^icmje2026recommendations-e29]: ICMJE 2026，§II.A.4。[证据](../../sources/notes/icmje2026recommendations.md#e29)
+[^icmje2026recommendations-e30]: ICMJE 2026，§II.A.4。[证据](../../sources/notes/icmje2026recommendations.md#e30)
+[^icmje2026recommendations-e34]: ICMJE 2026，§II.C.1.a。[证据](../../sources/notes/icmje2026recommendations.md#e34)
+[^icmje2026recommendations-e35]: ICMJE 2026，§II.C.1.a。[证据](../../sources/notes/icmje2026recommendations.md#e35)
+[^icmje2026recommendations-e36]: ICMJE 2026，§II.C.1.a。[证据](../../sources/notes/icmje2026recommendations.md#e36)
+[^thinkchecksubmit2023checklist-e1]: Think. Check. Submit. 期刊核对清单（2023 年版，2026-10-10 读取），页脚倡议简介。[证据](../../sources/notes/thinkchecksubmit2023checklist.md#e1)
+[^thinkchecksubmit2023checklist-e2]: Think. Check. Submit. 期刊核对清单（2023 年版，2026-10-10 读取），清单条目。[证据](../../sources/notes/thinkchecksubmit2023checklist.md#e2)
+[^thinkchecksubmit2023checklist-e3]: Think. Check. Submit. 期刊核对清单（2023 年版，2026-10-10 读取），清单条目。[证据](../../sources/notes/thinkchecksubmit2023checklist.md#e3)
+[^thinkchecksubmit2023checklist-e4]: Think. Check. Submit. 期刊核对清单（2023 年版，2026-10-10 读取），清单条目。[证据](../../sources/notes/thinkchecksubmit2023checklist.md#e4)
+[^thinkchecksubmit2023checklist-e5]: Think. Check. Submit. 期刊核对清单（2023 年版，2026-10-10 读取），清单条目。[证据](../../sources/notes/thinkchecksubmit2023checklist.md#e5)
+[^thinkchecksubmit2023checklist-e6]: Think. Check. Submit. 期刊核对清单（2023 年版，2026-10-10 读取），清单结尾。[证据](../../sources/notes/thinkchecksubmit2023checklist.md#e6)
 [^allea2023european-e18]: ALLEA 2023，Preamble。[证据](../../sources/notes/allea2023european.md#e18)
 [^allea2023european-e7]: ALLEA 2023，§2.7。[证据](../../sources/notes/allea2023european.md#e7)
 [^allea2023european-e8]: ALLEA 2023，§2.7。[证据](../../sources/notes/allea2023european.md#e8)

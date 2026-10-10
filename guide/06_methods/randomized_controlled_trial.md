@@ -76,7 +76,7 @@
 - **选随机化方式**：几百人以上的试验，简单随机化通常就能让两组人数相近；不到约 200 人的小试验，用某种限制性随机化帮助组间均衡可能有用[^hopewell2025consortee-e21]。常见的限制方式有：
   - **区组随机化**（把受试者按固定人数分成小段，每段内各组人数相等 `[本项目分析]`）：知道区组大小的人能猜出接下来的部分分配；对干预设盲、用更大的区组、随机变换区组大小可以缓解[^hopewell2025consortee-e22]。SPIRIT 2025 建议把区组等细节写在单独文件里，不给负责入组和分配的人看[^chan2025spirit-e2]。
   - **分层随机化**：多中心试验常按中心分层；分层必须配合层内区组之类的限制，否则无效[^hopewell2025consortee-e23]。
-- **最小化法**：CONSORT 解释文章称它是随机化唯一可接受的替代方法[^hopewell2025consortee-e24]。具体怎么做，本文资料未涉及，请教试验统计师。
+- **最小化法**：CONSORT 解释文章称它是随机化唯一可接受的替代方法[^hopewell2025consortee-e24]。它能让各组在多个预后因素（影响结局的基线特征，例如性别、年龄）上很均衡，样本小也行；下一个人分到哪组，取决于已入组者在这些因素上的分布[^altman2005treatment-e1]。Altman 和 Bland 在 BMJ 2005 年的统计笔记里这样演示：第一个人随机分；之后每来一个人，对每一组，把已入组者中和他在各个因素上特征相同的人数加起来，把他分到总数较小的组，总数相同时随机分[^altman2005treatment-e2][^altman2005treatment-e3]。连续变量（例如年龄）要先分成几类[^altman2005treatment-e2]。也可以加一点随机成分：以较高的概率（例如 80%）分到能减少不平衡的那组，均衡性略差，但分配更难预测[^altman2005treatment-e4]。具体用哪些因素、加多大的随机成分，请教试验统计师 `[本项目分析]`。
 
 **为什么**：随机化成功靠两步：序列不可预测，并且对负责入组的研究者隐藏[^hopewell2025consortee-e25]。第二步见下一步。
 
@@ -198,7 +198,7 @@ CONSORT（Consolidated Standards of Reporting Trials，临床试验报告统一�
 - **CONSORT 2025 声明及其解释文章**（Hopewell 等人 2025；解释文章发表于 BMJ，PubMed Central 有免费全文）：声明是 30 项清单和流程图，写论文时对照用；解释文章是本文主要依据，逐条讲每个条目的含义、理由和实证依据，其中随机化、分配隐藏、盲法、意向性分析几节，设计阶段就值得读。
 - **SPIRIT 2025 声明**（Chan 等人 2025）：34 项方案条目，写方案时逐条对照。
 - **《赫尔辛基宣言》（世界医学会，2024 年版）、ICMJE 建议（面向医学期刊）、WHO 国际临床试验注册平台网页**：伦理、登记、数据共享的基础文件，见[临床医学学科概况](../07_fields/clinical-medicine/README.md)；登记前去 WHO 网页查一级登记库。
-- 本文资料未涉及：具体的样本量公式和软件、最小化法和缺失数据填补的具体做法、整群和交叉等设计的细节。请看 CONSORT 对应的扩展版，或向试验统计师请教。
+- 本文资料未涉及：具体的样本量公式和软件、缺失数据填补的具体做法、整群和交叉等设计的细节。请看 CONSORT 对应的扩展版，或向试验统计师请教。
 
 [^hopewell2025consortee-e1]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Box 5（Treatment allocation in trials）。[证据](../../sources/notes/hopewell2025consortee.md#e1)
 [^hopewell2025consortee-e2]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 9（Trial design），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e2)
@@ -224,6 +224,10 @@ CONSORT（Consolidated Standards of Reporting Trials，临床试验报告统一�
 [^hopewell2025consortee-e22]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6（Randomisation and minimisation）。[证据](../../sources/notes/hopewell2025consortee.md#e22)
 [^hopewell2025consortee-e23]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6。[证据](../../sources/notes/hopewell2025consortee.md#e23)
 [^hopewell2025consortee-e24]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17b，Box 6。[证据](../../sources/notes/hopewell2025consortee.md#e24)
+[^altman2005treatment-e1]: Altman & Bland 2005（BMJ 统计笔记），正文第 1 段。[证据](../../sources/notes/altman2005treatment.md#e1)
+[^altman2005treatment-e2]: Altman & Bland 2005（BMJ 统计笔记），正文第 3–4 段。[证据](../../sources/notes/altman2005treatment.md#e2)
+[^altman2005treatment-e3]: Altman & Bland 2005（BMJ 统计笔记），正文第 5–6 段。[证据](../../sources/notes/altman2005treatment.md#e3)
+[^altman2005treatment-e4]: Altman & Bland 2005（BMJ 统计笔记），正文第 7 段。[证据](../../sources/notes/altman2005treatment.md#e4)
 [^hopewell2025consortee-e25]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 17a，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e25)
 [^hopewell2025consortee-e26]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18（Allocation concealment），Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e26)
 [^hopewell2025consortee-e27]: CONSORT 2025 解释文章（Hopewell 等人 2025），Item 18，Explanation。[证据](../../sources/notes/hopewell2025consortee.md#e27)

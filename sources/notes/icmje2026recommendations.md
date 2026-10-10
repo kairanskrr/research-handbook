@@ -200,3 +200,21 @@
 - 位置：V.A Use of AI by Authors
 - 原文："Nondisclosure of AI use may require corrective action and may be construed as misconduct in some circumstances"
 - 要点：不披露人工智能的使用，可能需要更正，某些情况下可能被认定为不端。
+
+### E34
+
+- 位置：II.C.1.a Predatory or Pseudo-Journals
+- 原文："These journals (“predatory” or “pseudo-journals”) accept and publish almost all submissions and charge article processing (or publication) fees, often informing authors about this after a paper’s acceptance for publication."
+- 要点："掠夺性"刊物（伪期刊）几乎什么稿都收、都发，并收取发表费，常常在录用后才告诉作者要交费。
+
+### E35
+
+- 位置：II.C.1.a Predatory or Pseudo-Journals
+- 原文："They often claim to perform peer review but do not and may purposefully use names similar to well-established journals."
+- 要点：它们常常声称做同行评审，其实没做，还可能故意起一个和知名期刊相近的名字。
+
+### E36
+
+- 位置：II.C.1.a Predatory or Pseudo-Journals
+- 原文："Authors have a responsibility to evaluate the integrity, history, practices, and reputation of the journals to which they submit manuscripts."
+- 要点：作者有责任评估所投期刊的诚信、历史、做法和声誉。

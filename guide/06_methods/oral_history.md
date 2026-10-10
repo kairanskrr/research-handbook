@@ -101,7 +101,8 @@
 - **标出风险内容**：英国 OHS 建议，把可能构成诽谤或泄露他人敏感信息的段落，连同时间码记到"敏感内容审查表"上，再和受访者、项目负责人一起权衡要不要公开[^ohs2019legal-e10]。协议定下来之前，所有处理资料的人都要对内容保密[^ohs2019legal-e11]。
 - **对弱势群体**：OHA 说，访谈担心被监视的群体时，可能只收集最基本的背景信息[^oha2018principles-e28]；存进收藏机构可能带来法律或人身危险时（例如无证移民、家暴幸存者），存档计划可以不走传统收藏机构[^oha2019archiving-e1]。
 - **对你自己**：英国 OHS 的网页"Looking after yourself"建议，尽量一天不做超过一次访谈[^ohs2026wellbeing-e1]；出门前告诉别人你去见谁、在哪里、几点回来[^ohs2026wellbeing-e2]；预计话题令人痛苦时，事先找有经验的人谈谈，事后也要有可以倾诉的人[^ohs2026wellbeing-e3][^ohs2026wellbeing-e4]。转录、编目的人同样要细听录音，也要安排休息[^ohs2026wellbeing-e5]。
-- **本文资料未涉及**：受访者在访谈中出现心理危机时具体怎样专业处理。请事先和你的机构伦理委员会、导师商量，备好可以转介的专业资源 `[本项目分析]`。
+- **受访者情绪激动时**：下面借用澳大利亚查尔斯·达尔文大学 2025 年公开的"情绪困扰应对方案"模板做例子。它只是一所大学给各类涉人研究用的模板，改编自 Draucker 等人 2009 年的一篇文章，不是口述历史学界的统一规定[^cdu2025distress-e6]。它让你留意对方是否哭泣、流泪，或从放松变得不自在[^cdu2025distress-e1]；发现后先说出你注意到对方不舒服，问还能不能继续，对方确认难受就提出暂停，并提醒也可以结束访谈；对方愿意继续，就提出不再谈引起痛苦的话题[^cdu2025distress-e2]。需要时把对方转介给社区支持服务、心理健康专业人员或危机热线[^cdu2025distress-e3]；访谈结束时问对方感觉如何，当天晚些时候或第二天早上再联系一次[^cdu2025distress-e4]。每次出现这种情况，都保密记下日期、时间、困扰的表现和你的回应[^cdu2025distress-e5]。
+- **本文资料未涉及**：受访者出现严重心理危机（例如有自伤风险）时怎样专业处理。请事先和你的机构伦理委员会、导师商量，写好自己项目的应对方案，备好可以转介的专业资源 `[本项目分析]`。
 
 ### 第八步：转录、做索引，请受访者审阅
 
@@ -238,6 +239,12 @@
 [^baylor2012introduction-e40]: 贝勒大学口述历史研究所 2012，Reaching the public。[证据](../../sources/notes/baylor2012introduction.md#e40)
 [^baylor2012introduction-e41]: 贝勒大学口述历史研究所 2012，Using digital media。[证据](../../sources/notes/baylor2012introduction.md#e41)
 [^baylor2012introduction-e42]: 贝勒大学口述历史研究所 2012，Establishing ethical relationships。[证据](../../sources/notes/baylor2012introduction.md#e42)
+[^cdu2025distress-e1]: 查尔斯·达尔文大学 2025，Distress Protocol 模板，§1。[证据](../../sources/notes/cdu2025distress.md#e1)
+[^cdu2025distress-e2]: 查尔斯·达尔文大学 2025，Distress Protocol 模板，§2(a) Immediate action。[证据](../../sources/notes/cdu2025distress.md#e2)
+[^cdu2025distress-e3]: 查尔斯·达尔文大学 2025，Distress Protocol 模板，§2(b) Referrals。[证据](../../sources/notes/cdu2025distress.md#e3)
+[^cdu2025distress-e4]: 查尔斯·达尔文大学 2025，Distress Protocol 模板，§3–§4。[证据](../../sources/notes/cdu2025distress.md#e4)
+[^cdu2025distress-e5]: 查尔斯·达尔文大学 2025，Distress Protocol 模板，§6 Documentation。[证据](../../sources/notes/cdu2025distress.md#e5)
+[^cdu2025distress-e6]: 查尔斯·达尔文大学 2025，Distress Protocol 模板，Background 及文末来源说明。[证据](../../sources/notes/cdu2025distress.md#e6)
 [^oha2018principles-e15]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e15)
 [^oha2018principles-e16]: OHA 2018，伦理声明，Collaboration。[证据](../../sources/notes/oha2018principles.md#e16)
 [^oha2018principles-e17]: OHA 2018，最佳实践，Preparation。[证据](../../sources/notes/oha2018principles.md#e17)

@@ -107,7 +107,7 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 | 主要发表渠道 | 有审稿的期刊[^amsculture2006rates-e1] | 会议 |
 | 节奏 | 不被认为有时效性，发表延迟常见[^amsculture2006rates-e2] | 跟着会议截稿日走 |
 | 合作规模 | 几乎总是少数几人[^amsculture2004joint-e2] | 从个人到大团队都有 `[本项目分析]` |
-| 署名 | 传统上按字母排序[^amsculture2004joint-e3] | 本文没有找到署名顺序的资料；不要默认按字母，进组时问清 `[本项目分析]` |
+| 署名 | 传统上按字母排序[^amsculture2004joint-e3] | 只有理论方向的统计：2007–2011 年 Web of Science"计算机科学，理论与方法"类的多作者论文，估计约 32.6% 有意按字母排[^waltman2012empirical-e2][^waltman2012empirical-e3][^waltman2012empirical-e5]；其他方向没找到资料，不要默认按字母，进组时问清 `[本项目分析]` |
 | 主要证据 | 证明 `[本项目分析]` | 实验和测量（理论方向除外）`[本项目分析]` |
 | 预印本 | 正式发表要等几年，所以应把预印本放到网上[^taocareer-e28] | 普遍发 arXiv，但要遵守会议的匿名规则 |
 
@@ -277,3 +277,6 @@ AMS 2006 年的另一份声明说明了数学的发表习惯：
 [^stodden2013setting-e3]: Stodden 等 2013，Introduction。[证据](../../../sources/notes/stodden2013setting.md#e3)
 [^stodden2013setting-e4]: Stodden 等 2013，Journals 一节。[证据](../../../sources/notes/stodden2013setting.md#e4)
 [^stodden2013setting-e5]: Stodden 等 2013，Appendix C。[证据](../../../sources/notes/stodden2013setting.md#e5)
+[^waltman2012empirical-e2]: Waltman 2012，§3。[证据](../../../sources/notes/waltman2012empirical.md#e2)
+[^waltman2012empirical-e3]: Waltman 2012，§3.2。[证据](../../../sources/notes/waltman2012empirical.md#e3)
+[^waltman2012empirical-e5]: Waltman 2012，§3.2 表 1。[证据](../../../sources/notes/waltman2012empirical.md#e5)

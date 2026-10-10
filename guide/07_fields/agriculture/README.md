@@ -165,7 +165,7 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 表里没有的两件事：
 
 - **测量：本文只找到"方法怎么写"的要求。** 美国三学会的出版手册要求：材料与方法写得足够详细，让有能力的科学家能重复实验[^asa2024style-e12]；描述制备方法、设备和测量，用国际单位制认可的单位[^asa2024style-e13]；必须用商品名指明产品时，第一次提到就在括号里注明生产商或主要经销商[^asa2024style-e14]；各个性状是怎么测的也要写清[^asa2024style-e1]。测量方法本身要怎样验证才算可靠，以及其他套路的证据标准，本文资料未涉及。
-- **系统综述的报告规范：本文没找到农业专用的，相近的是环境领域的 ROSES。** ROSES（RepOrting standards for Systematic Evidence Syntheses，系统证据综合报告标准）是 Haddaway 等人 2018 年为保护和环境管理领域的系统综述和系统地图（systematic map，与系统综述并列的另一种证据综合）设计的报告表格和流程图[^haddaway2018roses-e2]。他们提出它，是因为 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）是为医疗卫生综述制定的，用到这个领域有局限，例如过分强调元分析[^haddaway2018roses-e1]。至少有一本农业期刊明确要求用它：CABI 出版的《CABI Agriculture and Bioscience》2025 年的投稿指南写明，该刊接收按事先定好的方案做的系统综述和系统地图[^cabiagbioevidencesynthesis-e1]，所有这类投稿都必须附 ROSES 表格[^cabiagbioevidencesynthesis-e2]；它还建议在开始综述前公开方案，例如发到农业预印本平台 agriRxiv[^cabiagbioevidencesynthesis-e3]。投别的农业期刊时，用哪份规范以目标期刊的要求为准 `[本项目分析]`。
+- **系统综述的报告规范：本文没找到农业专用的，相近的是环境领域的 ROSES。** ROSES（RepOrting standards for Systematic Evidence Syntheses，系统证据综合报告标准）是 Haddaway 等人 2018 年为保护和环境管理领域的系统综述和系统地图（systematic map，与系统综述并列的另一种证据综合）设计的报告表格和流程图[^haddaway2018roses-e2]。他们提出它，是因为 PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses，系统综述和元分析优先报告条目）是为医疗卫生综述制定的，用到这个领域有局限，例如过分强调元分析[^haddaway2018roses-e1]。ROSES 有两份表格，一份配研究方案、一份配最终报告，另有一份流程图模板[^haddaway2018roses-e3]。和 PRISMA 不同，它除了核对清单，还要求把综述各关键步骤的概要信息记下来[^haddaway2018roses-e4]，例如去重之前一共检索到多少条结果[^haddaway2018roses-e5]；它的重点在检索、筛选、数据提取和质量评判，对最后的综合写得不细[^haddaway2018roses-e6]。它比 PRISMA 的表格长得多，填起来更费时间，作者建议尽早开始填[^haddaway2018roses-e7]。至少有一本农业期刊明确要求用它：CABI 出版的《CABI Agriculture and Bioscience》2025 年的投稿指南写明，该刊接收按事先定好的方案做的系统综述和系统地图[^cabiagbioevidencesynthesis-e1]，所有这类投稿都必须附 ROSES 表格[^cabiagbioevidencesynthesis-e2]；它还建议在开始综述前公开方案，例如发到农业预印本平台 agriRxiv[^cabiagbioevidencesynthesis-e3]。投别的农业期刊时，用哪份规范以目标期刊的要求为准 `[本项目分析]`。
 
 ## 本学科常用的研究方法
 
@@ -321,6 +321,11 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 [^krupnik2019does-e6]: Krupnik 等人 2019，Summary。[证据](../../../sources/notes/krupnik2019does.md#e6)
 [^haddaway2018roses-e1]: Haddaway 等人 2018，Abstract。[证据](../../../sources/notes/haddaway2018roses.md#e1)
 [^haddaway2018roses-e2]: Haddaway 等人 2018，Abstract。[证据](../../../sources/notes/haddaway2018roses.md#e2)
+[^haddaway2018roses-e3]: Haddaway 等人 2018，Key differences between ROSES and PRISMA，第 4 页。[证据](../../../sources/notes/haddaway2018roses.md#e3)
+[^haddaway2018roses-e4]: Haddaway 等人 2018，Key differences between ROSES and PRISMA，第 5 页。[证据](../../../sources/notes/haddaway2018roses.md#e4)
+[^haddaway2018roses-e5]: Haddaway 等人 2018，Background，第 4 页。[证据](../../../sources/notes/haddaway2018roses.md#e5)
+[^haddaway2018roses-e6]: Haddaway 等人 2018，Benefits of ROSES，第 6 页。[证据](../../../sources/notes/haddaway2018roses.md#e6)
+[^haddaway2018roses-e7]: Haddaway 等人 2018，Benefits of ROSES，第 6 页。[证据](../../../sources/notes/haddaway2018roses.md#e7)
 [^cabiagbioevidencesynthesis-e1]: 《CABI Agriculture and Bioscience》投稿指南 Evidence Synthesis（2025 年 5 月存档）。[证据](../../../sources/notes/cabiagbioevidencesynthesis.md#e1)
 [^cabiagbioevidencesynthesis-e2]: 《CABI Agriculture and Bioscience》投稿指南 Evidence Synthesis（2025 年 5 月存档）。[证据](../../../sources/notes/cabiagbioevidencesynthesis.md#e2)
 [^cabiagbioevidencesynthesis-e3]: 《CABI Agriculture and Bioscience》投稿指南 Evidence Synthesis（2025 年 5 月存档）。[证据](../../../sources/notes/cabiagbioevidencesynthesis.md#e3)

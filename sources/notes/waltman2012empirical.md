@@ -50,3 +50,9 @@
 - 位置：摘要
 - 原文："In the case of alphabetical authorship, nothing can be inferred about the relative contribution made by the different authors of a publication."
 - 要点：作者按字母排时，从顺序看不出各人贡献大小。
+
+### E9
+
+- 位置：§3.2 正文（表 1 之前）
+- 原文："The table shows the 25 subject categories that have at least 15% intentionally alphabetical publications."
+- 要点：表 1 列出了估计有意按字母排的比例至少 15% 的全部 25 个期刊类别。核对表 1：其中计算机类别只有"计算机科学，理论与方法"一个。

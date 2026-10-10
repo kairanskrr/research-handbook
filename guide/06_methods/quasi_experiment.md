@@ -83,7 +83,13 @@ Roth 等人总结近年双重差分方法时，把要点归为三条：讲清用
 2. **检查有没有人精确地"挤"过分界线。** 人们对分数总有一定影响力，这不要紧；要紧的是能不能**精确地**把自己放到某一侧[^lee2010rd-e1]。画出驱动变量（决定是否受处理的那个分数）的直方图[^lee2010rd-e3]，可以再做 McCrary 密度检验。分布在分界线处跳变，不一定能证明设计失效，但能帮你发现异常[^imbens2008rd-e4]。这个检验也会漏判：有人往上挤、有人往下挤，相互抵消后，分布看起来仍然连续[^lee2010rd-e4]。
 3. **检查两侧是否平衡。** 用事先就定下来的特征（基线协变量）当"结果"，做一遍同样的断点回归[^lee2010rd-e7]。处理在分界线上跳变，一般不会让这些特征跟着跳变[^imbens2008rd-e3]。这和检验随机实验分组是否平衡是一个道理[^lee2010rd-e2]。
 4. **画主图。** 把驱动变量分成若干小区间，画出每个区间里结果的平均值[^imbens2008rd-e1]。不要只画一条在分界线处断开的平滑曲线，那样即使没有跳变，也容易看起来像有[^lee2010rd-e5]。图有被"做"出效果的空间，所以图要配上正式估计[^lee2010rd-e10]。
-5. **估计，并换带宽、换设定。** Imbens 和 Lemieux 的操作总结建议，在分界线两侧一定范围（带宽）内分别做线性回归[^imbens2008rd-e7]。他们还说，不管带宽怎么选，都要报告带宽加倍、减半时的结果；结果只在某个带宽下成立，就远没有那么可信[^imbens2008rd-e6]。Lee 和 Lemieux 建议在一系列带宽和多项式阶数下估计，报告一个"典型"估计值和估计值的范围[^lee2010rd-e6]。这两篇都是 2008–2010 年的文章；带宽具体怎么选、置信区间怎么算，更新的做法本文资料未涉及，以导师或目标期刊的要求为准。
+5. **估计，并换带宽、换设定。** Imbens 和 Lemieux 的操作总结建议，在分界线两侧一定范围（带宽）内分别做线性回归[^imbens2008rd-e7]。他们还说，不管带宽怎么选，都要报告带宽加倍、减半时的结果；结果只在某个带宽下成立，就远没有那么可信[^imbens2008rd-e6]。Lee 和 Lemieux 建议在一系列带宽和多项式阶数下估计，报告一个"典型"估计值和估计值的范围[^lee2010rd-e6]。这两篇都是 2008–2010 年的文章。更新的做法可以看 Cattaneo、Idrobo 和 Titiunik 写的入门书（剑桥大学出版社 Cambridge Elements 丛书，2020 年；本文读的是作者 2019 年放在 arXiv 的版本）：
+   - **只用分界线附近的数据。** 他们不建议用全部数据拟合四次、五次这样的高阶多项式来做正式分析，结论可能严重误导；要用"局部多项式"，也就是只拿分界线附近的数据，在两侧各拟合一条曲线[^cattaneo2020practical-e1]。上面 Imbens 和 Lemieux 说的"带宽内做线性回归"就属于这一类 `[本项目分析]`。
+   - **带宽用数据来选。** 带宽内的观测通常按离分界线的远近加权，权重由"核函数"决定。他们推荐三角核：离分界线越近，权重越大。再配合"均方误差最优"的带宽，这种带宽可以用数据驱动的方法算出来[^cattaneo2020practical-e2]。均方误差衡量估计值平均离真值有多远，同时算上偏差和波动 `[本项目分析]`。
+   - **置信区间要做偏差校正。** 这个带宽是为求点估计选的，不够窄，偏差不能忽略；拿它直接按常规方法算置信区间，作者认为是无效的[^cattaneo2020practical-e3]。他们建议点估计用这个带宽，置信区间报告"稳健偏差校正"置信区间[^cattaneo2020practical-e4]：先从估计值里减去估计出的偏差，再把"估计偏差"这一步带来的额外不确定性也算进去，所以用同一个带宽时，它比常规区间宽[^cattaneo2020practical-e6]。书中用 rdrobust 软件包演示，输出里标为 Robust 的那一行就是这种区间[^cattaneo2020practical-e5]。
+   - **换带宽看结果稳不稳。** 这本书也把它当作一种检验，和上面"带宽加倍、减半"的目的相同；但作者认为只在最优带宽附近的小范围里换才有意义：比它大得多，估计偏差太大，比它小得多，估计波动太大，两种情况下的估计和检验结论都不可靠[^cattaneo2020practical-e7]。
+
+   以上是这本书作者的建议；目标期刊另有要求的，以期刊为准 `[本项目分析]`。
 6. **在假的分界线上做检验**，看本不该有跳变的地方是否也"跳"了[^imbens2008rd-e5]。
 
 如果越过分界线只是提高了受处理的**概率**（"模糊"断点），它就相当于一个工具变量，对应随机实验里"只随机分配了资格、没人强制遵从"的情形[^lee2010rd-e11]，第 4 步的要点也适用。
@@ -108,7 +114,11 @@ Cunningham 指出，传统的比较案例研究挑对照组时往往随意、可
 
 - 构造合成控制用不到处理之后的结果[^cunningham2026remix-e16]，这有助于避免边看结果边调模型 `[本项目分析]`。
 - 推断时把每个未处理单位都假装成处理单位重做一遍，得到一组"安慰剂效应"，用它们的分布来判断真实效应是否突出[^cunningham2026remix-e17]。据 Cunningham 转述，Abadie、Diamond 和 Hainmueller（2010）建议剔除处理前拟合误差和处理单位相差很大的单位[^cunningham2026remix-e18]。
-- 合成控制的更多细节，本文资料只读到 Cunningham 第 11 章，以它为起点；更新的综述（如 Abadie 2021）本文未读，资料未涉及。
+- **先判断适不适合用。** Abadie 在 2021 年的综述（Journal of Economic Literature）里列了几条前提：
+  - 要有足够长的干预前时期。合成控制可不可信，很大程度上看它能否在干预前稳定地跟上处理单位的走势，所以设计时要收集足够长的干预前数据[^abadie2021using-e4]。
+  - 要有合适的对照单位池。采取过类似干预的单位不能放进去；对照单位要限于特征和处理单位相近的[^abadie2021using-e2]。如果找不到一组对照单位的组合能可信地近似处理单位，就不该用常规的合成控制[^abadie2021using-e3]。
+  - 效应要足够大。效应和结果本身的波动差不多大时很难发现；结果波动很大时，大效应也可能看不出来[^abadie2021using-e1]。
+- 合成控制的估计和推断细节，本文资料只读到 Cunningham 第 11 章和 Abadie 2021 的上述几节，可从这两份读起。
 
 ### 第 6 步：安慰剂检验和稳健性检验
 
@@ -197,6 +207,8 @@ Bertrand、Duflo 和 Mullainathan 在美国州级女性工资数据中随机生�
 - **Roth 等人 2023，What's Trending in Difference-in-Differences?（arXiv 免费）**：近年双重差分方法的综述。表 1 是检查清单，表 2 是软件包列表。做双重差分前值得先读 `[本项目分析]`。
 - **Lee & Lemieux 2010，Regression Discontinuity Designs in Economics（NBER 工作论文免费）**：讲断点回归什么时候成立，第 4.6 节有一份实施清单。
 - **Imbens & Lemieux 2008，Regression Discontinuity Designs: A Guide to Practice（NBER 工作论文免费）**：第 7 节讲各种检验，第 8 节是操作步骤总结。
+- **Cattaneo, Idrobo & Titiunik 2020，A Practical Introduction to Regression Discontinuity Designs: Foundations（剑桥大学出版社；arXiv 有免费版本）**：断点回归的局部多项式估计、带宽选择和稳健偏差校正置信区间，配 rdrobust 软件包的演示。
+- **Abadie 2021，Using Synthetic Controls（Journal of Economic Literature；麻省理工学院开放获取库免费）**：第 5、6 节讲什么情况下适合用合成控制、需要什么数据。
 - **Cameron & Miller 2015，A Practitioner's Guide to Cluster-Robust Inference（作者主页免费）**：聚类标准误怎么算、聚类太少怎么办。
 - **Bertrand, Duflo & Mullainathan 2004（NBER 工作论文免费）**：用"假法律"说明双重差分标准误为什么会偏小。
 - **Angrist & Pischke 2010**：识别为什么重要，见[经济学与商学学科概况](../07_fields/economics/README.md#延伸阅读)。
@@ -232,6 +244,17 @@ Bertrand、Duflo 和 Mullainathan 在美国州级女性工资数据中随机生�
 [^imbens2008rd-e5]: Imbens & Lemieux 2008，§7.3。[证据](../../sources/notes/imbens2008rd.md#e5)
 [^imbens2008rd-e6]: Imbens & Lemieux 2008，§7.5。[证据](../../sources/notes/imbens2008rd.md#e6)
 [^imbens2008rd-e7]: Imbens & Lemieux 2008，§8。[证据](../../sources/notes/imbens2008rd.md#e7)
+[^cattaneo2020practical-e1]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§4.2。[证据](../../sources/notes/cattaneo2020practical.md#e1)
+[^cattaneo2020practical-e2]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§4.2.1–4.2.2。[证据](../../sources/notes/cattaneo2020practical.md#e2)
+[^cattaneo2020practical-e3]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§4.3。[证据](../../sources/notes/cattaneo2020practical.md#e3)
+[^cattaneo2020practical-e4]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§4.3、§4.3.2。[证据](../../sources/notes/cattaneo2020practical.md#e4)
+[^cattaneo2020practical-e5]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§4.3.3。[证据](../../sources/notes/cattaneo2020practical.md#e5)
+[^cattaneo2020practical-e6]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§4.3。[证据](../../sources/notes/cattaneo2020practical.md#e6)
+[^cattaneo2020practical-e7]: Cattaneo、Idrobo & Titiunik 2020（arXiv 2019 年版），§5.5。[证据](../../sources/notes/cattaneo2020practical.md#e7)
+[^abadie2021using-e1]: Abadie 2021，§5 Size of the Effect and Volatility of the Outcome。[证据](../../sources/notes/abadie2021using.md#e1)
+[^abadie2021using-e2]: Abadie 2021，§5 Availability of a Comparison Group。[证据](../../sources/notes/abadie2021using.md#e2)
+[^abadie2021using-e3]: Abadie 2021，§5 Convex Hull Condition。[证据](../../sources/notes/abadie2021using.md#e3)
+[^abadie2021using-e4]: Abadie 2021，§6 Sufficient Pre-intervention Information。[证据](../../sources/notes/abadie2021using.md#e4)
 [^angrist2010credibility-e5]: Angrist & Pischke 2010，Better Research Design。[证据](../../sources/notes/angrist2010credibility.md#e5)
 [^angrist2010credibility-e9]: Angrist & Pischke 2010，Whither Sensitivity Analysis?。[证据](../../sources/notes/angrist2010credibility.md#e9)
 [^angrist2010credibility-e13]: Angrist & Pischke 2010，Whither Sensitivity Analysis?。[证据](../../sources/notes/angrist2010credibility.md#e13)

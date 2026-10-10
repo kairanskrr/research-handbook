@@ -127,7 +127,7 @@
 - **文献综述**：筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]。见[综述研究](../06_methods/review_study.md)。
 - **人工标注**：两个人各自标同一小批样本，对比分歧，把分歧大的地方写进标注规则，再试一轮 `[本项目分析]`。
 
-**预实验也要对参与者说清楚。** 临床研究的做法是专门写一段说明：告诉参与者这是预研究、这次要评估哪些可行性、什么结果算可行[^thabane2010tutorial-e12]。预实验要不要单独走伦理审查，本文资料未涉及；动手前先问导师或所在机构的伦理委员会。
+**预实验也要对参与者说清楚。** 临床研究的做法是专门写一段说明：告诉参与者这是预研究、这次要评估哪些可行性、什么结果算可行[^thabane2010tutorial-e12]。**预实验也可能要过伦理审查。** 只举加拿大一国的例子：加拿大三大联邦研究资助机构联合发布的《三理事会政策声明》（TCPS 2，2022 年版）把预研究界定为正式研究的缩小版（参与者更少、时间更短），规定它和正式研究一样，必须在招募参与者、收集数据之前交研究伦理委员会审查[^tcps2022ethical-e1][^tcps2022ethical-e3]；只为建立合作关系或设计方案做的初步探索不用审查[^tcps2022ethical-e3]。审查松紧按参与者面临的风险来定，风险越低，审查越简化[^tcps2022ethical-e4][^tcps2022ethical-e5]。按这个界定，上表里最接近预研究的是"实地试"那一轮；前几轮内部试算不算，这份政策没有逐一说明 `[本项目分析]`。其他国家和机构怎么规定，本文资料未涉及；动手前先问导师或所在机构的伦理委员会。
 
 **写下来：** 写出你的预实验计划：分几轮、每轮找谁、几个人、用哪些材料、重点看什么问题。最后一轮要写清楚它和正式研究在哪些地方一样、哪些地方不一样。
 
@@ -289,6 +289,10 @@
 [^thabane2010tutorial-e10]: Thabane 等人 2010，§5，样本量与合并数据。[证据](../../sources/notes/thabane2010tutorial.md#e10)
 [^thabane2010tutorial-e11]: Thabane 等人 2010，§5 Challenges and Misconceptions。[证据](../../sources/notes/thabane2010tutorial.md#e11)
 [^thabane2010tutorial-e12]: Thabane 等人 2010，§8 Ethical Aspects of Pilot Studies。[证据](../../sources/notes/thabane2010tutorial.md#e12)
+[^tcps2022ethical-e1]: 加拿大《三理事会政策声明》2022 年版，第 2 章 Article 2.1。[证据](../../sources/notes/tcps2022ethical.md#e1)
+[^tcps2022ethical-e3]: 加拿大《三理事会政策声明》2022 年版，第 6 章 Article 6.11。[证据](../../sources/notes/tcps2022ethical.md#e3)
+[^tcps2022ethical-e4]: 加拿大《三理事会政策声明》2022 年版，第 6 章 Article 6.11 Pilot Studies。[证据](../../sources/notes/tcps2022ethical.md#e4)
+[^tcps2022ethical-e5]: 加拿大《三理事会政策声明》2022 年版，第 6 章 Article 6.12。[证据](../../sources/notes/tcps2022ethical.md#e5)
 [^lakens2022sample-e4]: Lakens 2022，What is the Expected Effect Size?。[证据](../../sources/notes/lakens2022sample.md#e4)
 [^perciedusert2020reporting-e36]: Percie du Sert 等人 2020，Box 3。[证据](../../sources/notes/perciedusert2020reporting.md#e36)
 [^curtis2018experimental-e11]: Curtis 等人 2018，Flexibility and pilot data。[证据](../../sources/notes/curtis2018experimental.md#e11)
