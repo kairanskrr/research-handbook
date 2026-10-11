@@ -28,7 +28,7 @@
 
 ### 发表：期刊、公开审稿和数据论文
 
-- **期刊**：本文找到的规范都来自期刊和学会 `[本项目分析]`；审稿周期等数字本文资料未涉及，以目标期刊公布的为准。
+- **期刊**：本文找到的规范都来自期刊和学会 `[本项目分析]`。
 - **公开审稿**：EGU 期刊公开审稿的核心想法是，投稿和审稿过程都公开、长期可查[^gmd2019editorial-e9]。GMD 要求投稿时就提供代码和数据，不接受"录用后再公开"[^gmdcodepolicy-e4]。
 - **数据论文**：Copernicus 有专门发表数据论文、并对数据集做同行评审的期刊《地球系统科学数据》（Earth System Science Data，ESSD）[^gmdcodepolicy-e10]。也就是说，一套整理好的数据集本身可以投稿。
 - **署名**：AGU 伦理政策要求只把有重要科学贡献的人列为合作者，按贡献排序，并特别注意学生工作的署名[^agu2023ethics-e9]。野外帮工、提供样品的人算不算作者，本文资料没有规定，开工前和导师说清楚 `[本项目分析]`。通用做法见贯穿全程的[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#5-署名引用和利益冲突给每个贡献者应得的认可)。
@@ -79,7 +79,7 @@ AGU 的伦理政策管它的会员、员工、志愿者和参加 AGU 活动的�
 
 IGSN 组织认为，样品数据难以长期利用，主要是因为：论文里样品记录不完整，样品名称有歧义，找不到样品存在哪里[^igsnabout-e1]。**国际通用样品编号**（International Generic Sample Number，IGSN）就是为此设的：给实物样品用的全球唯一、永久的编号[^igsnabout-e2]，样品从注册到分析、发表都能被追踪[^igsnabout-e3]。它起源于地球科学，现在面向所有学科[^igsnabout-e5]。
 
-据 IGSN 组织的说明：IGSN 的机器可读形式是完整的 https://doi.org/ 链接[^igsnpublications-e2]；给样品袋贴二维码时，标签上还要印出人能读的编号[^igsnpublications-e3]；自 2017 年 5 月起，Copernicus 的地球科学期刊都能在文章"资产"栏列出 IGSN[^igsnpublications-e1][^gmdcodepolicy-e9]。怎样注册：IGSN 组织让个人用户通过"分配机构"（IGSN Agent，负责注册编号的机构）办理，再由它们提交给登记机构 DataCite[^igsnglossary-e1][^igsnglossary-e2]。IGSN 组织官网列出的分配机构里，有的面向本校人员，例如基尔大学[^igsnagents-e1]；有的对外提供注册服务，例如亥姆霍兹中心的数据服务机构 GFZ Data Services、Lithodat 公司[^igsnagents-e2]；用于 IGSN 的编号前缀名单上还有美国地质调查局、澳大利亚地球科学局、韩国地质资源研究院（KIGAM）等[^igsnagents-e3]。所以先问本单位有没有自己的服务，没有再找对外开放的机构 `[本项目分析]`。国内有没有对应渠道，本文资料未涉及，问导师或单位的数据管理部门。样品唯一编号和"监管链"（记录样品每一步由谁经手）的做法，另见[环境工程篇](../environmental-engineering/README.md#样品编号和监管链)。
+据 IGSN 组织的说明：IGSN 的机器可读形式是完整的 https://doi.org/ 链接[^igsnpublications-e2]；给样品袋贴二维码时，标签上还要印出人能读的编号[^igsnpublications-e3]；自 2017 年 5 月起，Copernicus 的地球科学期刊都能在文章"资产"栏列出 IGSN[^igsnpublications-e1][^gmdcodepolicy-e9]。怎样注册：IGSN 组织让个人用户通过"分配机构"（IGSN Agent，负责注册编号的机构）办理，再由它们提交给登记机构 DataCite[^igsnglossary-e1][^igsnglossary-e2]。IGSN 组织官网列出的分配机构里，有的面向本校人员，例如基尔大学[^igsnagents-e1]；有的对外提供注册服务，例如亥姆霍兹中心的数据服务机构 GFZ Data Services、Lithodat 公司[^igsnagents-e2]；用于 IGSN 的编号前缀名单上还有美国地质调查局、澳大利亚地球科学局、韩国地质资源研究院（KIGAM）等[^igsnagents-e3]。所以先问本单位有没有自己的服务，没有再找对外开放的机构 `[本项目分析]`。国内单位有没有这类服务，本文资料未涉及，可以问单位的数据管理部门或样品库。暂时注册不了，也要在论文和数据里写清样品名称、采样地点和存放单位，避开上文说的几个问题 `[本项目分析]`。样品唯一编号和"监管链"（记录样品每一步由谁经手）的做法，另见[环境工程篇](../environmental-engineering/README.md#样品编号和监管链)。
 
 ### 数据：投稿时就要能拿到
 
