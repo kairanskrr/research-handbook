@@ -96,7 +96,7 @@
 
 **为什么。** 每个单位单独画图，挖完后才能用这些图把遗址"重建"出来，再合成综合平面图[^harris1989principles-e8]。
 
-**容易错在哪里。** 不是所有遗址都要每层单独画图：Harris 说，地层很简单的遗址，综合平面图就够了[^harris1989principles-e8]。表格格式和填写规则，各单位常有自己的记录手册 `[本项目分析]`；本文没有找到这类手册（如伦敦博物馆《考古现场手册》）可公开的原文，以你所在单位的手册为准。
+**容易错在哪里。** 不是所有遗址都要每层单独画图：Harris 说，地层很简单的遗址，综合平面图就够了[^harris1989principles-e8]。表格格式和填写规则，各单位常有自己的记录手册 `[本项目分析]`。可以看一份公开的例子：英国萨里考古学会 2010 年的《发掘记录手册》（*Excavation Recording Manual*），是这个地方学会给会员用的，参考过伦敦博物馆考古服务部等的手册[^surrey2010excavation-e1]。它规定：地层单位的编号从统一的登记册领取，绝不能重复，可以给不同发掘区预留一批号；标为必填的栏不能空着，没内容也要写横线或 n/a[^surrey2010excavation-e2]。每个地层单位的记录表上要填土质描述（颜色、成分、质地、包含物）、地层关系、所在图纸和样品照片的编号、解释等；地层关系要在相关各张表上对应着写，1 在 2 之上，2 的表上就写在 1 之下[^surrey2010excavation-e3]。伦敦博物馆《考古现场手册》本文没有找到可公开的原文；具体填法以你所在单位的手册为准 `[本项目分析]`。
 
 ### 第 6 步：记录照片、图纸、出土物和样品
 
@@ -294,3 +294,6 @@
 [^saa2024principles-e9]: SAA 2024，Principle No. 6。[证据](../../../../sources/notes/saa2024principles.md#e9)
 [^saa2024principles-e10]: SAA 2024，Principle No. 6。[证据](../../../../sources/notes/saa2024principles.md#e10)
 [^saa2024principles-e8]: SAA 2024，Principle No. 5。[证据](../../../../sources/notes/saa2024principles.md#e8)
+[^surrey2010excavation-e1]: 萨里考古学会 2010，《发掘记录手册》第 1 页 Introduction。[证据](../../../../sources/notes/surrey2010excavation.md#e1)
+[^surrey2010excavation-e2]: 萨里考古学会 2010，《发掘记录手册》第 2 页 Context Number 等。[证据](../../../../sources/notes/surrey2010excavation.md#e2)
+[^surrey2010excavation-e3]: 萨里考古学会 2010，《发掘记录手册》第 2–5 页 Context Record Sheet 各栏。[证据](../../../../sources/notes/surrey2010excavation.md#e3)

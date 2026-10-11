@@ -32,3 +32,9 @@
 - 位置：Simultaneous Submissions
 - 原文："Simultaneous submissions of the results to another conference with a published proceedings is not allowed."
 - 要点：不能把同样的结果同时投给另一个有论文集的会议。
+
+### E6
+
+- 位置：Simultaneous Submissions
+- 原文："At the time that the author signs SODA's copyright transfer agreement, the author must affirm that no copyright transfer agreement permitting the publication of a similar paper in a journal or elsewhere has been signed."
+- 要点：作者签 SODA 的版权转让协议时，要声明没有签过允许在期刊或别处发表相似论文的版权转让协议。

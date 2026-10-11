@@ -2,7 +2,7 @@
 
 本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，[综述研究](review_study.md#2-系统综述怎么做)一篇已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[健康科学学科概况](../07_fields/health-sciences/README.md)。
 
-**本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。其他类型的综述有各自的规范。以诊断准确性综述（评价一项检查能多准确地查出疾病）为例：Cochrane 另有一本 Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy（官网 2026 年 10 月列出的是 2.0 版，2023 年 7 月更新）[^deeks2023cochrane-e1][^deeks2023cochrane-e2]；报告时有 PRISMA 的诊断准确性扩展版 PRISMA-DTA（2018 年发表）[^prismadta2018-e1]。这两份本文只读了官方网站上的介绍页，手册各章和 PRISMA-DTA 的清单正文都没有读，具体怎么做本文资料未涉及。预后等其他类型综述的专门方法，本文资料未涉及。这些综述都以导师或目标期刊要求为准。
+**本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。其他类型的综述有各自的规范。以诊断准确性综述（评价一项检查能多准确地查出疾病）为例：Cochrane 另有一本 Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy（官网 2026 年 10 月列出的是 2.0 版，2023 年 7 月更新）[^deeks2023cochrane-e1][^deeks2023cochrane-e2]；报告时有 PRISMA 的诊断准确性扩展版 PRISMA-DTA（2018 年发表）[^prismadta2018-e1]。诊断准确性综述和干预综述有几处不同，见第 1 节末尾的[诊断准确性综述有哪些不同](#诊断准确性综述有哪些不同)。预后等其他类型综述的专门方法，本文资料未涉及。这些综述都以导师或目标期刊要求为准。
 
 **适用范围** `[本项目分析]`：本文原为[健康科学](../07_fields/health-sciences/README.md)写，资料主要是 Cochrane 手册、PRISMA 2020 报告规范、PROSPERO 登记平台的规定和 GRADE 方法的文献，讲的都是健康领域干预效果综述的做法。[临床医学](../07_fields/clinical-medicine/README.md)和[心理学与认知科学](../07_fields/psychology/README.md)的学科概况也指向本篇。其他学科做元分析时，合并效应的统计思路可以参考；登记平台、偏倚风险工具和证据分级标准，先看本学科的规范。
 
@@ -29,6 +29,10 @@
 **什么时候不做元分析：** 系统综述不一定要有元分析[^higgins2024cochrane-e16]。Cochrane 手册列出的情况有：没有研究或只有一项研究，无法合并[^higgins2024cochrane-e19]；结局或效应估计报告不全，或各研究用的效应指标不同；证据本身有偏倚[^higgins2024cochrane-e17]；人群、干预、对照、结局不够相似，合并后得不到有临床意义的答案，例如各研究的对照组形式不同[^higgins2024cochrane-e15]；结果差异很大，尤其效应方向不一致，这时报一个平均值可能误导[^higgins2024cochrane-e16]。但"差异大、异质性高"本身不一定是放弃的理由。手册认为这时仍应考虑元分析，做得恰当、解释得当，它可能给出重要信息[^higgins2024cochrane-e17]。不做元分析时，也不要按"显著的几篇、不显著的几篇"来计票，手册称这种方法不可接受[^higgins2024cochrane-e18]。
 
 **纳入哪些设计：** 在 GRADE 评级里，随机试验的证据从"高"起评，非随机研究从"低"起评（见第 7 步）[^higgins2024cochrane-e66]；但有些证据，尤其是关于干预危害的，常常要来自非随机研究[^higgins2024cochrane-e8]。观察性研究的混杂、测量误差、选择偏倚见健康科学学科概况的[观察性研究的三个坑](../07_fields/health-sciences/README.md#观察性研究的三个坑)。合并高偏倚风险观察性研究的元分析，不能和合并低偏倚风险随机试验的元分析等同看待[^murad2016new-e5]，详见临床医学学科概况的[证据金字塔](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)。
+
+### 诊断准确性综述有哪些不同
+
+PRISMA-DTA 的声明论文（McInnes 等，JAMA 2018）说，诊断准确性研究的设计和效应指标都和随机对照试验不同，所以评价偏倚风险、汇总结果的方法也和干预综述不同[^mcinnes2018preferred-e1]。本文读到的不同主要有三处。第一，研究问题要写明研究对象、待评价检查（index test，被评估的那项检查）和目标疾病（target condition，这项检查要查出的疾病或状况）；纳入标准还要写明参考标准（reference standard，判断有没有这种病的现有最好方法）[^prismadta2018checklist-e1][^prismadta2018checklist-e2][^cohen2016stard-e1]。第二，PRISMA-DTA 清单要求说明怎样评每项研究的偏倚风险，以及它和本综述问题是否对得上（适用性）[^prismadta2018checklist-e3]；常用的 QUADAS-2 工具（Whiting 等，2011 年，是 2003 年 QUADAS 工具的修订版）分患者选择、待评价检查、参考标准、流程与时间四个领域评偏倚风险，前三个领域还评适用性（这篇本文只读了摘要）[^whiting2011quadas-e1]。第三，清单要求写明主要的准确性指标，举的例子是敏感度（真有这种病的人里，检查结果为阳性的比例）和特异度（没有这种病的人里，检查结果为阴性的比例）[^prismadta2018checklist-e4][^cohen2016stard-e2]。声明论文说，这类元分析通常要用双变量模型等多变量模型把两者放在一起分析，因为两者会随判阳性的界值此消彼长，在研究之间也可能相关；传统的单变量方法（把两者分开各自合并）忽略这种相关，可能得出误导性的结果[^mcinnes2018preferred-e2]。Cochrane 诊断准确性手册的各章要登录 Cochrane 账户才能下载，本文没有读，手册本身的具体要求本文资料未涉及。
 
 ---
 
@@ -283,3 +287,12 @@ PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导�
 [^deeks2023cochrane-e1]: Cochrane 网站，Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy 介绍页，About the Handbook。[证据](../../sources/notes/deeks2023cochrane.md#e1)
 [^deeks2023cochrane-e2]: Cochrane 网站，同上，How to cite the Handbook。[证据](../../sources/notes/deeks2023cochrane.md#e2)
 [^prismadta2018-e1]: PRISMA 官方网站，PRISMA-Diagnostic Test Accuracy 页面。[证据](../../sources/notes/prismadta2018.md#e1)
+[^mcinnes2018preferred-e1]: McInnes 等 2018，JAMA，PRISMA-DTA 声明，Introduction。[证据](../../sources/notes/mcinnes2018preferred.md#e1)
+[^mcinnes2018preferred-e2]: McInnes 等 2018，同上，Results（条目 D2）。[证据](../../sources/notes/mcinnes2018preferred.md#e2)
+[^prismadta2018checklist-e1]: PRISMA-DTA 清单（PRISMA 官方网站 PDF），条目 4。[证据](../../sources/notes/prismadta2018checklist.md#e1)
+[^prismadta2018checklist-e2]: PRISMA-DTA 清单，条目 6。[证据](../../sources/notes/prismadta2018checklist.md#e2)
+[^prismadta2018checklist-e3]: PRISMA-DTA 清单，条目 12。[证据](../../sources/notes/prismadta2018checklist.md#e3)
+[^prismadta2018checklist-e4]: PRISMA-DTA 清单，条目 13。[证据](../../sources/notes/prismadta2018checklist.md#e4)
+[^cohen2016stard-e1]: Cohen 等 2016，BMJ Open，STARD 2015 解释与说明，表 1。[证据](../../sources/notes/cohen2016stard.md#e1)
+[^cohen2016stard-e2]: Cohen 等 2016，同上，表 1。[证据](../../sources/notes/cohen2016stard.md#e2)
+[^whiting2011quadas-e1]: Whiting 等 2011，Annals of Internal Medicine，QUADAS-2，摘要。[证据](../../sources/notes/whiting2011quadas.md#e1)

@@ -1057,6 +1057,26 @@
 
 - [Copyright Law of the People's Republic of China (Amended in 2020)](https://subsites.chinadaily.com.cn/npc/2020-11/11/c_674691.htm) - Standing Committee of the National People's Congress of the People's Republic of China，网页 2020。全国人大常委会关于修改《中华人民共和国著作权法》的决定（2020 年 11 月 11 日通过，主席令第 62 号，2021 年 6 月 1 日施行）及修正后全文英文本：第 24 条逐项列出可不经许可、不付报酬使用作品的情形（适当引用；课堂教学或科学研究少量使用），并要求指明作者和作品名称、不影响正常使用、不不合理损害权利人合法权益。用英文本是为了让核对脚本能逐字核对；网站注明译文仅供参考，以中文官方文本为准。🆓 `npc2020copyright`
 
+**学科实践：考古发掘（补充三）**
+
+- [Excavation Recording Manual](https://d10.surreyarchaeology.org.uk/sites/surreyarchaeology.org.uk/files/Excavation%20Recording%20Manual.pdf) - Surrey Archaeological Society，Surrey Archaeological Society, Research Committee 2010。英国萨里考古学会（Surrey Archaeological Society）2010 年《发掘记录手册》，作为单位记录手册的公开例子：参考了伦敦博物馆考古服务部等手册（第 1 页）；单位编号从统一登记册领取、不得重复、可为不同区域预留号段，必填栏不能空（第 2 页）；单位记录表的主要栏目和地层关系要在各表上对应填写（第 2–5 页）。伦敦博物馆考古服务部 1994 年《考古现场手册》第 3 版没有找到合法公开的原文（只见于 vdoc.pub 等未授权转载站，未使用）。🆓 `surrey2010excavation`
+
+**学科篇：医学工程（补充二）**
+
+- [Medical Devices; Quality System Regulation Amendments](https://www.govinfo.gov/content/pkg/FR-2024-02-02/html/2024-01709.htm) - U.S. Food and Drug Administration，Federal Register, Vol. 89, No. 23, pp. 7496–7525 (Final rule, FR Doc. 2024-01709) 2024。美国 FDA 2024 年 2 月 2 日发布的《质量管理体系法规》（QMSR）最终规则，2026 年 2 月 2 日生效。正文用它说明：新法规沿用旧 §820.30(a) 的适用范围；FDA 不要求记录设计非常早期的所有改动，但设计输入获批后的改动要记录；FDA 预计新旧法规解释差别不大。它的说明部分没有直接讲概念开发和可行性研究，所以正文仍保留"未涉及"。🆓 `fda2024qmsr`
+- [Withdrawn or Expired Guidance](https://www.fda.gov/medical-devices/guidance-documents-medical-devices-and-radiation-emitting-products/withdrawn-or-expired-guidance) - U.S. Food and Drug Administration，FDA website, Center for Devices and Radiological Health 2026。FDA 器械与放射健康中心已撤回指南列表（内容更新至 2026-03-06）。正文用它说明 1997 年《设计控制指南》已于 2026 年 2 月 2 日撤回、不再代表 FDA 当前观点。FDA 网站对脚本下载返回 404，用 WebFetch 读取页面文字，src 里只存了引言和相关两行。🆓 `fda2026withdrawn`
+
+**研究方法：系统综述与元分析（补充二）**
+
+- [Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement](https://jamanetwork.com/journals/jama/fullarticle/2670259) - McInnes 等人，JAMA 2018。PRISMA-DTA 声明论文。正文用它说明诊断准确性综述和干预综述在研究设计、效应指标、偏倚风险评价和结果汇总上的不同（Introduction），以及元分析通常要用双变量等多变量模型（条目 D2 的说明）。🆓 `mcinnes2018preferred`
+- [PRISMA-DTA Checklist](https://www.prisma-statement.org/s/PRISMA-DTA-Checklist-xh5j.pdf) - PRISMA Executive，网页。PRISMA-DTA 清单正文。正文用条目 4（研究问题按研究对象、待评价检查、目标疾病写）、条目 6（纳入标准含参考标准）、条目 12（偏倚风险和适用性）、条目 13（主要指标如敏感度、特异度）。🆓 `prismadta2018checklist`
+- [STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration](https://pmc.ncbi.nlm.nih.gov/articles/PMC5128957/) - Cohen 等人，BMJ Open 2016。STARD 2015 解释与说明的术语表（表 1）。正文用它解释待评价检查、目标疾病、参考标准、敏感度、特异度。🆓 `cohen2016stard`
+- [QUADAS-2: A Revised Tool for the Quality Assessment of Diagnostic Accuracy Studies](https://pubmed.ncbi.nlm.nih.gov/22007046/) - Whiting 等人，Annals of Internal Medicine 2011。QUADAS-2 的四个领域，以及偏倚风险和适用性分别评价。正文注明只读了摘要。🆓 `whiting2011quadas`
+
+**学科篇：媒体与传播（补充）**
+
+- [Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 supplementing Regulation (EU) 2022/2065 of the European Parliament and of the Council by laying down the technical conditions and procedures under which providers of very large online platforms and of very large online search engines are to share data with vetted researchers](https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj) - European Commission，Official Journal of the European Union, L series, 2025/2050, 9 October 2025 2025。欧盟委员会依《数字服务法》第 40 条第 13 款通过的数据访问授权条例。正文用它说明：通过和刊登日期、生效规则（第 16 条）、统一的 DSA 数据访问门户（第 3 条）、向哪个数字服务协调员申请（第 2 条第 1 项）、80 个工作日的决定期限及延期（第 7 条第 1、2 款）、平台数据目录（第 6 条第 4 款）。🆓 `eu2025dsadata`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

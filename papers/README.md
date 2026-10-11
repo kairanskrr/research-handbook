@@ -753,6 +753,14 @@
 | `tetley1999mixed` | Mixed jurisdictions: common law vs civil law (codified and uncodified) (Part I) | Uniform Law Review - Revue de droit uniforme 1999 | [链接](https://unidroit.org/english/publications/review/articles/1999-3-tetley1-e.pdf) |
 | `wipo2025international` | An International Guide to Patent Case Management for Judges | 网页 2025 | [链接](https://www.wipo.int/patent-judicial-guide/en/full-guide/china/4.1.4) |
 | `npc2020copyright` | Copyright Law of the People's Republic of China (Amended in 2020) | 网页 2020 | [链接](https://subsites.chinadaily.com.cn/npc/2020-11/11/c_674691.htm) |
+| `surrey2010excavation` | Excavation Recording Manual | Surrey Archaeological Society, Research Committee 2010 | [链接](https://d10.surreyarchaeology.org.uk/sites/surreyarchaeology.org.uk/files/Excavation%20Recording%20Manual.pdf) |
+| `fda2024qmsr` | Medical Devices; Quality System Regulation Amendments | Federal Register, Vol. 89, No. 23, pp. 7496–7525 (Final rule, FR Doc. 2024-01709) 2024 | [链接](https://www.govinfo.gov/content/pkg/FR-2024-02-02/html/2024-01709.htm) |
+| `fda2026withdrawn` | Withdrawn or Expired Guidance | FDA website, Center for Devices and Radiological Health 2026 | [链接](https://www.fda.gov/medical-devices/guidance-documents-medical-devices-and-radiation-emitting-products/withdrawn-or-expired-guidance) |
+| `mcinnes2018preferred` | Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement | JAMA 2018 | [链接](https://jamanetwork.com/journals/jama/fullarticle/2670259) |
+| `prismadta2018checklist` | PRISMA-DTA Checklist | 网页 | [链接](https://www.prisma-statement.org/s/PRISMA-DTA-Checklist-xh5j.pdf) |
+| `cohen2016stard` | STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration | BMJ Open 2016 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC5128957/) |
+| `whiting2011quadas` | QUADAS-2: A Revised Tool for the Quality Assessment of Diagnostic Accuracy Studies | Annals of Internal Medicine 2011 | [链接](https://pubmed.ncbi.nlm.nih.gov/22007046/) |
+| `eu2025dsadata` | Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 supplementing Regulation (EU) 2022/2065 of the European Parliament and of the Council by laying down the technical conditions and procedures under which providers of very large online platforms and of very large online search engines are to share data with vetted researchers | Official Journal of the European Union, L series, 2025/2050, 9 October 2025 2025 | [链接](https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj) |
 
 ## 待获取
 

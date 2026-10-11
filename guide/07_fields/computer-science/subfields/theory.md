@@ -27,7 +27,7 @@
 | 开头几页 | 前 12 页讲清价值和关键想法，写给广泛的理论读者[^stoc2026cfp-e3] | 前 10 页讲清价值和关键想法[^focs2025cfp-e3] | 前 10 页讲清价值，写给理论计算机和离散数学的广泛读者[^soda2025cfp-e3] |
 | 证明 | 必须能完整核验主要结论[^stoc2026cfp-e4] | 必须能完整核验主要数学结论[^focs2025cfp-e3] | 必须能完整核验主要数学结论[^soda2025cfp-e3] |
 | 匿名 | 双盲，但不能为了匿名削弱论文[^stoc2026cfp-e5] | 双盲，同样不能为了匿名削弱论文[^focs2025cfp-e4] | "相当轻量"的双盲，同样不能为了匿名削弱论文[^soda2025cfp-e4] |
-| 录用后 | 定稿限 12 页[^stoc2026cfp-e8]；完整版要公开到预印本平台[^stoc2026cfp-e6] | 定稿截止前公开带证明的完整版[^focs2025cfp-e5]；定稿页数本文资料未涉及 | 本文资料未涉及 |
+| 录用后 | 定稿限 12 页[^stoc2026cfp-e8]；完整版要公开到预印本平台[^stoc2026cfp-e6] | 定稿截止前公开带证明的完整版[^focs2025cfp-e5]；定稿页数本文资料未涉及 | 签 SODA 的版权转让协议时，你要声明：还没有和期刊或别处签过允许发表相似论文的版权转让协议，也就是相似的论文没有已经许给别处发表[^soda2025cfp-e6]。定稿页数、是否要公开完整版，本文资料未涉及 |
 | 一稿多投 | 按 SIGACT 的政策不允许[^stoc2026cfp-e7] | 按 SIGACT 的政策不允许[^focs2025cfp-e6] | 不能同时投另一个有论文集的会议[^soda2025cfp-e5] |
 
 表里几格的展开，只属于 STOC 2026：
@@ -137,6 +137,7 @@
 [^soda2025cfp-e3]: SODA 2025 投稿页，Submission Format。[证据](../../../../sources/notes/soda2025cfp.md#e3)
 [^soda2025cfp-e4]: SODA 2025 投稿页，Anonymous Submissions。[证据](../../../../sources/notes/soda2025cfp.md#e4)
 [^soda2025cfp-e5]: SODA 2025 投稿页，Simultaneous Submissions。[证据](../../../../sources/notes/soda2025cfp.md#e5)
+[^soda2025cfp-e6]: SODA 2025 投稿页，Simultaneous Submissions（版权转让协议）。[证据](../../../../sources/notes/soda2025cfp.md#e6)
 [^waltman2012empirical-e2]: Waltman 2012，§3。[证据](../../../../sources/notes/waltman2012empirical.md#e2)
 [^waltman2012empirical-e3]: Waltman 2012，§3.2。[证据](../../../../sources/notes/waltman2012empirical.md#e3)
 [^waltman2012empirical-e4]: Waltman 2012，§2。[证据](../../../../sources/notes/waltman2012empirical.md#e4)

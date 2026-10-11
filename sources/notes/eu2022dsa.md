@@ -26,3 +26,15 @@
 - 位置：Article 40(13)
 - 原文："The Commission shall, after consulting the Board, adopt delegated acts supplementing this Regulation by laying down the technical conditions under which providers of very large online platforms or of very large online search engines are to share data pursuant to paragraphs 1 and 4 and the purposes for which the data may be used."
 - 要点：数据共享的技术条件和用途，由欧盟委员会另行通过授权法规具体规定。
+
+### E5
+
+- 位置：Article 3, point (n)
+- 原文："'Digital Services Coordinator of establishment' means the Digital Services Coordinator of the Member State where the main establishment of a provider of an intermediary service is located or its legal representative resides or is established"
+- 要点："设立地数字服务协调员"指平台主要营业机构所在（或其法定代表所在）成员国的数字服务协调员。
+
+### E6
+
+- 位置：Article 49(2)
+- 原文："Member States shall designate one of the competent authorities as their Digital Services Coordinator. The Digital Services Coordinator shall be responsible for all matters relating to supervision and enforcement of this Regulation in that Member State"
+- 要点：每个成员国从主管机构中指定一个作为本国的"数字服务协调员"，负责本国内有关《数字服务法》监督和执行的一切事务（成员国另有分工的除外）。
