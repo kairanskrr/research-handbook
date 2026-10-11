@@ -63,7 +63,9 @@
 
 **怎么做。**
 
-- **守法。** 美国 SAA 要求考古学家遵守所有法律法规，并尽可能和受影响的群体合作，达成双方都认可、都受益的结果[^saa2024principles-e3]。具体要申请哪些许可证、找哪个部门，各国法律不同，**本文资料未涉及**，以当地主管部门、收藏机构和导师的要求为准。
+- **守法。** 美国 SAA 要求考古学家遵守所有法律法规，并尽可能和受影响的群体合作，达成双方都认可、都受益的结果[^saa2024principles-e3]。具体要申请哪些许可证、找哪个部门，各国法律不同。
+- **在中国发掘：先看资质，再报批。** 以下依据的是中国《文物保护法》（2024 年 11 月修订，2025 年 3 月 1 日起施行）在全国人大英文网站上的英文本[^npc2024cultural-e1]。按这部法律：一切考古发掘都要报批；从事发掘的单位要先取得国务院文物行政部门发的考古发掘资质证书；没有批准，任何单位和个人都不得私自发掘[^npc2024cultural-e2]。为科学研究主动发掘，由发掘单位把发掘计划报国务院文物行政部门批准；发掘全国重点文物保护单位，还要再报国务院批准[^npc2024cultural-e3]。外国人、外国组织和国际组织在中国境内做考古调查、勘探、发掘，要经国务院特别许可[^npc2024cultural-e4]。发掘结果要如实报告国务院和省级文物行政部门[^npc2024cultural-e5]。配合基本建设的考古调查、勘探、发掘另有条款，例如所需费用由建设单位列入建设项目预算[^npc2024cultural-e6]；这类发掘怎么报批，本文资料未涉及。由此看，资质和报批都落在单位上，你个人不能自己申请发掘，要通过有资质的单位来做；英文本只是参考译文，具体以中文官方文本和配套规定为准 `[本项目分析]`。
+- **其他国家。** 要申请哪些许可证、找哪个部门，**本文资料未涉及**，以当地主管部门、收藏机构和导师的要求为准。
 - **弄清出土物归谁。** 以英国为例：在英格兰、威尔士、北爱尔兰和马恩岛，除非另有法律规定，出土物归土地所有者[^cifa2020archives-e11]。CIfA 要求在项目计划阶段就联系将来接收档案的博物馆，并在设计书里写清入藏安排[^cifa2020archives-e10]。
 - **和后裔群体、当地群体协商。** 美国 SAA 说，许多后裔群体和原住民社区把考古记录视为自己的遗产，应当让他们参与有关记录和研究的决定[^saa2024principles-e13]。美国内政部 1983 年的指南说，调查阶段对当地群体（如美洲原住民群体）关切的回应，到发掘阶段也要保持，因为发掘通常会扰动遗址[^nps1983standards-e4]。
 
@@ -114,7 +116,7 @@
    - **测单个、短命的东西。** 只测确定来自同一个生物的材料（如一粒谷物），混进残留物的风险最小[^bayliss2022radiocarbon-e4]。木头和木炭要选细枝或树的外圈：一棵 300 年的橡树，树心的碳在树活着时就已有 300 年[^bayliss2022radiocarbon-e5]。
    - **没有合适的样品，就不测。** 勉强送次等材料去测，得到的年代误导多于帮助[^bayliss2022radiocarbon-e6]。
 
-   测年结果怎样做统计建模（指南用的是贝叶斯年代建模），本文资料未涉及，见这份指南本身。
+   **测年结果还要做统计建模。** 这份指南用的是贝叶斯年代建模：把校正后的测年结果，和你对这批样品已知的其他信息结合起来，比如它们来自同一遗址，或地层给出的先后顺序，得出照顾到全部证据的年代估计[^bayliss2022radiocarbon-e8]。指南列出了可免费使用的建模软件，例如 OxCal 和 BCal[^bayliss2022radiocarbon-e9]。指南强调，建模是考古学家和建模专家合作完成的，离不开参与的考古学家的技能、经验和理解[^bayliss2022radiocarbon-e10]。具体怎样建模型，见这份指南本身。
 
 ### 第 8 步：发掘后评估，再决定怎么分析
 
@@ -209,6 +211,15 @@
 [^bayliss2022radiocarbon-e5]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.3 Old-wood effect。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e5)
 [^bayliss2022radiocarbon-e6]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.3。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e6)
 [^bayliss2022radiocarbon-e7]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，摘要。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e7)
+[^bayliss2022radiocarbon-e8]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，2.2 Key facts。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e8)
+[^bayliss2022radiocarbon-e9]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，附录 Relevant software。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e9)
+[^bayliss2022radiocarbon-e10]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，2.2。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e10)
+[^npc2024cultural-e1]: 中国《文物保护法》2024 年修订，全国人大英文网站英文本，主席令第 35 号。[证据](../../../../sources/notes/npc2024cultural.md#e1)
+[^npc2024cultural-e2]: 中国《文物保护法》2024 年修订，英文本第 41 条。[证据](../../../../sources/notes/npc2024cultural.md#e2)
+[^npc2024cultural-e3]: 中国《文物保护法》2024 年修订，英文本第 42 条。[证据](../../../../sources/notes/npc2024cultural.md#e3)
+[^npc2024cultural-e4]: 中国《文物保护法》2024 年修订，英文本第 47 条。[证据](../../../../sources/notes/npc2024cultural.md#e4)
+[^npc2024cultural-e5]: 中国《文物保护法》2024 年修订，英文本第 48 条。[证据](../../../../sources/notes/npc2024cultural.md#e5)
+[^npc2024cultural-e6]: 中国《文物保护法》2024 年修订，英文本第 45 条。[证据](../../../../sources/notes/npc2024cultural.md#e6)
 [^cifa2023excavation-e1]: CIfA 2023，发掘标准，开头。[证据](../../../../sources/notes/cifa2023excavation.md#e1)
 [^cifa2023excavation-e9]: CIfA 2023，发掘通用指南 2.2。[证据](../../../../sources/notes/cifa2023excavation.md#e9)
 [^cifa2023excavation-e10]: CIfA 2023，发掘通用指南 2.12 (h)。[证据](../../../../sources/notes/cifa2023excavation.md#e10)

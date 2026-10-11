@@ -1040,6 +1040,23 @@
 
 - [Procedure for the Investigation of Misconduct in Research](https://ukrio.org/wp-content/uploads/Procedure-for-the-Investigation-of-Misconduct-in-Research_Accessible.pdf) - Parry 等人，UK Research Integrity Office 2023。英国科研诚信办公室 2023 年第 2 版范本程序：机构指定负责人接收举报；任何人可举报，可先非正式解决或向保密联络人咨询，可请联络人代为提出；善意举报人不受罚。🆓 `ukrio2023procedure`
 
+**学科实践：考古发掘（补充二）**
+
+- [Law of the People's Republic of China on Cultural Relics Protection](https://subsites.chinadaily.com.cn/npc/2024-11/08/c_1115996.htm) - Standing Committee of the National People's Congress of the People's Republic of China，网页 2024。《中华人民共和国文物保护法》2024 年 11 月 8 日修订通过、2025 年 3 月 1 日施行版本的英文本：考古发掘一律报批，发掘单位须有国务院文物行政部门发的资质证书（第 41 条）；科研发掘计划报国务院文物行政部门批准，全国重点文物保护单位报国务院批准（第 42 条）；外国人和外国组织须经国务院特别许可（第 47 条）；结果如实报告（第 48 条）。用英文本是为了让核对脚本能逐字核对；正文提醒以中文官方文本为准。🆓 `npc2024cultural`
+
+**学科篇：生物技术（补充二）**
+
+- [Top Legislature Concludes Standing Committee Session](https://subsites.chinadaily.com.cn/npc/2024-04/28/c_983112.htm) - Xinhua，网页 2024。全国人大英文网站 2024-04-28 转发的新华社报道，2026-10-11 读取。正文用它说明：2024 年 4 月 26 日，第十四届全国人大常委会第九次会议通过决定，修改《生物安全法》。全国人大官方网站公开网页。具体修改条款见中国政府网转发的新华社中文决定全文 https://www.gov.cn/yaowen/liebiao/202404/content_6947879.htm （第五十四条第二款、第五十六条、第五十七条、第七十九条、第八十条中"科学技术主管部门"改为"卫生健康主管部门"，并改写第五十四条第三款；未涉及第三十六、三十八、四十五条），因为只有中文，正文没有写条款细节。🆓 `npc2024legislature`
+
+**学科实践：规范法学研究（补充）**
+
+- [Mixed jurisdictions: common law vs civil law (codified and uncodified) (Part I)](https://unidroit.org/english/publications/review/articles/1999-3-tetley1-e.pdf) - Tetley，Uniform Law Review - Revue de droit uniforme 1999。加拿大麦吉尔大学 Tetley 1999 年比较大陆法系（以法国为主）和普通法：学说排在判例前、判例是次要法源、无遵循先例原则、法条解释先找立法者意图。PDF 由期刊出版方国际统一私法协会（UNIDROIT）在其官网公开。🆓 `tetley1999mixed`
+- [An International Guide to Patent Case Management for Judges](https://www.wipo.int/patent-judicial-guide/en/full-guide/china/4.1.4) - World Intellectual Property Organization，网页 2025。世界知识产权组织 2025 年版法官指南的中国章（Du Weike、He Juan 两位中国法官撰写）：《人民法院组织法》授权最高人民法院发布指导性案例；2015 年实施细则规定相似案件应参照其裁判规则、作为裁判理由引述而非裁判依据。官方网页，知识共享署名 4.0 许可。🆓 `wipo2025international`
+
+**学科篇：艺术（补充二）**
+
+- [Copyright Law of the People's Republic of China (Amended in 2020)](https://subsites.chinadaily.com.cn/npc/2020-11/11/c_674691.htm) - Standing Committee of the National People's Congress of the People's Republic of China，网页 2020。全国人大常委会关于修改《中华人民共和国著作权法》的决定（2020 年 11 月 11 日通过，主席令第 62 号，2021 年 6 月 1 日施行）及修正后全文英文本：第 24 条逐项列出可不经许可、不付报酬使用作品的情形（适当引用；课堂教学或科学研究少量使用），并要求指明作者和作品名称、不影响正常使用、不不合理损害权利人合法权益。用英文本是为了让核对脚本能逐字核对；网站注明译文仅供参考，以中文官方文本为准。🆓 `npc2020copyright`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦

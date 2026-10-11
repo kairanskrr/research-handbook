@@ -68,3 +68,9 @@
 - 位置：§7 Conclusion
 - 原文："The functional method is looking at the actual societal problem (e.g., a train accident) and the way this is solved in different jurisdictions"
 - 要点：功能法看的是一个实际的社会问题（例如火车事故），以及不同法域怎样解决它。
+
+### E12
+
+- 位置：§5.3 Law in action vs law in the books
+- 原文："in any substantive research in comparative law, both legislation and case law will have to be studied, as, in all legal systems, common law and civil law alike, they are both of decisive importance for knowing the law."
+- 要点：任何实质性的比较法研究都要同时研究立法和判例，因为在所有法律体系里，无论普通法还是大陆法系，二者对弄清法律都有决定性作用。

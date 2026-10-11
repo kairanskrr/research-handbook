@@ -106,7 +106,9 @@
 
 ### 在论文里用作品图像和录音：先查版权
 
-艺术研究常要用到别人的作品：论文里的图版、讲座里的录音片段、创作里引用的素材。**能不能用、要不要付费，取决于你在哪个国家发表、素材受什么法律和合同约束** `[本项目分析]`。下面是 CAA 2015 年《视觉艺术合理使用最佳实践准则》的要点。合理使用（fair use）是美国版权法的一部分，这份准则只适用于在美国的使用[^caa2015fairuse-e1]。其他国家的版权例外规则不同，本文资料未涉及，以学校版权办公室和出版社的意见为准。
+艺术研究常要用到别人的作品：论文里的图版、讲座里的录音片段、创作里引用的素材。**能不能用、要不要付费，取决于你在哪个国家发表、素材受什么法律和合同约束** `[本项目分析]`。下面是 CAA 2015 年《视觉艺术合理使用最佳实践准则》的要点。合理使用（fair use）是美国版权法的一部分，这份准则只适用于在美国的使用[^caa2015fairuse-e1]。其他国家的版权例外规则不同，下面只补中国，其余国家本文资料未涉及。
+
+**中国**：《中华人民共和国著作权法》2020 年修正，2021 年 6 月 1 日起施行[^npc2020copyright-e1]。它的第 24 条逐项列出可以不经许可、不付报酬使用作品的情形，最后一项是"法律、行政法规规定的其他情形"[^npc2020copyright-e5]。这种逐项列举的写法，和美国合理使用按几个因素综合判断的做法不同 `[本项目分析]`。和写论文、上课最直接相关的是两项：为介绍、评论某一作品或说明某一问题，在自己的作品里适当引用他人已发表的作品[^npc2020copyright-e3]；教学或科研人员为课堂教学或科学研究，翻译、改编、汇编、播放或少量复制已发表的作品，但不得出版发行[^npc2020copyright-e4]。不管用哪一项，都要指明作者姓名或名称、作品名称，不得影响作品的正常使用，也不得不合理地损害著作权人的合法权益[^npc2020copyright-e2]。注意三点 `[本项目分析]`：上面依据的是全国人大网站的英文译本，该网站注明译文仅供参考，以中文官方文本为准；法条没有说引用多少才算"适当"；你的具体用法算不算其中一项，要问学校版权部门或出版社。
 
 **写论文时**，学者（及其出版社）可以援引合理使用来引用、节选或复制作品[^caa2015fairuse-e2]，但要满足：
 
@@ -291,6 +293,11 @@
 [^caa2014standards-e13]: CAA 2014，II.F.1。[证据](../../../sources/notes/caa2014standards.md#e13)
 [^caa2014standards-e14]: CAA 2014，I.C.1。[证据](../../../sources/notes/caa2014standards.md#e14)
 [^caa2015fairuse-e1]: CAA 2015，When the Code Does and Does Not Apply。[证据](../../../sources/notes/caa2015fairuse.md#e1)
+[^npc2020copyright-e1]: 《中华人民共和国著作权法》2020 年修正（全国人大英文本），主席令第 62 号。[证据](../../../sources/notes/npc2020copyright.md#e1)
+[^npc2020copyright-e2]: 《著作权法》2020 年修正（英文本），Article 24 第一款。[证据](../../../sources/notes/npc2020copyright.md#e2)
+[^npc2020copyright-e3]: 《著作权法》2020 年修正（英文本），Article 24 第一款第（二）项。[证据](../../../sources/notes/npc2020copyright.md#e3)
+[^npc2020copyright-e4]: 《著作权法》2020 年修正（英文本），Article 24 第一款第（六）项。[证据](../../../sources/notes/npc2020copyright.md#e4)
+[^npc2020copyright-e5]: 《著作权法》2020 年修正（英文本），Article 24 第一款第（十三）项。[证据](../../../sources/notes/npc2020copyright.md#e5)
 [^caa2015fairuse-e2]: CAA 2015，One: Analytic Writing。[证据](../../../sources/notes/caa2015fairuse.md#e2)
 [^caa2015fairuse-e3]: CAA 2015，One: Analytic Writing，Limitations。[证据](../../../sources/notes/caa2015fairuse.md#e3)
 [^caa2015fairuse-e4]: CAA 2015，One: Analytic Writing，Limitations。[证据](../../../sources/notes/caa2015fairuse.md#e4)

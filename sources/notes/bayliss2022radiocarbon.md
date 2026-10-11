@@ -44,3 +44,21 @@
 - 位置：Summary
 - 原文："It gives practical advice on the application of these methods within archaeological projects in England. It should be used in conjunction with advice given by radiocarbon laboratories and modelling specialists on specific projects"
 - 要点：这份指南针对英格兰的考古项目给出实用建议，具体项目要结合测年实验室和建模专家的建议使用。
+
+### E8
+
+- 位置：2.2.1–2.2.2 之后的 "Key facts: Bayesian Chronological Modelling"
+- 原文："Statistical methods are required to handle relationships between dated samples. Bayesian statistics enable calibrated radiocarbon dates to be combined with other information we might have about a chronological problem, producing posterior beliefs that take account of all the evidence. Prior beliefs can be simply that all the dated samples are from a single site or associated with the same kind of pottery, but could include relative sequences provided by stratigraphy, seriation or the growth-rings in wood or charcoal."
+- 要点：处理测年样品之间的关系需要统计方法；贝叶斯统计把校正后的放射性碳年代和我们对这个年代问题已知的其他信息结合起来，得到考虑了全部证据的"后验"结果。"先验"信息可以只是"样品都来自同一遗址"，也可以包括地层、序列排比或树木年轮给出的先后顺序。
+
+### E9
+
+- 位置：Appendix，Relevant software，(b) Flexible Bayesian Chronological Modelling
+- 原文："A variety of freely-downloadable software is available for radiocarbon calibration, Bayesian Chronological Modelling, and dietary reconstruction." / "BCal -- on-line program available at http://bcal. shef.ac.uk/" / "OxCal -- on-line and downloadable versions available from https://c14.arch.ox.ac.uk/OxCal"
+- 要点：有多种可免费下载的软件可用于校正和贝叶斯年代建模；"灵活的贝叶斯年代建模"一类列了 BCal（在线程序）和 OxCal（有在线版和下载版）。
+
+### E10
+
+- 位置：2.2.2 之后
+- 原文："It aims to provide enough understanding of the principles employed to enable archaeologists to collaborate actively with their specialist modellers. It cannot be emphasised enough that modelling is a collaborative exercise that relies essentially on the skills, experience and understanding of participating archaeologists."
+- 要点：这段介绍只是让考古学家懂得原理，以便和建模专家合作；建模是合作的工作，离不开参与的考古学家的技能、经验和理解。

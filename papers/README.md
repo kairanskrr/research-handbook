@@ -748,6 +748,11 @@
 | `igsnglossary` | Glossary | IGSN e.V. 网页 | [链接](https://ev.igsn.org/glossary) |
 | `igsnagents` | IGSN Agents and Registration | IGSN e.V. 网页 | [链接](https://ev.igsn.org/resources/igsn-agents-and-registration) |
 | `ukrio2023procedure` | Procedure for the Investigation of Misconduct in Research | UK Research Integrity Office 2023 | [链接](https://ukrio.org/wp-content/uploads/Procedure-for-the-Investigation-of-Misconduct-in-Research_Accessible.pdf) |
+| `npc2024cultural` | Law of the People's Republic of China on Cultural Relics Protection | 网页 2024 | [链接](https://subsites.chinadaily.com.cn/npc/2024-11/08/c_1115996.htm) |
+| `npc2024legislature` | Top Legislature Concludes Standing Committee Session | 网页 2024 | [链接](https://subsites.chinadaily.com.cn/npc/2024-04/28/c_983112.htm) |
+| `tetley1999mixed` | Mixed jurisdictions: common law vs civil law (codified and uncodified) (Part I) | Uniform Law Review - Revue de droit uniforme 1999 | [链接](https://unidroit.org/english/publications/review/articles/1999-3-tetley1-e.pdf) |
+| `wipo2025international` | An International Guide to Patent Case Management for Judges | 网页 2025 | [链接](https://www.wipo.int/patent-judicial-guide/en/full-guide/china/4.1.4) |
+| `npc2020copyright` | Copyright Law of the People's Republic of China (Amended in 2020) | 网页 2020 | [链接](https://subsites.chinadaily.com.cn/npc/2020-11/11/c_674691.htm) |
 
 ## 待获取
 

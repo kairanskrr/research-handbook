@@ -6,9 +6,15 @@
 
 **常服务的套路**：[解读论证](../../../05_research-strategies/interpret_argue.md)。套路页"常用的研究方法"一节列出了本篇。
 
-**先说清地域。** 本文资料全部来自美国、英国和澳大利亚：澳大利亚学者 Hutchinson 的两篇方法论文章（一篇与英国学者 Duncan 合写），讲的是澳大利亚和英国的情况；美国乔治城大学法学院写作中心写给美国法学生的讲义；美国西北大学法学图书馆的判例检索指南；美国国会研究服务部（Congressional Research Service）讲美国联邦法律解释的报告；美国康奈尔大学法律信息研究所的免费法律词典 Wex。
+**先说清地域。** 本文资料主要来自美国、英国和澳大利亚（下面讲大陆法系和中国的两段另用了几份比较法和国际组织的资料）：澳大利亚学者 Hutchinson 的两篇方法论文章（一篇与英国学者 Duncan 合写），讲的是澳大利亚和英国的情况；美国乔治城大学法学院写作中心写给美国法学生的讲义；美国西北大学法学图书馆的判例检索指南；美国国会研究服务部（Congressional Research Service）讲美国联邦法律解释的报告；美国康奈尔大学法律信息研究所的免费法律词典 Wex。
 
-Wex 说，大陆法系主要以成文法典和制定法为基础，普通法以判决和先例为基础；大陆法系的法官重在把法律适用于事实，而不是解释先前的裁决[^liiwex-e9]。所以下文第 4 步的"判决理由""附带意见""区分判例"只是普通法国家（如英美）的工具。中国等大陆法系国家怎样做规范研究、判例和学说起什么作用，本文资料未涉及，以本国教材和导师要求为准 `[本项目分析]`。
+Wex 说，大陆法系主要以成文法典和制定法为基础，普通法以判决和先例为基础；大陆法系的法官重在把法律适用于事实，而不是解释先前的裁决[^liiwex-e9]。所以下文第 4 步的"判决理由""附带意见""区分判例"只是普通法国家（如英美）的工具。
+
+**大陆法系有什么不同。** 加拿大麦吉尔大学的 Tetley 1999 年在国际统一私法协会（UNIDROIT）的期刊上比较过两大法系。这是一位学者的概括，主要以法国为例，不能当成大陆法系各国的通则。他写道：大陆法系把学说（法学学者的著述，也包括法典起草者的报告）排在判例前面，普通法正好相反[^tetley1999mixed-e1]；学说的任务是从杂乱的判例和书籍里整理出规则和原则，给法院今后办案提供指引[^tetley1999mixed-e6]。判例只是次要的、起解释作用的法源[^tetley1999mixed-e2]。大陆法系也没有"遵循先例"原则（英国普通法的这一原则要求下级法院遵循上级法院的判决），判决只有"说理的权威"[^tetley1999mixed-e3]。法条含义不清时，第一步是把整部立法连同立法准备材料放在一起看，找出立法者的意图[^tetley1999mixed-e5]。不过比较法学者 Van Hoecke 2015 年提醒：无论普通法还是大陆法系，立法和判例对弄清法律都起决定性作用[^vanhoecke2015methodology-e12]。
+
+**中国的指导性案例。** 世界知识产权组织（WIPO）2025 年版《法官专利案件管理国际指南》的中国章由两位中国法官（Du Weike、He Juan）撰写。其中说，《人民法院组织法》第 18 条第 2 款规定最高人民法院可以发布指导性案例[^wipo2025international-e1]；按 2015 年的实施细则，各级法院审理和指导性案例基本案情、法律适用相似的案件，应当参照该案例的裁判规则作出裁判，指导性案例作为裁判理由引述，不作为裁判依据[^wipo2025international-e2]。
+
+Tetley 的话是 1999 年以法国为主的概括，不是对中国的描述；WIPO 那段只讲了指导性案例这一项制度。各国做法不同，也会变化。中国规范研究具体怎样做、学说在中国起多大作用，本文资料未涉及，以本国教材和导师要求为准 `[本项目分析]`。
 
 **读完本文，你应该能：**
 
@@ -297,6 +303,14 @@ Wex 说，大陆法系主要以成文法典和制定法为基础，普通法以�
 [^liiwex-e7]: 同上，precedent 词条。[证据](../../../../sources/notes/liiwex.md#e7)
 [^liiwex-e8]: 同上，persuasive authority 词条。[证据](../../../../sources/notes/liiwex.md#e8)
 [^liiwex-e9]: 同上，civil law 词条。[证据](../../../../sources/notes/liiwex.md#e9)
+[^tetley1999mixed-e1]: Tetley 1999，Uniform Law Review，§V.1。[证据](../../../../sources/notes/tetley1999mixed.md#e1)
+[^tetley1999mixed-e6]: 同上，§V.2（引 David 和 Brierley）。[证据](../../../../sources/notes/tetley1999mixed.md#e6)
+[^tetley1999mixed-e2]: 同上，§V.4。[证据](../../../../sources/notes/tetley1999mixed.md#e2)
+[^tetley1999mixed-e3]: 同上，§V.5。[证据](../../../../sources/notes/tetley1999mixed.md#e3)
+[^tetley1999mixed-e5]: 同上，§V.9（引 Mazeaud）。[证据](../../../../sources/notes/tetley1999mixed.md#e5)
+[^vanhoecke2015methodology-e12]: Van Hoecke 2015，Law and Method，§5.3。[证据](../../../../sources/notes/vanhoecke2015methodology.md#e12)
+[^wipo2025international-e1]: WIPO 2025，《法官专利案件管理国际指南》§4.1.4。[证据](../../../../sources/notes/wipo2025international.md#e1)
+[^wipo2025international-e2]: 同上，§4.1.4（概述 2015 年实施细则第 9–11 条）。[证据](../../../../sources/notes/wipo2025international.md#e2)
 [^legislationgovukhelp-e3]: legislation.gov.uk 帮助页，What legislation is held on legislation.gov.uk?。[证据](../../../../sources/notes/legislationgovukhelp.md#e3)
 [^legislationgovukhelp-e1]: legislation.gov.uk 帮助页，How will I know if the legislation I am viewing is up to date…?。[证据](../../../../sources/notes/legislationgovukhelp.md#e1)
 [^epstein2002rules-e4]: Epstein & King 2002，引言。[证据](../../../../sources/notes/epstein2002rules.md#e4)
