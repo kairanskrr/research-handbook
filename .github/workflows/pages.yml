@@ -1,10 +1,11 @@
 # Builds the web reader (site/index.html + JSON bundles) and publishes it to GitHub Pages.
-# Full version comes from main, the concise version from the concise branch.
+# Full version comes from main, the concise version from the concise branch;
+# a push to either branch rebuilds the site.
 name: Publish site
 
 on:
   push:
-    branches: [main]
+    branches: [main, concise]
   workflow_dispatch:
 
 permissions:
