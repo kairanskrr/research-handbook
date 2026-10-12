@@ -53,30 +53,31 @@ a:hover { text-decoration: underline; }
 
 /* ---- sidebar ---- */
 .side { border-right: 1px solid var(--line); background: var(--surface); display: flex; flex-direction: column; min-height: 0; }
-.brand { padding: 20px 20px 12px; display: grid; gap: 2px; }
+.brand { display: grid; gap: 2px; padding: 20px 20px 14px; color: var(--ink); }
+.brand:hover { text-decoration: none; }
 .brand b { font-family: var(--font-display); font-size: 1.25rem; letter-spacing: .01em; }
 .brand span { color: var(--muted); font-size: .8rem; }
-.mode { margin: 0 16px 12px; display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 8px; padding: 3px; background: var(--bg); }
-.mode button { all: unset; cursor: pointer; text-align: center; padding: 5px 0; border-radius: 6px; font-size: .85rem; color: var(--muted); }
-.mode button[aria-pressed="true"] { background: var(--surface); color: var(--accent); font-weight: 600; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
-.mode button:focus-visible { outline: 2px solid var(--accent); }
-.modehint { margin: -6px 16px 12px; font-size: .75rem; color: var(--muted); line-height: 1.5; }
-.vbadge { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; margin-left: 8px; vertical-align: middle; }
-.vswitch { all: unset; cursor: pointer; color: var(--accent); font-size: .8rem; margin-left: 8px; }
-.vswitch:hover { text-decoration: underline; }
-.searchbox { padding: 0 16px 12px; }
+.searchbox { padding: 0 16px 8px; }
 .searchbox input { width: 100%; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); font: inherit; font-size: .9rem; }
-.nav { overflow-y: auto; padding: 0 8px 24px; flex: 1; min-height: 0; }
-.group { margin-top: 10px; }
-.group > button { all: unset; cursor: pointer; display: flex; justify-content: space-between; align-items: center; width: calc(100% - 24px); padding: 6px 12px; font-size: .74rem; letter-spacing: .08em; color: var(--muted); font-weight: 600; }
-.group > button::after { content: "▾"; font-size: .7rem; transition: transform .15s; }
-.group.closed > button::after { transform: rotate(-90deg); }
+.nav { overflow-y: auto; padding: 4px 10px 32px; flex: 1; min-height: 0; }
+.part { margin: 18px 10px 4px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .72rem; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
+.group { margin-top: 4px; }
+.group > button { all: unset; box-sizing: border-box; cursor: pointer; display: flex; align-items: center; gap: 8px; width: 100%; padding: 7px 10px; border-radius: 6px; font-size: .92rem; font-weight: 700; color: var(--ink); line-height: 1.4; }
+.group > button:hover { background: var(--bg); }
+.group > button::before { content: ""; flex: none; width: 6px; height: 6px; margin: 0 2px 3px 2px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); transition: transform .15s; }
+.group.closed > button::before { transform: rotate(-45deg); margin-bottom: 0; }
+.group > button .step { flex: none; display: inline-grid; place-items: center; width: 1.4em; height: 1.4em; border-radius: 50%; background: var(--accent); color: var(--surface); font-family: var(--font-mono); font-size: .72rem; font-weight: 500; }
+.group > button .count { margin-left: auto; color: var(--muted); font-size: .75rem; font-weight: 400; font-variant-numeric: tabular-nums; }
 .group.closed > ul { display: none; }
-.nav ul { list-style: none; margin: 0; padding: 0; }
-.nav li a { display: block; padding: 4px 12px; border-radius: 6px; color: var(--ink); font-size: .9rem; line-height: 1.5; }
+.nav ul { list-style: none; margin: 2px 0 8px; padding: 0 0 0 16px; }
+.nav li a { display: flex; gap: 8px; padding: 5px 10px; border-radius: 6px; color: var(--ink); font-size: .88rem; line-height: 1.45; }
+.nav li a .no { flex: none; min-width: 2.1em; padding-top: 1px; color: var(--muted); font-family: var(--font-mono); font-size: .76rem; font-variant-numeric: tabular-nums; }
 .nav li a:hover { background: var(--accent-soft); text-decoration: none; }
-.nav li a.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
-.nav li ul a { padding-left: 26px; font-size: .84rem; color: var(--muted); }
+.nav li a.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; box-shadow: inset 3px 0 0 var(--accent); }
+.nav li a.on .no { color: var(--accent); }
+.nav li ul { display: none; margin: 2px 0 4px 12px; padding-left: 8px; border-left: 1px solid var(--line); }
+.nav li.open > ul { display: block; }
+.nav li ul a { color: var(--muted); font-size: .84rem; }
 .results { padding: 0 8px 24px; overflow-y: auto; flex: 1; }
 .results a { display: block; padding: 8px 12px; border-radius: 6px; color: var(--ink); }
 .results a:hover { background: var(--accent-soft); text-decoration: none; }
@@ -91,7 +92,14 @@ a:hover { text-decoration: underline; }
 .topbar button { all: unset; cursor: pointer; padding: 4px 10px; border: 1px solid var(--line); border-radius: 6px; font-size: .85rem; }
 .topbar b { font-family: var(--font-display); }
 .wrap { display: grid; grid-template-columns: minmax(0, 46rem) 220px; gap: 48px; justify-content: center; padding-inline: 32px; padding-block: 40px 80px; }
-.crumb { color: var(--muted); font-size: .8rem; margin-bottom: 8px; }
+.crumb { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-bottom: 14px; color: var(--muted); font-size: .8rem; }
+.ver { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.ver small { color: var(--muted); font-size: .78rem; }
+.ver-seg { display: inline-flex; padding: 2px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+.ver-seg button { all: unset; cursor: pointer; padding: 3px 14px; border-radius: 999px; color: var(--muted); font-size: .8rem; }
+.ver-seg button:hover { color: var(--accent); }
+.ver-seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); font-weight: 600; }
+.ver-seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .toc { position: sticky; top: 40px; align-self: start; font-size: .82rem; max-height: calc(100vh - 80px); overflow-y: auto; }
 .toc p { color: var(--muted); font-size: .72rem; letter-spacing: .08em; font-weight: 600; margin: 0 0 8px; }
 .toc a { display: block; color: var(--muted); padding: 3px 0 3px 10px; border-left: 2px solid var(--line); line-height: 1.45; }
@@ -160,9 +168,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 <body>
 <div class="app">
   <aside class="side" id="side">
-    <div class="brand"><b>Research Handbook</b><span>从选题到发表，把一项研究做扎实</span></div>
-    <div class="mode" role="group" aria-label="版本"><button type="button" id="m-short" aria-pressed="false">精简版</button><button type="button" id="m-full" aria-pressed="false">完整版</button></div>
-    <p class="modehint" id="modehint"></p>
+    <a class="brand" href="#README"><b>Research Handbook</b><span>从选题到发表，把一项研究做扎实</span></a>
     <div class="searchbox"><input id="q" type="search" placeholder="搜索全书（例如：基线、预注册、署名）" autocomplete="off"></div>
     <nav class="nav" id="nav"></nav>
     <div class="results" id="results" hidden></div>
@@ -208,17 +214,27 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
   }
 
   // ---- navigation ----
+  var STEP = { "一": 1, "二": 2, "三": 3, "四": 4, "五": 5 };
   function buildNav() {
-    var html = "";
-    DATA.nav.forEach(function (g, gi) {
-      var closed = store("rh-closed-" + gi) === "1";
-      html += '<div class="group' + (closed ? " closed" : "") + '" data-g="' + gi + '"><button type="button">' + g.label + "</button><ul>";
-      g.items.forEach(function (it) {
+    var html = "", mainShown = false, refShown = false;
+    order.push("README.md");
+    DATA.nav.forEach(function (g) {
+      if (g.items.length === 1 && g.items[0].path === "README.md") return;
+      var m = /^主线([一二三四五])\s*·\s*(.+)$/.exec(g.label), step = m ? STEP[m[1]] : 0, long = !m && g.items.length > 8;
+      if (m && !mainShown) { html += '<p class="part">主线 · 按顺序读</p>'; mainShown = true; }
+      if (!m && mainShown && !refShown) { html += '<p class="part">按需查阅</p>'; refShown = true; }
+      var saved = store("rh-nav-" + g.label), closed = saved ? saved === "1" : long;
+      html += '<div class="group' + (closed ? " closed" : "") + '" data-label="' + esc(g.label) + '"><button type="button" aria-expanded="' + !closed + '">' +
+        (step ? '<span class="step">' + step + "</span>" : "") + "<span>" + esc(m ? m[2] : g.label) + "</span>" +
+        (long ? '<span class="count">' + g.items.length + " 篇</span>" : "") + "</button><ul>";
+      g.items.forEach(function (it, i) {
         order.push(it.path);
-        html += '<li><a href="#' + tokenOf(it.path) + '" data-p="' + it.path + '">' + esc(it.label) + "</a>";
-        if (it.children && it.children.length) {
+        var kids = it.children && it.children.length;
+        html += "<li" + (kids ? ' class="parent"' : "") + '><a href="#' + tokenOf(it.path) + '" data-p="' + it.path + '">' +
+          (step ? '<span class="no">' + step + "." + (i + 1) + "</span>" : "") + '<span class="t">' + esc(it.label) + "</span></a>";
+        if (kids) {
           html += "<ul>";
-          it.children.forEach(function (c) { order.push(c.path); html += '<li><a href="#' + tokenOf(c.path) + '" data-p="' + c.path + '">' + esc(c.label) + "</a></li>"; });
+          it.children.forEach(function (c) { order.push(c.path); html += '<li><a href="#' + tokenOf(c.path) + '" data-p="' + c.path + '"><span class="t">' + esc(c.label) + "</span></a></li>"; });
           html += "</ul>";
         }
         html += "</li>";
@@ -228,14 +244,15 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     navEl.innerHTML = html;
     navEl.querySelectorAll(".group > button").forEach(function (b) {
       b.addEventListener("click", function () {
-        var g = b.parentNode; g.classList.toggle("closed");
-        store("rh-closed-" + g.dataset.g, g.classList.contains("closed") ? "1" : "0");
+        var g = b.parentNode, closed = g.classList.toggle("closed");
+        b.setAttribute("aria-expanded", !closed);
+        store("rh-nav-" + g.dataset.label, closed ? "1" : "0");
       });
     });
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
-  function labelOf(path) { var a = navEl.querySelector('a[data-p="' + path + '"]'); return a ? a.textContent : (DATA.pages[path] || {}).title || path; }
-  function groupOf(path) { var a = navEl.querySelector('a[data-p="' + path + '"]'); var g = a && a.closest(".group"); return g ? g.querySelector("button").textContent : ""; }
+  function labelOf(path) { var a = navEl.querySelector('a[data-p="' + path + '"] .t'); return a ? a.textContent : (DATA.pages[path] || {}).title || path; }
+  function groupOf(path) { var a = navEl.querySelector('a[data-p="' + path + '"]'); var g = a && a.closest(".group"); return g ? g.dataset.label : ""; }
 
   // ---- markdown ----
   function prepare(md) {
@@ -294,12 +311,8 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
   function mdOf(path) { return MODE === "short" && SHORT[path] ? SHORT[path] : DATA.pages[path].md; }
   function setMode(m, rerender) {
     MODE = m; store("rh-mode", m); plain = {};
-    $("m-short").setAttribute("aria-pressed", m === "short"); $("m-full").setAttribute("aria-pressed", m === "full");
-    $("modehint").textContent = m === "short" ? "只列每一步必须做的事。参考层（套路、方法、学科篇）只有完整版。" : "讲清为什么、怎么做细，附常见错误和回退信号。";
     if (rerender && current) show(current); if (qEl.value.trim()) search();
   }
-  $("m-short").addEventListener("click", function () { setMode("short", true); });
-  $("m-full").addEventListener("click", function () { setMode("full", true); });
 
   // ---- render a page ----
   function show(path, anchor, highlight) {
@@ -316,17 +329,20 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     var idx = order.indexOf(path), prev = idx > 0 ? order[idx - 1] : null, next = idx >= 0 && idx < order.length - 1 ? order[idx + 1] : null;
     html += '<nav class="pager">' + (prev ? '<a class="prev" href="#' + tokenOf(prev) + '"><small>上一篇</small>' + esc(labelOf(prev)) + "</a>" : "<span></span>") +
       (next ? '<a class="next" href="#' + tokenOf(next) + '"><small>下一篇</small>' + esc(labelOf(next)) + "</a>" : "") + "</nav>";
-    var g = groupOf(path);
-    var badge = SHORT[path] ? '<span class="vbadge">' + (MODE === "short" ? "精简版" : "完整版") + '</span><button type="button" class="vswitch" data-switch="1">' + (MODE === "short" ? "看完整版" : "看精简版") + "</button>" : "";
-    docEl.innerHTML = ((g && path !== "README.md") || badge ? '<div class="crumb">' + esc(path !== "README.md" ? g : "") + badge + "</div>" : "") + html;
+    var g = path !== "README.md" ? groupOf(path) : "", ver = "";
+    if (SHORT[path]) ver = '<div class="ver"><small>' + (MODE === "short" ? "只列必须做的事" : "讲清为什么、怎么做细") + '</small><span class="ver-seg" role="group" aria-label="版本">' +
+      '<button type="button" data-mode="short" aria-pressed="' + (MODE === "short") + '">精简版</button><button type="button" data-mode="full" aria-pressed="' + (MODE === "full") + '">完整版</button></span></div>';
+    docEl.innerHTML = (g || ver ? '<div class="crumb"><span>' + esc(g) + "</span>" + ver + "</div>" : "") + html;
     decorate(docEl);
     wireLinks(docEl, path);
     buildToc();
     navEl.querySelectorAll("a.on").forEach(function (a) { a.classList.remove("on"); });
+    navEl.querySelectorAll("li.open").forEach(function (l) { l.classList.remove("open"); });
     var on = navEl.querySelector('a[data-p="' + path + '"]');
     if (on) {
       on.classList.add("on");
-      var grp = on.closest(".group"); if (grp) grp.classList.remove("closed");
+      var par = on.closest("li.parent"); if (par) par.classList.add("open");
+      var grp = on.closest(".group"); if (grp) { grp.classList.remove("closed"); grp.querySelector("button").setAttribute("aria-expanded", "true"); }
       on.scrollIntoView({ block: "nearest" });
     }
     document.title = (pg.title ? pg.title + " · " : "") + "Research Handbook";
@@ -415,7 +431,8 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 
   // ---- clicks ----
   document.addEventListener("click", function (e) {
-    if (e.target.closest("[data-switch]")) { var y = mainEl.scrollTop; setMode(MODE === "short" ? "full" : "short", true); mainEl.scrollTop = 0; return; }
+    var mb = e.target.closest("[data-mode]");
+    if (mb) { if (mb.dataset.mode !== MODE) setMode(mb.dataset.mode, true); return; }
     var a = e.target.closest("a");
     if (!a) { if (!slip.hidden && !e.target.closest(".slip")) closeSlip(); return; }
     if (a.dataset.fn || a.dataset.fnref) {
