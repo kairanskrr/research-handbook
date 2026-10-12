@@ -294,7 +294,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 
   function wireLinks(root, base) {
     root.querySelectorAll("a[href]").forEach(function (a) {
-      if (a.closest("sup.fn")) return;
+      if (a.closest("sup.fn, .pager")) return;
       var r = resolveLink(a.getAttribute("href"), base);
       if (r.ext) { a.target = "_blank"; a.rel = "noopener"; }
       else if (r.page) { a.href = "#" + tokenOf(r.page); a.dataset.anchor = r.anchor || ""; }
