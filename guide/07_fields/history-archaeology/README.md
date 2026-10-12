@@ -91,7 +91,7 @@
 | 能否"重做一次" | 记录是零碎的（AHA）[^aha2023standards-e14] | 发掘是侵入性的（CIfA）[^cifa2023excavation-e2] | 部分方向重视制品评估和复现（见计算机篇） |
 | 主要成果 | 专著（AHA 称"以书为本"）[^aha2013embargo-e1] | 每次发掘要有报告和档案（CIfA）[^cifa2023excavation-e1] | 会议论文（见计算机篇） |
 | 组织方式 | 传统上是"孤身学者"（2012 年 39 人美国访谈研究）[^rutner2012supporting-e8] | 项目团队加专家（CIfA）[^cifa2023excavation-e3] | — |
-| 引用 | 许多人用脚注体系[^chicago2024citation-e2] | SAA 期刊用作者–年份制：2023 年格式指南写作 (Wylie 1991)[^saa2023styleguide-e1]；American Antiquity 投稿说明（2026 年 10 月查阅）写"截至 2026 年 10 月"用《芝加哥手册》的写法，如 (Sauveterre 1998, 20)[^amantiquity2026instructions-e1]。细节以较新的投稿说明为准 `[本项目分析]`。其他考古期刊本文未涉及 | — |
+| 引用 | 许多人用脚注体系[^chicago2024citation-e2] | 美国考古学会（SAA）的期刊用作者–年份制，如 (Wylie 1991)[^saa2023styleguide-e1]；具体以目标期刊当前的投稿说明为准 `[本项目分析]` | — |
 | 节奏 | 博士论文改成书，花五六年不少见（AHA）[^aha2013embargo-e2] | 先写项目设计书，各方同意后再做（CIfA）[^cifa2023excavation-e7] | 围着会议截稿日转（见计算机篇） |
 
 ---
@@ -213,7 +213,6 @@
 - **Hunt 2002，Against Presentism**：一篇短文，讲当下主义的两种表现和应对。
 - **《芝加哥格式手册》官网的引用速查页**：脚注和参考书目的写法示例。
 
-[^amantiquity2026instructions-e1]: American Antiquity 投稿说明（剑桥大学出版社网站，2026 年 10 月查阅），References and in-text citations。[证据](../../../sources/notes/amantiquity2026instructions.md#e1)
 [^amantiquity2026instructions-e2]: American Antiquity 投稿说明（2026 年 10 月查阅），Authorship and contributorship。[证据](../../../sources/notes/amantiquity2026instructions.md#e2)
 [^amantiquity2026instructions-e3]: American Antiquity 投稿说明（2026 年 10 月查阅），CRediT taxonomy for contributors。[证据](../../../sources/notes/amantiquity2026instructions.md#e3)
 [^saa2023styleguide-e1]: SAA 格式指南（2023 年 12 月修订版），3.4、3.4.1。[证据](../../../sources/notes/saa2023styleguide.md#e1)

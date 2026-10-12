@@ -159,7 +159,7 @@
 **现在做什么：**
 1. 记下你看到的具体事实（哪份数据、哪张图、什么时间），不猜动机 `[本项目分析]`。
 2. 先私下问清，或者找导师商量 `[本项目分析]`。
-3. 仍然怀疑是不端，就正式举报。以美国为例：美国卫生与公众服务部科研诚信办公室（Office of Research Integrity）针对美国公共卫生署资助的研究，建议举报前先读所在机构的处理规定，弄清向谁报告、举报人有什么保护[^oriwhistleblowers-e1]，并把举报交给规定里指定的负责人[^oriwhistleblowers-e2]。善意举报指真诚相信可能发生了不端[^oriwhistleblowers-e3]；按美国公共卫生署的规定，机构要保护善意举报人不受报复[^oriwhistleblowers-e4]；把事情查清是调查机构的责任，不是你的[^oriwhistleblowers-e5]。再以英国为例：英国科研诚信办公室（UK Research Integrity Office，一家慈善机构）2023 年第 2 版《科研不端调查程序》是给研究机构的范本，机构可以全部或部分采用，也可以只拿来参照[^ukrio2023procedure-e1]，所以你的单位用哪套程序，以本单位规定为准 `[本项目分析]`。按这份范本，机构指定一位负责人接收举报[^ukrio2023procedure-e2]；合适时你可以先找当事人或资深同事，或先向机构的保密联络人咨询[^ukrio2023procedure-e4]；担心影响自己时，视本单位举报规定，还可请联络人代为提出[^ukrio2023procedure-e5]；善意、无恶意的举报人不会因此受罚[^ukrio2023procedure-e3]。其他国家和机构的程序，本文资料未涉及。
+3. 仍然怀疑是不端，就正式举报。以美国为例：美国卫生与公众服务部科研诚信办公室（Office of Research Integrity）针对美国公共卫生署资助的研究，建议举报前先读所在机构的处理规定，弄清向谁报告、举报人有什么保护[^oriwhistleblowers-e1]，并把举报交给规定里指定的负责人[^oriwhistleblowers-e2]。善意举报指真诚相信可能发生了不端[^oriwhistleblowers-e3]；按美国公共卫生署的规定，机构要保护善意举报人不受报复[^oriwhistleblowers-e4]；把事情查清是调查机构的责任，不是你的[^oriwhistleblowers-e5]。其他国家和机构，以本单位的规定为准 `[本项目分析]`。
 
 **细看：**[先认清红线：伪造、篡改、剽窃](08_throughout/integrity_and_ethics.md#1-先认清红线伪造篡改剽窃)
 
@@ -268,8 +268,3 @@
 [^neurips2025llm-e6]: NeurIPS 2025 大模型使用政策，作者部分 FAQ 2。[证据](../sources/notes/neurips2025llm.md#e6)
 [^neurips2025llm-e7]: NeurIPS 2025 大模型使用政策，作者部分。[证据](../sources/notes/neurips2025llm.md#e7)
 [^noble2023ten-e5]: Noble 2023，Rule 4: Summarize the related work。[证据](../sources/notes/noble2023ten.md#e5)
-[^ukrio2023procedure-e1]: 英国科研诚信办公室 2023，Introduction，第 1 页。[证据](../sources/notes/ukrio2023procedure.md#e1)
-[^ukrio2023procedure-e2]: 英国科研诚信办公室 2023，第 9 段。[证据](../sources/notes/ukrio2023procedure.md#e2)
-[^ukrio2023procedure-e3]: 英国科研诚信办公室 2023，第 38 段。[证据](../sources/notes/ukrio2023procedure.md#e3)
-[^ukrio2023procedure-e4]: 英国科研诚信办公室 2023，第 39 段。[证据](../sources/notes/ukrio2023procedure.md#e4)
-[^ukrio2023procedure-e5]: 英国科研诚信办公室 2023，第 40 段。[证据](../sources/notes/ukrio2023procedure.md#e5)

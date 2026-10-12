@@ -1015,7 +1015,7 @@
 **学科篇：历史与考古（补充）**
 
 - [Editorial Policy, Information for Authors, and Style Guide for American Antiquity, Latin American Antiquity, and Advances in Archaeological Practice](https://www.saa.org/common/Uploaded%20files/saadocs/Publications/Style%20Guide/saa-style-guide_english_updated_2021_final08023c15928949dabd02faafb269fb1c.pdf) - Society for American Archaeology，网页 2023。正文用它说明 SAA 期刊 2023 年 12 月版格式指南的文中引用是作者–年份制，例如 (Wylie 1991)。🆓 `saa2023styleguide`
-- [American Antiquity: Preparing your materials (author instructions)](https://www.cambridge.org/core/journals/american-antiquity/information/author-instructions/preparing-your-materials) - American Antiquity and Cambridge University Press，网页 2026。正文用它说明截至 2026 年 10 月 SAA 期刊用《芝加哥手册》作者–年份制，例如 (Sauveterre 1998, 20)；以及 American Antiquity 的署名要求（全体作者确认署名名单、用 CRediT 写明贡献、承认够不上作者的贡献者）。🆓 `amantiquity2026instructions`
+- [American Antiquity: Preparing your materials (author instructions)](https://www.cambridge.org/core/journals/american-antiquity/information/author-instructions/preparing-your-materials) - American Antiquity and Cambridge University Press，网页 2026。正文用它说明 American Antiquity 的署名要求（全体作者确认署名名单、用 CRediT 写明贡献、承认够不上作者的贡献者）。🆓 `amantiquity2026instructions`
 
 **学科实践：语言记录（补充）**
 
@@ -1063,8 +1063,8 @@
 
 **学科篇：医学工程（补充二）**
 
-- [Medical Devices; Quality System Regulation Amendments](https://www.govinfo.gov/content/pkg/FR-2024-02-02/html/2024-01709.htm) - U.S. Food and Drug Administration，Federal Register, Vol. 89, No. 23, pp. 7496–7525 (Final rule, FR Doc. 2024-01709) 2024。美国 FDA 2024 年 2 月 2 日发布的《质量管理体系法规》（QMSR）最终规则，2026 年 2 月 2 日生效。正文用它说明：新法规沿用旧 §820.30(a) 的适用范围；FDA 不要求记录设计非常早期的所有改动，但设计输入获批后的改动要记录；FDA 预计新旧法规解释差别不大。它的说明部分没有直接讲概念开发和可行性研究，所以正文仍保留"未涉及"。🆓 `fda2024qmsr`
-- [Withdrawn or Expired Guidance](https://www.fda.gov/medical-devices/guidance-documents-medical-devices-and-radiation-emitting-products/withdrawn-or-expired-guidance) - U.S. Food and Drug Administration，FDA website, Center for Devices and Radiological Health 2026。FDA 器械与放射健康中心已撤回指南列表（内容更新至 2026-03-06）。正文用它说明 1997 年《设计控制指南》已于 2026 年 2 月 2 日撤回、不再代表 FDA 当前观点。FDA 网站对脚本下载返回 404，用 WebFetch 读取页面文字，src 里只存了引言和相关两行。🆓 `fda2026withdrawn`
+- [Medical Devices; Quality System Regulation Amendments](https://www.govinfo.gov/content/pkg/FR-2024-02-02/html/2024-01709.htm) - U.S. Food and Drug Administration，Federal Register, Vol. 89, No. 23, pp. 7496–7525 (Final rule, FR Doc. 2024-01709) 2024。美国 FDA 2024 年 2 月 2 日发布的《质量管理体系法规》（QMSR）最终规则，2026 年 2 月 2 日生效。正文用它说明：FDA 认为新旧法规大体相似。🆓 `fda2024qmsr`
+- [Withdrawn or Expired Guidance](https://www.fda.gov/medical-devices/guidance-documents-medical-devices-and-radiation-emitting-products/withdrawn-or-expired-guidance) - U.S. Food and Drug Administration，FDA website, Center for Devices and Radiological Health 2026。FDA 器械与放射健康中心已撤回指南列表（内容更新至 2026-03-06）。正文用它说明 1997 年《设计控制指南》已撤回。FDA 网站对脚本下载返回 404，用 WebFetch 读取页面文字，src 里只存了引言和相关两行。🆓 `fda2026withdrawn`
 
 **研究方法：系统综述与元分析（补充二）**
 
@@ -1075,7 +1075,7 @@
 
 **学科篇：媒体与传播（补充）**
 
-- [Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 supplementing Regulation (EU) 2022/2065 of the European Parliament and of the Council by laying down the technical conditions and procedures under which providers of very large online platforms and of very large online search engines are to share data with vetted researchers](https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj) - European Commission，Official Journal of the European Union, L series, 2025/2050, 9 October 2025 2025。欧盟委员会依《数字服务法》第 40 条第 13 款通过的数据访问授权条例。正文用它说明：通过和刊登日期、生效规则（第 16 条）、统一的 DSA 数据访问门户（第 3 条）、向哪个数字服务协调员申请（第 2 条第 1 项）、80 个工作日的决定期限及延期（第 7 条第 1、2 款）、平台数据目录（第 6 条第 4 款）。🆓 `eu2025dsadata`
+- [Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 supplementing Regulation (EU) 2022/2065 of the European Parliament and of the Council by laying down the technical conditions and procedures under which providers of very large online platforms and of very large online search engines are to share data with vetted researchers](https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj) - European Commission，Official Journal of the European Union, L series, 2025/2050, 9 October 2025 2025。欧盟委员会依《数字服务法》第 40 条第 13 款通过的数据访问授权条例。正文用它说明：申请先在欧盟委员会的数据访问门户开账户（第 3 条），再向相应的数字服务协调员提交（第 2 条第 1 项）。🆓 `eu2025dsadata`
 
 ## 数据集与工具
 
