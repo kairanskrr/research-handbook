@@ -138,8 +138,13 @@ sup.fn { line-height: 0; }
 sup.fn a { font-size: .7em; font-weight: 600; padding: 0 2px; border-radius: 3px; }
 sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 .fnlist { margin-top: 3.2em; padding-top: 1.2em; border-top: 1px solid var(--line); font-size: .82rem; line-height: 1.7; letter-spacing: 0; color: var(--muted); }
-.fnlist h2 { margin-top: 0; font-size: .95rem; }
-.fnlist ol { padding-left: 2.4em; }
+.fnlist summary { display: flex; align-items: center; gap: 10px; width: fit-content; cursor: pointer; list-style: none; padding: 4px 0; color: var(--ink); font-size: .92rem; font-weight: 600; }
+.fnlist summary::-webkit-details-marker { display: none; }
+.fnlist summary::before { content: ""; flex: none; width: 5px; height: 5px; margin: 0 2px 2px 2px; border-right: 1.5px solid var(--faint); border-bottom: 1.5px solid var(--faint); transform: rotate(-45deg); transition: transform .15s; }
+.fnlist[open] summary::before { transform: rotate(45deg); margin-bottom: 4px; }
+.fnlist summary span { color: var(--faint); font-size: .78rem; font-weight: 400; }
+.fnlist summary:hover { color: var(--accent); }
+.fnlist ol { padding-left: 2.4em; margin: 10px 0 0; }
 .fnlist li { max-width: none; margin: .3em 0; }
 .pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 56px; flex-wrap: wrap; }
 .pager a { flex: 1 1 14rem; border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; background: var(--surface); color: var(--ink); font-weight: 500; }
@@ -327,9 +332,9 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     var prep = prepare(mdOf(path));
     var html = marked.parse(prep.text);
     if (prep.list.length) {
-      html += '<section class="fnlist"><h2>注释与出处</h2><ol>' + prep.list.map(function (id) {
+      html += '<details class="fnlist"><summary>注释与出处<span>' + prep.list.length + " 条</span></summary><ol>" + prep.list.map(function (id) {
         return '<li><a href="#" data-fnref="' + esc(id) + '" title="在正文旁打开">↗</a> ' + marked.parseInline(fnDefs[id]) + "</li>";
-      }).join("") + "</ol></section>";
+      }).join("") + "</ol></details>";
     }
     var idx = order.indexOf(path), prev = idx > 0 ? order[idx - 1] : null, next = idx >= 0 && idx < order.length - 1 ? order[idx + 1] : null;
     html += '<nav class="pager">' + (prev ? '<a class="prev" href="#' + tokenOf(prev) + '"><small>上一篇</small>' + esc(labelOf(prev)) + "</a>" : "<span></span>") +
