@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="从选题到发表，把一项研究做扎实：写给刚开始做科研的人，每条建议都能追溯到原文出处。">
+<meta name="description" content="Doing solid research, from first idea to publication: a handbook for people new to research, with every piece of advice traced to its source. Also in Chinese.">
 <title>Research Handbook</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +26,7 @@
   --shadow: 0 12px 32px rgba(20, 28, 45, .12);
   --font-body: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
   --font-display: var(--font-body);
+  --font-latin: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
   --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
   --side: 280px;
 }
@@ -41,6 +42,8 @@
   --accent: #a7c0ee; --accent-soft: #222f47; --analysis: #f2907b; --analysis-bg: #3a211c;
   --mark: #5a4c18; --shadow: 0 12px 32px rgba(0, 0, 0, .5); color-scheme: dark;
 }
+:root[lang="en"] { --font-body: var(--font-latin); }
+:root[lang="en"] .doc { letter-spacing: 0; line-height: 1.75; }
 * { box-sizing: border-box; }
 body { margin: 0; }
 img { max-width: 100%; }
@@ -102,6 +105,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .ver-seg button:hover { color: var(--ink); }
 .ver-seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); font-weight: 600; box-shadow: 0 1px 2px rgba(0, 0, 0, .08); }
 .ver-seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.brandrow .brand { padding-bottom: 10px; }
+.langs { margin: 0 0 14px 22px; }
+.langs button { padding: 2px 9px; font-size: .74rem; }
 .toc { position: sticky; top: 48px; align-self: start; font-size: .8rem; max-height: calc(100vh - 96px); overflow-y: auto; }
 .toc p { color: var(--faint); font-size: .72rem; letter-spacing: .08em; font-weight: 500; margin: 0 0 10px; }
 .toc a { display: block; color: var(--muted); padding: 4px 0 4px 12px; border-left: 1px solid var(--line); line-height: 1.5; }
@@ -179,15 +185,16 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 <body>
 <div class="app">
   <aside class="side" id="side">
-    <a class="brand" href="#README"><b>Research Handbook</b><span>从选题到发表，把一项研究做扎实</span></a>
-    <div class="searchbox"><input id="q" type="search" placeholder="搜索全书" autocomplete="off"></div>
+    <div class="brandrow"><a class="brand" href="#README"><b>Research Handbook</b><span id="tagline"></span></a>
+      <span class="ver-seg langs" role="group" aria-label="Language / 语言"><button type="button" data-lang="en" lang="en">EN</button><button type="button" data-lang="zh" lang="zh-CN">中文</button></span></div>
+    <div class="searchbox"><input id="q" type="search" autocomplete="off"></div>
     <nav class="nav" id="nav"></nav>
     <div class="results" id="results" hidden></div>
   </aside>
   <main class="main" id="main">
-    <div class="topbar"><button id="menu" type="button">目录</button><b>Research Handbook</b></div>
+    <div class="topbar"><button id="menu" type="button"></button><b>Research Handbook</b></div>
     <div class="wrap">
-      <article class="doc" id="doc"><p class="loading">正在载入手册……</p></article>
+      <article class="doc" id="doc"><p class="loading">Loading…</p></article>
       <aside class="toc" id="toc"></aside>
     </div>
   </main>
@@ -199,6 +206,27 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 (function () {
   "use strict";
   var DATA = null, SHORT = {}, MODE = "short", NOTES = null, notesLoading = null, order = [], current = null, fnDefs = {};
+  var I18N = {
+    en: { html: "en", tagline: "Doing solid research, from first idea to publication", search: "Search the handbook", menu: "Contents",
+      loading: "Loading the handbook…", parts: "Parts · read in order", ref: "Look up as needed", pages: function (n) { return n + " pages"; },
+      dead: "A file in the repository that the web reader does not include: ", notes: "Notes and sources", items: function (n) { return n + (n === 1 ? " note" : " notes"); },
+      openBeside: "Open beside the text", prev: "Previous", next: "Next", shortHint: "Only the things you must do", fullHint: "The why and the details",
+      version: "Version", short: "Concise", full: "Full", onPage: "On this page", note: "Note", close: "Close", loadingQuote: "Loading the original text…",
+      noEntry: "This evidence entry was not found.", notesFail: "Could not load the evidence file. Please refresh the page.",
+      none: function (q) { return "Nothing found for \u201c" + q + "\u201d. Try different words."; }, found: function (n) { return n + (n === 1 ? " page" : " pages"); },
+      fail: "Could not load the handbook. Please refresh the page." },
+    zh: { html: "zh-CN", tagline: "从选题到发表，把一项研究做扎实", search: "搜索全书", menu: "目录",
+      loading: "正在载入手册……", parts: "主线 · 按顺序读", ref: "按需查阅", pages: function (n) { return n + " 篇"; },
+      dead: "仓库里的文件，网页版没有收录：", notes: "注释与出处", items: function (n) { return n + " 条"; },
+      openBeside: "在正文旁打开", prev: "上一篇", next: "下一篇", shortHint: "只列必须做的事", fullHint: "讲清为什么、怎么做细",
+      version: "版本", short: "精简版", full: "完整版", onPage: "本页小节", note: "注释", close: "关闭", loadingQuote: "正在载入原文……",
+      noEntry: "没有找到这条证据。", notesFail: "证据文件载入失败，请刷新页面再试。",
+      none: function (q) { return "没有找到“" + q + "”。换个说法试试。"; }, found: function (n) { return "找到 " + n + " 篇"; },
+      fail: "手册内容载入失败，请刷新页面再试。" }
+  };
+  var LANG = (/[?&]lang=(en|zh)\b/.exec(location.search) || [])[1] || (function () { try { return localStorage.getItem("rh-lang"); } catch (e) { return null; } })();
+  if (LANG !== "zh") LANG = "en";
+  var T = I18N[LANG];
   var $ = function (id) { return document.getElementById(id); };
   var docEl = $("doc"), tocEl = $("toc"), navEl = $("nav"), resEl = $("results"), mainEl = $("main"), slip = $("slip");
 
@@ -230,13 +258,13 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     order.push("README.md");
     DATA.nav.forEach(function (g) {
       if (g.items.length === 1 && g.items[0].path === "README.md") return;
-      var m = /^主线[一二三四五]\s*·\s*(.+)$/.exec(g.label), long = !m && g.items.length > 8;
-      if (m && !mainShown) { html += '<p class="part">主线 · 按顺序读</p>'; mainShown = true; }
-      if (!m && mainShown && !refShown) { html += '<p class="part">按需查阅</p>'; refShown = true; }
+      var m = g.part, long = !m && g.items.length > 8;
+      if (m && !mainShown) { html += '<p class="part">' + esc(T.parts) + "</p>"; mainShown = true; }
+      if (!m && mainShown && !refShown) { html += '<p class="part">' + esc(T.ref) + "</p>"; refShown = true; }
       var saved = store("rh-nav-" + g.label), closed = saved ? saved === "1" : long;
       html += '<div class="group' + (closed ? " closed" : "") + '" data-label="' + esc(g.label) + '"><button type="button" aria-expanded="' + !closed + '">' +
-        "<span>" + esc(m ? m[1] : g.label) + "</span>" +
-        (long ? '<span class="count">' + g.items.length + " 篇</span>" : "") + "</button><ul>";
+        "<span>" + esc(m || g.label) + "</span>" +
+        (long ? '<span class="count">' + esc(T.pages(g.items.length)) + "</span>" : "") + "</button><ul>";
       g.items.forEach(function (it) {
         order.push(it.path);
         var kids = it.children && it.children.length;
@@ -305,14 +333,14 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
       else if (r.page) { a.href = "#" + tokenOf(r.page); a.dataset.anchor = r.anchor || ""; }
       else if (r.note) { a.href = "#"; a.dataset.note = r.note; a.dataset.anchor = r.anchor || ""; }
       else if (r.anchor !== undefined) { a.href = "#"; a.dataset.local = r.anchor; }
-      else { a.removeAttribute("href"); a.className = "dead"; a.title = "仓库里的文件，网页版没有收录：" + r.dead; }
+      else { a.removeAttribute("href"); a.className = "dead"; a.title = T.dead + r.dead; }
     });
   }
 
   function decorate(root) {
     var slug = slugger();
     root.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(function (h) { h.id = slug(h.textContent); });
-    root.querySelectorAll("code").forEach(function (c) { if (/^\[本项目分析/.test(c.textContent)) c.className = "analysis"; });
+    root.querySelectorAll("code").forEach(function (c) { if (/^\[(本项目分析|Our analysis)/.test(c.textContent)) c.className = "analysis"; });
     root.querySelectorAll("table").forEach(function (t) {
       var w = document.createElement("div"); w.className = "tablewrap"; t.parentNode.insertBefore(w, t); w.appendChild(t);
     });
@@ -332,16 +360,16 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     var prep = prepare(mdOf(path));
     var html = marked.parse(prep.text);
     if (prep.list.length) {
-      html += '<details class="fnlist"><summary>注释与出处<span>' + prep.list.length + " 条</span></summary><ol>" + prep.list.map(function (id) {
-        return '<li><a href="#" data-fnref="' + esc(id) + '" title="在正文旁打开">↗</a> ' + marked.parseInline(fnDefs[id]) + "</li>";
+      html += '<details class="fnlist"><summary>' + esc(T.notes) + "<span>" + esc(T.items(prep.list.length)) + "</span></summary><ol>" + prep.list.map(function (id) {
+        return '<li><a href="#" data-fnref="' + esc(id) + '" title="' + esc(T.openBeside) + '">↗</a> ' + marked.parseInline(fnDefs[id]) + "</li>";
       }).join("") + "</ol></details>";
     }
     var idx = order.indexOf(path), prev = idx > 0 ? order[idx - 1] : null, next = idx >= 0 && idx < order.length - 1 ? order[idx + 1] : null;
-    html += '<nav class="pager">' + (prev ? '<a class="prev" href="#' + tokenOf(prev) + '"><small>上一篇</small>' + esc(labelOf(prev)) + "</a>" : "<span></span>") +
-      (next ? '<a class="next" href="#' + tokenOf(next) + '"><small>下一篇</small>' + esc(labelOf(next)) + "</a>" : "") + "</nav>";
+    html += '<nav class="pager">' + (prev ? '<a class="prev" href="#' + tokenOf(prev) + '"><small>' + esc(T.prev) + "</small>" + esc(labelOf(prev)) + "</a>" : "<span></span>") +
+      (next ? '<a class="next" href="#' + tokenOf(next) + '"><small>' + esc(T.next) + "</small>" + esc(labelOf(next)) + "</a>" : "") + "</nav>";
     var g = path !== "README.md" ? groupOf(path) : "", ver = "";
-    if (SHORT[path]) ver = '<div class="ver"><small>' + (MODE === "short" ? "只列必须做的事" : "讲清为什么、怎么做细") + '</small><span class="ver-seg" role="group" aria-label="版本">' +
-      '<button type="button" data-mode="short" aria-pressed="' + (MODE === "short") + '">精简版</button><button type="button" data-mode="full" aria-pressed="' + (MODE === "full") + '">完整版</button></span></div>';
+    if (SHORT[path]) ver = '<div class="ver"><small>' + esc(MODE === "short" ? T.shortHint : T.fullHint) + '</small><span class="ver-seg" role="group" aria-label="' + esc(T.version) + '">' +
+      '<button type="button" data-mode="short" aria-pressed="' + (MODE === "short") + '">' + esc(T.short) + '</button><button type="button" data-mode="full" aria-pressed="' + (MODE === "full") + '">' + esc(T.full) + "</button></span></div>";
     docEl.innerHTML = (g || ver ? '<div class="crumb"><span>' + esc(g) + "</span>" + ver + "</div>" : "") + html;
     decorate(docEl);
     wireLinks(docEl, path);
@@ -370,7 +398,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
   function buildToc() {
     var hs = docEl.querySelectorAll(".doc > h2");
     if (hs.length < 2) { tocEl.innerHTML = ""; return; }
-    tocEl.innerHTML = "<p>本页小节</p>" + Array.prototype.map.call(hs, function (h) {
+    tocEl.innerHTML = "<p>" + esc(T.onPage) + "</p>" + Array.prototype.map.call(hs, function (h) {
       return '<a href="#" data-local="' + esc(h.id) + '">' + esc(h.textContent) + "</a>";
     }).join("");
   }
@@ -396,7 +424,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
   // ---- evidence slip ----
   function loadNotes() {
     if (NOTES) return Promise.resolve(NOTES);
-    if (!notesLoading) notesLoading = fetch("notes.json").then(function (r) { return r.json(); }).then(function (j) { NOTES = j; return j; });
+    if (!notesLoading) notesLoading = fetch(LANG + "/notes.json").then(function (r) { return r.json(); }).then(function (j) { NOTES = j; return j; });
     return notesLoading;
   }
   function entryOf(key, anchor) {
@@ -409,8 +437,8 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     return { head: head, body: (end < 0 ? rest : rest.slice(0, end)).trim() };
   }
   function openSlip(at, defMd, key, anchor) {
-    slip.innerHTML = '<header><span>' + esc(key ? key + (anchor ? " · " + anchor.toUpperCase() : "") : "注释") + '</span><button type="button" aria-label="关闭">×</button></header>' +
-      (defMd ? '<p class="def">' + marked.parseInline(defMd) + "</p>" : "") + (key ? '<div class="quote">正在载入原文……</div>' : "");
+    slip.innerHTML = '<header><span>' + esc(key ? key + (anchor ? " · " + anchor.toUpperCase() : "") : T.note) + '</span><button type="button" aria-label="' + esc(T.close) + '">×</button></header>' +
+      (defMd ? '<p class="def">' + marked.parseInline(defMd) + "</p>" : "") + (key ? '<div class="quote">' + esc(T.loadingQuote) + "</div>" : "");
     slip.querySelector("header button").onclick = closeSlip;
     slip.querySelectorAll(".def a[href]").forEach(function (a) {
       var r = resolveLink(a.getAttribute("href"), current);
@@ -420,10 +448,10 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     if (key) loadNotes().then(function () {
       var e = entryOf(key, anchor), q = slip.querySelector(".quote");
       if (!q) return;
-      if (!e || !e.body) { q.textContent = "没有找到这条证据。"; return; }
+      if (!e || !e.body) { q.textContent = T.noEntry; return; }
       q.innerHTML = '<div style="font-size:.78rem;color:var(--muted);margin-bottom:4px">' + esc(e.head) + "</div>" + marked.parse(e.body.length > 4000 ? e.body.slice(0, 4000) + "\n\n……" : e.body);
       place(at);
-    }).catch(function () { var q = slip.querySelector(".quote"); if (q) q.textContent = "证据文件载入失败，请刷新页面再试。"; });
+    }).catch(function () { var q = slip.querySelector(".quote"); if (q) q.textContent = T.notesFail; });
   }
   function place(at) {
     var r = at.getBoundingClientRect(), w = slip.offsetWidth, h = slip.offsetHeight, vw = innerWidth, vh = innerHeight;
@@ -441,6 +469,8 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 
   // ---- clicks ----
   document.addEventListener("click", function (e) {
+    var lb = e.target.closest("[data-lang]");
+    if (lb) { if (lb.dataset.lang !== LANG) setLang(lb.dataset.lang); return; }
     var mb = e.target.closest("[data-mode]");
     if (mb) { if (mb.dataset.mode !== MODE) setMode(mb.dataset.mode, true); return; }
     var a = e.target.closest("a");
@@ -491,9 +521,9 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     });
     hits.sort(function (a, b) { return b.score - a.score; });
     navEl.hidden = true; resEl.hidden = false;
-    if (!hits.length) { resEl.innerHTML = "<p>没有找到“" + esc(q) + "”。换个说法试试。</p>"; return; }
+    if (!hits.length) { resEl.innerHTML = "<p>" + esc(T.none(q)) + "</p>"; return; }
     var reQ = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
-    resEl.innerHTML = "<p>找到 " + hits.length + " 篇</p>" + hits.slice(0, 60).map(function (h) {
+    resEl.innerHTML = "<p>" + esc(T.found(hits.length)) + "</p>" + hits.slice(0, 60).map(function (h) {
       return '<a href="#' + tokenOf(h.p) + '" data-hl="1"><b>' + esc(labelOf(h.p)) + "</b><small>" + esc(h.snip).replace(reQ, function (m) { return "<mark>" + m + "</mark>"; }) + "</small></a>";
     }).join("");
   }
@@ -504,13 +534,33 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     if (location.hash !== href) { pendingHighlight = q; location.hash = href; } else show(pathOf(href.slice(1)), "", q);
   }, true);
 
+  // ---- language ----
+  function applyChrome() {
+    document.documentElement.lang = T.html;
+    $("tagline").textContent = T.tagline; qEl.placeholder = T.search; $("menu").textContent = T.menu;
+    document.querySelectorAll("[data-lang]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.lang === LANG); });
+  }
+  function load() {
+    applyChrome();
+    docEl.innerHTML = '<p class="loading">' + esc(T.loading) + "</p>";
+    return Promise.all([fetch(LANG + "/guide.json").then(function (r) { return r.json(); }), fetch(LANG + "/guide-short.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })]).then(function (res) {
+      DATA = res[0]; SHORT = res[1]; order = []; buildNav();
+      setMode(store("rh-mode") === "full" ? "full" : "short", false);
+    });
+  }
+  function setLang(l) {
+    LANG = l; T = I18N[l]; store("rh-lang", l);
+    NOTES = null; notesLoading = null; plain = {}; closeSlip();
+    var keep = current;
+    load().then(function () { show(keep || "README.md"); if (qEl.value.trim()) search(); })
+      .catch(function () { docEl.innerHTML = '<p class="loading">' + esc(T.fail) + "</p>"; });
+  }
+
   // ---- boot ----
-  Promise.all([fetch("guide.json").then(function (r) { return r.json(); }), fetch("guide-short.json").then(function (r) { return r.json(); }).catch(function () { return {}; })]).then(function (res) {
-    var j = res[0]; SHORT = res[1]; DATA = j; buildNav();
-    setMode(store("rh-mode") === "full" ? "full" : "short", false);
+  load().then(function () {
     var start = location.hash.length > 1 ? pathOf(location.hash.slice(1)) : (store("rh-last") || "README.md");
     show(start);
-  }).catch(function () { docEl.innerHTML = '<p class="loading">手册内容载入失败，请刷新页面再试。</p>'; });
+  }).catch(function () { docEl.innerHTML = '<p class="loading">' + esc(T.fail) + "</p>"; });
 })();
 </script>
 </body>

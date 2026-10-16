@@ -4,14 +4,35 @@ usage: python scripts/build_site.py --full <checkout> [--short <checkout>] --out
 
 --full   a checkout of the full version (branch main)
 --short  a checkout of the concise version (branch concise); optional
-writes <out>/index.html, guide.json, notes.json and, with --short, guide-short.json
+writes <out>/index.html and, for each language, <out>/<lang>/guide.json, notes.json and,
+with --short, guide-short.json. Chinese comes from the checkout root, English from its en/ folder.
 """
 import argparse, io, json, os, re, shutil
 
 REWRITTEN = re.compile(r"^(README\.md|guide/faq\.md|guide/0[0-4]_.*|guide/08_.*)$")
 
 
-def bundle(REPO):
+LABELS = {
+    "zh": {
+        "sections": ["开始", "主线一 · 从兴趣到项目", "主线二 · 从项目到研究设计", "主线三 · 执行和分析", "主线四 · 写作和发表",
+                     "研究套路", "研究方法", "学科篇", "贯穿全程"],
+        "home": "首页", "fields": "学科篇总览", "subfields": "各方向总览", "practices": "实践总览", "overview": "总览：",
+        "more": "其他", "faq": "常见问题速查", "sources": "资料列表", "contrib": "参与贡献",
+    },
+    "en": {
+        "sections": ["Start here", "Part 1 · From interest to project", "Part 2 · From project to study design",
+                     "Part 3 · Running the study and analyzing results", "Part 4 · Writing and publishing",
+                     "Research strategies", "Research methods", "Fields", "Throughout the project"],
+        "home": "Home", "fields": "All fields", "subfields": "Subfields overview", "practices": "Practices overview", "overview": "Overview: ",
+        "more": "More", "faq": "FAQ: quick answers", "sources": "Source list", "contrib": "Contributing",
+    },
+}
+DIRS = ["00_start-here", "01_from-interest-to-project", "02_from-project-to-study", "03_conduct-and-analyze",
+        "04_write-and-publish", "05_research-strategies", "06_methods", "07_fields", "08_throughout"]
+
+
+def bundle(REPO, lang="zh"):
+    L = LABELS[lang]
     def rd(p):
         return io.open(os.path.join(REPO, p), encoding="utf8").read()
 
@@ -28,17 +49,7 @@ def bundle(REPO):
         t = rd(path)
         pages[path] = {"title": h1(t), "md": t}
 
-    SECTIONS = [
-        ("00_start-here", "开始"),
-        ("01_from-interest-to-project", "主线一 · 从兴趣到项目"),
-        ("02_from-project-to-study", "主线二 · 从项目到研究设计"),
-        ("03_conduct-and-analyze", "主线三 · 执行和分析"),
-        ("04_write-and-publish", "主线四 · 写作和发表"),
-        ("05_research-strategies", "研究套路"),
-        ("06_methods", "研究方法"),
-        ("07_fields", "学科篇"),
-        ("08_throughout", "贯穿全程"),
-    ]
+    SECTIONS = list(zip(DIRS, L["sections"]))
 
     def mdfiles(d):
         full = os.path.join(REPO, "guide", d)
@@ -49,12 +60,12 @@ def bundle(REPO):
 
     nav = []
     add("README.md")
-    nav.append({"label": "首页", "items": [{"path": "README.md", "label": "Research Handbook"}]})
+    nav.append({"label": L["home"], "items": [{"path": "README.md", "label": "Research Handbook"}]})
     for d, label in SECTIONS:
         items = []
         if d == "07_fields":
             add("guide/07_fields/README.md")
-            items.append({"path": "guide/07_fields/README.md", "label": "学科篇总览"})
+            items.append({"path": "guide/07_fields/README.md", "label": L["fields"]})
             idx = rd("guide/07_fields/README.md")
             order = []
             for f in re.findall(r"\(([a-z-]+)/README\.md", idx):
@@ -69,7 +80,7 @@ def bundle(REPO):
                 p = "guide/07_fields/%s/README.md" % f
                 add(p)
                 kids = []
-                for sub, overview in (("subfields", "各方向总览"), ("practices", "实践总览")):
+                for sub, overview in (("subfields", L["subfields"]), ("practices", L["practices"])):
                     pd = os.path.join(REPO, "guide/07_fields", f, sub)
                     if not os.path.isdir(pd):
                         continue
@@ -88,18 +99,21 @@ def bundle(REPO):
                 add(p)
                 lab = short(pages[p]["title"])
                 if p.endswith("/README.md"):
-                    lab = "总览：" + lab if not lab.startswith("总览") else lab
+                    lab = L["overview"] + lab if not lab.startswith(L["overview"].rstrip(": ：")) else lab
                 items.append({"path": p, "label": lab})
-        nav.append({"label": label, "items": items})
+        group = {"label": label, "items": items}
+        if d[:2] in ("01", "02", "03", "04"):
+            group["part"] = label.split("·", 1)[1].strip()
+        nav.append(group)
 
     add("guide/faq.md")
     add("guide/README.md")
     add("sources/README.md")
     add("CONTRIBUTING.md")
-    nav.append({"label": "其他", "items": [
-        {"path": "guide/faq.md", "label": "常见问题速查"},
-        {"path": "sources/README.md", "label": "资料列表"},
-        {"path": "CONTRIBUTING.md", "label": "参与贡献"},
+    nav.append({"label": L["more"], "items": [
+        {"path": "guide/faq.md", "label": L["faq"]},
+        {"path": "sources/README.md", "label": L["sources"]},
+        {"path": "CONTRIBUTING.md", "label": L["contrib"]},
     ]})
 
     notes = {}
@@ -124,20 +138,27 @@ def main():
     ap.add_argument("--short")
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
-    os.makedirs(a.out, exist_ok=True)
-    guide, notes = bundle(a.full)
-    dump(guide, os.path.join(a.out, "guide.json"))
-    dump(notes, os.path.join(a.out, "notes.json"))
-    if a.short:
-        sg, _ = bundle(a.short)
-        short = {p: v["md"] for p, v in sg["pages"].items()
-                 if REWRITTEN.match(p) and p in guide["pages"] and guide["pages"][p]["md"] != v["md"]}
-        dump(short, os.path.join(a.out, "guide-short.json"))
-        print("concise pages", len(short))
+    for lang, sub in (("zh", ""), ("en", "en")):
+        full = os.path.join(a.full, sub)
+        if not os.path.isfile(os.path.join(full, "README.md")):
+            print(lang, "missing, skipped")
+            continue
+        out = os.path.join(a.out, lang)
+        os.makedirs(out, exist_ok=True)
+        guide, notes = bundle(full, lang)
+        dump(guide, os.path.join(out, "guide.json"))
+        dump(notes, os.path.join(out, "notes.json"))
+        short = os.path.join(a.short, sub) if a.short else None
+        if short and os.path.isfile(os.path.join(short, "README.md")):
+            sg, _ = bundle(short, lang)
+            sv = {p: v["md"] for p, v in sg["pages"].items()
+                  if REWRITTEN.match(p) and p in guide["pages"] and guide["pages"][p]["md"] != v["md"]}
+            dump(sv, os.path.join(out, "guide-short.json"))
+            print(lang, "concise pages", len(sv))
+        print(lang, "pages", len(guide["pages"]), "notes", len(notes))
     here = os.path.dirname(os.path.abspath(__file__))
     shutil.copy(os.path.join(here, "..", "site", "index.html"), os.path.join(a.out, "index.html"))
     open(os.path.join(a.out, ".nojekyll"), "w").close()
-    print("pages", len(guide["pages"]), "notes", len(notes))
 
 
 if __name__ == "__main__":
