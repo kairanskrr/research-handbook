@@ -19,7 +19,7 @@
 
 - 位置：The Moran Scatter Plot > Permutation inference
 - 原文："More precisely, a result that has a p-value of 0.01 with 99 permutations is not necessarily more significant than a result with a p-value of 0.001 with 999 permutations."
-- 要点：伪 p 值的大小部分由置换次数决定；99 次置换得到 0.01 不一定比 999 次得到 0.001 更不显著。
+- 要点：伪 p 值的大小部分由置换次数决定；99 次置换得到 0.01 不一定比 999 次得到 0.001 更显著。
 
 ### E4
 
