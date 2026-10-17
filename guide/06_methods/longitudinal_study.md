@@ -2,7 +2,7 @@
 
 本文讲**纵向研究**（longitudinal study）：在一段时间内，对同一批对象反复测量同样的东西，看它怎样变化。例如跟踪一批项目好几年，看技术债怎样累积和偿还；或者每隔几个月调查同一批开发者，看他们的工作效率怎样变化。
 
-纵向数据很多来自代码仓库的历史，怎样从仓库里抽取和清洗数据，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；效度威胁的一般做法，见[效度与局限：设计阶段就想清楚](../02_from-project-to-study/03_validity-and-limits.md)。本文只讲"随时间重复观察"带来的特殊问题。
+纵向数据很多来自代码仓库的历史，怎样从仓库里抽取和清洗数据，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；效度威胁的一般做法，见[效度与局限：设计阶段就想清楚](../02_do-the-project/04_validity-and-limits.md)。本文只讲"随时间重复观察"带来的特殊问题。
 
 **适用范围** `[本项目分析]`：本文的检查清单依据 ACM SIGSOFT（美国计算机协会软件工程分会）为软件工程写的纵向研究标准，仓库数据的陷阱来自软件工程，以人为对象的规划原则来自信息系统领域（Kehr & Kowatsch 2015），例子以软件项目和开发者为主。其他学科做纵向研究时，先看本学科的规范。例如健康领域随时间跟踪人群、比较不同暴露的队列研究，规则更严格，见[观察性流行病学研究](observational_epidemiology.md)。
 
@@ -94,7 +94,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 - 只关心群体层面的变化：可以用重复测量的方法，例如重复测量方差分析、配对 t 检验；要研究不同对象的变化轨迹有何不同：可以用多层模型（也叫分层线性模型）[^kehr2015quantitative-e19]。
 - 要论证为什么选这种分析方法，并说明它适合数据前后相依的特点[^ralph2020empirical-e260]。
-- 纵向分析通常涉及很多变量和多次比较，更容易碰巧得到"显著"结果。建议调整显著性阈值，或者使用贝叶斯统计[^ralph2020empirical-e261]。显著性和效应量的一般问题，见[分析与解读：报告差多少、有多确定](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+- 纵向分析通常涉及很多变量和多次比较，更容易碰巧得到"显著"结果。建议调整显著性阈值，或者使用贝叶斯统计[^ralph2020empirical-e261]。显著性和效应量的一般问题，见[分析与解读：报告差多少、有多确定](../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第七步：小心"时间"本身带来的效度威胁
 
@@ -108,7 +108,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第八步：报告
 
-除了一般的写作要求（见[讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md)），纵向研究要特别写清：对象是谁、怎样选出[^ralph2020empirical-e263]；时点和间隔怎样确定；每轮流失多少、缺失怎样处理[^ralph2020empirical-e262]；指标怎样从概念变成测量[^ralph2020empirical-e263]；收集数据的成本和用过的激励[^ralph2020empirical-e267]。公开数据集、采集脚本和分析脚本[^ralph2020empirical-e267]。承认了局限，结论就要真的受它约束[^ralph2020empirical-e103][^ralph2020empirical-e126]。
+除了一般的写作要求（见[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)），纵向研究要特别写清：对象是谁、怎样选出[^ralph2020empirical-e263]；时点和间隔怎样确定；每轮流失多少、缺失怎样处理[^ralph2020empirical-e262]；指标怎样从概念变成测量[^ralph2020empirical-e263]；收集数据的成本和用过的激励[^ralph2020empirical-e267]。公开数据集、采集脚本和分析脚本[^ralph2020empirical-e267]。承认了局限，结论就要真的受它约束[^ralph2020empirical-e103][^ralph2020empirical-e126]。
 
 ---
 

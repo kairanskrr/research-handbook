@@ -17,6 +17,6 @@ That is what this section is for. **You don't need to read it in order.** When o
 
 ## How this section relates to the Parts
 
-When a chapter in one of the Parts touches on these topics, it mentions them in a sentence and links here. For example, [Converging on a project](../01_from-interest-to-project/03_converge.md) asks you to write a one-page project summary and discuss it with your advisor; for how to make that discussion go well, see [Collaboration and advisors](collaboration_and_advisors.md).
+When a chapter in one of the Parts touches on these topics, it mentions them in a sentence and links here. For example, [Converging on a project](../01_find-a-problem/05_converge.md) asks you to write a one-page project summary and discuss it with your advisor; for how to make that discussion go well, see [Collaboration and advisors](collaboration_and_advisors.md).
 
 It works the other way too. If, while reading a page in this section, you find that the problem actually lies in the project itself (for example, you can't make progress because you haven't thought your conclusion through), go back to the matching chapter in the Parts. For the overall map, see [The research journey at a glance](../00_start-here/research-journey.md).

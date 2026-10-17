@@ -124,7 +124,7 @@ SIGSOFT 标准认为，"只研究了一个组织，结论不能推广"是对行�
 - **详细描述情境**，包括采取了哪些干预[^staron2025guidelines-e20]，例如组织类型、团队规模、项目背景 `[本项目分析]`。如果只能在公开组织名称和公开组织特征之间二选一，特征对读者更有用[^staron2025guidelines-e20]；
 - **讲清过程**：行动研究达不到自然科学那样的可重复性，但要讲清你得出结论所依据的过程[^santos2011action-e6]。
 
-效度的一般讨论见[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)。
+效度的一般讨论见[效度与局限](../02_do-the-project/04_validity-and-limits.md)。
 
 ---
 

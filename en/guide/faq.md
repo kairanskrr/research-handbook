@@ -10,7 +10,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 
 **First, work out: have you started yet, or are you already some way in?**
 
-- **Not started yet**: the worst outcome is finishing the whole project and only then finding that someone published the same work before you began. That is why you check for prior work at the very start[^noble2023ten-e5]. If you find a similar paper, don't give up straight away. Compare it with yours as described below; often only the question is the same, and the angle or the evidence differs. For how to search and compare, see [Converging on a project: Has someone already done it?](01_from-interest-to-project/03_converge.md#3-has-someone-already-done-it) `[Our analysis]`.
+- **Not started yet**: the worst outcome is finishing the whole project and only then finding that someone published the same work before you began. That is why you check for prior work at the very start[^noble2023ten-e5]. If you find a similar paper, don't give up straight away. Compare it with yours as described below; often only the question is the same, and the angle or the evidence differs. For how to search and compare, see [Converging on a project: Has someone already done it?](01_find-a-problem/05_converge.md#3-has-someone-already-done-it) `[Our analysis]`.
 - **Already some way in**: put their paper next to your work and compare three things: the claim, the data or subjects, and the method. If all three are the same, you have been scooped. If any one differs, you hold a part their paper doesn't cover. If the results are the same but you reached them independently, your work can serve as an independent confirmation `[Our analysis]`. The three steps below are for this case.
 
 **What to do now:**
@@ -18,7 +18,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Talk to your advisor about where to submit. A 2018 editorial from the biology journal PLOS Biology notes that many journals reject scooped manuscripts for "lack of novelty"[^plosbiology2018importance-e2]. That journal takes the view that two groups independently finding the same phenomenon increases confidence in the result[^plosbiology2018importance-e3], and it formally considers manuscripts that confirm or extend a recently published study[^plosbiology2018importance-e1]. The window is six months from when the other paper is published or posted as a preprint[^plosbiology2018importance-e4], and the manuscript must still meet the journal's requirements for depth of study[^plosbiology2018importance-e5]. This is one journal's policy. Check the rules of the place you plan to submit to before you submit.
 3. Cite their work openly in your paper and say clearly how yours differs. Don't avoid it `[Our analysis]`.
 
-**Read more:** [Replication studies: how it differs from related work](06_methods/replication.md#how-it-differs-from-related-work-our-analysis); [When the evidence doesn't match the claim, change the claim](03_conduct-and-analyze/02_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim)
+**Read more:** [Replication studies: how it differs from related work](06_methods/replication.md#how-it-differs-from-related-work-our-analysis); [When the evidence doesn't match the claim, change the claim](02_do-the-project/07_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim)
 
 ### Your advisor gave you a topic you aren't interested in, or don't think is worth doing
 
@@ -29,7 +29,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Value or feasibility problem: write your reasons down, bring a small-scale check, and discuss it with your advisor. Don't change direction on your own `[Our analysis]`.
 3. If your advisor still insists after you have talked: work on it their way for a while, and agree on when, and on what results, you will reassess together `[Our analysis]`. One researcher recalls ignoring his advisor; the advisor turned out to be right, and he wasted several months[^karpathy2016survival-e7].
 
-**Read more:** [The project is yours: propose the next steps](08_throughout/collaboration_and_advisors.md#4-the-project-is-yours-propose-the-next-steps); [Is it worth doing?](01_from-interest-to-project/03_converge.md#2-is-it-worth-doing)
+**Read more:** [The project is yours: propose the next steps](08_throughout/collaboration_and_advisors.md#4-the-project-is-yours-propose-the-next-steps); [Is it worth doing?](01_find-a-problem/05_converge.md#2-is-it-worth-doing)
 
 ## You did the work, but can't say what it amounts to
 
@@ -44,7 +44,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Test it on new data. A methods article on preregistration gives two ways to do this. If data are easy to collect, treat all the initial experiments as exploratory; once you see something interesting, freeze the original design and analysis script and run the experiment again[^nosek2018preregistration-e13]. If data are hard to collect, split the dataset in two: use one part for exploration and keep the other sealed until exploration is complete[^nosek2018preregistration-e12].
 3. In the paper, say which conclusions came from exploration and which were tested on new data `[Our analysis]`.
 
-**Read more:** [First, know which stage you are in](03_conduct-and-analyze/01_run-and-iterate.md#1-first-know-which-stage-you-are-in); [Do the planned analyses first; label unplanned ones as exploratory](03_conduct-and-analyze/02_analyze-and-interpret.md#2-do-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
+**Read more:** [First, know which stage you are in](02_do-the-project/06_run-and-iterate.md#1-first-know-which-stage-you-are-in); [Do the planned analyses first; label unplanned ones as exploratory](02_do-the-project/07_analyze-and-interpret.md#2-do-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
 
 ### You built a system or tool, and don't know whether it counts as research or what the contribution is
 
@@ -66,7 +66,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Too much overlap: first look at how much overlap there is. Work that overlaps with prior work can still have some novelty if it offers new ideas and useful data[^hicks2014reviewing-e8]; changing just one thing that nobody had thought to change also counts as novel[^black2022novelty-e2]. Don't make your method more complicated to look new: a guide written for reviewers warns that reviewers often mistake complexity for novelty[^black2022novelty-e1].
 3. Not important, or not enough evidence: go back to the convergence stage and narrow your claim, or add evidence, or weaken the claim `[Our analysis]`.
 
-**Read more:** [Introduction: five questions plus a list of contributions](04_write-and-publish/01_story-and-paper.md#4-introduction-five-questions-plus-a-list-of-contributions); [Has someone already done it?](01_from-interest-to-project/03_converge.md#3-has-someone-already-done-it); [Decide what to change and what to argue](04_write-and-publish/03_review-and-revision.md#3-decide-what-to-change-and-what-to-argue)
+**Read more:** [Introduction: five questions plus a list of contributions](03_write-and-publish/01_story-and-paper.md#4-introduction-five-questions-plus-a-list-of-contributions); [Has someone already done it?](01_find-a-problem/05_converge.md#3-has-someone-already-done-it); [Decide what to change and what to argue](03_write-and-publish/03_review-and-revision.md#3-decide-what-to-change-and-what-to-argue)
 
 ## Something went wrong, or time is running out
 
@@ -90,7 +90,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Check against your paper outline: the figures and tables still missing tell you how far you are from submission `[Our analysis]`.
 3. Put new questions on your ideas list for the next project `[Our analysis]`. People judge you by the projects you finish, not the ones you start[^patterson2001bad-e11].
 
-**Read more:** [Break the claim into milestones: each milestone is a piece of evidence](01_from-interest-to-project/04_research-plan.md#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence); [For each milestone, write down what counts as done](01_from-interest-to-project/04_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done)
+**Read more:** [Break the claim into milestones: each milestone is a piece of evidence](02_do-the-project/03_research-plan.md#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence); [For each milestone, write down what counts as done](02_do-the-project/03_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done)
 
 ### The deadline is close and the evidence isn't there yet
 
@@ -101,7 +101,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. A central conclusion lacks evidence: narrow the claim to what the evidence supports, or aim for a later deadline `[Our analysis]`. Do not quietly drop unfavorable data or results to keep the claim: the European Code defines omitting or suppressing data or results without justification as falsification[^allea2023european-e3].
 3. Decide with your advisor whether to submit now or wait. An opinion piece in computing criticized the habit of submitting when a conference deadline comes around rather than when the research is ready[^fortnow2009time-e2].
 
-**Read more:** [When the evidence doesn't match the claim, change the claim](03_conduct-and-analyze/02_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim); [How the plan changes](01_from-interest-to-project/04_research-plan.md#7-how-the-plan-changes)
+**Read more:** [When the evidence doesn't match the claim, change the claim](02_do-the-project/07_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim); [How the plan changes](02_do-the-project/03_research-plan.md#7-how-the-plan-changes)
 
 ## Between you and your advisor or collaborators
 
@@ -150,7 +150,7 @@ Experienced people see this differently. One piece of advice for graduate studen
 2. If you want to understand why, show your advisor the source the handbook cites and ask, "Why do we do it this way here?" `[Our analysis]`.
 3. The integrity bottom line is the exception: fabrication, falsification, and plagiarism[^allea2023european-e3] are off limits no matter who asks.
 
-**Read more:** [Research integrity and ethics](08_throughout/integrity_and_ethics.md); [Choosing a venue and submitting](04_write-and-publish/02_venue-and-submission.md)
+**Read more:** [Research integrity and ethics](08_throughout/integrity_and_ethics.md); [Choosing a venue and submitting](03_write-and-publish/02_venue-and-submission.md)
 
 ### You suspect a collaborator may have crossed a line
 
@@ -175,7 +175,7 @@ Experienced people see this differently. One piece of advice for graduate studen
 3. No energy for a long time, or no interest in research itself: have a serious conversation with your advisor or someone you trust about whether to stay. Leaving is a legitimate choice too `[Our analysis]`.
 4. It is already affecting your life: go to your university's counseling or mental health service `[Our analysis]`.
 
-**Read more:** [When you're stuck, troubleshoot in fixed steps](03_conduct-and-analyze/01_run-and-iterate.md#5-when-youre-stuck-troubleshoot-in-fixed-steps); [Persist or change direction](03_conduct-and-analyze/01_run-and-iterate.md#6-persist-or-change-direction); [Treat failure and rejection as normal](08_throughout/mindset_and_growth.md#2-treat-failure-and-rejection-as-normal) (includes "Persist, or let go?"); [Keep a pace you can sustain](08_throughout/mindset_and_growth.md#6-keep-a-pace-you-can-sustain)
+**Read more:** [When you're stuck, troubleshoot in fixed steps](02_do-the-project/06_run-and-iterate.md#5-when-youre-stuck-troubleshoot-in-fixed-steps); [Persist or change direction](02_do-the-project/06_run-and-iterate.md#6-persist-or-change-direction); [Treat failure and rejection as normal](08_throughout/mindset_and_growth.md#2-treat-failure-and-rejection-as-normal) (includes "Persist, or let go?"); [Keep a pace you can sustain](08_throughout/mindset_and_growth.md#6-keep-a-pace-you-can-sustain)
 
 ## Is this crossing the line?
 
@@ -190,7 +190,7 @@ Experienced people see this differently. One piece of advice for graduate studen
 2. Label unplanned processing as exploratory, and explain why you did it.
 3. If you aren't sure, ask your advisor, and record your decision and reasoning in your log.
 
-**Read more:** [Be honest with the evidence: don't fool yourself, report all results](08_throughout/integrity_and_ethics.md#2-be-honest-with-the-evidence-dont-fool-yourself-report-all-results); [Do the planned analyses first; label unplanned ones as exploratory](03_conduct-and-analyze/02_analyze-and-interpret.md#2-do-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
+**Read more:** [Be honest with the evidence: don't fool yourself, report all results](08_throughout/integrity_and_ethics.md#2-be-honest-with-the-evidence-dont-fool-yourself-report-all-results); [Do the planned analyses first; label unplanned ones as exploratory](02_do-the-project/07_analyze-and-interpret.md#2-do-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
 
 ### Can you get help from a large language model?
 

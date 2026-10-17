@@ -56,7 +56,7 @@ Larsson 1993 summarizes the method in four steps: select a set of existing case 
 
 A case survey can test hypotheses or explore, but the choice of cases needs a theoretical basis[^melegati2020case-e4]. Usually you write your hypotheses before you start and derive from them the variables you need to code[^ralph2022paving-e7].
 
-**Where people go wrong:** reading a pile of cases first and then seeing which correlations turn up. "Findings" produced this way are likely to be chance; fixing your hypotheses first constrains you in advance `[Our analysis]`. For the difference between exploration and confirmation, see [From research questions to an evidence plan: be clear whether you are testing or exploring](../02_from-project-to-study/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
+**Where people go wrong:** reading a pile of cases first and then seeing which correlations turn up. "Findings" produced this way are likely to be chance; fixing your hypotheses first constrains you in advance `[Our analysis]`. For the difference between exploration and confirmation, see [From research questions to an evidence plan: be clear whether you are testing or exploring](../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
 
 ### Step 2: Find and select cases
 

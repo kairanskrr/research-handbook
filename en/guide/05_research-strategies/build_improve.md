@@ -93,7 +93,7 @@ This three-part structure comes from the software engineering review standard fo
 
 **Finally the evaluation**, which answers the six questions from the previous section.
 
-This order isn't just how the paper is written; it is also the order in which you do the project `[Our analysis]`. If you start building a solution before the problem is clear, what you build often doesn't address the place where people are actually stuck. [Converging on a project](../01_from-interest-to-project/03_converge.md#2-is-it-worth-doing) has an example: if developers avoid existing tools because of too many false positives, then finding more vulnerabilities is not the key; reducing false positives is.
+This order isn't just how the paper is written; it is also the order in which you do the project `[Our analysis]`. If you start building a solution before the problem is clear, what you build often doesn't address the place where people are actually stuck. [Converging on a project](../01_find-a-problem/05_converge.md#2-is-it-worth-doing) has an example: if developers avoid existing tools because of too many false positives, then finding more vulnerabilities is not the key; reducing false positives is.
 
 ### Get the baseline running early
 
@@ -101,7 +101,7 @@ This order isn't just how the paper is written; it is also the order in which yo
 
 You need at least two kinds of baseline: simpler alternatives to your method, to show that its extra complexity is really needed[^lones2021avoid-e1]; and the current state of the art[^lones2021avoid-e2]. These two points come from advice for machine learning; for what to do when a competitor's method is unavailable or won't run, see [Engineering research](../07_fields/computer-science/practices/engineering_research.md#step-4-choose-baselines) in the computer science section.
 
-Running baselines early has another benefit `[Our analysis]`: you quickly hit blockers such as a baseline that won't run or problems in the evaluation data. These are exactly the risks that [Pilot first: rule out the biggest risks](../02_from-project-to-study/04_pilot-and-derisk.md) is meant to surface early.
+Running baselines early has another benefit `[Our analysis]`: you quickly hit blockers such as a baseline that won't run or problems in the evaluation data. These are exactly the risks that [Pilot first: rule out the biggest risks](../02_do-the-project/05_pilot-and-derisk.md) is meant to surface early.
 
 ### Estimate the room for improvement before you start
 
@@ -119,11 +119,11 @@ The table below is this handbook's own summary `[Our analysis]`:
 
 | Stage | What to watch for in building and improving |
 |---|---|
-| [Converging on a project](../01_from-interest-to-project/03_converge.md) | Phrase the claim as "under these conditions, better than whom, by how much"; make the comparison table specific down to each closest piece of work |
-| [From research questions to an evidence plan](../02_from-project-to-study/01_question-to-evidence.md) | Sketch the empty results table first: rows are your method and each baseline; columns are effectiveness, cost, and different datasets |
-| [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md) | Examples you looked at during development can't be reused for evaluation; test on data you haven't seen (the programming languages community's empirical evaluation checklist makes this a requirement[^blackburn2018sigplan-e12]) |
-| [Running and iterating](../03_conduct-and-analyze/01_run-and-iterate.md) | Add changes one at a time, and keep versions you can use for ablation |
-| [Telling the story and writing the paper](../04_write-and-publish/01_story-and-paper.md) | Write it as "problem → technique → evaluation", mark the new parts, and be honest about limitations |
+| [Converging on a project](../01_find-a-problem/05_converge.md) | Phrase the claim as "under these conditions, better than whom, by how much"; make the comparison table specific down to each closest piece of work |
+| [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) | Sketch the empty results table first: rows are your method and each baseline; columns are effectiveness, cost, and different datasets |
+| [Validity and limitations](../02_do-the-project/04_validity-and-limits.md) | Examples you looked at during development can't be reused for evaluation; test on data you haven't seen (the programming languages community's empirical evaluation checklist makes this a requirement[^blackburn2018sigplan-e12]) |
+| [Running and iterating](../02_do-the-project/06_run-and-iterate.md) | Add changes one at a time, and keep versions you can use for ablation |
+| [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) | Write it as "problem → technique → evaluation", mark the new parts, and be honest about limitations |
 
 ## 5. Which fields use it
 

@@ -124,7 +124,7 @@ On the other hand, **don't generalize too quickly yourself**: what worked in one
 - **Describe the context in detail**, including which interventions were made[^staron2025guidelines-e20], for example the type of organization, team size and project background `[Our analysis]`. If you must choose between disclosing the organization's name and disclosing its characteristics, the characteristics are more useful to readers[^staron2025guidelines-e20];
 - **Explain your process**: action research can't reach the repeatability of the natural sciences, but you need to make clear the process by which you reached your conclusions[^santos2011action-e6].
 
-For a general discussion of validity, see [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md).
+For a general discussion of validity, see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
 
 ---
 

@@ -129,14 +129,14 @@ If you choose causal explanation, each stage gets a few extra tasks `[Our analys
 
 | Stage | Extra tasks | See |
 |---|---|---|
-| Converging on a project | Phrase the claim as "under conditions C, changing X makes Y change in this way"; work out whether you can change X yourself | [Converging on a project](../01_from-interest-to-project/03_converge.md) |
-| From question to evidence | For each of the four things, say what evidence you will use; list alternative explanations | [From research questions to an evidence plan](../02_from-project-to-study/01_question-to-evidence.md) |
-| Choosing a method | If you can change X, run an experiment; if not, first write out the identification strategy or the target trial | [Choosing a strategy and a method](../02_from-project-to-study/02_choose-strategy-and-method.md) |
-| Validity | The focus is internal validity: whether the results really follow from the data | [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md) |
-| Pilot study | Try the part you are least sure of first, for example whether the hint's effect is big enough to detect | [Pilot first: rule out the biggest risks](../02_from-project-to-study/04_pilot-and-derisk.md) |
-| Running the study | Record the model version, parameters and exact prompt text for every run; don't change conditions midway | [Running and iterating](../03_conduct-and-analyze/01_run-and-iterate.md) |
-| Analysis | Analyze according to the hypotheses you wrote in advance; don't try every possible analysis and pick the result you like | [Analysis and interpretation](../03_conduct-and-analyze/02_analyze-and-interpret.md) |
-| Writing | State the conditions under which the causal claim holds; say which explanations you ruled out and which remain | [Telling the story and writing the paper](../04_write-and-publish/01_story-and-paper.md) |
+| Converging on a project | Phrase the claim as "under conditions C, changing X makes Y change in this way"; work out whether you can change X yourself | [Converging on a project](../01_find-a-problem/05_converge.md) |
+| From question to evidence | For each of the four things, say what evidence you will use; list alternative explanations | [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) |
+| Choosing a method | If you can change X, run an experiment; if not, first write out the identification strategy or the target trial | [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md) |
+| Validity | The focus is internal validity: whether the results really follow from the data | [Validity and limitations](../02_do-the-project/04_validity-and-limits.md) |
+| Pilot study | Try the part you are least sure of first, for example whether the hint's effect is big enough to detect | [Pilot first: rule out the biggest risks](../02_do-the-project/05_pilot-and-derisk.md) |
+| Running the study | Record the model version, parameters and exact prompt text for every run; don't change conditions midway | [Running and iterating](../02_do-the-project/06_run-and-iterate.md) |
+| Analysis | Analyze according to the hypotheses you wrote in advance; don't try every possible analysis and pick the result you like | [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) |
+| Writing | State the conditions under which the causal claim holds; say which explanations you ruled out and which remain | [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) |
 
 The reasoning behind some of these:
 

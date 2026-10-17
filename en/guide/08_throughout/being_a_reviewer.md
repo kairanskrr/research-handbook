@@ -92,7 +92,7 @@ The software engineering review standards say there are no universal quality cri
 
 For what evidence each strategy needs, see the strategy pages, for example [Building and improving](../05_research-strategies/build_improve.md) and [Comparative evaluation](../05_research-strategies/compare_evaluate.md).
 
-**Don't raise criticisms that don't hold up.** Examples: rejecting a paper because its results are negative, or dismissing it only because you would have used a different method. The software engineering review standards include a list of "invalid criticisms" that authors can push back on with good reasons; see [Reviews, revision, and what to do after rejection](../04_write-and-publish/03_review-and-revision.md#3-decide-what-to-change-and-what-to-argue). When you are the reviewer, check yourself against that list first `[Our analysis]`.
+**Don't raise criticisms that don't hold up.** Examples: rejecting a paper because its results are negative, or dismissing it only because you would have used a different method. The software engineering review standards include a list of "invalid criticisms" that authors can push back on with good reasons; see [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md#3-decide-what-to-change-and-what-to-argue). When you are the reviewer, check yourself against that list first `[Our analysis]`.
 
 **Why:** Each strategy has its own idea of "enough". Holding an observational study to the standards of building and improving and asking it to "propose a new method" is asking the authors to write a different paper `[Our analysis]`.
 
@@ -173,7 +173,7 @@ For what evidence each strategy needs, see the strategy pages, for example [Buil
 ## Further reading
 
 - How to identify a paper's central claim and which strategy it belongs to: [Research strategies](../05_research-strategies/README.md)
-- The author's side, responding to reviews and revising: [Reviews, revision, and what to do after rejection](../04_write-and-publish/03_review-and-revision.md)
+- The author's side, responding to reviews and revising: [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md)
 - Research integrity beyond reviewing: [Research integrity and ethics](integrity_and_ethics.md)
 - External sources: Bourne & Korngreen, "Ten Simple Rules for Reviewers" (PLoS Computational Biology, 2006); Roscoe, "Writing reviews for systems conferences" (2007); the reviewing sections of the ACM SIGSOFT Empirical Standards.
 

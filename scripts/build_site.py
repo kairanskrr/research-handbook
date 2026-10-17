@@ -9,33 +9,35 @@ with --short, guide-short.json. Chinese comes from the checkout root, English fr
 """
 import argparse, io, json, os, re, shutil
 
-REWRITTEN = re.compile(r"^(README\.md|guide/faq\.md|guide/0[0-4]_.*|guide/08_.*)$")
+REWRITTEN = re.compile(r"^(README\.md|guide/faq\.md|guide/0[0-3]_.*|guide/08_.*)$")
 
+# Navigation order: the two parts first, then reference, then writing (kept, not expanded this round)
+SECTIONS = [("00_start-here", "start"), ("01_find-a-problem", "p1"), ("02_do-the-project", "p2"),
+            ("06_methods", "types"), ("07_fields", "fields"), ("05_research-strategies", "why"),
+            ("08_throughout", "throughout"), ("03_write-and-publish", "write")]
+PARTS = ("p1", "p2")
 
 LABELS = {
     "zh": {
-        "sections": ["开始", "主线一 · 从兴趣到项目", "主线二 · 从项目到研究设计", "主线三 · 执行和分析", "主线四 · 写作和发表",
-                     "研究套路", "研究方法", "学科篇", "贯穿全程"],
-        "home": "首页", "fields": "学科篇总览", "subfields": "各方向总览", "practices": "实践总览", "overview": "总览：",
+        "start": "开始", "p1": "第一部分 · 想到一个好题目", "p2": "第二部分 · 把它做出来", "types": "研究类型",
+        "fields": "学科规矩", "why": "为什么：研究套路", "throughout": "贯穿全程", "write": "写作和发表",
+        "home": "首页", "fieldsall": "学科篇总览", "subfields": "各方向总览", "overview": "总览：", "infield": "（%s）",
         "more": "其他", "faq": "常见问题速查", "sources": "资料列表", "contrib": "参与贡献",
     },
     "en": {
-        "sections": ["Start here", "Part 1 · From interest to project", "Part 2 · From project to study design",
-                     "Part 3 · Running the study and analyzing results", "Part 4 · Writing and publishing",
-                     "Research strategies", "Research methods", "Fields", "Throughout the project"],
-        "home": "Home", "fields": "All fields", "subfields": "Subfields overview", "practices": "Practices overview", "overview": "Overview: ",
+        "start": "Start here", "p1": "Part 1 · Find a good problem", "p2": "Part 2 · Do the project", "types": "Research types",
+        "fields": "Field conventions", "why": "Why: research strategies", "throughout": "Throughout the project",
+        "write": "Writing and publishing",
+        "home": "Home", "fieldsall": "All fields", "subfields": "Subfields overview", "overview": "Overview: ", "infield": " (%s)",
         "more": "More", "faq": "FAQ: quick answers", "sources": "Source list", "contrib": "Contributing",
     },
 }
-DIRS = ["00_start-here", "01_from-interest-to-project", "02_from-project-to-study", "03_conduct-and-analyze",
-        "04_write-and-publish", "05_research-strategies", "06_methods", "07_fields", "08_throughout"]
 
 
 def bundle(REPO, lang="zh"):
     L = LABELS[lang]
     def rd(p):
         return io.open(os.path.join(REPO, p), encoding="utf8").read()
-
 
     def h1(text):
         m = re.search(r"^# (.+)$", text, re.M)
@@ -49,60 +51,87 @@ def bundle(REPO, lang="zh"):
         t = rd(path)
         pages[path] = {"title": h1(t), "md": t}
 
-    SECTIONS = list(zip(DIRS, L["sections"]))
-
     def mdfiles(d):
         full = os.path.join(REPO, "guide", d)
+        if not os.path.isdir(full):
+            return []
         fs = sorted(f for f in os.listdir(full) if f.endswith(".md"))
-        if "README.md" in fs:
-            fs.remove("README.md"); fs.insert(0, "README.md")
+        for first in ("why-this-handbook.md", "README.md"):
+            if first in fs:
+                fs.remove(first); fs.insert(0, first)
         return ["guide/%s/%s" % (d, f) for f in fs]
+
+    def field_order():
+        idx = rd("guide/07_fields/README.md")
+        order = []
+        for f in re.findall(r"\(([a-z-]+)/README\.md", idx):
+            if f not in order:
+                order.append(f)
+        if "computer-science" not in order:
+            order.insert(1, "computer-science")
+        for f in sorted(os.listdir(os.path.join(REPO, "guide/07_fields"))):
+            if os.path.isdir(os.path.join(REPO, "guide/07_fields", f)) and f not in order:
+                order.append(f)
+        return order
+
+    def plain(d):
+        items = []
+        for p in mdfiles(d):
+            add(p)
+            lab = short(pages[p]["title"])
+            if p.endswith("/README.md"):
+                lab = L["overview"] + lab if not lab.startswith(L["overview"].rstrip(": ：")) else lab
+            items.append({"path": p, "label": lab})
+        return items
 
     nav = []
     add("README.md")
     nav.append({"label": L["home"], "items": [{"path": "README.md", "label": "Research Handbook"}]})
-    for d, label in SECTIONS:
-        items = []
+    for d, key in SECTIONS:
+        label = L[key]
         if d == "07_fields":
             add("guide/07_fields/README.md")
-            items.append({"path": "guide/07_fields/README.md", "label": L["fields"]})
-            idx = rd("guide/07_fields/README.md")
-            order = []
-            for f in re.findall(r"\(([a-z-]+)/README\.md", idx):
-                if f not in order:
-                    order.append(f)
-            if "computer-science" not in order:
-                order.insert(1, "computer-science")
-            for f in sorted(os.listdir(os.path.join(REPO, "guide/07_fields"))):
-                if os.path.isdir(os.path.join(REPO, "guide/07_fields", f)) and f not in order:
-                    order.append(f)
-            for f in order:
+            items = [{"path": "guide/07_fields/README.md", "label": L["fieldsall"]}]
+            for f in field_order():
                 p = "guide/07_fields/%s/README.md" % f
                 add(p)
                 kids = []
-                for sub, overview in (("subfields", L["subfields"]), ("practices", L["practices"])):
-                    pd = os.path.join(REPO, "guide/07_fields", f, sub)
-                    if not os.path.isdir(pd):
-                        continue
-                    group = []
+                pd = os.path.join(REPO, "guide/07_fields", f, "subfields")
+                if os.path.isdir(pd):
                     for g in sorted(os.listdir(pd)):
                         if g.endswith(".md"):
-                            q = "guide/07_fields/%s/%s/%s" % (f, sub, g)
+                            q = "guide/07_fields/%s/subfields/%s" % (f, g)
                             add(q)
-                            lab = overview if g == "README.md" else short(pages[q]["title"])
-                            group.append({"path": q, "label": lab})
-                    group.sort(key=lambda k: k["label"] != overview)
-                    kids.extend(group)
+                            kids.append({"path": q, "label": L["subfields"] if g == "README.md" else short(pages[q]["title"])})
+                    kids.sort(key=lambda k: k["label"] != L["subfields"])
                 items.append({"path": p, "label": short(pages[p]["title"]), "children": kids})
+        elif d == "06_methods":
+            # research types: cross-field methods plus the practices that only one field uses
+            items = plain(d)
+            extra = []
+            for f in field_order():
+                pd = os.path.join(REPO, "guide/07_fields", f, "practices")
+                if not os.path.isdir(pd):
+                    continue
+                fp = "guide/07_fields/%s/README.md" % f
+                if fp not in pages:
+                    add(fp)
+                fname = short(pages[fp]["title"])
+                for g in sorted(os.listdir(pd)):
+                    if g.endswith(".md") and g != "README.md":
+                        q = "guide/07_fields/%s/practices/%s" % (f, g)
+                        add(q)
+                        extra.append({"path": q, "label": short(pages[q]["title"]) + L["infield"] % fname})
+                rp = os.path.join(pd, "README.md")
+                if os.path.isfile(rp):
+                    add("guide/07_fields/%s/practices/README.md" % f)
+            items += sorted(extra, key=lambda k: k["label"])
         else:
-            for p in mdfiles(d):
-                add(p)
-                lab = short(pages[p]["title"])
-                if p.endswith("/README.md"):
-                    lab = L["overview"] + lab if not lab.startswith(L["overview"].rstrip(": ：")) else lab
-                items.append({"path": p, "label": lab})
+            items = plain(d)
+        if not items:
+            continue
         group = {"label": label, "items": items}
-        if d[:2] in ("01", "02", "03", "04"):
+        if key in PARTS:
             group["part"] = label.split("·", 1)[1].strip()
         nav.append(group)
 

@@ -23,16 +23,17 @@ Written for people starting out in research: how to choose a topic, read the lit
 
 ### Getting started
 
+- [Why we made this handbook](guide/00_start-here/why-this-handbook.md)
 - [How to use this handbook](guide/00_start-here/how-to-use.md)
 - [The research journey at a glance: from interest to publication](guide/00_start-here/research-journey.md)
 - [Key concepts](guide/00_start-here/key-concepts.md)
 
 ### The four Parts: read in the order research happens
 
-- **Part 1: From interest to project**: [Entering a field and exploring the literature](guide/01_from-interest-to-project/01_enter-a-field.md) · [Finding candidate problems](guide/01_from-interest-to-project/02_find-problems.md) · [Converging on a project](guide/01_from-interest-to-project/03_converge.md) · [Writing a research plan](guide/01_from-interest-to-project/04_research-plan.md)
-- **Part 2: From project to study design**: [From research questions to an evidence plan](guide/02_from-project-to-study/01_question-to-evidence.md) · [Choosing a strategy and a method](guide/02_from-project-to-study/02_choose-strategy-and-method.md) · [Validity and limitations: think them through at the design stage](guide/02_from-project-to-study/03_validity-and-limits.md) · [Pilot first: rule out the biggest risks](guide/02_from-project-to-study/04_pilot-and-derisk.md)
-- **Part 3: Running the study and analyzing results**: [Running and iterating](guide/03_conduct-and-analyze/01_run-and-iterate.md) · [Analysis and interpretation](guide/03_conduct-and-analyze/02_analyze-and-interpret.md)
-- **Part 4: Writing and publishing**: [Telling the story and writing the paper](guide/04_write-and-publish/01_story-and-paper.md) · [Choosing a venue and submitting](guide/04_write-and-publish/02_venue-and-submission.md) · [Reviews, revision, and what to do after rejection](guide/04_write-and-publish/03_review-and-revision.md)
+- **Part 1: From interest to project**: [Entering a field and exploring the literature](guide/01_find-a-problem/01_enter-a-field.md) · [Finding candidate problems](guide/01_find-a-problem/02_generate-problems.md) · [Converging on a project](guide/01_find-a-problem/05_converge.md) · [Writing a research plan](guide/02_do-the-project/03_research-plan.md)
+- **Part 2: From project to study design**: [From research questions to an evidence plan](guide/02_do-the-project/01_question-to-evidence.md) · [Choosing a strategy and a method](guide/02_do-the-project/02_choose-method.md) · [Validity and limitations: think them through at the design stage](guide/02_do-the-project/04_validity-and-limits.md) · [Pilot first: rule out the biggest risks](guide/02_do-the-project/05_pilot-and-derisk.md)
+- **Part 3: Running the study and analyzing results**: [Running and iterating](guide/02_do-the-project/06_run-and-iterate.md) · [Analysis and interpretation](guide/02_do-the-project/07_analyze-and-interpret.md)
+- **Part 4: Writing and publishing**: [Telling the story and writing the paper](guide/03_write-and-publish/01_story-and-paper.md) · [Choosing a venue and submitting](guide/03_write-and-publish/02_venue-and-submission.md) · [Reviews, revision, and what to do after rejection](guide/03_write-and-publish/03_review-and-revision.md)
 
 ### Reference: look things up when you need them
 

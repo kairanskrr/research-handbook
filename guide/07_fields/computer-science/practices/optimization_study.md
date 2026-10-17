@@ -4,7 +4,7 @@
 
 **适用范围** `[本项目分析]`：这是计算机的做法，例子和标准主要来自软件工程里基于搜索的软件工程。提出新的搜索方法时，它属于[构建改进](../../../05_research-strategies/build_improve.md)这种研究套路；拿几种算法比高低时，属于[比较评估](../../../05_research-strategies/compare_evaluate.md)。这些套路各学科通用的部分（要什么证据、怎样公平比较）见套路页，本文只讲优化研究特有的部分。
 
-优化研究常常也是一项[工程研究](engineering_research.md)（你提出了新方法），评估时也像一次[基准评测](benchmarking.md)。"怎样公平配置对手、怎样控制测量环境"见基准评测；显著性检验、效应量的基本概念见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+优化研究常常也是一项[工程研究](engineering_research.md)（你提出了新方法），评估时也像一次[基准评测](benchmarking.md)。"怎样公平配置对手、怎样控制测量环境"见基准评测；显著性检验、效应量的基本概念见[分析与解读](../../../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 **读完本文，你应该能：**
 
@@ -119,7 +119,7 @@ Arcuri & Briand 建议，数值型结果（如覆盖率）用双侧的 Mann-Whit
 
 - **报告整个分布，而不只是平均数或中位数**，例如画箱线图[^ralph2020empirical-e388][^ralph2020empirical-e392]。
 - **给效应量加置信区间**，例如用自助法（bootstrap，从已有结果中反复有放回地抽样来估计不确定性）[^arcuri2014hitchhiker-e18]。
-- **比较两个以上的方法时，两两比较**，每对都做检验、都给效应量[^arcuri2014hitchhiker-e19]；比较次数多了要不要做多重比较校正，见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+- **比较两个以上的方法时，两两比较**，每对都做检验、都给效应量[^arcuri2014hitchhiker-e19]；比较次数多了要不要做多重比较校正，见[分析与解读](../../../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第六步：选问题实例，看能推广多远
 

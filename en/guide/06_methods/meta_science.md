@@ -2,7 +2,7 @@
 
 This page is about **research whose object is research methods themselves**: papers that analyze a methodological issue or give recommendations on how to do research. Examples are a guideline for statistical tests, a paper surveying "how well do papers in this area evaluate their work?", or an essay criticizing a research habit.
 
-If what you want to know is how to make your own experiment rigorous, that is something every study has to do; see [Validity and limitations: think them through at the design stage](../02_from-project-to-study/03_validity-and-limits.md). If you want to review the research on a technical topic, see [Review studies](review_study.md).
+If what you want to know is how to make your own experiment rigorous, that is something every study has to do; see [Validity and limitations: think them through at the design stage](../02_do-the-project/04_validity-and-limits.md). If you want to review the research on a technical topic, see [Review studies](review_study.md).
 
 **Scope** `[Our analysis]`: the standards and examples on this page all come from computer science. The checklist is based on the empirical standards written for software engineering by ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering), and the examples come from software engineering, systems security, fuzz testing, and machine learning. Other fields have methodology research too (see the end of Section 1); before you start, look at similar papers and journal requirements in your own field.
 

@@ -31,7 +31,7 @@ Each strategy has its own page explaining what knowledge it produces, what evide
 
 **Decide by your central claim, not by your topic and not by the methods you know.** There are three steps.
 
-**Step 1: write down your central claim.** That is, the single most important conclusion of your paper. If you can't write it yet, go back to Section 1 of [Converging on a project](../01_from-interest-to-project/03_converge.md#1-write-down-the-sentence-you-want-to-prove).
+**Step 1: write down your central claim.** That is, the single most important conclusion of your paper. If you can't write it yet, go back to Section 1 of [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove).
 
 **Step 2: see which kind of statement it is.** Check it against these:
 
@@ -102,7 +102,7 @@ As you can see, synthesis and interpretation and argument have no counterpart in
 
 Why combine methods: every method has known weaknesses and can only provide limited evidence; but the weaknesses differ between methods, so you can choose several that compensate for each other[^easterbrook2008selecting-e1]. There is no fixed recipe for which ones; it depends on your resources, whether you can access the people or things you want to study, whether you can control the variables of interest, and what you yourself know how to do[^easterbrook2008selecting-e42].
 
-Why you shouldn't work the other way round, starting from "I know how to run experiments" or "everyone else does it this way": borrowing a research paradigm someone used for a completely different question leads to serious mismatches[^shaw2003writing-e41]. For how to get from a strategy to concrete methods, see [Choosing a strategy and a method](../02_from-project-to-study/02_choose-strategy-and-method.md).
+Why you shouldn't work the other way round, starting from "I know how to run experiments" or "everyone else does it this way": borrowing a research paradigm someone used for a completely different question leads to serious mismatches[^shaw2003writing-e41]. For how to get from a strategy to concrete methods, see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
 
 ## Why to keep your strategy in mind from start to finish
 
@@ -121,8 +121,8 @@ The strategy isn't only useful when you design experiments; at every stage it he
 ## Next
 
 - To find out what a particular strategy involves: follow the links in the table above.
-- If you've settled on a strategy and need to choose concrete methods: see [Choosing a strategy and a method](../02_from-project-to-study/02_choose-strategy-and-method.md).
-- If you haven't written your central claim yet: go back to [Converging on a project](../01_from-interest-to-project/03_converge.md).
+- If you've settled on a strategy and need to choose concrete methods: see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
+- If you haven't written your central claim yet: go back to [Converging on a project](../01_find-a-problem/05_converge.md).
 
 [^shaw2002makes-e5]: Shaw 2002, §1.2.3. [Evidence](../../sources/notes/shaw2002makes.md#e5)
 [^ralph2020empirical-e24]: ACM SIGSOFT Empirical Standards, General Standard, General Quality Criteria. [Evidence](../../sources/notes/ralph2020empirical.md#e24)

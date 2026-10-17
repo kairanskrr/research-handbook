@@ -52,7 +52,7 @@ This is the thing to understand before anything else in an interview study. The 
 | Usefulness | The study gives researchers, practitioners or educators actionable recommendations |
 | Transferability | The results may apply to other settings, populations or situations |
 
-The underlying reason is a difference in research stance (for the two views on whether qualitative research should talk about "validity", see "Where sources disagree" at the end of [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md)). Many qualitative researchers avoid the words "validity" and "reliability" altogether and use concepts such as credibility and transferability instead[^mcdonald2019reliability-e6]. Judging qualitative research by quantitative criteria is a common mistake[^mcdonald2019reliability-e7]; SIGSOFT also lists cross-paradigmatic criticism, such as "attacking an interpretivist study for not conforming to positivist norms," as an invalid criticism[^ralph2020empirical-e373].
+The underlying reason is a difference in research stance (for the two views on whether qualitative research should talk about "validity", see "Where sources disagree" at the end of [Validity and limitations](../02_do-the-project/04_validity-and-limits.md)). Many qualitative researchers avoid the words "validity" and "reliability" altogether and use concepts such as credibility and transferability instead[^mcdonald2019reliability-e6]. Judging qualitative research by quantitative criteria is a common mistake[^mcdonald2019reliability-e7]; SIGSOFT also lists cross-paradigmatic criticism, such as "attacking an interpretivist study for not conforming to positivist norms," as an invalid criticism[^ralph2020empirical-e373].
 
 ---
 

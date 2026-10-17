@@ -6,7 +6,7 @@
 
 You already have a research plan, yet each day you sit down without knowing what to do first, and at the end of the week you can't say how far the project moved. Or your time gets chopped up by meetings and messages, you are juggling two or three projects, and the plan you wrote hasn't been opened in a month.
 
-This page is about turning the plan into days, weeks, and months. How to make the plan itself (the finish line, milestones, what counts as "done", ordering, time estimates) is covered in [Writing a research plan](../01_from-interest-to-project/04_research-plan.md) and not repeated here.
+This page is about turning the plan into days, weeks, and months. How to make the plan itself (the finish line, milestones, what counts as "done", ordering, time estimates) is covered in [Writing a research plan](../02_do-the-project/03_research-plan.md) and not repeated here.
 
 ---
 
@@ -14,8 +14,8 @@ This page is about turning the plan into days, weeks, and months. How to make th
 
 **How:**
 
-- **When you start, read the last entry in your log, then write today's goal.** Today's goal is the bottom layer of the goal hierarchy in your research plan (measured in days; see [Writing a research plan, Section 5](../01_from-interest-to-project/04_research-plan.md#5-estimate-time-and-build-in-slack)). Write down what you will have in hand at the end of today that you don't have now. For example, "manually check the first 20 of the 50 samples and note why my judgments disagreed", not "work on leakage detection" `[Our analysis]`.
-- **Keep a research log as you work.** Write down your ideas and experiments every day[^schulman2020opinionated-e16]. Also note how long you expected each task to take and how long it actually took; you will need this for the weekly review (Section 4). For how to keep the log and how it differs from your other notes, see [Organizing your research materials, Section 5](organizing_materials.md#5-keep-three-kinds-of-notes-apart) and [Running and iterating, Section 3](../03_conduct-and-analyze/01_run-and-iterate.md#3-leave-a-record-of-every-run).
+- **When you start, read the last entry in your log, then write today's goal.** Today's goal is the bottom layer of the goal hierarchy in your research plan (measured in days; see [Writing a research plan, Section 5](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack)). Write down what you will have in hand at the end of today that you don't have now. For example, "manually check the first 20 of the 50 samples and note why my judgments disagreed", not "work on leakage detection" `[Our analysis]`.
+- **Keep a research log as you work.** Write down your ideas and experiments every day[^schulman2020opinionated-e16]. Also note how long you expected each task to take and how long it actually took; you will need this for the weekly review (Section 4). For how to keep the log and how it differs from your other notes, see [Organizing your research materials, Section 5](organizing_materials.md#5-keep-three-kinds-of-notes-apart) and [Running and iterating, Section 3](../02_do-the-project/06_run-and-iterate.md#3-leave-a-record-of-every-run).
 - **When a new idea pops up, add it to your idea list and go back to what you were doing**[^carlini2024logfile-e2].
 - **Before you stop, write one line of "next step":** where you stopped today and the first thing to do tomorrow. Tomorrow morning, this line is the "last entry" you read `[Our analysis]`.
 
@@ -34,7 +34,7 @@ This page is about turning the plan into days, weeks, and months. How to make th
 
 1. **First, see where your time actually goes.** One researcher honestly logged his days and was shocked to find that, after subtracting interruptions, email, web surfing, phone calls, unproductive meetings, and chatting, he averaged only half an hour of research a day[^nielsen2004principles-e2]. When your time and your output don't seem to match, keep a time log for a while[^dredze2012successful-e1]: record where the time went, then think back on how you could do it faster next time[^nanda2025mindsets-e13].
 2. **Block out long stretches on your calendar.** A calendar turns time into visible boxes and makes it obvious that time is finite[^parikh2018calendar-e1]. Start by blocking the few half-days in the week when you are most alert, and keep them for the work that needs sustained thinking: deriving proofs, designing experiments, writing the core of a paper `[Our analysis]`.
-3. **Do one thing per block, and break it down in advance.** Split the task into small steps beforehand (for how fine, see [Writing a research plan, Section 5](../01_from-interest-to-project/04_research-plan.md#5-estimate-time-and-build-in-slack)), so that when the block starts you already know the first step and don't have to work it out on the spot `[Our analysis]`.
+3. **Do one thing per block, and break it down in advance.** Split the task into small steps beforehand (for how fine, see [Writing a research plan, Section 5](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack)), so that when the block starts you already know the first step and don't have to work it out on the spot `[Our analysis]`.
 4. **Batch the small stuff.** Answering email, reading messages, filling in forms, and fixing formatting go into the scattered time outside your blocks `[Our analysis]`.
 
 **Why:** The half-day unit comes from an essay by Paul Graham, a programmer turned startup founder and investor. He writes that people who program or write generally prefer to use time in units of at least half a day; an hour is barely enough to get started[^graham2009makers-e1]. A single meeting can blow a whole afternoon by breaking it into two pieces, each too short to do anything hard in[^graham2009makers-e2]. The damage also spreads backward: if he knows the afternoon will be broken up, he is less likely to start something ambitious in the morning[^graham2009makers-e3].
@@ -82,7 +82,7 @@ The weekly review connects your daily log to the plan for the whole project. Pri
    - What has taken the most time recently?
    - What blocked me?
    - What mistakes did I make, and how could I systematically change my approach so they don't happen again?
-4. **Plan next week.** Compare this week's estimated time with the actual time and work out the "actual / estimated" multiplier[^parikh2018calendar-e2]. Break next week's work into small chunks, estimate each one using the multiplier, and put them into open slots on your calendar. For how to measure and use your estimation bias, see [Writing a research plan, Section 5](../01_from-interest-to-project/04_research-plan.md#5-estimate-time-and-build-in-slack).
+4. **Plan next week.** Compare this week's estimated time with the actual time and work out the "actual / estimated" multiplier[^parikh2018calendar-e2]. Break next week's work into small chunks, estimate each one using the multiplier, and put them into open slots on your calendar. For how to measure and use your estimation bias, see [Writing a research plan, Section 5](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack).
 5. **Take the summary to your advisor.** Open your meeting with it; if you think a milestone is slipping, say so early. For how to run the meeting and how to deliver bad news, see [Collaboration and advisors, Section 3](collaboration_and_advisors.md#3-report-progress-early-including-bad-news).
 
 **Why:** A weekly review can be extremely useful: you zoom out and check on overall progress and current problems[^nanda2025mindsets-e7]. Without one, you keep executing without knowing whether you are executing the thing that matters most `[Our analysis]`.
@@ -100,12 +100,12 @@ The most common fate of a research plan is not being overturned but being forgot
 
 **How:** Once a month, spend an extra hour or two on top of that week's review `[Our analysis]`:
 
-- **Reread your one-page project summary and research plan.** Is the central claim still the same sentence? Which milestone has overrun its slack? If something needs changing, follow the order in [Writing a research plan, Section 7](../01_from-interest-to-project/04_research-plan.md#7-how-the-plan-changes): claim first, then milestones, and only then the timeline.
+- **Reread your one-page project summary and research plan.** Is the central claim still the same sentence? Which milestone has overrun its slack? If something needs changing, follow the order in [Writing a research plan, Section 7](../02_do-the-project/03_research-plan.md#7-how-the-plan-changes): claim first, then milestones, and only then the timeline.
 - **Read the month's weekly summaries together.** Looking back over several months, you may find you kept jumping between ideas and left a few half-finished projects, none followed through to a result[^schulman2020opinionated-e18].
 - **Set aside some time for big questions.** Think beyond the next milestone about what matters in your field; see [Mindset and long-term growth, Section 4](mindset_and_growth.md#4-make-time-to-think-about-important-problems-and-dare-to-start).
 - **Get someone to help you keep the rhythm.** Each month, send your advisor or a collaborator a note on how the plan has changed. For why being accountable to others helps self-discipline, see [Collaboration and advisors, Section 5](collaboration_and_advisors.md#5-working-with-peers-and-people-outside-your-group).
 
-**Why:** Most of the time, moving is better than standing still, provided you regularly take time to reflect and reconsider your goals[^nielsen2004principles-e3]. For why a plan is bound to change, see [Writing a research plan, Section 7](../01_from-interest-to-project/04_research-plan.md#7-how-the-plan-changes).
+**Why:** Most of the time, moving is better than standing still, provided you regularly take time to reflect and reconsider your goals[^nielsen2004principles-e3]. For why a plan is bound to change, see [Writing a research plan, Section 7](../02_do-the-project/03_research-plan.md#7-how-the-plan-changes).
 
 **Where people go wrong:** Each month, just pushing the overdue dates back. If you only change the dates and not the content, you haven't answered "why am I behind?", and the plan soon drifts away from reality `[Our analysis]`.
 
@@ -129,7 +129,7 @@ A year or two into graduate school, you will likely have a main project, a colla
 > - **For working on two at once:** when one project hits a wall, you can switch to the other and avoid getting stuck and frustrated[^ruder2020tips-e1]. The two can also differ in risk: one safe, one riskier but with potentially bigger impact, with the safe one making sure you graduate[^ruder2020tips-e9]. This is the author's own experience.
 > - **Warning about the cost of switching and distraction:** a new idea always looks more tempting than the old one you have worked on for months, and it is easy to get distracted just because it is new[^carlini2026best-e15]. If you keep switching and never explore anything properly, you learn nothing[^nanda2025mindsets-e1]. Looking back over several months, you may have only a few half-finished projects to show[^schulman2020opinionated-e18]. These authors do not directly argue against running two projects; they warn about problems that tend to appear once you have many.
 >
-> In practice `[Our analysis]`: as a beginner, first make sure **one main project** gets finished. Add a small secondary project only when the main one often has to wait (for data, equipment, or other people). If at the monthly review you can't say how far each of the two projects moved, pause one. For when to drop a direction, see [Running and iterating, Section 6](../03_conduct-and-analyze/01_run-and-iterate.md#6-persist-or-change-direction).
+> In practice `[Our analysis]`: as a beginner, first make sure **one main project** gets finished. Add a small secondary project only when the main one often has to wait (for data, equipment, or other people). If at the monthly review you can't say how far each of the two projects moved, pause one. For when to drop a direction, see [Running and iterating, Section 6](../02_do-the-project/06_run-and-iterate.md#6-persist-or-change-direction).
 
 **Write it down:** List every project and task you have, mark which is the main project, and note how many half-days a week it gets.
 
@@ -146,7 +146,7 @@ A year or two into graduate school, you will likely have a main project, a colla
 | Trying every new idea as soon as it appears | New ideas often look tempting only because they are new[^carlini2026best-e15]; add them to your idea list first[^carlini2024logfile-e2] |
 | Prioritizing while executing | These are different mental modes and should not be done at the same time[^nanda2025mindsets-e6] |
 | Estimating time by gut and never checking against reality | You don't know your own bias; measuring the "actual / estimated" multiplier is much easier[^parikh2018calendar-e2] |
-| Only pushing dates back when the plan slips | You haven't answered "why am I behind?", so the plan soon drifts from reality; see [Writing a research plan, Section 7](../01_from-interest-to-project/04_research-plan.md#7-how-the-plan-changes) `[Our analysis]` |
+| Only pushing dates back when the plan slips | You haven't answered "why am I behind?", so the plan soon drifts from reality; see [Writing a research plan, Section 7](../02_do-the-project/03_research-plan.md#7-how-the-plan-changes) `[Our analysis]` |
 | Running many projects at once and switching by the hour | If you keep switching and never explore anything properly, you learn nothing[^nanda2025mindsets-e1]; one researcher works on only one project per day to cut down on switching[^ruder2020tips-e2] |
 
 ## Further reading

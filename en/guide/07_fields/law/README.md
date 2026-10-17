@@ -120,7 +120,7 @@ The computer science column and the "Object of study" and "Geographic scope" row
 - **Report uncertainty.** This does not mean adding "fairly certain" to every sentence; it means estimating how uncertain each conclusion is and reporting that estimate with the conclusion[^epstein2002rules-e8]. In qualitative work, you can identify the weakest link in your chain of reasoning: the part that rests on the least evidence or is most open to attack[^epstein2002rules-e9].
 - **Let others replicate your work.** Another researcher should be able to understand, evaluate, and reproduce your research without asking you for more information[^epstein2002rules-e5]. Studies that code cases should make public their data, their complete coding rules, and which case each number corresponds to[^epstein2002rules-e16]. Some US journals now require this: the *Yale Law Journal* publishes only empirical articles whose data and code the editors can access throughout the process[^yljsubmissions-e6], and authors who cannot share them must submit a request for an exemption explaining why[^yljsubmissions-e7].
 
-For the general approach, see the Part 2 chapter [Validity and limitations](../../02_from-project-to-study/03_validity-and-limits.md).
+For the general approach, see the Part 2 chapter [Validity and limitations](../../02_do-the-project/04_validity-and-limits.md).
 
 ### Interviewing judges and lawyers, and using confidential documents
 

@@ -6,7 +6,7 @@
 
 本文的操作建议很多来自两本免费在线教材（Rey 等人的 *Geographic Data Science with Python*，Pebesma 和 Bivand 的 *Spatial Data Science*）和一份软件手册（Anselin 写的 GeoDa 工作手册）。它们是作者的建议，不是学界统一的规定 `[本项目分析]`。
 
-**适用范围** `[本项目分析]`：这是社会与经济地理学常用的研究方法，上面提到的公共卫生、生态学等方向也会用到。描述空间分布、检验"环境怎样影响个人"的通用逻辑，见研究套路里的[观察描述](../../../05_research-strategies/observe_describe.md)和[解释因果](../../../05_research-strategies/explain_causality.md)；选题、做计划、写作等各学科共通的步骤，见主线各章，例如[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md)和[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md)。
+**适用范围** `[本项目分析]`：这是社会与经济地理学常用的研究方法，上面提到的公共卫生、生态学等方向也会用到。描述空间分布、检验"环境怎样影响个人"的通用逻辑，见研究套路里的[观察描述](../../../05_research-strategies/observe_describe.md)和[解释因果](../../../05_research-strategies/explain_causality.md)；选题、做计划、写作等各学科共通的步骤，见第一部分、第二部分、写作和发表各章，例如[从研究问题到证据清单](../../../02_do-the-project/01_question-to-evidence.md)和[分析与解读](../../../02_do-the-project/07_analyze-and-interpret.md)。
 
 **常服务的套路**：[观察描述](../../../05_research-strategies/observe_describe.md)（描述现象在空间上怎样分布、检验是否成团）、[解释因果](../../../05_research-strategies/explain_causality.md)（研究环境或邻近地区怎样影响结果）`[本项目分析]`。依据：用莫兰指数（检验空间上是否成团的统计量，见第 6 步）检验时，p 值足够小，才能拒绝"这张地图的格局是随机的"[^rey2023geographic-e15]，这是在检验分布；研究社会和物理环境对健康的影响，是关心环境的作用[^kwan2012uncertain-e4]。
 

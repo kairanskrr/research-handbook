@@ -144,7 +144,7 @@ Translating an English scale into Chinese does **not** make it ready to use. The
 - **Declare any modifications.** Modifying a scale is not forbidden; the problem is doing it without declaring it or giving a reason[^flake2020measurement-e12].
 - **If the evidence is thin, say so as a limitation.** For a scale you developed yourself, at minimum explain why you built your own rather than using an existing one; if there is little validity evidence, discuss it as a limitation of the study[^flake2020measurement-e13]. JARS also asks you to state whether a scale was validated or created ad hoc for this study, to report reliability in your sample where possible, and to report convergent and discriminant validity where relevant[^appelbaum2018journal-e12].
 
-If the measurement is wrong, no sample size and no amount of rigorous preregistration can make up for it: Flake and Fried say that even with all of that, we might still not know whether what we measured was depression[^flake2020measurement-e15]. For how to write about threats to validity in an ordinary study, see the Part 2 chapter [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md).
+If the measurement is wrong, no sample size and no amount of rigorous preregistration can make up for it: Flake and Fried say that even with all of that, we might still not know whether what we measured was depression[^flake2020measurement-e15]. For how to write about threats to validity in an ordinary study, see the Part 2 chapter [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
 
 ---
 

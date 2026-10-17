@@ -2,7 +2,7 @@
 
 This page covers **controlled experiments with human participants**: the researcher deliberately changes one factor (for example, which debugging tool developers use), randomly assigns participants to groups, keeps everything else as similar as possible, and compares how that factor affects people's performance.
 
-If what you are comparing is the software system, tool, or model itself, which can run automatically and be measured repeatedly without people, see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md). If you have built a new tool and want to know how the paper as a whole should evaluate it, start with [Engineering research](../07_fields/computer-science/practices/engineering_research.md); an experiment with people is only one of the ways to evaluate it. Statistical testing in general is covered in [Analysis and interpretation](../03_conduct-and-analyze/02_analyze-and-interpret.md) and validity in [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md); this page does not repeat them.
+If what you are comparing is the software system, tool, or model itself, which can run automatically and be measured repeatedly without people, see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md). If you have built a new tool and want to know how the paper as a whole should evaluate it, start with [Engineering research](../07_fields/computer-science/practices/engineering_research.md); an experiment with people is only one of the ways to evaluate it. Statistical testing in general is covered in [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) and validity in [Validity and limitations](../02_do-the-project/04_validity-and-limits.md); this page does not repeat them.
 
 **Scope** `[Our analysis]`: the standards and examples on this page come mainly from software engineering. They are based on the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), Ko et al.'s guide to experiments with software tools, and the software engineering debates about students versus professionals and about sampling. If you run controlled experiments in another field, read your own field's standards first. Method pages from other fields you can compare with: [Randomized controlled trials](randomized_controlled_trial.md) for medical interventions, and [Field experiments](field_experiment.md) that randomize in the real world in partnership with governments or companies.
 
@@ -56,7 +56,7 @@ A practical starting point: draft your ethics review application and the methods
   - Extraneous variables: what else might affect the outcome (for example, programming experience), and whether you control it through the design, control it statistically, or leave it uncontrolled.
 - **Preregister if you can**: publicly archive your hypotheses and design before the experiment starts[^ralph2020empirical-e176].
 
-**Why:** in a confirmatory experiment, the hypotheses must be fixed before you see the data. SIGSOFT lists both hypothesizing after the results are known (HARKing) and reporting only the significant tests (p-hacking) as antipatterns[^ralph2020empirical-e27]. For the difference between exploratory and confirmatory research, see [Be clear whether you are testing or exploring](../02_from-project-to-study/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
+**Why:** in a confirmatory experiment, the hypotheses must be fixed before you see the data. SIGSOFT lists both hypothesizing after the results are known (HARKing) and reporting only the significant tests (p-hacking) as antipatterns[^ralph2020empirical-e27]. For the difference between exploratory and confirmatory research, see [Be clear whether you are testing or exploring](../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
 
 **Where people go wrong:** using a poor proxy as the dependent variable, such as using completion time to stand for how complex a task is[^ralph2020empirical-e180].
 
@@ -124,7 +124,7 @@ Ko et al. point out that **variation in outcome measures is the main reason expe
 
 **How:** before the main experiment, have a few people try it, with the aim of finding sources of extraneous variation[^ko2015practical-e31], such as confusing materials, bugs in the tool, or ambiguous tasks `[Our analysis]`. The researchers can do a first run-through themselves as participants[^ko2015practical-e33], but the most important round should, as far as possible, use the same kind of participants, location, materials, procedure, and experimenters as the main experiment[^ko2015practical-e32]. Fix what you find, then try again.
 
-**Why:** of the 345 studies Ko et al. reviewed, only 11 mentioned running a pilot[^ko2015practical-e31]. Pilot data can also be used to estimate the values a power analysis needs[^ko2015practical-e12]. For general advice on preliminary studies, see [Pilot first: rule out the biggest risks](../02_from-project-to-study/04_pilot-and-derisk.md).
+**Why:** of the 345 studies Ko et al. reviewed, only 11 mentioned running a pilot[^ko2015practical-e31]. Pilot data can also be used to estimate the values a power analysis needs[^ko2015practical-e12]. For general advice on preliminary studies, see [Pilot first: rule out the biggest risks](../02_do-the-project/05_pilot-and-derisk.md).
 
 **Where people go wrong:** merging pilot data into the main results. Pilot data should be discarded, because the setup was still changing[^ko2015practical-e32].
 
@@ -139,7 +139,7 @@ For the general requirements of research with people (risk assessment, informed 
 
 ### Step 8: Analyze and report
 
-**Analysis**: report descriptive and inferential statistics suited to the distribution of your data, and explain why you chose those tests; report effect sizes and confidence intervals, not just "significant / not significant"[^ralph2020empirical-e172]. Plot the data distributions[^ralph2020empirical-e177]. For general statistical practice, see [Analyzing and interpreting results](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+**Analysis**: report descriptive and inferential statistics suited to the distribution of your data, and explain why you chose those tests; report effect sizes and confidence intervals, not just "significant / not significant"[^ralph2020empirical-e172]. Plot the data distributions[^ralph2020empirical-e177]. For general statistical practice, see [Analyzing and interpreting results](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 **The report must state clearly**:
 

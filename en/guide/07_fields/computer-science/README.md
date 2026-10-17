@@ -38,7 +38,7 @@ The process is much the same across conferences. The examples below use USENIX S
 
 Some conferences have several submission cycles a year. USENIX Security 2026, for example, has two cycles, each with its own fixed dates for the deadline, early rejection, the author response period, and so on[^usenixsec2026cfp-e1].
 
-The rebuttal is an important step at computer science conferences. Its readers are not only the reviewers but also the area chair, who may read only the reviews and your response[^parikh2020rebuttals-e2]. For how to write one, see [Reviews, revision, and what to do after rejection](../../04_write-and-publish/03_review-and-revision.md).
+The rebuttal is an important step at computer science conferences. Its readers are not only the reviewers but also the area chair, who may read only the reviews and your response[^parikh2020rebuttals-e2]. For how to write one, see [Reviews, revision, and what to do after rejection](../../03_write-and-publish/03_review-and-revision.md).
 
 ### Double-blind review and preprints
 
@@ -152,10 +152,10 @@ How to use this table `[Our analysis]`:
 ## Advice for newcomers
 
 1. **Read your target conference's call for papers from start to finish.** Page limits, anonymity rules, preprint policy, ethics discussion, artifact requirements: every conference differs, so write to your target conference's call. Also read the existing guidelines for your kind of study; starting without reading them is an antipattern the software engineering empirical standards name explicitly[^ralph2020empirical-e26].
-2. **Plan backward from the deadline.** Conference deadlines are fixed and won't move for you. For how to schedule backward, leave time for your advisor to read drafts, and set internal group deadlines, see [Planning and daily routines](../../08_throughout/planning_and_routines.md) and [Writing a research plan](../../01_from-interest-to-project/04_research-plan.md).
+2. **Plan backward from the deadline.** Conference deadlines are fixed and won't move for you. For how to schedule backward, leave time for your advisor to read drafts, and set internal group deadlines, see [Planning and daily routines](../../08_throughout/planning_and_routines.md) and [Writing a research plan](../../02_do-the-project/03_research-plan.md).
 3. **Start preparing your artifact while the paper is still under review.** The time between acceptance and artifact submission is very short[^sysartifactsguide-e2]. If there are complex dependencies, package them in a container or virtual machine[^sysartifactsguide-e6]; follow your own instructions once in a fresh environment[^sysartifactsguide-e5]. For general practice in organizing code and data, see [Organizing your research materials](../../08_throughout/organizing_materials.md).
 4. **Check the policy before posting a preprint, and don't break anonymity once you have.** Don't write "under review at conference X" in the public version[^neurips2025cfp-e6], and cite your own work in the third person in the submitted version[^usenixsec2026cfp-e4].
-5. **Treat the rebuttal as a formal step and prepare for it.** The response window is often only about a week[^neurips2025cfp-e8], and the area chair reads it too; for how to write it, see [Reviews, revision, and what to do after rejection](../../04_write-and-publish/03_review-and-revision.md).
+5. **Treat the rebuttal as a formal step and prepare for it.** The response window is often only about a week[^neurips2025cfp-e8], and the area chair reads it too; for how to write it, see [Reviews, revision, and what to do after rejection](../../03_write-and-publish/03_review-and-revision.md).
 6. **Don't let deadlines push you into submitting half-finished work.** When the research isn't ready, waiting for the next deadline is often better than forcing a submission[^fortnow2009time-e2] `[Our analysis]`.
 7. **Rejection is normal; don't judge the value of your work by a single outcome.** For solid papers in the middle tier, outcomes are the hardest to predict[^fortnow2009time-e5].
 

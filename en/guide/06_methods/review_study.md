@@ -2,7 +2,7 @@
 
 This page covers **research where the review itself is the result**: you collect studies that others have published, synthesize and analyze them, and write it all up as a paper in its own right.
 
-If what you want is "how to read the literature and write related work before doing your own study", that is a step in every project; see [Entering a field and exploring the literature](../01_from-interest-to-project/01_enter-a-field.md).
+If what you want is "how to read the literature and write related work before doing your own study", that is a step in every project; see [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md).
 
 **Scope** `[Our analysis]`: the standards and examples on this page come mainly from computer science, especially software engineering. The approach to systematic reviews follows the guidelines Kitchenham and Charters wrote for software engineering; the checklist follows the Empirical Standards of the Association for Computing Machinery's Special Interest Group on Software Engineering (ACM SIGSOFT); the requirements for survey papers follow the author guidelines of ACM Computing Surveys; and the reporting guideline PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) comes from medicine. If you are writing a review in another field, check your own field's standards first. For systematic reviews and meta-analyses in health (effect measures, heterogeneity, grading the certainty of evidence, and so on), see [Systematic reviews and meta-analysis (health research)](meta_analysis.md).
 

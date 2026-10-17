@@ -38,7 +38,7 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 
 **Why:** EPA guidance says that without planning before sampling, there is an unacceptably high chance that the data you collect will not meet your needs[^epa2006dqo-e1]. Once a moment in the field has passed, you cannot go back and collect the data `[Our analysis]`.
 
-**Where people go wrong:** writing only "survey the water quality of a lake" without saying whether you want to estimate the lake-wide average or compare the inlet with the outlet. The two goals call for completely different sampling layouts `[Our analysis]`. For how to make your research question concrete, see [From research questions to an evidence plan](../02_from-project-to-study/01_question-to-evidence.md) in Part 2.
+**Where people go wrong:** writing only "survey the water quality of a lake" without saying whether you want to estimate the lake-wide average or compare the inlet with the outlet. The two goals call for completely different sampling layouts `[Our analysis]`. For how to make your research question concrete, see [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) in Part 2.
 
 ### Step 2: Design the sampling: where, when, and how much
 

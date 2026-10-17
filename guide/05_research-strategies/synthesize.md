@@ -72,14 +72,14 @@
 
 | 阶段 | 综合项目的特点 |
 |---|---|
-| [收敛成项目](../01_from-interest-to-project/03_converge.md) | 先确认这篇综述确实需要做[^kitchenham2007guidelines-e5]，例如查查有没有人做过类似的；有的话，想清楚你能补上什么，例如新的时间段或不同的问题 |
-| [形成研究计划](../01_from-interest-to-project/04_research-plan.md) | 研究问题是规划阶段最重要的一步[^kitchenham2007guidelines-e6]；研究方案是系统综述的关键[^kitchenham2007guidelines-e9]。高质量的系统综述往往费力又费时[^higgins2024cochrane-e4]，排时间别太乐观 |
-| [从研究问题到证据清单](../02_from-project-to-study/01_question-to-evidence.md) | 证据就是文献本身，研究问题直接决定检索词、筛选标准和要提取的数据 |
-| [先做小规模试验，排除最大风险](../02_from-project-to-study/04_pilot-and-derisk.md) | 筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]；先做预检索，看相关研究大概有多少 |
-| [执行与迭代](../03_conduct-and-analyze/01_run-and-iterate.md) | 工作量主要在筛选和提取；第一轮筛选要宽松[^kitchenham2007guidelines-e11]，一个人做时请导师抽一部分论文也提取一遍，交叉核对[^kitchenham2007guidelines-e15] |
-| [分析与解读](../03_conduct-and-analyze/02_analyze-and-interpret.md) | 把结果放回已有研究中，指出空白和方向；清楚区分有证据的结果和自己的推测[^ralph2020empirical-e13] |
-| [讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md) | 按报告规范写出完整检索式、画出从检索到纳入的流程图[^page2021prisma-e3][^page2021prisma-e4]；公开研究方案、检索结果、数据和脚本[^ralph2020empirical-e7] |
-| [选择发表渠道与投稿](../04_write-and-publish/02_venue-and-submission.md) | 综述期刊可能有篇幅上限，例如 ACM Computing Surveys 的长综述含参考文献不超过 35 页[^acm2026csurguidelines-e4]；只有分类计数的映射研究，见上文"不同的看法" |
+| [收敛成项目](../01_find-a-problem/05_converge.md) | 先确认这篇综述确实需要做[^kitchenham2007guidelines-e5]，例如查查有没有人做过类似的；有的话，想清楚你能补上什么，例如新的时间段或不同的问题 |
+| [形成研究计划](../02_do-the-project/03_research-plan.md) | 研究问题是规划阶段最重要的一步[^kitchenham2007guidelines-e6]；研究方案是系统综述的关键[^kitchenham2007guidelines-e9]。高质量的系统综述往往费力又费时[^higgins2024cochrane-e4]，排时间别太乐观 |
+| [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md) | 证据就是文献本身，研究问题直接决定检索词、筛选标准和要提取的数据 |
+| [先做小规模试验，排除最大风险](../02_do-the-project/05_pilot-and-derisk.md) | 筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]；先做预检索，看相关研究大概有多少 |
+| [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 工作量主要在筛选和提取；第一轮筛选要宽松[^kitchenham2007guidelines-e11]，一个人做时请导师抽一部分论文也提取一遍，交叉核对[^kitchenham2007guidelines-e15] |
+| [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) | 把结果放回已有研究中，指出空白和方向；清楚区分有证据的结果和自己的推测[^ralph2020empirical-e13] |
+| [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 按报告规范写出完整检索式、画出从检索到纳入的流程图[^page2021prisma-e3][^page2021prisma-e4]；公开研究方案、检索结果、数据和脚本[^ralph2020empirical-e7] |
+| [选择发表渠道与投稿](../03_write-and-publish/02_venue-and-submission.md) | 综述期刊可能有篇幅上限，例如 ACM Computing Surveys 的长综述含参考文献不超过 35 页[^acm2026csurguidelines-e4]；只有分类计数的映射研究，见上文"不同的看法" |
 
 还有一个常被忽略的用处：综合项目常常是其他项目的起点。映射研究能找出研究扎堆和空白的地方，为后续的系统综述和新研究指明方向[^kitchenham2007guidelines-e3]。在医学领域，Cochrane 手册的说法是，开始新的原始研究之前一般应先做系统综述[^higgins2024cochrane-e3]。
 

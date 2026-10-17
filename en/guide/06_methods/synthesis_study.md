@@ -41,7 +41,7 @@ This table is our own summary `[Our analysis]`. Journals expect novelty. Take JO
 
 **Why:** Earlier procedures tell you where things go wrong. Repeating a known reaction is often faster than working everything out from scratch `[Our analysis]`.
 
-**Where people go wrong:** Searching only for "can it be done" and not for "what went wrong when people did it" `[Our analysis]`. For literature searching in general, see the Part 1 chapter [Entering a field and exploring the literature](../01_from-interest-to-project/01_enter-a-field.md#3-follow-the-citations-to-find-the-core-papers-key-people-and-venues); our sources do not cover the specific techniques of retrosynthesis, so consult an organic synthesis textbook or ask your advisor.
+**Where people go wrong:** Searching only for "can it be done" and not for "what went wrong when people did it" `[Our analysis]`. For literature searching in general, see the Part 1 chapter [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md#3-follow-the-citations-to-find-the-core-papers-key-people-and-venues); our sources do not cover the specific techniques of retrosynthesis, so consult an organic synthesis textbook or ask your advisor.
 
 ### Step 2: Assess hazards before every new reaction and every scale-up
 

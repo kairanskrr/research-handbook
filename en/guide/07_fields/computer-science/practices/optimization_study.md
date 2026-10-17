@@ -4,7 +4,7 @@ This page covers **optimization studies**: you formulate a computing problem as 
 
 **Scope** `[Our analysis]`: this is how it is done in computer science; the examples and standards come mainly from search-based software engineering. When you propose a new search method, the work belongs to the [Building and improving](../../../05_research-strategies/build_improve.md) research strategy; when you compare several algorithms to see which is better, it belongs to [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md). The parts of these strategies that hold in every field (what evidence you need, how to compare fairly) are on the strategy pages; this page covers only what is specific to optimization studies.
 
-An optimization study is often also a piece of [Engineering research](engineering_research.md) (you propose a new method), and its evaluation also looks like a [Benchmarking](benchmarking.md) study. "How to configure competitors fairly and how to control the measurement environment" is covered under benchmarking; the basic ideas of significance testing and effect size are in [Analysis and interpretation](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+An optimization study is often also a piece of [Engineering research](engineering_research.md) (you propose a new method), and its evaluation also looks like a [Benchmarking](benchmarking.md) study. "How to configure competitors fairly and how to control the measurement environment" is covered under benchmarking; the basic ideas of significance testing and effect size are in [Analysis and interpretation](../../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 **After reading this page, you should be able to:**
 
@@ -119,7 +119,7 @@ Example `[Our analysis]`: suppose three runs of A give {42, 11, 7} and three run
 
 - **Report the whole distribution, not just the mean or median**, for example with box plots[^ralph2020empirical-e388][^ralph2020empirical-e392].
 - **Give confidence intervals for effect sizes**, for example with the bootstrap (estimating uncertainty by repeatedly resampling, with replacement, from the results you have)[^arcuri2014hitchhiker-e18].
-- **When comparing more than two methods, compare them pairwise**, with a test and an effect size for every pair[^arcuri2014hitchhiker-e19]; whether to correct for multiple comparisons when there are many is covered in [Analysis and interpretation](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+- **When comparing more than two methods, compare them pairwise**, with a test and an effect size for every pair[^arcuri2014hitchhiker-e19]; whether to correct for multiple comparisons when there are many is covered in [Analysis and interpretation](../../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 ### Step 6: Choose problem instances and see how far results generalize
 

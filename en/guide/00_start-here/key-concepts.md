@@ -16,7 +16,7 @@ research area → problem → research question → claim → evidence
 
 Once the claim is clear, the contribution you need to deliver, the research strategy you should follow, and the methods you should use become clear along with it.
 
-This is not a straight line you walk once. Later links often send you back to earlier ones: if you find you can't get the evidence, you change the problem; if you find you can only support a very weak claim, you go back and come at it from a different angle. For how to move back and forth along this chain, see [Converging on a project](../01_from-interest-to-project/03_converge.md).
+This is not a straight line you walk once. Later links often send you back to earlier ones: if you find you can't get the evidence, you change the problem; if you find you can only support a very weak claim, you go back and come at it from a different angle. For how to move back and forth along this chain, see [Converging on a project](../01_find-a-problem/05_converge.md).
 
 ## Research area
 

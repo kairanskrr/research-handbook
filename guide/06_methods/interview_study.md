@@ -52,7 +52,7 @@ SIGSOFT 标准给出的适用条件是：研究者和参与者一对一实时交
 | 有用性（usefulness） | 能给研究者、实践者或教育者可操作的建议 |
 | 可迁移性（transferability） | 结果有可能适用于其他场景、人群或情况 |
 
-背后的原因是研究立场不同（定性研究要不要谈"效度"的两种看法，见[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)末尾的"不同的看法"）。许多定性研究者干脆不用"效度""信度"这些词，而用可信度、可迁移性等概念[^mcdonald2019reliability-e6]。用定量标准去评价定性研究，是一种常见错误[^mcdonald2019reliability-e7]；SIGSOFT 也把"因为诠释主义研究不符合实证主义规范而攻击它"列为不成立的批评[^ralph2020empirical-e373]。
+背后的原因是研究立场不同（定性研究要不要谈"效度"的两种看法，见[效度与局限](../02_do-the-project/04_validity-and-limits.md)末尾的"不同的看法"）。许多定性研究者干脆不用"效度""信度"这些词，而用可信度、可迁移性等概念[^mcdonald2019reliability-e6]。用定量标准去评价定性研究，是一种常见错误[^mcdonald2019reliability-e7]；SIGSOFT 也把"因为诠释主义研究不符合实证主义规范而攻击它"列为不成立的批评[^ralph2020empirical-e373]。
 
 ---
 

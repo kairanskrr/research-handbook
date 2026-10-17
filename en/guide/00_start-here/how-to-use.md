@@ -19,10 +19,10 @@ Before you start, spend ten minutes on two pages:
 
 | Stage | Where you need to get to |
 |---|---|
-| 1. [From interest to project](../01_from-interest-to-project/01_enter-a-field.md) | Start from a research area, read the literature, find problems, converge on a project that holds up, then write a research plan |
-| 2. [From project to study design](../02_from-project-to-study/01_question-to-evidence.md) | Turn what you want to show into the evidence you need, choose a research strategy and methods, work out how far your conclusions can reach, and run a pilot study first |
-| 3. [Running the study and analyzing results](../03_conduct-and-analyze/01_run-and-iterate.md) | Carry out the study, adjust as you go, then analyze the results and interpret what they show |
-| 4. [Writing and publishing](../04_write-and-publish/01_story-and-paper.md) | Write the study up as a paper, choose where to submit, and handle reviews and revisions |
+| 1. [From interest to project](../01_find-a-problem/01_enter-a-field.md) | Start from a research area, read the literature, find problems, converge on a project that holds up, then write a research plan |
+| 2. [From project to study design](../02_do-the-project/01_question-to-evidence.md) | Turn what you want to show into the evidence you need, choose a research strategy and methods, work out how far your conclusions can reach, and run a pilot study first |
+| 3. [Running the study and analyzing results](../02_do-the-project/06_run-and-iterate.md) | Carry out the study, adjust as you go, then analyze the results and interpret what they show |
+| 4. [Writing and publishing](../03_write-and-publish/01_story-and-paper.md) | Write the study up as a paper, choose where to submit, and handle reviews and revisions |
 
 **The Reference** is not read in order. The Parts link to it when you need it, and you can also look things up directly:
 
@@ -34,7 +34,7 @@ Before you start, spend ten minutes on two pages:
 | [Throughout the project](../08_throughout/README.md) | Things that don't belong to one stage but come up all the time: planning and daily routines, organizing your materials, working with your advisor and collaborators, integrity and ethics, mindset and growth, being a reviewer | When these things come up |
 | [FAQ: quick answers](../faq.md) | Advice organized by "what has happened to you", with links to the detailed sections | You have a specific problem and want to go straight to a fix |
 
-**How the Parts and the Reference fit together:** the Parts tell you which decision to make now; the Reference gives you the details you need to make it. For example, in [Converging on a project](../01_from-interest-to-project/03_converge.md) you write your claim and decide that it belongs to the "Building and improving" strategy. At that point you read [Building and improving](../05_research-strategies/build_improve.md) to see what evidence this kind of research needs; later, when you design the study, you look up how to carry out the specific methods. You don't need to read the Reference before you start. `[Our analysis]`
+**How the Parts and the Reference fit together:** the Parts tell you which decision to make now; the Reference gives you the details you need to make it. For example, in [Converging on a project](../01_find-a-problem/05_converge.md) you write your claim and decide that it belongs to the "Building and improving" strategy. At that point you read [Building and improving](../05_research-strategies/build_improve.md) to see what evidence this kind of research needs; later, when you design the study, you look up how to carry out the specific methods. You don't need to read the Reference before you start. `[Our analysis]`
 
 **Write it down:** In one sentence, describe where you are now, for example "My advisor gave me a research area and I haven't read any papers yet" or "I'm halfway through my experiments and the results aren't what I expected." The next section uses that sentence to pick a reading path for you.
 
@@ -43,14 +43,14 @@ Before you start, spend ten minutes on two pages:
 **This is your first research project and you are starting from scratch.**
 
 1. Read [The research journey at a glance](research-journey.md) and [Key concepts](key-concepts.md) first;
-2. Start Part 1 at [Entering a field and exploring the literature](../01_from-interest-to-project/01_enter-a-field.md) and read on in order, doing each chapter's exercises as you go;
+2. Start Part 1 at [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md) and read on in order, doing each chapter's exercises as you go;
 3. When you hit a link to a research strategy, a method, or a field's conventions, follow it, read the parts relevant to you, then come back to the Part.
 
 **You are already working on a project and are stuck at one stage.**
 
 1. Skim [The research journey at a glance](research-journey.md) and find the stage you are in;
 2. Go straight to that chapter and read its "Where you are" section first, to confirm it describes your situation;
-3. Then look at that chapter's "Checklist before moving on": did you really meet the checklist of the stage before? Many times when you feel stuck, the real problem is one step back. For example, when an experiment won't come together, it is often because the sentence you set out to prove was never clear in the first place, and you need to go back to [Converging on a project](../01_from-interest-to-project/03_converge.md). `[Our analysis]`
+3. Then look at that chapter's "Checklist before moving on": did you really meet the checklist of the stage before? Many times when you feel stuck, the real problem is one step back. For example, when an experiment won't come together, it is often because the sentence you set out to prove was never clear in the first place, and you need to go back to [Converging on a project](../01_find-a-problem/05_converge.md). `[Our analysis]`
 
 **You need a specific method.**
 
@@ -60,7 +60,7 @@ Before you start, spend ten minutes on two pages:
 
 **You are moving into a new field or research area.**
 
-1. First read [Entering a field and exploring the literature](../01_from-interest-to-project/01_enter-a-field.md) in Part 1: how to find the core papers, the key people, and the main publication venues;
+1. First read [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md) in Part 1: how to find the core papers, the key people, and the main publication venues;
 2. Then read that field's overview in [Fields](../07_fields/README.md) to learn how it publishes, what ethics requirements apply, and what the common practices are;
 3. If you are coming from another field, pay particular attention to how the new field's idea of "enough evidence" differs from your old one.
 

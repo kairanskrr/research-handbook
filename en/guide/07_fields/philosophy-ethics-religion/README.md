@@ -45,7 +45,7 @@ What follows draws mainly on the writing guidelines of Jim Pryor (a philosophy t
 8. **You don't need a definitive conclusion.** A paper does not have to offer a clear-cut solution[^pryor2012writing-e18]; if you can't fix your argument, you can change your thesis to one you can defend[^pryor2012writing-e19].
 9. **Write many drafts.** At least three or four[^pryor2012writing-e20].
 
-How research papers differ: Pryor says his course papers do not need secondary literature beyond the assigned readings[^pryor2012writing-e24]; a research paper, by contrast, has to say how your view relates to the existing literature. For how to do that, see the Part 4 chapter section [Related work](../../04_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand) `[Our analysis]`. For general writing practice (core message, structure, revision), see the Part 4 chapter [Telling the story and writing the paper](../../04_write-and-publish/01_story-and-paper.md).
+How research papers differ: Pryor says his course papers do not need secondary literature beyond the assigned readings[^pryor2012writing-e24]; a research paper, by contrast, has to say how your view relates to the existing literature. For how to do that, see the Part 4 chapter section [Related work](../../03_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand) `[Our analysis]`. For general writing practice (core message, structure, revision), see the Part 4 chapter [Telling the story and writing the paper](../../03_write-and-publish/01_story-and-paper.md).
 
 ### Reading: take the argument apart first
 
@@ -55,7 +55,7 @@ Pryor's reading guidelines for undergraduates have three stages, which you can t
 2. **Read closely and map the structure of the argument.** Pay special attention to assumptions that are not argued for[^pryor2006reading-e4]; in your notes, outline the "parts" of the argument and draw arrows between them[^pryor2006reading-e5]. You will need to read an article more than once; after more than ten years in philosophy, Pryor still does[^pryor2006reading-e6].
 3. **Evaluate.** Are there false premises? Unstated false assumptions? Does it equivocate or beg the question[^pryor2006reading-e7]? Philosophers often say things like: "Even if we grant premise such-and-such for the sake of argument, X's argument still fails, because…"[^pryor2006reading-e9]
 
-For general reading practice (reading in several passes, taking notes, following citations), see the Part 1 chapter [Entering a field and exploring the literature](../../01_from-interest-to-project/01_enter-a-field.md).
+For general reading practice (reading in several passes, taking notes, following citations), see the Part 1 chapter [Entering a field and exploring the literature](../../01_find-a-problem/01_enter-a-field.md).
 
 ### Handling objections and opponents: state the view accurately, then criticize
 
@@ -85,7 +85,7 @@ Author order: a bibliometric study by Fernandes and Cortez in *Scientometrics* (
 - **Questionnaires self-reported by authors.** The American Philosophical Association's "Journal Surveys" project lets authors voluntarily report their review experiences[^andrews2024journal-e1]. On the association's blog, Andrews (2024) analyzed 1,568 survey responses from 2019 to 2023, spread over 97 journals[^andrews2024journal-e3][^andrews2024journal-e4]. In these responses, the first decision took 3.22 months on average, and 14.9% reported waiting more than 6 months[^andrews2024journal-e5]; 67% reported receiving at least one referee report[^andrews2024journal-e6]. Andrews also cautions that there is no way to know how accurate these data are, since most journals do not publish statistics to check them against, and the acceptance rates in the surveys are generally thought to be too high[^andrews2024journal-e2].
 - **Figures published by journals themselves.** We checked only one: the *Journal of the History of Philosophy*. In 2025–2026 it received 356 submissions and accepted 15, an acceptance rate of 4.2%[^jhp2025statistics-e1]; for manuscripts sent out for review, the average time from submission to final decision was 76 days[^jhp2025statistics-e2], and from acceptance to publication 1.31 years on average[^jhp2025statistics-e3]. For other journals, you need to look up the figures yourself.
 
-The American Philosophical Association says that four months after submission you can comfortably ask about the status, unless the journal has said it will take longer[^apaphil2022journal-e7]. Submitting a manuscript implies it is not under consideration anywhere else at the same time[^apaphil2022journal-e6]. For general practice in peer review and responding to reviews, see the Part 4 chapter [Choosing a venue and submitting](../../04_write-and-publish/02_venue-and-submission.md).
+The American Philosophical Association says that four months after submission you can comfortably ask about the status, unless the journal has said it will take longer[^apaphil2022journal-e7]. Submitting a manuscript implies it is not under consideration anywhere else at the same time[^apaphil2022journal-e6]. For general practice in peer review and responding to reviews, see the Part 4 chapter [Choosing a venue and submitting](../../03_write-and-publish/02_venue-and-submission.md).
 
 ### Experimental philosophy: doing philosophy with empirical methods
 

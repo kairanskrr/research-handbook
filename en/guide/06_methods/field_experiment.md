@@ -127,7 +127,7 @@ Random attrition only lowers power; attrition related to the treatment biases th
 
 **Standard errors with clusters.** Ignoring cluster assignment makes standard errors too small[^egapclusterrandomization-e3]: in EGAP's example, with 200 observations from 10 clusters and an intra-cluster correlation of 0.5, the effective sample size is only about 19[^egapclusterrandomization-e2]. Simulations cited by Duflo and colleagues show that with fewer than 50 clusters, the usual cluster-robust standard errors tend to wrongly reject the null of no effect; in that case you can use randomization inference[^duflo2007toolkit-e32].
 
-**Multiple outcomes.** Duflo and colleagues argue that all the outcome variables you collected should be reported, significant or not[^duflo2007toolkit-e33]. For general problems with statistical tests, see [Report how big and how certain, not just the p-value](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value) in Part 3.
+**Multiple outcomes.** Duflo and colleagues argue that all the outcome variables you collected should be reported, significant or not[^duflo2007toolkit-e33]. For general problems with statistical tests, see [Report how big and how certain, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value) in Part 3.
 
 ### Step 9: Think through spillovers
 

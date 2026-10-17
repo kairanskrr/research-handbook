@@ -1,6 +1,6 @@
 # 学科篇
 
-不同学科的研究运转方式不同：研究节奏、组织方式、发表文化、伦理要求、什么证据才会被接受，都不一样 `[本项目分析]`。学科篇**只写学科特有的内容**；多个学科通用的研究方法（对照实验、问卷、访谈、案例研究、综述、复现等）放在[研究方法](../06_methods/README.md)，学科篇里链接过去，只说明本学科的差异。各层怎么分工，见[怎么用这本手册](../00_start-here/how-to-use.md)。
+不同学科的研究运转方式不同：研究节奏、组织方式、发表文化、伦理要求、什么证据才会被接受，都不一样 `[本项目分析]`。学科篇**只写学科特有的内容**；多个学科通用的研究方法（对照实验、问卷、访谈、案例研究、综述、复现等）放在[研究类型](../06_methods/README.md)，学科篇里链接过去，只说明本学科的差异。各层怎么分工，见[怎么用这本手册](../00_start-here/how-to-use.md)。
 
 每个学科一个文件夹，里面有：
 
@@ -68,11 +68,11 @@
 
 - **学科概况**：[`computer-science/README.md`](computer-science/README.md)，讲以会议为中心的发表方式、预印本、制品评估，以及各方向的惯例差异。初稿，待审阅。
 - **计算机特有的研究实践**：[计算机特有的研究实践](computer-science/practices/README.md)，目前有[工程研究](computer-science/practices/engineering_research.md)、[优化研究](computer-science/practices/optimization_study.md)、[基准评测](computer-science/practices/benchmarking.md)、[仓库挖掘研究](computer-science/practices/repository_mining.md)、[理论研究](computer-science/practices/theoretical_research.md)五篇。初稿，待审阅。
-- **通用的研究方法**：综述、对照实验、问卷、访谈、案例研究、复现等在多个学科通用，放在[研究方法](../06_methods/README.md)。
+- **通用的研究方法**：综述、对照实验、问卷、访谈、案例研究、复现等在多个学科通用，放在 `06_methods/`，在[研究类型](../06_methods/README.md)目录里和各学科独有的实践一起列出。
 
 ## 学科独有的实践
 
-只有一个学科使用、[研究方法](../06_methods/README.md)没有收录的做法，单独成篇，放在对应学科的 `practices/` 下。多个学科都用的方法（对照实验、随机对照试验、问卷、访谈、档案研究、复现等）放在研究方法，不在这里重复；各学科概况的"本学科常用的研究方法"一节链接过去，并说明本学科的差异。
+只有一个学科使用的做法，单独成篇，放在对应学科的 `practices/` 下，并在[研究类型](../06_methods/README.md)目录里和通用方法一起列出。多个学科都用的方法（对照实验、随机对照试验、问卷、访谈、档案研究、复现等）放在 `06_methods/`，不在这里重复；各学科概况的"本学科常用的研究方法"一节链接过去，并说明本学科的差异。
 
 | 学科 | 独有实践 |
 |---|---|

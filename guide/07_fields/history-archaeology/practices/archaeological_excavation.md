@@ -2,7 +2,7 @@
 
 本文讲**考古田野工作**怎么做：从写研究设计、先做不挖土的调查，到按地层发掘、逐单位记录，再到发掘后的评估、归档和写报告。考古学的伦理原则（守护遗址、尊重后裔群体、不做买卖）和英国 CIfA 发掘标准的基本要求，已在[历史与考古学科概况](../README.md#考古学守护遗址和社区合作)讲过，这里不重复。野外的安全、后勤和仪器校准等通用做法，见地球与环境科学《野外观测研究》的[安全和后勤](../../../06_methods/field_study.md#第四步安全和后勤)和[仪器校准](../../../06_methods/field_study.md#第五步仪器和现场校准)两步。
 
-**适用范围。** 这是考古学特有的研究实践，只适用于考古田野工作。在本手册的套路划分里，它主要服务[观察描述](../../../05_research-strategies/observe_describe.md)：记录遗存是什么样的，再加以解释（见[学科概况的常用套路与证据标准](../README.md#常用套路与证据标准)）。研究设计、效度和计划等各学科共通的部分，见主线[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md)和[形成研究计划](../../../01_from-interest-to-project/04_research-plan.md) `[本项目分析]`。**常服务的套路**：套路页暂未列出。
+**适用范围。** 这是考古学特有的研究实践，只适用于考古田野工作。在本手册的套路划分里，它主要服务[观察描述](../../../05_research-strategies/observe_describe.md)：记录遗存是什么样的，再加以解释（见[学科概况的常用套路与证据标准](../README.md#常用套路与证据标准)）。研究设计、效度和计划等各学科共通的部分，见第二部分的[从研究问题到证据清单](../../../02_do-the-project/01_question-to-evidence.md)和[形成研究计划](../../../02_do-the-project/03_research-plan.md) `[本项目分析]`。**常服务的套路**：套路页暂未列出。
 
 **先说清本文资料的来历。** 它们来自几个国家和一位学者，各有各的适用范围，都不是全学科的统一规定 `[本项目分析]`。在其他国家做发掘，许可、出土物归属和归档都按当地法规办；CIfA 的指南自己也要求遵守工作所在地的法律和本地指南[^cifa2023excavation-e12]。
 
@@ -201,7 +201,7 @@
 - **美国内政部，Secretary of the Interior's Standards and Guidelines for Archeology and Historic Preservation（1983）**：美国国家公园管理局网站免费下载，"考古记录"部分讲研究设计、野外记录、报告和保管。
 - **Historic England，Radiocarbon Dating and Chronological Modelling**：英格兰历史遗产局 2022 年的放射性碳测年和年代建模指南（Bayliss 和 Marshall 编写），计划测年时查阅。本文只摘录了它的选样要点，建模部分没有摘录。
 - **考古数据服务中心（Archaeology Data Service）的 Guides to Good Practice**：英国的考古数字档案机构发布，讲数字数据怎样创建、整理和存档（本文未摘录其内容）。
-- 研究设计的通用原则见主线章节[从研究问题到证据清单](../../../02_from-project-to-study/01_question-to-evidence.md)；从单个遗址怎样推广结论，可参考[案例研究](../../../06_methods/case_study.md)。
+- 研究设计的通用原则见第二部分的[从研究问题到证据清单](../../../02_do-the-project/01_question-to-evidence.md)；从单个遗址怎样推广结论，可参考[案例研究](../../../06_methods/case_study.md)。
 
 [^bayliss2022radiocarbon-e1]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.2。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e1)
 [^bayliss2022radiocarbon-e2]: Bayliss 和 Marshall 2022，英格兰历史遗产局测年指南，3.2.2。[证据](../../../../sources/notes/bayliss2022radiocarbon.md#e2)

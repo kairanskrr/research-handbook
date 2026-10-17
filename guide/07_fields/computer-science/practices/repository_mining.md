@@ -4,7 +4,7 @@
 
 **适用范围** `[本项目分析]`：这是计算机的做法，例子和标准主要来自软件工程的实证研究。它最常服务[观察描述](../../../05_research-strategies/observe_describe.md)这种研究套路，弄清软件开发里实际发生了什么；用来检验"X 是否导致 Y"时，还要满足[解释因果](../../../05_research-strategies/explain_causality.md)的要求。这两种套路各学科通用的部分见套路页，本文只讲挖掘软件数据特有的做法。
 
-如果你只是要从 GitHub 上收集一批数据来训练或评测模型，数据收集那部分同样适用本文的第 2 节；模型本身怎么评测，见[基准评测](benchmarking.md)；效度的一般原则见[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md)。
+如果你只是要从 GitHub 上收集一批数据来训练或评测模型，数据收集那部分同样适用本文的第 2 节；模型本身怎么评测，见[基准评测](benchmarking.md)；效度的一般原则见[效度与局限](../../../02_do-the-project/04_validity-and-limits.md)。
 
 **读完本文，你应该能：**
 
@@ -139,11 +139,11 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第七步：分析，并说清效度威胁
 
-通用的统计和效度问题见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md)和[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md)。挖掘研究要特别注意以下几点：
+通用的统计和效度问题见[分析与解读](../../../02_do-the-project/07_analyze-and-interpret.md)和[效度与局限](../../../02_do-the-project/04_validity-and-limits.md)。挖掘研究要特别注意以下几点：
 
 - **度量要经过验证。** 说明并论证你用的每个指标，最好使用别人验证过的度量[^ralph2020empirical-e112]。用一个未经验证的单一指标度量多维概念，例如用 GitHub 星标数代表"流行度"，是反面模式[^ralph2020empirical-e119]。容易计算的指标往往隐藏风险[^kalliamvakou2016indepth-e9]。
-- **大样本下，显著不等于重要。** 道理和例子见[分析与解读](../../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。挖掘研究中的例子：Bird 等人发现迁移到 git 前后提交大小的差异统计显著，但只差每次提交 2 行[^bird2009promises-e7]。报告效应大小，而不只是 p 值。
-- **结论限定在你选的仓库范围内。** 把结论推广到所选仓库之外是反面模式[^ralph2020empirical-e122]。要讨论数据源、仓库、筛选条件带来的外部效度威胁（结论能否推广到研究对象之外，见[效度与局限](../../../02_from-project-to-study/03_validity-and-limits.md#5-外部效度结论能推广到哪里)）[^ralph2020empirical-e113]；承认了局限，写结论时就不要当它不存在[^ralph2020empirical-e66]。
+- **大样本下，显著不等于重要。** 道理和例子见[分析与解读](../../../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。挖掘研究中的例子：Bird 等人发现迁移到 git 前后提交大小的差异统计显著，但只差每次提交 2 行[^bird2009promises-e7]。报告效应大小，而不只是 p 值。
+- **结论限定在你选的仓库范围内。** 把结论推广到所选仓库之外是反面模式[^ralph2020empirical-e122]。要讨论数据源、仓库、筛选条件带来的外部效度威胁（结论能否推广到研究对象之外，见[效度与局限](../../../02_do-the-project/04_validity-and-limits.md#5-外部效度结论能推广到哪里)）[^ralph2020empirical-e113]；承认了局限，写结论时就不要当它不存在[^ralph2020empirical-e66]。
 - **不要只停留在描述。** 只做定量描述、不检验或建立理论，是反面模式[^ralph2020empirical-e122]。
 - **用定性数据补充。** 用访谈、问卷或人工检查来核对你对数据的假设[^kalliamvakou2016indepth-e11]；SIGSOFT 也把跨数据源、跨研究者的**三角验证**（用多种来源或多名研究者互相印证同一结论）列为加分项[^ralph2020empirical-e115]。
 

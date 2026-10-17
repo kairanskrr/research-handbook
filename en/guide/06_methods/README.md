@@ -13,7 +13,7 @@ That is the question this part of the handbook answers.
 
 This division is a convention of this handbook `[Our analysis]`.
 
-For how to choose a strategy and a method based on your question, see [Choosing a strategy and a method](../02_from-project-to-study/02_choose-strategy-and-method.md).
+For how to choose a strategy and a method based on your question, see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
 
 ## 28 methods
 

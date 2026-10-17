@@ -45,7 +45,7 @@ Steps 1 to 6 are design decisions, and all of them go into the trial protocol in
 - **Decide under what conditions you will test it**: there is a continuum from ideal conditions (explanatory trials) to routine clinical conditions (pragmatic trials)[^hopewell2025consortee-e6].
 - **Take ethics into account when choosing the comparator**: the World Medical Association's Declaration of Helsinki requires that a new intervention, as a rule, be compared with the best proven intervention; a placebo or no intervention is acceptable as the comparator when no proven intervention exists (this is one of the exceptions)[^wma2024helsinki-e14].
 
-**Where people go wrong**: P is too broad or too narrow, and I and C are not described in enough detail for someone to carry them out `[Our analysis]`. For the general approach, see the Part 2 chapter [Break the claim into research questions](../02_from-project-to-study/01_question-to-evidence.md#1-break-the-claim-into-research-questions).
+**Where people go wrong**: P is too broad or too narrow, and I and C are not described in enough detail for someone to carry them out `[Our analysis]`. For the general approach, see the Part 2 chapter [Break the claim into research questions](../02_do-the-project/01_question-to-evidence.md#1-break-the-claim-into-research-questions).
 
 ### Step 2: Choose the outcomes and fix one primary outcome
 
@@ -137,7 +137,7 @@ Steps 1 to 6 are design decisions, and all of them go into the trial protocol in
 - **Adjust for covariates as planned**: adjusting for stratification variables is often advisable; whether to adjust for a covariate should not depend on whether it differs significantly between groups[^hopewell2025consortee-e48].
 - **Be restrained with subgroup analyses**: a significant effect in one subgroup and not in another does not show that the subgroups differ; subgroup comparisons made after looking at the data are especially unlikely to be confirmed by later studies[^hopewell2025consortee-e49].
 
-**Where people go wrong**: running significance tests on baseline characteristics to "prove that randomization worked". As long as randomization was not subverted, any baseline differences are due to chance; such tests are not recommended and should not be reported[^hopewell2025consortee-e50]. For general statistical principles, see the Part 3 chapter section [Report how big the difference is and how sure you are, not just the p-value](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+**Where people go wrong**: running significance tests on baseline characteristics to "prove that randomization worked". As long as randomization was not subverted, any baseline differences are due to chance; such tests are not recommended and should not be reported[^hopewell2025consortee-e50]. For general statistical principles, see the Part 3 chapter section [Report how big the difference is and how sure you are, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 ### Step 10: Report following CONSORT 2025
 

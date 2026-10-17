@@ -8,7 +8,7 @@
 - You are meeting your advisor next week, the results are bad, and you don't know how to bring it up;
 - You are about to work on a project with labmates or people outside your group, and you worry that division of work and authorship will be unclear.
 
-This page is about how to work with your advisor, labmates and collaborators throughout a project. Choosing an advisor is outside its scope. For getting your research plan agreed with your advisor, see [Writing a research plan](../01_from-interest-to-project/04_research-plan.md#6-get-your-advisor-on-board-with-the-plan); for research misconduct and authorship norms, see [Research integrity and ethics](integrity_and_ethics.md).
+This page is about how to work with your advisor, labmates and collaborators throughout a project. Choosing an advisor is outside its scope. For getting your research plan agreed with your advisor, see [Writing a research plan](../02_do-the-project/03_research-plan.md#6-get-your-advisor-on-board-with-the-plan); for research misconduct and authorship norms, see [Research integrity and ethics](integrity_and_ethics.md).
 
 ---
 
@@ -65,7 +65,7 @@ This page is about how to work with your advisor, labmates and collaborators thr
 **How:**
 
 - **Don't hide from your advisor.** One advisor puts it bluntly: "Please don't hide from me. Let's talk." He likes students who come to him and insist on talking[^freeman2013research-e10].
-- **Report failures too, and be specific.** Your advisors have more experience than you and want to help, but you have to help them help you[^huang2023unstuck-e7]: if you only describe in words why you did something, how and what you did, it is hard for anyone to follow fully[^huang2023unstuck-e8]. Show a pipeline diagram and actual inputs and outputs `[Our analysis]`. For how to pin down where you are stuck, see [Running and iterating](../03_conduct-and-analyze/01_run-and-iterate.md).
+- **Report failures too, and be specific.** Your advisors have more experience than you and want to help, but you have to help them help you[^huang2023unstuck-e7]: if you only describe in words why you did something, how and what you did, it is hard for anyone to follow fully[^huang2023unstuck-e8]. Show a pipeline diagram and actual inputs and outputs `[Our analysis]`. For how to pin down where you are stuck, see [Running and iterating](../02_do-the-project/06_run-and-iterate.md).
 - **"Progress" covers more than you think.** Advisors can take a broad view of progress[^freeman2013research-e9]: figuring out why a method doesn't work, or simplifying the problem until something runs, are both worth reporting `[Our analysis]`.
 - **If you are falling behind, say so early.** If you think you'll miss a deadline, tell your advisor; they would much rather know early[^dredze2012successful-e20].
 - **If you notice you are making slow progress, ask for help promptly; there is nothing embarrassing about it**[^perez2024tips-e7]. People who ask questions and ask for help learn faster and get more done than those who try to figure everything out alone[^dredze2012successful-e19].
@@ -153,7 +153,7 @@ Two sets of rules are cited below: the authorship recommendations of the Interna
 - **Ask for feedback regularly.** There is no harm in asking your advisor for feedback often, say once a semester[^dredze2012successful-e10].
 - **Finish drafts early.** Finish a paper at least a week before the deadline, so your advisor can give useful comments; they often have several other papers to read before the same deadline[^dredze2012successful-e21]. For journal submissions with no fixed deadline, give your advisor the same amount of time `[Our analysis]`. Proofread carefully yourself before sending[^herremans2020successful-e3], so readers can spend their time on the research `[Our analysis]`.
 - **After every talk, including practice talks in your group, ask the audience**: was it clear, and how could the content, style and delivery be improved[^dredze2012successful-e22].
-- **When in doubt, talk to someone.** Talking to other researchers, especially your advisor, is a good way to get a fresh perspective[^nanda2025mindsets-e16]. When you are unsure what to work on, ask experienced people for suggestions; there is no shame in working on someone else's idea[^schulman2020opinionated-e4]. To develop your sense of which problems are good, ask your advisor to score your list of ideas one by one, then discuss the ones where you disagree most[^olah2021taste-e4]; see [Finding candidate problems](../01_from-interest-to-project/02_find-problems.md) for how.
+- **When in doubt, talk to someone.** Talking to other researchers, especially your advisor, is a good way to get a fresh perspective[^nanda2025mindsets-e16]. When you are unsure what to work on, ask experienced people for suggestions; there is no shame in working on someone else's idea[^schulman2020opinionated-e4]. To develop your sense of which problems are good, ask your advisor to score your list of ideas one by one, then discuss the ones where you disagree most[^olah2021taste-e4]; see [Finding candidate problems](../01_find-a-problem/02_generate-problems.md) for how.
 
 **Where people go wrong:** Only going to people when something has gone wrong; or sending a draft the night before the deadline, which amounts to not asking for feedback at all `[Our analysis]`.
 

@@ -70,7 +70,7 @@ Grounded theory is not a straight line but a cycle: **collect a little data → 
 
 **Why:** Limiting your reading is meant to stop you from testing existing theory without realizing it, or from thinking in borrowed concepts[^stol2016grounded-e7]. Setting up preliminary categories from the literature and then "combining them with grounded theory methods" is highly questionable[^stol2016grounded-e27]; an analysis that starts from "seed categories" or a predefined framework is not grounded theory[^stol2016grounded-e19].
 
-For how to search the literature in general, see [Entering a field and exploring the literature](../01_from-interest-to-project/01_enter-a-field.md).
+For how to search the literature in general, see [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md).
 
 ### Step 2: Collect a first batch of data and start analyzing right away
 
@@ -141,7 +141,7 @@ In practice this step is often missed. Of the 52 papers that claimed to use grou
 - **Engage with existing research**: compare your theory with existing theories or integrate it with them[^ralph2020empirical-e320], and explain what role the literature played in your study[^ralph2020empirical-e321].
 - **Discuss transferability**: how far the theory might apply to other sites, populations or contexts[^ralph2020empirical-e318][^ralph2020empirical-e329]; reflect on how your own biases may have shaped the analysis[^ralph2020empirical-e321].
 
-For quality criteria in qualitative research, see [Interview studies](interview_study.md#first-remember-qualitative-research-has-different-quality-criteria-from-quantitative-research); for the chain of evidence, see [Case studies](case_study.md#step-7-keep-a-chain-of-evidence-during-analysis); for writing in general, see [Telling the story and writing the paper](../04_write-and-publish/01_story-and-paper.md).
+For quality criteria in qualitative research, see [Interview studies](interview_study.md#first-remember-qualitative-research-has-different-quality-criteria-from-quantitative-research); for the chain of evidence, see [Case studies](case_study.md#step-7-keep-a-chain-of-evidence-during-analysis); for writing in general, see [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
 
 ---
 

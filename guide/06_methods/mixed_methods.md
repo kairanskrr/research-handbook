@@ -2,7 +2,7 @@
 
 本文讲**混合方法研究**（mixed methods research）和更宽泛的**多方法研究**（multi-method research）：围绕同一个研究问题，组合两种及以上的方法。例如先从代码仓库中挖出规律，再访谈开发者解释原因；或者先访谈形成假设，再用问卷在更大范围检验。
 
-本文只讲"怎么组合"。每个组成部分本身怎么做，见对应的文档：[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)、[访谈研究](interview_study.md)、[问卷调查](questionnaire_survey.md)等。怎样根据问题选方法、什么时候需要组合，见[选定研究套路和方法](../02_from-project-to-study/02_choose-strategy-and-method.md#4-需要时组合几种方法)。
+本文只讲"怎么组合"。每个组成部分本身怎么做，见对应的文档：[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)、[访谈研究](interview_study.md)、[问卷调查](questionnaire_survey.md)等。怎样根据问题选方法、什么时候需要组合，见[选定研究套路和方法](../02_do-the-project/02_choose-method.md#4-需要时组合几种方法)。
 
 **适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 实证研究标准中的多方法与混合方法标准、Easterbrook 等人的方法选择指南，以及 Storey 等人对软件工程研究策略的分析。其他学科做混合方法研究时，先看本学科的规范。目前本手册还没有其他学科专讲混合方法的方法篇；政治学把统计分析和案例内的过程追踪结合起来的做法，可以参考[过程追踪与比较案例研究](process_tracing.md)。
 

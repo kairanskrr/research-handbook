@@ -1,6 +1,6 @@
 # Close reading and literary argument
 
-**Scope.** This page covers how literary studies, within languages and literature, is done; its sources are described below. What all fields share (choosing a topic, reading the literature, writing and revising) is in the main Parts, for example [Telling the story and writing the paper](../../../04_write-and-publish/01_story-and-paper.md). The field's overall conventions are in the [field overview](../README.md) `[Our analysis]`.
+**Scope.** This page covers how literary studies, within languages and literature, is done; its sources are described below. What all fields share (choosing a topic, reading the literature, writing and revising) is in the main Parts, for example [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md). The field's overall conventions are in the [field overview](../README.md) `[Our analysis]`.
 
 **Strategy it usually serves**: [Interpretation and argument](../../../05_research-strategies/interpret_argue.md). The "common research methods" section of that strategy page lists this page.
 
@@ -87,7 +87,7 @@ The UNC handout shows how a thesis gets sharper: from "Victor Frankenstein's tra
 
 **A suggested order** `[Our analysis]`: read and annotate on your own first, and only read criticism heavily once you have a preliminary question, so your own observations aren't buried under other people's conclusions. But before you settle your thesis, be sure to find out what has already been said about the question.
 
-**Why:** whether a thesis is new is judged against existing scholarship `[Our analysis]`. For finding literature and writing about related work, see the Part 4 section [Related work: say where you stand](../../../04_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand). Our sources do not cover how to search for literary criticism or how much to read; follow your advisor's expectations.
+**Why:** whether a thesis is new is judged against existing scholarship `[Our analysis]`. For finding literature and writing about related work, see the Part 4 section [Related work: say where you stand](../../../03_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand). Our sources do not cover how to search for literary criticism or how much to read; follow your advisor's expectations.
 
 ### Step 5: Use theory and historical material, but don't let them replace close reading
 
@@ -142,7 +142,7 @@ The UNC handout shows how a thesis gets sharper: from "Victor Frankenstein's tra
 - **Avoid "thesis plus a string of examples".** The same handout calls that structure static[^syba2008englishpaper-e18]; every section should move the argument forward rather than prove the same point again `[Our analysis]`.
 - **Be willing to cut.** A good interpretive paper doesn't need to cover every element of the work[^uncwritinglit-e25]; be ready to play down or drop findings that don't serve the larger picture[^yorkclosereading-e14]; you don't have to account for every use of a word; pick the examples with the most tension[^syba2008englishpaper-e20].
 
-**Dissertation chapters** `[Our analysis]`: the MLA's 2007 task force report on evaluating scholarship for tenure in the US mentions the expectation that a dissertation will be revised and published[^mla2007evaluating-e11], and also sees journals as a way to share ideas in a timely way[^mla2007evaluating-e6]. So in the US, each chapter should ideally serve the book's overall thesis while also having an argument that stands on its own, so it can later become a journal article or a chapter of a monograph. For other countries, ask your advisor. For general writing practice, see the Part 4 section [Telling the story and writing the paper](../../../04_write-and-publish/01_story-and-paper.md#6-methods-and-results-write-them-so-others-can-check-them).
+**Dissertation chapters** `[Our analysis]`: the MLA's 2007 task force report on evaluating scholarship for tenure in the US mentions the expectation that a dissertation will be revised and published[^mla2007evaluating-e11], and also sees journals as a way to share ideas in a timely way[^mla2007evaluating-e6]. So in the US, each chapter should ideally serve the book's overall thesis while also having an argument that stands on its own, so it can later become a journal article or a chapter of a monograph. For other countries, ask your advisor. For general writing practice, see the Part 4 section [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md#6-methods-and-results-write-them-so-others-can-check-them).
 
 ---
 

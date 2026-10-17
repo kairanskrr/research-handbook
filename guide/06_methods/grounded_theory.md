@@ -70,7 +70,7 @@
 
 **为什么**：限制阅读文献，是为了防止你不知不觉在检验已有理论，或用现成概念去想问题[^stol2016grounded-e7]。先从文献里定好初步类别、再"结合扎根理论方法"的做法非常可疑[^stol2016grounded-e27]；从"种子类别"或预设框架出发分析的，就不是扎根理论[^stol2016grounded-e19]。
 
-文献调研的一般做法见[进入领域、探索文献](../01_from-interest-to-project/01_enter-a-field.md)。
+文献调研的一般做法见[进入领域、探索文献](../01_find-a-problem/01_enter-a-field.md)。
 
 ### 第 2 步：收集第一批数据，马上开始分析
 
@@ -141,7 +141,7 @@ Stol 等人举的一个例子：一项研究得出敏捷团队成员承担的几
 - **和已有研究对话**：把理论与已有理论比较或整合[^ralph2020empirical-e320]，说明文献在研究中起了什么作用[^ralph2020empirical-e321]。
 - **讨论可迁移性**：理论在多大程度上可能适用于其他地点、人群或情境[^ralph2020empirical-e318][^ralph2020empirical-e329]；反思你自己的偏见可能怎样影响了分析[^ralph2020empirical-e321]。
 
-定性研究的质量标准见[访谈研究](interview_study.md#先记住定性研究的质量标准和定量研究不同)，证据链见[案例研究](case_study.md#第七步分析时保持证据链)；写作的一般做法见[讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md)。
+定性研究的质量标准见[访谈研究](interview_study.md#先记住定性研究的质量标准和定量研究不同)，证据链见[案例研究](case_study.md#第七步分析时保持证据链)；写作的一般做法见[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)。
 
 ---
 

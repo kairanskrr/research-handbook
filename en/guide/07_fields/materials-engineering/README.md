@@ -78,7 +78,7 @@ Its material characterization section is useful to anyone working with nanomater
 - **Use two or more independent methods** to characterize the same property; this is far more valuable[^faria2018minimum-e7].
 - **Say where the variation comes from**: repeated measurements on one batch, or several batches[^faria2018minimum-e8].
 - **Characterize, where possible, in a medium close to the one used in later experiments**; for cell experiments, for example, measure in a similar liquid[^faria2018minimum-e9].
-- **Report the statistical details**, such as the number of independent experiments[^faria2018minimum-e11]. For general practice, see the Part 3 chapter section [Report how big and how certain, not just the p-value](../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+- **Report the statistical details**, such as the number of independent experiments[^faria2018minimum-e11]. For general practice, see the Part 3 chapter section [Report how big and how certain, not just the p-value](../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 For animal experiments, MIRIBEL states that the ARRIVE guidelines for reporting animal research should be followed[^faria2018minimum-e16]; see the [Biological sciences page](../biological-sciences/README.md).
 
@@ -151,7 +151,7 @@ This field has no method pages of its own; it uses the cross-field methods in [R
 
 ## Advice for newcomers
 
-1. **Record the "trivial" conditions from your very first batch of samples.** In perovskite solar cell research, Jacobsson and colleagues suspect that glovebox volume, fabrication atmosphere, precursor ratios, and impurities may all be "hidden parameters"[^jacobsson2022open-e6]; if you write them down, you will have something to go on when you troubleshoot later `[Our analysis]`. For general lab-record practice, see the Part 3 chapter [Running and iterating](../../03_conduct-and-analyze/01_run-and-iterate.md#3-leave-a-record-of-every-run).
+1. **Record the "trivial" conditions from your very first batch of samples.** In perovskite solar cell research, Jacobsson and colleagues suspect that glovebox volume, fabrication atmosphere, precursor ratios, and impurities may all be "hidden parameters"[^jacobsson2022open-e6]; if you write them down, you will have something to go on when you troubleshoot later `[Our analysis]`. For general lab-record practice, see the Part 3 chapter [Running and iterating](../../02_do-the-project/06_run-and-iterate.md#3-leave-a-record-of-every-run).
 2. **Characterize key properties with two or more methods; make several batches and several devices, and report distributions.** For the specific requirements, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above.
 3. **Before you write the paper, check it against your target journal's reporting form.** If your area has no dedicated form, borrow a checklist from a neighboring area, such as MIRIBEL[^faria2018minimum-e14] or the solar cell reporting summary `[Our analysis]`.
 4. **Apply for shared-facility instrument time early**, and have your samples and measurement plan ready before you get on the instrument; remember to acknowledge the facility when you publish[^lblfoundryuser-e6] `[Our analysis]`.

@@ -75,18 +75,18 @@ The AMS Ethical Guidelines set out clearly what referees for math journals must 
 - If there is a conflict of interest (for example, the manuscript concerns your own research or that of a colleague or student), you should withdraw[^ams2022ethical-e7].
 - Editors judge a paper against the state of knowledge at the time of submission, and accept it only when reasonably confident that it is correct[^ams2022ethical-e9].
 
-As an author, make the referee's job easy. When deciding what level of journal to aim for, Tao suggests first asking yourself whether the paper is written so that the correctness of the argument is easy to check[^taowriting-e19]. Before submitting, also check whether the journal's editorial board includes someone who knows your area[^taowriting-e18]. For the general review process and how to be a referee, see the Part 4 chapter [Choosing a venue and submitting](../../04_write-and-publish/02_venue-and-submission.md).
+As an author, make the referee's job easy. When deciding what level of journal to aim for, Tao suggests first asking yourself whether the paper is written so that the correctness of the argument is easy to check[^taowriting-e19]. Before submitting, also check whether the journal's editorial board includes someone who knows your area[^taowriting-e18]. For the general review process and how to be a referee, see the Part 4 chapter [Choosing a venue and submitting](../../03_write-and-publish/02_venue-and-submission.md).
 
 ### Advisors and choosing problems
 
-For how to work with your advisor and how to choose your first problem, see [Collaboration and advisors](../../08_throughout/collaboration_and_advisors.md) and [Finding candidate problems](../../01_from-interest-to-project/02_find-problems.md). Two points are worth special attention in mathematics:
+For how to work with your advisor and how to choose your first problem, see [Collaboration and advisors](../../08_throughout/collaboration_and_advisors.md) and [Finding candidate problems](../../01_find-a-problem/02_generate-problems.md). Two points are worth special attention in mathematics:
 
 - **The degree has to show that you can do mathematics independently.** The AMS Ethical Guidelines state that a doctorate in mathematics certifies both mathematical knowledge and independent mathematical achievement[^ams2022ethical-e12]. If your advisor has little time, talk regularly with at least one other mathematician[^taocareer-e25].
 - **Choose a feasible first problem.** Famous problems are almost never solved out of nowhere[^taocareer-e13]; spend most of your time on more tractable problems, building experience, skill, and reputation, and take on bigger projects when you are ready[^taocareer-e14]. The AMS Ethical Guidelines also say that those who supervise doctoral students should tell them about employment opportunities inside and outside academia[^ams2022ethical-e13]; you can ask about this yourself `[Our analysis]`.
 
 ### Reading the literature and seminars
 
-In mathematics, a lot is learned by listening, not just by reading `[Our analysis]`. For general ways to read the literature, see [Entering a field and exploring the literature](../../01_from-interest-to-project/01_enter-a-field.md); here we cover only how mathematicians do it:
+In mathematics, a lot is learned by listening, not just by reading `[Our analysis]`. For general ways to read the literature, see [Entering a field and exploring the literature](../../01_find-a-problem/01_enter-a-field.md); here we cover only how mathematicians do it:
 
 - As a graduate student, Thurston did not understand what a "proof" was; he came to understand it gradually by going to **seminars** (small, regular research talks and discussions), reading papers, and talking with other graduate students[^thurston1994proof-e6].
 - Within a subfield, the idea of an important proof can often be explained face to face in a few minutes[^thurston1994proof-e4]. Face-to-face conversation can use far more ways of communicating than formal mathematical language[^thurston1994proof-e5].

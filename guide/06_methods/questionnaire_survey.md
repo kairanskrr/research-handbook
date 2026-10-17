@@ -2,7 +2,7 @@
 
 本文讲**问卷调查**（questionnaire survey）：设计一份以封闭式题目为主的问卷，发给一批人填写，再系统地分析回答。例如调查开发者怎样使用代码审查工具、安全工程师怎样处理漏洞报告；计算机以外，教育学调查教师怎样使用在线教学平台，也是同一类研究。
 
-如果你要做的是一对一的开放式访谈，那是另一类研究（定性调查，或称访谈研究）[^ralph2020empirical-e256]，见[访谈研究](interview_study.md)。抽样的基本概念（总体、抽样框、样本、代表性）见[定下研究对象：分析单元和总体](../02_from-project-to-study/01_question-to-evidence.md#3-定下研究对象分析单元和总体)，涉及人的研究的一般伦理要求见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md)，这里只讲问卷特有的部分。
+如果你要做的是一对一的开放式访谈，那是另一类研究（定性调查，或称访谈研究）[^ralph2020empirical-e256]，见[访谈研究](interview_study.md)。抽样的基本概念（总体、抽样框、样本、代表性）见[定下研究对象：分析单元和总体](../02_do-the-project/01_question-to-evidence.md#3-定下研究对象分析单元和总体)，涉及人的研究的一般伦理要求见[科研诚信与伦理](../08_throughout/integrity_and_ethics.md)，这里只讲问卷特有的部分。
 
 **适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准，以及软件工程领域关于问卷研究、抽样和心理测量的几篇方法文章（Wagner 等人、Torchiano 等人、Molléri 等人、Baltes 和 Ralph、Graziotin 等人）。其他学科做问卷时，先看本学科的规范。如果你要新编或改编一个量表，见心理学的[量表编制与测量研究](scale_development.md)。
 
@@ -118,7 +118,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 **先做描述统计。** 单选、多选题报告比例，用条形图展示。李克特题是**定序数据**：能排序，但不能确定相邻两档之间距离相等；只有距离明确的数据才能用全部统计检验[^wagner2020challenges-e15]。所以集中趋势用**众数和中位数**，用堆叠条形图展示每道题的完整分布[^wagner2020challenges-e16]；做检验时用秩检验（如 Wilcoxon 符号秩检验），因为定序数据不满足 t 检验等方法的假设[^wagner2020challenges-e17]。
 
-**再看效应量和代表性。** 问卷容易拿到大样本，样本越大越容易"显著"，所以要报告效应量（差异或关联有多大）[^wagner2020challenges-e18]。样本没有代表性时，显著性检验到底说明了什么并不清楚[^wagner2020challenges-e19]。可以把自己样本的人口学分布和大型公开调查比较，估计代表性；但公开调查本身也有偏差，例如 Stack Overflow 年度调查只覆盖它的注册用户[^wagner2020challenges-e5]。显著性和效应量的一般讲法见[报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+**再看效应量和代表性。** 问卷容易拿到大样本，样本越大越容易"显著"，所以要报告效应量（差异或关联有多大）[^wagner2020challenges-e18]。样本没有代表性时，显著性检验到底说明了什么并不清楚[^wagner2020challenges-e19]。可以把自己样本的人口学分布和大型公开调查比较，估计代表性；但公开调查本身也有偏差，例如 Stack Overflow 年度调查只覆盖它的注册用户[^wagner2020challenges-e5]。显著性和效应量的一般讲法见[报告差多少、有多确定，而不只是 p 值](../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 > **不同的看法：李克特数据能不能算平均数？**
 > - **按定序数据处理**：Wagner 等人认为李克特题是定序数据，应当用中位数而不是平均数，检验用秩检验[^wagner2020challenges-e15][^wagner2020challenges-e17]。
@@ -143,7 +143,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第九步：报告
 
-除了研究型论文的一般写法（见[讲清故事，写成论文](../04_write-and-publish/01_story-and-paper.md)），问卷论文要写清：
+除了研究型论文的一般写法（见[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)），问卷论文要写清：
 
 - 目标总体、抽样策略、招募方式（名单、广告、邀请、激励）[^ralph2020empirical-e235]；
 - 回应率，以及为提高回应用了哪些办法[^ralph2020empirical-e238][^molleri2020empirically-e9]；

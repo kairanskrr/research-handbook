@@ -212,7 +212,7 @@ How to use this table `[Our analysis]`: first find your strategy from your centr
 
 ## Advice for newcomers
 
-1. **Write a plan before you sample.** Following the seven DQO steps, at least state the problem, the study boundaries, and the acceptance criteria[^epa2006dqo-e4]. For general planning methods, see the Part 1 chapter [Writing a research plan](../../01_from-interest-to-project/04_research-plan.md).
+1. **Write a plan before you sample.** Following the seven DQO steps, at least state the problem, the study boundaries, and the acceptance criteria[^epa2006dqo-e4]. For general planning methods, see the Part 1 chapter [Writing a research plan](../../02_do-the-project/03_research-plan.md).
 2. **Treat sampling as the main source of error.** Put your effort into how many sites to sample and when, not only into measuring more precisely[^epa2006dqo-e7][^epa2006dqo-e9].
 3. **Decide on quality control in advance.** For each measurement, write down which checks you will run (blanks, replicates, spikes, and so on) and how often[^epa2002qapp-e13].
 4. **Find out how the detection limit you use was determined**[^epa2016mdl-e3]. In the paper, state how many data fall below the reporting limit and how you handled them; don't casually replace them with half the reporting limit[^helsel2020statistical-e2].

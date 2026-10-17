@@ -50,7 +50,7 @@ The European code also lists other practices that are just as unacceptable, for 
 
 Anyone can make these mistakes; the authors who criticize this practice admit that they have themselves written "speculation disguised as explanation"[^lipton2019troubling-e12].
 
-For how to do the analysis, separate exploratory from confirmatory conclusions, and write limitations, see [Analysis and interpretation](../03_conduct-and-analyze/02_analyze-and-interpret.md).
+For how to do the analysis, separate exploratory from confirmatory conclusions, and write limitations, see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md).
 
 **Write it down:** List every experiment run you have so far, including failed and unflattering ones. Next to the list, write one sentence: if a reviewer saw this complete list, would your conclusion still hold?
 

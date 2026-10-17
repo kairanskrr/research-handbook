@@ -1,6 +1,6 @@
 # 电气、电子与信息工程：学科概况
 
-本文讲电气工程、电子工程、信息工程（以下简称"电子信息"）的研究实际怎样运转：要做实物、要测量，还常常要在发表、专利和标准之间做安排。这个领域和计算机领域有大片交叉，共通的做法见[计算机篇](../computer-science/README.md)；各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里的主线各章和[贯穿全程](../../08_throughout/README.md)。本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。这里只写本学科特有的东西。
+本文讲电气工程、电子工程、信息工程（以下简称"电子信息"）的研究实际怎样运转：要做实物、要测量，还常常要在发表、专利和标准之间做安排。这个领域和计算机领域有大片交叉，共通的做法见[计算机篇](../computer-science/README.md)；各学科都适用的做法（选题、做计划、写作、审稿、科研伦理）见[全程地图](../../00_start-here/research-journey.md)里列出的各章和[贯穿全程](../../08_throughout/README.md)。本学科常用哪些研究套路、各看什么证据，见[常用套路与证据标准](#常用套路与证据标准)。这里只写本学科特有的东西。
 
 **读完本文，你应该能：**
 
@@ -160,7 +160,7 @@ IEEE 现在的做法：
 
 ## 本学科常用的研究方法
 
-本学科没有独有的方法文档，用的是[研究方法](../../06_methods/README.md)里的跨学科方法和计算机篇的实践：
+本学科没有独有的方法文档，用的是[研究类型](../../06_methods/README.md)里的跨学科方法和计算机篇的实践：
 
 - [实验测量研究](../../06_methods/experimental_measurement.md)、[定量仿真](../../06_methods/simulation_study.md)：两样都要，见上文[仿真和测量](#仿真和测量两样都要各有局限)。
 - [工程研究](../computer-science/practices/engineering_research.md)、[基准评测](../computer-science/practices/benchmarking.md)、[理论研究](../computer-science/practices/theoretical_research.md)、[优化研究](../computer-science/practices/optimization_study.md)（计算机篇）：评估新电路、新系统时，可能要有原型实测，不能只靠仿真；资源分配、电路参数选择等可以建模成优化问题 `[本项目分析]`。

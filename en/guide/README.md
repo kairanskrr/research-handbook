@@ -6,11 +6,11 @@ This is the full text of the handbook. For how to read it, and where to start gi
 
 | Folder | What it is | How to read it |
 |---|---|---|
-| [`00_start-here/`](00_start-here/how-to-use.md) | Start here: [How to use this handbook](00_start-here/how-to-use.md), [The research journey at a glance](00_start-here/research-journey.md), [Key concepts](00_start-here/key-concepts.md) | Read first |
-| [`01_from-interest-to-project/`](01_from-interest-to-project/01_enter-a-field.md) | Part 1: From interest to project | Read the Parts in order |
-| [`02_from-project-to-study/`](02_from-project-to-study/01_question-to-evidence.md) | Part 2: From project to study design | |
-| [`03_conduct-and-analyze/`](03_conduct-and-analyze/01_run-and-iterate.md) | Part 3: Running the study and analyzing results | |
-| [`04_write-and-publish/`](04_write-and-publish/01_story-and-paper.md) | Part 4: Writing and publishing | |
+| [`00_start-here/`](00_start-here/how-to-use.md) | Start here: [Why we made this handbook](00_start-here/why-this-handbook.md), [How to use this handbook](00_start-here/how-to-use.md), [The research journey at a glance](00_start-here/research-journey.md), [Key concepts](00_start-here/key-concepts.md) | Read first |
+| [`01_from-interest-to-project/`](01_find-a-problem/01_enter-a-field.md) | Part 1: From interest to project | Read the Parts in order |
+| [`02_from-project-to-study/`](02_do-the-project/01_question-to-evidence.md) | Part 2: From project to study design | |
+| [`03_conduct-and-analyze/`](02_do-the-project/06_run-and-iterate.md) | Part 3: Running the study and analyzing results | |
+| [`04_write-and-publish/`](03_write-and-publish/01_story-and-paper.md) | Part 4: Writing and publishing | |
 | [`05_research-strategies/`](05_research-strategies/README.md) | Reference: the eight research strategies, what kind of knowledge each produces and what evidence each needs | Look up when a Part links here |
 | [`06_methods/`](06_methods/README.md) | Reference: research methods shared across fields, such as controlled experiments, interviews, questionnaires, and reviews | |
 | [`07_fields/`](07_fields/README.md) | Reference: Fields, the conventions and research practices specific to each field | |

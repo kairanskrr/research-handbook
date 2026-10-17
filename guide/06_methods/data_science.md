@@ -2,7 +2,7 @@
 
 本文讲**数据科学研究**：对已有数据做预测建模或统计建模，用建模结果回答一个科学问题。例如"能不能根据代码变更的特征，预测哪次提交会引入缺陷"；也包括在其他学科里用机器学习做科研，例如用模型预测内战或疾病。
 
-相近的几篇：数据怎样从代码仓库、缺陷库里挖出来，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；比较现有工具或模型谁更好，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；提出新的学习方法或工具，见[工程研究](../07_fields/computer-science/practices/engineering_research.md)。基线怎么选，见[构建改进：尽早把基线跑起来](../05_research-strategies/build_improve.md#尽早把基线跑起来)；测试数据为什么只用一次、怎样对待随机性，见[比较评估：留一份数据只用于最后检验](../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验)和[比较评估：差异是不是真的](../05_research-strategies/compare_evaluate.md#差异是不是真的)；统计的一般做法见[分析与解读：报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。这些是各类研究共通的内容，本文只讲数据科学特有的部分。
+相近的几篇：数据怎样从代码仓库、缺陷库里挖出来，见[仓库挖掘研究](../07_fields/computer-science/practices/repository_mining.md)；比较现有工具或模型谁更好，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；提出新的学习方法或工具，见[工程研究](../07_fields/computer-science/practices/engineering_research.md)。基线怎么选，见[构建改进：尽早把基线跑起来](../05_research-strategies/build_improve.md#尽早把基线跑起来)；测试数据为什么只用一次、怎样对待随机性，见[比较评估：留一份数据只用于最后检验](../05_research-strategies/compare_evaluate.md#留一份数据只用于最后检验)和[比较评估：差异是不是真的](../05_research-strategies/compare_evaluate.md#差异是不是真的)；统计的一般做法见[分析与解读：报告差多少、有多确定，而不只是 p 值](../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。这些是各类研究共通的内容，本文只讲数据科学特有的部分。
 
 **适用范围** `[本项目分析]`：本文的检查清单主要依据 ACM SIGSOFT（美国计算机协会软件工程分会）为软件工程写的数据科学标准，很多例子来自软件工程、系统安全和机器学习。防数据泄漏的部分依据跨学科的资料：REFORMS 清单由计算机、社会科学、生物医学等领域的研究者共同制定，数据泄漏的调查覆盖 17 个领域（见第 2 节）。其他学科用预测或统计建模做研究时，这部分可以直接参考；统计建模和报告的其他要求，先看本学科的规范，例如健康领域用观察数据研究病因时，见[观察性流行病学研究](observational_epidemiology.md)。
 
@@ -121,7 +121,7 @@ REFORMS 借用 Breiman 的"两种文化"[^kapoor2024reforms-e3]：
 
 ### 第七步：报告波动和不确定性
 
-一般原则（重复多次、报告分布、效应量）见[分析与解读：报告差多少、有多确定](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。数据科学研究的具体要求：
+一般原则（重复多次、报告分布、效应量）见[分析与解读：报告差多少、有多确定](../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。数据科学研究的具体要求：
 
 - 不能只给平均数或中位数，要有波动、置信度等分布信息[^ralph2020empirical-e192]。
 - 用不同的随机训练/测试划分多次运行（例如交叉验证），再用显著性检验和效应量检验比较[^ralph2020empirical-e197]。反面模式是：不检查前提就用统计检验；只报显著性不报效应量；报效应量不给置信区间[^ralph2020empirical-e205]。
@@ -135,7 +135,7 @@ REFORMS 借用 Breiman 的"两种文化"[^kapoor2024reforms-e3]：
 
 - **不轻易声称因果。** SIGSOFT 把下面这种情况列为反面模式：只确立了共变和先后顺序，没有排除第三变量的解释、也没有提出产生机制的假设，就声称因果[^ralph2020empirical-e203]。例如从大量项目中看到某种编码风格更容易出缺陷，只是相关；要相信因果，还需要主动改变编码风格的后续实验[^menzies2019bad-e10]。做不了因果推断时不做因果主张，不算缺陷[^ralph2020empirical-e206]。
 - **查一查模型学到的是不是你以为的东西。** 模型可能抓住和任务相关、但与任务本身无关的痕迹（虚假相关）[^arp2022dos-e6]。一个恶意软件检测实验中，"play.google.com"这个网址成了判定正常应用最重要的特征之一，分类器学会的是区分应用来源，而不是区分恶意与正常[^arp2022dos-e12]。模型越复杂，越容易过拟合虚假相关[^lones2021avoid-e25]。研究的目的不是准确率比别人高一点，而是产生理解，所以要看看模型到底学到了什么[^lones2021avoid-e26]，例如查看最重要的特征、逐个分析出错的样本 `[本项目分析]`。
-- **把结果和推测分开**（一般做法见[分析与解读：负面结果和意外结果](../03_conduct-and-analyze/02_analyze-and-interpret.md#5-负面结果和意外结果)）。结果好时尤其容易随意加入没有证据的说法[^lipton2019troubling-e15]。SIGSOFT 认为，通常把结果和讨论分成两节、结果一节不写推测就够了[^ralph2020empirical-e200]。
+- **把结果和推测分开**（一般做法见[分析与解读：负面结果和意外结果](../02_do-the-project/07_analyze-and-interpret.md#5-负面结果和意外结果)）。结果好时尤其容易随意加入没有证据的说法[^lipton2019troubling-e15]。SIGSOFT 认为，通常把结果和讨论分成两节、结果一节不写推测就够了[^ralph2020empirical-e200]。
 - **写清结论在哪里不成立。** 这能设定清楚的预期，避免炒作[^kapoor2024reforms-e24]。即使模型现在表现好，数据分布随时间变化后也可能变差[^kapoor2024reforms-e23]。
 
 ### 第九步：让别人能复现

@@ -1077,6 +1077,13 @@
 
 - [Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 supplementing Regulation (EU) 2022/2065 of the European Parliament and of the Council by laying down the technical conditions and procedures under which providers of very large online platforms and of very large online search engines are to share data with vetted researchers](https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj) - European Commission，Official Journal of the European Union, L series, 2025/2050, 9 October 2025 2025。欧盟委员会依《数字服务法》第 40 条第 13 款通过的数据访问授权条例。正文用它说明：申请先在欧盟委员会的数据访问门户开账户（第 3 条），再向相应的数字服务协调员提交（第 2 条第 1 项）。🆓 `eu2025dsadata`
 
+### 研究类型的范例论文（智能合约安全）
+
+- [Characterizing Code Clones in the Ethereum Smart Contract Ecosystem](https://arxiv.org/abs/1905.00272) - He 等人，FC 2020。以太坊智能合约代码克隆的大规模实证研究：收集近 1000 万个合约，用模糊哈希检测克隆并用人工标注的 1,100 对样本检验准确率，发现超过 96% 的合约有重复副本、约 9.7% 的相似合约对带有相同漏洞，并找出 73 个抄袭的去中心化应用。🆓 `he2020characterizing`
+- [Slither: A Static Analysis Framework For Smart Contracts](https://arxiv.org/abs/1908.09878) - Feist 等人，WETSEB 2019。提出智能合约静态分析框架 Slither 和它的中间表示 SlithIR；在 1000 个常用的真实合约上，按速度、稳健性和误报率，与 Securify、SmartCheck、Solhint 比较重入漏洞检测；写明了效度威胁，并公开实验设置。arXiv 预印本版。🆓 `feist2019slither`
+- [Empirical Review of Automated Analysis Tools on 47,587 Ethereum Smart Contracts](https://arxiv.org/abs/1910.10601) - Durieux 等人，ICSE 2020。智能合约基准论文的范例：建了一个 69 个合约、115 个人工标注漏洞的数据集和一个 47,518 个链上合约的数据集，并用 SmartBugs 框架评测 9 个分析工具；构建来源、标注方法和去重步骤都写得很清楚。🆓 `durieux2020empirical`
+- [Review of Automated Vulnerability Analysis of Smart Contracts on Ethereum](https://www.frontiersin.org/articles/10.3389/fbloc.2022.814977/full) - Rameder, di Angelo & Salzer，Frontiers in Blockchain，2022。以太坊智能合约漏洞自动分析的系统综述：写明检索式、纳入/排除标准和质量打分表，从 1326 条检索结果筛到 303 篇，整理出 54 种漏洞、140 个工具和现有测试集；可作为综述类论文的完整范例。🆓 `rameder2022review`
+
 ## 数据集与工具
 
 - [dspinellis/awesome-msr](https://github.com/dspinellis/awesome-msr) - 实证软件工程研究可用的数据集和工具合集，以 MSR 会议命名。数据挖掘研究和工具评测找数据的首选入口。CC0。📦
@@ -1158,6 +1165,10 @@
 - [My research idea logfile, 2016-2019](https://nicholas.carlini.com/writing/2024/my-research-logfile.html) - Nicholas Carlini，2024。公开 2016–2019 年的研究想法记录文件，可以看到想法如何产生、哪些后来做成了。需要对抗机器学习背景。🆓 `carlini2024logfile`
 - [Increasing the Impact of PL Research](http://www.pl-enthusiast.net/2020/07/29/increasing-the-impact-of-pl-research/) - Michael Hicks，PL Enthusiast 2020。什么是一个研究领域（基础技术 + 围绕它的难题与应用），以及 PL 研究如何面向更大的问题扩大影响。🆓 `hicks2020impact`
 - [Don't teach. Incentivize: Scale-first view of large language models](https://www.csail.mit.edu/event/ei-seminar-hyung-won-chung-openai-dont-teach-incentivize-scale-first-view-large-language) - Hyung Won Chung，MIT EI Seminar 2024。与其教模型每项技能，不如设计激励让它自己学；研究方向要顺应算力扩展。链接为活动页面，视频地址待确认。🆓
+- [Has Management Studies Lost Its Way? Ideas for More Imaginative and Innovative Research](https://openaccess.city.ac.uk/id/eprint/17992/) - Alvesson & Sandberg，Journal of Management Studies 2013。批评"找空白"式研究占主导，分析其背后的制度、学术规范和研究者身份原因；给出用问题化（挑战已有文献的假设）提出研究问题的六步原则。CC BY 许可。🆓 `alvesson2013has`
+- [The Problematizing Review](https://openaccess.city.ac.uk/id/eprint/34063/) - Alvesson & Sandberg，Journal of Management Studies 2020。提出问题化式文献综述：深读少量奠基文献、找出并挑战假设；细化六步原则，并列出这种做法可能受到的批评。机构仓库有作者接受稿。🆓 `alvesson2020problematizing`
+- [The Heilmeier Catechism](https://www.darpa.mil/about/heilmeier-catechism) - DARPA 官网。DARPA 前局长 Heilmeier 提出的八个问题，用来评估一个研究项目：目标是什么、现在怎么做、新在哪里、谁在乎、风险、成本、时间、怎样检验成功。🆓 `darpaheilmeier`
+- The Craft of Research（第四版） - Booth、Colomb、Williams 等，芝加哥大学出版社 2016。从主题到问题再到意义的三步句式："我在研究 X，因为我想弄清 Y，以便帮助读者理解 Z"。原书付费；句式可在 [Brandeis 写作项目讲义](https://www.brandeis.edu/writing-program/resources/faculty/handouts/articulating-research-topic.html) 免费读到。💰 `booth2016craft`
 
 ### 研究流程与习惯
 

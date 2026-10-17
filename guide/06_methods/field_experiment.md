@@ -127,7 +127,7 @@
 
 **整群的标准误。** 忽略整群分配，标准误会偏小[^egapclusterrandomization-e3]：EGAP 的例子里，200 个观测来自 10 个群、组内相关系数为 0.5 时，有效样本只有约 19[^egapclusterrandomization-e2]。Duflo 等人引用的模拟显示，群少于 50 个时常用的聚类稳健标准误容易错误地拒绝"没有效应"，这时可以用随机化推断[^duflo2007toolkit-e32]。
 
-**多个结果。** Duflo 等人主张，收集的结果变量无论显著与否都应报告[^duflo2007toolkit-e33]。统计检验的一般问题见主线章节[报告差多少、有多确定，而不只是 p 值](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+**多个结果。** Duflo 等人主张，收集的结果变量无论显著与否都应报告[^duflo2007toolkit-e33]。统计检验的一般问题见第二部分的[报告差多少、有多确定，而不只是 p 值](../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 ### 第 9 步：想清溢出
 

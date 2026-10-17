@@ -2,7 +2,7 @@
 
 本文讲**有人类参与者的对照实验**：研究者主动改变一个因素（例如开发者用哪个调试工具），把参与者随机分组，在其他条件尽量相同的情况下，比较这个因素对人的表现有什么影响。
 
-如果被比较的是软件系统、工具或模型本身，可以自动运行、重复测量，不需要人参与，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你提出了一个新工具，想知道整篇论文该怎样评估它，先看[工程研究](../07_fields/computer-science/practices/engineering_research.md)，有人参与的实验只是其中一种评估方式。统计检验的一般讲法见[分析与解读](../03_conduct-and-analyze/02_analyze-and-interpret.md)，效度见[效度与局限](../02_from-project-to-study/03_validity-and-limits.md)，本文不重复。
+如果被比较的是软件系统、工具或模型本身，可以自动运行、重复测量，不需要人参与，见[基准评测](../07_fields/computer-science/practices/benchmarking.md)；如果你提出了一个新工具，想知道整篇论文该怎样评估它，先看[工程研究](../07_fields/computer-science/practices/engineering_research.md)，有人参与的实验只是其中一种评估方式。统计检验的一般讲法见[分析与解读](../02_do-the-project/07_analyze-and-interpret.md)，效度见[效度与局限](../02_do-the-project/04_validity-and-limits.md)，本文不重复。
 
 **适用范围** `[本项目分析]`：本文的规范和例子主要来自软件工程，依据是 ACM SIGSOFT 的实证研究标准、Ko 等人关于软件工具实验的指南，以及软件工程里关于学生与专业人员、抽样的讨论。其他学科做对照实验时，先看本学科的规范。可以对照的其他学科方法篇：医学干预的[随机对照试验](randomized_controlled_trial.md)，在真实世界里和政府、企业合作随机分组的[田野实验](field_experiment.md)。
 
@@ -56,7 +56,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
   - 无关变量：还有什么会影响结果（例如编程经验），用实验设计控制、用统计方法控制，还是没有控制。
 - **能预注册就预注册**：在实验开始前把假设和设计公开存档[^ralph2020empirical-e176]。
 
-**为什么**：验证性的实验，假设要在看到数据之前定下来。看到结果再提假设（HARKing）、只报告显著的检验（p-hacking），SIGSOFT 都列为反面做法[^ralph2020empirical-e27]。探索性研究和验证性研究的区别，见[分清：你是在检验，还是在探索](../02_from-project-to-study/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
+**为什么**：验证性的实验，假设要在看到数据之前定下来。看到结果再提假设（HARKing）、只报告显著的检验（p-hacking），SIGSOFT 都列为反面做法[^ralph2020empirical-e27]。探索性研究和验证性研究的区别，见[分清：你是在检验，还是在探索](../02_do-the-project/01_question-to-evidence.md#5-分清你是在检验还是在探索)。
 
 **容易错在哪**：用不好的替代指标当因变量，例如用完成时间代表任务有多复杂[^ralph2020empirical-e180]。
 
@@ -124,7 +124,7 @@ Ko 等人指出，**结果测量的波动是实验得出负面结果的主要原
 
 **怎么做**：正式实验前，先找几个人试做，目的是找出无关波动的来源[^ko2015practical-e31]，例如材料看不懂、工具有缺陷、任务有歧义 `[本项目分析]`。可以先由研究者自己当参与者预演一遍[^ko2015practical-e33]；但最重要的一轮，要尽量用与正式实验相同类型的参与者、场地、材料、流程和实验人员[^ko2015practical-e32]。发现问题就改，改完再试。
 
-**为什么**：Ko 等人回顾的 345 项研究中，只有 11 项提到做过预实验[^ko2015practical-e31]。预实验的数据还能用来估计功效分析需要的数值[^ko2015practical-e12]。预研究的一般建议见[先做小规模试验，排除最大风险](../02_from-project-to-study/04_pilot-and-derisk.md)。
+**为什么**：Ko 等人回顾的 345 项研究中，只有 11 项提到做过预实验[^ko2015practical-e31]。预实验的数据还能用来估计功效分析需要的数值[^ko2015practical-e12]。预研究的一般建议见[先做小规模试验，排除最大风险](../02_do-the-project/05_pilot-and-derisk.md)。
 
 **容易错在哪**：把预实验的数据并入正式结果。预实验的数据应该丢弃，因为当时的设置还在变[^ko2015practical-e32]。
 
@@ -139,7 +139,7 @@ Ko 等人指出，**结果测量的波动是实验得出负面结果的主要原
 
 ### 第 8 步：分析和报告
 
-**分析**：报告适合数据分布的描述统计和推断统计，说明为什么选这些检验；报告效应量和置信区间，而不只是"显著/不显著"[^ralph2020empirical-e172]。把数据分布画出来[^ralph2020empirical-e177]。统计方面的一般做法见[分析与解读](../03_conduct-and-analyze/02_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
+**分析**：报告适合数据分布的描述统计和推断统计，说明为什么选这些检验；报告效应量和置信区间，而不只是"显著/不显著"[^ralph2020empirical-e172]。把数据分布画出来[^ralph2020empirical-e177]。统计方面的一般做法见[分析与解读](../02_do-the-project/07_analyze-and-interpret.md#3-报告差多少有多确定而不只是-p-值)。
 
 **报告要写清**：
 

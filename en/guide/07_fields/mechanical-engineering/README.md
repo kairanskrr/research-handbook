@@ -48,7 +48,7 @@ The table below is our own summary, only meant to help you spot the differences 
 | | Mechanical engineering | Computer science |
 |---|---|---|
 | Where results come from | Test-rig measurements, numerical simulation (fluids, structures, heat transfer), prototype testing | Mainly experiments on code, systems, and data |
-| How you state "how accurate" | Measurement results come with an uncertainty[^jcgm2008gum-e1]; some journals require numerical results to demonstrate grid convergence[^jfenumaccuracy-e2] | Mostly repeated runs and statistical tests (see the Part 3 chapter section [Report how big and how certain, not just the p-value](../../03_conduct-and-analyze/02_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value)) |
+| How you state "how accurate" | Measurement results come with an uncertainty[^jcgm2008gum-e1]; some journals require numerical results to demonstrate grid convergence[^jfenumaccuracy-e2] | Mostly repeated runs and statistical tests (see the Part 3 chapter section [Report how big and how certain, not just the p-value](../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value)) |
 | What sets the pace | Also machining, rig building, and equipment booking | Mainly conference deadlines |
 | Safety | Machine shops and test rigs carry a risk of physical injury (see below) | Not covered on the Computer science page |
 

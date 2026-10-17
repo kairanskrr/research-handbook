@@ -14,7 +14,7 @@ Why it is worth the effort: everything you do, you will probably have to do over
 
 A note on scope first: most of the sources cited here are written for researchers who do computational work. Wilson and colleagues describe "good enough" practices for scientific computing[^wilson2017good-e1], Schnell's notebook rules are for biologists who do purely computational work[^schnell2015ten-e8], and Noble's examples come from computational biology. The principles (raw data stays read-only, every result can be traced, the log is kept by date) carry over to questionnaires, interviews, and lab work; adapt the specifics, such as folder names and git, to your field. `[Our analysis]`
 
-This page covers only the practical how-to. For why you should record, keep, and share materials (the integrity angle), see [Research integrity and ethics](integrity_and_ethics.md); for what makes a conclusion credible, see [Validity and limitations](../02_from-project-to-study/03_validity-and-limits.md).
+This page covers only the practical how-to. For why you should record, keep, and share materials (the integrity angle), see [Research integrity and ethics](integrity_and_ethics.md); for what makes a conclusion credible, see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
 
 ---
 
@@ -125,7 +125,7 @@ Every project should keep at least three kinds of written record, each with its 
 | **Research log** | What did I do on which day, what did I see, what did I make of it, what did I decide? | Append by date, in some detail[^noble2009quick-e6]; never delete old entries |
 | **Settled conclusions** | What do we know for sure? What important decisions did we make, and why? What limitations do we know about? | Only findings and decisions that have been checked, updated as the project goes; this is the raw material for the paper |
 
-**The research log is the core.** For how to log each day and review every week or two while running the study, see [Running and iterating](../03_conduct-and-analyze/01_run-and-iterate.md). Here we cover only how to keep it so it holds up when you look things up later. Most of the points below come from notebook rules written for computational biologists[^schnell2015ten-e8], and they apply equally to other research `[Our analysis]`:
+**The research log is the core.** For how to log each day and review every week or two while running the study, see [Running and iterating](../02_do-the-project/06_run-and-iterate.md). Here we cover only how to keep it so it holds up when you look things up later. Most of the points below come from notebook rules written for computational biologists[^schnell2015ten-e8], and they apply equally to other research `[Our analysis]`:
 
 - **Write it chronologically, one entry after another**, each with its date and subject[^schnell2015ten-e10].
 - **Write each entry right after the work is done**[^schnell2015ten-e3]. If you rely on memory, a suggestion from a meeting or a key step in your analysis may well be gone by the time you need it[^schnell2015ten-e9].
@@ -134,7 +134,7 @@ Every project should keep at least three kinds of written record, each with its 
 
 A **change log** is a stripped-down research log that records only what changed in the project's files: put a `CHANGELOG.txt` in the documentation folder and write dated notes of changes in reverse chronological order (most recent first). It serves as the equivalent of a lab notebook[^wilson2017good-e15]. Materials that aren't under version control need one most `[Our analysis]`.
 
-**Reading notes** are kept separately, one file per paper; see [Entering a field and exploring the literature](../01_from-interest-to-project/01_enter-a-field.md#6-take-notes-one-per-paper-plus-a-problem-log). You can put them under `notes/papers/`, alongside the project. `[Our analysis]`
+**Reading notes** are kept separately, one file per paper; see [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md#6-take-notes-one-per-paper-plus-a-problem-log). You can put them under `notes/papers/`, alongside the project. `[Our analysis]`
 
 **Why three kinds:** The log is ordered by time and answers "what happened that day". When you want to know "where do things stand" or "what do we know for sure", paging through hundreds of log entries is too slow. On the other hand, with only a status document, a few months later you can't say how a decision came about. The three complement each other; you don't pick one. In each weekly review, condense that week's log into the status and settled-conclusions files; see [Planning and daily routines](planning_and_routines.md). `[Our analysis]`
 
