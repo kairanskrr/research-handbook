@@ -151,7 +151,7 @@ Mak 等人转述的改进建议包括：不只用啮齿类，也用更高等的�
 
 ## 本学科常用的研究方法
 
-**跨学科的研究方法**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[实验台实验（湿实验）](../../06_methods/bench_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[定量仿真](../../06_methods/simulation_study.md)、[复现研究](../../06_methods/replication.md)、[综述研究](../../06_methods/review_study.md)。基础医学目前没有本学科独有的研究方法页。
+**跨学科的研究类型**：[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[实验台实验（湿实验）](../../06_methods/bench_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[定量仿真](../../06_methods/simulation_study.md)、[复现研究](../../06_methods/replication.md)、[综述研究](../../06_methods/review_study.md)。基础医学目前没有本学科独有的研究方法页。
 
 本学科的特别要求 `[本项目分析]`：细胞和分子实验特别要注意抗体验证；动物模型研究按上面四项核心要求做，结论要说明模型和人的差距；药理学实验按目标期刊的设计与分析规定做；为监管申报做的毒理学和安全性研究要遵守良好实验室规范[^oecd1998glp-e2]；人体样本研究要确认当初的同意覆盖你的用途[^wma2016taipei-e6]。非动物替代方法包括体外研究、计算机建模、流行病学研究等[^mak2014lost-e11]。
 

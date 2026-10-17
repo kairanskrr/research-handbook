@@ -158,7 +158,7 @@ How to use this table `[Our analysis]`:
 
 ## Research methods common in this field
 
-Here is how the cross-field research methods map onto economics; the mapping and the notes on differences are our own summary `[Our analysis]`:
+Here is how the cross-field research types map onto economics; the mapping and the notes on differences are our own summary `[Our analysis]`:
 
 - For **field experiments**, see [Field experiments](../../06_methods/field_experiment.md); for the general workflow of **lab experiments**, see [Controlled experiments](../../06_methods/controlled_experiment.md).
 - For **causal inference from observational data**, see [Quasi-experiments and causal identification](../../06_methods/quasi_experiment.md), and for data processing, [Data science](../../06_methods/data_science.md). The key question in economics here is the identification strategy[^angrist2010credibility-e10].

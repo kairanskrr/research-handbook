@@ -89,7 +89,7 @@
   1. **写方案**。内容包括：研究问题和假设、主要结局、统计分析计划、具体操作步骤[^perciedusert2020reporting-e67]。
   2. **过伦理审批**。实验开始前，要拿到相应伦理委员会和（或）监管机构的批准[^perciedusert2020reporting-e64]。审批程序以所在国家的法规和本单位动物伦理委员会的要求为准 `[本项目分析]`。
   3. **考虑预注册**，也就是在实验开始前把方案登记到公开平台。可选的平台有：
-     - 专门的动物研究登记平台 animalstudyregistry.org，由德国联邦风险评估研究所（下属的德国实验动物保护中心）运营，接收世界各地的动物研究[^animalstudyregistry-e1]。它的首页新闻提到，2026 年 3 月它和 preclinicaltrials.eu 一起商讨推广预注册[^animalstudyregistry-e3]；本文未能读到 preclinicaltrials.eu 的介绍页，它接收哪些研究请自行查看。
+     - 专门的动物研究登记平台 animalstudyregistry.org，由德国联邦风险评估研究所（下属的德国实验动物保护中心）运营，接收世界各地的动物研究[^animalstudyregistry-e1]。它首页一条注明 2026-03-30 的新闻说，3 月 25 日它和 preclinicaltrials.eu 一起商定了推广预注册的具体办法[^animalstudyregistry-e3]；本文未能读到 preclinicaltrials.eu 的介绍页，它接收哪些研究请自行查看。
      - 开放科学框架（Open Science Framework），可以设置保密期，论文发表前不公开[^perciedusert2020reporting-e68]。
 - **为什么**：预注册能证明假设、方法和分析是事先计划的，不是看着数据调出来的，也让你免受"选择性报告"的质疑[^perciedusert2020reporting-e66]。审稿人可以拿登记内容和论文对照[^animalstudyregistry-e2]。
 - **容易错在哪**：以为登记了就不能改。可以改，但要在论文里写明偏离了什么、为什么[^perciedusert2020reporting-e69]。

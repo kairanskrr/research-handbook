@@ -40,7 +40,7 @@
 
 很多课题会配合计算，常用的一种是**密度泛函理论**（density functional theory，DFT），一种从量子力学出发计算原子尺度结构和性质的方法 `[本项目分析]`。按 Lejaeghere 等人 2016 年文中的说法，每年发表的密度泛函理论论文超过 1.5 万篇，它也越来越多地被自动化使用，用来建大型数据库[^lejaeghere2016reproducibility-e1]。**高通量筛选**是一次计算成千上万个结构的性质[^draxl2018nomad-e3]，用来寻找有希望的材料 `[本项目分析]`。
 
-计算也有可复现问题。计算程序很多，实现细节差别很大[^lejaeghere2016reproducibility-e2]。Lejaeghere 等人组织了一次社区合作，比较了 15 个程序、40 种势或基组在 71 种单质晶体上的结果[^lejaeghere2016reproducibility-e3]。（势和基组是计算里描述原子和电子的近似设置，通常以文件形式随程序提供 `[本项目分析]`。）结论是：较新的程序和赝势（一类常用的势）之间非常一致，差别和不同高精度实验之间的差别相当；较老的方法一致性差一些[^lejaeghere2016reproducibility-e4]。因此他们主张只用某个程序最新版的势文件[^lejaeghere2016reproducibility-e5]。他们也承认，要完整说明一次计算，连程序默认值和写死在代码里的参数都得写上[^lejaeghere2016reproducibility-e6]。仿真研究的一般做法见研究方法里的[定量仿真](../../06_methods/simulation_study.md)。
+计算也有可复现问题。计算程序很多，实现细节差别很大[^lejaeghere2016reproducibility-e2]。Lejaeghere 等人组织了一次社区合作，比较了 15 个程序、40 种势或基组在 71 种单质晶体上的结果[^lejaeghere2016reproducibility-e3]。（势和基组是计算里描述原子和电子的近似设置，通常以文件形式随程序提供 `[本项目分析]`。）结论是：较新的程序和赝势（一类常用的势）之间非常一致，差别和不同高精度实验之间的差别相当；较老的方法一致性差一些[^lejaeghere2016reproducibility-e4]。因此他们主张只用某个程序最新版的势文件[^lejaeghere2016reproducibility-e5]。他们也承认，要完整说明一次计算，连程序默认值和写死在代码里的参数都得写上[^lejaeghere2016reproducibility-e6]。仿真研究的一般做法见研究类型里的[定量仿真](../../06_methods/simulation_study.md)。
 
 ### 发表
 

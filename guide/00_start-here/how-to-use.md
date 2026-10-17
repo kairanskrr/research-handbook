@@ -19,7 +19,7 @@
 | 读过一批论文，有几个想法，但不知道哪个能做 | [1.3 动手探索](../01_find-a-problem/03_explore.md)，再读[1.4 判断和筛选](../01_find-a-problem/04_judge-and-screen.md) |
 | 有两三个候选，说不清要证明哪句话 | [1.5 收敛成项目](../01_find-a-problem/05_converge.md) |
 | 清楚自己要证明什么，写得出那句话 | 先用[1.5 的出口检查](../01_find-a-problem/05_converge.md#7-出口可以进入第二部分了吗)确认，再进入[2.1 从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md) |
-| 有了证据清单，不知道用什么方法拿 | [2.2 选定研究套路和方法](../02_do-the-project/02_choose-method.md)，以及[研究类型](../06_methods/README.md)目录 |
+| 有了证据清单，不知道用什么方法拿 | [2.2 选方法](../02_do-the-project/02_choose-method.md)，以及[研究类型](../06_methods/README.md)目录 |
 | 做到一半卡住了 | [2.8 决策点：继续、调整，还是退回](../02_do-the-project/08_decision-points.md)；卡在具体问题上，先看[2.6 卡住时，按固定步骤排查](../02_do-the-project/06_run-and-iterate.md#5-卡住时按固定步骤排查) |
 | 结果和预期不一样 | [2.7 负面结果和意外结果](../02_do-the-project/07_analyze-and-interpret.md#5-负面结果和意外结果)，再到[2.8 决策点](../02_do-the-project/08_decision-points.md)决定继续、调整还是退回 |
 | 结论清楚了，要写论文、投稿 | [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)、[选择发表渠道与投稿](../03_write-and-publish/02_venue-and-submission.md) |

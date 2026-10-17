@@ -155,7 +155,7 @@ BMES 准则不是法律，规定的是监管要求之外，生物医学工程师
 
 ## 本学科常用的研究方法
 
-本学科没有单独的学科独有方法页。跨学科的研究方法里，常用的有[定量仿真](../../06_methods/simulation_study.md)、[数据科学研究](../../06_methods/data_science.md)、[对照实验](../../06_methods/controlled_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)；做新器械、新算法，可以参考计算机篇的[工程研究](../computer-science/practices/engineering_research.md)。下面只写额外要注意的地方：
+本学科没有单独的学科独有方法页。跨学科的研究类型里，常用的有[定量仿真](../../06_methods/simulation_study.md)、[数据科学研究](../../06_methods/data_science.md)、[对照实验](../../06_methods/controlled_experiment.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)；做新器械、新算法，可以参考计算机篇的[工程研究](../computer-science/practices/engineering_research.md)。下面只写额外要注意的地方：
 
 - **台架试验**（没有单独文档）：测试条件要尽量接近实际使用，并写清装置 `[本项目分析]`。
 - **对照实验**：比较不同设计对使用者（医生、护士、病人）的影响，例如可用性测试 `[本项目分析]`。用的是研究用器械，在美国还可能适用第 812 部分[^cfr2026ide-e2]。

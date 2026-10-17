@@ -94,11 +94,11 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 
 ### The deadline is close and the evidence isn't there yet
 
-**First, work out** `[Our analysis]`: draw two columns. On the left, list each conclusion; on the right, the figure, table, or experiment that supports it. Where the right side is empty, is that a central conclusion or a supporting one? Can you fill the gap in the time left?
+**First, work out** `[Our analysis]`: draw two columns. On the left, list each conclusion; on the right, the figure, table, or experiment that supports it. Where the right side is empty, is that the central claim or a supporting conclusion? Can you fill the gap in the time left?
 
 **What to do now:**
 1. A supporting conclusion lacks evidence: cut it, or present it as a "preliminary observation" `[Our analysis]`.
-2. A central conclusion lacks evidence: narrow the claim to what the evidence supports, or aim for a later deadline `[Our analysis]`. Do not quietly drop unfavorable data or results to keep the claim: the European Code defines omitting or suppressing data or results without justification as falsification[^allea2023european-e3].
+2. The central claim lacks evidence: narrow the claim to what the evidence supports, or aim for a later deadline `[Our analysis]`. Do not quietly drop unfavorable data or results to keep the claim: the European Code defines omitting or suppressing data or results without justification as falsification[^allea2023european-e3].
 3. Decide with your advisor whether to submit now or wait. An opinion piece in computing criticized the habit of submitting when a conference deadline comes around rather than when the research is ready[^fortnow2009time-e2].
 
 **Read more:** [When the evidence doesn't match the claim, change the claim](02_do-the-project/07_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim); [How the plan changes](02_do-the-project/03_research-plan.md#7-how-the-plan-changes)

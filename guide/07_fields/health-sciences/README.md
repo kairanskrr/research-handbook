@@ -126,7 +126,7 @@ Mays 和 Pope 2000 年在《英国医学杂志》（BMJ）上写道，当时质�
 - **找反例**：主动寻找并讨论与你的解释相矛盾的数据[^mays2000assessing-e8]。
 - **给足原始资料**，让读者能判断你的解释有没有数据支撑[^mays2000assessing-e11]。
 - **请受访者核对**，但它只是减少错误的一个环节，不是最终检验[^mays2000assessing-e9]。
-- 访谈怎样设计和编码，方法与研究方法里的[访谈研究](../../06_methods/interview_study.md)相通 `[本项目分析]`。
+- 访谈怎样设计和编码，方法与研究类型里的[访谈研究](../../06_methods/interview_study.md)相通 `[本项目分析]`。
 
 ### 伦理：除了保护个人，还要考虑群体和社区
 
@@ -141,7 +141,7 @@ Mays 和 Pope 2000 年在《英国医学杂志》（BMJ）上写道，当时质�
 
 ### 系统综述：Cochrane 手册
 
-Cochrane 手册讲干预效果的系统综述，具体讲 Cochrane 用的方法[^higgins2024cochrane-e12]；完整步骤（方案、偏倚评价、合并、证据分级、按 PRISMA 报告）见研究方法里的[系统综述与元分析](../../06_methods/meta_analysis.md)。健康科学的综述常要纳入非随机研究，这时解释结果要始终谨慎[^higgins2024cochrane-e7]；判断这类研究，要看具体设计特征（比如哪些部分是前瞻设计的），不要只看"队列""病例对照"这类标签[^higgins2024cochrane-e10]。
+Cochrane 手册讲干预效果的系统综述，具体讲 Cochrane 用的方法[^higgins2024cochrane-e12]；完整步骤（方案、偏倚评价、合并、证据分级、按 PRISMA 报告）见研究类型里的[系统综述与元分析](../../06_methods/meta_analysis.md)。健康科学的综述常要纳入非随机研究，这时解释结果要始终谨慎[^higgins2024cochrane-e7]；判断这类研究，要看具体设计特征（比如哪些部分是前瞻设计的），不要只看"队列""病例对照"这类标签[^higgins2024cochrane-e10]。
 
 ---
 
@@ -162,7 +162,7 @@ Cochrane 手册讲干预效果的系统综述，具体讲 Cochrane 用的方法[
 
 ## 本学科常用的研究方法
 
-跨学科的研究方法：[观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)、[访谈研究](../../06_methods/interview_study.md)。队列、病例对照、横断面研究的区别见[临床医学篇](../clinical-medicine/README.md#本学科常用的研究方法)。健康科学里还常见下面几类，目前没有单独的做法页：
+跨学科的研究类型：[观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)、[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[准实验与因果识别](../../06_methods/quasi_experiment.md)、[访谈研究](../../06_methods/interview_study.md)。队列、病例对照、横断面研究的区别见[临床医学篇](../clinical-medicine/README.md#本学科常用的研究方法)。健康科学里还常见下面几类，目前没有单独的做法页：
 
 - **用常规收集数据的研究**：用登记、行政数据、电子病历等现成数据[^benchimol2015record-e2]，按 RECORD 报告。思路和计算机篇的[仓库挖掘](../computer-science/practices/repository_mining.md)相通，但健康数据涉及隐私和伦理审批 `[本项目分析]`。
 - **整群随机试验**：随机分配社区、医院或科室，而不是个人[^cioms2016ethical-e16]。

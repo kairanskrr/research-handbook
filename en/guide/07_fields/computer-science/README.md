@@ -179,7 +179,7 @@ How to use this table `[Our analysis]`:
 
 ## Kinds of research
 
-The specific approaches computer science research uses fall into two groups: research practices used only in computer science live in this section on computer science; research methods other fields also use live in the [Research methods](../../06_methods/README.md) section. For which strategy each one serves, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above.
+The specific approaches computer science research uses fall into two groups: research practices used only in computer science live in this section on computer science; research methods other fields also use live in the [Research types](../../06_methods/README.md) section. For which strategy each one serves, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above.
 
 The same approach can have different requirements in different research areas (see [Conventions differ across research areas](#conventions-differ-across-research-areas) above); for each area's own rules, see [Areas of computer science](subfields/README.md).
 
@@ -193,7 +193,7 @@ For an overview, see [Research practices specific to computer science](practices
 - [Mining software repositories](practices/repository_mining.md): analyze software development data such as code repositories and bug reports
 - [Theoretical research](practices/theoretical_research.md): proofs and formal analysis
 
-### Research methods shared with other fields
+### Research types shared with other fields
 
 **Working with the literature**
 - [Review studies](../../06_methods/review_study.md): systematic reviews, mapping studies, and review papers

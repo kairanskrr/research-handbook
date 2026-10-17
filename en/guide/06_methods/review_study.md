@@ -120,7 +120,7 @@ The most common mistake is **listing papers one by one**: "A found X, B found Yâ
 
 ### Phase 3: Reporting
 
-We recommend writing the report following PRISMA 2020. PRISMA is a reporting guideline for systematic reviews that comes from medicine and has been widely adopted in software engineering and other fields. The 2020 version is a 27-item checklist[^pr-e1]. It covers how to report, not how to conduct a review, but it is best to read it at the planning stage so that you record everything you will need[^pr-e2]. A few things that are easy to miss:
+We recommend writing the report following PRISMA 2020. PRISMA is a reporting guideline for systematic reviews; the 2020 version is a checklist of 27 items in seven sections[^pr-e1]. It covers how to report, not how to conduct a review, but it is best to read it at the planning stage so that you record everything you will need[^pr-e2]. A few things that are easy to miss:
 
 - Give the **full search strings** for every database, including any filters[^pr-e3];
 - Use a **flow diagram** to report how many records remained and how many were excluded at each step[^pr-e4];

@@ -161,7 +161,7 @@ How to use this table `[Our analysis]`:
 - [Close reading and literary argument](practices/close_reading.md): read a text closely, propose an interpretation, and argue for it with textual evidence
 - [Language documentation and linguistic fieldwork](practices/language_documentation.md): record, transcribe, annotate, and archive a language together with its community
 
-**Cross-field research methods you can borrow** (differences in the sections above) `[Our analysis]`:
+**Cross-field research types you can borrow** (differences in the sections above) `[Our analysis]`:
 - [Archival research](../../06_methods/archival_research.md): working with manuscripts, letters, and editions
 - [Oral history](../../06_methods/oral_history.md): its practices for permissions and archiving are close to those of language documentation
 - [Review studies](../../06_methods/review_study.md): when you survey how earlier scholars have interpreted an author or a question, you can borrow the idea of stating how you searched and what you included; literature reviews in literary studies put more weight on positioning your own argument

@@ -190,7 +190,7 @@ How to use this table `[Our analysis]`:
 
 **A practice specific to philosophy**: [Philosophical argument](practices/philosophical_argument.md), which covers the full process of proposing a thesis, giving an argument, and responding to objections.
 
-**Cross-field research methods**: for the vignette questionnaires of experimental philosophy, see [Questionnaire surveys](../../06_methods/questionnaire_survey.md) and [Controlled experiments](../../06_methods/controlled_experiment.md); for corpus studies, see [Data science](../../06_methods/data_science.md); for interviews and fieldwork in religious studies, see [Interview studies](../../06_methods/interview_study.md) and [Case study and ethnography](../../06_methods/case_study.md); when work in the history of philosophy or of religion uses unpublished primary records, see [Archival research](../../06_methods/archival_research.md).
+**Cross-field research types**: for the vignette questionnaires of experimental philosophy, see [Questionnaire surveys](../../06_methods/questionnaire_survey.md) and [Controlled experiments](../../06_methods/controlled_experiment.md); for corpus studies, see [Data science](../../06_methods/data_science.md); for interviews and fieldwork in religious studies, see [Interview studies](../../06_methods/interview_study.md) and [Case study and ethnography](../../06_methods/case_study.md); when work in the history of philosophy or of religion uses unpublished primary records, see [Archival research](../../06_methods/archival_research.md).
 
 **Methods from related fields**: [Doctrinal legal research](../law/practices/doctrinal_research.md), [Close reading and literary argument](../languages-literature/practices/close_reading.md).
 

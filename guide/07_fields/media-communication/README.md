@@ -90,7 +90,7 @@ Lombard、Snyder-Duch 和 Bracken 在网上公开了一份信度指南（2010 �
 6. **正式测试样本要够大。** 不少于 50 个单元或全样本的 10%，很少需要超过 300 个[^lombard2010practical-e9]。
 7. **逐个变量报告。** 不要用所有变量合在一起的总体信度[^lombard2010practical-e12]。论文里至少写清：信度样本的大小、抽取方法和理由，每个变量、每个指标的信度值，分歧怎样解决[^lombard2010practical-e10]。
 
-**定性研究要不要算信度？** 有争议。McDonald 等人 2019 年认为，怎样体现可靠性应当和研究者依据的认识论传统一致[^mcdonald2019reliability-e9]；如果发现依赖频次统计，就有充分理由算[^mcdonald2019reliability-e12]。两方理由和具体做法见研究方法里的[访谈研究](../../06_methods/interview_study.md#第六步让分析可信)。
+**定性研究要不要算信度？** 有争议。McDonald 等人 2019 年认为，怎样体现可靠性应当和研究者依据的认识论传统一致[^mcdonald2019reliability-e9]；如果发现依赖频次统计，就有充分理由算[^mcdonald2019reliability-e12]。两方理由和具体做法见研究类型里的[访谈研究](../../06_methods/interview_study.md#第六步让分析可信)。
 
 ### 网络和社交媒体研究的伦理
 

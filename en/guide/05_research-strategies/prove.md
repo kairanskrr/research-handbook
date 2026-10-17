@@ -115,7 +115,7 @@ This table lists only mistakes at the level of the strategy. For mistakes in wri
 | The statement you prove is not the question you actually care about (different definitions, a different model) | Aaronson lists "the authors don't understand the question" as a sign of a wrong breakthrough[^aaronson2008ten-e1]; the result looks valid but answers a different question `[Our analysis]` |
 | Proving only that the implementation meets its specification, then claiming the system is "secure" | The proof does not guarantee that the specification describes the behavior users expect[^klein2009sel4-e2] |
 | Strong assumptions or a weak conclusion that you don't own up to | Tao advises stating these openly[^taowriting-e4]; otherwise readers will assume your result applies more widely than it does `[Our analysis]` |
-| The abstract says "we prove", and by the end it has become "this seems plausible" | The proof has quietly turned into a merely plausible argument; Aaronson lists "the authors themselves switch to weasel words by the end" as a warning sign[^aaronson2008ten-e4] |
+| The abstract says "we prove", and by the end it has become "this seems plausible" | The proof has quietly turned into a merely plausible argument; Aaronson lists "the authors themselves switch to weasel words by the end" as a sign of a wrong breakthrough[^aaronson2008ten-e4] |
 | "Validating" a formal model with one or two examples | A formal model must be backed by rigorous derivation and proof[^shaw2003writing-e9] |
 | Diving straight into a famous hard problem as a newcomer | Famous hard problems are almost never solved out of nowhere[^taocareer-e13] |
 

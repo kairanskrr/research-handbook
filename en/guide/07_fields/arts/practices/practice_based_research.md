@@ -26,7 +26,7 @@ This page explains how to run a **practice-based research project**, such as a P
 
 **How it differs from related approaches** (cells without footnotes are our own summary `[Our analysis]`; for the education approach of designing and researching at the same time, see [Design-based research](../../education/practices/design_based_research.md)):
 
-| | Practice-based research | Practice-led research | [Action research](../../../06_methods/action_research.md) (research method) |
+| | Practice-based research | Practice-led research | [Action research](../../../06_methods/action_research.md) (research type) |
 |---|---|---|---|
 | Core output | Creative work plus text[^candy2018practice-e17] | New understanding of practice; can be all text[^candy2006practice-e3] | A study of an organizational change |
 | Whose practice | Usually the researcher's own creative work | The researcher's own practice or someone else's | A change the researcher drives together with a partner organization |
@@ -74,7 +74,7 @@ The steps below follow the order of a project, but in practice they overlap and 
 - **Mainly the researcher's own judgment.** Bell's evaluation was entirely subjective: he consulted others, but the core evaluator was the artist himself[^candy2018practice-e21].
 - **Including other people's responses.** Johnston observed how performers played with the new forms and discussed it with them[^candy2018practice-e22]; Seevinck's work was meant to prompt "emergent" thinking in participating audiences, and to show that it did, she reported an evaluation of participants' responses[^candy2018practice-e23].
 
-**How to choose** `[Our analysis]`: if your claims are about **the work and the making process**, relying mainly on your own judgment is fine, but write down your criteria (see Step 5). As soon as a claim involves **the audience or users** ("it makes the audience…"), you need to collect their responses as evidence. For interviews and questionnaires, see the research methods pages [Interview studies](../../../06_methods/interview_study.md) and [Questionnaire surveys](../../../06_methods/questionnaire_survey.md).
+**How to choose** `[Our analysis]`: if your claims are about **the work and the making process**, relying mainly on your own judgment is fine, but write down your criteria (see Step 5). As soon as a claim involves **the audience or users** ("it makes the audience…"), you need to collect their responses as evidence. For interviews and questionnaires, see the Research types pages [Interview studies](../../../06_methods/interview_study.md) and [Questionnaire surveys](../../../06_methods/questionnaire_survey.md).
 
 **Where people go wrong:**
 

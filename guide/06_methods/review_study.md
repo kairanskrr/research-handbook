@@ -120,7 +120,7 @@
 
 ### 第三阶段：报告
 
-推荐按 PRISMA 2020 写报告。PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses）是源自医学、已被软件工程等领域广泛采用的系统综述报告规范，2020 版是一份 27 项的清单[^pr-e1]，规范的是"怎么报告"而不是"怎么做"；但最好在规划时就看一遍，确保该记录的东西都记下来[^pr-e2]。几个容易漏掉的地方：
+推荐按 PRISMA 2020 写报告。PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses）是系统综述的报告规范；2020 版是一份分 7 个部分、共 27 项的清单[^pr-e1]，规范的是"怎么报告"而不是"怎么做"；但最好在规划时就看一遍，确保该记录的东西都记下来[^pr-e2]。几个容易漏掉的地方：
 
 - 给出所有数据库的**完整检索式**，包括过滤条件[^pr-e3]；
 - 用**流程图**报告每一步各剩多少篇、排除了多少篇[^pr-e4]；

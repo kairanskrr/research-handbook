@@ -112,7 +112,7 @@
 | [优化研究](../07_fields/computer-science/practices/optimization_study.md) | 比较搜索、优化类算法 | 搜索算法至少要和随机搜索比，确认成功不是因为问题本身太简单[^arcuri2014hitchhiker-e4] |
 | [系统综述与元分析](../06_methods/meta_analysis.md) | 不自己做实验，而是合并已发表研究里的比较结果 | 健康领域常用 |
 
-方法和套路是两层：同一种方法可以服务不同的套路，见[选定研究套路和方法](../02_do-the-project/02_choose-method.md)。
+方法和套路是两层：同一种方法可以服务不同的套路，见[选方法](../02_do-the-project/02_choose-method.md)。
 
 ## 4. 它怎样影响整个项目
 

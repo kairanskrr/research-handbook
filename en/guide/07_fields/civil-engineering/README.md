@@ -155,7 +155,7 @@ How to use this table `[Our analysis]`: choose the main strategy from your centr
 
 ## Research methods common in this field
 
-Civil engineering has no method pages of its own; it uses the cross-field methods in [Research methods](../../06_methods/README.md) and the practices from the Computer science pages:
+Civil engineering has no method pages of its own; it uses the cross-field methods in [Research types](../../06_methods/README.md) and the practices from the Computer science pages:
 
 - [Experimental measurement](../../06_methods/experimental_measurement.md): laboratory load tests, field tests, and monitoring. Schedule and get approval first; see [Large-scale tests](#large-scale-tests-long-queues-approvals-and-preparation) above.
 - [Quantitative simulation](../../06_methods/simulation_study.md): first tell verification, validation, and calibration apart; see [Numerical simulation](#numerical-simulation-first-tell-verification-validation-and-calibration-apart) above.

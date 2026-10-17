@@ -25,7 +25,7 @@
 
 - 位置：§5 Qualitative Analysis，第 10 页
 - 原文："We first seek to cluster the distinct contracts into groups based on their similarity scores, for which we try to understand the reasons leading to contract clones and study the diversity of the ecosystem (e.g., what are these contracts?). Then we propose to explore the correlation between code clones and vulnerabilities, i.e., whether code clones lead to the spread of vulnerabilities. At last, we try to identify the DApp Clones in the wild and measure their impact."
-- 要点：论文没有编号的研究问题，但用文字给出了三个具体问题：克隆从哪来、克隆会不会传播漏洞、有没有抄袭的去中心化应用以及影响多大。
+- 要点：（本项目通读全文后的判断，不是原文的话：论文没有编号的研究问题。）作者用文字给出了三个具体问题：克隆从哪来、克隆会不会传播漏洞、有没有抄袭的去中心化应用以及影响多大。
 
 ### E5
 
@@ -85,5 +85,5 @@
 
 - 位置：§7 Concluding Remarks and Future Work，第 15 页
 - 原文："First, the threshold used to identify contract clones can be improved by adopting adaptive approaches. Second, we may have coverage issues on manually labelling the contract templates, which can be alleviated by exploring some advanced techniques."
-- 要点：作者承认的局限：判定克隆的阈值是固定的，人工整理的合约模板清单可能不全。论文没有单独的"效度威胁"小节。
+- 要点：作者承认的局限：判定克隆的阈值是固定的，人工整理的合约模板清单可能不全。（下面这句是本项目通读全文后的判断，不是原文的话：论文没有单独的"效度威胁"小节。）
 

@@ -4,7 +4,7 @@ From choosing a topic to publishing: how to do a piece of research properly.
 
 This is the English edition. The handbook also has a [Chinese edition](../README.md) (中文版); the web reader has a switch for it.
 
-**Web reader**: <https://kairanskrr.github.io/research-handbook/>. Browse by table of contents, search the full text, and click a footnote to read the original source in place. It comes in a concise edition and a full edition.
+**Web reader**: <https://kairanskrr.github.io/research-handbook/>. Browse by table of contents, search the full text, and click a footnote to read the original source in place. Each chapter opens with a short box of the things you must do; read only that box if you are in a hurry.
 
 Written for people starting out in research: how to choose a topic, read the literature, design a study, move a project forward, write and submit, and what conventions each field has of its own. The content comes from the experience of senior researchers and from widely accepted methodological standards in each field, and every piece of advice can be traced back to its original source.
 
@@ -16,7 +16,7 @@ Written for people starting out in research: how to choose a topic, read the lit
 | You are at a particular stage: you have just picked an area, you are designing the study, running experiments, or getting ready to submit | The matching chapter in "The four Parts" below |
 | You have a specific problem: the experiment won't work, the paper was rejected, your advisor has no time… | [FAQ: quick answers](guide/faq.md) |
 | You have written down the sentence you want to prove, and want to know what kind of research this is and what evidence it needs | [Research strategies](guide/05_research-strategies/README.md) |
-| You need a particular research method: controlled experiment, interviews, questionnaire, review… | [Research methods](guide/06_methods/README.md), or the practices specific to your field in Fields |
+| You need a particular research method: controlled experiment, interviews, questionnaire, review… | [Research types](guide/06_methods/README.md), or the practices specific to your field in Fields |
 | You are entering a new field and want to learn its conventions | Your field in [Fields](guide/07_fields/README.md) |
 
 ## Contents
@@ -38,7 +38,7 @@ Written for people starting out in research: how to choose a topic, read the lit
 ### Reference: look things up when you need them
 
 - **[Research strategies](guide/05_research-strategies/README.md)**: the logic by which a study produces new knowledge, and the evidence it needs. [Description](guide/05_research-strategies/observe_describe.md) · [Measurement](guide/05_research-strategies/measure.md) · [Comparative evaluation](guide/05_research-strategies/compare_evaluate.md) · [Causal explanation](guide/05_research-strategies/explain_causality.md) · [Building and improving](guide/05_research-strategies/build_improve.md) · [Synthesis](guide/05_research-strategies/synthesize.md) · [Proof](guide/05_research-strategies/prove.md) · [Interpretation and argument](guide/05_research-strategies/interpret_argue.md)
-- **[Research methods](guide/06_methods/README.md)**: 28 concrete methods used in two or more fields. Each page covers what questions it answers, the steps, a checklist, and common mistakes.
+- **[Research types](guide/06_methods/README.md)**: 28 concrete methods used in two or more fields. Each page covers what questions it answers, the steps, a checklist, and common mistakes.
   - Using published research as material: [Review studies](guide/06_methods/review_study.md) · [Case survey](guide/06_methods/case_survey.md) · [Methodology research and meta-science](guide/06_methods/meta_science.md) · [Systematic reviews and meta-analysis (health research)](guide/06_methods/meta_analysis.md)
   - Using existing data or models: [Data science research](guide/06_methods/data_science.md) · [Longitudinal studies](guide/06_methods/longitudinal_study.md) · [Quantitative simulation](guide/06_methods/simulation_study.md) · [Quasi-experiments and causal identification](guide/06_methods/quasi_experiment.md) · [Observational epidemiology](guide/06_methods/observational_epidemiology.md)
   - Research involving people: [Controlled experiments](guide/06_methods/controlled_experiment.md) · [Randomized controlled trials](guide/06_methods/randomized_controlled_trial.md) · [Field experiments](guide/06_methods/field_experiment.md) · [Questionnaire surveys](guide/06_methods/questionnaire_survey.md) · [Scale development and measurement studies](guide/06_methods/scale_development.md) · [Interview studies](guide/06_methods/interview_study.md) · [Oral history](guide/06_methods/oral_history.md) · [Case study and ethnography](guide/06_methods/case_study.md) · [Grounded theory](guide/06_methods/grounded_theory.md) · [Action research](guide/06_methods/action_research.md)

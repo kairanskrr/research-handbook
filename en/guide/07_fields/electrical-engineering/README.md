@@ -160,7 +160,7 @@ How to use this table `[Our analysis]`: first choose the main strategy based on 
 
 ## Research methods common in this field
 
-This field has no method pages of its own; it uses the cross-field methods in [Research methods](../../06_methods/README.md) and the practices on the Computer science page:
+This field has no method pages of its own; it uses the cross-field methods in [Research types](../../06_methods/README.md) and the practices on the Computer science page:
 
 - [Experimental measurement](../../06_methods/experimental_measurement.md) and [Quantitative simulation](../../06_methods/simulation_study.md): you need both; see [Simulation and measurement](#simulation-and-measurement-you-need-both-and-each-has-limits) above.
 - [Engineering research](../computer-science/practices/engineering_research.md), [Benchmarking](../computer-science/practices/benchmarking.md), [Theoretical research](../computer-science/practices/theoretical_research.md), and [Optimization studies](../computer-science/practices/optimization_study.md) (Computer science page): evaluating a new circuit or system may require measurements on a prototype, not just simulation; problems such as resource allocation and choosing circuit parameters can be modeled as optimization problems `[Our analysis]`.

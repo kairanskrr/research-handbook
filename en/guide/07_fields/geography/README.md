@@ -137,7 +137,7 @@ How to use this table `[Our analysis]`: first find your strategy from your centr
 
 ## Research methods common in this field
 
-**Specific to this field**: [Spatial analysis](practices/spatial_analysis.md). Other methods and the corresponding pages among the cross-field research methods are listed below (the correspondences and the notes on differences are our own summary `[Our analysis]`; the footnotes give the basis). For fieldwork in physical geography, see [Field studies: observation and sampling](../../06_methods/field_study.md).
+**Specific to this field**: [Spatial analysis](practices/spatial_analysis.md). Other methods and the corresponding pages among the cross-field research types are listed below (the correspondences and the notes on differences are our own summary `[Our analysis]`; the footnotes give the basis). For fieldwork in physical geography, see [Field studies: observation and sampling](../../06_methods/field_study.md).
 
 - **In-depth interviews, ethnography, and case studies of places**: see [Interview studies](../../06_methods/interview_study.md) and [Case study and ethnography](../../06_methods/case_study.md). Differences: you need to report your positionality (see "Positionality and reflexivity" above); when quoting, watch whether place details could identify an interviewee[^aag2024ethics-e13]; the case is often a "place," and the work may involve fieldwork abroad, in which case projects funded by the UK RGS-IBG must also pass review in the host country[^rgsgrantscode-e3].
 - **GPS and mobility trajectory studies**: for how to do them, see [Spatial analysis](practices/spatial_analysis.md); they carry the highest privacy risk, see "Location privacy" above[^malekzadeh2026ethical-e4].

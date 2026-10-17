@@ -93,7 +93,7 @@ AIAA also has requirements for numerical papers; for example, if commercial code
 
 ### Calibration is not validation
 
-For general methods of verification (checking that the equations are solved correctly) and validation (checking that the model is accurate enough for the real world), see [Quantitative simulation](../../06_methods/simulation_study.md#step-3-verification-and-validation) in Research methods. As Oberkampf and Trucano of Sandia National Laboratories in the US put it in 2002, verification is primarily a mathematics issue and validation is primarily a physics issue[^oberkampf2002verification-e2].
+For general methods of verification (checking that the equations are solved correctly) and validation (checking that the model is accurate enough for the real world), see [Quantitative simulation](../../06_methods/simulation_study.md#step-3-verification-and-validation) in Research types. As Oberkampf and Trucano of Sandia National Laboratories in the US put it in 2002, verification is primarily a mathematics issue and validation is primarily a physics issue[^oberkampf2002verification-e2].
 
 The third thing this field must watch out for is **calibration**. Calibration means adjusting parameters so that computed results match experimental data[^oberkampf2002verification-e5]. Tuning parameters to an experiment and then claiming the model has been "validated" is a confusion. They point out that calibrating CFD codes to experimental measurements is so common that many people cannot tell whether they are calibrating or validating[^oberkampf2002verification-e7].
 
@@ -147,7 +147,7 @@ How to use this table `[Our analysis]`: pick your main strategy from your centra
 
 ## Research methods common in this field
 
-This field has no method pages of its own; it uses the cross-field methods in [Research methods](../../06_methods/README.md) and the practices from the Computer science page:
+This field has no method pages of its own; it uses the cross-field methods in [Research types](../../06_methods/README.md) and the practices from the Computer science page:
 
 - [Experimental measurement](../../06_methods/experimental_measurement.md): measurements on test rigs, in wind tunnels, and at similar facilities; for journal requirements, see [Measurement results must come with an uncertainty](#measurement-results-must-come-with-an-uncertainty) above.
 - [Quantitative simulation](../../06_methods/simulation_study.md): that page's examples are discrete-event, system dynamics, and agent-based simulation; simulation in this field mostly solves partial differential equations and must also report numerical errors such as grid convergence and iterative convergence; see [Numerical results must show the grid is fine enough](#numerical-results-must-show-the-grid-is-fine-enough) above `[Our analysis]`.

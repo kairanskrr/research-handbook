@@ -67,7 +67,7 @@ The table below is our own summary, meant to help you spot the differences quick
 | Quality control | A full set of formal practices: quality assurance project plans, blanks, replicates, spikes (see below) | Relies mainly on releasing code and on artifact evaluation |
 | What if you "can't detect it"? | There are detection limits and reporting limits, and data below them need special handling (see below) | Rarely comes up |
 | Who uses the results | Regulators, water utilities, and communities may use them to make decisions; they may also be used as evidence in court[^epa2002qapp-e8] | Mainly academic peers and industry |
-| Who you deal with | Possibly water treatment plants, wastewater treatment plants, site owners, and local residents | Less often; for research involving people, see the relevant research method |
+| Who you deal with | Possibly water treatment plants, wastewater treatment plants, site owners, and local residents | Less often; for research involving people, see the relevant research type page |
 
 ---
 

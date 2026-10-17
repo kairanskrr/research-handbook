@@ -12,14 +12,14 @@ This is the full text of the handbook. For how to read it, and where to start gi
 | [`03_conduct-and-analyze/`](02_do-the-project/06_run-and-iterate.md) | Part 3: Running the study and analyzing results | |
 | [`04_write-and-publish/`](03_write-and-publish/01_story-and-paper.md) | Part 4: Writing and publishing | |
 | [`05_research-strategies/`](05_research-strategies/README.md) | Reference: the eight research strategies, what kind of knowledge each produces and what evidence each needs | Look up when a Part links here |
-| [`06_methods/`](06_methods/README.md) | Reference: research methods shared across fields, such as controlled experiments, interviews, questionnaires, and reviews | |
+| [`06_methods/`](06_methods/README.md) | Reference: Research types. The directory page brings together methods used in many fields (such as controlled experiments, interviews, questionnaires, and reviews) and practices specific to one field | |
 | [`07_fields/`](07_fields/README.md) | Reference: Fields, the conventions and research practices specific to each field | |
 | [`08_throughout/`](08_throughout/README.md) | Throughout the project: planning, organizing materials, advisors and collaboration, integrity and ethics, mindset, being a reviewer | Look up when the topic comes up |
 | [`faq.md`](faq.md) | FAQ: quick answers, organized by the situation you are in | Look up when you hit a specific problem |
 
 ## Why three layers: strategies, methods, fields
 
-At any given stage (reading the literature, say, or designing a study) different kinds of research face roughly the same questions, but how you actually do the work depends on the method. "Reading the literature," for example, is background work in most studies, but in a systematic review it is the method itself. So the Parts only cover what you need to think through at each stage; how to do it goes in the research strategies and research methods, and anything specific to one field goes in Fields. `[Our analysis]`
+At any given stage (reading the literature, say, or designing a study) different kinds of research face roughly the same questions, but how you actually do the work depends on the method. "Reading the literature," for example, is background work in most studies, but in a systematic review it is the method itself. So the Parts only cover what you need to think through at each stage; how to do it goes in the research strategies and research types, and anything specific to one field goes in Fields. `[Our analysis]`
 
 This split also matches the practice of judging research by its method. A set of empirical research standards for software engineering holds that there are no universal quality criteria, and that each study should be assessed against the criteria appropriate for its method[^ralph2020empirical-e24]. For why it matters to tell the strategies apart, see [Key concepts](00_start-here/key-concepts.md#research-strategy).
 

@@ -49,7 +49,7 @@
 
 > **不同的看法：只做分类和计数的映射研究，值不值得单独做？**
 > - 值得：映射研究和系统综述的目标、范围、效度问题都不同，两者应当互相补充；映射研究适用的场合比通常认为的更广[^petersen2008systematic-e7]。
-> - 不够：以描述为主的范围综述（即映射研究）通常综合不够，回答不了重要的实证问题[^ralph2022paving-e4]；在软件工程里它"本质上是半成品"，更适合研讨会、海报或短文；如果文献足够做综合，它更像正式系统综述前的预研[^ralph2022paving-e5]。
+> - 不够：以描述为主的范围综述（即映射研究）通常综合不够，回答不了重要的实证问题[^ralph2022paving-e4]；两位作者针对软件工程说，以描述为主的范围综述"本质上是还在进行中的工作"，应该放到研讨会、海报或短文栏目；如果文献足够做综合，它更像正式系统综述前的预研[^ralph2022paving-e5]。
 >
 > 对你的影响 `[本项目分析]`：映射研究本身有用，但如果目标是正式会议或期刊，最好在分类和计数之外，往"综合出结论"多走一步。
 
@@ -75,7 +75,7 @@
 | [收敛成项目](../01_find-a-problem/05_converge.md) | 先确认这篇综述确实需要做[^kitchenham2007guidelines-e5]，例如查查有没有人做过类似的；有的话，想清楚你能补上什么，例如新的时间段或不同的问题 |
 | [形成研究计划](../02_do-the-project/03_research-plan.md) | 研究问题是规划阶段最重要的一步[^kitchenham2007guidelines-e6]；研究方案是系统综述的关键[^kitchenham2007guidelines-e9]。高质量的系统综述往往费力又费时[^higgins2024cochrane-e4]，排时间别太乐观 |
 | [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md) | 证据就是文献本身，研究问题直接决定检索词、筛选标准和要提取的数据 |
-| [先做小规模试验，排除最大风险](../02_do-the-project/05_pilot-and-derisk.md) | 筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]；先做预检索，看相关研究大概有多少 |
+| [最小可跑版本](../02_do-the-project/05_pilot-and-derisk.md) | 筛选标准定好后，先在一小批论文上试用[^kitchenham2007guidelines-e8]；先做预检索，看相关研究大概有多少 |
 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 工作量主要在筛选和提取；第一轮筛选要宽松[^kitchenham2007guidelines-e11]，一个人做时请导师抽一部分论文也提取一遍，交叉核对[^kitchenham2007guidelines-e15] |
 | [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) | 把结果放回已有研究中，指出空白和方向；清楚区分有证据的结果和自己的推测[^ralph2020empirical-e13] |
 | [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 按报告规范写出完整检索式、画出从检索到纳入的流程图[^page2021prisma-e3][^page2021prisma-e4]；公开研究方案、检索结果、数据和脚本[^ralph2020empirical-e7] |

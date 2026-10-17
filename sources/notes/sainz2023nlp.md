@@ -33,3 +33,9 @@
 - 位置：§5.2 Closed LLMs
 - 原文："To tackle this problem, we propose to take advantage of LLM's memorization capabilities."
 - 要点：训练数据不公开的模型，可以利用模型的记忆能力检测污染，例如看它能否逐字生成基准中的样本。
+
+### E6
+
+- 位置：Abstract
+- 原文："In this position paper, we argue that the classical evaluation on Natural Language Processing (NLP) tasks using annotated benchmarks is in trouble."
+- 要点：作者自己把这篇文章称为立场论文，主张用标注基准评测自然语言处理任务的传统做法出了问题。

@@ -26,7 +26,7 @@
 
 **和相近做法的区别**（没有脚注的格子为本项目归纳 `[本项目分析]`；教育学里边设计、边研究的做法，见[基于设计的研究](../../education/practices/design_based_research.md)）：
 
-| | 基于实践的研究 | 实践引导的研究 | [行动研究](../../../06_methods/action_research.md)（研究方法） |
+| | 基于实践的研究 | 实践引导的研究 | [行动研究](../../../06_methods/action_research.md)（研究类型） |
 |---|---|---|---|
 | 核心成果 | 作品加文字[^candy2018practice-e17] | 对实践的新理解，可以全用文字[^candy2006practice-e3] | 对一项组织改变的研究 |
 | 谁的实践 | 多为研究者自己的创作 | 研究者自己或他人的实践 | 研究者和一个合作组织一起推动的改变 |
@@ -74,7 +74,7 @@
 - **以研究者本人的判断为主。** Bell 的评估完全主观，虽然也征询了别人，但核心评估者是艺术家本人[^candy2018practice-e21]。
 - **加入他人的反应。** Johnston 观察演奏者在新形式下怎样演奏，并和他们讨论[^candy2018practice-e22]；Seevinck 的作品要促进参与观众的"涌现式"思考，为了证明确实如此，她报告了对参与者反应的评估[^candy2018practice-e23]。
 
-**怎样选** `[本项目分析]`：主张是关于**作品和创作过程**的，以自己的判断为主可以，但要把判断标准写出来（见第 5 步）；主张一旦涉及**观众或使用者**（"它让观众……"），就要收集他们的反应作为证据。访谈和问卷见研究方法里的[访谈研究](../../../06_methods/interview_study.md)和[问卷调查](../../../06_methods/questionnaire_survey.md)。
+**怎样选** `[本项目分析]`：主张是关于**作品和创作过程**的，以自己的判断为主可以，但要把判断标准写出来（见第 5 步）；主张一旦涉及**观众或使用者**（"它让观众……"），就要收集他们的反应作为证据。访谈和问卷见研究类型里的[访谈研究](../../../06_methods/interview_study.md)和[问卷调查](../../../06_methods/questionnaire_survey.md)。
 
 **容易错在哪里。**
 
@@ -196,7 +196,7 @@
 - **Bulley & Şahin 2021，PRAG-UK 报告**：第二份报告第 2.1 节讲成果结构和记录，适合写论文和准备记录时对照。
 - **QAA 2020，Characteristics Statement: Doctoral Degree**：英国博士考核的总体说明，可以了解作品型博士在英国怎样考核。
 - **JAR 投稿要求和审稿表**：想在这家期刊发表、或想知道"评审会问什么"时读。审稿表第 3 节可以当一份自查清单。
-- 本学科背景（名称、REF、版权、社区伦理）见[艺术学科概况](../README.md)；和组织合作推动改变的研究见研究方法里的[行动研究](../../../06_methods/action_research.md)；教育中的设计型研究见[基于设计的研究](../../education/practices/design_based_research.md)。
+- 本学科背景（名称、REF、版权、社区伦理）见[艺术学科概况](../README.md)；和组织合作推动改变的研究见研究类型里的[行动研究](../../../06_methods/action_research.md)；教育中的设计型研究见[基于设计的研究](../../education/practices/design_based_research.md)。
 
 [^candy2006practice-e1]: Candy 2006，Summary，第 1 页。[证据](../../../../sources/notes/candy2006practice.md#e1)
 [^candy2006practice-e3]: Candy 2006，Practice Led Research，第 3 页。[证据](../../../../sources/notes/candy2006practice.md#e3)

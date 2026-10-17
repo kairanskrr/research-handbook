@@ -93,7 +93,7 @@ AIAA 对数值论文也有要求，例如用到商业软件时要引用公开的
 
 ### 校准不是确认
 
-验证（verification，查方程解得对不对）和确认（validation，查模型对真实世界够不够准）的一般方法，见研究方法里的[定量仿真](../../06_methods/simulation_study.md#第三步验证与确认)。美国桑迪亚国家实验室的 Oberkampf 和 Trucano（2002 年）的说法是：验证主要是数学问题，确认主要是物理问题[^oberkampf2002verification-e2]。
+验证（verification，查方程解得对不对）和确认（validation，查模型对真实世界够不够准）的一般方法，见研究类型里的[定量仿真](../../06_methods/simulation_study.md#第三步验证与确认)。美国桑迪亚国家实验室的 Oberkampf 和 Trucano（2002 年）的说法是：验证主要是数学问题，确认主要是物理问题[^oberkampf2002verification-e2]。
 
 本领域要特别提防的是第三件事：**校准**（calibration）。校准是调整参数，让计算结果和实验数据吻合[^oberkampf2002verification-e5]。按实验调好参数，再宣称模型"确认通过"，这是混淆。他们指出，计算流体力学代码按实验测量值校准太常见，很多人分不清自己是在校准还是在确认[^oberkampf2002verification-e7]。
 

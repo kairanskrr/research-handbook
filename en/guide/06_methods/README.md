@@ -1,4 +1,4 @@
-# Research methods
+# Research types: how to do them
 
 You have chosen a research strategy and know what kind of evidence you need. Now you want to know: which method will actually get you that evidence, and how do you do that method well?
 

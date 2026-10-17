@@ -90,7 +90,7 @@ Lombard, Snyder-Duch, and Bracken published an online guide to reliability (upda
 6. **Make the formal test sample big enough.** At least 50 units or 10% of the full sample, and rarely more than 300 are needed[^lombard2010practical-e9].
 7. **Report each variable separately.** Don't report an overall reliability pooled across all variables[^lombard2010practical-e12]. At a minimum, your paper should state the size of the reliability sample, how it was selected and why, the reliability for each variable on each index, and how disagreements were resolved[^lombard2010practical-e10].
 
-**Should qualitative research calculate reliability?** This is contested. McDonald and colleagues (2019) argue that how you demonstrate reliability should fit the epistemological tradition your research draws on[^mcdonald2019reliability-e9]; if your findings rely on frequency counts, there is a strong case for calculating it[^mcdonald2019reliability-e12]. For both sides' arguments and how to do it, see [Interview study](../../06_methods/interview_study.md#step-6-make-your-analysis-trustworthy) in Research methods.
+**Should qualitative research calculate reliability?** This is contested. McDonald and colleagues (2019) argue that how you demonstrate reliability should fit the epistemological tradition your research draws on[^mcdonald2019reliability-e9]; if your findings rely on frequency counts, there is a strong case for calculating it[^mcdonald2019reliability-e12]. For both sides' arguments and how to do it, see [Interview study](../../06_methods/interview_study.md#step-6-make-your-analysis-trustworthy) in Research types.
 
 ### Ethics of online and social media research
 
@@ -141,7 +141,7 @@ How to use this table `[Our analysis]`:
 
 ## Research methods common in this field
 
-Communication research does not yet have its own methods pages; the common methods are all in the [Research methods](../../06_methods/README.md) section. Those pages were originally written for computer science (mainly software engineering), so watch for the differences below `[Our analysis]`:
+Communication research does not yet have its own methods pages; the common methods are all in the [Research types](../../06_methods/README.md) section. Those pages were originally written for computer science (mainly software engineering), so watch for the differences below `[Our analysis]`:
 
 - **Content analysis**: this handbook does not yet have a page on it. For the manual coding part, see [Mining software repositories](../computer-science/practices/repository_mining.md) on the computer science page; test and report reliability following the steps above, and publish your codebook[^dienlin2021agenda-e8].
 - **[Questionnaire surveys](../../06_methods/questionnaire_survey.md)**: used in media use and effects research. For measuring abstract concepts such as attitudes, see [Scale development and measurement studies](../../06_methods/scale_development.md) and the [psychology page](../psychology/README.md).

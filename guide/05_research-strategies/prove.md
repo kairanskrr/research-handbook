@@ -83,9 +83,9 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 |---|---|
 | [收敛成项目](../01_find-a-problem/05_converge.md) | 把主张写成定理的形式。新手先做可行的问题：著名难题几乎从不是凭空解决的[^taocareer-e13]，Tao 建议把大部分时间放在更可行的问题上，积累经验和信誉[^taocareer-e14] |
 | [进入领域、探索文献](../01_find-a-problem/01_enter-a-field.md) | 找到关键论文后查谁引用了它[^taocareer-e16]，确认问题还开着；特别要查相关的下界和不可能性结果，Aaronson 把"和已知不可能性结果冲突却不提"列为错误突破的信号[^aaronson2008ten-e3] |
-| [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md)、[选定研究套路和方法](../02_do-the-project/02_choose-method.md) | 定下用手工证明还是机器检查；把定义和标准文献逐字对照，记号也尽量和已有文献一致[^taowriting-e8] |
+| [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md)、[选方法](../02_do-the-project/02_choose-method.md) | 定下用手工证明还是机器检查；把定义和标准文献逐字对照，记号也尽量和已有文献一致[^taowriting-e8] |
 | [效度与局限](../02_do-the-project/04_validity-and-limits.md) | 证明没有抽样误差，但有"假设和规约是否贴近现实"的问题[^klein2009sel4-e2] |
-| [先做小规模试验，排除最大风险](../02_do-the-project/05_pilot-and-derisk.md) | 先试着找反例：找到了省下大量时间，反例本身也可能值得发表；找不到，遇到的障碍会提示证明该怎么做[^taocareer-e2]。先分离出简化的特殊情形来做[^taocareer-e5] |
+| [最小可跑版本](../02_do-the-project/05_pilot-and-derisk.md) | 先试着找反例：找到了省下大量时间，反例本身也可能值得发表；找不到，遇到的障碍会提示证明该怎么做[^taocareer-e2]。先分离出简化的特殊情形来做[^taocareer-e5] |
 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 重视部分进展，它是完全解决问题的关键垫脚石[^taocareer-e6]，很多中间步骤本身就是可发表的论文[^taocareer-e22]；有意思的论证写成草稿，详细到日后能恢复[^taocareer-e18] |
 | [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) | "分析"变成查错：这个方法会不会也"证明"出已知为假的更强结论[^taocareer-e1]？每个关键假设都实质用到了吗[^taowriting-e13]？ |
 | [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 按 Lamport 的建议，靠分层结构和给每一步命名（编号）让证明好懂[^lamport2012how-e1]；每个主要证明前给一段概要，作为读者的路线图[^lamport1995how-e2]；结果不说小也不说大[^taowriting-e3] |
@@ -115,7 +115,7 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 | 证明的命题和真正要问的问题不一样（定义不同、模型不同） | Aaronson 把"作者没弄懂问题本身"列为错误突破的信号[^aaronson2008ten-e1]；结论看似成立，回答的却不是原问题 `[本项目分析]` |
 | 只证明实现符合规约，就宣称系统"安全" | 证明不保证规约描述的就是用户期望的行为[^klein2009sel4-e2] |
 | 假设偏强、结论偏弱，却不写出来 | Tao 建议把这些坦白写出[^taowriting-e4]；否则读者会把结论的适用范围想得太大 `[本项目分析]` |
-| 摘要说"我们证明了"，结尾变成"看起来可行" | 证明退化成了"有道理的论证"，Aaronson 把这列为错误的信号[^aaronson2008ten-e4] |
+| 摘要说"我们证明了"，结尾变成"看起来可行" | 证明到最后悄悄换成了"看起来说得通"；Aaronson 把"作者自己到最后改用含糊其辞的话"列为错误突破的信号[^aaronson2008ten-e4] |
 | 用一两个例子"验证"形式化模型 | 形式化模型要靠严格推导和证明[^shaw2003writing-e9] |
 | 新手一上来就死磕著名难题 | 著名难题几乎从不是凭空解决的[^taocareer-e13] |
 

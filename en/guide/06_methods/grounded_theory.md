@@ -30,7 +30,7 @@ Grounded theory is a method for **inductively generating theory from data**[^sto
 **When it doesn't fit**:
 
 - You already have a clear hypothesis to test, such as "introducing pair programming reduces defects". Grounded theory does not test theory[^stol2016grounded-e1]; use an experiment or another confirmatory design.
-- You plan to finish all the interviews before analyzing, or you don't plan to let the analysis decide whom to approach next. For qualitative studies like that, the SIGSOFT standards suggest following the [Case Study](case_study.md) or [Interview studies](interview_study.md) standard instead[^ralph2020empirical-e316]. Grounded theory is not the only legitimate way to analyze qualitative data[^stol2016grounded-e22], and dressing an interview study up as grounded theory does not make it better.
+- You plan to finish all the interviews before analyzing, or you don't plan to let the analysis decide whom to approach next. For qualitative studies like that, the SIGSOFT standards suggest following the Case Study Standard or the Qualitative Survey Standard instead (in this handbook, see [Case Study](case_study.md) and [Interview studies](interview_study.md))[^ralph2020empirical-e316]. Grounded theory is not the only legitimate way to analyze qualitative data[^stol2016grounded-e22], and dressing an interview study up as grounded theory does not make it better.
 
 ### Choose a school first, and stay consistent
 

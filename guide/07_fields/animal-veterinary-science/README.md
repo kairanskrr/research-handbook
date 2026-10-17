@@ -140,7 +140,7 @@
 
 ## 本学科常用的研究方法
 
-跨学科的研究方法：[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[对照实验](../../06_methods/controlled_experiment.md)、[综述研究](../../06_methods/review_study.md)；在农场做试验可参考农业篇的[田间试验](../agriculture/practices/field_trial.md)。本学科还常见下面几类，目前没有单独的做法页：
+跨学科的研究类型：[随机对照试验](../../06_methods/randomized_controlled_trial.md)、[临床前动物研究](../../06_methods/preclinical_animal_study.md)、[观察性流行病学研究](../../06_methods/observational_epidemiology.md)、[对照实验](../../06_methods/controlled_experiment.md)、[综述研究](../../06_methods/review_study.md)；在农场做试验可参考农业篇的[田间试验](../agriculture/practices/field_trial.md)。本学科还常见下面几类，目前没有单独的做法页：
 
 - **遗传育种研究**：选育、基因组分析，也包括基因工程和基因编辑 `[本项目分析]`。Ag Guide 认为，除特殊情况外，基因工程和基因编辑动物的研究指南和常规动物没有实质区别[^fass2020agguide-e14]。
 - **动物福利与行为研究**：研究饲养空间、环境丰富化（在栏舍里增加玩具、垫料等，让动物能表现天性）、处置方式对动物的影响 `[本项目分析]`。Ag Guide 物种章节里很多地面面积、料槽和饮水器的标准，经过了科学研究的验证[^fass2020agguide-e4]。

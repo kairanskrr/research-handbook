@@ -1,6 +1,6 @@
 # Fields
 
-Research works differently from field to field: the pace, how work is organized, publishing culture, ethics requirements, and what counts as acceptable evidence all differ `[Our analysis]`. The Fields section **covers only what is specific to each field**. Research methods shared by several fields (controlled experiments, questionnaires, interviews, case studies, reviews, replication and so on) live in [Research methods](../06_methods/README.md); the Fields pages link there and only explain how their field does things differently. For how the layers of this handbook divide the work, see [How to use this handbook](../00_start-here/how-to-use.md).
+Research works differently from field to field: the pace, how work is organized, publishing culture, ethics requirements, and what counts as acceptable evidence all differ `[Our analysis]`. The Fields section **covers only what is specific to each field**. Research methods shared by several fields (controlled experiments, questionnaires, interviews, case studies, reviews, replication and so on) live in [Research types](../06_methods/README.md); the Fields pages link there and only explain how their field does things differently. For how the layers of this handbook divide the work, see [How to use this handbook](../00_start-here/how-to-use.md).
 
 Each field has its own folder containing:
 
@@ -68,11 +68,11 @@ The computer science pages correspond to 1.2. Parts of computer engineering and 
 
 - **Field overview**: [`computer-science/README.md`](computer-science/README.md) covers conference-centered publishing, preprints, artifact evaluation, and how conventions differ across subfields. First draft, awaiting review.
 - **Field-specific practices in computer science**: [Research practices specific to computer science](computer-science/practices/README.md) currently has five pages: [Engineering research](computer-science/practices/engineering_research.md), [Optimization studies](computer-science/practices/optimization_study.md), [Benchmarking](computer-science/practices/benchmarking.md), [Mining software repositories](computer-science/practices/repository_mining.md), and [Theoretical research](computer-science/practices/theoretical_research.md). First draft, awaiting review.
-- **Shared research methods**: reviews, controlled experiments, questionnaires, interviews, case studies, replication and so on are used across many fields, so they live in [Research methods](../06_methods/README.md).
+- **Shared research methods**: reviews, controlled experiments, questionnaires, interviews, case studies, replication and so on are used across many fields, so they live in [Research types](../06_methods/README.md).
 
 ## Field-specific practices
 
-A practice used in only one field, and not covered in [Research methods](../06_methods/README.md), gets its own page under that field's `practices/` folder. Methods used in several fields (controlled experiments, randomized controlled trials, questionnaires, interviews, archival research, replication and so on) belong in Research methods and are not repeated here. Each field overview's section "Research methods common in this field" links to them and explains how the field differs.
+A practice used in only one field, and not covered in [Research types](../06_methods/README.md), gets its own page under that field's `practices/` folder. Methods used in several fields (controlled experiments, randomized controlled trials, questionnaires, interviews, archival research, replication and so on) belong in Research types and are not repeated here. Each field overview's section "Research methods common in this field" links to them and explains how the field differs.
 
 | Field | Field-specific practice |
 |---|---|

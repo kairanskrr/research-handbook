@@ -190,7 +190,7 @@ Pryor 写给本科生的阅读指南里有三个环节，可以当作三个步�
 
 **哲学独有的实践**：[哲学论证研究](practices/philosophical_argument.md)，讲提出论题、给出论证、回应反驳的完整做法。
 
-**跨学科的研究方法**：实验哲学的情境短文问卷见[问卷调查](../../06_methods/questionnaire_survey.md)、[对照实验](../../06_methods/controlled_experiment.md)，语料库研究见[数据科学](../../06_methods/data_science.md)；宗教学的访谈和田野工作见[访谈研究](../../06_methods/interview_study.md)、[案例研究与民族志](../../06_methods/case_study.md)；哲学史、宗教史用到未出版的原始记录时，见[档案研究](../../06_methods/archival_research.md)。
+**跨学科的研究类型**：实验哲学的情境短文问卷见[问卷调查](../../06_methods/questionnaire_survey.md)、[对照实验](../../06_methods/controlled_experiment.md)，语料库研究见[数据科学](../../06_methods/data_science.md)；宗教学的访谈和田野工作见[访谈研究](../../06_methods/interview_study.md)、[案例研究与民族志](../../06_methods/case_study.md)；哲学史、宗教史用到未出版的原始记录时，见[档案研究](../../06_methods/archival_research.md)。
 
 **相关学科的方法**：[规范法学研究](../law/practices/doctrinal_research.md)、[文本细读与文学论证](../languages-literature/practices/close_reading.md)。
 

@@ -69,7 +69,7 @@ If you only say "many papers don't do X", readers may shrug `[Our analysis]`. Kl
 The SIGSOFT standard regards "Guidelines are not based on empirical evidence" as an invalid criticism: meta-scientific claims usually cannot be tested empirically, and reviewers should evaluate the guidelines' face validity, comprehensiveness, and usefulness[^ralph2020empirical-e313]. That doesn't mean anything goes: reviewers should scrutinize the arguments more pedantically[^ralph2020empirical-e314], and you must avoid logical fallacies such as the straw man (distorting the other side's view and then attacking it) and the appeal to popularity[^ralph2020empirical-e311].
 
 > **Where sources disagree: does a methodology paper need an empirical study?**
-> - The SIGSOFT standard says no: it lists an empirical study that motivates the recommendations ("includes an empirical study (e.g. a systematic literature review) that motivates the analysis of guidance") as an extraordinary attribute, not an essential one[^ralph2020empirical-e310][^ralph2020empirical-e313]. Ralph & Baltes argue that the reviewing habit of insisting every paper report an empirical study has held back meta-science research[^ralph2022paving-e18].
+> - The SIGSOFT standard says no: it lists an empirical study that motivates the analysis ("includes an empirical study (e.g. a systematic literature review) that motivates the analysis of guidance") as an extraordinary attribute, not an essential one[^ralph2020empirical-e310][^ralph2020empirical-e313]. Ralph & Baltes argue that the reviewing habit of insisting every paper report an empirical study has held back meta-science research[^ralph2022paving-e18].
 > - van der Kouwe et al., on the other hand, point out that papers which illustrate a problem only with examples and their own tests cannot show how much the problem affects the literature[^vanderkouwe2019sok-e33].
 >
 > In practice you can read it this way: if your claim is "this problem is widespread", you need data from a systematic sample; if your claim is "this is how it should be done", argument and demonstration can be the main evidence `[Our analysis]`.
@@ -121,7 +121,7 @@ This checklist is based on the ACM SIGSOFT standard for methodology and meta-sci
 
 **Extraordinary**[^ralph2020empirical-e310]
 
-- [ ] Includes an empirical study (such as a systematic review) that motivates the recommendations
+- [ ] Includes an empirical study (such as a systematic review) that motivates the analysis of guidance
 - [ ] Uses a quantitative simulation to illustrate a methodological issue
 
 **Common reviewer criticisms that don't hold up**[^ralph2020empirical-e313]

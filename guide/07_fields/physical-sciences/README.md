@@ -182,7 +182,7 @@ APS 2024 年修订的《伦理标准》（Ethics Standards）规定：
 
 下面的归类是本项目分析 `[本项目分析]`。
 
-- **实验测量**：[实验测量研究](../../06_methods/experimental_measurement.md)（跨学科方法）。物理实验特有的盲分析和 5σ 见上文。研究方法里的[对照实验](../../06_methods/controlled_experiment.md)针对人类参与者，做法不同。
+- **实验测量**：[实验测量研究](../../06_methods/experimental_measurement.md)（跨学科方法）。物理实验特有的盲分析和 5σ 见上文。研究类型里的[对照实验](../../06_methods/controlled_experiment.md)针对人类参与者，做法不同。
 - **理论研究**：可参考计算机篇的[理论研究](../computer-science/practices/theoretical_research.md)。唯象研究没有对应的方法篇。
 - **数值计算与模拟**（计算物理、格点计算[^arxivtaxonomy-e5][^arxivtaxonomy-e4]）：[定量仿真](../../06_methods/simulation_study.md)。
 - **用公开数据做分析**：合作组外的研究者用 LHC 等实验公开的数据发表自己的分析，结论由自己负责[^cern2020opendata-e5]，见[复现研究](../../06_methods/replication.md)。外部研究者缺少合作组的隐性知识[^cern2020opendata-e4]。

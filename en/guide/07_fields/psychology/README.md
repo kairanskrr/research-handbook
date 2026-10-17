@@ -149,9 +149,9 @@ How to use this table `[Our analysis]`: whichever strategy you follow, psycholog
 
 ## Research methods common in this field
 
-Most of the methods psychology uses overlap with the methods for research involving people in Research methods. Read the corresponding page first, then note the differences in the table below `[Our analysis]`:
+Most of the methods psychology uses overlap with the methods for research involving people in Research types. Read the corresponding page first, then note the differences in the table below `[Our analysis]`:
 
-| What you do | Research method | What to watch for in psychology |
+| What you do | Research type | What to watch for in psychology |
 |---|---|---|
 | Experiments (including between-subjects and within-subjects designs) | [Controlled experiments](../../06_methods/controlled_experiment.md) | That page is about comparing how tools or methods affect people; psychology experiments study the mental processes themselves. Deception needs strong justification, and debriefing must follow the code[^apa2017ethical-e5][^apa2017ethical-e7] |
 | Questionnaire and scale studies | [Questionnaire surveys](../../06_methods/questionnaire_survey.md), [Scale development and measurement studies](../../06_methods/scale_development.md) | When measuring psychological constructs, see [Measurement](#measurement-use-scales-with-validity-evidence) above |

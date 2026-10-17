@@ -40,11 +40,13 @@
 | 你可能这样叫 | 去看 | 它做什么 | 常服务的套路 | 来源 |
 |---|---|---|---|---|
 | 对照实验、用户研究、可用性实验、被试实验；controlled experiment、user study、usability study | [对照实验](controlled_experiment.md) | 有人参与，随机分组，比较一个因素对人的表现有什么影响 | [比较评估](../05_research-strategies/compare_evaluate.md)、[解释因果](../05_research-strategies/explain_causality.md)、[构建改进](../05_research-strategies/build_improve.md) | 方法篇（计算机） |
+| 在线对照实验、A/B 测试、分流实验、线上实验；online controlled experiment、A/B test、split test | [在线对照实验（A/B 测试）](online_controlled_experiment.md) | 把正在运行的网站或应用的真实用户随机分到现有版本和新版本，比较两组的指标 | [比较评估](../05_research-strategies/compare_evaluate.md)、[解释因果](../05_research-strategies/explain_causality.md)、[构建改进](../05_research-strategies/build_improve.md)（套路页暂未列出） | 方法篇（计算机） |
 | 随机对照试验、临床试验；randomized controlled trial、clinical trial | [随机对照试验](randomized_controlled_trial.md) | 把受试者随机分到不同干预组，比较他们的结局 | [解释因果](../05_research-strategies/explain_causality.md) | 方法篇（临床医学） |
 | 田野实验、实地实验、随机评估；field experiment、randomized evaluation | [田野实验](field_experiment.md) | 和政府、企业或社区合作，在真实世界里随机决定谁接受一项干预，再比较各组的结果 | [解释因果](../05_research-strategies/explain_causality.md) | 方法篇（经济学与商学） |
 | 问卷调查、调研；questionnaire survey、survey（指问卷时） | [问卷调查](questionnaire_survey.md) | 用问卷向大量人收集数据，再系统分析 | [观察描述](../05_research-strategies/observe_describe.md)、[测量](../05_research-strategies/measure.md) | 方法篇（计算机） |
 | 量表编制、量表修订、量表的信度和效度检验；scale development、psychometric validation | [量表编制与测量研究](scale_development.md) | 以测量工具本身为成果：新编、翻译改编量表，或为已有量表积累信度和效度证据 | [测量](../05_research-strategies/measure.md) | 方法篇（心理学与认知科学） |
 | 访谈研究、定性访谈、半结构化访谈；interview study、qualitative study | [访谈研究](interview_study.md) | 深度访谈一批人，用定性分析归纳主题 | [观察描述](../05_research-strategies/observe_describe.md) | 方法篇（计算机） |
+| 焦点小组、小组讨论、焦点访谈；focus group、focus group discussion | [焦点小组](focus_group.md) | 召集一小群人由主持人引导讨论，从讨论和互动中收集看法 | [观察描述](../05_research-strategies/observe_describe.md) | 方法篇（健康科学） |
 | 口述历史；oral history | [口述历史](oral_history.md) | 访谈亲历者、录音存档，再把访谈当作需要核对的证据来用 | [解读论证](../05_research-strategies/interpret_argue.md) | 方法篇（历史与考古） |
 | 案例研究、个案研究、民族志；case study、ethnography | [案例研究与民族志](case_study.md) | 在真实环境里深入研究少数对象 | [观察描述](../05_research-strategies/observe_describe.md)、[解释因果](../05_research-strategies/explain_causality.md) | 方法篇（计算机） |
 | 扎根理论；grounded theory | [扎根理论](grounded_theory.md) | 一边收集数据一边分析，从数据中逐步归纳出理论 | [观察描述](../05_research-strategies/observe_describe.md) | 方法篇（计算机） |
@@ -73,6 +75,8 @@
 | 规范法学、法教义学、判例研究；doctrinal legal research | [规范法学研究](../07_fields/law/practices/doctrinal_research.md) | 确定法律是什么，评价现行法，提出改革建议 | [解读论证](../05_research-strategies/interpret_argue.md) | 法学的实践 |
 | 哲学论证、概念分析；philosophical argument、conceptual analysis | [哲学论证研究](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md) | 为一个论题辩护、澄清概念、检验原则 | [解读论证](../05_research-strategies/interpret_argue.md) | 哲学、伦理与宗教的实践 |
 | 理论研究、证明、形式化分析、机器检查的证明；theory paper、proof、formal analysis | [理论研究](../07_fields/computer-science/practices/theoretical_research.md) | 以定理和证明为主要成果：算法复杂度的上下界、协议的安全性、用形式化方法证明系统满足某个性质 | [证明](../05_research-strategies/prove.md) | 计算机的实践 |
+| 内容分析、定量内容分析、定性内容分析、编码分析、文本编码；content analysis、qualitative content analysis、coding scheme / codebook | [内容分析](content_analysis.md) | 按编码手册把大量文本、媒体、帖子或文件系统地编进类别，再统计或解读；多人编码时测编码者间信度 | [观察描述](../05_research-strategies/observe_describe.md)（套路页暂未列出）、[综合](../05_research-strategies/synthesize.md)（材料是已发表研究时；套路页暂未列出） | 方法篇（传播学） |
+| 立场论文、观点论文、展望论文、反思论文；position paper、perspective、vision paper、essay | [立场论文](position_paper.md) | 为"这个领域应该做什么、相信什么"提出论证，正视最强的反对立场 | [解读论证](../05_research-strategies/interpret_argue.md) | 方法篇（计算机） |
 
 ### 提出新东西并评估
 
@@ -80,6 +84,8 @@
 |---|---|---|---|---|
 | 工程研究、工具论文、新方法论文、系统论文；tool paper、technique paper、system paper、design science | [工程研究](../07_fields/computer-science/practices/engineering_research.md) | 提出并评估新的方法、工具或系统：选基线、选基准、设计评估、公开研究制品 | [构建改进](../05_research-strategies/build_improve.md) | 计算机的实践 |
 | 基准评测、评测研究、工具对比；benchmarking、benchmark study、empirical evaluation | [基准评测](../07_fields/computer-science/practices/benchmarking.md) | 用一套标准的评测对象和自动化、可重复的流程，比较系统、工具或模型；也讲怎样检查评测集本身是否有效 | [比较评估](../05_research-strategies/compare_evaluate.md)、[构建改进](../05_research-strategies/build_improve.md)、[测量](../05_research-strategies/measure.md) | 计算机的实践 |
+| 数据集论文、基准论文、资源论文、数据描述；dataset paper、benchmark paper、resource paper、data descriptor | [建一个数据集或基准](dataset_paper.md) | 以新建的数据集或基准本身为成果：说清为什么需要它，收集、标注、划分，写数据表，处理许可和伦理，发布并维护 | [测量](../05_research-strategies/measure.md)、[比较评估](../05_research-strategies/compare_evaluate.md) | 方法篇（计算机） |
+| 大模型实证研究、大模型评测、用大模型做标注或模拟被试、LLM 实证研究；LLM-based empirical study、LLM evaluation、LLM-as-annotator、LLM-as-judge | [大模型实证研究](llm_study.md) | 评测大模型，或把大模型当标注员、评审员、模拟被试来用：记录版本和提示词、检查污染和波动、拿人工判断验证 | [测量](../05_research-strategies/measure.md)、[比较评估](../05_research-strategies/compare_evaluate.md)、[构建改进](../05_research-strategies/build_improve.md) | 方法篇（计算机） |
 | 优化研究、基于搜索的研究；optimization study、search-based software engineering | [优化研究](../07_fields/computer-science/practices/optimization_study.md) | 把问题建模成"在很多候选解中找最好的"，用搜索算法求解 | [构建改进](../05_research-strategies/build_improve.md)、[比较评估](../05_research-strategies/compare_evaluate.md) | 计算机的实践 |
 | 基于设计的研究、设计实验；design-based research | [基于设计的研究](../07_fields/education/practices/design_based_research.md) | 在真实课堂里一轮轮设计、试用、改进教学干预，同时提炼设计原则 | [构建改进](../05_research-strategies/build_improve.md) | 教育学的实践 |
 | 基于实践的研究、以创作为方法的研究、艺术研究；practice-based research、practice-led research、artistic research | [基于实践的研究](../07_fields/arts/practices/practice_based_research.md) | 以创作出的作品作为知识贡献的基础，再配上过程记录和文字说明 | [构建改进](../05_research-strategies/build_improve.md) | 艺术的实践 |
@@ -101,7 +107,7 @@
 - **empirical study（实证研究）**：泛指一切靠观察和数据得出结论的研究，不是一种具体做法。先回到[研究套路](../05_research-strategies/README.md)判断你要的是描述、比较、测量还是因果，再按上面的表找页面。
 - **case study（案例研究）**：社会科学和软件工程里指深入研究少数真实对象，看[案例研究与民族志](case_study.md)或[过程追踪与比较案例研究](process_tracing.md)；工具论文里"在几个真实系统上演示"的那种案例，属于评估的一部分，看[工程研究](../07_fields/computer-science/practices/engineering_research.md)。
 - **田野调查 / fieldwork**：社会科学里多指民族志式的长期观察，看[案例研究与民族志](case_study.md)；语言学、考古、地球科学各有自己的做法，分别看上面"实验室和野外"一组。
-- **实验 / experiment**：有人参与的看[对照实验](controlled_experiment.md)或[随机对照试验](randomized_controlled_trial.md)；在软件系统或模型上跑的看[基准评测](../07_fields/computer-science/practices/benchmarking.md)；在实验台上做的看[实验台实验（湿实验）](bench_experiment.md)。
+- **实验 / experiment**：有人参与的看[对照实验](controlled_experiment.md)或[随机对照试验](randomized_controlled_trial.md)；在正在运行的产品里给真实用户分流的看[在线对照实验（A/B 测试）](online_controlled_experiment.md)；拿大模型做实验的看[大模型实证研究](llm_study.md)；在软件系统或模型上跑的看[基准评测](../07_fields/computer-science/practices/benchmarking.md)；在实验台上做的看[实验台实验（湿实验）](bench_experiment.md)。
 
 ## 方法和套路的分工
 
@@ -112,14 +118,16 @@
 
 这样的分工是本手册的约定 `[本项目分析]`。
 
-怎样根据问题选套路和方法，见[选定研究套路和方法](../02_do-the-project/02_choose-method.md)。
+怎样根据问题选套路和方法，见[选方法](../02_do-the-project/02_choose-method.md)。
 
 ## 这些方法篇的适用范围
 
-`[本项目分析]` `06_methods/` 里的 28 篇方法篇，原来分别是为计算机或某一个学科写的，后来因为不止一个学科在用，才放到这一层：
+`[本项目分析]` `06_methods/` 里有 34 篇方法篇。其中 28 篇原来分别是为计算机或某一个学科写的，后来因为不止一个学科在用，才放到这一层：
 
 - **原为计算机写的 14 篇**主要面向软件工程：大多数篇目的检查清单依据 ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准，例子也多来自软件工程。
 - **原为其他学科写的 14 篇**，依据的是该学科的规范和资料，例如随机对照试验按医学的试验报告规范写，准实验讲的是经济学里的做法。
+
+另外 6 篇是后来补的：[在线对照实验](online_controlled_experiment.md)、[焦点小组](focus_group.md)、[内容分析](content_analysis.md)、[立场论文](position_paper.md)、[建一个数据集或基准](dataset_paper.md)、[大模型实证研究](llm_study.md)。它们一开始就按跨学科的页面写，资料来自哪个领域，各页开头的适用范围里写明了。
 
 方法本身多个学科都在用，但具体规范各学科不同。每篇开头写明了它原来为哪个学科写、资料来自哪里。如果你不在这篇原来的学科，先看本学科的规范和本学科的实践，再把这里的方法篇当作参考。
 

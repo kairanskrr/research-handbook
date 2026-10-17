@@ -156,7 +156,7 @@ A **research strategy** is the main logic by which a project produces new knowle
 
 ## Research methods common in this field
 
-Biotechnology has no method page of its own; the methods it uses are cross-disciplinary, listed in the [research methods overview](../../06_methods/README.md). The mapping below is our own `[Our analysis]`.
+Biotechnology has no method page of its own; the methods it uses are cross-disciplinary, listed in the [research types overview](../../06_methods/README.md). The mapping below is our own `[Our analysis]`.
 
 - **Building strains and cell lines, developing bioprocesses**: see [Bench experiments (wet lab)](../../06_methods/bench_experiment.md). The thinking is close to [Engineering research](../computer-science/practices/engineering_research.md) in computer science, and for optimizing conditions you can draw on [Optimization studies](../computer-science/practices/optimization_study.md); the difference is that you may need approval before you start.
 - **Mechanism studies** (knockout, overexpression, inhibitor experiments): also [Bench experiment](../../06_methods/bench_experiment.md); for reporting requirements, see the "Causal explanation" row of the table in the previous section.

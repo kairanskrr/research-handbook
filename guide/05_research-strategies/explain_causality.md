@@ -131,9 +131,9 @@
 |---|---|---|
 | 收敛成项目 | 主张写成"在条件 C 下，改变 X 会让 Y 怎样变"；想清楚自己能不能改变 X | [收敛成项目](../01_find-a-problem/05_converge.md) |
 | 从问题到证据 | 列出四样东西各用什么证据；列出其他解释 | [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md) |
-| 选方法 | 能改变 X 就做实验；不能就先写识别策略或目标试验 | [选定研究套路和方法](../02_do-the-project/02_choose-method.md) |
+| 选方法 | 能改变 X 就做实验；不能就先写识别策略或目标试验 | [选方法](../02_do-the-project/02_choose-method.md) |
 | 效度 | 重点是内部效度：结果是否真的由数据得出 | [效度与局限](../02_do-the-project/04_validity-and-limits.md) |
-| 预实验 | 先试最没把握的部分，比如提示的效果是否大到能被测出来 | [先做小规模试验，排除最大风险](../02_do-the-project/05_pilot-and-derisk.md) |
+| 预实验 | 先试最没把握的部分，比如提示的效果是否大到能被测出来 | [最小可跑版本](../02_do-the-project/05_pilot-and-derisk.md) |
 | 执行 | 记录每次运行的模型版本、参数、提示原文；中途不换条件 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) |
 | 分析 | 按事先写好的假设分析，不要试遍各种分析再挑结果 | [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) |
 | 写作 | 写清因果主张在什么条件下成立；写出排除了哪些解释、还剩哪些 | [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) |

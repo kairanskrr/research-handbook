@@ -2,7 +2,7 @@
 
 从选题到发表，把一项研究做扎实。
 
-**网页版**：<https://kairanskrr.github.io/research-handbook/>，可以按目录翻阅、全文搜索，点脚注就地看原文；分精简版和完整版。
+**网页版**：<https://kairanskrr.github.io/research-handbook/>，可以按目录翻阅、全文搜索，点脚注就地看原文。每章开头有一个"必须做的事"摘要框，只看它也能往下走。
 
 写给刚开始做科研的人：怎样选题、读文献、设计研究、推进项目、写作投稿，以及各个学科有哪些自己的规矩。内容来自资深研究者的经验和各领域公认的方法规范，每条建议都能追溯到原文出处。
 
@@ -33,7 +33,7 @@
 
 ### 第二部分 · 把它做出来（验证）
 
-[2.1 从研究问题到证据清单](guide/02_do-the-project/01_question-to-evidence.md) · [2.2 选定研究套路和方法](guide/02_do-the-project/02_choose-method.md) · [2.3 形成研究计划](guide/02_do-the-project/03_research-plan.md) · [2.4 效度与局限：设计阶段就想清楚](guide/02_do-the-project/04_validity-and-limits.md) · [2.5 先做小规模试验，排除最大风险](guide/02_do-the-project/05_pilot-and-derisk.md) · [2.6 执行与迭代](guide/02_do-the-project/06_run-and-iterate.md) · [2.7 分析与解读](guide/02_do-the-project/07_analyze-and-interpret.md) · [2.8 决策点：继续、调整，还是退回](guide/02_do-the-project/08_decision-points.md)
+[2.1 从研究问题到证据清单](guide/02_do-the-project/01_question-to-evidence.md) · [2.2 选方法](guide/02_do-the-project/02_choose-method.md) · [2.3 形成研究计划](guide/02_do-the-project/03_research-plan.md) · [2.4 效度与局限：设计阶段就想清楚](guide/02_do-the-project/04_validity-and-limits.md) · [2.5 最小可跑版本](guide/02_do-the-project/05_pilot-and-derisk.md) · [2.6 执行与迭代](guide/02_do-the-project/06_run-and-iterate.md) · [2.7 分析与解读](guide/02_do-the-project/07_analyze-and-interpret.md) · [2.8 决策点：继续、调整，还是退回](guide/02_do-the-project/08_decision-points.md)
 
 ### 写作和发表
 
@@ -41,12 +41,13 @@
 
 ### 参考：需要时再查
 
-- **[研究类型](guide/06_methods/README.md)**：一种具体做法怎么做好。这个目录合并了两类页面：两个及以上学科都在用的 28 种方法（放在 `guide/06_methods/`），和只在某个学科用的实践（放在各学科的 `practices/` 下，见下面学科篇）。每篇讲适合回答什么问题、分几步做、检查清单和常见错误。多个学科通用的方法：
+- **[研究类型](guide/06_methods/README.md)**：一种具体做法怎么做好。这个目录合并了两类页面：两个及以上学科都在用的 34 种方法（放在 `guide/06_methods/`），和只在某个学科用的实践（放在各学科的 `practices/` 下，见下面学科篇）。每篇讲适合回答什么问题、分几步做、检查清单和常见错误。多个学科通用的方法：
   - 以已发表的研究为材料：[综述研究](guide/06_methods/review_study.md) · [案例调查](guide/06_methods/case_survey.md) · [方法论研究与元科学](guide/06_methods/meta_science.md) · [系统综述与元分析（健康领域）](guide/06_methods/meta_analysis.md)
   - 基于已有数据或模型：[数据科学研究](guide/06_methods/data_science.md) · [纵向研究](guide/06_methods/longitudinal_study.md) · [定量仿真](guide/06_methods/simulation_study.md) · [准实验与因果识别](guide/06_methods/quasi_experiment.md) · [观察性流行病学研究](guide/06_methods/observational_epidemiology.md)
-  - 涉及人的研究：[对照实验](guide/06_methods/controlled_experiment.md) · [随机对照试验](guide/06_methods/randomized_controlled_trial.md) · [田野实验](guide/06_methods/field_experiment.md) · [问卷调查](guide/06_methods/questionnaire_survey.md) · [量表编制与测量研究](guide/06_methods/scale_development.md) · [访谈研究](guide/06_methods/interview_study.md) · [口述历史](guide/06_methods/oral_history.md) · [案例研究与民族志](guide/06_methods/case_study.md) · [扎根理论](guide/06_methods/grounded_theory.md) · [行动研究](guide/06_methods/action_research.md)
+  - 涉及人的研究：[对照实验](guide/06_methods/controlled_experiment.md) · [随机对照试验](guide/06_methods/randomized_controlled_trial.md) · [田野实验](guide/06_methods/field_experiment.md) · [在线对照实验（A/B 测试）](guide/06_methods/online_controlled_experiment.md) · [问卷调查](guide/06_methods/questionnaire_survey.md) · [量表编制与测量研究](guide/06_methods/scale_development.md) · [访谈研究](guide/06_methods/interview_study.md) · [焦点小组](guide/06_methods/focus_group.md) · [口述历史](guide/06_methods/oral_history.md) · [案例研究与民族志](guide/06_methods/case_study.md) · [扎根理论](guide/06_methods/grounded_theory.md) · [行动研究](guide/06_methods/action_research.md)
   - 实验室和野外的实验与观测：[实验台实验（湿实验）](guide/06_methods/bench_experiment.md) · [临床前动物研究](guide/06_methods/preclinical_animal_study.md) · [合成与表征研究](guide/06_methods/synthesis_study.md) · [实验测量研究](guide/06_methods/experimental_measurement.md) · [野外观测研究](guide/06_methods/field_study.md)
-  - 以档案和案例为材料：[档案研究](guide/06_methods/archival_research.md) · [过程追踪与比较案例研究](guide/06_methods/process_tracing.md)
+  - 档案、文本与论证：[档案研究](guide/06_methods/archival_research.md) · [过程追踪与比较案例研究](guide/06_methods/process_tracing.md) · [内容分析](guide/06_methods/content_analysis.md) · [立场论文](guide/06_methods/position_paper.md)
+  - 提出新东西并评估：[建一个数据集或基准](guide/06_methods/dataset_paper.md) · [大模型实证研究](guide/06_methods/llm_study.md)
   - 跨方法：[复现研究](guide/06_methods/replication.md) · [混合方法](guide/06_methods/mixed_methods.md)
 - **[学科篇](guide/07_fields/README.md)**：某个学科、某个研究社区特有的规矩。每个学科有一篇学科概况；只有这个学科使用的做法另外成篇，放在该学科的 `practices/` 下（计算机 5 篇见下一行，其他学科 9 篇见[学科独有的实践](guide/07_fields/README.md#学科独有的实践)）。学科划分按经济合作与发展组织（OECD）的分类，完整对照和各篇状态见学科篇目录。
   - 计算机：[学科概况](guide/07_fields/computer-science/README.md)；计算机特有的研究实践：[工程研究](guide/07_fields/computer-science/practices/engineering_research.md) · [优化研究](guide/07_fields/computer-science/practices/optimization_study.md) · [基准评测](guide/07_fields/computer-science/practices/benchmarking.md) · [仓库挖掘研究](guide/07_fields/computer-science/practices/repository_mining.md) · [理论研究](guide/07_fields/computer-science/practices/theoretical_research.md)

@@ -26,7 +26,7 @@ The Organisation for Economic Co-operation and Development (OECD) *Frascati Manu
 | Examples | Art history, musicology, theater studies[^oecd2015frascati-e12] | Making creative work, where the work is the basis of the contribution to knowledge[^candy2006practice-e1] |
 | Evidence | Works, documents, archives, and other sources | The work itself, plus documentation of the process and written analysis[^candy2006practice-e5] |
 | Outputs | Mainly writing | The work plus a "research narrative" (see below)[^bulley2021practice-e5] |
-| Closest existing field page | [History and archaeology](../history-archaeology/README.md) | The second kind on this page; among research methods, [Action research](../../06_methods/action_research.md) has things in common with it |
+| Closest existing field page | [History and archaeology](../history-archaeology/README.md) | The second kind on this page; among Research types, [Action research](../../06_methods/action_research.md) has things in common with it |
 
 ### Kind one: scholarly research about art
 
@@ -199,7 +199,7 @@ How to use this table `[Our analysis]`:
 
 ## Research methods common in this field
 
-How-to pages come in two groups: research practices used only in the arts live in the Arts section's `practices/`; research methods that other fields also use live in the [Research methods](../../06_methods/README.md) section. For which strategy each serves, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above. The differences to watch when you borrow a cross-field method are our own summary `[Our analysis]`:
+How-to pages come in two groups: research practices used only in the arts live in the Arts section's `practices/`; research methods that other fields also use live in the [Research types](../../06_methods/README.md) section. For which strategy each serves, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above. The differences to watch when you borrow a cross-field method are our own summary `[Our analysis]`:
 
 - **Specific to the arts:** [Practice-based research](practices/practice_based_research.md). You make creative work, and the work is the basis of the contribution to knowledge[^candy2006practice-e1]; the output is the work, its documentation, and a research narrative.
 - [Archival research](../../06_methods/archival_research.md): art history and musicology studying works, manuscripts, letters, and institutional archives.

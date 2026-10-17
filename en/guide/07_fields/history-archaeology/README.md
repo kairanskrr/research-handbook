@@ -163,10 +163,10 @@ How to use this table `[Our analysis]`:
 
 ## Research methods common in this field
 
-Practices used only in this field live in this field's `practices/` folder; those other fields also use live in [Research methods](../../06_methods/README.md). For which strategies they serve, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above. The descriptions below are our own summary `[Our analysis]`.
+Practices used only in this field live in this field's `practices/` folder; those other fields also use live in [Research types](../../06_methods/README.md). For which strategies they serve, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) above. The descriptions below are our own summary `[Our analysis]`.
 
 - **Field-specific practices**: [Archaeological excavation and field survey](practices/archaeological_excavation.md), from the project design and non-intrusive survey to stratigraphic excavation, archiving, and writing the report
-- **Cross-field research methods**:
+- **Cross-field research types**:
   - [Archival research](../../06_methods/archival_research.md): consult unpublished original records to answer questions about the past
   - [Oral history](../../06_methods/oral_history.md): interview people about what they lived through and archive the interviews; for interviewing technique, see [Interview studies](../../06_methods/interview_study.md); for the differences, see above: narrator review, public archiving, no default anonymity
   - [Review studies](../../06_methods/review_study.md): when writing historiography, you can borrow the idea of documenting your search and selection, but history puts more weight on positioning your argument

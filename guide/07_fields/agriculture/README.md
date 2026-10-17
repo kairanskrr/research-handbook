@@ -169,7 +169,7 @@ Casler 给的补救办法有两种[^casler2015fundamentals-e7]：**在空间上�
 
 ## 本学科常用的研究方法
 
-本学科独有的：[田间试验](practices/field_trial.md)。跨学科的研究方法里常用下面这些，"相通"的判断是本项目的归纳 `[本项目分析]`：长期定位试验和[纵向研究](../../06_methods/longitudinal_study.md)相通，但对象是土壤和作物；农场试验和参与式研究和[行动研究](../../06_methods/action_research.md)相通，但通常仍有对照和重复；野外调查见[野外观测研究](../../06_methods/field_study.md)；作物模型见[定量仿真](../../06_methods/simulation_study.md)；表型和遥感数据分析见[数据科学](../../06_methods/data_science.md)，要特别交代田间元数据；农户调查和访谈见[问卷调查](../../06_methods/questionnaire_survey.md)、[访谈研究](../../06_methods/interview_study.md)；汇总已发表试验见[综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)。
+本学科独有的：[田间试验](practices/field_trial.md)。跨学科的研究类型里常用下面这些，"相通"的判断是本项目的归纳 `[本项目分析]`：长期定位试验和[纵向研究](../../06_methods/longitudinal_study.md)相通，但对象是土壤和作物；农场试验和参与式研究和[行动研究](../../06_methods/action_research.md)相通，但通常仍有对照和重复；野外调查见[野外观测研究](../../06_methods/field_study.md)；作物模型见[定量仿真](../../06_methods/simulation_study.md)；表型和遥感数据分析见[数据科学](../../06_methods/data_science.md)，要特别交代田间元数据；农户调查和访谈见[问卷调查](../../06_methods/questionnaire_survey.md)、[访谈研究](../../06_methods/interview_study.md)；汇总已发表试验见[综述研究](../../06_methods/review_study.md)、[系统综述与元分析](../../06_methods/meta_analysis.md)。
 
 ---
 

@@ -747,15 +747,64 @@
 - [An Introduction to Design-Based Research with an Example From Statistics Education](https://dspace.library.uu.nl/handle/1874/356250) - Bakker 等人，Approaches to Qualitative Research in Mathematics Education: Examples of Methodology and Methods 2015。专为硕士、博士生写的基于设计的研究入门章节：与随机对照试验和行动研究的比较、假设的学习轨迹、每轮的三个阶段、数据收集和分析矩阵、效度与信度，附统计教育的完整例子。🆓 `bakker2015introduction`
 - [Design-Based Research: A Methodology to Extend and Enrich Biology Education Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC8711803/) - Scott 等人，CBE–-Life Sciences Education 2020。开放获取的方法论文章，以大学生理学课程为例完整走一轮"设计—检验—评估—反思"，转述 Sandoval 2014 的"认识论承诺"和猜想图思路，并讨论合作、资源和严谨性方面的困难。🆓 `scott2020design`
 
+**研究类型：在线对照实验（A/B 测试）**
+
+- [Controlled experiments on the web: survey and practical guide](https://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf) - Kohavi 等人，Data Mining and Knowledge Discovery 2009。微软实验平台团队写的在线对照实验综述和实践指南，讲总体评价指标、功效与样本量、A/A 测试、随机化算法、局限，以及一批实践教训。🆓 `kohavi2009controlled`
+- [Trustworthy Online Controlled Experiments: Five Puzzling Outcomes Explained](https://exp-platform.com/Documents/puzzlingOutcomesInControlledExperiments.pdf) - Kohavi 等人，KDD 2012。用必应和 MSN 的五个令人困惑的实验结果，讲指标选择、埋点误差、早期趋势、功效和遗留效应。🆓 `kohavi2012trustworthy`
+- [A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments](https://exp-platform.com/Documents/2017-08%20KDDMetricInterpretationPitfalls.pdf) - Dmitriev 等人，KDD 2017。微软实验团队总结的十二个指标解读陷阱：样本比例不匹配、比率指标、遥测丢失、功效不足、边缘 p 值、中途偷看、分群、新奇效应等。🆓 `dmitriev2017dirty`
+- [Diagnosing Sample Ratio Mismatch in Online Controlled Experiments](https://exp-platform.com/Documents/2019_KDDFabijanGupchupFuptaOmhoverVermeerDmitriev.pdf) - Fabijan 等人，KDD 2019。基于微软、Booking.com 等四家公司的案例研究，给样本比例不匹配的原因分类，并给出诊断和预防的经验法则。🆓 `fabijan2019diagnosing`
+- [Always Valid Inference: Continuous Monitoring of A/B Tests](https://arxiv.org/abs/1512.04922) - Johari 等人，arXiv 2015（2019 年第 3 版）。说明持续盯着 A/B 测试结果会让常规 p 值失效，并提出允许随时停止的"始终有效"p 值和置信区间。🆓 `johari2015always`
+- [Editorial Expression of Concern: Experimental evidence of massive-scale emotional contagion through social networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC4115552/) - Verma，PNAS 2014。PNAS 主编就 Facebook 情绪传染实验的知情同意和退出问题发表的编辑关注声明。🆓 `verma2014editorial`
+- [Experimental evidence of massive-scale emotional contagion through social networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/) - Kramer 等人，PNAS 2014。Facebook 在近 69 万用户身上操纵动态消息情绪内容的实验，在线实验伦理争议的标志性案例。🆓 `kramer2014experimental`
+
+**研究类型：焦点小组**
+
+- [Qualitative research: Introducing focus groups](https://pmc.ncbi.nlm.nih.gov/articles/PMC2550365/) - Kitzinger，BMJ 1995。《英国医学杂志》"定性研究"系列中的焦点小组入门，PubMed Central 免费扫描版。正文用它说明：焦点小组明确利用组内互动，和"一次问几个人"的小组访谈不同；适合看人们怎样想、为什么这样想；同质与混合小组、上下级关系的影响；理想 4 到 8 人；主持人让大家彼此交谈；报告不宜给百分比、要区分个人意见和小组共识、给互动编码、展示对话。🆓 `kitzinger1995qualitative`
+- [Designing and Conducting Focus Group Interviews](https://www.eiu.edu/ihec/Krueger-FocusGroupInterviews.pdf) - Krueger，明尼苏达大学讲义 2002。焦点小组方法代表人物的 17 页公开讲义（另见 [SHADAC 副本](https://www.shadac.org/sites/default/files/publications/FocGrp_Krueger_Oct02.pdf)）。正文用它说明：每组 5 到 10 人、最好 6 到 8 人；五类问题和开场规则；停顿与追问；助手记笔记；转录标明说话人；分析时看上下文和立场变化；其开场示例承诺"完全保密"，与 Sim & Waterfield 的分析对照。🆓 `krueger2002designing`
+- [What about N? A methodological study of sample-size reporting in focus group studies](https://doi.org/10.1186/1471-2288-11-26) - Carlsen & Glenton，BMC Medical Research Methodology 2011。调查 2008 年开放获取健康期刊中 220 篇焦点小组研究怎样报告组数。正文用它说明：样本量按组数算；每组人数建议多在 4 到 12 人；每类参与者 2 到 5 组只是经验法则；组数中位数 5、只有 17% 解释了组数；不少自称饱和的研究并没有边收集边分析。🆓 `carlsen2011what`
+- [What Influences Saturation? Estimating Sample Sizes in Focus Group Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC6635912/) - Hennink、Kaiser & Weber，Qualitative Health Research 2019。用 10 场焦点小组的数据检验编码饱和与意义饱和各需要几组。正文用它说明：四组达到编码饱和、意义饱和需要更多组；每层一组能发现问题、两组理解更全面；第一组产生 60% 新编码；事先写组数范围。🆓 `hennink2019what`
+- [Focus group methodology: some ethical challenges](https://doi.org/10.1007/s11135-019-00914-5) - Sim & Waterfield，Quality & Quantity 2019。系统讨论焦点小组的知情同意、保密与匿名、伤害风险，以及四个环节的对策。正文用它说明：外部保密研究者能保证、内部保密研究者控制有限；中途退出很难、分析前无法撤回数据；说出口的话难收回；防止拼凑信息认出参与者；主持时防止一人独大、留意过度暴露。🆓 `sim2019focus`
+- [The use of focus group discussion methodology: Insights from two decades of application in conservation](https://doi.org/10.1111/2041-210X.12860) - O.Nyumba、Wilson、Derrick & Mukherjee，Methods in Ecology and Evolution 2018。综述 1996–2017 年保护研究中 170 项焦点小组研究并给出最佳实践建议。正文用它说明：研究者是主持人而非提问者；超过 12 人难管理、可多招 10% 到 25%；需要主持人和助手；不适合需要数字或参与者不自在的情况；主导效应、光环效应、群体思维；报告缺失严重。🆓 `nyumba2018use`
+
+**研究类型：内容分析**
+
+- [Qualitative Content Analysis](https://www.qualitative-research.net/index.php/fqs/article/view/1089) - Philipp Mayring，Forum Qualitative Sozialforschung / Forum: Qualitative Social Research 2000。定性内容分析的开放获取入门文章，出自德国心理学与社会科学传统：保留定量内容分析的规则和类别，讲归纳发展类别、演绎应用类别的步骤，附编码手册示例。🆓 `mayring2000qualitative`
+- [Reliability in Content Analysis: Some Common Misconceptions and Recommendations](https://repository.upenn.edu/handle/20.500.14332/1886) - Klaus Krippendorff，Human Communication Research 2004（宾夕法尼亚大学机构库的作者稿）。传播学方法论文，回应 Lombard 等人的信度指南：为什么不用百分比一致率和相关系数，Krippendorff's alpha 的合格线怎样定，逐个变量测信度。🆓 `krippendorff2004reliability`
+- [Demystifying Content Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055418/) - Kleinheksel 等人，American Journal of Pharmaceutical Education 2020。药学教育期刊上的内容分析入门：显性和隐性内容分析、编码手册、编码者培训和信度，并对照 Hsieh 和 Shannon 的三种分法。🆓 `kleinheksel2020demystifying`
+- [Content Analysis](https://www.publichealth.columbia.edu/research/population-health-methods/content-analysis) - 哥伦比亚大学梅尔曼公共卫生学院，Population Health Methods 2023。公共卫生方法页：概念分析和关系分析的一般步骤、信度效度、优缺点和读物。🆓 `columbia2023contentanalysis`
+
+**研究类型：立场论文**
+
+- [ICML 2025 Call For Position Papers](https://icml.cc/Conferences/2025/CallForPositionPapers) - ICML，2025。国际机器学习会议立场论文赛道的征稿启事：立场论文和研究论文的区别、标题/摘要/引言必须写出立场、正文必须有"不同观点"一节，以及七条审稿标准（审稿人不必同意立场）。🆓 `icml2025position`
+- [ICML 2024 Call For Position Papers](https://icml.cc/Conferences/2024/CallForPositionPapers) - ICML，2024。ICML 第一次设立立场论文赛道时的征稿启事：设立理由、六条审稿标准（还没有"不同观点"一条）、由自愿报名的审稿人审。🆓 `icml2024position`
+- [NeurIPS 2025 Call for Position Papers](https://neurips.cc/Conferences/2025/CallForPositionPapers) - NeurIPS，2025。神经信息处理系统大会立场论文赛道征稿启事：要求与 ICML 2025 相近，但"不同观点"一节改为"在合适时可以包含"，不要求论文检查清单。🆓 `neurips2025position`
+- [FSE 2025 Call for Ideas, Visions and Reflections Papers](https://conf.researchr.org/track/fse-2025/fse-2025-ideas-visions-and-reflections) - FSE 2025，2025。软件工程基础会议"想法、展望与反思"赛道征稿启事：三类论文（新想法、展望、反思）、不要求评估结果、什么稿件不算，以及评审标准；4 页。🆓 `fse2025ivr`
+- [Nature Sustainability: Content Types](https://www.nature.com/natsustain/content) - Nature Sustainability，期刊网页。期刊文章类型说明：观点文章（Perspective）与综述、评论文章（Comment）的区别，观点文章多由编辑邀请、主动投稿先交提要。🆓 `natsustaincontent`
+
+**研究类型：建一个数据集或基准**
+
+- [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) - Gebru 等人，Communications of the ACM 2021。提议每个数据集附一份"数据表"，按动机、组成、收集、处理/标注、用途、分发、维护七组问题记录数据集，附示范数据表。🆓 `gebru2021datasheets`
+- [AI and the Everything in the Whole Wide World Benchmark](https://arxiv.org/abs/2111.15366) - Raji 等人，NeurIPS 2021 数据集与基准分会。以 ImageNet 和 GLUE 为例，批评把基准当作"通用能力"的度量，讨论基准的构念效度、数据偏向和只报总分的问题。🆓 `raji2021everything`
+- [BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices](https://arxiv.org/abs/2411.12990) - Reuel 等人，NeurIPS 2024 数据集与基准分会。按设计、实现、文档、维护等阶段提出 46 条基准质量标准，给 24 个常用基准打分，附建基准者清单。🆓 `reuel2024betterbench`
+- [NeurIPS 2024 Datasets and Benchmarks Track](https://neurips.cc/Conferences/2024/CallForDatasetsBenchmarks) - NeurIPS，2024。数据集与基准分会征稿启事：数据集文档、许可、长期保存、永久标识符等提交要求，以及审稿时考虑的因素（文档完整性、许可与获取、同意与隐私、伦理）。以当年页面为准。🆓 `neurips2024datasets`
+- [NeurIPS 2025 Datasets & Benchmarks Track Call for Papers](https://neurips.cc/Conferences/2025/CallForDatasetsBenchmarks) - NeurIPS，2025。在主会征稿启事之外加的分会要求：投稿时数据和代码必须可获取（否则可直接拒稿）、托管在专门的数据平台、用 Croissant 格式记录元数据。以当年页面为准。🆓 `neurips2025datasets`
+- [Scientific Data Submission Guidelines](https://www.nature.com/sdata/submission-guidelines) - Scientific Data 期刊，读取于 2026-10-17。跨学科的数据描述论文（Data Descriptor）怎么写：背景、方法、数据记录、技术验证、数据和代码可获取性，不写结果和分析；数据须存放在正式数据仓库。🆓 `scientificdata2026guidelines`
+
+**研究类型：大模型实证研究**
+
+- [Breaking the Silence: the Threats of Using LLMs in Software Engineering](https://arxiv.org/abs/2312.08055) - Sallou、Durieux、Panichella，ICSE-NIER 2024。用大模型做软件工程研究的三类效度威胁：闭源模型的演变、训练数据带来的隐性泄露、可复现性；建议多次运行、公开执行元数据、用语义不变的"蜕变"改写检查泄露。🆓 `sallou2024breaking`
+- [Lessons from the Trenches on Reproducible Evaluation of Language Models](https://arxiv.org/abs/2405.14782) - Biderman 等人（EleutherAI 等），arXiv 2024。评测框架 lm-eval 开发者的经验：提示词和实现细节怎样改变分数和排名，为什么要公开评测代码和提示词、报告多次运行的波动、做错误分析。🆓 `biderman2024lessons`
+- [Best Practices for Text Annotation with Large Language Models](https://arxiv.org/abs/2402.05129) - Petter Törnberg，arXiv 2024。社会科学用大模型做文本标注的最佳实践：选模型、人机一起迭代的编码流程、提示词编码手册、提示词定稿后再验证、参数、提示词稳定性分析、训练数据问题、伦理。🆓 `tornberg2024best`
+
 ### 手册章节新增的资料
 
-主线、研究套路和贯穿全程各章新引用的资料（2026-10 新增），按章节分组。
+两部分各章、研究套路和贯穿全程各章新引用的资料（2026-10 新增），按章节分组。
 
 **研究套路：证明**
 
 - [seL4: Formal Verification of an OS Kernel](https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf) - Klein 等人，Proceedings of the 22nd ACM Symposium on Operating Systems Principles (SOSP) 2009。seL4 微内核的完整形式化验证（Isabelle/HOL，从抽象规约到 C 实现）。正文用它说明：证明结论带着明确的假设、规约正确不等于符合用户期望、机器检查证明的代价（约 20 人年、20 万行证明脚本）和收获（发现 144 个缺陷）。🆓 `klein2009sel4`
 
-**主线二：先做小规模试验，排除最大风险**
+**第二部分：最小可跑版本**
 
 - [A tutorial on pilot studies: the what, why and how](https://pmc.ncbi.nlm.nih.gov/articles/PMC2824145/) - Thabane 等人，BMC Medical Research Methodology 2010。临床研究方法学期刊上的预研究教程，开放获取（CC BY 2.0）。正文用它说明：预研究为可行性服务；做预研究的四类理由（流程、资源、管理、科学）；事先写明成功标准，结果分为停止 / 修改后继续 / 监控着继续 / 照原方案继续；不要用预研究估计效果、不要强调显著性；"停"也是成功；预研究数据合并必须事先计划；向参与者说明预研究目的。注意：该文 2023 年有一则更正（BMC Med Res Methodol 23:59），本章引用的段落未核对更正内容。🆓 `thabane2010tutorial`
 
@@ -965,15 +1014,15 @@
 - [Disciplinary Standards for Reappointment, Tenure, and Promotion in Political Science](https://academicaffairs.tcnj.edu/wp-content/uploads/sites/171/2023/05/Political-Science-Disciplinary-Standards.pdf) - Department of Political Science, The College of New Jersey，网页 2023。美国新泽西学院政治学系的续聘、终身教职和晋升学科标准（2022–2023 年签署，2023 年 4 月修订版）。正文用它举例说明一所美国学院怎样折算专著和文章、怎样看待会议论文；只代表这一所学校。🆓 `tcnj2023polisci`
 - [American Political Science Review Editorial Report: Executive Summary (Fall 2023)](https://www.cambridge.org/core/product/CFCD95D2AF8F273A6CA9D1ABAD66BD47/core-reader) - Tripp 等人，Political Science Today 2024。《美国政治学评论》编辑部 2023 年秋报告的执行摘要，刊于 Political Science Today。正文用它说明这本期刊各类审稿决定的中位天数和录用率。🆓 `apsr2024editorial`
 
-**主线二：从研究问题到证据（补充）**
+**第二部分：从研究问题到证据（补充）**
 
 - [Registered reports in software engineering](https://arxiv.org/abs/2302.03649) - Ernst 等人，Empirical Software Engineering 2023。正文用它说明软件工程里哪些会议和期刊、从哪一年起接受注册报告（MSR 2020、Empirical Software Engineering 2020、TOSEM 2022，第一阶段可在 MSR/ICSME/ESEM 轨道审）。🆓 `ernst2023registered`
 
-**主线二：先做小规模试验，排除最大风险（补充）**
+**第二部分：最小可跑版本（补充）**
 
 - [Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans – TCPS 2 (2022)](https://ethics.gc.ca/eng/tcps2-eptc2_2022_chapter2-chapitre2.html) - Canadian Institutes of Health Research and Natural Sciences and Engineering Research Council of Canada and Social Sciences and Humanities Research Council of Canada，Government of Canada, Panel on Research Ethics 2022。加拿大三大联邦研究资助机构联合发布的人类研究伦理政策（2022 年版）。正文用它说明：在加拿大，预研究属于需要研究伦理委员会审查的研究，须在招募和收集数据前送审（Article 2.1、6.11）；为设计方案做的初步探索不需要审查；预研究审查按风险相称（Article 6.11、6.12）。🆓 `tcps2022ethical`
 
-**主线四：选择发表去处与投稿（补充）**
+**写作和发表：选择发表去处与投稿（补充）**
 
 - [Journals: Think. Check. Submit. Checklist](https://thinkchecksubmit.org/journals/) - Think. Check. Submit.，网页 2023。Think. Check. Submit. 官方期刊核对清单网页（英文版 2023 年 3 月更新、6 月修订；COPE、DOAJ 等出版业组织共同发起的倡议）。正文用它列出识别可疑刊物时可以核对的几个问题。🆓 `thinkchecksubmit2023checklist`
 

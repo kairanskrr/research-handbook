@@ -32,7 +32,7 @@ So when a paper says a result "has industrial potential," it should state the sc
 
 ### Modeling and simulation: pass the mass and energy balance check first
 
-Process modeling and simulation are standard tools in this field `[Our analysis]`. A simple check that often gets skipped: does the concept make sense at all? The carbon capture and utilization techno-economic assessment guideline mentioned above requires a "sanity check" before any assessment, checking kinetics and the mass and energy balances; the concept must not violate the laws of thermodynamics[^zimmermann2020tea-e5]. That guideline covers only carbon capture and utilization, but the same check is worth doing in process modeling generally `[Our analysis]`. For how to verify and validate a simulation study, see [Quantitative simulation](../../06_methods/simulation_study.md) under research methods.
+Process modeling and simulation are standard tools in this field `[Our analysis]`. A simple check that often gets skipped: does the concept make sense at all? The carbon capture and utilization techno-economic assessment guideline mentioned above requires a "sanity check" before any assessment, checking kinetics and the mass and energy balances; the concept must not violate the laws of thermodynamics[^zimmermann2020tea-e5]. That guideline covers only carbon capture and utilization, but the same check is worth doing in process modeling generally `[Our analysis]`. For how to verify and validate a simulation study, see [Quantitative simulation](../../06_methods/simulation_study.md) under Research types.
 
 ### Publishing: mostly journals, so read your target journal's requirements
 
@@ -148,7 +148,7 @@ How to use this table `[Our analysis]`: choose the main strategy from your centr
 
 ## Research methods common in this field
 
-This field has no method pages of its own; it uses the cross-field methods in [Research methods](../../06_methods/README.md) and the practices on the Computer science page `[Our analysis]`:
+This field has no method pages of its own; it uses the cross-field methods in [Research types](../../06_methods/README.md) and the practices on the Computer science page `[Our analysis]`:
 
 - [Synthesis and characterization studies](../../06_methods/synthesis_study.md) and [Experimental measurement](../../06_methods/experimental_measurement.md): do a hazard assessment before you change quantities or conditions; see [lab safety](#lab-safety-is-part-of-research-do-a-hazard-assessment-before-you-start) above.
 - [Quantitative simulation](../../06_methods/simulation_study.md): process simulation and reactor modeling, with parameters often taken from experimental data.

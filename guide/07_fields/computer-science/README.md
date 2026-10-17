@@ -193,7 +193,7 @@
 - [仓库挖掘](practices/repository_mining.md)：分析代码仓库、缺陷记录等软件开发数据
 - [理论研究](practices/theoretical_research.md)：证明、形式化分析
 
-### 跨学科的研究方法
+### 跨学科的研究类型
 
 **文献类**
 - [综述研究](../../06_methods/review_study.md)：系统综述、映射研究与综述论文

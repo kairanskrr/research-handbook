@@ -104,7 +104,7 @@
 
 **档案研究和口述历史为什么放在这里。** 这两种方法拿到的都是一手材料，材料本身不是结论：上表两行的出处都要求把材料和其他证据放在一起审视，再用来建立或反驳一个论点。所以本手册把它们归到解读论证；拿档案只为重建一件事的经过，按[观察描述](observe_describe.md)的要求做；拿它们检验因果解释，同时看[解释因果](explain_causality.md) `[本项目分析]`。
 
-宗教学研究可以用文学批评、人类学、社会学、历史学等多种方法[^aar2019literacy-e2]。方法和套路是两层，同一种方法可以服务不同的套路，见[选定研究套路和方法](../02_do-the-project/02_choose-method.md)。
+宗教学研究可以用文学批评、人类学、社会学、历史学等多种方法[^aar2019literacy-e2]。方法和套路是两层，同一种方法可以服务不同的套路，见[选方法](../02_do-the-project/02_choose-method.md)。
 
 ## 4. 它怎样影响整个项目
 
@@ -116,7 +116,7 @@
 | [找问题](../01_find-a-problem/02_generate-problems.md)、[收敛成项目](../01_find-a-problem/05_converge.md) | 从文本里让你困惑、说不通的地方找题目[^uncwritinglit-e5]；想好问题后，紧接着问"有哪些文献"[^cronon2009learning-e2]。论点太窄说不出东西，太宽材料撑不住[^harvardwcthesis-e3]；好的哲学论文只讲一个小观点[^pryor2012writing-e5] |
 | [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md) | 证据清单变成材料清单：哪些档案、哪个版本的文本、哪些法律渊源、哪些反方解读。可以先列一张"理想资料"清单，遇到真实文献后不断更新[^cronon2009learning-e41]。法学学位论文常写"主要论点"或"指导性命题"，起类似假设的作用[^hutchinson2012defining-e40] |
 | [效度与局限](../02_do-the-project/04_validity-and-limits.md) | 没有抽样误差，但有材料的缺口：记录可能从未存在、没有留存或没被收藏[^saaacrl2018primary-e9]。也有你自己的立场：学术诚信要求意识到个人和文化偏见[^caa2014standards-e2]；研究者的哲学立场常决定研究问题和结论，却往往没写出来[^hutchinson2012defining-e39] |
-| [先做小规模试验](../02_do-the-project/05_pilot-and-derisk.md) | 先细读一小段、查一个收藏，确认材料撑得起问题。去档案馆前先联系，确认材料在不在[^cronon2009learning-e32]。哲学：能口头讲给别人听了，再写提纲[^pryor2012writing-e36] |
+| [最小可跑版本](../02_do-the-project/05_pilot-and-derisk.md) | 先细读一小段、查一个收藏，确认材料撑得起问题。去档案馆前先联系，确认材料在不在[^cronon2009learning-e32]。哲学：能口头讲给别人听了，再写提纲[^pryor2012writing-e36] |
 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 问题和文献互相塑造[^cronon2009learning-e9]；选证据和修改论点最好同时做[^uncwritinglit-e19]；边收集边写[^cronon2009learning-e28]。笔记严格区分照抄和转述[^aha2023standards-e12]，标清哪些是自己的想法[^cronon2009learning-e11] |
 | [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) | "分析"变成从观察走到论点：在注意到的东西里找重复、矛盾和相似[^kain1998closereading-e5]，再问"怎样"和"为什么"[^kain1998closereading-e6]。论证修不好时，把论题改成你能辩护的那个[^pryor2012writing-e19] |
 | [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 不必套用"方法—结果—讨论"的结构，先看本学科的范文怎样按论点分章。分清哪里是自己的观点、哪里是转述别人[^pryor2012writing-e40]。脚注体系在包括文学、历史和艺术在内的人文学科里很常用[^chicago2024citation-e2]，动笔前查目标期刊的格式 |

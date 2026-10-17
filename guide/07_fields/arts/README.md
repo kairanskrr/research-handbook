@@ -26,7 +26,7 @@
 | 例子 | 艺术史、音乐学、戏剧研究[^oecd2015frascati-e12] | 创作作品，作品是知识贡献的基础[^candy2006practice-e1] |
 | 证据 | 作品、文献、档案等资料 | 作品本身，加上过程记录和文字分析[^candy2006practice-e5] |
 | 成果 | 主要是文字 | 作品加"研究叙述"（见下文）[^bulley2021practice-e5] |
-| 最接近的已有学科篇 | [历史与考古](../history-archaeology/README.md) | 本文第二类；研究方法里的[行动研究](../../06_methods/action_research.md)有相通之处 |
+| 最接近的已有学科篇 | [历史与考古](../history-archaeology/README.md) | 本文第二类；研究类型里的[行动研究](../../06_methods/action_research.md)有相通之处 |
 
 ### 第一类：关于艺术的学术研究
 

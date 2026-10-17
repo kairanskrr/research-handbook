@@ -121,7 +121,7 @@ This list mainly follows SIGSOFT's longitudinal studies standard, which was writ
 - [ ] At least two waves of data collection, with subjects identifiable across waves[^ralph2020empirical-e259]
 - [ ] Number of waves and intervals set by the phenomenon's natural rhythm[^ralph2020empirical-e259]
 - [ ] The analysis method is justified and suits the serial dependence of the data[^ralph2020empirical-e260]
-- [ ] The significance threshold is discussed, or the basis for Bayesian priors is explained[^ralph2020empirical-e261]
+- [ ] With many variables and comparisons, the significance threshold is adjusted, or Bayesian statistics are used instead[^ralph2020empirical-e261]
 - [ ] Sample size is justified; attrition at each wave is described; handling of missing data is explained[^ralph2020empirical-e262]
 - [ ] Subjects are described; the construct validity of the metrics is discussed[^ralph2020empirical-e263]
 

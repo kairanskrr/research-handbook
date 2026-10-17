@@ -80,7 +80,7 @@ The essential attributes in the SIGSOFT standard require you to answer four ques
 
 Ideally, also draw a diagram of the study design and give a definition of the design you use[^ralph2020empirical-e278].
 
-**Where people go wrong:** the design doesn't match the research question; or the team, because of differing epistemological perspectives or methods, never agrees on a clear research question[^ralph2020empirical-e284]. Write the research question as one sentence first, then check which part of it each method answers `[Our analysis]`.
+**Where people go wrong:** the design doesn't match the research question; or the team never agrees on a crisp research question, which can happen when members hold different epistemological perspectives (different views of what counts as knowledge and how you come to know something; say, one person trusts only measured numbers while another values interpreting people's experience) or use very different methods[^ralph2020empirical-e284]. Write the research question as one sentence first, then check which part of it each method answers `[Our analysis]`.
 
 ### Step 2: Every component must meet its own standard
 

@@ -126,7 +126,7 @@ Mays and Pope wrote in the *BMJ* (*British Medical Journal*) in 2000 that qualit
 - **Attention to negative cases**: actively look for and discuss data that contradict your interpretation[^mays2000assessing-e8].
 - **Give enough of the original data** for readers to judge whether your interpretation is supported by the data[^mays2000assessing-e11].
 - **Respondent validation** (asking participants to check your findings): useful, but only as one way to reduce error, not as a final test[^mays2000assessing-e9].
-- For designing and coding interviews, the approach is the same as in [Interview studies](../../06_methods/interview_study.md) in Research methods `[Our analysis]`.
+- For designing and coding interviews, the approach is the same as in [Interview studies](../../06_methods/interview_study.md) in Research types `[Our analysis]`.
 
 ### Ethics: protect individuals, and consider groups and communities
 
@@ -141,7 +141,7 @@ For ethics at the individual level (ethics review, informed consent), see the [C
 
 ### Systematic reviews: the Cochrane Handbook
 
-The Cochrane Handbook covers systematic reviews of the effects of interventions, specifically the methods Cochrane uses[^higgins2024cochrane-e12]. For the full process (protocol, risk-of-bias assessment, pooling, grading the certainty of evidence, reporting according to PRISMA, the Preferred Reporting Items for Systematic reviews and Meta-Analyses), see [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md) in Research methods. Reviews in the health sciences often have to include non-randomized studies, and then results must always be interpreted with caution[^higgins2024cochrane-e7]. To judge such studies, look at their specific design features (for example, which parts were designed prospectively), not just labels such as "cohort" or "case-control"[^higgins2024cochrane-e10].
+The Cochrane Handbook covers systematic reviews of the effects of interventions, specifically the methods Cochrane uses[^higgins2024cochrane-e12]. For the full process (protocol, risk-of-bias assessment, pooling, grading the certainty of evidence, reporting according to PRISMA, the Preferred Reporting Items for Systematic reviews and Meta-Analyses), see [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md) in Research types. Reviews in the health sciences often have to include non-randomized studies, and then results must always be interpreted with caution[^higgins2024cochrane-e7]. To judge such studies, look at their specific design features (for example, which parts were designed prospectively), not just labels such as "cohort" or "case-control"[^higgins2024cochrane-e10].
 
 ---
 
@@ -162,7 +162,7 @@ How to use this table `[Our analysis]`:
 
 ## Research methods common in this field
 
-Cross-field research methods: [Observational epidemiology](../../06_methods/observational_epidemiology.md), [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md), [Randomized controlled trials](../../06_methods/randomized_controlled_trial.md), [Quasi-experiments and causal identification](../../06_methods/quasi_experiment.md), [Interview studies](../../06_methods/interview_study.md). For the differences between cohort, case-control, and cross-sectional studies, see the [Clinical medicine page](../clinical-medicine/README.md#research-methods-common-in-this-field). The following are also common in the health sciences but do not yet have their own how-to pages:
+Cross-field research types: [Observational epidemiology](../../06_methods/observational_epidemiology.md), [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md), [Randomized controlled trials](../../06_methods/randomized_controlled_trial.md), [Quasi-experiments and causal identification](../../06_methods/quasi_experiment.md), [Interview studies](../../06_methods/interview_study.md). For the differences between cohort, case-control, and cross-sectional studies, see the [Clinical medicine page](../clinical-medicine/README.md#research-methods-common-in-this-field). The following are also common in the health sciences but do not yet have their own how-to pages:
 
 - **Studies using routinely collected data**: they use existing data such as registries, administrative data, and electronic health records[^benchimol2015record-e2], and report according to RECORD. The thinking is similar to [mining software repositories](../computer-science/practices/repository_mining.md) on the Computer science page, but health data raise privacy issues and need ethics approval `[Our analysis]`.
 - **Cluster randomized trials**: they randomize communities, hospitals, or hospital units rather than individuals[^cioms2016ethical-e16].
