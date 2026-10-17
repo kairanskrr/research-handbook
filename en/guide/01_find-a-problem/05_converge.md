@@ -2,15 +2,26 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Write down the sentence you want to prove.** Use words that name a result, not "studied" or "explored". Don't overclaim: the stronger the claim, the more evidence it needs ([Section 1](#1-write-down-the-sentence-you-want-to-prove)). Then ask: even if it is proved, who will change what because of it ([Section 2](#2-is-it-worth-doing))?
+> 2. **Check now whether someone has already done it.** Find the three to five closest papers and ask people who know the area. Make a comparison table; if you can't write anything concrete under "How mine differs", go back and revise the sentence ([Section 3](#3-has-someone-already-done-it)).
+> 3. **Draw the empty results table.** First think about what a reviewer would need to see to believe you, then draw the table's rows and columns. The claim decides the evidence; don't start from "what experiments can I run" ([Section 4](#4-what-will-make-people-believe-it)).
+> 4. **Test the part you are least sure of with a small experiment.** If it is going to fail, fail fast, for example by checking 50 samples by hand first ([Section 5](#5-can-you-actually-do-it)).
+> 5. **Write a one-page project summary and show it to your advisor.** Any field you can't fill in is what you most need to think through; update this page after every round of revision ([Section 6](#6-write-a-one-page-project-summary-and-keep-revising-it)).
+> 6. **Do the exit check and work out the research type.** Once all four checks pass, look at which research strategy your sentence belongs to ([Section 7](#7-exit-are-you-ready-for-part-2)).
+>
+> **Done these? Move on:** a central claim you can write in one sentence, an empty results table, the biggest risk tested with a small experiment, no fundamental objection from your advisor, and your main strategy and research type written down. Next: [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md).
+
 ## Where you are
 
-You know the basics of a research area, you have read a set of core papers, and you have a few candidate problems. The area may have come from your advisor, say "using large language models for smart contract security", or the idea may have come to you while reading.
+You come out of [Judging and screening ideas](04_judge-and-screen.md) with two to four candidates. All of them passed the first screen, and you have explored some of them hands-on. For the "benchmark leakage" idea, say, you have already found several benchmark contracts that appeared publicly before, and you have written down a first hypothesis.
 
 What you can't say yet is what exactly the project will do, how far it has to go before it is done, and why it is worth doing.
 
 ## What this stage is for
 
-Turn a vague idea into a **project that holds up**. Concretely, that means being able to answer six questions:
+Turn a vague idea into a **project that holds up**. Concretely, that means being able to answer these seven questions:
 
 1. What one sentence do I ultimately want to prove?
 2. Is it worth doing?
@@ -18,10 +29,11 @@ Turn a vague idea into a **project that holds up**. Concretely, that means being
 4. What will make people believe it?
 5. Can I actually do it?
 6. Can I put all of this on one page and defend it when my advisor pushes back?
+7. Am I ready for Part 2? What kind of study am I doing?
 
 ## How to use this chapter
 
-You **don't** walk through these six questions once, in order, and finish. They pull on each other:
+You **don't** walk through the first five questions once, in order, and finish. They pull on each other:
 
 - You think of a good claim → the literature shows someone did it last year → back to step 1 to find a different angle.
 - The claim is clear → the data you need turns out to be unavailable → back to step 1 to make the claim smaller.
@@ -41,7 +53,7 @@ Many people's first attempt is "We study the application of large language model
 
 Written as a claim, it could be:
 
-- "Much of the high accuracy reported for large-language-model vulnerability detection comes from data leakage in the benchmarks."
+- "Much of the high accuracy of current large-language-model vulnerability detection comes from data leakage in the benchmarks."
 - "Giving a large language model hints about vulnerability patterns clearly raises its detection rate for reentrancy vulnerabilities."
 - "On real contracts, our new method finds 30% more vulnerabilities than existing tools, with fewer false positives."
 
@@ -57,7 +69,7 @@ All three share a topic, but each requires completely different work. The first 
 
 The most common beginner mistake is claiming too much. The stronger the claim, the more evidence it needs. This step often leads you to rewrite the claim more precisely, and the earlier you do that, the easier it is to plan the rest of the research around a claim you can actually support[^shaw2003writing-e17].
 
-**Write it down:** Two or three candidate claims, one sentence each. Don't write "studied" or "explored". If you can't write one yet, that's fine: write the closest sentence you can, and the next sections will help you revise it.
+**Write it down:** two or three candidate claims, one sentence each. Don't write "studied" or "explored". If you can't write one yet, that's fine: write the closest sentence you can, and the next sections will help you revise it.
 
 ## 2. Is it worth doing?
 
@@ -77,11 +89,11 @@ Try this on the examples from the previous section:
 
 The second example shows that judging importance often ends up **rewriting your claim**. That is exactly what converging means.
 
-**Write it down:** For each candidate claim, write one or two sentences on "if this is true, who will change what they do or believe because of it". Set aside any claim for which you can't write this.
+**Write it down:** for each candidate claim, write one or two sentences on "if this is true, who will change what they do or believe because of it". Set aside any claim for which you can't write this.
 
 ## 3. Has someone already done it?
 
-**Do this now, not after the project is finished.** The worst case is finishing the whole project and then discovering that someone had already published the same work[^noble2023ten-e5].
+**Do this now, not after the project is finished.** One of the worst traps is finishing the whole project and then discovering that someone had already published the same work[^noble2023ten-e5].
 
 **How to check:**
 
@@ -99,13 +111,13 @@ The second example shows that judging importance often ends up **rewriting your 
 
 **If someone has already done it**, don't give up right away `[Our analysis]`:
 
-- **Exactly the same**: change topics and go back to [Finding candidate problems](02_generate-problems.md).
+- **Exactly the same**: change topics and go back to [Generating candidate problems](02_generate-problems.md).
 - **They did only part of it**: for example, they validated on only one dataset or considered only one kind of vulnerability. Your claim can target the part they didn't cover.
 - **Their approach has a flaw**: for example, their evaluation has leakage or their baselines are too weak. Then "pointing out and fixing this flaw" can itself be your claim.
 
 Reframing the problem slightly often turns up a better way in[^hamming1986you-e13][^eisnerproblems-e10].
 
-**Write it down:** Fill in the comparison table above. If you can't write anything concrete in the "How mine differs" column, the claim isn't new enough yet; go back to Section 1 and revise it.
+**Write it down:** fill in the comparison table above. If you can't write anything concrete in the "How mine differs" column, the claim isn't new enough yet; go back to Section 1 and revise it.
 
 ## 4. What will make people believe it?
 
@@ -122,13 +134,13 @@ For the claim that "evaluation results are inflated by data leakage", a reviewer
 | Is it just one or two tools that are affected? | Results across several models and several tools |
 | Is your way of judging leakage reliable? | The accuracy of the method you use to decide "leaked or not" |
 
-**A very useful trick: draw the empty results table first.** Before running any experiment, you can already sketch the results table that will go in the paper: what the rows are, what the columns are, and what number goes in each cell[^eisnerfirst-e5]. Draw it honestly and you will often find that proving your claim takes more work than you expected[^eisnerfirst-e6]. The sooner you find that out, the better.
+**A very useful trick: draw the empty results table first.** Before running any experiment, you can already sketch the results table that will go in the paper: write the row headings, the column headings, and the caption, and leave the cells empty[^eisnerfirst-e5]. As you draw it, work out what number will eventually go in each cell `[Our analysis]`. Draw it honestly and you will often find that proving your claim takes more work than you expected[^eisnerfirst-e6]. The sooner you find that out, the better.
 
 If you can't think of any evidence that would support a claim, either rewrite it or drop it `[Our analysis]`.
 
 How to design the experiments and how to choose baselines and benchmarks belong to the next stage; see [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md). At this step you only need to be clear about **what evidence you need**, not every detail of **how you will get it**.
 
-**Write it down:** For your central claim, list three to five questions a reviewer would press you on, and draw at least one empty results table.
+**Write it down:** for your central claim, list three to five questions a reviewer would press you on, and draw at least one empty results table.
 
 ## 5. Can you actually do it?
 
@@ -152,11 +164,10 @@ Common sticking points in computer science `[Our analysis]`:
 
 - Worried that your leakage-detection method is unreliable: check 50 samples by hand first and see whether its judgments are right.
 - Worried that the new method won't work: try the prompts by hand on 20 contracts first and see whether the large language model spots the problems.
-- The problem is too big to know where to start: think about a simplified version first, such as looking at only one kind of vulnerability; this often suggests how to tackle the original problem[^steinhardt2018stochastic-e8].
 
-A small experiment like this may take only a few days and can save you months.
+A small experiment like this may take only a few days and can save you months. For how to keep it small and fast, see [Exploring hands-on](03_explore.md#2-design-small-fast-explorations).
 
-**Write it down:** List everything your project needs and mark each item "have it / can get it / not sure". For the most uncertain item, write down what small experiment you will use to settle it within a week or two.
+**Write it down:** list everything your project needs and mark each item "have it / can get it / not sure". For the most uncertain item, write down what small experiment you will use to settle it within a week or two.
 
 ## 6. Write a one-page project summary and keep revising it
 
@@ -183,6 +194,44 @@ Put the results of the first five steps on one page. This page is what you and y
 **When it's written, show it to your advisor or to fellow students who know the area.** Ask them: does this claim hold up? Is it an important problem that hasn't been solved yet[^noble2023ten-e10]? If they think the basic idea would make reviewers skeptical or bored, you want to know that before you spend the time[^eisnerfirst-e3]. If you can't decide between several candidate claims, ask your advisor to score each one and discuss in depth the ones where your scores differ most[^olah2021taste-e4].
 
 **Update this same page after every round of revision.** Don't start a new document. Keep the old versions; a few months later, looking back, you will see clearly how your thinking changed.
+
+**Write it down:** write the one-page project summary, show it to your advisor, and note down their follow-up questions and the changes you make.
+
+## 7. Exit: are you ready for Part 2?
+
+This is the end of Part 1. Before you move on to Part 2, do an exit check `[Our analysis]`:
+
+| Exit check | What counts as passing | If not, go back to |
+|---|---|---|
+| A specific hypothesis you can write in one sentence | You can state the central claim in one sentence that names a result, and someone reading it knows what you are trying to prove | Section 1; if you can't write it no matter what, you are still exploring, so go back to [Exploring hands-on](03_explore.md) |
+| You know what evidence will test it | You have drawn the empty results table and know what goes in each cell | Section 4 |
+| You know where the biggest risk is | You can name the one thing most likely to sink the project, and you have tested it with a small experiment | Section 5 |
+| Your advisor is on board | Your advisor has read the one-page summary and raised no fundamental objection | Section 6 |
+
+Together, the first two checks are the mark of moving into the testing stage: you can write down a specific hypothesis and roughly know what evidence would show whether it is right[^nanda2025process-e5].
+
+With the running example `[Our analysis]`: the central claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage"; the empty results table is "accuracy for each model and each tool, before and after removing leaked contracts"; the biggest risk is "the method for deciding whether a contract leaked is unreliable", and you have already checked 50 samples by hand; your advisor has read the summary and agreed you should start. All four checks pass.
+
+### Work out what kind of study you are doing
+
+Once the exit check passes, look at what your sentence is actually saying. That decides what kind of study you are doing, and what evidence you will need in Part 2 `[Our analysis]`:
+
+| What your sentence says | Research strategy | Common research types | Where to look in the contents |
+|---|---|---|---|
+| How common a phenomenon is, or what it looks like | [Description](../05_research-strategies/observe_describe.md) | Empirical studies, such as [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md) or [Questionnaire surveys](../06_methods/questionnaire_survey.md) | [Using existing data or models](../06_methods/README.md#using-existing-data-or-models), [Research involving people](../06_methods/README.md#research-involving-people) |
+| Which of several existing approaches works better, and under what conditions | [Comparative evaluation](../05_research-strategies/compare_evaluate.md) | Comparing existing approaches, such as [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) or [Controlled experiments](../06_methods/controlled_experiment.md) | [Proposing something new and evaluating it](../06_methods/README.md#proposing-something-new-and-evaluating-it) |
+| I built something better than what exists | [Building and improving](../05_research-strategies/build_improve.md) | Tool or method papers; see [Engineering research](../07_fields/computer-science/practices/engineering_research.md) | [Proposing something new and evaluating it](../06_methods/README.md#proposing-something-new-and-evaluating-it) |
+| The old way of measuring is off, or I built a new yardstick | [Measurement](../05_research-strategies/measure.md) | Benchmarks or datasets; see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) | [Proposing something new and evaluating it](../06_methods/README.md#proposing-something-new-and-evaluating-it) |
+| What existing studies show when taken together | [Synthesis](../05_research-strategies/synthesize.md) | Reviews; see [Review studies](../06_methods/review_study.md) | [Using published research as material](../06_methods/README.md#using-published-research-as-material) |
+| A factor causes an outcome | [Causal explanation](../05_research-strategies/explain_causality.md) | For example, [Controlled experiments](../06_methods/controlled_experiment.md) or [Quasi-experiments and causal identification](../06_methods/quasi_experiment.md) | [Research involving people](../06_methods/README.md#research-involving-people), [Using existing data or models](../06_methods/README.md#using-existing-data-or-models) |
+| A result must hold under given conditions | [Proof](../05_research-strategies/prove.md) | For example, [Theoretical research](../07_fields/computer-science/practices/theoretical_research.md) | [Archives, texts, and arguments](../06_methods/README.md#archives-texts-and-arguments) |
+| A new interpretation of a text, an institution, or an idea | [Interpretation and argument](../05_research-strategies/interpret_argue.md) | Mostly humanities and social sciences, such as close reading, doctrinal legal research, or philosophical argument | [Archives, texts, and arguments](../06_methods/README.md#archives-texts-and-arguments) |
+
+For the full list of research types, arranged by the names researchers use for them, see [Research types: how to do them](../06_methods/README.md). If your work makes several kinds of contribution, see [Research strategies](../05_research-strategies/README.md#how-to-pick-your-main-strategy) for how to tell which is the main one.
+
+In the running example, the main strategy is Measurement: the contribution is showing that the way current evaluations measure things is flawed. The part about "how widespread the leakage is" falls under Description, and you would count it with an empirical approach along the lines of mining software repositories `[Our analysis]`.
+
+**Write it down:** add two lines to your one-page summary: whether each of the four exit checks passes, and your main strategy and the research type you plan to use.
 
 ---
 
@@ -219,10 +268,11 @@ Put the results of the first five steps on one page. This page is what you and y
 - A comparison table of the closest work (Section 3)
 - At least one empty results table (Section 4)
 - A small experiment you have already run, and its result (Section 5)
+- The exit check results: whether each of the four checks passes, plus your main strategy and research type (Section 7)
 
 ## Checklist before moving on
 
-You can move on when all of these hold:
+Move on once all of these hold:
 
 - [ ] You can state the central claim in one sentence, using words that name a result
 - [ ] You can say who will change what if it turns out to be true
@@ -231,19 +281,21 @@ You can move on when all of these hold:
 - [ ] You have confirmed you can get the data, compute, and baselines you need, or you have a clear plan for getting them
 - [ ] You have tested the part you are least sure of with a small experiment, and the result did not rule out the whole idea
 - [ ] Your advisor has read the one-page summary and raised no fundamental objection
+- [ ] All four exit checks in Section 7 pass, and you have written down your main strategy and research type
 
 ## When to go back
 
 | If this happens | Go back to |
 |---|---|
-| Every candidate claim turns out to have been done already | [Finding candidate problems](02_generate-problems.md) |
+| You can't write a specific hypothesis or say what evidence you need | [Exploring hands-on](03_explore.md), and do a few more small tries |
+| The small experiment rules out your core hypothesis | Switch to another candidate, starting with the others you kept in [Judging and screening ideas](04_judge-and-screen.md) |
+| Every candidate claim turns out to have been done already | [Generating candidate problems](02_generate-problems.md), for another round |
 | You know too little about the area to judge importance and novelty | [Entering a field and exploring the literature](01_enter-a-field.md), and read another batch of papers |
 | After a month or two you are still going in circles, each round overturning the last | Pick one together with your advisor and get started; being stuck deciding is itself a signal `[Our analysis]` |
-| The small experiment rules out your core hypothesis | Section 1 of this chapter; choose a different candidate claim |
 
 ## Next
 
-Once the one-page summary is settled, the next step is to turn it into a plan you can carry out: set milestones, schedule the work, and decide what counts as done. See [Writing a research plan](../02_do-the-project/03_research-plan.md).
+Once all the exit checks pass, move on to Part 2. The first step is [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md): break your central claim into a few research questions, expand the empty results table into an evidence plan, and work out how you will get each piece of evidence.
 
 [^shaw2003writing-e3]: Shaw 2003, §3.3. [Evidence](../../sources/notes/shaw2003writing.md#e3)
 [^shaw2003writing-e6]: Shaw 2003, §1. [Evidence](../../sources/notes/shaw2003writing.md#e6)
@@ -269,4 +321,4 @@ Once the one-page summary is settled, the next step is to turn it into a plan yo
 [^alon2009choose-e3]: Alon 2009. [Evidence](../../sources/notes/alon2009choose.md#e3)
 [^alon2009choose-e7]: Alon 2009, p. 1. [Evidence](../../sources/notes/alon2009choose.md#e7)
 [^huang2023decide-e5]: Huang 2023, item 6. [Evidence](../../sources/notes/huang2023decide.md#e5)
-[^steinhardt2018stochastic-e8]: Steinhardt 2018, Some further practical ideas. [Evidence](../../sources/notes/steinhardt2018stochastic.md#e8)
+[^nanda2025process-e5]: Nanda 2025a, Understanding (Stage 3). [Evidence](../../sources/notes/nanda2025process.md#e5)

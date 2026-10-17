@@ -2,16 +2,28 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Sections 3, 5 and 6 are mainly for empirical research (research that reaches its conclusions by collecting data); each of those sections says so at the top.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Break the central claim into two to four research questions, and label each with its type.** If the claim says "causes" but a question can only show "is related to", change one of them ([Section 1](#1-break-the-claim-into-research-questions)).
+> 2. **Write a one-sentence operational definition for every key term in the claim.** Say exactly what you will look at and how you will count it; for the most disputed term, have a second definition ready ([Section 2](#2-give-every-key-term-an-operational-definition)).
+> 3. **Say what "one" is when you count, and who you want the conclusions to apply to.** One sentence each for the unit of analysis, population, sampling frame and sample, plus one on how the sampling frame differs from the population ([Section 3](#3-decide-what-you-are-studying-unit-of-analysis-and-population)).
+> 4. **Before you look at the data, write down which results count as support and which count against.** State the criteria as how big a difference, not just "significant"; also write at least one rival explanation and how you will rule it out ([Section 4](#4-before-you-look-at-the-data-decide-what-counts-as-support-and-what-counts-against)).
+> 5. **Mark each question confirmatory or exploratory, and combine everything into a dated evidence plan.** Confirmatory hypotheses must be written before you look at the data; for every cell of the empty results table, the plan must say how that number is produced ([Section 5](#5-be-clear-whether-you-are-testing-or-exploring), [Section 7](#7-put-it-together-as-an-evidence-plan)).
+>
+> **Done these? Move on:** every research question has a type, operational definitions, and support and refutation criteria written in advance, and the dated evidence plan is in the project repository. Next: [Choosing a method](02_choose-method.md).
+
 ## Where you are
 
-You have a one-page project summary and a research plan (see [Converging on a project](../01_find-a-problem/05_converge.md) and [Writing a research plan](03_research-plan.md)). You can state your central claim in one sentence, you have sketched the empty results table, and every milestone is phrased as "what evidence will I have".
+You have just passed the exit check at the end of Part 1 (see [Converging on a project](../01_find-a-problem/05_converge.md#7-exit-are-you-ready-for-part-2)). You have four things: a central claim you can state in one sentence, a one-page project summary, an empty results table, and an exit check you passed. You also have a rough idea of what kind of research you will be doing.
+
+At this point in the running example, the claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage", the main strategy is measurement, and the empty results table is "accuracy for each model and each tool, before and after removing leaked contracts" `[Our analysis]`.
 
 Then you sit down to start, and new questions appear:
 
 - The claim says "inflated", "detected", "leaked". What exactly counts as each?
 - When you count "one", is that one contract, one function, or one vulnerability?
 - Once results come in, how big a gap counts as "inflated", and how small is just "about the same"?
-- Should you fix a hypothesis first, or just run things and see?
+- You haven't decided whether to fix a hypothesis first, or just run things and see.
 
 If you don't settle these, then once the data is in you will find that every reading of it seems to make sense. And data that fits every reading proves nothing `[Our analysis]`.
 
@@ -23,7 +35,7 @@ Turn your central claim into an **evidence plan**: for each item, write down wha
 2. For each key term in the claim, what rule tells me how to measure or count it?
 3. What exactly am I studying, and how far do I want my conclusions to reach?
 4. What result counts as support, and what counts against? These must be written down before I look at the data.
-5. Am I testing a claim I fixed in advance, or exploring?
+5. For each research question, am I testing a claim I fixed in advance, or exploring?
 6. Should I publish my plan in advance?
 
 This chapter does not choose a method. Controlled experiment, questionnaire or repository mining is the next chapter's decision. Here you only pin down what you need to answer and what would count as an answer; that is what gives you grounds to choose a method `[Our analysis]`.
@@ -34,7 +46,7 @@ This chapter does not choose a method. Controlled experiment, questionnaire or r
 
 **Split the central claim into parts and write each part as a question.** One of the first steps in choosing a research method is getting clear about your research question[^easterbrook2008selecting-e31]. A well-reported study is also expected to state its research questions and explain why they matter[^ralph2020empirical-e22].
 
-The [questions a reviewer would press you on](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) during convergence are usually your research questions in rough form. Take the claim "evaluation results for current large-language-model vulnerability detectors are inflated by data leakage" `[Our analysis]`:
+The [questions a reviewer would press you on](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it), listed in 1.5, are usually your research questions in rough form. Take the claim "published evaluations of large language model vulnerability detectors are inflated by data leakage" `[Our analysis]`:
 
 | Research question | Type of question |
 |---|---|
@@ -120,7 +132,7 @@ Sampling works differently for each method; see the method pages such as [Questi
 
 **Predict the results before you run the experiments or collect the data.** This helps you interpret the results and catch mistakes[^huang2023experiments-e3][^huang2023experiments-e4]. More importantly, it forces you to answer: **is there any result that would make you admit your claim is wrong?** If you could read any outcome as "support", the study can't prove anything `[Our analysis]`.
 
-**How:** Fill in a table for each research question. It is a more detailed version of the ["what would show it failed"](03_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done) entry for each milestone in your research plan, now broken down by research question `[Our analysis]`:
+**How:** Fill in a table for each research question. Later, when you write the research plan, each milestone's ["done" criteria](03_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done) come straight from this table `[Our analysis]`:
 
 | Research question | My prediction | Counts as support | Counts against | If the result falls in between, I will write… |
 |---|---|---|---|---|
@@ -153,14 +165,9 @@ So "we found leakage" alone does not get you to "results are inflated". You need
 
 > This section is for studies that collect data.
 
-Research can take two different stances:
+Confirmatory research starts with a clear hypothesis and tests it with data[^ralph2020empirical-e30]; exploratory research aims to understand a phenomenon and generate hypotheses. How to tell them apart, and what to do while exploring, was covered in [Exploring hands-on](../01_find-a-problem/03_explore.md#1-first-recognize-that-you-are-exploring-not-yet-testing). By now most of your research questions should be phrasable as confirmatory ones, with a few left as exploratory `[Our analysis]`.
 
-- **Confirmatory research**: you have a clear hypothesis in advance and test it with data[^ralph2020empirical-e30].
-- **Exploratory research**: you don't know in advance what you will find; the aim is to understand a phenomenon and generate ideas or hypotheses `[Our analysis]`.
-
-Both are valuable. When a line of research is just starting, the first questions are usually exploratory[^easterbrook2008selecting-e32]; the data science section of the software engineering empirical standards also says that not every study needs statistical tests and hypotheses, and some studies can be purely descriptive[^ralph2020empirical-e202].
-
-**The real problem is mixing the two without saying so.** In research presented as confirmatory, hypothesizing after the results are known (HARKing), or reporting only the statistical tests that came out significant (p-hacking), are antipatterns[^ralph2020empirical-e27]. Presenting an explanation you came up with afterwards as if it were a prediction is exactly HARKing[^nosek2018preregistration-e2]. It isn't necessarily deliberate: memory is fallible, and people reason toward the conclusions they want without noticing. These biases can operate outside awareness, so good intentions are not enough[^nosek2018preregistration-e3].
+**The real problem is mixing the two without saying so.** In research presented as confirmatory, hypothesizing after the results are known (HARKing), or reporting only the statistical tests that came out significant, are antipatterns[^ralph2020empirical-e27]. It isn't necessarily deliberate: memory is fallible, people reason toward the conclusions they want without noticing, and good intentions are not enough[^nosek2018preregistration-e3]. That is why you record it in the evidence plan.
 
 **How** `[Our analysis]`:
 
@@ -169,7 +176,7 @@ Both are valuable. When a line of research is just starting, the first questions
 3. For exploratory questions, still write down what you plan to look at and how, but no prediction is needed.
 4. When new ideas or extra analyses come up along the way, note them separately and report them as exploratory.
 
-In computer science you can iterate freely on one small batch of data to understand the phenomenon, then test on a separate batch you haven't looked at `[Our analysis]`. That is exploration followed by confirmation, and it is fine as long as the two batches are kept apart and you say honestly which step was which.
+In computer science you can iterate freely on one small batch of data to understand the phenomenon, then test on a separate batch you haven't looked at `[Our analysis]`. That is exploration followed by confirmation, and it is fine as long as the two batches are kept apart and you say honestly which step was which. In the running example, RQ1 and RQ2 are marked confirmatory; "which vulnerability types does the inflation concentrate in?" can be marked exploratory.
 
 **Write it down:** Mark each research question "confirmatory" or "exploratory". For the confirmatory ones, make sure the hypothesis is written down and dated before you saw the relevant data.
 
@@ -210,11 +217,18 @@ Combine the results of the previous sections into one table, one row per researc
 | RQ2 | | | | | | | |
 | RQ3 | | | | | | | |
 
-**How does this relate to the milestone list in your research plan?** The milestone list says which evidence you need and in what order; [what "done" means for each milestone](03_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done) covers scope, criteria and what would show it failed. The evidence plan refines all of that to the point where it can be carried out and checked. Once it's written, go back and compare: every milestone should map to rows in the plan; where they don't match, change one of them `[Our analysis]`.
+**Check it against the empty results table.** For every cell of the [empty results table](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in 1.5, the plan should tell you how that number will be produced. Any cell you can't trace is something you haven't thought through yet `[Our analysis]`.
 
-**Check it against the empty results table too.** For every cell of the [empty results table](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew during convergence, the plan should tell you how that number will be produced. Any cell you can't trace is something you haven't thought through yet `[Our analysis]`.
+**Every later chapter starts from this plan.** When you choose a method, you go through the plan row by row; when you write the research plan, each milestone is one or more rows of evidence from it (see [Writing a research plan](03_research-plan.md#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence)).
 
 **Write it down:** Fill in the evidence plan and show it to your advisor or a labmate. Ask them to pick a row and ask, "If this result came out, what would you write?" For any row you can't answer, go back to the relevant section and rewrite it.
+
+> **How this step differs by type of research** `[Our analysis]`
+>
+> - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): the plan is organized around the phenomenon you want to understand. He et al. 2020, a study of code clones in Ethereum contracts, states three questions in prose: why clones occur, whether they spread vulnerabilities, and whether there are plagiarized applications and how much they matter[^he2020characterizing-e4].
+> - **Tool or method papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): each row of the plan is a way the tool is better. The Slither paper first lists the properties a good tool should have: it handles real code without crashing, it is fast, and it finds most bugs with few false alarms[^feist2019slither-e3]; the evaluation then compares tools on exactly those points[^feist2019slither-e9].
+> - **Benchmarks or datasets** (see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md)): the plan has to say how the ground truth is defined. SmartBugs hand-labeled the line of code where each vulnerability sits[^durieux2020empirical-e5], and a tool counts as having found a vulnerability only if both the reported category and the line number match[^durieux2020empirical-e11].
+> - **Reviews** (see [Review studies](../06_methods/review_study.md)): the objects of study are papers, and the plan starts from the questions you want to answer. Rameder et al. 2022 first list them: which vulnerabilities exist, what methods tools use to detect them, how the tools are evaluated, and what open problems remain[^rameder2022review-e2].
 
 ---
 
@@ -227,7 +241,7 @@ Combine the results of the previous sections into one table, one row per researc
 | The data a strict definition needs is unavailable | Use a looser definition and state the limitation in the claim, e.g. "leakage, counting identical contracts only" |
 | Two definitions are both reasonable and could give very different results | Use both and report both |
 | The definition is so loose that almost anything counts | Tighten it; otherwise a "supporting" result means nothing |
-| No definition lets you measure the concept | Go back to convergence and change the claim |
+| No definition lets you measure the concept | Go back to [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove) and change the claim |
 
 **Where to set the thresholds for support and against?** Ideally the threshold comes from whether your claim would matter, not from your guess about what the results will be. Ask yourself: how big a difference would make readers change what they do? For example, a 1-percentage-point difference in detection rate probably won't make a developer switch tools `[Our analysis]`.
 
@@ -264,7 +278,7 @@ You are ready for the next step when:
 - [ ] You have written at least one alternative explanation and the evidence that will rule it out
 - [ ] Every research question is marked confirmatory or exploratory; confirmatory hypotheses were written before looking at the data
 - [ ] You have decided whether to preregister, and the plan is stored with a date
-- [ ] The evidence plan lines up with the research plan's milestones and the empty results table
+- [ ] For every cell of the empty results table, the evidence plan says how it is produced
 
 ## When to go back
 
@@ -273,11 +287,12 @@ You are ready for the next step when:
 | No definition of a key term lets you measure it | [Converging on a project](../01_find-a-problem/05_converge.md), Section 1: rewrite the claim |
 | While writing "counts against", you realize you could read any result as support | [Converging on a project](../01_find-a-problem/05_converge.md), Section 1: the claim may be too vague or too sweeping |
 | You can't get the sample or data you need, and with a different sampling frame the conclusion is no longer interesting | [Converging on a project](../01_find-a-problem/05_converge.md), Section 5: reassess feasibility |
-| The evidence plan and the milestones don't match, by a lot | [Writing a research plan](03_research-plan.md), Section 2: reorder the milestones |
+| Several cells of the empty results table can't be traced to anything in the plan | [Converging on a project](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it), Section 4: rethink what evidence you need |
+| You have more than ten research questions and can't pull them together | [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove), Section 1: the claim isn't focused enough; narrow it first |
 
 ## Next
 
-With the evidence plan written, you know what evidence each question needs and what would count as an answer. The next step is deciding **how to get that evidence**: choosing a research strategy and a research method. See [Choosing a strategy and a method](02_choose-method.md).
+With the evidence plan written, you know what evidence each question needs and what would count as an answer. The next step is deciding **how to get that evidence**: choosing a research strategy and a research method. See [Choosing a method](02_choose-method.md).
 
 [^easterbrook2008selecting-e15]: Easterbrook et al. 2008 (research methods in software engineering), §5.2. [Evidence](../../sources/notes/easterbrook2008selecting.md#e15)
 [^easterbrook2008selecting-e31]: Easterbrook et al. 2008 (research methods in software engineering), §2.0. [Evidence](../../sources/notes/easterbrook2008selecting.md#e31)
@@ -304,7 +319,6 @@ With the evidence plan written, you know what evidence each question needs and w
 [^ernst2023registered-e1]: Ernst & Baldassarre 2023, Abstract. [Evidence](../../sources/notes/ernst2023registered.md#e1)
 [^ernst2023registered-e2]: Ernst & Baldassarre 2023, §2.1. [Evidence](../../sources/notes/ernst2023registered.md#e2)
 [^ernst2023registered-e3]: Ernst & Baldassarre 2023, §3. [Evidence](../../sources/notes/ernst2023registered.md#e3)
-[^ralph2020empirical-e202]: ACM SIGSOFT Empirical Standards, Data Science standard, Acceptable Deviations. [Evidence](../../sources/notes/ralph2020empirical.md#e202)
 [^runeson2009guidelines-e3]: Runeson & Höst 2009 (case study research in software engineering), §5.2.3. [Evidence](../../sources/notes/runeson2009guidelines.md#e3)
 [^flake2020measurement-e7]: Flake & Fried 2020 (psychology, measurement with scales), Question 1. [Evidence](../../sources/notes/flake2020measurement.md#e7)
 [^flake2020measurement-e8]: Flake & Fried 2020 (psychology, measurement with scales), Question 2. [Evidence](../../sources/notes/flake2020measurement.md#e8)
@@ -322,7 +336,6 @@ With the evidence plan written, you know what evidence each question needs and w
 [^lipton2019troubling-e1]: Lipton & Steinhardt 2019 (machine learning), §1. [Evidence](../../sources/notes/lipton2019troubling.md#e1)
 [^shaw2003writing-e12]: Shaw 2003 (software engineering), §4.3. [Evidence](../../sources/notes/shaw2003writing.md#e12)
 [^nosek2018preregistration-e1]: Nosek et al. 2018 (open science debate in psychology and other fields), Abstract. [Evidence](../../sources/notes/nosek2018preregistration.md#e1)
-[^nosek2018preregistration-e2]: Nosek et al. 2018 (open science debate in psychology and other fields), Mental Constraints on Distinguishing Predictions and Postdictions. [Evidence](../../sources/notes/nosek2018preregistration.md#e2)
 [^nosek2018preregistration-e3]: Nosek et al. 2018 (open science debate in psychology and other fields), Mental Constraints on Distinguishing Predictions and Postdictions. [Evidence](../../sources/notes/nosek2018preregistration.md#e3)
 [^nosek2018preregistration-e4]: Nosek et al. 2018 (open science debate in psychology and other fields), Preregistration Distinguishes Prediction and Postdiction. [Evidence](../../sources/notes/nosek2018preregistration.md#e4)
 [^nosek2018preregistration-e5]: Nosek et al. 2018 (open science debate in psychology and other fields), Challenge 1. [Evidence](../../sources/notes/nosek2018preregistration.md#e5)
@@ -331,3 +344,9 @@ With the evidence plan written, you know what evidence each question needs and w
 [^nosek2018preregistration-e8]: Nosek et al. 2018 (open science debate in psychology and other fields), Challenge 2. [Evidence](../../sources/notes/nosek2018preregistration.md#e8)
 [^nosek2018preregistration-e9]: Nosek et al. 2018 (open science debate in psychology and other fields), Preregistration Distinguishes Prediction and Postdiction. [Evidence](../../sources/notes/nosek2018preregistration.md#e9)
 [^simmons2018false-e2]: Simmons, Nelson & Simonsohn 2018 (psychology), p. 258. [Evidence](../../sources/notes/simmons2018false.md#e2)
+[^he2020characterizing-e4]: He et al. 2020 (code clones in Ethereum smart contracts), §5 Qualitative Analysis, p. 10. [Evidence](../../sources/notes/he2020characterizing.md#e4)
+[^feist2019slither-e3]: Feist et al. 2019 (Slither, a static analysis tool for smart contracts), §I Introduction, p. 1. [Evidence](../../sources/notes/feist2019slither.md#e3)
+[^feist2019slither-e9]: Feist et al. 2019 (Slither, a static analysis tool for smart contracts), §V-A2 Metrics, p. 6. [Evidence](../../sources/notes/feist2019slither.md#e9)
+[^durieux2020empirical-e5]: Durieux et al. 2020 (SmartBugs evaluation of smart contract analysis tools), §2.3.1, p. 3. [Evidence](../../sources/notes/durieux2020empirical.md#e5)
+[^durieux2020empirical-e11]: Durieux et al. 2020 (SmartBugs evaluation of smart contract analysis tools), §3.1, p. 6. [Evidence](../../sources/notes/durieux2020empirical.md#e11)
+[^rameder2022review-e2]: Rameder et al. 2022 (systematic review of vulnerability analysis for Ethereum smart contracts), §1 Introduction, p. 2. [Evidence](../../sources/notes/rameder2022review.md#e2)

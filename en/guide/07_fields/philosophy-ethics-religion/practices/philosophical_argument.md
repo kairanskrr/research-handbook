@@ -2,7 +2,7 @@
 
 This page covers argument-based research in philosophy: you propose a thesis, give an argument for it, respond to objections, and write it up as a paper. The focus is on what to do at each step, from finding a problem to presenting your work to others.
 
-**Scope**: this is a research method specific to philosophy (including ethics and political philosophy), and our sources come mostly from the US. For what all research shares, such as finding a problem, writing the paper, and asking others to read drafts, see the chapters in the Parts; argument-based research belongs to the [Interpretation and argument](../../../05_research-strategies/interpret_argue.md) strategy `[Our analysis]`.
+**Scope**: this is a research method specific to philosophy (including ethics and political philosophy), and our sources come mostly from the US. For what all research shares, such as finding a problem, writing the paper, and asking others to read drafts, see the chapters of Part 1, Part 2, and Writing and publishing; argument-based research belongs to the [Interpretation and argument](../../../05_research-strategies/interpret_argue.md) strategy `[Our analysis]`.
 
 **Strategies it usually serves**: [Interpretation and argument](../../../05_research-strategies/interpret_argue.md) (this page is listed in that strategy page's "Common research methods" section); the "Common research methods" section of the [Proof](../../../05_research-strategies/prove.md) strategy page contrasts it with mathematical proof.
 
@@ -50,7 +50,7 @@ How it differs from neighboring research methods `[Our analysis]`:
 
 **Why**: in philosophy, moving a debate forward is itself a contribution; you do not have to deliver a final answer `[Our analysis]`. The American Philosophical Association's 1996 *Statement on Research* (which reflects the US situation at the time) even says the best philosophical work tends to provoke controversy rather than settle it[^apaphil1996research-e4].
 
-**Where people go wrong**: the topic is too big. Pryor says a good paper makes one small point, but makes it clearly and with enough reasons[^pryor2012writing-e5]. For general ways of choosing a topic, see the Part 1 chapter [Finding candidate problems](../../../01_find-a-problem/02_generate-problems.md).
+**Where people go wrong**: the topic is too big. Pryor says a good paper makes one small point, but makes it clearly and with enough reasons[^pryor2012writing-e5]. For general ways of choosing a topic, see the Part 1 chapter [Generating candidate problems](../../../01_find-a-problem/02_generate-problems.md).
 
 ### Step 2: Map the literature as a dialectical map
 
@@ -62,7 +62,7 @@ How it differs from neighboring research methods `[Our analysis]`:
 
 **Why**: the SEP's "Informal Logic" entry describes Johnson's view that premises plus conclusion are only the core of an argument; a complete argument also weighs other views and answers the objections they raise[^groarke2026informal-e6]. The map tells you which layer of the debate your own argument has to enter `[Our analysis]`.
 
-**Where people go wrong**: treating a citation as an endorsement. The American Philosophical Association's 1996 statement says that when philosophers cite contemporary literature, a citation is as often critical as approving[^apaphil1996research-e6]. So record whether each citation is "for" or "against" `[Our analysis]`. For general practice in writing related work, see the Part 4 chapter section [Related work](../../../03_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand).
+**Where people go wrong**: treating a citation as an endorsement. The American Philosophical Association's 1996 statement says that when philosophers cite contemporary literature, a citation is as often critical as approving[^apaphil1996research-e6]. So record whether each citation is "for" or "against" `[Our analysis]`. For general practice in writing related work, see the Writing and publishing chapter section [Related work](../../../03_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand).
 
 ### Step 3: Write your thesis in one sentence
 
@@ -131,14 +131,14 @@ For the basics of restating the other side accurately and criticizing the most r
 
 ### Step 9: Build the structure and revise
 
-The basics (write a detailed outline first, keep the prose simple, do at least three or four drafts) are in the [field overview](../README.md#what-a-philosophy-paper-has-to-do); for general methods, see the Part 4 chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md). Pryor also suggests explaining your argument out loud to someone before you start the outline[^pryor2012writing-e36]. When you actually revise:
+The basics (write a detailed outline first, keep the prose simple, do at least three or four drafts) are in the [field overview](../README.md#what-a-philosophy-paper-has-to-do); for general methods, see the Writing and publishing chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md). Pryor also suggests explaining your argument out loud to someone before you start the outline[^pryor2012writing-e36]. When you actually revise:
 - **Make the structure visible at a glance.** Readers need to be able to tell which parts are background and which are your contribution[^pryor2012writing-e43], and whether each paragraph gives your view or someone else's[^pryor2012writing-e40]. Don't sprinkle "so" and "therefore" around to make your thinking look more rigorous than it is[^pryor2012writing-e47].
 - **Revise for a "mean" reader.** Pryor tells students to imagine a reader who will take any ambiguous sentence in its less reasonable sense[^pryor2012writing-e39]; when the view you are examining is unclear, say so and lay out several possible readings[^pryor2012writing-e49].
 - **Revise the structure, not just the words.** In revision, structure and overall clarity matter far more than scattered word changes[^pryor2012writing-e38]; every sentence should do some work[^pryor2012writing-e42].
 
 ### Step 10: Present it to others
 
-**How**: before you submit, explain your argument to other people. Pryor's advice to students is to discuss what you plan to argue with others, show your draft to classmates, and read the paper aloud; reading aloud helps you catch gaps in reasoning, digressions, and unclear prose[^pryor2012writing-e36][^pryor2012writing-e48][^pryor2012writing-e37]. For asking colleagues to find problems at group meetings or talks, see the Part 4 chapter section [Revise, and ask others to read](../../../03_write-and-publish/01_story-and-paper.md#10-revise-and-ask-others-to-read).
+**How**: before you submit, explain your argument to other people. Pryor's advice to students is to discuss what you plan to argue with others, show your draft to classmates, and read the paper aloud; reading aloud helps you catch gaps in reasoning, digressions, and unclear prose[^pryor2012writing-e36][^pryor2012writing-e48][^pryor2012writing-e37]. For asking colleagues to find problems at group meetings or talks, see the Writing and publishing chapter section [Revise, and ask others to read](../../../03_write-and-publish/01_story-and-paper.md#10-revise-and-ask-others-to-read).
 
 **Q&A** `[Our analysis]`: write down every question the audience asks and sort it into one of three groups: "misunderstanding (fix the wording)", "already answered (make the answer more prominent)", and "new objection (add a response or narrow the thesis)". Our sources do not cover the specific format of philosophy seminars (for example, whether papers are circulated in advance, or whether there is an assigned commentator); follow the conventions of your department and the conference.
 

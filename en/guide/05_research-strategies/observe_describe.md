@@ -4,7 +4,7 @@
 
 What you want to find out is "what is this phenomenon actually like?": whether it exists, what kinds there are, how common it is, and how it differs from something else. You don't plan to build a new tool, and you are not yet trying to explain why it happens. In that case you are following the **description** strategy.
 
-For what a research strategy is, see [Key concepts](../00_start-here/key-concepts.md#research-strategy). For where description ends and causal explanation, measurement, and synthesis begin, see the section "How to pick your main strategy" in [Research strategies](README.md#how-to-pick-your-main-strategy). For how to pick your own strategy from among them, see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
+For what a research strategy is, see [Key concepts](../00_start-here/key-concepts.md#research-strategy). For where description ends and causal explanation, measurement, and synthesis begin, see the section "How to pick your main strategy" in [Research strategies](README.md#how-to-pick-your-main-strategy). For how to pick your own strategy from among them, see [Choosing a method](../02_do-the-project/02_choose-method.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # Chemical engineering: field overview
 
-This page explains how research actually runs in chemical engineering: you measure reactions and materials in the lab, calculate processes with models, and also have to think about scale-up, safety, cost, and environmental impact. Chemical engineering overlaps heavily with chemistry; for material that leans toward chemistry itself, see the [Chemistry page](../chemistry/README.md). For the research strategies this field commonly uses and the evidence each one relies on, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence). For what applies in every field (choosing a topic, planning, writing, peer review, research ethics), see the chapters of each Part listed in [The research journey at a glance](../../00_start-here/research-journey.md) and [Throughout the project](../../08_throughout/README.md). This page covers only what is specific to this field.
+This page explains how research actually runs in chemical engineering: you measure reactions and materials in the lab, calculate processes with models, and also have to think about scale-up, safety, cost, and environmental impact. Chemical engineering overlaps heavily with chemistry; for material that leans toward chemistry itself, see the [Chemistry page](../chemistry/README.md). For the research strategies this field commonly uses and the evidence each one relies on, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence). For what applies in every field (choosing a topic, planning, writing, peer review, research ethics), see the chapters listed in [The research journey at a glance](../../00_start-here/research-journey.md) and [Throughout the project](../../08_throughout/README.md). This page covers only what is specific to this field.
 
 **After reading this page, you should be able to:**
 
@@ -40,7 +40,7 @@ Our sources have no figures on how conferences and journals compare in chemical 
 
 - **Reporting data alone is not enough.** I&EC Research states that papers that only report data or computational results will be rejected[^acsiecrauthorguide-e3]. Manuscripts whose conclusions lack clear significance and novelty, or whose readership is too narrow, are the most likely to be rejected by the editor before review[^acsiecrauthorguide-e4].
 - **Preprints are allowed, but say so.** The journal accepts authors posting the submitted manuscript on a preprint server, but you must state this clearly in your cover letter[^acsiecrauthorguide-e5].
-- **General rules on authorship and peer review** are in the Part 4 chapter [Choosing a venue and submitting](../../03_write-and-publish/02_venue-and-submission.md). Our sources do not cover authorship conventions specific to chemical engineering.
+- **General rules on authorship and peer review** are in the Writing and publishing chapter [Choosing a venue and submitting](../../03_write-and-publish/02_venue-and-submission.md). Our sources do not cover authorship conventions specific to chemical engineering.
 
 ### Working with companies: plan confidentiality, patents, and publication in advance
 

@@ -85,5 +85,5 @@
 
 - 位置：§7 Concluding Remarks and Future Work，第 15 页
 - 原文："First, the threshold used to identify contract clones can be improved by adopting adaptive approaches. Second, we may have coverage issues on manually labelling the contract templates, which can be alleviated by exploring some advanced techniques."
-- 要点：作者承认的局限：判定克隆的阈值是固定的，人工整理的合约模板清单可能不全。（下面这句是本项目通读全文后的判断，不是原文的话：论文没有单独的"效度威胁"小节。）
+- 要点：作者承认的局限：判定克隆的阈值是固定的，人工整理的合约模板清单可能不全。（本项目通读全文后的判断，不是原文的话：论文没有单独的"效度威胁"小节。）
 

@@ -2,9 +2,19 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. The numbers and statistics in Section 3 are mainly for quantitative research; if you do qualitative research, take the underlying reasoning.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Check the data before you look at the conclusions.** Look at the raw data and outputs yourself, and check for outliers, duplicates and parsing errors; check the good results and the bad results equally hard ([Section 1](#1-check-the-data-before-you-look-at-the-conclusions)).
+> 2. **Run the planned analyses first; label unplanned ones as exploratory.** Report every planned analysis, good or bad; add a row to your analysis log for every analysis you run ([Section 2](#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)).
+> 3. **Report how big and how certain.** State your central result in one sentence: conditions, effect size, uncertainty, number of runs, not just a p-value ([Section 3](#3-report-how-big-and-how-certain-not-just-the-p-value)).
+> 4. **Rule out alternative explanations one by one, and treat negative and unexpected results honestly.** List at least three alternative explanations; keep the ones you can't check for the limitations ([Section 4](#4-rule-out-alternative-explanations-one-by-one), [Section 5](#5-negative-and-unexpected-results)).
+> 5. **Every conclusion must point to its evidence.** Where it can't, add evidence or weaken the conclusion; when the evidence and the claim don't match, change the claim and rewrite the central claim in your project summary to fit the evidence ([Section 6](#6-how-far-your-conclusions-can-reach), [Section 7](#7-when-the-evidence-doesnt-match-the-claim-change-the-claim)).
+>
+> **Done these? Move on:** every conclusion points to the figure, table or experiment that supports it, its wording is no stronger than the evidence, and your project summary has been updated to fit the evidence. Next: first make a decision at [Decision points: continue, adjust, or go back](08_decision-points.md); once the project is finished, go on to [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+
 ## Where you are
 
-The experiments have finished, or the data is all in. You have a pile of numbers, tables and logs, maybe a few rough plots.
+The experiments have finished, or the data is all in (see [Running and iterating](06_run-and-iterate.md)). You have a pile of numbers, tables and logs, maybe a few rough plots. In the running example, you now have detection rates for several models on leaked and non-leaked samples, ready to go into the empty results table you sketched in 1.5 `[Our analysis]`.
 
 You may now be facing questions like these:
 
@@ -42,25 +52,25 @@ Everything in this chapter serves one goal: don't fool yourself, and you are the
 
 Many errors don't throw errors. Training neural networks is the classic case: the code is syntactically fine, yet the pipeline isn't doing what you think it is, and that is hard to spot[^karpathy2019recipe-e3]. So go through things by hand:
 
-- **Read a few dozen raw samples and outputs, one by one.** Outliers (values far away from the rest of the data) deserve special attention. A write-up of lessons from training neural networks says they almost always uncover problems in data quality or preprocessing[^karpathy2019recipe-e7]. The data science standard for software engineering lists "manually inspects some non-trivial portion of the data (i.e. data sanity checks)" as a desirable attribute[^ralph2020empirical-e199].
+- **Read a few dozen raw samples and outputs, one by one.** Outliers (values far away from the rest of the data) deserve special attention. A write-up of lessons from training neural networks says they almost always uncover problems in data quality or preprocessing[^karpathy2019recipe-e7]. The data science standard for software engineering lists manually inspecting a non-trivial portion of the data, that is, data sanity checks, as a desirable attribute[^ralph2020empirical-e199].
 - **Don't skip the checks because a dataset is well known.** A machine learning methods guide warns that a dataset being used in many papers doesn't mean it is good quality[^lones2021avoid-e19]. In software engineering, a paper on misclassified bug data concludes that automated quantitative analysis should always be paired with humans checking the input data and the results; before using a bug dataset, you should at least manually validate enough samples[^herzig2013bug-e5].
 - **Look for duplicates and anomalies, but don't delete freely.** The same machine learning guide notes that a common problem is the same data point being included several times by accident; remove outliers only if they are likely noise or errors, not genuine extreme cases[^lones2021avoid-e20]. Record what you removed and why `[Our analysis]`.
 
 **When results are surprisingly good, check harder.** One form of self-deception is asymmetric checking: you hunt hard for errors when a result is off from what you expected, and stop looking when it is close. This happened in the history of measuring the charge of the electron: when later researchers got a value too far above the authoritative one, they looked for "what went wrong"; when they got a value close to it, they didn't look as carefully[^feynman1974cargo-e14]. If you only check in one direction, your results get pulled toward what you expected. Check "good" results and "bad" results equally hard `[Our analysis]`.
 
-Take "large language models detecting smart contract vulnerabilities" as an example. If you see a 95% detection rate, check these first `[Our analysis]`:
+Back to the running example. If you see one model detecting 95% of vulnerabilities on the leaked samples, check these first `[Our analysis]`:
 
 | What to check | How |
 |---|---|
 | Is the output parsing right? | Randomly pick 30 raw model outputs, judge them by hand, and compare with what the code parsed |
 | Are the labels right? | Spot-check a batch of "vulnerable" contracts and confirm the vulnerability really exists |
 | Are there duplicates? | Check whether the same contract appears several times in the benchmark under different names |
-| Has the model "seen" them? | Check whether these contracts were public before the model's training cutoff |
+| Are the leakage labels right? | Pick 30 contracts labeled "leaked" and 30 labeled "not leaked" and verify them by hand |
 | Outlying samples | Look at the examples with the longest detection time and the longest and shortest outputs |
 
 **Write it down:** List three reasons your results might look good without being real, and check each with the cheapest method you can. Only then move on.
 
-## 2. Do the planned analyses first; label unplanned ones as exploratory
+## 2. Run the planned analyses first; label unplanned ones as exploratory
 
 **Run the analyses you planned before you started, and record the result of every planned analysis, good or bad. Analyses you think of after seeing the data are fine to run, but label them separately as "exploratory".**
 
@@ -83,8 +93,8 @@ The point is not that prediction is superior to exploration after the fact; it i
 
 | Analysis | Planned / exploratory | When you decided to run it | Why | Result (good or bad) |
 |---|---|---|---|---|
-| Overall detection rate, new method vs. baseline | Planned | At the proposal stage | Central claim | |
-| Broken down by vulnerability type | Exploratory | After seeing the overall result | Suspected the gain was concentrated in one type | |
+| Difference in detection rate between leaked and non-leaked samples | Planned | When writing the evidence plan | RQ2, central claim | |
+| Broken down by vulnerability type | Exploratory | After seeing the overall result | Suspected the gap was concentrated in one type | |
 
 ## 3. Report how big and how certain, not just the p-value
 
@@ -108,7 +118,7 @@ Reporting standards and methods literature across fields agree on this:
 - **Summarize honestly.** The same checklist says: don't summarize improvements of 4%, 6%, 7% and 49% as "up to 49%"; report the full distribution[^blackburn2018sigplan-e9]. Precision should also match the error: reporting "49.9%" when the error is plus or minus 1% overstates the precision[^blackburn2018sigplan-e30].
 - **If you run many tests, correct for it.** A machine learning methods guide gives the example that with 20 pairwise tests at a 95% confidence level, one is likely to give a wrong conclusion[^lones2021avoid-e7]. There are many correction methods, and when correction is needed is debated[^lones2021avoid-e12]. At a minimum, report how many comparisons you made in total `[Our analysis]`.
 
-In the running example, a good statement of a result looks like this `[Our analysis]`: "On 300 contracts that appeared only after the training cutoff, adding vulnerability-pattern hints raised the reentrancy detection rate from 41% to 52% (5 runs; 95% confidence interval for the improvement: 6 to 16 percentage points); the false-positive rate was essentially unchanged." Compare that with "detection rate improved significantly (p < 0.05)": the first sentence tells readers how big the difference is, how certain, and under what conditions.
+In the running example, a good statement of a result looks like this `[Our analysis]`: "On benchmark D, using the 'highly similar' definition, we found 38 leaked samples; model M's detection rate on leaked samples was 12 percentage points higher than on non-leaked samples (5 runs; 95% confidence interval for the difference: 5 to 19 percentage points); after matching on length and vulnerability type, the difference shrank to 8 percentage points (confidence interval 1 to 15)." Compare that with "the detection rate on leaked samples was significantly higher (p < 0.05)": the first version tells readers how big the difference is, how certain, and under what conditions.
 
 For which test to use and how to compute confidence intervals, ask your advisor or consult statistical methods resources for your field; for statistical details when comparing tools and methods, see [Comparative evaluation: is the difference real?](../05_research-strategies/compare_evaluate.md#is-the-difference-real) `[Our analysis]`.
 
@@ -126,9 +136,9 @@ Almost every study needs to get past these first `[Our analysis]`:
 |---|---|---|
 | Chance | With different runs or a different batch of samples, does the result hold? | Run multiple times and look at the confidence interval (Section 3) |
 | An error | Is there a problem in the code, the labels, or the parsing? | The checks in Section 1 |
-| Measuring the wrong thing | Does the metric really capture what you care about? | If you report detection rate but not false positives, the "improvement" may just be the model flagging vulnerabilities more eagerly |
-| Another factor | Is something you didn't control changing at the same time? | Longer prompts, a different model version, benchmark contracts the model has "seen" |
-| Only true here | Does it hold on a different dataset or setup? | Try another batch of contracts and another model |
+| Measuring the wrong thing | Does the metric really capture what you care about? | Counting "leaked" only as identical misses renamed copies, so report both definitions; if you report detection rate but not false positives, the gap may just mean the model flags vulnerabilities more eagerly in one group |
+| Another factor | Is something you didn't control changing at the same time? | Leaked samples are older, shorter, and have more textbook vulnerabilities: compare again after matching on difficulty (the design in Section 4 of [Validity and limitations](04_validity-and-limits.md#4-internal-validity-was-it-really-the-factor-you-changed)) |
+| Only true here | Does it hold on a different dataset or setup? | Try another benchmark and another model |
 
 "Measuring the wrong thing" is often overlooked. When you use an indirect metric in place of the one you actually care about, you have to justify the substitution[^blackburn2018sigplan-e13].
 
@@ -167,10 +177,10 @@ You can use the table below to line up what you say with the evidence you have `
 
 | Evidence you have | You can say | You can't say |
 |---|---|---|
-| One benchmark, one model | "On benchmark D, with model M, …" | "Large language models can …" |
-| Correlation only, no controlled experiment | "Audits that used the prompt had higher detection rates" | "The prompt raised the detection rate" |
-| A few successful examples | "It can find vulnerabilities that static analysis tools miss" | "It is better than static analysis tools" |
-| An average improvement, but large differences across vulnerability types | "An average improvement of X, mostly from one type of vulnerability" | "An across-the-board improvement of X" |
+| One benchmark, one model | "On benchmark D, model M's detection rate is inflated" | "Evaluation results for large language models are inflated across the board" |
+| Higher detection rate on leaked samples, difficulty not matched | "Detection rates are higher on leaked samples" | "Leakage causes the inflation" |
+| A few examples of models reproducing benchmark contracts word for word | "Some models have seen some of the benchmark contracts" | "The models answer from memory" |
+| Inflated on average, but large differences across vulnerability types | "Inflated by X on average, mostly from one type of vulnerability" | "Every vulnerability type is inflated by X" |
 
 How strongly to word a claim, and the evidence each wording needs, was covered in Section 1 of [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove); at this stage you go back and check it against real evidence.
 
@@ -191,7 +201,7 @@ Common situations and how to revise `[Our analysis]`:
 | The effect holds only under some conditions | Narrow the claim: restrict the data, the subjects, or the vulnerability types |
 | The effect is much smaller than expected | Report its actual size and reconsider whether it is still worth writing up; it may fit better as a supporting claim |
 | The effect comes from a cause you didn't anticipate | Make that cause the claim, label it exploratory as in Section 2, and design a test to confirm it |
-| The original claim is refuted | The negative result itself may be the claim; or go back to the convergence stage and pick another |
+| The original claim is refuted | The negative result itself may be the claim; or go back to [Converging on a project](../01_find-a-problem/05_converge.md#judgment-calls) and pick another |
 
 When you are distilling your findings and discover things are more complicated than you thought, going back to rethink or even explore again is normal; it doesn't mean you've messed up[^nanda2025process-e6].
 
@@ -199,7 +209,7 @@ When you are distilling your findings and discover things are more complicated t
 
 **Record every change to the claim**: the original claim, the new claim, and the evidence that prompted the change. You will use this record when writing the paper and when responding to reviews `[Our analysis]`. For how to keep such records, see [Organizing your materials](../08_throughout/organizing_materials.md).
 
-**Write it down:** Take out your one-page project summary (see [Converging on a project](../01_find-a-problem/05_converge.md#6-write-a-one-page-project-summary-and-keep-revising-it)) and, checking it against the evidence you now have, rewrite the "central conclusion" field. It's fine if it stays the same, but you must be able to point to the evidence behind it.
+**Write it down:** Take out your one-page project summary (see [Converging on a project](../01_find-a-problem/05_converge.md#6-write-a-one-page-project-summary-and-keep-revising-it)) and, checking it against the evidence you now have, rewrite the "central claim" field. It's fine if it stays the same, but you must be able to point to the evidence behind it.
 
 ---
 
@@ -247,7 +257,7 @@ When you are distilling your findings and discover things are more complicated t
 
 ## Checklist before moving on
 
-You are ready to start writing when:
+When all of these hold, go to [Decision points](08_decision-points.md) and make a decision; once the project is finished, move on to writing:
 
 - [ ] You have looked at the raw data and outputs yourself, and checked for outliers, duplicates and parsing errors
 - [ ] You checked the good results and the bad results equally hard
@@ -257,12 +267,13 @@ You are ready to start writing when:
 - [ ] The main alternative explanations are listed and checked; the ones you couldn't check are in the limitations
 - [ ] Negative and unexpected results have been investigated, and you plan to report them as they are
 - [ ] Every conclusion can point to its evidence, and its wording is no stronger than the evidence
-- [ ] The central conclusion in your one-page project summary has been updated to fit the evidence
+- [ ] The central claim in your one-page project summary has been updated to fit the evidence
 
 ## When to go back
 
 | If this happens | Go back to |
 |---|---|
+| You don't know whether to continue, change the claim, or go back | [Decision points: continue, adjust, or go back](08_decision-points.md#2-one-master-table-when-what-you-see-how-to-choose); look at the rows for "The real data comes in" and "During analysis" |
 | The data checks turn up a major problem and the results need to be rerun | [Running and iterating](06_run-and-iterate.md) |
 | The data you have simply can't answer the research question | [From research questions to an evidence plan](01_question-to-evidence.md), to rethink what evidence you need |
 | There is a fatal alternative explanation your current design can't rule out | [Validity and limitations](04_validity-and-limits.md), to add to the design |
@@ -271,7 +282,9 @@ You are ready to start writing when:
 
 ## Next
 
-Once your conclusions and evidence line up, the next step is to tell them as a story and write the paper: what comes first, how to arrange the evidence, where the limitations go. See [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+When the analysis is done, first make a decision at [Decision points: continue, adjust, or go back](08_decision-points.md): if the results hold up the claim, continue; if you need to change the claim, run more experiments, or go back to Part 1, that chapter has a summary table to look things up in. Update your paper skeleton as described in Section 4 of that chapter.
+
+Once the results table is full and every conclusion lines up with its evidence, the project is done. The next step is to tell it as a story and write the paper: what comes first, how to arrange the evidence, where the limitations go. See [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
 
 [^allea2023european-e3]: ALLEA 2023, §3.1 Research Misconduct. [Evidence](../../sources/notes/allea2023european.md#e3)
 [^allea2023european-e12]: ALLEA 2023, §2.7. [Evidence](../../sources/notes/allea2023european.md#e12)

@@ -4,7 +4,7 @@ The areas within computer science differ a lot: where people publish, what revie
 
 This section covers only **practices specific to each area**. Everything else lives elsewhere:
 
-- Practices common to all fields (choosing a problem, planning, writing, peer review) are in the chapters of Parts 1–4; the general logic and standards of evidence for each kind of research are in [Research strategies](../../../05_research-strategies/README.md).
+- Practices common to all fields (choosing a problem, planning, writing, peer review) are in the chapters of Part 1, Part 2, and Writing and publishing; the general logic and standards of evidence for each kind of research are in [Research strategies](../../../05_research-strategies/README.md).
 - Conventions shared across computer science (conferences as the main venue, double-blind review and preprints, artifact evaluation) are in the [computer science field overview](../README.md).
 - Concrete practices specific to computer science (engineering research, benchmarking, mining software repositories, and so on) are in [Research practices specific to computer science](../practices/README.md).
 

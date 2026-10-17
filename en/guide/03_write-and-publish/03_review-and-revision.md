@@ -2,6 +2,16 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Review processes differ a lot between journals and conferences (whether there is an author response phase, word limits, whether you may add experiments). **Before you do anything, read the reviewing instructions of the venue you submitted to.**
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Read everything calmly first, and work out what you're facing.** Write down what kind of decision it is, the deadline and word limit, and who makes the final call ([Section 1](#1-read-everything-calmly-first-and-work-out-what-you-are-facing)).
+> 2. **Break the reviews into individual points and sort them.** Put them in a table and flag the issues several reviewers raised, so you deal with those first ([Section 2](#2-break-the-reviews-into-individual-points-and-sort-them)).
+> 3. **Decide what to do about every point.** Change it, explain, disagree, or say it can't be done; where you disagree, bring data or facts ([Section 3](#3-decide-what-to-change-and-what-to-argue)).
+> 4. **In your reply, quote each question before answering it directly.** Put the issues shared across reviewers first; someone who reads only your reply should be able to tell whether each issue has been resolved ([Section 4](#4-writing-an-author-response-for-a-conference), [Section 5](#5-writing-a-journal-revision-and-response-letter)).
+> 5. **After a rejection, work out at what level the problem lies before deciding where to go next.** Before resubmitting, make sure the previous venue's process is over and every necessary change has been made ([Section 6](#6-after-a-rejection-reassess-first-then-decide-where-to-go)).
+>
+> **Done these? Move on:** every point is in the table with a decision, and for every issue that shakes the claim, you have either added evidence or changed the claim. Next: the paper is accepted, or you decide to let this one go; start your next project again from [Generating candidate problems](../01_find-a-problem/02_generate-problems.md).
+
 ## Where you are
 
 Your paper is out, and the reviews have come back. You are probably in one of these situations:
@@ -61,7 +71,7 @@ For the venue you submitted to, go by that year's call for papers.
 | Factual error | What the reviewer says about prior work or data is wrong | Correct it with facts and data, in a calm tone |
 | Reasonable request you can meet | Add a baseline, a set of experiments, a discussion | Do it, and give the results or the new text in the response |
 | Reasonable request you can't meet | The experiment needs data or compute you can't get, or the conference doesn't allow new experiments | Say so honestly, and explain how it affects the conclusions |
-| A point that shakes the claim | It questions whether the evidence supports your central conclusion | Highest priority; you may need to change how the conclusion is stated; see Section 3 |
+| A point that shakes the claim | It questions whether the evidence supports your central claim | Highest priority; you may need to change how the conclusion is stated; see Section 3 |
 | Difference in preference | The reviewer wants a different method or design | Explain why you chose yours; if you have capacity, try their suggestion |
 | Minor issue | Typos, figure or table formatting, wording | Just fix it; one sentence in the response |
 
@@ -258,11 +268,11 @@ This round is done when:
 
 ## Next
 
-Your paper has been accepted, or you've decided to let this one go: either way, you have reached the end of the main path through this handbook (Parts 1 to 4).
+Your paper has been accepted, or you've decided to let this one go: either way, you have come to the end of the road from finding a problem to publishing it.
 
 Rejection, revision, and resubmission are very common in research. For how to stay motivated and build experience over the long term, see [Mindset and long-term growth](../08_throughout/mindset_and_growth.md).
 
-For your next project, start again from [Finding candidate problems](../01_find-a-problem/02_generate-problems.md). The questions reviewers asked most often this round usually tell you where to put more effort in the next project. `[Our analysis]`
+For your next project, start again from [Generating candidate problems](../01_find-a-problem/02_generate-problems.md). The questions reviewers asked most often this round usually tell you where to put more effort in the next project. `[Our analysis]`
 
 [^bourne2005published-e1]: Bourne 2005, Rule 5. [Evidence](../../sources/notes/bourne2005published.md#e1)
 [^bourne2005published-e2]: Bourne 2005, Rule 5. [Evidence](../../sources/notes/bourne2005published.md#e2)

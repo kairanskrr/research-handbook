@@ -1,14 +1,27 @@
-# Pilot first: rule out the biggest risks
+# The smallest version that runs end to end
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **List the assumptions your design rests on and circle the three most dangerous.** Score each one on how bad it is if false, how sure you are, and how costly it is to check ([Section 1](#1-list-the-assumptions-your-design-rests-on-and-find-the-most-dangerous-ones)).
+> 2. **Find a cheap test for each dangerous assumption.** Write down what you'll do, how much data, how much time, and what you expect to see; ideally finish within a week ([Section 2](#2-find-a-cheap-test-for-each-dangerous-assumption)).
+> 3. **Run the whole pipeline end to end at the smallest scale.** Fill in one row of the empty results table, and run a simple baseline and a baseline that "shouldn't work" alongside it ([Section 3](#3-build-a-minimal-version-that-runs-end-to-end)).
+> 4. **If the study involves people, questionnaires, or annotation, run a pilot first.** For the last round, state how it matches the main study and how it differs ([Section 4](#4-when-people-data-and-instruments-are-involved-run-a-pilot-study)).
+> 5. **Before the trial, write down the criteria for "continue / continue with changes / stop".** Every cell must be checkable directly against the trial results; send them to your advisor before you start ([Section 5](#5-write-down-in-advance-what-results-mean-continue-adjust-or-stop)).
+> 6. **Don't read research findings into trial data.** The post-trial summary says only whether the criteria were met, what in the design needs to change, and what happens next ([Section 6](#6-dont-read-too-much-into-trial-data)).
+>
+> **Done these? Move on:** the most dangerous assumptions have all been tested, the whole pipeline has run end to end, the trial results have been judged against criteria written in advance, and your advisor has seen the trial summary and the revised design. Next: [Running and iterating](06_run-and-iterate.md).
+
 ## Where you are
 
-Your study design is mostly settled: you know which claim you want to establish and what evidence you need (see [From research questions to an evidence plan](01_question-to-evidence.md)), you have chosen a research strategy and a research method (see [Choosing a strategy and a method](02_choose-method.md)), and you have thought about where your conclusions might not hold (see [Validity and limitations](04_validity-and-limits.md)).
+Your study design is mostly settled: you know which claim you want to establish and what evidence you need (see [From research questions to an evidence plan](01_question-to-evidence.md)), you have chosen a research strategy and a research method (see [Choosing a method](02_choose-method.md)), you have laid out a plan (see [Writing a research plan](03_research-plan.md)), and you have thought about where your conclusions might not hold (see [Validity and limitations](04_validity-and-limits.md)).
 
 When you were [converging on a project](../01_find-a-problem/05_converge.md#5-can-you-actually-do-it), you already ran a small experiment on the part of the project you were least sure of. That trial answered "is this project worth doing, and can it be done?" In your [research plan](03_research-plan.md#4-set-the-order-do-what-is-most-likely-to-fail-first), you also put the milestones most likely to fail first.
 
 Now the question is more specific: **once this design is rolled out, it will take weeks or even months. Before you commit, how do you make sure it will actually run the way it is designed?**
+
+This is not the same thing as [exploring hands-on](../01_find-a-problem/03_explore.md#5-exploring-is-not-the-same-as-building-the-smallest-version-that-runs-end-to-end) in Part 1. Exploration is for coming up with hypotheses; here you are making sure the design that will test them actually runs `[Our analysis]`.
 
 ## What this stage is for
 
@@ -182,6 +195,13 @@ The trial results are in, and they look promising. The easiest mistake now is **
 
 **Write it down:** After the trial, write a short summary that answers only three things: whether each feasibility criterion was met, what in the design needs to change, and whether the next step is to continue, modify, or stop. Don't write "how much the effect improved".
 
+> **How this step differs by type of research** `[Our analysis]`
+>
+> - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): before scaling up, check how accurate your automated method is on a small hand-labeled sample. He et al. 2020 had two of the authors compare 1,100 contract pairs by hand to build a ground truth; at a similarity threshold of 70, precision was 97.5% and recall 88%[^he2020characterizing-e9].
+> - **Tool or method papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): first make sure the tool actually runs on real code. The Slither paper treats the share of contracts the analysis fails on as a metric: Slither failed on only 0.1% of contracts, against 10.22% for SmartCheck and 11.20% for Securify[^feist2019slither-e11].
+> - **Benchmarks or datasets** (see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md)): first check whether the raw data is usable. SmartBugs found that once spaces and tabs were stripped, 95% of the contract source files were duplicates[^durieux2020empirical-e8].
+> - **Reviews** (see [Review studies](../06_methods/review_study.md)): run your search string once first and see how many hits you get and where they come from. Rameder et al. 2022 retrieved 1,326 results across five databases and reported the count for each one[^rameder2022review-e5]. Also try your selection criteria on a small batch of papers first[^kitchenham2007guidelines-e8].
+
 ---
 
 ## Judgment calls
@@ -240,8 +260,9 @@ You can move on to the full study when all of these hold:
 
 | If this happens | Go back to |
 |---|---|
-| A core assumption is false, e.g., the difference you want to measure barely exists | [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove): narrow the claim or pick another one |
-| You can't get the data, tools, or participants you need | [Choosing a strategy and a method](02_choose-method.md): switch to evidence you can get |
+| You can't tell whether to continue, adjust, or go back | [Decision points: continue, adjust, or go back](08_decision-points.md#2-one-master-table-when-what-you-see-how-to-choose): look up the row "The pilot has finished" |
+| A core assumption is false, e.g., the difference you want to measure barely exists | [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove): narrow the claim or pick another one; first use [Decision points](08_decision-points.md#3-how-to-judge-each-option) to judge whether you should go back |
+| You can't get the data, tools, or participants you need | [Choosing a method](02_choose-method.md): switch to evidence you can get |
 | The measurement method or annotation rules stay unreliable however you change them | [From research questions to an evidence plan](01_question-to-evidence.md): rethink what to measure with |
 | The trial exposed threats to validity you hadn't anticipated | [Validity and limitations](04_validity-and-limits.md): add responses to them |
 | Time and cost are far over plan | [Writing a research plan](03_research-plan.md#judgment-calls): decide again what to cut |
@@ -296,3 +317,7 @@ The dangerous assumptions have been checked, the pipeline runs, and the design h
 [^lakens2022sample-e4]: Lakens 2022, What is the Expected Effect Size? [Evidence](../../sources/notes/lakens2022sample.md#e4)
 [^perciedusert2020reporting-e36]: Percie du Sert et al. 2020, Box 3. [Evidence](../../sources/notes/perciedusert2020reporting.md#e36)
 [^curtis2018experimental-e11]: Curtis et al. 2018, Flexibility and pilot data. [Evidence](../../sources/notes/curtis2018experimental.md#e11)
+[^he2020characterizing-e9]: He et al. 2020 (code clones in Ethereum smart contracts), §4.3 Similarity Comparison, pp. 9–10. [Evidence](../../sources/notes/he2020characterizing.md#e9)
+[^feist2019slither-e11]: Feist et al. 2019 (Slither, a static analysis tool for smart contracts), §V-A5 Experiment 2, p. 6. [Evidence](../../sources/notes/feist2019slither.md#e11)
+[^durieux2020empirical-e8]: Durieux et al. 2020 (SmartBugs evaluation of smart contract analysis tools), §2.3.2 sbwild, p. 4. [Evidence](../../sources/notes/durieux2020empirical.md#e8)
+[^rameder2022review-e5]: Rameder et al. 2022 (systematic review of vulnerability analysis for Ethereum smart contracts), §2.1.1 Initial Search, pp. 2–3. [Evidence](../../sources/notes/rameder2022review.md#e5)

@@ -2,11 +2,22 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Assume your conclusion is wrong and list at least eight reasons it could be.** If you can't, ask a fellow student to play the pickiest reviewer and list them for you ([Section 1](#1-assume-the-conclusion-is-wrong-and-list-every-possible-reason)).
+> 2. **Sort each reason by type, and focus on the type that matters most for your strategy.** If that type has the fewest entries, go back and add more ([Section 2](#2-sort-the-threats-with-four-questions)).
+> 3. **Explain why your metrics represent your concepts, and how far your conclusions reach.** For each key concept, write one sentence defining it and one sentence on "why this metric represents it"; then write "My conclusions apply to ____" and "They do not necessarily apply to ____" ([Section 3](#3-construct-validity-are-you-measuring-what-you-mean), [Section 5](#5-external-validity-how-far-do-your-conclusions-reach)).
+> 4. **Write a one-page analysis plan before you look at the data.** What you compare, which metric, how big a difference counts as meaningful; wherever human judgment is needed, who judges and by what rules ([Section 6](#6-conclusion-validity-and-reliability-is-the-data-enough-and-would-someone-else-get-the-same-result)).
+> 5. **Decide how to handle each threat.** A "High" threat must be eliminated or mitigated; if you can't, narrow the claim ([Section 7](#7-decide-how-to-handle-each-threat)).
+> 6. **Draft your limitations now.** Make your central claim consistent with them, and put "report the result whatever it is" and "record every deviation" into your plan ([Section 8](#8-write-your-limitations-now-and-set-rules-for-honest-reporting)).
+>
+> **Done these? Move on:** Every "High" threat has a response, your draft limitations are written, and your advisor or a fellow student has looked over the threat list without pointing out a serious threat you missed. Next: [The smallest version that runs end to end](05_pilot-and-derisk.md).
+
 ## Where you are
 
-You have a central claim, you know what evidence you need, and you have chosen a research strategy and a research method (see [Choosing a strategy and a method](02_choose-method.md)). You may also have an empty results table, rows and columns decided, waiting for numbers.
+You have an evidence plan (see [From research questions to an evidence plan](01_question-to-evidence.md)), you have chosen a research strategy and a research method (see [Choosing a method](02_choose-method.md)), and you have laid out your plan (see [Writing a research plan](03_research-plan.md)). Your empty results table has its rows and columns decided and is waiting for numbers.
 
-Say your claim is: "Giving a large language model hints about vulnerability patterns clearly raises its detection rate for reentrancy vulnerabilities." You plan to take a set of contracts, have the model check each one with hints and without hints, and compare the detection rates.
+Back to the running example `[Our analysis]`. The claim is: "Published evaluations of large language model vulnerability detectors are inflated by data leakage." Question 2 in the evidence plan compares several models' detection rates on leaked and non-leaked samples, and you predict the leaked samples will score at least 10 percentage points higher.
 
 It looks like you can start. But stop for a moment: **if the experiment comes out exactly as you expect, what reasons will a reviewer give for saying "this doesn't prove your conclusion"?**
 
@@ -15,7 +26,7 @@ It looks like you can start. But stop for a moment: **if the experiment comes ou
 Before you run any experiment or send out any questionnaire, work out where your conclusion could be wrong, and close every gap you can in the design. Concretely, answer these questions:
 
 1. Is what I measure really the thing I want to talk about?
-2. If I see a difference, was it really caused by the factor I changed?
+2. If I see a difference, was it really caused by the factor I care about?
 3. How far do my conclusions reach?
 4. Are my data and analysis really enough to support the conclusion? Would someone else doing the study get the same result?
 5. For the gaps I can't close, how will I report them honestly?
@@ -34,14 +45,15 @@ Why do it **now**? The case study guide warns that thinking about validity only 
 
 Don't expect to find a perfect design, either. A software engineering research methods handbook puts it bluntly: all research designs are flawed[^easterbrook2008selecting-e69]. Your job is to know where the flaws are, fix the ones you can, and state clearly the ones you can't.
 
-For the "hints raise detection rates" example, your list might include `[Our analysis]`:
+Suppose the results match your prediction: leaked samples have a clearly higher detection rate. Your list might include `[Our analysis]`:
 
-- The contracts in the benchmark may already be in the model's training data, so the model has "memorized the answers";
+- The leaked contracts are older, shorter, and have more textbook vulnerabilities to begin with, so the higher detection rate may have nothing to do with the model having "seen" them;
+- "Leaked" was defined as an exact match, so copies with renamed variables were counted as "not leaked" and the two groups got mixed;
 - How is "detected" decided? Does the model saying "there may be a reentrancy risk" count?
-- The hint group used a newer model version and the no-hint group an older one;
-- You only tried one model and one contract language;
-- The model's output varies from run to run, and with only one run the difference could be luck;
-- You are the one judging "detected", and you hope the hint group does better.
+- Some models were newer versions and some older, and their training corpora differ;
+- You used only one benchmark and one contract language;
+- The model's output varies from run to run, and with only one run the gap could be luck;
+- You are the one judging "detected", and you hope the leaked group scores higher.
 
 **Write it down:** List at least eight reasons your central claim could be wrong. If you can't get to eight, ask a fellow student to play the pickiest reviewer and list them for you.
 
@@ -53,11 +65,11 @@ Your list is a mix. Sort it by how each item threatens the conclusion, and you w
 
 | Type | In plain words | The matching threat in the example |
 |---|---|---|
-| **Construct validity** | Is what I measure really the concept I want to talk about?[^easterbrook2008selecting-e66] | The criterion for "detected" is vague; the model has memorized the answers rather than learned to detect |
-| **Internal validity** | Was the difference I see really caused by the factor I changed?[^easterbrook2008selecting-e65] | The two groups used different model versions |
-| **External validity** | Do my conclusions hold beyond what I studied?[^easterbrook2008selecting-e67] | Only one model and one contract language were tried |
-| **Conclusion validity** | Is the conclusion drawn from the data and analysis itself correct?[^flake2020measurement-e16] | One run only, so the difference may be random variation |
-| **Reliability** | If a different researcher redid the study, would the result be the same?[^easterbrook2008selecting-e68] | The person judging "detected" hopes one group does better |
+| **Construct validity** | Is what I measure really the concept I want to talk about?[^easterbrook2008selecting-e66] | The definition of "leaked" misses renamed copies; the criterion for "detected" is vague |
+| **Internal validity** | Was the difference I see really caused by the factor I care about?[^easterbrook2008selecting-e65] | The leaked samples were easier to begin with |
+| **External validity** | Do my conclusions hold beyond what I studied?[^easterbrook2008selecting-e67] | Only one benchmark and one contract language were used |
+| **Conclusion validity** | Is the conclusion drawn from the data and analysis itself correct?[^flake2020measurement-e16] | One run only, so the gap may be random variation |
+| **Reliability** | If a different researcher redid the study, would the result be the same?[^easterbrook2008selecting-e68] | The person judging "detected" hopes to see a gap |
 
 What the table calls "conclusion validity" is "statistical conclusion validity" in the Shadish framework: whether the conclusions drawn from the statistical analysis are correct[^flake2020measurement-e16]. Studies without statistics face the same question: is your evidence really enough to support that sentence `[Our analysis]`?
 
@@ -93,20 +105,20 @@ Your claim contains abstract concepts such as "detection rate", "vulnerability d
 **Common construct validity traps in computer science** `[Our analysis]`:
 
 - **Using platform data to stand for an abstract concept.** GitHub data can be used directly to describe properties of projects, but drawing conclusions about more abstract concepts from it calls for caution[^kalliamvakou2014promises-e11], for example using star counts to stand for project quality.
-- **The large language model has "seen" the benchmark.** If benchmark data got into the model's training data, the model's performance will be overestimated[^sainz2023nlp-e2]. What you measure may then be memory, not detection ability. When the benchmark itself has been used for training, the conclusions of the whole experiment are invalidated[^sainz2023nlp-e3]. For how to choose benchmark data to avoid this, see [Comparative evaluation](../05_research-strategies/compare_evaluate.md).
+- **The large language model has "seen" the benchmark.** If benchmark data got into the model's training data, the model's performance will be overestimated[^sainz2023nlp-e2]. What you measure may then be memory, not detection ability. When the benchmark itself has been used for training, the conclusions of the whole experiment are invalidated[^sainz2023nlp-e3]. For how to choose benchmark data to avoid this, see [Comparative evaluation](../05_research-strategies/compare_evaluate.md). This is exactly what the running example sets out to show: a construct validity threat to other people's evaluations becomes the thing your project measures `[Our analysis]`.
 
 **Write it down:** List every key concept in your claim and define each in a sentence or two. Next to each, write the metric you plan to use, then one sentence on why it represents the concept. Wherever you can't write that sentence, you have a construct validity threat.
 
 ## 4. Internal validity: was it really the factor you changed?
 
-**This section only matters much if your claim says "A causes B"**, for example "the hints raised the detection rate" or "the new method brought the improvement". If your study only describes a phenomenon, you can skip it `[Our analysis]`.
+**This section matters most when your claim says "A causes B".** The running example says evaluation results are "inflated by leakage", which implies "leakage raises the detection rate", so it has to pass this test too. A study that only describes a phenomenon, such as just counting what share of samples leaked, can skip it `[Our analysis]`.
 
 The software engineering research methods handbook describes internal validity as being about whether the results really follow from the data; typical mistakes are failing to handle confounding variables properly and misusing statistical analysis[^easterbrook2008selecting-e65]. A **confounding variable** is a third factor you haven't controlled that also affects the result: when you study whether A affects B, B may also be affected by a third factor[^runeson2009guidelines-e4].
 
 **How:**
 
 1. **List the alternative explanations.** For the result you expect, write down what else, besides your explanation, could produce the same result. When you run an experiment, you should report everything you think might make it invalid: the other possible causes, and which ones you ruled out and how[^feynman1974cargo-e11].
-2. **For each alternative explanation, find a way to rule it out in the design** `[Our analysis]`: both groups use the same model version, the same parameters, and the same set of contracts; change one thing at a time (if the hint adds both vulnerability patterns and example code, you can't tell which one did the work); when you need groups, assign at random; when judging "detected", shuffle the outputs from both groups and hide which group each came from.
+2. **For each alternative explanation, find a way to rule it out in the design** `[Our analysis]`. In the running example: the leaked samples may be easier to begin with, so match each leaked sample with similar non-leaked ones by length, vulnerability type, and deployment year before comparing; use the same model version, parameters, and prompt for every comparison; and hide whether a sample leaked from whoever judges "detected". If your claim is causal, say "adding vulnerability-pattern hints to the prompt raises the detection rate", also change one thing at a time (if the prompt adds both vulnerability patterns and example code, you can't tell which one did the work), and assign at random when you need groups.
 3. **Don't assume you are objective enough.** Good intentions are not enough: memory fails, and people reason toward what they want without noticing; these biases often operate outside awareness[^nosek2018preregistration-e3]. So guard against them through design, not self-discipline.
 
 None of this is specific to computer science. In design guidelines for animal experiments, the most common recommendations for internal validity include random allocation and blinding the people who assess outcomes[^henderson2013threats-e9]; which confounders to guard against differs by field and by model[^henderson2013threats-e12]. For how to rule out alternative explanations systematically and when to run ablations, see [Causal explanation](../05_research-strategies/explain_causality.md#actively-rule-out-alternative-explanations), [Building and improving](../05_research-strategies/build_improve.md), and [Controlled experiments](../06_methods/controlled_experiment.md).
@@ -122,8 +134,8 @@ The software engineering research methods handbook describes external validity a
 1. **Write down the target population first.** The target population is the group or data distribution you hope your conclusions extend to. The machine learning reporting checklist notes that papers don't always state it clearly[^kapoor2024reforms-e5]. Is your conclusion about "all Solidity contracts", "contracts deployed on Ethereum", or "contracts generated by large language models"?
 2. **Compare your sample with the target population and note how they differ.** Examples `[Our analysis]`:
    - Your contracts come from a public vulnerability dataset; most are shorter than real contracts and have more textbook vulnerabilities;
-   - You tried only one version of one model;
-   - Your hints are written in English.
+   - You tried only a few models, one version of each;
+   - You can only look for leakage in public training corpora, so models whose training data is not public can't be checked.
 3. **For each difference, decide whether to widen the sample or narrow the claim.** If you can try more models and more datasets, do: researchers in animal studies also often address threats to external validity by reproducing an effect across several model systems[^henderson2013threats-e6]. If you can't, write the claim more narrowly. Claims of generality should match the strength of the evidence behind them[^henrich2010weirdest-e7].
 4. **Give concrete reasons for your choice of sample.** Software engineering often recruits students as participants. That makes recruitment easy but lowers external validity, and you need to argue why results from students still apply to industry developers[^easterbrook2008selecting-e74]. The argument has to address the specifics of your study, not just say "students can represent developers"[^falessi2018empirical-e6].
 
@@ -165,7 +177,7 @@ Reliability asks whether other researchers redoing the study would get the same 
 
 You now have a sorted list of threats. For each one, choose one of three responses `[Our analysis]`:
 
-- **Eliminate**: change the design so the threat no longer applies. For example, use the same model version for both groups.
+- **Eliminate**: change the design so the threat no longer applies. For example, use the same model version for every comparison.
 - **Mitigate**: you can't remove it entirely, but you can check how much it matters. For example, check 100 samples by hand to estimate how many labels are wrong.
 - **Acknowledge**: if you can't remove it, or doing so costs too much, put it in your limitations and narrow the claim to match.
 
@@ -173,9 +185,10 @@ Collect them in a table `[Our analysis]`:
 
 | Threat | Type | How serious | How the design handles it | What remains afterward | In the limitations? |
 |---|---|---|---|---|---|
-| Benchmark contracts may be in the training data | Construct | High: could invalidate the conclusion | Add contracts that appeared only after the model's training cutoff | Can't be confirmed for models whose cutoff date is not public | Yes |
-| Only one model tried | External | Medium | Add two more open-source models | Conclusions about closed-source models are uncertain | Yes |
-| The judge knows which group an output came from | Reliability | Medium | Shuffle outputs, hide group labels, two people judge independently | Very little | No, but describe the procedure in the methods |
+| Leaked samples are easier to begin with | Internal | High: the whole gap could come from difficulty | Match samples by length, vulnerability type, and deployment year before comparing | Samples with no match can only be reported separately | Yes |
+| "Exact match" misses renamed copies | Construct | Medium | Also use a "highly similar" definition and report results under both | The similarity threshold involves judgment | Yes |
+| Only models with public training corpora can be checked | External | Medium | Add two more open-source models with public training corpora | Conclusions about closed-source models are uncertain | Yes |
+| The judge knows whether a sample leaked | Reliability | Medium | Hide the leakage label; two people judge independently | Very little | No, but describe the procedure in the methods |
 
 **How to judge "how serious":** Ask yourself: if this threat holds, how much of your central claim is left `[Our analysis]`? A threat that would invalidate the whole claim must be eliminated; one that only affects the scope can be handled by narrowing the claim and listing it in the limitations.
 
@@ -201,6 +214,13 @@ Limitations are not a paragraph you add after the paper is written. Writing them
 For why these are matters of research integrity, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md); for how to write limitations and unfavorable facts in a paper, see [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
 
 **Write it down:** Write a three-to-five-sentence draft of your limitations, then one sentence with your revised central claim, made consistent with the limitations. Put "report the result whatever it is" and "record every deviation" into your research plan.
+
+> **How this step differs by type of research** `[Our analysis]`
+>
+> - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): the threats usually sit in the data and the judgment rules, and they deserve a section of their own. He et al. 2020, in their closing "Concluding Remarks and Future Work" section, name two things that could be improved: the threshold for deciding that code is a clone could be made adaptive, and the manually compiled contract templates may not cover everything[^he2020characterizing-e14]. Reading the full paper, we found no separate threats-to-validity subsection; that is our reading, and the paper itself cannot prove such a section is absent.
+> - **Tool or method papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): the threats usually concern whether the comparison was fair and broad enough. The Slither paper names its main threats to validity: the main experiment compared only reentrancy detection, the number of contracts was limited, and there is no community-agreed standard for picking contracts by transaction count[^feist2019slither-e14].
+> - **Benchmarks or datasets** (see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md)): the biggest threat is often the labeling itself. SmartBugs acknowledges that manual labels may be wrong; its response was to have every author label independently and then discuss disagreements until they agreed[^durieux2020empirical-e14].
+> - **Reviews** (see [Review studies](../06_methods/review_study.md)): the threat is whether the search and screening missed things. Rameder et al. 2022 state that studies published after their search cutoff were not included, and that they did not do a structured snowball search (following reference lists to find more papers)[^rameder2022review-e14].
 
 ---
 
@@ -270,12 +290,12 @@ You can move on when all of these hold:
 |---|---|
 | There is a threat that would invalidate the claim and you can't eliminate it no matter what | [Converging on a project](../01_find-a-problem/05_converge.md), Section 1: narrow the claim or pick another one |
 | You can't find any metric that represents a key concept | [From research questions to an evidence plan](01_question-to-evidence.md): rethink what evidence you need |
-| You find the method you chose can't rule out the main alternative explanations | [Choosing a strategy and a method](02_choose-method.md): switch to another method or strategy |
+| You find the method you chose can't rule out the main alternative explanations | [Choosing a method](02_choose-method.md): switch to another method or strategy |
 | Once rewritten to fit the limitations, the claim is too weak for anyone to care | [Converging on a project](../01_find-a-problem/05_converge.md), Section 2: decide again whether it is worth doing |
 
 ## Next
 
-There will always be a few threats on your list whose seriousness you can't judge, such as "how much of the benchmark data was really in the training data" or "is agreement between the two judges high enough". Next, use the cheapest small experiments you can to test these least certain points first; see [Pilot first: rule out the biggest risks](05_pilot-and-derisk.md).
+There will always be a few threats on your list whose seriousness you can't judge, such as "how much of the benchmark data was really in the training data" or "is agreement between the two judges high enough". Next, use the cheapest small experiments you can to test these least certain points first; see [The smallest version that runs end to end](05_pilot-and-derisk.md).
 
 [^runeson2009guidelines-e1]: Runeson & Höst 2009, §5.2.3, p. 153. [Evidence](../../sources/notes/runeson2009guidelines.md#e1)
 [^runeson2009guidelines-e2]: Runeson & Höst 2009, §5.2.3, p. 153. [Evidence](../../sources/notes/runeson2009guidelines.md#e2)
@@ -330,3 +350,7 @@ There will always be a few threats on your list whose seriousness you can't judg
 [^storey2020who-e8]: Storey et al. 2020, §6.4. [Evidence](../../sources/notes/storey2020who.md#e8)
 [^nosek2018preregistration-e1]: Nosek et al. 2018, Abstract. [Evidence](../../sources/notes/nosek2018preregistration.md#e1)
 [^nosek2018preregistration-e3]: Nosek et al. 2018, Mental Constraints on Distinguishing Predictions and Postdictions. [Evidence](../../sources/notes/nosek2018preregistration.md#e3)
+[^he2020characterizing-e14]: He et al. 2020 (code clones in Ethereum smart contracts), §7 Concluding Remarks and Future Work, p. 15. [Evidence](../../sources/notes/he2020characterizing.md#e14)
+[^feist2019slither-e14]: Feist et al. 2019 (Slither, a static analysis tool for smart contracts), §V-D Threats to Validity, p. 7. [Evidence](../../sources/notes/feist2019slither.md#e14)
+[^durieux2020empirical-e14]: Durieux et al. 2020 (SmartBugs evaluation of smart contract analysis tools), §4.2 Threats to Validity, p. 10. [Evidence](../../sources/notes/durieux2020empirical.md#e14)
+[^rameder2022review-e14]: Rameder et al. 2022 (systematic review of vulnerability analysis for Ethereum smart contracts), §9.3 Limitations of Our Review, p. 17. [Evidence](../../sources/notes/rameder2022review.md#e14)

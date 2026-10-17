@@ -2,6 +2,16 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Pick two or three candidate venues based on their readers and standards.** For each one, write down which paper it has published that yours most resembles ([Section 1](#1-choosing-a-venue-start-with-readers-and-standards)).
+> 2. **Choose between a conference and a journal by the norms of your field.** Write a sentence or two on which one your field or subfield mainly uses ([Section 2](#2-conference-or-journal-follow-your-fields-norms)).
+> 3. **Look up your target venue's preprint policy before deciding whether to post one.** Copy one sentence of the policy word for word, and write down why you will or won't post ([Section 3](#3-should-you-post-a-preprint-first)).
+> 4. **Turn the call for papers into a to-do list and work through it item by item.** Cover at least these seven: format, anonymization, artifacts and data, ethics, authorship, conflicts of interest, and prior publication ([Section 4](#4-read-the-submission-requirements-and-prepare-item-by-item)).
+> 5. **Set an internal final-draft date at least one week before the deadline.** Before then, proofread the whole paper and have someone with no stake in the work read it ([Section 5](#5-one-last-check-before-you-submit)).
+>
+> **Done these? Move on:** format, length, anonymization and all the required statements are ready as specified, every author has agreed to the author list and its order, and at least one person who wasn't involved in the work has read it from start to finish. Next: [Reviews, revision, and what to do after rejection](03_review-and-revision.md).
+
 ## Where you are
 
 You have a first draft: the claim, the evidence, and the related work are on paper, and your advisor has read it once or twice. For how to write the paper well, see [Telling the story and writing the paper](01_story-and-paper.md).

@@ -13,10 +13,11 @@ Written for people starting out in research: how to choose a topic, read the lit
 | Your situation | Start here |
 |---|---|
 | This is your first research project and you want to know how to read this handbook | [How to use this handbook](guide/00_start-here/how-to-use.md), then [The research journey at a glance](guide/00_start-here/research-journey.md) |
-| You are at a particular stage: you have just picked an area, you are designing the study, running experiments, or getting ready to submit | The matching chapter in "The four Parts" below |
+| You are already under way: you have just picked an area, you are looking for a problem, designing the study, running experiments, or your results look wrong | The routing table in [How to use this handbook](guide/00_start-here/how-to-use.md#where-you-are-which-page-to-read-first), or the matching chapter in the two Parts below |
+| You are getting ready to write the paper or submit it, or you have received reviews | The matching chapter in "Writing and publishing" below |
 | You have a specific problem: the experiment won't work, the paper was rejected, your advisor has no time… | [FAQ: quick answers](guide/faq.md) |
 | You have written down the sentence you want to prove, and want to know what kind of research this is and what evidence it needs | [Research strategies](guide/05_research-strategies/README.md) |
-| You need a particular research method: controlled experiment, interviews, questionnaire, review… | [Research types](guide/06_methods/README.md), or the practices specific to your field in Fields |
+| You need to do a particular kind of research: controlled experiment, interviews, questionnaire, review, benchmarking… | [Research types](guide/06_methods/README.md): find the page by the name you use for it |
 | You are entering a new field and want to learn its conventions | Your field in [Fields](guide/07_fields/README.md) |
 
 ## Contents
@@ -28,22 +29,27 @@ Written for people starting out in research: how to choose a topic, read the lit
 - [The research journey at a glance: from interest to publication](guide/00_start-here/research-journey.md)
 - [Key concepts](guide/00_start-here/key-concepts.md)
 
-### The four Parts: read in the order research happens
+### Part 1 · Find a good problem (exploring)
 
-- **Part 1: From interest to project**: [Entering a field and exploring the literature](guide/01_find-a-problem/01_enter-a-field.md) · [Finding candidate problems](guide/01_find-a-problem/02_generate-problems.md) · [Converging on a project](guide/01_find-a-problem/05_converge.md) · [Writing a research plan](guide/02_do-the-project/03_research-plan.md)
-- **Part 2: From project to study design**: [From research questions to an evidence plan](guide/02_do-the-project/01_question-to-evidence.md) · [Choosing a strategy and a method](guide/02_do-the-project/02_choose-method.md) · [Validity and limitations: think them through at the design stage](guide/02_do-the-project/04_validity-and-limits.md) · [Pilot first: rule out the biggest risks](guide/02_do-the-project/05_pilot-and-derisk.md)
-- **Part 3: Running the study and analyzing results**: [Running and iterating](guide/02_do-the-project/06_run-and-iterate.md) · [Analysis and interpretation](guide/02_do-the-project/07_analyze-and-interpret.md)
-- **Part 4: Writing and publishing**: [Telling the story and writing the paper](guide/03_write-and-publish/01_story-and-paper.md) · [Choosing a venue and submitting](guide/03_write-and-publish/02_venue-and-submission.md) · [Reviews, revision, and what to do after rejection](guide/03_write-and-publish/03_review-and-revision.md)
+[1.1 Entering a field and exploring the literature](guide/01_find-a-problem/01_enter-a-field.md) · [1.2 Generating candidate problems](guide/01_find-a-problem/02_generate-problems.md) · [1.3 Exploring hands-on](guide/01_find-a-problem/03_explore.md) · [1.4 Judging and screening ideas](guide/01_find-a-problem/04_judge-and-screen.md) · [1.5 Converging on a project](guide/01_find-a-problem/05_converge.md)
+
+### Part 2 · Do the project (testing)
+
+[2.1 From research questions to an evidence plan](guide/02_do-the-project/01_question-to-evidence.md) · [2.2 Choosing a method](guide/02_do-the-project/02_choose-method.md) · [2.3 Writing a research plan](guide/02_do-the-project/03_research-plan.md) · [2.4 Validity and limitations: think them through at the design stage](guide/02_do-the-project/04_validity-and-limits.md) · [2.5 The smallest version that runs end to end](guide/02_do-the-project/05_pilot-and-derisk.md) · [2.6 Running and iterating](guide/02_do-the-project/06_run-and-iterate.md) · [2.7 Analysis and interpretation](guide/02_do-the-project/07_analyze-and-interpret.md) · [2.8 Decision points: continue, adjust, or go back](guide/02_do-the-project/08_decision-points.md)
+
+### Writing and publishing
+
+[Telling the story and writing the paper](guide/03_write-and-publish/01_story-and-paper.md) · [Choosing a venue and submitting](guide/03_write-and-publish/02_venue-and-submission.md) · [Reviews, revision, and what to do after rejection](guide/03_write-and-publish/03_review-and-revision.md)
 
 ### Reference: look things up when you need them
 
-- **[Research strategies](guide/05_research-strategies/README.md)**: the logic by which a study produces new knowledge, and the evidence it needs. [Description](guide/05_research-strategies/observe_describe.md) · [Measurement](guide/05_research-strategies/measure.md) · [Comparative evaluation](guide/05_research-strategies/compare_evaluate.md) · [Causal explanation](guide/05_research-strategies/explain_causality.md) · [Building and improving](guide/05_research-strategies/build_improve.md) · [Synthesis](guide/05_research-strategies/synthesize.md) · [Proof](guide/05_research-strategies/prove.md) · [Interpretation and argument](guide/05_research-strategies/interpret_argue.md)
-- **[Research types](guide/06_methods/README.md)**: 28 concrete methods used in two or more fields. Each page covers what questions it answers, the steps, a checklist, and common mistakes.
+- **[Research types](guide/06_methods/README.md)**: how to do a particular kind of research well. This directory brings together two kinds of page: 34 methods used in two or more fields (in `guide/06_methods/`), and practices used only in one field (under each field's `practices/` folder; see Fields below). Each page covers what questions it answers, the steps, a checklist, and common mistakes. Methods shared across fields:
   - Using published research as material: [Review studies](guide/06_methods/review_study.md) · [Case survey](guide/06_methods/case_survey.md) · [Methodology research and meta-science](guide/06_methods/meta_science.md) · [Systematic reviews and meta-analysis (health research)](guide/06_methods/meta_analysis.md)
   - Using existing data or models: [Data science research](guide/06_methods/data_science.md) · [Longitudinal studies](guide/06_methods/longitudinal_study.md) · [Quantitative simulation](guide/06_methods/simulation_study.md) · [Quasi-experiments and causal identification](guide/06_methods/quasi_experiment.md) · [Observational epidemiology](guide/06_methods/observational_epidemiology.md)
-  - Research involving people: [Controlled experiments](guide/06_methods/controlled_experiment.md) · [Randomized controlled trials](guide/06_methods/randomized_controlled_trial.md) · [Field experiments](guide/06_methods/field_experiment.md) · [Questionnaire surveys](guide/06_methods/questionnaire_survey.md) · [Scale development and measurement studies](guide/06_methods/scale_development.md) · [Interview studies](guide/06_methods/interview_study.md) · [Oral history](guide/06_methods/oral_history.md) · [Case study and ethnography](guide/06_methods/case_study.md) · [Grounded theory](guide/06_methods/grounded_theory.md) · [Action research](guide/06_methods/action_research.md)
+  - Research involving people: [Controlled experiments](guide/06_methods/controlled_experiment.md) · [Randomized controlled trials](guide/06_methods/randomized_controlled_trial.md) · [Field experiments](guide/06_methods/field_experiment.md) · [Online controlled experiments (A/B tests)](guide/06_methods/online_controlled_experiment.md) · [Questionnaire surveys](guide/06_methods/questionnaire_survey.md) · [Scale development and measurement studies](guide/06_methods/scale_development.md) · [Interview studies](guide/06_methods/interview_study.md) · [Focus groups](guide/06_methods/focus_group.md) · [Oral history](guide/06_methods/oral_history.md) · [Case study and ethnography](guide/06_methods/case_study.md) · [Grounded theory](guide/06_methods/grounded_theory.md) · [Action research](guide/06_methods/action_research.md)
   - Experiments and observation in the lab and in the field: [Bench experiments (wet lab)](guide/06_methods/bench_experiment.md) · [Preclinical animal studies](guide/06_methods/preclinical_animal_study.md) · [Synthesis and characterization studies](guide/06_methods/synthesis_study.md) · [Experimental measurement](guide/06_methods/experimental_measurement.md) · [Field studies: observation and sampling](guide/06_methods/field_study.md)
-  - Using archives and cases as material: [Archival research](guide/06_methods/archival_research.md) · [Process tracing and comparative case studies](guide/06_methods/process_tracing.md)
+  - Archives, texts, and arguments: [Archival research](guide/06_methods/archival_research.md) · [Process tracing and comparative case studies](guide/06_methods/process_tracing.md) · [Content analysis](guide/06_methods/content_analysis.md) · [Position papers](guide/06_methods/position_paper.md)
+  - Proposing something new and evaluating it: [Building a dataset or benchmark](guide/06_methods/dataset_paper.md) · [Empirical studies with large language models](guide/06_methods/llm_study.md)
   - Across methods: [Replication studies](guide/06_methods/replication.md) · [Mixed methods](guide/06_methods/mixed_methods.md)
 - **[Fields](guide/07_fields/README.md)**: conventions specific to a field or a research community. Each field has a field overview; practices used only in that field get their own pages under the field's `practices/` folder (5 for computer science, listed on the next line; 9 for other fields, see [Field-specific practices](guide/07_fields/README.md#field-specific-practices)). Fields are divided according to the classification of the Organisation for Economic Co-operation and Development (OECD); the full mapping and the status of each page are in the Fields contents page.
   - Computer science: [field overview](guide/07_fields/computer-science/README.md); research practices specific to computer science: [Engineering research](guide/07_fields/computer-science/practices/engineering_research.md) · [Optimization studies](guide/07_fields/computer-science/practices/optimization_study.md) · [Benchmarking](guide/07_fields/computer-science/practices/benchmarking.md) · [Mining software repositories](guide/07_fields/computer-science/practices/repository_mining.md) · [Theoretical research](guide/07_fields/computer-science/practices/theoretical_research.md)
@@ -53,6 +59,7 @@ Written for people starting out in research: how to choose a topic, read the lit
   - **Agricultural and veterinary sciences**: [Agriculture, forestry, and fisheries](guide/07_fields/agriculture/README.md) · [Animal and veterinary science](guide/07_fields/animal-veterinary-science/README.md)
   - **Social sciences**: [Psychology and cognitive science](guide/07_fields/psychology/README.md) · [Economics and business](guide/07_fields/economics/README.md) · [Education](guide/07_fields/education/README.md) · [Sociology](guide/07_fields/sociology/README.md) · [Law](guide/07_fields/law/README.md) · [Political science](guide/07_fields/political-science/README.md) · [Social and economic geography](guide/07_fields/geography/README.md) · [Media and communication](guide/07_fields/media-communication/README.md)
   - **Humanities and the arts**: [History and archaeology](guide/07_fields/history-archaeology/README.md) · [Languages and literature](guide/07_fields/languages-literature/README.md) · [Philosophy, ethics, and religion](guide/07_fields/philosophy-ethics-religion/README.md) · [Arts](guide/07_fields/arts/README.md)
+- **[Why: research strategies](guide/05_research-strategies/README.md)**: the logic by which a study produces new knowledge, and the evidence it needs; use it to work out what reviewers will ask for. [Description](guide/05_research-strategies/observe_describe.md) · [Measurement](guide/05_research-strategies/measure.md) · [Comparative evaluation](guide/05_research-strategies/compare_evaluate.md) · [Causal explanation](guide/05_research-strategies/explain_causality.md) · [Building and improving](guide/05_research-strategies/build_improve.md) · [Synthesis](guide/05_research-strategies/synthesize.md) · [Proof](guide/05_research-strategies/prove.md) · [Interpretation and argument](guide/05_research-strategies/interpret_argue.md)
 
 ### Throughout the project: things you face all the time, not at one stage
 
@@ -73,12 +80,11 @@ All original sources are listed in the [source list](sources/README.md), and the
 ```
 guide/                          the handbook text
   00_start-here/                  Getting started: how to use it, the research journey, key concepts
-  01_from-interest-to-project/    Part 1: From interest to project
-  02_from-project-to-study/       Part 2: From project to study design
-  03_conduct-and-analyze/         Part 3: Running the study and analyzing results
-  04_write-and-publish/           Part 4: Writing and publishing
-  05_research-strategies/         Reference: the eight research strategies
-  06_methods/                     Reference: research methods shared across fields
+  01_find-a-problem/              Part 1: Find a good problem (exploring)
+  02_do-the-project/              Part 2: Do the project (testing)
+  03_write-and-publish/           Writing and publishing
+  05_research-strategies/         Reference: why, the eight research strategies
+  06_methods/                     Reference: the research types directory, and methods shared across fields
   07_fields/                      Reference: Fields, one folder per field
     computer-science/practices/     research practices specific to computer science
     <field>/practices/              research practices specific to other fields

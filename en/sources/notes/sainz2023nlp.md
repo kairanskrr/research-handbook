@@ -33,3 +33,9 @@
 - Location: §5.2 Closed LLMs
 - Quote: "To tackle this problem, we propose to take advantage of LLM's memorization capabilities."
 - Key point: For models whose training data are not public, contamination can be detected by exploiting the model's memorization, for example by checking whether it can reproduce benchmark examples verbatim.
+
+### E6
+
+- Location: Abstract
+- Quote: "In this position paper, we argue that the classical evaluation on Natural Language Processing (NLP) tasks using annotated benchmarks is in trouble."
+- Key point: The authors call this a position paper and argue that the classical way of evaluating natural language processing tasks with annotated benchmarks is in trouble.

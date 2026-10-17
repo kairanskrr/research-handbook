@@ -137,7 +137,7 @@ Steps 1 to 6 are design decisions, and all of them go into the trial protocol in
 - **Adjust for covariates as planned**: adjusting for stratification variables is often advisable; whether to adjust for a covariate should not depend on whether it differs significantly between groups[^hopewell2025consortee-e48].
 - **Be restrained with subgroup analyses**: a significant effect in one subgroup and not in another does not show that the subgroups differ; subgroup comparisons made after looking at the data are especially unlikely to be confirmed by later studies[^hopewell2025consortee-e49].
 
-**Where people go wrong**: running significance tests on baseline characteristics to "prove that randomization worked". As long as randomization was not subverted, any baseline differences are due to chance; such tests are not recommended and should not be reported[^hopewell2025consortee-e50]. For general statistical principles, see the Part 3 chapter section [Report how big the difference is and how sure you are, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+**Where people go wrong**: running significance tests on baseline characteristics to "prove that randomization worked". As long as randomization was not subverted, any baseline differences are due to chance; such tests are not recommended and should not be reported[^hopewell2025consortee-e50]. For general statistical principles, see the Part 2 section [Report how big the difference is and how sure you are, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 ### Step 10: Report following CONSORT 2025
 

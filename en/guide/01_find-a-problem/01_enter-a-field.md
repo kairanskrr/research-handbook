@@ -2,6 +2,16 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Start with what others have already organized.** Look for surveys, tutorials, and course syllabi; if there are none, try a few sets of keywords and find three to five recent papers to start from ([Section 2](#2-start-with-what-others-have-already-organized)).
+> 2. **Follow the citations to the core papers.** Go backward through the references and forward to the papers that cite them, and note the papers, people, and venues that keep coming up; stop when most of what you find is already familiar ([Section 3](#3-follow-the-citations-to-find-the-core-papers-key-people-and-venues)).
+> 3. **Give most papers one pass; read two or three in depth.** The first pass takes only 5 to 10 minutes and decides whether to read on; the few you read in depth, read until you understand every sentence ([Section 4](#4-read-in-layers-most-papers-once-a-few-in-depth)).
+> 4. **Keep a problem log as you read.** Whenever something seems wrong, unclear, or inconsistent, write one sentence on the spot and note where it came from. This is the raw material for the next chapter ([Section 6](#6-take-notes-one-per-paper-plus-a-problem-log)).
+> 5. **Draw a map of the field and show it to your advisor.** Rows are sub-problems, columns are research strategies; see where it's crowded and where it's empty, and ask your advisor what you missed ([Section 7](#7-draw-a-map-of-the-field), [Section 8](#8-talk-to-people-who-know-the-area)).
+>
+> **Done these? Move on:** you can explain which parts the research area breaks into, you have read two or three papers in depth, your problem log has a dozen or so questions with their sources, and your advisor has seen your map. Don't wait until you "understand everything". Next: [Generating candidate problems](02_generate-problems.md).
+
 ## Where you are
 
 You have a research area. Maybe your advisor said "take a look at large language models and smart contract security", or maybe you are interested in it yourself. But you don't know much about it yet: you aren't sure what people are working on, which papers to read, who the main researchers are, or where the papers get published.
@@ -16,7 +26,7 @@ In limited time, build a **working understanding** of the research area. Concret
 2. **A list of core papers**: which papers are cited again and again, and a few of them that you have read in depth;
 3. **People and venues**: who works in this research area, and which conferences or journals the papers mainly appear in;
 4. **Notes on each paper**: notes you can still understand when you open them months later;
-5. **A problem log**: the things you noticed while reading that seemed wrong, not good enough, or unanswered. It is the raw material for the next chapter, [Finding candidate problems](02_generate-problems.md).
+5. **A problem log**: the things you noticed while reading that seemed wrong, not good enough, or unanswered. It is the raw material for the next chapter, [Generating candidate problems](02_generate-problems.md).
 
 By "problem" we mean something in the field that is wrong, not good enough, or not yet known; see [Key concepts](../00_start-here/key-concepts.md#problem).
 
@@ -152,7 +162,7 @@ A few points:
 
 **Keep a separate "problem log". It is one of this chapter's most important outputs.** While you read, write down anything that seems wrong, unclear, or inconsistent the moment it comes up. Writing your questions down often brings out things you hadn't thought through, such as a paper being vague on a key point, or ignoring something you think matters[^griswoldread-e8].
 
-All this chapter asks is that you **jot things down as they come**: one sentence each, noting which paper it came from, with no need to judge on the spot whether it is worth pursuing `[Our analysis]`. Keeping interesting things together in one document makes it easier to spot connections between them[^nanda2025process-e4]. For what exactly to look for when reading papers (the authors' simplifications, the assumptions behind the work, the way it is evaluated), see [Section 2](02_generate-problems.md#2-look-in-the-gaps-and-limitations-of-papers) and [Section 4](02_generate-problems.md#4-question-the-assumptions-of-existing-work) of the next chapter; for how to turn this log into a list of ideas with sources and ways to test them, see [Section 8](02_generate-problems.md#8-keep-a-list-of-ideas).
+All this chapter asks is that you **jot things down as they come**: one sentence each, noting which paper it came from, with no need to judge on the spot whether it is worth pursuing `[Our analysis]`. Keeping interesting things together in one document makes it easier to spot connections between them[^nanda2025process-e4]. For what exactly to look for when reading papers (the authors' simplifications, the assumptions behind the work, the way it is evaluated), see [Section 2](02_generate-problems.md#2-method-1-gap-spotting) and [Section 3](02_generate-problems.md#3-method-2-questioning-assumptions-problematization) of the next chapter; for how to turn this log into a list of ideas with sources and ways to test them, see [Section 7](02_generate-problems.md#7-keep-a-list-of-ideas).
 
 **Write it down:** Set up your paper-notes template and your problem log. By the end of this round of the chapter, your problem log should have a dozen or so entries `[Our analysis]`.
 
@@ -190,7 +200,7 @@ Concrete things you can do:
 - **Help out a senior student.** In your first year, find an older student whose project interests you and offer to help[^dredze2012successful-e18]. Helping someone else with a project in an area you care about teaches you a lot without tying you down long term[^olah2021taste-e17].
 - **Go to talks.** Don't expect to follow everything in every talk, especially outside your area; as long as you learn something, it wasn't a waste[^taocareer-e33].
 
-For why you can't just shut the door and read, and how talking to people helps you find problems, see [Talk to people](02_generate-problems.md#7-talk-to-people) in the next chapter. The point of talking to people in this chapter is **to complete your map**.
+For why you can't just shut the door and read, and how talking to people helps you find problems, see [Talk to people](02_generate-problems.md#talk-to-people) in the next chapter. The point of talking to people in this chapter is **to complete your map**.
 
 When you talk, you can ask directly `[Our analysis]`: What is my map missing? Which papers must I read in depth? Which items in my problem log have already been done, and which do you think are worth thinking about?
 
@@ -213,7 +223,7 @@ If you can't do the first, keep reading; once you can do all four, move to the n
 
 > **Where sources disagree: read a lot first, or think on your own first?**
 > - **Think first:** Varian argues that you will of course need a thorough literature search eventually, but you will do much better if you spend a few weeks working on your own ideas before searching systematically[^varian1997build-e3]. Eisner also says not to let background reading drag on, but to start thinking for yourself early and alternate thinking with reading[^eisnerproblems-e8][^eisnerproblems-e9].
-> - **Check first:** Noble warns that a terrible trap is to finish an entire project only to find that someone published the same work before you began, so do your literature review up front[^noble2023ten-e5].
+> - **Check first:** Noble warns of a terrible trap: you finish an entire project and only then find that someone published the same work before you began. So do your literature review up front[^noble2023ten-e5].
 >
 > The two pieces of advice address different moments `[Our analysis]`: **when you are looking for ideas**, read until you have enough (a map and a few papers read in depth), then start thinking on your own and keep reading as you think; **before you commit to a specific project**, you must do a careful check for prior work on that project; see [Converging on a project](05_converge.md#3-has-someone-already-done-it).
 
@@ -267,7 +277,7 @@ You are ready for the next step when:
 
 ## Next
 
-With a map, core papers, and a problem log in hand, the next step is to pick out a few candidate problems worth pursuing; see [Finding candidate problems](02_generate-problems.md).
+With a map, core papers, and a problem log in hand, the next step is to generate a batch of candidate problems from them; see [Generating candidate problems](02_generate-problems.md).
 
 [^eisnerproblems-e1]: Eisner, How to Find Research Problems, small bones. [Evidence](../../sources/notes/eisnerproblems.md#e1)
 [^eisnerproblems-e8]: Eisner, How to Find Research Problems, Finally. [Evidence](../../sources/notes/eisnerproblems.md#e8)

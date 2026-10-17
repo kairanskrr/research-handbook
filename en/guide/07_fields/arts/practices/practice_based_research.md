@@ -1,6 +1,6 @@
 # Practice-based research
 
-**Scope.** This is a practice from the arts: research in which making creative work is the method, and the work is the basis of the contribution to knowledge. Everything all research shares (framing a research question, reading the literature, planning, and writing and publishing) is covered in the main Parts. The general logic of research that produces something new is on the [Building and improving](../../../05_research-strategies/build_improve.md) strategy page. Practice-based research usually does not compare against a baseline, though, and its standards of judgment are very different from those used in computer science, chemistry, and similar fields described there `[Our analysis]`.
+**Scope.** This is a practice from the arts: research in which making creative work is the method, and the work is the basis of the contribution to knowledge. Everything all research shares (framing a research question, reading the literature, planning, and writing and publishing) is covered in the chapters of Part 1, Part 2, and Writing and publishing. The general logic of research that produces something new is on the [Building and improving](../../../05_research-strategies/build_improve.md) strategy page. Practice-based research usually does not compare against a baseline, though, and its standards of judgment are very different from those used in computer science, chemistry, and similar fields described there `[Our analysis]`.
 
 **Strategy it usually serves**: [Building and improving](../../../05_research-strategies/build_improve.md) (as listed in that page's section on common research methods).
 
@@ -196,7 +196,7 @@ This checklist draws mainly on Section 3 of the JAR review form ("how the submis
 - **Bulley & Şahin 2021, PRAG-UK report**: Section 2.1 of the second report covers output structure and documentation; useful to check against while writing your thesis and preparing documentation.
 - **QAA 2020, Characteristics Statement: Doctoral Degree**: the overall description of doctoral assessment in the UK; shows how practice-based doctorates are examined there.
 - **JAR submission requirements and review form**: read them if you want to publish in this journal, or want to know "what will reviewers ask". Section 3 of the review form works as a self-check list.
-- For the field background (names, REF, copyright, community ethics), see the [arts field overview](../README.md); for research that works with an organization to drive change, see the research method [Action research](../../../06_methods/action_research.md); for design-based research in education, see [Design-based research](../../education/practices/design_based_research.md).
+- For the field background (names, REF, copyright, community ethics), see the [arts field overview](../README.md); for research that works with an organization to drive change, see the Research types page [Action research](../../../06_methods/action_research.md); for design-based research in education, see [Design-based research](../../education/practices/design_based_research.md).
 
 [^candy2006practice-e1]: Candy 2006, Summary, p. 1. [Evidence](../../../../sources/notes/candy2006practice.md#e1)
 [^candy2006practice-e3]: Candy 2006, Practice Led Research, p. 3. [Evidence](../../../../sources/notes/candy2006practice.md#e3)

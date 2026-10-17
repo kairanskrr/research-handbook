@@ -124,7 +124,7 @@ Ko et al. point out that **variation in outcome measures is the main reason expe
 
 **How:** before the main experiment, have a few people try it, with the aim of finding sources of extraneous variation[^ko2015practical-e31], such as confusing materials, bugs in the tool, or ambiguous tasks `[Our analysis]`. The researchers can do a first run-through themselves as participants[^ko2015practical-e33], but the most important round should, as far as possible, use the same kind of participants, location, materials, procedure, and experimenters as the main experiment[^ko2015practical-e32]. Fix what you find, then try again.
 
-**Why:** of the 345 studies Ko et al. reviewed, only 11 mentioned running a pilot[^ko2015practical-e31]. Pilot data can also be used to estimate the values a power analysis needs[^ko2015practical-e12]. For general advice on preliminary studies, see [Pilot first: rule out the biggest risks](../02_do-the-project/05_pilot-and-derisk.md).
+**Why:** of the 345 studies Ko et al. reviewed, only 11 mentioned running a pilot[^ko2015practical-e31]. Pilot data can also be used to estimate the values a power analysis needs[^ko2015practical-e12]. For general advice on preliminary studies, see [The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md).
 
 **Where people go wrong:** merging pilot data into the main results. Pilot data should be discarded, because the setup was still changing[^ko2015practical-e32].
 
@@ -139,7 +139,7 @@ For the general requirements of research with people (risk assessment, informed 
 
 ### Step 8: Analyze and report
 
-**Analysis**: report descriptive and inferential statistics suited to the distribution of your data, and explain why you chose those tests; report effect sizes and confidence intervals, not just "significant / not significant"[^ralph2020empirical-e172]. Plot the data distributions[^ralph2020empirical-e177]. For general statistical practice, see [Analyzing and interpreting results](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+**Analysis**: report descriptive and inferential statistics suited to the distribution of your data, and explain why you chose those tests; report effect sizes and confidence intervals, not just "significant / not significant"[^ralph2020empirical-e172]. Plot the data distributions[^ralph2020empirical-e177]. For general statistical practice, see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 **The report must state clearly**:
 

@@ -99,7 +99,7 @@ A **mixed model** contains both fixed effects and random effects. **Fixed effect
 
 **Why:** blocks, sites, and years were usually treated as fixed effects in the past; only with the software that arrived in the early 1990s could they be treated correctly as random effects[^kramer2016statistics-e8]. Copying the analysis from older papers can easily lead you astray `[Our analysis]`.
 
-**Where people go wrong:** the design has blocks, sites, or years, but they are left out of the analysis model; 7 of the 86 papers Kramer and colleagues examined did this[^kramer2016statistics-e4]. The wrong software procedure also causes problems, for example using PROC GLM in the statistical software SAS to analyze data with random effects[^kramer2016statistics-e11]. If you need a method you are not familiar with, bring in a statistician as a collaborator early[^kramer2016statistics-e13]. For general statistical practice, see the Part 3 chapter section [Report how big the difference is and how sure you are, not just the p-value](../../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+**Where people go wrong:** the design has blocks, sites, or years, but they are left out of the analysis model; 7 of the 86 papers Kramer and colleagues examined did this[^kramer2016statistics-e4]. The wrong software procedure also causes problems, for example using PROC GLM in the statistical software SAS to analyze data with random effects[^kramer2016statistics-e11]. If you need a method you are not familiar with, bring in a statistician as a collaborator early[^kramer2016statistics-e13]. For general statistical practice, see the Part 2 chapter section [Report how big the difference is and how sure you are, not just the p-value](../../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 ### Step 7: Multi-environment trials
 
@@ -141,7 +141,7 @@ A **mixed model** contains both fixed effects and random effects. **Fixed effect
 
 **Why:** the Tri-Societies' handbook says readers need to understand how the experiment was designed and conducted to judge whether the results are credible, and to design future research on that basis[^asa2024style-e9].
 
-**Where people go wrong:** writing only "analyzed with SAS" without saying which fixed and random effects are in the model `[Our analysis]`. For general writing advice, see the Part 4 chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md).
+**Where people go wrong:** writing only "analyzed with SAS" without saying which fixed and random effects are in the model `[Our analysis]`. For general writing advice, see the Writing and publishing chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md).
 
 ---
 

@@ -121,11 +121,11 @@ For why inaccurate measurement causes problems, see [pitfall 2](../07_fields/hea
 
 ### Step 7: Analysis
 
-- **Write the main analyses into the protocol in advance**, and when reporting, say which analyses you thought of only after seeing the data[^vandenbroucke2007strobe-e33]. This is the [distinction between exploratory and confirmatory research](../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring) covered in the main chapters.
+- **Write the main analyses into the protocol in advance**, and when reporting, say which analyses you thought of only after seeing the data[^vandenbroucke2007strobe-e33]. This is the [distinction between exploratory and confirmatory research](../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring) covered in Part 2.
 - **Give both unadjusted and adjusted estimates**, so readers can see how much adjustment changed the result and in which direction[^vandenbroucke2007strobe-e34].
 - **Missing data**: analyzing only people with complete data may be biased and always loses efficiency; the assumptions behind the various methods for handling missing data generally can't be verified, so they are best treated as sensitivity analyses[^vandenbroucke2007strobe-e35]. Adding a "missing" category for a confounder can increase residual confounding[^vandenbroucke2007strobe-e46].
 - **In case-control studies, don't judge confounding from baseline differences between cases and controls**: controls represent the source population and naturally differ from cases in many ways[^vandenbroucke2007strobe-e40].
-- **Sample size**: when you use data already collected for another purpose, what matters is whether precision is adequate, and sample size considerations can be informal; don't do post hoc power calculations[^vandenbroucke2007strobe-e44]. For general statistical practice, see the main chapter section [Report how big the difference is and how certain you are, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
+- **Sample size**: when you use data already collected for another purpose, what matters is whether precision is adequate, and sample size considerations can be informal; don't do post hoc power calculations[^vandenbroucke2007strobe-e44]. For general statistical practice, see the Part 2 section [Report how big the difference is and how certain you are, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
 ### Step 8: Sensitivity analyses
 

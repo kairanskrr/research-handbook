@@ -2,11 +2,21 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Fix the finish line.** Write down what you will deliver, which kind of venue it goes to, and the latest date; then work back three or four checkpoints from that date ([Section 1](#1-fix-the-finish-line-where-to-submit-and-when)).
+> 2. **Turn each row of your evidence plan into a milestone.** Start each one with "I have …"; cross out, for now, any work that doesn't map to a claim ([Section 2](#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence)).
+> 3. **Write down what counts as done for each milestone.** Cover scope, criterion, and the negative case; then add one sentence on what counts as done for the whole project ([Section 3](#3-for-each-milestone-write-down-what-counts-as-done)).
+> 4. **Do what is most likely to fail first, estimate time, and build in slack.** Break your top two milestones down to weeks, and mark the internal deadline and the slack ([Section 4](#4-set-the-order-do-what-is-most-likely-to-fail-first), [Section 5](#5-estimate-time-and-build-in-slack)).
+> 5. **Agree on the plan with your advisor, and write down when you will change it.** After the meeting, send your advisor what you agreed in writing; add a change log at the end of the plan ([Section 6](#6-get-your-advisor-on-board-with-the-plan), [Section 7](#7-how-the-plan-changes)).
+>
+> **Done these? Move on:** your first milestone is the one most likely to sink the project, every milestone has a "done" criterion, and your advisor has seen the plan and set a date with you for the next joint check. Next: [Validity and limitations: think them through at the design stage](04_validity-and-limits.md).
+
 ## Where you are
 
-You have a one-page project summary (see [Converging on a project](../01_find-a-problem/05_converge.md)). You know which sentence you want to prove, why it is worth doing, how you differ from the closest work, what evidence you need, and which part you are least sure of. Your advisor has read it and has no fundamental objection.
+You have three things in hand: a one-page project summary (see [Converging on a project](../01_find-a-problem/05_converge.md)), an evidence plan (see [From research questions to an evidence plan](01_question-to-evidence.md)), and an evidence-to-method table (see [Choosing a method](02_choose-method.md)). You know which sentence you want to prove, what counts as having each piece of evidence, and which method will get it.
 
-But the summary only says **what you want to achieve**, not **how you will get there step by step**. You may be facing questions like these:
+But all of this says **what you want to achieve**, not **how you will get there step by step, or when you will be done**. You may be facing questions like these:
 
 - What do I do first? Data, method, evaluation: each one seems to need the others in place first.
 - There are a few months until submission. Is that enough time?
@@ -15,7 +25,7 @@ But the summary only says **what you want to achieve**, not **how you will get t
 
 ## What this stage is for
 
-Turn the one-page summary into a plan **you can follow and can change at any time**. Concretely, answer these six questions:
+Turn your evidence plan and evidence-to-method table into a plan **you can follow and can change at any time**. Concretely, answer these six questions:
 
 1. Where is the finish line: where do I plan to submit, and what is the latest date I must submit by?
 2. What evidence do I need to collect along the way? Each piece of evidence is a milestone.
@@ -46,7 +56,7 @@ For most projects the finish line is a paper; it could also be a chapter of your
 
 **Other fields can run on a completely different rhythm.** In fields where journals dominate, there is often no shared deadline, and most of the time goes into waiting for reviews and revising `[Our analysis]`. Two sets of sourced figures give you a feel for it:
 
-- Philosophy: the journal submission surveys collected by the American Philosophical Association are self-reported by authors, and most journals publish no data that could verify them[^andrews2024journal-e2]. Looking only at surveys from the last five years (roughly 2019–2023)[^andrews2024journal-e3], journals took an average of 3.22 months to give an initial decision[^andrews2024journal-e5].
+- Philosophy: the journal submission surveys collected by the American Philosophical Association are self-reported by authors and have not been verified by the journals[^andrews2024journal-e2]. Looking only at surveys from the last five years (roughly 2019–2023)[^andrews2024journal-e3], journals took an average of 3.22 months to give an initial decision[^andrews2024journal-e5].
 - Economics: Ellison looked at the top economics journals from 1970 to 1999; by the late 1990s, review plus revision took about two years per paper on average[^ellison2002slowdown-e1][^ellison2002slowdown-e2].
 
 In that case, work backward from your defense, the end of your grant, or a submission date you set yourself `[Our analysis]`.
@@ -69,7 +79,7 @@ If working backward shows that the "confirm it works" date has already passed, d
 
 ## 2. Break the claim into milestones: each milestone is a piece of evidence
 
-Your one-page summary already says "to make people believe it, I need this evidence". The plan starts there: **each key piece of evidence is one milestone.**
+Your evidence plan already says "to make people believe it, I need this evidence", and your evidence-to-method table says which method gets each piece. The plan starts there: **each key piece of evidence is one milestone**, and the method you use to get it decides roughly how long it will take `[Our analysis]`.
 
 ```
 Central claim → the supporting claims behind it → the evidence each one needs → the work that produces that evidence → what to do this week
@@ -90,7 +100,7 @@ Why phrase it this way? You can "finish the program" on schedule while the proje
 
 **A handy trick: use the paper outline as your milestone list.** Design the project with the final paper in mind: put a paper outline in your first design document and use it to settle the research goals, the logical order of the experiments, and the materials and data you need to prepare[^zhang2014ten-e8]. In practice, first imagine which figures and tables the paper will have and arrange them in the logical order of the experiments[^zhang2014ten-e10]; these imagined figures and tables, and the logic connecting them, can be used directly to organize the research work[^zhang2014ten-e11].
 
-So you can take the [empty results tables](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in the previous chapter, put them into a paper outline, and give each one a status `[Our analysis]`:
+So you can take the [empty results tables](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in 1.5, put them into a paper outline, and give each one a status `[Our analysis]`:
 
 | Figure or table | Which claim it supports | Status |
 |---|---|---|
@@ -100,7 +110,7 @@ So you can take the [empty results tables](../01_find-a-problem/05_converge.md#4
 
 The figures and tables you don't have yet are your milestone list.
 
-**Write it down:** Rewrite each piece of evidence in your one-page summary as a milestone that starts with "I have …". Then map each one to a figure or table in the paper outline. Cross out, for now, any work that doesn't map to a claim.
+**Write it down:** Rewrite each row of evidence in your evidence plan as a milestone that starts with "I have …". Then map each one to a figure or table in the paper outline. Cross out, for now, any work that doesn't map to a claim.
 
 ## 3. For each milestone, write down what counts as done
 
@@ -111,6 +121,8 @@ Once the milestones are phrased as evidence, go one step further: **how complete
 - **Scope**: on which data, which objects, under which conditions;
 - **Criterion**: what you look at and what counts as holding up;
 - **The negative case**: what it looks like if it doesn't hold, and what you will do if you see that.
+
+You can copy the scope and criterion straight from your evidence plan: the operational definitions, the unit of analysis, and the ["counts as support" and "counts against"](01_question-to-evidence.md#4-before-you-look-at-the-data-decide-what-counts-as-support-and-what-counts-against) columns `[Our analysis]`.
 
 Using the milestones above `[Our analysis]`:
 
@@ -146,7 +158,7 @@ Ordering the example above `[Our analysis]`:
 | Share of leaked samples | Low (just computation once the method is reliable) | Medium | 3rd |
 | Comparison before and after removing leakage | Medium | Long | 4th |
 
-Many people are too slow to try to falsify their own ideas[^steinhardt2018stochastic-e12]. Your first milestone should be the thing that, "if it doesn't work, the whole project falls apart". For how to test it first with a cheap small experiment, see [Pilot first: rule out the biggest risks](05_pilot-and-derisk.md).
+Many people are too slow to try to falsify their own ideas[^steinhardt2018stochastic-e12]. Your first milestone should be the thing that, "if it doesn't work, the whole project falls apart". For how to test it first with a cheap small experiment, see [The smallest version that runs end to end](05_pilot-and-derisk.md).
 
 **Write it down:** Order your milestones. Write down the first one, plus one sentence on what happens to the project if it fails.
 
@@ -158,7 +170,8 @@ Many people are too slow to try to falsify their own ideas[^steinhardt2018stocha
 2. **Write a plan for at least the current phase and estimate how long each step will take.** You don't have to stick to it rigidly; deviating a lot is normal[^nanda2025mindsets-e4]. Research projects are uncertain by nature and their goals evolve[^turingwaydesign-e7], so estimate near-term milestones in detail and give later ones only a rough direction `[Our analysis]`.
 3. **Break near-term milestones into small chunks.** Practice breaking tasks into chunks of roughly 20 minutes to 2 hours[^steinhardt2018stochastic-e16]. Breaking work into chunks, estimating them, and putting them on your calendar is itself a task, and you need to set time aside for it[^parikh2018calendar-e4].
 4. **Measure your own estimation bias.** Estimate each task's time in advance, then log how long it actually took[^steinhardt2018stochastic-e16]. Rather than trying hard to estimate accurately, measure your "actual / estimated" multiplier and apply it when you schedule from then on[^parikh2018calendar-e2].
-5. **Put the slack between milestones, not spread across every day.** What you worked out backward in Section 1 are the latest dates[^parikh2018calendar-e6]; the target dates in your plan should be earlier, and the gap between them is your slack `[Our analysis]`. Give the most slack to the milestone you are least sure of `[Our analysis]`.
+5. **If a method is new to you, count the time to learn it.** For any method in your evidence-to-method table that you are using for the first time, set aside separate time to learn it (see [Choosing a method](02_choose-method.md#6-before-you-start-read-method-guides-and-learn-your-fields-conventions), Section 6) `[Our analysis]`.
+6. **Put the slack between milestones, not spread across every day.** What you worked out backward in Section 1 are the latest dates[^parikh2018calendar-e6]; the target dates in your plan should be earlier, and the gap between them is your slack `[Our analysis]`. Give the most slack to the milestone you are least sure of `[Our analysis]`.
 
 **How much slack?** Our sources do not give a general ratio. If you are new and haven't measured your estimation bias yet, schedule using your estimates at first, log the actual time, and after one or two milestones reschedule using the multiplier you measured `[Our analysis]`.
 
@@ -274,14 +287,15 @@ You can move on when all of these hold:
 
 | If this happens | Go back to |
 |---|---|
-| While writing milestones, you can't say what some of the evidence should be | [Converging on a project](../01_find-a-problem/05_converge.md), Section 4; rethink what evidence you need |
+| While writing milestones, you can't say what counts as having some piece of evidence | [From research questions to an evidence plan](01_question-to-evidence.md); fill in that row properly |
+| With the method you chose, some piece of evidence just won't fit into the schedule | [Choosing a method](02_choose-method.md); switch to a faster or more familiar method |
 | Working backward shows there isn't enough time no matter how much you narrow the claim | [Converging on a project](../01_find-a-problem/05_converge.md), Section 1; pick a smaller claim, or discuss a different venue with your advisor |
 | The first milestone fails | [Converging on a project](../01_find-a-problem/05_converge.md); first decide whether to change the claim or change the problem |
 | Your advisor fundamentally objects to the finish line or the central claim | [Converging on a project](../01_find-a-problem/05_converge.md), Section 6; revise the one-page summary |
 
 ## Next
 
-Once the plan is settled, the next step is to turn the evidence each milestone needs into a concrete study design: what you need to answer, what data you will use, and how you will judge the results. See [From research questions to an evidence plan](01_question-to-evidence.md).
+Once the plan is settled, think one step further before you start: where could the conclusions this produces go wrong, how far do they generalize, and how can you guard against problems in advance? See [Validity and limitations](04_validity-and-limits.md).
 
 [^andrews2024journal-e2]: Andrews 2024, Introduction. [Evidence](../../sources/notes/andrews2024journal.md#e2)
 [^andrews2024journal-e3]: Andrews 2024, Setup. [Evidence](../../sources/notes/andrews2024journal.md#e3)

@@ -25,7 +25,7 @@ Each strategy has its own page explaining what knowledge it produces, what evide
 | [Proof](prove.md) | Under what conditions must X hold? | "Under condition C, the algorithm always terminates" |
 | [Interpretation and argument](interpret_argue.md) | How should this text, institution, or idea be understood? | Mainly the humanities and social sciences |
 
-**This is not an accepted standard classification.** This handbook put it together to help newcomers find their bearings, and we will keep testing and adjusting it as we write the Parts and the computer science pages. The papers you read won't call themselves "comparative evaluation"; other books may split these categories more finely or merge them more coarsely. For where it lines up with existing classifications and where it is this handbook's own addition, see [Where this grouping comes from](#where-this-grouping-comes-from). Treat it as a map that helps you think, not as rules you must follow `[Our analysis]`.
+**This is not an accepted standard classification.** This handbook put it together to help newcomers find their bearings, and we will keep testing and adjusting it as we write the chapters of Part 1 and Part 2 and the computer science pages. The papers you read won't call themselves "comparative evaluation"; other books may split these categories more finely or merge them more coarsely. For where it lines up with existing classifications and where it is this handbook's own addition, see [Where this grouping comes from](#where-this-grouping-comes-from). Treat it as a map that helps you think, not as rules you must follow `[Our analysis]`.
 
 ## How to pick your main strategy
 
@@ -91,7 +91,7 @@ As you can see, synthesis and interpretation and argument have no counterpart in
 
 **Settle the claim and the strategy first, then pick methods.** One method can serve several strategies, and one project often combines several methods. Examples from computer science `[Our analysis]`:
 
-| Method (where its page currently lives) | Strategies it can serve |
+| Research type | Strategies it can serve |
 |---|---|
 | [Controlled experiments](../06_methods/controlled_experiment.md) | Causal explanation, comparative evaluation, building and improving |
 | [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) | Comparative evaluation, building and improving, measurement |
@@ -102,7 +102,7 @@ As you can see, synthesis and interpretation and argument have no counterpart in
 
 Why combine methods: every method has known weaknesses and can only provide limited evidence; but the weaknesses differ between methods, so you can choose several that compensate for each other[^easterbrook2008selecting-e1]. There is no fixed recipe for which ones; it depends on your resources, whether you can access the people or things you want to study, whether you can control the variables of interest, and what you yourself know how to do[^easterbrook2008selecting-e42].
 
-Why you shouldn't work the other way round, starting from "I know how to run experiments" or "everyone else does it this way": borrowing a research paradigm someone used for a completely different question leads to serious mismatches[^shaw2003writing-e41]. For how to get from a strategy to concrete methods, see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
+Why you shouldn't work the other way round, starting from "I know how to run experiments" or "everyone else does it this way": borrowing a research paradigm someone used for a completely different question leads to serious mismatches[^shaw2003writing-e41]. For how to get from a strategy to concrete methods, see [Choosing a method](../02_do-the-project/02_choose-method.md).
 
 ## Why to keep your strategy in mind from start to finish
 
@@ -121,7 +121,7 @@ The strategy isn't only useful when you design experiments; at every stage it he
 ## Next
 
 - To find out what a particular strategy involves: follow the links in the table above.
-- If you've settled on a strategy and need to choose concrete methods: see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
+- If you've settled on a strategy and need to choose concrete methods: see [Choosing a method](../02_do-the-project/02_choose-method.md).
 - If you haven't written your central claim yet: go back to [Converging on a project](../01_find-a-problem/05_converge.md).
 
 [^shaw2002makes-e5]: Shaw 2002, §1.2.3. [Evidence](../../sources/notes/shaw2002makes.md#e5)

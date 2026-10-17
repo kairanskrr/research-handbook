@@ -1,6 +1,6 @@
 # FAQ: quick answers
 
-This page covers only situations the main chapters don't: ones that don't belong to any single stage and can come up at any time; ones where you have to make the call yourself; ones you can't easily raise with your advisor, or where the problem is between you and your advisor; and ones that are costly to get wrong. The step-by-step approach is in the main chapters. If this is your first research project, start with [The research journey at a glance: from interest to publication](00_start-here/research-journey.md).
+This page covers only situations that the chapters of Part 1, Part 2, and Writing and publishing don't: ones that don't belong to any single stage and can come up at any time; ones where you have to make the call yourself; ones you can't easily raise with your advisor, or where the problem is between you and your advisor; and ones that are costly to get wrong. The step-by-step approach is in those chapters. If this is your first research project, start with [The research journey at a glance: from interest to publication](00_start-here/research-journey.md).
 
 Each entry has three parts: **First, work out** which situation you are in, **What to do now**, and where to **Read more**.
 
@@ -44,7 +44,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Test it on new data. A methods article on preregistration gives two ways to do this. If data are easy to collect, treat all the initial experiments as exploratory; once you see something interesting, freeze the original design and analysis script and run the experiment again[^nosek2018preregistration-e13]. If data are hard to collect, split the dataset in two: use one part for exploration and keep the other sealed until exploration is complete[^nosek2018preregistration-e12].
 3. In the paper, say which conclusions came from exploration and which were tested on new data `[Our analysis]`.
 
-**Read more:** [First, know which stage you are in](02_do-the-project/06_run-and-iterate.md#1-first-know-which-stage-you-are-in); [Do the planned analyses first; label unplanned ones as exploratory](02_do-the-project/07_analyze-and-interpret.md#2-do-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
+**Read more:** [Exploring hands-on](01_find-a-problem/03_explore.md); [Do the planned analyses first; label unplanned ones as exploratory](02_do-the-project/07_analyze-and-interpret.md#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
 
 ### You built a system or tool, and don't know whether it counts as research or what the contribution is
 
@@ -190,7 +190,7 @@ Experienced people see this differently. One piece of advice for graduate studen
 2. Label unplanned processing as exploratory, and explain why you did it.
 3. If you aren't sure, ask your advisor, and record your decision and reasoning in your log.
 
-**Read more:** [Be honest with the evidence: don't fool yourself, report all results](08_throughout/integrity_and_ethics.md#2-be-honest-with-the-evidence-dont-fool-yourself-report-all-results); [Do the planned analyses first; label unplanned ones as exploratory](02_do-the-project/07_analyze-and-interpret.md#2-do-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
+**Read more:** [Be honest with the evidence: don't fool yourself, report all results](08_throughout/integrity_and_ethics.md#2-be-honest-with-the-evidence-dont-fool-yourself-report-all-results); [Do the planned analyses first; label unplanned ones as exploratory](02_do-the-project/07_analyze-and-interpret.md#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
 
 ### Can you get help from a large language model?
 

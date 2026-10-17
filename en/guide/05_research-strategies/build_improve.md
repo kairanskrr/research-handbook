@@ -101,7 +101,7 @@ This order isn't just how the paper is written; it is also the order in which yo
 
 You need at least two kinds of baseline: simpler alternatives to your method, to show that its extra complexity is really needed[^lones2021avoid-e1]; and the current state of the art[^lones2021avoid-e2]. These two points come from advice for machine learning; for what to do when a competitor's method is unavailable or won't run, see [Engineering research](../07_fields/computer-science/practices/engineering_research.md#step-4-choose-baselines) in the computer science section.
 
-Running baselines early has another benefit `[Our analysis]`: you quickly hit blockers such as a baseline that won't run or problems in the evaluation data. These are exactly the risks that [Pilot first: rule out the biggest risks](../02_do-the-project/05_pilot-and-derisk.md) is meant to surface early.
+Running baselines early has another benefit `[Our analysis]`: you quickly hit blockers such as a baseline that won't run or problems in the evaluation data. These are exactly the risks that [The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md) is meant to surface early.
 
 ### Estimate the room for improvement before you start
 

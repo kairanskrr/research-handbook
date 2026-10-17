@@ -1,6 +1,6 @@
 # Machine learning
 
-> This page covers only the practices specific to this area. For practices common to all research, see Parts 1–4 and the research strategies; for conventions shared across computer science, see the [computer science field overview](../README.md).
+> This page covers only the practices specific to this area. For practices common to all research, see the chapters of Parts 1 and 2 and the research strategies; for conventions shared across computer science, see the [computer science field overview](../README.md).
 
 ## What this area studies
 

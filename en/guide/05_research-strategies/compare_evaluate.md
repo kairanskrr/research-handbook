@@ -112,7 +112,7 @@ For a more systematic discussion of validity, see [Validity and limitations](../
 | [Optimization studies](../07_fields/computer-science/practices/optimization_study.md) | Comparing search and optimization algorithms | A search algorithm should at least be compared against random search, to confirm its success isn't because the problem is simply too easy[^arcuri2014hitchhiker-e4] |
 | [Systematic reviews and meta-analysis](../06_methods/meta_analysis.md) | Instead of running experiments yourself, you combine comparative results from published studies | Common in health research |
 
-Methods and strategies are two separate layers: the same method can serve different strategies; see [Choosing a strategy and a method](../02_do-the-project/02_choose-method.md).
+Methods and strategies are two separate layers: the same method can serve different strategies; see [Choosing a method](../02_do-the-project/02_choose-method.md).
 
 ## 4. How it shapes the whole project
 

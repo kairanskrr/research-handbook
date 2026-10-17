@@ -128,6 +128,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .doc li::marker { color: var(--faint); font-variant-numeric: tabular-nums; }
 .doc blockquote { margin: 1.4em 0; padding: 12px 18px; border-radius: 8px; background: var(--bg); color: var(--muted); font-size: .95em; }
 .doc blockquote p { margin: .3em 0; }
+.doc blockquote.mustdo { background: var(--accent-soft); color: var(--text); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; font-size: 1em; }
+.doc blockquote.mustdo > p:first-child strong { color: var(--accent); }
+.doc blockquote.mustdo a { color: var(--accent); }
 .doc hr { border: 0; border-top: 1px solid var(--line); margin: 2.4em 0; }
 .doc code { font-family: var(--font-mono); font-size: .85em; background: var(--bg); border: 1px solid var(--line); padding: 0 5px; border-radius: 4px; }
 .doc pre { overflow-x: auto; background: var(--bg); border: 1px solid var(--line); padding: 14px 16px; border-radius: 8px; font-size: .85rem; line-height: 1.6; letter-spacing: 0; }
@@ -341,6 +344,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
     var slug = slugger();
     root.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(function (h) { h.id = slug(h.textContent); });
     root.querySelectorAll("code").forEach(function (c) { if (/^\[(本项目分析|Our analysis)/.test(c.textContent)) c.className = "analysis"; });
+    root.querySelectorAll("blockquote").forEach(function (b) { var s = b.querySelector("p > strong:first-child"); if (s && /^(这一章必须做的事|What you must do in this chapter)/.test(s.textContent)) b.className = "mustdo"; });
     root.querySelectorAll("table").forEach(function (t) {
       var w = document.createElement("div"); w.className = "tablewrap"; t.parentNode.insertBefore(w, t); w.appendChild(t);
     });

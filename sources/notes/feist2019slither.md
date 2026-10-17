@@ -92,5 +92,3 @@
 - 位置：§I Introduction，第 2 页；§V-D Threats to Validity，第 7 页
 - 原文："Both Slither and our dataset are open source, so that others can validate and improve on our results." / "In order to make our results reproducible, and allow checking of our code and analysis methods, we have made our experimental setup available."
 - 要点：工具和数据集都开源，实验设置也公开，方便别人复现和核对结果。
-```
-

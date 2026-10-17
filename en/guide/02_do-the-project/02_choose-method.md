@@ -1,12 +1,22 @@
-# Choosing a strategy and a method
+# Choosing a method
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Almost all the sources cited here come from the research-methods literature of software engineering: a guide to choosing methods (Easterbrook et al. 2008), a framework of research strategies (Storey et al. 2020), the empirical standards of ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering), and a tutorial on writing software engineering papers (Shaw 2003). They reflect the views and rules of the software engineering community; in other fields, follow your own field's conventions.
 
+> **What you must do in this chapter** `[Our analysis]`
+>
+> 1. **Write down your main strategy and check your evidence plan against the strategy page.** Compare the page's "what evidence is enough" section with your plan item by item, and add whatever is missing ([Section 1](#1-first-confirm-your-main-strategy)).
+> 2. **Pick a method for each piece of evidence.** Copy your plan into three columns: evidence, what it asks, candidate method. For each method, ask: do I meet its preconditions? ([Section 2](#2-choose-a-method-for-each-piece-of-evidence))
+> 3. **Say where your main method is strong, where it is weak, and why the weakness is acceptable.** If you can't give a reason it is acceptable, consider adding a method ([Section 3](#3-see-clearly-what-each-method-gains-and-what-it-gives-up), [Section 4](#4-combine-methods-when-you-need-to)).
+> 4. **Check, row by row, that the method can really get the evidence.** For each row, write one sentence: which cell of the results table the output fills, and whether you can get what you need. If a row fails, deal with it first ([Section 5](#5-check-can-this-method-really-get-the-evidence-you-need)).
+> 5. **Read the method guidance before you start.** For each method, find one method page or guideline and two or three papers to compare against, and learn what standard your target community judges it by ([Section 6](#6-before-you-start-read-method-guides-and-learn-your-fields-conventions)).
+>
+> **Done these? Move on:** every row of your evidence–method table has a method and has passed the checks, and your advisor has seen it and raised no fundamental objection. Next: [Writing a research plan](03_research-plan.md).
+
 ## Where you are
 
-You have broken your central claim into several research questions and listed the evidence you need for each (see [From research questions to an evidence plan](01_question-to-evidence.md)). You probably have a table like this: one row per piece of evidence, each saying what it has to convince readers of.
+You have broken your central claim into several research questions and written an evidence plan (see [From research questions to an evidence plan](01_question-to-evidence.md)): one row per research question, saying how the key terms are defined, what result counts as support, and what counts against. At the end of Part 1 you also made a rough call on what kind of research you are doing (see [Decide what kind of research you are doing](../01_find-a-problem/05_converge.md#work-out-what-kind-of-study-you-are-doing)).
 
-What the table doesn't tell you yet is **how exactly you will get** each piece of evidence. You may be wondering:
+What the plan doesn't tell you yet is **how exactly you will get** each piece of evidence. You may be wondering:
 
 - My advisor says "run an experiment". Does my question suit an experiment?
 - Questionnaires, interviews, mining code repositories, running benchmarks: they all seem somewhat relevant. Which one do I pick?
@@ -26,9 +36,9 @@ For each piece of evidence, choose one (or more) **research methods**, and be ab
 
 ## How to use this chapter
 
-Go through Sections 2 to 5 **one row at a time** down your evidence plan, and finally put the results into an "evidence–method table" (see "What you should have at the end").
+Go through Sections 2 to 5 **one row at a time** down your evidence plan, and put the results into an "evidence–method table" (see "What you should have at the end").
 
-These steps also pull on each other:
+The steps also pull on each other:
 
 - Section 5 shows that no method can get a certain piece of evidence → go back to [From research questions to an evidence plan](01_question-to-evidence.md) and replace it with evidence you can get, or make the claim smaller.
 - Section 3 shows that what your main method gives up is exactly what your claim needs most → go back to Section 2 and switch methods, or add a method in Section 4.
@@ -37,13 +47,13 @@ These steps also pull on each other:
 
 ## 1. First confirm your main strategy
 
-**The method follows the strategy, and the strategy follows the central claim.** How to choose a main strategy from your central claim, and how to tell apart the pairs of strategies that are easy to confuse, is covered in the section "How to choose your main strategy" in [Research strategies](../05_research-strategies/README.md#how-to-pick-your-main-strategy); we won't repeat it here.
+**The method follows the strategy, and the strategy follows the central claim.** You already settled on a provisional main strategy at the end of chapter 1.5. How to choose a main strategy from your central claim, and how to tell apart the pairs of strategies that are easy to confuse, is covered in the section "How to choose your main strategy" in [Research strategies](../05_research-strategies/README.md#how-to-pick-your-main-strategy); we won't repeat it here.
 
 This section does just one thing: **use the strategy page to check your evidence plan.** Every strategy page has a section on "what evidence is enough", listing the evidence that strategy usually has to deliver. Go through it item by item and see whether anything is missing from your plan.
 
 For example, your main strategy is [Building and improving](../05_research-strategies/build_improve.md), yet your plan has no "comparison with existing methods"; or your main strategy is [Causal explanation](../05_research-strategies/explain_causality.md), yet your plan has no "ruling out alternative explanations". Fill these gaps first; otherwise, however well you choose your methods, they won't add up to a complete argument `[Our analysis]`.
 
-The eight strategy pages are: [Description](../05_research-strategies/observe_describe.md), [Measurement](../05_research-strategies/measure.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Causal explanation](../05_research-strategies/explain_causality.md), [Building and improving](../05_research-strategies/build_improve.md), [Synthesis](../05_research-strategies/synthesize.md), [Proof](../05_research-strategies/prove.md), and [Interpretation and argument](../05_research-strategies/interpret_argue.md). Section 3 of each also lists the methods commonly used with that strategy, which you can use as a starting point for the next section.
+The eight strategy pages are: [Description](../05_research-strategies/observe_describe.md), [Measurement](../05_research-strategies/measure.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Causal explanation](../05_research-strategies/explain_causality.md), [Building and improving](../05_research-strategies/build_improve.md), [Synthesis](../05_research-strategies/synthesize.md), [Proof](../05_research-strategies/prove.md), and [Interpretation and argument](../05_research-strategies/interpret_argue.md). Section 3 of each also lists the methods commonly used with that strategy, which makes a good starting point for the next section.
 
 **Write it down:** Your central claim and main strategy. Open the matching strategy page, compare its "what evidence is enough" section with your evidence plan item by item, and add any evidence you missed.
 
@@ -68,11 +78,11 @@ The table below lists methods to consider, organized by "what the evidence is as
 | What existing studies show when taken together | [Review studies](../06_methods/review_study.md), [Case survey](../06_methods/case_survey.md) | There are enough existing studies to be worth combining |
 | That something must hold under given conditions | [Theoretical research](../07_fields/computer-science/practices/theoretical_research.md) | You can write what you study as precise definitions |
 
-Methods common in other fields (field experiments, randomized controlled trials, archival research, and so on) are also collected under [Research methods](../06_methods/README.md); practices used in only one field (such as close reading of texts) are in the "Field-specific practices" section of [Fields](../07_fields/README.md#field-specific-practices).
+Methods common in other fields (field experiments, randomized controlled trials, archival research, and so on) are also collected under [Research types](../06_methods/README.md); practices used in only one field (such as close reading of texts) are in the "Field-specific practices" section of [Fields](../07_fields/README.md#field-specific-practices).
 
 Before you pick a method, also check the literature: some questions already have good answers that you can get just by reading, without running an empirical study of your own[^easterbrook2008selecting-e41].
 
-**Walk through the example.** The central claim is "much of the high accuracy reported for large-language-model vulnerability detection comes from data leakage in the benchmarks", and the main strategy is Measurement. The evidence plan and candidate methods could be `[Our analysis]`:
+**Walk through the example.** Back to the running example: the central claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage", and the main strategy is Measurement. Take the evidence plan from the previous chapter and match each row with a candidate method `[Our analysis]`:
 
 | Evidence | What it asks | Candidate method |
 |---|---|---|
@@ -85,7 +95,7 @@ Before you pick a method, also check the literature: some questions already have
 
 - **Choosing a method based on "what I know how to do" or "what others did".** Blindly copying a research paradigm that others used for a completely different problem can lead to a serious mismatch[^shaw2003writing-e15].
 - **Chasing the "best" method.** The software engineering empirical standards only require the method to be appropriate for the study's purpose, not optimal[^ralph2020empirical-e23]. The guide above also says there is no fixed recipe for choosing a method; it depends on your resources, whether you can get access to the people or things you want to study, whether you can control the variables you want to study, and your own skills[^easterbrook2008selecting-e42].
-- **Starting before the preconditions are met.** For example, rushing into an experiment before you can write down a clear hypothesis. In that case it is better to do exploratory work first and get the hypothesis clear `[Our analysis]`.
+- **Starting before the preconditions are met.** For example, rushing into an experiment before you can write down a clear hypothesis. At that point you are better off doing exploratory work first to get the hypothesis clear `[Our analysis]`.
 
 **Write it down:** Copy your evidence plan into three columns: evidence, what it asks, candidate method. After each candidate method, add one sentence: do I meet its preconditions?
 
@@ -110,11 +120,11 @@ The table below shows where several kinds of approach in this framework typicall
 
 **The two trade-offs you will meet most often** `[Our analysis]`:
 
-**Control versus realism.** The "cleaner" the experiment, the further it may be from reality. Once key variables are ignored or held fixed, the results may not carry over to real settings[^easterbrook2008selecting-e79]. And an experiment only confirms the **metric you defined**: in the guide's hypothetical example, even if a researcher's experiment shows that fish-eye views are more efficient as she defines efficiency, that doesn't show fish-eye views are better suited to navigation[^easterbrook2008selecting-e80]. In our example `[Our analysis]`: measuring a higher detection rate on a curated public dataset doesn't mean the detection rate is higher on contracts actually deployed. For how far a conclusion can generalize and how to guard against overreach in advance, see [Validity and limitations](04_validity-and-limits.md#5-external-validity-how-far-do-your-conclusions-reach).
+**Control versus realism.** The "cleaner" the experiment, the further it may be from reality. Once key variables are ignored or held fixed, the results may not carry over to real settings[^easterbrook2008selecting-e79]. And an experiment only confirms the **metric you defined**: in the guide's hypothetical example, even if a researcher's experiment shows that fish-eye views are more efficient as she defines efficiency, that doesn't show fish-eye views are better suited to navigation[^easterbrook2008selecting-e80]. In our example `[Our analysis]`: measuring how much leakage inflates results on one curated public benchmark doesn't mean the gap is just as large on other benchmarks or on contracts actually deployed. For how far a conclusion can generalize and how to guard against overreach in advance, see [Validity and limitations](04_validity-and-limits.md#5-external-validity-how-far-do-your-conclusions-reach).
 
 **Depth versus breadth.** A questionnaire tells you what a group of people is like overall; if you want to understand in depth how people actually use something, or why they don't, a case study may be more suitable[^easterbrook2008selecting-e82]. Choosing a case study means trading representativeness for deeper understanding of a few cases[^easterbrook2008selecting-e19]. When the setting itself shapes the phenomenon, or the effects take a long time to show, the controlled experiment's approach of "break it down and isolate variables" doesn't fit, and a case study is more suitable[^easterbrook2008selecting-e16].
 
-**How do you decide which to sacrifice? Look at which one your claim needs most** `[Our analysis]`. If your claim is that giving vulnerability-pattern hints **causes** a higher detection rate, control matters most and you can give up some realism. If your claim is that developers **will use** this tool in their actual work, realism matters most and you can give up some control. Not every project needs to bring people in, either: for evaluating a new technique that shortens build times, human feedback adds little[^storey2020who-e6]; but a tool that recommends likely defects may need to be evaluated with real people using it, to see how it changes the setting it is used in[^storey2020who-e5].
+**How do you decide which to sacrifice? Look at which one your claim needs most** `[Our analysis]`. The running example makes a measurement claim using existing benchmark data, so precision matters most: the leakage judgments and the detection judgments have to be accurate. It says nothing about how people use the tools, so realism can give a little. If your claim is causal, say that giving vulnerability-pattern hints **causes** a higher detection rate, control matters most and realism can give a little. If your claim is that developers **will use** this tool in their actual work, realism matters most and control can give a little. Not every project needs to bring people in, either: for evaluating a new technique that shortens build times, human feedback adds little[^storey2020who-e6]; but a tool that recommends likely defects may need to be evaluated with real people using it, to see how it changes the setting it is used in[^storey2020who-e5].
 
 > **Where sources disagree: are lab experiments the only credible evidence?**
 >
@@ -161,7 +171,7 @@ For how to design and integrate multiple methods, see [Mixed methods](../06_meth
 
 Choosing a method that is "on the right track" isn't enough. Before you start, run these checks on every row of evidence `[Our analysis]`:
 
-**① Can the method's output go into your results table?** Take out the [empty results table](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew while converging, imagine what the method will produce when it's done, and see whether that fits in the cell. The validation has to match the claim: if you claim better performance, analyze performance, not ease of use or generality[^shaw2003writing-e12]. The kind of validation also has to match the type of result and how it was obtained: a formal model needs rigorous derivation and proof, not one or two simple examples[^shaw2003writing-e9].
+**① Can the method's output go into your results table?** Take out the [empty results table](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in chapter 1.5, imagine what the method will produce when it's done, and see whether that fits in the cell. The validation has to match the claim: if you claim better performance, analyze performance, not ease of use or generality[^shaw2003writing-e12]. The kind of validation also has to match the type of result and how it was obtained: a formal model needs rigorous derivation and proof, not one or two simple examples[^shaw2003writing-e9].
 
 **② Does the method measure the thing you need?** A questionnaire can only tell you what people **say** they do, which may have nothing to do with what they actually do[^easterbrook2008selecting-e52]. Analyzing only the trace data left by development activity (such as commit histories) shows you only part of people's behavior, intentions, and social interactions[^storey2020who-e1]. If your evidence is about "what people actually do", switch methods or add another source.
 
@@ -169,7 +179,7 @@ Choosing a method that is "on the right track" isn't enough. Before you start, r
 
 **④ Do you have the time and the skills?** Mainly quantitative methods, such as controlled experiments and questionnaire surveys, need more planning time than purely qualitative methods, and the statistical tests have to be decided in advance[^easterbrook2008selecting-e88]. If this is your first time using a method, count the time to learn it; see Section 6.
 
-**⑤ Try it small first.** Beginners should usually pilot their data collection instruments first, and pilot not just the collection but the analysis steps too[^easterbrook2008selecting-e89]. For how to plan such a small trial run, see [Pilot first: rule out the biggest risks](05_pilot-and-derisk.md).
+**⑤ Try it small first.** Beginners should usually pilot their data collection instruments first, and pilot not just the collection but the analysis steps too[^easterbrook2008selecting-e89]. For how to plan such a small trial run, see [The smallest version that runs end to end](05_pilot-and-derisk.md).
 
 Practical constraints will often force you to change your original design, including the method, the data collection, and the analysis steps. When you change it, record the original plan and every change made afterward[^easterbrook2008selecting-e87].
 
@@ -199,6 +209,13 @@ Practical constraints will often force you to change your original design, inclu
 | Conventions in other fields | The field overviews in [Fields](../07_fields/README.md) |
 
 **Write it down:** For each method you've chosen, write down one method page or guideline you will read and two or three papers you plan to compare against. Then one sentence: in your target community, what standard is this method usually judged by?
+
+> **How this step differs by type of research** `[Our analysis]`
+>
+> - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): the method has to cope with the scale of the data, and you have to say why you chose it. He et al. 2020 had to process nearly 10 million contracts[^he2020characterizing-e6]. They chose lightweight fingerprint matching because it had to scale to that size, and because contract logic is simple enough not to need heavier program analysis[^he2020characterizing-e8].
+> - **Tool or technique papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): the heart of the method is "compared against what, on what". Slither was compared with three open-source tools, stating each tool's version, and the comparison covered only reentrancy detection, the one check all the tools had[^feist2019slither-e6].
+> - **Benchmarks or datasets** (see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md)): first decide what you will evaluate. SmartBugs started from 35 tools and narrowed them to 9 using stated inclusion criteria[^durieux2020empirical-e4].
+> - **Reviews** (see [Review studies](../06_methods/review_study.md)): the method is a review protocol written in advance. Rameder et al. 2022 built theirs on several guidelines, including Kitchenham and Charters 2007, so that the results would be comprehensive and repeatable[^rameder2022review-e4].
 
 ---
 
@@ -259,11 +276,11 @@ You can move on when all of these hold:
 | No method can get a certain piece of evidence | [From research questions to an evidence plan](01_question-to-evidence.md); replace it with evidence you can get |
 | The evidence you can get only supports a much weaker claim | [Converging on a project](../01_find-a-problem/05_converge.md), Section 1; rewrite the claim |
 | While checking the strategy page, you realize the claim actually belongs to a different strategy | The section "How to choose your main strategy" in [Research strategies](../05_research-strategies/README.md#how-to-pick-your-main-strategy); choose the main strategy again, then return to Section 1 of this chapter |
-| The chosen method requires too much learning to fit your schedule | [Writing a research plan](03_research-plan.md); reschedule, or switch to a method you know better |
+| The chosen method requires too much learning to fit your schedule | When you schedule the work in the next chapter, [Writing a research plan](03_research-plan.md#5-estimate-time-and-build-in-slack), count the learning time; if it still doesn't fit, come back to this chapter and switch to a method you know better |
 
 ## Next
 
-Once the methods are chosen, the next step is to think through where the conclusions you draw with them could go wrong, how far they can generalize, and how to guard against problems in advance. See [Validity and limitations](04_validity-and-limits.md).
+With the evidence and methods settled, the next step is scheduling: turn the evidence plan into milestones, and decide what comes first, how long each step takes, and when each is due. See [Writing a research plan](03_research-plan.md).
 
 [^easterbrook2008selecting-e1]: Easterbrook et al. 2008, §1.0. [Evidence](../../sources/notes/easterbrook2008selecting.md#e1)
 [^easterbrook2008selecting-e3]: Easterbrook et al. 2008, §5.6. [Evidence](../../sources/notes/easterbrook2008selecting.md#e3)
@@ -320,3 +337,8 @@ Once the methods are chosen, the next step is to think through where the conclus
 [^shaw2003writing-e12]: Shaw 2003, §4.3. [Evidence](../../sources/notes/shaw2003writing.md#e12)
 [^shaw2003writing-e13]: Shaw 2003, §4.3. [Evidence](../../sources/notes/shaw2003writing.md#e13)
 [^shaw2003writing-e15]: Shaw 2003, §5. [Evidence](../../sources/notes/shaw2003writing.md#e15)
+[^he2020characterizing-e6]: He et al. 2020 (code clones in Ethereum smart contracts), §4.1 Dataset, §4.2 Pre-processing, p. 8. [Evidence](../../sources/notes/he2020characterizing.md#e6)
+[^he2020characterizing-e8]: He et al. 2020 (code clones in Ethereum smart contracts), §3 Methodology, p. 5. [Evidence](../../sources/notes/he2020characterizing.md#e8)
+[^feist2019slither-e6]: Feist et al. 2019 (Slither, a static analysis tool for smart contracts), §V-A Vulnerability Detection Evaluation, p. 5. [Evidence](../../sources/notes/feist2019slither.md#e6)
+[^durieux2020empirical-e4]: Durieux et al. 2020 (SmartBugs evaluation of smart contract analysis tools), §2.2 Subject Tools, pp. 2–3. [Evidence](../../sources/notes/durieux2020empirical.md#e4)
+[^rameder2022review-e4]: Rameder et al. 2022 (systematic review of vulnerability analysis for Ethereum smart contracts), §2 Systematic Review, p. 2. [Evidence](../../sources/notes/rameder2022review.md#e4)

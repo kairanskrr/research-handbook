@@ -1,6 +1,6 @@
 # Theory
 
-> This page covers only what is specific to this area. For general practice, see the Parts and the research strategies. For the conventions shared across computer science, see the [computer science field overview](../README.md). For how to do, write, and check proofs, see [Theoretical research](../practices/theoretical_research.md); this page does not repeat it.
+> This page covers only what is specific to this area. For general practice, see the chapters of Parts 1 and 2 and the research strategies. For the conventions shared across computer science, see the [computer science field overview](../README.md). For how to do, write, and check proofs, see [Theoretical research](../practices/theoretical_research.md); this page does not repeat it.
 
 ## What this area studies
 
