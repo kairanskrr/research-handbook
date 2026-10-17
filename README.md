@@ -2,7 +2,7 @@
 
 从选题到发表，把一项研究做扎实。
 
-**网页版**：<https://kairanskrr.github.io/research-handbook/>，可以按目录翻阅、全文搜索，点脚注就地看原文。每章开头有一个"必须做的事"摘要框，只看它也能往下走。
+每章开头有一个"必须做的事"摘要框，只看它也能往下走。
 
 写给刚开始做科研的人：怎样选题、读文献、设计研究、推进项目、写作投稿，以及各个学科有哪些自己的规矩。内容来自资深研究者的经验和各领域公认的方法规范，每条建议都能追溯到原文出处。
 
@@ -94,7 +94,7 @@ sources/                        原始资料
 papers/                         论文的 BibTeX（references.bib）和索引
 repos/                          作为参考资料引入的 GitHub 仓库（git submodule）
 templates/                      文档模板
-scripts/                        论文下载脚本、网页版构建脚本
+scripts/                        论文下载脚本、网页版构建脚本（本地运行 python scripts/build_site.py 预览）
 site/                           网页版的页面
 ```
 

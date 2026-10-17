@@ -2,9 +2,9 @@
 
 From choosing a topic to publishing: how to do a piece of research properly.
 
-This is the English edition. The handbook also has a [Chinese edition](../README.md) (中文版); the web reader has a switch for it.
+This is the English edition. The handbook also has a [Chinese edition](../README.md) (中文版).
 
-**Web reader**: <https://kairanskrr.github.io/research-handbook/>. Browse by table of contents, search the full text, and click a footnote to read the original source in place. Each chapter opens with a short box of the things you must do; read only that box if you are in a hurry.
+Each chapter opens with a short box of the things you must do; read only that box if you are in a hurry.
 
 Written for people starting out in research: how to choose a topic, read the literature, design a study, move a project forward, write and submit, and what conventions each field has of its own. The content comes from the experience of senior researchers and from widely accepted methodological standards in each field, and every piece of advice can be traced back to its original source.
 
@@ -96,7 +96,7 @@ sources/                        original sources
 papers/                         BibTeX for the papers (references.bib) and an index
 repos/                          GitHub repositories included as reference material (git submodules)
 templates/                      document templates
-scripts/                        paper download script, web reader build script
+scripts/                        paper download script, web reader build script (preview locally with python scripts/build_site.py)
 site/                           web reader pages
 ```
 
