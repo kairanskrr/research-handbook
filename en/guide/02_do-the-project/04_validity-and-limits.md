@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Assume your conclusion is wrong and list at least eight reasons it could be.** If you can't, ask a fellow student to play the pickiest reviewer and list them for you ([Section 1](#1-assume-the-conclusion-is-wrong-and-list-every-possible-reason)).
 > 2. **Sort each reason by type, and focus on the type that matters most for your strategy.** If that type has the fewest entries, go back and add more ([Section 2](#2-sort-the-threats-with-four-questions)).
@@ -17,7 +17,7 @@
 
 You have an evidence plan (see [From research questions to an evidence plan](01_question-to-evidence.md)), you have chosen a research strategy and a research method (see [Choosing a method](02_choose-method.md)), and you have laid out your plan (see [Writing a research plan](03_research-plan.md)). Your empty results table has its rows and columns decided and is waiting for numbers.
 
-Back to the running example `[Our analysis]`. The claim is: "Published evaluations of large language model vulnerability detectors are inflated by data leakage." Question 2 in the evidence plan compares several models' detection rates on leaked and non-leaked samples, and you predict the leaked samples will score at least 10 percentage points higher.
+Back to the running example. The claim is: "Published evaluations of large language model vulnerability detectors are inflated by data leakage." Question 2 in the evidence plan compares several models' detection rates on leaked and non-leaked samples, and you predict the leaked samples will score at least 10 percentage points higher.
 
 It looks like you can start. But stop for a moment: **if the experiment comes out exactly as you expect, what reasons will a reviewer give for saying "this doesn't prove your conclusion"?**
 
@@ -31,21 +31,21 @@ Before you run any experiment or send out any questionnaire, work out where your
 4. Are my data and analysis really enough to support the conclusion? Would someone else doing the study get the same result?
 5. For the gaps I can't close, how will I report them honestly?
 
-**Validity** is how far a conclusion can be trusted. A guide to case study research in software engineering defines it as the extent to which the results are true and not biased by the researchers' own subjective point of view[^runeson2009guidelines-e1]. This chapter covers the general framework every kind of study needs. The work specific to a given research strategy, such as choosing baselines, running ablation studies (removing parts of your method one at a time to see how the results change), keeping a held-out test set you only touch at the very end, repeated runs, and statistical tests, lives on the strategy and method pages; this chapter links to them where needed and does not repeat them `[Our analysis]`.
+**Validity** is how far a conclusion can be trusted. A guide to case study research in software engineering defines it as the extent to which the results are true and not biased by the researchers' own subjective point of view[^runeson2009guidelines-e1]. This chapter covers the general framework every kind of study needs. The work specific to a given research strategy, such as choosing baselines, running ablation studies (removing parts of your method one at a time to see how the results change), keeping a held-out test set you only touch at the very end, repeated runs, and statistical tests, lives on the strategy and method pages; this chapter links to them where needed and does not repeat them.
 
 ---
 
 ## 1. Assume the conclusion is wrong and list every possible reason
 
-**How:** Imagine that a year from now someone publishes a paper showing your conclusion doesn't hold. What would they say? Write down every reason you can think of, as many as possible. Don't sort or judge them yet `[Our analysis]`.
+**How:** Imagine that a year from now someone publishes a paper showing your conclusion doesn't hold. What would they say? Write down every reason you can think of, as many as possible. Don't sort or judge them yet.
 
 Why do this? The first principle of research is that you must not fool yourself, and you are the easiest person to fool[^feynman1974cargo-e7]. Once the results come in, you will instinctively want to believe them. Right now, before there are results, is when you can look for flaws most dispassionately.
 
-Why do it **now**? The case study guide warns that thinking about validity only at the analysis stage is too late; validity has to be considered at every earlier stage[^runeson2009guidelines-e2]. If you find out after the experiment that you measured the wrong thing or failed to control some factor, often the only fix is to run it again `[Our analysis]`.
+Why do it **now**? The case study guide warns that thinking about validity only at the analysis stage is too late; validity has to be considered at every earlier stage[^runeson2009guidelines-e2]. If you find out after the experiment that you measured the wrong thing or failed to control some factor, often the only fix is to run it again.
 
 Don't expect to find a perfect design, either. A software engineering research methods handbook puts it bluntly: all research designs are flawed[^easterbrook2008selecting-e69]. Your job is to know where the flaws are, fix the ones you can, and state clearly the ones you can't.
 
-Suppose the results match your prediction: leaked samples have a clearly higher detection rate. Your list might include `[Our analysis]`:
+Suppose the results match your prediction: leaked samples have a clearly higher detection rate. Your list might include:
 
 - The leaked contracts are older, shorter, and have more textbook vulnerabilities to begin with, so the higher detection rate may have nothing to do with the model having "seen" them;
 - "Leaked" was defined as an exact match, so copies with renamed variables were counted as "not leaked" and the two groups got mixed;
@@ -61,7 +61,7 @@ Suppose the results match your prediction: leaked samples have a clearly higher 
 
 Your list is a mix. Sort it by how each item threatens the conclusion, and you will know which kind of remedy each group needs.
 
-**Threats to validity** are factors that could make your conclusion false. There is more than one way to classify them. The psychology measurement literature cites the four types from Shadish and colleagues: construct validity, internal validity, external validity, and statistical conclusion validity[^flake2020measurement-e16]. The software engineering research methods handbook uses four types too; the first three are the same, and the fourth is reliability instead[^easterbrook2008selecting-e68]. This chapter combines the two, matching the four questions at the top (question 4 covers the last two types) `[Our analysis]`:
+**Threats to validity** are factors that could make your conclusion false. There is more than one way to classify them. The psychology measurement literature cites the four types from Shadish and colleagues: construct validity, internal validity, external validity, and statistical conclusion validity[^flake2020measurement-e16]. The software engineering research methods handbook uses four types too; the first three are the same, and the fourth is reliability instead[^easterbrook2008selecting-e68]. This chapter combines the two, matching the four questions at the top (question 4 covers the last two types):
 
 | Type | In plain words | The matching threat in the example |
 |---|---|---|
@@ -71,11 +71,11 @@ Your list is a mix. Sort it by how each item threatens the conclusion, and you w
 | **Conclusion validity** | Is the conclusion drawn from the data and analysis itself correct?[^flake2020measurement-e16] | One run only, so the gap may be random variation |
 | **Reliability** | If a different researcher redid the study, would the result be the same?[^easterbrook2008selecting-e68] | The person judging "detected" hopes to see a gap |
 
-What the table calls "conclusion validity" is "statistical conclusion validity" in the Shadish framework: whether the conclusions drawn from the statistical analysis are correct[^flake2020measurement-e16]. Studies without statistics face the same question: is your evidence really enough to support that sentence `[Our analysis]`?
+What the table calls "conclusion validity" is "statistical conclusion validity" in the Shadish framework: whether the conclusions drawn from the statistical analysis are correct[^flake2020measurement-e16]. Studies without statistics face the same question: is your evidence really enough to support that sentence?
 
 **Not every type matters equally.** The empirical standards for software engineering state that there are no universal quality criteria; each study should be judged against the standards for the methods that suit it. For example, a study with no causal relationships should not be required to show internal validity[^ralph2020empirical-e24]. The standards also count criticizing a method for limitations that are inherent to it, such as criticizing a case study for limited generalizability, as an invalid criticism[^ralph2020empirical-e25].
 
-So first look at which research strategy you are following, then decide where to put your effort `[Our analysis]`:
+So first look at which research strategy you are following, then decide where to put your effort:
 
 | Research strategy | Usually matters most | See |
 |---|---|---|
@@ -102,23 +102,23 @@ Your claim contains abstract concepts such as "detection rate", "vulnerability d
 3. **Prefer metrics others have validated; if you make up your own, at least explain why you didn't use an existing one.** When there is little validity evidence, put that in your limitations[^flake2020measurement-e13]. For how to make the measurement itself solid (reliability, multiple kinds of validity evidence, scale development), see [Measurement](../05_research-strategies/measure.md).
 4. **Check a batch of labels by hand.** Labels taken automatically can be badly wrong. One study found that 33.8% of the bug reports it examined were misclassified: they corresponded not to code fixes but to new features, documentation updates, or internal refactoring[^herzig2013bug-e1]. The authors advise that before using a bug dataset, you manually validate a large enough sample and discuss data quality as a threat to validity[^herzig2013bug-e5].
 
-**Common construct validity traps in computer science** `[Our analysis]`:
+**Common construct validity traps in computer science**:
 
 - **Using platform data to stand for an abstract concept.** GitHub data can be used directly to describe properties of projects, but drawing conclusions about more abstract concepts from it calls for caution[^kalliamvakou2014promises-e11], for example using star counts to stand for project quality.
-- **The large language model has "seen" the benchmark.** If benchmark data got into the model's training data, the model's performance will be overestimated[^sainz2023nlp-e2]. What you measure may then be memory, not detection ability. When the benchmark itself has been used for training, the conclusions of the whole experiment are invalidated[^sainz2023nlp-e3]. For how to choose benchmark data to avoid this, see [Comparative evaluation](../05_research-strategies/compare_evaluate.md). This is exactly what the running example sets out to show: a construct validity threat to other people's evaluations becomes the thing your project measures `[Our analysis]`.
+- **The large language model has "seen" the benchmark.** If benchmark data got into the model's training data, the model's performance will be overestimated[^sainz2023nlp-e2]. What you measure may then be memory, not detection ability. When the benchmark itself has been used for training, the conclusions of the whole experiment are invalidated[^sainz2023nlp-e3]. For how to choose benchmark data to avoid this, see [Comparative evaluation](../05_research-strategies/compare_evaluate.md). This is exactly what the running example sets out to show: a construct validity threat to other people's evaluations becomes the thing your project measures.
 
 **Write it down:** List every key concept in your claim and define each in a sentence or two. Next to each, write the metric you plan to use, then one sentence on why it represents the concept. Wherever you can't write that sentence, you have a construct validity threat.
 
 ## 4. Internal validity: was it really the factor you changed?
 
-**This section matters most when your claim says "A causes B".** The running example says evaluation results are "inflated by leakage", which implies "leakage raises the detection rate", so it has to pass this test too. A study that only describes a phenomenon, such as just counting what share of samples leaked, can skip it `[Our analysis]`.
+**This section matters most when your claim says "A causes B".** The running example says evaluation results are "inflated by leakage", which implies "leakage raises the detection rate", so it has to pass this test too. A study that only describes a phenomenon, such as just counting what share of samples leaked, can skip it.
 
 The software engineering research methods handbook describes internal validity as being about whether the results really follow from the data; typical mistakes are failing to handle confounding variables properly and misusing statistical analysis[^easterbrook2008selecting-e65]. A **confounding variable** is a third factor you haven't controlled that also affects the result: when you study whether A affects B, B may also be affected by a third factor[^runeson2009guidelines-e4].
 
 **How:**
 
 1. **List the alternative explanations.** For the result you expect, write down what else, besides your explanation, could produce the same result. When you run an experiment, you should report everything you think might make it invalid: the other possible causes, and which ones you ruled out and how[^feynman1974cargo-e11].
-2. **For each alternative explanation, find a way to rule it out in the design** `[Our analysis]`. In the running example: the leaked samples may be easier to begin with, so match each leaked sample with similar non-leaked ones by length, vulnerability type, and deployment year before comparing; use the same model version, parameters, and prompt for every comparison; and hide whether a sample leaked from whoever judges "detected". If your claim is causal, say "adding vulnerability-pattern hints to the prompt raises the detection rate", also change one thing at a time (if the prompt adds both vulnerability patterns and example code, you can't tell which one did the work), and assign at random when you need groups.
+2. **For each alternative explanation, find a way to rule it out in the design**. In the running example: the leaked samples may be easier to begin with, so match each leaked sample with similar non-leaked ones by length, vulnerability type, and deployment year before comparing; use the same model version, parameters, and prompt for every comparison; and hide whether a sample leaked from whoever judges "detected". If your claim is causal, say "adding vulnerability-pattern hints to the prompt raises the detection rate", also change one thing at a time (if the prompt adds both vulnerability patterns and example code, you can't tell which one did the work), and assign at random when you need groups.
 3. **Don't assume you are objective enough.** Good intentions are not enough: memory fails, and people reason toward what they want without noticing; these biases often operate outside awareness[^nosek2018preregistration-e3]. So guard against them through design, not self-discipline.
 
 None of this is specific to computer science. In design guidelines for animal experiments, the most common recommendations for internal validity include random allocation and blinding the people who assess outcomes[^henderson2013threats-e9]; which confounders to guard against differs by field and by model[^henderson2013threats-e12]. For how to rule out alternative explanations systematically and when to run ablations, see [Causal explanation](../05_research-strategies/explain_causality.md#actively-rule-out-alternative-explanations), [Building and improving](../05_research-strategies/build_improve.md), and [Controlled experiments](../06_methods/controlled_experiment.md).
@@ -132,7 +132,7 @@ The software engineering research methods handbook describes external validity a
 **How:**
 
 1. **Write down the target population first.** The target population is the group or data distribution you hope your conclusions extend to. The machine learning reporting checklist notes that papers don't always state it clearly[^kapoor2024reforms-e5]. Is your conclusion about "all Solidity contracts", "contracts deployed on Ethereum", or "contracts generated by large language models"?
-2. **Compare your sample with the target population and note how they differ.** Examples `[Our analysis]`:
+2. **Compare your sample with the target population and note how they differ.** Examples:
    - Your contracts come from a public vulnerability dataset; most are shorter than real contracts and have more textbook vulnerabilities;
    - You tried only a few models, one version of each;
    - You can only look for leakage in public training corpora, so models whose training data is not public can't be checked.
@@ -142,9 +142,9 @@ The software engineering research methods handbook describes external validity a
 **Two things that are easy to miss:**
 
 - **More datasets does not mean closer to reality.** Running the same method on more data may improve generalizability, but it does not improve realism or give you more control over human factors[^storey2020who-e8]. If you care whether the tool helps developers in real use, adding datasets is not enough.
-- **Conclusions expire.** Even if a model generalizes to the target population now, its performance may drop as the data distribution shifts over time[^kapoor2024reforms-e23]. Large language models are updated quickly, so record the model version and date behind every result `[Our analysis]`.
+- **Conclusions expire.** Even if a model generalizes to the target population now, its performance may drop as the data distribution shifts over time[^kapoor2024reforms-e23]. Large language models are updated quickly, so record the model version and date behind every result.
 
-**Internal and external validity often trade off.** The software engineering methods literature points out that experiments must balance the two, and you can't maximize both at once[^falessi2018empirical-e3]; every research strategy has its own strengths and weaknesses in generalizability, realism, control, and precision, and every design decision is a trade-off[^storey2020who-e3]. The tighter you control conditions, the more it looks like a lab and the less like the real world. What you should do is decide, based on your claim, which matters more, and put the other in your limitations `[Our analysis]`.
+**Internal and external validity often trade off.** The software engineering methods literature points out that experiments must balance the two, and you can't maximize both at once[^falessi2018empirical-e3]; every research strategy has its own strengths and weaknesses in generalizability, realism, control, and precision, and every design decision is a trade-off[^storey2020who-e3]. The tighter you control conditions, the more it looks like a lab and the less like the real world. What you should do is decide, based on your claim, which matters more, and put the other in your limitations.
 
 **Write it down:** Write one sentence: "My conclusions apply to ____." Then another: "They do not necessarily apply to ____." List at least three items in the second.
 
@@ -156,7 +156,7 @@ Most of these threats show up at the analysis stage, but the rules have to be se
 
 **How:**
 
-1. **Decide in advance how you will analyze.** For experiments and surveys, decide which statistical tests you will use and plan ahead, so that analysis and interpretation go smoothly[^easterbrook2008selecting-e73]. Concretely, write down `[Our analysis]`: which groups you compare, which metric you look at, how big a difference counts as meaningful, and how many runs per group.
+1. **Decide in advance how you will analyze.** For experiments and surveys, decide which statistical tests you will use and plan ahead, so that analysis and interpretation go smoothly[^easterbrook2008selecting-e73]. Concretely, write down: which groups you compare, which metric you look at, how big a difference counts as meaningful, and how many runs per group.
 2. **Consider preregistration.** **Preregistration** means fixing your research questions and analysis plan before you see the results[^nosek2018preregistration-e1]. For what it constrains and what it doesn't, and where computer science stands, see [From research questions to an evidence plan](01_question-to-evidence.md).
 3. **Know which practices are off-limits.** The empirical standards for software engineering list these two as antipatterns: forming hypotheses after seeing the results (HARKing) in a study presented as confirmatory, and reporting only the tests that came out significant[^ralph2020empirical-e27].
 
@@ -164,7 +164,7 @@ How many repetitions to run, how to report variation, and how to do statistical 
 
 ### Reliability
 
-Reliability asks whether other researchers redoing the study would get the same result. Problems arise when researchers introduce bias, for example when the tool being evaluated is one the researchers have a stake in[^easterbrook2008selecting-e68]. **Evaluating a method you proposed yourself is exactly this situation** `[Our analysis]`.
+Reliability asks whether other researchers redoing the study would get the same result. Problems arise when researchers introduce bias, for example when the tool being evaluated is one the researchers have a stake in[^easterbrook2008selecting-e68]. In other words, **evaluating a method you proposed yourself is exactly this situation**.
 
 **How:**
 
@@ -175,13 +175,13 @@ Reliability asks whether other researchers redoing the study would get the same 
 
 ## 7. Decide how to handle each threat
 
-You now have a sorted list of threats. For each one, choose one of three responses `[Our analysis]`:
+You now have a sorted list of threats. For each one, choose one of three responses:
 
 - **Eliminate**: change the design so the threat no longer applies. For example, use the same model version for every comparison.
 - **Mitigate**: you can't remove it entirely, but you can check how much it matters. For example, check 100 samples by hand to estimate how many labels are wrong.
 - **Acknowledge**: if you can't remove it, or doing so costs too much, put it in your limitations and narrow the claim to match.
 
-Collect them in a table `[Our analysis]`:
+Collect them in a table:
 
 | Threat | Type | How serious | How the design handles it | What remains afterward | In the limitations? |
 |---|---|---|---|---|---|
@@ -190,19 +190,19 @@ Collect them in a table `[Our analysis]`:
 | Only models with public training corpora can be checked | External | Medium | Add two more open-source models with public training corpora | Conclusions about closed-source models are uncertain | Yes |
 | The judge knows whether a sample leaked | Reliability | Medium | Hide the leakage label; two people judge independently | Very little | No, but describe the procedure in the methods |
 
-**How to judge "how serious":** Ask yourself: if this threat holds, how much of your central claim is left `[Our analysis]`? A threat that would invalidate the whole claim must be eliminated; one that only affects the scope can be handled by narrowing the claim and listing it in the limitations.
+**How to judge "how serious":** Ask yourself: if this threat holds, how much of your central claim is left? A threat that would invalidate the whole claim must be eliminated; one that only affects the scope can be handled by narrowing the claim and listing it in the limitations.
 
 A few requirements:
 
 - **List real threats, not filler.** The programming languages evaluation checklist criticizes the threats-to-validity sections of software engineering papers for often mentioning threats of little significance while ignoring the real ones[^blackburn2018sigplan-e10].
 - **Say what you did.** The empirical standards for software engineering list "describes reasonable attempts to investigate or mitigate limitations" as a desirable attribute[^ralph2020empirical-e51]; their standard for experiments lists "validity threats are simply listed without linking them to results" as an antipattern[^ralph2020empirical-e52].
-- **If a serious threat can't be eliminated, change the claim.** Go back to [Converging on a project](../01_find-a-problem/05_converge.md) rather than hoping reviewers won't notice `[Our analysis]`.
+- **If a serious threat can't be eliminated, change the claim.** Go back to [Converging on a project](../01_find-a-problem/05_converge.md) rather than hoping reviewers won't notice.
 
 **Write it down:** Fill in the table above. At least one row should be rated "High", with a way of handling it you have already worked out. If no row is "High", you most likely haven't found the real threats yet.
 
 ## 8. Write your limitations now, and set rules for honest reporting
 
-Limitations are not a paragraph you add after the paper is written. Writing them at the design stage tells you from the start how far your claim can go `[Our analysis]`.
+Limitations are not a paragraph you add after the paper is written. Writing them at the design stage tells you from the start how far your claim can go.
 
 **How:**
 
@@ -215,7 +215,7 @@ For why these are matters of research integrity, see [Research integrity and eth
 
 **Write it down:** Write a three-to-five-sentence draft of your limitations, then one sentence with your revised central claim, made consistent with the limitations. Put "report the result whatever it is" and "record every deviation" into your research plan.
 
-> **How this step differs by type of research** `[Our analysis]`
+> **How this step differs by type of research**
 >
 > - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): the threats usually sit in the data and the judgment rules, and they deserve a section of their own. He et al. 2020, in their closing "Concluding Remarks and Future Work" section, name two things that could be improved: the threshold for deciding that code is a clone could be made adaptive, and the manually compiled contract templates may not cover everything[^he2020characterizing-e14]. Reading the full paper, we found no separate threats-to-validity subsection; that is our reading, and the paper itself cannot prove such a section is absent.
 > - **Tool or method papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): the threats usually concern whether the comparison was fair and broad enough. The Slither paper names its main threats to validity: the main experiment compared only reentrancy detection, the number of contracts was limited, and there is no community-agreed standard for picking contracts by transaction count[^feist2019slither-e14].
@@ -231,11 +231,11 @@ For why these are matters of research integrity, see [Research integrity and eth
 > - **They should not.** Many researchers with a constructivist stance (the view that reality is constructed by people and differs across people and situations) consider the very concept of "validity" too positivist to capture the nature of qualitative research[^easterbrook2008selecting-e70]. The software engineering standard for grounded theory likewise says such studies should be judged on credibility, resonance, usefulness, and how far they extend existing knowledge, and that quantitative criteria such as internal validity and generalizability typically do not apply[^ralph2020empirical-e323].
 > - **Validity still matters, but you build it during the research with specific strategies.** The same handbook summarizes this position and lists strategies for improving validity in this kind of research[^easterbrook2008selecting-e75], such as triangulating across different data sources, being honest about the biases you bring as a researcher[^easterbrook2008selecting-e71], going back to participants to check your interpretation (member checking), and reporting information that contradicts the emerging theory[^easterbrook2008selecting-e27].
 >
-> Both positions require you to guard against being led astray; they differ on vocabulary and on which criteria to judge by. In practice: first confirm which tradition your method belongs to, and list threats and responses by that tradition's standards. Qualitative researchers should do the exercise in Section 1 too, just using terms like credibility when sorting. For concrete steps, see [Interview studies](../06_methods/interview_study.md), [Grounded theory](../06_methods/grounded_theory.md), and [Case studies](../06_methods/case_study.md) `[Our analysis]`.
+> Both positions require you to guard against being led astray; they differ on vocabulary and on which criteria to judge by. In practice: first confirm which tradition your method belongs to, and list threats and responses by that tradition's standards. Qualitative researchers should do the exercise in Section 1 too, just using terms like credibility when sorting. For concrete steps, see [Interview studies](../06_methods/interview_study.md), [Grounded theory](../06_methods/grounded_theory.md), and [Case studies](../06_methods/case_study.md).
 
 ## Judgment calls
 
-**Should this threat be closed off, or listed as a limitation?** One way to decide `[Our analysis]`:
+**Should this threat be closed off, or listed as a limitation?** One way to decide:
 
 | Situation | Usual response |
 |---|---|

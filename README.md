@@ -69,7 +69,7 @@
 
 ## 怎么看出处
 
-每条建议后面都有脚注。点开脚注，可以看到它出自哪份资料、原文在哪一页、原文怎么说。没有文献依据、属于我们自己的判断，标注 `[本项目分析]`。资料之间说法不一致时，会把各方观点并列写出来。
+每条建议后面都有脚注。点开脚注，可以看到它出自哪份资料、原文在哪一页、原文怎么说。没有脚注的话，是我们自己的归纳和建议。资料之间说法不一致时，会把各方观点并列写出来。
 
 所有原始资料都列在[资料列表](sources/README.md)里，每份资料的原文摘录在 [`sources/notes/`](sources/notes/README.md)。
 
@@ -94,7 +94,7 @@ sources/                        原始资料
 papers/                         论文的 BibTeX（references.bib）和索引
 repos/                          作为参考资料引入的 GitHub 仓库（git submodule）
 templates/                      文档模板
-scripts/                        论文下载脚本、网页版构建脚本（本地运行 python scripts/build_site.py 预览）
+scripts/                        论文下载脚本、网页版构建脚本（本地运行 python scripts/build_site.py --full . --out _site 预览）
 site/                           网页版的页面
 ```
 

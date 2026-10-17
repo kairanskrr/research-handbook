@@ -12,7 +12,7 @@ How to pick a problem, push a proof forward, write a structured proof and check 
 
 A proof produces **a conclusion that necessarily holds under stated assumptions**: as long as the assumptions hold, the conclusion holds in every case, and you don't need data to "see whether it's true". The validation has to fit the type of result: a formal model must be backed by rigorous derivation and proof, not by one or two simple examples[^shaw2003writing-e9].
 
-There are four common kinds of result `[Our analysis]`:
+There are four common kinds of result:
 
 | Result | Computer science example (large language models and smart-contract security) | Question it answers |
 |---|---|---|
@@ -23,7 +23,7 @@ There are four common kinds of result `[Our analysis]`:
 
 A real formal guarantee: seL4 is an operating-system kernel with 8,700 lines of C and 600 lines of assembly[^klein2009sel4-e4]. Its team used a machine-checked proof to show that the kernel's C implementation always strictly conforms to its abstract specification (a precise description of how the kernel should behave)[^klein2009sel4-e8]. The result comes with explicit assumptions: the compiler, the assembly code, the boot code, cache management and the hardware are assumed correct, and everything else is proved[^klein2009sel4-e1]. As long as those assumptions hold, the kernel will never crash or behave unexpectedly[^klein2009sel4-e3].
 
-**How it differs from other strategies** `[Our analysis]`:
+**How it differs from other strategies**:
 
 | | Proof | Building and improving | Comparative evaluation |
 |---|---|---|---|
@@ -31,15 +31,15 @@ A real formal guarantee: seL4 is an operating-system kernel with 8,700 lines of 
 | Scope of the conclusion | Every case that satisfies the assumptions | The cases the experiments covered | The cases the evaluation covered |
 | Biggest risk | The proof is wrong; the assumptions are far from reality | Unfair or irreproducible experiments | The benchmark doesn't represent real use |
 
-Many computer science papers are mixed: they present a new tool (building and improving) and also prove some property of it. In that case, let the central claim decide the main strategy; hold the proof part to the standards on this page and the experimental part to the standards in [Building and improving](build_improve.md) `[Our analysis]`.
+Many computer science papers are mixed: they present a new tool (building and improving) and also prove some property of it. In that case, let the central claim decide the main strategy; hold the proof part to the standards on this page and the experimental part to the standards in [Building and improving](build_improve.md).
 
 **Write it down:** Write your central claim in the form "under assumptions A, B and C, conclusion X holds". If you can't write down the assumptions, or the conclusion contains words like "most" or "usually", it may not be a proof-style claim.
 
 ## 2. What evidence is enough
 
-When reviewers and readers read a proof paper, they press on the five questions below, and you need an answer to each `[Our analysis]`.
+When reviewers and readers read a proof paper, they press on the five questions below, and you need an answer to each.
 
-**(1) Are all the assumptions written out?** A theorem statement can easily hide unstated assumptions: Lamport (a researcher in distributed systems and formal methods) gives the example of a theorem that silently assumed a < b without saying so[^lamport2012how-e6]. He also points out that leaving out an assumption like "the set is nonempty" is a minor slip in a mathematical theorem but can be a serious bug in an algorithm[^lamport2012how-e9]. What to do: as seL4 did, list one by one the parts that are "assumed correct, not proved"[^klein2009sel4-e1], and state every assumption in the theorem `[Our analysis]`.
+**(1) Are all the assumptions written out?** A theorem statement can easily hide unstated assumptions: Lamport (a researcher in distributed systems and formal methods) gives the example of a theorem that silently assumed a < b without saying so[^lamport2012how-e6]. He also points out that leaving out an assumption like "the set is nonempty" is a minor slip in a mathematical theorem but can be a serious bug in an algorithm[^lamport2012how-e9]. What to do: as seL4 did, list one by one the parts that are "assumed correct, not proved"[^klein2009sel4-e1], and state every assumption in the theorem.
 
 **(2) Is the proof complete?** In Lamport's experience, most errors come from proofs that are not broken down to enough levels of detail[^lamport1995how-e5]. His rule of thumb: expand the proof until every statement at the lowest level is obvious, then expand one level more[^lamport1995how-e6]. A proof sketch (a few sentences describing the idea) is useful, but it is not a proof[^lamport2012how-e13]. For how to write a hierarchical proof that can be checked step by step, see [Step 3](../07_fields/computer-science/practices/theoretical_research.md#step-3-write-the-proof-so-it-can-be-checked-all-proof-based-work) of Theoretical research.
 
@@ -51,9 +51,9 @@ When reviewers and readers read a proof paper, they press on the five questions 
 - Benefit: before formal verification started, internal student projects and porting work had found 16 bugs in the implementation; formal verification found another 144[^klein2009sel4-e6].
 - Side benefit: the authors repeatedly found that, to make the system verifiable, designers were pushed toward the simplest, clearest solution, which led to a better design[^klein2009sel4-e7].
 
-Lamport also notes that proofs about algorithms are often not mathematically deep but are tedious, with a great many details to check[^lamport2012how-e10]. So proofs with many details, where one missed assumption becomes a bug (concurrent algorithms, protocols, kernels, contract analysis tools), are better candidates for machine checking; an ordinary theorem may not need it `[Our analysis]`. When a proof involves symbolic computation, a workshop report on reproducibility in computational mathematics (Stodden et al. 2013) recommends in its checklist cross-checking with two different software packages, because even the best software has bugs[^stodden2013setting-e5].
+Lamport also notes that proofs about algorithms are often not mathematically deep but are tedious, with a great many details to check[^lamport2012how-e10]. So proofs with many details, where one missed assumption becomes a bug (concurrent algorithms, protocols, kernels, contract analysis tools), are better candidates for machine checking; an ordinary theorem may not need it. When a proof involves symbolic computation, a workshop report on reproducibility in computational mathematics (Stodden et al. 2013) recommends in its checklist cross-checking with two different software packages, because even the best software has bugs[^stodden2013setting-e5].
 
-**(5) How far are the assumptions from reality?** However rigorous a proof is, it only answers for its assumptions and its specification. The seL4 authors themselves acknowledge that a proof of implementation correctness does not guarantee that the specification describes the behavior users expect[^klein2009sel4-e2]. In the contract example `[Our analysis]`: you prove that "under virtual-machine semantic model M, no contract the tool marks as safe can be reentered", and a reviewer will ask whether model M covers the ways contracts are actually called on the real chain, and whether your definition of "reentrancy-safe" matches the one the community uses. Where your assumptions are on the strong side or your conclusion on the weak side, the mathematician Tao advises saying so honestly, for example "we do not know whether hypothesis H is necessary"[^taowriting-e4].
+**(5) How far are the assumptions from reality?** However rigorous a proof is, it only answers for its assumptions and its specification. The seL4 authors themselves acknowledge that a proof of implementation correctness does not guarantee that the specification describes the behavior users expect[^klein2009sel4-e2]. In the contract example: you prove that "under virtual-machine semantic model M, no contract the tool marks as safe can be reentered", and a reviewer will ask whether model M covers the ways contracts are actually called on the real chain, and whether your definition of "reentrancy-safe" matches the one the community uses. Where your assumptions are on the strong side or your conclusion on the weak side, the mathematician Tao advises saying so honestly, for example "we do not know whether hypothesis H is necessary"[^taowriting-e4].
 
 **Write it down:** List every assumption your theorem depends on, and next to each write "Does this hold for real contracts? On what grounds?" Any you can't answer go into your limitations section.
 
@@ -71,13 +71,13 @@ According to the seL4 paper, interactive theorem proving needs human input and c
 
 **Proofs are often paired with experiments.** In software engineering, the ACM SIGSOFT Empirical Standards list providing "correctness arguments for the key analytical and theoretical contributions (e.g. theorems, complexity analyses, mathematical proofs)" as a desirable attribute of engineering research[^ralph2020empirical-e88]; a "theoretical guarantee" can also be the dimension on which a new tool beats existing ones[^ralph2020empirical-e95]. Vandewalle et al. note that in signal processing, theorems are often accompanied by numerical simulations that help readers get an intuitive feel for the results[^vandewalle2009reproducible-e12].
 
-**Compare with philosophical argument.** Most of the arguments philosophers deal with are also (or claim to be) deductive, and mathematical proofs are the textbook example of this kind of argument[^pryor2025terms-e3]. The difference lies in the premises: the premises of a philosophical argument are rarely beyond all doubt, so even a valid argument usually isn't conclusive[^pryor2025terms-e12]. That is why most of the work in a philosophy paper goes into defending premises and answering objections, and why it generally falls under the [Interpretation and argument](interpret_argue.md) strategy; for the concrete methods, see [Philosophical argument](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md) `[Our analysis]`.
+**Compare with philosophical argument.** Most of the arguments philosophers deal with are also (or claim to be) deductive, and mathematical proofs are the textbook example of this kind of argument[^pryor2025terms-e3]. The difference lies in the premises: the premises of a philosophical argument are rarely beyond all doubt, so even a valid argument usually isn't conclusive[^pryor2025terms-e12]. That is why most of the work in a philosophy paper goes into defending premises and answering objections, and why it generally falls under the [Interpretation and argument](interpret_argue.md) strategy; for the concrete methods, see [Philosophical argument](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md).
 
 Don't use the wrong kind of validation: discussing software engineering research, Shaw points out that using a field study to check whether a formal model is correct is as inappropriate as formally verifying a set of rules of thumb[^shaw2003writing-e14].
 
 ## 4. How it shapes the whole project
 
-When you follow the proof strategy, here is what to add or do differently at each stage `[Our analysis]`. The advice on pushing forward and checking yourself comes mostly from the mathematician Tao's career advice and from the theoretical computer scientist Aaronson's list of "signs that a claimed breakthrough is wrong"; this is personal experience, not a field rule. For the detailed steps, see [Steps 1 and 2 of Theoretical research](../07_fields/computer-science/practices/theoretical_research.md#2-how-to-do-it).
+When you follow the proof strategy, here is what to add or do differently at each stage. The advice on pushing forward and checking yourself comes mostly from the mathematician Tao's career advice and from the theoretical computer scientist Aaronson's list of "signs that a claimed breakthrough is wrong"; this is personal experience, not a field rule. For the detailed steps, see [Steps 1 and 2 of Theoretical research](../07_fields/computer-science/practices/theoretical_research.md#2-how-to-do-it).
 
 | Stage | What to do in particular on the proof strategy |
 |---|---|
@@ -112,9 +112,9 @@ This table lists only mistakes at the level of the strategy. For mistakes in wri
 
 | Mistake | Why it is a problem |
 |---|---|
-| The statement you prove is not the question you actually care about (different definitions, a different model) | Aaronson lists "the authors don't understand the question" as a sign of a wrong breakthrough[^aaronson2008ten-e1]; the result looks valid but answers a different question `[Our analysis]` |
+| The statement you prove is not the question you actually care about (different definitions, a different model) | Aaronson lists "the authors don't understand the question" as a sign of a wrong breakthrough[^aaronson2008ten-e1]; the result looks valid but answers a different question |
 | Proving only that the implementation meets its specification, then claiming the system is "secure" | The proof does not guarantee that the specification describes the behavior users expect[^klein2009sel4-e2] |
-| Strong assumptions or a weak conclusion that you don't own up to | Tao advises stating these openly[^taowriting-e4]; otherwise readers will assume your result applies more widely than it does `[Our analysis]` |
+| Strong assumptions or a weak conclusion that you don't own up to | Tao advises stating these openly[^taowriting-e4]; we think that if you leave them out, readers will assume your result applies more widely than it does |
 | The abstract says "we prove", and by the end it has become "this seems plausible" | The proof has quietly turned into a merely plausible argument; Aaronson lists "the authors themselves switch to weasel words by the end" as a sign of a wrong breakthrough[^aaronson2008ten-e4] |
 | "Validating" a formal model with one or two examples | A formal model must be backed by rigorous derivation and proof[^shaw2003writing-e9] |
 | Diving straight into a famous hard problem as a newcomer | Famous hard problems are almost never solved out of nowhere[^taocareer-e13] |

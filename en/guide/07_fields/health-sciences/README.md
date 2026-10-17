@@ -2,7 +2,7 @@
 
 This page explains how research actually runs in the health sciences: public health, epidemiology, health services research, nutrition, nursing, sport and exercise science, environmental and occupational health, and related areas. The health sciences share many rules with clinical medicine: the Declaration of Helsinki, the recommendations of the International Committee of Medical Journal Editors (ICMJE), trial registration, reporting guidelines such as CONSORT (Consolidated Standards of Reporting Trials) and STROBE (Strengthening the Reporting of Observational Studies in Epidemiology), and the evidence pyramid. The [Clinical medicine page](../clinical-medicine/README.md) already covers these; this page assumes you have read it and only links to it. For what applies in every field, see the chapters listed in [The research journey at a glance](../../00_start-here/research-journey.md) and [Throughout the project](../../08_throughout/README.md). For the research strategies the health sciences commonly use and the evidence each one relies on, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence).
 
-This page covers only what stands out more in the health sciences: the subject of study is often a **population**; many questions have to be answered with observational data; many studies use data that were not collected for research in the first place; qualitative research has its own quality standards; and ethics has to consider groups and communities, not just individuals. Our sources are mostly from epidemiology and public health. Our sources do not cover the specific norms of nursing, sport and exercise science, and similar areas; follow your advisor or your target journal. `[Our analysis]`
+This page covers only what stands out more in the health sciences: the subject of study is often a **population**; many questions have to be answered with observational data; many studies use data that were not collected for research in the first place; qualitative research has its own quality standards; and ethics has to consider groups and communities, not just individuals. Our sources are mostly from epidemiology and public health. Our sources do not cover the specific norms of nursing, sport and exercise science, and similar areas; follow your advisor or your target journal.
 
 **After reading this page, you should be able to:**
 
@@ -18,13 +18,13 @@ This page covers only what stands out more in the health sciences: the subject o
 
 ### The subject is often a population
 
-Public health and epidemiology are often concerned with the health of a group of people: what effect a diet, a policy, or an environmental exposure has on a population `[Our analysis]`. For example, the interventions studied in Cochrane systematic reviews include clinical ones as well as public health and policy ones[^higgins2024cochrane-e11]. Ethics guidelines reflect this too. The Council for International Organizations of Medical Sciences (CIOMS) is an international organization; its 2016 international ethical guidelines widened their scope from "biomedical research" to "health-related research"[^cioms2016ethical-e1], and merged what had been separate guidelines for biomedical research and for epidemiological studies into one document[^cioms2016ethical-e3].
+Public health and epidemiology are often concerned with the health of a group of people: what effect a diet, a policy, or an environmental exposure has on a population. For example, the interventions studied in Cochrane systematic reviews include clinical ones as well as public health and policy ones[^higgins2024cochrane-e11]. Ethics guidelines reflect this too. The Council for International Organizations of Medical Sciences (CIOMS) is an international organization; its 2016 international ethical guidelines widened their scope from "biomedical research" to "health-related research"[^cioms2016ethical-e1], and merged what had been separate guidelines for biomedical research and for epidemiological studies into one document[^cioms2016ethical-e3].
 
 ### Many questions have to be answered with observational data
 
 Randomized trials cannot answer every question; the Clinical medicine page [already covers this](../clinical-medicine/README.md#research-methods-common-in-this-field). The Cochrane Handbook also says that evidence about the harms of an intervention often has to come from non-randomized studies[^higgins2024cochrane-e8].
 
-For some questions, a trial would simply be unethical. Hernán gives this example: to learn the long-term effect of drinking a glass of wine a day on chronic disease, a trial that assigns people to drink for years would be unethical, so observational analyses are the best chance to estimate that long-term effect[^hernan2018cword-e11]. That is why, as a newcomer, you first need to learn to spot [the three pitfalls of observational studies](#three-pitfalls-of-observational-studies) `[Our analysis]`.
+For some questions, a trial would simply be unethical. Hernán gives this example: to learn the long-term effect of drinking a glass of wine a day on chronic disease, a trial that assigns people to drink for years would be unethical, so observational analyses are the best chance to estimate that long-term effect[^hernan2018cword-e11]. That is why, as a newcomer, you first need to learn to spot [the three pitfalls of observational studies](#three-pitfalls-of-observational-studies).
 
 ### Many studies use data that already exist
 
@@ -32,7 +32,7 @@ For some questions, a trial would simply be unethical. Hernán gives this exampl
 
 ### Publishing, preprints, and registration
 
-The health sciences publish mainly in journals `[Our analysis]`; for the ICMJE recommendations, authorship, conflicts of interest, and data sharing statements, see the [Clinical medicine page](../clinical-medicine/README.md#norms-and-reporting-standards-in-this-field). You can post a **preprint** on medRxiv, a free preprint server for medicine and the health sciences[^medrxivabout-e1]. Before you do, know three things:
+The health sciences publish mainly in journals; for the ICMJE recommendations, authorship, conflicts of interest, and data sharing statements, see the [Clinical medicine page](../clinical-medicine/README.md#norms-and-reporting-standards-in-this-field). You can post a **preprint** on medRxiv, a free preprint server for medicine and the health sciences[^medrxivabout-e1]. Before you do, know three things:
 
 - It does not accept case reports, narrative reviews, scoping reviews, systematic reviews without a meta-analysis, and some other article types[^medrxivabout-e3].
 - Preprints have not been peer reviewed. The server itself says they should not be used to guide clinical practice or health-related behavior, and should not be reported in the media as established information[^medrxivabout-e2].
@@ -44,11 +44,11 @@ The health sciences publish mainly in journals `[Our analysis]`; for the ICMJE r
 
 ## How this field differs from others
 
-In the table below, the health sciences column rests on the attached footnotes; the clinical medicine and computer science columns are our own summary of those two pages, which have the details `[Our analysis]`:
+In the table below, the health sciences column rests on the attached footnotes; the clinical medicine and computer science columns are our own summary of those two pages, which have the details:
 
 | | Health sciences | Clinical medicine | Computer science |
 |---|---|---|---|
-| Typical subject of study | Populations, communities, health systems `[Our analysis]` | Patients | Systems, algorithms, data |
+| Typical subject of study | Populations, communities, health systems | Patients | Systems, algorithms, data |
 | Where evidence comes from | Questions such as harms of interventions often rely on non-randomized studies[^higgins2024cochrane-e8]; existing data are common[^benchimol2015record-e1] | Trials and observational studies | Experiments and benchmarking |
 | Main methodological risks | Confounding, measurement error, misclassification[^vandenbroucke2007strobe-e6] | Bias, selective reporting | Unfair comparisons, data leakage |
 | Ethical focus | Individuals, plus groups and communities[^cioms2016ethical-e6] | Individuals (research participants) | Reviewed only when people are involved |
@@ -64,7 +64,7 @@ For definitions of confounding and bias, see the [Clinical medicine page](../cli
 
 ### Pitfall 2: exposures are hard to measure, especially diet
 
-Exposures such as diet and physical activity are often measured by questionnaire or recall, and are hard to measure accurately `[Our analysis]`. The STROBE explanation and elaboration paper says that inaccurate measurement or misclassification of exposures or outcomes can make true causal relationships harder to detect, or can create spurious ones; and measuring confounders inaccurately leaves "residual confounding" (confounding that remains after adjustment)[^vandenbroucke2007strobe-e6]. The less precisely an exposure is measured, the more the estimated effect tends to be pulled toward "no association"[^vandenbroucke2007strobe-e7]. Diet research has a further difficulty: what people eat is bound up with many other parts of their lifestyle. The same paper's example is that a finding such as "eating 2 to 4 eggs a week is associated with a doubled risk of ovarian cancer" should not be taken at face value, because dietary habits are associated with many lifestyle factors and with socioeconomic status[^vandenbroucke2007strobe-e8].
+Exposures such as diet and physical activity are often measured by questionnaire or recall, and are hard to measure accurately. The STROBE explanation and elaboration paper says that inaccurate measurement or misclassification of exposures or outcomes can make true causal relationships harder to detect, or can create spurious ones; and measuring confounders inaccurately leaves "residual confounding" (confounding that remains after adjustment)[^vandenbroucke2007strobe-e6]. The less precisely an exposure is measured, the more the estimated effect tends to be pulled toward "no association"[^vandenbroucke2007strobe-e7]. Diet research has a further difficulty: what people eat is bound up with many other parts of their lifestyle. The same paper's example is that a finding such as "eating 2 to 4 eggs a week is associated with a doubled risk of ovarian cancer" should not be taken at face value, because dietary habits are associated with many lifestyle factors and with socioeconomic status[^vandenbroucke2007strobe-e8].
 
 **What to do**: when you report your measurement methods, do not just cite one validation study. Give estimates of the measurement's validity or reliability, so that others can correct for measurement error or run sensitivity analyses[^vandenbroucke2007strobe-e10].
 
@@ -81,13 +81,13 @@ In 2018 Hernán published a commentary in the *American Journal of Public Health
 3. **Do not let software choose your confounders.** Automated variable selection may suit prediction but not necessarily causal inference[^hernan2018cword-e8]. The STROBE explanation paper also advises against choosing confounders on the basis of statistical significance tests alone[^vandenbroucke2007strobe-e9].
 4. **Present results in the results section; do not interpret them there.** In his view, the only place in a paper where "causal effect" should not appear is the results section[^hernan2018cword-e9].
 
-There is a related distinction. The Cochrane Handbook's example: a nutritionist cares about the health effect of the diet itself, such as eating at least five portions of fruit and vegetables a day; this is a question of **etiology**. A public health practitioner cares about the effect of interventions that get people to eat this way; this is a question of **effectiveness**[^higgins2024cochrane-e9]. When you write your research question, be clear which kind you are asking `[Our analysis]`.
+There is a related distinction. The Cochrane Handbook's example: a nutritionist cares about the health effect of the diet itself, such as eating at least five portions of fruit and vegetables a day; this is a question of **etiology**. A public health practitioner cares about the effect of interventions that get people to eat this way; this is a question of **effectiveness**[^higgins2024cochrane-e9]. When you write your research question, be clear which kind you are asking.
 
 > **Where sources disagree: can a paper on an observational study use the word "causal"?**
 > - **The cautious camp**: Hernán notes that many journal editors ask authors to avoid causal language[^hernan2018cword-e1]. The STROBE checklist also asks for a cautious overall interpretation of results that considers limitations, the number of analyses, results from similar studies, and other evidence[^vandenbroucke2007strobe-e12].
 > - **Hernán's view**: avoiding the word "causal" is harmful, because causal inference is a core task of science[^hernan2018cword-e2]. But he also admits that you can never be sure a model includes all confounders, so an estimate cannot always be interpreted as causal[^hernan2018cword-e10]. The same journal issue published several responses to his commentary[^hernan2018cword-e12]; our sources did not include those responses.
 >
-> In practice: follow your target journal on wording first. But whatever words you use, your methods section should say which causal question you are trying to estimate, what you adjusted for, and which confounding you cannot rule out. `[Our analysis]`
+> In practice: follow your target journal on wording first. But whatever words you use, your methods section should say which causal question you are trying to estimate, what you adjusted for, and which confounding you cannot rule out.
 
 ---
 
@@ -95,7 +95,7 @@ There is a related distinction. The Cochrane Handbook's example: a nutritionist 
 
 ### Reporting guidelines: a few more on top of the Clinical medicine page
 
-For what reporting guidelines are and how to find them on the EQUATOR (Enhancing the QUAlity and Transparency Of health Research) Network, see the [Clinical medicine page](../clinical-medicine/README.md#reporting-guidelines-pick-the-checklist-for-your-study-type). The health sciences also commonly use the guidelines below. Apart from RECORD, we read only the COREQ entry page on the EQUATOR website, not the original texts of these guidelines; read the originals before you use them `[Our analysis]`.
+For what reporting guidelines are and how to find them on the EQUATOR (Enhancing the QUAlity and Transparency Of health Research) Network, see the [Clinical medicine page](../clinical-medicine/README.md#reporting-guidelines-pick-the-checklist-for-your-study-type). The health sciences also commonly use the guidelines below. Apart from RECORD, we read only the COREQ entry page on the EQUATOR website, not the original texts of these guidelines; read the originals before you use them.
 
 | Study design | Reporting guideline | Notes |
 |---|---|---|
@@ -111,11 +111,11 @@ The authors of RECORD point out that common reporting gaps in these studies are 
 - **Where the data came from and why they were originally collected**, so readers understand the database's content and validity[^benchimol2015record-e13].
 - **All codes and algorithms**: give a complete list of those used to define exposures, outcomes, confounders, and effect modifiers[^benchimol2015record-e5]; if the codes or algorithms used to select the study population have been validated, cite the validation studies[^benchimol2015record-e6].
 - **How the data were linked**: if you linked two or more databases, describe the level at which they were linked, the linkage method, and how linkage quality was assessed[^benchimol2015record-e11].
-- **Whether the hypotheses were formed before or after the analysis**[^benchimol2015record-e7]. This is the distinction between exploratory and confirmatory research covered in the Part 2 chapter [From research questions to an evidence plan](../../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring) `[Our analysis]`.
+- **Whether the hypotheses were formed before or after the analysis**[^benchimol2015record-e7]. This is the distinction between exploratory and confirmatory research covered in the Part 2 chapter [From research questions to an evidence plan](../../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
 - **How to access the protocol, the raw data, or the code**[^benchimol2015record-e12].
 - **Limitations**: the data were not collected for your question, so discuss the effects of misclassification bias, unmeasured confounding, missing data, changing eligibility over time, and similar problems[^benchimol2015record-e8].
 
-Two traps that are easy to miss: administrative data are prone to "upcoding"; for example, when payment depends on case complexity, hospitals may use more complex diagnosis codes more often[^benchimol2015record-e9]. And when coding practices change, the data may no longer be consistent over time[^benchimol2015record-e10]. So if the "incidence" of a disease suddenly changes in a particular year, first check whether the coding rules changed `[Our analysis]`.
+Two traps that are easy to miss: administrative data are prone to "upcoding"; for example, when payment depends on case complexity, hospitals may use more complex diagnosis codes more often[^benchimol2015record-e9]. And when coding practices change, the data may no longer be consistent over time[^benchimol2015record-e10]. So if the "incidence" of a disease suddenly changes in a particular year, first check whether the coding rules changed.
 
 ### Qualitative health research: say who you are and how you analyzed
 
@@ -126,18 +126,18 @@ Mays and Pope wrote in the *BMJ* (*British Medical Journal*) in 2000 that qualit
 - **Attention to negative cases**: actively look for and discuss data that contradict your interpretation[^mays2000assessing-e8].
 - **Give enough of the original data** for readers to judge whether your interpretation is supported by the data[^mays2000assessing-e11].
 - **Respondent validation** (asking participants to check your findings): useful, but only as one way to reduce error, not as a final test[^mays2000assessing-e9].
-- For designing and coding interviews, the approach is the same as in [Interview studies](../../06_methods/interview_study.md) in Research types `[Our analysis]`.
+- For designing and coding interviews, the approach is the same as in [Interview studies](../../06_methods/interview_study.md) in Research types.
 
 ### Ethics: protect individuals, and consider groups and communities
 
-For ethics at the individual level (ethics review, informed consent), see the [Clinical medicine page](../clinical-medicine/README.md#your-subjects-are-people-so-ethics-comes-first) and [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first) in Throughout the project. The 2016 CIOMS guidelines come from an international organization; they are not national law, and what you actually do depends on the rules of your country and institution `[Our analysis]`. They cover several issues that stand out more in population research:
+For ethics at the individual level (ethics review, informed consent), see the [Clinical medicine page](../clinical-medicine/README.md#your-subjects-are-people-so-ethics-comes-first) and [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first) in Throughout the project. The 2016 CIOMS guidelines come from an international organization; they are not national law, and what you actually do depends on the rules of your country and institution. They cover several issues that stand out more in population research:
 
 - **Research must have value, but value does not justify treating people badly.** The ethical justification for health-related research with humans is its scientific and social value[^cioms2016ethical-e4]; but however great that value, it cannot justify treating participants or their communities badly[^cioms2016ethical-e5].
-- **Results can harm a whole group.** Results of epidemiological, genetic, or sociological research can damage the interests of communities, families, or racial or ethnic groups[^cioms2016ethical-e6], and can expose a group to stigma or discrimination[^cioms2016ethical-e7]. Keep this in mind when you publish results such as "group X has a high prevalence of disease Y" `[Our analysis]`.
+- **Results can harm a whole group.** Results of epidemiological, genetic, or sociological research can damage the interests of communities, families, or racial or ethnic groups[^cioms2016ethical-e6], and can expose a group to stigma or discrimination[^cioms2016ethical-e7]. Keep this in mind when you publish results such as "group X has a high prevalence of disease Y".
 - **Engage communities early and keep them engaged.** The guidelines say potential participants and communities should be involved in the design, conduct, design of the informed consent process, monitoring, and dissemination of results[^cioms2016ethical-e8]. This makes the research relevant to the community and helps the community accept it[^cioms2016ethical-e9]. For example, when all community leaders are men, you should actively seek out women's views[^cioms2016ethical-e10]. The materials you submit to the ethics committee should include a community engagement plan[^cioms2016ethical-e11].
 - **Using existing data also has ethical requirements.** When you use data collected in routine clinical care, you must use an informed opt-out procedure (people are told and can say no)[^cioms2016ethical-e12]. For an ethics committee to waive individual informed consent, three conditions must all hold: the research would not be feasible without the waiver; it has important social value; and it poses no more than minimal risk[^cioms2016ethical-e13]. Data custodians may give researchers only anonymized or coded data[^cioms2016ethical-e14]. When collecting and storing data in low-resource settings, work with local health authorities[^cioms2016ethical-e15].
 - **Cluster randomized trials need separate thinking about consent.** These trials randomize communities, hospitals, or hospital units[^cioms2016ethical-e16]. Before starting, judge whether requiring individual informed consent, and letting people refuse, would undermine the study's results[^cioms2016ethical-e17].
-- **When unsure, ask.** CIOMS itself admits there is no clear line between the ethics of social science research, behavioral research, and public health surveillance and the ethics of other research[^cioms2016ethical-e18]. If you are not sure whether or how your project needs review, ask your institution's ethics committee `[Our analysis]`.
+- **When unsure, ask.** CIOMS itself admits there is no clear line between the ethics of social science research, behavioral research, and public health surveillance and the ethics of other research[^cioms2016ethical-e18]. If you are not sure whether or how your project needs review, ask your institution's ethics committee.
 
 ### Systematic reviews: the Cochrane Handbook
 
@@ -147,7 +147,7 @@ The Cochrane Handbook covers systematic reviews of the effects of interventions,
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the three strategies the health sciences (mainly epidemiology and public health) commonly use. The grouping and the "What it looks like in the health sciences" column are our own summary; each standard represents only the source cited in its footnote `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the three strategies the health sciences (mainly epidemiology and public health) commonly use. The grouping and the "What it looks like in the health sciences" column are our own summary; each standard represents only the source cited in its footnote.
 
 | Strategy | What it looks like in the health sciences | Common evidence and standards | How to do it |
 |---|---|---|---|
@@ -155,7 +155,7 @@ A **research strategy** is the main logic by which a project produces new knowle
 | [Description](../../05_research-strategies/observe_describe.md) | Cross-sectional studies are often used to estimate the prevalence of exposures, risk factors, or diseases[^vandenbroucke2007strobe-e3]; qualitative studies use interviews and focus groups to understand people's experiences and views | Report participation honestly, with reasons for non-participation[^vandenbroucke2007strobe-e13]; give estimates of measurement validity or reliability[^vandenbroucke2007strobe-e10]; qualitative studies gain credibility through triangulation, reflexivity, and attention to negative cases[^mays2000assessing-e5][^mays2000assessing-e6][^mays2000assessing-e8], and report according to COREQ or SRQR[^equatorcoreq-e3] | [Observational epidemiology](../../06_methods/observational_epidemiology.md), [Interview studies](../../06_methods/interview_study.md) |
 | [Synthesis](../../05_research-strategies/synthesize.md) | Systematic reviews of intervention effects, covering clinical as well as public health and policy interventions[^higgins2024cochrane-e11] | When including non-randomized studies, always interpret with caution[^higgins2024cochrane-e7]; look at specific design features, not just labels such as "cohort" or "case-control"[^higgins2024cochrane-e10] | [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md) |
 
-How to use this table `[Our analysis]`:
+How to use this table:
 
 - **First separate etiology questions from effectiveness questions.** The health effect of eating five portions of fruit and vegetables a day is an etiology question; the effect of an intervention that gets people to eat this way is an effectiveness question[^higgins2024cochrane-e9]. Both belong to causal explanation, but the target trial and the data sources differ.
 - **In the health sciences, "comparing two interventions" is usually a causal question.** It needs a randomized trial or an observational causal design, not just a descriptive comparison.
@@ -164,7 +164,7 @@ How to use this table `[Our analysis]`:
 
 Cross-field research types: [Observational epidemiology](../../06_methods/observational_epidemiology.md), [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md), [Randomized controlled trials](../../06_methods/randomized_controlled_trial.md), [Quasi-experiments and causal identification](../../06_methods/quasi_experiment.md), [Interview studies](../../06_methods/interview_study.md). For the differences between cohort, case-control, and cross-sectional studies, see the [Clinical medicine page](../clinical-medicine/README.md#research-methods-common-in-this-field). The following are also common in the health sciences but do not yet have their own how-to pages:
 
-- **Studies using routinely collected data**: they use existing data such as registries, administrative data, and electronic health records[^benchimol2015record-e2], and report according to RECORD. The thinking is similar to [mining software repositories](../computer-science/practices/repository_mining.md) on the Computer science page, but health data raise privacy issues and need ethics approval `[Our analysis]`.
+- **Studies using routinely collected data**: they use existing data such as registries, administrative data, and electronic health records[^benchimol2015record-e2], and report according to RECORD. The thinking is similar to [mining software repositories](../computer-science/practices/repository_mining.md) on the Computer science page, but health data raise privacy issues and need ethics approval.
 - **Cluster randomized trials**: they randomize communities, hospitals, or hospital units rather than individuals[^cioms2016ethical-e16].
 - **Quality improvement studies** and **economic evaluations**: report them according to SQUIRE[^equatorcoreq-e4] and CHEERS[^equatorcoreq-e5] respectively.
 

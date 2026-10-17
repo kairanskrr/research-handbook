@@ -1,6 +1,6 @@
 # Psychology and cognitive science: field overview
 
-This page explains how research actually runs in psychology and cognitive science: after the "replication crisis," what new rules the field has settled on for sample size, preregistration, open data, measurement, and reporting. For what applies in every field (choosing a topic, study design, writing, peer review, research ethics), see the chapters listed in [The research journey at a glance](../../00_start-here/research-journey.md) and [Throughout the project](../../08_throughout/README.md); this page does not repeat them. For the research strategies psychology commonly uses and the evidence each one relies on, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence). Our sources come mainly from experimental and social psychology; clinical, developmental, neuroscience, and other areas have their own norms, so follow your target journal and your institution. Most of the ethics codes and reporting standards on this page come from the American Psychological Association; other countries and institutions have their own rules. `[Our analysis]`
+This page explains how research actually runs in psychology and cognitive science: after the "replication crisis," what new rules the field has settled on for sample size, preregistration, open data, measurement, and reporting. For what applies in every field (choosing a topic, study design, writing, peer review, research ethics), see the chapters listed in [The research journey at a glance](../../00_start-here/research-journey.md) and [Throughout the project](../../08_throughout/README.md); this page does not repeat them. For the research strategies psychology commonly uses and the evidence each one relies on, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence). Our sources come mainly from experimental and social psychology; clinical, developmental, neuroscience, and other areas have their own norms, so follow your target journal and your institution. Most of the ethics codes and reporting standards on this page come from the American Psychological Association; other countries and institutions have their own rules.
 
 **After reading this page, you should be able to:**
 
@@ -24,21 +24,21 @@ Before that, several events in 2010–2012 had already made experimental psychol
 > - **Many findings are unreliable**: the share of significant results fell from 97% to 36% on replication, and effect sizes halved[^osc2015estimating-e1][^osc2015estimating-e2].
 > - **You can't just call it "64% failed"**: Nelson and colleagues reclassified the replications with a method that can label a result "inconclusive." 36% were clear successes; of the other 64%, only 25% were clear failures and 49% were inconclusive. Many were inconclusive because the replications themselves had samples that were too small[^nelson2018psychology-e13]. The original project also noted that a failed replication could mean the conditions differed, the original result was a false positive, or the replication was a false negative[^osc2015estimating-e3].
 >
-> The original project's analysis also found that whether a replication succeeded depended more on how strong the original evidence was[^osc2015estimating-e5]. For a newcomer, both views lead to the same practice: **don't assume an effect is real just because it was published.** Before you cite it, check whether it has been independently replicated and how strong the original evidence was. `[Our analysis]`
+> The original project's analysis also found that whether a replication succeeded depended more on how strong the original evidence was[^osc2015estimating-e5]. For a newcomer both views lead to the same practice: **don't assume an effect is real just because it was published.** Before you cite it, check whether it has been independently replicated and how strong the original evidence was.
 
 ### Where it went wrong: p-hacking and HARKing
 
-**p-hacking** means running many analyses on the same data and reporting only the one that comes out "statistically significant," for example measuring several outcomes and reporting just one. "Statistically significant" roughly means the result is unlikely to have arisen by chance; the most common threshold in psychology is a p-value below 0.05 `[Our analysis]`. In their 2018 retrospective, Nelson, Simmons, and Simonsohn say their 2011 paper showed that this greatly increases the chance of publishing a false positive[^nelson2018psychology-e4]. In that paper's simulations, even the kinds of p-hacking considered "acceptable" at the time could raise the false-positive rate from 5% to 61%[^nelson2018psychology-e7].
+**p-hacking** means running many analyses on the same data and reporting only the one that comes out "statistically significant," for example measuring several outcomes and reporting just one. "Statistically significant" roughly means the result is unlikely to have arisen by chance; the most common threshold in psychology is a p-value below 0.05. In their 2018 retrospective, Nelson, Simmons, and Simonsohn say their 2011 paper showed that this greatly increases the chance of publishing a false positive[^nelson2018psychology-e4]. In that paper's simulations, even the kinds of p-hacking considered "acceptable" at the time could raise the false-positive rate from 5% to 61%[^nelson2018psychology-e7].
 
 What does it look like in practice? The authors describe it: when the first analysis is not significant, researchers keep "looking," for example by dropping "outliers" and trying again, analyzing only some participants or trials, or computing the outcome measure a different way[^nelson2018psychology-e6].
 
 These practices are common. In a survey Nelson and colleagues cite, about 65% of respondents admitted to leaving out an outcome measure when reporting a study[^nelson2018psychology-e5]. p-hacking is common precisely because researchers usually don't realize they are doing it, or don't think it matters[^nelson2018psychology-e8]. A related problem is **hypothesizing after the results are known** (HARKing): presenting an after-the-fact explanation as if it were an advance prediction[^nosek2018preregistration-e2]. For why honesty alone can't prevent this, see the Part 2 chapter section [Be clear whether you are testing or exploring](../../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring) and [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#2-be-honest-with-the-evidence-dont-fool-yourself-report-all-results) in Throughout the project.
 
-These practices are often grouped together as **questionable research practices** (QRPs) `[Our analysis]`. Flake and Fried point out that measurement has similar problems, which they call **questionable measurement practices** (QMPs): decisions researchers make about measurement that raise doubts about whether the measures, and the conclusions, hold up[^flake2020measurement-e1]. See the [Measurement](#measurement-use-scales-with-validity-evidence) section below.
+These practices are often grouped together as **questionable research practices** (QRPs). Flake and Fried point out that measurement has similar problems, which they call **questionable measurement practices** (QMPs): decisions researchers make about measurement that raise doubts about whether the measures, and the conclusions, hold up[^flake2020measurement-e1]. See the [Measurement](#measurement-use-scales-with-validity-evidence) section below.
 
 ### What changed afterward
 
-Nelson and colleagues list the changes of recent years: authors share their data voluntarily; top journals regularly publish replications, both successful and failed; hundreds of researchers preregister; sample sizes have grown substantially; and some top journals require full disclosure of measures, conditions, excluded data, and the rule used to decide sample size[^nelson2018psychology-e2]. The table summarizes the main practices `[Our analysis, based on the sources below]`:
+Nelson and colleagues list the changes of recent years: authors share their data voluntarily; top journals regularly publish replications, both successful and failed; hundreds of researchers preregister; sample sizes have grown substantially; and some top journals require full disclosure of measures, conditions, excluded data, and the rule used to decide sample size[^nelson2018psychology-e2]. The table is our summary of the main practices, drawn from the sources below:
 
 | Practice | What it is | What it mainly guards against |
 |---|---|---|
@@ -56,11 +56,11 @@ Nelson and colleagues list the changes of recent years: authors share their data
 > - **Signs that they work**: a psychology study cited by Chambers and colleagues found that only 4% of standard papers failed to confirm their first hypothesis, compared with 56% of Registered Reports[^chambers2022past-e3]. Registered Reports contain far more results that don't support the hypothesis.
 > - **Too early to tell**: the difference could also be because authors use Registered Reports to test riskier hypotheses[^chambers2022past-e4]; and there is not yet enough experimental evidence that preregistration improves replicability[^nosek2018preregistration-e9]. Preregistration also does not eliminate bad statistical practice; it only makes it detectable[^nosek2018preregistration-e8].
 >
-> In practice: treat preregistration and full disclosure as basic skills, but don't assume that a preregistered conclusion must be reliable. `[Our analysis]`
+> In practice: treat preregistration and full disclosure as basic skills, but don't assume that a preregistered conclusion must be reliable.
 
 ### Publishing culture: journals, multi-study papers, and APA Style
 
-Psychology publishes mainly in journal articles, unlike computer science, where conferences dominate `[Our analysis]`. Psychology papers usually follow "APA Style," set by the American Psychological Association (APA). It is meant for psychology, nursing, business, and other fields, and is aimed specifically at manuscripts submitted to journals and at student coursework[^apastyleabout-e2]; it dates back to 1929[^apastyleabout-e1]. APA Style is not just about citations and formatting: it asks authors to report the key details of their study protocol so readers can evaluate the results and others can repeat the study[^apastyleabout-e3].
+Psychology publishes mainly in journal articles, unlike computer science, where conferences dominate. Psychology papers usually follow "APA Style," set by the American Psychological Association (APA). It is meant for psychology, nursing, business, and other fields, and is aimed specifically at manuscripts submitted to journals and at student coursework[^apastyleabout-e2]; it dates back to 1929[^apastyleabout-e1]. APA Style is not just about citations and formatting: it asks authors to report the key details of their study protocol so readers can evaluate the results and others can repeat the study[^apastyleabout-e3].
 
 Psychology papers often contain several studies[^nelson2018psychology-e14]. The papers selected by the Open Science Collaboration had on average about three studies each[^osc2015estimating-e6]. But more studies don't make a conclusion more reliable: if you are willing to put a few disappointing studies in the file drawer and leave them unpublished, it isn't hard to produce a false-positive paper in which all four experiments "worked"[^nelson2018psychology-e14].
 
@@ -72,7 +72,7 @@ Psychology also has large collaborative projects. The Open Science Collaboration
 
 ## How this field differs from computer science
 
-`[Our analysis, based on the sources below]`
+The comparison below is ours, drawn from the sources cited in the table.
 
 | | Psychology and cognitive science | Computer science (see the [Computer science page](../computer-science/README.md)) |
 |---|---|---|
@@ -88,16 +88,16 @@ Psychology also has large collaborative projects. The Open Science Collaboration
 
 ### Ethics: the APA ethics code and institutional approval
 
-For ethical principles shared across fields, see [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first) in Throughout the project. The APA ethics code binds APA members and student affiliates[^apa2017ethical-e1]; if you are outside the US or not a member, it is often used as a reference, but what you actually do depends on the rules of your country and institution `[Our analysis]`. These are the parts of the code that matter most for doing research and are specific to psychology (general requirements such as informed consent, sharing data after publication, and correcting errors are covered at the link above):
+For ethical principles shared across fields, see [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first) in Throughout the project. The APA ethics code binds APA members and student affiliates[^apa2017ethical-e1]; if you are outside the US or not a member, it is often used as a reference, but what you actually do depends on the rules of your country and institution. These are the parts of the code that matter most for doing research and are specific to psychology (general requirements such as informed consent, sharing data after publication, and correcting errors are covered at the link above):
 
-- **Get approval first, then start.** When institutional approval is required, submit an accurate protocol, start only after it is approved, and conduct the research as approved[^apa2017ethical-e2]. Institutional approval here usually means approval from your institution's ethics committee. In the US this is an Institutional Review Board (IRB); names and requirements differ between countries `[Our analysis]`.
+- **Get approval first, then start.** When institutional approval is required, submit an accurate protocol, start only after it is approved, and conduct the research as approved[^apa2017ethical-e2]. Institutional approval here usually means approval from your institution's ethics committee. In the US this is an Institutional Review Board (IRB); names and requirements differ between countries.
 - **Students must have an alternative to participating.** When research participation is a course requirement or earns extra credit, an equitable alternative activity must be offered[^apa2017ethical-e4].
-- **Deception needs strong justification.** Deception means not telling participants the truth in a study, for example hiding its real purpose `[Our analysis]`. It is allowed only when the study's value is high enough and no effective non-deceptive alternative is feasible[^apa2017ethical-e5]. You must explain the deception as early as possible (at the latest when data collection ends) and let participants withdraw their data[^apa2017ethical-e6].
+- **Deception needs strong justification.** Deception means not telling participants the truth in a study, for example hiding its real purpose. It is allowed only when the study's value is high enough and no effective non-deceptive alternative is feasible[^apa2017ethical-e5]. You must explain the deception as early as possible (at the latest when data collection ends) and let participants withdraw their data[^apa2017ethical-e6].
 - **Debriefing.** After the study, promptly tell participants about its nature, results, and conclusions, and correct any misconceptions they may have[^apa2017ethical-e7].
 
 ### Reporting standards: APA's JARS
 
-The APA Journal Article Reporting Standards (JARS) specify what a paper must state clearly. They are meant for authors, reviewers, and editors, with the goal of making papers more rigorous[^apajars-e1]. There are three sets by type of data: JARS–Quant for numerical data and statistical analysis, JARS–Qual for data in the form of words and language, and JARS–Mixed for studies that combine the two[^apajars-e2]. A further set, JARS–REC, applies to all research[^apajars-e3] and covers how to discuss race, ethnicity, and culture `[Our analysis]`.
+The APA Journal Article Reporting Standards (JARS) specify what a paper must state clearly. They are meant for authors, reviewers, and editors, with the goal of making papers more rigorous[^apajars-e1]. There are three sets by type of data: JARS–Quant for numerical data and statistical analysis, JARS–Qual for data in the form of words and language, and JARS–Mixed for studies that combine the two[^apajars-e2]. A further set, JARS–REC, applies to all research[^apajars-e3] and covers how to discuss race, ethnicity, and culture.
 
 In the quantitative standards, these items relate directly to the reforms above:
 
@@ -125,7 +125,7 @@ Psychology mostly measures things like depression, personality traits, and attit
 
 - **Reliability** is whether a measure is consistent; **validity** is whether it measures what you intend to measure. The APA ethics code requires instruments whose validity and reliability have been established with members of the population being tested[^apa2017ethical-e11]. JARS asks you to say whether a scale was previously validated or made up for this study, and where possible to report its reliability in your own sample[^appelbaum2018journal-e4].
 - **Use existing scales as published, and cite the source.** This reduces the room for flexibility[^flake2020measurement-e4]. If you modify a scale, say how and why[^flake2020measurement-e6].
-- **Watch out for "on-the-fly" scales.** In a review cited by Flake and Fried, 34 of the 43 scales examined (79%) appeared to have been created on the fly, with no other validity evidence in the original study[^flake2020measurement-e5]. For a 10-item questionnaire, there are 1,023 ways just to choose which items to sum[^flake2020measurement-e3], which leaves plenty of room to pick the result you want `[Our analysis]`.
+- **Watch out for "on-the-fly" scales.** In a review cited by Flake and Fried, 34 of the 43 scales examined (79%) appeared to have been created on the fly, with no other validity evidence in the original study[^flake2020measurement-e5]. For a 10-item questionnaire, there are 1,023 ways just to choose which items to sum[^flake2020measurement-e3], which leaves plenty of room to pick the result you want.
 
 ### Participants: student samples and WEIRD samples
 
@@ -137,19 +137,19 @@ What to do: report in detail where your participants came from and who they were
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the three strategies psychology (mainly experimental and social psychology) commonly uses. The grouping and the "What it looks like in psychology" column are our own summary; each standard represents only the source cited in its footnote `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the three strategies psychology (mainly experimental and social psychology) commonly uses. The grouping and the "What it looks like in psychology" column are our own summary; each standard represents only the source cited in its footnote.
 
 | Strategy | What it looks like in psychology | Common evidence and standards | How to do it |
 |---|---|---|---|
 | [Causal explanation](../../05_research-strategies/explain_causality.md) | Testing hypotheses about mental processes with experiments | Specify research questions and the analysis plan before seeing the results[^nosek2018preregistration-e1]; an a-priori power analysis must justify the chosen effect size[^lakens2022sample-e3]; fully disclose measures, manipulations, excluded data, and the sample size rule[^nelson2018psychology-e10]; report, following JARS, how the sample size was decided and the exclusion criteria[^appelbaum2018journal-e2][^appelbaum2018journal-e5] | [Controlled experiments](../../06_methods/controlled_experiment.md) |
 | [Measurement](../../05_research-strategies/measure.md) | Finding reliable ways to measure constructs such as depression, personality, and attitudes that can't be observed directly[^flake2020measurement-e2] | Use instruments whose validity and reliability have been established in the population tested[^apa2017ethical-e11]; use existing scales as published and cite the source[^flake2020measurement-e4]; report whether the scale was validated and its reliability in your sample[^appelbaum2018journal-e4] | [Scale development and measurement studies](../../06_methods/scale_development.md) |
-| [Synthesis](../../05_research-strategies/synthesize.md) | Pooling the effects of published studies with meta-analysis | Published effect sizes are inflated by publication bias[^lakens2022sample-e5], so take this into account before pooling `[Our analysis]` | [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md), [Review studies](../../06_methods/review_study.md) |
+| [Synthesis](../../05_research-strategies/synthesize.md) | Pooling the effects of published studies with meta-analysis | Published effect sizes are inflated by publication bias[^lakens2022sample-e5], so take this into account before pooling | [Systematic reviews and meta-analysis](../../06_methods/meta_analysis.md), [Review studies](../../06_methods/review_study.md) |
 
-How to use this table `[Our analysis]`: whichever strategy you follow, psychology reviewers will look at how you justified your sample size and whether you disclosed everything. Measurement comes before the experiment: however impressive an experimental conclusion, it can't be rescued if the measurement is poor[^flake2020measurement-e2].
+How to use this table: whichever strategy you follow, psychology reviewers will look at how you justified your sample size and whether you disclosed everything. Measurement comes before the experiment: however impressive an experimental conclusion, it can't be rescued if the measurement is poor[^flake2020measurement-e2].
 
 ## Research methods common in this field
 
-Most of the methods psychology uses overlap with the methods for research involving people in Research types. Read the corresponding page first, then note the differences in the table below `[Our analysis]`:
+Most of the methods psychology uses overlap with the methods for research involving people in Research types. Read the corresponding page first, then note the differences in the table below:
 
 | What you do | Research type | What to watch for in psychology |
 |---|---|---|
@@ -166,7 +166,7 @@ Most of the methods psychology uses overlap with the methods for research involv
 2. **Have a reason for your sample size.** Before you start, run a power analysis or state another justification, rather than "other people used this many"[^lakens2022sample-e1].
 3. **Put a full disclosure statement in your paper**: how you decided the sample size, what data you excluded, and all manipulations and all measures[^nelson2018psychology-e11].
 4. **Use existing scales with validity evidence, as published, and cite the source**[^flake2020measurement-e4].
-5. **Before citing an effect, check whether it has been replicated.** Published does not mean reliable[^osc2015estimating-e1] `[Our analysis]`.
+5. **Before citing an effect, check whether it has been replicated.** Published does not mean reliable[^osc2015estimating-e1].
 6. **If you rely mainly on student participants, don't phrase your conclusions as "how humans work"**[^henrich2010weirdest-e7].
 7. **If you have a clear hypothesis to test and aren't in a hurry to collect data, consider a Registered Report.** Stage 1 review will delay your study by several months[^chambers2022past-e6]. Read your target journal's author guidelines first, then fill in the protocol template[^cosregisteredreports-e2].
 
@@ -191,7 +191,7 @@ Most of the methods psychology uses overlap with the methods for research involv
 
 ## Further reading
 
-The reasons for each recommendation are our own analysis.
+The reasons for each recommendation are our own view.
 
 - **Nelson, Simmons & Simonsohn 2018, Psychology's Renaissance**: the story of the replication crisis and the reforms that followed. If you want to understand p-hacking and preregistration, read this first.
 - **Open Science Collaboration 2015**: the original report on the 100 replications; shows how a large replication project is designed and run.

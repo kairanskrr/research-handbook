@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **List the assumptions your design rests on and circle the three most dangerous.** Score each one on how bad it is if false, how sure you are, and how costly it is to check ([Section 1](#1-list-the-assumptions-your-design-rests-on-and-find-the-most-dangerous-ones)).
 > 2. **Find a cheap test for each dangerous assumption.** Write down what you'll do, how much data, how much time, and what you expect to see; ideally finish within a week ([Section 2](#2-find-a-cheap-test-for-each-dangerous-assumption)).
@@ -21,7 +21,7 @@ When you were [converging on a project](../01_find-a-problem/05_converge.md#5-ca
 
 Now the question is more specific: **once this design is rolled out, it will take weeks or even months. Before you commit, how do you make sure it will actually run the way it is designed?**
 
-This is not the same thing as [exploring hands-on](../01_find-a-problem/03_explore.md#5-exploring-is-not-the-same-as-building-the-smallest-version-that-runs-end-to-end) in Part 1. Exploration is for coming up with hypotheses; here you are making sure the design that will test them actually runs `[Our analysis]`.
+This is not the same thing as [exploring hands-on](../01_find-a-problem/03_explore.md#5-exploring-is-not-the-same-as-building-the-smallest-version-that-runs-end-to-end) in Part 1. Exploration is for coming up with hypotheses; here you are making sure the design that will test them actually runs.
 
 ## What this stage is for
 
@@ -35,7 +35,7 @@ Before the full study, use small trials to answer these five questions:
 
 "Small trials" in this chapter covers two kinds of work. One is **de-risking** each part of the design: finding a cheap way to judge with confidence whether that part will work[^steinhardt2018stochastic-e5]. The other is the **pilot study** (also called a pilot or a preliminary study): a small trial run before the main study, to find extraneous factors that would interfere with the results[^ko2015practical-e31] and problems in the experiment that need fixing[^ko2015practical-e32]. Both aim at the same thing: assess feasibility first, so you don't rush into a large study and risk disastrous consequences[^thabane2010tutorial-e1].
 
-Much of this chapter's advice on pilot studies comes from a tutorial on pilot studies in clinical research, with input from the experience of software engineering and machine learning researchers. The reasoning carries over; the specific numbers and procedures should follow your own field's conventions `[Our analysis]`.
+Much of this chapter's advice on pilot studies comes from a tutorial on pilot studies in clinical research, with input from the experience of software engineering and machine learning researchers. The reasoning carries over; the specific numbers and procedures should follow your own field's conventions.
 
 ---
 
@@ -43,7 +43,7 @@ Much of this chapter's advice on pilot studies comes from a tutorial on pilot st
 
 **First, write down everything your design takes for granted.** When you write a design, you carry many unspoken premises: the data is clean, the tools run, everyone reads the annotation rules the same way, the effect is big enough to detect, the budget is enough. If any one of these is false, the work that follows may be wasted.
 
-You can search in four categories. The clinical pilot study tutorial groups the reasons for doing a pilot into process, resources, management, and scientific: process asks whether each step of the main study works, and resources asks whether time and money will be a problem[^thabane2010tutorial-e2]. This grouping works in other fields too. The "What to ask" column and the examples in the table below are rephrased for a computer science project `[Our analysis]`:
+You can search in four categories. The clinical pilot study tutorial groups the reasons for doing a pilot into process, resources, management, and scientific: process asks whether each step of the main study works, and resources asks whether time and money will be a problem[^thabane2010tutorial-e2]. In our view, this grouping works in other fields too. The "What to ask" column and the examples in the table below are rephrased for a computer science project:
 
 | Category | What to ask | Example: the project "benchmark results are inflated by data leakage" |
 |---|---|---|
@@ -52,7 +52,7 @@ You can search in four categories. The clinical pilot study tutorial groups the 
 | Management | Will people or data cause problems? | Two people annotate separately; how do you merge their results? Where is intermediate data stored, and how is it versioned? |
 | Scientific | Do the design's core judgments hold up? | Is the method for deciding "leaked or not" accurate? Is the difference before and after removing leaked samples big enough to see? |
 
-**Then give each assumption three scores** `[Our analysis]`:
+**Then give each assumption three scores**:
 
 - **How bad is it if it's false?** Change one parameter, or the whole study collapses?
 - **How sure are you that it holds?** Is there existing evidence, or just "it should be fine"?
@@ -77,14 +77,14 @@ Once you have circled the dangerous assumptions, **don't start the full study; d
 | How much room there is between good and bad methods | Measure an "upper bound": replace the hard part with a "cheating" version first, for example peeking at the test set; then measure a simple baseline as the lower bound. Together they mark out the range the results can fall in and help you interpret the core result[^steinhardt2018stochastic-e24][^steinhardt2018stochastic-e7] |
 | A complex method does worse than a simple one | Run simple or off-the-shelf methods first; complex methods are often no better than simple baselines[^steinhardt2018stochastic-e7] |
 
-When you were [converging on a project](../01_find-a-problem/05_converge.md#5-can-you-actually-do-it), checking 50 samples by hand to see whether your leakage judgments were accurate was exactly this kind of cheap test. Now apply the same approach to the other dangerous assumptions in your design. For the "benchmark results are inflated by data leakage" example `[Our analysis]`:
+When you were [converging on a project](../01_find-a-problem/05_converge.md#5-can-you-actually-do-it), checking 50 samples by hand to see whether your leakage judgments were accurate was exactly this kind of cheap test. Now apply the same approach to the other dangerous assumptions in your design. For the "benchmark results are inflated by data leakage" example:
 
 - **Is the difference big?** Measure the "upper bound" first: if you remove every clearly leaked sample, how far can accuracy drop at most? If it barely drops, the claim isn't worth months of work to establish.
 - **Is the budget enough?** Run 20 contracts first, record the number of calls, the cost, and the time, then multiply by the total number of contracts.
 
-**Before each test, write down what you expect to see.** A write-up of lessons on training neural networks advises making a concrete prediction about the result at every step and then checking it with an experiment; if the result doesn't match, keep digging until you find the problem[^karpathy2019recipe-e1]. The habit is just as useful in other research: if you don't write the prediction down, it is easy to read any result as "roughly what I expected" `[Our analysis]`.
+**Before each test, write down what you expect to see.** A write-up of lessons on training neural networks advises making a concrete prediction about the result at every step and then checking it with an experiment; if the result doesn't match, keep digging until you find the problem[^karpathy2019recipe-e1]. The habit is just as useful in other research: if you don't write the prediction down, it is easy to read any result as "roughly what I expected".
 
-**De-risking doesn't mean only doing safe things**, nor avoiding projects that don't yet have an obvious path to success[^steinhardt2018stochastic-e13]. Ruling out dead ends early is precisely what frees up time to try ideas that are unlikely to work but very valuable if they do `[Our analysis]`.
+**De-risking doesn't mean only doing safe things**, nor avoiding projects that don't yet have an obvious path to success[^steinhardt2018stochastic-e13]. Ruling out dead ends early is precisely what frees up time to try ideas that are unlikely to work but very valuable if they do.
 
 **Write it down:** For each of the three dangerous assumptions you circled, write a test: what you'll do, how much data, how much time, and what result you expect. Ideally each test can be done within a week.
 
@@ -94,7 +94,7 @@ Checking each part separately isn't enough. Many problems only appear when the p
 
 **How: before you scale up, run the whole pipeline once, start to finish, at the smallest scale.** One piece of advice from the neural network training lessons: before using a complex model, set up the full skeleton from training to evaluation and confirm it is correct through a series of experiments; at this point, pick a model so simple you can't possibly get it wrong[^karpathy2019recipe-e8].
 
-For a computer science project, the "minimal version" might look like this `[Our analysis]`:
+For a computer science project, the "minimal version" might look like this:
 
 1. **Use only a small slice of the data.** For example, 20 contracts, including a few whose answers you know by hand.
 2. **Use the simplest version of the method.** For example, only one prompt and one model.
@@ -105,8 +105,8 @@ For a computer science project, the "minimal version" might look like this `[Our
 
 **A few checks that make the minimal version actually useful** (also from the neural network training lessons, with the examples changed to a computer science project):
 
-- **No errors does not mean correct.** In neural network training, many bugs are silent: the syntax is fine, but the pieces aren't put together the right way, and it is hard to tell[^karpathy2019recipe-e3]. Spot-check a few intermediate results by hand `[Our analysis]`.
-- **Build a baseline that shouldn't work.** For example, set all inputs to zero; it should score worse than with the real inputs[^karpathy2019recipe-e5]. If it scores about the same, your method is not learning anything from the data. In vulnerability detection, you could scramble the contract code or swap in unrelated code, and see whether the model's "detection rate" stays just as high `[Our analysis]`.
+- **No errors does not mean correct.** In neural network training, many bugs are silent: the syntax is fine, but the pieces aren't put together the right way, and it is hard to tell[^karpathy2019recipe-e3]. Spot-check a few intermediate results by hand.
+- **Build a baseline that shouldn't work.** For example, set all inputs to zero; it should score worse than with the real inputs[^karpathy2019recipe-e5]. If it scores about the same, your method is not learning anything from the data. In vulnerability detection, you could scramble the contract code or swap in unrelated code, and see whether the model's "detection rate" stays just as high.
 - **Add one thing at a time.** Try hard not to introduce a lot of unverified complexity at once[^karpathy2019recipe-e2]; when you need to add several new things, add them one by one and confirm each time that you get the expected improvement[^karpathy2019recipe-e6].
 
 **This isn't only about code.** Design-based research in education makes the same case: don't build the whole solution only to find at the end that it doesn't work; make rough prototypes quickly, test them, and revise[^easterday2014design-e12]. Early in a project, collect only the minimum data needed to quickly eliminate failing designs and spot promising ones[^easterday2014design-e14].
@@ -115,13 +115,13 @@ For a computer science project, the "minimal version" might look like this `[Our
 
 ## 4. When people, data, and instruments are involved: run a pilot study
 
-> **Scope:** This section is mainly for studies that need participants, manual annotation, questionnaires, interviews, or screening criteria. For purely computational projects, the minimal version from Section 3 is often your pilot study `[Our analysis]`.
+> **Scope:** This section is mainly for studies that need participants, manual annotation, questionnaires, interviews, or screening criteria. For purely computational projects, the minimal version from Section 3 is often your pilot study.
 
 As soon as people take part in a study, more things can go wrong: participants don't understand the task instructions, questionnaire items are ambiguous, a session runs far longer than expected, two annotators judge the same contract differently. You can't see these problems just by reading the design.
 
-**A pilot study is a key step in preparing an experiment**: a trial run before the real experiment, to find extraneous factors that would interfere with the results[^ko2015practical-e31]. In software engineering research, piloting may not yet be standard practice[^ko2015practical-e31]. So the fact that other people's papers don't mention it doesn't mean you can skip it `[Our analysis]`.
+**A pilot study is a key step in preparing an experiment**: a trial run before the real experiment, to find extraneous factors that would interfere with the results[^ko2015practical-e31]. In software engineering research, piloting may not yet be standard practice[^ko2015practical-e31]. So the fact that other people's papers don't mention it doesn't mean you can skip it.
 
-**Test in rounds, from close to home outward.** Pilot testing an interview guide can take three forms: internal testing within the team, expert assessment, and field testing[^kallio2016systematic-e5]; internal testing helps you remove vague and leading questions[^kallio2016systematic-e6]. Before that, researchers can also rehearse the study themselves as participants[^ko2015practical-e33]. For other studies involving people, you can arrange the rounds as in the table below `[Our analysis]`:
+**Test in rounds, from close to home outward.** Pilot testing an interview guide can take three forms: internal testing within the team, expert assessment, and field testing[^kallio2016systematic-e5]; internal testing helps you remove vague and leading questions[^kallio2016systematic-e6]. Before that, researchers can also rehearse the study themselves as participants[^ko2015practical-e33]. For other studies involving people, you can arrange the rounds as in the table below:
 
 | Round | Who tries it | What it can reveal |
 |---|---|---|
@@ -130,7 +130,7 @@ As soon as people take part in a study, more things can go wrong: participants d
 | Expert review | Outside experts who know the field or the method | Whether the questions get at the point, what is missing |
 | Field test | A few people of the same kind as the real participants | Understanding, duration, and cooperation under real conditions |
 
-The most important round is the one that **runs as close as possible to the real study**: use the same kind of participants, the same setting, the same materials, instructions, questionnaires, procedure, and experimenters wherever you can[^ko2015practical-e32]. Clinical research also requires pilot participants to represent the target population, using the same inclusion and exclusion criteria as the main study[^thabane2010tutorial-e9]; following the same idea in other fields won't go wrong `[Our analysis]`.
+The most important round is the one that **runs as close as possible to the real study**: use the same kind of participants, the same setting, the same materials, instructions, questionnaires, procedure, and experimenters wherever you can[^ko2015practical-e32]. Clinical research also requires pilot participants to represent the target population, using the same inclusion and exclusion criteria as the main study[^thabane2010tutorial-e9]; following the same idea in other fields won't go wrong.
 
 **Different research methods put the emphasis on different things:**
 
@@ -138,15 +138,15 @@ The most important round is the one that **runs as close as possible to the real
 - **Interviews**: try the interview guide within your team first, and remove vague and leading questions[^kallio2016systematic-e6]. See [Interview studies](../06_methods/interview_study.md).
 - **Controlled experiments**: go through it yourself as a participant first, then have a few participants of the same kind try it with the real procedure[^ko2015practical-e33][^ko2015practical-e32]. See [Controlled experiments](../06_methods/controlled_experiment.md).
 - **Literature reviews**: once the selection criteria are set, try them on a small batch of papers first[^kitchenham2007guidelines-e8]. See [Review studies](../06_methods/review_study.md).
-- **Manual annotation**: have two people each label the same small batch of samples, compare where they disagree, write the points of large disagreement into the annotation rules, and try another round `[Our analysis]`.
+- **Manual annotation**: have two people each label the same small batch of samples, compare where they disagree, write the points of large disagreement into the annotation rules, and try another round.
 
-**Be clear with participants about the pilot, too.** In clinical research, the practice is to write a dedicated statement telling participants that this is a pilot study, which aspects of feasibility it will assess, and what result counts as feasible[^thabane2010tutorial-e12]. **A pilot study may also need ethics review.** Taking a single country, Canada, as the example: the *Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans* (TCPS 2, 2022 edition), issued jointly by Canada's three federal research funding agencies, defines a pilot study as a scaled-down version of the main study (fewer participants, shorter duration) and requires that, like the main study, it be submitted to a research ethics board (REB) for review before participants are recruited or data collected[^tcps2022ethical-e1][^tcps2022ethical-e3]; preliminary exploration done only to build partnerships or design the project does not need review[^tcps2022ethical-e3]. How strict the review is depends on the risk to participants: the lower the risk, the lighter the review[^tcps2022ethical-e4][^tcps2022ethical-e5]. By this definition, the round in the table above closest to a pilot study is the field test; the policy doesn't say one way or the other whether the earlier internal rounds count `[Our analysis]`. Our sources do not cover what other countries and institutions require; before you start, ask your advisor or your institution's ethics committee.
+**Be clear with participants about the pilot, too.** In clinical research, the practice is to write a dedicated statement telling participants that this is a pilot study, which aspects of feasibility it will assess, and what result counts as feasible[^thabane2010tutorial-e12]. **A pilot study may also need ethics review.** Taking a single country, Canada, as the example: the *Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans* (TCPS 2, 2022 edition), issued jointly by Canada's three federal research funding agencies, defines a pilot study as a scaled-down version of the main study (fewer participants, shorter duration) and requires that, like the main study, it be submitted to a research ethics board (REB) for review before participants are recruited or data collected[^tcps2022ethical-e1][^tcps2022ethical-e3]; preliminary exploration done only to build partnerships or design the project does not need review[^tcps2022ethical-e3]. How strict the review is depends on the risk to participants: the lower the risk, the lighter the review[^tcps2022ethical-e4][^tcps2022ethical-e5]. Our reading of this definition is that the round in the table above closest to a pilot study is the field test; the policy doesn't say one way or the other whether the earlier internal rounds count. Our sources do not cover what other countries and institutions require; before you start, ask your advisor or your institution's ethics committee.
 
 **Write it down:** Write your pilot plan: how many rounds, whom you'll recruit for each and how many, which materials, and which problems you'll focus on. For the last round, state clearly how it is the same as the main study and how it differs.
 
 ## 5. Write down in advance what results mean continue, adjust, or stop
 
-**Write down your decision criteria before you run the trial.** A pilot study must state its criteria for success, and they should be based on the main feasibility objectives[^thabane2010tutorial-e3]. If you set the criteria after the trial, you will unconsciously move them toward the results `[Our analysis]`.
+**Write down your decision criteria before you run the trial.** A pilot study must state its criteria for success, and they should be based on the main feasibility objectives[^thabane2010tutorial-e3]. If you set the criteria after the trial, you will unconsciously move them toward the results.
 
 The clinical tutorial sorts pilot outcomes into four kinds[^thabane2010tutorial-e3]:
 
@@ -155,7 +155,7 @@ The clinical tutorial sorts pilot outcomes into four kinds[^thabane2010tutorial-
 3. **Continue without changes, but with close monitoring**;
 4. **Continue as planned**.
 
-**Write the criteria as concrete numbers or checkable conditions.** An example from medicine: the pilot for a multicenter clinical trial specified in advance that at least 70% of eligible patients must be recruited and at least 95% of participants must complete follow-up[^thabane2010tutorial-e4]. For a computer science project, you might write `[Our analysis]`:
+**Write the criteria as concrete numbers or checkable conditions.** An example from medicine: the pilot for a multicenter clinical trial specified in advance that at least 70% of eligible patients must be recruited and at least 95% of participants must complete follow-up[^thabane2010tutorial-e4]. For a computer science project, you might write:
 
 | What you're testing | Continue | Continue with changes | Stop |
 |---|---|---|---|
@@ -168,7 +168,7 @@ The thresholds above are only examples; set yours together with your advisor, ba
 
 **"Stop" is not failure.** A pilot that shows the main study is unlikely to be feasible has done its job: it kept you from wasting limited resources on a study doomed to fail[^thabane2010tutorial-e8].
 
-**But don't call "stop" lightly, either.** One failed trial shows only that one specific implementation of the idea doesn't work, not that the whole idea doesn't[^steinhardt2018stochastic-e10]. "It looks like it won't work" or "I tried a few times and lost steam" don't count as really ruling it out[^steinhardt2018stochastic-e22]. Before deciding, tell these apart `[Our analysis]`:
+**But don't call "stop" lightly, either.** One failed trial shows only that one specific implementation of the idea doesn't work, not that the whole idea doesn't[^steinhardt2018stochastic-e10]. "It looks like it won't work" or "I tried a few times and lost steam" don't count as really ruling it out[^steinhardt2018stochastic-e22]. Before deciding, tell these apart:
 
 - **A detail of the design went wrong** (an ambiguous item, a poorly written prompt, a buggy script) → fix it and try again;
 - **A core assumption of the design is false** (leakage barely affects the results, the data you need simply can't be obtained) → go back to the claim and consider narrowing it or changing the angle.
@@ -183,7 +183,7 @@ The trial results are in, and they look promising. The easiest mistake now is **
 
 - **Don't use a pilot to estimate effect size.** Sources from clinical research, psychology, and animal studies all make this point. With a small sample, the estimated effect may be unrealistic and biased[^thabane2010tutorial-e5]. Effect sizes from small pilots are very imprecise and shouldn't be used to compute the main study's sample size[^lakens2022sample-e4]. A pilot alone rarely gives you enough data on variability either; previous studies and systematic reviews are better sources[^perciedusert2020reporting-e36]. For what effect size and sample size mean, see [Analysis and interpretation](07_analyze-and-interpret.md).
 - **No significant result does not mean no effect.** An underpowered study that finds no significant result can only be called "inconclusive", not evidence of "no effect"[^thabane2010tutorial-e7].
-- **Even if the results look great, don't rush them into the paper's main conclusions.** The pilot design is often still changing and the scale is small, so it can't support the central claim `[Our analysis]`. If you do need to report it, you can follow one pharmacology journal's author guidelines: put it in a separate "Pilot study" subsection of the methods, and give no P values[^curtis2018experimental-e11].
+- **Even if the results look great, don't rush them into the paper's main conclusions.** The pilot design is often still changing and the scale is small, so it can't support the central claim. If you do need to report it, you can follow one pharmacology journal's author guidelines: put it in a separate "Pilot study" subsection of the methods, and give no P values[^curtis2018experimental-e11].
 
 **Can pilot data be used in the main study?** Sources disagree here, and it affects what you do.
 
@@ -191,11 +191,11 @@ The trial results are in, and they look promising. The easiest mistake now is **
 > - **Discard it.** Guidelines for software engineering experiments that evaluate tools with human participants say all data collected in a pilot should be discarded, because the purpose of a pilot is to find problems in the experiment to fix, not to collect data[^ko2015practical-e32].
 > - **It can be merged, but only if planned in advance.** The clinical pilot tutorial doesn't rule out merging altogether. Instead it requires that if you are considering combining pilot and main-study data, this must be planned in advance, written into the protocol, and the statistical implications and methods discussed clearly[^thabane2010tutorial-e10].
 >
-> In practice, you can handle it like this `[Our analysis]`: **discard by default.** Consider merging only if you stated before the trial that "this data will be merged into the main study" and you did not change the design after the trial. If you change the design after seeing pilot results, the changed main study needs new data.
+> In practice, you can handle it like this: **discard by default.** Consider merging only if you stated before the trial that "this data will be merged into the main study" and you did not change the design after the trial. If you change the design after seeing pilot results, the changed main study needs new data.
 
 **Write it down:** After the trial, write a short summary that answers only three things: whether each feasibility criterion was met, what in the design needs to change, and whether the next step is to continue, modify, or stop. Don't write "how much the effect improved".
 
-> **How this step differs by type of research** `[Our analysis]`
+> **How this step differs by type of research**
 >
 > - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): before scaling up, check how accurate your automated method is on a small hand-labeled sample. He et al. 2020 had two of the authors compare 1,100 contract pairs by hand to build a ground truth; at a similarity threshold of 70, precision was 97.5% and recall 88%[^he2020characterizing-e9].
 > - **Tool or method papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): first make sure the tool actually runs on real code. The Slither paper treats the share of contracts the analysis fails on as a metric: Slither failed on only 0.1% of contracts, against 10.22% for SmartCheck and 11.20% for Securify[^feist2019slither-e11].
@@ -206,9 +206,9 @@ The trial results are in, and they look promising. The easiest mistake now is **
 
 ## Judgment calls
 
-**How much trialing is enough?** Not when you "can't find any more problems", but when every dangerous assumption circled in Section 1 has an answer, the whole pipeline has run end to end once, and the parts involving people have been tried under near-real conditions `[Our analysis]`. The rule of thumb from the clinical pilot tutorial: the pilot should be big enough to give useful information on the feasibility aspects you want to assess[^thabane2010tutorial-e9].
+**How much trialing is enough?** Not when you "can't find any more problems", but when every dangerous assumption circled in Section 1 has an answer, the whole pipeline has run end to end once, and the parts involving people have been tried under near-real conditions. The rule of thumb from the clinical pilot tutorial: the pilot should be big enough to give useful information on the feasibility aspects you want to assess[^thabane2010tutorial-e9].
 
-**What if the trial turns up problems?** One way to decide `[Our analysis]`:
+**What if the trial turns up problems?** One way to decide:
 
 | What the trial showed | Usual response |
 |---|---|
@@ -218,18 +218,18 @@ The trial results are in, and they look promising. The easiest mistake now is **
 | A core assumption is false | Stop, go back to the claim, and consider narrowing it or changing the angle |
 | No problems | Move on to the full study, and keep good records of this trial |
 
-**When you are told to "just do a pilot first"**, first talk through with your advisor how the results of this trial will affect the plan for the main study[^thabane2010tutorial-e11]. If no one can say, it is better to design it as a small independent study than to call it a pilot `[Our analysis]`.
+**When you are told to "just do a pilot first"**, first talk through with your advisor how the results of this trial will affect the plan for the main study[^thabane2010tutorial-e11]. If no one can say, it is better to design it as a small independent study than to call it a pilot.
 
 ## Common mistakes
 
 | Mistake | Why it's a problem |
 |---|---|
-| Skipping the trial and going straight to full scale | Problems surface weeks later, and earlier work may be wasted `[Our analysis]` |
+| Skipping the trial and going straight to full scale | Problems surface weeks later, and earlier work may be wasted |
 | Trying the easiest parts first | People often try to disprove their ideas too late[^steinhardt2018stochastic-e12]; leave the most dangerous assumption for last and you find out at the end that it can't work |
-| Trying each part separately but never running the whole pipeline | Problems that appear when the parts are connected can't be found by testing parts separately `[Our analysis]` |
+| Trying each part separately but never running the whole pipeline | Problems that appear when the parts are connected can't be found by testing parts separately |
 | Only checking that the program doesn't crash | Many bugs are silent, and the results still look like they "work"[^karpathy2019recipe-e3] |
 | Piloting with people completely unlike the real participants | You won't find the problems that arise under real conditions[^ko2015practical-e32][^thabane2010tutorial-e9] |
-| Deciding "what counts as success" after the trial | The criteria get pulled along by the results `[Our analysis]`; the clinical pilot tutorial singles out this failing: no clear feasibility objectives or success criteria[^thabane2010tutorial-e6] |
+| Deciding "what counts as success" after the trial | The criteria get pulled along by the results; the clinical pilot tutorial singles out this failing: no clear feasibility objectives or success criteria[^thabane2010tutorial-e6] |
 | Using the pilot's effect size to compute the main study's sample size | Effect sizes estimated from small samples are very imprecise[^lakens2022sample-e4] |
 | Concluding there is no effect because the pilot showed no significant result | With too small a sample, all you can say is "inconclusive"[^thabane2010tutorial-e7] |
 | Giving up on a whole idea after one trial goes badly | Only one implementation failed[^steinhardt2018stochastic-e10] |

@@ -6,7 +6,7 @@
 
 Systems research studies how computer systems software is designed, built, and run. Take the call for papers of SOSP 2025 (the ACM Symposium on Operating Systems Principles; ACM is the Association for Computing Machinery): its scope includes operating systems, file and storage systems, distributed systems, cloud computing, mobile and edge systems, secure and reliable systems, and systems issues in big data and machine learning[^sosp2025cfp-e9].
 
-Some typical questions `[Our analysis]`:
+Some typical questions:
 
 - How much does a new storage or scheduling design improve latency, throughput, or resource overhead, and what does it cost?
 - What problems did a system deployed at large scale run into in operation, and what lessons came out of it?
@@ -16,7 +16,7 @@ Some typical questions `[Our analysis]`:
 
 ## Main venues and timeline
 
-The main results in systems are published at conferences; OSDI and SOSP are the two examples in the sources for this page `[Our analysis]`. The table gives their rules **each for one particular year**. They are not conventions of the whole area. **The rules change every year; before you submit, go by that year's call for papers.**
+The main results in systems are published at conferences; OSDI and SOSP are the two examples in the sources for this page. The table gives their rules **each for one particular year**. They are not conventions of the whole area. **The rules change every year; before you submit, go by that year's call for papers.**
 
 | | OSDI 2026 | SOSP 2025 |
 |---|---|---|
@@ -34,7 +34,7 @@ Some cells in more detail, again each for the year shown only:
 - **Author response at SOSP 2025**: You may only correct factual errors in the reviews or directly answer reviewers' questions. You may not describe work done after submission or promise future work[^sosp2025cfp-e4].
 - **Preprints at OSDI 2026**: You may make the work public first through technical reports, talks, social media, and so on, but the project or system name in the submission must differ from the one used in public[^osdi2026cfp-e6].
 
-A few things to watch `[Our analysis]`:
+A few things to watch:
 
 - **The system's name must be anonymized too.** Systems papers usually refer to the work by the system's name. If you have posted a preprint or given a talk, rename the system for the submission. SOSP 2025 adds that when you report experience with a system at your own organization, you anonymize the system's name but describe the characteristics readers need to understand the work, such as number of users or request volume[^sosp2025cfp-e6].
 - **Nobody is guaranteed to read your supplementary material.** OSDI 2026 states that reviewers are not required to read supplementary material and that the paper must be self-contained[^osdi2026cfp-e7].
@@ -44,7 +44,7 @@ A few things to watch `[Our analysis]`:
 
 ## Common strategies and standards of evidence
 
-The grouping and summaries in this table are our own. Each standard speaks only for the paper or conference in its footnote `[Our analysis]`.
+The grouping and summaries in this table are our own. Each standard speaks only for the paper or conference in its footnote.
 
 | Strategy | What it looks like here | Evidence and how it is judged | How to do it |
 |---|---|---|---|
@@ -54,7 +54,7 @@ The grouping and summaries in this table are our own. Each standard speaks only 
 | [Description](../../../05_research-strategies/observe_describe.md) | Experience reports and measurements of deployed systems | OSDI 2026 welcomes work that disproves or strengthens existing assumptions, or validates known techniques at new scales or in new environments[^osdi2026cfp-e4] | [Case studies](../../../06_methods/case_study.md) |
 | [Proof](../../../05_research-strategies/prove.md) | Formal verification of systems | State the assumptions the proof depends on[^klein2009sel4-e1]; the proof cannot tell you whether the specification itself is right[^klein2009sel4-e2] | [Proof: what evidence is enough](../../../05_research-strategies/prove.md#2-what-evidence-is-enough) |
 
-How to use this table `[Our analysis]`: many systems papers are mainly building and improving, with the evaluation section written to the standards of comparative evaluation and measurement. If there is formal verification, add the requirements of proof.
+How to use this table: many systems papers are mainly building and improving, with the evaluation section written to the standards of comparative evaluation and measurement. If there is formal verification, add the requirements of proof.
 
 ## Conventions specific to this area
 
@@ -67,7 +67,7 @@ How to use this table `[Our analysis]`: many systems papers are mainly building 
 - **Report variation and absolute numbers.** At least report standard deviations[^heiserbenchmarking-e10]; give full results, not just ratios[^heiserbenchmarking-e19].
 - **Describe the evaluation platform completely.** Describe every platform feature that could affect the results; compiler and other tool versions often matter too[^heiserbenchmarking-e17].
 
-**Running more times is not the same as repeating correctly.** System performance depends on many factors you may not notice `[Our analysis]`. Kalibera and Jones advise:
+**Running more times is not the same as repeating correctly.** System performance depends on many factors you may not notice. Kalibera and Jones advise:
 
 - Factors outside your control that happen to stay fixed throughout the experiment introduce bias. First make them controlled or randomized, for example by randomizing the link order[^kalibera2013rigorous-e5].
 - Repeat at least at the highest level where random variation occurs, for example recompiling and restarting the program, not just looping more iterations within one run[^kalibera2013rigorous-e6].

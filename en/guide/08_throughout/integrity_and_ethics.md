@@ -20,11 +20,11 @@
 | Falsification | Manipulating materials, equipment, images or procedures; or changing, omitting or suppressing data or results without justification | Dropping the runs that make your method look bad |
 | Plagiarism | Using other people's work or ideas without proper credit | Putting someone else's code or paragraphs straight into your paper |
 
-The "What it looks like in computer science" column gives our own examples `[Our analysis]`.
+The "What it looks like in computer science" column gives our own examples.
 
 The European code also lists other practices that are just as unacceptable, for example: misusing statistics to make results look "significant"; withholding data or results without justification; citing selectively or inaccurately[^allea2023european-e4]; splitting one study into several papers to publish more ("salami slicing"); republishing substantial parts of your own earlier papers (including in translation) without acknowledging it[^allea2023european-e5]; manipulating authorship or belittling other people's contributions[^allea2023european-e9]; and hiding the use of artificial intelligence or automated tools when drafting a paper[^allea2023european-e19]. The software engineering empirical standards also list salami slicing as an antipattern[^ralph2020empirical-e67].
 
-**Why:** In the European code's words, these practices damage the research process and relationships between researchers, undermine trust in research, waste resources, and can cause unnecessary harm to participants, society or the environment[^allea2023european-e6]. Although the code is European, it states that it applies to all fields of research[^allea2023european-e18], which makes it a good reference for the red lines `[Our analysis]`.
+**Why:** In the European code's words, these practices damage the research process and relationships between researchers, undermine trust in research, waste resources, and can cause unnecessary harm to participants, society or the environment[^allea2023european-e6]. Although the code is European, it states that it applies to all fields of research[^allea2023european-e18], which is why we use it as the reference for the red lines.
 
 **Where people go wrong:** Thinking only "making up data" counts as misconduct. "Quietly dropping unfavorable results" sounds like data cleaning, but it may already be falsification[^allea2023european-e3].
 
@@ -46,7 +46,7 @@ The European code also lists other practices that are just as unacceptable, for 
 
 - Reporting only the statistical tests that came out "significant" (p-hacking); or, in a study presented as testing hypotheses stated before data collection, writing hypotheses after seeing the results as if they had been there all along (HARKing, hypothesizing after the results are known). The software engineering empirical standards list both as antipatterns[^ralph2020empirical-e27].
 - Writing a limitations section and then drawing conclusions as if the limitations didn't exist[^ralph2020empirical-e66].
-- Treating "not against the rules" as "fine". Not preregistering (publicly registering your study plan in advance), not keeping an experiment log, not keeping version history, not testing your code, not validating results, and not sharing anything: none of these is research misconduct[^zeller2021devil-e8], but they leave no way for anyone to trust your results `[Our analysis]`.
+- Treating "not against the rules" as "fine". Not preregistering (publicly registering your study plan in advance), not keeping an experiment log, not keeping version history, not testing your code, not validating results, and not sharing anything: none of these is research misconduct[^zeller2021devil-e8]. In our view, though, they leave no way for anyone to trust your results.
 
 Anyone can make these mistakes; the authors who criticize this practice admit that they have themselves written "speculation disguised as explanation"[^lipton2019troubling-e12].
 
@@ -65,7 +65,7 @@ For how to do the analysis, separate exploratory from confirmatory conclusions, 
 
 **Why:** Reproducibility is not just a duty to the research community; failing at it also hurts you[^sandve2013ten-e1]: if you can't get back to the version of the code that produced a result, you can't tell whether that result came from a bug[^sandve2013ten-e4]. Making your work genuinely reproducible by peers is itself a strong signal of quality and trustworthiness[^sandve2013ten-e6].
 
-**Where people go wrong:** Thinking that putting things on GitHub or a cloud drive counts as releasing them. The software engineering open science standard points out that personal websites, GitHub and cloud drives are not adequate long-term archives[^ralph2020empirical-e78]. Consider Zenodo (a free archive for research outputs), OSF (the Open Science Framework) or your institution's repository `[Our analysis]`.
+**Where people go wrong:** Thinking that putting things on GitHub or a cloud drive counts as releasing them. The software engineering open science standard points out that personal websites, GitHub and cloud drives are not adequate long-term archives[^ralph2020empirical-e78]. Consider Zenodo (a free archive for research outputs), OSF (the Open Science Framework) or your institution's repository.
 
 For how to record where each result came from day to day, and how to store and back up raw data (including non-computational materials such as lab notebooks, questionnaires and interview recordings), see [Organizing your research materials](organizing_materials.md).
 
@@ -73,7 +73,7 @@ For how to record where each result came from day to day, and how to store and b
 
 ## 4. When research involves people or could harm others, protect people first
 
-The Menlo Report points out that advances in information and communication technology have widened the gap between what researchers can do and what they should do[^bailey2012menlo-e1]. So it is not only medicine and psychology: any research that involves people, collects data about people, or could affect others needs to think about ethics first `[Our analysis]`.
+The Menlo Report points out that advances in information and communication technology have widened the gap between what researchers can do and what they should do[^bailey2012menlo-e1]. So it is not only medicine and psychology: any research that involves people, collects data about people, or could affect others needs to think about ethics first.
 
 **How:**
 
@@ -90,7 +90,7 @@ The Menlo Report points out that advances in information and communication techn
 
 4. **Say it clearly in the paper.** The software engineering ethics supplement requires studies with human participants to state: what risks participants may face, what was done to mitigate them, and why the study's benefits justify those risks[^ralph2020empirical-e68]; how participants were recruited, what compensation they received, how coercion was avoided, and how free informed consent was obtained[^ralph2020empirical-e69]; and how privacy was protected, including the possibility that someone could combine several data sources to re-identify participants[^ralph2020empirical-e70]. The European code also requires telling participants in advance how their data will be used, stored and deleted[^allea2023european-e17].
 
-Examples from "large language models and smart contract security" `[Our analysis]`:
+Examples from "large language models and smart contract security":
 
 - You ask developers to try your tool, or you interview them: this is research with human participants. Find out first whether you need ethics review, and obtain informed consent.
 - You find a vulnerability in a deployed contract: notify the responsible party privately first, then go public. The USENIX Security '26 ethics guidelines point out that publishing before private disclosure and mitigation can cause harm[^usenixsec2026cfp-e5]; they require the paper to say to whom the vulnerability was disclosed and what came of it[^usenixsec2026cfp-e6].
@@ -108,7 +108,7 @@ Examples from "large language models and smart contract security" `[Our analysis
 > - **Obey the law as a principle**: the US Menlo Report asks researchers to do legal due diligence[^bailey2012menlo-e6]; the European code requires compliance with relevant codes, guidelines and regulations[^allea2023european-e16].
 > - **Weigh ethics and legality together**: the software engineering ethics supplement holds that in rare cases, ethical research may require illegal actions; frameworks like Menlo include respect for law precisely so that ethics and legality are weighed together[^ralph2020empirical-e75].
 >
-> In practice: as a newcomer, default to obeying the law and complete your institution's ethics review. In gray areas, talk to your advisor and the ethics committee first; don't decide on your own `[Our analysis]`.
+> In practice: as a newcomer, default to obeying the law and complete your institution's ethics review. In gray areas, talk to your advisor and the ethics committee first; don't decide on your own.
 
 **Write it down:** List everyone your research will touch, including people who are not research subjects but may be affected (such as the people who deployed the contracts and their users). For each group, write one sentence: what harm they might suffer, and how you plan to reduce it.
 
@@ -132,7 +132,7 @@ Rules on large language models differ between venues and keep changing. Two sets
 
 - **A large language model cannot be an author.** NeurIPS 2025 says only humans can be authors, and whatever tools they use, authors are responsible for the entire content of the paper, including text, figures and methods[^neurips2025llm-e6]. The medical journal recommendations give the reason: tools cannot take responsibility for the accuracy, integrity and originality of the work, which authorship requires[^icmje2026recommendations-e29].
 - **Check everything it generates, item by item.** Output from large language models sounds authoritative but can be wrong, incomplete or biased[^icmje2026recommendations-e31]. References in particular: using references generated by a large language model without checking that they exist, are correct and are relevant is given by NeurIPS 2025 as an example of a violation, and for a violation NeurIPS reserves the right to revoke the paper's publication status[^neurips2025llm-e7].
-- **When a large language model is part of your method, describe it in the method.** NeurIPS 2025 requires that when a large language model is an important, original or non-standard part of the method, it be described in the experimental setup[^neurips2025llm-e5]; the medical journal recommendations require enough detail for others to repeat it, including the tool, the version and, where applicable, the prompts[^icmje2026recommendations-e32]. In research like "large language models and smart contract security", where the large language model is itself the object of study, this matters all the more `[Our analysis]`.
+- **When a large language model is part of your method, describe it in the method.** NeurIPS 2025 requires that when a large language model is an important, original or non-standard part of the method, it be described in the experimental setup[^neurips2025llm-e5]; the medical journal recommendations require enough detail for others to repeat it, including the tool, the version and, where applicable, the prompts[^icmje2026recommendations-e32]. In research like "large language models and smart contract security", where the large language model is itself the object of study, this matters all the more.
 - **Don't feed other people's data to tools.** Some tools keep input data for training; NeurIPS 2025 reminds authors to mind personal privacy[^neurips2025llm-e9]. When you review papers later, manuscripts must not be given to large language models either; see [Being a reviewer](being_a_reviewer.md).
 
 > **Where sources disagree: if you only use a large language model to polish your writing, do you need to declare it?**
@@ -140,7 +140,7 @@ Rules on large language models differ between venues and keep changing. Two sets
 > - **No need**: NeurIPS 2025's policy is that use only for writing, editing or formatting, which does not affect the methods, rigor or originality, need not be declared in the paper[^neurips2025llm-e8].
 > - **Declare it**: the medical journal recommendations require that use of artificial intelligence for writing assistance be described in the acknowledgments[^icmje2026recommendations-e30]; failure to disclose may require a correction and in some cases may be judged misconduct[^icmje2026recommendations-e33]. The European code lists hiding the use of artificial intelligence when drafting a paper as unacceptable[^allea2023european-e19].
 >
-> In practice: before submitting, read the target conference's or journal's own policy and follow it; if unsure, state what you used and what for `[Our analysis]`.
+> In practice: before submitting, read the target conference's or journal's own policy and follow it; if unsure, state what you used and what for.
 
 **Write it down:** List every stage of this project where you use a large language model (finding literature, writing code, running experiments, editing text). For each, write down how you checked its output, and whether the target conference or journal requires you to declare it.
 
@@ -148,11 +148,11 @@ Rules on large language models differ between venues and keep changing. Two sets
 
 **How:** If you find an error in a paper you have published, issue a correction promptly, and retract the paper if necessary[^allea2023european-e11]. When presenting your research to others, be clear about how reliable the evidence is and what remains uncertain[^allea2023european-e13].
 
-**Why:** The European code defines misconduct as fabrication, falsification and plagiarism[^allea2023european-e3]; under that definition, an honest error is not misconduct in itself, and correcting it yourself is nothing to be ashamed of `[Our analysis]`. The code also says authors who proactively publish corrections after publication should be given credit for it[^allea2023european-e20].
+**Why:** The European code defines misconduct as fabrication, falsification and plagiarism[^allea2023european-e3]; under that definition, an honest error is not misconduct in itself, and correcting it yourself is nothing to be ashamed of. The code also says authors who proactively publish corrections after publication should be given credit for it[^allea2023european-e20].
 
-**Where people go wrong:** Not wanting to lose face and planning to "fix it in passing in the next paper". In the meantime, others may already be building on your wrong result `[Our analysis]`.
+**Where people go wrong:** Not wanting to lose face and planning to "fix it in passing in the next paper". In the meantime, others may already be building on your wrong result.
 
-**Write it down:** Suppose you discover tomorrow that a key number in your paper was miscalculated. Write down whom you would tell first (advisor, co-authors, editor or conference chair), and how you would decide between a correction and a retraction `[Our analysis]`.
+**Write it down:** Suppose you discover tomorrow that a key number in your paper was miscalculated. Write down whom you would tell first (advisor, co-authors, editor or conference chair), and how you would decide between a correction and a retraction.
 
 ---
 
@@ -173,7 +173,7 @@ Rules on large language models differ between venues and keep changing. Two sets
 | Using references from a large language model as they are | They may not even exist; at NeurIPS 2025 this is a violation[^neurips2025llm-e7] |
 | Listing a large language model as an author | A tool can't take responsibility for the work and can't be an author[^icmje2026recommendations-e29] |
 
-The "Why it's a problem" column is our own summary; the footnotes point to the relevant rules or examples, whose origin and scope are given in the main text `[Our analysis]`.
+The "Why it's a problem" column is our own summary; the footnotes point to the relevant rules or examples, whose origin and scope are given in the main text.
 
 ## Further reading
 

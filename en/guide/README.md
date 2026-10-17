@@ -18,12 +18,12 @@ This is the full text of the handbook. For how to read it, and where to start gi
 
 ## Why three layers: strategies, methods, fields
 
-At any given stage (reading the literature, say, or designing a study) different kinds of research face roughly the same questions, but how you actually do the work depends on the method. "Reading the literature," for example, is background work in most studies, but in a systematic review it is the method itself. So the two Parts that form the backbone only cover what you need to think through at each stage; how to do it goes in the research strategies and research types, and anything specific to one field goes in Fields. `[Our analysis]`
+At any given stage (reading the literature, say, or designing a study) different kinds of research face roughly the same questions, but how you actually do the work depends on the method. "Reading the literature," for example, is background work in most studies, but in a systematic review it is the method itself. So the two Parts that form the backbone only cover what you need to think through at each stage; how to do it goes in the research strategies and research types, and anything specific to one field goes in Fields.
 
 This split also matches the practice of judging research by its method. A set of empirical research standards for software engineering holds that there are no universal quality criteria, and that each study should be assessed against the criteria appropriate for its method[^ralph2020empirical-e24]. For why it matters to tell the strategies apart, see [Key concepts](00_start-here/key-concepts.md#research-strategy).
 
 ## How to read the sources
 
-Every statement backed by a source carries a footnote. Open the footnote to see which source it comes from, where in the source, and what the original says (see the [Evidence notes](../sources/notes/README.md)). Advice we put together ourselves is tagged `[Our analysis]`, once per paragraph or table. When sources disagree in a way that changes what you should do, we set out each position and its reasons side by side. For details, see [How to use this handbook](00_start-here/how-to-use.md#how-to-read-the-sources).
+Every statement backed by a source carries a footnote. Open the footnote to see which source it comes from, where in the source, and what the original says (see the [Evidence notes](../sources/notes/README.md)). Statements without a footnote are our own synthesis and advice. When sources disagree in a way that changes what you should do, we set out each position and its reasons side by side. For details, see [How to use this handbook](00_start-here/how-to-use.md#how-to-read-the-sources).
 
 [^ralph2020empirical-e24]: ACM SIGSOFT Empirical Standards, General Standard, General Quality Criteria. [Evidence](../sources/notes/ralph2020empirical.md#e24)

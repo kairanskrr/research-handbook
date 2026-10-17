@@ -4,7 +4,7 @@ This page covers **controlled experiments with human participants**: the researc
 
 If what you are comparing is the software system, tool, or model itself, which can run automatically and be measured repeatedly without people, see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md). If you have built a new tool and want to know how the paper as a whole should evaluate it, start with [Engineering research](../07_fields/computer-science/practices/engineering_research.md); an experiment with people is only one of the ways to evaluate it. Statistical testing in general is covered in [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) and validity in [Validity and limitations](../02_do-the-project/04_validity-and-limits.md); this page does not repeat them.
 
-**Scope** `[Our analysis]`: the standards and examples on this page come mainly from software engineering. They are based on the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), Ko et al.'s guide to experiments with software tools, and the software engineering debates about students versus professionals and about sampling. If you run controlled experiments in another field, read your own field's standards first. Method pages from other fields you can compare with: [Randomized controlled trials](randomized_controlled_trial.md) for medical interventions, and [Field experiments](field_experiment.md) that randomize in the real world in partnership with governments or companies.
+**Scope**: the standards and examples on this page come mainly from software engineering. They are based on the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), Ko et al.'s guide to experiments with software tools, and the software engineering debates about students versus professionals and about sampling. If you run controlled experiments in another field, read your own field's standards first. Method pages from other fields you can compare with: [Randomized controlled trials](randomized_controlled_trial.md) for medical interventions, and [Field experiments](field_experiment.md) that randomize in the real world in partnership with governments or companies.
 
 **Strategies it usually serves**: [Causal explanation](../05_research-strategies/explain_causality.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Building and improving](../05_research-strategies/build_improve.md).
 
@@ -25,7 +25,7 @@ The SIGSOFT standard defines an experiment as deliberately introducing an interv
 
 **It is not good at "how" and "why" questions.** How developers use the tool, which concepts they need to understand, how long it takes to learn: experiments struggle with these because experiments are fundamentally about comparison. Non-experimental quantitative or qualitative methods suit them better. And you often need answers to these questions first, before you know what the experiment should compare, which tasks to use, and what to measure[^ko2015practical-e1].
 
-**How it differs from related methods** `[Our analysis]`:
+**How it differs from related methods**:
 
 | | Controlled experiment | [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) | [Questionnaire surveys](questionnaire_survey.md) | Field deployment / [case study](case_study.md) |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@ The SIGSOFT standard defines an experiment as deliberately introducing an interv
 
 **True experiments and quasi-experiments.** An experiment that randomly assigns participants to groups is a true experiment; one without random assignment is a quasi-experiment[^ralph2020empirical-e164]. A quasi-experiment is appropriate only in two situations: as a preliminary study, or when group assignment is out of your control (for example, students already split into two sections of a course). Simply saying "this study is exploratory" is not enough to justify not randomizing[^ralph2020empirical-e182].
 
-**Not only software engineering.** The SIGSOFT standard targets software engineering, but the same method is used in user studies in human-computer interaction and in usability studies in security (for example, comparing two security warning designs). Outside computer science, education research comparing how two teaching methods affect student grades, and psychology comparing how two interfaces or ways of explaining something affect people's judgments, follow the same logic. But each field has its own conventions, terminology, and reporting standards. The steps below are written from the software engineering sources; when you apply them in another field, check them against that field's standards. `[Our analysis]`
+**Not only software engineering.** The SIGSOFT standard targets software engineering, but the same method is used in user studies in human-computer interaction and in usability studies in security (for example, comparing two security warning designs). Outside computer science, education research comparing how two teaching methods affect student grades, and psychology comparing how two interfaces or ways of explaining something affect people's judgments, follow the same logic. But each field has its own conventions, terminology, and reporting standards. The steps below are written from the software engineering sources; when you apply them in another field, check them against that field's standards.
 
 ---
 
@@ -65,16 +65,16 @@ A practical starting point: draft your ethics review application and the methods
 | | Between-subjects design | Within-subjects design |
 |---|---|---|
 | How it works | Each person uses only one tool; groups are randomized | Each person uses every tool in turn, on different tasks[^ko2015practical-e17] |
-| Advantages | No learning effects; less time per person `[Our analysis]` | More data from the same number of people; individual differences cancel out `[Our analysis]` |
+| Advantages | No learning effects; less time per person | More data from the same number of people; individual differences cancel out |
 | Risks | Large individual differences, so more people are needed | Learning effects, fatigue, and boredom[^ko2015practical-e18][^ko2015practical-e19] |
 
 **Between-subjects designs: randomize.** Random assignment spreads differences in participants' skills and habits evenly across groups, making it less likely that a difference between groups really comes from the people rather than the tool[^ko2015practical-e16]. The paper must say how randomization was done, for example how the random numbers were generated. If you don't randomize, give a strong reason and explain how you mitigated the threat that the groups were different to begin with, for example with pretests and posttests, or by matching participants on ability[^ralph2020empirical-e169].
 
 **Within-subjects designs: always counterbalance.** What participants learn in the first task helps them in the second; this is a learning effect. So randomize the order of the tasks and which task is done with your tool. When comparing three or more tools, you can use a Latin square (an arrangement in which each treatment appears equally often in each position in the order)[^ko2015practical-e18].
 
-**Other designs**: for example, an interrupted time-series design measures before the tool is introduced, after it is introduced, and after it is taken away. It needs only one group and is closer to how a company would trial a tool `[Our analysis]`. But it gives weaker causal evidence, because it is hard to rule out other changes that happened while the tool was being introduced and removed[^ko2015practical-e20].
+**Other designs**: for example, an interrupted time-series design measures before the tool is introduced, after it is introduced, and after it is taken away. It needs only one group and is closer to how a company would trial a tool. But it gives weaker causal evidence, because it is hard to rule out other changes that happened while the tool was being introduced and removed[^ko2015practical-e20].
 
-**Where people go wrong:** an analysis that doesn't match the design, for example using an independent-samples t-test on the paired data a within-subjects design produces[^ralph2020empirical-e181]. Decide on the test while you design the experiment `[Our analysis]`.
+**Where people go wrong:** an analysis that doesn't match the design, for example using an independent-samples t-test on the paired data a within-subjects design produces[^ralph2020empirical-e181]. Decide on the test while you design the experiment.
 
 ### Step 3: Decide on participants: whom to recruit, and how many
 
@@ -95,7 +95,7 @@ A practical starting point: draft your ethics review application and the methods
 >
 > - The disagreement is smaller than it looks: Falessi et al. conclude that students can neither always nor never substitute for professional developers, and that it depends on the context and the population[^falessi2018empirical-e9]; Shepperd also acknowledges the value of students in preliminary experiments[^shepperd2018inferencing-e4].
 >
-> In practice: first ask yourself, "Whom should the conclusions generalize to?" If the target is novices or students, using students is natural. If the target is experienced professionals, you can pilot with students to refine the design, and try to get qualifying professionals for the main experiment. Whoever you use, describe participants by their experience and explain your reasoning. `[Our analysis]`
+> In practice: first ask yourself, "Whom should the conclusions generalize to?" If the target is novices or students, using students is natural. If the target is experienced professionals, you can pilot with students to refine the design, and try to get qualifying professionals for the main experiment. Whoever you use, describe participants by their experience and explain your reasoning.
 
 **How many people.** The SIGSOFT standard requires you to justify your sample size, for example with a **power analysis**[^ralph2020empirical-e167]: an advance estimate of how many people you need to have a good chance of detecting a difference if it really exists. It needs three inputs: the expected effect size, the expected variability of the results, and the acceptable Type I error rate (the false positive rate)[^ko2015practical-e11]. The first two can be estimated from data from earlier experiments or a pilot study[^ko2015practical-e12]. For reference, in the software engineering tool experiments Ko et al. reviewed, the median number of participants per group was 18; they suggest about 20 per group as a starting point, with no guarantee that it is enough[^ko2015practical-e10]. Under the SIGSOFT standard, when you run an experiment in a class with a fixed number of people, you can skip the advance power analysis[^ralph2020empirical-e179].
 
@@ -103,16 +103,16 @@ A practical starting point: draft your ethics review application and the methods
 
 **You have to trade realism against control.** The closer the setting is to real work, the further the conclusions generalize, but the less control you have and the harder it is to tell where a difference came from[^ko2015practical-e23]. You cannot maximize internal and external validity at the same time[^falessi2018empirical-e3].
 
-- **Where the tasks come from**: designing them yourself from scratch lets you target the tool's features, but they may not resemble real work and may unfairly favor your tool[^ko2015practical-e24]. Selecting them from real projects (for example, bug reports from open-source projects) is closer to practice `[Our analysis]`.
+- **Where the tasks come from**: designing them yourself from scratch lets you target the tool's features, but they may not resemble real work and may unfairly favor your tool[^ko2015practical-e24]. Selecting them from real projects (for example, bug reports from open-source projects) is closer to practice.
 - **Get the difficulty right**: if tasks are too easy, everyone finishes, giving a **ceiling effect**; if they are too hard, nobody finishes, giving a **floor effect**. Either way you can't see differences between tools[^ko2015practical-e25].
 - **Experimental objects** (the programs or data participants work on): say whether they are real systems or toy systems, how large they are, and why you chose them. Don't give the control group and the treatment group different programs; otherwise the difference between programs is confounded with the difference between tools and the two can't be separated[^ralph2020empirical-e170].
 - **Training**: whatever you teach in training becomes a precondition for "the conditions under which the tool is used", and the paper's conclusions hold only under that precondition[^ko2015practical-e21]. Note that short experiments inherently favor tools that can be learned quickly over tools that need long practice[^ko2015practical-e22].
 
-**Where people go wrong:** tools meant for team collaboration are hard to evaluate with individual controlled experiments; none of the papers Ko et al. reviewed ran an experiment in a team setting[^ko2015practical-e34]. In that case, consider a field deployment or a case study. `[Our analysis]`
+**Where people go wrong:** tools meant for team collaboration are hard to evaluate with individual controlled experiments; none of the papers Ko et al. reviewed ran an experiment in a team setting[^ko2015practical-e34]. In that case, consider a field deployment or a case study.
 
 ### Step 5: Decide how to measure
 
-Ko et al. point out that **variation in outcome measures is the main reason experiments produce negative results**: the more variation, the harder it is to see a real difference. Some of that variation is natural and should be kept; what you need to eliminate is extraneous variation[^ko2015practical-e5]. The more clearly measurements are defined and the more consistently they are carried out, the less extraneous variation there is `[Our analysis]`.
+Ko et al. point out that **variation in outcome measures is the main reason experiments produce negative results**: the more variation, the harder it is to see a real difference. Some of that variation is natural and should be kept; what you need to eliminate is extraneous variation[^ko2015practical-e5]. So the more clearly measurements are defined and the more consistently they are carried out, the less extraneous variation there is.
 
 - **Task success**: decide three things in advance: what state counts as success, how you will judge that it has been reached, and how you will explain the goal to participants so that everyone understands it the same way[^ko2015practical-e26].
 - **Time**: time and success trade off against each other, since people can work fast and sloppily or slowly and carefully, so measure both[^ko2015practical-e27].
@@ -122,7 +122,7 @@ Ko et al. point out that **variation in outcome measures is the main reason expe
 
 ### Step 6: Run a pilot study first
 
-**How:** before the main experiment, have a few people try it, with the aim of finding sources of extraneous variation[^ko2015practical-e31], such as confusing materials, bugs in the tool, or ambiguous tasks `[Our analysis]`. The researchers can do a first run-through themselves as participants[^ko2015practical-e33], but the most important round should, as far as possible, use the same kind of participants, location, materials, procedure, and experimenters as the main experiment[^ko2015practical-e32]. Fix what you find, then try again.
+**How:** before the main experiment, have a few people try it, with the aim of finding sources of extraneous variation[^ko2015practical-e31], such as confusing materials, bugs in the tool, or ambiguous tasks. The researchers can do a first run-through themselves as participants[^ko2015practical-e33], but the most important round should, as far as possible, use the same kind of participants, location, materials, procedure, and experimenters as the main experiment[^ko2015practical-e32]. Fix what you find, then try again.
 
 **Why:** of the 345 studies Ko et al. reviewed, only 11 mentioned running a pilot[^ko2015practical-e31]. Pilot data can also be used to estimate the values a power analysis needs[^ko2015practical-e12]. For general advice on preliminary studies, see [The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md).
 
@@ -133,7 +133,7 @@ Ko et al. point out that **variation in outcome measures is the main reason expe
 For the general requirements of research with people (risk assessment, informed consent, privacy protection, ethics review), see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md). Controlled experiments need extra attention to the following:
 
 - **Hard tasks can hurt people too.** Especially difficult tasks, particularly for less experienced people, can cause stress and frustration[^ko2015practical-e14]. Debrief participants after the experiment so they don't leave feeling "I failed", and ask them not to share the answers, so later participants don't know them in advance[^ko2015practical-e30].
-- **Watch for power relationships.** When recruiting through managers or instructors, explain how you ensured that participants consented freely[^ralph2020empirical-e186]. `[Our analysis]` Take particular care when recruiting in a class you teach: for example, have someone else collect the consent forms, and guarantee that taking part or not has no effect on grades.
+- **Watch for power relationships.** When recruiting through managers or instructors, explain how you ensured that participants consented freely[^ralph2020empirical-e186]. Take particular care when recruiting in a class you teach: for example, have someone else collect the consent forms, and guarantee that taking part or not has no effect on grades.
 - **Report incentives.** The paper must say whether participants were paid and with what[^ralph2020empirical-e171], and how coercion was avoided[^ralph2020empirical-e185].
 - **If you use deception**, explain the reasons to participants afterwards and give them the chance to withdraw their data[^ralph2020empirical-e187].
 
@@ -155,7 +155,7 @@ For the general requirements of research with people (risk assessment, informed 
 
 ## 3. Checklist
 
-This follows mainly the SIGSOFT standard for experiments with human participants, which is a review standard for software engineering; in other fields, your own field's standards take precedence `[Our analysis]`.
+This follows mainly the SIGSOFT standard for experiments with human participants, which is a review standard for software engineering; in other fields, your own field's standards take precedence.
 
 **Essential**
 

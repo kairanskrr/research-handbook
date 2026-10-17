@@ -4,7 +4,7 @@ This page covers **mixed methods research** and the broader **multi-method resea
 
 This page covers only how to combine methods. For how to do each component, see the relevant pages: [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md), [Interview studies](interview_study.md), [Questionnaire surveys](questionnaire_survey.md), and so on. For how to choose methods to fit your question and when you need to combine them, see [Choosing a method](../02_do-the-project/02_choose-method.md#4-combine-methods-when-you-need-to).
 
-**Scope** `[Our analysis]`: the standards and examples on this page come mainly from software engineering. They are based on the multi-methodology and mixed methods standard in the ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) empirical standards, on Easterbrook et al.'s guide to selecting research methods, and on Storey et al.'s analysis of research strategies in software engineering. If you do mixed methods research in another field, check your own field's standards first. This handbook does not yet have a methods page on mixed methods for other fields; for political science's practice of combining statistical analysis with within-case process tracing, see [Process tracing and comparative case studies](process_tracing.md).
+**Scope**: the standards and examples on this page come mainly from software engineering. They are based on the multi-methodology and mixed methods standard in the ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) empirical standards, on Easterbrook et al.'s guide to selecting research methods, and on Storey et al.'s analysis of research strategies in software engineering. If you do mixed methods research in another field, check your own field's standards first. This handbook does not yet have a methods page on mixed methods for other fields; for political science's practice of combining statistical analysis with within-case process tracing, see [Process tracing and comparative case studies](process_tracing.md).
 
 **Strategies it usually serves**: [Causal explanation](../05_research-strategies/explain_causality.md).
 
@@ -30,14 +30,14 @@ For simplicity, the rest of this page calls both "mixed methods"; the requiremen
 
 **Count the cost too**: you collect a lot of data, analyzing data from several sources takes a long time, and the researchers need to be comfortable with both quantitative and qualitative research[^easterbrook2008selecting-e3].
 
-**When you don't need it** `[Our analysis, based on the sources below]`:
+**When you don't need it** (our summary, based on the sources below):
 
 - One method is already enough to answer the question. For example, when evaluating a new technique for cutting build times, adding human feedback may not help[^storey2020who-e6].
 - The SIGSOFT general standard lists "applies two or more data collection or analysis strategies to the same research question" as an **extraordinary attribute**, not an essential one[^ralph2020empirical-e290]. Methods only need to be appropriate for the study's purpose, not optimal[^ralph2020empirical-e23].
 
 **First, separate three things** that are often confused:
 
-| | What it is | Example `[Our analysis]` |
+| | What it is | Example |
 |---|---|---|
 | Several data collection techniques within one method | Collecting data in several ways within one study, which also allows triangulation[^easterbrook2008selecting-e9] | A case study that uses both interviews and documents |
 | Data triangulation | The same method applied to different data sources[^storey2020who-e7] | The same mining analysis repeated on five datasets |
@@ -49,7 +49,7 @@ The SIGSOFT standard specifically warns you to tell the first row apart from the
 > - Storey et al. analyzed a set of software engineering papers and found that the vast majority of data-driven papers did not triangulate with other strategies, and most of those that did added a questionnaire or interviews[^storey2020who-e9]; they call for combining research strategies more often[^storey2020who-e11].
 > - But they also acknowledge that the burden of triangulation need not fall on a single paper[^storey2020who-e10]. The SIGSOFT standard likewise lists "the mixed methods approach isn't necessary" as an invalid criticism (provided the approach really is beneficial)[^ralph2020empirical-e287], and lists multiple methods as an extraordinary attribute rather than an essential one[^ralph2020empirical-e290].
 >
-> In practice `[Our analysis]`: if your conclusions are about why people do what they do, or how well a tool works in real use, a single data analysis will struggle to support them, and it is worth adding another method in the same paper or in immediate follow-up work. If the question itself is technical, don't mix methods for the sake of mixing.
+> In practice: if your conclusions are about why people do what they do, or how well a tool works in real use, a single data analysis will struggle to support them, and it is worth adding another method in the same paper or in immediate follow-up work. If the question itself is technical, don't mix methods for the sake of mixing.
 
 ---
 
@@ -57,13 +57,13 @@ The SIGSOFT standard specifically warns you to tell the first row apart from the
 
 Easterbrook et al. describe three mixed methods designs, which differ in their data collection strategy and in the order of the methods[^easterbrook2008selecting-e2][^easterbrook2008selecting-e4][^easterbrook2008selecting-e5][^easterbrook2008selecting-e6]; the core design names mentioned in the SIGSOFT standard broadly correspond to them[^ralph2020empirical-e289]:
 
-| Design | Order | Purpose | Computer science example `[Our analysis]` |
+| Design | Order | Purpose | Computer science example |
 |---|---|---|---|
 | **Sequential explanatory design** | Quantitative first, then qualitative | Use qualitative results to explain quantitative findings; especially useful when the quantitative phase produces unexpected results[^easterbrook2008selecting-e4] | Mining shows that a certain kind of pull request takes especially long to merge; you then interview maintainers to ask why |
 | **Sequential exploratory design** | Qualitative first, then quantitative | Use quantitative results to help interpret qualitative findings and to test the preliminary theory that came out of the qualitative study[^easterbrook2008selecting-e5] | First interview a dozen or so engineers to identify several practices, then use a questionnaire to see how common each one is |
-| **Concurrent triangulation design** (close to what the SIGSOFT standard calls a convergent design `[Our analysis]`) | At the same time | Confirm and cross-validate; motivated by the fact that what people say often differs from what they do[^easterbrook2008selecting-e6] | Collect developers' questionnaire answers and their actual tool-usage logs at the same time, and compare the two |
+| **Concurrent triangulation design** (in our reading, close to what the SIGSOFT standard calls a convergent design) | At the same time | Confirm and cross-validate; motivated by the fact that what people say often differs from what they do[^easterbrook2008selecting-e6] | Collect developers' questionnaire answers and their actual tool-usage logs at the same time, and compare the two |
 
-**How to choose** `[Our analysis]`: if you already have data and want to know why, use a sequential explanatory design; if you don't yet understand the phenomenon and want to find out what cases exist before measuring how common they are, use a sequential exploratory design; if you worry that a single source is biased and want the sources to check each other, use a concurrent design. The hard part of a concurrent design is comparing the results of the two analyses and reconciling contradictions between them, which sometimes requires another source of evidence or a follow-up study[^easterbrook2008selecting-e7].
+**How to choose**: if you already have data and want to know why, use a sequential explanatory design; if you don't yet understand the phenomenon and want to find out what cases exist before measuring how common they are, use a sequential exploratory design; if you worry that a single source is biased and want the sources to check each other, use a concurrent design. The hard part of a concurrent design is comparing the results of the two analyses and reconciling contradictions between them, which sometimes requires another source of evidence or a follow-up study[^easterbrook2008selecting-e7].
 
 ---
 
@@ -80,23 +80,23 @@ The essential attributes in the SIGSOFT standard require you to answer four ques
 
 Ideally, also draw a diagram of the study design and give a definition of the design you use[^ralph2020empirical-e278].
 
-**Where people go wrong:** the design doesn't match the research question; or the team never agrees on a crisp research question, which can happen when members hold different epistemological perspectives (different views of what counts as knowledge and how you come to know something; say, one person trusts only measured numbers while another values interpreting people's experience) or use very different methods[^ralph2020empirical-e284]. Write the research question as one sentence first, then check which part of it each method answers `[Our analysis]`.
+**Where people go wrong:** the design doesn't match the research question; or the team never agrees on a crisp research question, which can happen when members hold different epistemological perspectives (different views of what counts as knowledge and how you come to know something; say, one person trusts only measured numbers while another values interpreting people's experience) or use very different methods[^ralph2020empirical-e284]. Write the research question as one sentence first, then check which part of it each method answers.
 
 ### Step 2: Every component must meet its own standard
 
 The SIGSOFT mixed methods standard covers only how methods are combined; each component must also meet the standard for its own method. A case study plus an experiment, for example, must meet the case study standard, the experiment standard, and the mixed methods standard[^ralph2020empirical-e275]. The quality criteria of every method used all have to be considered[^ralph2020empirical-e281].
 
-**Where people go wrong:** using a method the team has no expertise in and hoping it works, which SIGSOFT calls "cargo cult research" (copying the outward form of a method without mastering its substance)[^ralph2020empirical-e284]. Another is running only superficial statistics on rich qualitative data[^ralph2020empirical-e285], for example reducing interview content to word counts `[Our analysis]`. For a method you don't know well, read the relevant page and guidelines first, or bring in someone who knows it.
+**Where people go wrong:** using a method the team has no expertise in and hoping it works, which SIGSOFT calls "cargo cult research" (copying the outward form of a method without mastering its substance)[^ralph2020empirical-e284]. Another is running only superficial statistics on rich qualitative data[^ralph2020empirical-e285], for example reducing interview content to word counts. For a method you don't know well, read the relevant page and guidelines first, or bring in someone who knows it.
 
 ### Step 3: Think through how the sample flows between methods
 
 - State whether the methods reuse the same participants or objects, and why[^ralph2020empirical-e278].
-- **When successive phases use the same people, consider how the earlier phase affects the later one**[^ralph2020empirical-e285]. `[Our analysis]` For example, if interviewees heard you explain your research hypothesis during the interview and later fill in your questionnaire, their answers may lean toward that hypothesis.
+- **When successive phases use the same people, consider how the earlier phase affects the later one**[^ralph2020empirical-e285]. For example, if interviewees heard you explain your research hypothesis during the interview and later fill in your questionnaire, their answers may lean toward that hypothesis.
 - When the samples for different components come from different populations, this limits the integrated conclusions, and you should acknowledge it in the paper[^ralph2020empirical-e277].
 
 ### Step 4: Let the earlier phase really shape the later one
 
-The point of a sequential design is that earlier findings determine what you do next. Failing to use earlier findings when designing the interview guide or questionnaire for a later phase is one of the antipatterns SIGSOFT lists[^ralph2020empirical-e285]. `[Our analysis]` For example, if the mining phase turns up three unexpected patterns, the interview guide should be built around those three patterns, not reuse generic questions written before the mining.
+The point of a sequential design is that earlier findings determine what you do next. Failing to use earlier findings when designing the interview guide or questionnaire for a later phase is one of the antipatterns SIGSOFT lists[^ralph2020empirical-e285]. For example, if the mining phase turns up three unexpected patterns, the interview guide should be built around those three patterns, not reuse generic questions written before the mining.
 
 ### Step 5: Integrate the results (the hardest step)
 
@@ -104,7 +104,7 @@ Integration is the core requirement of mixed methods: bringing the findings of a
 
 - **Say what each method adds**: corroboration (two methods reach the same conclusion), complementarity (each answers part of the question), or expansion (deepening or broadening understanding)[^ralph2020empirical-e279].
 - **Discuss where the findings disagree**[^ralph2020empirical-e279]. Disagreement is not a flaw: SIGSOFT lists "the methods have inconsistent findings" as an invalid criticism[^ralph2020empirical-e287], and disagreements are often exactly what is most worth analyzing. When you can't reconcile them, you may need another source of evidence or a follow-up study[^easterbrook2008selecting-e7].
-- `[Our analysis]` A practical approach is to build a joint display table: each row is a sub-question or a finding, each column records what one method found, and the last column gives the integrated conclusion and whether the methods corroborate, complement, or contradict each other. When you write your conclusions, start from this table, not from the results of any single method.
+- A practical approach is to build a joint display table: each row is a sub-question or a finding, each column records what one method found, and the last column gives the integrated conclusion and whether the methods corroborate, complement, or contradict each other. When you write your conclusions, start from this table, not from the results of any single method.
 
 ### Step 6: Reporting
 
@@ -117,7 +117,7 @@ Integration is the core requirement of mixed methods: bringing the findings of a
 
 ## 4. Checklist
 
-This checklist is based mainly on the SIGSOFT multi-methodology and mixed methods standard, which is a reviewing standard for software engineering; in other fields, follow your own field's standards `[Our analysis]`. Each component should also be checked against the checklist for its own method.
+This checklist is based mainly on the SIGSOFT multi-methodology and mixed methods standard, which is a reviewing standard for software engineering; in other fields, follow your own field's standards. Each component should also be checked against the checklist for its own method.
 
 **Essential**
 
@@ -160,7 +160,7 @@ This checklist is based mainly on the SIGSOFT multi-methodology and mixed method
 | Using a method you don't know well and hoping it works | The component won't meet its own standard[^ralph2020empirical-e284][^ralph2020empirical-e275] |
 | Discussing only the limitations of the main method | Every method, and the integration itself, has limitations[^ralph2020empirical-e283] |
 
-Note the difference between the first row and the "criticisms that don't hold up": a small minor method is not a problem in itself[^ralph2020empirical-e287]; the problem is when it makes **no substantive contribution** to the conclusions[^ralph2020empirical-e282]. An interview study with only a few participants that genuinely explains the mining results is a legitimate component `[Our analysis]`.
+Note the difference between the first row and the "criticisms that don't hold up": a small minor method is not a problem in itself[^ralph2020empirical-e287]; the problem is when it makes **no substantive contribution** to the conclusions[^ralph2020empirical-e282]. So an interview study with only a few participants that genuinely explains the mining results is a legitimate component.
 
 ---
 

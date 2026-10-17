@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Fix the finish line.** Write down what you will deliver, which kind of venue it goes to, and the latest date; then work back three or four checkpoints from that date ([Section 1](#1-fix-the-finish-line-where-to-submit-and-when)).
 > 2. **Turn each row of your evidence plan into a milestone.** Start each one with "I have …"; cross out, for now, any work that doesn't map to a claim ([Section 2](#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence)).
@@ -34,7 +34,7 @@ Turn your evidence plan and evidence-to-method table into a plan **you can follo
 5. How long will each step take? Where does the slack go?
 6. Does my advisor agree with the plan? What happens when the plan changes?
 
-The plan doesn't need to be long. Looking back on their projects, some researchers regret "trying to plan too much at the beginning and never getting started"[^turingwaydesign-e3], while others regret "not setting short- and long-term milestones"[^turingwaydesign-e2]. This chapter aims for the middle ground: detailed for the near term, rough for later, one or two pages in total `[Our analysis]`.
+The plan doesn't need to be long. Looking back on their projects, some researchers regret "trying to plan too much at the beginning and never getting started"[^turingwaydesign-e3], while others regret "not setting short- and long-term milestones"[^turingwaydesign-e2]. This chapter aims for the middle ground: detailed for the near term, rough for later, one or two pages in total.
 
 ---
 
@@ -42,7 +42,7 @@ The plan doesn't need to be long. Looking back on their projects, some researche
 
 **Ask yourself first: what will this project finally deliver, to whom, and by when at the latest?**
 
-For most projects the finish line is a paper; it could also be a chapter of your thesis or a final project report. Fixing it means answering three things `[Our analysis]`:
+For most projects the finish line is a paper; it could also be a chapter of your thesis or a final project report. Fixing it means answering three things:
 
 | What to decide | Example |
 |---|---|
@@ -50,20 +50,20 @@ For most projects the finish line is a paper; it could also be a chapter of your
 | To whom | Who the readers are; which kind of conference or journal you plan to submit to |
 | By when at the latest | A conference deadline, your defense date, the end date of a grant |
 
-**Why decide where it goes first?** A paper should first choose its target audience and a matching journal; that decides who the main message is written for[^zhang2014ten-e7]. Different readers value different evidence, and you will write differently for them `[Our analysis]`. For how to choose a conference or journal, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md).
+**Why decide where it goes first?** A paper should first choose its target audience and a matching journal; that decides who the main message is written for[^zhang2014ten-e7]. Different readers value different evidence, and you will write differently for them. For how to choose a conference or journal, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md).
 
-**In computer science, the deadline is often a hard constraint.** According to the 2009 editor-in-chief of Communications of the ACM (the flagship magazine of the Association for Computing Machinery), computing may be the only field that treats conference papers as the main way to publish research results[^vardi2009conferences-e1]. Conferences have fixed deadlines. Take the machine learning conference NeurIPS 2025 (Conference on Neural Information Processing Systems): the abstract deadline was May 11, 2025, and the full paper deadline was May 15[^neurips2025cfp-e1]. Miss it and you wait for the next conference `[Our analysis]`.
+**In computer science, the deadline is often a hard constraint.** According to the 2009 editor-in-chief of Communications of the ACM (the flagship magazine of the Association for Computing Machinery), computing may be the only field that treats conference papers as the main way to publish research results[^vardi2009conferences-e1]. Conferences have fixed deadlines. Take the machine learning conference NeurIPS 2025 (Conference on Neural Information Processing Systems): the abstract deadline was May 11, 2025, and the full paper deadline was May 15[^neurips2025cfp-e1]. Miss it and you wait for the next conference.
 
-**Other fields can run on a completely different rhythm.** In fields where journals dominate, there is often no shared deadline, and most of the time goes into waiting for reviews and revising `[Our analysis]`. Two sets of sourced figures give you a feel for it:
+**Other fields can run on a completely different rhythm.** In fields where journals dominate, there is often no shared deadline, and most of the time goes into waiting for reviews and revising. Two sets of sourced figures give you a feel for it:
 
 - Philosophy: the journal submission surveys collected by the American Philosophical Association are self-reported by authors and have not been verified by the journals[^andrews2024journal-e2]. Looking only at surveys from the last five years (roughly 2019–2023)[^andrews2024journal-e3], journals took an average of 3.22 months to give an initial decision[^andrews2024journal-e5].
 - Economics: Ellison looked at the top economics journals from 1970 to 1999; by the late 1990s, review plus revision took about two years per paper on average[^ellison2002slowdown-e1][^ellison2002slowdown-e2].
 
-In that case, work backward from your defense, the end of your grant, or a submission date you set yourself `[Our analysis]`.
+In that case, work backward from your defense, the end of your grant, or a submission date you set yourself.
 
-**Work backward from the finish line.** Take a conference: a deadline three months away means you have to start writing the paper at least a month before it[^parikh2018calendar-e5]; before that comes the date by which you must have your main results `[Our analysis]`. But be careful: working backward gives you the **latest** date each thing must be finished, not when to start it. Treat it as a start date and you have no slack at all[^parikh2018calendar-e6].
+**Work backward from the finish line.** Take a conference: a deadline three months away means you have to start writing the paper at least a month before it[^parikh2018calendar-e5]; before that comes the date by which you must have your main results. But be careful: working backward gives you the **latest** date each thing must be finished, not when to start it. Treat it as a start date and you have no slack at all[^parikh2018calendar-e6].
 
-A backward schedule using the "large language models and smart contract security" example `[Our analysis]`:
+A backward schedule using the "large language models and smart contract security" example:
 
 ```
 Deadline                                ← finish line
@@ -79,15 +79,15 @@ If working backward shows that the "confirm it works" date has already passed, d
 
 ## 2. Break the claim into milestones: each milestone is a piece of evidence
 
-Your evidence plan already says "to make people believe it, I need this evidence", and your evidence-to-method table says which method gets each piece. The plan starts there: **each key piece of evidence is one milestone**, and the method you use to get it decides roughly how long it will take `[Our analysis]`.
+Your evidence plan already says "to make people believe it, I need this evidence", and your evidence-to-method table says which method gets each piece. The plan starts there: **each key piece of evidence is one milestone**, and the method you use to get it decides roughly how long it will take.
 
 ```
 Central claim → the supporting claims behind it → the evidence each one needs → the work that produces that evidence → what to do this week
 ```
 
-The upper levels set the direction; the lower levels decide what you do this week `[Our analysis]`.
+The upper levels set the direction; the lower levels decide what you do this week.
 
-**Phrase milestones as "evidence I have", not "things I did".** This is the most important point in this chapter `[Our analysis]`:
+**Phrase milestones as "evidence I have", not "things I did".** This is the most important point in this chapter:
 
 | Phrased as an activity (bad) | Phrased as evidence (good) |
 |---|---|
@@ -96,11 +96,11 @@ The upper levels set the direction; the lower levels decide what you do this wee
 | Finish reading related work | A comparison table that says clearly what the closest work is missing |
 | Set up the experimental environment | The two existing baseline tools reproduce the results reported in their papers |
 
-Why phrase it this way? You can "finish the program" on schedule while the project hasn't moved forward at all; only "getting initial evidence" actually reduces your uncertainty about the project `[Our analysis]`. The most common outcome of activity milestones: every item gets ticked off on time, and just before submission you discover that none of them can go straight into the paper.
+Why phrase it this way? You can "finish the program" on schedule while the project hasn't moved forward at all; only "getting initial evidence" actually reduces your uncertainty about the project. The most common outcome of activity milestones: every item gets ticked off on time, and just before submission you discover that none of them can go straight into the paper.
 
 **A handy trick: use the paper outline as your milestone list.** Design the project with the final paper in mind: put a paper outline in your first design document and use it to settle the research goals, the logical order of the experiments, and the materials and data you need to prepare[^zhang2014ten-e8]. In practice, first imagine which figures and tables the paper will have and arrange them in the logical order of the experiments[^zhang2014ten-e10]; these imagined figures and tables, and the logic connecting them, can be used directly to organize the research work[^zhang2014ten-e11].
 
-So you can take the [empty results tables](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in 1.5, put them into a paper outline, and give each one a status `[Our analysis]`:
+So you can take the [empty results tables](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in 1.5, put them into a paper outline, and give each one a status:
 
 | Figure or table | Which claim it supports | Status |
 |---|---|---|
@@ -116,26 +116,26 @@ The figures and tables you don't have yet are your milestone list.
 
 Once the milestones are phrased as evidence, go one step further: **how complete does this evidence have to be before it counts as obtained?** If you don't spell this out, you will either keep adding experiments to one milestone forever, or move on before the evidence is enough.
 
-**How to write it:** As a sentence you can check, ideally containing three things `[Our analysis]`:
+**How to write it:** As a sentence you can check, ideally containing three things:
 
 - **Scope**: on which data, which objects, under which conditions;
 - **Criterion**: what you look at and what counts as holding up;
 - **The negative case**: what it looks like if it doesn't hold, and what you will do if you see that.
 
-You can copy the scope and criterion straight from your evidence plan: the operational definitions, the unit of analysis, and the ["counts as support" and "counts against"](01_question-to-evidence.md#4-before-you-look-at-the-data-decide-what-counts-as-support-and-what-counts-against) columns `[Our analysis]`.
+You can copy the scope and criterion straight from your evidence plan: the operational definitions, the unit of analysis, and the ["counts as support" and "counts against"](01_question-to-evidence.md#4-before-you-look-at-the-data-decide-what-counts-as-support-and-what-counts-against) columns.
 
-Using the milestones above `[Our analysis]`:
+Using the milestones above:
 
 | Milestone | What counts as done |
 |---|---|
 | The leakage-judging method is reliable | On 50 hand-checked samples it largely agrees with the human judgments; every disagreement has been examined one by one and its cause can be explained |
 | Leakage affected the results | Accuracy before and after removing leaked samples has been compared for three or more tools; if the difference is small, record that honestly and go back to revise the claim |
 
-**When is the whole project done?** When **every central claim has enough evidence**, not when "there is nothing left to do": research always has a next experiment `[Our analysis]`. A complete paper needs detailed supporting data for every important aspect of its hypothesis[^zhang2014ten-e12]; check your list against that. One regret researchers report when looking back on projects is "not advocating for clearer goals and success criteria from the beginning"[^turingwaydesign-e1].
+**When is the whole project done?** When **every central claim has enough evidence**, not when "there is nothing left to do": research always has a next experiment. A complete paper needs detailed supporting data for every important aspect of its hypothesis[^zhang2014ten-e12]; check your list against that. One regret researchers report when looking back on projects is "not advocating for clearer goals and success criteria from the beginning"[^turingwaydesign-e1].
 
-**Don't treat "the deadline has arrived" as "done".** Computer science has been criticized for being deadline-driven: papers go out when they happen to meet a suitable conference deadline, not when the research has been done thoroughly[^fortnow2009time-e2]. The deadline decides **when you submit**; your "done" criteria decide **whether you submit, and what** `[Our analysis]`. If the deadline arrives and the evidence isn't enough, it is better to aim for the next venue, or to narrow the claim to what the evidence can support.
+**Don't treat "the deadline has arrived" as "done".** Computer science has been criticized for being deadline-driven: papers go out when they happen to meet a suitable conference deadline, not when the research has been done thoroughly[^fortnow2009time-e2]. The deadline decides **when you submit**; your "done" criteria decide **whether you submit, and what**. If the deadline arrives and the evidence isn't enough, it is better to aim for the next venue, or to narrow the claim to what the evidence can support.
 
-**And don't define "done" as "results reach some number".** You don't control the results; what you control is whether the evidence is enough and whether the claim matches the evidence `[Our analysis]`.
+**And don't define "done" as "results reach some number".** You don't control the results; what you control is whether the evidence is enough and whether the claim matches the evidence.
 
 **Write it down:** For each milestone, one sentence on what counts as done, covering scope, criterion, and the negative case. Then one sentence on what counts as done for the whole project.
 
@@ -147,9 +147,9 @@ With a milestone list in hand, the next step is ordering. People often do the ea
 
 1. For each milestone, make two rough estimates: **how likely it is to succeed** and **how long it will take**.
 2. **Do first the parts that are more likely to fail and take less time.** If something is going to fail, it is better to find out early: you waste less time and get information sooner[^steinhardt2018stochastic-e3]. In one sentence: sort by information gained per unit of time, highest first[^steinhardt2018stochastic-e4].
-3. **Then look at dependencies.** Some milestones can't start until another is finished; for example, if the leakage-judging method is unreliable, every comparison that follows is meaningless. Move such foundations earlier even if they aren't hard `[Our analysis]`.
+3. **Then look at dependencies.** Some milestones can't start until another is finished; for example, if the leakage-judging method is unreliable, every comparison that follows is meaningless. Move such foundations earlier even if they aren't hard.
 
-Ordering the example above `[Our analysis]`:
+Ordering the example above:
 
 | Milestone | Chance of failure | Time needed | Order |
 |---|---|---|---|
@@ -166,16 +166,16 @@ Many people are too slow to try to falsify their own ideas[^steinhardt2018stocha
 
 **How:**
 
-1. **Set goals at several levels.** The overall project goal is measured in months, the current subgoal in weeks, and the concrete goal right in front of you in days[^nanda2025mindsets-e3]. Milestones usually sit at the weeks level `[Our analysis]`.
-2. **Write a plan for at least the current phase and estimate how long each step will take.** You don't have to stick to it rigidly; deviating a lot is normal[^nanda2025mindsets-e4]. Research projects are uncertain by nature and their goals evolve[^turingwaydesign-e7], so estimate near-term milestones in detail and give later ones only a rough direction `[Our analysis]`.
+1. **Set goals at several levels.** The overall project goal is measured in months, the current subgoal in weeks, and the concrete goal right in front of you in days[^nanda2025mindsets-e3]. Milestones usually sit at the weeks level.
+2. **Write a plan for at least the current phase and estimate how long each step will take.** You don't have to stick to it rigidly; deviating a lot is normal[^nanda2025mindsets-e4]. Research projects are uncertain by nature and their goals evolve[^turingwaydesign-e7], so estimate near-term milestones in detail and give later ones only a rough direction.
 3. **Break near-term milestones into small chunks.** Practice breaking tasks into chunks of roughly 20 minutes to 2 hours[^steinhardt2018stochastic-e16]. Breaking work into chunks, estimating them, and putting them on your calendar is itself a task, and you need to set time aside for it[^parikh2018calendar-e4].
 4. **Measure your own estimation bias.** Estimate each task's time in advance, then log how long it actually took[^steinhardt2018stochastic-e16]. Rather than trying hard to estimate accurately, measure your "actual / estimated" multiplier and apply it when you schedule from then on[^parikh2018calendar-e2].
-5. **If a method is new to you, count the time to learn it.** For any method in your evidence-to-method table that you are using for the first time, set aside separate time to learn it (see [Choosing a method](02_choose-method.md#6-before-you-start-read-method-guides-and-learn-your-fields-conventions), Section 6) `[Our analysis]`.
-6. **Put the slack between milestones, not spread across every day.** What you worked out backward in Section 1 are the latest dates[^parikh2018calendar-e6]; the target dates in your plan should be earlier, and the gap between them is your slack `[Our analysis]`. Give the most slack to the milestone you are least sure of `[Our analysis]`.
+5. **If a method is new to you, count the time to learn it.** For any method in your evidence-to-method table that you are using for the first time, set aside separate time to learn it (see [Choosing a method](02_choose-method.md#6-before-you-start-read-method-guides-and-learn-your-fields-conventions), Section 6).
+6. **Put the slack between milestones, not spread across every day.** What you worked out backward in Section 1 are the latest dates[^parikh2018calendar-e6]; the target dates in your plan should be earlier, and the gap between them is your slack. Give the most slack to the milestone you are least sure of.
 
-**How much slack?** Our sources do not give a general ratio. If you are new and haven't measured your estimation bias yet, schedule using your estimates at first, log the actual time, and after one or two milestones reschedule using the multiplier you measured `[Our analysis]`.
+**How much slack?** Our sources do not give a general ratio. If you are new and haven't measured your estimation bias yet, schedule using your estimates at first, log the actual time, and after one or two milestones reschedule using the multiplier you measured.
 
-**Set an internal deadline before the real one.** Some groups require, two weeks before the deadline, a draft of at least 5 pages that includes all the final experiments (the numbers need not be final), and review it internally following the same process as the real peer review[^karpathy2016survival-e8]. Laying out the whole paper early almost always exposes a few key experiments you must add to make the argument coherent and convincing[^karpathy2016survival-e9], and the earlier you find them, the more time you have to run them. If you are submitting to a journal, you can set yourself an internal date for the final draft in the same way `[Our analysis]`.
+**Set an internal deadline before the real one.** Some groups require, two weeks before the deadline, a draft of at least 5 pages that includes all the final experiments (the numbers need not be final), and review it internally following the same process as the real peer review[^karpathy2016survival-e8]. Laying out the whole paper early almost always exposes a few key experiments you must add to make the argument coherent and convincing[^karpathy2016survival-e9], and the earlier you find them, the more time you have to run them. If you are submitting to a journal, you can set yourself an internal date for the final draft in the same way.
 
 **Write it down:** Estimate the time for your first two milestones, broken down to weeks. Mark the internal deadline on your plan, and the slack you have left after each milestone.
 
@@ -185,7 +185,7 @@ Once the plan is written, go through it with your advisor. This isn't a formalit
 
 **Bring a draft; don't show up empty-handed asking "what should I do next?"** Based on your own judgment, propose a few things in priority order and explain why[^huang2023advisor-e6].
 
-**What to agree on with your advisor** `[Our analysis]`:
+**What to agree on with your advisor**:
 
 | What to agree on | How you might ask |
 |---|---|
@@ -197,11 +197,11 @@ Once the plan is written, go through it with your advisor. This isn't a formalit
 
 You can also tell your advisor about your working habits and preferences, so they understand you better and the two of you work together more smoothly[^dredze2012successful-e15].
 
-**After the meeting, write down what you agreed and send it to your advisor.** Right after the meeting, send a summary of the discussion and the next steps you both agreed on[^huang2023advisor-e7]. When the plan changes, send your advisor the new version too `[Our analysis]`.
+**After the meeting, write down what you agreed and send it to your advisor.** Right after the meeting, send a summary of the discussion and the next steps you both agreed on[^huang2023advisor-e7]. When the plan changes, send your advisor the new version too.
 
 **If you are going to miss a deadline, say so early.** If you think you won't make a deadline, be sure to tell your advisor; they would much rather know early[^dredze2012successful-e20].
 
-Your advisor usually has good research instincts, but you know more about this particular problem than they do, sometimes enough to make a better call[^nanda2025mindsets-e15]. So getting on board doesn't mean having your advisor make the plan for you; it means having your advisor check your plan. When you disagree, come with your reasons and the results of a small test `[Our analysis]`. For how to run regular meetings with your advisor and report progress, see [Collaboration and advisors](../08_throughout/collaboration_and_advisors.md).
+Your advisor usually has good research instincts, but you know more about this particular problem than they do, sometimes enough to make a better call[^nanda2025mindsets-e15]. So getting on board doesn't mean having your advisor make the plan for you; it means having your advisor check your plan. When you disagree, come with your reasons and the results of a small test. For how to run regular meetings with your advisor and report progress, see [Collaboration and advisors](../08_throughout/collaboration_and_advisors.md).
 
 **Write it down:** Send the draft plan to your advisor and set up a meeting. Afterward, write down the finish line, milestone order, "done" criteria, and the date of your next joint checkpoint that you both agreed on.
 
@@ -211,7 +211,7 @@ The plan will change. One regret researchers report looking back on projects is 
 
 So decide in advance: **in which situations you change the plan, and what you change.** Rescheduling is part of planning, not a failure[^parikh2018calendar-e3].
 
-| What happens | What to change `[Our analysis]` |
+| What happens | What to change |
 |---|---|
 | A milestone runs past its slack | Reschedule what follows; tell your advisor; consider cutting secondary milestones |
 | The first milestone fails | Don't just change dates; go back to the project itself: does the claim need to change? See "When to go back" |
@@ -219,18 +219,18 @@ So decide in advance: **in which situations you change the plan, and what you ch
 | You find an experiment you must add | Add it to the milestone list and reorder following Section 4 |
 | The evidence is clearly not enough before the deadline | Narrow the claim, or aim for a later venue (see "Judgment calls") |
 
-When you change the plan, work from the top down: first see whether the claim has changed, then the milestones, and only then the dates `[Our analysis]`. If you change only the dates and not the content, the plan soon drifts away from reality.
+When you change the plan, work from the top down: first see whether the claim has changed, then the milestones, and only then the dates. If you change only the dates and not the content, the plan soon drifts away from reality.
 
-**Keep old versions.** Each time you change the plan, add a line saying "what changed and why"; a few months later you can see clearly how the project got where it is `[Our analysis]`.
+**Keep old versions.** Each time you change the plan, add a line saying "what changed and why"; a few months later you can see clearly how the project got where it is.
 
-**Check regularly.** Every week or two, compare against the plan and ask: what is still missing before the next milestone counts as done `[Our analysis]`? For how to do a weekly review and organize your day-to-day time, see [Planning and daily routines](../08_throughout/planning_and_routines.md).
+**Check regularly.** Every week or two, compare against the plan and ask: what is still missing before the next milestone counts as done? For how to do a weekly review and organize your day-to-day time, see [Planning and daily routines](../08_throughout/planning_and_routines.md).
 
 > **Where sources disagree: should you draw a Gantt chart?**
 >
 > - One recommendation is to build a timeline with key milestones, deliverables, and deadlines, and it lists Gantt charts, roadmaps, and project boards as useful tools[^turingwaydesign-e5].
 > - The same source also warns that management approaches that carry out steps one after another in a fixed order are rigid, hard to adjust once started, and not well suited to research[^turingwaydesign-e8].
 >
-> In practice `[Our analysis]`: a Gantt chart works well for marking **milestones and external deadlines** (submission, defense, end of a grant), so you and your advisor can see the big timing relationships; don't put the exploratory work inside a milestone on the Gantt chart, and let regular check-ins decide the next step instead.
+> In practice: a Gantt chart works well for marking **milestones and external deadlines** (submission, defense, end of a grant), so you and your advisor can see the big timing relationships; don't put the exploratory work inside a milestone on the Gantt chart, and let regular check-ins decide the next step instead.
 
 **Write it down:** Add a "change log" section at the end of your plan. Then write two or three triggers of the form "if this happens, I change the plan".
 
@@ -238,7 +238,7 @@ When you change the plan, work from the top down: first see whether the claim ha
 
 ## Judgment calls
 
-**When time runs short, what do you cut?** Working backward from the finish line often shows there isn't enough time. Here is one way to decide `[Our analysis]`:
+**When time runs short, what do you cut?** Working backward from the finish line often shows there isn't enough time. Here is one way to decide:
 
 | Situation | What you usually do |
 |---|---|
@@ -247,21 +247,21 @@ When you change the plan, work from the top down: first see whether the claim ha
 | The narrowed claim is no longer interesting | Aim for a later venue and finish as originally planned |
 | The milestone you are least sure of hasn't been tested and the deadline is close | Test it first; until it is tested, don't force the rest of the work into a schedule built around the deadline |
 
-**How detailed should the plan be?** Detailed enough that you can answer "what am I doing this week, and why". Plan the next milestone down to weeks; beyond that, list only milestones and rough months `[Our analysis]`.
+**How detailed should the plan be?** Detailed enough that you can answer "what am I doing this week, and why". Plan the next milestone down to weeks; beyond that, list only milestones and rough months.
 
 ## Common mistakes
 
 | Mistake | Why it's a problem |
 |---|---|
-| Milestones written as "finish the program", "finish running experiments" | They get done on time while the project may not have moved forward `[Our analysis]` |
-| Not writing down what counts as done | The project drags on forever, or you rush to submit without enough evidence `[Our analysis]`; researchers looking back on projects also list not pushing for clear success criteria from the start as a regret[^turingwaydesign-e1] |
+| Milestones written as "finish the program", "finish running experiments" | They get done on time while the project may not have moved forward |
+| Not writing down what counts as done | The project drags on forever, or you rush to submit without enough evidence; researchers looking back on projects also list not pushing for clear success criteria from the start as a regret[^turingwaydesign-e1] |
 | Submitting because the deadline has arrived | When you submit is decided by the deadline, not by whether the research has been done thoroughly[^fortnow2009time-e2] |
 | Doing the easy parts first | The hard parts only reveal fundamental problems at the end, and the plan has to be redone[^steinhardt2018stochastic-e2] |
 | Treating the latest dates from working backward as planned dates | There is no slack at all[^parikh2018calendar-e6] |
 | Estimating time by gut feeling | The estimates are off, and you don't know by how much; measuring your "actual / estimated" multiplier is much easier[^parikh2018calendar-e2] |
 | Writing a detailed plan dozens of pages long at the start | You keep putting off starting; research goals change anyway[^turingwaydesign-e3][^turingwaydesign-e7] |
 | Laying out the whole paper for the first time on the day of the deadline | Too late to add the missing key experiments[^karpathy2016survival-e9] |
-| Once the plan is set, changing only dates, never content | Requirements often change during research, and the design has to change with them[^turingwaydesign-e4]; if you only change dates, the plan soon drifts away from reality `[Our analysis]` |
+| Once the plan is set, changing only dates, never content | Requirements often change during research, and the design has to change with them[^turingwaydesign-e4]; so if you only change dates, the plan soon drifts away from reality |
 
 ## What you should have at the end
 

@@ -14,11 +14,11 @@ For what the terms claim, contribution, evidence, research strategy and research
 
 > "On real smart contracts, our new method finds 30% more vulnerabilities than existing tools, with no increase in false positives."
 
-That sentence contains two things: a new **artifact** (here, a vulnerability detection method) and **evidence** that it beats current practice. Delivering the thing without the evidence is product development; comparing without building anything new is [Comparative evaluation](compare_evaluate.md) `[Our analysis]`.
+That sentence contains two things: a new **artifact** (here, a vulnerability detection method) and **evidence** that it beats current practice. Delivering the thing without the evidence is product development; comparing without building anything new is [Comparative evaluation](compare_evaluate.md).
 
 **It answers a design question.** Knowledge questions ask what the world is like; design questions ask how to do something better, in the form "What's an effective way to achieve X?" or "What strategies help to achieve X?" In software engineering, most non-empirical research is concerned with design questions[^easterbrook2008selecting-e28]. In a classification of software engineering research questions, the matching form is "How can we do (or automate doing) X?", "What is a better way to do X?"[^shaw2003writing-e25]. The software engineering review standards (the empirical standards of ACM SIGSOFT, the Association for Computing Machinery's Special Interest Group on Software Engineering) call this *engineering research*: "research that invents and evaluates technological artifacts"[^ralph2020empirical-e79]. The artifact can be an algorithm, model, language, method, system, tool and so on[^ralph2020empirical-e80].
 
-**How to tell it apart from nearby strategies** `[Our analysis]`:
+**How to tell it apart from nearby strategies**:
 
 | Your central claim | Strategy |
 |---|---|
@@ -29,13 +29,13 @@ That sentence contains two things: a new **artifact** (here, a vulnerability det
 
 The dividing line is whether anything being compared is **something you newly built**. If you only compare other people's tools, it is comparative evaluation; the difference is spelled out in [Comparative evaluation](compare_evaluate.md#1-what-kind-of-knowledge-this-research-produces). The software engineering review standards also say explicitly that studies that only evaluate existing approaches, and studies that only report experience applying existing approaches, are not judged by the engineering research standard[^ralph2020empirical-e80]. A project often has both a new method and a new dataset; pick the main strategy from the central claim and treat the rest as supporting contributions (see [Key concepts](../00_start-here/key-concepts.md#research-strategy)).
 
-**It assumes you already understand the problem well enough.** A design question presupposes that the related knowledge questions have been answered and that you know enough about the problem you want to solve[^easterbrook2008selecting-e29]. If you can't yet explain **why** existing tools miss vulnerabilities or raise false alarms, you may need a round of [Description](observe_describe.md) before you start building `[Our analysis]`. In software engineering, a long-term research program usually alternates between design questions and knowledge questions[^easterbrook2008selecting-e29].
+**It assumes you already understand the problem well enough.** A design question presupposes that the related knowledge questions have been answered and that you know enough about the problem you want to solve[^easterbrook2008selecting-e29]. If you can't yet explain **why** existing tools miss vulnerabilities or raise false alarms, you may need a round of [Description](observe_describe.md) before you start building. In software engineering, a long-term research program usually alternates between design questions and knowledge questions[^easterbrook2008selecting-e29].
 
 **Beyond the thing itself, aim to deliver an understanding of why it works.** In education, design-based research (research that designs, tries out and refines an instructional intervention over several rounds in real classrooms) is widely held to produce both effective interventions and useful theory[^easterday2014design-e1]; developing teaching materials just by repeatedly trying out and refining prototypes, with no theoretical yield, does not count as this kind of research[^bakker2015introduction-e3]. Machine learning has similar advice: don't only ask "how well does it work", also ask "what made it work, and why"[^lipton2019troubling-e7].
 
 ## 2. What evidence is enough
 
-When reviewers read a building-and-improving paper, they are roughly asking themselves the six questions below `[Our analysis]`. Most of the sources in the table come from software engineering and machine learning; in other fields, treat them as a reference:
+When reviewers read a building-and-improving paper, they are roughly asking themselves the six questions below (the six questions are our own grouping). Most of the sources in the table come from software engineering and machine learning; in other fields, treat them as a reference:
 
 | Reviewers will ask | Evidence you need to provide | In the smart-contract example |
 |---|---|---|
@@ -46,7 +46,7 @@ When reviewers read a building-and-improving paper, they are roughly asking them
 | Does it still work in other settings? | Results on several datasets and several kinds of subjects[^lones2021avoid-e10] | Different vulnerability types, contracts from different sources |
 | What are the costs and limitations? | A conceptual discussion of strengths, weaknesses and limitations[^ralph2020empirical-e81] | The cost of calling the large language model, the running time, which vulnerability types it still can't find |
 
-Some rules for judging whether the evidence is enough. They come from software engineering writing guides and review standards, and the reasoning broadly carries over to other fields `[Our analysis]`:
+Some rules for judging whether the evidence is enough. They come from software engineering writing guides and review standards; we think the reasoning broadly carries over to other fields:
 
 - **Aim the evidence at the claim.** If you claim better performance, analyze performance, not ease of use or generality[^shaw2003writing-e29].
 - **The bolder the claim, the harder the evidence must be.** "Always works" often needs analytic validation; a qualified claim such as "a 25% improvement" can be backed by evaluation; "there exists an instance" can sometimes be shown with a single positive example[^shaw2003writing-e16].
@@ -55,13 +55,13 @@ Some rules for judging whether the evidence is enough. They come from software e
 - **Two exceptions.** If the question itself is "can it be done at all?", a running system may be enough to answer it[^shaw2003writing-e10]. The more innovative the artifact and the more thorough the conceptual analysis, the less is expected of the empirical part; conversely, the less innovation, the more rigorous the evaluation has to be[^ralph2020empirical-e94][^ralph2020empirical-e90].
 - **Novel doesn't mean complicated.** "Not technically complicated" is not a valid criticism; what matters is that it works, and unnecessary complexity is actually undesirable[^ralph2020empirical-e96].
 
-These six questions apply to building and improving in every field, but "compared with what" and "measured how" depend on the field `[Our analysis]`: computer science compares against baseline tools and benchmarks, chemistry looks at yield and substrate scope, education tries designs out over several rounds in real classrooms. For concrete practice, see the method pages listed in the next section.
+These six questions apply to building and improving in every field, but "compared with what" and "measured how" depend on the field: computer science compares against baseline tools and benchmarks, chemistry looks at yield and substrate scope, education tries designs out over several rounds in real classrooms. For concrete practice, see the method pages listed in the next section.
 
 **Write it down:** Write your central claim in one sentence, then fill in the second and third columns of the table above. Any cell you can't fill is evidence you are still missing.
 
 ## 3. Common research methods
 
-A strategy says what knowledge you need to produce; a method says how you get the evidence. Building and improving commonly uses these methods `[Our analysis]`:
+A strategy says what knowledge you need to produce; a method says how you get the evidence. Building and improving commonly uses these methods:
 
 | Method | Its role in building and improving |
 |---|---|
@@ -75,13 +75,13 @@ A strategy says what knowledge you need to produce; a method says how you get th
 | [Synthesis and characterization studies](../06_methods/synthesis_study.md) (cross-disciplinary method, mostly from chemistry) | Methodology work on new reactions and routes, using substrate scope and yields to show what the method can and cannot do |
 | [Practice-based research](../07_fields/arts/practices/practice_based_research.md) (arts practice) | The creative work produced is the basis of the knowledge contribution |
 
-**Why action research is listed here.** The software engineering review standards define action research as empirical research that studies how an intervention (such as introducing a method or tool) affects a real-life context[^ralph2020empirical-e330]; the point of action research is to introduce a change and observe how participants respond[^ralph2020empirical-e342]. So it serves two strategies: introducing an improvement in a real organization is building and improving; watching how people in a real setting respond is [Description](observe_describe.md) `[Our analysis]`. The same standard also says that action research is not an experiment[^ralph2020empirical-e343], so this handbook does not file it under [Causal explanation](explain_causality.md) `[Our analysis]`.
+**Why action research is listed here.** The software engineering review standards define action research as empirical research that studies how an intervention (such as introducing a method or tool) affects a real-life context[^ralph2020empirical-e330]; the point of action research is to introduce a change and observe how participants respond[^ralph2020empirical-e342]. So it serves two strategies: introducing an improvement in a real organization is building and improving; watching how people in a real setting respond is [Description](observe_describe.md). The same standard also says that action research is not an experiment[^ralph2020empirical-e343], so this handbook does not file it under [Causal explanation](explain_causality.md).
 
-A project often combines several methods: for example, benchmarking to show the method works, then a small controlled experiment to show developers can actually use it `[Our analysis]`.
+A project often combines several methods: for example, benchmarking to show the method works, then a small controlled experiment to show developers can actually use it.
 
 ## 4. How it shapes the whole project
 
-If you choose building and improving, a few things need to be done earlier and more carefully than with other strategies. The practices below use computer science as the example; the reasoning broadly carries over to other fields `[Our analysis]`. For details specific to computer science (evaluating fuzzers, measuring overhead in systems security, artifact badges and so on), see [Engineering research](../07_fields/computer-science/practices/engineering_research.md) in the computer science section.
+If you choose building and improving, a few things need to be done earlier and more carefully than with other strategies. The practices below use computer science as the example; the reasoning broadly carries over to other fields. For details specific to computer science (evaluating fuzzers, measuring overhead in systems security, artifact badges and so on), see [Engineering research](../07_fields/computer-science/practices/engineering_research.md) in the computer science section.
 
 ### Organize the whole project as "problem → technique → evaluation"
 
@@ -93,7 +93,7 @@ This three-part structure comes from the software engineering review standard fo
 
 **Finally the evaluation**, which answers the six questions from the previous section.
 
-This order isn't just how the paper is written; it is also the order in which you do the project `[Our analysis]`. If you start building a solution before the problem is clear, what you build often doesn't address the place where people are actually stuck. [Converging on a project](../01_find-a-problem/05_converge.md#2-is-it-worth-doing) has an example: if developers avoid existing tools because of too many false positives, then finding more vulnerabilities is not the key; reducing false positives is.
+This order isn't just how the paper is written; it is also the order in which you do the project. If you start building a solution before the problem is clear, what you build often doesn't address the place where people are actually stuck. [Converging on a project](../01_find-a-problem/05_converge.md#2-is-it-worth-doing) has an example: if developers avoid existing tools because of too many false positives, then finding more vulnerabilities is not the key; reducing false positives is.
 
 ### Get the baseline running early
 
@@ -101,13 +101,13 @@ This order isn't just how the paper is written; it is also the order in which yo
 
 You need at least two kinds of baseline: simpler alternatives to your method, to show that its extra complexity is really needed[^lones2021avoid-e1]; and the current state of the art[^lones2021avoid-e2]. These two points come from advice for machine learning; for what to do when a competitor's method is unavailable or won't run, see [Engineering research](../07_fields/computer-science/practices/engineering_research.md#step-4-choose-baselines) in the computer science section.
 
-Running baselines early has another benefit `[Our analysis]`: you quickly hit blockers such as a baseline that won't run or problems in the evaluation data. These are exactly the risks that [The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md) is meant to surface early.
+Running baselines early has another benefit: you quickly hit blockers such as a baseline that won't run or problems in the evaluation data. These are exactly the risks that [The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md) is meant to surface early.
 
 ### Estimate the room for improvement before you start
 
 **Measure the floor and the ceiling first.** This is advice from machine learning: in empirical work, measuring a "ceiling" (an upper bound on how good performance could possibly be) is often useful. One way is to swap the hardest component for a "cheating" version first, for example by peeking at the test set or using information that won't be available at deployment time[^steinhardt2018stochastic-e24]. Together with baselines, the ceiling marks out the range where performance can fall, which helps you interpret your core results[^steinhardt2018stochastic-e24].
 
-In the smart-contract example `[Our analysis]`: first tell the large language model directly "this contract has a reentrancy vulnerability, on line such-and-such" and see whether it can write a correct analysis. If it can't even do that well, there is little room to raise the detection rate through better prompts.
+In the smart-contract example: first tell the large language model directly "this contract has a reentrancy vulnerability, on line such-and-such" and see whether it can write a correct analysis. If it can't even do that well, there is little room to raise the detection rate through better prompts.
 
 **Then ask whether the improvement is worth it.** Great contributions are rarely made by adding another decimal place[^hamming1986you-e12]. Small improvements are most useful when they serve a bigger goal[^schulman2020opinionated-e11]; a new method that only slightly beats the baseline had better be very simple, or no one will use it[^schulman2020opinionated-e12].
 
@@ -115,7 +115,7 @@ In the smart-contract example `[Our analysis]`: first tell the large language mo
 
 ### Effects on later stages
 
-The table below is this handbook's own summary `[Our analysis]`:
+The table below is this handbook's own summary:
 
 | Stage | What to watch for in building and improving |
 |---|---|
@@ -130,9 +130,9 @@ The table below is this handbook's own summary `[Our analysis]`:
 Only what our sources can confirm:
 
 - **Computer science.** According to an analysis, published in 2003, of papers at ICSE (the International Conference on Software Engineering), the top software engineering conference, papers reporting a new development or analysis technique were the most common kind[^shaw2003writing-e26].
-- **Education.** Design-based research aims, among other things, to produce effective instructional interventions[^easterday2014design-e1], so it belongs here `[Our analysis]`.
-- **Chemistry.** Synthetic methodology belongs here `[Our analysis]`. Take the American Chemical Society's *Journal of Organic Chemistry*: it expects synthetic methods papers to show conceptual novelty in strategy, transformation or route, not merely the extension of previously reported chemistry to a different class of substrates, reagents or catalysts[^acsjocguidelines-e30].
-- **Arts.** When a creative work produced is the basis of the knowledge contribution, it is practice-based research[^candy2006practice-e1]. It is also "making something new", but it usually isn't compared against a baseline, and its criteria for judgment are very different from the fields above `[Our analysis]`; see that method page for details.
+- **Education.** Design-based research aims, among other things, to produce effective instructional interventions[^easterday2014design-e1], so it belongs here.
+- **Chemistry.** Synthetic methodology belongs here. Take the American Chemical Society's *Journal of Organic Chemistry*: it expects synthetic methods papers to show conceptual novelty in strategy, transformation or route, not merely the extension of previously reported chemistry to a different class of substrates, reagents or catalysts[^acsjocguidelines-e30].
+- **Arts.** When a creative work produced is the basis of the knowledge contribution, it is practice-based research[^candy2006practice-e1]. It is also "making something new", but it usually isn't compared against a baseline, and its criteria for judgment are very different from the fields above; see that method page for details.
 
 ## 6. Common mistakes
 
@@ -141,7 +141,7 @@ Only what our sources can confirm:
 | Designing a solution before understanding why existing methods fail | A design question presupposes understanding of the problem[^easterbrook2008selecting-e29] |
 | Comparing only against your own earlier work, not the current best | Systems security research lists this as a comparison flaw[^vanderkouwe2019sok-e4] |
 | Presenting a weak baseline as "state of the art" | It exaggerates the apparent benefit[^blackburn2018sigplan-e4] |
-| Carefully tuning your own method while competitors run with default or suboptimal settings | What you are comparing is tuning effort, not the new design `[Our analysis]`; for how to treat competitors fairly, see [Comparative evaluation](compare_evaluate.md#was-every-competitor-treated-equally) |
+| Carefully tuning your own method while competitors run with default or suboptimal settings | What you are comparing is tuning effort, not the new design; for how to treat competitors fairly, see [Comparative evaluation](compare_evaluate.md#was-every-competitor-treated-equally) |
 | Bundling several changes at once with no ablation | You can't tell where the gain comes from; sometimes only one of them actually matters[^lipton2019troubling-e4] |
 | Beating others only because of a better implementation | The gain doesn't come from the new design, so the novelty is questionable[^vanderkouwe2019sok-e8] |
 | Bolting huge machinery onto a simple method and calling it "better" | Adding big machinery almost always improves results a little; this is exactly the paper pattern being satirized[^zeller2021devil-e6] |

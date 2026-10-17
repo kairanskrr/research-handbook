@@ -8,11 +8,11 @@ How to use it:
 2. In the tables below, find the name you or your field use for this kind of research and follow the link. One project often draws on two or three pages.
 3. If you are not sure what kind of knowledge your research produces, start with the [Research strategies](../05_research-strategies/README.md) pages linked in the second-to-last column.
 
-Take the running example, "published evaluations of large language model vulnerability detectors are inflated by data leakage." Most researchers would call this an empirical study or an evaluation study. It mainly draws on the [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) page, especially the section [Is the benchmark itself valid?](../07_fields/computer-science/practices/benchmarking.md#3-is-the-benchmark-itself-valid); the knowledge it produces belongs to the [Measurement](../05_research-strategies/measure.md) strategy `[Our analysis]`.
+Take the running example, "published evaluations of large language model vulnerability detectors are inflated by data leakage." Most researchers would call this an empirical study or an evaluation study. It mainly draws on the [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) page, especially the section [Is the benchmark itself valid?](../07_fields/computer-science/practices/benchmarking.md#3-is-the-benchmark-itself-valid); the knowledge it produces belongs to the [Measurement](../05_research-strategies/measure.md) strategy.
 
 ## Find it by what you call it
 
-`[Our analysis]` The tables below are our own grouping, made to help you find things. The "You might call it" column collects common names, not strict definitions. The "Strategies it usually serves" column is based on the "Common research methods" section of each strategy page and on the opening of each page; where a strategy page doesn't list it, we say so. In the "Source" column, "method page" means a method used in several fields, and the field in parentheses is the one the page was originally written for; "[field] practice" means a practice used only in that field, kept in that field's folder.
+The tables below are our own grouping, made to help you find things. The "You might call it" column collects common names, not strict definitions. The "Strategies it usually serves" column is based on the "Common research methods" section of each strategy page and on the opening of each page; where a strategy page doesn't list it, we say so. In the "Source" column, "method page" means a method used in several fields, and the field in parentheses is the one the page was originally written for; "[field] practice" means a practice used only in that field, kept in that field's folder.
 
 ### Using published research as material
 
@@ -101,7 +101,7 @@ Take the running example, "published evaluations of large language model vulnera
 
 ### Same name, different things
 
-`[Our analysis]` Some names are common but mean different things in different fields and contexts. Work out which one you mean first:
+Some names are common but mean different things in different fields and contexts. Work out which one you mean first:
 
 - **survey**: if you mean a review paper, see [Review studies](review_study.md); if you mean sending out a questionnaire, see [Questionnaire surveys](questionnaire_survey.md); in archaeology, a survey is fieldwork on the ground, so see [Archaeological excavation and field survey](../07_fields/history-archaeology/practices/archaeological_excavation.md).
 - **empirical study**: covers any research that draws conclusions from observation and data; it is not one specific way of working. Go back to [Research strategies](../05_research-strategies/README.md) to decide whether you need description, comparison, measurement, or causation, then use the tables above to find the page.
@@ -116,13 +116,13 @@ Take the running example, "published evaluations of large language model vulnera
 - **One way of working can serve several strategies.** A controlled experiment, for example, can compare two existing tools, and it can also test "X causes Y". That is why each row in the tables above lists the strategies it usually serves.
 - **What goes in `06_methods/` and what goes in a field folder**: methods used by two or more fields go in `06_methods/`; practices used by only one field go under `practices/` in that field's folder, for example [Research practices specific to computer science](../07_fields/computer-science/practices/README.md). On the website, the navigation puts the two together as this "Research types" section.
 
-This division is a convention of this handbook `[Our analysis]`.
+This division is a convention of this handbook.
 
 For how to choose a strategy and a method based on your question, see [Choosing a method](../02_do-the-project/02_choose-method.md).
 
 ## Scope of these method pages
 
-`[Our analysis]` There are 34 method pages in `06_methods/`. Twenty-eight of them were originally written for computer science or for one other field, and moved here later because more than one field uses the method:
+There are 34 method pages in `06_methods/`. Twenty-eight of them were originally written for computer science or for one other field, and moved here later because more than one field uses the method:
 
 - **The 14 pages originally written for computer science** are aimed mainly at software engineering: most of their checklists follow the Empirical Standards of the Association for Computing Machinery's Special Interest Group on Software Engineering (ACM SIGSOFT), and most of their examples come from software engineering.
 - **The 14 pages originally written for other fields** follow that field's norms and sources; for example, the randomized controlled trial page follows medicine's trial reporting guidelines, and the quasi-experiment page describes how economists do it.

@@ -4,7 +4,7 @@ This page covers **quantitative simulation studies**: you build a computational 
 
 If you are measuring a real, running system, that is [Benchmarking](../07_fields/computer-science/practices/benchmarking.md); if you are using simulation to evaluate a new method or tool you have proposed, you also need to meet the requirements of [Engineering research](../07_fields/computer-science/practices/engineering_research.md). For the basic concepts of validity, see [Validity and limitations: think them through at the design stage](../02_do-the-project/04_validity-and-limits.md).
 
-**Scope** `[Our analysis]`: the checklist on this page is based on the empirical standards written for software engineering by ACM SIGSOFT (the Association for Computing Machinery Special Interest Group on Software Engineering); the list of threats to validity comes from a review of simulation studies in software engineering; and the examples are mostly computer systems and software projects. The practices for verification and validation and for output data analysis come from general simulation methodology tutorials (Sargent 2010, Alexopoulos & Kim 2002) and are not specific to computing. If you use models and simulation in another field, check your field's own conventions first; for numerical simulation in civil engineering, for example, see [Civil engineering: numerical simulation](../07_fields/civil-engineering/README.md#numerical-simulation-first-tell-verification-validation-and-calibration-apart).
+**Scope**: the checklist on this page is based on the empirical standards written for software engineering by ACM SIGSOFT (the Association for Computing Machinery Special Interest Group on Software Engineering); the list of threats to validity comes from a review of simulation studies in software engineering; and the examples are mostly computer systems and software projects. The practices for verification and validation and for output data analysis come from general simulation methodology tutorials (Sargent 2010, Alexopoulos & Kim 2002) and are not specific to computing. If you use models and simulation in another field, check your field's own conventions first; for numerical simulation in civil engineering, for example, see [Civil engineering: numerical simulation](../07_fields/civil-engineering/README.md#numerical-simulation-first-tell-verification-validation-and-calibration-apart).
 
 **Strategies it usually serves**: [Building and improving](../05_research-strategies/build_improve.md) (evaluating a new design on a model when experimenting directly on the real system is impractical).
 
@@ -22,11 +22,11 @@ If you are measuring a real, running system, that is [Benchmarking](../07_fields
 
 The ACM SIGSOFT Empirical Standards define it this way: a simulation study builds and uses a mathematical model that imitates the behavior of a real system, and usually involves understanding the problem, collecting data, building the model, verification, validation, experimental design, data analysis, and implementing the results[^ralph2020empirical-e397].
 
-This page covers only simulations in which **everything is represented by a computational model**. Studies in which people operate a simulation model (for example, students making decisions in a project management simulator) count as experiments with human participants[^ralph2020empirical-e398]. Common simulation approaches include discrete-event simulation (the system's state changes only when an "event" happens, such as a task arriving or finishing), system dynamics (describing a system with stocks, flows and feedback loops), and agent-based simulation (simulating many individuals that each act according to their own rules)[^ralph2020empirical-e400]. The standard was written for software engineering, but the same reasoning applies when areas such as systems and networking use simulation to study scheduling, protocols or architectures `[Our analysis]`.
+This page covers only simulations in which **everything is represented by a computational model**. Studies in which people operate a simulation model (for example, students making decisions in a project management simulator) count as experiments with human participants[^ralph2020empirical-e398]. Common simulation approaches include discrete-event simulation (the system's state changes only when an "event" happens, such as a task arriving or finishing), system dynamics (describing a system with stocks, flows and feedback loops), and agent-based simulation (simulating many individuals that each act according to their own rules)[^ralph2020empirical-e400]. The standard was written for software engineering, but the same reasoning applies when areas such as systems and networking use simulation to study scheduling, protocols or architectures.
 
 **When to use it**:
 
-- When experimenting in the real environment is infeasible or too risky[^defranca2015simulation-e18], for example because the system has not been built yet, is too large, or trial and error would be too costly `[Our analysis]`.
+- When experimenting in the real environment is infeasible or too risky[^defranca2015simulation-e18], for example because the system has not been built yet, is too large, or trial and error would be too costly (these examples are ours).
 - Your paper needs to explain why simulation suits your question; this is the first essential requirement in the standard[^ralph2020empirical-e399].
 
 **Keep in mind**: how far you can trust a simulation's conclusions depends on the model. If the real system cannot be observed, so you have no data on how it actually runs, you usually cannot have high confidence in the model; in that case, explore the model's behavior as thoroughly as you can and compare it with other valid models where possible[^sargent2010verification-e15].
@@ -39,7 +39,7 @@ This page covers only simulations in which **everything is represented by a comp
 
 **How:** Write down the questions the model must answer, which output variables you care about, and how accurate those outputs need to be. Ideally, set the accuracy requirements before you start building the model[^sargent2010verification-e3].
 
-**Why:** A model is built for a specific purpose, and it is valid or not only with respect to that purpose; a model that is valid under one set of experimental conditions may be invalid under another[^sargent2010verification-e2]. Without a purpose and accuracy requirements, there is no way to judge whether the model is "right" `[Our analysis]`.
+**Why:** A model is built for a specific purpose, and it is valid or not only with respect to that purpose; a model that is valid under one set of experimental conditions may be invalid under another[^sargent2010verification-e2]. Without a purpose and accuracy requirements, there is no way to judge whether the model is "right".
 
 ### Step 2: Build the model and write down its assumptions
 
@@ -50,13 +50,13 @@ This page covers only simulations in which **everything is represented by a comp
 
 **Why:** Every model has assumptions. As long as they are stated, justified, and their impact on validity is discussed, "the model makes assumptions" is not a valid criticism[^ralph2020empirical-e412]. Conversely, if assumptions are not stated, the results may be misread, and readers cannot judge how closely the model corresponds to the real phenomenon[^defranca2015simulation-e6].
 
-**Where people go wrong:** **Building the conclusion you want into the assumptions.** When de França and Travassos analyzed simulation papers in software engineering, this was the most frequent of the threats to validity those papers reported: the model's simplifying assumptions directly determine the output, so you could predict the result without running the simulation, and the simulation becomes pointless[^defranca2015simulation-e4]. For example, you want to study "does the new scheduling policy reduce latency?", but the model simply assumes "under the new policy, every task's waiting time drops by 20%" `[Our analysis]`. Comparing outputs with measured data will not catch this kind of problem; only methods that look inside the model, such as having simulation experts check it (face validity checks, see Step 3), can catch it[^defranca2015simulation-e16].
+**Where people go wrong:** **Building the conclusion you want into the assumptions.** When de França and Travassos analyzed simulation papers in software engineering, this was the most frequent of the threats to validity those papers reported: the model's simplifying assumptions directly determine the output, so you could predict the result without running the simulation, and the simulation becomes pointless[^defranca2015simulation-e4]. For example, you want to study "does the new scheduling policy reduce latency?", but the model simply assumes "under the new policy, every task's waiting time drops by 20%". Comparing outputs with measured data will not catch this kind of problem; only methods that look inside the model, such as having simulation experts check it (face validity checks, see Step 3), can catch it[^defranca2015simulation-e16].
 
 > **Where sources disagree: when data is missing, how far can you lean on assumptions?**
 > - The SIGSOFT standard holds that when calibration data is insufficient or too expensive, parts of the model can be replaced by assumptions, but you must say so and justify it[^ralph2020empirical-e411].
 > - de França and Travassos recommend something stricter: always test the model's assumptions[^defranca2015simulation-e14]. Sargent also recommends testing the assumptions and theories a model rests on wherever possible[^sargent2010verification-e19].
 >
-> In practice `[Our analysis]`: write down the source of every assumption; test the ones you can test with data; for the ones you can't, use sensitivity analysis (see Step 7) to see whether the conclusion changes when the assumption changes.
+> In practice: write down the source of every assumption; test the ones you can test with data; for the ones you can't, use sensitivity analysis (see Step 7) to see whether the conclusion changes when the assumption changes.
 
 ### Step 3: Verification and validation
 
@@ -78,7 +78,7 @@ Sargent breaks this into four checks[^sargent2010verification-e5][^sargent2010ve
 
 - **Test the code**: run the program under different conditions and use the outputs and intermediate values to judge whether the implementation is correct[^sargent2010verification-e14].
 - **Degenerate tests and extreme-condition tests**: choose special parameter values and check whether the behavior is reasonable. For example, when the arrival rate exceeds the service rate, a single server's queue should keep growing[^sargent2010verification-e8].
-- **Compare with analytical models**: check simple cases of the model against known theoretical results[^sargent2010verification-e9]. For example, a single-server queue can be checked against queueing theory formulas `[Our analysis]`.
+- **Compare with analytical models**: check simple cases of the model against known theoretical results[^sargent2010verification-e9]. For example, a single-server queue can be checked against queueing theory formulas.
 - **Ask experts** (face validity): have people who know the system judge whether the model and its behavior are reasonable[^sargent2010verification-e10]. de França and Travassos recommend having domain experts check the conceptual model, the executable model and the simulation results[^defranca2015simulation-e12].
 - **Compare with real data**: see Step 4.
 
@@ -93,7 +93,7 @@ Sargent breaks this into four checks[^sargent2010verification-e5][^sargent2010ve
 
 ### Step 4: Calibrate with real data, and hold some data back for testing
 
-**Calibration** means using real data to set the values of the model's parameters, for example using cluster logs to estimate the distributions of task arrival rates and run times `[Our analysis]`.
+**Calibration** means using real data to set the values of the model's parameters, for example using cluster logs to estimate the distributions of task arrival rates and run times.
 
 **How:**
 
@@ -121,7 +121,7 @@ Sargent breaks this into four checks[^sargent2010verification-e5][^sargent2010ve
 
 1. **Run a stochastic model many times, independently.** Running a stochastic model only once is an antipattern listed in the standard[^ralph2020empirical-e409]: a single result may reflect nothing but random variation, rather than the mechanism you want to study[^defranca2015simulation-e2].
 2. **Do your statistics on per-run averages.** Observations within one run are usually correlated rather than independent and identically distributed, so classical statistical methods cannot be applied to them directly[^alexopoulos2002output-e1]. The usual approach is to make several independent runs (replications) and treat each run's sample mean as an independent observation[^alexopoulos2002output-e3][^alexopoulos2002output-e7]. Replications also tell you how much random variation there is inside the model[^sargent2010verification-e12].
-3. **First decide whether it is a terminating or a steady-state simulation.** A terminating simulation starts from a specific state and ends at some event (for example, simulating one week of operation `[Our analysis]`); a steady-state simulation studies the system's long-run behavior[^alexopoulos2002output-e2].
+3. **First decide whether it is a terminating or a steady-state simulation.** A terminating simulation starts from a specific state and ends at some event (for example, simulating one week of operation); a steady-state simulation studies the system's long-run behavior[^alexopoulos2002output-e2].
 4. **In a steady-state simulation, remove the warm-up period.** The system starts from an "empty" state, so the data at the start carries initialization bias[^alexopoulos2002output-e4]. The most common remedy is to discard the opening stretch of each run (the warm-up period), because the initial state mainly affects data at the start of a run[^alexopoulos2002output-e5][^alexopoulos2002output-e7]. To decide how much to discard, you can use Welch's graphical method: average the outputs of several runs, plot a moving-average curve, and take the point where the curve starts to settle[^alexopoulos2002output-e6].
 
 **Where people go wrong:** Thinking that more runs will remove the warm-up bias. The systematic error caused by the initial state cannot be reduced by adding replications[^alexopoulos2002output-e8].
@@ -132,7 +132,7 @@ Sargent breaks this into four checks[^sargent2010verification-e5][^sargent2010ve
 
 **How and why:**
 
-- **To test the model**: the relationships in the model should match those in the real system[^sargent2010verification-e11]. For example, if throughput drops when you add machines, either you have found a real phenomenon or the model has a bug `[Our analysis]`.
+- **To test the model**: the relationships in the model should match those in the real system[^sargent2010verification-e11]. For example, if throughput drops when you add machines, either you have found a real phenomenon or the model has a bug.
 - **To find the key parameters**: parameters with a large effect on the output need to be made accurate enough before the model is used[^sargent2010verification-e11].
 - **To avoid "fishing" for results**: use the results of the sensitivity analysis to choose reasonable parameter settings, rather than trying parameters over and over until the result you want appears[^defranca2015simulation-e13].
 - **Report it**: the standard lists reporting a sensitivity analysis as a desirable attribute[^ralph2020empirical-e407].

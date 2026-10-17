@@ -4,7 +4,7 @@ This page covers **action research**: you partner with a real organization, take
 
 If you only observe and don't intervene, that is a [case study](case_study.md); if your contribution is a new tool or technique in itself, see [Engineering research](../07_fields/computer-science/practices/engineering_research.md).
 
-**Scope** `[Our analysis]`: the sources for this page come from software engineering and information systems. They are the action research standard in the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standards" below), Staron's guidelines for action research in software engineering (which restate the principles of Davison et al.), and dos Santos and Travassos's report on action research in software engineering. Other areas of computer science can use this page directly, as long as the study is about rolling out a change in a team or organization (for example, introducing a new incident postmortem process in an operations team, or new data management rules in a lab). If you do action research in another field, read that field's norms first, because the same name can mean different things. In education, for example, the educator in action research is both researcher and teacher[^anderson2012design-e4], and the work is usually done by teachers themselves[^anderson2012design-e5] (see the [education field overview](../07_fields/education/README.md#research-methods-common-in-this-field)). The approach on this page, where researchers and practitioners team up to bring about change in a real setting, is closer to what education calls [Design-based research](../07_fields/education/practices/design_based_research.md).
+**Scope**: the sources for this page come from software engineering and information systems. They are the action research standard in the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standards" below), Staron's guidelines for action research in software engineering (which restate the principles of Davison et al.), and dos Santos and Travassos's report on action research in software engineering. Other areas of computer science can use this page directly, as long as the study is about rolling out a change in a team or organization (for example, introducing a new incident postmortem process in an operations team, or new data management rules in a lab). If you do action research in another field, read that field's norms first, because the same name can mean different things. In education, for example, the educator in action research is both researcher and teacher[^anderson2012design-e4], and the work is usually done by teachers themselves[^anderson2012design-e5] (see the [education field overview](../07_fields/education/README.md#research-methods-common-in-this-field)). The approach on this page, where researchers and practitioners team up to bring about change in a real setting, is closer to what education calls [Design-based research](../07_fields/education/practices/design_based_research.md).
 
 **Strategies it usually serves**: [Building and improving](../05_research-strategies/build_improve.md) (introducing an improvement in a real organization) and [Description](../05_research-strategies/observe_describe.md) (seeing how people in a real setting respond).
 
@@ -28,7 +28,7 @@ Action research studies **how an intervention (such as introducing a method or t
 | Does the researcher intervene? | Yes; changing things and observing the results are at the core of the research[^ralph2020empirical-e331] | No; the researcher is an observer or participant[^staron2025guidelines-e2] | Yes, but under control, which favors small, isolated problems[^staron2025guidelines-e2] | Proposes and evaluates a technical artifact |
 | Suited to | Interventions with a social dimension, such as changing ways of working, processes or culture[^ralph2020empirical-e332] | Understanding a phenomenon in its real setting | Testing hypotheses | A new tool or technique in itself, especially one without a social dimension[^ralph2020empirical-e332] |
 
-If your study both builds a new tool and drives a change with a social dimension in an organization, refer to both standards[^ralph2020empirical-e332]. Action research and case studies are sometimes hard to tell apart, especially when some phases involve more observation than action[^santos2011action-e8]. A simple test: **did the researcher help decide on and drive the change?** `[Our analysis]`
+If your study both builds a new tool and drives a change with a social dimension in an organization, refer to both standards[^ralph2020empirical-e332]. Action research and case studies are sometimes hard to tell apart, especially when some phases involve more observation than action[^santos2011action-e8]. A simple test: **did the researcher help decide on and drive the change?**
 
 **Action research is not consulting, and it is not an experience report.** What sets it apart from everyday improvement work is that it is actively driven by theory and research methods[^santos2011action-e7]. You have to write down your criteria before the study starts; otherwise what you describe at the end may be "action rather than research"[^santos2011action-e5]. Conversely, systematic observation and reflection should not be dismissed as consulting, and consulting or experience should not pass itself off as action research[^ralph2020empirical-e342].
 
@@ -44,7 +44,7 @@ If the conditions aren't there, be ready to switch methods; in most cases, a cas
 
 ## 2. How to do it
 
-One example runs through this section: **you partner with a company's development team to introduce a code review process and evaluate its effect.** `[Our analysis]`
+One example runs through this section: **you partner with a company's development team to introduce a code review process and evaluate its effect.**
 
 ### Step 0: Agree on terms and build the team
 
@@ -55,7 +55,7 @@ Action research needs an agreement that sets out what each side will do and what
 - the project's goals and **evaluation measures**;
 - the data collection and analysis methods.
 
-Both sides also need to lay their expectations on the table: what results the researcher wants, what they plan to publish and how much time they will put in; how many resources the organization can provide, and whether it can actually carry out the intervention[^staron2025guidelines-e10]. Also agree on any review before publication and on confidentiality requirements `[Our analysis]`.
+Both sides also need to lay their expectations on the table: what results the researcher wants, what they plan to publish and how much time they will put in; how many resources the organization can provide, and whether it can actually carry out the intervention[^staron2025guidelines-e10]. Also agree on any review before publication and on confidentiality requirements.
 
 **Who to approach**: in a hierarchical organization, go to management first; in an autonomous one, go to the team first[^staron2025guidelines-e11]. **Your team needs two kinds of people**: at least a few people with research degrees, and at least a few practitioners from the organization[^staron2025guidelines-e8].
 
@@ -67,7 +67,7 @@ Action research proceeds in cycles. A common description is a five-phase cycle[^
 
 **1. Diagnose**: get a full picture of the situation, the stakeholders and their expectations[^santos2011action-e2], and identify the problem and its likely causes. The researcher must **diagnose** the organization's situation **independently**[^staron2025guidelines-e4].
 
-> Example: you interview team members and look at the defect records, and find that many defects are discovered only after merging, partly because nobody looks at anyone else's code. `[Our analysis]`
+> Example: you interview team members and look at the defect records, and find that many defects are discovered only after merging, partly because nobody looks at anyone else's code.
 
 **2. Plan**: design an intervention aimed at the causes you diagnosed[^staron2025guidelines-e17], and write down in advance the theory it is based on, which you will later use to explain the results[^staron2025guidelines-e22]. Decide these things in advance:
 
@@ -85,7 +85,7 @@ Action research proceeds in cycles. A common description is a five-phase cycle[^
 
 **4. Evaluate**: look at both quantitative and qualitative effects[^staron2025guidelines-e12][^ralph2020empirical-e334]:
 
-- Quantitative: compare against the baseline, for example time spent on review, or the number of defects found after merging[^staron2025guidelines-e12]; `[Our analysis, for the specific metrics]`
+- Quantitative: compare against the baseline, for example time spent on review, or the number of defects found after merging (these two metrics are our examples)[^staron2025guidelines-e12];
 - Qualitative: interviews, workshops, retrospectives[^staron2025guidelines-e12];
 - report how participants and stakeholders reacted to the intervention[^ralph2020empirical-e336], but **don't report only what participants think**: you need a systematic evaluation that doesn't avoid the problems[^ralph2020empirical-e341];
 - when you collect data before the intervention, be prepared for the Hawthorne effect: people change their behavior when they know they are being observed[^staron2025guidelines-e15].
@@ -104,7 +104,7 @@ In action research you are often both the researcher and the person driving the 
 > - Staron argues that in software engineering, the research must be embedded in the organization, or the change will often be abandoned[^staron2025guidelines-e5]. Embedded means the researcher is either employed by the organization or has the same access as its employees[^staron2025guidelines-e7].
 > - The SIGSOFT standards warn that getting too involved with the community you study, and losing distance and impartiality, is an antipattern[^ralph2020empirical-e341].
 >
-> The two don't contradict each other: being embedded makes the change actually stick, and keeping your distance makes the evaluation credible. In practice, you can take part deeply in the intervention and still keep the evaluation fair with the measures below `[Our analysis]`.
+> The two don't contradict each other: being embedded makes the change actually stick, and keeping your distance makes the evaluation credible. In practice, you can take part deeply in the intervention and still keep the evaluation fair with the measures below.
 
 **How to reduce bias**:
 
@@ -121,7 +121,7 @@ The SIGSOFT standards treat "it only studied one organization, so the conclusion
 
 On the other hand, **don't generalize too quickly yourself**: what worked in one organization won't necessarily work in another[^staron2025guidelines-e22]. The theories action research produces are often concrete relationships taken directly from observation, or somewhat more abstract "middle-range theories" that still stay close to what was observed[^santos2011action-e14]. So:
 
-- **Describe the context in detail**, including which interventions were made[^staron2025guidelines-e20], for example the type of organization, team size and project background `[Our analysis]`. If you must choose between disclosing the organization's name and disclosing its characteristics, the characteristics are more useful to readers[^staron2025guidelines-e20];
+- **Describe the context in detail**, including which interventions were made[^staron2025guidelines-e20], for example the type of organization, team size and project background. If you must choose between disclosing the organization's name and disclosing its characteristics, the characteristics are more useful to readers[^staron2025guidelines-e20];
 - **Explain your process**: action research can't reach the repeatability of the natural sciences, but you need to make clear the process by which you reached your conclusions[^santos2011action-e6].
 
 For a general discussion of validity, see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
@@ -144,7 +144,7 @@ For the general principles of research ethics, see [Research integrity and ethic
 
 ## 6. Checklist
 
-This checklist follows the SIGSOFT action research standard, which is a review standard for software engineering; in other fields, your own field's norms take precedence `[Our analysis]`.
+This checklist follows the SIGSOFT action research standard, which is a review standard for software engineering; in other fields, your own field's norms take precedence.
 
 **Essential**
 

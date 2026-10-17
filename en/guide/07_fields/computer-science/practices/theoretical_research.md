@@ -2,11 +2,11 @@
 
 This page is about **research whose main results are theorems and proofs**: for example, proving an upper or lower bound on an algorithm's complexity, proving that a protocol is secure under some adversary model, or using formal methods to prove that a system satisfies some property.
 
-**Scope** `[Our analysis]`: this is how theoretical computer science works, and also the formal side of software engineering, systems, and security. It belongs to the [Proof](../../../05_research-strategies/prove.md) research strategy. The general questions (what kind of knowledge a proof produces; what evidence reviewers expect to see: all assumptions stated, a complete proof that others can check, whether it needs machine checking, how far the assumptions are from reality) are covered on the strategy page. This page covers how, in computer science, you choose a problem, make progress, and write and check a proof.
+**Scope**: this is how theoretical computer science works, and also the formal side of software engineering, systems, and security. It belongs to the [Proof](../../../05_research-strategies/prove.md) research strategy. The general questions (what kind of knowledge a proof produces; what evidence reviewers expect to see: all assumptions stated, a complete proof that others can check, whether it needs machine checking, how far the assumptions are from reality) are covered on the strategy page. This page covers how, in computer science, you choose a problem, make progress, and write and check a proof.
 
 If your main result is a system or tool you built, with experiments showing that it works, see [Engineering research](engineering_research.md). If you compare many methods' performance on the same tasks, see [Benchmarking](benchmarking.md). Many papers do both: use this page for the proof part, and [Building and improving](../../../05_research-strategies/build_improve.md) for the experimental part.
 
-**What this page rests on**: the ACM SIGSOFT Empirical Standards (the review standards for research in software engineering, from the Association for Computing Machinery Special Interest Group on Software Engineering) are written for empirical research and **have no standard for theoretical research**. The practices and checklist on this page are compiled from essays by Lamport, Tao, Aaronson, and others `[Our analysis]`. Much of Tao's and Lamport's advice is written for mathematicians and applies to any work whose result is a proof; it is marked *(all proof-based work)*. Practices that hold only in computer science are marked *(computer science)*.
+**What this page rests on**: the ACM SIGSOFT Empirical Standards (the review standards for research in software engineering, from the Association for Computing Machinery Special Interest Group on Software Engineering) are written for empirical research and **have no standard for theoretical research**. The practices and checklist on this page are compiled from essays by Lamport, Tao, Aaronson, and others. Much of Tao's and Lamport's advice is written for mathematicians and applies to any work whose result is a proof; it is marked *(all proof-based work)*. Practices that hold only in computer science are marked *(computer science)*.
 
 **After reading this page, you should be able to:**
 
@@ -19,7 +19,7 @@ If your main result is a system or tool you built, with experiments showing that
 
 ## 1. What this research is and when to use it
 
-Theoretical research produces **conclusions that hold in every case satisfying the assumptions**, not "on the data we measured". Results usually fall into four kinds `[Our analysis]`:
+Theoretical research produces **conclusions that hold in every case satisfying the assumptions**, not "on the data we measured". Results usually fall into four kinds (our own grouping):
 
 | Result | Example | Question it answers |
 |---|---|---|
@@ -28,7 +28,7 @@ Theoretical research produces **conclusions that hold in every case satisfying t
 | Model or definition | A new model of computation, or a new security definition | What concepts should we use to describe this problem? |
 | Formal guarantee | A protocol satisfies confidentiality under some adversary model; a machine-checked proof that an algorithm is correct | Under explicit assumptions, is a system guaranteed to have some property? |
 
-How it differs from related kinds of research `[Our analysis]`:
+How it differs from related kinds of research:
 
 | | Theoretical research | Engineering research | Benchmarking |
 |---|---|---|---|
@@ -49,10 +49,10 @@ How it differs from related kinds of research `[Our analysis]`:
 **How:**
 
 1. **Start with problems you can actually solve; don't throw yourself at a famous hard problem right away.** Terence Tao (a mathematician) notes that famous problems are almost never solved out of nowhere[^taocareer-e13]. He advises spending most of your time on more tractable "low-hanging fruit", building up experience, skill, and reputation, and taking on more ambitious projects once you are ready[^taocareer-e14]. Richard Hamming (a mathematician at Bell Labs) put it this way: a problem is important not because the result would be big, but because you have a reasonable attack on it[^hamming1986you-e2]. General advice on choosing a problem is in [Generating candidate problems](../../../01_find-a-problem/02_generate-problems.md).
-2. **Confirm the problem is still open.** Find the key papers on the problem and look at which later papers cite them[^taocareer-e16], to see whether anyone has already solved, improved, or refuted it. Also look for related **lower bounds and impossibility results**: a claimed result that conflicts with a known impossibility result without mentioning it is a classic sign of a bogus "breakthrough"[^aaronson2008ten-e3]. If you are unsure, ask your advisor or an expert in the area `[Our analysis]`. For how to search the literature, see [Reading papers and surveying the literature](../../../01_find-a-problem/01_enter-a-field.md).
-3. **Confirm your definitions are the ones everyone else uses.** Write down the precise problem statement and compare it word by word with the standard literature: the model of computation, how input size is measured, what the adversary can do, what "secure" means `[Our analysis]`. Keep your notation as close to the existing literature as you can, too[^taowriting-e8].
+2. **Confirm the problem is still open.** Find the key papers on the problem and look at which later papers cite them[^taocareer-e16], to see whether anyone has already solved, improved, or refuted it. Also look for related **lower bounds and impossibility results**: a claimed result that conflicts with a known impossibility result without mentioning it is a classic sign of a bogus "breakthrough"[^aaronson2008ten-e3]. If you are unsure, ask your advisor or an expert in the area. For how to search the literature, see [Reading papers and surveying the literature](../../../01_find-a-problem/01_enter-a-field.md).
+3. **Confirm your definitions are the ones everyone else uses.** Write down the precise problem statement and compare it word by word with the standard literature: the model of computation, how input size is measured, what the adversary can do, what "secure" means. Keep your notation as close to the existing literature as you can, too[^taowriting-e8].
 
-**Where people go wrong:** misunderstanding the problem itself. Scott Aaronson (a theoretical computer scientist) lists "the authors don't understand the question" as one of the signs of a bogus breakthrough[^aaronson2008ten-e1]. More often, your definition is slightly off from the standard one: you have proved a weaker or different statement without noticing `[Our analysis]`.
+**Where people go wrong:** misunderstanding the problem itself. Scott Aaronson (a theoretical computer scientist) lists "the authors don't understand the question" as one of the signs of a bogus breakthrough[^aaronson2008ten-e1]. More often, your definition is slightly off from the standard one: you have proved a weaker or different statement without noticing.
 
 ### Step 2: Make progress on the proof *(all proof-based work)*
 
@@ -71,11 +71,11 @@ When you get stuck, try these in order:
 
 - Define notation used throughout the paper together, near the start; define notation used only locally close to where it is used[^taowriting-e9].
 - An expression is worth its own notation only if you use it three or more times; one used once usually doesn't need any[^taowriting-e7]. Avoid fancy notation[^taowriting-e10].
-- Key terms must be defined precisely[^taowriting-e11]. Otherwise an expression can have two readings, the argument uses one early on and the other later, and the error becomes very hard to pin to a single step `[Our analysis]`.
+- Key terms must be defined precisely[^taowriting-e11]. Otherwise an expression can have two readings, the argument uses one early on and the other later, and the error becomes very hard to pin to a single step.
 
 **State every assumption.** Even theorems in textbooks carry unstated assumptions[^lamport2012how-e6]. A lemma is a good moment to restate all the current assumptions and notation[^taowriting-e2]. If you say each time you use an assumption, then when you later need to weaken one, a search shows you everywhere it was used[^lamport1995how-e4].
 
-**Use structured proofs.** Lamport's method rests on two principles: structure and naming[^lamport2012how-e1]. Write the proof as numbered steps, each with its own proof underneath, which can in turn be broken into further levels; the last step of every proof asserts the statement being proved[^lamport2012how-e4]. A sketch (format modeled on Lamport's; the last step is written Q.E.D. `[Our analysis]`):
+**Use structured proofs.** Lamport's method rests on two principles: structure and naming[^lamport2012how-e1]. Write the proof as numbered steps, each with its own proof underneath, which can in turn be broken into further levels; the last step of every proof asserts the statement being proved[^lamport2012how-e4]. A sketch (format modeled on Lamport's; the last step is written Q.E.D.):
 
 ```
 THEOREM: (full statement, including every assumption)
@@ -109,11 +109,11 @@ A way to start: take an existing short proof, rewrite it in structured form, the
 
 When hunting for errors, intuition and non-rigorous reasoning are perfectly fine; rigor is required when you build the proof[^taowriting-e15].
 
-**Local checks: go through it step by step.** Imagine a curious child sitting next to you who asks "why?" after every assertion[^lamport2012how-e5]. A test of whether you really understand it: can you explain the argument clearly to a fellow student?[^taocareer-e20] Rereading it a few days later, or having a labmate or your advisor read it, are other ways to get a fresh pair of eyes `[Our analysis]`. Structure by itself does not guarantee there are no errors; you still have to be careful[^lamport2012how-e11].
+**Local checks: go through it step by step.** Imagine a curious child sitting next to you who asks "why?" after every assertion[^lamport2012how-e5]. A test of whether you really understand it: can you explain the argument clearly to a fellow student?[^taocareer-e20] Rereading it a few days later, or having a labmate or your advisor read it, are other ways to get a fresh pair of eyes. Structure by itself does not guarantee there are no errors; you still have to be careful[^lamport2012how-e11].
 
 **Make the proof robust to local errors.** Organize the proof so that an error in one step doesn't bring down the whole thing and still leaves a valuable partial result[^taowriting-e14].
 
-***(Computer science)* When to use a proof assistant (software that checks a formal proof step by step, such as TLAPS, the proof system for TLA+).** Formalizing mathematics is not hard, but writing proofs a machine can check is not easy[^lamport2012how-e8]. So it is not something every paper needs. It pays off most for proofs with many details, where one missing assumption becomes a bug, such as concurrent algorithms, protocols, and system correctness `[Our analysis]`, based on [^lamport2012how-e10][^lamport2012how-e9]. Even if you never use one, learning to write formal proofs teaches you to write ordinary proofs[^lamport2012how-e3].
+***(Computer science)* When to use a proof assistant (software that checks a formal proof step by step, such as TLAPS, the proof system for TLA+).** Formalizing mathematics is not hard, but writing proofs a machine can check is not easy[^lamport2012how-e8]. So it is not something every paper needs. It pays off most for proofs with many details, where one missing assumption becomes a bug, such as concurrent algorithms, protocols, and system correctness, based on [^lamport2012how-e10][^lamport2012how-e9]. Even if you never use one, learning to write formal proofs teaches you to write ordinary proofs[^lamport2012how-e3].
 
 ### Step 5: Give both intuition and formality *(all proof-based work)*
 
@@ -128,11 +128,11 @@ The point of rigor is not to destroy intuition but to destroy bad intuition and 
 > - **Lamport**: expand until it's obvious, then one more level[^lamport1995how-e6]; structured proofs are longer mainly because they contain more detail[^lamport1995how-e9]. He suggests preparing two versions: a detailed one for yourself, reviewers, and interested colleagues, and a shorter one for publication[^lamport1995how-e8].
 > - **Tao**: a paper should spend more words on the most important and novel parts and keep the routine, standard parts brief[^taowriting-e6].
 >
-> The two don't conflict: **write it out in full detail when checking for yourself; vary the detail when writing for readers.** Computer science conference papers have page limits, and the usual practice is to give the key proofs and sketches in the main text and put full proofs in an appendix or in a full version on a preprint server `[Our analysis]`.
+> The two don't conflict: **write it out in full detail when checking for yourself; vary the detail when writing for readers.** Computer science conference papers have page limits, and the usual practice is to give the key proofs and sketches in the main text and put full proofs in an appendix or in a full version on a preprint server.
 
 ### Step 6: Submitting: conferences and journals *(computer science)*
 
-In computer science, conferences are the main publication venue. Theory also values conferences, but has a long tradition of completing and extending conference papers and then submitting them to journals[^cra1999evaluating-e4]. For the overall picture, see the [field overview](../README.md). A few reminders `[Our analysis]`:
+In computer science, conferences are the main publication venue. Theory also values conferences, but has a long tradition of completing and extending conference papers and then submitting them to journals[^cra1999evaluating-e4]. For the overall picture, see the [field overview](../README.md). A few reminders:
 
 - The conference version has limited space, so the full proofs need somewhere to live (an appendix or a full version) where reviewers can find them if they need to;
 - A journal version is not just more pages: it completes and corrects the proofs that were omitted or compressed in the conference version;
@@ -144,7 +144,7 @@ For submission, see [Choosing a venue and submitting](../../../03_write-and-publ
 
 ## 3. Checklist
 
-The SIGSOFT Empirical Standards have no standard for theoretical research; the checklist below is compiled from this page's sources `[Our analysis]`.
+The SIGSOFT Empirical Standards have no standard for theoretical research; the checklist below is compiled from this page's sources.
 
 **Must do**
 
@@ -166,12 +166,12 @@ The SIGSOFT Empirical Standards have no standard for theoretical research; the c
 
 - Not every proof needs machine checking; writing machine-checkable proofs is very costly[^lamport2012how-e8].
 - You don't have to solve the whole problem at once: special cases, partial results, and counterexamples can all be publishable in their own right[^taocareer-e22][^taocareer-e2].
-- A purely theoretical result (a lower bound, for example) doesn't need experiments `[Our analysis]`.
+- A purely theoretical result (a lower bound, for example) doesn't need experiments.
 
 **Common but invalid reviewer criticisms**
 
-- "The proof is too long": if it is long because the details are filled in, that is the price of rigor, not a flaw[^lamport1995how-e9]. (But "too long" can also be a sign of unclear structure, which is worth checking `[Our analysis]`.)
-- "No experimental validation": not a valid criticism of a purely theoretical result `[Our analysis]`.
+- "The proof is too long": if it is long because the details are filled in, that is the price of rigor, not a flaw[^lamport1995how-e9]. (But "too long" can also be a sign of unclear structure, which is worth checking.)
+- "No experimental validation": not a valid criticism of a purely theoretical result.
 
 ---
 
@@ -185,9 +185,9 @@ The SIGSOFT Empirical Standards have no standard for theoretical research; the c
 | A key assumption is never used anywhere | A sign of a global error[^taowriting-e13] |
 | Writing "this case is similar and is omitted" | Lamport considers this unacceptable; find a general step that handles both cases at once[^lamport1995how-e7] |
 | Treating a proof sketch as a proof | A sketch explains the idea but can't replace the step-by-step argument[^lamport2012how-e13] |
-| Too much notation, or notation that is too fancy | Tao advises introducing notation only for expressions you use repeatedly, and avoiding fancy notation[^taowriting-e7][^taowriting-e10]; otherwise readers keep flipping back to look things up `[Our analysis]` |
+| Too much notation, or notation that is too fancy | Tao advises introducing notation only for expressions you use repeatedly, and avoiding fancy notation[^taowriting-e7][^taowriting-e10]; otherwise readers keep flipping back to look things up |
 | The abstract says "we prove", but by the end it has become "this appears to work" | The proof has degraded into a "plausible argument", a classic sign of an error[^aaronson2008ten-e4] |
-| A newcomer goes straight for a famous hard problem | Hardly any hard problem is solved out of nowhere[^taocareer-e13]; it is easy to go a long time with nothing to show `[Our analysis]` |
+| A newcomer goes straight for a famous hard problem | Hardly any hard problem is solved out of nowhere[^taocareer-e13]; it is easy to go a long time with nothing to show |
 
 ---
 

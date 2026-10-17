@@ -2,7 +2,7 @@
 
 This page covers **optimization studies**: you formulate a computing problem as "find the best among many candidate solutions", solve it with optimization techniques such as search or evolutionary algorithms, and show experimentally how well the solving works. **Search-Based Software Engineering** (SBSE), for example automatically generating test cases, is the typical case in software engineering.
 
-**Scope** `[Our analysis]`: this is how it is done in computer science; the examples and standards come mainly from search-based software engineering. When you propose a new search method, the work belongs to the [Building and improving](../../../05_research-strategies/build_improve.md) research strategy; when you compare several algorithms to see which is better, it belongs to [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md). The parts of these strategies that hold in every field (what evidence you need, how to compare fairly) are on the strategy pages; this page covers only what is specific to optimization studies.
+**Scope**: this is how it is done in computer science; the examples and standards come mainly from search-based software engineering. When you propose a new search method, the work belongs to the [Building and improving](../../../05_research-strategies/build_improve.md) research strategy; when you compare several algorithms to see which is better, it belongs to [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md). The parts of these strategies that hold in every field (what evidence you need, how to compare fairly) are on the strategy pages; this page covers only what is specific to optimization studies.
 
 An optimization study is often also a piece of [Engineering research](engineering_research.md) (you propose a new method), and its evaluation also looks like a [Benchmarking](benchmarking.md) study. "How to configure competitors fairly and how to control the measurement environment" is covered under benchmarking; the basic ideas of significance testing and effect size are in [Analysis and interpretation](../../../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value).
 
@@ -23,9 +23,9 @@ The ACM SIGSOFT Empirical Standards (from the Association for Computing Machiner
 - **Fitness function** (also called the objective function): a numeric function that scores each candidate solution; the score says how good the solution is[^ralph2020empirical-e375]. For test case generation, the score might be how many code branches are covered.
 - **Solution method**: an algorithm that pushes this score as high (or as low) as possible, such as a metaheuristic (genetic algorithms, simulated annealing, and so on), a numerical optimizer, or a constraint solver. Some of these are stochastic[^ralph2020empirical-e376].
 
-The standard was written for software engineering, but the same idea is common across computing, for example automatic tuning of compiler flags, cluster job scheduling, and hyperparameter search in machine learning `[Our analysis]`.
+The standard was written for software engineering, but the same idea is common across computing, for example automatic tuning of compiler flags, cluster job scheduling, and hyperparameter search in machine learning.
 
-**How it differs from similar kinds of study** `[Our analysis]`:
+**How it differs from similar kinds of study**:
 
 | | Optimization study | Benchmarking | Quantitative simulation |
 |---|---|---|---|
@@ -48,20 +48,20 @@ The standard was written for software engineering, but the same idea is common a
 3. **The fitness function**: which objective you optimize, and the formula for computing it.
 4. **The search space and constraints**: what the variables are, what values each can take, and what constraints apply.
 
-**Why:** the formulation decides what the algorithm can find. If readers can't see your formulation, they can't tell whether the results come from a good algorithm or from a clever (or excessive) simplification of the problem `[Our analysis]`.
+**Why:** the formulation decides what the algorithm can find. If readers can't see your formulation, they can't tell whether the results come from a good algorithm or from a clever (or excessive) simplification of the problem.
 
 **Where people go wrong:**
 
 - **Oversimplifying.** Simplifications and constraints should be realistic and modest; if you simplify the problem until every solution can be enumerated, you no longer need optimization[^ralph2020empirical-e378].
 - **An unrealistic option space.** Attribute values should be ones that could occur in reality, not drawn from an arbitrary distribution[^ralph2020empirical-e386].
-- **Forcing several objectives into one score.** When you have several conflicting objectives (such as coverage and test duration), simply combining them into one weighted score hides the trade-offs between them `[Our analysis]`. The SIGSOFT standards point out that when evaluating multi-objective methods, what matters more is the Pareto front (a set of solutions in which none can be improved on one objective without getting worse on another) and the corresponding quality indicators[^ralph2020empirical-e395].
+- **Forcing several objectives into one score.** When you have several conflicting objectives (such as coverage and test duration), simply combining them into one weighted score hides the trade-offs between them. The SIGSOFT standards point out that when evaluating multi-objective methods, what matters more is the Pareto front (a set of solutions in which none can be improved on one objective without getting worse on another) and the corresponding quality indicators[^ralph2020empirical-e395].
 
 ### Step 2: Choose the algorithm and the baselines
 
 **How:**
 
 1. **Explain why you chose this algorithm.** For a new problem, few people know which algorithm is best; but at least draw on algorithms used for similar problems and make an informed judgment[^ralph2020empirical-e379].
-2. **Always compare against random search.** Random search simply keeps generating random solutions and keeps the best one `[Our analysis]`. For a new problem, compare at least against random search; for a problem others have already tackled, compare against the current state of the art[^ralph2020empirical-e380].
+2. **Always compare against random search.** Random search simply keeps generating random solutions and keeps the best one. For a new problem, compare at least against random search; for a problem others have already tackled, compare against the current state of the art[^ralph2020empirical-e380].
 3. **Also compare against simpler methods.** A method that looks sophisticated should be compared against simpler alternatives[^menzies2019bad-e7].
 
 **Why compare against random search**: it is the only way to confirm that success is not because the problem (or the instances you picked) is simply too easy[^arcuri2014hitchhiker-e4]. Arcuri & Briand give an example: an award-winning paper at ICSE 2009 (the International Conference on Software Engineering) used genetic programming (a kind of evolutionary algorithm) to generate patches that fix bugs, with only 400 fitness evaluations per run in total (a population of 40 over 10 generations); on half of the subjects, on average, a suitable patch was already found when the first generation was randomly generated, before the evolutionary search had really started[^arcuri2014hitchhiker-e3].
@@ -72,9 +72,9 @@ The standard was written for software engineering, but the same idea is common a
 
 1. **State every parameter of every method and its value**, such as population size, crossover rate, and mutation rate[^ralph2020empirical-e382], and explain why you set them that way[^ralph2020empirical-e387].
 2. **Tune everyone equally.** Carefully tuning your own method while leaving competitors on default settings is particularly bad practice: such a comparison only shows that "a well-tuned new method beats a badly tuned other method"[^menzies2019bad-e5][^menzies2019bad-e6]. How to tune everyone equally is in [Step 3](benchmarking.md#step-3-choose-the-systems-to-compare-and-configure-each-one-fairly) of the benchmarking page.
-3. **Give every method the same search budget**, such as the same number of fitness evaluations or the same running time, and state it in the paper `[Our analysis]`. The 400-evaluation example above shows that readers need to know how big the budget was to judge how much the search actually contributed[^arcuri2014hitchhiker-e3].
+3. **Give every method the same search budget**, such as the same number of fitness evaluations or the same running time, and state it in the paper. The 400-evaluation example above shows that readers need to know how big the budget was to judge how much the search actually contributed[^arcuri2014hitchhiker-e3].
 4. **Report costs.** When choosing an algorithm in practice, besides effectiveness and p-values you also need to look at differences in cost, such as execution time and how much input the user must provide[^arcuri2014hitchhiker-e6].
-5. **Preferably don't use the problem instances you tuned on for the final evaluation as well.** Otherwise the parameters may just happen to suit those instances `[Our analysis]`; the reasoning is the same as the rule in [Building and improving](../../../05_research-strategies/build_improve.md#effects-on-later-stages) that examples consulted during development can't be reused for evaluation.
+5. **Preferably don't use the problem instances you tuned on for the final evaluation as well.** Otherwise the parameters may just happen to suit those instances; the reasoning is the same as the rule in [Building and improving](../../../05_research-strategies/build_improve.md#effects-on-later-stages) that examples consulted during development can't be reused for evaluation.
 
 Going further, you can systematically analyze the effect of different parameter choices and explain how the final parameters were selected; the standard lists this as Extraordinary[^ralph2020empirical-e390].
 
@@ -93,7 +93,7 @@ A stochastic algorithm run twice on the same problem instance may give different
 > - Arcuri & Briand recommend at least 1000 runs of each algorithm on each problem instance; if you can't, explain why and report how long the whole experiment took. Their reasoning is that for most software engineering problems, a few thousand runs is feasible[^arcuri2014hitchhiker-e13][^arcuri2014hitchhiker-e9]. They also acknowledge there will be exceptions; deviating is fine as long as you justify it[^arcuri2014hitchhiker-e20].
 > - The SIGSOFT standards set no number: when experiments are very time-consuming or involve people, a limited number of runs is acceptable, but you must disclose the limitation and discuss the effect of randomness[^ralph2020empirical-e391].
 >
-> In practice: first estimate how long one run takes. If you can afford more runs, do more; if you can't, honestly report the number of runs, the total time, and your reasons `[Our analysis]`. If you have many problem instances and limited time, Arcuri & Briand suggest doing fewer runs per instance (at least 10) and using more instances[^arcuri2014hitchhiker-e14].
+> In practice: first estimate how long one run takes. If you can afford more runs, do more; if you can't, honestly report the number of runs, the total time, and your reasons. If you have many problem instances and limited time, Arcuri & Briand suggest doing fewer runs per instance (at least 10) and using more instances[^arcuri2014hitchhiker-e14].
 
 ### Step 5: Compare with appropriate statistics
 
@@ -103,7 +103,7 @@ A stochastic algorithm run twice on the same problem instance may give different
 
 Arcuri & Briand recommend a two-tailed Mann-Whitney U test for numeric results (such as coverage), and Fisher's exact test (a test comparing the number of successes in two groups) for binary found/not-found results[^arcuri2014hitchhiker-e16].
 
-In plain terms `[Our analysis]`: pool the runs from A and B, sort them from smallest to largest, and see whether one group systematically ranks higher. It looks only at ranks and does not require the results to be normally distributed. That matters, because the results of search algorithms are often highly skewed[^arcuri2014hitchhiker-e7].
+In plain terms: pool the runs from A and B, sort them from smallest to largest, and see whether one group systematically ranks higher. It looks only at ranks and does not require the results to be normally distributed. That matters, because the results of search algorithms are often highly skewed[^arcuri2014hitchhiker-e7].
 
 Report every p-value, whether or not it falls below the significance level, rather than just saying "significant"[^arcuri2014hitchhiker-e17].
 
@@ -111,7 +111,7 @@ Report every p-value, whether or not it falls below the significance level, rath
 
 Â12 is the probability that one random run of A gives a higher result than one random run of B. When the two are equivalent, Â12 = 0.5; Â12 = 0.7 means A gives the higher result 70% of the time[^arcuri2014hitchhiker-e8].
 
-Example `[Our analysis]`: suppose three runs of A give {42, 11, 7} and three runs of B give {1, 20, 5}. Pair each result of A with each result of B: 3 × 3 = 9 pairs. A is higher in 7 pairs (42 wins 3 pairs, 11 and 7 win 2 each, both losing to 20), with no ties, so Â12 = 7/9 ≈ 0.78 (each tie would count as half a pair). Watch the direction: when lower is better for the metric (such as running time), A is better only when Â12 is below 0.5 `[Our analysis]`.
+Example: suppose three runs of A give {42, 11, 7} and three runs of B give {1, 20, 5}. Pair each result of A with each result of B: 3 × 3 = 9 pairs. A is higher in 7 pairs (42 wins 3 pairs, 11 and 7 win 2 each, both losing to 20), with no ties, so Â12 = 7/9 ≈ 0.78 (each tie would count as half a pair). Watch the direction: when lower is better for the metric (such as running time), A is better only when Â12 is below 0.5.
 
 **Why you need both**: a significance test answers "can we tell them apart?"; an effect size answers "is the difference big enough to care about?"[^ralph2020empirical-e396]. With thousands of runs, almost any difference becomes significant[^arcuri2014hitchhiker-e9], so reporting only the test and not the effect size is an antipattern listed in the standard[^ralph2020empirical-e392]. Match the effect size to the test: with a rank-based test, use a rank-based effect size (such as Â12), not "difference in means divided by standard deviation"[^arcuri2014hitchhiker-e10][^arcuri2014hitchhiker-e7].
 

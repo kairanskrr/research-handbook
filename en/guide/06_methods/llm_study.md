@@ -4,7 +4,7 @@ This page covers **empirical studies that involve large language models (LLMs)**
 
 For the general evaluation workflow (choosing benchmarks, configuring systems fairly, measuring, analyzing), see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md). For studying how people use LLM tools, see [Controlled experiments](controlled_experiment.md). If you have built a new LLM-based tool and need to evaluate it for a whole paper, see [Engineering research](../07_fields/computer-science/practices/engineering_research.md). Statistical tests are covered in [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md), and validity in [Validity and limitations](../02_do-the-project/04_validity-and-limits.md). This page covers only the extra problems that LLMs bring.
 
-**Scope** `[Our analysis]`: This page draws mainly on software engineering sources: the guidelines for empirical studies involving LLMs in software engineering, written jointly by 22 researchers (Baltes et al., "the LLM guidelines" below), and Sallou et al.'s paper on threats to validity from LLMs. The evaluation parts also use the lessons of the developers of lm-eval, an evaluation framework from natural language processing (Biderman et al.), and a position paper on data contamination (Sainz et al.). The annotation parts use best practices from the social sciences (Törnberg). The LLM guidelines say explicitly that they target software engineering; medicine, human–computer interaction, and machine-learning-based science each have their own reporting guidelines for LLM work[^baltes2026guidelines-e35]. If you work in one of those fields, read your field's guidelines first.
+**Scope**: This page draws mainly on software engineering sources: the guidelines for empirical studies involving LLMs in software engineering, written jointly by 22 researchers (Baltes et al., "the LLM guidelines" below), and Sallou et al.'s paper on threats to validity from LLMs. The evaluation parts also use the lessons of the developers of lm-eval, an evaluation framework from natural language processing (Biderman et al.), and a position paper on data contamination (Sainz et al.). The annotation parts use best practices from the social sciences (Törnberg). The LLM guidelines say explicitly that they target software engineering; medicine, human–computer interaction, and machine-learning-based science each have their own reporting guidelines for LLM work[^baltes2026guidelines-e35]. If you work in one of those fields, read your field's guidelines first.
 
 **Strategies it usually serves**: [Measurement](../05_research-strategies/measure.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Building and improving](../05_research-strategies/build_improve.md).
 
@@ -20,7 +20,7 @@ For the general evaluation workflow (choosing benchmarks, configuring systems fa
 
 ## 1. What this kind of study is, and when to use it
 
-The LLM guidelines classify studies by **the role the LLM plays in the research**, not by research method, and one study can fall into several categories[^baltes2026guidelines-e1]. These boil down to two groups `[Our analysis]`:
+The LLM guidelines classify studies by **the role the LLM plays in the research**, not by research method, and one study can fall into several categories[^baltes2026guidelines-e1]. We group them into two broad kinds:
 
 | What the LLM is | Specific roles | Examples |
 |---|---|---|
@@ -29,15 +29,15 @@ The LLM guidelines classify studies by **the role the LLM plays in the research*
 
 **Why this gets its own page.** LLMs add three headaches to empirical research: their output is non-deterministic, so each run gives different results; commercial models change even while the version name stays the same; and even models billed as "open" often don't release their training data[^baltes2026guidelines-e5]. As a result, many studies can't be reproduced. One survey looked at 85 LLM-centric papers from two top software engineering conferences in 2024. Of the 18 that used OpenAI models and provided research materials, only 5 could be run at all, and none fully reproduced the original results[^baltes2026guidelines-e4].
 
-**Questions it is good at** `[Our analysis]`:
+**Questions it is good at**:
 
 - How well does a given LLM do on a given task, how much better is it than traditional methods, and is it worth the cost?
 - Can published LLM evaluation results be trusted, or were they inflated by data contamination, for example?
 - Can an LLM reliably do a research task in place of people, such as labeling or scoring?
 
-**Questions it is not good at.** How people use LLMs in real work, and what effect LLMs have on people, need studies with human participants, such as [Controlled experiments](controlled_experiment.md), [Questionnaire surveys](questionnaire_survey.md), or [Interview studies](interview_study.md) `[Our analysis]`. There is also no convincing evidence yet that LLMs can accurately simulate human participants[^baltes2026guidelines-e27]. So results from LLMs acting as participants can't be taken directly as findings about people.
+**Questions it is not good at.** How people use LLMs in real work, and what effect LLMs have on people, need studies with human participants, such as [Controlled experiments](controlled_experiment.md), [Questionnaire surveys](questionnaire_survey.md), or [Interview studies](interview_study.md). There is also no convincing evidence yet that LLMs can accurately simulate human participants[^baltes2026guidelines-e27]. So results from LLMs acting as participants can't be taken directly as findings about people.
 
-**How it differs from related methods** `[Our analysis]`:
+**How it differs from related methods**:
 
 | | Empirical studies with LLMs (this page) | [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) | [Controlled experiments](controlled_experiment.md) | [Engineering research](../07_fields/computer-science/practices/engineering_research.md) |
 |---|---|---|---|---|
@@ -46,7 +46,7 @@ The LLM guidelines classify studies by **the role the LLM plays in the research*
 
 Real projects often use several of these pages together: when you evaluate LLMs, follow the benchmarking page for the general workflow, then add the LLM-specific steps from this page.
 
-**Example** `[Our analysis]`: The running example, "Published evaluations of large language model vulnerability detectors are inflated by data leakage," is an empirical study with LLMs. The models are the objects being evaluated, and the study measures how much of their score on public benchmark contracts comes from having "seen" those contracts during training. If you also have another LLM extract "which vulnerability type was reported, and on which line" from each model's answer, that LLM becomes a research tool, and you have to declare it and validate it separately (see Step 7).
+**Example**: The running example, "Published evaluations of large language model vulnerability detectors are inflated by data leakage," is an empirical study with LLMs. The models are the objects being evaluated, and the study measures how much of their score on public benchmark contracts comes from having "seen" those contracts during training. If you also have another LLM extract "which vulnerability type was reported, and on which line" from each model's answer, that LLM becomes a research tool, and you have to declare it and validate it separately (see Step 7).
 
 ---
 
@@ -61,9 +61,9 @@ The steps below add to the general workflow in [Benchmarking](../07_fields/compu
 - Say which LLM you used, how you used it, and at which point in the research process[^baltes2026guidelines-e7].
 - If LLMs play several roles, declare each one separately: for example, one model generates evaluation data and another scores the outputs[^baltes2026guidelines-e7].
 
-**Why:** Different roles raise different worries `[Our analysis]`. For a model under evaluation, you worry about contamination and variation (Steps 4 and 6); for a model used as a tool, you need to validate it against human judgment (Step 7). Sort out the roles first, and every later step tells you which model it applies to.
+**Why:** Different roles raise different worries. For a model under evaluation, you worry about contamination and variation (Steps 4 and 6); for a model used as a tool, you need to validate it against human judgment (Step 7). Sort out the roles first, and every later step tells you which model it applies to.
 
-**Where people go wrong:** Writing only "we used an LLM to assist with data processing," without saying which model or what it processed. Readers then can't judge how it might affect the results `[Our analysis]`.
+**Where people go wrong:** Writing only "we used an LLM to assist with data processing," without saying which model or what it processed. Readers then can't judge how it might affect the results.
 
 **Write it down:** A table with one row for every place an LLM is used: which model, what role, what goes in, and where the output is used.
 
@@ -94,7 +94,7 @@ The steps below add to the general workflow in [Benchmarking](../07_fields/compu
 
 **Why:** The exact wording of a prompt, down to whitespace, can noticeably change performance. Switching between common prompting styles sometimes shifts results by more than 20%, and which style works best varies by model, so the prompt can change model rankings and the study's conclusions[^biderman2024lessons-e4]. Research cited by the LLM guidelines shows that prompt formatting alone can change accuracy by up to 76 percentage points[^baltes2026guidelines-e5]. Performance across prompt formats correlates only weakly between models, so comparing models with a single, arbitrarily chosen format is methodologically unsound[^baltes2026guidelines-e13].
 
-**Where people go wrong:** Carefully tuning the prompt for your own method while giving the comparison models a prompt written in five minutes. Evaluators are already under pressure to pick flattering prompts[^biderman2024lessons-e2]; part of the gap you measure this way comes from the prompts, not the method `[Our analysis]`.
+**Where people go wrong:** Carefully tuning the prompt for your own method while giving the comparison models a prompt written in five minutes. Evaluators are already under pressure to pick flattering prompts[^biderman2024lessons-e2]; so part of the gap you measure this way comes from the prompts, not the method.
 
 **Write it down:** A prompt change log: the full text of each prompt version, what changed and why, which models it was tried on, and how it did.
 
@@ -122,9 +122,9 @@ The effect can be large. Sallou et al. found that ChatGPT knows the bugs in the 
 > - The software engineering LLM guidelines require studies that use existing benchmarks to discuss contamination as a limitation[^baltes2026guidelines-e20].
 > - Törnberg, writing for the social sciences, argues that for text annotation, the validation data appearing in the training data is not necessarily a problem, as long as the data you actually annotate appears there too; but don't use public, already-labeled datasets as validation sets, because the model may have seen the labels[^tornberg2024best-e16].
 >
-> In practice `[Our analysis]`: it depends on what you are measuring. If you are measuring **the model's ability**, contamination directly inflates the score and you have to deal with it. If you are only **using the model to annotate**, what matters is how accurately it labels your real data, and the requirement is that the validation data and the real data are alike in whether the model has seen them.
+> In practice: it depends on what you are measuring. If you are measuring **the model's ability**, contamination directly inflates the score and you have to deal with it. If you are only **using the model to annotate**, what matters is how accurately it labels your real data, and the requirement is that the validation data and the real data are alike in whether the model has seen them.
 
-**Example** `[Our analysis]`: This step is the heart of the smart-contract project. Split the benchmark contracts into two groups: public contracts the model "may have seen," and contracts it "cannot have seen." The second group has two sources: contracts deployed after the model's training cutoff, and metamorphic rewrites of public contracts, such as renaming functions and variables, removing comments, and reordering unrelated statements. The difference in a model's detection rate between the two groups is where the "before and after removing leakage" column in the results table comes from. Note that the rewrites must not change the vulnerability itself, so check a sample of rewritten contracts by hand.
+**Example**: This step is the heart of the smart-contract project. Split the benchmark contracts into two groups: public contracts the model "may have seen," and contracts it "cannot have seen." The second group has two sources: contracts deployed after the model's training cutoff, and metamorphic rewrites of public contracts, such as renaming functions and variables, removing comments, and reordering unrelated statements. The difference in a model's detection rate between the two groups is where the "before and after removing leakage" column in the results table comes from. Note that the rewrites must not change the vulnerability itself, so check a sample of rewritten contracts by hand.
 
 **Write it down:** A contamination check table: for each benchmark and each model, which check you used and what it showed; where you couldn't check, say why.
 
@@ -137,11 +137,11 @@ The effect can be large. Sallou et al. found that ChatGPT knows the bugs in the 
 - **Justify each metric**, beyond "earlier work used it"[^baltes2026guidelines-e18]. For classification and annotation, accuracy alone is often not enough, and it is especially misleading when classes are imbalanced[^tornberg2024best-e12].
 - **Do an error analysis after the runs**: categorize the failures and report how common each category is[^baltes2026guidelines-e19]; find out why the model scores high or low[^biderman2024lessons-e12].
 
-**Why:** People are almost never interested in the score on a particular benchmark for its own sake. A benchmark is a proxy for some ability that is hard to measure directly[^biderman2024lessons-e9]. A traditional baseline and an error analysis tell readers what ability the score actually reflects `[Our analysis]`.
+**Why:** People are almost never interested in the score on a particular benchmark for its own sake. A benchmark is a proxy for some ability that is hard to measure directly[^biderman2024lessons-e9]. A traditional baseline and an error analysis tell readers what ability the score actually reflects.
 
-**Where people go wrong:** Comparing only against other LLMs. Ranking LLMs against each other says nothing about how much better LLMs are than traditional methods, or whether they are worth using `[Our analysis]`.
+**Where people go wrong:** Comparing only against other LLMs. Ranking LLMs against each other says nothing about how much better LLMs are than traditional methods, or whether they are worth using.
 
-**Example** `[Our analysis]`: In the smart-contract project, existing static analysis tools can be the traditional baseline. They don't depend on training data and aren't affected by contamination, which makes them a good reference point: if the LLMs far outperform the static tools on contracts they "may have seen" but roughly match them on contracts they "cannot have seen," that in itself is evidence of inflation.
+**Example**: In the smart-contract project, existing static analysis tools can be the traditional baseline. They don't depend on training data and aren't affected by contamination, which makes them a good reference point: if the LLMs far outperform the static tools on contracts they "may have seen" but roughly match them on contracts they "cannot have seen," that in itself is evidence of inflation.
 
 **Write it down:** Each baseline and each metric, with one sentence on why you chose it.
 
@@ -177,16 +177,16 @@ Agreement is commonly measured with Krippendorff's alpha (1 means perfect agreem
 
 **Why:** Several models agreeing with each other may just mean they share the same biases, so check a sample against human experts[^baltes2026guidelines-e25]. Reliability is not validity: an LLM can consistently give the same wrong answer every time[^baltes2026guidelines-e28].
 
-**Where people go wrong:** Treating human annotations as ground truth. Human labels aren't a gold standard either; sometimes the LLM's reading is actually better[^tornberg2024best-e7]. When humans and the model disagree, go back to the concept definitions to decide, instead of assuming the humans are right `[Our analysis]`.
+**Where people go wrong:** Treating human annotations as ground truth. Human labels aren't a gold standard either; sometimes the LLM's reading is actually better[^tornberg2024best-e7]. When humans and the model disagree, go back to the concept definitions to decide, instead of assuming the humans are right.
 
 > **Where sources disagree: can LLMs do qualitative analysis?**
 >
 > - The LLM guidelines mention an open letter in which 419 experienced qualitative researchers argued that methods such as reflexive thematic analysis require a positioned, reflexive researcher, and that using generative AI for this kind of analysis is methodologically incompatible with them[^baltes2026guidelines-e29]. The guidelines' own view is that LLMs may be better suited to assisting researchers than to replacing them[^baltes2026guidelines-e27].
 > - Törnberg argues against rejecting LLMs outright, and for bringing them into a rigorous annotation workflow that keeps their weaknesses in check; the criticisms that LLMs are subjective, flawed, black boxes, and potentially biased often apply equally to human coders[^tornberg2024best-e18].
 >
-> In practice `[Our analysis]`: the two views are about different tasks. Labeling against explicit categories (for example, "is this comment reporting a bug?") can be handed to an LLM after validation through the workflow above. Qualitative analysis that requires the researcher's own interpretation (see [Interview studies](interview_study.md) and [Grounded theory](grounded_theory.md)) can use an LLM as an assistant at most; people remain responsible for the conclusions, and the paper should say what the LLM did.
+> In practice: the two views are about different tasks. Labeling against explicit categories (for example, "is this comment reporting a bug?") can be handed to an LLM after validation through the workflow above. Qualitative analysis that requires the researcher's own interpretation (see [Interview studies](interview_study.md) and [Grounded theory](grounded_theory.md)) can use an LLM as an assistant at most; people remain responsible for the conclusions, and the paper should say what the LLM did.
 
-**Example** `[Our analysis]`: In the smart-contract project, each model's answer is a passage of text. If you use another LLM to extract "which vulnerability type was reported, and on which line," first have two people each annotate a batch of answers independently, compare human–human and human–model agreement, and revise the extraction prompt. Once it is final, validate it on a different batch of answers, with at least a few dozen items per vulnerability type, and apply it to all the answers only once it meets the bar.
+**Example**: In the smart-contract project, each model's answer is a passage of text. If you use another LLM to extract "which vulnerability type was reported, and on which line," first have two people each annotate a batch of answers independently, compare human–human and human–model agreement, and revise the extraction prompt. Once it is final, validate it on a different batch of answers, with at least a few dozen items per vulnerability type, and apply it to all the answers only once it meets the bar.
 
 **Write it down:** A codebook: concept definitions, the decision rules and examples for each category, and the prompt and parameters given to the LLM; plus a table recording the agreement coefficient for each round.
 
@@ -199,7 +199,7 @@ Agreement is commonly measured with Krippendorff's alpha (1 means perfect agreem
 
 **Why:** Cost is both a strength and a limitation of LLMs. LLMs annotate and judge faster and more cheaply than people: in one example, annotation with GPT-4 took two days and cost $122.08, while a comparable crowdsourcing process took weeks and cost $4,508[^baltes2026guidelines-e34]. On the other hand, running full evaluations through commercial APIs is expensive, and the cost falls mostly on independent researchers[^biderman2024lessons-e3].
 
-**Where people go wrong:** Budgeting for a single run. Number of models × prompt versions × repetitions × items quickly multiplies the cost dozens of times over; measure the cost of one complete run in a pilot first, then decide on the number of repetitions and models `[Our analysis]`.
+**Where people go wrong:** Budgeting for a single run. Number of models × prompt versions × repetitions × items quickly multiplies the cost dozens of times over; measure the cost of one complete run in a pilot first, then decide on the number of repetitions and models.
 
 **Write it down:** A budget table: tokens and cost per complete run for each model, multiplied by the number of runs you plan.
 
@@ -212,9 +212,9 @@ Agreement is commonly measured with Krippendorff's alpha (1 means perfect agreem
 - **State the limitations.** You must discuss what you did to improve reliability and reproducibility[^baltes2026guidelines-e33], and you must discuss possible data leakage[^baltes2026guidelines-e31]. Ways to mitigate threats to external validity include triangulating across multiple models, independent datasets, and complementary metrics; running sensitivity analyses by varying configurations, prompts, and datasets; and rerunning after some time has passed[^baltes2026guidelines-e30].
 - **Protect sensitive data.** Anonymize personal information before sending data to an LLM hosted on a platform; don't send proprietary or confidential data to an API or web interface without carefully considering the ethical and legal issues[^tornberg2024best-e17]. For general ethics requirements, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md).
 
-**Why:** Unlike transcripts of human interviews, LLM interaction logs can be published, which helps others reproduce your work, track how models change over time, and do secondary studies[^baltes2026guidelines-e14]. Results that can't be reproduced word for word are not in themselves a reason to reject a study[^baltes2026guidelines-e33]; but that assumes you released everything you could, so others can check what you did `[Our analysis]`.
+**Why:** Unlike transcripts of human interviews, LLM interaction logs can be published, which helps others reproduce your work, track how models change over time, and do secondary studies[^baltes2026guidelines-e14]. Results that can't be reproduced word for word are not in themselves a reason to reject a study[^baltes2026guidelines-e33]; we would add that this assumes you released everything you could, so others can check what you did.
 
-**Where people go wrong:** Writing only "LLM outputs are non-deterministic" in the limitations, without saying what you did about it or how it affects your conclusions `[Our analysis]`. Explain the effect of each threat to validity one by one; see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
+**Where people go wrong:** Writing only "LLM outputs are non-deterministic" in the limitations, without saying what you did about it or how it affects your conclusions. Explain the effect of each threat to validity one by one; see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
 
 **Write it down:** A list of research materials: the full prompts and change log, experiment metadata, evaluation code, interaction logs and raw outputs, human annotation data and the codebook, with where each is stored and under what license it is released.
 
@@ -222,7 +222,7 @@ Agreement is commonly measured with Krippendorff's alpha (1 means perfect agreem
 
 ## 3. Checklist
 
-"Must do" and "Better practice" below correspond to the "must" and "should" levels of the LLM guidelines[^baltes2026guidelines-e6]. The "Outstanding" tier, and items drawn from other sources, are this handbook's own synthesis; the LLM guidelines target software engineering, so in other fields your field's conventions take precedence `[Our analysis]`.
+"Must do" and "Better practice" below correspond to the "must" and "should" levels of the LLM guidelines[^baltes2026guidelines-e6]. The "Outstanding" tier, and items drawn from other sources, are this handbook's own synthesis; the LLM guidelines target software engineering, so in other fields your field's conventions take precedence.
 
 **Must do**
 

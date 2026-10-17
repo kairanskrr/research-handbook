@@ -4,9 +4,9 @@
 
 ## What this area studies
 
-Theoretical computer science studies computation itself: what can be computed efficiently, what cannot be computed at all, and what it costs `[Our analysis]`. Take the call for papers of STOC 2026 (the ACM Symposium on Theory of Computing): typical topics include algorithms and data structures, computational complexity, randomness in computing, approximation algorithms, cryptography, computational learning theory, optimization, economics and computation, parallel and distributed algorithms, and quantum computing[^stoc2026cfp-e10]. STOC is sponsored by SIGACT, the Special Interest Group on Algorithms and Computation Theory of ACM (the Association for Computing Machinery).
+Theoretical computer science studies computation itself: what can be computed efficiently, what cannot be computed at all, and what it costs. Take the call for papers of STOC 2026 (the ACM Symposium on Theory of Computing): typical topics include algorithms and data structures, computational complexity, randomness in computing, approximation algorithms, cryptography, computational learning theory, optimization, economics and computation, parallel and distributed algorithms, and quantum computing[^stoc2026cfp-e10]. STOC is sponsored by SIGACT, the Special Interest Group on Algorithms and Computation Theory of ACM (the Association for Computing Machinery).
 
-Some typical questions `[Our analysis]`:
+Some typical questions:
 
 - **Upper bounds**: Is there a faster algorithm for a problem? How much time does it need in the worst case?
 - **Lower bounds and impossibility**: What is the least any algorithm must pay? What cannot be done at all?
@@ -37,7 +37,7 @@ Some cells in more detail, for STOC 2026 only:
 - **Preprints**: during double-blind review, authors may still post drafts online and on arXiv (a free preprint site) and give talks[^stoc2026cfp-e5]. After acceptance, the full version with proofs must be posted on arXiv, ECCC (the Electronic Colloquium on Computational Complexity, a preprint server), or a similar site before the camera-ready deadline[^stoc2026cfp-e6].
 - **Simultaneous submission**: you may not submit the same or substantially the same content to another conference with published proceedings at the same time; the only exception is publication in *Science* or *Nature*[^stoc2026cfp-e7].
 
-Two things stand out in the table `[Our analysis]`:
+Two things stand out in the table:
 
 - **Reviewers mainly read the first 10–12 pages.** Proofs can be long, but the paper's value and key ideas must be clear up front, and readable by people outside your narrow area. The three conferences word this almost identically.
 - **Complete proofs are required and must eventually be public.** The main text carries the ideas and key proofs; the complete proofs go later in the paper or in the full version on a preprint server, but they cannot be left out.
@@ -46,7 +46,7 @@ Two things stand out in the table `[Our analysis]`:
 
 ## Common strategies and standards of evidence
 
-The grouping and summaries in this table are our own. Each standard speaks only for the paper or conference in its footnote `[Our analysis]`.
+The grouping and summaries in this table are our own. Each standard speaks only for the paper or conference in its footnote.
 
 | Strategy | What it looks like here | Evidence and how it is judged | How to do it |
 |---|---|---|---|
@@ -55,11 +55,11 @@ The grouping and summaries in this table are our own. Each standard speaks only 
 | [Proof](../../../05_research-strategies/prove.md) (machine-checked) | Formal verification with a proof assistant, for example the seL4 kernel[^klein2009sel4-e8] | State which assumptions the proof depends on[^klein2009sel4-e1] | [Proof: what evidence is enough](../../../05_research-strategies/prove.md#2-what-evidence-is-enough), [Systems](systems.md) |
 | [Proof](../../../05_research-strategies/prove.md) (applied theory) | Cryptography, security protocols, learning theory | When submitting to an applied conference, explain the relation to practice[^ieeesp2026cfp-e2][^ccs2025cfp-e2] | [Security](security.md), [Machine learning](machine_learning.md) |
 
-How to use this table `[Our analysis]`: the core strategy of a theory paper is almost always proof; what differs is what is being proved and who the readers are. Some papers also include experiments, for example to check how an algorithm performs in practice; hold that part to the standards of [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md).
+How to use this table: the core strategy of a theory paper is almost always proof; what differs is what is being proved and who the readers are. Some papers also include experiments, for example to check how an algorithm performs in practice; hold that part to the standards of [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md).
 
 ## Conventions specific to this area
 
-**Ideas in the main text, complete proofs later, but never omitted.** STOC 2026 requires the first 12 pages to make clear the value and key ideas[^stoc2026cfp-e3], and also requires proofs that allow the main results to be fully verified[^stoc2026cfp-e4]. Lamport likewise recommends preparing a detailed and a brief version of a proof; see [Theoretical research](../practices/theoretical_research.md#step-5-give-both-intuition-and-formality-all-proof-based-work). The two pieces of advice point the same way `[Our analysis]`.
+**Ideas in the main text, complete proofs later, but never omitted.** STOC 2026 requires the first 12 pages to make clear the value and key ideas[^stoc2026cfp-e3], and also requires proofs that allow the main results to be fully verified[^stoc2026cfp-e4]. Lamport likewise recommends preparing a detailed and a brief version of a proof; see [Theoretical research](../practices/theoretical_research.md#step-5-give-both-intuition-and-formality-all-proof-based-work). As we read them, the two pieces of advice point the same way.
 
 **Errors in proofs are not rare, so make your proofs checkable.** For how often published proofs turn out wrong, and Thurston's observations on how people actually check proofs, see [Proof: what evidence is enough](../../../05_research-strategies/prove.md#2-what-evidence-is-enough). Before you submit, you can check yourself against Aaronson's "signs that a claimed breakthrough is wrong"; see [Theoretical research](../practices/theoretical_research.md#step-4-check-your-own-proof-all-proof-based-work-the-machine-checking-part-is-computer-science).
 
@@ -69,16 +69,16 @@ How to use this table `[Our analysis]`: the core strategy of a theory paper is a
 - By watching which facts other papers in the field use without proof, and which references they cite, you can learn what the field takes as its accepted foundation[^thurston1994proof-e7].
 - Within the same subfield, once an important theorem has been proved, the solution can often (but not always) be passed from one person to another in a few minutes[^thurston1994proof-e4].
 
-Applying these to theoretical computer science is our own judgment `[Our analysis]`: different areas assume different levels of detail, and our sources contain no general standard. Reading recent papers in your target area and going to seminars are how you learn the right level. If you cannot explain the idea of your proof clearly, don't rush to submit.
+Applying these to theoretical computer science is our own judgment: different areas assume different levels of detail, and our sources contain no general standard. Reading recent papers in your target area and going to seminars are how you learn the right level. If you cannot explain the idea of your proof clearly, don't rush to submit.
 
-**Machine-checked proofs have limits too.** The seL4 authors acknowledge that the proof of implementation correctness shows only that the implementation matches the specification; it does not guarantee that the specification describes the behavior users actually want[^klein2009sel4-e2]. So spell out the specification and assumptions in the paper and let readers judge `[Our analysis]`. For what this kind of work costs and how it is done, see [Proof](../../../05_research-strategies/prove.md#2-what-evidence-is-enough).
+**Machine-checked proofs have limits too.** The seL4 authors acknowledge that the proof of implementation correctness shows only that the implementation matches the specification; it does not guarantee that the specification describes the behavior users actually want[^klein2009sel4-e2]. So spell out the specification and assumptions in the paper and let readers judge. For what this kind of work costs and how it is done, see [Proof](../../../05_research-strategies/prove.md#2-what-evidence-is-enough).
 
 **Habits around citation and authorship.**
 
 - STOC 2026 asks authors not to use "et al." in citations, but to list all authors' surnames equally[^stoc2026cfp-e9].
 - A 2004 statement by the American Mathematical Society says that **mathematicians** traditionally list the authors of joint papers in alphabetical order by surname[^amsculture2004joint-e3].
 - Our sources do not say whether theoretical computer science has a written rule; there is only one set of statistics to go on. Waltman (2012) counted multi-author papers indexed in Web of Science[^waltman2012empirical-e2] and compared them by journal subject category[^waltman2012empirical-e3]. For 2007–2011, in journals in the category "Computer science, theory & methods", 48.6% of papers listed authors in alphabetical order by surname; after removing papers that are alphabetical by chance, an estimated 32.6% did so intentionally[^waltman2012empirical-e5]. The "intentional" share is a model estimate, not a direct count[^waltman2012empirical-e4]. For "Mathematics" in the same period, the two figures were 83.3% and 73.3%[^waltman2012empirical-e6].
-- How to read these numbers `[Our analysis]`: they cover only journal categories, not conference papers such as those at STOC or FOCS, and the data are over a decade old. All they show is that alphabetical author order is common in theoretical computer science, but not the overwhelming norm it is in mathematics. For how your own area orders authors, ask your advisor or look at recent papers at your target conference.
+- How to read these numbers: they cover only journal categories, not conference papers such as those at STOC or FOCS, and the data are over a decade old. All they show is that alphabetical author order is common in theoretical computer science, but not the overwhelming norm it is in mathematics. For how your own area orders authors, ask your advisor or look at recent papers at your target conference.
 
 **Don't take a single rejection too hard.** Conference program committees decide by consensus and tend to favor safe, incremental work[^fortnow2009time-e3]. For a concrete example from theory (Gödel Prize papers that were first rejected), see [Theoretical research](../practices/theoretical_research.md#step-6-submitting-conferences-and-journals-computer-science).
 
@@ -93,7 +93,7 @@ Applying these to theoretical computer science is our own judgment `[Our analysi
 | Submitting the same result to two conferences with proceedings at the same time | Violates SIGACT policy[^stoc2026cfp-e7] |
 | Not checking for relevant lower bounds and impossibility results | Conflicting with known results without addressing them is a classic sign of an error[^aaronson2008ten-e3] |
 | Giving only theorems, without practical significance, when submitting to an applied conference such as security | IEEE S&P 2026 and CCS 2025 both require explaining how the results relate to practice[^ieeesp2026cfp-e2][^ccs2025cfp-e2] |
-| Treating the conventions of mathematics as those of theoretical computer science | The Thurston and American Mathematical Society sources on this page are about mathematics; for theoretical computer science, look at the papers and conferences of your target area `[Our analysis]` |
+| Treating the conventions of mathematics as those of theoretical computer science | The Thurston and American Mathematical Society sources on this page are about mathematics; for theoretical computer science, look at the papers and conferences of your target area |
 
 ## Further reading
 

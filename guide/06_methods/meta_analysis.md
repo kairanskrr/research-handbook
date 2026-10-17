@@ -2,9 +2,9 @@
 
 本文讲健康领域里回答"某项干预效果如何"的系统综述，以及元分析（meta-analysis，医学文献里也叫"荟萃分析"）：用统计方法把多项研究的结果合并成一个总的估计。检索、筛选、提取数据、流程图这些各学科共通的步骤，[综述研究](review_study.md#2-系统综述怎么做)一篇已经讲过，本文不重复，只讲健康领域特有的部分：方案登记、偏倚风险评价、效应指标和模型、异质性、小研究效应、证据确定性评级和报告。健康科学的整体背景见[健康科学学科概况](../07_fields/health-sciences/README.md)。
 
-**本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准 `[本项目分析]`。其他类型的综述有各自的规范。以诊断准确性综述（评价一项检查能多准确地查出疾病）为例：Cochrane 另有一本 Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy（官网 2026 年 10 月列出的是 2.0 版，2023 年 7 月更新）[^deeks2023cochrane-e1][^deeks2023cochrane-e2]；报告时有 PRISMA 的诊断准确性扩展版 PRISMA-DTA（2018 年发表）[^prismadta2018-e1]。诊断准确性综述和干预综述有几处不同，见第 1 节末尾的[诊断准确性综述有哪些不同](#诊断准确性综述有哪些不同)。预后等其他类型综述的专门方法，本文资料未涉及。这些综述都以导师或目标期刊要求为准。
+**本文主要依据谁的说法。** 本文资料以 Cochrane 手册为主。它的全称是 Cochrane Handbook for Systematic Reviews of Interventions（本文读的是 6.5 版，2024 年），是 Cochrane 组织为撰写 Cochrane 综述的作者编写的方法手册[^higgins2024cochrane-e70]，讲的是干预效果的综述。下文凡出自它的"应该""不要"，都是这本手册的建议；手册标为"强制"的条目，是对 Cochrane 综述作者的要求。不投 Cochrane 的综述，以导师或目标期刊的要求为准。其他类型的综述有各自的规范。以诊断准确性综述（评价一项检查能多准确地查出疾病）为例：Cochrane 另有一本 Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy（官网 2026 年 10 月列出的是 2.0 版，2023 年 7 月更新）[^deeks2023cochrane-e1][^deeks2023cochrane-e2]；报告时有 PRISMA 的诊断准确性扩展版 PRISMA-DTA（2018 年发表）[^prismadta2018-e1]。诊断准确性综述和干预综述有几处不同，见第 1 节末尾的[诊断准确性综述有哪些不同](#诊断准确性综述有哪些不同)。预后等其他类型综述的专门方法，本文资料未涉及。这些综述都以导师或目标期刊要求为准。
 
-**适用范围** `[本项目分析]`：本文原为[健康科学](../07_fields/health-sciences/README.md)写，资料主要是 Cochrane 手册、PRISMA 2020 报告规范、PROSPERO 登记平台的规定和 GRADE 方法的文献，讲的都是健康领域干预效果综述的做法。[临床医学](../07_fields/clinical-medicine/README.md)和[心理学与认知科学](../07_fields/psychology/README.md)的学科概况也指向本篇。其他学科做元分析时，合并效应的统计思路可以参考；登记平台、偏倚风险工具和证据分级标准，先看本学科的规范。
+**适用范围**：本文原为[健康科学](../07_fields/health-sciences/README.md)写，资料主要是 Cochrane 手册、PRISMA 2020 报告规范、PROSPERO 登记平台的规定和 GRADE 方法的文献，讲的都是健康领域干预效果综述的做法。[临床医学](../07_fields/clinical-medicine/README.md)和[心理学与认知科学](../07_fields/psychology/README.md)的学科概况也指向本篇。其他学科做元分析时，合并效应的统计思路可以参考；登记平台、偏倚风险工具和证据分级标准，先看本学科的规范。
 
 **常服务的套路**：[综合](../05_research-strategies/synthesize.md)、[比较评估](../05_research-strategies/compare_evaluate.md)。
 
@@ -19,12 +19,12 @@
 
 | | 系统综述，不做元分析 | 系统综述 + 元分析 |
 |---|---|---|
-| 产出 | 结构化的表格和文字综合 `[本项目分析]` | 每个元分析的合并估计、置信区间和异质性指标[^page2021prisma-e13] |
-| 前提 | 方案、全面检索、偏倚风险评价 `[本项目分析]` | 同左，另外要求研究足够相似、合并后的答案有临床意义[^higgins2024cochrane-e15] |
-| 好处 | 适用面广 `[本项目分析]` | 提高精确度，回答单个研究没问过的问题，平息相互矛盾的结论[^higgins2024cochrane-e13] |
-| 风险 | 容易退化成逐篇罗列 `[本项目分析]` | 不仔细考虑设计、偏倚、研究间差异和报告偏倚时，可能严重误导[^higgins2024cochrane-e13] |
+| 产出 | 结构化的表格和文字综合 | 每个元分析的合并估计、置信区间和异质性指标[^page2021prisma-e13] |
+| 前提 | 方案、全面检索、偏倚风险评价 | 同左，另外要求研究足够相似、合并后的答案有临床意义[^higgins2024cochrane-e15] |
+| 好处 | 适用面广 | 提高精确度，回答单个研究没问过的问题，平息相互矛盾的结论[^higgins2024cochrane-e13] |
+| 风险 | 容易退化成逐篇罗列 | 不仔细考虑设计、偏倚、研究间差异和报告偏倚时，可能严重误导[^higgins2024cochrane-e13] |
 
-**什么时候做系统综述：** 先用 PICO 框架把问题说清楚：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]；再估计工作量。这两点和"开始新研究前先做综述"的建议，[健康科学学科概况](../07_fields/health-sciences/README.md#系统综述cochrane-手册)已讲过。还要注意：按 PROSPERO（下文第 1 步介绍的登记平台）2023 年存档页面的规定，它不登记少于两人做的综述[^crd2023prospero-e7]，也不登记培训课程作业式的"迷你"综述[^crd2023prospero-e9]。一个人做的课程练习多半登记不了；能不能当作正式系统综述投稿，先问导师或目标期刊 `[本项目分析]`。
+**什么时候做系统综述：** 先用 PICO 框架把问题说清楚：人群（Population）、干预（Intervention）、对照（Comparison）、结局（Outcome）[^higgins2024cochrane-e5]；再估计工作量。这两点和"开始新研究前先做综述"的建议，[健康科学学科概况](../07_fields/health-sciences/README.md#系统综述cochrane-手册)已讲过。还要注意：按 PROSPERO（下文第 1 步介绍的登记平台）2023 年存档页面的规定，它不登记少于两人做的综述[^crd2023prospero-e7]，也不登记培训课程作业式的"迷你"综述[^crd2023prospero-e9]。一个人做的课程练习多半登记不了；能不能当作正式系统综述投稿，先问导师或目标期刊。
 
 **什么时候不做元分析：** 系统综述不一定要有元分析[^higgins2024cochrane-e16]。Cochrane 手册列出的情况有：没有研究或只有一项研究，无法合并[^higgins2024cochrane-e19]；结局或效应估计报告不全，或各研究用的效应指标不同；证据本身有偏倚[^higgins2024cochrane-e17]；人群、干预、对照、结局不够相似，合并后得不到有临床意义的答案，例如各研究的对照组形式不同[^higgins2024cochrane-e15]；结果差异很大，尤其效应方向不一致，这时报一个平均值可能误导[^higgins2024cochrane-e16]。但"差异大、异质性高"本身不一定是放弃的理由。手册认为这时仍应考虑元分析，做得恰当、解释得当，它可能给出重要信息[^higgins2024cochrane-e17]。不做元分析时，也不要按"显著的几篇、不显著的几篇"来计票，手册称这种方法不可接受[^higgins2024cochrane-e18]。
 
@@ -44,10 +44,10 @@ PRISMA-DTA 的声明论文（McInnes 等，JAMA 2018）说，诊断准确性研�
 
 PROSPERO（International prospective register of systematic reviews，国际前瞻性系统综述登记平台）由英国约克大学评价与传播中心建设和管理，英国国家卫生研究院资助[^crd2023prospero-e2]；收录有健康相关结局的系统综述[^crd2023prospero-e3]。PROSPERO 说，登记是为了避免无计划的重复，并让别人能对照"计划做的"和"最后报告的"，从而减少偏倚[^crd2023prospero-e1]。
 
-**怎么做：** 下面的规则都来自它 2023 年 1 月的存档页面，之后可能已经改变；本文读不到改版后的现行页面，登记时以官网现行规定为准 `[本项目分析]`。
+**怎么做：** 下面的规则都来自它 2023 年 1 月的存档页面，之后可能已经改变；本文读不到改版后的现行页面，登记时以官网现行规定为准。
 - 先写完整方案，再登记：登记前要有完整方案，必须在开始提取数据之前提交[^crd2023prospero-e4]；最好在开始筛选之前登记[^crd2023prospero-e5]。也不要登记得太早：登记了却不做，可能损害团队声誉[^crd2023prospero-e10]。
 - 它不收范围综述、只是用了系统检索的文献综述、以运动成绩为结局的综述等[^crd2023prospero-e6]；结果不会公开的综述（例如已知不会公开的硕士论文）也不收[^crd2023prospero-e8]。Cochrane 综述的方案不要再单独登记，以免重复[^crd2023prospero-e11]。
-- 方案里事先写好主要结局、效应指标、模型、亚组分析和敏感性分析 `[本项目分析，依据第 3–5 步的资料]`。纳入非随机研究时，Cochrane 手册要求在方案里写明重要的混杂因素和需要关注的合并干预（同时接受的其他治疗）[^higgins2024cochrane-e28]。
+- 方案里事先写好主要结局、效应指标、模型、亚组分析和敏感性分析（本手册根据第 3–5 步的资料归纳）。纳入非随机研究时，Cochrane 手册要求在方案里写明重要的混杂因素和需要关注的合并干预（同时接受的其他治疗）[^higgins2024cochrane-e28]。
 
 **容易错在哪里：** 以为改了方案就是违规。做综述过程中修改方案很正常，报告并解释即可；但没有公开的方案，别人就很难判断修改是否恰当[^moher2009prisma-e3]。PRISMA 2020 要求报告登记号、方案在哪里能看到，以及对登记内容的任何修改和理由[^page2021prisma-e6][^page2021prisma-e7]。
 
@@ -59,7 +59,7 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 
 - 评的是试验里的**某一个结果**，不是整篇试验[^higgins2024cochrane-e22]。不要按"可能评出什么"来挑要评的结果[^higgins2024cochrane-e26]。
 - 五个领域：随机化过程、偏离预定干预、结局数据缺失、结局测量、报告结果的选择[^higgins2024cochrane-e23]。每个领域判"低风险""有些担忧"或"高风险"，整体判断取各领域中最差的那个[^higgins2024cochrane-e24]；每个判断都写下理由[^higgins2024cochrane-e25]。
-- 两种效果回答的问题不同："被分配到干预组"的效果适合回答卫生政策问题，"按方案坚持干预"的效果适合回答个体患者的决策[^higgins2024cochrane-e27]。评之前先想清楚自己关心哪一种 `[本项目分析]`。
+- 两种效果回答的问题不同："被分配到干预组"的效果适合回答卫生政策问题，"按方案坚持干预"的效果适合回答个体患者的决策[^higgins2024cochrane-e27]。评之前先想清楚自己关心哪一种。
 
 **非随机研究用 ROBINS-I**（非随机干预研究偏倚风险工具）：先描述一个"目标试验"：在同一人群中比较同样干预、没有偏倚隐患的假想随机试验，再拿实际研究和它对照[^higgins2024cochrane-e29]。判断分四级：低、中、严重、极严重[^higgins2024cochrane-e30]。
 
@@ -67,13 +67,13 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 
 ### 第 3 步：选效应指标
 
-**怎么做：** 效应指标就是用什么数来表示"干预比对照好多少" `[本项目分析]`。
+**怎么做：** 效应指标就是用什么数来表示"干预比对照好多少"。
 - **二分类结局**（如发病或不发病）：手册一般建议用风险比（risk ratio）或比值比（odds ratio）来合并；用风险比时要想清楚哪一类算"事件"[^higgins2024cochrane-e32]。很多元分析方法依靠大样本近似，事件罕见时不适用[^higgins2024cochrane-e71]。
 - **连续结局**（如血压）：各研究用同一量表时用均数差（mean difference）；用不同量表时一般用标准化均数差（standardized mean difference）[^higgins2024cochrane-e36]。
 
 **为什么要想清楚呈现方式：** 比值比最难理解，已发表文献里有很多把元分析的比值比误读成风险比的例子[^higgins2024cochrane-e33]。手册认为，常常可以用一种指标合并，再换算成更好懂的指标来呈现[^higgins2024cochrane-e34]。
 
-**容易错在哪里：** 看了数据再挑"结果最一致"的指标，可能人为夸大合并结果的精确度[^higgins2024cochrane-e35]。所以指标要在方案里事先定好 `[本项目分析]`，报告时写明每个结局用了什么指标[^page2021prisma-e8]。
+**容易错在哪里：** 看了数据再挑"结果最一致"的指标，可能人为夸大合并结果的精确度[^higgins2024cochrane-e35]。所以指标要在方案里事先定好，报告时写明每个结局用了什么指标[^page2021prisma-e8]。
 
 ### 第 4 步：选模型，固定效应还是随机效应
 
@@ -92,11 +92,11 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 **怎么看：**
 - **异质性检验**：显著可能提示有问题；不显著不能当作"没有异质性"的证据[^higgins2024cochrane-e46]。
 - **I²**：效应估计的变异中，有多大比例来自异质性而不是抽样误差[^higgins2024cochrane-e47]。Cochrane 手册给了一个粗略参考：0–40% 可能不重要，30–60% 可能中等，50–90% 可能较大，75–100% 很大；同时提醒，用阈值解读 I² 可能误导[^higgins2024cochrane-e48]。研究少时 I² 很不确定，不要用简单阈值来诊断异质性[^higgins2024cochrane-e49]。
-- **随机效应的置信区间不表示异质性**，它说的是平均效应位置的不确定性[^higgins2024cochrane-e50]。研究数量合理（例如五项以上）且漏斗图没有明显不对称时，手册鼓励报告**预测区间**[^higgins2024cochrane-e51]，用它表示各研究真实效应可能落在的范围 `[本项目分析]`。
+- **随机效应的置信区间不表示异质性**，它说的是平均效应位置的不确定性[^higgins2024cochrane-e50]。研究数量合理（例如五项以上）且漏斗图没有明显不对称时，手册鼓励报告**预测区间**[^higgins2024cochrane-e51]，用它表示各研究真实效应可能落在的范围。
 
 **发现异质性以后：**
 1. **先查数据。** 异质性异常大，可能是提取或录入错了，例如把标准误当成标准差录入[^higgins2024cochrane-e52]。
-2. **再找原因。** 常用的是亚组分析，即把研究按某个特征分组分别看 `[本项目分析]`。只有在看各研究结果之前真正事先规定好的分析，才能得出可靠的结论，而且这些结论也要谨慎解读；看到异质性后才想出来的分析，最多只能提出假设[^higgins2024cochrane-e53]。研究很少时，找原因的价值存疑[^higgins2024cochrane-e75]；手册指出，大多数 Cochrane 综述的研究数量都不够可靠地查明原因[^higgins2024cochrane-e72]。
+2. **再找原因。** 常用的是亚组分析，即把研究按某个特征分组分别看。只有在看各研究结果之前真正事先规定好的分析，才能得出可靠的结论，而且这些结论也要谨慎解读；看到异质性后才想出来的分析，最多只能提出假设[^higgins2024cochrane-e53]。研究很少时，找原因的价值存疑[^higgins2024cochrane-e75]；手册指出，大多数 Cochrane 综述的研究数量都不够可靠地查明原因[^higgins2024cochrane-e72]。
 3. **不要剔除"不合群"的研究。** 按结果剔除研究可能引入偏倚；可以在敏感性分析里分别做包含和不包含它的分析[^higgins2024cochrane-e54]。
 4. **换成随机效应不等于解决了问题**，它不能代替调查原因[^higgins2024cochrane-e55]。**做敏感性分析**，检查换一种可能影响结果的决定，结论是否还站得住[^higgins2024cochrane-e56]。
 
@@ -107,7 +107,7 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 **怎么做：**
 - **检索时就要防。** 除了多个文献数据库，可能还要查试验登记库，并联系厂商、监管机构、研究作者或资助方[^higgins2024cochrane-e58]。
 - **逐项核查**已找到的研究有没有选择性地不报告或少报告结果；手册认为这可能是最有价值的一步[^higgins2024cochrane-e63]。
-- **漏斗图**是把每项研究的效应和研究规模画在一起的散点图 `[本项目分析]`。它展示的是"小研究效应"，即小研究估计的效应和大研究不同的倾向[^higgins2024cochrane-e59]。担心小研究效应时，比较固定效应和随机效应的估计；两者相近，说明小研究效应对结果影响不大[^higgins2024cochrane-e62]。
+- **漏斗图**是把每项研究的效应和研究规模画在一起的散点图。它展示的是"小研究效应"，即小研究估计的效应和大研究不同的倾向[^higgins2024cochrane-e59]。担心小研究效应时，比较固定效应和随机效应的估计；两者相近，说明小研究效应对结果影响不大[^higgins2024cochrane-e62]。
 
 **容易错在哪里：**
 - 把漏斗图不对称当成发表偏倚的证据。不对称不能用来诊断未报告偏倚[^higgins2024cochrane-e61]。
@@ -115,7 +115,7 @@ PROSPERO（International prospective register of systematic reviews，国际前�
 
 ### 第 7 步：用 GRADE 给每个结局的证据定级
 
-GRADE（Grading of Recommendations Assessment, Development and Evaluation，推荐分级的评估、制订与评价）是给证据可信程度定级的方法，Cochrane 手册第 14 章用它评定证据确定性[^higgins2024cochrane-e64]。它不是设计越"高级"证据就越强，而是逐个结局看证据有多可信，这和[临床医学学科概况](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)讲的证据金字塔思路不同 `[本项目分析]`。
+GRADE（Grading of Recommendations Assessment, Development and Evaluation，推荐分级的评估、制订与评价）是给证据可信程度定级的方法，Cochrane 手册第 14 章用它评定证据确定性[^higgins2024cochrane-e64]。它不是设计越"高级"证据就越强，而是逐个结局看证据有多可信，这和[临床医学学科概况](../07_fields/clinical-medicine/README.md#证据金字塔有用但别机械套用)讲的证据金字塔思路不同。
 
 **怎么做：**
 - **按结局评，不按研究评。** 每个结局的证据分四级：高、中、低、极低[^higgins2024cochrane-e64]。按 2013 年版 GRADE 手册的说法，"高"指很有把握真实效应接近估计值；"极低"指真实效应很可能与估计值差别很大[^schunemann2013grade-e1]。
@@ -140,7 +140,7 @@ PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导�
 
 ## 3. 检查清单
 
-每条后面注明出处："Cochrane 强制"是 Cochrane 手册对 Cochrane 综述的强制要求；"PRISMA"是 PRISMA 2020 的报告条目；"PROSPERO"是它 2023 年存档页面的规定。不投 Cochrane 时，以目标期刊要求为准 `[本项目分析]`。
+每条后面注明出处："Cochrane 强制"是 Cochrane 手册对 Cochrane 综述的强制要求；"PRISMA"是 PRISMA 2020 的报告条目；"PROSPERO"是它 2023 年存档页面的规定。不投 Cochrane 时，以目标期刊要求为准。
 
 **必须做到**
 - [ ] 写好完整方案再登记；在 PROSPERO 登记的，开始提取数据之前提交（PROSPERO）[^crd2023prospero-e4]
@@ -160,7 +160,7 @@ PRISMA 2020 是系统综述的报告规范，它规范怎么报告，不指导�
 
 **这些情况可以不做，不算缺陷：** 研究太少或不够相似时，不做元分析[^higgins2024cochrane-e16][^higgins2024cochrane-e19]；元分析少于 10 项研究时，不做漏斗图不对称检验[^higgins2024cochrane-e60]；研究很少时，不硬找异质性的原因[^higgins2024cochrane-e75]。
 
-**审稿时常见、但不成立的批评**（这些说法是否"常见"是本项目的判断 `[本项目分析]`；为什么不成立有资料依据）
+**审稿时常见、但不成立的批评**（这些说法是否"常见"是本项目的判断；为什么不成立有资料依据）
 - "I² 超过 50%，不能合并"：用固定阈值解读 I² 可能误导；异质性高本身不一定是放弃元分析的理由[^higgins2024cochrane-e48][^higgins2024cochrane-e17]
 - "异质性检验不显著，应该用固定效应"：模型不能根据异质性检验来选[^higgins2024cochrane-e42]
 - "方案改过，所以不可信"：修改可以报告并解释，本身不算不当[^moher2009prisma-e3]

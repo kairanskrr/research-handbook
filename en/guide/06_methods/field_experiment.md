@@ -1,10 +1,10 @@
 # Field experiments
 
-This page is about **field experiments**: working in the real world with a government, a nongovernmental organization (NGO), a firm, or a community, you randomly decide who receives an intervention (a cash transfer, a training program, a get-out-the-vote letter, and so on), then compare outcomes across the groups. Economics (especially development economics) and political science both use the method `[Our analysis]`.
+This page is about **field experiments**: working in the real world with a government, a nongovernmental organization (NGO), a firm, or a community, you randomly decide who receives an intervention (a cash transfer, a training program, a get-out-the-vote letter, and so on), then compare outcomes across the groups. Economics (especially development economics) and political science both use the method.
 
 This page covers only what is specific to field experiments. The following are covered elsewhere and not repeated here: identification strategies in economics and the registration requirements of the American Economic Association (AEA), in the [economics and business field overview](../07_fields/economics/README.md); pre-analysis plans in political science and the debate over the ethics of election experiments, in the [political science field overview](../07_fields/political-science/README.md); how randomized trials are run in clinical medicine (random sequence, intention-to-treat analysis, reporting guidelines), in [Randomized controlled trials](randomized_controlled_trial.md); controlled experiments in the lab, in [Controlled experiments](controlled_experiment.md).
 
-**Scope** `[Our analysis]`: this page was written for [Economics and business](../07_fields/economics/README.md) (especially development economics) and [Political science](../07_fields/political-science/README.md). Its sources are mainly the methods review by Duflo and colleagues, the research resources of J-PAL (the Abdul Latif Jameel Poverty Action Lab at the Massachusetts Institute of Technology), the methods guides of EGAP (Evidence in Governance and Politics, an experimental research network in political science), and the rules of the American Economic Association and the American Political Science Association. So the requirements on registration, ethics, and pre-analysis plans are the conventions of these two fields. The [Education](../07_fields/education/README.md) field overview also points here. If you run a field experiment in another field, check your own field's norms first; for randomized trials of medical interventions, see [Randomized controlled trials](randomized_controlled_trial.md).
+**Scope**: this page was written for [Economics and business](../07_fields/economics/README.md) (especially development economics) and [Political science](../07_fields/political-science/README.md). Its sources are mainly the methods review by Duflo and colleagues, the research resources of J-PAL (the Abdul Latif Jameel Poverty Action Lab at the Massachusetts Institute of Technology), the methods guides of EGAP (Evidence in Governance and Politics, an experimental research network in political science), and the rules of the American Economic Association and the American Political Science Association. So the requirements on registration, ethics, and pre-analysis plans are the conventions of these two fields. The [Education](../07_fields/education/README.md) field overview also points here. If you run a field experiment in another field, check your own field's norms first; for randomized trials of medical interventions, see [Randomized controlled trials](randomized_controlled_trial.md).
 
 **Strategies it usually serves**: [Causal explanation](../05_research-strategies/explain_causality.md).
 
@@ -19,7 +19,7 @@ This page covers only what is specific to field experiments. The following are c
 
 ## 1. What this kind of research is and when to use it
 
-At its core, a field experiment is still about random assignment: if assignment is random, the groups are on average similar before the intervention, so differences in outcomes can be attributed to the intervention `[Our analysis]`. What sets it apart most from other randomized experiments is that **the program is real, and someone else runs it**. This page draws heavily on the 2007 methods review by Duflo, Glennerster, and Kremer (a National Bureau of Economic Research working paper on using randomization in development economics). They note that such randomized studies usually work with an implementing partner (a government, NGO, or firm) that is running a real program and wants to know whether it works and how to improve it[^duflo2007toolkit-e1]; introducing randomization into a real program almost always means working with whoever actually implements it[^duflo2007toolkit-e2].
+At its core, a field experiment is still about random assignment: if assignment is random, the groups are on average similar before the intervention, so differences in outcomes can be attributed to the intervention. What sets it apart most from other randomized experiments is that **the program is real, and someone else runs it**. This page draws heavily on the 2007 methods review by Duflo, Glennerster, and Kremer (a National Bureau of Economic Research working paper on using randomization in development economics). They note that such randomized studies usually work with an implementing partner (a government, NGO, or firm) that is running a real program and wants to know whether it works and how to improve it[^duflo2007toolkit-e1]; introducing randomization into a real program almost always means working with whoever actually implements it[^duflo2007toolkit-e2].
 
 | | Field experiment | Clinical randomized controlled trial | Lab controlled experiment | Quasi-experiment (natural experiment) |
 |---|---|---|---|---|
@@ -27,7 +27,7 @@ At its core, a field experiment is still about random assignment: if assignment 
 | Unit of randomization | Often groups: villages, schools, stores | Mostly individual patients | Mostly individual participants | Not randomized |
 | Main difficulties | Implementation drift, attrition, spillovers, partner cooperation | Blinding, safety monitoring, reporting guidelines | Artificial setting; whether findings carry over to the real world | Arguing that assignment is "as good as random" |
 
-(The table is our own summary `[Our analysis]`. For what to do when you cannot randomize, see [Quasi-experiments and causal identification](quasi_experiment.md).)
+(The table is our own summary. For what to do when you cannot randomize, see [Quasi-experiments and causal identification](quasi_experiment.md).)
 
 **When you can do one.** You need some opening that lets you influence "who gets the program first". Duflo and colleagues summarize several entry points:
 
@@ -36,7 +36,7 @@ At its core, a field experiment is still about random assignment: if assignment 
 - **Randomizing within units** (for example, randomly choosing which grade in a school gets the program): the drawback is that the comparison group is more likely to be contaminated[^duflo2007toolkit-e7].
 - **Encouragement designs**: instead of randomizing the program itself, you randomize encouragement to take part[^duflo2007toolkit-e8].
 
-**When not to do one.** J-PAL's ethics guidance says: do not deny participants an intervention or service they are otherwise entitled to[^jpal2022ethics-e5]. In that case consider a phase-in or an encouragement design `[Our analysis]`.
+**When not to do one.** J-PAL's ethics guidance says: do not deny participants an intervention or service they are otherwise entitled to[^jpal2022ethics-e5]. In that case consider a phase-in or an encouragement design.
 
 ---
 
@@ -49,11 +49,11 @@ At its core, a field experiment is still about random assignment: if assignment 
 - **Choose a partner.** In Duflo and colleagues' comparison, working with a government gives wider coverage and makes it easier for results to feed into policy; NGOs and firms are more flexible, and it is easier for researchers to monitor whether the design is followed[^duflo2007toolkit-e3].
 - **Ask what the partner wants to learn.** EGAP has a guide written for implementers, which warns that if the implementer does not spell out what it needs to know, the evaluator may not be able to design the most suitable approach[^egapevaluationconversations-e1].
 - **Agree in advance on what happens if the results are bad.** The guide suggests a "pre-mortem": both sides start by imagining that the evaluation has come back null or negative[^egapevaluationconversations-e4]. Also agree on how and where results will be made public; the two sides' timelines are likely to differ[^egapevaluationconversations-e3].
-- **Put the agreement in writing**: who does the randomization, who has the authority to change it, who owns the data, and whether the paper can be published freely `[Our analysis]`.
+- **Put the agreement in writing**: who does the randomization, who has the authority to change it, who owns the data, and whether the paper can be published freely.
 
 **Why:** the partner runs the program, not you. Even when an evaluation is meant for learning, some people in the organization will worry that the results could affect their careers[^egapevaluationconversations-e2].
 
-**Where people go wrong:** talking only to the partner's senior staff and not to the people on the front line `[Our analysis]`. J-PAL warns that a feature important to the design (such as randomly drawing payment amounts) may look unfair to field staff[^jpal2022ethics-e2].
+**Where people go wrong:** talking only to the partner's senior staff and not to the people on the front line. J-PAL warns that a feature important to the design (such as randomly drawing payment amounts) may look unfair to field staff[^jpal2022ethics-e2].
 
 ### Step 2: Choose the unit of randomization: individuals or groups
 
@@ -65,7 +65,7 @@ At its core, a field experiment is still about random assignment: if assignment 
 
 ### Step 3: Do the power calculations
 
-**Statistical power** is the probability that your experiment yields a significant result if the intervention really has an effect of a given size `[Our analysis]`. The **minimum detectable effect** is the size below which an effect, even if it exists, may not be distinguishable[^jpal2021power-e1]. For the steps of a sample size calculation you can also refer to [calculating the sample size](randomized_controlled_trial.md#step-3-calculate-the-sample-size) on the [Randomized controlled trials](randomized_controlled_trial.md) page; below we cover only what needs extra attention in field experiments.
+**Statistical power** is the probability that your experiment yields a significant result if the intervention really has an effect of a given size. The **minimum detectable effect** is the size below which an effect, even if it exists, may not be distinguishable[^jpal2021power-e1]. For the steps of a sample size calculation you can also refer to [calculating the sample size](randomized_controlled_trial.md#step-3-calculate-the-sample-size) on the [Randomized controlled trials](randomized_controlled_trial.md) page; below we cover only what needs extra attention in field experiments.
 
 **How:**
 
@@ -80,7 +80,7 @@ At its core, a field experiment is still about random assignment: if assignment 
 
 **Why:** with an underpowered study, a null result cannot tell you whether there is truly no effect or you just couldn't detect it; and a positive result is likely to overstate the effect[^egappower-e1]. J-PAL's ethics guidance also points out that a study so poorly designed that its results cannot be trusted puts the burden of participation on people without producing any knowledge in return[^jpal2022ethics-e4].
 
-> **Where sources disagree: is an underpowered study still worth doing?** Some argue that a study that cannot reach a conclusion is not worth doing; Duflo and colleagues point out that the first few studies bring the largest gains in precision, and several low-powered studies can be combined in a meta-analysis[^duflo2007toolkit-e12]. In practice: first compute the minimum detectable effect honestly, then judge with your advisor and partner whether an effect of that size matters for policy; if you go ahead, report the power in the paper `[Our analysis]`.
+> **Where sources disagree: is an underpowered study still worth doing?** Some argue that a study that cannot reach a conclusion is not worth doing; Duflo and colleagues point out that the first few studies bring the largest gains in precision, and several low-powered studies can be combined in a meta-analysis[^duflo2007toolkit-e12]. In practice: first compute the minimum detectable effect honestly, then judge with your advisor and partner whether an effect of that size matters for policy; if you go ahead, report the power in the paper.
 
 ### Step 4: Baseline survey, stratification, and random assignment
 
@@ -88,11 +88,11 @@ At its core, a field experiment is still about random assignment: if assignment 
 
 **Stratified randomization.** Randomization guarantees that the groups are similar "on average"; **stratified randomization** (first dividing the sample into strata by important characteristics, then randomizing within each stratum) guarantees that the particular groups you draw this time really are similar on those characteristics[^duflo2007toolkit-e14]. J-PAL suggests stratifying on variables that are related to the outcome, or by which you want to compare effects across subgroups[^jpal2023randomization-e4]; decide beforehand which variables must never be imbalanced, and stratify on them directly[^jpal2023randomization-e8].
 
-**Make the randomization reproducible.** Do it in statistical software with a random seed set[^jpal2023randomization-e5], and save the code and the assignment `[Our analysis]`. Don't over-read balance tests: testing at the 5% level, about 5% of variables will differ significantly by pure chance; there is no clear rule for how many is too many[^jpal2023randomization-e6]. Specify the balance tests as closely as possible to the final analysis[^jpal2023randomization-e9].
+**Make the randomization reproducible.** Do it in statistical software with a random seed set[^jpal2023randomization-e5], and save the code and the assignment. Don't over-read balance tests: testing at the 5% level, about 5% of variables will differ significantly by pure chance; there is no clear rule for how many is too many[^jpal2023randomization-e6]. Specify the balance tests as closely as possible to the final analysis[^jpal2023randomization-e9].
 
 ### Step 5: Register and write a pre-analysis plan
 
-For registration requirements and how to write a pre-analysis plan (an analysis plan written before you see the data), see the [economics and business field overview](../07_fields/economics/README.md#field-experiments-must-be-registered-pre-analysis-plans) and the [political science field overview](../07_fields/political-science/README.md#pre-analysis-plans). The key points: AEA journals require field experiments to be registered in the American Economic Association's registry for randomized controlled trials (the AEA RCT Registry) before submission, and encourage early registration[^aea2026rct-e1]; only trials registered before the intervention begins are marked as "pre-registered"[^aea2026rct-e5]. For other journals and funders, follow their own requirements `[Our analysis]`. A field experiment's plan should spell out a few more things:
+For registration requirements and how to write a pre-analysis plan (an analysis plan written before you see the data), see the [economics and business field overview](../07_fields/economics/README.md#field-experiments-must-be-registered-pre-analysis-plans) and the [political science field overview](../07_fields/political-science/README.md#pre-analysis-plans). The key points: AEA journals require field experiments to be registered in the American Economic Association's registry for randomized controlled trials (the AEA RCT Registry) before submission, and encourage early registration[^aea2026rct-e1]; only trials registered before the intervention begins are marked as "pre-registered"[^aea2026rct-e5]. For other journals and funders, follow their own requirements. A field experiment's plan should spell out a few more things:
 
 - **Which variables you will control for** should be fixed in advance[^duflo2007toolkit-e13], and **which subgroups you will analyze separately** should also be stated in advance[^duflo2007toolkit-e34].
 - **How you will handle attrition and noncompliance.** These two are the most often left out: Ofosu and Posner examined 195 plans registered on the EGAP and AEA registries between 2011 and 2016[^ofosu2023preanalysis-e1], and only 25% said how they would handle missing values or attrition, and 13% how they would handle noncompliance[^ofosu2023preanalysis-e8].
@@ -123,7 +123,7 @@ Random attrition only lowers power; attrition related to the treatment biases th
 
 - It represents only the compliers, not the whole sample[^egaplate-e3];
 - It requires that outcomes respond only to the intervention actually received, not to "which group you were assigned to"[^egaplate-e2]. When people in the treatment group who did not directly receive the intervention also benefit (for example, the weakest students in a class are pulled out for remedial lessons, so the remaining students get a smaller class), this calculation is not appropriate[^duflo2007toolkit-e25];
-- If the intention-to-treat effect is zero, it is zero too[^egaplate-e4], so report the intention-to-treat effect first `[Our analysis]`.
+- If the intention-to-treat effect is zero, it is zero too[^egaplate-e4], so report the intention-to-treat effect first.
 
 **Standard errors with clusters.** Ignoring cluster assignment makes standard errors too small[^egapclusterrandomization-e3]: in EGAP's example, with 200 observations from 10 clusters and an intra-cluster correlation of 0.5, the effective sample size is only about 19[^egapclusterrandomization-e2]. Simulations cited by Duflo and colleagues show that with fewer than 50 clusters, the usual cluster-robust standard errors tend to wrongly reject the null of no effect; in that case you can use randomization inference[^duflo2007toolkit-e32].
 
@@ -182,7 +182,7 @@ For general informed consent and risk assessment, see [When research involves pe
 | Mistake | Why it is a problem |
 |---|---|
 | Randomizing individuals when the intervention spreads among neighbors or classmates | The treatment group affects the comparison group and the estimate is biased; randomize at a level that contains the spillovers[^duflo2007toolkit-e15] |
-| Taking effect sizes straight from published studies for the power calculation | Published effects are usually optimistic[^jpal2021power-e5], so the experiment may be underpowered `[Our analysis]` |
+| Taking effect sizes straight from published studies for the power calculation | Published effects are usually optimistic[^jpal2021power-e5], so the experiment may be underpowered |
 | Comparing only "those who actually received the intervention" with the comparison group | Take-up is affected by assignment, so you can't split the sample on it[^duflo2007toolkit-e21] |
 | Dividing the intention-to-treat effect by the take-up rate while ignoring that non-recipients were also affected | This violates the assumption that outcomes respond only to the intervention actually received, so the calculation is not appropriate[^duflo2007toolkit-e25][^egaplate-e2] |
 | Randomizing clusters but computing standard errors as if for individuals | Standard errors are too small, overstating how much information the experiment provides[^egapclusterrandomization-e3] |

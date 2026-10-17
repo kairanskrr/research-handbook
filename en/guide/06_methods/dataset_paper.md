@@ -4,7 +4,7 @@ This page covers **dataset papers** and **benchmark papers** (sometimes called r
 
 This page covers only **how to build one and how to release it**. For using a benchmark to compare systems, tools, or models, including how to compare fairly and how to report results, see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md); for checking whether an existing benchmark measures what it claims to and whether it is contaminated, see its section [Is the benchmark itself valid?](../07_fields/computer-science/practices/benchmarking.md#3-is-the-benchmark-itself-valid). This page links to that material where it needs it rather than repeating it.
 
-**Scope** `[Our analysis]`: The practices on this page come mainly from machine learning (datasheets, the call for papers of the NeurIPS (Conference on Neural Information Processing Systems) Datasets and Benchmarks Track, Raji et al.'s critique of "general" benchmarks, and the BetterBench quality criteria for benchmarks) and from software engineering (the benchmarking standard of ACM SIGSOFT, the Association for Computing Machinery's Special Interest Group on Software Engineering, with the smart contract benchmark SmartBugs as a worked example). Cross-disciplinary norms for publishing data come from the FAIR (Findable, Accessible, Interoperable, Reusable) data principles and the submission guidelines of the journal Scientific Data, which cover the natural sciences, medicine, and many other fields. If you are building a dataset in another field, start with your field's data journals, data repositories, and ethics norms. For psychology studies whose contribution is a measurement instrument, see [Scale development and measurement studies](scale_development.md).
+**Scope**: The practices on this page come mainly from machine learning (datasheets, the call for papers of the NeurIPS (Conference on Neural Information Processing Systems) Datasets and Benchmarks Track, Raji et al.'s critique of "general" benchmarks, and the BetterBench quality criteria for benchmarks) and from software engineering (the benchmarking standard of ACM SIGSOFT, the Association for Computing Machinery's Special Interest Group on Software Engineering, with the smart contract benchmark SmartBugs as a worked example). Cross-disciplinary norms for publishing data come from the FAIR (Findable, Accessible, Interoperable, Reusable) data principles and the submission guidelines of the journal Scientific Data, which cover the natural sciences, medicine, and many other fields. If you are building a dataset in another field, start with your field's data journals, data repositories, and ethics norms. For psychology studies whose contribution is a measurement instrument, see [Scale development and measurement studies](scale_development.md).
 
 **Strategies it usually serves**: [Measurement](../05_research-strategies/measure.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md).
 
@@ -21,19 +21,19 @@ This page covers only **how to build one and how to release it**. For using a be
 
 ## 1. What this kind of study is, and when to use it
 
-In machine learning, a **benchmark** is often defined as one or more datasets (at least test data) plus a metric, taken to stand for some specific tasks or capabilities and used by the research community as a shared framework for comparing methods[^raji2021everything-e1]. The SIGSOFT standard in software engineering requires a paper proposing a new benchmark to state four things: the quality to be measured, the metric that quantifies it, the measurement method, and the sample of workloads or tasks the system under test must handle[^ralph2020empirical-e147]. A **dataset** is broader: it need not come with a metric, and can be used for training, analysis, or other research `[Our analysis]`.
+In machine learning, a **benchmark** is often defined as one or more datasets (at least test data) plus a metric, taken to stand for some specific tasks or capabilities and used by the research community as a shared framework for comparing methods[^raji2021everything-e1]. The SIGSOFT standard in software engineering requires a paper proposing a new benchmark to state four things: the quality to be measured, the metric that quantifies it, the measurement method, and the sample of workloads or tasks the system under test must handle[^ralph2020empirical-e147]. A **dataset** is broader: it need not come with a metric, and can be used for training, analysis, or other research.
 
 Several venues have dedicated outlets for this kind of paper. NeurIPS, a top machine learning conference, runs a Datasets and Benchmarks Track; its rationale is that when the main contribution is a new dataset or benchmark, it is better reviewed against criteria suited to that kind of work, whereas the main track's review focuses on algorithms, analysis, and applications[^neurips2024datasets-e13]. The journal Scientific Data publishes "Data Descriptors", peer-reviewed papers that describe datasets held in data repositories[^scientificdata2026guidelines-e10].
 
-**Questions it is good at** `[Our analysis]`:
+**Questions it is good at**:
 
 - **A class of tools cannot be compared on the same footing.** SmartBugs started from this problem: many smart contract analysis tools were available, but the datasets each had used were not, which made studies hard to compare and reproduce[^durieux2020empirical-e1]. Its contributions include two datasets: a manually annotated set of vulnerable contracts, and a large set of contracts collected from Ethereum[^durieux2020empirical-e2].
 - **Existing data can't test the claim you want to test**: for example, existing evaluation sets are too small, full of labeling errors, already saturated by models, or likely to have been seen by models during training.
 - **A field has no shared yardstick**: everyone uses their own data, so results can't be compared.
 
-If you collected some data just to evaluate your own new method, the main contribution is still the method; see [Engineering research](../07_fields/computer-science/practices/engineering_research.md). Just describe how you built the dataset as this page explains `[Our analysis]`.
+If you collected some data just to evaluate your own new method, the main contribution is still the method; see [Engineering research](../07_fields/computer-science/practices/engineering_research.md). Just describe how you built the dataset as this page explains.
 
-**How it differs from related methods** `[Our analysis]`:
+**How it differs from related methods**:
 
 | | Dataset or benchmark paper | Benchmarking | Mining software repositories | Scale development |
 |---|---|---|---|---|
@@ -47,7 +47,7 @@ If you collected some data just to evaluate your own new method, the main contri
 > - **Scientific Data Descriptors: no.** These papers contain no results, discussion, or analysis, because their basic purpose is to describe the technical content of the dataset without bias and to encourage others to use it[^scientificdata2026guidelines-e6]. They must, however, have a "Technical Validation" section reporting the experiments, analyses, or checks that support the quality of the data[^scientificdata2026guidelines-e7].
 > - **Machine learning benchmark papers: usually you run reference results.** NeurIPS requires the supplementary material of a benchmark paper to make all results easy to reproduce[^neurips2024datasets-e6]; BetterBench recommends reporting the metric's floor and ceiling, human performance, and random performance, so readers can tell what a score means[^reuel2024betterbench-e6], and providing scripts that reproduce the paper's results[^reuel2024betterbench-e8].
 >
-> In practice `[Our analysis]`: first check which tradition your venue belongs to. For a data journal, put your effort into the methods, data records, and technical validation; for a machine learning conference's benchmark track, run a few representative baselines so readers can see how hard the benchmark is and whether it separates stronger systems from weaker ones.
+> In practice: first check which tradition your venue belongs to. For a data journal, put your effort into the methods, data records, and technical validation; for a machine learning conference's benchmark track, run a few representative baselines so readers can see how hard the benchmark is and whether it separates stronger systems from weaker ones.
 
 ---
 
@@ -71,7 +71,7 @@ After scoring 24 widely used AI benchmarks, the BetterBench authors concluded th
 - **Claiming the benchmark measures "general ability."** No dataset is neutral, so what a benchmark can show is limited; claims of "generality" often become an excuse for not reporting limitations[^raji2021everything-e5].
 - **Praising your own work in the paper.** Scientific Data asks the background section to explain why the dataset was created and how others might reuse it, but not to make subjective claims about novelty, impact, or usefulness[^scientificdata2026guidelines-e2].
 
-**Example** `[Our analysis]`: The running example suspects that "published evaluations of large language model vulnerability detectors are inflated by data leakage." To test this, you need contracts the models **could not have seen** during training. So the motivation might read: "Existing public smart contract vulnerability evaluation sets are likely to appear in models' training data, so they cannot tell 'the model can detect vulnerabilities' apart from 'the model memorized the answers.' We collect contracts deployed after the training cutoff dates of the models under test and annotate their vulnerabilities manually, as a control evaluation set." The dataset then becomes one row of the project's [evidence plan](../02_do-the-project/01_question-to-evidence.md), not a separate by-product.
+**Example**: The running example suspects that "published evaluations of large language model vulnerability detectors are inflated by data leakage." To test this, you need contracts the models **could not have seen** during training. So the motivation might read: "Existing public smart contract vulnerability evaluation sets are likely to appear in models' training data, so they cannot tell 'the model can detect vulnerabilities' apart from 'the model memorized the answers.' We collect contracts deployed after the training cutoff dates of the models under test and annotate their vulnerabilities manually, as a control evaluation set." The dataset then becomes one row of the project's [evidence plan](../02_do-the-project/01_question-to-evidence.md), not a separate by-product.
 
 **Write it down:** In three sentences: what task or claim the dataset is meant to support; why existing data isn't enough; and how it differs from the two closest existing datasets.
 
@@ -79,9 +79,9 @@ After scoring 24 widely used AI benchmarks, the BetterBench authors concluded th
 
 **How:**
 
-1. **Before collecting, read the datasheet's "composition" and "collection process" questions**, and answer them after collecting[^gebru2021datasheets-e8]. Reading them in advance tells you what to record while you collect `[Our analysis]`.
+1. **Before collecting, read the datasheet's "composition" and "collection process" questions**, and answer them after collecting[^gebru2021datasheets-e8]. Reading them in advance tells you what to record while you collect.
 2. **State the sample and the population.** Does the dataset contain all possible instances, or is it a sample from a larger set? If it is a sample, what is that larger set, and is the sample representative[^gebru2021datasheets-e9]?
-3. **Record the timing.** Over what time period was the data collected, and does it match when the data itself was created (for example, old news articles scraped recently)[^gebru2021datasheets-e20]? For a contamination-resistant evaluation set, this is the core evidence `[Our analysis]`.
+3. **Record the timing.** Over what time period was the data collected, and does it match when the data itself was created (for example, old news articles scraped recently)[^gebru2021datasheets-e20]? For a contamination-resistant evaluation set, this is the core evidence.
 4. **Make every item traceable to its source.** SmartBugs' annotated set came from three sources (GitHub repositories, blog posts analyzing contracts, and the Ethereum chain), and recorded the source URL and author of each contract[^durieux2020empirical-e6]. If you used a continuously updated data source, give the version number or search terms in enough detail that others can get the same input and redo the work[^scientificdata2026guidelines-e4].
 5. **Say whether the dataset depends on external resources** (websites, tweets, other datasets), and whether those resources will still be there later[^gebru2021datasheets-e11].
 6. **Make it big enough to separate systems.** BetterBench recommends that a benchmark be able to reliably detect a 1% improvement[^reuel2024betterbench-e12]; Jason Wei suggests that a large language model evaluation set should ideally have at least 1,000 examples, and more for multiple-choice formats[^wei2024evals-e2]. Size trades off against annotation quality: even ImageNet's authors say its scale limited how much human annotation they could get[^raji2021everything-e9].
@@ -98,7 +98,7 @@ The general annotation workflow (write annotation guidelines, have several peopl
 
 1. **Use several annotators, report how many, describe the annotation process in detail, and assess inter-annotator agreement**[^ralph2020empirical-e111]. Explain how disagreements were resolved, and report agreement with an appropriate statistic[^ralph2020empirical-e129]. Simple percent agreement is not enough, because it doesn't account for agreement that happens by chance[^mcdonald2019reliability-e4].
 2. **Use an established taxonomy for labels where you can.** SmartBugs used the existing DASP (Decentralized Application Security Project) Top 10 taxonomy of vulnerabilities, assigned each contract to one category, and manually marked the lines of code containing the vulnerability[^durieux2020empirical-e5]. The authors acknowledge that manual annotation can be wrong; to counter this, every author annotated independently and then they discussed disagreements until they agreed[^durieux2020empirical-e14].
-3. **Don't use the methods under evaluation to produce the ground truth.** BetterBench cites the bioinformatics benchmarking literature: the methods being evaluated should not be used to create the gold-standard dataset[^reuel2024betterbench-e19]. For example, if you are evaluating how well large language models and Slither find vulnerabilities, you can't have a large language model or Slither generate the "correct answers" directly; if you use a tool for initial screening, a person must check every item, and the paper must say so `[Our analysis]`.
+3. **Don't use the methods under evaluation to produce the ground truth.** BetterBench cites the bioinformatics benchmarking literature: the methods being evaluated should not be used to create the gold-standard dataset[^reuel2024betterbench-e19]. For example, if you are evaluating how well large language models and Slither find vulnerabilities, you can't have a large language model or Slither generate the "correct answers" directly; if you use a tool for initial screening, a person must check every item, and the paper must say so.
 4. **State who annotated and how they were paid** (for example, what crowdworkers were paid)[^gebru2021datasheets-e13].
 5. **Keep the raw data and release the annotation software.** Datasheets ask: besides the processed data, was the raw data saved? Is the software used for preprocessing, cleaning, and labeling available[^gebru2021datasheets-e15]?
 
@@ -111,20 +111,20 @@ The general annotation workflow (write annotation guidelines, have several peopl
 **How:**
 
 1. **Give recommended training, validation, and test splits, and explain the reasoning**[^gebru2021datasheets-e10]. For why test data may be used only once, at the end, see [Comparative evaluation: keep some data for the final test only](../05_research-strategies/compare_evaluate.md#keep-some-data-for-the-final-test-only); for why you split before any other processing, see [Data science research](data_science.md#step-3-split-the-data-before-doing-anything-else-to-it).
-2. **Deduplicate first, then split.** Public data can contain enormous amounts of duplication: SmartBugs' large dataset was checked for duplicates by hashing after removing spaces and tabs, and 95% of the source files turned out to be duplicates[^durieux2020empirical-e8]. Training and test samples that are not independent constitute leakage[^kapoor2023leakage-e6], so near-duplicates should go on the same side of the split `[Our analysis]`.
+2. **Deduplicate first, then split.** Public data can contain enormous amounts of duplication: SmartBugs' large dataset was checked for duplicates by hashing after removing spaces and tabs, and 95% of the source files turned out to be duplicates[^durieux2020empirical-e8]. Training and test samples that are not independent constitute leakage[^kapoor2023leakage-e6], so near-duplicates should go on the same side of the split.
 3. **Split by time.** When the goal is predicting the future, the test set must not contain data older than the training set[^kapoor2023leakage-e5].
 4. **Add contamination safeguards to the evaluation set.** Giving evaluation items globally unique identifiers or encrypting them lowers the risk of contamination and of people gaming the benchmark; including a detection task lets you check whether a model's training data contains benchmark items[^reuel2024betterbench-e7]. You can also keep both a public and a private test set and watch whether models perform noticeably differently on the two[^wei2024evals-e9].
 
 **Why:** Once a good evaluation is released, its questions spread all over the web[^wei2024evals-e9]. Benchmark builders can't force model developers to respect "canary strings" (markers embedded in the data that ask people not to train on it); preventing contamination is a shared responsibility of benchmark builders and model developers[^reuel2024betterbench-e16]. For how to check after the fact whether a model has seen an evaluation set, see [Benchmarking: is the benchmark itself valid?](../07_fields/computer-science/practices/benchmarking.md#3-is-the-benchmark-itself-valid).
 
-**Example** `[Our analysis]`: In this project's control evaluation set, the same contract is often copied and deployed many times. First group contracts whose code is identical or nearly identical, and keep each group entirely on one side; then, by deployment date, put contracts deployed after the training cutoff of the models under test into the test set. The paper should state both splitting rules and how many samples each removed.
+**Example**: In this project's control evaluation set, the same contract is often copied and deployed many times. First group contracts whose code is identical or nearly identical, and keep each group entirely on one side; then, by deployment date, put contracts deployed after the training cutoff of the models under test into the test set. The paper should state both splitting rules and how many samples each removed.
 
 > **Where sources disagree: static or dynamic benchmarks?**
 >
 > - Dynamic benchmarks (which keep adding new items) cope better with quick saturation and data contamination, but results from different times are harder to compare[^reuel2024betterbench-e13].
 > - Static benchmarks make comparison easy, but some have been saturated within months of release[^reuel2024betterbench-e17].
 >
-> In practice `[Our analysis]`: most researchers first release a fixed version so the numbers in papers are comparable, and at the same time script the collection and annotation pipeline so new versions can be produced later under the same rules.
+> In practice: most researchers first release a fixed version so the numbers in papers are comparable, and at the same time script the collection and annotation pipeline so new versions can be produced later under the same rules.
 
 ### Step 5: Write the documentation (a datasheet)
 
@@ -138,7 +138,7 @@ The general annotation workflow (write annotation guidelines, have several peopl
 
 **Why:** Datasheets also help reproducibility: someone who can't get the original data can use the datasheet to build a substitute dataset with similar characteristics[^gebru2021datasheets-e3].
 
-**How to structure the paper** `[Our analysis]`: You can borrow the structure of a Scientific Data Descriptor: Background & Summary, Methods, Data Records, Data Overview (optional), Technical Validation, Usage Notes (optional), Data Availability, and Code Availability[^scientificdata2026guidelines-e1]. The Methods section must fully describe the study design, data acquisition, and all computational processing[^scientificdata2026guidelines-e3]. Benchmark papers at machine learning conferences are structured more freely, but reviewers will look for the same content.
+**How to structure the paper**: You can borrow the structure of a Scientific Data Descriptor: Background & Summary, Methods, Data Records, Data Overview (optional), Technical Validation, Usage Notes (optional), Data Availability, and Code Availability[^scientificdata2026guidelines-e1]. The Methods section must fully describe the study design, data acquisition, and all computational processing[^scientificdata2026guidelines-e3]. Benchmark papers at machine learning conferences are structured more freely, but reviewers will look for the same content.
 
 ### Step 6: Handle licensing, consent, and ethics
 
@@ -146,7 +146,7 @@ For the general requirements when research involves people, see [Research integr
 
 **How:**
 
-1. **Interpret "involves people" broadly.** Datasheets suggest that any dataset containing text written by people counts as involving people[^gebru2021datasheets-e12]. By that standard, code comments, commit messages, and Q&A posts all count `[Our analysis]`.
+1. **Interpret "involves people" broadly.** Datasheets suggest that any dataset containing text written by people counts as involving people[^gebru2021datasheets-e12]. By that standard, code comments, commit messages, and Q&A posts all count.
 2. **"Downloadable" does not mean "usable."** Using data solely because it is technically accessible and downloadable is an antipattern listed by SIGSOFT[^ralph2020empirical-e135]. When you republish data, explain how you respect the expectations and consent of the data subjects[^ralph2020empirical-e138].
 3. **Check upstream restrictions.** Have third parties imposed intellectual property or other restrictions on data you included[^gebru2021datasheets-e17]? If you fold public datasets into your benchmark, check them for ethical problems too; you remain responsible for the ethical consequences of that data[^neurips2024datasets-e11]. Also learn and follow the legal requirements on data in your jurisdiction[^neurips2024datasets-e15].
 4. **Choose a license.** NeurIPS requires authors to choose a license, preferably a Creative Commons (CC) license for datasets and an open-source license for code[^neurips2024datasets-e4]. The license and terms of use should take intended uses and limitations into account to prevent misuse[^neurips2024datasets-e9].
@@ -154,7 +154,7 @@ For the general requirements when research involves people, see [Research integr
 
 **Sensitive data need not be fully public.** The FAIR principles note that highly sensitive or personally identifiable data can still reach a high degree of FAIRness without being public itself, as long as detailed metadata and the access rules are public[^wilkinson2016fair-e5]. NeurIPS allows requiring users to be credentialed before access when this is genuinely necessary in the public interest (for example, ethically sensitive medical data), but only as an exception, not as a way to restrict access[^neurips2024datasets-e12].
 
-**Where people go wrong** `[Our analysis]`: When collecting code from GitHub, checking only that it is "public" and not whether each repository's open-source license allows redistribution. If in doubt, release only the repository URLs, commit hashes, and a download script, and let users download the code themselves.
+**Where people go wrong**: When collecting code from GitHub, checking only that it is "public" and not whether each repository's open-source license allows redistribution. If in doubt, release only the repository URLs, commit hashes, and a download script, and let users download the code themselves.
 
 ### Step 7: Release it, and make sure it stays available
 
@@ -176,13 +176,13 @@ For the general requirements when research involves people, see [Research integr
 3. **Bump the version whenever you change it.** Mark small updates (such as removing faulty items) with a version number; release a new version for major updates[^reuel2024betterbench-e11]. Every new version comes with an updated datasheet[^gebru2021datasheets-e19].
 4. **Retire it explicitly when the time comes.** Benchmarks get phased out when they are saturated, when the task stops mattering, or when a better alternative appears[^reuel2024betterbench-e3]; when you stop maintaining one, state in its official release materials that it is retired[^reuel2024betterbench-e10].
 
-**Example** `[Our analysis]`: This project's control evaluation set is released as v1.0. Later, someone reports through the feedback channel that the vulnerable line numbers for three contracts are wrong; after fixing them you release v1.1 and list the changed items in the changelog, and later papers state which version they used. Once a new generation of models has a training cutoff later than the deployment dates of these contracts, this version no longer means "unseen"; you should state that it is no longer suitable for contamination-resistant evaluation, and collect a new batch of contracts under the same rules.
+**Example**: This project's control evaluation set is released as v1.0. Later, someone reports through the feedback channel that the vulnerable line numbers for three contracts are wrong; after fixing them you release v1.1 and list the changed items in the changelog, and later papers state which version they used. Once a new generation of models has a training cutoff later than the deployment dates of these contracts, this version no longer means "unseen"; you should state that it is no longer suitable for contamination-resistant evaluation, and collect a new batch of contracts under the same rules.
 
 ---
 
 ## 3. Checklist
 
-This checklist is based mainly on the requirements of the NeurIPS Datasets and Benchmarks Track, datasheets, and the BetterBench criteria, supplemented by the SIGSOFT benchmarking standard. These are all machine learning and software engineering requirements; if you are submitting to a data journal in another field, follow that journal's rules `[Our analysis]`.
+This checklist is based mainly on the requirements of the NeurIPS Datasets and Benchmarks Track, datasheets, and the BetterBench criteria, supplemented by the SIGSOFT benchmarking standard. These are all machine learning and software engineering requirements; if you are submitting to a data journal in another field, follow that journal's rules.
 
 **Must do**
 

@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Write down the sentence you want to prove.** Use words that name a result, not "studied" or "explored". Don't overclaim: the stronger the claim, the more evidence it needs ([Section 1](#1-write-down-the-sentence-you-want-to-prove)). Then ask: even if it is proved, who will change what because of it ([Section 2](#2-is-it-worth-doing))?
 > 2. **Check now whether someone has already done it.** Find the three to five closest papers and ask people who know the area. Make a comparison table; if you can't write anything concrete under "How mine differs", go back and revise the sentence ([Section 3](#3-has-someone-already-done-it)).
@@ -41,7 +41,7 @@ You **don't** walk through the first five questions once, in order, and finish. 
 
 So expect several rounds back and forth between these steps. At the end of each round, write the result into a one-page project summary (Section 6). This stage is done when you can write the summary, can still revise it as things change, and your advisor can't find any major flaw in it.
 
-How many rounds does it usually take? There is no standard answer. Three to five rounds over a few weeks is normal `[Our analysis]`. If you are still going in circles after a month or two, see "When to go back" at the end of this chapter.
+How many rounds does it usually take? There is no standard answer. Three to five rounds over a few weeks is normal. If you are still going in circles after a month or two, see "When to go back" at the end of this chapter.
 
 ---
 
@@ -99,7 +99,7 @@ The second example shows that judging importance often ends up **rewriting your 
 
 1. Search with the key words in your claim and find the three to five closest papers. Follow their references backward, then look at who has cited them. For how to search the literature, see [Entering a field and exploring the literature](01_enter-a-field.md).
 2. **Ask people who know the area.** Literature searches always miss things; your advisor, senior students, or people working in the same area can often tell you in one sentence that "so-and-so's group did this last year"[^eisnerproblems-e4][^eisnerproblems-e9].
-3. Computer science moves quickly, so besides published papers, also check preprint servers and the accepted-paper lists of recent conferences `[Our analysis]`.
+3. Computer science moves quickly, so besides published papers, also check preprint servers and the accepted-paper lists of recent conferences.
 
 **Then make a comparison table.** Don't just write "there is a lot of related work". Say concretely what each piece of work achieved, what its limitations are, and where you differ. Shaw gives a good example: method A achieves 60% coverage; method B achieves 80% but only works without pointers; our method achieves 90% while relaxing that restriction[^shaw2003writing-e3].
 
@@ -109,7 +109,7 @@ The second example shows that judging importance often ends up **rewriting your 
 | Work B | | | |
 | Work C | | | |
 
-**If someone has already done it**, don't give up right away `[Our analysis]`:
+**If someone has already done it**, don't give up right away:
 
 - **Exactly the same**: change topics and go back to [Generating candidate problems](02_generate-problems.md).
 - **They did only part of it**: for example, they validated on only one dataset or considered only one kind of vulnerability. Your claim can target the part they didn't cover.
@@ -134,9 +134,9 @@ For the claim that "evaluation results are inflated by data leakage", a reviewer
 | Is it just one or two tools that are affected? | Results across several models and several tools |
 | Is your way of judging leakage reliable? | The accuracy of the method you use to decide "leaked or not" |
 
-**A very useful trick: draw the empty results table first.** Before running any experiment, you can already sketch the results table that will go in the paper: write the row headings, the column headings, and the caption, and leave the cells empty[^eisnerfirst-e5]. As you draw it, work out what number will eventually go in each cell `[Our analysis]`. Draw it honestly and you will often find that proving your claim takes more work than you expected[^eisnerfirst-e6]. The sooner you find that out, the better.
+**A very useful trick: draw the empty results table first.** Before running any experiment, you can already sketch the results table that will go in the paper: write the row headings, the column headings, and the caption, and leave the cells empty[^eisnerfirst-e5]. As you draw it, work out what number will eventually go in each cell. Draw it honestly and you will often find that proving your claim takes more work than you expected[^eisnerfirst-e6]. The sooner you find that out, the better.
 
-If you can't think of any evidence that would support a claim, either rewrite it or drop it `[Our analysis]`.
+If you can't think of any evidence that would support a claim, either rewrite it or drop it.
 
 How to design the experiments and how to choose baselines and benchmarks belong to the next stage; see [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md). At this step you only need to be clear about **what evidence you need**, not every detail of **how you will get it**.
 
@@ -146,7 +146,7 @@ How to design the experiments and how to choose baselines and benchmarks belong 
 
 By now you may have an attractive claim and a clear list of the evidence it needs. The last question is: **with what you have now, can you get that evidence?**
 
-Common sticking points in computer science `[Our analysis]`:
+Common sticking points in computer science:
 
 | What to check | Examples |
 |---|---|
@@ -199,7 +199,7 @@ Put the results of the first five steps on one page. This page is what you and y
 
 ## 7. Exit: are you ready for Part 2?
 
-This is the end of Part 1. Before you move on to Part 2, do an exit check `[Our analysis]`:
+This is the end of Part 1. Before you move on to Part 2, do an exit check:
 
 | Exit check | What counts as passing | If not, go back to |
 |---|---|---|
@@ -210,11 +210,11 @@ This is the end of Part 1. Before you move on to Part 2, do an exit check `[Our 
 
 Together, the first two checks are the mark of moving into the testing stage: you can write down a specific hypothesis and roughly know what evidence would show whether it is right[^nanda2025process-e5].
 
-With the running example `[Our analysis]`: the central claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage"; the empty results table is "accuracy for each model and each tool, before and after removing leaked contracts"; the biggest risk is "the method for deciding whether a contract leaked is unreliable", and you have already checked 50 samples by hand; your advisor has read the summary and agreed you should start. All four checks pass.
+With the running example: the central claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage"; the empty results table is "accuracy for each model and each tool, before and after removing leaked contracts"; the biggest risk is "the method for deciding whether a contract leaked is unreliable", and you have already checked 50 samples by hand; your advisor has read the summary and agreed you should start. All four checks pass.
 
 ### Work out what kind of study you are doing
 
-Once the exit check passes, look at what your sentence is actually saying. That decides what kind of study you are doing, and what evidence you will need in Part 2 `[Our analysis]`:
+Once the exit check passes, look at what your sentence is actually saying. That decides what kind of study you are doing, and what evidence you will need in Part 2:
 
 | What your sentence says | Research strategy | Common research types | Where to look in the contents |
 |---|---|---|---|
@@ -229,7 +229,7 @@ Once the exit check passes, look at what your sentence is actually saying. That 
 
 For the full list of research types, arranged by the names researchers use for them, see [Research types: how to do them](../06_methods/README.md). If your work makes several kinds of contribution, see [Research strategies](../05_research-strategies/README.md#how-to-pick-your-main-strategy) for how to tell which is the main one.
 
-In the running example, the main strategy is Measurement: the contribution is showing that the way current evaluations measure things is flawed. The part about "how widespread the leakage is" falls under Description, and you would count it with an empirical approach along the lines of mining software repositories `[Our analysis]`.
+In the running example, the main strategy is Measurement: the contribution is showing that the way current evaluations measure things is flawed. The part about "how widespread the leakage is" falls under Description, and you would count it with an empirical approach along the lines of mining software repositories.
 
 **Write it down:** add two lines to your one-page summary: whether each of the four exit checks passes, and your main strategy and the research type you plan to use.
 
@@ -237,7 +237,7 @@ In the running example, the main strategy is Measurement: the contribution is sh
 
 ## Judgment calls
 
-**Narrow it, change the angle, or give up?** While converging you will often hit obstacles. Here is one way to decide `[Our analysis]`:
+**Narrow it, change the angle, or give up?** While converging you will often hit obstacles. Here is one way to decide:
 
 | What happens | What you usually do |
 |---|---|
@@ -259,7 +259,7 @@ In the running example, the main strategy is Measurement: the contribution is sh
 | Checking related work only after the project is done | You may find someone has already published it[^noble2023ten-e5] |
 | Searching the literature but never asking people | You miss work that is unpublished or only just published[^eisnerproblems-e9] |
 | Estimating feasibility only for the ideal case | What looks easy on paper is often hard in practice[^alon2009choose-e3] |
-| Never revising the one-page summary after writing it | Your ideas change; if the summary doesn't, it stops being useful `[Our analysis]` |
+| Never revising the one-page summary after writing it | Your ideas change; if the summary doesn't, it stops being useful |
 | Diving in the moment an idea seems feasible | You may spend a long time chasing an idea you haven't thought through[^noble2023ten-e2] |
 
 ## What you should have at the end
@@ -291,7 +291,7 @@ Move on once all of these hold:
 | The small experiment rules out your core hypothesis | Switch to another candidate, starting with the others you kept in [Judging and screening ideas](04_judge-and-screen.md) |
 | Every candidate claim turns out to have been done already | [Generating candidate problems](02_generate-problems.md), for another round |
 | You know too little about the area to judge importance and novelty | [Entering a field and exploring the literature](01_enter-a-field.md), and read another batch of papers |
-| After a month or two you are still going in circles, each round overturning the last | Pick one together with your advisor and get started; being stuck deciding is itself a signal `[Our analysis]` |
+| After a month or two you are still going in circles, each round overturning the last | Pick one together with your advisor and get started; being stuck deciding is itself a signal |
 
 ## Next
 

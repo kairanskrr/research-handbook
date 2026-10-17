@@ -4,7 +4,7 @@ This page covers **longitudinal studies**: over a period of time, you repeatedly
 
 Much longitudinal data comes from the history of code repositories; for how to extract and clean repository data, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md). For handling threats to validity in general, see [Validity and limitations: think them through at the design stage](../02_do-the-project/04_validity-and-limits.md). This page covers only the problems that come specifically from observing things repeatedly over time.
 
-**Scope** `[Our analysis]`: The checklist on this page follows the longitudinal studies standard that ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) wrote for software engineering. The pitfalls of repository data come from software engineering, the planning principles for studies of people come from information systems (Kehr & Kowatsch 2015), and the examples are mostly about software projects and developers. If you are doing a longitudinal study in another field, start with your field's conventions. For example, cohort studies in health research, which follow populations over time and compare groups with different exposures, have stricter rules; see [Observational epidemiology](observational_epidemiology.md).
+**Scope**: The checklist on this page follows the longitudinal studies standard that ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) wrote for software engineering. The pitfalls of repository data come from software engineering, the planning principles for studies of people come from information systems (Kehr & Kowatsch 2015), and the examples are mostly about software projects and developers. If you are doing a longitudinal study in another field, start with your field's conventions. For example, cohort studies in health research, which follow populations over time and compare groups with different exposures, have stricter rules; see [Observational epidemiology](observational_epidemiology.md).
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md) (describing how a phenomenon changes over time).
 
@@ -24,10 +24,10 @@ The ACM SIGSOFT Empirical Standards define it as research that studies how a phe
 **Questions it is good at**:
 
 - **What the change looks like**: is it growing or declining, linear or fast at first and then slowing[^kehr2015quantitative-e7]?
-- **Whether something changed, and why**[^kehr2015quantitative-e8]: for example, whether defects dropped after a new process was introduced `[Our analysis]`.
+- **Whether something changed, and why**[^kehr2015quantitative-e8]: for example, whether defects dropped after a new process was introduced.
 - **Clues about causation**: causes come before effects[^kehr2015quantitative-e1]. The SIGSOFT standard lists "investigates causality using the longitudinal nature of the data to establish precedence and statistically controlling for third-variable explanations" as a desirable attribute[^ralph2020empirical-e264]. The SIGSOFT standard notes that longitudinal studies use time precisely to maximize internal validity (whether a result really comes from the stated cause)[^ralph2020empirical-e269].
 
-**How it differs from related designs** `[Our analysis, based on the sources below]`:
+**How it differs from related designs** (our summary, based on the sources below):
 
 | | Cross-sectional study | Retrospective survey | Longitudinal study | Experiment |
 |---|---|---|---|---|
@@ -42,7 +42,7 @@ For analyses that look at only one point in time, SIGSOFT points you to its Expl
 - **Experience sampling**: measuring several times a day over a short period (usually one to three weeks), with the emphasis on capturing the current state rather than after-the-fact recall.
 - **Cohort study**: observing subjects over time and comparing groups with different levels of exposure. It has stricter rules than this page covers, and you should read dedicated guidelines before doing one; for how it is done in health research, see [Observational epidemiology](observational_epidemiology.md).
 
-**Across computer science** `[Our analysis]`: In software engineering, the common case is following projects, code or developers; in systems and security, you can follow the performance or vulnerabilities of the same software across many versions; in machine learning, you can follow how a deployed model's performance changes over time. Whenever it is "the same subjects, several time points, the same measurements", the requirements on this page apply.
+**Across computer science**: In software engineering, the common case is following projects, code or developers; in systems and security, you can follow the performance or vulnerabilities of the same software across many versions; in machine learning, you can follow how a deployed model's performance changes over time. Whenever it is "the same subjects, several time points, the same measurements", the requirements on this page apply.
 
 ---
 
@@ -61,16 +61,16 @@ The type of question decides how many waves you need:
 
 How many waves and how far apart should follow how fast the phenomenon itself changes; the SIGSOFT standard makes this an essential attribute[^ralph2020empirical-e259]. Start from theory or prior research, work out how the outcome variable is expected to fluctuate, and then decide the number of measurements, the interval and the time scale[^kehr2015quantitative-e4].
 
-- **The time scale doesn't have to be calendar time.** Any irreversible quantity will do, such as how long a system has been in use[^kehr2015quantitative-e5]. `[Our analysis]` When studying code, other common time scales are version numbers, number of releases or number of commits; which one to use depends on your question.
+- **The time scale doesn't have to be calendar time.** Any irreversible quantity will do, such as how long a system has been in use[^kehr2015quantitative-e5]. When studying code, other common time scales are version numbers, number of releases or number of commits; which one to use depends on your question.
 - **If there is no theory to go on**: run a small qualitative pre-study to estimate the rhythm, or set the interval by the fastest-changing variable[^kehr2015quantitative-e6].
 
-**Where people go wrong**: An interval that doesn't match the phenomenon's cycle; SIGSOFT lists this as an antipattern[^ralph2020empirical-e270]. If you sample once a year, for example, you won't see technical debt rise and fall within each release cycle `[Our analysis]`.
+**Where people go wrong**: An interval that doesn't match the phenomenon's cycle; SIGSOFT lists this as an antipattern[^ralph2020empirical-e270]. If you sample once a year, for example, you won't see technical debt rise and fall within each release cycle.
 
 ### Step 3: Choose subjects, make sure they can be matched across waves, and watch for survivorship bias
 
-- **Every subject must be identifiable across waves**[^ralph2020empirical-e259]. With people, you need a stable anonymous ID; with projects, you have to deal with renames, migrations and mergers `[Our analysis]`.
+- **Every subject must be identifiable across waves**[^ralph2020empirical-e259]. With people, you need a stable anonymous ID; with projects, you have to deal with renames, migrations and mergers.
 - **Explain how subjects were selected and filtered.** When your subjects are software repositories, describe the quality controls you used to keep the artifacts consistent[^ralph2020empirical-e263].
-- **Watch for survivorship bias.** If you analyze the past 100 years using only stock markets that still exist today, you get a much higher average return than if you analyzed all the stock markets that existed 100 years ago[^ralph2020empirical-e266]. In repository data this problem is common: GitHub's application programming interface (API) only gives a repository's current state, and once a repository is deleted, all its events and metadata are lost[^kalliamvakou2016indepth-e3]. `[Our analysis]` So if you start from "projects still active today" and look back through their histories, you get a set of survivors, and the reasons projects fail are invisible in that sample. A safer approach is to fix your sample at the starting point and follow it forward, or to use data archived in advance.
+- **Watch for survivorship bias.** If you analyze the past 100 years using only stock markets that still exist today, you get a much higher average return than if you analyzed all the stock markets that existed 100 years ago[^ralph2020empirical-e266]. In repository data this problem is common: GitHub's application programming interface (API) only gives a repository's current state, and once a repository is deleted, all its events and metadata are lost[^kalliamvakou2016indepth-e3]. So if you start from "projects still active today" and look back through their histories, you get a set of survivors, and the reasons projects fail are invisible in that sample. A safer approach is to fix your sample at the starting point and follow it forward, or to use data archived in advance.
 
 ### Step 4: Plan for attrition, and report it honestly
 
@@ -86,7 +86,7 @@ A longitudinal study compares the difference between waves. If the measurement i
 
 - Discuss whether the data is consistent across waves, for example the test–retest reliability of a questionnaire (whether the same people give stable answers when they take it again after a while); check for differences in data distributions between waves[^ralph2020empirical-e265].
 - **Platforms and the meaning of data change too.** For example, what "watchers" means on GitHub is different before and after August 2012[^kalliamvakou2016indepth-e6]; git history can also be rewritten[^bird2009promises-e2]. For pitfalls like these in repository data, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md#step-4-extract-and-clean-the-data).
-- `[Our analysis]` When you compute metrics with a tool (for example, estimating technical debt with a static analysis tool), fix the same tool version and the same rule set for every wave; if you have to upgrade partway through, recompute the old data with the new version.
+- When you compute metrics with a tool (for example, estimating technical debt with a static analysis tool), fix the same tool version and the same rule set for every wave; if you have to upgrade partway through, recompute the old data with the new version.
 
 ### Step 6: Analyze with methods suited to dependent data
 
@@ -102,7 +102,7 @@ Time doesn't only bring the change you want to see; it can also hide change or c
 
 - **Practice effects**: if you test the same users again and again, gains in efficiency may just mean they got familiar with the system and learned to work around problems, not that the product got better[^kehr2015quantitative-e10].
 - **Memory and demand effects**: participants who remember how they answered last time may answer the same way to stay consistent, masking real change; and the more often they are measured, the easier it is for them to guess the study's purpose and answer the way they think the researcher expects[^kehr2015quantitative-e11].
-- **External events during the study** `[Our analysis]`: if, during the tracking period, the team changes its development process, a programming language ships a major version, or the company has layoffs, these can affect all subjects at once and be mistaken for effects of the factor you are studying. Record major events during the tracking period and take them into account in the analysis.
+- **External events during the study**: if, during the tracking period, the team changes its development process, a programming language ships a major version, or the company has layoffs, these can affect all subjects at once and be mistaken for effects of the factor you are studying. Record major events during the tracking period and take them into account in the analysis.
 
 When you study why something changed, the strongest approach is to add a control group under similar conditions[^kehr2015quantitative-e12]. Confounders you can't control statistically should be discussed in the paper[^ralph2020empirical-e264].
 

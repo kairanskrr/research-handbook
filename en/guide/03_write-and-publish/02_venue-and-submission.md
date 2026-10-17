@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Pick two or three candidate venues based on their readers and standards.** For each one, write down which paper it has published that yours most resembles ([Section 1](#1-choosing-a-venue-start-with-readers-and-standards)).
 > 2. **Choose between a conference and a journal by the norms of your field.** Write a sentence or two on which one your field or subfield mainly uses ([Section 2](#2-conference-or-journal-follow-your-fields-norms)).
@@ -38,13 +38,13 @@ Below we cite many rules from conferences, journals, and societies as examples. 
 
 **Ask "who should read this paper?" before "which venue is most famous?"** Choosing a venue is really choosing your target readers (for why readers come first, see [Writing a research plan](../02_do-the-project/03_research-plan.md#1-fix-the-finish-line-where-to-submit-and-when)). The venue also determines the paper's format, the level of detail, and how novel the work has to be[^bourne2005published-e5]. When reviewers judge whether a paper is good enough, they measure it against what that journal or conference, and that community, values[^hicks2014reviewing-e9].
 
-**The easiest starting point: see where the closest related work was published.** When you converged on your project you drew a comparison table (see [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it)). Your paper most likely belongs in front of the same readers as the papers in that table, at the same conferences and journals `[Our analysis]`.
+**The easiest starting point: see where the closest related work was published.** When you converged on your project you drew a comparison table (see [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it)). Your paper most likely belongs in front of the same readers as the papers in that table, at the same conferences and journals.
 
 **Then read the rules on the venue's website.** The American Philosophical Association's 2022 advice to authors is to look at the journal's website before submitting[^apaphil2022journal-e3]. There you can find the acceptance rate, the average review time, the average time from acceptance to publication, and similar information[^apaphil2022journal-e4]; use it to judge whether the journal is the right choice, and prepare the manuscript as it asks[^apaphil2022journal-e5]. If you are unsure, many journals offer pre-submission inquiries; use them[^bourne2005published-e10].
 
 **Pay attention to the journal's stated scope and standards.** Take the 2026 author guidelines of *Environmental Science & Technology* (ES&T below), the American Chemical Society's environmental science journal. They say lack of novelty is a common reason for rejection[^estauthorguidelines-e1], and that manuscripts reporting only routine data, or addressing problems that are already well understood, will not be considered[^estauthorguidelines-e2]. Manuscripts that fall short of these standards may not even be sent out for review (see the cover letter in Section 5).
 
-Use these questions to compare your candidate venues one by one `[Our analysis]`:
+Use these questions to compare your candidate venues one by one:
 
 | Question | How to find out | Example: "large language models and smart contract security" |
 |---|---|---|
@@ -59,7 +59,7 @@ Use these questions to compare your candidate venues one by one `[Our analysis]`
 
 You can go through the journal checklist (2023 version) of Think. Check. Submit., an initiative launched jointly by several publishing-industry organizations[^thinkchecksubmit2023checklist-e1]. For example: do you or your colleagues know the journal[^thinkchecksubmit2023checklist-e2]? Can you identify and contact the publisher[^thinkchecksubmit2023checklist-e3]? Does it say clearly what type of peer review it uses, and does it promise guaranteed acceptance or very fast review[^thinkchecksubmit2023checklist-e4]? Are all its fees stated clearly[^thinkchecksubmit2023checklist-e5]? The checklist's advice: submit only if you can answer "yes" to most or all of the questions[^thinkchecksubmit2023checklist-e6].
 
-These questions only help you rule out suspicious outlets. The safest approach is still to submit only to venues your advisor and peers recognize `[Our analysis]`.
+These questions only help you rule out suspicious outlets. The safest approach is still to submit only to venues your advisor and peers recognize.
 
 **Write it down:** List two or three candidate venues. For each, fill in the six rows of the table above, and write down "which paper it published is most like mine".
 
@@ -101,11 +101,11 @@ A **preprint** is a version of a paper made public online before formal publicat
 | Medical journals following the ICMJE recommendations (2026 version) | When you submit, tell the journal the work has been posted as a preprint and give the link[^icmje2026recommendations-e14] |
 | Philosophy journals (American Philosophical Association 2022 advice, not a binding rule) | Editors should generally be willing to consider papers already posted in a preprint archive[^apaphil2022journal-e13] |
 
-One more thing that is easy to miss: if the submitted work is part of your thesis or dissertation, ES&T requires you either to put the thesis in a public repository with a DOI, or to delay or remove the online version of the thesis until the paper is formally published[^estauthorguidelines-e17]. Check before submitting whether other venues have similar rules `[Our analysis]`.
+One more thing that is easy to miss: if the submitted work is part of your thesis or dissertation, ES&T requires you either to put the thesis in a public repository with a DOI, or to delay or remove the online version of the thesis until the paper is formally published[^estauthorguidelines-e17]. Check before submitting whether other venues have similar rules.
 
 **Your first arXiv submission needs an "endorsement".** According to arXiv's 2026 help pages, before your first submission to arXiv, or to a new category, you need an endorsement[^arxivendorsement-e1]. For a graduate student, good choices are your advisor or a faculty member at your institution in the same area who posts on arXiv actively[^arxivendorsement-e2].
 
-**How do you decide whether to post?** `[Our analysis]`
+**How do you decide whether to post?**
 
 | Leans toward posting | Leans toward holding off |
 |---|---|
@@ -121,13 +121,13 @@ One more thing that is easy to miss: if the submitted work is part of your thesi
 
 ### Format and length
 
-Respect page limits and formatting requirements[^allman2001plea-e4]. Limits vary widely: NeurIPS 2025 allows 9 pages of main text, including figures and tables[^neurips2025cfp-e2]; ES&T (2026 author guidelines) caps research articles at 7000 words[^estauthorguidelines-e10]. Some conferences also require a checklist; for example, NeurIPS 2025 requires every submission to include the paper checklist[^neurips2025cfp-e3]. Write in the venue's template from the start; don't leave the formatting until the end `[Our analysis]`.
+Respect page limits and formatting requirements[^allman2001plea-e4]. Limits vary widely: NeurIPS 2025 allows 9 pages of main text, including figures and tables[^neurips2025cfp-e2]; ES&T (2026 author guidelines) caps research articles at 7000 words[^estauthorguidelines-e10]. Some conferences also require a checklist; for example, NeurIPS 2025 requires every submission to include the paper checklist[^neurips2025cfp-e3]. Write in the venue's template from the start; don't leave the formatting until the end.
 
 ### Anonymization
 
 Some conferences use **double-blind review**: reviewers don't know who the authors are, and authors don't know who the reviewers are. For example, NeurIPS 2025 requires submissions to be anonymized, with no identifying information that could violate the double-blind policy[^neurips2025cfp-e4]. The American Philosophical Association's 2022 advice goes further: it strongly recommends that philosophy journals keep authors' identities from the editors as well[^apaphil2022journal-e1].
 
-When you cite your own earlier work, USENIX Security 2026 requires you to do it in the third person, as if citing someone else[^usenixsec2026cfp-e4]. Other common slips to check for one by one `[Our analysis]`:
+When you cite your own earlier work, USENIX Security 2026 requires you to do it in the third person, as if citing someone else[^usenixsec2026cfp-e4]. Other common slips to check for one by one:
 
 - Author names, affiliations, acknowledgments, and grant numbers removed;
 - Code and data links that point to a repository or personal homepage with your name on it (use an anonymized repository instead);
@@ -143,7 +143,7 @@ An **artifact**, as defined by the Association for Computing Machinery (ACM) in 
 - The PLOS journals (data policy accessed 2026) require that all data needed to replicate the results be publicly available at publication[^plosdatapolicy-e1], that the data availability statement give the repository name and a persistent identifier[^plosdatapolicy-e3], and they do not allow "data not shown"[^plosdatapolicy-e4];
 - Under the ICMJE 2026 recommendations, clinical trial papers submitted since July 2018 to journals that follow ICMJE must include a data sharing statement[^icmje2026recommendations-e22].
 
-To earn ACM's 2020 "Artifacts Available" badge, the artifact must be in a publicly accessible archival repository, with a DOI or a link with a unique identifier; a personal homepage does not qualify[^acm2020artifact-e4]. If the artifact depends on proprietary components that can't be made public, you may leave them out, but you must state that they are needed and explain how to obtain them[^acm2020artifact-e6]. Even if your target venue doesn't award badges, this is a standard you can follow `[Our analysis]`. For how to organize code and data, see [Organizing your research materials](../08_throughout/organizing_materials.md); for artifact evaluation and badges in computer science, see the [Computer science field overview](../07_fields/computer-science/README.md#artifact-evaluation-and-badges).
+To earn ACM's 2020 "Artifacts Available" badge, the artifact must be in a publicly accessible archival repository, with a DOI or a link with a unique identifier; a personal homepage does not qualify[^acm2020artifact-e4]. If the artifact depends on proprietary components that can't be made public, you may leave them out, but you must state that they are needed and explain how to obtain them[^acm2020artifact-e6]. Even if your target venue doesn't award badges, this is a standard you can follow. For how to organize code and data, see [Organizing your research materials](../08_throughout/organizing_materials.md); for artifact evaluation and badges in computer science, see the [Computer science field overview](../07_fields/computer-science/README.md#artifact-evaluation-and-badges).
 
 ### Ethics statement
 
@@ -155,11 +155,11 @@ Ethics is not something you start thinking about at submission time; here you ar
 
 ### Authorship and contributions
 
-**Who should be an author?** The 2023 revised edition of *The European Code of Conduct for Research Integrity* applies to all fields[^allea2023european-e18]. It lists four conditions: a significant contribution to the research design, data collection, analysis, or interpretation; drafting or critically reviewing the paper; approving the final version; and agreeing to be responsible for the content[^allea2023european-e7]. The ICMJE 2026 recommendations also use four criteria, require every author to meet all four, and say everyone who meets all four should be an author[^icmje2026recommendations-e3]. The IEEE 2026 Operations Manual explicitly lists prototype development as one of the contributions that can qualify someone for authorship[^ieee2026pspb-e6]; for computer science research that builds systems and tools, this is worth noting `[Our analysis]`.
+**Who should be an author?** The 2023 revised edition of *The European Code of Conduct for Research Integrity* applies to all fields[^allea2023european-e18]. It lists four conditions: a significant contribution to the research design, data collection, analysis, or interpretation; drafting or critically reviewing the paper; approving the final version; and agreeing to be responsible for the content[^allea2023european-e7]. The ICMJE 2026 recommendations also use four criteria, require every author to meet all four, and say everyone who meets all four should be an author[^icmje2026recommendations-e3]. The IEEE 2026 Operations Manual explicitly lists prototype development as one of the contributions that can qualify someone for authorship[^ieee2026pspb-e6]; for computer science research that builds systems and tools, this is worth noting.
 
 **Who doesn't qualify?** Under the ICMJE 2026 recommendations, acquiring funding, general supervision or administrative support, or writing assistance and language editing are not, on their own, enough for authorship[^icmje2026recommendations-e7]; these people go in the acknowledgments, with a note on what each of them did[^icmje2026recommendations-e8].
 
-**How do you settle it?** The American Physical Society's 2024 ethics guidelines require every author to be able to identify and confirm their specific contribution[^aps2024ethics-e4], and recommend deciding, when you start writing, who will be an author, in what order, and who goes in the acknowledgments, and confirming this with everyone on the team to avoid disputes[^aps2024ethics-e5]. Author order is agreed jointly by the authors[^allea2023european-e8], not decided by the editor[^icmje2026recommendations-e27]. The American Chemical Society's 2026 guidelines also require the submitting author to send the manuscript to every coauthor and obtain their consent to be listed[^acs2026ethical-e8]. Whatever venue you submit to, do this before you submit `[Our analysis]`.
+**How do you settle it?** The American Physical Society's 2024 ethics guidelines require every author to be able to identify and confirm their specific contribution[^aps2024ethics-e4], and recommend deciding, when you start writing, who will be an author, in what order, and who goes in the acknowledgments, and confirming this with everyone on the team to avoid disputes[^aps2024ethics-e5]. Author order is agreed jointly by the authors[^allea2023european-e8], not decided by the editor[^icmje2026recommendations-e27]. The American Chemical Society's 2026 guidelines also require the submitting author to send the manuscript to every coauthor and obtain their consent to be listed[^acs2026ethical-e8]. Whatever venue you submit to, do this before you submit.
 
 Ordering conventions vary by field: coauthored papers in economics are mostly in alphabetical order by surname; see the [Economics field overview](../07_fields/economics/README.md#alphabetical-authorship). For how to discuss authorship with your advisor, see [Collaboration and advisors](../08_throughout/collaboration_and_advisors.md).
 
@@ -181,9 +181,9 @@ Ordering conventions vary by field: coauthored papers in economics are mostly in
 3. **Ask someone with no stake in the work to read it**, ideally including someone outside your area[^bourne2005published-e7].
 4. **Check the paper against the reporting guidelines for this kind of study.** Starting without reading the existing guidelines for this kind of research is listed as an antipattern in the empirical standards of ACM SIGSOFT (the ACM Special Interest Group on Software Engineering)[^ralph2020empirical-e26]. Medicine has established reporting guidelines; one example the ICMJE 2026 recommendations give is CONSORT for randomized trials[^icmje2026recommendations-e25].
 5. **Go through the to-do table from Section 4** and tick off every item.
-6. **For a journal, write a good cover letter.** According to ES&T's 2026 author guidelines, a substantial share of its submissions are not sent out for review, because the editors judge them insufficient in novelty, scientific merit, or environmental importance; the cover letter is your chance to persuade the editor[^estauthorguidelines-e12]. In two or three sentences, say what problem the paper solves, what the main findings are, and why it fits this journal `[Our analysis]`.
+6. **For a journal, write a good cover letter.** According to ES&T's 2026 author guidelines, a substantial share of its submissions are not sent out for review, because the editors judge them insufficient in novelty, scientific merit, or environmental importance; the cover letter is your chance to persuade the editor[^estauthorguidelines-e12]. In two or three sentences, say what problem the paper solves, what the main findings are, and why it fits this journal.
 
-**Leave yourself time for these checks.** If you do them on deadline day, things get missed `[Our analysis]`. Set an internal deadline before the official one; see [Writing a research plan](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack).
+**Leave yourself time for these checks.** If you do them on deadline day, things get missed. Set an internal deadline before the official one; see [Writing a research plan](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack).
 
 **Write it down:** Set an "internal final-draft date" at least one week before the deadline, and write down who will read the whole paper before that date.
 
@@ -191,7 +191,7 @@ Ordering conventions vary by field: coauthored papers in economics are mostly in
 
 Once you click "Submit", you are waiting. If you know the process, you know what to do while you wait.
 
-**Conferences (computer science as the example)** `[Our analysis, based on the sources below]`:
+**Conferences (computer science as the example).** The process in the table below is our summary of the sources cited in it:
 
 | Stage | What happens |
 |---|---|
@@ -202,9 +202,9 @@ Once you click "Submit", you are waiting. If you know the process, you know what
 
 For the details of one conference's process, see the [Computer science field overview](../07_fields/computer-science/README.md#the-life-of-a-conference-paper).
 
-**Journals**: The editor looks at the manuscript first and may reject it without sending it out for review (a desk reject); the American Philosophical Association's 2022 advice is that editors should also have read the manuscript anonymously before making that decision[^apaphil2022journal-e2]. After review, the editor decides, based on the reviews, to accept, ask for a revision and re-review, or reject `[Our analysis]`. If you get a major revision, revise seriously, and address every comment both in the response letter and in the revised text[^bourne2005published-e2]. Journal review can take months; for the figures by field, see [Writing a research plan](../02_do-the-project/03_research-plan.md#1-fix-the-finish-line-where-to-submit-and-when). The American Philosophical Association's 2022 advice is that four months after submission you may ask about the status of the review, unless the journal has said it takes longer[^apaphil2022journal-e7]; journals in other fields may differ, so check the average review time on the journal's website first `[Our analysis]`.
+**Journals**: The editor looks at the manuscript first and may reject it without sending it out for review (a desk reject); the American Philosophical Association's 2022 advice is that editors should also have read the manuscript anonymously before making that decision[^apaphil2022journal-e2]. After review, the editor decides, based on the reviews, to accept, ask for a revision and re-review, or reject. If you get a major revision, revise seriously, and address every comment both in the response letter and in the revised text[^bourne2005published-e2]. Journal review can take months; for the figures by field, see [Writing a research plan](../02_do-the-project/03_research-plan.md#1-fix-the-finish-line-where-to-submit-and-when). The American Philosophical Association's 2022 advice is that four months after submission you may ask about the status of the review, unless the journal has said it takes longer[^apaphil2022journal-e7]; journals in other fields may differ, so check the average review time on the journal's website first.
 
-**Things to do while you wait** `[Our analysis]`:
+**Things to do while you wait**:
 
 - Prepare your artifact: OSDI 2024, for example, warns that the time between acceptance and artifact submission is short[^sysartifactsguide-e2];
 - Think about which points reviewers are most likely to challenge, and prepare supporting data in advance, so you aren't scrambling during the response period;
@@ -212,7 +212,7 @@ For the details of one conference's process, see the [Computer science field ove
 
 **Things not to do while you wait**: Don't submit the same paper anywhere else (USENIX Security 2026 considers it dishonest or fraudulent[^usenixsec2026cfp-e11]); and when you update your preprint, don't write "under review at such-and-such conference" (NeurIPS 2025 explicitly forbids it[^neurips2025cfp-e6]).
 
-**When the decision comes.** The final decision is the collective judgment of all the reviewers, "more art than science"[^hicks2014reviewing-e10]; the purpose of a conference's discussion is to select a set of the best papers, not to pass a verdict on each paper[^roscoe2007reviews-e14]. So one decision doesn't capture the full value of your work `[Our analysis]`.
+**When the decision comes.** The final decision is the collective judgment of all the reviewers, "more art than science"[^hicks2014reviewing-e10]; the purpose of a conference's discussion is to select a set of the best papers, not to pass a verdict on each paper[^roscoe2007reviews-e14]. So one decision doesn't capture the full value of your work.
 
 - **If you have to revise, respond, or were rejected**: see [Reviews, revision, and what to do after rejection](03_review-and-revision.md).
 - **If you were accepted**: submit the final version as required, and check the venue's rules for after acceptance. For example, the IEEE 2026 Operations Manual expects authors of conference papers to present them at the conference, and IEEE may leave papers that weren't presented out of its post-conference database[^ieee2026pspb-e13]; IEEE journals (Author Center pages, accessed 2026) require that after acceptance you replace any previously posted version with a citation that includes the DOI, or with the accepted version carrying the DOI and a copyright notice[^ieeeauthorposting-e2]; the American Physical Society's 2024 guidelines require that after formal publication you add a link to the published version on your preprint[^aps2024ethics-e8].
@@ -224,7 +224,7 @@ For the details of one conference's process, see the [Computer science field ove
 
 ## Judgment calls
 
-**Which tier to aim for?** `[Our analysis]`
+**Which tier to aim for?**
 
 | Situation | Usual approach |
 |---|---|
@@ -235,7 +235,7 @@ For the details of one conference's process, see the [Computer science field ove
 
 Better to publish one paper in a high-quality journal than several in weaker ones[^bourne2005published-e9].
 
-**Make this deadline, or wait for the next?** Some criticize computer science for being deadline-driven: papers get submitted when a suitable deadline comes along, not when the research is truly ready[^fortnow2009time-e2]. If the evidence still isn't enough by the deadline, better to aim for the next venue, or narrow your claim to what the evidence can support `[Our analysis]`.
+**Make this deadline, or wait for the next?** Some criticize computer science for being deadline-driven: papers get submitted when a suitable deadline comes along, not when the research is truly ready[^fortnow2009time-e2]. If the evidence still isn't enough by the deadline, better to aim for the next venue, or narrow your claim to what the evidence can support.
 
 ## Common mistakes
 

@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Start a one-page decision log.** Every time you make a choice, add a line: the date, what you saw, which option you chose, and why ([Section 1](#1-part-2-is-a-loop-not-a-straight-line)).
 > 2. **Find the row of the master table you are in right now.** Replace "what you see" with the concrete situation in your project, then choose continue, adjust, or go back ([Section 2](#2-one-master-table-when-what-you-see-how-to-choose)).
@@ -29,11 +29,11 @@ Each earlier chapter ends with its own "When to go back" section, and several of
 
 ## 1. Part 2 is a loop, not a straight line
 
-This handbook lays out Part 2 as 2.1 through 2.7 because that is easier to read. Real projects don't go through it in one pass: a pilot overturns the design, data overturns the claim, analysis sends you back to run more experiments `[Our analysis]`.
+This handbook lays out Part 2 as 2.1 through 2.7 because that is easier to read. Real projects don't go through it in one pass: a pilot overturns the design, data overturns the claim, analysis sends you back to run more experiments.
 
 **Going back is normal.** Describing his own research process, one machine learning researcher says that sometimes you find things are much messier than you thought, and you may need to go back to testing hypotheses or even to exploring again; this is completely normal and doesn't mean you have messed up[^nanda2025process-e6]. A tutorial on pilot studies in clinical research puts it more bluntly: a pilot that shows the main study is not feasible is not a failure but a success, because it kept you from wasting limited resources on a study doomed to fail[^thabane2010tutorial-e8].
 
-So at each key moment, the job is not to grit your teeth and push on. Stop and pick one of three options `[Our analysis]`:
+So at each key moment, the job is not to grit your teeth and push on. Stop and pick one of three options:
 
 - **Continue**: the evidence broadly matches what you expected; carry on with the plan.
 - **Adjust**: the claim still stands, but the definitions, the method, the scale, or the scope of the claim need to change.
@@ -43,7 +43,7 @@ So at each key moment, the job is not to grit your teeth and push on. Stop and p
 
 ## 2. One master table: when, what you see, how to choose
 
-The table below puts the decision points from each chapter together in project order. The "Details" column points to the original section, which has the full discussion and the sources `[Our analysis]`.
+The table below puts the decision points from each chapter together in project order. The "Details" column points to the original section, which has the full discussion and the sources.
 
 | Moment | What you see | Continue | Adjust | Go back to Part 1 | Details |
 |---|---|---|---|---|---|
@@ -61,31 +61,31 @@ When you go back to Part 1, you usually return to [Converging on a project](../0
 
 ### Continue
 
-You can only continue if you wrote down in advance what counts as continuing. The clinical pilot-study tutorial requires the criteria for success to be stated in advance[^thabane2010tutorial-e3]; if you set them after the trial, they drift toward the results without your noticing `[Our analysis]`.
+You can only continue if you wrote down in advance what counts as continuing. The clinical pilot-study tutorial requires the criteria for success to be stated in advance[^thabane2010tutorial-e3]; our view is that if you set them after the trial, they drift toward the results without your noticing.
 
 What you need: the criteria table you wrote before the pilot ([2.5, Section 5](05_pilot-and-derisk.md#5-write-down-in-advance-what-results-mean-continue-adjust-or-stop)), and the "what counts as done" for each milestone in your plan ([2.3](03_research-plan.md)).
 
 ### Adjust
 
-**Start from the smallest layer:** try a different implementation first, then consider revising the claim, and only last consider changing the problem `[Our analysis]`. The reasons: one failure only shows that you tried one implementation of the idea, not the whole idea[^steinhardt2018stochastic-e10]; and switching too often is more common than switching too rarely[^schulman2020opinionated-e13].
+**Start from the smallest layer:** try a different implementation first, then consider revising the claim, and only last consider changing the problem. The reasons: one failure only shows that you tried one implementation of the idea, not the whole idea[^steinhardt2018stochastic-e10]; and switching too often is more common than switching too rarely[^schulman2020opinionated-e13].
 
-**Leave a trail when you adjust.** Whenever you change a definition, a method, or the data, record it in the plan's change log, and tell your advisor about big changes first (see [2.6, Section 4](06_run-and-iterate.md#4-when-you-change-your-approach-write-it-down-and-say-so)). Any analysis that comes from a change made after you looked at the data should be labeled exploratory (see [2.7, Section 2](07_analyze-and-interpret.md#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)) `[Our analysis]`.
+**Leave a trail when you adjust.** Whenever you change a definition, a method, or the data, record it in the plan's change log, and tell your advisor about big changes first (see [2.6, Section 4](06_run-and-iterate.md#4-when-you-change-your-approach-write-it-down-and-say-so)). Any analysis that comes from a change made after you looked at the data should be labeled exploratory (see [2.7, Section 2](07_analyze-and-interpret.md#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)).
 
 **The bottom line for adjusting:** you change the claim, not the evidence. Quietly dropping unfavorable data to save the claim crosses the line (see [2.7, Section 7](07_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim)).
 
 ### Go back to Part 1
 
-**Dropping an idea needs a solid reason.** "It looks like it won't work" or "I tried a few times and lost steam" don't count as ruling an idea out[^steinhardt2018stochastic-e22]. You need to be able to write down why it is doomed `[Our analysis]`.
+**Dropping an idea needs a solid reason.** "It looks like it won't work" or "I tried a few times and lost steam" don't count as ruling an idea out[^steinhardt2018stochastic-e22]. You need to be able to write down why it is doomed.
 
 **But stop when it's time to stop.** If you keep lowering your goals and expectations, that is a sign you aren't making progress[^dredze2012successful-e5]; when a project's returns are clearly diminishing, switching projects is perfectly fine[^perez2024tips-e2]. Be ready to drop a direction decisively when it isn't very promising; but if you keep switching and never explore anything properly, you learn nothing[^nanda2025mindsets-e1].
 
-What you need: your decision log, the one-page project summary, and the evidence you already have. Going back is not starting from zero: the evidence you already have is often the starting point for the next candidate conclusion, and a negative result can itself become a claim (see [2.7, Section 5](07_analyze-and-interpret.md#5-negative-and-unexpected-results)) `[Our analysis]`.
+What you need: your decision log, the one-page project summary, and the evidence you already have. Going back is not starting from zero: the evidence you already have is often the starting point for the next candidate conclusion, and a negative result can itself become a claim (see [2.7, Section 5](07_analyze-and-interpret.md#5-negative-and-unexpected-results)).
 
 **Write it down:** For the decision you are most torn about, write one reason each for continuing, adjusting, and going back. Whichever one you can't find a reason for, rule out first.
 
 ## 4. The paper skeleton you keep up to date
 
-Across both parts, five things grow one out of the other `[Our analysis]`:
+Across both parts, five things grow one out of the other:
 
 | Item | Where it comes from | What it answers |
 |---|---|---|
@@ -97,7 +97,7 @@ Across both parts, five things grow one out of the other `[Our analysis]`:
 
 This thread comes from writing advice by researchers in computer science and computational biology. One computer scientist says you can write the experiments section before running the experiments, sketching empty results tables complete with row and column headings and captions[^eisnerfirst-e5]; write it honestly and you will often find that proving your point takes more work than you expected, so the sooner you write, the better[^eisnerfirst-e6]. Writing advice published in a computational biology journal says to design the project with the final paper in mind and put a paper outline in your first design document[^zhang2014ten-e8]. Another computer scientist, talking about how to write papers, says that writing the paper is a primary mechanism for doing research, not just reporting it once it's done[^peytonjones2013write-e1]; writing the paper is how you develop the idea in the first place[^peytonjones2013write-e12]. The contribution list then drives the whole paper: the paper's job is to substantiate those claims[^peytonjones2013write-e4].
 
-**After every decision, update this skeleton** `[Our analysis]`:
+**After every decision, update this skeleton**:
 
 | Your decision | What to change |
 |---|---|
@@ -112,11 +112,11 @@ That way, on the day your experiments are done, you already have the skeleton of
 
 ## 5. Example: almost no leakage turns up. Adjust the definition, or change the problem?
 
-Back to the running example `[Our analysis]`. The central claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage". In the [evidence plan](01_question-to-evidence.md#2-give-every-key-term-an-operational-definition), "leakage" was defined as: after stripping comments and whitespace, a contract in the benchmark is identical to some contract in the training corpus. A backup definition was written down at the same time: highly similar.
+Back to the running example. The central claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage". In the [evidence plan](01_question-to-evidence.md#2-give-every-key-term-an-operational-definition), "leakage" was defined as: after stripping comments and whitespace, a contract in the benchmark is identical to some contract in the training corpus. A backup definition was written down at the same time: highly similar.
 
 The pilot finishes, and under "identical" only a handful of leaked samples turn up among several hundred contracts. Looking at the contracts that didn't match, many differ only in renamed variables or reordered functions.
 
-This is a decision point. Following Section 3, start from the smallest layer `[Our analysis]`:
+This is a decision point. Following Section 3, start from the smallest layer:
 
 1. **Is it a detail problem?** "Identical" may be too strict and miss copies with renamed identifiers. That is a measurement problem, and according to [2.5, Judgment calls](05_pilot-and-derisk.md#judgment-calls) you fix the measurement first. In practice: switch to the backup definition you wrote in advance, "highly similar"; check how accurate it is on hand-checked samples; record the change in the change log; and tell your advisor. Report the results under both definitions in the paper.
 2. **What if there is still almost no leakage under the new definition?** Then a core assumption the design depends on doesn't hold. Don't give up just yet: a negative result can be a claim in its own right, for example "on these benchmarks, leakage is less common than people tend to fear", provided you can explain why (see [2.7, Section 5](07_analyze-and-interpret.md#5-negative-and-unexpected-results)).
@@ -130,7 +130,7 @@ Whichever path you take, update the skeleton following Section 4: on path 1, cha
 
 ## Judgment calls
 
-**When you can't tell which option to choose**, ask one question first: can you write down why this idea is doomed `[Our analysis]`?
+**When you can't tell which option to choose**, ask one question first: can you write down why this idea is doomed?
 
 - If you can't: continue, or adjust starting from the smallest layer.
 - If you can, but the reason concerns only one implementation or one definition: adjust.
@@ -142,12 +142,12 @@ Whichever path you take, update the skeleton following Section 4: on path 1, cha
 
 | Mistake | Why it's a problem |
 |---|---|
-| Setting no decision points and pushing through to the end | Problems only surface when you write the paper `[Our analysis]` |
+| Setting no decision points and pushing through to the end | Problems only surface when you write the paper |
 | Treating going back as failure and not daring to mention it | Going back is a normal part of research[^nanda2025process-e6] |
 | Switching problems the first time something goes wrong | Only one implementation failed[^steinhardt2018stochastic-e10]; switching too often is the more common mistake[^schulman2020opinionated-e13] |
 | Lowering your goals again and again but refusing to stop | It's a sign you aren't making progress[^dredze2012successful-e5] |
-| Adjusting a definition or method without recording it | Neither your readers nor you can tell which conclusions were affected `[Our analysis]` |
-| Revising the claim without updating the results tables and evidence plan | When you write the paper, the skeleton and the conclusions don't match `[Our analysis]` |
+| Adjusting a definition or method without recording it | Neither your readers nor you can tell which conclusions were affected |
+| Revising the claim without updating the results tables and evidence plan | When you write the paper, the skeleton and the conclusions don't match |
 
 ## What you should have at the end
 

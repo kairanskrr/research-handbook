@@ -16,11 +16,11 @@ This page explains how research actually works in computer science: publishing t
 
 ### Conferences are the main publication venue
 
-In most fields, "publishing" means publishing in a journal. Computer science is different: conference proceedings are the main publication venue, and a paper at a top conference is a full research output, not a "conference abstract" `[Our analysis]`. Moshe Vardi, editor-in-chief of *Communications of the ACM* (CACM; ACM is the Association for Computing Machinery), wrote that, as far as he knew, computer science is the only field that treats conference publication as its primary means of publishing[^vardi2009conferences-e1]. A 1999 memo from the Computing Research Association (CRA) states plainly that the field gives more weight to conference publication[^cra1999evaluating-e1]; in experimental areas, top conferences are usually harder to get into than top journals[^cra1999evaluating-e3].
+In most fields, "publishing" means publishing in a journal. Computer science is different: conference proceedings are the main publication venue, and a paper at a top conference is a full research output, not a "conference abstract". Moshe Vardi, editor-in-chief of *Communications of the ACM* (CACM; ACM is the Association for Computing Machinery), wrote that, as far as he knew, computer science is the only field that treats conference publication as its primary means of publishing[^vardi2009conferences-e1]. A 1999 memo from the Computing Research Association (CRA) states plainly that the field gives more weight to conference publication[^cra1999evaluating-e1]; in experimental areas, top conferences are usually harder to get into than top journals[^cra1999evaluating-e3].
 
 Theory is an exception: theoreticians value conferences too, but there is a long tradition of completing and expanding conference papers into journal versions[^cra1999evaluating-e4].
 
-Computer science has one more underlying feature: many of the things it studies are built by people. Building something new is not a contribution in itself; **you must show that it is better**[^cra1999evaluating-e6]. So most papers in the field answer "how is the new method better than existing ones, and by how much?", and how well the evaluation is done decides the paper's fate `[Our analysis]`. For how to make a fair comparison, see [Comparative evaluation](../../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough).
+Computer science has one more underlying feature: many of the things it studies are built by people. Building something new is not a contribution in itself; **you must show that it is better**[^cra1999evaluating-e6]. So most papers in the field answer "how is the new method better than existing ones, and by how much?", and how well the evaluation is done decides the paper's fate. For how to make a fair comparison, see [Comparative evaluation](../../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough).
 
 ### The life of a conference paper
 
@@ -30,7 +30,7 @@ The process is much the same across conferences. The examples below use USENIX S
 |---|---|---|
 | Call for papers (CFP) | Announces the deadlines, page limits, anonymity rules, and ethics and artifact requirements | NeurIPS limits the main text to 9 pages, including figures and tables[^neurips2025cfp-e2] |
 | Deadline | Often you register the title and abstract first and submit the full paper a few days later; deadlines are usually "Anywhere on Earth" (AoE) | NeurIPS 2025: abstracts due May 11, full papers May 15[^neurips2025cfp-e1] |
-| Program committee (PC) review | Committee members review the papers; large conferences also have area chairs (ACs), who synthesize the reviews and take part in the decision `[Our analysis]` | Some conferences send "early rejection" notices first[^usenixsec2026cfp-e1] |
+| Program committee (PC) review | Committee members review the papers; large conferences also have area chairs (ACs), who synthesize the reviews and take part in the decision | Some conferences send "early rejection" notices first[^usenixsec2026cfp-e1] |
 | Author response (rebuttal) | After seeing the initial reviews, authors reply in writing within a very short window | NeurIPS allows one week[^neurips2025cfp-e8] |
 | Decision and camera-ready | If accepted, you revise according to the reviews and submit the final version | |
 | Artifact evaluation (some areas) | After acceptance you separately submit code, data, and so on; a dedicated committee evaluates them and awards badges | See below |
@@ -72,11 +72,11 @@ Artifact evaluation is usually **voluntary**[^acm2020artifact-e10]. In systems, 
 
 ### Conferences or journals: a long-running debate
 
-The main differences between the two `[Our analysis, based on the sources below]`:
+The main differences between the two (our summary, based on the sources below):
 
 | | Conferences | Journals |
 |---|---|---|
-| Review | Fixed schedule, one decision; the author response window is short (one week at NeurIPS)[^neurips2025cfp-e8], and usually you get only one chance to respond `[Our analysis]` | Multiple rounds of revision possible |
+| Review | Fixed schedule, one decision; the author response window is short (one week at NeurIPS)[^neurips2025cfp-e8] | Multiple rounds of revision possible |
 | Speed | Fast (7 months, by CRA's 1999 figures)[^cra1999evaluating-e2] | Slow (same source: 1 to 2 years) |
 | Length | Strict page limits, less time to polish[^cra1999evaluating-e7] | More flexible |
 | Status in the field | Most research areas center on top conferences | Theory often expands conference papers into journal versions[^cra1999evaluating-e4] |
@@ -130,7 +130,7 @@ The software engineering empirical standards also list acknowledging and mitigat
 
 A **research strategy** is the main logic by which a project produces new knowledge, determined by its central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the seven strategies common in computer science research (the eighth, Interpretation and argument, is mostly found in the humanities and social sciences and is left out here), along with the evidence each usually relies on and the standards reviewers judge it by.
 
-The grouping in the table and the summaries in the "What it looks like in computer science" column are our own; each standard speaks only for the research area named in its footnote (mostly software engineering, machine learning, and security), and our sources do not cover other areas `[Our analysis]`.
+The grouping in the table and the summaries in the "What it looks like in computer science" column are our own; each standard speaks only for the research area named in its footnote (mostly software engineering, machine learning, and security), and our sources do not cover other areas.
 
 | Strategy | What it looks like in computer science | Typical evidence and standards | How to do it |
 |---|---|---|---|
@@ -142,7 +142,7 @@ The grouping in the table and the summaries in the "What it looks like in comput
 | [Synthesis](../../05_research-strategies/synthesize.md) | Systematic reviews, mapping studies, case surveys. The software engineering review criteria have dedicated standards for systematic reviews[^ralph2020empirical-e1] and case surveys[^ralph2020empirical-e291] | Describe the search process and selection criteria step by step and reproducibly[^ralph2020empirical-e4]; show a clear chain of evidence from the extracted data to the answers to the questions[^ralph2020empirical-e6] | [Review studies](../../06_methods/review_study.md), [Case survey](../../06_methods/case_survey.md) |
 | [Proof](../../05_research-strategies/prove.md) | Theoretical computer science, and the formal-methods side of software engineering, systems, and security | A formal model must be backed by rigorous derivation and proof, not by one or two simple examples[^shaw2003writing-e9]; systems where errors are costly can get machine-checked proofs: the seL4 kernel, for example, was verified by machine-checked proof all the way from its abstract specification to its C implementation[^klein2009sel4-e8] | [Theoretical research](practices/theoretical_research.md) |
 
-How to use this table `[Our analysis]`:
+How to use this table:
 
 - **First find your strategy from your central claim**, then read the matching strategy page and practice page. Many computer science papers are mixed, for example proposing a new tool and also proving one of its properties. In that case, let the central claim determine the main strategy, and hold each of the other parts to its own strategy's standards.
 - **For the same strategy, "good enough" differs across research areas.** The software engineering review criteria say explicitly that there is no universal quality standard: each study should be judged by the standards of the method that suits it[^ralph2020empirical-e142]; to judge whether a paper is good enough, you also need to know the standards of the target conference and its community[^hicks2014reviewing-e9]. For the specific conventions of each area, see [Conventions differ across research areas](#conventions-differ-across-research-areas) above.
@@ -156,7 +156,7 @@ How to use this table `[Our analysis]`:
 3. **Start preparing your artifact while the paper is still under review.** The time between acceptance and artifact submission is very short[^sysartifactsguide-e2]. If there are complex dependencies, package them in a container or virtual machine[^sysartifactsguide-e6]; follow your own instructions once in a fresh environment[^sysartifactsguide-e5]. For general practice in organizing code and data, see [Organizing your research materials](../../08_throughout/organizing_materials.md).
 4. **Check the policy before posting a preprint, and don't break anonymity once you have.** Don't write "under review at conference X" in the public version[^neurips2025cfp-e6], and cite your own work in the third person in the submitted version[^usenixsec2026cfp-e4].
 5. **Treat the rebuttal as a formal step and prepare for it.** The response window is often only about a week[^neurips2025cfp-e8], and the area chair reads it too; for how to write it, see [Reviews, revision, and what to do after rejection](../../03_write-and-publish/03_review-and-revision.md).
-6. **Don't let deadlines push you into submitting half-finished work.** When the research isn't ready, waiting for the next deadline is often better than forcing a submission[^fortnow2009time-e2] `[Our analysis]`.
+6. **Don't let deadlines push you into submitting half-finished work.** When the research isn't ready, waiting for the next deadline is often better than forcing a submission[^fortnow2009time-e2].
 7. **Rejection is normal; don't judge the value of your work by a single outcome.** For solid papers in the middle tier, outcomes are the hardest to predict[^fortnow2009time-e5].
 
 ---

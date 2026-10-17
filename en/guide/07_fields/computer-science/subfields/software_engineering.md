@@ -8,7 +8,7 @@ Software engineering research studies how software is developed, analyzed, and m
 
 To see how broad the field is, look at one conference's call for papers. ICSE 2026 (the International Conference on Software Engineering) divided submissions into nine research areas and accepted quantitative, qualitative, and mixed-methods research[^icse2026cfp-e1]. The areas run from "AI for Software Engineering" (using artificial intelligence to support software engineering) and mining data from version repositories and bug trackers to human and social aspects; formal methods and model checking are in scope too[^icse2026cfp-e2].
 
-So papers in this field roughly fall into two kinds `[Our analysis]`:
+So papers in this field roughly fall into two kinds:
 
 - **Building new techniques**, for example "does a new test-generation tool find more bugs than existing tools?"
 - **Describing how things are**, for example "why do developers leave open-source projects?"
@@ -49,7 +49,7 @@ One thing a newcomer may want to know: the second cycle of ICSE 2026 had a "shad
 
 The **ACM SIGSOFT Empirical Standards** (review standards for papers, produced by the Special Interest Group on Software Engineering of the Association for Computing Machinery; "the empirical standards" below) are software engineering's own review standards. Their starting point is that there is no universal standard of quality: each study should be judged by the standards that fit its method[^ralph2020empirical-e142]. So they are written separately for each research method; systematic reviews, for example, have a standard of their own[^ralph2020empirical-e1].
 
-The seven strategies common in computer science and the evidence standards for each are in [Computer science field overview: common strategies and standards of evidence](../README.md#common-strategies-and-standards-of-evidence). Most of the standards in that table come from the empirical standards, so we don't repeat them. The table below adds only the one point that needs special care in software engineering. The table is our own summary; the facts in each cell are in the footnotes `[Our analysis]`.
+The seven strategies common in computer science and the evidence standards for each are in [Computer science field overview: common strategies and standards of evidence](../README.md#common-strategies-and-standards-of-evidence). Most of the standards in that table come from the empirical standards, so we don't repeat them. The table below adds only the one point that needs special care in software engineering. The table is our own summary; the facts in each cell are in the footnotes.
 
 | Strategy | What it looks like in software engineering | Watch out for | How to do it |
 |---|---|---|---|

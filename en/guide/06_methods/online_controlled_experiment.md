@@ -2,13 +2,13 @@
 
 This page is about **online controlled experiments**, which industry usually calls **A/B tests**. You take the real users of a running website, app, or service and randomly split them into two groups: one gets the existing version (the control), the other gets the new version (the treatment). Then you compare the two groups' metrics[^kohavi2009controlled-e1].
 
-How it relates to nearby pages `[Our analysis]`:
+How it relates to nearby pages:
 
 - [Controlled experiments](controlled_experiment.md) covers studies where the researcher recruits participants and compares how people perform under controlled conditions. An online controlled experiment follows the same logic, but the participants are the product's real users, who usually don't know they are in an experiment, and what you measure is the behavioral data they leave while using the product as they normally would.
 - [Field experiments](field_experiment.md) covers working with a government, firm, or community to randomize an intervention in the real world. You can think of an online controlled experiment as a field experiment inside a software product, except that the product team runs it themselves, samples often run to hundreds of thousands of people, and a single experiment lasts only a few weeks. The field experiments page's discussion of the unit of randomization, spillovers, and ethics applies here too.
 - If what you are comparing is the system or model itself, and no real users are needed, see [Benchmarking](../07_fields/computer-science/practices/benchmarking.md). Statistical testing in general is covered in [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) and not repeated here.
 
-**Scope** `[Our analysis]`: almost all the sources for this page come from experimentation teams in the software industry (Microsoft's Bing and MSN, Booking.com, and the commercial A/B testing platform Optimizely), published at the data mining conference KDD (the ACM SIGKDD Conference on Knowledge Discovery and Data Mining) and in the journal *Data Mining and Knowledge Discovery*. The ethics section draws on the controversy over Facebook's emotional contagion experiment. So what this page describes is how to work when you have a high-traffic product. Academic researchers who run this kind of experiment in human-computer interaction, information systems, or computational social science usually have to partner with a platform, or run it on a website or course platform they operate themselves; traffic is much lower, and ethics review follows their own institution's rules. For online randomized experiments in marketing or economics, check your field's norms and [Field experiments](field_experiment.md) first.
+**Scope**: almost all the sources for this page come from experimentation teams in the software industry (Microsoft's Bing and MSN, Booking.com, and the commercial A/B testing platform Optimizely), published at the data mining conference KDD (the ACM SIGKDD Conference on Knowledge Discovery and Data Mining) and in the journal *Data Mining and Knowledge Discovery*. The ethics section draws on the controversy over Facebook's emotional contagion experiment. So what this page describes is how to work when you have a high-traffic product. Academic researchers who run this kind of experiment in human-computer interaction, information systems, or computational social science usually have to partner with a platform, or run it on a website or course platform they operate themselves; traffic is much lower, and ethics review follows their own institution's rules. For online randomized experiments in marketing or economics, check your field's norms and [Field experiments](field_experiment.md) first.
 
 **Strategies it usually serves**: [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Causal explanation](../05_research-strategies/explain_causality.md), [Building and improving](../05_research-strategies/build_improve.md).
 
@@ -27,7 +27,7 @@ The key word is "random": you can't split users any old way, and nothing may inf
 
 **Why run an experiment instead of trusting judgment.** Ideas succeed far less often than people expect: of the ideas tested in experiments at Microsoft, only a third improved the metric they were designed to improve[^kohavi2012trustworthy-e2].
 
-**Questions it answers well** `[Our analysis]`:
+**Questions it answers well**:
 
 - "If we ship feature X to real users, how much does some behavioral metric change?" For example, changing a button or switching to a different recommendation ranking. It isn't limited to interface changes: backend algorithm changes (such as to a search algorithm) can be evaluated the same way, and this is often overlooked[^kohavi2009controlled-e26].
 - "Is the model that looks better in offline evaluation still better in real use?" This is exactly the gap between offline evaluation and real-world effect.
@@ -36,9 +36,9 @@ The key word is "random": you can't split users any old way, and nothing may inf
 
 - **Why.** It tells you which version is better and by how much, but not the reason. User studies in a usability lab capture users' comments and can fill that gap[^kohavi2009controlled-e12]. For that kind of study, see [Controlled experiments](controlled_experiment.md) and [Interview studies](interview_study.md).
 - **Long-term effects.** It measures the effect during the experiment period, typically a few weeks[^kohavi2009controlled-e13].
-- **Things that don't exist yet.** The feature has to be built, and be of good enough quality to put in front of real users[^kohavi2009controlled-e15]. Refine early ideas with prototypes and user studies first `[Our analysis]`.
+- **Things that don't exist yet.** The feature has to be built, and be of good enough quality to put in front of real users[^kohavi2009controlled-e15]. Refine early ideas with prototypes and user studies first.
 
-**How it differs from related methods** `[Our analysis]`:
+**How it differs from related methods**:
 
 | | Online controlled experiment | [Controlled experiments](controlled_experiment.md) | [Field experiments](field_experiment.md) | [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) | [Quasi-experiment](quasi_experiment.md) |
 |---|---|---|---|---|---|
@@ -47,15 +47,15 @@ The key word is "random": you can't split users any old way, and nothing may inf
 | Scale and duration | Thousands of people or more, days to weeks | Dozens of people, an hour or two | Hundreds to thousands of units, months to years | One benchmark | Whatever existing data there is |
 | Main difficulties | Choosing metrics, data quality, peeking, interference between groups | Artificial setting, few participants | Implementation drift, attrition, spillovers | Whether the benchmark is valid | Arguing assignment was "as good as random" |
 
-**Do you have what it takes** `[Our analysis]`: an online controlled experiment needs a product with real users, a way to split traffic by user, and logging of user behavior. Students and academic researchers often have none of these. The usual ways out: partner with a company or an open-source platform; run it on a tool, plugin, or course platform you operate yourself; or step back and recruit participants for a [Controlled experiments](controlled_experiment.md).
+**Do you have what it takes**: an online controlled experiment needs a product with real users, a way to split traffic by user, and logging of user behavior. Students and academic researchers often have none of these. The usual ways out: partner with a company or an open-source platform; run it on a tool, plugin, or course platform you operate yourself; or step back and recruit participants for a [Controlled experiments](controlled_experiment.md).
 
-**Example: would the running example use it?** `[Our analysis]` The project "published evaluations of large language model vulnerability detectors are inflated by data leakage" is itself an offline evaluation. Its main method is [Benchmarking](../07_fields/computer-science/practices/benchmarking.md), and it doesn't need an online controlled experiment. But imagine a follow-up: you partner with a smart contract auditing platform, and the platform wants to know whether the model that does better on the new leakage-free benchmark actually helps auditors confirm more real vulnerabilities once it is deployed. Now you can run an online controlled experiment: randomly assign audit tasks to an "old model's hints" group and a "new model's hints" group. The overall evaluation criterion is the number of real vulnerabilities confirmed per task; the guardrail metric is the time auditors spend dealing with false positives. The steps below keep using this scenario.
+**Example: would the running example use it?** The project "published evaluations of large language model vulnerability detectors are inflated by data leakage" is itself an offline evaluation. Its main method is [Benchmarking](../07_fields/computer-science/practices/benchmarking.md), and it doesn't need an online controlled experiment. But imagine a follow-up: you partner with a smart contract auditing platform, and the platform wants to know whether the model that does better on the new leakage-free benchmark actually helps auditors confirm more real vulnerabilities once it is deployed. Now you can run an online controlled experiment: randomly assign audit tasks to an "old model's hints" group and a "new model's hints" group. The overall evaluation criterion is the number of real vulnerabilities confirmed per task; the guardrail metric is the time auditors spend dealing with false positives. The steps below keep using this scenario.
 
 ---
 
 ## 2. How to do it
 
-A typical online experiment runs like this from start to finish: define the metrics → choose the unit of randomization → compute the sample size → run an A/A test first, then ramp up from a small share of traffic → run for the full planned time → check data quality first, then look at the results `[Our analysis]`.
+A typical online experiment runs like this from start to finish: define the metrics → choose the unit of randomization → compute the sample size → run an A/A test first, then ramp up from a small share of traffic → run for the full planned time → check data quality first, then look at the results.
 
 ### Step 1: Define the overall evaluation criterion, plus guardrail and data quality metrics
 
@@ -71,7 +71,7 @@ A typical online experiment runs like this from start to finish: define the metr
 
 **Where people go wrong:** the metric doesn't measure what you meant it to. In one Microsoft experiment, "users clicked more" turned out to be nothing more than the two groups' instrumentation (the code that logs user behavior) losing data at different rates[^kohavi2012trustworthy-e6]. The authors file this kind of problem under measure validity: the extent to which a metric captures the concept you intended to measure[^kohavi2012trustworthy-e11]. For validity in general, see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
 
-Example, continued `[Our analysis]`: in the auditing platform's experiment, "number of vulnerabilities flagged by the model" is a bad OEC, because it also rises when the model reports more false positives. "Number of real vulnerabilities confirmed by auditors" is closer to the goal. The time auditors spend on each task serves as a guardrail metric.
+Example, continued: in the auditing platform's experiment, "number of vulnerabilities flagged by the model" is a bad OEC, because it also rises when the model reports more false positives. "Number of real vulnerabilities confirmed by auditors" is closer to the goal. The time auditors spend on each task serves as a guardrail metric.
 
 ### Step 2: Choose the unit of randomization
 
@@ -80,13 +80,13 @@ Example, continued `[Our analysis]`: in the auditing platform's experiment, "num
 - On the web the most common unit is the user. Some metrics are computed per user-day, per session, or per page view, but in every case randomizing by user is preferred. Each user should see the same version throughout the experiment, which is usually done with a user ID stored in a cookie[^kohavi2009controlled-e5][^kohavi2012trustworthy-e1].
 - The assignment code has to meet three conditions: every user is equally likely to see each version; the same user gets the same version on every visit; and when several experiments run at once, their assignments are uncorrelated[^kohavi2009controlled-e16].
 
-**Why:** the statistical analysis assumes the units are independent[^kohavi2009controlled-e5]. If a user sees different versions on different visits, or one unit's outcome is affected by how other units were assigned, that assumption breaks `[Our analysis]`.
+**Why:** the statistical analysis assumes the units are independent[^kohavi2009controlled-e5]. If a user sees different versions on different visits, or one unit's outcome is affected by how other units were assigned, that assumption breaks.
 
-**Where people go wrong: interference between groups.** In some settings the treatment group affects the control group. Say an auction site gives some users a "first bid" incentive: the treatment affects every item up for auction, so randomizing by user can't measure the true effect. Here you randomize items instead of users[^kohavi2009controlled-e23]. Social networks and two-sided marketplaces often have the same problem; for how to avoid and measure these spillovers, see the [Think through spillovers](field_experiment.md#step-9-think-through-spillovers) step on the field experiments page `[Our analysis]`.
+**Where people go wrong: interference between groups.** In some settings the treatment group affects the control group. Say an auction site gives some users a "first bid" incentive: the treatment affects every item up for auction, so randomizing by user can't measure the true effect. Here you randomize items instead of users[^kohavi2009controlled-e23]. Social networks and two-sided marketplaces often have the same problem; for how to avoid and measure these spillovers, see the [Think through spillovers](field_experiment.md#step-9-think-through-spillovers) step on the field experiments page.
 
 **Where people go wrong: carryover from the previous experiment.** Some platforms reuse the same "buckets" of users, so users affected by one experiment end up in the next. In one case, three months later those users still hadn't returned to their pre-experiment levels[^kohavi2012trustworthy-e10].
 
-Example, continued `[Our analysis]`: if the same auditor sometimes works with the old model and sometimes with the new one, lessons learned on one side carry over to the other; randomizing by auditor is safer. If auditors on the same team share their findings with each other, randomize by team.
+Example, continued: if the same auditor sometimes works with the old model and sometimes with the new one, lessons learned on one side carry over to the other; randomizing by auditor is safer. If auditors on the same team share their findings with each other, randomize by team.
 
 ### Step 3: Compute the sample size and the duration
 
@@ -120,7 +120,7 @@ Example, continued `[Our analysis]`: if the same auditor sometimes works with th
 
 **Why:** checking the results over and over and stopping as soon as they turn significant raises the chance of a false positive; stopping early and extending the experiment are both very common mistakes[^dmitriev2017dirty-e9]. If the experimenter watches the results while deciding when to stop, ordinary p-values and confidence intervals are wholly unreliable[^johari2015always-e1]. Industry usually makes no correction for this, and even with just 10,000 samples the false positive rate can easily go up fivefold[^johari2015always-e2].
 
-**Where people go wrong:** confusing monitoring with peeking at the result. You must monitor an experiment continuously so you can shut it down quickly if the user experience gets clearly worse, and that is exactly what makes this problem hard[^dmitriev2017dirty-e11]. `[Our analysis]` You can keep the two apart: watch the guardrail and data quality metrics at any time and use them to stop the experiment; use the OEC only at the planned time point, to make the decision.
+**Where people go wrong:** confusing monitoring with peeking at the result. You must monitor an experiment continuously so you can shut it down quickly if the user experience gets clearly worse, and that is exactly what makes this problem hard[^dmitriev2017dirty-e11]. You can keep the two apart: watch the guardrail and data quality metrics at any time and use them to stop the experiment; use the OEC only at the planned time point, to make the decision.
 
 **Don't be fooled by early "trends" either.** Most experiments actually have a stable effect, but in the first few days there is little data and a lot of noise, so early results are often misleading[^kohavi2012trustworthy-e7].
 
@@ -137,7 +137,7 @@ Example, continued `[Our analysis]`: if the same auditor sometimes works with th
 
 **Where people go wrong:** checking only the overall split and not each metric. The cause can sit anywhere in experiment design, randomization, variant deployment, data logging, collection, processing ("cooking"), or analysis[^fabijan2019diagnosing-e5]. For example, different rates of telemetry loss (telemetry being the usage records a product sends back automatically) between the groups is a common way results get biased[^dmitriev2017dirty-e5]; and when you filter outliers, make sure the filtering rule affects every group the same way[^dmitriev2017dirty-e16].
 
-**A general reminder:** any unexpected metric movement, positive or negative, usually means something is wrong (Twyman's law)[^dmitriev2017dirty-e14]. When a result looks too good to be true, check the data before you celebrate `[Our analysis]`.
+**A general reminder:** any unexpected metric movement, positive or negative, usually means something is wrong (Twyman's law)[^dmitriev2017dirty-e14]. When a result looks too good to be true, check the data before you celebrate.
 
 ### Step 7: Interpret the results: effect size, novelty effects, and segments
 
@@ -148,7 +148,7 @@ Example, continued `[Our analysis]`: if the same auditor sometimes works with th
 - **Be careful with segment analysis.** The condition that defines a segment must not itself be affected by the treatment; and slicing users into ever-finer segments until one turns up significant is a multiple testing problem that raises the false positive rate[^dmitriev2017dirty-e12]. But do look at important user groups: a change that helps overall can badly hurt one group of users[^dmitriev2017dirty-e15].
 - **Rerun when the p-value is borderline.** One positive result at Microsoft with a p-value of 0.029 was no longer significant when rerun with double the traffic. The authors recommend putting weight on strongly significant metrics, and rerunning with more traffic when the OEC's p-value is borderline[^dmitriev2017dirty-e8].
 
-**Why:** most suspected novelty and primacy effects aren't real, just statistical artifacts[^kohavi2012trustworthy-e8]. Plot how the effect changes over time before drawing a conclusion `[Our analysis]`.
+**Why:** most suspected novelty and primacy effects aren't real, just statistical artifacts[^kohavi2012trustworthy-e8]. Plot how the effect changes over time before drawing a conclusion.
 
 **Where people go wrong:** shipping a nonsignificant change on the grounds that "it doesn't hurt anyway." Nonsignificant can mean there really is no difference, or that the experiment was underpowered and the change is in fact harmful[^kohavi2009controlled-e22].
 
@@ -156,7 +156,7 @@ Example, continued `[Our analysis]`: if the same auditor sometimes works with th
 
 **A cautionary example.** In 2014, Facebook researchers published an experiment on 689,003 people in PNAS (*Proceedings of the National Academy of Sciences*)[^kramer2014experimental-e1]. The treatment reduced the emotional content in users' News Feeds[^kramer2014experimental-e2]. The authors held that the data use policy users agreed to when they signed up constituted informed consent[^kramer2014experimental-e3]. After publication, the study was questioned on two principles: informed consent and allowing participants to opt out[^verma2014editorial-e1]. Cornell University's institutional review board concluded that because Facebook ran the experiment for internal purposes, it fell outside the university's jurisdiction[^verma2014editorial-e2]; and Facebook, as a private company, was not obliged to follow the Common Rule, the US rules for protecting human subjects[^verma2014editorial-e3]. The journal still published an Editorial Expression of Concern, saying it was concerned that the data collection may not have been fully consistent with the principles of informed consent and allowing participants to opt out[^verma2014editorial-e4].
 
-**What to do as a result** `[Our analysis]`:
+**What to do as a result**:
 
 - **That companies routinely run A/B tests internally doesn't mean your study can skip ethics review.** If you take part as an academic researcher and plan to publish, apply for review under your institution's rules, explaining how users will be affected, what they will be told, and whether they can opt out. For the general requirements, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first); for the ethics of randomized experiments in real settings, see the [Handle the ethics of working in real communities](field_experiment.md#step-10-handle-the-ethics-of-working-in-real-communities) step on the field experiments page.
 - **Think through whether the treatment could hurt people.** Changing a button color carries completely different risks from manipulating the emotional content, prices, or health information users see. Some treatments are inappropriate to randomize by user even when they are legal. When testing prices, for example, customers who find out others got a different price can sour customer relations; you can randomize products instead[^kohavi2009controlled-e24].
@@ -166,7 +166,7 @@ Example, continued `[Our analysis]`: if the same auditor sometimes works with th
 
 ## 3. Checklist
 
-This list is drawn mainly from experience papers by the experimentation teams at Microsoft and other companies. It reflects industry practice, not any professional society's review standard; in an academic paper, you also have to meet your field's requirements for reporting experiments `[Our analysis]`.
+This list is drawn mainly from experience papers by the experimentation teams at Microsoft and other companies. It reflects industry practice, not any professional society's review standard; in an academic paper, you also have to meet your field's requirements for reporting experiments.
 
 **Must do**
 
@@ -176,7 +176,7 @@ This list is drawn mainly from experience papers by the experimentation teams at
 - [ ] Check the sample ratio before analyzing; if there is a mismatch, find the cause rather than using the results as they are[^fabijan2019diagnosing-e2][^fabijan2019diagnosing-e4]
 - [ ] Don't stop early because a peek shows significance; if you need to look as you go, use methods designed for continuous monitoring[^dmitriev2017dirty-e9][^dmitriev2017dirty-e10]
 - [ ] Report the effect's confidence interval, not just "significant / not significant"[^kohavi2009controlled-e27]
-- [ ] When publishing as academic research, pass your institution's ethics review and describe the informed consent and opt-out arrangements `[Our analysis]`
+- [ ] When publishing as academic research, pass your institution's ethics review and describe the informed consent and opt-out arrangements
 
 **Better practice**
 
@@ -192,7 +192,7 @@ This list is drawn mainly from experience papers by the experimentation teams at
 - [ ] When the OEC's p-value is borderline, run an independent rerun with more traffic[^dmitriev2017dirty-e8]
 - [ ] Use interviews or usability studies to fill in the "why"[^kohavi2009controlled-e12]
 
-**Fine to skip; not a flaw** `[Our analysis]`
+**Fine to skip; not a flaw**
 
 - Looking only at the overall effect, with no segment analysis: segment analysis is exploratory, and doing it means you then have to deal with multiple testing; if you do it, label it exploratory, see [Do the planned analyses first; label unplanned ones as exploratory](../02_do-the-project/07_analyze-and-interpret.md#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)
 - When traffic is too low to split 50/50 or to run for several full weeks, do what you can, but state the limits on power in the paper

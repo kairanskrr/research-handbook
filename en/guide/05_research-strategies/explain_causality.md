@@ -16,7 +16,7 @@ This sentence does not say "hints and detection rate are related". It says "**ch
 
 First be clear which kind of question you are asking. Relationship questions ask "Are X and Y related?" or "Does Y occur when X occurs?"[^easterbrook2008selecting-e35]; causal questions ask "Does X cause Y?" or "Does X prevent Y?"[^easterbrook2008selecting-e57]. Causal questions come in two finer forms as well: comparing which of two causes has the bigger effect ("Does X cause more Y than Z does?"), and asking how context changes a causal relationship[^easterbrook2008selecting-e58].
 
-Examples from the same research area `[Our analysis]`:
+Examples from the same research area:
 
 | Question type | Example | Strategy |
 |---|---|---|
@@ -25,13 +25,13 @@ Examples from the same research area `[Our analysis]`:
 | Which of two causes is bigger | "Which raises the detection rate more: vulnerability-pattern hints or a few worked examples?" | Causal explanation |
 | How context changes the effect | "Do the hints help only on short contracts and not on long ones?" | Causal explanation |
 
-**How it differs from neighboring strategies** `[Our analysis]`:
+**How it differs from neighboring strategies**:
 
 - **[Comparative evaluation](compare_evaluate.md)** asks "which is better, tool A or B?", treating each tool as a whole without asking what makes it better; **causal explanation** has to find out which factor did the work. The comparative evaluation page also discusses this line.
 - **[Building and improving](build_improve.md)** has the central claim "the new method is better"; it often carries a causal supporting claim along with it: "the gain comes from component C". That supporting claim has to meet the standards on this page.
 - **[Description](observe_describe.md)** can find that "projects using vulnerability-pattern hints have higher detection rates", but observation alone does not let you say the hints caused it (see Section 2).
 
-**Two kinds of causal knowledge.** One is the **effect**: if you change X, how much does Y change? The other is the **mechanism**: through what process does X affect Y? They call for different evidence `[Our analysis]`. The case-study methods literature in political science points out that, other things being equal, case studies are better at shedding light on causal mechanisms and less able to estimate true causal effects[^gerring2004case-e4]. Work out first which kind your claim is.
+**Two kinds of causal knowledge.** One is the **effect**: if you change X, how much does Y change? The other is the **mechanism**: through what process does X affect Y? They call for different evidence. The case-study methods literature in political science points out that, other things being equal, case studies are better at shedding light on causal mechanisms and less able to estimate true causal effects[^gerring2004case-e4]. Work out first which kind your claim is.
 
 **Write it down:** Write your central claim as "Under conditions C, changing X makes Y change in this way." Then add one sentence: are you trying to show the effect, the mechanism, or both?
 
@@ -39,9 +39,9 @@ Examples from the same research area `[Our analysis]`:
 
 **Correlation is not causation.** Mistaking a correlation for a cause is a common error, and showing causation is generally much harder than showing correlation[^easterbrook2008selecting-e36]. If X and Y rise together, X may cause Y, Y may cause X, both may have a common cause, or they may evolve together in some complex way[^easterbrook2008selecting-e56].
 
-For example, suppose you find in public records that audits using vulnerability-pattern hints have higher detection rates. Maybe the hints helped; or maybe more experienced auditors are more likely to use hints, and what really matters is experience `[Our analysis]`.
+For example, suppose you find in public records that audits using vulnerability-pattern hints have higher detection rates. Maybe the hints helped; or maybe more experienced auditors are more likely to use hints, and what really matters is experience.
 
-**The software engineering standard: four things before you say "causes".** In its data science section, the empirical standards of ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) list this as an antipattern: claiming causation without establishing covariation and precedence, ruling out third-variable explanations, and at least hypothesizing a generative mechanism[^ralph2020empirical-e203]. This is a software engineering standard, but if you do causal research in other areas of computer science you can use it as a checklist too. Applied to the example `[Our analysis]`:
+**The software engineering standard: four things before you say "causes".** In its data science section, the empirical standards of ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) list this as an antipattern: claiming causation without establishing covariation and precedence, ruling out third-variable explanations, and at least hypothesizing a generative mechanism[^ralph2020empirical-e203]. This is a software engineering standard, but if you do causal research in other areas of computer science you can use it as a checklist too. Applied to the example:
 
 | What you need | Meaning | In the example |
 |---|---|---|
@@ -54,13 +54,13 @@ For example, suppose you find in public records that audits using vulnerability-
 
 If you can, **change X yourself and keep everything else the same**, then see how Y changes. That is a controlled experiment. It can establish precisely how variables are related, in particular whether there is a causal relationship[^easterbrook2008selecting-e60]. The key is control: variables other than the independent variable (the factor you deliberately change) must not be allowed to affect the experiment[^easterbrook2008selecting-e61]. In software engineering experiments that evaluate tools with human participants, this means every participant gets exactly the same materials, instructions, tasks and environment, and only the tool differs; then, if the results differ, you can argue strongly that the tool caused it[^ko2015practical-e3].
 
-When the subjects are people, or other units that can't be made identical, you also need **random assignment** `[Our analysis]`. The explanation and elaboration paper for CONSORT (Consolidated Standards of Reporting Trials), the reporting guideline for clinical trials in medicine, says that random allocation, done properly, eliminates selection bias in assigning participants to groups and balances both known and unknown prognostic factors across groups[^hopewell2025consortee-e1]. Quasi-experiments, which lack random assignment, are weaker than true experiments, and their results must be interpreted more cautiously[^easterbrook2008selecting-e64].
+When the subjects are people, or other units that can't be made identical, you also need **random assignment**. The explanation and elaboration paper for CONSORT (Consolidated Standards of Reporting Trials), the reporting guideline for clinical trials in medicine, says that random allocation, done properly, eliminates selection bias in assigning participants to groups and balances both known and unknown prognostic factors across groups[^hopewell2025consortee-e1]. Quasi-experiments, which lack random assignment, are weaker than true experiments, and their results must be interpreted more cautiously[^easterbrook2008selecting-e64].
 
-With large language models, "everything else the same" can be made very concrete `[Our analysis]`: the same model version, the same set of contracts, the same generation parameters, several runs per prompt; the only difference is whether the vulnerability-pattern hint is there.
+With large language models, "everything else the same" can be made very concrete: the same model version, the same set of contracts, the same generation parameters, several runs per prompt; the only difference is whether the vulnerability-pattern hint is there.
 
 ### When you can't change X: first state what justifies a causal reading
 
-Many factors you can't, or shouldn't, manipulate, such as a developer's experience or a policy. Then you have to use observational data, but you must **state explicitly what justifies a causal interpretation** `[Our analysis]`. Economics and epidemiology are the most concrete about this, and you can borrow from them:
+Many factors you can't, or shouldn't, manipulate, such as a developer's experience or a policy. Then you have to use observational data, but you must **state explicitly what justifies a causal interpretation**. Economics and epidemiology are the most concrete about this, and you can borrow from them:
 
 - **Economics** talks about a "design-based" approach: use real experiments or natural experiments, and work hard to argue why the results can be read causally[^angrist2010credibility-e1]. For example, when you use an instrumental variable (a factor that affects Y only through X and whose value is as good as randomly assigned), you have to substantively justify the assumptions that make it valid, not just label variables[^angrist2010credibility-e5].
 - **Epidemiology** talks about the **target trial**: causal inference from observational data can be seen as emulating a randomized trial that would answer the question[^hernan2016target-e1]. Epidemiology textbooks also stress that statistical association criteria alone can't tell you what is a confounder (a factor that affects both X and Y and can create a spurious effect); causal inference from observational data requires prior causal knowledge[^hernan2020whatif-e6][^hernan2020whatif-e7]. For confounders you don't know about, sensitivity analysis can estimate how much bias they might introduce[^hernan2020whatif-e11].
@@ -69,7 +69,7 @@ Many factors you can't, or shouldn't, manipulate, such as a developer's experien
 
 **List every plausible alternative explanation in advance, then look at which one the evidence supports.** The process tracing literature in political science names this failing: some case studies give their favorite explanation a "first mover advantage"; a far better procedure is to write out in advance what each explanation predicts you will see, then weigh the evidence for and against each one[^bennett2012process-e29]. The same work stresses that whether evidence can discriminate between rival explanations matters more than how much evidence there is[^bennett2012process-e9].
 
-In the example, "hints raise the detection rate" has at least these rivals `[Our analysis]`:
+In the example, "hints raise the detection rate" has at least these rivals:
 
 | Alternative explanation | How to rule it out |
 |---|---|
@@ -80,13 +80,13 @@ In the example, "hints raise the detection rate" has at least these rivals `[Our
 
 ### Test the mechanism
 
-An effect alone leaves readers asking "why?". At minimum, hypothesize a mechanism[^ralph2020empirical-e203], and ideally test it. For example, if the hint really works by making the model check for "state updated only after an external call", then a hint about an **unrelated vulnerability type** should not raise the detection rate in the same way, and the model's explanations should mention this pattern `[Our analysis]`. The process tracing literature describes the central challenge in studying mechanisms as avoiding "lazy mechanism-based storytelling"[^bennett2012process-e50]; in practice, this means not just telling a plausible-sounding story about the process without testing it against evidence `[Our analysis]`.
+An effect alone leaves readers asking "why?". At minimum, hypothesize a mechanism[^ralph2020empirical-e203], and ideally test it. For example, if the hint really works by making the model check for "state updated only after an external call", then a hint about an **unrelated vulnerability type** should not raise the detection rate in the same way, and the model's explanations should mention this pattern. The process tracing literature describes the central challenge in studying mechanisms as avoiding "lazy mechanism-based storytelling"[^bennett2012process-e50]; in practice, we read this as: don't just tell a plausible-sounding story about the process without testing it against evidence.
 
 ### A common tool in computer science: ablation studies
 
-An **ablation study** removes a method's components one at a time and watches how performance changes. It is "change one thing, keep everything else the same" applied inside a system `[Our analysis]`. In machine learning papers, proposing many changes at once without ablations makes it impossible to see where the gain comes from; sometimes only one of them really matters[^lipton2019troubling-e4]. So don't only ask "how well does it work?"; also ask "what made it work, and why?"[^lipton2019troubling-e7].
+An **ablation study** removes a method's components one at a time and watches how performance changes. It is "change one thing, keep everything else the same" applied inside a system. In machine learning papers, proposing many changes at once without ablations makes it impossible to see where the gain comes from; sometimes only one of them really matters[^lipton2019troubling-e4]. So don't only ask "how well does it work?"; also ask "what made it work, and why?"[^lipton2019troubling-e7].
 
-But ablations are neither necessary nor necessarily sufficient for understanding a method, and with limited compute they may not be possible at all[^lipton2019troubling-e6]. Also, an ablation only tells you what mattered on this benchmark, in this setup; it may not hold in a different setup `[Our analysis]`.
+But ablations are neither necessary nor necessarily sufficient for understanding a method, and with limited compute they may not be possible at all[^lipton2019troubling-e6]. Also, an ablation only tells you what mattered on this benchmark, in this setup; it may not hold in a different setup.
 
 > **Where sources disagree: lab experiments or real projects?**
 >
@@ -95,13 +95,13 @@ But ablations are neither necessary nor necessarily sufficient for understanding
 > - **The case for controlled experiments**: a controlled experiment can establish precisely whether variables are causally related[^easterbrook2008selecting-e60]; only when all other conditions are identical can a difference in results be strongly attributed to the factor you changed[^ko2015practical-e3].
 > - **The case for real projects**: experiments break the problem into small pieces, and that simplification may hide important interactions; even when an experiment supports a hypothesis, it only shows that it holds for the measures you defined[^easterbrook2008selecting-e62]. When the setting itself shapes the phenomenon (for example, the pressure of a real project affecting developers' behavior), or when effects take weeks or months to appear, breaking things down and isolating them is not appropriate[^easterbrook2008selecting-e16].
 >
-> In practice `[Our analysis]`: run a controlled experiment if you can, but keep the scope of your claim in line with the experimental conditions; if the effect you care about depends on a real setting, add methods from Section 3 such as case studies or process tracing.
+> In practice: run a controlled experiment if you can, but keep the scope of your claim in line with the experimental conditions; if the effect you care about depends on a real setting, add methods from Section 3 such as case studies or process tracing.
 
 **Write it down:** For each of the four things above, write what evidence you plan to use to meet it. Then list at least three alternative explanations and how you will rule out each one.
 
 ## 3. Common research methods
 
-A strategy says you need to show that X causes Y; a method says how you get the evidence. The table below chooses by whether you can change X `[Our analysis]`:
+A strategy says you need to show that X causes Y; a method says how you get the evidence. The table below chooses by whether you can change X:
 
 | Your situation | Methods you can use | How it provides causal evidence |
 |---|---|---|
@@ -120,12 +120,12 @@ A few notes:
 
 - **Controlled experiments are good at "whether", not at "how" or "why".** Take tool evaluation in software engineering: questions about how developers use a tool, or what concepts they need to understand, are better suited to non-experimental quantitative or qualitative methods; and often you need those answers first to know what an experiment should compare, which tasks to use, and what to measure[^ko2015practical-e1].
 - **Qualitative methods can speak to causation too; their strength is mechanisms.** Case studies give deep understanding of how and why a phenomenon happens, and can reveal the mechanisms behind causal relationships[^easterbrook2008selecting-e11]; for when to use them instead of experiments, see "Where sources disagree" above. Process tracing in political science analyzes the processes and sequences of events within a single case, in order to develop or test hypotheses about causal mechanisms[^bennett2012process-e3].
-- **Why bench experiments, preclinical animal studies and spatial analysis are listed here** `[Our analysis]`. In the first two you change a factor yourself: bench experiments change only one factor at a time[^vaux2012replicates-e6]; the first goal of a preclinical animal study is to show a causal relationship between treatment and effect in an animal model[^henderson2013threats-e13]. Part of spatial analysis studies how the environment affects individuals, for example the effects of the social and physical environment on health[^kwan2012uncertain-e4]; that part belongs to causal explanation, while the part that describes spatial distributions belongs to [Description](observe_describe.md).
+- **Why bench experiments, preclinical animal studies and spatial analysis are listed here**. In the first two you change a factor yourself: bench experiments change only one factor at a time[^vaux2012replicates-e6]; the first goal of a preclinical animal study is to show a causal relationship between treatment and effect in an animal model[^henderson2013threats-e13]. Part of spatial analysis studies how the environment affects individuals, for example the effects of the social and physical environment on health[^kwan2012uncertain-e4]; that part belongs to causal explanation, while the part that describes spatial distributions belongs to [Description](observe_describe.md).
 - **Methods can be combined.** You can pick a few cases out of a statistical analysis and use process tracing to check whether the causal direction is reversed or the correlation is spurious[^bennett2012process-e24]. Or you can do a quantitative study first and then use qualitative research to explain its unexpected results[^easterbrook2008selecting-e4]. For multi-method designs, see [Mixed methods](../06_methods/mixed_methods.md).
 
 ## 4. How it shapes the whole project
 
-If you choose causal explanation, each stage gets a few extra tasks `[Our analysis]`:
+If you choose causal explanation, each stage gets a few extra tasks:
 
 | Stage | Extra tasks | See |
 |---|---|---|

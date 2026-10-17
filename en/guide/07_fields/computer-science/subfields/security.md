@@ -6,17 +6,17 @@
 
 Security research asks how systems, software, networks, and data get attacked, and how to protect them. Take the call for papers of IEEE S&P 2026 (the IEEE Symposium on Security and Privacy; IEEE is the Institute of Electrical and Electronics Engineers): a paper can cover the theory, design, implementation, analysis, or verification of secure systems, or it can be an empirical evaluation or a measurement study. Topics range widely, from network security and measurement to user studies on security and privacy[^ieeesp2026cfp-e13].
 
-Some typical questions `[Our analysis]`:
+Some typical questions:
 
 - **Defenses**: Which attacks does a new defense stop, and what does it cost in performance?
 - **Tools**: Is a new fuzzer (a tool that bombards a program with large numbers of automatically generated inputs to find bugs) really better than existing ones[^klees2018evaluating-e1]?
 - **Attacks and measurement**: Does a new attack work? How common is a given security problem in the real world?
 
-**Start by working out what the adversary can do.** Security research faces an adversary who will actively look for ways around your scheme `[Our analysis]`. Take defenses against adversarial examples (inputs crafted specifically to fool a machine learning model). Carlini et al. ask you first to work out which attacks could break the defense, and then to show that those attacks fail. Running off-the-shelf attacks with their default parameters is not enough, even if they are state-of-the-art attacks[^carlini2019evaluating-e1]. Applying this thinking to other kinds of defenses is our own inference `[Our analysis]`.
+**Start by working out what the adversary can do.** Security research faces an adversary who will actively look for ways around your scheme. Take defenses against adversarial examples (inputs crafted specifically to fool a machine learning model). Carlini et al. ask you first to work out which attacks could break the defense, and then to show that those attacks fail. Running off-the-shelf attacks with their default parameters is not enough, even if they are state-of-the-art attacks[^carlini2019evaluating-e1]. Applying this thinking to other kinds of defenses is our own inference.
 
 ## Main venues and timeline
 
-The main results in security are published at conferences `[Our analysis]`. When van der Kouwe et al. studied benchmarking flaws, they looked only at papers from the "top four" security conferences, on the grounds that these have the most impact and in practice set the field's evaluation conventions[^vanderkouwe2019sok-e27].
+The main results in security are published at conferences. When van der Kouwe et al. studied benchmarking flaws, they looked only at papers from the "top four" security conferences, on the grounds that these have the most impact and in practice set the field's evaluation conventions[^vanderkouwe2019sok-e27].
 
 The table below gives the rules of four conferences **each for one particular year**, as found in the sources for this page. They are not conventions of the whole area. **The rules change every year; before you submit, go by that year's call for papers.** In the table, NDSS is the Network and Distributed System Security Symposium and CCS is the ACM Conference on Computer and Communications Security (ACM is the Association for Computing Machinery).
 
@@ -33,7 +33,7 @@ A few rules that did not fit in the table, again each for the year shown only:
 - **NDSS 2026**: A major revision means adding new implementations, experiments, or proofs[^ndss2026cfp-e1].
 - **How pages are counted**: IEEE S&P 2026 allows an extra 5 pages for references and appendices[^ieeesp2026cfp-e8]. NDSS 2026 does not count the ethics section, references, or appendices[^ndss2026cfp-e6]. CCS 2025 does not count references, appendices, or supplementary material[^ccs2025cfp-e4].
 
-Two things stand out in the table `[Our analysis]`:
+Two things stand out in the table:
 
 - **Even in the same year, the conferences' rules differ**, so don't just repeat what you did for your last submission.
 - **Reviewers may not read your appendices.** IEEE S&P 2026 and CCS 2025 both state that reviewers are not required to read appendices[^ieeesp2026cfp-e8][^ccs2025cfp-e4]. Put the key experiments and arguments in the main text.
@@ -44,7 +44,7 @@ Two things stand out in the table `[Our analysis]`:
 
 ## Common strategies and standards of evidence
 
-The grouping and summaries in this table are our own. Each standard speaks only for the paper or conference in its footnote `[Our analysis]`.
+The grouping and summaries in this table are our own. Each standard speaks only for the paper or conference in its footnote.
 
 | Strategy | What it looks like here | Evidence and how it is judged | How to do it |
 |---|---|---|---|
@@ -55,7 +55,7 @@ The grouping and summaries in this table are our own. Each standard speaks only 
 | [Synthesis](../../../05_research-strategies/synthesize.md) | SoK papers | Must offer insight, not just a list[^ieeesp2026cfp-e1][^ndss2026cfp-e5] | [Review studies](../../../06_methods/review_study.md) |
 | [Proof](../../../05_research-strategies/prove.md) | Security proofs for cryptography and protocols | Explain how the result relates to practice[^ieeesp2026cfp-e2] | [Theoretical research](../practices/theoretical_research.md), [Theory](theory.md) |
 
-A few rows in more detail `[Our analysis]`:
+A few rows in more detail:
 
 - **Machine learning for security.** Arp et al. give an example: in a malware detection experiment, the URL "play.google.com" turned out to be one of the most important features for classifying an app as benign. The classifier had learned to tell where apps came from, not whether they were malicious[^arp2022dos-e12]. Another example: a 99% true-positive rate with a 1% false-positive rate looks very good, but if benign samples outnumber malicious ones 100 to 1, every 99 true positives come with 100 false positives[^arp2022dos-e8].
 - **The classification in an SoK paper has to be reliable.** For example, van der Kouwe et al. had two people judge each paper independently and discussed any disagreements[^vanderkouwe2019sok-e28].
@@ -104,7 +104,7 @@ If you submit to an ACM conference such as CCS, you must also follow the Policy 
 | Submitting an ordinary survey as an SoK | IEEE S&P 2026 states that a survey without insight may be rejected outright[^ieeesp2026cfp-e1] |
 | Putting key experiments in the appendix | At IEEE S&P 2026 and CCS 2025, reviewers are not required to read appendices[^ieeesp2026cfp-e8][^ccs2025cfp-e4] |
 | Including full CVE identifiers in the submitted version | IEEE S&P 2026 considers this a way of revealing the authors[^ieeesp2026cfp-e14] |
-| Reusing last year's rules, or another conference's | Major revisions, ethics sections, and artifact requirements can differ by conference and by year; see the tables above `[Our analysis]` |
+| Reusing last year's rules, or another conference's | Major revisions, ethics sections, and artifact requirements can differ by conference and by year; see the tables above |
 
 ## Further reading
 

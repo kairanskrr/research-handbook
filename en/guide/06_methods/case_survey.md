@@ -4,7 +4,7 @@ This page covers the **case survey** (also called case meta-analysis): you colle
 
 If you want to study one or a few cases in depth yourself, see [Case study](case_study.md). If you want to review experiments or other kinds of studies, see [Review studies](review_study.md).
 
-**Scope** `[Our analysis]`: the standards and examples on this page come mainly from software engineering. The checklist follows the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), and the discussion of misuse comes from a survey of software engineering papers. The classic methodological paper on this method appeared in a management journal (see Further reading), and the method is used more in management and information systems (see Section 1). If you work in another field, read your own field's methods literature and standards first.
+**Scope**: the standards and examples on this page come mainly from software engineering. The checklist follows the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), and the discussion of misuse comes from a survey of software engineering papers. The classic methodological paper on this method appeared in a management journal (see Further reading), and the method is used more in management and information systems (see Section 1). If you work in another field, read your own field's methods literature and standards first.
 
 **Strategies it usually serves**: [Synthesis](../05_research-strategies/synthesize.md).
 
@@ -21,11 +21,11 @@ If you want to study one or a few cases in depth yourself, see [Case study](case
 
 The SIGSOFT standard defines it as a study that systematically converts the qualitative descriptions in published case studies into quantitative data and analyzes them, with the aim of reaching generalizable conclusions about a complex phenomenon[^ralph2020empirical-e291]. It tries to combine the strengths of two methods: the generalizability of survey research and the depth of case study research[^melegati2020case-e1].
 
-"Case study" is meant here in the broadest sense: a scholarly account of some events. Whether experience reports and grey literature (material not published through formal publishing channels) should be included depends on the purpose of the study[^ralph2022paving-e6]. The approach is close to meta-analysis (statistically pooling the results of many studies): you usually start from hypotheses and a coding scheme fixed in advance, and end up with a dataset on which you can test hypotheses[^ralph2022paving-e7]. Like meta-analysis, it synthesizes the results of many studies to answer specific empirical questions about the real world, and these are often causal questions[^ralph2022paving-e11], for example "Are projects more likely to succeed when the team holds retrospectives?" `[Our analysis]`
+"Case study" is meant here in the broadest sense: a scholarly account of some events. Whether experience reports and grey literature (material not published through formal publishing channels) should be included depends on the purpose of the study[^ralph2022paving-e6]. The approach is close to meta-analysis (statistically pooling the results of many studies): you usually start from hypotheses and a coding scheme fixed in advance, and end up with a dataset on which you can test hypotheses[^ralph2022paving-e7]. Like meta-analysis, it synthesizes the results of many studies to answer specific empirical questions about the real world, and these are often causal questions[^ralph2022paving-e11], for example "Are projects more likely to succeed when the team holds retrospectives?"
 
-**The question is causal, but the evidence is correlational. Keep the two apart.** Researchers usually care whether A causes B, but the data in a case survey can only show whether B is more common in cases that have A, which is a correlation. The cases were not produced under controlled conditions, so other factors cannot be ruled out `[Our analysis]`. The data are also sparse, so usually only simple bivariate correlations are possible[^ralph2022paving-e8]. A causal question can therefore be the starting point and the hypothesis, but your conclusion should say "A is associated with B", not "A causes B" `[Our analysis]`. Presenting correlation as causation is an antipattern the standard names explicitly[^ralph2020empirical-e304].
+**The question is causal, but the evidence is correlational. Keep the two apart.** Researchers usually care whether A causes B, but the data in a case survey can only show whether B is more common in cases that have A, which is a correlation. The cases were not produced under controlled conditions, so other factors cannot be ruled out (the sources don't say this directly; it is our inference). The data are also sparse, so usually only simple bivariate correlations are possible[^ralph2022paving-e8]. A causal question can therefore be the starting point and the hypothesis, but your conclusion should say "A is associated with B", not "A causes B". Presenting correlation as causation is an antipattern the standard names explicitly[^ralph2020empirical-e304].
 
-**How it differs from related types of study** (cells without a footnote are `[Our analysis]`):
+**How it differs from related types of study** (cells without a footnote are our own summary):
 
 | | Case study | Multiple-case study | Systematic review | Case survey |
 |---|---|---|---|---|
@@ -42,7 +42,7 @@ A few notes:
 
 **When to use it:** when a topic has accumulated a **large** number of published case studies and you want to test whether there is a pattern linking some factor to some outcome. Because the coded data are sparse, a case survey needs many cases to work[^ralph2022paving-e10].
 
-Case surveys are widely used in management and information systems but still rare in software engineering. Ralph & Baltes argue that because software engineering has so many case studies, the method has a lot of potential there[^ralph2022paving-e9]. In other areas of computer science, published incident analyses in systems and security could in principle be coded as "cases" too, but whether such material counts as a scholarly account, and whether it contains enough information, has to be judged one report at a time `[Our analysis]`.
+Case surveys are widely used in management and information systems but still rare in software engineering. Ralph & Baltes argue that because software engineering has so many case studies, the method has a lot of potential there[^ralph2022paving-e9]. We think that in other areas of computer science, published incident analyses in systems and security could in principle be coded as "cases" too, but whether such material counts as a scholarly account, and whether it contains enough information, has to be judged one report at a time.
 
 **A common misuse**: Melegati & Wang examined 12 software engineering papers that claimed to be case surveys and found that most did not follow the method as originally defined[^melegati2020case-e2]. The most common pattern was treating each questionnaire answer or each blog post as a "case"; the rest were multiple-case studies with a larger number of cases[^melegati2020case-e12]. A questionnaire answer or a blog post usually comes from a single person: it lacks depth and breadth, and there are no multiple sources to triangulate, so it does not count as a case[^melegati2020case-e13].
 
@@ -56,7 +56,7 @@ Larsson 1993 summarizes the method in four steps: select a set of existing case 
 
 A case survey can test hypotheses or explore, but the choice of cases needs a theoretical basis[^melegati2020case-e4]. Usually you write your hypotheses before you start and derive from them the variables you need to code[^ralph2022paving-e7].
 
-**Where people go wrong:** reading a pile of cases first and then seeing which correlations turn up. "Findings" produced this way are likely to be chance; fixing your hypotheses first constrains you in advance `[Our analysis]`. For the difference between exploration and confirmation, see [From research questions to an evidence plan: be clear whether you are testing or exploring](../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
+**Where people go wrong:** reading a pile of cases first and then seeing which correlations turn up. "Findings" produced this way are likely to be chance; fixing your hypotheses first constrains you in advance. For the difference between exploration and confirmation, see [From research questions to an evidence plan: be clear whether you are testing or exploring](../02_do-the-project/01_question-to-evidence.md#5-be-clear-whether-you-are-testing-or-exploring).
 
 ### Step 2: Find and select cases
 
@@ -71,15 +71,15 @@ A case survey can test hypotheses or explore, but the choice of cases needs a th
 
 ### Step 3: Design the coding scheme
 
-The coding scheme specifies how to convert qualitative descriptions into quantitative variables[^ralph2020empirical-e295]. You can think of it as a questionnaire that the researcher fills in for each case `[Our analysis]`. The variables are often simple yes/no items, such as "Did the team hold retrospectives?"[^ralph2022paving-e8]
+The coding scheme specifies how to convert qualitative descriptions into quantitative variables[^ralph2020empirical-e295]. You can think of it as a questionnaire that the researcher fills in for each case. The variables are often simple yes/no items, such as "Did the team hold retrospectives?"[^ralph2022paving-e8]
 
 When designing it, you trade off between two ends: a simple scheme is less work and gives more reliable coding; a complex one captures richer information[^melegati2020case-e6][^ralph2020empirical-e295].
 
 Some requirements:
 
 - Describe the coding scheme in detail in the paper or put it in the supplementary materials[^ralph2020empirical-e295]; ideally, explain why you designed it that way[^ralph2020empirical-e298].
-- **Decide in advance how to handle missing values**, and state it in the paper[^ralph2020empirical-e296]. Many cases will not mention every variable you care about. Whether "not mentioned" is coded as "no", coded as "missing", or leads to excluding the case directly affects the results `[Our analysis]`.
-- Pilot the scheme on a few cases first, fix vague items and decision rules, and only then start the real coding `[Our analysis]`.
+- **Decide in advance how to handle missing values**, and state it in the paper[^ralph2020empirical-e296]. Many cases will not mention every variable you care about. Whether "not mentioned" is coded as "no", coded as "missing", or leads to excluding the case directly affects the results.
+- Pilot the scheme on a few cases first, fix vague items and decision rules, and only then start the real coding.
 
 ### Step 4: Code independently with several people and check agreement
 
@@ -92,7 +92,7 @@ Some requirements:
 
 - **Analyze quantitatively, and actually synthesize.** Analyzing cases with qualitative techniques, or describing each case on its own without synthesizing, are both antipatterns[^ralph2020empirical-e304]. Base your conclusions on the coded variables[^ralph2020empirical-e296].
 - **Match the method to the data.** Coded datasets are often too sparse for regression modeling; researchers usually test hypotheses with simple bivariate correlations[^ralph2022paving-e8].
-- **Write conclusions as correlations, not causation**[^ralph2020empirical-e304]. Even when the research question itself is causal, this kind of data supports only correlation; for the reasons, see [What this kind of research is and when to use it](#1-what-this-kind-of-research-is-and-when-to-use-it) above `[Our analysis]`.
+- **Write conclusions as correlations, not causation**[^ralph2020empirical-e304]. Even when the research question itself is causal, this kind of data supports only correlation; for the reasons, see [What this kind of research is and when to use it](#1-what-this-kind-of-research-is-and-when-to-use-it) above.
 - **Check whether characteristics of the original studies influenced the coding**, such as study design, publication venue, or year of publication[^melegati2020case-e9][^ralph2020empirical-e303].
 - Assess the quality of the original studies with a scheme fixed in advance, and include quality in the analysis as a moderator (a variable that may change how strongly the factor and the outcome are related) to see whether it changes the conclusions[^ralph2020empirical-e301]. Don't use the prestige of the publication venue as a substitute for assessing quality[^ralph2020empirical-e304].
 
@@ -107,7 +107,7 @@ Publish the protocol, search terms, screening results, coding scheme, coding exa
 Every data point in a case survey comes from a report someone else wrote for a different purpose. This brings some unavoidable limitations, which you must state in the paper[^ralph2020empirical-e18]:
 
 - **Not reported does not mean it didn't happen.** Some information may have been left out of a report for lack of space[^melegati2020case-e8]. That is why the handling of missing values has to be decided in advance and stated clearly[^ralph2020empirical-e296].
-- **The cases do not represent the population.** The cases that get written up as papers tend to be the ones the authors had access to and thought worth writing about `[Our analysis]`. You must discuss how the included cases might differ from the population you want to generalize to[^ralph2020empirical-e297].
+- **The cases do not represent the population.** The cases that get written up as papers tend to be the ones the authors had access to and thought worth writing about. You must discuss how the included cases might differ from the population you want to generalize to[^ralph2020empirical-e297].
 - **The original studies vary in quality.** So assess quality and test whether it affects your conclusions[^ralph2020empirical-e301].
 
 **Common reviewer criticisms that are not valid**[^ralph2020empirical-e305]:
@@ -155,11 +155,11 @@ This follows the ACM SIGSOFT case survey standard, which was written for softwar
 |---|---|
 | Treating questionnaire answers or blog posts as "cases" | The information is too shallow and comes from a single source; it is not a case study[^melegati2020case-e13][^ralph2020empirical-e304] |
 | Calling a few cases you studied yourself a case survey | That is a multiple-case study, and it has too few cases to support statistical analysis[^melegati2020case-e10][^melegati2020case-e12] |
-| Including every case found without checking whether it has enough information | The standard lists this as an antipattern[^ralph2020empirical-e304]; many variables can only be coded as missing `[Our analysis]` |
+| Including every case found without checking whether it has enough information | The standard lists this as an antipattern[^ralph2020empirical-e304]; many variables can only be coded as missing |
 | Going back to qualitative analysis after coding, or presenting the cases one by one | This defeats the purpose of the method: there is no quantitative synthesis[^ralph2020empirical-e304] |
 | Having only one person code | There is no way to judge how reliable the coding is[^ralph2020empirical-e299] |
 | Using the prestige of the venue instead of a quality assessment | The prestige of a venue is not the quality of an individual study[^ralph2020empirical-e304] |
-| Writing correlation as causation | The standard lists this as an antipattern[^ralph2020empirical-e304]; the question can be causal, but this kind of data supports only correlation `[Our analysis]` |
+| Writing correlation as causation | The standard lists this as an antipattern[^ralph2020empirical-e304]; the question can be causal, but this kind of data supports only correlation |
 | Calling a study a case survey without following the method's requirements | Departing from the method without reflecting on the consequences casts doubt on the validity of the conclusions[^melegati2020case-e14] |
 
 ---

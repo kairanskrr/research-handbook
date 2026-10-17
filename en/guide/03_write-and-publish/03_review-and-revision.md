@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Review processes differ a lot between journals and conferences (whether there is an author response phase, word limits, whether you may add experiments). **Before you do anything, read the reviewing instructions of the venue you submitted to.**
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Read everything calmly first, and work out what you're facing.** Write down what kind of decision it is, the deadline and word limit, and who makes the final call ([Section 1](#1-read-everything-calmly-first-and-work-out-what-you-are-facing)).
 > 2. **Break the reviews into individual points and sort them.** Put them in a table and flag the issues several reviewers raised, so you deal with those first ([Section 2](#2-break-the-reviews-into-individual-points-and-sort-them)).
@@ -40,7 +40,7 @@ Being a reviewer yourself and writing reviews of other people's papers is a diff
 
 **On the first day, only read. Don't reply, don't revise.** Being upset is normal; take a day off and come back[^huang2021rejection-e6]. For how to manage the emotions and treat rejection as normal, see [Mindset and long-term growth](../08_throughout/mindset_and_growth.md#2-treat-failure-and-rejection-as-normal).
 
-**Once you've calmed down, read objectively.** When a paper is rejected or needs a major revision, listen carefully to what the reviewers say, and respond objectively rather than emotionally[^bourne2005published-e1]. Then work out three things `[Our analysis]`:
+**Once you've calmed down, read objectively.** When a paper is rejected or needs a major revision, listen carefully to what the reviewers say, and respond objectively rather than emotionally[^bourne2005published-e1]. Then work out three things:
 
 | What to find out | Where to look |
 |---|---|
@@ -55,7 +55,7 @@ The rules differ from venue to venue and can change every year, so don't go by m
 
 For the venue you submitted to, go by that year's call for papers.
 
-**Also know who will read your response.** Several computer science researchers have shared experience worth considering: when reviewers read your response, it may be a month after they wrote their reviews, and they no longer remember the details[^hicks2014response-e7]; the area chair who makes the decision knows your paper even less well, so it is best to assume they read only the reviews and your response[^parikh2020rebuttals-e2]. Some conferences also make responses public: after decisions are announced, NeurIPS 2025 publishes accepted papers, and rejected papers whose authors opt in, together with the reviews and author responses[^neurips2025cfp-e13]. So write the response so that it reads fine to anyone `[Our analysis]`.
+**Also know who will read your response.** Several computer science researchers have shared experience worth considering: when reviewers read your response, it may be a month after they wrote their reviews, and they no longer remember the details[^hicks2014response-e7]; the area chair who makes the decision knows your paper even less well, so it is best to assume they read only the reviews and your response[^parikh2020rebuttals-e2]. Some conferences also make responses public: after decisions are announced, NeurIPS 2025 publishes accepted papers, and rejected papers whose authors opt in, together with the reviews and author responses[^neurips2025cfp-e13]. So write the response so that it reads fine to anyone.
 
 **Write it down:** In three lines, write: what kind of decision this is, the deadline and word limit, and who makes the final call. Then one sentence: if you had to sum up the reviewers' overall view in one sentence, what would it be?
 
@@ -63,7 +63,7 @@ For the venue you submitted to, go by that year's call for papers.
 
 **First, split all the reviews into individual points and put them in one table.** The following comes from computer science researchers' experience writing responses; treat it as advice. List every comment, question, and concern from every reviewer, one per item, and look at them side by side: that makes it easy to spot issues several reviewers share, and you won't miss any[^parikh2020rebuttals-e5][^parikh2020rebuttals-e17]. Number the reviewers and the questions, for example R1 and R2 for the first and second reviewer, and R1Q1 and R1Q2 for the first reviewer's first and second questions, so each reviewer can find their own questions and your answers[^zeller2012rebuttals-e10]. **Do this as soon as the reviews arrive**, so you find out early which experiments or analyses you need to add[^parikh2020rebuttals-e17].
 
-**Then classify each point.** The categories below are one way we suggest doing it `[Our analysis]`:
+**Then classify each point.** The categories below are one way we suggest doing it:
 
 | Type | How to recognize it | Usual way to handle it |
 |---|---|---|
@@ -75,7 +75,7 @@ For the venue you submitted to, go by that year's call for papers.
 | Difference in preference | The reviewer wants a different method or design | Explain why you chose yours; if you have capacity, try their suggestion |
 | Minor issue | Typos, figure or table formatting, wording | Just fix it; one sentence in the response |
 
-Try it on the "large language models and smart contract security" example (a made-up example `[Our analysis]`). Suppose your paper claims that "the new method finds 30% more vulnerabilities than existing tools on real-world contracts", and three reviewers raised these points:
+Try it on the "large language models and smart contract security" example (a made-up example). Suppose your paper claims that "the new method finds 30% more vulnerabilities than existing tools on real-world contracts", and three reviewers raised these points:
 
 | ID | Comment | Category |
 |---|---|---|
@@ -87,13 +87,13 @@ Try it on the "large language models and smart contract security" example (a mad
 
 **Finally, set priorities.** A suggested order: major issues shared by several reviewers first[^hicks2014response-e5]; next, issues the reviewers think you may not be able to fix[^zeller2012rebuttals-e14]; things proofreading can fix, such as typos and language, aren't worth arguing in the response[^zeller2012rebuttals-e5].
 
-Points that undermine the trustworthiness of your conclusions go to the very top `[Our analysis]`. The reason is reflected in the reviewing standard for empirical research in software engineering: it asks reviewers to judge first whether the results are trustworthy, and only then whether they are important; a trustworthy but less important paper can be accepted, while a paper that isn't trustworthy cannot be accepted no matter how important it seems[^ralph2020empirical-e53].
+Points that undermine the trustworthiness of your conclusions go to the very top. The reason is reflected in the reviewing standard for empirical research in software engineering: it asks reviewers to judge first whether the results are trustworthy, and only then whether they are important; a trustworthy but less important paper can be accepted, while a paper that isn't trustworthy cannot be accepted no matter how important it seems[^ralph2020empirical-e53].
 
 **Write it down:** Turn the reviews you received into a table like the one above: ID, summary of the comment, category, priority. Mark the issues raised by at least two reviewers.
 
 ## 3. Decide what to change and what to argue
 
-Once the table is done, make a decision for each point: **change it, explain it, or disagree with good reason.** The rules of thumb below are our synthesis of several computer science researchers' experience `[Our analysis]`:
+Once the table is done, make a decision for each point: **change it, explain it, or disagree with good reason.** The rules of thumb below are our synthesis of several computer science researchers' experience:
 
 - **Default to changing.** Rather than arguing why a reviewer's suggestion won't work, try it; it may actually help[^parikh2020rebuttals-e20]. Even the most unpromising review contains something useful to you[^zeller2012rebuttals-e7].
 - **If you were misunderstood, blame your writing first.** If one reviewer misunderstood, you can point out what the paper says; if all the reviewers misunderstood, the problem is not the reviewers[^zeller2012rebuttals-e6], and you need to rewrite; see [Telling the story and writing the paper](01_story-and-paper.md).
@@ -108,14 +108,14 @@ Once the table is done, make a decision for each point: **change it, explain it,
 - Rejecting a paper because the reviewer would have used a different method or design, or criticizing it for limitations inherent to that kind of study[^ralph2020empirical-e25];
 - Asking for additional analyses unrelated to the study's aims (the standard lists this as a reviewing antipattern)[^ralph2020empirical-e64].
 
-When you meet comments like these, politely ask the reviewer to be specific, or explain why the criticism doesn't apply; don't hit back. In other fields with no such written list, you can borrow the same reasoning, but word it more cautiously `[Our analysis]`.
+When you meet comments like these, politely ask the reviewer to be specific, or explain why the criticism doesn't apply; don't hit back. In other fields with no such written list, you can borrow the same reasoning, but word it more cautiously.
 
-**For points that shake the claim, think hard: is the evidence insufficient, or is the claim overstated?** Take the claim apart: sweeping statements such as "always" or "completely" often need analytical argument, while qualified statements ("a 25% improvement", "for a certain class of structures") can often be supported by evaluation[^shaw2003writing-e16]. With R1Q1 above, you have two routes `[Our analysis]`:
+**For points that shake the claim, think hard: is the evidence insufficient, or is the claim overstated?** Take the claim apart: sweeping statements such as "always" or "completely" often need analytical argument, while qualified statements ("a 25% improvement", "for a certain class of structures") can often be supported by evaluation[^shaw2003writing-e16]. With R1Q1 above, you have two routes:
 
 - **Add evidence**: find out how many test contracts may appear in the training data, remove them, and rerun the comparison;
 - **Change the claim**: change "finds 30% more vulnerabilities on real-world contracts" to "on contracts deployed after the model's training cutoff …".
 
-There is no shame in changing the claim. In one researcher's experience supervising graduate students, a frequent result of discussing claims and evidence is that students restate their claims to reflect more precisely what the research actually achieved[^shaw2003writing-e17]. But if, after the change, what is left isn't worth publishing, revision won't fix it; see Section 6 `[Our analysis]`.
+There is no shame in changing the claim. In one researcher's experience supervising graduate students, a frequent result of discussing claims and evidence is that students restate their claims to reflect more precisely what the research actually achieved[^shaw2003writing-e17]. But if, after the change, what is left isn't worth publishing, revision won't fix it; see Section 6.
 
 **Write it down:** Add a "decision" column to the table: change / explain / disagree (with reasons) / can't do (with explanation). For every "disagree", write down the data or facts you can bring.
 
@@ -144,7 +144,7 @@ The advice in this section comes mainly from personal experience that several co
 6. **Don't just promise; write it out.** Rather than saying "we will discuss work X in the paper", write the discussion in the response[^parikh2020rebuttals-e10]; at the very least, sketch concretely how you will change the paper[^zeller2012rebuttals-e4].
 7. **Be honest about what you can't do**, for example when the conference doesn't allow new experiments[^parikh2020rebuttals-e21].
 
-Back to the example, one way to answer R2Q1 `[Our analysis]`:
+Back to the example, one way to answer R2Q1:
 
 > **R2Q1: Why no comparison with tool X?**
 > We have added the comparison: on the same 500 contracts, tool X finds 41 vulnerabilities and our method finds 58 (detailed results in the table below). The original submission had no comparison because tool X only supported an old compiler version at the time; we have switched to its new version, and the revised paper will include these results.
@@ -157,7 +157,7 @@ Back to the example, one way to answer R2Q1 `[Our analysis]`:
 > - No: the goal of the response is to win a champion, so you shouldn't feel obliged to respond to every point[^hicks2014response-e4].
 > - Yes: rebut every point the detractors raise, to give your champion arguments for the discussion[^zeller2012rebuttals-e2].
 >
-> In practice `[Our analysis]`: under a strict word limit, make sure you cover the major issues and the detractors' key points, deal with the rest in a sentence, and say they will be handled in the revision; with a generous limit, respond to every point.
+> In practice: under a strict word limit, make sure you cover the major issues and the detractors' key points, deal with the rest in a sentence, and say they will be handled in the revision; with a generous limit, respond to every point.
 
 **Write it down:** Draft a response: an opening paragraph summarizing the strengths and the one thing you most want everyone to know, then answers in the order you set in Section 2. When you're done, ask a labmate who hasn't read the reviews to read only the response, and ask them: which issues have been resolved?
 
@@ -165,9 +165,9 @@ Back to the example, one way to answer R2Q1 `[Our analysis]`:
 
 When a journal asks for a revision, you submit two things: the revised paper, and a response letter that goes through the comments point by point.
 
-**If you get a major revision, revise seriously, and address every comment in both the response letter and the text**[^bourne2005published-e2]. Unlike a conference response, there is usually no strict word limit here, so you can write each point out in full `[Our analysis]`.
+**If you get a major revision, revise seriously, and address every comment in both the response letter and the text**[^bourne2005published-e2]. Unlike a conference response, there is usually no strict word limit here, so you can write each point out in full.
 
-**How to write the response letter** `[Our analysis]`: follow the principles from Section 4 (quote first, answer directly, let the data talk), and under each comment write these five parts:
+**How to write the response letter**: follow the principles from Section 4 (quote first, answer directly, let the data talk), and under each comment write these five parts:
 
 | Under each comment, write | Example |
 |---|---|
@@ -179,9 +179,9 @@ When a journal asks for a revision, you submit two things: the revised paper, an
 
 (The numbers in the example are for illustration only.)
 
-**When you revise the text, don't do just enough to get past the response letter.** If the letter says "revised", the change should be easy to find in the text `[Our analysis]`. The questions reviewers raise are questions future readers will have too, and your answers in the text are answers for them.
+**When you revise the text, don't do just enough to get past the response letter.** If the letter says "revised", the change should be easy to find in the text. The questions reviewers raise are questions future readers will have too, and your answers in the text are answers for them.
 
-**One change can ripple through the whole paper.** If you narrowed the claim because of R1Q1, the abstract, introduction, and conclusion all have to change with it; don't let the old and new wording appear side by side `[Our analysis]`.
+**One change can ripple through the whole paper.** If you narrowed the claim because of R1Q1, the abstract, introduction, and conclusion all have to change with it; don't let the old and new wording appear side by side.
 
 **Write it down:** Using the five-part format above, write your responses to the three most important comments. For each, mark exactly which places in the text you changed.
 
@@ -189,7 +189,7 @@ When a journal asks for a revision, you submit two things: the revised paper, an
 
 **Don't resubmit elsewhere unchanged.** Resubmitting a rejected paper again and again without changing a word will eventually come back to bite you[^karpathy2016survival-e11]. Turn the reviews into a to-do list and work through it in your revision[^huang2021rejection-e2].
 
-**First, judge at what level the problem lies** `[Our analysis]`:
+**First, judge at what level the problem lies**:
 
 | Main issue in the reviews | Level of the problem | What to do |
 |---|---|---|
@@ -199,13 +199,13 @@ When a journal asks for a revision, you submit two things: the revised paper, an
 | The evidence can't support the conclusions | Claim | Narrow the conclusions, or use a different kind of evidence; see [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) |
 | Done before, or not enough of a contribution | The project itself | Go back to Section 3 of [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it) and reposition it |
 
-**If the reviewers agree the paper is poor, don't argue; move on**: in almost every such case, the reviewers are right[^bourne2005published-e2]. Then take the last two rows of the table above seriously `[Our analysis]`.
+**If the reviewers agree the paper is poor, don't argue; move on**: in almost every such case, the reviewers are right[^bourne2005published-e2]. Then take the last two rows of the table above seriously.
 
-**Revise properly before resubmitting; don't rush.** In the long run most papers don't matter much; a career is defined by a few good papers[^huang2021rejection-e3]. So using this rejection to make the paper solid is worth more than rushing to the next venue `[Our analysis]`. If it doesn't get in this time, there is always another deadline[^zeller2012rebuttals-e9].
+**Revise properly before resubmitting; don't rush.** In the long run most papers don't matter much; a career is defined by a few good papers[^huang2021rejection-e3]. So using this rejection to make the paper solid is worth more than rushing to the next venue. If it doesn't get in this time, there is always another deadline[^zeller2012rebuttals-e9].
 
-**Before resubmitting, make sure the previous venue is done with it.** For the general rules on simultaneous submission, see [Choosing a venue and submitting](02_venue-and-submission.md). This is the one people trip over most around a rejection. Take the USENIX Security '26 call for papers: even if the initial reviews at the previous venue suggest the paper will very likely be rejected, as long as it still counts as under review there, submitting it here counts as a simultaneous submission[^usenixsec2026cfp-e13]. For other venues, go by that year's call for papers of your target conference or journal; if in doubt, formally withdraw the paper first, or wait for the decision `[Our analysis]`.
+**Before resubmitting, make sure the previous venue is done with it.** For the general rules on simultaneous submission, see [Choosing a venue and submitting](02_venue-and-submission.md). This is the one people trip over most around a rejection. Take the USENIX Security '26 call for papers: even if the initial reviews at the previous venue suggest the paper will very likely be rejected, as long as it still counts as under review there, submitting it here counts as a simultaneous submission[^usenixsec2026cfp-e13]. For other venues, go by that year's call for papers of your target conference or journal; if in doubt, formally withdraw the paper first, or wait for the decision.
 
-**A new submission means new reviewers, but possibly the same old problems.** Issues the previous reviewers pointed out will very likely be noticed by the new ones too. So don't fix only the easy things `[Our analysis]`.
+**A new submission means new reviewers, but possibly the same old problems.** Issues the previous reviewers pointed out will very likely be noticed by the new ones too. So don't fix only the easy things.
 
 **Write it down:** For this rejection, write in one sentence "at what level the problem mainly lies". List the changes you must make before resubmitting, and write down the next target venue and its deadline.
 
@@ -213,7 +213,7 @@ When a journal asks for a revision, you submit two things: the revised paper, an
 
 ## Judgment calls
 
-**Resubmit, overhaul, or let it go?** After a rejection, you can decide like this `[Our analysis]`:
+**Resubmit, overhaul, or let it go?** After a rejection, you can decide like this:
 
 | Situation | Usual approach |
 |---|---|
@@ -223,7 +223,7 @@ When a journal asks for a revision, you submit two things: the revised paper, an
 | You've resubmitted two or three times and the main issue is the same every time | The problem hasn't really been fixed; reassess the claim with your advisor |
 | The comments differ every time, and the scores hover around the line | It may just be luck; keep revising and resubmitting |
 
-**When is a "we disagree" worth including in a response?** When you can bring data or facts, and the comment will affect the decision. Merely feeling it's unfair isn't worth the space `[Our analysis]`.
+**When is a "we disagree" worth including in a response?** When you can bring data or facts, and the comment will affect the decision. Merely feeling it's unfair isn't worth the space.
 
 ## Common mistakes
 
@@ -237,7 +237,7 @@ When a journal asks for a revision, you submit two things: the revised paper, an
 | All reviewers misunderstood, and you blame the reviewers | The problem is in how the paper is written[^zeller2012rebuttals-e6] |
 | Resubmitting unchanged after a rejection | It will eventually come back to bite you[^karpathy2016survival-e11] |
 | Submitting to the next venue while the previous one is still reviewing | At least at USENIX Security '26, it counts as simultaneous submission[^usenixsec2026cfp-e13] |
-| Fixing only the easy things and avoiding the points that shake the claim | The next round of reviewers will very likely raise the same issues `[Our analysis]` |
+| Fixing only the easy things and avoiding the points that shake the claim | The next round of reviewers will very likely raise the same issues |
 
 ## What you should have at the end
 
@@ -272,7 +272,7 @@ Your paper has been accepted, or you've decided to let this one go: either way, 
 
 Rejection, revision, and resubmission are very common in research. For how to stay motivated and build experience over the long term, see [Mindset and long-term growth](../08_throughout/mindset_and_growth.md).
 
-For your next project, start again from [Generating candidate problems](../01_find-a-problem/02_generate-problems.md). The questions reviewers asked most often this round usually tell you where to put more effort in the next project. `[Our analysis]`
+For your next project, start again from [Generating candidate problems](../01_find-a-problem/02_generate-problems.md). The questions reviewers asked most often this round usually tell you where to put more effort in the next project.
 
 [^bourne2005published-e1]: Bourne 2005, Rule 5. [Evidence](../../sources/notes/bourne2005published.md#e1)
 [^bourne2005published-e2]: Bourne 2005, Rule 5. [Evidence](../../sources/notes/bourne2005published.md#e2)

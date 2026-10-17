@@ -32,7 +32,7 @@ This handbook tries to write down how research is done, from start to finish: ch
 
 We hold ourselves to two rules:
 
-- Every piece of advice can be traced to its original source; anything that is our own judgment is marked `[Our analysis]`.
+- Every piece of advice can be traced to its original source; anything that is our own judgment carries no footnote, so you can always tell the two apart.
 - Plain language, so that someone new to research can follow it.
 
 It is written first for people: for anyone starting out in research who hasn't yet found their own way of working. It is also the groundwork for our auto research. Explaining research clearly helps people and agents alike.

@@ -7,7 +7,7 @@
 
 ## Basic principles
 
-1. **Every piece of content must cite its source.** Don't write anything you can't source. Content that is this project's own analysis and does not come from the literature is tagged `[Our analysis]` (see "How to write" below for how to tag).
+1. **Every piece of content must cite its source.** Don't write a fact you can't source. This project's own analysis and advice carries no footnote and no extra marker (see "How to write" below).
 2. **Don't copy copyrighted full texts or PDFs.** Summarize in your own words; quote briefly where necessary and cite the source. PDFs are kept only locally in `papers/pdf/` (already in `.gitignore`); only openly licensed papers may be committed.
 3. **If you're not sure, mark it "To be confirmed".** Don't guess.
 4. Write the Chinese source edition in Chinese; keep source titles, technical terms, and file names in English. The English edition lives in `en/` and mirrors the Chinese edition page for page.
@@ -53,9 +53,9 @@ Pages on research methods and field-specific practices can use the [`templates/r
 
 1. **Write plainly.** Use Chinese, short sentences, and the second person; start from the reader's confusion at that moment; give the how-to first, then the why. Keep terms consistent with [`guide/00_start-here/key-concepts.md`](guide/00_start-here/key-concepts.md), and spell out abbreviations on first use.
 2. **Footnote facts sentence by sentence.** An author's advice, a study's finding, a standard's requirement, a number: each sentence gets a footnote pointing to an evidence entry in `sources/notes/<key>.md`, and the original quote in that entry must actually support the sentence. For a source with no notes yet, add them first following the format in [`sources/notes/README.md`](sources/notes/README.md).
-3. **Tag advice we synthesized with `[Our analysis]` once per paragraph or table.** Practice tables, decision rules, examples, and other content that no single source states word for word get one tag for the whole paragraph (or the whole table, or the whole subsection), not one per sentence; facts embedded in the same paragraph still get their own footnotes. Pure navigation ("see such-and-such chapter") needs no tag.
+3. **Write advice we synthesized as plain text, with no footnote and no marker.** Practice tables, decision rules, examples, and other content that no single source states word for word are recognizable as ours because they have no footnote; facts embedded in the same paragraph still get their own footnotes. Two cases need saying in words: when our inference follows right after a cited source and a reader might take it for the source's view, write "so…", "we suggest…" or similar; when we judge a source itself (e.g. "the paper has no threats-to-validity section"), say that this is our judgment after reading the whole text.
 4. **Mark anything uncertain `[To be confirmed]`**; where you can't find a reliable basis, write "Our sources do not cover this" rather than writing from memory.
-5. **Write "Where sources disagree" only when the disagreement affects what you do**: set out each side's approach and reasons side by side, then give a practical recommendation tagged `[Our analysis]`. Don't force them into a single conclusion.
+5. **Write "Where sources disagree" only when the disagreement affects what you do**: set out each side's approach and reasons side by side, then give the handbook's own practical recommendation. Don't force them into a single conclusion.
 6. **Say which field a source comes from.** Don't present practices from computer science, software engineering, or machine learning as rules for every field.
 
 ### Update the contents pages when you're done

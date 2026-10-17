@@ -4,7 +4,7 @@ This page covers **focus groups**: you bring together a small group of people an
 
 Focus groups share many steps with [Interview studies](interview_study.md): purposive sampling, judging saturation, designing and piloting a guide, transcription, thematic analysis, and making your analysis trustworthy. This page doesn't repeat those; it links to them where they come up and concentrates on **what changes when you work with a group**. For the general ethics requirements when research involves people, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first).
 
-**Scope** `[Our analysis]`: The methods sources behind this page come from health research (Kitzinger's 1995 introductory article in the *BMJ*, Carlsen and Glenton's survey of focus group studies in health journals, and Hennink et al.'s empirical study of saturation in focus groups), research ethics in social research (Sim and Waterfield), program evaluation (Krueger's freely available handout), and conservation biology (O.Nyumba et al.'s review of 170 conservation studies). Human–computer interaction and software engineering also use focus groups, for example to understand user needs or to get practitioners' feedback on a new tool or concept, but we found no openly available full-text methods guide for focus groups in those areas, so this page does not cite their norms. Fields differ in their habits about group size, number of groups, and reporting; check your own field's conventions first.
+**Scope**: The methods sources behind this page come from health research (Kitzinger's 1995 introductory article in the *BMJ*, Carlsen and Glenton's survey of focus group studies in health journals, and Hennink et al.'s empirical study of saturation in focus groups), research ethics in social research (Sim and Waterfield), program evaluation (Krueger's freely available handout), and conservation biology (O.Nyumba et al.'s review of 170 conservation studies). Human–computer interaction and software engineering also use focus groups, for example to understand user needs or to get practitioners' feedback on a new tool or concept, but we found no openly available full-text methods guide for focus groups in those areas, so this page does not cite their norms. Fields differ in their habits about group size, number of groups, and reporting; check your own field's conventions first.
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md). Focus groups are also often one component of a [Mixed methods](mixed_methods.md) study, for example to help you draft items before a questionnaire, or to help you explain results after a questionnaire or experiment.
 
@@ -42,9 +42,9 @@ A focus group is usually defined as collecting participants' views and experienc
 > - **The cautious view**: compared with individual interviews or questionnaires, participants are sometimes unwilling to discuss sensitive topics in a group, so take this into account when designing your questions[^nyumba2018use-e13].
 > - **The less pessimistic view**: Kitzinger argues you should not assume a group is always more inhibiting than an interview; the more outgoing members speaking first can break the ice for shyer ones, which can actually help a group discuss taboo topics[^kitzinger1995qualitative-e5].
 >
-> In practice, look at where the sensitivity lies. If the worry is "saying this in front of people I know will have consequences," use individual interviews. If the worry is "this is hard to say on my own," a group of people with similar experiences may make it easier. If you're unsure, try one or two groups first. `[Our analysis]`
+> In practice, look at where the sensitivity lies. If the worry is "saying this in front of people I know will have consequences," use individual interviews. If the worry is "this is hard to say on my own," a group of people with similar experiences may make it easier. If you're unsure, try one or two groups first.
 
-**How it differs from related methods** `[Our analysis]`:
+**How it differs from related methods**:
 
 | | Focus group | [Interview studies](interview_study.md) | [Questionnaire surveys](questionnaire_survey.md) |
 |---|---|---|---|
@@ -56,7 +56,7 @@ A focus group is usually defined as collecting participants' views and experienc
 
 For the basis of the "Unit of analysis" row, see [Step 6](#step-6-analysis-treat-the-interaction-as-data).
 
-**An example** `[Our analysis]`: The running example, "LLM vulnerability-detection results are inflated by data leakage," is a measurement project: the claim has to be tested by re-running the evaluation, and focus groups cannot prove it. But they can play a supporting role. Before you design a "clean" test set, you want to know how smart contract auditors view and use the vulnerability reports that large language models produce, and which public vulnerabilities they feel "everyone has already seen." You could group people by role: one group of auditors from audit firms, one of developers who write contracts, about two groups for each role. As people add to and push back on each other, a discussion often surfaces agreements and disagreements, such as "which vulnerability samples nearly everyone knows," faster than one-on-one interviews would. What you get are views and leads that help you pick test samples and write the motivation section of your paper, not evidence for the claim itself.
+**An example**: The running example, "LLM vulnerability-detection results are inflated by data leakage," is a measurement project: the claim has to be tested by re-running the evaluation, and focus groups cannot prove it. But they can play a supporting role. Before you design a "clean" test set, you want to know how smart contract auditors view and use the vulnerability reports that large language models produce, and which public vulnerabilities they feel "everyone has already seen." You could group people by role: one group of auditors from audit firms, one of developers who write contracts, about two groups for each role. As people add to and push back on each other, a discussion often surfaces agreements and disagreements, such as "which vulnerability samples nearly everyone knows," faster than one-on-one interviews would. What you get are views and leads that help you pick test samples and write the motivation section of your paper, not evidence for the claim itself.
 
 ---
 
@@ -68,12 +68,12 @@ For the basis of the "Unit of analysis" row, see [Step 6](#step-6-analysis-treat
 
 - **First decide whether groups should be homogeneous or mixed.** Most researchers recommend homogeneous groups, to draw on shared experience; you can also deliberately mix people from different backgrounds to widen the range of perspectives in a group[^kitzinger1995qualitative-e8]. Krueger's handout also says a group is made up of similar people[^krueger2002designing-e1].
 - **Then decide whether to use existing groups or recruit groups specially.** A group can be one that already exists, such as colleagues, or one convened for the study. With existing groups you can observe fragments of interaction close to how these people normally talk[^kitzinger1995qualitative-e9]. But when participants know each other, anonymity is harder to maintain[^sim2019focus-e8].
-- **Segment by the characteristics you want to compare.** For example, sort people into categories by role or age and give each category its own groups, so you can later compare categories. Segmentation directly determines how many groups you need; see Step 2. `[Our analysis]`
+- **Segment by the characteristics you want to compare.** For example, sort people into categories by role or age and give each category its own groups, so you can later compare categories. Segmentation directly determines how many groups you need; see Step 2.
 - **Recruit purposively, and over-recruit.** Identifying participants may be the most critical step, because the method relies mainly on participants stimulating one another to generate data[^nyumba2018use-e4]. Not everyone you recruit will show up, so recruit 10% to 25% more than you need[^nyumba2018use-e5]. For purposive sampling in general, see [Step 1 of Interview studies](interview_study.md#step-1-choose-interviewees).
 
 **Why:** Who sits with whom decides what people dare to say. Hierarchy within a group affects the data: a nursing assistant placed in a group with a senior doctor from the same hospital, for instance, is unlikely to speak freely[^kitzinger1995qualitative-e8].
 
-**Where people go wrong:** Putting managers with their staff, or advisors with their students, in the same group. The same goes for computer science: don't put a company's head of security and the engineers who report to them in one group to discuss "how our team handles vulnerabilities." `[Our analysis]`
+**Where people go wrong:** Putting managers with their staff, or advisors with their students, in the same group. The same goes for computer science: don't put a company's head of security and the engineers who report to them in one group to discuss "how our team handles vulnerabilities."
 
 ### Step 2: Set group size and the number of groups
 
@@ -89,22 +89,22 @@ For the basis of the "Unit of analysis" row, see [Step 6](#step-6-analysis-treat
 
 **Why:** Too few groups and too many groups both lower the quality of a study[^carlsen2011what-e5]. Running too many places a burden on participants without adding scientific value, and can even be seen as unethical[^carlsen2011what-e9].
 
-**Where people go wrong:** Fixing the number of groups, running them all, then analyzing and declaring "saturation was reached." Carlsen and Glenton found that several studies claiming saturation apparently had not analyzed data while collecting it[^carlsen2011what-e8]. If you use saturation to decide the number of groups, analyze after every group and record which new codes it added. `[Our analysis]`
+**Where people go wrong:** Fixing the number of groups, running them all, then analyzing and declaring "saturation was reached." Carlsen and Glenton found that several studies claiming saturation apparently had not analyzed data while collecting it[^carlsen2011what-e8]. If you use saturation to decide the number of groups, analyze after every group and record which new codes it added.
 
 ### Step 3: Write the moderator's guide
 
 **How:**
 
-- **Order the questions in five types**: opening (everyone answers in turn), introductory, transition, key, and ending, moving from general to specific[^krueger2002designing-e9]. Have only a few key questions, put them in the middle, and leave plenty of time for them. `[Our analysis]`
-- **Ask open questions about experience.** Avoid questions that can only be answered yes or no; use "think back" questions that take people back to an experience, rather than asking them to imagine the future[^krueger2002designing-e8]. For example, ask "Think back to the last time you used a large language model to check a contract. How did it go?" rather than "Do you think large language models will replace manual audits?" `[Our analysis]`
+- **Order the questions in five types**: opening (everyone answers in turn), introductory, transition, key, and ending, moving from general to specific[^krueger2002designing-e9]. Have only a few key questions, put them in the middle, and leave plenty of time for them.
+- **Ask open questions about experience.** Avoid questions that can only be answered yes or no; use "think back" questions that take people back to an experience, rather than asking them to imagine the future[^krueger2002designing-e8]. For example, ask "Think back to the last time you used a large language model to check a contract. How did it go?" rather than "Do you think large language models will replace manual audits?"
 - **Prepare your opening remarks and ground rules**: there are no right or wrong answers, only different points of view; you don't have to agree with others, but please listen respectfully; please talk to one another[^krueger2002designing-e6].
 - **Plan the ending**: the moderator gives a brief oral summary and asks "Is this an accurate summary?"; then restates the purpose of the study and asks "Have we missed anything?"[^krueger2002designing-e10]
 - **You can prepare a group exercise**, such as having the group sort and rank statements written on cards. What matters is the discussion the ranking provokes, not the final order[^kitzinger1995qualitative-e13].
 - **Pilot the guide**: the same way as an interview guide; see [Step 2 of Interview studies](interview_study.md#step-2-design-the-interview-guide).
 
-**Why:** In a focus group the time is shared among several people, so each question gets far less discussion than it would in an individual interview; keep the questions few and well chosen. `[Our analysis]` Sessions that run too long tire participants[^nyumba2018use-e8]; Kitzinger suggests one to two hours per session[^kitzinger1995qualitative-e10].
+**Why:** In a focus group the time is shared among several people, so each question gets far less discussion than it would in an individual interview; keep the questions few and well chosen. Sessions that run too long tire participants[^nyumba2018use-e8]; Kitzinger suggests one to two hours per session[^kitzinger1995qualitative-e10].
 
-**Where people go wrong:** Reusing an individual interview guide as is. An interview guide is built for one-to-one question and answer; in a group it turns into the moderator asking each person in turn, and the interaction disappears. `[Our analysis]`
+**Where people go wrong:** Reusing an individual interview guide as is. An interview guide is built for one-to-one question and answer; in a group it turns into the moderator asking each person in turn, and the interaction disappears.
 
 ### Step 4: Moderate the discussion
 
@@ -114,11 +114,11 @@ For the basis of the "Unit of analysis" row, see [Step 6](#step-6-analysis-treat
 - **Get people talking to each other.** The moderator should explain that the point is for participants to talk to one another, not to the researcher; in the later part of a session the moderator can be more active, keeping debates going and asking people to discuss inconsistencies between participants and within their own thinking[^kitzinger1995qualitative-e11]. One advantage of focus groups is that disagreements between members can be explored with the participants on the spot[^kitzinger1995qualitative-e12].
 - **Use pauses and probes.** Pause for five seconds; probe with "Would you explain further?" or "Would you give an example?"[^krueger2002designing-e4]
 - **Control your own reactions.** Avoid saying "good," "excellent," and the like[^krueger2002designing-e5]. The moderator should stay engaged while remaining verbally and physically neutral[^nyumba2018use-e14].
-- **Rein in dominant talkers and draw in quiet ones.** Group discussions carry group biases: dominance (one forceful person steers the discussion), the halo effect (someone's status sways the discussion), groupthink (people converge to keep the peace), and others; the moderator and assistant need to notice and handle them during data collection[^nyumba2018use-e15]. Krueger advises controlling "experts" and dominant talkers tactfully and drawing in shy participants[^krueger2002designing-e5]. The moderator should give everyone a chance to speak without pressuring anyone who doesn't want to, and should not let one or two people dominate[^sim2019focus-e13]. In practice: say to a heavy talker, "Thanks, let's hear from some others too," then look toward someone who hasn't spoken yet; and open with a question everyone answers in turn, so that each person has spoken once. `[Our analysis]`
+- **Rein in dominant talkers and draw in quiet ones.** Group discussions carry group biases: dominance (one forceful person steers the discussion), the halo effect (someone's status sways the discussion), groupthink (people converge to keep the peace), and others; the moderator and assistant need to notice and handle them during data collection[^nyumba2018use-e15]. Krueger advises controlling "experts" and dominant talkers tactfully and drawing in shy participants[^krueger2002designing-e5]. The moderator should give everyone a chance to speak without pressuring anyone who doesn't want to, and should not let one or two people dominate[^sim2019focus-e13]. In practice: say to a heavy talker, "Thanks, let's hear from some others too," then look toward someone who hasn't spoken yet; and open with a question everyone answers in turn, so that each person has spoken once.
 - **Give private views a way out.** After the discussion, you can hand out a short questionnaire or arrange a private conversation so each person has a chance to record views they didn't feel able to voice in the group[^kitzinger1995qualitative-e14].
 - **Online focus groups need extra thought**: they reach only people with internet access, connections drop, and nonverbal cues are hard to capture[^nyumba2018use-e9].
 
-**Why:** In a focus group, the interaction is the data. If the moderator keeps asking and evaluating, the session becomes question and answer; if the moderator lets go entirely, one or two people take over the discussion. `[Our analysis]`
+**Why:** In a focus group, the interaction is the data. If the moderator keeps asking and evaluating, the session becomes question and answer; if the moderator lets go entirely, one or two people take over the discussion.
 
 **Where people go wrong:** Taking surface agreement in the group for real consensus. Group norms can silence individual dissent[^kitzinger1995qualitative-e4].
 
@@ -132,22 +132,22 @@ For the basis of the "Unit of analysis" row, see [Step 6](#step-6-analysis-treat
 - **Debrief the same day.** Right after each group, the moderator and assistant debrief together, noting themes, hunches, and ideas, and comparing with other groups[^krueger2002designing-e12].
 - **Allow enough time.** Krueger estimates that one hour of recording takes about eight hours to transcribe[^krueger2002designing-e16]. For other points on transcription, see [Step 4 of Interview studies](interview_study.md#step-4-transcribe).
 
-**Why:** People talking at once and interrupting each other is what makes group recordings hardest to transcribe. If you can't tell who said what, you can't later analyze who changed their mind or who shut whom down. `[Our analysis]`
+**Why:** People talking at once and interrupting each other is what makes group recordings hardest to transcribe. If you can't tell who said what, you can't later analyze who changed their mind or who shut whom down.
 
-**Where people go wrong:** Using automatic transcription as is, without marking speakers. Automatic transcription tools often can't tell speakers apart in a multi-person conversation; correct the transcript against the recording and the assistant's seating chart and notes. `[Our analysis]`
+**Where people go wrong:** Using automatic transcription as is, without marking speakers. Automatic transcription tools often can't tell speakers apart in a multi-person conversation; correct the transcript against the recording and the assistant's seating chart and notes.
 
 ### Step 6: Analysis: treat the interaction as data
 
 **How:**
 
 - **The basics are the same as in other qualitative analysis**: coding, developing themes, looking for counterexamples; see [Step 5 of Interview studies](interview_study.md#step-5-coding-and-thematic-analysis). Both data collection and analysis should attend to the content of the conversation and to the interaction within the group[^sim2019focus-e2].
-- **The group or the individual as the unit?** Most guidelines recommend the group as the unit of analysis[^carlsen2011what-e3]. Kitzinger cautions that reports generally should not give percentages, that you should distinguish individual opinions voiced against group pressure from genuine group consensus, and that you should analyze cases that go against the mainstream[^kitzinger1995qualitative-e16]. In practice you can work at both levels: first summarize, group by group, how each question was discussed, then compare across groups and segments; when you quote an individual, say what discussion the remark came up in and how others in the group responded. `[Our analysis]` Krueger likewise recommends debriefing right after each group and comparing it with other groups[^krueger2002designing-e12].
+- **The group or the individual as the unit?** Most guidelines recommend the group as the unit of analysis[^carlsen2011what-e3]. Kitzinger cautions that reports generally should not give percentages, that you should distinguish individual opinions voiced against group pressure from genuine group consensus, and that you should analyze cases that go against the mainstream[^kitzinger1995qualitative-e16]. In practice you can work at both levels: first summarize, group by group, how each question was discussed, then compare across groups and segments; when you quote an individual, say what discussion the remark came up in and how others in the group responded. Krueger likewise recommends debriefing right after each group and comparing it with other groups[^krueger2002designing-e12].
 - **Code the interaction.** Kitzinger argues that the only distinctive feature of analyzing focus group data is accounting for the influence of group dynamics and making use of the interaction among participants; you can create codes for types of narrative, such as jokes and anecdotes, and for types of interaction, such as questions, agreeing with others, censorship, and changes of mind[^kitzinger1995qualitative-e17].
 - **Look at context.** Every comment was triggered by some stimulus, either the moderator's question or someone else's remark; find that stimulus when you analyze[^krueger2002designing-e13]. Participants may change or even reverse their positions after interacting with others; when that happens, follow the conversation for clues that might explain the change[^krueger2002designing-e14].
 - **Specific experiences carry more weight than vague generalities**[^krueger2002designing-e15].
 - **Frequent does not mean important**: how often an issue comes up in the data says nothing about how important it is for understanding the phenomenon you study[^hennink2019what-e5].
 
-**Why:** The same sentence carries different weight when someone says it first and when someone says it to go along with others. If you chop the group record into single sentences and code each in isolation, you lose the most valuable part of a focus group. `[Our analysis]`
+**Why:** The same sentence carries different weight when someone says it first and when someone says it to go along with others. If you chop the group record into single sentences and code each in isolation, you lose the most valuable part of a focus group.
 
 **Where people go wrong:** Reporting "6 out of 8 people agreed" as a proportion. In a group, the later "agreements" may just be people going along[^kitzinger1995qualitative-e16].
 
@@ -157,7 +157,7 @@ Focus groups raise ethical issues that are not quite the same as those of one-on
 
 **How:**
 
-- **Be clear about what you can and can't guarantee.** Sim and Waterfield distinguish two kinds of confidentiality: the researcher can guarantee "external confidentiality," because they control what goes into reports; "internal confidentiality" (whether group members repeat what others said) depends on members keeping to the ground rules, and the researcher has little control over it[^sim2019focus-e7]. The researcher can give some assurances, but strictly speaking only about the part they can influence[^sim2019focus-e11]. So in your consent form and opening remarks, don't say "everything you say here will be kept completely confidential." Say instead: "The research team will keep what you say confidential. We also ask everyone not to repeat what others say outside this room, but we can't guarantee that on other people's behalf." `[Our analysis]` Note that the sample opening in Krueger's 2002 handout says complete confidentiality can be assured[^krueger2002designing-e7]; by Sim and Waterfield's analysis, that promise goes beyond what a researcher can control `[Our analysis]`.
+- **Be clear about what you can and can't guarantee.** Sim and Waterfield distinguish two kinds of confidentiality: the researcher can guarantee "external confidentiality," because they control what goes into reports; "internal confidentiality" (whether group members repeat what others said) depends on members keeping to the ground rules, and the researcher has little control over it[^sim2019focus-e7]. The researcher can give some assurances, but strictly speaking only about the part they can influence[^sim2019focus-e11]. So in your consent form and opening remarks, don't say "everything you say here will be kept completely confidential." Say instead: "The research team will keep what you say confidential. We also ask everyone not to repeat what others say outside this room, but we can't guarantee that on other people's behalf." Note that the sample opening in Krueger's 2002 handout says complete confidentiality can be assured[^krueger2002designing-e7]; by Sim and Waterfield's analysis, that promise goes beyond what a researcher can control.
 - **Stress at the start that this is a public setting.** In the briefing before the discussion, you can stress that a focus group is a public setting, that everyone needs to respect each other's confidentiality and anonymity, and which topics are not suitable to raise in the group[^sim2019focus-e12].
 - **Explain the withdrawal rules up front.** Leaving a group discussion partway through is a public act that can disrupt the discussion, and individuals may find it hard to do[^sim2019focus-e5]. Sim and Waterfield recommend making clear during informed consent that people can leave the group and can ask not to be quoted in reports, but that withdrawing their data before analysis is not possible[^sim2019focus-e6]. Each person must consent individually; the group's agreement cannot stand in for each person's consent[^nyumba2018use-e11].
 - **Guard against people disclosing too much.** In the public setting of a group, things said are harder to "take back" than in a one-on-one interview[^sim2019focus-e9]. The moderator should watch for distress, disclosure of other people's private information, or someone saying too much, and steer the conversation away when needed[^sim2019focus-e13]. After discussing a distressing topic, it is best to close on a neutral or positive one[^sim2019focus-e14]; afterward, the moderator can stay a little longer so individual participants have a chance to raise concerns privately[^sim2019focus-e15].
@@ -165,7 +165,7 @@ Focus groups raise ethical issues that are not quite the same as those of one-on
 
 **Why:** What happens in a focus group depends partly on the other participants, who may bring up topics the moderator neither planned nor anticipated[^sim2019focus-e4]. The presence of other participants in itself compromises confidentiality[^kitzinger1995qualitative-e4].
 
-**Where people go wrong:** Convening a group within one company or one open-source community to discuss "whose code on the team is most likely to contain vulnerabilities." The participants will keep working together afterward, and what they said can't be taken back. `[Our analysis]`
+**Where people go wrong:** Convening a group within one company or one open-source community to discuss "whose code on the team is most likely to contain vulnerabilities." The participants will keep working together afterward, and what they said can't be taken back.
 
 ### Step 8: Write the report
 
@@ -176,15 +176,15 @@ Focus groups raise ethical issues that are not quite the same as those of one-on
 - **When you combine methods, make clear which conclusions come from the focus groups.** Of the 170 studies reviewed by O.Nyumba et al., 144 used focus groups together with other methods, and in most of them it was hard to tell which results came from the focus groups[^nyumba2018use-e16].
 - **Check yourself against a reporting guideline.** Health research commonly uses COREQ (Consolidated Criteria for Reporting Qualitative Research), a 32-item checklist for interviews and focus groups[^equatorcoreq-e1].
 
-**Why:** Readers rely on this information to judge how far your conclusions reach. If you don't say how many people were in each group and who they were, readers can't tell whether a "consensus" was real or driven by one person. `[Our analysis]`
+**Why:** Readers rely on this information to judge how far your conclusions reach. If you don't say how many people were in each group and who they were, readers can't tell whether a "consensus" was real or driven by one person.
 
-**Where people go wrong:** Writing only "we conducted focus groups," without saying how many people per group, how you recruited, or how the sessions were moderated. For general criteria of trustworthiness, see [Step 6 of Interview studies](interview_study.md#step-6-make-your-analysis-trustworthy). `[Our analysis]`
+**Where people go wrong:** Writing only "we conducted focus groups," without saying how many people per group, how you recruited, or how the sessions were moderated. For general criteria of trustworthiness, see [Step 6 of Interview studies](interview_study.md#step-6-make-your-analysis-trustworthy).
 
 ---
 
 ## 3. Checklist
 
-This checklist is this handbook's own summary of the sources above, not an official standard; when you submit in health research, follow COREQ and your field's other norms `[Our analysis]`.
+This checklist is this handbook's own summary of the sources above, not an official standard; when you submit in health research, follow COREQ and your field's other norms.
 
 **Must do**
 
@@ -205,13 +205,13 @@ This checklist is this handbook's own summary of the sources above, not an offic
 - [ ] Present stretches of conversation in the report, not just single sentences[^kitzinger1995qualitative-e18]
 - [ ] Offer a chance to express views privately after the discussion[^kitzinger1995qualitative-e14]
 
-**Outstanding** `[Our analysis]`
+**Outstanding**
 
 - [ ] Publish the moderator's guide, the codebook, and coding examples
 - [ ] Combine focus groups with individual interviews or a questionnaire, and say clearly which conclusions each one supports[^nyumba2018use-e16]
 - [ ] Report the moderator's background and relationship to the participants, and reflect on how these shaped the discussion (reflexivity; see [Step 6 of Interview studies](interview_study.md#step-6-make-your-analysis-trustworthy))
 
-**Fine to skip; not a flaw** `[Our analysis]`
+**Fine to skip; not a flaw**
 
 - Statistical representativeness, when the aim is to understand the views of a particular group (for quality criteria in qualitative research, see [Interview studies](interview_study.md#first-remember-qualitative-research-has-different-quality-criteria-from-quantitative-research))
 - Hitting exactly the number a particular book recommends, as long as groups have 4 to 12 people[^carlsen2011what-e4]
@@ -239,7 +239,7 @@ This checklist is this handbook's own summary of the sources above, not an offic
 ## 5. Further reading
 
 - **Introduction**: Kitzinger 1995, part of the *BMJ*'s "Qualitative Research" series. In four pages it covers what focus groups are for, group composition, moderation, and analysis, with particular emphasis on how to use interaction. From health research.
-- **Practical checklists for moderating and questioning**: Krueger's 2002 handout, with a sample opening, the five question types, the assistant's duties, and key points on transcription and analysis. *Focus Groups: A Practical Guide for Applied Research* by Krueger and Casey is the fuller version, but it is not freely available `[Our analysis]`.
+- **Practical checklists for moderating and questioning**: Krueger's 2002 handout, with a sample opening, the five question types, the assistant's duties, and key points on transcription and analysis. *Focus Groups: A Practical Guide for Applied Research* by Krueger and Casey is the fuller version, but it is not freely available.
 - **Ethics**: Sim & Waterfield 2019, a systematic discussion of informed consent, confidentiality, and risk of harm in focus groups, with measures for four stages: informed consent, the opening briefing, moderation, and the debrief afterward.
 - **How many groups**: Hennink, Kaiser & Weber 2019 used data from 10 focus groups to test how many groups code saturation and meaning saturation require; Carlsen & Glenton 2011 surveyed how health research reports the number of groups.
 - **How another field uses them**: O.Nyumba et al. 2018 reviewed twenty years of focus group research in conservation biology and end with five recommendations, including on moderator skills and group biases.

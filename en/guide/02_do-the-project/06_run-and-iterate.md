@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Make sure you are testing a specific hypothesis.** Write down the hypothesis and what result would show it is wrong. If you can't, go back to [Exploring hands-on](../01_find-a-problem/03_explore.md) first ([Section 1](#1-first-know-which-stage-you-are-in)).
 > 2. **Leave a record of every run.** For any result that might be useful, note which code version, which data version, which parameters, and where the output is ([Section 3](#3-leave-a-record-of-every-run)).
@@ -34,7 +34,7 @@ Turn the plan into evidence, round by round, without getting lost along the way.
 5. When I'm stuck, how do I troubleshoot? When should I change direction?
 6. How should I report to my advisor so my advisor can actually help?
 
-These questions come back every week; you don't answer them once and move on. This chapter gives **practices you can use every day and every week** `[Our analysis]`.
+These questions come back every week; you don't answer them once and move on. This chapter gives **practices you can use every day and every week**.
 
 ---
 
@@ -46,16 +46,16 @@ If, while running the study, you can't write down a specific hypothesis or say w
 
 ## 2. Make each round of "idea → result" faster
 
-The process from "I have an idea for an experiment" to "I see the result" is one feedback loop; when it is short, the loop is called "tight"[^nanda2025mindsets-e10]. The tighter the loop, the more ideas you can try in the same amount of time `[Our analysis]`.
+The process from "I have an idea for an experiment" to "I see the result" is one feedback loop; when it is short, the loop is called "tight"[^nanda2025mindsets-e10]. The tighter the loop, the more ideas you can try in the same amount of time.
 
 **How:**
 
 - **Do quick, rough experiments first.** Spending a little time to see early signs is far better than spending weeks on an expensive, slow experiment with a clear-cut conclusion[^nanda2025mindsets-e11]. Early in a project, pick experiments that give results within a day wherever you can[^perez2024tips-e3].
 - **Use toy examples and proxy tasks.** Look for toy examples and proxy tasks that cut the waiting time[^huang2023unstuck-e6]. A toy example is deliberately simplified to keep only the core mechanism; a proxy task is smaller and faster than the real task but shows the same thing. The best toy example is the simplest one that captures the core idea[^freeman2013research-e4].
 - **Change one thing at a time.** That is the only way to know which change caused a change in the result[^freeman2013research-e2].
-- **Be willing to spend time improving your tools.** One machine learning researcher found that once a script took more than about a second to start producing useful output, his productivity began to drop[^carlini2022rapid-e2], so he took a few days off research to write tools, and his workflow became much faster[^carlini2022rapid-e3]. "One second" is his personal experience in machine learning, not a universal standard `[Our analysis]`.
+- **Be willing to spend time improving your tools.** One machine learning researcher found that once a script took more than about a second to start producing useful output, his productivity began to drop[^carlini2022rapid-e2], so he took a few days off research to write tools, and his workflow became much faster[^carlini2022rapid-e3]. "One second" is his personal experience in machine learning, not a universal standard.
 
-**The running example** `[Our analysis]`: in the full study, you look for leakage across two thousand contracts, have several models try to detect vulnerabilities in them, and compare detection rates.
+**The running example**: in the full study, you look for leakage across two thousand contracts, have several models try to detect vulnerabilities in them, and compare detection rates.
 
 | Slow way | Fast way |
 |---|---|
@@ -70,9 +70,9 @@ The process from "I have an idea for an experiment" to "I see the result" is one
 > - Another view's first piece of advice is "go slow to go fast"[^freeman2013research-e1]: slow down, check your assumptions, change one thing at a time[^freeman2013research-e2].
 > - The two don't fully conflict. Those who push for speed also concede that getting sloppy and introducing lots of errors in the name of speed costs more time in the long run[^nanda2025mindsets-e14].
 >
-> In practice `[Our analysis]`: **shorten each round's cycle, don't lower each round's rigor.** Use smaller, simpler problems to make each round faster; within each round, still change one thing at a time and check your assumptions.
+> In practice: **shorten each round's cycle, don't lower each round's rigor.** Use smaller, simpler problems to make each round faster; within each round, still change one thing at a time and check your assumptions.
 
-**Scope** `[Our analysis]`: "results within a day" comes from computer science and machine learning. In fields where one experiment takes months (clinical research, field surveys, long-term culture experiments, large-scale interview studies), you can shorten each round with small-sample trial runs, simulations, or by testing ideas on public data first.
+**Scope**: "results within a day" comes from computer science and machine learning. In fields where one experiment takes months (clinical research, field surveys, long-term culture experiments, large-scale interview studies), you can shorten each round with small-sample trial runs, simulations, or by testing ideas on public data first.
 
 For which part to do first, see [Writing a research plan](03_research-plan.md#4-set-the-order-do-what-is-most-likely-to-fail-first) and [The smallest version that runs end to end](05_pilot-and-derisk.md).
 
@@ -99,17 +99,17 @@ As you go, you will certainly make changes: switch to a different leakage defini
 
 - **Looking at the same test data over and over makes your conclusions untrustworthy.** This is common in machine learning research: trying different models and parameters on the same test data until the results look good[^lones2021avoid-e4]. The more often you use the test data, the more you overfit to it[^lones2021avoid-e5], meaning the results only look good on that particular data.
 - **Memory is unreliable.** People misremember and unconsciously reason toward what they want, and these biases often operate outside awareness; good intentions are not enough[^nosek2018preregistration-e3]. The lesson from psychology is that researchers who keep switching analyses until a result is "significant" often don't realize they are doing it, and don't think it has any consequences[^nelson2018psychology-e8].
-- **Deviations from plans are common, but disclosed deviations are rare.** One study examined 195 pre-analysis plans (analysis plans written before seeing the results) registered on two registries in political science and economics between 2011 and 2016[^ofosu2023preanalysis-e1]: in this sample there were 14 deviations from the plan, and only 1 noted the change[^ofosu2023preanalysis-e7]. This reflects the early years of two fields and doesn't represent every field `[Our analysis]`.
+- **Deviations from plans are common, but disclosed deviations are rare.** One study examined 195 pre-analysis plans (analysis plans written before seeing the results) registered on two registries in political science and economics between 2011 and 2016[^ofosu2023preanalysis-e1]: in this sample there were 14 deviations from the plan, and only 1 noted the change[^ofosu2023preanalysis-e7]. This reflects the early years of two fields and doesn't represent every field.
 
 **How:**
 
-1. **Set aside your evaluation data at the start and keep it for the end** (the machine learning practice). At the very beginning of the project, set aside an independent test set and use it only once, at the end, to evaluate the single final model[^lones2021avoid-e3]. Day to day, tune your matching rules and parsing scripts on a separate development set `[Our analysis]`.
-2. **For every change, add a line to the change log in your plan:** what you changed, why, and which results you had already seen before changing it `[Our analysis]`. For how to write the change log, see [Writing a research plan](03_research-plan.md#7-how-the-plan-changes), Section 7.
+1. **Set aside your evaluation data at the start and keep it for the end** (the machine learning practice). At the very beginning of the project, set aside an independent test set and use it only once, at the end, to evaluate the single final model[^lones2021avoid-e3]. Day to day, tune your matching rules and parsing scripts on a separate development set.
+2. **For every change, add a line to the change log in your plan:** what you changed, why, and which results you had already seen before changing it. For how to write the change log, see [Writing a research plan](03_research-plan.md#7-how-the-plan-changes), Section 7.
 3. **Keep apart the analyses you fixed in advance and the ones you thought of after seeing results.** Post hoc exploration is not inferior to advance prediction; what matters is that people can tell which is which[^nosek2018preregistration-e4].
 4. **If you changed something, report truthfully what you changed and why.** Even if you deviate from a registered plan midway, registering the plan and then reporting the deviations honestly is still far more credible than not registering at all[^nosek2018preregistration-e5].
-5. **Tell your advisor about big changes first**, such as switching benchmarks, changing the core metric, or dropping a batch of data `[Our analysis]`.
+5. **Tell your advisor about big changes first**, such as switching benchmarks, changing the core metric, or dropping a batch of data.
 
-**Scope** `[Our analysis]`: Step 1 is the practice in research that evaluates methods on datasets, such as machine learning; steps 2–5 apply in every field. Political science and economics already have dedicated registries for registering analysis plans in advance[^ofosu2023preanalysis-e1]; for more, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md). For how far your conclusions can go, see [Validity and limitations](04_validity-and-limits.md).
+**Scope**: Step 1 is the practice in research that evaluates methods on datasets, such as machine learning; steps 2–5 apply in every field. Political science and economics already have dedicated registries for registering analysis plans in advance[^ofosu2023preanalysis-e1]; for more, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md). For how far your conclusions can go, see [Validity and limitations](04_validity-and-limits.md).
 
 **Write it down:** Go through the last two weeks of your log and list every change you made. For each, add "why I changed it" and "what results I had seen before changing it". Is there any change you weren't planning to tell your advisor about?
 
@@ -120,8 +120,8 @@ In most research projects, experiments fail most of the time[^huang2023unstuck-e
 **Try these in order:**
 
 1. **Make the failure specific.** Don't just say "it doesn't work". Write down what the input was, what result you expected, and what you actually got[^huang2023unstuck-e2]; and which step you have narrowed the problem down to[^freeman2013research-e3].
-2. **Simplify the problem until it has to work.** Make the task simpler step by step, until it is bound to "succeed"[^huang2023unstuck-e3]; ask, "Is there a simpler case I can get working?"[^freeman2013research-e6] Once it works, add the difficulty back one piece at a time `[Our analysis]`.
-3. **Pretend you already know part of the answer.** Giving yourself extra (privileged) information is a powerful way to make progress[^huang2023unstuck-e4]. For example, if leakage matching keeps finding nothing, first run it on a few contracts you know for certain were copied: if those match, the problem lies with the other contracts; if they don't, the problem is in the matching method itself `[Our analysis]`.
+2. **Simplify the problem until it has to work.** Make the task simpler step by step, until it is bound to "succeed"[^huang2023unstuck-e3]; ask, "Is there a simpler case I can get working?"[^freeman2013research-e6] Once it works, add the difficulty back one piece at a time.
+3. **Pretend you already know part of the answer.** Giving yourself extra (privileged) information is a powerful way to make progress[^huang2023unstuck-e4]. For example, if leakage matching keeps finding nothing, first run it on a few contracts you know for certain were copied: if those match, the problem lies with the other contracts; if they don't, the problem is in the matching method itself.
 4. **Keep asking why it failed.** Ask why after every failure, so you don't keep trying approaches that will fail for the same reason[^steinhardt2018stochastic-e9]. One person spent months trying all sorts of approaches before discovering that they all failed for the same reason[^steinhardt2018stochastic-e21].
 5. **Debug the idea itself.** If you've checked the code and the experiments and it still doesn't work, step back and check the idea[^huang2023unstuck-e5].
 6. **Reframe the problem.** Clinging to one particular formulation of a problem is a common mistake; finding a related problem, or a reformulation that lets you move forward, is also progress[^nielsen2004principles-e4].
@@ -137,13 +137,13 @@ The hard part: some ideas show no effect only because one detail is wrong, while
 
 **When deciding, keep in mind:**
 
-- **One failure doesn't mean the idea failed.** What you tried was one implementation of the idea, not the whole idea[^steinhardt2018stochastic-e10]. "It looks like it won't work" or "I tried a few times and lost steam" don't count as ruling it out[^steinhardt2018stochastic-e22]; you need to be able to say why it is doomed `[Our analysis]`.
+- **One failure doesn't mean the idea failed.** What you tried was one implementation of the idea, not the whole idea[^steinhardt2018stochastic-e10]. "It looks like it won't work" or "I tried a few times and lost steam" don't count as ruling it out[^steinhardt2018stochastic-e22]; you need to be able to say why it is doomed.
 - **Switching too often is more common than switching too rarely**[^schulman2020opinionated-e13]. The early results of a new idea will most likely be just as disappointing, and it will also take sustained effort to get results[^schulman2020opinionated-e20]. If you keep switching and never explore anything properly, you learn nothing[^nanda2025mindsets-e1].
 - **Signs it's time to stop:** you keep lowering your goals and expectations[^dredze2012successful-e5]; or the project's returns are clearly diminishing, in which case switching projects is perfectly fine[^perez2024tips-e2]. When a direction isn't very promising, be ready to drop it decisively[^nanda2025mindsets-e1].
-- **Know your own failure mode.** Some people go down a rabbit hole and can't get out; others overthink and put off starting, waiting for a perfect moment that never comes[^nanda2025mindsets-e9]. Work out which way you lean, and lean harder on the advice aimed at it `[Our analysis]`.
-- **Set aside a fixed share of time for new ideas.** Keep a fixed time budget for trying new ideas that stray from the main line[^schulman2020opinionated-e21], while the main line carries on as usual `[Our analysis]`.
+- **Know your own failure mode.** Some people go down a rabbit hole and can't get out; others overthink and put off starting, waiting for a perfect moment that never comes[^nanda2025mindsets-e9]. Work out which way you lean, and lean harder on the advice aimed at it.
+- **Set aside a fixed share of time for new ideas.** Keep a fixed time budget for trying new ideas that stray from the main line[^schulman2020opinionated-e21], while the main line carries on as usual.
 
-"Changing direction" can be big or small. Start with the smallest change `[Our analysis]`:
+"Changing direction" can be big or small. Start with the smallest change:
 
 | What to change | When | Example |
 |---|---|---|
@@ -166,13 +166,13 @@ For whether to run two projects at once, switching to one when the other hits a 
 - **Send results to your advisor regularly as they come in**, rather than saving them all up for the meeting[^huang2023advisor-e2]. If your advisor sees the results for the first time in the meeting, there is no time to understand and think about them[^huang2023advisor-e1].
 - **Meet regularly**, say once a week, especially when you don't feel like it[^dredze2012successful-e11]. Bring results each time if you can, such as figures and tables[^dredze2012successful-e13].
 - **Start with a summary.** Your advisor has many projects, unlike you who spent the whole week on this one, and needs time to switch context[^dredze2012successful-e14]. Open with what you agreed to do last time and what the conclusion is, and leave the details for later[^huang2023advisor-e4].
-- **Put the results in context**[^huang2023advisor-e5]: what you did, why, what you found, and whether it matched what you expected `[Our analysis]`.
+- **Put the results in context**[^huang2023advisor-e5]: what you did, why, what you found, and whether it matched what you expected.
 - **Propose your next steps.** Right after presenting the results, lay out the possible next steps and your priority order[^perez2024tips-e6], with your reasons[^huang2023advisor-e6].
 - **Show, don't just tell.** If you only describe verbally what you did, it is hard for others to fully understand[^huang2023unstuck-e8]. Your advisor has experience and wants to help, but you need to help your advisor help you[^huang2023unstuck-e7].
 - **Say what the problems are.** Be upfront about the problems you run into[^perez2024tips-e8]; when you're stuck, don't avoid your advisor; go and talk to them[^freeman2013research-e10]; if you think you'll miss a deadline, say so; your advisor would rather know early[^dredze2012successful-e20].
 - **When the approach your advisor suggested doesn't work**, first do what your advisor said; when you see it doesn't work, look around near the original proposal for something that does, and report that back[^freeman2013research-e8]. You know more about this specific problem than your advisor does, and sometimes that is enough for you to make the better call[^nanda2025mindsets-e15].
 
-**What a weekly report looks like** `[Our analysis]`:
+**What a weekly report looks like**:
 
 > **Agreed last week:** On the development set, compare three models' detection rates on leaked versus non-leaked samples.
 >
@@ -194,7 +194,7 @@ After the meeting, write down the agreed next steps and send them to your adviso
 
 Besides keeping your head down, step back regularly to make sure you are working on the right thing[^freeman2013research-e5]. Prioritizing and executing are two different modes; don't do both at once[^nanda2025mindsets-e6].
 
-**Set aside time every week to review**[^nanda2025mindsets-e7], and ask yourself a few questions: What has taken the most time lately? What has been blocking me? What mistakes did I make, and how can I change how I work so I don't make them again[^nanda2025mindsets-e8]? Add one more `[Our analysis]`: **what is still missing between what I got this week and "done" for the next milestone in the plan?** If the gap keeps growing, consider changing the claim, as described in Section 6.
+**Set aside time every week to review**[^nanda2025mindsets-e7], and ask yourself a few questions: What has taken the most time lately? What has been blocking me? What mistakes did I make, and how can I change how I work so I don't make them again[^nanda2025mindsets-e8]? We'd add one more: **what is still missing between what I got this week and "done" for the next milestone in the plan?** If the gap keeps growing, consider changing the claim, as described in Section 6.
 
 Most of the time, moving is better than standing still, provided you regularly take time to reflect on your goals[^nielsen2004principles-e3]. For the full weekly review routine and how to organize your days, see [Planning and daily routines](../08_throughout/planning_and_routines.md).
 
@@ -204,7 +204,7 @@ Most of the time, moving is better than standing still, provided you regularly t
 
 ## 9. Different strategies, different things to watch while running
 
-The practices above apply to every kind of research. Each [research strategy](../00_start-here/key-concepts.md#research-strategy) also has its own priorities while running: Building and improving, for example, means adding changes one at a time and keeping a version at every step; Synthesis means recording why each paper was included or excluded `[Our analysis]`. For each strategy's priorities, see Section 4, "How it shapes the whole project", on the corresponding strategy page: [Description](../05_research-strategies/observe_describe.md), [Measurement](../05_research-strategies/measure.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Causal explanation](../05_research-strategies/explain_causality.md), [Building and improving](../05_research-strategies/build_improve.md), [Synthesis](../05_research-strategies/synthesize.md), [Proof](../05_research-strategies/prove.md).
+The practices above apply to every kind of research. Each [research strategy](../00_start-here/key-concepts.md#research-strategy) also has its own priorities while running: Building and improving, for example, means adding changes one at a time and keeping a version at every step; Synthesis means recording why each paper was included or excluded. For each strategy's priorities, see Section 4, "How it shapes the whole project", on the corresponding strategy page: [Description](../05_research-strategies/observe_describe.md), [Measurement](../05_research-strategies/measure.md), [Comparative evaluation](../05_research-strategies/compare_evaluate.md), [Causal explanation](../05_research-strategies/explain_causality.md), [Building and improving](../05_research-strategies/build_improve.md), [Synthesis](../05_research-strategies/synthesize.md), [Proof](../05_research-strategies/prove.md).
 
 **Write it down:** Open the page for your main strategy, find the row or paragraph in Section 4 about running the study, rewrite it as a check to go through on every run, and add it to your run-record template.
 
@@ -212,7 +212,7 @@ The practices above apply to every kind of research. Each [research strategy](..
 
 ## Judgment calls
 
-**Does this change need to be recorded, and does it need to be reported?** `[Our analysis]`
+**Does this change need to be recorded, and does it need to be reported?**
 
 | Change | In the log | In the plan's change log | Tell your advisor first |
 |---|---|---|---|
@@ -232,7 +232,7 @@ The practices above apply to every kind of research. Each [research strategy](..
 | Changing several things at once | When the result changes, you don't know which change caused it[^freeman2013research-e2] |
 | Not recording where result files came from | A year later, even you can't reproduce them[^sandve2013ten-e2] |
 | Tuning on the test data over and over until the results look good | The more often you use it, the worse the overfitting[^lones2021avoid-e5] |
-| Quietly dropping data or switching metrics | In one sample from political science and economics, only 1 of 14 deviations from the plan was noted[^ofosu2023preanalysis-e7] (see Section 4); readers have no way of telling how much of the conclusion can still be trusted `[Our analysis]` |
+| Quietly dropping data or switching metrics | In one sample from political science and economics, only 1 of 14 deviations from the plan was noted[^ofosu2023preanalysis-e7] (see Section 4); this means readers have no way of telling how much of the conclusion can still be trusted |
 | Telling your advisor "it doesn't work" | Your advisor can't help; say what you expected, what you got, and which step you've narrowed the problem down to[^freeman2013research-e3][^huang2023unstuck-e2] |
 | Giving up on a whole idea after one failure | Only one implementation failed[^steinhardt2018stochastic-e10] |
 | Switching to a new idea at the first difficulty | You end up with a pile of half-finished projects, and the new ideas will most likely be just as hard[^schulman2020opinionated-e18][^schulman2020opinionated-e20] |

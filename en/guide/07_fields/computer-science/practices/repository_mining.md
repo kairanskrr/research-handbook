@@ -2,7 +2,7 @@
 
 This page covers **mining software repositories**: you write programs to extract data at scale from code repositories, bug trackers, mailing lists, Q&A sites, and similar sources, then analyze it quantitatively to learn how software actually gets built.
 
-**Scope** `[Our analysis]`: this is how it is done in computer science; the examples and standards come mainly from empirical software engineering. Repository mining most often serves the [Description](../../../05_research-strategies/observe_describe.md) research strategy: finding out what actually happens in software development. When you use it to test whether "X causes Y", it must also meet the requirements of [Causal explanation](../../../05_research-strategies/explain_causality.md). The parts of these two strategies that hold in every field are on the strategy pages; this page covers only what is specific to mining software data.
+**Scope**: this is how it is done in computer science; the examples and standards come mainly from empirical software engineering. Repository mining most often serves the [Description](../../../05_research-strategies/observe_describe.md) research strategy: finding out what actually happens in software development. When you use it to test whether "X causes Y", it must also meet the requirements of [Causal explanation](../../../05_research-strategies/explain_causality.md). The parts of these two strategies that hold in every field are on the strategy pages; this page covers only what is specific to mining software data.
 
 If you just want to collect data from GitHub to train or evaluate a model, Section 2 of this page still applies to the data collection; how to evaluate the model itself is in [Benchmarking](benchmarking.md); general principles of validity are in [Validity and limitations](../../../02_do-the-project/04_validity-and-limits.md).
 
@@ -22,12 +22,12 @@ The ACM SIGSOFT Empirical Standards (from the Association for Computing Machiner
 **Questions it answers well**:
 
 - **Descriptive questions**: how widely a language, tool, or practice is used, and how large commits and contributions are. Data from platforms like GitHub can be used directly to describe project properties[^kalliamvakou2014promises-e11].
-- **Relationship questions**: which factors are **correlated** with outcomes such as bugs, merge speed, or contributor turnover `[Our analysis]`.
-- **Leads for later research**: first find patterns across many projects, then explain them with experiments or interviews `[Our analysis]`.
+- **Relationship questions**: which factors are **correlated** with outcomes such as bugs, merge speed, or contributor turnover.
+- **Leads for later research**: first find patterns across many projects, then explain them with experiments or interviews.
 
 **Know its limits**:
 
-- **It usually gives you correlation, not causation.** Seeing that "code written in a certain style has more bugs" only shows the two are correlated; to believe there is a causal link, you need follow-up experiments that actively change the coding style[^menzies2019bad-e10]. The SIGSOFT standards list "establishing causality (for example, with longitudinal analysis)" as Extraordinary, not Essential[^ralph2020empirical-e117]; from this we infer that an ordinary mining study is by default expected to give only correlations `[Our analysis]`. A common **confounder** (a third factor that affects two variables and makes them look related) is project size: large projects have more commits, more contributors, and more bug reports, so many metrics that seem related are really just reflecting size `[Our analysis]`.
+- **It usually gives you correlation, not causation.** Seeing that "code written in a certain style has more bugs" only shows the two are correlated; to believe there is a causal link, you need follow-up experiments that actively change the coding style[^menzies2019bad-e10]. The SIGSOFT standards list "establishing causality (for example, with longitudinal analysis)" as Extraordinary, not Essential[^ralph2020empirical-e117]; from this we infer that an ordinary mining study is by default expected to give only correlations. A common **confounder** (a third factor that affects two variables and makes them look related) is project size: large projects have more commits, more contributors, and more bug reports, so many metrics that seem related are really just reflecting size.
 - **The data doesn't tell the whole story.** Mined data is only the trace that development activity leaves behind[^kalliamvakou2016indepth-e11]; be especially careful when you draw conclusions about abstract concepts such as "collaboration", "quality", or "popularity" from it[^kalliamvakou2014promises-e11].
 
 **How it differs from similar kinds of study:**
@@ -38,11 +38,11 @@ The ACM SIGSOFT Empirical Standards (from the Association for Computing Machiner
 | Main analysis | Quantitative statistics | Several kinds of evidence to understand one setting in depth | Predictive performance | Coding and identifying themes |
 | Typical question | "How common is it? What is it related to?" | "Why does this happen here?" | "Can we predict it?" | "What are people saying, and how?" |
 
-Basis: the scope section of the SIGSOFT repository mining standard (the data science and case study columns)[^ralph2020empirical-e107]; the rest of the comparison is our own `[Our analysis]`.
+Basis: the scope section of the SIGSOFT repository mining standard (the data science and case study columns)[^ralph2020empirical-e107]; the rest of the comparison is our own.
 
-**How to choose**: when your question needs "patterns across many projects", use repository mining; when you need to understand "why", combine it with interviews, questionnaires, or case studies. If you study only two or three projects, follow the requirements for case studies, and don't state conclusions as if you had a large sample `[Our analysis]`.
+**How to choose**: when your question needs "patterns across many projects", use repository mining; when you need to understand "why", combine it with interviews, questionnaires, or case studies. If you study only two or three projects, follow the requirements for case studies, and don't state conclusions as if you had a large sample.
 
-Similar research exists in other areas of computing, for example mining commit histories for vulnerability fixes in security, or building datasets from GitHub code and issue reports in machine learning. The perils below apply to them as well `[Our analysis]`.
+Similar research exists in other areas of computing, for example mining commit histories for vulnerability fixes in security, or building datasets from GitHub code and issue reports in machine learning. The perils below apply to them as well.
 
 ---
 
@@ -101,10 +101,10 @@ Research that depends heavily on data must stay alert to data quality at all tim
 
 **Perils in GitHub data**
 
-- **The "merged" flag can't be trusted.** Nearly 40% of all pull requests were in fact merged but appear as unmerged[^kalliamvakou2014promises-e1]; one possible reason is that many projects merge outside the platform `[Our analysis]`. Don't rely on this flag; use heuristics to identify actual merges[^kalliamvakou2014promises-e7]. Some studies have used this flag directly to separate successful from unsuccessful pull requests, and their conclusions may be affected as a result[^kalliamvakou2016indepth-e8].
+- **The "merged" flag can't be trusted.** Nearly 40% of all pull requests were in fact merged but appear as unmerged[^kalliamvakou2014promises-e1]; our guess is that one reason is that many projects merge outside the platform. Don't rely on this flag; use heuristics to identify actual merges[^kalliamvakou2014promises-e7]. Some studies have used this flag directly to separate successful from unsuccessful pull requests, and their conclusions may be affected as a result[^kalliamvakou2016indepth-e8].
 - **One person, several identities.** The same person may commit under several email addresses; for example, 47% of Linus Torvalds's commits on GitHub are not linked to his account. When you need to attribute activity to people, you have to merge identities[^kalliamvakou2016indepth-e1].
 - **Bot accounts.** Outliers with extremely high commit counts per person are often automated bots[^kalliamvakou2014promises-e10], and they often commit to only a single repository[^kalliamvakou2016indepth-e7]. When you study what *people* do, identify and exclude them.
-- **The platform itself changes.** For example, "watchers" meant something different before and after August 2012; learn how the API and the website have changed over time[^kalliamvakou2016indepth-e6]. A trend that spans such a date may just be an artifact of the platform redesign `[Our analysis]`.
+- **The platform itself changes.** For example, "watchers" meant something different before and after August 2012; learn how the API and the website have changed over time[^kalliamvakou2016indepth-e6]. A trend that spans such a date may just be an artifact of the platform redesign.
 
 **Why be so fussy?** Bird et al. admit that they themselves reached wrong conclusions at first because they didn't fully understand how their data was produced[^bird2009promises-e1]. Perils in the data are perils in your assumptions, and so perils in your results[^kalliamvakou2016indepth-e12].
 
@@ -121,7 +121,7 @@ Many questions require you to connect commits with issue reports, pull requests,
 - **The links themselves are incomplete, and biased.** There is no uniform or enforced practice for linking code changes to the bug tracker[^bird2009fair-e2]; the bugs that can be linked are only a fraction of all fixed bugs[^kalliamvakou2014promises-e12], and that fraction is systematically biased[^bird2009fair-e1]. For example, if experienced developers are more careful about marking their fixes, data like this could lead to the false conclusion that "more experienced developers make more mistakes"[^bird2009fair-e3].
 - **Category labels are unreliable.** Herzig et al. manually inspected issue reports and found that 33.8% of reports labeled "bug" were really feature requests, documentation updates, or refactoring; on average, 39% of files marked as defective never actually had a bug[^herzig2013bug-e1]. Filtering "bugs" with a database query looks easy, but it assumes the classification is accurate[^herzig2013bug-e2].
 
-**How:** manually check a sample of the automatically linked and classified results, looking for both false positives and false negatives[^bird2009fair-e5]. When you use heuristics to identify where merges came from, check their recall (how many of the real merges they catch)[^bird2009promises-e6]; the same goes for other heuristics, such as those for merging identities `[Our analysis]`. Report data quality as a threat to validity in your paper[^herzig2013bug-e5].
+**How:** manually check a sample of the automatically linked and classified results, looking for both false positives and false negatives[^bird2009fair-e5]. When you use heuristics to identify where merges came from, check their recall (how many of the real merges they catch)[^bird2009promises-e6]; the same goes for other heuristics, such as those for merging identities. Report data quality as a threat to validity in your paper[^herzig2013bug-e5].
 
 ### Step 6: Label data manually, and check agreement
 
@@ -154,7 +154,7 @@ Most mined data was left by people: committers' names and email addresses, comme
 - **"Technically available" is not "legitimately available".** Using data merely because you can access and download it is an antipattern[^ralph2020empirical-e135]. State the grounds on which the data was legitimately available to you for research[^ralph2020empirical-e133], for example a site's terms of use that explicitly allow scraping such information for research purposes[^ralph2020empirical-e134].
 - **Assess risk and privacy.** Describe possible risks or harms to data custodians and data subjects[^ralph2020empirical-e133]; when you combine several datasets, explain how you mitigate the additional privacy risks[^ralph2020empirical-e136].
 - **Watch out for re-identification.** If you quote an "anonymous" comment verbatim in your paper, anyone with a search engine may be able to find its author[^ralph2020empirical-e137]. When you need to quote, consider paraphrasing or removing searchable details.
-- **When you republish data, respect the original terms.** When you release your dataset, explain how you respect the data subjects' expectations and consent[^ralph2020empirical-e138]. If the dataset includes code, also check whether the original code's open-source license allows redistribution; if unsure, release only identifiers (repository names and commit hashes) plus scripts, and let others download the data themselves `[Our analysis]` `[To be confirmed]`.
+- **When you republish data, respect the original terms.** When you release your dataset, explain how you respect the data subjects' expectations and consent[^ralph2020empirical-e138]. If the dataset includes code, also check whether the original code's open-source license allows redistribution; if unsure, release only identifiers (repository names and commit hashes) plus scripts, and let others download the data themselves `[To be confirmed]`.
 - Withholding some details of a dataset for ethical reasons is acceptable[^ralph2020empirical-e118].
 
 ### Step 9: Make the study reproducible
@@ -163,7 +163,7 @@ Mining data changes: repositories get deleted, histories get rewritten, and plat
 
 - **State when the data was collected.** Describe in detail what data was collected, where, when, and how[^ralph2020empirical-e125]. For example, Kalliamvakou et al. state the release date of the dataset snapshot they used[^kalliamvakou2014promises-e13].
 - **Release the dataset snapshot and all scripts**, including the tools for downloading, filtering, preprocessing, and postprocessing[^ralph2020empirical-e114]. If the description is too coarse and the data and code aren't released, nobody can reproduce the work[^menzies2019bad-e12]. Putting it only on GitHub doesn't count as proper archiving[^ralph2020empirical-e78]; when data can't be released for ethical or licensing reasons, just explain why[^ralph2020empirical-e76].
-- **Freeze a snapshot instead of chasing the latest data.** Datasets go out of date quickly, and there is an inherent tension between keeping them stable and keeping them current[^baltes2022sampling-e15]; your paper's conclusions should correspond to a snapshot from a fixed date, and later updates should be released as new versions `[Our analysis]`.
+- **Freeze a snapshot instead of chasing the latest data.** Datasets go out of date quickly, and there is an inherent tension between keeping them stable and keeping them current[^baltes2022sampling-e15]; your paper's conclusions should correspond to a snapshot from a fixed date, and later updates should be released as new versions.
 - **Give a repeatable sampling procedure**, so others can get the same sample[^ralph2020empirical-e127].
 
 ---

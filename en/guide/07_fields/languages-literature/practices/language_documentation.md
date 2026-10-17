@@ -1,6 +1,6 @@
 # Language documentation and linguistic fieldwork
 
-**Scope.** This page covers how linguistics, within languages and literature, does this kind of work; its sources are described below. What all fields share (research ethics, organizing materials) is in [Research integrity and ethics](../../../08_throughout/integrity_and_ethics.md) and [Organizing your research materials](../../../08_throughout/organizing_materials.md). The field's overall conventions are in the [field overview](../README.md) `[Our analysis]`.
+**Scope.** This page covers how linguistics, within languages and literature, does this kind of work; its sources are described below. What all fields share (research ethics, organizing materials) is in [Research integrity and ethics](../../../08_throughout/integrity_and_ethics.md) and [Organizing your research materials](../../../08_throughout/organizing_materials.md). The field's overall conventions are in the [field overview](../README.md).
 
 **Strategy it usually serves**: [Description](../../../05_research-strategies/observe_describe.md). The "common research methods" section of that strategy page lists this page as the counterpart practice in another field.
 
@@ -15,7 +15,7 @@ This page explains how to run a **language documentation** project: working with
 - Several articles from the journal *Language Documentation & Conservation*, most of them from a 2018 special issue. Each represents its authors' own views.
 - An article by the linguists Bird and Simons on keeping digital documentation usable over the long term (this page uses its 2002 preprint), and a 2018 position statement on data citation by Berez-Kroeker and colleagues.
 
-These are recommendations from these institutions and authors, not rules that hold everywhere. **Research permits, ethics review, and copyright law differ between countries; follow the rules of your own country, your institution, and the place where you do the research** `[Our analysis]`.
+These are recommendations from these institutions and authors, not rules that hold everywhere. **Research permits, ethics review, and copyright law differ between countries; follow the rules of your own country, your institution, and the place where you do the research**.
 
 **After reading this page, you should be able to:**
 
@@ -30,7 +30,7 @@ These are recommendations from these institutions and authors, not rules that ho
 
 **Language documentation** means creating, annotating, preserving, and disseminating transparent records of a language; that is how the American linguist Good put it in 2018[^good2018scope-e1]. Bird and Simons quote the linguist Himmelmann's 1998 definition: the aim of language documentation is a comprehensive record of the linguistic practices characteristic of a given speech community[^bird2002portability-e8] (we have not read Himmelmann's original; this follows Bird and Simons's quotation). Good holds that the core of most documentation projects is recordings of natural language, plus metadata, plus time-aligned transcription, translation, and morphological analysis[^good2018scope-e2].
 
-**A documentary corpus can include elicited material.** As the linguist Riesberg reported in 2018, Himmelmann argued for separating "documentation" (collecting and organizing materials) from "description" (writing grammars, analyzing structure)[^riesberg2018adequacy-e2]. Some have taken this to mean that a documentary corpus should contain no elicited material at all (forms that speakers produce in response to the researcher's questions); Riesberg considers that reading goes too far[^riesberg2018adequacy-e1][^riesberg2018adequacy-e2]. So documentation does not have to avoid elicitation and analysis `[Our analysis]`.
+**A documentary corpus can include elicited material.** As the linguist Riesberg reported in 2018, Himmelmann argued for separating "documentation" (collecting and organizing materials) from "description" (writing grammars, analyzing structure)[^riesberg2018adequacy-e2]. Some have taken this to mean that a documentary corpus should contain no elicited material at all (forms that speakers produce in response to the researcher's questions); Riesberg considers that reading goes too far[^riesberg2018adequacy-e1][^riesberg2018adequacy-e2]. So documentation does not have to avoid elicitation and analysis.
 
 | | Language documentation | Interview research | Oral history |
 |---|---|---|---|
@@ -39,9 +39,9 @@ These are recommendations from these institutions and authors, not rules that ho
 | Where the materials go | Into a language archive, for the community and future users | Often used only for the project's own analysis | Into a collecting institution, for future users |
 | Naming participants | Depends on the wishes of speakers and the community | Often anonymous by default | Depends on the narrator's release |
 
-The table is our summary `[Our analysis]`. Interview techniques can be borrowed from [Interview studies](../../../06_methods/interview_study.md); release forms and archiving are close to [Oral history](../../../06_methods/oral_history.md), but oral history cares about **what** was said, while language documentation also cares about **how** it was said `[Our analysis]`.
+The table is our summary. Interview techniques can be borrowed from [Interview studies](../../../06_methods/interview_study.md); release forms and archiving are close to [Oral history](../../../06_methods/oral_history.md), but oral history cares about **what** was said, while language documentation also cares about **how** it was said.
 
-**When to do it**: the language or dialect you want to study is poorly documented; or your question needs real language data that existing resources don't have `[Our analysis]`.
+**When to do it**: the language or dialect you want to study is poorly documented; or your question needs real language data that existing resources don't have.
 
 ## 2. How to do it
 
@@ -57,7 +57,7 @@ The table is our summary `[Our analysis]`. Interview techniques can be borrowed 
 - **Check permits and copyright in advance.** Seyfeddinipur and colleagues point out that in some places documentation work requires a research permit, and the permit may restrict access to the data[^seyfeddinipur2019public-e9]; under intellectual property law, copyright in a recording generally belongs to the person who made it, not the person speaking[^seyfeddinipur2019public-e10]. PARADISEC warns that if you work at a university or hold research funding, you may need permission from your funder or employer before depositing[^paradisecdeposit-e12].
 - **Contact an archive at the start**[^berezkroeker2018reproducible-e13] and work out licensing, access conditions, and a succession plan (who will be responsible for the materials in the future)[^seyfeddinipur2019public-e11].
 
-**Where people go wrong**: Czaykowska-Higgins warns that people easily overlook or underestimate the time it takes to treat others with common sense and sensitivity[^czaykowskahiggins2009research-e4]. Build that time into the plan `[Our analysis]`.
+**Where people go wrong**: Czaykowska-Higgins warns that people easily overlook or underestimate the time it takes to treat others with common sense and sensitivity[^czaykowskahiggins2009research-e4]. Build that time into the plan.
 
 ### Step 2: Get consent in a form the community accepts
 
@@ -68,31 +68,31 @@ The general principles (informed consent, voluntary participation throughout, be
 - **A signature isn't always needed.** When written consent isn't appropriate, you can record oral consent, along with the related discussions with the community[^seyfeddinipur2019public-e5].
 - **Consent changes.** Individual and community views shift over time[^seyfeddinipur2019public-e6]; the LSA requires participation at every stage to be fully voluntary[^lsa2019ethics-e3].
 - **Consent should cover access levels**, and the outcome of those discussions goes into the metadata[^seyfeddinipur2019public-e7]. They hold that, at least early in the research, it is better to be cautious and restrict access first[^seyfeddinipur2019public-e8].
-- **Anonymity isn't always possible.** In a small society it may be impossible to anonymize anyone[^seyfeddinipur2019public-e13]; some speakers want to be credited by name for their contribution[^lsa1992humansubjects-e3]. Ask in advance and do what each person chooses `[Our analysis]`.
+- **Anonymity isn't always possible.** In a small society it may be impossible to anonymize anyone[^seyfeddinipur2019public-e13]; some speakers want to be credited by name for their contribution[^lsa1992humansubjects-e3]. Ask in advance and do what each person chooses.
 
 ### Step 3: Choose speakers and types of data
 
 **You need both kinds of data.** The American linguist Bowern wrote in 2018 that elicitation and translation give better evidence of which structures are possible and impossible, while natural interaction is also a valuable source of structural data[^bowern2018fieldwork-e1]. There is also a middle way: using visual stimuli such as pictures and structured, consistent tasks, you can get controlled data without translating sentences and without requiring speakers to be fluent in a contact language[^bowern2018fieldwork-e2][^bowern2018fieldwork-e3]. Bowern says the best known of these tools are perhaps the field manual kits released by the Max Planck Institute in Nijmegen, the Netherlands, between 1992 and 2010[^bowern2018fieldwork-e5].
 
-**Cover a range of genres.** Leonard points out that a documentary corpus may have carefully annotated texts but lack conversation[^leonard2018decolonialism-e1]. When planning, list the genres (conversation, narrative, procedural explanations of how to do things, songs, and so on) and discuss with the community which ones matter `[Our analysis]`.
+**Cover a range of genres.** Leonard points out that a documentary corpus may have carefully annotated texts but lack conversation[^leonard2018decolonialism-e1]. When planning, list the genres (conversation, narrative, procedural explanations of how to do things, songs, and so on) and discuss with the community which ones matter.
 
-**Choosing speakers**: discuss with the community who is best suited `[Our analysis]` (for example, Czaykowska-Higgins says that in most Canadian Indigenous communities, Elders are central to the collaboration[^czaykowskahiggins2009research-e2]), and record each person's role (see Step 5). Our sources do not cover how to sample by age, gender, and so on; follow your advisor and the project's requirements.
+**Choosing speakers**: discuss with the community who is best suited (for example, Czaykowska-Higgins says that in most Canadian Indigenous communities, Elders are central to the collaboration[^czaykowskahiggins2009research-e2]), and record each person's role (see Step 5). Our sources do not cover how to sample by age, gender, and so on; follow your advisor and the project's requirements.
 
 **Where people go wrong**: turning documentation into an "assembly line" where you work through fixed steps and call it done. Good warns that this approach creeps in without anyone noticing, and doesn't fit the situation of any particular community[^good2018scope-e3].
 
 ### Step 4: Record audio and video
 
 - **Keep the full original recordings.** Bird and Simons advise that if you transcribe a narrative, you should provide the complete original recording rather than cutting it into many small clips[^bird2002portability-e2].
-- **Record to the archive's standard.** Taking PARADISEC as an example: audio is deposited as WAV, as close as possible to the archival standard of 24-bit, 96 kHz[^paradisecdeposit-e6]; video is deposited as mkv for the archival master and mp4 for the everyday access copy[^paradisecdeposit-e7]. These are one archive's requirements; before you start recording, check the requirements of the archive you plan to deposit with `[Our analysis]`.
+- **Record to the archive's standard.** Taking PARADISEC as an example: audio is deposited as WAV, as close as possible to the archival standard of 24-bit, 96 kHz[^paradisecdeposit-e6]; video is deposited as mkv for the archival master and mp4 for the everyday access copy[^paradisecdeposit-e7]. These are one archive's requirements; before you start recording, check the requirements of the archive you plan to deposit with.
 - **Keep the volume under control.** Bowern warns that large amounts of audio and video bring problems: large data volumes, transcription that can't keep up, and much material with little bearing on the project[^bowern2018fieldwork-e4]. PARADISEC also asks depositors not to submit several recordings of the same event[^paradisecdeposit-e2].
-- **Recording basics.** Thieberger's 2019 PARADISEC training handout recommends reading the manual and doing test recordings before using the equipment[^thieberger2019recording-e4]; monitoring with headphones, avoiding noise and wind (put a windshield on the microphone), and keeping the microphone as close to the speaker as you can[^thieberger2019recording-e3]. If you can set input levels manually, don't use automatic limiting (the recorder's feature that automatically turns down sounds that are too loud), and set levels so the loudest parts peak at around -12 on the meter[^thieberger2019recording-e2]. The handout doesn't give a unit; on digital recorders the level meter is usually in dBFS, where 0 is the loudest sound that can be recorded and anything beyond it distorts, so -12 leaves headroom for sudden loud sounds `[Our analysis]`. Don't record mp3; use at least 44.1 kHz, 16-bit WAV[^thieberger2019recording-e1].
+- **Recording basics.** Thieberger's 2019 PARADISEC training handout recommends reading the manual and doing test recordings before using the equipment[^thieberger2019recording-e4]; monitoring with headphones, avoiding noise and wind (put a windshield on the microphone), and keeping the microphone as close to the speaker as you can[^thieberger2019recording-e3]. If you can set input levels manually, don't use automatic limiting (the recorder's feature that automatically turns down sounds that are too loud), and set levels so the loudest parts peak at around -12 on the meter[^thieberger2019recording-e2]. The handout doesn't give a unit; on digital recorders the level meter is usually in dBFS, where 0 is the loudest sound that can be recorded and anything beyond it distorts, so -12 leaves headroom for sudden loud sounds. Don't record mp3; use at least 44.1 kHz, 16-bit WAV[^thieberger2019recording-e1].
 - **Use an external microphone.** The 2022 advice to applicants from the Jacobs Research Funds (a US research funding body) says to record audio in an uncompressed format (.wav or .aiff) at a minimum of 44.1 kHz, 16-bit[^roseslabrada2022audiovisual-e1]. An external stereo microphone connected by XLR (the locking connector common on professional microphones) is best, with less crackling noise; but which kind of microphone to choose depends on the recording situation[^roseslabrada2022audiovisual-e2]. For remote recording, video-conferencing platforms may not be able to record uncompressed audio, so you can place a separate recorder next to the speaker[^roseslabrada2022audiovisual-e3].
 
-These two pieces of advice come from one archive director's training handout and one funding body; they are not a shared standard. The minimum requirement is whatever the archive you deposit with asks for (such as PARADISEC's 24-bit, 96 kHz above) `[Our analysis]`. This page does not recommend specific microphones or recorders.
+These two pieces of advice come from one archive director's training handout and one funding body; they are not a shared standard. The minimum requirement is whatever the archive you deposit with asks for (such as PARADISEC's 24-bit, 96 kHz above). This page does not recommend specific microphones or recorders.
 
 ### Step 5: Record metadata for every session
 
-**Metadata** is information that describes the materials: who, when, where, what was recorded, and who may access it. Record it on the same day as each session `[Our analysis]`. Metadata and file naming in oral history work in a similar way; see [Oral history, Step 9](../../../06_methods/oral_history.md#step-9-back-up-create-metadata-and-archive).
+**Metadata** is information that describes the materials: who, when, where, what was recorded, and who may access it. Record it on the same day as each session. Metadata and file naming in oral history work in a similar way; see [Oral history, Step 9](../../../06_methods/oral_history.md#step-9-back-up-create-metadata-and-archive).
 
 - **Follow shared standards where you can.** Part of PARADISEC's metadata conforms to two international standards: the Open Language Archives Community (OLAC) and Dublin Core[^paradisecdeposit-e9].
 - **Record everyone's role**: PARADISEC's metadata marks roles such as speaker, recorder, transcriber, and translator[^paradisecdeposit-e11]. Himmelmann pointed out in 2018 that current practice often doesn't even record who took part in transcription[^himmelmann2018transcription-e6].
@@ -104,10 +104,10 @@ These two pieces of advice come from one archive director's training handout and
 - **Allow plenty of time.** The German linguist Himmelmann wrote in 2018 that hardly anyone estimates less than ten minutes to transcribe and translate one minute of recording; for complex multi-party conversation, a ratio of 150 to 1 or more is not unusual[^himmelmann2018transcription-e1].
 - **Make time-aligned transcriptions**, so every utterance can be checked against the recording[^bird2002portability-e2].
 - **Transcription is interpretation.** Transcription adds a great deal of information to the sound signal[^himmelmann2018transcription-e3]; different people transcribing the same recording will differ in the details[^himmelmann2018transcription-e5]. So write down your transcription conventions, especially how you segment units above the word (prosodic units, syntactic phrases): Himmelmann says this is often left unexplained, making it hard for users to reconstruct and evaluate[^himmelmann2018transcription-e2].
-- **Watch for native speakers "editing".** When native speakers help with transcription, they often paraphrase rather than repeat exactly what was said, and drop spoken-language elements such as particles and hesitations[^himmelmann2018transcription-e4]. Make clear to your helpers that you want the exact words, and keep any changes on a separate tier `[Our analysis]`.
-- **Spelling is a decision too.** Many standardization decisions, such as spelling conventions and the citation forms of lexical entries, are made during transcription[^himmelmann2018transcription-e8]; Himmelmann says that at this point, more community members are usually not brought in[^himmelmann2018transcription-e7]. So it is best to discuss decisions like these with the community `[Our analysis]`.
+- **Watch for native speakers "editing".** When native speakers help with transcription, they often paraphrase rather than repeat exactly what was said, and drop spoken-language elements such as particles and hesitations[^himmelmann2018transcription-e4]. Make clear to your helpers that you want the exact words, and keep any changes on a separate tier.
+- **Spelling is a decision too.** Many standardization decisions, such as spelling conventions and the citation forms of lexical entries, are made during transcription[^himmelmann2018transcription-e8]; Himmelmann says that at this point, more community members are usually not brought in[^himmelmann2018transcription-e7]. So it is best to discuss decisions like these with the community.
 
-Unlike [transcription in interview studies](../../../06_methods/interview_study.md#step-4-transcribe), the transcription here is itself language data to be preserved for the long term, not just an intermediate step in analysis `[Our analysis]`.
+Unlike [transcription in interview studies](../../../06_methods/interview_study.md#step-4-transcribe), the transcription here is itself language data to be preserved for the long term, not just an intermediate step in analysis.
 
 ### Step 7: Gloss interlinear text, following the Leipzig rules
 
@@ -123,10 +123,10 @@ The first line is the original, the second the gloss, the third a free translati
 
 - The gloss line is **left-aligned word by word** with the original[^leipzig2015glossing-e2];
 - Morphemes are separated by **hyphens**, and both lines must have the same number of hyphens[^leipzig2015glossing-e3]; clitics (elements that attach to another word) are marked with an equals sign[^leipzig2015glossing-e4];
-- Grammatical morphemes are glossed with **capitalized abbreviations**[^leipzig2015glossing-e5], and the rules come with a list of suggested abbreviations[^leipzig2015glossing-e12]; in the example above, GEN and PL stand for genitive and plural `[Our analysis]`; when one element needs several words or abbreviations to gloss it, they are joined with **periods**[^leipzig2015glossing-e6];
-- The rules say most authors will need to add or change some conventions, especially the abbreviation labels[^leipzig2015glossing-e8], so list and explain any abbreviations you define yourself `[Our analysis]`.
+- Grammatical morphemes are glossed with **capitalized abbreviations**[^leipzig2015glossing-e5], and the rules come with a list of suggested abbreviations[^leipzig2015glossing-e12]; in the example above, GEN and PL stand for genitive and plural; when one element needs several words or abbreviations to gloss it, they are joined with **periods**[^leipzig2015glossing-e6];
+- The rules say most authors will need to add or change some conventions, especially the abbreviation labels[^leipzig2015glossing-e8], so list and explain any abbreviations you define yourself.
 
-**Two cautions.** First, glosses are part of the analysis, not part of the data[^leipzig2015glossing-e7]; when your analysis changes, your glosses have to change, so keep them separate from the original recordings and transcriptions `[Our analysis]`. Second, the rules are mainly meant for example sentences in papers and books; annotating a whole corpus raises different considerations[^leipzig2015glossing-e9]. Leonard also suggests that the first line of an example give the full, unsegmented words[^leonard2018decolonialism-e4].
+**Two cautions.** First, glosses are part of the analysis, not part of the data[^leipzig2015glossing-e7]; when your analysis changes, your glosses have to change, so keep them separate from the original recordings and transcriptions. Second, the rules are mainly meant for example sentences in papers and books; annotating a whole corpus raises different considerations[^leipzig2015glossing-e9]. Leonard also suggests that the first line of an example give the full, unsegmented words[^leonard2018decolonialism-e4].
 
 ### Step 8: Choose the right formats and deposit with an archive
 
@@ -143,14 +143,14 @@ The first line is the original, the second the gloss, the third a free translati
 
 ### Step 10: From documentary materials to analysis and papers
 
-- **First turn the materials into a searchable corpus.** The Canadian linguist Rice said in 2018 that a real corpus is more than a pile of archived materials; it has to be converted into a machine-readable, searchable form[^rice2018corpora-e1]. She holds that even small, unannotated, unbalanced corpora can reveal a great deal[^rice2018corpora-e2]. For processing corpus data, you can borrow from [Data science](../../../06_methods/data_science.md) `[Our analysis]`.
+- **First turn the materials into a searchable corpus.** The Canadian linguist Rice said in 2018 that a real corpus is more than a pile of archived materials; it has to be converted into a machine-readable, searchable form[^rice2018corpora-e1]. She holds that even small, unannotated, unbalanced corpora can reveal a great deal[^rice2018corpora-e2]. For processing corpus data, you can borrow from [Data science](../../../06_methods/data_science.md).
 - **Every example can be traced to its source**: give the recording's identifier and its start and end time codes[^berezkroeker2018reproducible-e7]; if you relied on your own or someone else's intuitions, say so explicitly[^berezkroeker2018reproducible-e9]. For the principles of data citation, see the [field overview](../README.md#linguistics-data-citation-and-reproducibility)[^berezkroeker2018austin-e1].
-- **Uploading files is not the same as making claims checkable.** Riesberg says that just uploading audio and video to an archive doesn't let others check your conclusions[^riesberg2018adequacy-e3]; the materials need time-aligned transcriptions and annotations to go with them `[Our analysis]`.
+- **Uploading files is not the same as making claims checkable.** Riesberg says that just uploading audio and video to an archive doesn't let others check your conclusions[^riesberg2018adequacy-e3]; the materials need time-aligned transcriptions and annotations to go with them.
 - **Credit all contributors and their roles**[^berezkroeker2018austin-e4], and choose an archive that issues persistent identifiers (such as a DOI, a Digital Object Identifier)[^berezkroeker2018austin-e5].
 
 ## 3. Checklist
 
-The tiers below are our own grouping of the sources above `[Our analysis]`; the footnotes give the basis for each item.
+The tiers below are our own grouping of the sources above; the footnotes give the basis for each item.
 
 **Must do**
 
@@ -174,10 +174,10 @@ The tiers below are our own grouping of the sources above `[Our analysis]`; the 
 - [ ] Where written consent isn't appropriate, no signed consent form, but recorded oral consent instead[^seyfeddinipur2019public-e5]
 - [ ] Material the community doesn't want made public is not deposited openly: the LSA asks researchers to respect the community's wishes on access and archiving[^lsa2019ethics-e7]; when unsure early on, you can restrict access first[^seyfeddinipur2019public-e8]
 
-**Common reviewer criticisms that don't hold up** (we put these two together from the sources; the sources don't say how common they are `[Our analysis]`)
+**Common reviewer criticisms that don't hold up** (we put these two together from the sources; the sources don't say how common they are)
 
 - "The corpus contains elicited material, so it isn't language documentation." Riesberg considers this a reading of Himmelmann that goes too far[^riesberg2018adequacy-e1][^riesberg2018adequacy-e2].
-- "The corpus is too small, unannotated, and unbalanced to show anything." Rice holds that such corpora can still reveal a great deal[^rice2018corpora-e2]; but you should state clearly how far your conclusions reach `[Our analysis]`.
+- "The corpus is too small, unannotated, and unbalanced to show anything." Rice holds that such corpora can still reveal a great deal[^rice2018corpora-e2]; but you should state clearly how far your conclusions reach.
 
 ## 4. Common mistakes
 

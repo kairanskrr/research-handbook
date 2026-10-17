@@ -1,12 +1,12 @@
 # Field studies: observation and sampling
 
-This page is about studies where you **go out to a site to observe and take samples**: you set up sampling locations in rivers, lakes, groundwater, soil, rock outcrops, the atmosphere, or the ocean, take measurements and samples, and use the data to answer a question. Ecological field surveys (quadrats, transects, species surveys) can also draw on this page `[Our analysis]`.
+This page is about studies where you **go out to a site to observe and take samples**: you set up sampling locations in rivers, lakes, groundwater, soil, rock outcrops, the atmosphere, or the ocean, take measurements and samples, and use the data to answer a question. Ecological field surveys (quadrats, transects, species surveys) can also draw on this page.
 
 Not covered here: field trials where you **actively apply a treatment** in the field, see the [agriculture field overview](../07_fields/agriculture/README.md#designing-field-trials); details of quality control for lab analyses, see the [environmental engineering field overview](../07_fields/environmental-engineering/README.md#quality-control-samples-blanks-replicates-and-spikes); analyzing only data that others have already collected, see [Data science research](data_science.md) under research methods; safety, permits, ethics, and harassment in the field, see the [earth and environmental sciences field overview](../07_fields/earth-environmental-sciences/README.md#fieldwork-sort-out-safety-and-permits-first).
 
-**First, where this page's sources come from.** Most of the practical detail comes from two US government agencies. The *National Field Manual for the Collection of Water-Quality Data* of the United States Geological Survey (USGS) is the protocol USGS sets for **its own** water-quality field staff[^usgs2018nfmprep-e2]. The planning guidance of the Environmental Protection Agency (EPA) was written by EPA for **projects it funds**; for its scope, see the [environmental engineering field overview](../07_fields/environmental-engineering/README.md#write-the-plan-down-epas-quality-assurance-project-plan). `[Our analysis]` These are not field-wide rules and do not bind you, but they are concrete and work well as checklists. What you must follow are the rules of your own country, institution, funder, and target journal.
+**First, where this page's sources come from.** Most of the practical detail comes from two US government agencies. The *National Field Manual for the Collection of Water-Quality Data* of the United States Geological Survey (USGS) is the protocol USGS sets for **its own** water-quality field staff[^usgs2018nfmprep-e2]. The planning guidance of the Environmental Protection Agency (EPA) was written by EPA for **projects it funds**; for its scope, see the [environmental engineering field overview](../07_fields/environmental-engineering/README.md#write-the-plan-down-epas-quality-assurance-project-plan). Our own reading is that these are not field-wide rules and do not bind you, but they are concrete and work well as checklists. What you must follow are the rules of your own country, institution, funder, and target journal.
 
-**Scope** `[Our analysis]`: this page was written for the earth and environmental sciences section, and its examples focus on observing and sampling environmental media such as water, soil, and rock. Its sources are mainly handbooks and guidance from US government agencies (USGS, EPA), documents from societies such as the American Geophysical Union (AGU), and methods papers in ecological and environmental statistics. Besides [Earth and environmental sciences](../07_fields/earth-environmental-sciences/README.md), the field overviews for [agriculture](../07_fields/agriculture/README.md), [Environmental engineering](../07_fields/environmental-engineering/README.md), and [geography](../07_fields/geography/README.md) also link here. Other fields that do on-site observation may have different requirements for sampling and quality control; check your own field's norms before using this page.
+**Scope**: this page was written for the earth and environmental sciences section, and its examples focus on observing and sampling environmental media such as water, soil, and rock. Its sources are mainly handbooks and guidance from US government agencies (USGS, EPA), documents from societies such as the American Geophysical Union (AGU), and methods papers in ecological and environmental statistics. Besides [Earth and environmental sciences](../07_fields/earth-environmental-sciences/README.md), the field overviews for [agriculture](../07_fields/agriculture/README.md), [Environmental engineering](../07_fields/environmental-engineering/README.md), and [geography](../07_fields/geography/README.md) also link here. Other fields that do on-site observation may have different requirements for sampling and quality control; check your own field's norms before using this page.
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md#3-common-research-methods).
 
@@ -28,7 +28,7 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 | Biggest difficulty | Sampling design, quality in the field; missed opportunities can't be made up | True replication and randomization | Working out how the data were produced and how good they are |
 | Where to look | This page | [Agriculture field overview](../07_fields/agriculture/README.md#designing-field-trials) | [Data science research](data_science.md) |
 
-`[Our analysis]` How to choose: if you want to know "what state something is in at a given place now, and how it varies over time and space", do field observation; if you want to know "whether a treatment causes a change", and you can control the treatment, do a manipulative experiment. With observational data only, your causal conclusions are weaker; see Step 11 below. Many projects mix the two: first use field observation to establish the current state, then design an experiment or a simulation.
+How to choose: if you want to know "what state something is in at a given place now, and how it varies over time and space", do field observation; if you want to know "whether a treatment causes a change", and you can control the treatment, do a manipulative experiment. With observational data only, your causal conclusions are weaker; see Step 11 below. Many projects mix the two: first use field observation to establish the current state, then design an experiment or a simulation.
 
 ## 2. How to do it
 
@@ -36,9 +36,9 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 
 **How:** first write down four things: what the data are for (estimating a mean? comparing two areas? detecting a trend?); the target population, that is, the scope you want your conclusions to cover; the sampling unit; and how much error you can tolerate. When you study a continuous medium such as air, water, or soil, EPA guidance requires the sampling unit to be defined as a specific area, volume, or mass[^epa2006dqo-e6]. EPA uses a seven-step "data quality objectives process" for this; for the steps, see the [environmental engineering field overview](../07_fields/environmental-engineering/README.md#plan-before-you-sample-epas-data-quality-objectives-process).
 
-**Why:** EPA guidance says that without planning before sampling, there is an unacceptably high chance that the data you collect will not meet your needs[^epa2006dqo-e1]. Once a moment in the field has passed, you cannot go back and collect the data `[Our analysis]`.
+**Why:** EPA guidance says that without planning before sampling, there is an unacceptably high chance that the data you collect will not meet your needs[^epa2006dqo-e1]. Once a moment in the field has passed, you cannot go back and collect the data.
 
-**Where people go wrong:** writing only "survey the water quality of a lake" without saying whether you want to estimate the lake-wide average or compare the inlet with the outlet. The two goals call for completely different sampling layouts `[Our analysis]`. For how to make your research question concrete, see [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) in Part 2.
+**Where people go wrong:** writing only "survey the water quality of a lake" without saying whether you want to estimate the lake-wide average or compare the inlet with the outlet. The two goals call for completely different sampling layouts. For how to make your research question concrete, see [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) in Part 2.
 
 ### Step 2: Design the sampling: where, when, and how much
 
@@ -46,9 +46,9 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 
 | Design | How | When to use it |
 |---|---|---|
-| Simple random | Place points at random across the study area | The area is fairly uniform and you have no prior information `[Our analysis]` |
+| Simple random | Place points at random across the study area | The area is fairly uniform and you have no prior information |
 | Stratified | First divide the area by known differences (such as past land use), then sample within each part | The parts differ, and each must be represented[^epa2006dqo-e15] |
-| Systematic or grid | Place points at fixed spacing | You need a map of spatial distribution or even coverage `[Our analysis]` |
+| Systematic or grid | Place points at fixed spacing | You need a map of spatial distribution or even coverage |
 | Judgmental | Pick points from experience | Conclusions rest only on professional judgment; no probabilistic inference[^epa2006dqo-e14] |
 
 **Use many points in space.** The USGS manual notes that in most flowing or still water bodies, a single sampling point is not enough to represent the physical, chemical, or biological condition of the whole water body[^usgs2018nfmprep-e3]. When choosing sites, consider together the number and location of points, the data quality objectives, access, safety, and budget[^usgs2018nfmprep-e5]. Measuring field parameters across a cross-section first gives a rough idea of whether mixing is uniform; but that does not guarantee the substance you care about is uniform too, so test this early in sampling[^usgs2018nfmprep-e6].
@@ -57,16 +57,16 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 
 **How much to sample.** Casler recommends a statistical power analysis (estimating how many samples you need to have a good chance of detecting the difference you care about) before every design, even if you have to guess the parameters[^casler2015fundamentals-e21]. For how, see the [agriculture field overview](../07_fields/agriculture/README.md#sites-years-and-power-analysis).
 
-**Where people go wrong: pseudoreplication.** Pseudoreplication is using a statistical test of a treatment effect when the treatment is not truly replicated, or the replicates are not independent[^davies2015pseudoreplication-e1]. Casler's example: with only two plots, one burned and one not, the statistics can be computed correctly, but the design cannot unambiguously explain the result[^casler2015fundamentals-e5]. He stresses that replication has to match the spatial and temporal scale at which the treatment is applied[^casler2015fundamentals-e4]. The same goes for observational studies: if you compare "one point upstream" with "one point downstream" and take 30 bottles of water at each, you still have only one point on each side `[Our analysis]`. For more examples, see the [agriculture field overview](../07_fields/agriculture/README.md#pseudoreplication-treatment-confounded-with-the-plot).
+**Where people go wrong: pseudoreplication.** Pseudoreplication is using a statistical test of a treatment effect when the treatment is not truly replicated, or the replicates are not independent[^davies2015pseudoreplication-e1]. Casler's example: with only two plots, one burned and one not, the statistics can be computed correctly, but the design cannot unambiguously explain the result[^casler2015fundamentals-e5]. He stresses that replication has to match the spatial and temporal scale at which the treatment is applied[^casler2015fundamentals-e4]. The same goes for observational studies: if you compare "one point upstream" with "one point downstream" and take 30 bottles of water at each, you still have only one point on each side. For more examples, see the [agriculture field overview](../07_fields/agriculture/README.md#pseudoreplication-treatment-confounded-with-the-plot).
 
 ### Step 3: Get all your permits
 
 **How:** go through access permits, sampling permits, and, where needed, permits to import or export samples, one by one; also check whether the site is protected. The checklist and the ethical issues are in the [earth and environmental sciences field overview](../07_fields/earth-environmental-sciences/README.md#fieldwork-sort-out-safety-and-permits-first) and are not repeated here. Two additions:
 
-- USGS requires its staff to obtain permission before entering public or private land to select sites or sample; written permission is preferred, and oral permission must be documented[^usgs2018nfmprep-e2]. If you don't have written permission, at least record who agreed, when, and to what `[Our analysis]`.
+- USGS requires its staff to obtain permission before entering public or private land to select sites or sample; written permission is preferred, and oral permission must be documented[^usgs2018nfmprep-e2]. If you don't have written permission, at least record who agreed, when, and to what.
 - When animals are involved (for example, collecting fish), the guidelines of the American Fisheries Society and two other societies require researchers to obtain all necessary permits[^afs2014fishes-e4]; when working outside the United States, follow the host country's wildlife regulations[^afs2014fishes-e5].
 
-**Where people go wrong:** assuming your advisor or collaborators have already taken care of it. Our sources do not cover which permits your particular country requires. Before you set out, make a list and ask about each item `[Our analysis]`: who manages the land or protected area; whether sampling or collecting plants and animals needs a permit; whether there are restrictions on moving samples between regions or out of the country. When unsure, ask your advisor and your institution's research office, and keep the approvals and permit records.
+**Where people go wrong:** assuming your advisor or collaborators have already taken care of it. Our sources do not cover which permits your particular country requires. Before you set out, make a list and ask about each item: who manages the land or protected area; whether sampling or collecting plants and animals needs a permit; whether there are restrictions on moving samples between regions or out of the country. When unsure, ask your advisor and your institution's research office, and keep the approvals and permit records.
 
 ### Step 4: Safety and logistics
 
@@ -82,9 +82,9 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 
 **How:** these are USGS rules for its own staff. Calibrate instruments before every field trip, and check most of them again in the field[^usgs2023nfmfield-e6]; check precision and accuracy periodically in the field[^usgs2023nfmfield-e8]. Keep a separate logbook for each instrument or replaceable sensor, recording its repair, maintenance, and calibration history, and keep the logbook with the instrument[^usgs2023nfmfield-e4]. The first time you use a type of instrument, practice with someone experienced[^usgs2023nfmfield-e7].
 
-**Why:** what USGS calls "field measurements" are properties that must be measured on site, as close as possible in time and place to when the sample is taken[^usgs2023nfmfield-e1], such as water temperature and dissolved oxygen `[Our analysis]`. These data cannot be remeasured later; if an instrument fails, the whole trip's data may be lost `[Our analysis]`.
+**Why:** what USGS calls "field measurements" are properties that must be measured on site, as close as possible in time and place to when the sample is taken[^usgs2023nfmfield-e1], such as water temperature and dissolved oxygen. These data cannot be remeasured later; if an instrument fails, the whole trip's data may be lost.
 
-**Where people go wrong:** setting out with an instrument that wasn't fixed after the last trip; calibrating only once before leaving and never checking for drift in the field `[Our analysis]`.
+**Where people go wrong:** setting out with an instrument that wasn't fixed after the last trip; calibrating only once before leaving and never checking for drift in the field.
 
 ### Step 6: Field records
 
@@ -95,7 +95,7 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 - Draw a site sketch detailed enough that someone who has never been there could find the spot from it[^usgs2018nfmprep-e16].
 - Archive the original records (the data, metadata and so on first written down in the field), whether on paper or electronic[^usgs2018nfmprep-e9].
 
-**Why:** the ethics policy of the American Geophysical Union (AGU) requires careful documentation of methods, assumptions, and uncertainties[^agu2023ethics-e8], and papers written in enough detail for peers to repeat the work[^agu2023ethics-e7]. Weather, water levels, and anything unusual in the field exist only if you write them down at the time `[Our analysis]`. Our sources do not cover which metadata fields to record; follow the requirements of your target database or journal.
+**Why:** the ethics policy of the American Geophysical Union (AGU) requires careful documentation of methods, assumptions, and uncertainties[^agu2023ethics-e8], and papers written in enough detail for peers to repeat the work[^agu2023ethics-e7]. Weather, water levels, and anything unusual in the field exist only if you write them down at the time. Our sources do not cover which metadata fields to record; follow the requirements of your target database or journal.
 
 ### Step 7: Sample IDs
 
@@ -112,7 +112,7 @@ Not covered here: field trials where you **actively apply a treatment** in the f
 
 **Why:** EPA guidance says the purpose of quality control is not to eliminate error but to measure how large it is[^epa2002qapp-e9]. For spiked samples, detection limits, and "non-detect" data, see the [environmental engineering field overview](../07_fields/environmental-engineering/README.md#quality-control-samples-blanks-replicates-and-spikes).
 
-**Where people go wrong:** field replicates are quality control, not replication. Two bottles of water from the same point cannot be treated as two independent sampling sites `[Our analysis]`.
+**Where people go wrong:** field replicates are quality control, not replication. Two bottles of water from the same point cannot be treated as two independent sampling sites.
 
 ### Step 9: Data management and archiving
 
@@ -126,15 +126,15 @@ But they argue that you shouldn't label every single-event study as pseudoreplic
 
 - **Make the comparison as close as possible**: they placed the compared plots close together, on the same soil, at the same elevation, and with the same aspect[^davies2015pseudoreplication-e11].
 - **Separate what you can infer from what you can interpret**: statistically, say only that "the two sides differ"; write the causal interpretation separately, as an ecological judgment[^davies2015pseudoreplication-e10].
-- **Address it in the paper yourself**: they think reviewers can ask authors to acknowledge the problem, state their mitigation measures, interpret cautiously, and frame conclusions as new hypotheses[^davies2015pseudoreplication-e12]. It is enough for authors to do these things themselves up front `[Our analysis]`.
+- **Address it in the paper yourself**: they think reviewers can ask authors to acknowledge the problem, state their mitigation measures, interpret cautiously, and frame conclusions as new hypotheses[^davies2015pseudoreplication-e12]. It is enough for authors to do these things themselves up front.
 
-`[Our analysis]` After an event, get to the site as soon as possible, record in more detail than usual, keep enough sample material, and register IDs. The IGSN organization also notes that some samples can never be collected again[^igsnabout-e4].
+After an event, get to the site as soon as possible, record in more detail than usual, keep enough sample material, and register IDs. The IGSN organization also notes that some samples can never be collected again[^igsnabout-e4].
 
 ### Step 11: Analyzing field observation data
 
 First read [Data science research](data_science.md#step-8-interpret-the-results-correlation-is-not-causation) under research methods: in observational data, correlation is not causation. Field data bring three further problems.
 
-**1. Confounding.** Differences between two areas may come partly from uncontrolled variables such as soil, moisture, aspect, or elevation[^davies2015pseudoreplication-e9]. In the design, make the compared points as similar as possible on these[^davies2015pseudoreplication-e11], and measure them `[Our analysis]`.
+**1. Confounding.** Differences between two areas may come partly from uncontrolled variables such as soil, moisture, aspect, or elevation[^davies2015pseudoreplication-e9]. In the design, make the compared points as similar as possible on these[^davies2015pseudoreplication-e11], and measure them.
 
 **2. Non-independent observations (autocorrelation).** Zuur and colleagues' 2010 data exploration protocol for ecologists points out that most statistical methods assume observations are independent of each other[^zuur2010protocol-e2]. Field data often are not:
 
@@ -145,11 +145,11 @@ The consequence: Dormann and colleagues' 2007 methods review notes that paramete
 
 **How to check and what to do** (methodological advice from these authors): look at the raw data before analysis and at the residuals after, plotting them against time or spatial coordinates[^zuur2010protocol-e6]; for space, you can plot how the similarity or variance between data points changes with distance (a correlogram or semivariogram)[^dormann2007spatial-e4]. What looks like serial correlation is often actually caused by a time component such as seasonality, or by a trend[^helsel2020statistical-e10]. If you find non-independence, the model has to account for it[^zuur2010protocol-e4], for example with nested or random effects[^davies2015pseudoreplication-e3]. The specific methods are beyond this page; find a collaborator who knows statistics.
 
-**3. A variable you didn't measure can't be added later.** Correlated residuals often come from leaving out an important variable, and this may be impossible to fix after the fact[^zuur2010protocol-e5][^dormann2007spatial-e2]. So think hard from the very start about what to measure `[Our analysis]`.
+**3. A variable you didn't measure can't be added later.** Correlated residuals often come from leaving out an important variable, and this may be impossible to fix after the fact[^zuur2010protocol-e5][^dormann2007spatial-e2]. So think hard from the very start about what to measure.
 
 ### Step 12: Reporting
 
-`[Our analysis]` The methods section should state at least: the sampling design and why you chose your sites; when you sampled and the conditions at the time; instruments and calibration; quality-control samples and their results; sample IDs and where the samples are stored; and where the data are archived. The basis: AGU requires papers to be written in enough detail that peers can repeat the work[^agu2023ethics-e7], and AGU journals require both raw and processed data to be cited in the references[^fox2021agudata-e12]. If the design has limitations (for example, only one event site), address them up front as in Step 10.
+The methods section should state at least: the sampling design and why you chose your sites; when you sampled and the conditions at the time; instruments and calibration; quality-control samples and their results; sample IDs and where the samples are stored; and where the data are archived. The basis: AGU requires papers to be written in enough detail that peers can repeat the work[^agu2023ethics-e7], and AGU journals require both raw and processed data to be cited in the references[^fox2021agudata-e12]. If the design has limitations (for example, only one event site), address them up front as in Step 10.
 
 ## 3. Checklist
 
@@ -174,11 +174,11 @@ The consequence: Dormann and colleagues' 2007 methods review notes that paramete
 
 **Fine to skip; not a flaw**
 
-- For a preliminary survey or a search for the "worst case", judgmental sampling is fine `[Our analysis]`; but conclusions then rest only on professional judgment, with no probabilistic inference[^epa2006dqo-e14].
+- For a preliminary survey or a search for the "worst case", judgmental sampling is fine; but conclusions then rest only on professional judgment, with no probabilistic inference[^epa2006dqo-e14].
 
 **Common reviewer criticisms that may not hold up**
 
-- "There is only one event site, so it's pseudoreplication and can't be published." Davies and Gray argue that the concept of pseudoreplication is applied too dogmatically and often leads to rejection in review[^davies2015pseudoreplication-e2]; they hold that before making the charge, one should show it is statistically valid and ecologically meaningful[^davies2015pseudoreplication-e4]; and reviewers can ask authors to acknowledge the problem, interpret cautiously, and frame conclusions as new hypotheses[^davies2015pseudoreplication-e12]. This is these two authors' view, not a consensus in the field `[Our analysis]`.
+- "There is only one event site, so it's pseudoreplication and can't be published." Davies and Gray argue that the concept of pseudoreplication is applied too dogmatically and often leads to rejection in review[^davies2015pseudoreplication-e2]; they hold that before making the charge, one should show it is statistically valid and ecologically meaningful[^davies2015pseudoreplication-e4]; and reviewers can ask authors to acknowledge the problem, interpret cautiously, and frame conclusions as new hypotheses[^davies2015pseudoreplication-e12]. This is these two authors' view, not a consensus in the field.
 
 ## 4. Common mistakes
 
@@ -193,7 +193,7 @@ The consequence: Dormann and colleagues' 2007 methods review notes that paramete
 
 ## 5. Further reading
 
-- **USGS *National Field Manual for the Collection of Water-Quality Data*, Chapter A1 (preparations for water sampling) and Chapter A6.0 (field measurements)**: free. This is the USGS protocol for its own staff and should be used only as a checklist; it is concrete on preparation, safety, records, and calibration before you set out. If you work with media other than water, you can still borrow its record-keeping and preparation practices `[Our analysis]`.
+- **USGS *National Field Manual for the Collection of Water-Quality Data*, Chapter A1 (preparations for water sampling) and Chapter A6.0 (field measurements)**: free. This is the USGS protocol for its own staff and should be used only as a checklist; it is concrete on preparation, safety, records, and calibration before you set out. If you work with media other than water, you can still borrow its record-keeping and preparation practices.
 - **EPA QA/G-4 (data quality objectives) and QA/G-5 (quality assurance project plans)**: guidance EPA wrote for the projects it funds. They cover how to turn a question into a sampling design and how to write a quality-control plan.
 - **Davies & Gray 2015**: a perspective article, open access. On how to do and write up single-event studies, and how to respond to charges of pseudoreplication.
 - **Zuur et al. 2010**: a data exploration protocol to follow before analyzing ecological data; the step on independence is the most relevant. **Dormann et al. 2007**: a review of methods for detecting and handling spatial autocorrelation.

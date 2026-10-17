@@ -4,9 +4,9 @@ This page covers **position papers** and their close relatives, **perspectives**
 
 If you want to collect published studies and summarize them systematically, that is a [Review studies](review_study.md). If you want to study how people actually do research, with data to back it up, see [Methodology research and meta-science](meta_science.md). The basics of building an argument that holds up are in [Interpretation and argument](../05_research-strategies/interpret_argue.md); this page covers only what is specific to position papers.
 
-**Scope** `[Our analysis]`: The submission requirements and review criteria on this page come mainly from computer science: in machine learning, the position paper tracks of ICML 2024, ICML 2025, and NeurIPS 2025 (the Conference on Neural Information Processing Systems); in software engineering, the Ideas, Visions and Reflections track of FSE 2025 (the ACM International Conference on the Foundations of Software Engineering). For journal perspectives, the example is the guidance from *Nature Sustainability*. The advice on stating a thesis and answering objections draws on handouts from the Harvard College Writing Center and on the philosopher Jim Pryor's writing guides. Every conference and journal changes its rules from year to year, so check that year's call for papers before you submit. In the humanities, papers built mainly on argument are the norm; for how that works, see [Interpretation and argument](../05_research-strategies/interpret_argue.md) and [Philosophical argument](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md).
+**Scope**: The submission requirements and review criteria on this page come mainly from computer science: in machine learning, the position paper tracks of ICML 2024, ICML 2025, and NeurIPS 2025 (the Conference on Neural Information Processing Systems); in software engineering, the Ideas, Visions and Reflections track of FSE 2025 (the ACM International Conference on the Foundations of Software Engineering). For journal perspectives, the example is the guidance from *Nature Sustainability*. The advice on stating a thesis and answering objections draws on handouts from the Harvard College Writing Center and on the philosopher Jim Pryor's writing guides. Every conference and journal changes its rules from year to year, so check that year's call for papers before you submit. In the humanities, papers built mainly on argument are the norm; for how that works, see [Interpretation and argument](../05_research-strategies/interpret_argue.md) and [Philosophical argument](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md).
 
-**Strategies it usually serves**: [Interpretation and argument](../05_research-strategies/interpret_argue.md). Reflection pieces that look back at the path a field has taken and point out where it went wrong often include an element of [Synthesis](../05_research-strategies/synthesize.md) too `[Our analysis]`.
+**Strategies it usually serves**: [Interpretation and argument](../05_research-strategies/interpret_argue.md). Reflection pieces that look back at the path a field has taken and point out where it went wrong often include an element of [Synthesis](../05_research-strategies/synthesize.md) too.
 
 **After reading this page, you should be able to:**
 
@@ -40,7 +40,7 @@ The name and the requirements vary by venue. The table lists only the examples u
 - **How research should be done and evaluated**[^icml2025position-e9].
 - **One side of a research controversy**: a journal perspective can argue for a controversial position or put forward a speculative hypothesis, and the pieces on both sides of a debate are usually published as perspectives[^natsustaincontent-e2].
 
-It cannot answer questions like "how big is the effect of X?" or "does A cause B?"; those need data and experiments. A position paper can use other people's data and your own preliminary data as evidence, but its contribution is the argument, not the measurement `[Our analysis]`.
+It cannot answer questions like "how big is the effect of X?" or "does A cause B?"; those need data and experiments. A position paper can use other people's data and your own preliminary data as evidence, but its contribution is the argument, not the measurement.
 
 **How it differs from related paper types**:
 
@@ -50,18 +50,18 @@ It cannot answer questions like "how big is the effect of X?" or "does A cause B
 | Main evidence | Reasoning, plus citations, examples, and existing data | Your own experiments, measurements, or proofs | Systematically collected published studies | Preliminary results |
 | Must reviewers agree with the conclusion? | No[^icml2025position-e11] | They must be convinced by the evidence | They must be convinced by the method | They need to see preliminary evidence |
 
-Sources for the table: research papers report advances already made[^icml2025position-e1]; perspectives are more forward-looking and more speculative than reviews[^natsustaincontent-e1]; FSE's new-ideas papers must give initial evidence, while its visions and reflections papers give a rationale[^fse2025ivr-e3]. The remaining cells are `[Our analysis]`.
+Sources for the table: research papers report advances already made[^icml2025position-e1]; perspectives are more forward-looking and more speculative than reviews[^natsustaincontent-e1]; FSE's new-ideas papers must give initial evidence, while its visions and reflections papers give a rationale[^fse2025ivr-e3]. The remaining cells are our own synthesis.
 
 ### When a newcomer should write one, and when not
 
-`[Our analysis]` What follows is this handbook's judgment based on the sources above; the sources themselves say nothing specifically about newcomers:
+What follows is this handbook's judgment based on the sources above; the sources themselves say nothing specifically about newcomers:
 
 - **When it makes sense**: in your own research you have seen firsthand a problem that is widespread in the field, you have examples and preliminary data, and you can say clearly what should change. A position paper is then a good way to push a specific finding out to the whole field.
 - **When to hold off**: you have only a topic and can't yet state an arguable claim; you haven't read enough to say who holds the opposite view; or what you really have is a new method you haven't evaluated yet. For that last case, ICML says to submit to the main track[^icml2025position-e8], and FSE says that a full research paper lacking an evaluation is not a good vision paper[^fse2025ivr-e5].
 - **Know where the bar is**: position papers must meet the same scholarly standards: support claims with evidence and reasoning, give background and context, and cite others' work properly[^icml2025position-e4]. Journal perspectives are mostly commissioned by the editors[^natsustaincontent-e3], so a newcomer has little chance of getting one in by submitting directly; conference position and vision tracks are open to everyone, and the bar there is somewhat lower.
 - **Talk to your advisor**: a position paper takes no less time than a small research paper, and it won't replace your main project. FSE says these papers lay the groundwork for later full papers[^fse2025ivr-e9]; in other words, it works best as a by-product of your main line of research.
 
-**The running example** `[Our analysis]`: the project "published evaluations of large language model vulnerability detectors are inflated by data leakage" is itself a measurement project. It has to be shown with data; it is not a position paper. But if, once the measurement is done, you find that leakage is widespread in smart contract vulnerability detection benchmarks, you could build on it to write a position paper arguing that "every paper evaluating large language model vulnerability detection should check for and report data leakage before reporting scores." The evidence for that position paper would come mainly from your own measurements and the existing literature. Natural language processing already has a similar paper: Sainz et al. 2023, which describes itself as a position paper[^sainz2023nlp-e6], argues that data contamination should be measured for every benchmark, partly because contamination inflates a model's measured performance on that benchmark[^sainz2023nlp-e2].
+**The running example**: the project "published evaluations of large language model vulnerability detectors are inflated by data leakage" is itself a measurement project. It has to be shown with data; it is not a position paper. But if, once the measurement is done, you find that leakage is widespread in smart contract vulnerability detection benchmarks, you could build on it to write a position paper arguing that "every paper evaluating large language model vulnerability detection should check for and report data leakage before reporting scores." The evidence for that position paper would come mainly from your own measurements and the existing literature. Natural language processing already has a similar paper: Sainz et al. 2023, which describes itself as a position paper[^sainz2023nlp-e6], argues that data contamination should be measured for every benchmark, partly because contamination inflates a model's measured performance on that benchmark[^sainz2023nlp-e2].
 
 ---
 
@@ -75,9 +75,9 @@ Sources for the table: research papers report advances already made[^icml2025pos
 - **Make it something people could disagree with.** A good thesis is arguable: a thoughtful reader might disagree with it[^harvardwcthesis-e1]. If you only describe or summarize what readers can see for themselves, there is no one to persuade[^harvardwcthesis-e2].
 - **Get the scope right.** Too narrow, and you have nothing interesting to say; too broad, and you can't back it up with evidence[^harvardwcthesis-e3]. Advice from philosophy writing applies too: a good paper is modest, arguing for one small point, but stating it clearly and giving good reasons for it[^pryor2012writing-e5].
 
-**Why:** The first review criterion for a position paper is that it clearly states a position[^icml2025position-e9]. If the position is fuzzy, the support and the rebuttals that follow have nothing to attach to `[Our analysis]`.
+**Why:** The first review criterion for a position paper is that it clearly states a position[^icml2025position-e9]. If the position is fuzzy, the support and the rebuttals that follow have nothing to attach to.
 
-**Where people go wrong:** writing "Large language models bring both opportunities and challenges for software security." Nobody would disagree with that, so it needs no argument. "Evaluations of large language model vulnerability detection should not be compared with traditional tools until they have been checked for data leakage" is a claim someone would push back on `[Our analysis]`.
+**Where people go wrong:** writing "Large language models bring both opportunities and challenges for software security." Nobody would disagree with that, so it needs no argument. "Evaluations of large language model vulnerability detection should not be compared with traditional tools until they have been checked for data leakage" is a claim someone would push back on.
 
 **Write it down:** Write your position in one sentence starting "This paper argues that ...", then one more sentence: who would disagree, and why.
 
@@ -91,7 +91,7 @@ Sources for the table: research papers report advances already made[^icml2025pos
 
 **Why:** Reviewers don't have to agree with you, but they do have to think the topic deserves the whole field's attention[^icml2025position-e2].
 
-**Where people go wrong:** making "importance" an empty phrase, such as "this issue is attracting growing attention." Better to give something concrete: how many papers use the same benchmark, how many conclusions might have to change as a result `[Our analysis]`.
+**Where people go wrong:** making "importance" an empty phrase, such as "this issue is attracting growing attention." Better to give something concrete: how many papers use the same benchmark, how many conclusions might have to change as a result.
 
 **Write it down:** Three sentences: whom this affects, how much, and why it needs discussing now.
 
@@ -100,14 +100,14 @@ Sources for the table: research papers report advances already made[^icml2025pos
 **How:**
 
 - **Position papers need evidence too.** ICML requires claims to be supported with evidence and reasoning[^icml2025position-e4], and its review criterion reads "supports its position with clear reasoning and evidence where appropriate"[^icml2025position-e10]. FSE asks submissions to make clear why current practice or research should change: new-ideas papers give initial evidence, visions and reflections papers give a rationale[^fse2025ivr-e3].
-- **Evidence can take several forms** `[Our analysis]`: results from published studies (cited); specific examples or incidents; existing public data; a small analysis of your own. FSE notes that preliminary results or a sketch of an evaluation plan can help reviewers understand the scope of the work[^fse2025ivr-e4].
+- **Evidence can take several forms**: results from published studies (cited); specific examples or incidents; existing public data; a small analysis of your own. FSE notes that preliminary results or a sketch of an evaluation plan can help reviewers understand the scope of the work[^fse2025ivr-e4].
 - **Your premises should be easier to accept than your conclusion.** The premises of an argument should be uncontroversial, or at least less controversial than the conclusion[^pryor2025terms-e9], and they should be believable independently of the conclusion[^pryor2025terms-e10].
 - **Don't substitute reputation for argument.** Saying "a famous scholar holds this view" carries no argumentative weight on its own[^pryor2025terms-e15].
 - **If you call for action, say how.** *Nature Sustainability* requires Comments that call for action to give a detailed roadmap to a solution, not just describe a problem[^natsustaincontent-e6].
 
-**Why:** Without evidence, a position is just an opinion. What separates a position paper from an editorial is that it lays out its reasons and evidence for others to check `[Our analysis]`.
+**Why:** Without evidence, a position is just an opinion. What separates a position paper from an editorial is that it lays out its reasons and evidence for others to check.
 
-**Where people go wrong:** picking only the examples that support you. Readers will ask: where are the counterexamples? How do you know this isn't an isolated case? `[Our analysis]`
+**Where people go wrong:** picking only the examples that support you. Readers will ask: where are the counterexamples? How do you know this isn't an isolated case?
 
 **Write it down:** A table with one row per supporting reason: what its evidence is (citation, example, data) and how strong that evidence is.
 
@@ -121,9 +121,9 @@ Sources for the table: research papers report advances already made[^icml2025pos
 4. **You can concede part of the point.** You can grant that the counterargument is partly right, then explain why it doesn't undermine your thesis[^harvardwccounterargument-e5].
 5. **If you can't refute it, revise your position.** A counterargument you can't answer may mean you need to revise your thesis or part of it[^harvardwccounterargument-e3].
 
-**Why:** "Alternative Views" is one of ICML 2025's review criteria[^icml2025position-e7]. More fundamentally, the people a position paper needs to persuade are exactly the ones who aren't yet persuaded `[Our analysis]`.
+**Why:** "Alternative Views" is one of ICML 2025's review criteria[^icml2025position-e7]. More fundamentally, the people a position paper needs to persuade are exactly the ones who aren't yet persuaded.
 
-**Where people go wrong:** setting up a straw man, for example writing the other side as "some people think data leakage doesn't matter." A real and stronger objection might be: "The training data of closed models can't be inspected, so leakage can't be checked at all, and requiring every paper to report it is empty talk." That is the one you need to answer. You could point out, for instance, that people have proposed ways to check closed models too: Sainz et al. suggest exploiting the memorization abilities of large language models[^sainz2023nlp-e5] `[Our analysis]`.
+**Where people go wrong:** setting up a straw man, for example writing the other side as "some people think data leakage doesn't matter." A real and stronger objection might be: "The training data of closed models can't be inspected, so leakage can't be checked at all, and requiring every paper to report it is empty talk." That is the one you need to answer. You could point out, for instance, that people have proposed ways to check closed models too: Sainz et al. suggest exploiting the memorization abilities of large language models[^sainz2023nlp-e5].
 
 **Write it down:** List the two or three strongest opposing positions, and for each write one sentence on "what it gets right" and one on "why it doesn't overturn my claim."
 
@@ -131,7 +131,7 @@ Sources for the table: research papers report advances already made[^icml2025pos
 >
 > The three calls for papers differ. When ICML 2024 first opened the position paper track, its review criteria had only six items, and "Alternative Views" was not one of them[^icml2024position-e3]. ICML 2025 made it mandatory, and required it in the main body[^icml2025position-e7]. NeurIPS 2025 says papers "may (where appropriate)" include it[^neurips2025position-e2], and adds "(if relevant)" to the corresponding review criterion[^neurips2025position-e3].
 >
-> **Our suggestion** `[Our analysis]`: whatever your target venue requires, answer the strongest opposing position seriously; whether it gets its own section is a formatting question, so follow that year's rules for your venue.
+> **Our suggestion**: whatever your target venue requires, answer the strongest opposing position seriously; whether it gets its own section is a formatting question, so follow that year's rules for your venue.
 
 ### Step 5: Lay out the background and say where you stand
 
@@ -141,9 +141,9 @@ Sources for the table: research papers report advances already made[^icml2025pos
 - **Read published position papers first.** ICML 2025 suggests browsing the previous year's published position papers for examples, and as ideas to build on or to argue against[^icml2025position-e14].
 - **Say whom you are arguing against.** Your thesis is often itself a rebuttal of someone else's argument[^harvardwccounterargument-e7].
 
-**Why:** Whether a position is new only becomes visible against the existing debate `[Our analysis]`.
+**Why:** Whether a position is new only becomes visible against the existing debate.
 
-**Where people go wrong:** making other people's positions sound more extreme than they are so that yours looks new. Before you criticize, state accurately what the other side means; see [Interpretation and argument](../05_research-strategies/interpret_argue.md) `[Our analysis]`.
+**Where people go wrong:** making other people's positions sound more extreme than they are so that yours looks new. Before you criticize, state accurately what the other side means; see [Interpretation and argument](../05_research-strategies/interpret_argue.md).
 
 **Write it down:** A dialectical map: who claims what, on what grounds, and whom you agree and disagree with. For how, see [Philosophical argument, Step 2](../07_fields/philosophy-ethics-religion/practices/philosophical_argument.md#step-2-map-the-literature-as-a-dialectical-map).
 
@@ -151,12 +151,12 @@ Sources for the table: research papers report advances already made[^icml2025pos
 
 **How:**
 
-- **Put your position where it can't be missed.** ICML 2025 requires the title to state the position, the abstract to state it in one sentence (for example, "This position paper argues that ..."), and the introduction to state it in bold[^icml2025position-e5]. Even if your venue doesn't require this, it is a good habit `[Our analysis]`.
+- **Put your position where it can't be missed.** ICML 2025 requires the title to state the position, the abstract to state it in one sentence (for example, "This position paper argues that ..."), and the introduction to state it in bold[^icml2025position-e5]. Even if your venue doesn't require this, it is a good habit.
 - **Raise the central question at the start.** Say what the problem is and why it is a problem[^pryor2012writing-e30].
 - **Use simple, plain prose.** Keep sentences and paragraphs short[^pryor2012writing-e8].
-- **A suggested structure** `[Our analysis]`: introduction (the position, why it matters) → background → supporting reasons (one section per reason, each with its evidence) → alternative views and responses → concrete recommendations (who should do what) → conclusion.
+- **A suggested structure**: introduction (the position, why it matters) → background → supporting reasons (one section per reason, each with its evidence) → alternative views and responses → concrete recommendations (who should do what) → conclusion.
 
-**Why:** One review criterion is "Communication quality": well organized and clearly written[^icml2025position-e12]. A position paper has no experimental results to lean on, so whether readers are persuaded depends heavily on how clear the argument is `[Our analysis]`.
+**Why:** One review criterion is "Communication quality": well organized and clearly written[^icml2025position-e12]. A position paper has no experimental results to lean on, so whether readers are persuaded depends heavily on how clear the argument is.
 
 **Write it down:** Outline first, and for each section write one sentence: "This section should convince the reader that ..."
 
@@ -168,9 +168,9 @@ Sources for the table: research papers report advances already made[^icml2025pos
 - **Conference vision tracks**: FSE 2025 reviews on value, impact, originality, scholarship, and overall quality[^fse2025ivr-e6]; visions and reflections papers are also judged on whether their rationale holds up[^fse2025ivr-e7].
 - **Journal perspectives**: *Nature Sustainability*'s Perspectives are mostly commissioned by the editors, though proposals are welcome[^natsustaincontent-e3]. To propose one yourself, you first send a synopsis covering the topic, how the piece will be organized, a sample figure, key recent references, and what the article will contribute[^natsustaincontent-e4]. Perspectives are peer reviewed too[^natsustaincontent-e5].
 
-**Why:** Venues review by different criteria. A position paper written to research-paper standards, or the reverse, will read as a poor fit `[Our analysis]`.
+**Why:** Venues review by different criteria. A position paper written to research-paper standards, or the reverse, will read as a poor fit.
 
-**Where people go wrong:** assuming position papers are easy to publish. They don't require new results, but the demands on argument, background, and presentation are no lower `[Our analysis]`. For general advice on choosing a venue and submitting, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md).
+**Where people go wrong:** assuming position papers are easy to publish. They don't require new results, but the demands on argument, background, and presentation are no lower. For general advice on choosing a venue and submitting, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md).
 
 **Write it down:** Your target venue, the link to that year's call for papers, and its review criteria copied out one by one; check yourself against each before you submit.
 
@@ -178,7 +178,7 @@ Sources for the table: research papers report advances already made[^icml2025pos
 
 ## 3. Checklist
 
-The "Must do" items below are based mainly on the requirements and review criteria of the ICML 2025 position paper track, which are the rules of one machine learning conference; for other venues, go by that year's call for papers `[Our analysis]`.
+The "Must do" items below are based mainly on the requirements and review criteria of the ICML 2025 position paper track, which are the rules of one machine learning conference; for other venues, go by that year's call for papers.
 
 **Must do**
 
@@ -197,7 +197,7 @@ The "Must do" items below are based mainly on the requirements and review criter
 - [ ] Answer the strongest version of the other side's argument[^pryor2025terms-e17]
 - [ ] Make your premises easier to accept than your conclusion[^pryor2025terms-e9]
 
-**Outstanding** `[Our analysis]`: support the position with a new analysis or new data of your own; say explicitly what evidence would make you change your position; give concrete, checkable recommendations (who does what, and when).
+**Outstanding**: support the position with a new analysis or new data of your own; say explicitly what evidence would make you change your position; give concrete, checkable recommendations (who does what, and when).
 
 **Fine to skip; not a flaw**
 

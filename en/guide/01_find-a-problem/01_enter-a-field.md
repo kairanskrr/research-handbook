@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Start with what others have already organized.** Look for surveys, tutorials, and course syllabi; if there are none, try a few sets of keywords and find three to five recent papers to start from ([Section 2](#2-start-with-what-others-have-already-organized)).
 > 2. **Follow the citations to the core papers.** Go backward through the references and forward to the papers that cite them, and note the papers, people, and venues that keep coming up; stop when most of what you find is already familiar ([Section 3](#3-follow-the-citations-to-find-the-core-papers-key-people-and-venues)).
@@ -36,7 +36,7 @@ By "problem" we mean something in the field that is wrong, not good enough, or n
 
 The eight sections below roughly go in order, but reading, searching, note-taking, and asking people happen in turns: a good paper leads you to new papers through its references, and one conversation might change your whole set of search terms.
 
-**Put a time limit on this stage.** Don't let background reading drag on forever. You can only start your own work while you still half-understand the area, because there isn't time to learn everything you would need to know[^eisnerproblems-e8]. Agree on how long with your advisor; our suggestion is to work in rounds of a few weeks and check yourself against the checklist at the end of this chapter when each round ends `[Our analysis]`.
+**Put a time limit on this stage.** Don't let background reading drag on forever. You can only start your own work while you still half-understand the area, because there isn't time to learn everything you would need to know[^eisnerproblems-e8]. Agree on how long with your advisor; our suggestion is to work in rounds of a few weeks and check yourself against the checklist at the end of this chapter when each round ends.
 
 ---
 
@@ -44,7 +44,7 @@ The eight sections below roughly go in order, but reading, searching, note-takin
 
 **Before you search for papers, spend half an hour writing down what you want to know.** If you don't, the search results will lead you around and you will end up reading a pile of papers that have nothing to do with you.
 
-Break the research area into a few specific questions. For "large language models and smart contract security" `[Our analysis]`:
+Break the research area into a few specific questions. For "large language models and smart contract security":
 
 - What are large language models being used for here? Finding vulnerabilities, fixing them, writing safer contracts, or something else?
 - How well does it work right now? How is it evaluated? On what data?
@@ -66,11 +66,11 @@ The two kinds of overview articles serve different purposes:
 | Tutorial | Non-specialists; explains basic concepts with concrete examples[^acm2026csurguidelines-e2] | An entry point: the basic terms and basic techniques |
 | Survey | Readers with a general understanding; focuses on classifying existing work, offering a view of the research area, and assessing trends[^acm2026csurguidelines-e1] | A map: which parts the research area breaks into, and the representative papers in each |
 
-If you aren't even familiar with smart contracts themselves, start with a tutorial or introductory material on smart contract security; if the basic concepts are already clear, go straight to a survey `[Our analysis]`.
+If you aren't even familiar with smart contracts themselves, start with a tutorial or introductory material on smart contract security; if the basic concepts are already clear, go straight to a survey.
 
-**If there's no survey, find your own starting papers.** Use a scholarly search engine (such as Google Scholar) and a few well-chosen keywords to find three to five recent papers[^keshav2007read-e9]. When you pick keywords, put yourself in the authors' shoes: what words would they use to describe this problem[^eisnerread-e10]? The same thing may be called "vulnerability detection" by some, "security auditing" by others, and some will just name a vulnerability class (such as "reentrancy"). Try both Chinese and English terms, and both abbreviations and full names `[Our analysis]`.
+**If there's no survey, find your own starting papers.** Use a scholarly search engine (such as Google Scholar) and a few well-chosen keywords to find three to five recent papers[^keshav2007read-e9]. When you pick keywords, put yourself in the authors' shoes: what words would they use to describe this problem[^eisnerread-e10]? The same thing may be called "vulnerability detection" by some, "security auditing" by others, and some will just name a vulnerability class (such as "reentrancy"). Try both Chinese and English terms, and both abbreviations and full names.
 
-**Watch the dates.** Large language models move fast; a survey from a few years ago may already miss the latest wave of work, so fill the gap with recent papers `[Our analysis]`. New work often appears first as a preprint on arXiv (a preprint server) `[Our analysis]`; arXiv only classifies submissions and checks them for basic scholarly value, and **does not do peer review**[^arxivabout-e2]. Preprints let you see the latest progress, but read them more cautiously than formally published papers.
+**Watch the dates.** Large language models move fast; a survey from a few years ago may already miss the latest wave of work, so fill the gap with recent papers. New work often appears first as a preprint on arXiv (a preprint server); arXiv only classifies submissions and checks them for basic scholarly value, and **does not do peer review**[^arxivabout-e2]. Preprints let you see the latest progress, but read them more cautiously than formally published papers.
 
 **Write it down:** List how many surveys, tutorials, and course syllabi you found; if there are none, list three to five starting papers and every set of keywords you tried.
 
@@ -83,13 +83,13 @@ Once you have starting points, expand outward like a snowball:
 3. **Identify the few top conferences and go through their recent proceedings.** If these new papers all cite a key paper you haven't found yet, get it and read it, and do another round if needed[^keshav2007read-e11].
 4. **Go broad, then deep.** Read lots of abstracts first, skim the full text when needed, and then decide which are most worth reading closely[^eisnerread-e13].
 
-**Step 3, going through conferences, is how computer science works.** Computer science treats conference papers as the main way to publish research results; as far as Moshe Vardi, editor-in-chief of *Communications of the ACM* (the Association for Computing Machinery), knows, this is unique among disciplines[^vardi2009conferences-e1]. So in computer science, "main venues" usually means a handful of conferences. Some research areas have widely recognized top conferences, such as the "top 4" venues people talk about in security; they are the most influential and de facto set the community's benchmarking practices[^vanderkouwe2019sok-e27]. Our sources do not check, field by field, where other disciplines mainly publish or which journals or conferences they follow; ask your advisor, or look at where the papers you have collected were mostly published `[Our analysis]`. For more on computer science's conference culture, see [Computer science: field overview](../07_fields/computer-science/README.md).
+**Step 3, going through conferences, is how computer science works.** Computer science treats conference papers as the main way to publish research results; as far as Moshe Vardi, editor-in-chief of *Communications of the ACM* (the Association for Computing Machinery), knows, this is unique among disciplines[^vardi2009conferences-e1]. So in computer science, "main venues" usually means a handful of conferences. Some research areas have widely recognized top conferences, such as the "top 4" venues people talk about in security; they are the most influential and de facto set the community's benchmarking practices[^vanderkouwe2019sok-e27]. Our sources do not check, field by field, where other disciplines mainly publish or which journals or conferences they follow; ask your advisor, or look at where the papers you have collected were mostly published. For more on computer science's conference culture, see [Computer science: field overview](../07_fields/computer-science/README.md).
 
-**For key people, know more than the name** `[Our analysis]`: which group they belong to, which part of the area that group mainly works on, and what they have published in the last year or two. Their research group's homepage sometimes lists all of the group's papers.
+**For key people, know more than the name**: which group they belong to, which part of the area that group mainly works on, and what they have published in the last year or two. Their research group's homepage sometimes lists all of the group's papers.
 
 **Keep up with new papers.** You can subscribe to the arXiv subject categories you care about and get notified when new papers appear[^taocareer-e27].
 
-**When to stop:** after several rounds, once the key papers cited by the new papers you find are all ones you have already seen, you can stop this round `[Our analysis]`.
+**When to stop:** after several rounds, once the key papers cited by the new papers you find are all ones you have already seen, you can stop this round.
 
 **Write it down:** Start a list of core papers, one per row: title, authors, year, venue, how many of your other papers cite it, and how many passes you have made through it. Then list three to five key researchers and two or three main venues.
 
@@ -105,9 +105,9 @@ Once you have starting points, expand outward like a snowball:
 
 On the first pass, skip the parts that take hard thinking; all you want is to know what the paper is about, why it was written, and what is new to you[^eisnerread-e1]. One job of the first pass is to decide whether to read any further[^keshav2007read-e2].
 
-**When you enter a new research area, read at least a few papers in depth.** Read them until you understand what every sentence and every symbol is doing; only then do you really learn the techniques this research area relies on[^eisnerread-e7]. Which ones to read in depth `[Our analysis]`: one or two surveys or the most-cited classic papers, plus one or two recent papers closest to your own interest.
+**When you enter a new research area, read at least a few papers in depth.** Read them until you understand what every sentence and every symbol is doing; only then do you really learn the techniques this research area relies on[^eisnerread-e7]. Which ones to read in depth: one or two surveys or the most-cited classic papers, plus one or two recent papers closest to your own interest.
 
-**You can go one step further: reproduce a paper.** Reproducing or reimplementing someone else's work won't earn you points for originality, but it is useful for your own learning and sometimes for the field[^eisnerproblems-e1]. For example, rerun the experiments of a paper that uses large language models to detect contract vulnerabilities on a small dataset, and you will understand its data, prompts, and evaluation better than if you had read it ten times `[Our analysis]`.
+**You can go one step further: reproduce a paper.** Reproducing or reimplementing someone else's work won't earn you points for originality, but it is useful for your own learning and sometimes for the field[^eisnerproblems-e1]. For example, rerun the experiments of a paper that uses large language models to detect contract vulnerabilities on a small dataset, and you will understand its data, prompts, and evaluation better than if you had read it ten times.
 
 **Reading slowly is nothing to be ashamed of.** Experienced researchers also take several hours to read a paper outside their own area[^eisnerread-e9]. When you can't tell what matters in a paper, find papers that cite it and see what others say about it[^eisnerread-e14].
 
@@ -125,7 +125,7 @@ If you just follow the author's line of thought, you often come away remembering
 4. **What kind of result is it?** Classify it by the research strategies in [Key concepts](../00_start-here/key-concepts.md#research-strategy) (Building and improving, Comparative evaluation, Measurement...). Then look at how certain it is: a well-established finding, an observation of real-world phenomena, or the authors' rule of thumb from experience[^shaw2002makes-e5]? In research areas where no established findings exist yet, observations and rules of thumb are valuable too[^shaw2002makes-e6], but you should know which one you are reading.
 5. **Is the evidence solid enough?** Good research needs clear, convincing evidence, based on experience in actual use or on systematic analysis, not just persuasive argument or textbook examples[^shaw2002makes-e7].
 
-For papers on using large language models to detect contract vulnerabilities, questions 2 and 3 become concrete `[Our analysis]`: had the model already seen the evaluation contracts during training? Which traditional tools did it compare against, and was the setup the same for each? Did it test only one class of vulnerability, or many?
+For papers on using large language models to detect contract vulnerabilities, questions 2 and 3 become concrete: had the model already seen the evaluation contracts during training? Which traditional tools did it compare against, and was the setup the same for each? Did it test only one class of vulnerability, or many?
 
 **Read creatively, not just critically.** Tearing something down is always easier than building. The harder question is: what good ideas are in this paper, and where else could they be used[^eisnerread-e6]? Three useful questions: if a panel of reviewers grilled you about this paper, which question couldn't you answer[^vinitskypaper-e6]? What extra experiment would I run to make it more convincing[^vinitskypaper-e7]? If I started a new project based on it, what would I do[^vinitskypaper-e8]?
 
@@ -135,7 +135,7 @@ For papers on using large language models to detect contract vulnerabilities, qu
 
 Writing as you read keeps your attention focused and forces you to engage actively[^eisnerread-e2]. Margin notes alone are not enough; you also need high-level notes that distill the paper, compare it with other papers, and record your own questions and ideas[^eisnerread-e4]. Without them, it is easy to read for an hour or two and find you have learned nothing[^vinitskypaper-e1].
 
-**One set of notes per paper.** You can use this template as is `[Our analysis]`:
+**One set of notes per paper.** You can use this template as is:
 
 > **Source**: authors, year, title, venue, link
 >
@@ -162,13 +162,13 @@ A few points:
 
 **Keep a separate "problem log". It is one of this chapter's most important outputs.** While you read, write down anything that seems wrong, unclear, or inconsistent the moment it comes up. Writing your questions down often brings out things you hadn't thought through, such as a paper being vague on a key point, or ignoring something you think matters[^griswoldread-e8].
 
-All this chapter asks is that you **jot things down as they come**: one sentence each, noting which paper it came from, with no need to judge on the spot whether it is worth pursuing `[Our analysis]`. Keeping interesting things together in one document makes it easier to spot connections between them[^nanda2025process-e4]. For what exactly to look for when reading papers (the authors' simplifications, the assumptions behind the work, the way it is evaluated), see [Section 2](02_generate-problems.md#2-method-1-gap-spotting) and [Section 3](02_generate-problems.md#3-method-2-questioning-assumptions-problematization) of the next chapter; for how to turn this log into a list of ideas with sources and ways to test them, see [Section 7](02_generate-problems.md#7-keep-a-list-of-ideas).
+All this chapter asks is that you **jot things down as they come**: one sentence each, noting which paper it came from, with no need to judge on the spot whether it is worth pursuing. Keeping interesting things together in one document makes it easier to spot connections between them[^nanda2025process-e4]. For what exactly to look for when reading papers (the authors' simplifications, the assumptions behind the work, the way it is evaluated), see [Section 2](02_generate-problems.md#2-method-1-gap-spotting) and [Section 3](02_generate-problems.md#3-method-2-questioning-assumptions-problematization) of the next chapter; for how to turn this log into a list of ideas with sources and ways to test them, see [Section 7](02_generate-problems.md#7-keep-a-list-of-ideas).
 
-**Write it down:** Set up your paper-notes template and your problem log. By the end of this round of the chapter, your problem log should have a dozen or so entries `[Our analysis]`.
+**Write it down:** Set up your paper-notes template and your problem log. By the end of this round of the chapter, your problem log should have a dozen or so entries.
 
 ## 7. Draw a map of the field
 
-Once you have read ten or twenty papers, look at them side by side. **A map is not a list of papers; it is a classification.** One simple way to draw it `[Our analysis]`: rows are the sub-problems of the research area, columns are research strategies, and each cell holds the representative papers.
+Once you have read ten or twenty papers, look at them side by side. **A map is not a list of papers; it is a classification.** One simple way to draw it: rows are the sub-problems of the research area, columns are research strategies, and each cell holds the representative papers.
 
 Here is an illustration (the cells should hold the papers you actually read; this only shows the format):
 
@@ -179,7 +179,7 @@ Here is an illustration (the cells should hold the papers you actually read; thi
 | Benchmark data and metrics | | | Paper E | |
 | Whether contracts generated by large language models are themselves secure | | | | Paper F |
 
-Once it's drawn, look for three things `[Our analysis]`:
+Once it's drawn, look for three things:
 
 - **Which cells are crowded?** Many people are working there and competition is fierce, so you need to be especially clear about how your work differs;
 - **Which cells are empty?** Maybe nobody has thought of it, or maybe it can't be done or isn't worth doing; ask someone who knows the area;
@@ -195,14 +195,14 @@ The literature is only half of it. **Your advisor is one of your best sources of
 
 Concrete things you can do:
 
-- **Take your map and problem log to your advisor.** Think on your own as you read, and regularly run your ideas past people who can remind you of related work and point you to papers[^eisnerproblems-e9]. Bringing something concrete is far more useful than asking "what should I read?" `[Our analysis]`.
+- **Take your map and problem log to your advisor.** Think on your own as you read, and regularly run your ideas past people who can remind you of related work and point you to papers[^eisnerproblems-e9]. Bringing something concrete is far more useful than asking "what should I read?".
 - **Ask the researchers around you how they chose their problems.** Why are they working on what they are working on now? How did they pick it[^olah2021taste-e6]?
 - **Help out a senior student.** In your first year, find an older student whose project interests you and offer to help[^dredze2012successful-e18]. Helping someone else with a project in an area you care about teaches you a lot without tying you down long term[^olah2021taste-e17].
 - **Go to talks.** Don't expect to follow everything in every talk, especially outside your area; as long as you learn something, it wasn't a waste[^taocareer-e33].
 
 For why you can't just shut the door and read, and how talking to people helps you find problems, see [Talk to people](02_generate-problems.md#talk-to-people) in the next chapter. The point of talking to people in this chapter is **to complete your map**.
 
-When you talk, you can ask directly `[Our analysis]`: What is my map missing? Which papers must I read in depth? Which items in my problem log have already been done, and which do you think are worth thinking about?
+When you talk, you can ask directly: What is my map missing? Which papers must I read in depth? Which items in my problem log have already been done, and which do you think are worth thinking about?
 
 **Write it down:** After each conversation, note the papers and people they recommended, the gaps they pointed out, and what they thought of your problem log, then update your map and paper list.
 
@@ -210,7 +210,7 @@ When you talk, you can ask directly `[Our analysis]`: What is my map missing? Wh
 
 ## Judgment calls
 
-**How much reading is enough before you start looking for problems?** Not "when I've read everything", but `[Our analysis]`:
+**How much reading is enough before you start looking for problems?** Not "when I've read everything", but:
 
 | You can | Which means |
 |---|---|
@@ -225,7 +225,7 @@ If you can't do the first, keep reading; once you can do all four, move to the n
 > - **Think first:** Varian argues that you will of course need a thorough literature search eventually, but you will do much better if you spend a few weeks working on your own ideas before searching systematically[^varian1997build-e3]. Eisner also says not to let background reading drag on, but to start thinking for yourself early and alternate thinking with reading[^eisnerproblems-e8][^eisnerproblems-e9].
 > - **Check first:** Noble warns of a terrible trap: you finish an entire project and only then find that someone published the same work before you began. So do your literature review up front[^noble2023ten-e5].
 >
-> The two pieces of advice address different moments `[Our analysis]`: **when you are looking for ideas**, read until you have enough (a map and a few papers read in depth), then start thinking on your own and keep reading as you think; **before you commit to a specific project**, you must do a careful check for prior work on that project; see [Converging on a project](05_converge.md#3-has-someone-already-done-it).
+> We read the two pieces of advice as addressing different moments: **when you are looking for ideas**, read until you have enough (a map and a few papers read in depth), then start thinking on your own and keep reading as you think; **before you commit to a specific project**, you must do a careful check for prior work on that project; see [Converging on a project](05_converge.md#3-has-someone-already-done-it).
 
 **What this kind of reading can and can't be used for.** Picking papers purposefully the way you are doing here is the same way most papers write their related-work sections. It is good for finding promising topics; but it has sampling bias, it can't be reproduced, and it makes it easy to cherry-pick evidence that suits you, so **it can't support empirical conclusions like "X causes Y"**[^ralph2022paving-e1][^ralph2022paving-e2]. If your question itself requires finding all the relevant studies, you need a systematic review; see [Review studies](../06_methods/review_study.md).
 
@@ -239,7 +239,7 @@ If you can't do the first, keep reading; once you can do all four, move to the n
 | Only ever skimming | You never learn the core techniques of the research area[^eisnerread-e7] |
 | Treating preprints as peer-reviewed conclusions | arXiv does not do peer review[^arxivabout-e2] |
 | Annotating papers but writing no high-level notes | Months later you can't recover your understanding[^eisnerread-e4][^eisnerread-e5] |
-| Not noting questions while reading | In the next chapter you have no raw material for finding problems and must reread from scratch `[Our analysis]` |
+| Not noting questions while reading | In the next chapter you have no raw material for finding problems and must reread from scratch |
 | Reading but never talking to anyone | You miss related work that someone in the area could have told you about in one sentence[^eisnerproblems-e9] |
 | Wanting to read everything before starting | You can never read it all; you have to start while you only half-understand[^eisnerproblems-e8] |
 | Using hand-picked literature to show "X causes Y" | A non-systematic review has sampling bias and can't support empirical conclusions[^ralph2022paving-e2] |
@@ -270,9 +270,9 @@ You are ready for the next step when:
 | If this happens | Go back to |
 |---|---|
 | Your searches return too many, too scattered papers to draw a map | Section 1 of this chapter: with your advisor, narrow the research area to one or two sub-problems |
-| You can hardly find any relevant papers | Section 2 of this chapter: change your keywords and ask your advisor; the work in this research area may also be scattered across neighboring fields `[Our analysis]` |
+| You can hardly find any relevant papers | Section 2 of this chapter: change your keywords and ask your advisor; the work in this research area may also be scattered across neighboring fields |
 | You have been reading for a long time and your problem log is still empty | Sections 5 and 6 of this chapter: reread a few core papers with questions in mind |
-| After reading, you find you have no interest at all in this research area | Talk to your advisor and consider switching areas; don't just grit your teeth `[Our analysis]` |
+| After reading, you find you have no interest at all in this research area | Talk to your advisor and consider switching areas; don't just grit your teeth |
 | In the next chapter or while converging, you find you know too little about the field to judge importance and novelty | Come back to this chapter and read another batch aimed at that problem |
 
 ## Next

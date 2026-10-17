@@ -2,7 +2,7 @@
 
 This page explains how research in the physical sciences (here mainly physics and astronomy) actually works: the split between theory, experiment, and computation; collaborations of thousands of people; arXiv preprints; blind analysis and the "5σ" discovery standard; and sharing data and code. Practices shared by every field (choosing a topic, writing, peer review, research ethics) are covered in the chapters listed in [The research journey at a glance](../../00_start-here/research-journey.md) and in [Throughout the project](../../08_throughout/README.md), and are not repeated here. For the research strategies physics commonly uses and the evidence each one needs, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence).
 
-Many of the concrete examples come from particle physics and gravitational-wave astronomy, because most of the public guidelines we found come from those two areas. Condensed matter, optics, and other areas may have different conventions; follow your group and your target journal `[Our analysis]`.
+Many of the concrete examples come from particle physics and gravitational-wave astronomy, because most of the public guidelines we found come from those two areas. Condensed matter, optics, and other areas may have different conventions; follow your group and your target journal.
 
 **After reading this page, you should be able to:**
 
@@ -27,7 +27,7 @@ In high-energy physics, the arXiv categories are themselves split by kind of wor
 | hep-ph (phenomenology) | Theoretical work that connects theory and experiment[^arxivtaxonomy-e3] |
 | hep-lat (lattice) | Lattice field theory, including its algorithms and special-purpose hardware[^arxivtaxonomy-e4] |
 
-In experimental particle physics, theorists and experimentalists have clearly separate roles[^junk2021reproducibility-e21]. The models to be tested are usually published first in theory or phenomenology papers, and only then are the experiments done[^junk2021reproducibility-e23]. Experimentalists almost never test theories they proposed themselves, which reduces **confirmation bias** (seeing only the evidence that supports your own idea)[^junk2021reproducibility-e22]. Which of these you are decides what you do each day, who you work with, and what your papers look like. Ask before you join a group `[Our analysis]`.
+In experimental particle physics, theorists and experimentalists have clearly separate roles[^junk2021reproducibility-e21]. The models to be tested are usually published first in theory or phenomenology papers, and only then are the experiments done[^junk2021reproducibility-e23]. Experimentalists almost never test theories they proposed themselves, which reduces **confirmation bias** (seeing only the evidence that supports your own idea)[^junk2021reproducibility-e22]. Which of these you are decides what you do each day, who you work with, and what your papers look like. Ask before you join a group.
 
 ### Big collaborations: thousands of people on one experiment
 
@@ -43,7 +43,7 @@ In collaborations like these, a result has to pass several checkpoints before it
 | Before submitting or posting to arXiv (LIGO) | LIGO requires you to first establish whether internal review is needed[^ligo2018publication-e6]; internal reviewers check the most important results and comment on authorship[^ligo2018publication-e7] |
 | Journal peer review | Still useful: collaborations can fall into "groupthink," and outside reviewers can catch it[^junk2021reproducibility-e15] |
 
-Several LIGO rules affect students directly. Other collaborations may differ, but most have similar clauses, so look them up yourself `[Our analysis]`:
+Several LIGO rules affect students directly. Other collaborations may differ, but most have similar clauses, so look them up yourself:
 
 - A thesis may not publish an analysis claiming a detection before the collaboration has announced it[^ligo2018publication-e9];
 - A thesis not reviewed by the collaboration must state in its introduction that it does not represent the collaboration's views[^ligo2018publication-e10];
@@ -53,7 +53,7 @@ Not every paper from a big collaboration is signed by thousands of people. Takin
 
 ### Small research groups: nobody checks your work for you
 
-Not all physics happens in big collaborations. If you run experiments in a single research group, there is no statistics committee and no internal review committee; the checks above are up to you and your advisor `[Our analysis]`.
+Not all physics happens in big collaborations. If you run experiments in a single research group, there is no statistics committee and no internal review committee; the checks above are up to you and your advisor.
 
 The thing to guard against most is "it matches the known value, so I'm done." Feynman told the history of measurements of the electron charge: when later researchers got a value too far from Millikan's, they looked for something wrong; when they got a value close to Millikan's, they stopped looking[^feynman1974cargo-e14]. His conclusion: the first principle is that you must not fool yourself, and you are the easiest person to fool[^feynman1974cargo-e7]. The particle physicist Roodman puts it more bluntly: whether a result agrees with earlier measurements says nothing about whether the measurement itself was done right[^roodman2003blind-e4]. Small experiments can be blinded too: when Dunnington measured the electron's charge-to-mass ratio, he had his machinist set a key angle arbitrarily and measured it precisely only once the analysis was finished and he was ready to publish[^roodman2003blind-e5].
 
@@ -76,7 +76,7 @@ The APS Ethics Standards, revised in 2024, say:
 - Large collaborations can have their own authorship conventions, as long as the process is transparent[^aps2024ethics-e6]. For example, LIGO's observational papers list all qualified members in alphabetical order[^ligo2018publication-e1]; qualifying takes roughly a year of devoting at least half of your research effort to the collaboration[^ligo2018publication-e2].
 - A qualified member can ask not to be listed on a particular paper[^ligo2018publication-e3]. When a collaboration cannot reach consensus, those who disagree can ask for their names to be removed[^junk2021reproducibility-e14].
 
-An alphabetical list of thousands of names does not show who did which analysis. We found no source explaining how individual contributions in big collaborations usually become visible to outsiders; ask your advisor early how students in your group usually get their work noticed `[Our analysis]`. One point of reference: LIGO writes "encouraging young scientists and engineers to take part in presentations and publications" into its policy goals[^ligo2018publication-e11]. For general authorship practice, see [Collaboration and advisors](../../08_throughout/collaboration_and_advisors.md#6-authorship-discuss-it-at-the-start-and-adjust-as-you-go) in Throughout the project.
+An alphabetical list of thousands of names does not show who did which analysis. We found no source explaining how individual contributions in big collaborations usually become visible to outsiders; ask your advisor early how students in your group usually get their work noticed. One point of reference: LIGO writes "encouraging young scientists and engineers to take part in presentations and publications" into its policy goals[^ligo2018publication-e11]. For general authorship practice, see [Collaboration and advisors](../../08_throughout/collaboration_and_advisors.md#6-authorship-discuss-it-at-the-start-and-adjust-as-you-go) in Throughout the project.
 
 ---
 
@@ -94,15 +94,15 @@ An alphabetical list of thousands of names does not show who did which analysis.
 
 - **The convention**: in particle physics, to claim the discovery of new physics, this probability must by convention be no larger than the area corresponding to 5σ[^lyons2013discovering-e1], that is, a p-value threshold of 2.87×10⁻⁷[^junk2021reproducibility-e4]. If you don't reach it, journals are very reluctant to let the word "discovery" appear in the title, abstract, or conclusions[^lyons2013discovering-e2].
 - **Why so strict** (these are the reasons Junk and Lyons give for particle physics): historically, 3σ and 4σ effects have often disappeared once more data came in[^junk2021reproducibility-e5]. Competing collaborations need a shared threshold fixed in advance; otherwise credit for a discovery goes to whoever has the lowest standard[^junk2021reproducibility-e28].
-- **What 5σ does not protect against**: **systematic errors** (biases from the instrument, calibration, or analysis method, not random fluctuations) that are not included in the uncertainty can produce false discoveries at arbitrarily high significance[^junk2021reproducibility-e7]. So however high the significance, check the systematics first `[Our analysis]`.
+- **What 5σ does not protect against**: **systematic errors** (biases from the instrument, calibration, or analysis method, not random fluctuations) that are not included in the uncertainty can produce false discoveries at arbitrarily high significance[^junk2021reproducibility-e7]. So however high the significance, check the systematics first.
 - **The look-elsewhere effect**: the probability of a fluctuation "exactly where you saw the peak" is the local p-value; allowing the fluctuation to appear anywhere gives the global p-value, which is larger[^lyons2013discovering-e3]. Decide the method before the analysis, and state in the paper how the global p-value is defined[^lyons2013discovering-e4].
-- **Where it applies**: Junk and Lyons argue that 5σ makes more sense in particle physics than in fields such as medical trials[^junk2021reproducibility-e29]. The sources we found discuss only particle physics; we cannot confirm whether condensed matter, astronomy, or other areas have a discovery threshold, or what it is. Ask your advisor or check your target journal `[Our analysis]`.
+- **Where it applies**: Junk and Lyons argue that 5σ makes more sense in particle physics than in fields such as medical trials[^junk2021reproducibility-e29]. The sources we found discuss only particle physics; we cannot confirm whether condensed matter, astronomy, or other areas have a discovery threshold, or what it is. Ask your advisor or check your target journal.
 
 > **Where sources disagree: does every discovery need 5σ?**
 > - **For a single threshold**: the threshold itself is an arbitrary convention[^junk2021reproducibility-e6], but a standard fixed in advance and shared by competing collaborations stops a race to the lowest bar[^junk2021reproducibility-e28].
 > - **Against one size fits all**: Lyons notes that statisticians are very skeptical that 5σ is reasonable[^lyons2013discovering-e5]; he argues that a uniform 5σ for every new-physics search is not sensible[^lyons2013discovering-e7], and proposes dropping the requirement that "all discoveries need 5σ"[^lyons2013discovering-e6].
 >
-> In practice: follow the rules of your collaboration and target journal; and in the paper, report both the local and the global p-value honestly and explain how you estimated the systematic errors `[Our analysis]`.
+> In practice: follow the rules of your collaboration and target journal; and in the paper, report both the local and the global p-value honestly and explain how you estimated the systematic errors.
 
 ### Blind analysis: fix the method before you look at the answer
 
@@ -121,7 +121,7 @@ The key rule: **once you unblind, you cannot change any step of the analysis; if
 > - **For**: Roodman considers blind analysis the best way to reduce experimenter's bias[^roodman2003blind-e1].
 > - **Against**: In a short commentary that was not peer reviewed, the physicist Golub argues that blind analysis seriously hampers the search for systematic errors and makes it impossible to study unexpected events that fall in the hidden region[^golub2023blind-e1]; bringing it in to solve a problem that may not exist[^golub2023blind-e2] is, in his view, overkill[^golub2023blind-e3].
 >
-> In practice: before you look at the data, decide with your advisor whether and how to blind, and write it down; if you really must change something after unblinding, say in the paper what you changed and why `[Our analysis]`. For the general approach, see the research strategy [Comparative evaluation](../../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough).
+> In practice: before you look at the data, decide with your advisor whether and how to blind, and write it down; if you really must change something after unblinding, say in the paper what you changed and why. For the general approach, see the research strategy [Comparative evaluation](../../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough).
 
 ---
 
@@ -137,11 +137,11 @@ The key rule: **once you unblind, you cannot change any step of the analysis; if
 
 **Data and code.** The APS requires research results to be recorded in a way that lets others reproduce them as far as possible[^aps2024ethics-e2], and data and code to be kept for a reasonable period[^aps2024ethics-e3]. The Physical Review journals require:
 
-- every paper to have a Data Availability Statement[^apsdataavailability-e1]; "data and software" here means everything needed to verify or reproduce the results[^apsdataavailability-e5], so the analysis code you wrote yourself usually counts too `[Our analysis]`;
+- every paper to have a Data Availability Statement[^apsdataavailability-e1]; "data and software" here means everything needed to verify or reproduce the results[^apsdataavailability-e5], so the analysis code you wrote yourself usually counts too;
 - they strongly encourage making data and software public following the FAIR principles (findable, accessible, interoperable, reusable)[^apsdataavailability-e2], and public data and software must be cited in the references[^apsdataavailability-e3];
 - anything that cannot be made public must be shared privately on reasonable request[^apsdataavailability-e4]. The sample statement for a numerical simulation paper is "the source code and parameters are publicly available"[^apsdataavailability-e6].
 
-**Citing software in astronomy.** The journals of the American Astronomical Society (AAS) recommend citing software both ways: cite the paper describing the software, and cite the software itself by its DOI (Digital Object Identifier, a permanent link); the DOI lets readers get the exact version you used[^aassoftware-e2]. The AAS strongly recommends releasing code under an open-source license[^aassoftware-e3], and it also accepts papers devoted to describing software[^aassoftware-e4]. Note: reviewers for AAS journals do not review the software itself[^aassoftware-e5], so whether your code is correct is mainly up to you `[Our analysis]`.
+**Citing software in astronomy.** The journals of the American Astronomical Society (AAS) recommend citing software both ways: cite the paper describing the software, and cite the software itself by its DOI (Digital Object Identifier, a permanent link); the DOI lets readers get the exact version you used[^aassoftware-e2]. The AAS strongly recommends releasing code under an open-source license[^aassoftware-e3], and it also accepts papers devoted to describing software[^aassoftware-e4]. Note: reviewers for AAS journals do not review the software itself[^aassoftware-e5], so whether your code is correct is mainly up to you.
 
 **Open data in big collaborations (CERN, the European Organization for Nuclear Research, as the example).** All papers from LHC experiments are open access[^cern2020opendata-e1], and supplementary data are posted to platforms such as HEPData at publication[^cern2020opendata-e2]; for reconstructed data, the goal is to start releasing them within five years of the end of a run[^cern2020opendata-e3]. If you are an outside researcher using open data, know this: you won't have the tacit knowledge the collaboration built up over years[^cern2020opendata-e4], and you are responsible for your own conclusions[^cern2020opendata-e5].
 
@@ -151,7 +151,7 @@ The key rule: **once you unblind, you cannot change any step of the analysis; if
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic a project uses to produce new knowledge, and it is set by the central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The grouping in the table below and the column "What it looks like in physics" are our own synthesis; each standard represents only the area or journal in its footnote (mostly particle physics; the rows on theoretical work come mainly from Physical Review A), and in other areas your group and target journal decide `[Our analysis]`.
+A **research strategy** is the main logic a project uses to produce new knowledge, and it is set by the central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The grouping in the table below and the column "What it looks like in physics" are our own synthesis; each standard represents only the area or journal in its footnote (mostly particle physics; the rows on theoretical work come mainly from Physical Review A), and in other areas your group and target journal decide.
 
 | Strategy | What it looks like in physics | Common evidence and how it is judged | How to do it |
 |---|---|---|---|
@@ -163,7 +163,7 @@ A **research strategy** is the main logic a project uses to produce new knowledg
 | [Causal explanation](../../05_research-strategies/explain_causality.md) | Theoretical explanation and phenomenology: explaining previously unexplained phenomena[^aps2011uncertainty-e3]; phenomenology means theoretical work that connects theory and experiment[^arxivtaxonomy-e3] | When explaining a phenomenon, semiquantitative agreement with experiment is already meaningful[^aps2011uncertainty-e3] | No dedicated method page yet |
 | [Measurement](../../05_research-strategies/measure.md) | Precision theoretical calculation: computing values to compare with high-precision experiments, or benchmark results that serve as reference data[^aps2011uncertainty-e3] | These two kinds most need a careful assessment of theoretical uncertainty[^aps2011uncertainty-e4]; whenever feasible, give an uncertainty estimate (when it is required and how to estimate it: see below the table) | [Quantitative simulation](../../06_methods/simulation_study.md) |
 
-Theoretical work goes into the last three rows according to its central claim: developing a new method is Building and improving, explaining a phenomenon is Causal explanation, and giving precise values to compare with experiment is Measurement `[Our analysis]`. In particle physics, the models to be tested are usually published first in theory or phenomenology papers and then measured by experimentalists[^junk2021reproducibility-e23].
+Theoretical work goes into the last three rows according to its central claim: developing a new method is Building and improving, explaining a phenomenon is Causal explanation, and giving precise values to compare with experiment is Measurement. In particle physics, the models to be tested are usually published first in theory or phenomenology papers and then measured by experimentalists[^junk2021reproducibility-e23].
 
 The standards in these three rows come from a 2011 editorial by the editors of Physical Review A (one of the APS journals), and represent only that journal's requirements at the time. The editorial's starting point: the journal would usually not accept an experimental paper that did not discuss measurement uncertainty in detail[^aps2011uncertainty-e2], yet theory papers were not uncommonly submitted with numerical results and no uncertainty estimates[^aps2011uncertainty-e1]. What the editorial asks of theoretical calculations:
 
@@ -180,7 +180,7 @@ Our sources do not cover how formal theory (string theory, for example[^arxivtax
 
 ## Research methods common in this field
 
-The grouping below is our own analysis `[Our analysis]`.
+The grouping below is our own.
 
 - **Experimental measurement**: [Experimental measurement](../../06_methods/experimental_measurement.md) (a cross-disciplinary method). Blind analysis and 5σ, which are specific to physics experiments, are covered above. [Controlled experiments](../../06_methods/controlled_experiment.md) in Research types is about human participants and works differently.
 - **Theoretical research**: see [Theoretical research](../computer-science/practices/theoretical_research.md) in the computer science section. Phenomenology has no corresponding method page.
@@ -191,7 +191,7 @@ The grouping below is our own analysis `[Our analysis]`.
 
 ## Advice for newcomers
 
-1. **In your first week, read your collaboration's publication policy all the way through.** Pay particular attention to the rules on theses, conference talks, and arXiv; for example, LIGO does not allow a thesis to publish a detection before the collaboration does[^ligo2018publication-e9]. If your group has no written policy, ask your advisor `[Our analysis]`.
+1. **In your first week, read your collaboration's publication policy all the way through.** Pay particular attention to the rules on theses, conference talks, and arXiv; for example, LIGO does not allow a thesis to publish a detection before the collaboration does[^ligo2018publication-e9]. If your group has no written policy, ask your advisor.
 2. **Before you start an analysis, write down the method and how you will blind it.** In a big collaboration, talk to the statistics committee first[^junk2021reproducibility-e16]; after unblinding, don't change the analysis steps[^junk2021reproducibility-e10].
 3. **When you take over someone else's analysis, first reproduce their result.** This is the first thing new students in particle physics do[^junk2021reproducibility-e17].
 4. **When your result agrees with the known value, look for mistakes just as hard.** Agreement does not mean the measurement was right[^roodman2003blind-e4]; the history of electron-charge measurements after Millikan is the cautionary tale[^feynman1974cargo-e14].

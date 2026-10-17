@@ -10,7 +10,7 @@ That is the **synthesis** strategy: instead of collecting new experimental data 
 
 Synthesis produces **a picture of what is already known, taken as a whole**: what the area has studied, what the evidence says when put together, where the gaps are, and what has been done wrong.
 
-Within the same area, a synthesis can make several kinds of claim. Different claims call for different types of review `[Our analysis]`:
+Within the same area, a synthesis can make several kinds of claim. Different claims call for different types of review:
 
 | The claim you want to make (example) | Suitable review type | What it produces |
 |---|---|---|
@@ -23,7 +23,7 @@ Within the same area, a synthesis can make several kinds of claim. Different cla
 
 There is also a familiar kind of review: the related-work section in every paper, where the authors purposefully pick some literature to discuss[^ralph2022paving-e1]. It is good for developing theory and spotting promising topics, but because the papers are hand-picked, it suffers from sampling bias, can't be reproduced, and can't support empirical conclusions like "X causes Y"[^ralph2022paving-e2].
 
-This gives one rule that runs through the whole page `[Our analysis]`: **the stronger the conclusion you want to draw, the more systematic your review has to be.**
+This gives one rule that runs through the whole page: **the stronger the conclusion you want to draw, the more systematic your review has to be.**
 
 Another kind synthesizes the findings of multiple qualitative studies, for example meta-ethnography and narrative synthesis[^ralph2020empirical-e292]. Our sources do not cover how to do it.
 
@@ -35,7 +35,7 @@ In a synthesis, the evidence is **which studies you found, why you included them
 
 A few basics apply to every systematic kind of review: describe the search process and the selection criteria step by step[^ralph2020empirical-e4]; write a protocol before you start searching, so you don't pick papers or run analyses to fit what you expect[^kitchenham2007guidelines-e7]; make the chain of evidence from extracted data to the answer clear, since listing "A found X, B found Y" paper by paper is not synthesis[^ralph2020empirical-e6][^ralph2020empirical-e16]; and assess each study's quality against criteria fixed in advance, not by the prestige of the conference or journal[^ralph2020empirical-e10][^ralph2020empirical-e16]. For how to do each step, see [How to do a systematic review](../06_methods/review_study.md#2-how-to-do-a-systematic-review) and the [Checklist](../06_methods/review_study.md#5-checklist) in the methods page [Review studies](../06_methods/review_study.md).
 
-The extra step this page asks of you: **"enough" means different things for different types of review.** Use the wrong standard and you either waste effort or leave a serious flaw for reviewers to find `[Our analysis]`. Reviewers can get it wrong too, for example by demanding that a critical review "find all the studies" or "exclude low-quality studies"[^ralph2022paving-e20].
+The extra step this page asks of you: **"enough" means different things for different types of review.** Use the wrong standard and you either waste effort or leave a serious flaw for reviewers to find. Reviewers can get it wrong too, for example by demanding that a critical review "find all the studies" or "exclude low-quality studies"[^ralph2022paving-e20].
 
 | Review type | Must the search be exhaustive? | Must each study's quality be appraised? | Key requirement |
 |---|---|---|---|
@@ -51,7 +51,7 @@ So the first thing to do is **state in your paper which type of review you did**
 > - Yes: mapping studies and systematic reviews differ in goals, scope and validity concerns, and the two should complement each other; mapping studies are useful in more situations than people usually assume[^petersen2008systematic-e7].
 > - Not enough: a mostly descriptive scoping review (that is, a mapping study) usually lacks synthesis and can't answer important empirical questions[^ralph2022paving-e4]. The two authors, writing about software engineering, say that mostly descriptive scoping reviews are "essentially works-in-progress" and should go to workshops, poster sessions or short-paper tracks; if the literature does support synthesis, a scoping review is more like a pilot study for a full systematic review[^ralph2022paving-e5].
 >
-> What this means for you `[Our analysis]`: a mapping study is useful in itself, but if you are aiming at a main conference track or a journal, it is better to go one step beyond categories and counts and actually synthesize conclusions.
+> What this means for you: a mapping study is useful in itself, but if you are aiming at a main conference track or a journal, it is better to go one step beyond categories and counts and actually synthesize conclusions.
 
 **Write it down:** Write down the review type you chose and, column by column from the table above, how far you plan to go: which sources you will search, whether you will appraise quality, and how you will meet the key requirement.
 
@@ -68,7 +68,7 @@ For how to do it, see these methods pages:
 
 ## 4. How it shapes the whole project
 
-Once you choose synthesis, every stage of the project looks a bit different from the other strategies `[Our analysis]`:
+Once you choose synthesis, every stage of the project looks a bit different from the other strategies:
 
 | Stage | What is different in a synthesis project |
 |---|---|

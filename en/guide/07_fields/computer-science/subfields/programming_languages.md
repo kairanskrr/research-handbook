@@ -9,7 +9,7 @@ Programming languages research studies how to design, implement, analyze, and ve
 - **PLDI** (the Conference on Programming Language Design and Implementation) invites papers on all aspects of programming language research, including design, implementation, theory, applications, and performance; novel system designs, thorough empirical work, well-motivated theoretical results, and new application areas are all in scope[^pldi2026cfp-e1].
 - **POPL** (the Symposium on Principles of Programming Languages) accepts both theoretical and experimental papers, from formal frameworks to experience reports; it wants work that makes principled, enduring contributions to the theory, design, understanding, implementation, or application of programming languages[^popl2026cfp-e1].
 
-Examples of typical questions `[Our analysis]`:
+Examples of typical questions:
 
 - Can a new type system guarantee that a certain class of errors is ruled out before the program runs? That calls for **proof**.
 - How much faster does a new compiler optimization make programs? That calls for **building and improving**, followed by benchmarking.
@@ -26,9 +26,9 @@ A single paper often has both proofs and experiments.
 - OOPSLA (the conference on Object-Oriented Programming, Systems, Languages, and Applications)
 - PLDI and POPL
 
-You can treat these as examples of the area's main venues `[Our analysis]`.
+You can treat these as examples of the area's main venues.
 
-**PLDI and POPL 2026 papers are published in a journal.** PLDI 2026 papers appear in the PLDI issue of PACMPL (Proceedings of the ACM on Programming Languages, a programming languages journal published by the ACM), and the authors are invited to present at the conference[^pldi2026cfp-e2]. POPL 2026 works the same way: to meet ACM's requirements for journal publication, accepted papers are first "conditionally accepted", and the original reviewers confirm whether the revisions are adequate[^popl2026cfp-e7]. So both conferences have a round of "revise according to the reviews", unlike conferences that make a single decision `[Our analysis]`.
+**PLDI and POPL 2026 papers are published in a journal.** PLDI 2026 papers appear in the PLDI issue of PACMPL (Proceedings of the ACM on Programming Languages, a programming languages journal published by the ACM), and the authors are invited to present at the conference[^pldi2026cfp-e2]. POPL 2026 works the same way: to meet ACM's requirements for journal publication, accepted papers are first "conditionally accepted", and the original reviewers confirm whether the revisions are adequate[^popl2026cfp-e7]. So both conferences have a round of "revise according to the reviews", unlike conferences that make a single decision.
 
 **PLDI 2026 and POPL 2026 as examples.** The table below lists only the rules in these two calls for papers, not conventions for the whole area; other years and other conferences will differ, so **read your target conference's call for papers for the current year before submitting**.
 
@@ -43,13 +43,13 @@ You can treat these as examples of the area's main venues `[Our analysis]`.
 | Preprints | You may submit work already posted on arXiv[^pldi2026cfp-e8] | You may post on a personal website, an institutional repository, or arXiv[^popl2026cfp-e5] |
 | Artifact evaluation | Voluntary and does not affect acceptance[^pldi2026cfp-e12]; at submission you must say whether you intend to submit an artifact[^pldi2026cfp-e13] | Strongly encouraged but voluntary, and does not affect acceptance[^popl2026cfp-e9] |
 
-**Supplementary material can't replace the main text.** Both conferences allow supplementary material in 2026, but both say reviewers are not required to read it[^pldi2026cfp-e11][^popl2026cfp-e4]. So the theorem statements and key experimental results that support your central claims belong in the main text; supplementary material is for details `[Our analysis]`.
+**Supplementary material can't replace the main text.** Both conferences allow supplementary material in 2026, but both say reviewers are not required to read it[^pldi2026cfp-e11][^popl2026cfp-e4]. So the theorem statements and key experimental results that support your central claims belong in the main text; supplementary material is for details.
 
 ## Common strategies and standards of evidence
 
 For empirical evaluation in this area, you can check your work against the **SIGPLAN Empirical Evaluation Checklist** (the "SIGPLAN checklist" below). SIGPLAN wrote it for empirical evaluation in this area, and PLDI 2026 explicitly encourages authors of empirical papers to prepare their submissions according to its seven categories[^pldi2026cfp-e3]. The checklist is meant to support judgment, not replace it[^blackburn2018sigplan-e14].
 
-For strategies and standards of evidence shared across computer science, see [Computer science field overview: common strategies and standards of evidence](../README.md#common-strategies-and-standards-of-evidence). The table below adds only what needs particular care in programming languages; it is our own summary, with the facts in each cell supported by the footnotes `[Our analysis]`.
+For strategies and standards of evidence shared across computer science, see [Computer science field overview: common strategies and standards of evidence](../README.md#common-strategies-and-standards-of-evidence). The table below adds only what needs particular care in programming languages; it is our own summary, with the facts in each cell supported by the footnotes.
 
 | Strategy | What it looks like in this area | What needs particular care | How to do it |
 |---|---|---|---|
@@ -58,17 +58,17 @@ For strategies and standards of evidence shared across computer science, see [Co
 | [Proof](../../../05_research-strategies/prove.md) | Type soundness, language semantics, program verification | Proof details and proof scripts can go in as supplementary material (POPL 2026)[^popl2026cfp-e4], but the theorems themselves must be in the main text | [Theoretical research](../practices/theoretical_research.md) |
 | [Description](../../../05_research-strategies/observe_describe.md) | How language features are used in real programs; how developers use languages and tools | Judged by the standards of the method used; PLDI 2026 lists thorough empirical work as in scope[^pldi2026cfp-e1] | [Mining software repositories](../practices/repository_mining.md), [Controlled experiments](../../../06_methods/controlled_experiment.md) |
 
-Many papers have both proofs and experiments: for example, first proving an analysis sound, then measuring its speed and precision on real programs. In that case each part is held to its own standard `[Our analysis]`.
+Many papers have both proofs and experiments: for example, first proving an analysis sound, then measuring its speed and precision on real programs. In that case each part is held to its own standard.
 
 ## Conventions specific to this area
 
-**1. State your claims explicitly.** Only when a claim is stated explicitly can readers judge whether the experiments support it[^blackburn2018sigplan-e1]. "Significantly faster" is not enough: say on which programs, compared with what, and by how much `[Our analysis]`.
+**1. State your claims explicitly.** Only when a claim is stated explicitly can readers judge whether the experiments support it[^blackburn2018sigplan-e1]. "Significantly faster" is not enough: say on which programs, compared with what, and by how much.
 
 **2. Report the full distribution of performance results, and the costs.** Some of the SIGPLAN checklist's requirements:
 
 - Reporting only a mean or median can mislead readers, especially when the distribution is bimodal or highly variable[^blackburn2018sigplan-e8].
 - Summarizing speedups of 4%, 6%, 7%, and 49% as "up to 49% faster" is not acceptable; report the full distribution[^blackburn2018sigplan-e9].
-- Measure all the important effects, to show the system's true cost[^blackburn2018sigplan-e21]. For example, if an optimization makes programs run faster but makes compilation slower, report compile time too `[Our analysis]`.
+- Measure all the important effects, to show the system's true cost[^blackburn2018sigplan-e21]. For example, if an optimization makes programs run faster but makes compilation slower, report compile time too.
 - Give all parameters (including defaults), the version numbers of all software, and full details of the hardware platform[^blackburn2018sigplan-e22].
 
 For how to repeat measurements, how to keep factors such as link order from quietly favoring one system, and how to handle warm-up, see [Systems](systems.md#conventions-specific-to-this-area) and [Benchmarking: designing the measurement process](../practices/benchmarking.md#step-4-design-the-measurement-procedure).
@@ -77,9 +77,9 @@ For how to repeat measurements, how to keep factors such as link order from quie
 
 **4. Take anonymity seriously, but don't let it lower quality.** PLDI 2026 notes that if your paper is the first to introduce a well-known system, or the system's name would identify the authors, you should use a different name in the submission, and you may note that it was changed for double-blind review[^pldi2026cfp-e7]. POPL 2026 stresses that you should not lower the quality of your submission for the sake of anonymity[^popl2026cfp-e5].
 
-**5. The author response is not the place to add experiments.** POPL 2026 says the response may not present new technical results[^popl2026cfp-e6]. So finish the key proofs and experiments before you submit `[Our analysis]`. For how to write a response in general, see [Reviews, revision, and what to do after rejection](../../../03_write-and-publish/03_review-and-revision.md#4-writing-an-author-response-for-a-conference).
+**5. The author response is not the place to add experiments.** POPL 2026 says the response may not present new technical results[^popl2026cfp-e6]. So finish the key proofs and experiments before you submit. For how to write a response in general, see [Reviews, revision, and what to do after rejection](../../../03_write-and-publish/03_review-and-revision.md#4-writing-an-author-response-for-a-conference).
 
-**6. Artifact evaluation is separate from acceptance, but prepare early.** At both PLDI 2026 and POPL 2026, artifact evaluation is voluntary and does not affect whether the paper is accepted[^pldi2026cfp-e12][^popl2026cfp-e9]. It checks whether the claims and evidence in the paper are consistent with the artifact[^blackburn2018sigplan-e31]. PLDI 2026 asks you to say at submission whether you intend to submit an artifact[^pldi2026cfp-e13], so organize your code and proof scripts to the standard of "someone else can run this" while you are writing them `[Our analysis]`. For what the badges mean, see the [computer science field overview](../README.md#artifact-evaluation-and-badges).
+**6. Artifact evaluation is separate from acceptance, but prepare early.** At both PLDI 2026 and POPL 2026, artifact evaluation is voluntary and does not affect whether the paper is accepted[^pldi2026cfp-e12][^popl2026cfp-e9]. It checks whether the claims and evidence in the paper are consistent with the artifact[^blackburn2018sigplan-e31]. PLDI 2026 asks you to say at submission whether you intend to submit an artifact[^pldi2026cfp-e13], so organize your code and proof scripts to the standard of "someone else can run this" while you are writing them. For what the badges mean, see the [computer science field overview](../README.md#artifact-evaluation-and-badges).
 
 **7. Declare conflicts of interest honestly.** PLDI 2026 states that declaring false conflicts in order to exclude certain reviewers may lead to rejection[^pldi2026cfp-e9].
 

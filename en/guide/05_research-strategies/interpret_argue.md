@@ -10,7 +10,7 @@ This is **interpretation and argument**: producing new understanding by interpre
 
 ## 1. What kind of knowledge this research produces
 
-**The central claim looks like this: "X should be understood this way (or: this argument holds up, or doesn't), because …"** By the kind of knowledge produced, there are roughly four types. The categories and examples in the table below are this handbook's own summary; the examples are hypothetical, not real research findings `[Our analysis]`:
+**The central claim looks like this: "X should be understood this way (or: this argument holds up, or doesn't), because …"** By the kind of knowledge produced, there are roughly four types. The categories and examples in the table below are this handbook's own summary; the examples are hypothetical, not real research findings:
 
 | Type of knowledge | Question it answers | What the claim looks like (hypothetical example) | Typical fields |
 |---|---|---|---|
@@ -29,7 +29,7 @@ Here is how several sources describe this kind of research in their own fields:
 
 **There is no single right answer, but some answers are better than others.** Having no single right answer does not mean that anything you say about a text goes[^uncwritinglit-e2]. Interpretations also change as scholarship accumulates: according to the American Historical Association's standards, historians reanalyze primary documents in the light of a growing body of secondary scholarship, so interpretations of the same record keep changing[^aha2023standards-e16]. In philosophy, a debate is usually not settled by a single paper: the best philosophical work often provokes debate rather than resolving it[^apaphil1996research-e4]; the premises of an argument are seldom completely beyond question, so an argument is usually not conclusive[^pryor2025terms-e12].
 
-**How it differs from neighboring strategies** `[Our analysis]`:
+**How it differs from neighboring strategies**:
 
 | | Interpretation and argument | [Description](observe_describe.md) | [Causal explanation](explain_causality.md) | [Proof](prove.md) |
 |---|---|---|---|---|
@@ -37,7 +37,7 @@ Here is how several sources describe this kind of research in their own fields:
 | Main evidence | Texts, sources, norms, works, plus reasoning | Systematically collected observations | A design that rules out alternative explanations | A proof |
 | How others check it | Retrace your argument and check every citation | Repeat the observations | Repeat the experiment or analysis | Check every step of the derivation |
 
-Some boundaries `[Our analysis]`:
+Some boundaries:
 
 - **Historical research is often mixed**: first you use archives to reconstruct what happened (description), then you argue for an interpretation. Your central claim decides the main strategy; do the reconstruction to the standards of description.
 - **When you ask "why did it happen?"**, your claim becomes causal. Process tracing in political science stresses spelling out hypotheses about causal mechanisms explicitly so they can be rigorously tested[^bennett2012process-e7]. If your central claim is causal, also check it against the standards of [Causal explanation](explain_causality.md).
@@ -48,7 +48,7 @@ Some boundaries `[Our analysis]`:
 
 ## 2. What evidence is enough
 
-Ask yourself: **where would a colleague who knows the same material but reads it differently find fault with you?** You can check the five areas below one by one `[Our analysis]`.
+Ask yourself: **where would a colleague who knows the same material but reads it differently find fault with you?** You can check the five areas below one by one.
 
 ### Use primary sources, and scrutinize them first
 
@@ -58,7 +58,7 @@ Ask yourself: **where would a colleague who knows the same material but reads it
 
 ### Let others check your work
 
-You can't "run the experiment again" with interpretation and argument. The results of doctrinal analysis vary with the scholar's expertise, so others cannot replicate them exactly[^hutchinson2012defining-e14]; but the step of locating the sources of law is easy for others to replicate[^hutchinson2012defining-e30]. So "checkable" here means others can follow your citations to the same materials and retrace your reasoning `[Our analysis]`.
+You can't "run the experiment again" with interpretation and argument. The results of doctrinal analysis vary with the scholar's expertise, so others cannot replicate them exactly[^hutchinson2012defining-e14]; but the step of locating the sources of law is easy for others to replicate[^hutchinson2012defining-e30]. So "checkable" here means others can follow your citations to the same materials and retrace your reasoning.
 
 - **Write notes that let others retrace your steps.** According to the American Historical Association's standards, notes and bibliographies let other historians retrace every step of an argument[^aha2023standards-e3]; the sloppier your notes, the harder it is for colleagues to trust you[^aha2023standards-e4]. For how to record locations while working in an archive, see [Archival research, step 6](../06_methods/archival_research.md#step-6-organize-and-cite).
 - **Be ready to share your materials.** The American Historical Association requires historians to be prepared to make available the sources, evidence, and data they used[^aha2023standards-e15]; the College Art Association's *Standards and Guidelines for the Practice of Art History* requires the same, and requires credit for the sources of photographs[^caa2014standards-e1][^caa2014standards-e3].
@@ -84,14 +84,14 @@ You can't "run the experiment again" with interpretation and argument. The resul
 Working out how your view relates to the views of existing scholars is called "positioning your argument", and it can greatly increase the significance of your work[^cronon2009learning-e23]. Your thesis is often itself a counterargument to someone else's argument[^harvardwccounterargument-e7].
 
 - **Avoid the obvious conclusion**[^uncwritinglit-e4]; your thesis should be able to answer "so what?"[^uncwritinglit-e9] Ask yourself: can you say what this paper adds to our understanding of the question[^harvardwcthesis-e6]?
-- **Say which step forward you are taking.** A law article can distinguish settled law from law that is still emerging[^hutchinson2012defining-e22], or bring several lines of cases together to expose an unjustified inconsistency[^hutchinson2012defining-e23]. In philosophy, moving a debate one step forward is a contribution in itself `[Our analysis]`.
+- **Say which step forward you are taking.** A law article can distinguish settled law from law that is still emerging[^hutchinson2012defining-e22], or bring several lines of cases together to expose an unjustified inconsistency[^hutchinson2012defining-e23]. In philosophy, we would count moving a debate one step forward as a contribution in itself.
 - **State your limitations.** The record of the past is fragmentary, so absolute historical knowledge is impossible[^aha2023standards-e14].
 
 **Write it down:** List the three to five pieces of evidence your claim depends on most. Next to each, write one sentence: where it comes from, how others can find it, and whether there is material that points the other way.
 
 ## 3. Common research methods
 
-The table below is this handbook's own classification `[Our analysis]`; statements that have a source are footnoted separately.
+The table below is this handbook's own classification; statements that have a source are footnoted separately.
 
 | Method | When to use it | Notes |
 |---|---|---|
@@ -102,13 +102,13 @@ The table below is this handbook's own classification `[Our analysis]`; statemen
 | [Doctrinal legal research](../07_fields/law/practices/doctrinal_research.md) | Establishing what the law is, evaluating current law, proposing reform | Usually two steps: first locate the sources of law, then interpret and analyze the texts[^hutchinson2012defining-e6]. The tools for working with case law apply only to common law countries; see the scope note at the top of that page |
 | [Process tracing and comparative case studies](../06_methods/process_tracing.md) | Your claim is "why did it happen", and you need to test several rival explanations one by one | Mainly serves causal explanation; you need to test explanations that historians and others have offered for the same case[^bennett2012process-e26] |
 
-**Why archival research and oral history are listed here.** Both methods yield primary materials, and the materials are not conclusions in themselves: the sources cited in those two rows both require you to examine the materials alongside other evidence before using them to build or refute an argument. That is why this handbook files them under interpretation and argument. If you use archives only to reconstruct what happened, follow the standards of [Description](observe_describe.md); if you use them to test a causal explanation, also see [Causal explanation](explain_causality.md) `[Our analysis]`.
+**Why archival research and oral history are listed here.** Both methods yield primary materials, and the materials are not conclusions in themselves: the sources cited in those two rows both require you to examine the materials alongside other evidence before using them to build or refute an argument. That is why this handbook files them under interpretation and argument. If you use archives only to reconstruct what happened, follow the standards of [Description](observe_describe.md); if you use them to test a causal explanation, also see [Causal explanation](explain_causality.md).
 
 Religious studies can draw on many methods, including literary criticism, anthropology, sociology, and history[^aar2019literacy-e2]. Methods and strategies are two separate layers, and one method can serve different strategies; see [Choosing a method](../02_do-the-project/02_choose-method.md).
 
 ## 4. How it shapes the whole project
 
-Most chapters in Part 1 and Part 2 use experimental research as their example. With interpretation and argument, "experiments" become working in archives, close reading, finding sources of law, and reconstructing arguments; "data" becomes the texts and sources you cite. The table below lists what to watch for at each stage `[Our analysis]`; statements that have a source are footnoted separately:
+Most chapters in Part 1 and Part 2 use experimental research as their example. With interpretation and argument, "experiments" become working in archives, close reading, finding sources of law, and reconstructing arguments; "data" becomes the texts and sources you cite. The table below lists what to watch for at each stage; statements that have a source are footnoted separately:
 
 | Stage | What to watch for in interpretation and argument |
 |---|---|
@@ -131,7 +131,7 @@ This lists only fields our sources give evidence for; our sources do not cover i
 - **Philosophy and ethics**: according to the American Philosophical Association's statement, philosophy papers are rarely reports of empirical research[^apaphil1996research-e12], and what matters most is the quality of the reasoning[^apaphil1996research-e9]. See [Philosophy, ethics, and religion](../07_fields/philosophy-ethics-religion/README.md).
 - **Theology and religious studies**: philosophers and theologians both interpret authoritative texts, make arguments, and marshal evidence[^wood2021philosophy-e1]; on one view presented in a *Stanford Encyclopedia of Philosophy* entry, theologians may treat revelation as evidence, while philosophers may appeal only to premises and evidence available to any rational inquirer[^wood2021philosophy-e4].
 - **Law**: the several reports on legal research that Hutchinson and Duncan review all regard doctrinal research as the most accepted research method in law[^hutchinson2012defining-e5]. See [Law](../07_fields/law/README.md).
-- **Art history, musicology, theater studies**[^oecd2015frascati-e12]: source criticism and archival work are much as in history `[Our analysis]`. See [Arts](../07_fields/arts/README.md).
+- **Art history, musicology, theater studies**[^oecd2015frascati-e12]: source criticism and archival work are much as in history. See [Arts](../07_fields/arts/README.md).
 
 ## 6. Common mistakes
 

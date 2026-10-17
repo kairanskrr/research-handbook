@@ -11,7 +11,7 @@ Two typical questions:
 - **Is a new technique easier to use?** For example, a new menu designed to reduce selection errors usually calls for a careful experiment comparing its error rate with other menus[^chi2026papers-e37].
 - **How do people work in a given situation?** For example, in an experiment Mark et al. published at CHI in 2008, 48 participants handled email in a simulated office environment in the lab and were interrupted every two minutes[^mark2008cost-e2]. They found that people completed interrupted tasks faster, but at the cost of more stress and frustration[^mark2008cost-e1].
 
-So within a single area, some people build things, some run experiments, and some do interviews and ethnography. To judge whether a paper is good enough, first work out what kind of contribution it makes `[Our analysis]`.
+So within a single area, some people build things, some run experiments, and some do interviews and ethnography. To judge whether a paper is good enough, first work out what kind of contribution it makes.
 
 ## Main venues and timeline
 
@@ -34,7 +34,7 @@ CHI papers are essentially reviewed as submitted; papers that need major changes
 
 ## Common strategies and standards of evidence
 
-The table below is our own summary, based on the CHI 2026 guidelines and other human-computer interaction sources; each standard speaks only for the source in its footnote `[Our analysis]`.
+The table below is our own summary, based on the CHI 2026 guidelines and other human-computer interaction sources; each standard speaks only for the source in its footnote.
 
 | Strategy | What it looks like in this area | Evidence this area particularly values | How to do it |
 |---|---|---|---|
@@ -64,7 +64,7 @@ CHI 2026 also added an "assisted desk reject": papers that are out of scope, or 
 >
 > CHI 2026 itself says that how you demonstrate quality depends on the type of contribution: an improvement to a known technique usually calls for a careful experiment, while a system that supports a new way of collaborating might be evaluated under real-world conditions[^chi2026papers-e37]. Greenberg and Buxton's advice: for a truly novel innovation, an "existence proof" may be enough; for mainstream systems or small changes to established ideas, run tests that could prove it wrong[^greenberg2008usability-e4].
 >
-> In practice: first work out which kind of contribution you are making, then choose a validation that fits it, and explain in the paper why you chose it `[Our analysis]`.
+> In practice: first work out which kind of contribution you are making, then choose a validation that fits it, and explain in the paper why you chose it.
 
 ### Transparency and sharing materials
 

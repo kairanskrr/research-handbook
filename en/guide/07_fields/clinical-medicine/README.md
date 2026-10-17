@@ -28,40 +28,40 @@ In practice, this means a few hard checkpoints:
 
 A physician may also be the researcher, and the participants may be the physician's own patients. The Declaration sets specific limits on this: physicians may involve their own patients in research only if the study has potential preventive, diagnostic, or therapeutic value and the physician has good reason to believe that taking part will not harm the patients' health[^wma2024helsinki-e3].
 
-Patients depend on their doctors and may find it hard to say no `[Our analysis]`. So the Declaration requires that when a participant is in a dependent relationship with the researcher, or may consent under pressure, consent should be sought by an appropriately qualified person who is independent of that relationship[^wma2024helsinki-e8].
+Patients depend on their doctors and may find it hard to say no. So the Declaration requires that when a participant is in a dependent relationship with the researcher, or may consent under pressure, consent should be sought by an appropriately qualified person who is independent of that relationship[^wma2024helsinki-e8].
 
 ### Register before you enroll the first patient
 
-This is one of the most distinctive rules in clinical medicine `[Our analysis]`. The Declaration requires that medical research involving human participants be registered in a publicly accessible database before the first participant is recruited[^wma2024helsinki-e9]. The ICMJE recommends that all medical journal editors require, as a condition of considering a trial for publication, registration in a public trial registry at or before the time the first patient gives consent to enroll[^icmje2026recommendations-e15].
+This is one of the most distinctive rules in clinical medicine. The Declaration requires that medical research involving human participants be registered in a publicly accessible database before the first participant is recruited[^wma2024helsinki-e9]. The ICMJE recommends that all medical journal editors require, as a condition of considering a trial for publication, registration in a public trial registry at or before the time the first patient gives consent to enroll[^icmje2026recommendations-e15].
 
 Some common misunderstandings:
 
 - **"Clinical trial" is broader than you think.** The ICMJE defines it as any research project that prospectively assigns people to an intervention to study the relationship between that intervention and a health outcome, with or without a comparison or control group[^icmje2026recommendations-e16]. Interventions are not only drugs, surgery, and devices; they also include behavioral treatments, educational programs, dietary interventions, quality improvement interventions, process-of-care changes, and more[^icmje2026recommendations-e17].
 - **Ethics approval is not registration.** They are two separate things, and you need both[^icmje2026recommendations-e18].
 - **Registering after the fact is useless.** Registration exists to prevent selective publication and selective outcome reporting, to avoid unnecessary duplication of research, and to let patients and the public know which trials are planned or under way that they could join[^icmje2026recommendations-e19]; registering at submission time achieves none of these[^icmje2026recommendations-e20].
-- **For non-trial studies (observational studies, for example), the ICMJE encourages but does not require registration.** The reason is that the exposure or intervention in such studies (smoking, for example) is not assigned by the researcher[^icmje2026recommendations-e21]. Note that the Declaration's registration requirement covers all medical research involving human participants[^wma2024helsinki-e9], which is broader than what the ICMJE makes mandatory `[Our analysis]`.
+- **For non-trial studies (observational studies, for example), the ICMJE encourages but does not require registration.** The reason is that the exposure or intervention in such studies (smoking, for example) is not assigned by the researcher[^icmje2026recommendations-e21]. Note that the Declaration's registration requirement covers all medical research involving human participants[^wma2024helsinki-e9], which is broader than what the ICMJE makes mandatory.
 
-Why so strict? Ioannidis argued in a 2005 essay that the more flexibility a field allows in designs, definitions, outcomes, and analyses, the less likely its findings are to be true, and the easier it is to turn "negative" results into "positive" ones[^ioannidis2005why-e1]. He suggested that for designs such as randomized trials, registering in advance might help[^ioannidis2005why-e3]. This is an essay, and its conclusions come from a probability model, not from counting published studies; when you cite it, do not say it "proved that most medical research is false" `[Our analysis]`.
+Why so strict? Ioannidis argued in a 2005 essay that the more flexibility a field allows in designs, definitions, outcomes, and analyses, the less likely its findings are to be true, and the easier it is to turn "negative" results into "positive" ones[^ioannidis2005why-e1]. He suggested that for designs such as randomized trials, registering in advance might help[^ioannidis2005why-e3]. This is an essay, and its conclusions come from a probability model, not from counting published studies (our judgment after reading it in full); when you cite it, do not say it "proved that most medical research is false".
 
 ### Publishing is mostly in journals, and the rules are fairly uniform
 
-Clinical medicine publishes mainly in journals `[Our analysis]`. The ICMJE's *Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals* (the "ICMJE Recommendations" below) is a public rule document. Many journals that are not ICMJE members adopt it voluntarily, but the ICMJE cannot enforce it; authors should use it together with each journal's instructions for authors[^icmje2026recommendations-e1]. So reading the ICMJE Recommendations once gives you many of the basic requirements that medical journals share `[Our analysis]`.
+Clinical medicine publishes mainly in journals. The ICMJE's *Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals* (the "ICMJE Recommendations" below) is a public rule document. Many journals that are not ICMJE members adopt it voluntarily, but the ICMJE cannot enforce it; authors should use it together with each journal's instructions for authors[^icmje2026recommendations-e1]. So reading the ICMJE Recommendations once gives you many of the basic requirements that medical journals share.
 
-**Preprints** (manuscripts made public before formal publication): policies vary among medical journals `[Our analysis]`. Check the target journal's policy before posting one[^icmje2026recommendations-e13], and when you submit, tell the journal about the preprint and give its link[^icmje2026recommendations-e14].
+**Preprints** (manuscripts made public before formal publication): policies vary among medical journals. Check the target journal's policy before posting one[^icmje2026recommendations-e13], and when you submit, tell the journal about the preprint and give its link[^icmje2026recommendations-e14].
 
 **Make all results public, including negative ones.** The Declaration requires negative and inconclusive results to be made public just like positive ones[^wma2024helsinki-e10]. The ICMJE Recommendations note that some consider failure to publish the results of clinical trials and other human studies a form of research misconduct[^icmje2026recommendations-e12]. Why you should report all your results is covered in [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#2-be-honest-with-the-evidence-dont-fool-yourself-report-all-results) in Throughout the project.
 
 ### Projects are long and often multicenter
 
-Clinical research moves slowly `[Our analysis]`: a cohort study follows a group of people over time to see whether outcomes occur[^vandenbroucke2007strobe-e1]; a trial takes time at every step, from writing the protocol, ethics review, and registration to recruitment and follow-up, and how long depends on the study `[Our analysis]`.
+Clinical research moves slowly: a cohort study follows a group of people over time to see whether outcomes occur[^vandenbroucke2007strobe-e1]; a trial takes time at every step, from writing the protocol, ethics review, and registration to recruitment and follow-up, and how long depends on the study.
 
-Large studies are often run by many hospitals, sometimes across countries `[Our analysis]`. This affects both authorship and ethics: large multi-author groups should ideally decide who will be an author before the work starts[^icmje2026recommendations-e6]; contributors who do not qualify for authorship can be acknowledged under a group name such as "Clinical Investigators", with each person's contribution specified[^icmje2026recommendations-e8]; and international studies need approval from ethics committees in several countries[^wma2024helsinki-e5].
+Large studies are often run by many hospitals, sometimes across countries. This affects both authorship and ethics: large multi-author groups should ideally decide who will be an author before the work starts[^icmje2026recommendations-e6]; contributors who do not qualify for authorship can be acknowledged under a group name such as "Clinical Investigators", with each person's contribution specified[^icmje2026recommendations-e8]; and international studies need approval from ethics committees in several countries[^wma2024helsinki-e5].
 
 ---
 
 ## How this field differs from others
 
-The table below compares clinical medicine with the [Computer science page](../computer-science/README.md). The clinical medicine column rests on its footnotes; the computer science column is our own summary of the Computer science page, which has the details `[Our analysis]`:
+The table below compares clinical medicine with the [Computer science page](../computer-science/README.md). The clinical medicine column rests on its footnotes; the computer science column is our own summary of the Computer science page, which has the details:
 
 | | Clinical medicine | Computer science |
 |---|---|---|
@@ -128,7 +128,7 @@ Clinical medicine has no method pages of its own; the methods it commonly uses a
 | Case-control study | Compare past exposures of people who have a disease (cases) with people who do not (controls)[^vandenbroucke2007strobe-e2] |
 | Cross-sectional study | Survey a sample at a single point in time, often to estimate the prevalence of exposures, risk factors, or disease[^vandenbroucke2007strobe-e3]; it is hard to establish that the exposure came before the disease[^vandenbroucke2007strobe-e4] |
 | Case report | A report on the care of a single patient, a sample size of one[^gagnier2013care-e7]; it can generate hypotheses[^gagnier2013care-e1] but can rarely establish causality[^gagnier2013care-e6] |
-| Systematic review and meta-analysis | A systematic review is a process of selecting existing studies according to a defined procedure; a meta-analysis statistically combines the results of several studies into a single effect size[^murad2016new-e7]. For how to do one, see [Systematic reviews and meta-analysis (health research)](../../06_methods/meta_analysis.md) and [Review studies](../../06_methods/review_study.md); the process carries over `[Our analysis]`; in clinical medicine, report according to PRISMA 2020[^page2021prisma-e1] |
+| Systematic review and meta-analysis | A systematic review is a process of selecting existing studies according to a defined procedure; a meta-analysis statistically combines the results of several studies into a single effect size[^murad2016new-e7]. For how to do one, see [Systematic reviews and meta-analysis (health research)](../../06_methods/meta_analysis.md) and [Review studies](../../06_methods/review_study.md); the process carries over; in clinical medicine, report according to PRISMA 2020[^page2021prisma-e1] |
 
 **Randomized trials cannot answer every question.** Observational studies are better at detecting rare or late adverse effects, and better reflect how treatments work in everyday medical practice[^vonelm2007strobe-e1]. Case reports have their place too: the link between thalidomide and birth defects was first discovered through case reports[^gagnier2013care-e2].
 
@@ -148,7 +148,7 @@ But Murad and colleagues point out that design alone is not enough to judge risk
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge, chosen from its central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists three strategies clinical medicine commonly uses. The grouping and the "What it looks like in clinical medicine" column are our own summary; our sources do not cover the other strategies `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge, chosen from its central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists three strategies clinical medicine commonly uses. The grouping and the "What it looks like in clinical medicine" column are our own summary; our sources do not cover the other strategies.
 
 | Strategy | What it looks like in clinical medicine | Common evidence and standards | How to do it |
 |---|---|---|---|
@@ -156,7 +156,7 @@ A **research strategy** is the main logic by which a project produces new knowle
 | [Description](../../05_research-strategies/observe_describe.md) | Cross-sectional studies estimate prevalence[^vandenbroucke2007strobe-e3]; case reports describe the care of a single patient[^gagnier2013care-e7] | In cross-sectional studies it is hard to establish that the exposure came before the disease[^vandenbroucke2007strobe-e4]; case reports can generate hypotheses but can rarely establish causality[^gagnier2013care-e1][^gagnier2013care-e6]; report according to STROBE[^vonelm2007strobe-e2] and CARE[^gagnier2013care-e5] respectively | [Observational epidemiology](../../06_methods/observational_epidemiology.md) |
 | [Synthesis](../../05_research-strategies/synthesize.md) | Systematic reviews and meta-analyses[^murad2016new-e7] | Report according to PRISMA 2020[^page2021prisma-e1]; the strength of the evidence depends on the quality of the included studies, not just their design[^murad2016new-e5] | [Systematic reviews and meta-analysis (health research)](../../06_methods/meta_analysis.md) |
 
-How to use this table `[Our analysis]`: start from your central claim to find the strategy. "Comparing two treatments" looks like [Comparative evaluation](../../05_research-strategies/compare_evaluate.md), but questions about the effects of interventions are usually framed with PICO (Population, Intervention, Comparison, Outcome)[^higgins2024cochrane-e5], and in clinical medicine they usually have to be designed to the standards of Causal explanation. When you cite levels of evidence, look at study quality, not just the name of the design; see [The evidence pyramid](#the-evidence-pyramid-useful-but-do-not-apply-it-mechanically) above.
+How to use this table: start from your central claim to find the strategy. "Comparing two treatments" looks like [Comparative evaluation](../../05_research-strategies/compare_evaluate.md), but questions about the effects of interventions are usually framed with PICO (Population, Intervention, Comparison, Outcome)[^higgins2024cochrane-e5], and in clinical medicine they usually have to be designed to the standards of Causal explanation. When you cite levels of evidence, look at study quality, not just the name of the design; see [The evidence pyramid](#the-evidence-pyramid-useful-but-do-not-apply-it-mechanically) above.
 
 ---
 
@@ -179,7 +179,7 @@ How to use this table `[Our analysis]`: start from your central claim to find th
 | Adding your advisor or department head as an honorary author | General supervision or acquiring funding alone does not qualify for authorship[^icmje2026recommendations-e7] |
 | Obtaining informed consent from your own patients yourself | When there is a dependent relationship, an independent qualified person should obtain consent[^wma2024helsinki-e8] |
 | Writing "undecided" in the data sharing statement | The ICMJE does not accept this answer[^icmje2026recommendations-e23] |
-| Citing Ioannidis 2005 as having "proved that most research is false" | It is a model-based argument, not an empirical measurement `[Our analysis]` |
+| Citing Ioannidis 2005 as having "proved that most research is false" | It is a model-based argument, not an empirical measurement |
 
 ---
 

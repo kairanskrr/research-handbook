@@ -2,7 +2,7 @@
 
 This page explains how research in media and communication (communication research, for short) actually works: how to do a content analysis, how to report intercoder reliability, how to use online and social media data ethically, how to cope with the fact that platform data is hard to get, and how far open science reform has come in this field. Practices shared by every field (choosing a topic, research design, writing, peer review, research ethics) are covered in the chapters listed in [The research journey at a glance](../../00_start-here/research-journey.md) and in [Throughout the project](../../08_throughout/README.md), and are not repeated here. For the research strategies communication research commonly uses and the evidence each one needs, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence); for specific methods, see [Research methods common in this field](#research-methods-common-in-this-field) at the end.
 
-The norms on this page come mainly from three places: the journals, annual conference, and code of ethics of the International Communication Association (ICA); the internet research ethics guidelines of one scholarly association, the Association of Internet Researchers (AoIR); and one European Union regulation. Each is the rule of one organization in one year. Other countries, associations, and institutions have their own rules; follow your local requirements and your target journal `[Our analysis]`.
+The norms on this page come mainly from three places: the journals, annual conference, and code of ethics of the International Communication Association (ICA); the internet research ethics guidelines of one scholarly association, the Association of Internet Researchers (AoIR); and one European Union regulation. Each is the rule of one organization in one year. Other countries, associations, and institutions have their own rules; follow your local requirements and your target journal.
 
 **After reading this page, you should be able to:**
 
@@ -18,7 +18,7 @@ The norms on this page come mainly from three places: the journals, annual confe
 
 ### A methodologically diverse field
 
-ICA's Open Scholarship page says the field is highly diverse both epistemologically and methodologically[^icaopenscholarship-e1]. The submission page for ICA's 2026 conference notes that ICA has 33 divisions and interest groups[^ica2026conference-e11]. As a beginner you will most often meet four kinds of work: content analysis (coding large amounts of media content, item by item, into data and then running statistics), media effects research (using surveys or experiments to study how media use relates to attitudes and behavior), audience and qualitative research (using interviews, focus groups, and ethnography to understand how people use media), and computational communication research (using code to collect and analyze platform data). For which research strategy each belongs to and what evidence it needs, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) below `[Our analysis]`.
+ICA's Open Scholarship page says the field is highly diverse both epistemologically and methodologically[^icaopenscholarship-e1]. The submission page for ICA's 2026 conference notes that ICA has 33 divisions and interest groups[^ica2026conference-e11]. As a beginner you will most often meet four kinds of work: content analysis (coding large amounts of media content, item by item, into data and then running statistics), media effects research (using surveys or experiments to study how media use relates to attitudes and behavior), audience and qualitative research (using interviews, focus groups, and ethnography to understand how people use media), and computational communication research (using code to collect and analyze platform data). For which research strategy each belongs to and what evidence it needs, see [Common strategies and standards of evidence](#common-strategies-and-standards-of-evidence) below.
 
 ### Publishing culture: journals and the annual conference
 
@@ -56,13 +56,13 @@ They make seven recommendations: publish materials, data, and code; preregister 
 > - **For**: Dienlin and colleagues' recommendations are aimed mainly at confirmatory quantitative research[^dienlin2021agenda-e16]. They argue that qualitative research can also benefit from greater transparency and traceability[^dienlin2021agenda-e12], and can be preregistered too[^dienlin2021agenda-e13].
 > - **Against**: ICA's Open Scholarship page describes the debate among communication scholars: whether reproducibility and replicability standards conflict with some qualitative research; the extra workload for preparing and reviewing manuscripts; and the view that open science favors the voices of scholars over the voices of the people studied[^icaopenscholarship-e2]. Critics argue that these practices elevate some forms of research and devalue others[^icaopenscholarship-e3]. ICA uses the term "Open Scholarship" precisely to acknowledge the field's epistemological and methodological diversity[^icaopenscholarship-e1].
 >
-> In practice: for confirmatory quantitative research (effects experiments, surveys, content analysis), preregister and share materials as described on the psychology page; for qualitative research, at least document your research design, interview guide, and coding strategy clearly `[Our analysis]`. Dienlin and colleagues also say these recommendations are not all-or-nothing; adopting some of them still helps[^dienlin2021agenda-e14].
+> In practice: for confirmatory quantitative research (effects experiments, surveys, content analysis), preregister and share materials as described on the psychology page; for qualitative research, at least document your research design, interview guide, and coding strategy clearly. Dienlin and colleagues also say these recommendations are not all-or-nothing; adopting some of them still helps[^dienlin2021agenda-e14].
 
 ---
 
 ## How this field differs from others
 
-`[Our analysis, based on the sources below]`
+This table is our own summary, based on the sources cited in it.
 
 | | Communication research | Psychology (see the [psychology page](../psychology/README.md)) | Computer science (see the [computer science page](../computer-science/README.md)) |
 |---|---|---|---|
@@ -108,23 +108,23 @@ When you use online data, you can consult AoIR's Internet Research: Ethical Guid
 
 ### Platform data: can you get it, and can you use it
 
-Computational communication research depends on platforms' data, and platforms can change their rules at any time `[Our analysis]`. In 2018 Freelon published a short essay on this in Political Communication. He writes that after Facebook shut down the API (application programming interface, the official channel for programs to fetch data) for public pages, there was no longer any way to get Facebook content that complied with the terms of service[^freelon2018computational-e1]; companies can restrict or revoke API access at any time for any reason, and researchers have no recourse[^freelon2018computational-e2]. The essay's recommendations (the author's views):
+Computational communication research depends on platforms' data, and platforms can change their rules at any time. In 2018 Freelon published a short essay on this in Political Communication. He writes that after Facebook shut down the API (application programming interface, the official channel for programs to fetch data) for public pages, there was no longer any way to get Facebook content that complied with the terms of service[^freelon2018computational-e1]; companies can restrict or revoke API access at any time for any reason, and researchers have no recourse[^freelon2018computational-e2]. The essay's recommendations (the author's views):
 
 - **Use officially sanctioned routes first.** Before scraping a site that prohibits scraping, exhaust every officially sanctioned way of getting the data[^freelon2018computational-e4]. For example, the Twitter API at the time was very restrictive for historical data but more generous for real-time collection, so you could set up a collection pipeline in advance and start collecting as soon as an event happened[^freelon2018computational-e7].
 - **Complying with the terms of service is not the same as being ethical.** Terms of service exist to protect the company[^freelon2018computational-e5]; following them respects the company's commercial rights, not the dignity and privacy of users[^freelon2018computational-e6].
 - **Think hard about the risks of violating the terms**, even on a small scale[^freelon2018computational-e8].
 
-Terms of service also constrain how data can be stored and shared. AoIR's guidelines give examples: under Twitter's terms at the time, researchers had to keep checking which tweets had been deleted and remove them from their own datasets[^franzke2020internet-e8]; Facebook and LinkedIn prohibit automated scraping[^franzke2020internet-e9]. When Freelon was writing, Twitter allowed sharing only tweet IDs, from which others could re-fetch the tweets that had not been deleted[^freelon2018computational-e9]. These specific rules have changed many times, so **always check the platform's current terms before you use its data** `[Our analysis]`.
+Terms of service also constrain how data can be stored and shared. AoIR's guidelines give examples: under Twitter's terms at the time, researchers had to keep checking which tweets had been deleted and remove them from their own datasets[^franzke2020internet-e8]; Facebook and LinkedIn prohibit automated scraping[^franzke2020internet-e9]. When Freelon was writing, Twitter allowed sharing only tweet IDs, from which others could re-fetch the tweets that had not been deleted[^freelon2018computational-e9]. These specific rules have changed many times, so **always check the platform's current terms before you use its data**.
 
 **The EU route (EU only).** Article 40 of the European Union's 2022 Digital Services Act (DSA) requires platforms to give "vetted researchers" access to data, solely for research into systemic risks in the EU[^eu2022dsa-e1]; "platforms" here means very large online platforms and very large online search engines[^eu2022dsa-e4]. Conditions include being affiliated with a research organization, being independent of commercial interests, disclosing your funding, and committing to make research results publicly available free of charge[^eu2022dsa-e2]. Paragraph 12 also requires access for researchers to data that is already publicly accessible in the platform's interface[^eu2022dsa-e3]. The application procedure is set by the European Commission's 2025 Delegated Regulation (EU) 2025/2050[^eu2025dsadata-e1]: first open an account on the Commission's data access portal[^eu2025dsadata-e3], then submit your application to the authority in the relevant member state responsible for enforcing the Digital Services Act (the Digital Services Coordinator)[^eu2022dsa-e6][^eu2025dsadata-e4]. For the exact steps, go by the European Commission's current pages.
 
-Mining software repositories raises similar issues (the data was left by people, and platforms have terms of use); compare [Mining software repositories](../computer-science/practices/repository_mining.md) on the computer science page. The difference is that social media data often touches ordinary people's private lives and sensitive topics, so the ethical risk may be higher `[Our analysis]`.
+Mining software repositories raises similar issues (the data was left by people, and platforms have terms of use); compare [Mining software repositories](../computer-science/practices/repository_mining.md) on the computer science page. The difference is that social media data often touches ordinary people's private lives and sensitive topics, so the ethical risk may be higher.
 
 ---
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table lists only the cases this page's sources support (our sources do not cover how measurement, comparative evaluation, synthesis, interpretation and argument, and so on are done in communication research or what evidence they need); the grouping and the "What it looks like in communication research" column are our own synthesis, and each standard speaks only for the source in its footnote `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table lists only the cases this page's sources support (our sources do not cover how measurement, comparative evaluation, synthesis, interpretation and argument, and so on are done in communication research or what evidence they need); the grouping and the "What it looks like in communication research" column are our own synthesis, and each standard speaks only for the source in its footnote.
 
 | Strategy | What it looks like in communication research | Common evidence and standards | How to do it |
 |---|---|---|---|
@@ -132,7 +132,7 @@ A **research strategy** is the main logic by which a project produces new knowle
 | [Description](../../05_research-strategies/observe_describe.md) (qualitative) | Audience research: using interviews, focus groups, and ethnography to understand how people use and make sense of media | How you demonstrate reliability should fit the epistemological tradition the research draws on[^mcdonald2019reliability-e9]; quality comes from greater transparency and traceability[^dienlin2021agenda-e12]; when observing online communities, respect posters' expectations of privacy[^franzke2020internet-e3] | [Interview studies](../../06_methods/interview_study.md), [Case study and ethnography](../../06_methods/case_study.md) |
 | [Causal explanation](../../05_research-strategies/explain_causality.md) | Media effects research: using experiments or surveys to see how media use affects attitudes and behavior | Samples must be large enough: by the authors' estimate, a typical communication effect is tested on 167 participants, which for most designs is not enough to reliably detect small to medium effects[^dienlin2021agenda-e5]; confirmatory studies can be preregistered, with materials, data, and code made public[^dienlin2021agenda-e1]; replications are only about 1.8% of published research[^dienlin2021agenda-e6] | [Controlled experiments](../../06_methods/controlled_experiment.md), [Questionnaire surveys](../../06_methods/questionnaire_survey.md), [Replication studies](../../06_methods/replication.md) |
 
-How to use this table `[Our analysis]`:
+How to use this table:
 
 - **Find your strategy from your central claim.** Say you first use content analysis to describe how something is covered, then run an experiment to test its effect on readers. Pick the main strategy by the one sentence you most want to prove, and hold the other parts to their own standards.
 - **Different methods, different standards.** Don't hold all qualitative research to content analysis reliability standards, and don't judge effects experiments by qualitative standards; for the field's debates on this, see "intercoder reliability" and "open science" above.
@@ -141,7 +141,7 @@ How to use this table `[Our analysis]`:
 
 ## Research methods common in this field
 
-Communication research does not yet have its own methods pages; the common methods are all in the [Research types](../../06_methods/README.md) section. Those pages were originally written for computer science (mainly software engineering), so watch for the differences below `[Our analysis]`:
+Communication research does not yet have its own methods pages; the common methods are all in the [Research types](../../06_methods/README.md) section. Those pages were originally written for computer science (mainly software engineering), so watch for the differences below:
 
 - **Content analysis**: this handbook does not yet have a page on it. For the manual coding part, see [Mining software repositories](../computer-science/practices/repository_mining.md) on the computer science page; test and report reliability following the steps above, and publish your codebook[^dienlin2021agenda-e8].
 - **[Questionnaire surveys](../../06_methods/questionnaire_survey.md)**: used in media use and effects research. For measuring abstract concepts such as attitudes, see [Scale development and measurement studies](../../06_methods/scale_development.md) and the [psychology page](../psychology/README.md).
@@ -157,7 +157,7 @@ Communication research does not yet have its own methods pages; the common metho
 2. **Before using online data, read the AoIR ethics guidelines and talk to your institution's ethics review board.** Publicly visible does not mean free to use[^franzke2020internet-e3].
 3. **Don't quote searchable posts verbatim in your paper**; either get consent or paraphrase[^franzke2020internet-e6][^franzke2020internet-e10].
 4. **For computational research, check the platform's current terms and data access routes first**, and prefer officially sanctioned routes[^freelon2018computational-e4]; don't assume that following the terms makes your work ethical[^freelon2018computational-e6].
-5. **For confirmatory quantitative research, consider preregistering, and share your materials, code, and codebook** `[Our analysis]`. At ICA26, for example, you could submit to the conference as a preregistration[^ica2026conference-e5] and apply for open science badges[^icaopenscholarship-e6].
+5. **For confirmatory quantitative research, consider preregistering, and share your materials, code, and codebook**. At ICA26, for example, you could submit to the conference as a preregistration[^ica2026conference-e5] and apply for open science badges[^icaopenscholarship-e6].
 6. **Before submitting to the ICA conference, read two calls**: ICA's general submission guidelines for that year and the call for papers of the division you are submitting to[^ica2026conference-e9].
 
 ---
@@ -179,7 +179,7 @@ Communication research does not yet have its own methods pages; the common metho
 
 ## Further reading
 
-The reasons for each recommendation are our own analysis.
+The reasons given for each recommendation are our own.
 
 - **AoIR, Internet Research: Ethical Guidelines 3.0 (2020)**: the Association of Internet Researchers' guidelines for internet research ethics, organized as questions to consider at each stage of a study. Read before using online and social media data.
 - **Lombard, Snyder-Duch, and Bracken's online guide to intercoder reliability (updated 2010)**: step-by-step guidance on testing and reporting reliability in content analysis. Read before doing a content analysis.

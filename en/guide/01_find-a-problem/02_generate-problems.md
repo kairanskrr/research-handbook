@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Each of the four generation methods comes from somewhere specific: the steps for questioning assumptions come from management research, the list of question types from software engineering, and the sentence template for turning a topic into a question from university writing instruction.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Set aside a block of time for generating problems.** Write down the start and end dates, and during that time read, write, and try things side by side. Then pick a starting point: the literature or a goal ([Section 1](#1-set-the-time-and-the-starting-point)).
 > 2. **Use at least two methods, and make at least one of them something other than gap-spotting.** Gap-spotting is the easiest way in, but its ideas tend to collide with other people's. Pair it with questioning assumptions, working through the question types, or turning a topic into a question ([Section 2](#2-method-1-gap-spotting) to [Section 5](#5-method-4-turn-a-topic-into-a-question)).
@@ -36,7 +36,7 @@ How to try ideas out and how to screen them are covered in [Exploring hands-on](
 
 Sections 2–5 are four methods for generating problems; Section 6 adds a few more places to look. For each method you get how to do it, when to use it, and what it tends to produce, and the same research area is walked through every time. You will see four different routes arrive at the same candidate problem: "The reported results of large-language-model vulnerability detectors may be inflated by data leakage."
 
-You don't need all four. A rule of thumb `[Our analysis]`: use at least two, and make at least one of them something other than gap-spotting. Ideas from a single method tend to look alike.
+You don't need all four. A rule of thumb: use at least two, and make at least one of them something other than gap-spotting. Ideas from a single method tend to look alike.
 
 ---
 
@@ -50,14 +50,14 @@ But you can't only read and think. The ability to judge whether a problem is goo
 > - **Take more time:** an extra week spent choosing a problem can save months or even years later[^alon2009choose-e8]. But the person who gives this advice also admits that not everyone is free to choose their own problem or has the time for a long search[^alon2009choose-e10].
 > - **Don't drag it out:** start thinking for yourself early and alternate with reading[^eisnerproblems-e9]; once you have searched for ideas for a while, an extra hour of thinking is worth less than just going and doing something[^carlini2026best-e13].
 >
-> In practice `[Our analysis]`: give yourself a set period (a few weeks to three months, depending on your stage and what your advisor expects), and during it read, write, and try **at the same time**. When the time is up, move on to [Judging and screening ideas](04_judge-and-screen.md); if you can't narrow it down, take your list to your advisor and decide together.
+> In practice: give yourself a set period (a few weeks to three months, depending on your stage and what your advisor expects), and during it read, write, and try **at the same time**. When the time is up, move on to [Judging and screening ideas](04_judge-and-screen.md); if you can't narrow it down, take your list to your advisor and decide together.
 
 **Two starting points.** There are roughly two places to start looking for problems[^schulman2020opinionated-e6][^schulman2020opinionated-e8]:
 
 - **Idea-driven (start from the literature)**: you read "how others do X", think of a way to do it better, and then test it. The downside is that it is easy to get scooped, because everyone reads the same literature and has similar ideas[^schulman2020opinionated-e7].
 - **Goal-driven**: you set a concrete goal first, such as "let developers reliably find reentrancy vulnerabilities before they deploy a contract", and then solve the problems that stand in the way. The goal gives you a distinctive perspective and leads you to ask questions others haven't asked[^schulman2020opinionated-e8].
 
-The methods below work from either starting point. The difference is that, starting from a goal, you will more often ask "what's still missing between here and the goal", not just "how else could this paper be improved" `[Our analysis]`.
+The methods below work from either starting point. The difference is that, starting from a goal, you will more often ask "what's still missing between here and the goal", not just "how else could this paper be improved".
 
 **Write it down:** Write down the period you have set for generating problems (from which day to which day), and whether you plan to start from the literature, from a goal, or try both. If you start from a goal, state it in one sentence.
 
@@ -65,15 +65,15 @@ The methods below work from either starting point. The difference is that, start
 
 **What it is.** You find what the existing literature hasn't done, or hasn't done well, and pose a question to fill it. The management researchers Alvesson and Sandberg call this "gap-spotting": formulating research questions by identifying or constructing gaps in the existing literature[^alvesson2013has-e2]. Constructing a gap often means bringing different bodies of literature together[^alvesson2013has-e4].
 
-**How to do it** `[Our analysis]`:
+**How to do it**:
 
 1. **Go back to your problem log and the core papers.** The last chapter had you start a problem log; see [Entering a field and exploring the literature](01_enter-a-field.md#6-take-notes-one-per-paper-plus-a-problem-log). For the most relevant papers, reread their "Limitations" and "Future work" sections.
 2. **Look for the authors' simplifications and arbitrary choices.** Where did the authors make a simplification that might hurt, or an arbitrary choice? Those are your chances to do it differently[^eisnerproblems-e2]. For example, a paper considers only one type of vulnerability, uses only one model, or tests on only one dataset, without saying why.
 3. **Come up with an example that would embarrass the authors.** Think of examples that illustrate the authors' idea, and examples that would make their claims fall apart[^eisnerread-e3].
-4. **Re-examine how others evaluate.** Is the comparison fair? Are the conclusions really supported[^eisnerread-e8]? Specifically, check whether the baselines are too weak and whether the metrics were chosen to flatter the authors' method `[Our analysis]`.
+4. **Re-examine how others evaluate.** Is the comparison fair? Are the conclusions really supported[^eisnerread-e8]? Specifically, check whether the baselines are too weak and whether the metrics were chosen to flatter the authors' method.
 5. **Write each gap as a question.**
 
-Whether the experiments are fair, whether the conclusions generalize, and where else the paper's good ideas might apply are already listed under [Read with questions in mind](01_enter-a-field.md#5-read-with-questions-in-mind) in the last chapter, so we won't repeat them here. Things you hit while reproducing a paper (results that don't match, a step the paper never spells out, a method that breaks under a different setting) can all become new problems too `[Our analysis]`.
+Whether the experiments are fair, whether the conclusions generalize, and where else the paper's good ideas might apply are already listed under [Read with questions in mind](01_enter-a-field.md#5-read-with-questions-in-mind) in the last chapter, so we won't repeat them here. Things you hit while reproducing a paper (results that don't match, a step the paper never spells out, a method that breaks under a different setting) can all become new problems too.
 
 **Why step 4 deserves extra time.** The evaluation practice that is standard in a research area can itself be flawed, and the flaw can be widespread. All the examples below come from computer security:
 
@@ -81,9 +81,9 @@ Whether the experiments are fair, whether the conclusions generalize, and where 
 - A different set of evaluation targets can flip the conclusion: one published fuzzer no longer beat the baseline on two programs used in other papers[^klees2018evaluating-e3].
 - Benchmarks wear out: when a fixed benchmark is used too much, tools may start to rely on special-purpose tweaks that bring no fundamental advantage[^klees2018evaluating-e7]. And the better a public dataset is understood, the more the methods built on it implicitly exploit information about the test data, so experiments on well-known datasets should be complemented with more recent data[^arp2022dos-e5].
 
-Our sources give no evidence on whether other research areas are the same `[Our analysis]`. If you do proofs or textual interpretation, you can skip step 4.
+Our sources give no evidence on whether other research areas are the same. If you do proofs or textual interpretation, you can skip step 4.
 
-**Walking through the example** `[Our analysis]`:
+**Walking through the example**:
 
 | What you noticed in the papers | The gap, written as a question |
 |---|---|
@@ -94,9 +94,9 @@ Our sources give no evidence on whether other research areas are the same `[Our 
 
 The first row is the way in to "the results are inflated by leakage". For now it is only the gap "no one has tested on new contracts"; it doesn't yet say why the results might differ.
 
-**When to use it, and what it produces** `[Our analysis]`: it is easiest once you have read a batch of papers and have a problem log, and it almost always produces a batch of problems. Most of them are "extend it" or "fill it in" problems: doable, but often incremental.
+**When to use it, and what it produces**: it is easiest once you have read a batch of papers and have a problem log, and it almost always produces a batch of problems. Most of them are "extend it" or "fill it in" problems: doable, but often incremental.
 
-**Its limits.** Alvesson and Sandberg don't deny that gap-spotting can lead to important contributions, but because it does not deliberately question the assumptions underlying the existing literature, it rarely leads to new high-ranking theories[^alvesson2013has-e5]. In management research, they observe, gap-spotting is almost totally dominant[^alvesson2013has-e1]. That is a judgment about management research; our sources give no evidence on whether other fields are the same. Also, everyone reads the same literature and spots similar gaps, so it is easy to get scooped[^schulman2020opinionated-e7]. That is why you shouldn't rely on this method alone `[Our analysis]`.
+**Its limits.** Alvesson and Sandberg don't deny that gap-spotting can lead to important contributions, but because it does not deliberately question the assumptions underlying the existing literature, it rarely leads to new high-ranking theories[^alvesson2013has-e5]. In management research, they observe, gap-spotting is almost totally dominant[^alvesson2013has-e1]. That is a judgment about management research; our sources give no evidence on whether other fields are the same. Also, everyone reads the same literature and spots similar gaps, so it is easy to get scooped[^schulman2020opinionated-e7]. That is why you shouldn't rely on this method alone.
 
 **Write it down:** Pick three of the most relevant papers you have read. For each, write at least one gap, phrased as a question.
 
@@ -106,10 +106,10 @@ The first row is the way in to "the results are inflated by leakage". For now it
 
 The method comes from management research. Their example: the overwhelming majority of leadership research assumes that employees need or want to be led. Problematization can treat that as a false assumption or an open issue, and even suggest that some people want to be spared leadership at work[^alvesson2020problematizing-e3].
 
-**How to do it.** They give six steps[^alvesson2020problematizing-e5]. Here they are in order, each with what it looks like in our example `[Our analysis]`:
+**How to do it.** They give six steps[^alvesson2020problematizing-e5]. Here they are in order, each with what it looks like in our example:
 
 1. **Identify a domain of literature.** For example: "papers that use large language models to detect smart contract vulnerabilities and report results on public benchmarks". Rather than skimming a large pile, read the foundational papers and a moderate number of representative ones in depth; that makes it easier to spot the assumptions taken for granted[^alvesson2020problematizing-e4]. As you read, you may revise the boundaries of the domain, and that is fine[^alvesson2020problematizing-e7].
-2. **Identify and articulate the underlying assumptions.** Some are written in the papers; some even the authors aren't aware of `[Our analysis]`. Example: "The vulnerability labels in the benchmark are correct." "A high detection rate means a good tool." "The large language model hasn't seen the contracts in the benchmark."
+2. **Identify and articulate the underlying assumptions.** Some are written in the papers; some even the authors aren't aware of. Example: "The vulnerability labels in the benchmark are correct." "A high detection rate means a good tool." "The large language model hasn't seen the contracts in the benchmark."
 3. **Evaluate them and focus on the most problematic or limiting ones.** Example: the third is the most suspect, because public contracts may well be in the model's training data.
 4. **Develop an alternative set of assumptions.** It should have the potential to be the starting point of a new contribution. Example: "The model may have seen the benchmark contracts, so part of the high score comes from memorization, not from actually finding vulnerabilities."
 5. **Consider your audience.** What would readers in this area find new, credible, and interesting? Example: people who build detectors will care, because it bears on whether published results can still be trusted.
@@ -120,10 +120,10 @@ The candidate problem you end up with: **"How much of the existing benchmark res
 **Some help with step 2, finding assumptions:**
 
 - **List the assumptions and try relaxing them**, so the method also works under fewer constraints[^huang2021ideas-e1]. **Or the reverse: add assumptions**, taking a general-purpose method to a specific problem and using domain knowledge to improve it[^huang2021ideas-e2].
-- **Ask "dumb questions".** One trick in mathematics is to take a well-known lemma and ask what happens if you remove one hypothesis[^taocareer-e8]. In your research area, that means asking the same of a widely accepted conclusion `[Our analysis]`.
+- **Ask "dumb questions".** One trick in mathematics is to take a well-known lemma and ask what happens if you remove one hypothesis[^taocareer-e8]. In your research area, that means asking the same of a widely accepted conclusion.
 - **Pay special attention to practices the whole research area keeps following.** Sometimes an influential early paper makes a key mistake in its method or evaluation, and later researchers follow it without thinking because "that's how everyone does it"[^carlini2026best-e7]. One sign: you keep wanting to ask, "Why is everyone doing it in a way that's obviously wrong?"[^carlini2026best-e9]
 - **Look at how the problem was framed.** For how a problem was originally framed and which assumptions were used to get from evidence to conclusion, see [Read with questions in mind](01_enter-a-field.md#5-read-with-questions-in-mind) in the last chapter.
-- **Start from surprises.** They also describe another route: pay special attention to the unexpected things in your empirical material that puzzle you, first "create a mystery", then "solve it"[^alvesson2013has-e13]. A strange pattern you notice while going through real data is often a clue that an assumption is off `[Our analysis]`.
+- **Start from surprises.** They also describe another route: pay special attention to the unexpected things in your empirical material that puzzle you, first "create a mystery", then "solve it"[^alvesson2013has-e13]. A strange pattern you notice while going through real data is often a clue that an assumption is off.
 
 **Limits the authors themselves name:**
 
@@ -137,17 +137,17 @@ The candidate problem you end up with: **"How much of the existing benchmark res
 - **Pseudo-problematization.** Simply criticizing others from your own favorite ready-made theory only reproduces that theory's assumptions and is unlikely to lead to new ideas[^alvesson2013has-e9].
 - **Questioning for its own sake.** Problematization does not mean dismissing everything that came before; you should also point out high-quality studies and ideas[^alvesson2020problematizing-e10].
 
-**When to use it, and what it produces** `[Our analysis]`: it fits best once you have read a batch of papers and are starting to feel "everyone does it this way, but something seems off". It produces fewer problems than gap-spotting, but they are more likely to carry weight. It is harder than gap-spotting; the first time you try it, go through steps 2 and 3 with your advisor.
+**When to use it, and what it produces**: it fits best once you have read a batch of papers and are starting to feel "everyone does it this way, but something seems off". It produces fewer problems than gap-spotting, but they are more likely to carry weight. It is harder than gap-spotting; the first time you try it, go through steps 2 and 3 with your advisor.
 
 **Write it down:** Pick the one or two most influential papers in your research area and work through the six steps: the domain of literature, three assumptions, the one you find most suspect, the alternative assumption, and why readers would care.
 
 ## 4. Method 3: work through the question types
 
-**What it is.** Research questions come in a few common types. Take one object in your research area and ask a question of each type about it, and you get a whole string of candidate problems at once. The classification below comes from empirical research in software engineering[^easterbrook2008selecting-e38]; it may not fit interpretive research in the humanities `[Our analysis]`.
+**What it is.** Research questions come in a few common types. Take one object in your research area and ask a question of each type about it, and you get a whole string of candidate problems at once. The classification below comes from empirical research in software engineering[^easterbrook2008selecting-e38]; we judge that it may not fit interpretive research in the humanities.
 
 **Question types and how to ask them:**
 
-| Type | How to ask | Example: the object is "reported results of large-language-model vulnerability detection" `[Our analysis]` |
+| Type | How to ask | Example: the object is "reported results of large-language-model vulnerability detection" |
 |---|---|---|
 | Existence | Does X exist?[^easterbrook2008selecting-e44] | Does the benchmark contain contracts that were public before the model was trained? |
 | Description and classification | What is X like? How can it be categorized? How can we measure it?[^easterbrook2008selecting-e44] | What kinds of leakage are there (verbatim copies, copies with renamed identifiers…)? How do you decide whether a contract counts as leaked? |
@@ -158,18 +158,18 @@ The candidate problem you end up with: **"How much of the existing benchmark res
 | Design | What's an effective way to achieve X?[^easterbrook2008selecting-e39] | How do you build a benchmark that doesn't leak? |
 | Evaluation | How can I evaluate X? How do I choose between X and Y?[^shaw2003writing-e25] | How do you fairly compare the vulnerability-detection ability of several large language models? |
 
-**How to do it** `[Our analysis]`:
+**How to do it**:
 
 1. **Pick an object.** Choose something concrete in your research area: a class of tools, a phenomenon, an evaluation practice.
 2. **Fill in the table row by row.** Write one question per type. Skip the ones you can't fill; don't force it.
 3. **For each question, check whether the literature already has a good answer.** Some of these questions already have good answers in the published literature; then a literature survey, not your own study, can answer them[^easterbrook2008selecting-e41].
 4. **Keep the rows no one has answered well**, and add them to your list of ideas.
 
-**Why work from the top down.** Early in a research program you usually need to ask exploratory questions first, like "does it exist?" and "what is it like?"[^easterbrook2008selecting-e45]. If you skip the base-rate question ("how often?"), you have no basis for saying whether a situation is normal or unusual[^easterbrook2008selecting-e34]. Design questions ("how do we do it better?") presuppose that the knowledge questions before them have been answered[^easterbrook2008selecting-e48]. So if no one has seriously answered "does leakage exist?" and "how common is it?", jumping straight to "how do we build a leak-free benchmark?" is premature `[Our analysis]`. Also, correlation is not causation, and demonstrating causality is usually much harder[^easterbrook2008selecting-e36], so write the "relationship" and "causality" rows separately.
+**Why work from the top down.** Early in a research program you usually need to ask exploratory questions first, like "does it exist?" and "what is it like?"[^easterbrook2008selecting-e45]. If you skip the base-rate question ("how often?"), you have no basis for saying whether a situation is normal or unusual[^easterbrook2008selecting-e34]. Design questions ("how do we do it better?") presuppose that the knowledge questions before them have been answered[^easterbrook2008selecting-e48]. So if no one has seriously answered "does leakage exist?" and "how common is it?", jumping straight to "how do we build a leak-free benchmark?" is premature. Also, correlation is not causation, and demonstrating causality is usually much harder[^easterbrook2008selecting-e36], so write the "relationship" and "causality" rows separately.
 
-Once you have filled in the table, you will find that the top rows (does it exist, how common is it, how big is the difference) haven't been answered well. Put together, they make "Are the reported results inflated by leakage, and by how much?", a Measurement problem; see [Key concepts](../00_start-here/key-concepts.md#research-strategy) `[Our analysis]`.
+Once you have filled in the table, you will find that the top rows (does it exist, how common is it, how big is the difference) haven't been answered well. Put together, they make "Are the reported results inflated by leakage, and by how much?", a Measurement problem; see [Key concepts](../00_start-here/key-concepts.md#research-strategy).
 
-**When to use it, and what it produces** `[Our analysis]`: it works best when you have a concrete object but don't know what to ask about it. It produces a ladder of questions and also shows you the order: which must be answered first, and which has to wait for the ones before it.
+**When to use it, and what it produces**: it works best when you have a concrete object but don't know what to ask about it. It produces a ladder of questions and also shows you the order: which must be answered first, and which has to wait for the ones before it.
 
 **Write it down:** Pick one object in your research area, write one question per type in the table above, and mark which ones the literature already answers.
 
@@ -183,51 +183,51 @@ Once you have filled in the table, you will find that the top rows (does it exis
 
 Together the three steps say what you are writing about, what you don't know about it, and why your reader should care[^booth2016craft-e7]. The guide's example: I am working on Lincoln's beliefs about predestination, because I want to find out how his belief in destiny and God's will influenced his understanding of the causes of the Civil War, in order to help my reader understand how his religious beliefs may have influenced his military decisions[^booth2016craft-e5].
 
-**Filling it in for our example** `[Our analysis]`:
+**Filling it in for our example**:
 
 - First draft: "I am studying large language models for smart contract vulnerability detection, because I want to find out how well they work, in order to help my reader…" and you get stuck. Step 2 is too broad, and step 3 won't come.
 - Second draft: "I am studying how large-language-model vulnerability detectors are evaluated, because I want to find out whether the contracts in existing benchmarks were already in the models' training data and how much that inflates the detection rate, in order to help my reader judge how far published detection results can still be trusted."
 
 Step 2 of the second draft is exactly the candidate problem the earlier methods produced; step 3 says who will care.
 
-**If you can't write step 3.** If you can't write it, you haven't yet worked out why the question matters. That is common: motivating the question is the hardest of the three steps, and you may not have a conclusive answer until you have finished a first draft[^booth2016craft-e10]. So don't throw the idea away; mark it "significance unclear" on your list and keep thinking `[Our analysis]`. The topic also needs to be specific enough that you can find and read the relevant material in the time you have[^booth2016craft-e8]. The guide also suggests regularly asking a roommate, relative, or friend to make you flesh out all three steps, so you at least know where you are and what is still missing[^booth2016craft-e6].
+**If you can't write step 3.** If you can't write it, you haven't yet worked out why the question matters. That is common: motivating the question is the hardest of the three steps, and you may not have a conclusive answer until you have finished a first draft[^booth2016craft-e10]. So don't throw the idea away; mark it "significance unclear" on your list and keep thinking. The topic also needs to be specific enough that you can find and read the relevant material in the time you have[^booth2016craft-e8]. The guide also suggests regularly asking a roommate, relative, or friend to make you flesh out all three steps, so you at least know where you are and what is still missing[^booth2016craft-e6].
 
 **Three more questions while you are at it.** The US Defense Advanced Research Projects Agency (DARPA) uses an eight-question list, the Heilmeier Catechism, to assess every proposed research program[^darpaheilmeier-e1][^darpaheilmeier-e2]. It is mainly for assessment, but the first few questions already help at the generation stage: What are you trying to do, articulated with absolutely no jargon[^darpaheilmeier-e3]? How is it done today, and what are the limits of current practice[^darpaheilmeier-e4]? Who cares, and if you are successful, what difference will it make[^darpaheilmeier-e5]? Whatever you can't answer, note it on your list of ideas. Save the serious assessment for [Converging on a project](05_converge.md): [Is it worth doing?](05_converge.md#2-is-it-worth-doing), [Has someone already done it?](05_converge.md#3-has-someone-already-done-it), [What will make people believe it?](05_converge.md#4-what-will-make-people-believe-it), and [Can you actually do it?](05_converge.md#5-can-you-actually-do-it)
 
-**When to use it, and what it produces** `[Our analysis]`: use it when you only have a topic, or when your ideas are too scattered. It rarely produces new ideas, but it turns a vague idea into one complete question and shows which step you haven't thought through. You can run every entry from the first three methods through it.
+**When to use it, and what it produces**: use it when you only have a topic, or when your ideas are too scattered. It rarely produces new ideas, but it turns a vague idea into one complete question and shows which step you haven't thought through. You can run every entry from the first three methods through it.
 
 **Write it down:** For the two or three entries on your list you most want to work on, write one three-part sentence each. Mark any where you can't write step 3 as "significance unclear".
 
 ## 6. Other sources
 
-Besides the four methods above, problems often turn up in the places below. They are more about where to look, and you can combine them with any of the four methods `[Our analysis]`.
+Besides the four methods above, problems often turn up in the places below. They are more about where to look, and you can combine them with any of the four methods.
 
 ### Where things don't work well in practice
 
 A method that works in a paper doesn't necessarily work in practice. **Look at where existing methods or systems do badly**[^eisnerproblems-e5].
 
 - **Stress-test the state of the art.** Put it on more diverse, less constrained examples and see how it fails. This is a good way to find the limitations of existing work[^huang2021ideas-e4].
-- **Leave the lab setting.** Take computer security as an example: a paper summarizing the pitfalls of using machine learning in security research lists "lab-only evaluation" as one of them, and recommends evaluating in a real-world setting whenever possible[^arp2022dos-e2]. "What happens in a real-world setting?" can itself be a question no one has answered yet `[Our analysis]`.
-- **Look at the data.** In many fields, the data itself suggests problems[^eisnerproblems-e6]. Going through real contracts and real vulnerability reports by hand often shows you cases the papers never mention `[Our analysis]`.
+- **Leave the lab setting.** Take computer security as an example: a paper summarizing the pitfalls of using machine learning in security research lists "lab-only evaluation" as one of them, and recommends evaluating in a real-world setting whenever possible[^arp2022dos-e2]. "What happens in a real-world setting?" can itself be a question no one has answered yet.
+- **Look at the data.** In many fields, the data itself suggests problems[^eisnerproblems-e6]. Going through real contracts and real vulnerability reports by hand often shows you cases the papers never mention.
 - **Find the bottlenecks holding everyone back.** Which problems, whether widely recognized or not, are blocking progress in this field? Can you solve them? If not, can you at least explain them clearly[^eisnerproblems-e3]?
 
 ### Bring in ideas from elsewhere
 
-- **Watch for new tools.** When a new tool appears in a field, try it on your own problem[^huang2021ideas-e3]. The research area "large language models and smart contract security" is itself a new tool brought to an old problem `[Our analysis]`.
-- **Look for similar problems.** If you notice that your problem resembles one in another field, read the literature on that problem and ask experts in that field[^taocareer-e21]. For example, vulnerability detection for ordinary software has many years of work behind it; which of its techniques haven't yet been applied to smart contracts `[Our analysis]`?
+- **Watch for new tools.** When a new tool appears in a field, try it on your own problem[^huang2021ideas-e3]. The research area "large language models and smart contract security" is itself a new tool brought to an old problem.
+- **Look for similar problems.** If you notice that your problem resembles one in another field, read the literature on that problem and ask experts in that field[^taocareer-e21]. For example, vulnerability detection for ordinary software has many years of work behind it; which of its techniques haven't yet been applied to smart contracts?
 - **Ask people in another discipline.** If your research area is interdisciplinary, ask people in the other discipline what they find interesting[^eisnerproblems-e5].
 - **Look one step ahead.** Instead of only watching what everyone is doing now, anticipate which big problems will appear once new technologies arrive[^huang2023decide-e3].
 
-Before you bring something over, be able to say where the two fields differ and why that difference makes the transfer challenging. Just "applying A to B" is easily seen as lacking novelty `[Our analysis]`.
+Before you bring something over, be able to say where the two fields differ and why that difference makes the transfer challenging. Just "applying A to B" is easily seen as lacking novelty.
 
 ### Talk to people
 
 Some problems aren't in papers; they're in people's heads. Your advisor will point you to open problems and folklore that circulates in the field but isn't written down[^taocareer-e23]; people who work with the door closed may, years later, not know what problems are worth working on[^hamming1986you-e18]. For how to find people to talk to, see [Talk to people who know the area](01_enter-a-field.md#8-talk-to-people-who-know-the-area) in the last chapter.
 
 - **Don't be afraid to work on someone else's suggestion.** Ideas are plentiful; the skill lies in which one you pick and how well you execute it[^schulman2020opinionated-e4].
-- **Ask users and practitioners.** In the smart contract area, that means developers who write contracts and people who do audits `[Our analysis]`.
+- **Ask users and practitioners.** In the smart contract area, that means developers who write contracts and people who do audits.
 - **Ask about problems "everyone knows are important but no one has seriously worked on".** If you think you have found one, ask colleagues and check the literature to confirm no one has done it[^eisnerproblems-e4].
-- **Bring something concrete.** Don't just ask "what do you think I should work on?" Bring your list of ideas and ask "which of these do you find interesting, and which have already been done?" `[Our analysis]`
+- **Bring something concrete.** Don't just ask "what do you think I should work on?" Bring your list of ideas and ask "which of these do you find interesting, and which have already been done?"
 
 **Write it down:** Pick a method "widely accepted as effective" and write down how you plan to find where it falls short in practice; name two techniques from a neighboring field that haven't yet been used in your research area; list three people you could talk to (at least one outside your research group) and the specific questions you will ask them.
 
@@ -235,13 +235,13 @@ Some problems aren't in papers; they're in people's heads. Your advisor will poi
 
 **Everything you generated in the sections above goes into one list.** Ideas you don't write down are soon forgotten; once they're written down, you can compare them, revise them, and come back to them later.
 
-**Why keep them instead of throwing them away once used.** Most great scientists carry 10 to 20 important problems in their heads, always looking for a way to attack them; when they see a new idea, they immediately recognize which problem it bears on[^hamming1986you-e10]. An idea that keeps coming back to you over months or even years is a good sign that you are genuinely interested in it[^alon2009choose-e13], and you can only see that if you write it down and look again later `[Our analysis]`. Keep even your embarrassingly wrong ideas privately; you may be able to salvage something useful from them later[^taocareer-e19].
+**Why keep them instead of throwing them away once used.** Most great scientists carry 10 to 20 important problems in their heads, always looking for a way to attack them; when they see a new idea, they immediately recognize which problem it bears on[^hamming1986you-e10]. An idea that keeps coming back to you over months or even years is a good sign that you are genuinely interested in it[^alon2009choose-e13]. To notice that, you have to write ideas down and look at them again later. Keep even your embarrassingly wrong ideas privately; you may be able to salvage something useful from them later[^taocareer-e19].
 
 **How to keep it:**
 
 - Keep it in one fixed place, and jot down ideas every day[^schulman2020opinionated-e16];
 - Every week or two, read through it and write up a short summary[^schulman2020opinionated-e17];
-- For each entry, write at least the following `[Our analysis]`:
+- For each entry, write at least the following:
 
 | Field | What to write | Example |
 |---|---|---|
@@ -252,7 +252,7 @@ Some problems aren't in papers; they're in people's heads. Your advisor will poi
 | Quickest test | A small test you can do in a week or two | Sample 50 benchmark items and check whether they have appeared publicly |
 | Date and status | New / thinking about it / dropped (give the reason) | Dropped: already published by group X, see paper Y |
 
-**How long should the list be?** Our sources do not give a single number. As a reference point `[Our analysis]`: before you move on to [Judging and screening ideas](04_judge-and-screen.md), collect about ten entries from at least three different methods or sources. If they all come from the same one (for example, all of them are "some paper on a different dataset"), you haven't searched widely enough. An idea that two or three methods produce independently is a good sign; record all of them in the "Source" field.
+**How long should the list be?** Our sources do not give a single number. As a reference point: before you move on to [Judging and screening ideas](04_judge-and-screen.md), collect about ten entries from at least three different methods or sources. If they all come from the same one (for example, all of them are "some paper on a different dataset"), you haven't searched widely enough. An idea that two or three methods produce independently is a good sign; record all of them in the "Source" field.
 
 **Write it down:** Set up your list of ideas, put in every idea that came up in the earlier "Write it down" exercises, and fill in every field of the table for each.
 
@@ -264,7 +264,7 @@ Once the list is long enough, pick the few entries you most want to pursue and t
 
 ## Judgment calls
 
-**Which method first?** One way to choose `[Our analysis]`:
+**Which method first?** One way to choose:
 
 | Where you are now | Start with |
 |---|---|
@@ -274,7 +274,7 @@ Once the list is long enough, pick the few entries you most want to pursue and t
 | You have only a topic, or your ideas are too scattered to state | Method 4: turn a topic into a question |
 | You can't get into the papers and your ideas are all vague | Section 6: look at the data, at where things don't work in practice, and talk to people |
 
-**When should you stop generating?** Here's one way to decide `[Our analysis]`:
+**When should you stop generating?** Here's one way to decide:
 
 | Situation | What to do |
 |---|---|
@@ -295,7 +295,7 @@ Once the list is long enough, pick the few entries you most want to pursue and t
 | Only looking for faults when reading papers, questioning for its own sake | You miss the good ideas in a paper that could be used elsewhere[^eisnerread-e6]; problematization should also point out high-quality studies[^alvesson2020problematizing-e10] |
 | Starting with "how do we do it better?" | Design questions presuppose that the knowledge questions before them have been answered[^easterbrook2008selecting-e48] |
 | Treating the problem as worked out when you can't write "in order to help my reader understand…" | Step 3 tells you whether the question might interest not just you but others[^booth2016craft-e4] |
-| Keeping ideas only in your head | You forget them, and can't compare them or come back to them `[Our analysis]` |
+| Keeping ideas only in your head | You forget them, and can't compare them or come back to them |
 | Not talking to people | You miss open problems and existing work that people in the field know about but that aren't in papers yet[^taocareer-e23][^eisnerproblems-e9] |
 
 ## What you should have at the end

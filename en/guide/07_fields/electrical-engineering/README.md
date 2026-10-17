@@ -17,27 +17,27 @@ This page explains how research actually runs in electrical engineering, electro
 
 The two fields have always been close. According to the overview report of Computing Curricula 2005, before the 1990s students who wanted to work on software and the theory of computing chose computer science, and those who wanted to work on hardware chose electrical engineering[^shackelford2005computing-e1]. Both sides were developing new technology, were often housed in the same college of a university, and sometimes needed each other's help[^shackelford2005computing-e2]. After the microprocessor appeared in the mid-1970s, computer engineering split off from electrical engineering as a discipline of its own[^shackelford2005computing-e3]. Computer engineering studies hardware, software, communications, and the interactions among them[^shackelford2005computing-e4]. The same report puts the difference in emphasis this way: in computer engineering the focus is software for hardware devices; in computer science, software is the medium for expressing ideas[^shackelford2005computing-e5].
 
-The overlapping areas include hardware (chips, computer architecture), signal processing, communications and networking, and control `[Our analysis]`. If you work in these areas, much of the Computer science page applies to you too `[Our analysis]`.
+The overlapping areas include hardware (chips, computer architecture), signal processing, communications and networking, and control. If you work in these areas, much of the Computer science page applies to you too.
 
 ### Working with physical hardware: tape-outs and testbeds
 
-In some areas, a conclusion can only be backed up by building the real thing and measuring it `[Our analysis]`. Two examples follow.
-**Chips have to be "taped out."** A tape-out means handing a finished chip design to a foundry for fabrication `[Our analysis]`. Going straight to a commercial foundry to make an application-specific integrated circuit (ASIC) for a small, specialized market can be very expensive; a **multi-project wafer** (MPW) run is one way to cut prototyping costs[^europracticempw-e1]: several designs are placed on the same wafer and fabricated together `[Our analysis]`. The process below uses Europractice, a European chip prototyping service, as the example. It is one organization's practice; service providers in other regions, foundries, and your own institution's channels may have different processes and terms, so follow the channel you actually use `[Our analysis]`. At Europractice, the process is[^europracticempw-e3]:
+In some areas, a conclusion can only be backed up by building the real thing and measuring it. Two examples follow.
+**Chips have to be "taped out."** A tape-out means handing a finished chip design to a foundry for fabrication. Going straight to a commercial foundry to make an application-specific integrated circuit (ASIC) for a small, specialized market can be very expensive; a **multi-project wafer** (MPW) run is one way to cut prototyping costs[^europracticempw-e1]: several designs are placed on the same wafer and fabricated together. The process below uses Europractice, a European chip prototyping service, as the example. It is one organization's practice; service providers in other regions, foundries, and your own institution's channels may have different processes and terms, so follow the channel you actually use. At Europractice, the process is[^europracticempw-e3]:
 
 1. Submit the finished design.
 2. It goes through electrical rule checks and design rule checks.
 3. It is sent to the foundry and fabricated on a particular MPW run.
 4. The prototype chips are shipped back, and the designer tests and validates them.
 
-The prototypes Europractice ships back are generally unpackaged and untested[^europracticempw-e4], so once you have the chips, a good deal of testing is still up to you `[Our analysis]`. Also, once you choose a process technology, you need the foundry's **design kit** (design rules, electrical parameters, standard cell libraries) before you can design; at Europractice, getting it requires signing a non-disclosure agreement or a design kit license agreement first[^europracticempw-e2]. This means you may not be able to publish your complete design the way you would publish code `[Our analysis]`.
+The prototypes Europractice ships back are generally unpackaged and untested[^europracticempw-e4], so once you have the chips, a good deal of testing is still up to you. Also, once you choose a process technology, you need the foundry's **design kit** (design rules, electrical parameters, standard cell libraries) before you can design; at Europractice, getting it requires signing a non-disclosure agreement or a design kit license agreement first[^europracticempw-e2]. This means you may not be able to publish your complete design the way you would publish code.
 
-**Communications and networking experiments run on "testbeds."** A testbed is a system built from real equipment specifically for running experiments `[Our analysis]`. Writing about wireless networking research, Lamela and colleagues point out that testbeds are increasingly expensive to maintain and often underused, but their results are realistic, and they are an essential step in validating and tuning protocols[^lamela2019repeatable-e2].
+**Communications and networking experiments run on "testbeds."** A testbed is a system built from real equipment specifically for running experiments. Writing about wireless networking research, Lamela and colleagues point out that testbeds are increasingly expensive to maintain and often underused, but their results are realistic, and they are an essential step in validating and tuning protocols[^lamela2019repeatable-e2].
 
-The pace of this kind of work is often set by outside schedules: MPW runs start on fixed dates, and testbeds have to be booked; one failed tape-out can mean waiting for the next run to try again `[Our analysis]`. So check thoroughly before you commit, and plan backward from those dates. For general scheduling methods, see [Planning and daily routines](../../08_throughout/planning_and_routines.md) in Throughout the project.
+The pace of this kind of work is often set by outside schedules: MPW runs start on fixed dates, and testbeds have to be booked; one failed tape-out can mean waiting for the next run to try again. So check thoroughly before you commit, and plan backward from those dates. For general scheduling methods, see [Planning and daily routines](../../08_throughout/planning_and_routines.md) in Throughout the project.
 
 ### Simulation and measurement: you need both, and each has limits
 
-The three points below come from the literature on wireless networking and signal processing. Other areas can learn from them, but things may not work exactly the same way there `[Our analysis]`
+The three points below come from the literature on wireless networking and signal processing. Other areas can learn from them, but things may not work exactly the same way there:
 
 - **Simulation tends to be optimistic.** In wireless networking research, simulation is flexible, but modeling forces many simplifications, and the results are often optimistic[^lamela2019repeatable-e1].
 - **Measurements are hard to repeat.** Real wireless experiments are affected by random factors such as noise, interference, and multipath (the signal arriving by several reflected paths that add together), so the same inputs can give very different results[^lamela2019repeatable-e3]. Vandewalle and colleagues consider physical experiments probably the hardest kind of work to reproduce; often the best you can get is statistically equivalent results[^vandewalle2009reproducible-e6].
@@ -45,12 +45,12 @@ The three points below come from the literature on wireless networking and signa
 
 ### Publishing: with IEEE as the example, a conference paper can grow into a journal paper
 
-IEEE (the Institute of Electrical and Electronics Engineers) describes itself as the world's largest technical professional organization[^ieeeauthorreproducibility-e5], and the rules on this page use its policies as the example. All the rules below are IEEE's own; when you submit to other publishers such as the Institution of Engineering and Technology (IET) or Elsevier, or to Chinese journals, follow their rules `[Our analysis]`. IEEE's publication policies state that "progressive publication" is common in technical publishing: early ideas appear at workshops or as preprints, more mature work at conferences, and fully mature results in journals or **Transactions** (the name of many IEEE journals)[^ieee2026pspb-e4]. IEEE supports this path, on two conditions[^ieee2026pspb-e5]:
+IEEE (the Institute of Electrical and Electronics Engineers) describes itself as the world's largest technical professional organization[^ieeeauthorreproducibility-e5], and the rules on this page use its policies as the example. All the rules below are IEEE's own; when you submit to other publishers such as the Institution of Engineering and Technology (IET) or Elsevier, or to Chinese journals, follow their rules. IEEE's publication policies state that "progressive publication" is common in technical publishing: early ideas appear at workshops or as preprints, more mature work at conferences, and fully mature results in journals or **Transactions** (the name of many IEEE journals)[^ieee2026pspb-e4]. IEEE supports this path, on two conditions[^ieee2026pspb-e5]:
 
 - The journal version must fully cite the earlier conference version.
 - The journal version must contain **substantial** technical content beyond the conference version.
 
-When you submit to an IEEE journal, you must disclose your own similar papers that are published or under review elsewhere (a conference paper, for example) and explain how the new manuscript differs from them[^ieeeauthorsubmission-e1]. This is not quite the same as in most areas of computing, where a paper at a top conference counts as a finished publication (see the [Computer science page](../computer-science/README.md#conferences-are-the-main-publication-venue)), so check what your target journal requires before you submit `[Our analysis]`. A few more IEEE rules that are easy to trip over:
+When you submit to an IEEE journal, you must disclose your own similar papers that are published or under review elsewhere (a conference paper, for example) and explain how the new manuscript differs from them[^ieeeauthorsubmission-e1]. This is not quite the same as in most areas of computing, where a paper at a top conference counts as a finished publication (see the [Computer science page](../computer-science/README.md#conferences-are-the-main-publication-venue)), so check what your target journal requires before you submit. A few more IEEE rules that are easy to trip over:
 
 - **Multiple submission** means the same paper is under review at two or more publications at once; each IEEE organizational unit decides for itself whether to allow it[^ieeeauthorsubmission-e2], so check the rules of the specific journal or conference.
 - **Someone has to present a conference paper.** IEEE may exclude a paper that was not presented from IEEE Xplore (IEEE's digital library)[^ieee2026pspb-e13].
@@ -64,13 +64,13 @@ IEEE's authorship criteria have three parts, and all three must be met[^ieee2026
 2. Drafting the paper or revising it for content.
 3. Approving the final accepted version.
 
-Prototype development is written explicitly into the first criterion[^ieee2026pspb-e6]. In other words, the person who built the hardware and ran the tests should be an author, as long as the other two criteria are also met `[Our analysis]`. IEEE does not set author order; the authors decide it among themselves[^ieee2026pspb-e8]. For general principles of authorship and how to agree on order early, see [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#5-authorship-citation-and-conflicts-of-interest-give-every-contributor-due-credit) in Throughout the project.
+Prototype development is written explicitly into the first criterion[^ieee2026pspb-e6]. In other words, the person who built the hardware and ran the tests should be an author, as long as the other two criteria are also met. IEEE does not set author order; the authors decide it among themselves[^ieee2026pspb-e8]. For general principles of authorship and how to agree on order early, see [Research integrity and ethics](../../08_throughout/integrity_and_ethics.md#5-authorship-citation-and-conflicts-of-interest-give-every-contributor-due-credit) in Throughout the project.
 
 ---
 
 ## How this field differs from computer science
 
-The table below is our own summary, meant to help you spot the differences quickly; it is not a strict division between fields `[Our analysis]`.
+The table below is our own summary, meant to help you spot the differences quickly; it is not a strict division between fields.
 
 | | EE | Computing |
 |---|---|---|
@@ -87,9 +87,9 @@ The table below is our own summary, meant to help you spot the differences quick
 
 ### The IEEE Code of Ethics and publication policies
 
-IEEE's publications operations manual includes the full text of the IEEE Code of Ethics. Two of its points matter most for research in this field `[Our analysis]`:
+IEEE's publications operations manual includes the full text of the IEEE Code of Ethics. We picked out the two points that matter most for research in this field:
 
-- **Public safety comes first.** Promptly disclose factors that could endanger the public or the environment[^ieee2026pspb-e1]. Keep this in mind especially if you work on power systems, medical electronics, or automotive electronics `[Our analysis]`.
+- **Public safety comes first.** Promptly disclose factors that could endanger the public or the environment[^ieee2026pspb-e1]. Keep this in mind especially if you work on power systems, medical electronics, or automotive electronics.
 - **Disclose conflicts of interest**[^ieee2026pspb-e2]; papers must state funding sources and potential conflicts of interest[^ieee2026pspb-e10].
 
 A few IEEE publication rules worth remembering on their own:
@@ -113,13 +113,13 @@ What IEEE does now:
 
 - It encourages (but does not require) all authors to share data and code[^ieeeauthorreproducibility-e1]; data can go in public repositories such as figshare, Zenodo, or Dryad[^ieeeauthorreproducibility-e2].
 - It recommends Code Ocean (a platform for storing and running code in the cloud)[^ieeeauthorreproducibility-e3]; authors who have published with IEEE in the past five years can link their code to their paper's page on IEEE Xplore[^ieeeauthorreproducibility-e4].
-- The *IEEE Open Journal of Signal Processing* (OJSP) is piloting a **reproducibility review**[^ojspreproducibility-e2]: after a paper is conditionally accepted[^ojspreproducibility-e3], a reviewer actually runs the authors' code on Code Ocean and checks the computational results[^ojspreproducibility-e1]. The review is a good-faith check, not a hunt for edge cases that break the code[^ojspreproducibility-e4]. OJSP explains why it does not rely on GitHub alone: with only the source code, other people often spend a lot of time setting up the environment before they can run it[^ojspreproducibility-e5]. This is one journal's pilot, not an IEEE-wide requirement `[Our analysis]`.
+- The *IEEE Open Journal of Signal Processing* (OJSP) is piloting a **reproducibility review**[^ojspreproducibility-e2]: after a paper is conditionally accepted[^ojspreproducibility-e3], a reviewer actually runs the authors' code on Code Ocean and checks the computational results[^ojspreproducibility-e1]. The review is a good-faith check, not a hunt for edge cases that break the code[^ojspreproducibility-e4]. OJSP explains why it does not rely on GitHub alone: with only the source code, other people often spend a lot of time setting up the environment before they can run it[^ojspreproducibility-e5]. This is one journal's pilot, not an IEEE-wide requirement.
 
 **Watch the terminology.** In discussions of reproducibility, different communities use "reproduce" and "replicate" in exactly opposite ways[^barba2018terminologies-e2]. The signal processing literature mostly follows the usage of Vandewalle and colleagues above: "reproduce" means getting the results again using the authors' published data and code[^vandewalle2009reproducible-e2]; Barba's classification table also puts signal processing in the camp of Claerbout, Donoho, and Peng[^barba2018terminologies-e3]. For the usage in computing (the Association for Computing Machinery, ACM) and how it changed, see [Replication studies: first, get the terms straight](../../06_methods/replication.md#first-get-the-terms-straight). When you read the literature, first check how the authors define these two words.
 
 ### Publish or patent (the US as the example)
 
-If your results have practical value, think about patents before you publish `[Our analysis]`. All the rules below come from guidance published by the technology transfer offices (the units that handle a university's patents and commercialization) of several US universities (Rutgers, Berkeley, and Utah), and reflect US law and those universities' policies. **Patent law in China and other countries, and the policies of your own institution, may differ; follow your institution's guidance.**
+If your results have practical value, think about patents before you publish. All the rules below come from guidance published by the technology transfer offices (the units that handle a university's patents and commercialization) of several US universities (Rutgers, Berkeley, and Utah), and reflect US law and those universities' policies. **Patent law in China and other countries, and the policies of your own institution, may differ; follow your institution's guidance.**
 
 **What counts as "public disclosure" (as US universities describe it).** Describing the invention to the public, without confidentiality and in enough detail that a person of ordinary skill in the field could make it without undue experimentation, counts as public disclosure[^rutgersinventionfaq-e4]. Some cases that are easy to overlook:
 
@@ -136,18 +136,18 @@ If your results have practical value, think about patents before you publish `[O
 
 ### Standards bodies
 
-Some research in areas such as communications involves standards, for example comparing against a standardized scheme or submitting proposals to a standard `[Our analysis]`. The IEEE Standards Association holds that standards support interoperability, that is, they let different devices work together[^ieeesadevelop-e1]. Two examples:
+Some research in areas such as communications involves standards, for example comparing against a standardized scheme or submitting proposals to a standard. The IEEE Standards Association holds that standards support interoperability, that is, they let different devices work together[^ieeesadevelop-e1]. Two examples:
 
 - **IEEE Standards Association (IEEE SA)**: standards are developed through a fixed six-stage process[^ieeesadevelop-e2] that relies on voluntary collaboration among the parties involved[^ieeesadevelop-e3]. It has a dedicated patent committee responsible for patent policy related to standards[^ieeesadevelop-e4].
 - **3GPP (3rd Generation Partnership Project)**: founded in 1998, originally to develop 3G mobile standards[^3gpp2026about-e2]; its specifications now cover cellular radio access, the core network, and service capabilities[^3gpp2026about-e1].
 
-If your research relates to a standard, first read and understand the relevant parts of the standard, and ask your advisor and collaborators what arrangements apply on patents and confidentiality `[Our analysis]`.
+If your research relates to a standard, first read and understand the relevant parts of the standard, and ask your advisor and collaborators what arrangements apply on patents and confidentiality.
 
 ---
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the four strategies this page's sources support; our sources do not cover the other strategies. The grouping and the second column are our own summary, and each standard represents only the areas in its footnotes (mostly wireless networking and signal processing) `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the four strategies this page's sources support; our sources do not cover the other strategies. The grouping and the second column are our own summary, and each standard represents only the areas in its footnotes (mostly wireless networking and signal processing).
 
 | Strategy | What it looks like in this field | Common evidence and standards | How to do it |
 |---|---|---|---|
@@ -156,14 +156,14 @@ A **research strategy** is the main logic by which a project produces new knowle
 | [Description](../../05_research-strategies/observe_describe.md) | Measure the characteristics of a channel, device, or system in a real environment | Wireless experiments are affected by noise, interference, and multipath, so the same inputs can give very different results[^lamela2019repeatable-e3]; physical experiments are hard to reproduce fully, so make the measurement data reusable by others[^vandewalle2009reproducible-e6] and describe the setup and measurement equipment in detail[^vandewalle2009reproducible-e7] | [Experimental measurement](../../06_methods/experimental_measurement.md) |
 | [Proof](../../05_research-strategies/prove.md) | Derive performance bounds, prove properties of algorithms | Signal processing sits between theory and experiment; theorems are often accompanied by numerical simulations that help with understanding[^vandewalle2009reproducible-e12] | [Theoretical research](../computer-science/practices/theoretical_research.md) (Computer science page) |
 
-How to use this table `[Our analysis]`: first choose the main strategy based on your central claim. For example, if you propose a new circuit and also derive its performance bounds, the derivation is held to the standards for proof. For areas that overlap with computing, also see [the section of the same name on the Computer science page](../computer-science/README.md#common-strategies-and-standards-of-evidence).
+How to use this table: first choose the main strategy based on your central claim. For example, if you propose a new circuit and also derive its performance bounds, the derivation is held to the standards for proof. For areas that overlap with computing, also see [the section of the same name on the Computer science page](../computer-science/README.md#common-strategies-and-standards-of-evidence).
 
 ## Research methods common in this field
 
 This field has no method pages of its own; it uses the cross-field methods in [Research types](../../06_methods/README.md) and the practices on the Computer science page:
 
 - [Experimental measurement](../../06_methods/experimental_measurement.md) and [Quantitative simulation](../../06_methods/simulation_study.md): you need both; see [Simulation and measurement](#simulation-and-measurement-you-need-both-and-each-has-limits) above.
-- [Engineering research](../computer-science/practices/engineering_research.md), [Benchmarking](../computer-science/practices/benchmarking.md), [Theoretical research](../computer-science/practices/theoretical_research.md), and [Optimization studies](../computer-science/practices/optimization_study.md) (Computer science page): evaluating a new circuit or system may require measurements on a prototype, not just simulation; problems such as resource allocation and choosing circuit parameters can be modeled as optimization problems `[Our analysis]`.
+- [Engineering research](../computer-science/practices/engineering_research.md), [Benchmarking](../computer-science/practices/benchmarking.md), [Theoretical research](../computer-science/practices/theoretical_research.md), and [Optimization studies](../computer-science/practices/optimization_study.md) (Computer science page): evaluating a new circuit or system may require measurements on a prototype, not just simulation; problems such as resource allocation and choosing circuit parameters can be modeled as optimization problems.
 - [Replication studies](../../06_methods/replication.md): watch how "reproduce" and "replicate" are used; see [Reproducibility](#reproducibility-the-debate-in-signal-processing) above.
 
 ---
@@ -172,10 +172,10 @@ This field has no method pages of its own; it uses the cross-field methods in [R
 
 1. **From day one, write a script that generates each figure.** Once Vandewalle and colleagues planned for reproducibility from the start, the cleanup work shrank from about a week to about a day[^vandewalle2009reproducible-e11]. For general practice, see [Organizing your research materials](../../08_throughout/organizing_materials.md).
 2. **Do both simulation and measurement, and explain the gap between them** (for why, see [Simulation and measurement](#simulation-and-measurement-you-need-both-and-each-has-limits) above).
-3. **For tape-outs and testbed experiments, plan backward from the outside schedule.** Check thoroughly before you submit; if something goes wrong, you may have to wait for the next run `[Our analysis]`.
+3. **For tape-outs and testbed experiments, plan backward from the outside schedule.** Check thoroughly before you submit; if something goes wrong, you may have to wait for the next run.
 4. **Think about patents before you write the paper.** Before you submit, present, or post a preprint, ask your advisor whether the results should be patented; if so, contact your institution's patent office as early as possible (Berkeley recommends at least 1 to 2 months before public disclosure[^berkeleydisclose-e2]).
 5. **When turning a conference paper into a journal paper, genuinely extend it.** When you submit to an IEEE journal, cite the conference version and say clearly what is new[^ieee2026pspb-e5][^ieeeauthorsubmission-e1].
-6. **Before signing a non-disclosure agreement, find out what you will be allowed to publish.** Design kits, company data, and code from collaborations may all be restricted[^europracticempw-e2][^vandewalle2009reproducible-e9]; publish whatever you can (measurement data, simulation code) `[Our analysis]`.
+6. **Before signing a non-disclosure agreement, find out what you will be allowed to publish.** Design kits, company data, and code from collaborations may all be restricted[^europracticempw-e2][^vandewalle2009reproducible-e9]; publish whatever you can (measurement data, simulation code).
 
 ---
 

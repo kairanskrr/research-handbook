@@ -25,7 +25,7 @@ Each strategy has its own page explaining what knowledge it produces, what evide
 | [Proof](prove.md) | Under what conditions must X hold? | "Under condition C, the algorithm always terminates" |
 | [Interpretation and argument](interpret_argue.md) | How should this text, institution, or idea be understood? | Mainly the humanities and social sciences |
 
-**This is not an accepted standard classification.** This handbook put it together to help newcomers find their bearings, and we will keep testing and adjusting it as we write the chapters of Part 1 and Part 2 and the computer science pages. The papers you read won't call themselves "comparative evaluation"; other books may split these categories more finely or merge them more coarsely. For where it lines up with existing classifications and where it is this handbook's own addition, see [Where this grouping comes from](#where-this-grouping-comes-from). Treat it as a map that helps you think, not as rules you must follow `[Our analysis]`.
+**This is not an accepted standard classification.** This handbook put it together to help newcomers find their bearings, and we will keep testing and adjusting it as we write the chapters of Part 1 and Part 2 and the computer science pages. The papers you read won't call themselves "comparative evaluation"; other books may split these categories more finely or merge them more coarsely. For where it lines up with existing classifications and where it is this handbook's own addition, see [Where this grouping comes from](#where-this-grouping-comes-from). Treat it as a map that helps you think, not as rules you must follow.
 
 ## How to pick your main strategy
 
@@ -56,7 +56,7 @@ Each strategy has its own page explaining what knowledge it produces, what evide
 - **Description vs. measurement**: description **uses** measurement to reach conclusions about a phenomenon; in measurement, the contribution is **the way of measuring itself**. "40% of contracts have vulnerabilities" is description; "the old counting method overcounted vulnerabilities" is measurement.
 - **Description vs. synthesis**: description studies the phenomenon itself (contracts, code, developers); synthesis studies existing research.
 
-The three steps and the lookup table above are this handbook's own synthesis `[Our analysis]`.
+The three steps and the lookup table above are this handbook's own synthesis.
 
 **Write it down:** Write your central claim and use the table above to decide your main strategy. If you have two kinds of contribution, write down "the one sentence I'd keep if I could keep only one", and use it to decide which is primary.
 
@@ -67,7 +67,7 @@ The eight strategies are this handbook's own grouping. The closest existing clas
 - **Easterbrook et al. 2008**: on how to choose methods for **empirical research** in software engineering. It analyzes which kinds of questions each method is best suited to answer[^easterbrook2008selecting-e30], and treats getting clear about the research question as one of the first steps in choosing a method[^easterbrook2008selecting-e31]. It covers only empirical research: it says empirical research answers knowledge questions about the way the world is, whereas most non-empirical research in software engineering focuses on a different kind of question, namely how to design better ways of doing things[^easterbrook2008selecting-e38]; it calls these design questions[^easterbrook2008selecting-e39].
 - **Shaw 2003**: divides the questions software engineering research answers into four kinds: methods of development or analysis; the design or evaluation of a particular instance; generalizations over whole classes of systems or techniques; and exploration of existence or feasibility[^shaw2003writing-e38].
 
-The table below maps the eight strategies onto these two sources. "No counterpart" means that source has no corresponding question type `[Our analysis]`:
+The table below is our own mapping of the eight strategies onto these two sources. "No counterpart" means that source has no corresponding question type:
 
 | This handbook's strategy | Easterbrook et al. 2008 | Shaw 2003 |
 |---|---|---|
@@ -80,16 +80,16 @@ The table below maps the eight strategies onto these two sources. "No counterpar
 | Proof | **No counterpart** (outside the scope of empirical research) | Generalization ("Given X, what will Y necessarily be?")[^shaw2003writing-e40]; a formal model must be validated by rigorous derivation and proof[^shaw2003writing-e9] |
 | Interpretation and argument | **No counterpart** | **No counterpart** |
 
-As you can see, synthesis and interpretation and argument have no counterpart in either source; causal explanation has none in Shaw, and proof has none in Easterbrook; measurement is only part of one question type in each. These are the categories this handbook separated out or split off to cover more fields and help newcomers find their bearings. Both sources come from software engineering, so the mapping fits computer science best; our sources do not cover how other fields classify research questions `[Our analysis]`.
+As you can see, synthesis and interpretation and argument have no counterpart in either source; causal explanation has none in Shaw, and proof has none in Easterbrook; measurement is only part of one question type in each. These are the categories this handbook separated out or split off to cover more fields and help newcomers find their bearings. Both sources come from software engineering, so the mapping fits computer science best; our sources do not cover how other fields classify research questions.
 
-**Two other classifications you may have seen.** They sort along different dimensions and don't conflict with the strategies; any strategy can fit into them `[Our analysis]`:
+**Two other classifications you may have seen.** They sort along different dimensions and don't conflict with the strategies; any strategy can fit into them:
 
 - **By aim (OECD, the Organisation for Economic Co-operation and Development)**: basic research seeks to understand the underlying foundations of phenomena, without any particular application in view; applied research is directed toward a specific practical aim[^oecd2015frascati-e8]; experimental development draws on existing knowledge to produce new products or processes, or to improve existing ones[^oecd2015frascati-e9].
 - **By the nature of the conclusion (Brooks, as reported by Shaw)**: findings (judged by truthfulness and rigor), observations (judged by interestingness), and rules of thumb (judged by usefulness)[^shaw2002makes-e5].
 
 ## How strategies differ from methods
 
-**Settle the claim and the strategy first, then pick methods.** One method can serve several strategies, and one project often combines several methods. Examples from computer science `[Our analysis]`:
+**Settle the claim and the strategy first, then pick methods.** One method can serve several strategies, and one project often combines several methods. Examples from computer science:
 
 | Research type | Strategies it can serve |
 |---|---|
@@ -106,7 +106,7 @@ Why you shouldn't work the other way round, starting from "I know how to run exp
 
 ## Why to keep your strategy in mind from start to finish
 
-The strategy isn't only useful when you design experiments; at every stage it helps you ask the right questions. The stage-by-stage advice below is this handbook's own synthesis; most of the sources cited come from software engineering, and in other fields your own field's conventions take precedence `[Our analysis]`.
+The strategy isn't only useful when you design experiments; at every stage it helps you ask the right questions. The stage-by-stage advice below is this handbook's own synthesis; most of the sources cited come from software engineering, and in other fields your own field's conventions take precedence.
 
 **When reading the literature.** First ask which strategy a paper's central claim belongs to, then judge it by that strategy's standards. Don't apply quality standards that don't fit, for example demanding internal validity (whether the causal conclusion really holds) of a study that makes no causal claim[^ralph2020empirical-e24].
 

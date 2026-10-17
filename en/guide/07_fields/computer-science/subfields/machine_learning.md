@@ -4,7 +4,7 @@
 
 ## What this area studies
 
-Machine learning studies how computers can learn patterns from data and then use the learned models to make predictions or generate output. The common questions fall into two kinds (this split is our own) `[Our analysis]`:
+Machine learning studies how computers can learn patterns from data and then use the learned models to make predictions or generate output. The common questions fall into two kinds (this split is our own):
 
 - **Proposing a better method**: whether a new model architecture, training method, or optimization trick beats existing methods on accepted benchmarks, where it is better, and why.
 - **Using machine learning to answer questions in other fields**: the REFORMS checklist (a reporting checklist for this kind of research) calls this "machine-learning-based science", in which a model's predictive performance is used as evidence for a scientific claim[^kapoor2024reforms-e1].
@@ -33,7 +33,7 @@ Reproduction has dedicated channels in this area. NeurIPS 2019 ran a reproducibi
 
 ## Common strategies and standards of evidence
 
-The table below is our own summary of machine learning sources; each standard speaks only for the requirements of the source in its footnote `[Our analysis]`. For the general requirements of a fair comparison (equal tuning effort, multiple runs, holding back data for a final test), see [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough); here we cover only what is particular to this area.
+The table below is our own summary of machine learning sources; each standard speaks only for the requirements of the source in its footnote. For the general requirements of a fair comparison (equal tuning effort, multiple runs, holding back data for a final test), see [Comparative evaluation](../../../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough); here we cover only what is particular to this area.
 
 | Strategy | What it looks like in this area | Evidence this area particularly values | How to do it |
 |---|---|---|---|
@@ -65,7 +65,7 @@ Answering "no" or "not applicable" is generally not grounds for rejection, as lo
 
 For "use the test data only once, at the end" and how to prevent data leakage, see [Comparative evaluation: hold back data for the final test only](../../../05_research-strategies/compare_evaluate.md#keep-some-data-for-the-final-test-only) and [Data science: split the data before doing anything else](../../../06_methods/data_science.md#step-3-split-the-data-before-doing-anything-else-to-it).
 
-Large language models bring a new problem: **data contamination**, where a model has been trained on a benchmark's test set and is then evaluated on that same benchmark[^sainz2023nlp-e1]. If the model has seen the evaluation data, the experiment is completely invalid[^sainz2023nlp-e3]. When you evaluate a large language model someone else trained, first check whether its training data might include your test set `[Our analysis]`.
+Large language models bring a new problem: **data contamination**, where a model has been trained on a benchmark's test set and is then evaluated on that same benchmark[^sainz2023nlp-e1]. If the model has seen the evaluation data, the experiment is completely invalid[^sainz2023nlp-e3]. When you evaluate a large language model someone else trained, first check whether its training data might include your test set.
 
 ### Data, code, and assets
 

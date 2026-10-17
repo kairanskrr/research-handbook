@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Sections 3, 5 and 6 are mainly for empirical research (research that reaches its conclusions by collecting data); each of those sections says so at the top.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Break the central claim into two to four research questions, and label each with its type.** If the claim says "causes" but a question can only show "is related to", change one of them ([Section 1](#1-break-the-claim-into-research-questions)).
 > 2. **Write a one-sentence operational definition for every key term in the claim.** Say exactly what you will look at and how you will count it; for the most disputed term, have a second definition ready ([Section 2](#2-give-every-key-term-an-operational-definition)).
@@ -16,7 +16,7 @@
 
 You have just passed the exit check at the end of Part 1 (see [Converging on a project](../01_find-a-problem/05_converge.md#7-exit-are-you-ready-for-part-2)). You have four things: a central claim you can state in one sentence, a one-page project summary, an empty results table, and an exit check you passed. You also have a rough idea of what kind of research you will be doing.
 
-At this point in the running example, the claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage", the main strategy is measurement, and the empty results table is "accuracy for each model and each tool, before and after removing leaked contracts" `[Our analysis]`.
+At this point in the running example, the claim is "published evaluations of large language model vulnerability detectors are inflated by data leakage", the main strategy is measurement, and the empty results table is "accuracy for each model and each tool, before and after removing leaked contracts".
 
 Then you sit down to start, and new questions appear:
 
@@ -25,7 +25,7 @@ Then you sit down to start, and new questions appear:
 - Once results come in, how big a gap counts as "inflated", and how small is just "about the same"?
 - You haven't decided whether to fix a hypothesis first, or just run things and see.
 
-If you don't settle these, then once the data is in you will find that every reading of it seems to make sense. And data that fits every reading proves nothing `[Our analysis]`.
+If you don't settle these, then once the data is in you will find that every reading of it seems to make sense. And data that fits every reading proves nothing.
 
 ## What this stage is for
 
@@ -38,7 +38,7 @@ Turn your central claim into an **evidence plan**: for each item, write down wha
 5. For each research question, am I testing a claim I fixed in advance, or exploring?
 6. Should I publish my plan in advance?
 
-This chapter does not choose a method. Controlled experiment, questionnaire or repository mining is the next chapter's decision. Here you only pin down what you need to answer and what would count as an answer; that is what gives you grounds to choose a method `[Our analysis]`.
+This chapter does not choose a method. Controlled experiment, questionnaire or repository mining is the next chapter's decision. Here you only pin down what you need to answer and what would count as an answer; that is what gives you grounds to choose a method.
 
 ---
 
@@ -46,7 +46,7 @@ This chapter does not choose a method. Controlled experiment, questionnaire or r
 
 **Split the central claim into parts and write each part as a question.** One of the first steps in choosing a research method is getting clear about your research question[^easterbrook2008selecting-e31]. A well-reported study is also expected to state its research questions and explain why they matter[^ralph2020empirical-e22].
 
-The [questions a reviewer would press you on](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it), listed in 1.5, are usually your research questions in rough form. Take the claim "published evaluations of large language model vulnerability detectors are inflated by data leakage" `[Our analysis]`:
+The [questions a reviewer would press you on](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it), listed in 1.5, are usually your research questions in rough form. Take the claim "published evaluations of large language model vulnerability detectors are inflated by data leakage":
 
 | Research question | Type of question |
 |---|---|
@@ -54,9 +54,9 @@ The [questions a reviewer would press you on](../01_find-a-problem/05_converge.m
 | RQ2: How much does the detection rate differ between leaked and non-leaked samples? | Relationship (are the two associated) |
 | RQ3: Once leaked samples are removed, does the ranking of tools change? | Description (compare the rankings before and after) |
 
-**Know which type each question is, because the type decides what evidence you need.** The classification below comes from a guide to research methods in software engineering[^easterbrook2008selecting-e32][^easterbrook2008selecting-e34][^easterbrook2008selecting-e35][^easterbrook2008selecting-e37][^easterbrook2008selecting-e39]. The question types themselves are not specific to software engineering; any empirical field can use them `[Our analysis]`:
+**Know which type each question is, because the type decides what evidence you need.** The classification below comes from a guide to research methods in software engineering[^easterbrook2008selecting-e32][^easterbrook2008selecting-e34][^easterbrook2008selecting-e35][^easterbrook2008selecting-e37][^easterbrook2008selecting-e39]. In our view, the question types themselves are not specific to software engineering; any empirical field can use them:
 
-| Type | What the question looks like | Smart-contract example `[Our analysis]` |
+| Type | What the question looks like | Smart-contract example |
 |---|---|---|
 | Existence and description | Does X exist? What is X like? How can we measure it? | Is there leakage in the benchmark? |
 | Base rate | How common is X, and how is it distributed? | What share of samples are leaked? |
@@ -66,20 +66,20 @@ The [questions a reviewer would press you on](../01_find-a-problem/05_converge.m
 
 Two things to watch when you use this table:
 
-- **Base-rate questions are often skipped.** If you don't know how common something normally is, you can't tell whether what you are looking at is normal or unusual[^easterbrook2008selecting-e34]. In the contract example, "how much leakage is there?" has to be answered before "how much does it matter?" means anything `[Our analysis]`.
+- **Base-rate questions are often skipped.** If you don't know how common something normally is, you can't tell whether what you are looking at is normal or unusual[^easterbrook2008selecting-e34]. In the contract example, "how much leakage is there?" has to be answered before "how much does it matter?" means anything.
 - **Correlation is not causation.** Mistaking a correlation for a cause is a common error, and showing causation is usually much harder than showing correlation[^easterbrook2008selecting-e36]. RQ2 is a relationship question. If your claim says leakage **causes** the inflation, you need evidence for a causal question; see [Causal explanation](../05_research-strategies/explain_causality.md).
 
-**Design questions rest on knowledge questions.** A design question assumes the related knowledge questions have already been answered, so that you understand the problem well enough[^easterbrook2008selecting-e40]. If you want to build a new benchmark, first find out what exactly is wrong with the old ones `[Our analysis]`.
+**Design questions rest on knowledge questions.** A design question assumes the related knowledge questions have already been answered, so that you understand the problem well enough[^easterbrook2008selecting-e40]. If you want to build a new benchmark, first find out what exactly is wrong with the old ones.
 
 **Write it down:** Break your central claim into two to four research questions and label each with its type. If a question's type doesn't match the wording of your claim (the claim says "causes" but the question can only show "is related to"), change one of them.
 
 ## 2. Give every key term an operational definition
 
-**For every key term in your claim, write down exactly what you will look at and how you will count it.** This is an **operational definition**: it turns a concept into a measurement rule that someone could follow step by step `[Our analysis]`.
+**For every key term in your claim, write down exactly what you will look at and how you will count it.** This is an **operational definition**: it turns a concept into a measurement rule that someone could follow step by step.
 
 Why bother: what you actually measure has to really represent the concept you want to study[^runeson2009guidelines-e3]. Measurement research in psychology makes the same warning: if the construct is not defined clearly at the start, every later measurement decision becomes hard, and the vagueness leaves room to exploit it, knowingly or not[^flake2020measurement-e7].
 
-In the contract example, go through the terms one by one `[Our analysis]`:
+In the contract example, go through the terms one by one:
 
 | Key term | What you have to decide | One possible definition |
 |---|---|---|
@@ -88,11 +88,11 @@ In the contract example, go through the terms one by one `[Our analysis]`:
 | Inflated | Compared with what? By how much? | The same tool's detection rate on non-leaked samples is more than 5 percentage points lower than on all samples |
 | Large language model | Which models, which versions, queried when? | List the model names, version numbers and query dates |
 
-**A term often has several reasonable definitions.** Pick one and write down why. If the choice matters a lot for the results, try one or two alternatives and see whether the conclusion changes `[Our analysis]`. Counting leakage as "identical" versus "highly similar" could give very different leakage rates; report both, so readers can see how robust your conclusion is.
+**A term often has several reasonable definitions.** Pick one and write down why. If the choice matters a lot for the results, try one or two alternatives and see whether the conclusion changes. Counting leakage as "identical" versus "highly similar" could give very different leakage rates; report both, so readers can see how robust your conclusion is.
 
-**Don't let a convenient number stand in for a complex concept.** The empirical standards for software engineering list "unvalidated, uni-dimensional operationalizations of multidimensional constructs" as an antipattern, with "using github stars as a proxy for popularity" as the example[^ralph2020empirical-e119]. Using "number of tool warnings" as a proxy for "detection ability" fails for the same reason `[Our analysis]`.
+**Don't let a convenient number stand in for a complex concept.** The empirical standards for software engineering list "unvalidated, uni-dimensional operationalizations of multidimensional constructs" as an antipattern, with "using github stars as a proxy for popularity" as the example[^ralph2020empirical-e119]. Using "number of tool warnings" as a proxy for "detection ability" fails for the same reason.
 
-**Same name doesn't mean same thing.** Two measures with similar names don't necessarily measure the same construct, and two measures with different names may measure the same one[^flake2020measurement-e8]. If another paper also reports a "detection rate", check that its definition matches yours before you compare numbers `[Our analysis]`.
+**Same name doesn't mean same thing.** Two measures with similar names don't necessarily measure the same construct, and two measures with different names may measure the same one[^flake2020measurement-e8]. If another paper also reports a "detection rate", check that its definition matches yours before you compare numbers.
 
 How to check whether a measure is accurate and stable belongs to [Measurement](../05_research-strategies/measure.md). Here you only need to write the definitions down, and to do it before you see the data.
 
@@ -104,7 +104,7 @@ How to check whether a measure is accurate and stable belongs to [Measurement](.
 
 **First: what is "one" when you count?** This is your **unit of analysis**. In software engineering research it might be a company, a project, a team, a developer, an event or a work product; choosing the right one keeps the study focused on the phenomenon you actually care about[^easterbrook2008selecting-e15]. Experience with software engineering surveys shows that with the wrong unit of analysis, the data you collect may be useless for your research question[^torchiano2017lessons-e5].
 
-The contract example has at least three options, and each gives a different "detection rate" `[Our analysis]`:
+The contract example has at least three options, and each gives a different "detection rate":
 
 | Unit of analysis | What "detection rate" means | What can go wrong |
 |---|---|---|
@@ -112,11 +112,11 @@ The contract example has at least three options, and each gives a different "det
 | A vulnerability | Of all known vulnerabilities, how many are found | Contracts with many vulnerabilities automatically carry more weight |
 | A function | How many functions are correctly judged | Vulnerabilities that span functions are hard to count |
 
-Which one to use depends on what your research question asks. "Can the tool help a developer who is handed a contract?" calls for contracts; "How many vulnerabilities can the tool find?" calls for vulnerabilities `[Our analysis]`.
+Which one to use depends on what your research question asks. "Can the tool help a developer who is handed a contract?" calls for contracts; "How many vulnerabilities can the tool find?" calls for vulnerabilities.
 
 **Next: who do you want your conclusions to apply to?** Separate three things: the **population** is everything you are interested in, the **sampling frame** is the list you can actually draw from, and the **sample** is what you end up studying; the sampling frame is usually imperfect[^ralph2020empirical-e42].
 
-- In the contract example, the population might be "all contracts deployed on Ethereum"; the sampling frame might be "contracts with published source code", which only covers contracts whose owners chose to publish; the sample is the few thousand contracts you actually use `[Our analysis]`.
+- In the contract example, the population might be "all contracts deployed on Ethereum"; the sampling frame might be "contracts with published source code", which only covers contracts whose owners chose to publish; the sample is the few thousand contracts you actually use.
 - If you are after representativeness, first state who, in principle, you want to generalize to[^baltes2022sampling-e11]. Representativeness is a relationship between a sample and a population, not a property that comes with a sampling technique[^baltes2022sampling-e3]; if the sampling frame is biased, no sample size will fix it[^baltes2022sampling-e5].
 - Not aiming for representativeness is perfectly fine, for example when you are looking for unusual cases. Then state what your sampling is meant to achieve and explain why your approach is reasonable for that goal; it doesn't have to be optimal[^ralph2020empirical-e36]. Criticizing a study for lacking representativeness when it never aimed for it is not a valid criticism[^ralph2020empirical-e39].
 
@@ -130,34 +130,34 @@ Sampling works differently for each method; see the method pages such as [Questi
 
 ## 4. Before you look at the data, decide what counts as support and what counts against
 
-**Predict the results before you run the experiments or collect the data.** This helps you interpret the results and catch mistakes[^huang2023experiments-e3][^huang2023experiments-e4]. More importantly, it forces you to answer: **is there any result that would make you admit your claim is wrong?** If you could read any outcome as "support", the study can't prove anything `[Our analysis]`.
+**Predict the results before you run the experiments or collect the data.** This helps you interpret the results and catch mistakes[^huang2023experiments-e3][^huang2023experiments-e4]. More important, in our view, it forces you to answer: **is there any result that would make you admit your claim is wrong?** If you could read any outcome as "support", the study can't prove anything.
 
-**How:** Fill in a table for each research question. Later, when you write the research plan, each milestone's ["done" criteria](03_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done) come straight from this table `[Our analysis]`:
+**How:** Fill in a table for each research question. Later, when you write the research plan, each milestone's ["done" criteria](03_research-plan.md#3-for-each-milestone-write-down-what-counts-as-done) come straight from this table:
 
 | Research question | My prediction | Counts as support | Counts against | If the result falls in between, I will write… |
 |---|---|---|---|---|
 | RQ1: leakage rate | 20–30% | Above 10% | Almost no leakage | Report the rate; change the claim to "some leakage exists" |
 | RQ2: gap in detection rate | Leaked samples at least 10 percentage points higher | At least 5 percentage points, in the same direction across several tools | Under 2 percentage points, or directions disagree | Say only "may have an effect"; don't write "inflated" |
 
-The numbers are only illustrations. What matters is that they are fixed before you see the data, and that you write down why you chose them `[Our analysis]`.
+The numbers are only illustrations. What matters is that they are fixed before you see the data, and that you write down why you chose them.
 
 **Know which evidence can only rule things out and which can confirm.** Process tracing in political science (testing an explanation step by step against the sequence of events) distinguishes two kinds of test[^bennett2012process-e10][^bennett2012process-e12]:
 
 - **Hoop test.** The classic example: "Was the accused in the state on the day of the murder?" If not, the explanation is eliminated; if so, that does not greatly raise your confidence in it.
 - **Smoking-gun test.** Passing it is enough to strongly support an explanation; but it isn't required for building confidence, so failing to find a smoking gun doesn't show the explanation is wrong.
 
-These come from political science; here we borrow them as a general way of thinking and apply them to the contract example `[Our analysis]`:
+These come from political science; here we borrow them as a general way of thinking and apply them to the contract example:
 
 - "The benchmark does contain leaked samples" is a hoop test. Without leakage the claim collapses; with leakage, it still doesn't follow that results are inflated.
 - "The model can reproduce benchmark contracts verbatim, and its detection rate on those contracts is clearly higher than on others" is closer to a smoking gun.
 
 So "we found leakage" alone does not get you to "results are inflated". You need stronger evidence.
 
-**"Statistically significant" is not the same as "a difference that matters".** When comparing randomized algorithms in software engineering (algorithms whose output can differ from run to run), the point is whether the new method has a practically meaningful advantage, measured by an effect size (how big the difference is) with its confidence interval[^arcuri2014hitchhiker-e6]. With thousands of runs, almost any difference becomes significant, so you must look at effect sizes as well[^arcuri2014hitchhiker-e9]. In your table, the "counts as support" criterion should say how big a difference, not just "significant" `[Our analysis]`.
+**"Statistically significant" is not the same as "a difference that matters".** When comparing randomized algorithms in software engineering (algorithms whose output can differ from run to run), the point is whether the new method has a practically meaningful advantage, measured by an effect size (how big the difference is) with its confidence interval[^arcuri2014hitchhiker-e6]. With thousands of runs, almost any difference becomes significant, so you must look at effect sizes as well[^arcuri2014hitchhiker-e9]. In your table, the "counts as support" criterion should say how big a difference, not just "significant".
 
-**List the alternative explanations in advance.** Good empirical work considers and rules out alternative explanations[^lipton2019troubling-e1]. In the contract example, an obvious rival explanation is that leaked contracts may simply be older, simpler, or have more textbook vulnerabilities, so the higher detection rate may have nothing to do with the model having "seen" them `[Our analysis]`. That explanation gets its own row in the evidence plan: what evidence will rule it out, for example comparing leaked and non-leaked samples of similar difficulty.
+**List the alternative explanations in advance.** Good empirical work considers and rules out alternative explanations[^lipton2019troubling-e1]. In the contract example, an obvious rival explanation is that leaked contracts may simply be older, simpler, or have more textbook vulnerabilities, so the higher detection rate may have nothing to do with the model having "seen" them. That explanation gets its own row in the evidence plan: what evidence will rule it out, for example comparing leaked and non-leaked samples of similar difficulty.
 
-**Aim the evidence at the claim.** If you claim better performance, analyze performance, not ease of use or generality[^shaw2003writing-e12]. Once the table is filled in, go back through it row by row: does the evidence in each row answer that row's question `[Our analysis]`?
+**Aim the evidence at the claim.** If you claim better performance, analyze performance, not ease of use or generality[^shaw2003writing-e12]. Once the table is filled in, go back through it row by row: does the evidence in each row answer that row's question?
 
 **Write it down:** Fill in the table above for every research question. Then write at least one alternative explanation for your central claim and how you plan to rule it out.
 
@@ -165,18 +165,18 @@ So "we found leakage" alone does not get you to "results are inflated". You need
 
 > This section is for studies that collect data.
 
-Confirmatory research starts with a clear hypothesis and tests it with data[^ralph2020empirical-e30]; exploratory research aims to understand a phenomenon and generate hypotheses. How to tell them apart, and what to do while exploring, was covered in [Exploring hands-on](../01_find-a-problem/03_explore.md#1-first-recognize-that-you-are-exploring-not-yet-testing). By now most of your research questions should be phrasable as confirmatory ones, with a few left as exploratory `[Our analysis]`.
+Confirmatory research starts with a clear hypothesis and tests it with data[^ralph2020empirical-e30]; exploratory research aims to understand a phenomenon and generate hypotheses. How to tell them apart, and what to do while exploring, was covered in [Exploring hands-on](../01_find-a-problem/03_explore.md#1-first-recognize-that-you-are-exploring-not-yet-testing). By now most of your research questions should be phrasable as confirmatory ones, with a few left as exploratory.
 
 **The real problem is mixing the two without saying so.** In research presented as confirmatory, hypothesizing after the results are known (HARKing), or reporting only the statistical tests that came out significant, are antipatterns[^ralph2020empirical-e27]. It isn't necessarily deliberate: memory is fallible, people reason toward the conclusions they want without noticing, and good intentions are not enough[^nosek2018preregistration-e3]. That is why you record it in the evidence plan.
 
-**How** `[Our analysis]`:
+**How**:
 
 1. In your evidence plan, mark each research question "confirmatory" or "exploratory".
 2. For confirmatory questions, write the hypothesis and the Section 4 table before you look at the data.
 3. For exploratory questions, still write down what you plan to look at and how, but no prediction is needed.
 4. When new ideas or extra analyses come up along the way, note them separately and report them as exploratory.
 
-In computer science you can iterate freely on one small batch of data to understand the phenomenon, then test on a separate batch you haven't looked at `[Our analysis]`. That is exploration followed by confirmation, and it is fine as long as the two batches are kept apart and you say honestly which step was which. In the running example, RQ1 and RQ2 are marked confirmatory; "which vulnerability types does the inflation concentrate in?" can be marked exploratory.
+In computer science you can iterate freely on one small batch of data to understand the phenomenon, then test on a separate batch you haven't looked at. That is exploration followed by confirmation, and it is fine as long as the two batches are kept apart and you say honestly which step was which. In the running example, RQ1 and RQ2 are marked confirmatory; "which vulnerability types does the inflation concentrate in?" can be marked exploratory.
 
 **Write it down:** Mark each research question "confirmatory" or "exploratory". For the confirmatory ones, make sure the hypothesis is written down and dated before you saw the relevant data.
 
@@ -188,13 +188,13 @@ In computer science you can iterate freely on one small batch of data to underst
 
 **It isn't meant to tie your hands.** Preregistration doesn't say that predictions made in advance are superior to exploration afterwards; it makes it possible to tell which is which[^nosek2018preregistration-e4]. It doesn't stop you from doing exploratory analyses; you can also preregister just your research questions and how you plan to answer them, and if the results don't match your predictions you can still publish[^simmons2018false-e2].
 
-**How detailed should the plan be?** For Registered Reports, the software engineering empirical standards ask for enough detail that someone else could repeat your data collection and analysis exactly, and for hypotheses that can actually be tested with the data you plan to collect[^ralph2020empirical-e32]. What you wrote in Sections 1 to 5 is essentially the skeleton of that plan `[Our analysis]`.
+**How detailed should the plan be?** For Registered Reports, the software engineering empirical standards ask for enough detail that someone else could repeat your data collection and analysis exactly, and for hypotheses that can actually be tested with the data you plan to collect[^ralph2020empirical-e32]. What you wrote in Sections 1 to 5 is essentially the skeleton of that plan.
 
 **What if you have to deviate from the plan?** No study goes exactly to plan. A deviation is acceptable as long as there is a reason for it and it wasn't made after you knew how it would affect the results[^ralph2020empirical-e34]. Report honestly what changed and why; a preregistration with documented deviations is still far more credible than no preregistration[^nosek2018preregistration-e5]. Report the results of every analysis in the plan; otherwise you are still reporting selectively[^nosek2018preregistration-e6].
 
 **A step further: Registered Reports.** Authors submit their research question and methods to a journal for review before they have results; at the second stage, reviewers don't judge whether the results are "important", only whether the study was done well and as planned[^nosek2018preregistration-e7].
 
-**Where computer science stands.** The software engineering standard for experiments lists "pre-registration of hypotheses and design (where venue allows)" as a desirable attribute, not an essential one[^ralph2020empirical-e176]. Some software engineering venues already accept Registered Reports. According to Ernst and Baldassarre (2023), the first was the 2020 International Conference on Mining Software Repositories (MSR)[^ernst2023registered-e1]; the journal Empirical Software Engineering has supported the format since 2020, and the Association for Computing Machinery's journal Transactions on Software Engineering and Methodology (TOSEM) has run a similar "Registered Paper" program since 2022[^ernst2023registered-e2]. Empirical Software Engineering runs Stage 1 (review of the study plan) as a dedicated conference track; the options at the time were MSR, the International Conference on Software Maintenance and Evolution (ICSME), and the Empirical Software Engineering and Measurement conference (ESEM)[^ernst2023registered-e3]. Our sources do not cover whether venues in other areas of computer science accept them. Venue rules also change from year to year, so check your target venue's call for papers for the current year. Even without going public, keeping a dated copy of your plan in your repository does the job of keeping "planned in advance" and "added afterwards" apart for yourself `[Our analysis]`.
+**Where computer science stands.** The software engineering standard for experiments lists "pre-registration of hypotheses and design (where venue allows)" as a desirable attribute, not an essential one[^ralph2020empirical-e176]. Some software engineering venues already accept Registered Reports. According to Ernst and Baldassarre (2023), the first was the 2020 International Conference on Mining Software Repositories (MSR)[^ernst2023registered-e1]; the journal Empirical Software Engineering has supported the format since 2020, and the Association for Computing Machinery's journal Transactions on Software Engineering and Methodology (TOSEM) has run a similar "Registered Paper" program since 2022[^ernst2023registered-e2]. Empirical Software Engineering runs Stage 1 (review of the study plan) as a dedicated conference track; the options at the time were MSR, the International Conference on Software Maintenance and Evolution (ICSME), and the Empirical Software Engineering and Measurement conference (ESEM)[^ernst2023registered-e3]. Our sources do not cover whether venues in other areas of computer science accept them. Venue rules also change from year to year, so check your target venue's call for papers for the current year. Even without going public, keeping a dated copy of your plan in your repository does the job of keeping "planned in advance" and "added afterwards" apart for yourself.
 
 **Don't expect miracles from it either.** Preregistration doesn't prevent poor statistical practice, but it makes it detectable[^nosek2018preregistration-e8]; whether it improves replicability does not yet have enough empirical evidence behind it[^nosek2018preregistration-e9].
 
@@ -203,13 +203,13 @@ In computer science you can iterate freely on one small batch of data to underst
 > - The Registered Reports section of the software engineering empirical standards says it applies to confirmatory, hypothesis-testing research; preregistering interpretivist (concerned with how people understand and make meaning), qualitative or exploratory research remains controversial[^ralph2020empirical-e30].
 > - The same standard also lists "rejecting preregistration because the research is exploratory or qualitative" as an invalid criticism, holding that all kinds of research can be preregistered[^ralph2020empirical-e31].
 >
-> In practice `[Our analysis]`: confirmatory research should have a written plan in advance, and be preregistered if possible. Exploratory research doesn't have to be preregistered, but it is still best to write down before you start what you plan to look at and how; when you report, say honestly which analyses were planned and which were added after seeing the data.
+> In practice: confirmatory research should have a written plan in advance, and be preregistered if possible. Exploratory research doesn't have to be preregistered, but it is still best to write down before you start what you plan to look at and how; when you report, say honestly which analyses were planned and which were added after seeing the data.
 
 **Write it down:** Decide whether your project will be preregistered, and write one sentence on why. Either way, combine what you produced in Sections 1 to 5 into a dated plan and store it in the project repository.
 
 ## 7. Put it together as an evidence plan
 
-Combine the results of the previous sections into one table, one row per research question. This is the main thing this chapter produces `[Our analysis]`:
+Combine the results of the previous sections into one table, one row per research question. This is the main thing this chapter produces:
 
 | Research question | Type | Operational definitions of key terms | Unit of analysis / population | Counts as support | Counts against | Alternative explanations to rule out | Confirmatory / exploratory |
 |---|---|---|---|---|---|---|---|
@@ -217,13 +217,13 @@ Combine the results of the previous sections into one table, one row per researc
 | RQ2 | | | | | | | |
 | RQ3 | | | | | | | |
 
-**Check it against the empty results table.** For every cell of the [empty results table](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in 1.5, the plan should tell you how that number will be produced. Any cell you can't trace is something you haven't thought through yet `[Our analysis]`.
+**Check it against the empty results table.** For every cell of the [empty results table](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) you drew in 1.5, the plan should tell you how that number will be produced. Any cell you can't trace is something you haven't thought through yet.
 
 **Every later chapter starts from this plan.** When you choose a method, you go through the plan row by row; when you write the research plan, each milestone is one or more rows of evidence from it (see [Writing a research plan](03_research-plan.md#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence)).
 
 **Write it down:** Fill in the evidence plan and show it to your advisor or a labmate. Ask them to pick a row and ask, "If this result came out, what would you write?" For any row you can't answer, go back to the relevant section and rewrite it.
 
-> **How this step differs by type of research** `[Our analysis]`
+> **How this step differs by type of research**
 >
 > - **Empirical studies** (see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md)): the plan is organized around the phenomenon you want to understand. He et al. 2020, a study of code clones in Ethereum contracts, states three questions in prose: why clones occur, whether they spread vulnerabilities, and whether there are plagiarized applications and how much they matter[^he2020characterizing-e4].
 > - **Tool or method papers** (see [Engineering research](../07_fields/computer-science/practices/engineering_research.md)): each row of the plan is a way the tool is better. The Slither paper first lists the properties a good tool should have: it handles real code without crashing, it is fast, and it finds most bugs with few false alarms[^feist2019slither-e3]; the evaluation then compares tools on exactly those points[^feist2019slither-e9].
@@ -234,7 +234,7 @@ Combine the results of the previous sections into one table, one row per researc
 
 ## Judgment calls
 
-**Strict or loose definitions?** Operational definitions often trade precision against feasibility. Some rules of thumb `[Our analysis]`:
+**Strict or loose definitions?** Operational definitions often trade precision against feasibility. Some rules of thumb:
 
 | Situation | Usual approach |
 |---|---|
@@ -243,9 +243,9 @@ Combine the results of the previous sections into one table, one row per researc
 | The definition is so loose that almost anything counts | Tighten it; otherwise a "supporting" result means nothing |
 | No definition lets you measure the concept | Go back to [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove) and change the claim |
 
-**Where to set the thresholds for support and against?** Ideally the threshold comes from whether your claim would matter, not from your guess about what the results will be. Ask yourself: how big a difference would make readers change what they do? For example, a 1-percentage-point difference in detection rate probably won't make a developer switch tools `[Our analysis]`.
+**Where to set the thresholds for support and against?** Ideally the threshold comes from whether your claim would matter, not from your guess about what the results will be. Ask yourself: how big a difference would make readers change what they do? For example, a 1-percentage-point difference in detection rate probably won't make a developer switch tools.
 
-**Too many questions?** Aim for two to four research questions per project at first. If your plan runs past ten rows, your central claim is probably not focused enough yet; go back and narrow it `[Our analysis]`.
+**Too many questions?** Aim for two to four research questions per project at first. If your plan runs past ten rows, your central claim is probably not focused enough yet; go back and narrow it.
 
 ## Common mistakes
 
@@ -254,7 +254,7 @@ Combine the results of the previous sections into one table, one row per researc
 | Collecting data before the key terms have operational definitions | Every later measurement decision gets harder, and the vagueness leaves room to game the results[^flake2020measurement-e7] |
 | Letting a ready-made number stand in for a complex concept | An unvalidated single measure can't capture a multidimensional concept[^ralph2020empirical-e119] |
 | Not thinking through the unit of analysis | The data may turn out useless for the research question[^torchiano2017lessons-e5] |
-| Writing criteria for support but not for refutation | If any result can be read as support, the study proves nothing `[Our analysis]` |
+| Writing criteria for support but not for refutation | If any result can be read as support, the study proves nothing |
 | Treating "we found leakage" as "we showed inflation" | That is only a hoop test: failing it rules an explanation out, passing it does not greatly raise confidence[^bennett2012process-e10] |
 | Checking significance but not the size of the difference | With many runs, almost any difference is significant[^arcuri2014hitchhiker-e9] |
 | The claim says "causes" but the evidence only shows "is related to" | Showing causation is much harder than showing correlation[^easterbrook2008selecting-e36] |

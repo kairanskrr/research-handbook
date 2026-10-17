@@ -4,9 +4,9 @@ This page covers a kind of research common in cell and molecular biology: at the
 
 The experimental unit, the two kinds of replicates, controls, randomization, blinding, reagent validation, lab notebook practice, the 3Rs for animal research (replacement, reduction, refinement), and the ARRIVE reporting guidelines (Animal Research: Reporting of In Vivo Experiments) are covered in the [Biological sciences field overview](../07_fields/biological-sciences/README.md). Reporting requirements for preclinical research (cell and animal studies done before testing in humans), the rules of the *British Journal of Pharmacology*, and antibody validation are covered in the [Basic medicine field overview](../07_fields/basic-medicine/README.md). For statistics in general, see the Part 2 section [Report how big the difference is and how certain you are, not just the p-value](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value). This page only covers the practical work at the bench.
 
-**Scope** `[Our analysis]`: this page was first written for the biological sciences field pages, and its examples are cell and molecular experiments from cell and molecular biology. Its basis is mainly methodology articles in biomedical journals and reporting guidelines for animal research (the ARRIVE 2.0 explanation and elaboration document, and Landis et al. 2012). Besides [Biological sciences](../07_fields/biological-sciences/README.md), the field overviews for [Basic medical sciences](../07_fields/basic-medicine/README.md) and [Biotechnology](../07_fields/biotechnology/README.md) also list it as a common method. Other fields (chemistry, materials science, and psychology, for example) also run controlled experiments in the lab, but their conventions for controls, replication, and reporting are not the same; check your field's conventions and your target journal's instructions for authors before you rely on this page.
+**Scope**: this page was first written for the biological sciences field pages, and its examples are cell and molecular experiments from cell and molecular biology. Its basis is mainly methodology articles in biomedical journals and reporting guidelines for animal research (the ARRIVE 2.0 explanation and elaboration document, and Landis et al. 2012). Besides [Biological sciences](../07_fields/biological-sciences/README.md), the field overviews for [Basic medical sciences](../07_fields/basic-medicine/README.md) and [Biotechnology](../07_fields/biotechnology/README.md) also list it as a common method. Other fields (chemistry, materials science, and psychology, for example) also run controlled experiments in the lab, but their conventions for controls, replication, and reporting are not the same; check your field's conventions and your target journal's instructions for authors before you rely on this page.
 
-**Strategies it usually serves**: [Causal explanation](../05_research-strategies/explain_causality.md) (change one factor and see whether the outcome changes) `[Our analysis]`. The basis is the method's basic approach: change one factor at a time and keep everything else the same[^vaux2012replicates-e6].
+**Strategies it usually serves**: [Causal explanation](../05_research-strategies/explain_causality.md) (change one factor and see whether the outcome changes). The basis is the method's basic approach: change one factor at a time and keep everything else the same[^vaux2012replicates-e6].
 
 **After reading this page, you should be able to:**
 
@@ -20,21 +20,21 @@ The experimental unit, the two kinds of replicates, controls, randomization, bli
 
 ## 1. What this kind of research is and when to use it
 
-Bench experiments answer questions of the form "if I change this factor, does the outcome change?" `[Our analysis]`. For example: if you knock down a gene, do the cells proliferate more slowly? The basic approach is to change one factor at a time and keep everything else the same[^vaux2012replicates-e6].
+Bench experiments answer questions of the form "if I change this factor, does the outcome change?". For example: if you knock down a gene, do the cells proliferate more slowly? The basic approach is to change one factor at a time and keep everything else the same[^vaux2012replicates-e6].
 
-The logic is the same as a [Controlled experiments](controlled_experiment.md) under research methods: manipulate one variable, assign randomly, control other conditions. The difference is that human participants are naturally independent individuals; at the bench, you have to design the "independent individuals" (the experimental units) yourself, and this is where people most often go wrong `[Our analysis]`. Compared with animal experiments, cell experiments need no animal welfare approval, but the risks of pseudoreplication, faulty reagents, batch effects, and improper image processing are the same `[Our analysis]`.
+The logic is the same as a [Controlled experiments](controlled_experiment.md) under research methods: manipulate one variable, assign randomly, control other conditions. The difference is that human participants are naturally independent individuals; at the bench, you have to design the "independent individuals" (the experimental units) yourself, and this is where people most often go wrong. Compared with animal experiments, cell experiments need no animal welfare approval, but the risks of pseudoreplication, faulty reagents, batch effects, and improper image processing are the same.
 
-**First, tell exploratory experiments from confirmatory ones.** Exploratory experiments measure many outcomes, look for patterns in the data, and generate hypotheses; pilot studies fall into this category[^perciedusert2020reporting-e12]. Confirmatory experiments test a specific hypothesis: the sample size is estimated in advance, the primary outcome is set in advance, and the analysis uses inferential statistics[^perciedusert2020reporting-e13]. Results from exploratory experiments can only be treated as hypotheses, to be confirmed by later confirmatory experiments; see the [Basic medicine field overview](../07_fields/basic-medicine/README.md#tell-exploratory-experiments-from-confirmatory-ones)[^landis2012call-e12][^landis2012call-e17]. Beginners often write up something they noticed while exploring as if it were a conclusion `[Our analysis]`.
+**First, tell exploratory experiments from confirmatory ones.** Exploratory experiments measure many outcomes, look for patterns in the data, and generate hypotheses; pilot studies fall into this category[^perciedusert2020reporting-e12]. Confirmatory experiments test a specific hypothesis: the sample size is estimated in advance, the primary outcome is set in advance, and the analysis uses inferential statistics[^perciedusert2020reporting-e13]. Results from exploratory experiments can only be treated as hypotheses, to be confirmed by later confirmatory experiments; see the [Basic medicine field overview](../07_fields/basic-medicine/README.md#tell-exploratory-experiments-from-confirmatory-ones)[^landis2012call-e12][^landis2012call-e17]. Beginners often write up something they noticed while exploring as if it were a conclusion.
 
 ---
 
 ## 2. How to do it
 
-**Where the guidance comes from.** Our sources include no reporting standard written specifically for cell experiments. Much of what follows is borrowed from animal research: the ARRIVE 2.0 explanation and elaboration document (ARRIVE is the reporting guideline for animal research), and the reporting recommendations Landis et al. proposed for animal research in 2012. Applying their experimental design principles to cell experiments is our own borrowing, not something those documents say; this page does not use their animal welfare material `[Our analysis]`.
+**Where the guidance comes from.** Our sources include no reporting standard written specifically for cell experiments. Much of what follows is borrowed from animal research: the ARRIVE 2.0 explanation and elaboration document (ARRIVE is the reporting guideline for animal research), and the reporting recommendations Landis et al. proposed for animal research in 2012. Applying their experimental design principles to cell experiments is our own borrowing, not something those documents say; this page does not use their animal welfare material.
 
 ### Step 1: State the hypothesis and fix the primary outcome
 
-**How:** write the hypothesis you are testing in one sentence: which groups you compare, which outcome you measure, and how large a difference would be biologically meaningful `[Our analysis]`. A confirmatory experiment needs a primary outcome measure set in advance[^perciedusert2020reporting-e13].
+**How:** write the hypothesis you are testing in one sentence: which groups you compare, which outcome you measure, and how large a difference would be biologically meaningful. A confirmatory experiment needs a primary outcome measure set in advance[^perciedusert2020reporting-e13].
 
 **Why:** if you have no primary outcome set in advance, or switch it after collecting data, it is easy to report only the significant results. Registering your protocol in advance protects you against suspicion of selective outcome reporting (also known as data dredging or p-hacking)[^perciedusert2020reporting-e25].
 
@@ -42,7 +42,7 @@ The logic is the same as a [Controlled experiments](controlled_experiment.md) un
 
 ### Step 2: Draw the hierarchy and find the experimental unit
 
-**How:** draw your experiment as a tree: cell line → experiment day → plate → well → cell → measurements on each cell `[Our analysis]`. Then distinguish three kinds of "unit"[^lazic2018what-e3]:
+**How:** draw your experiment as a tree: cell line → experiment day → plate → well → cell → measurements on each cell. Then distinguish three kinds of "unit"[^lazic2018what-e3]:
 
 - **Experimental unit**: the entity that is randomly and independently assigned to a treatment group. **n is the number of experimental units.**
 - **Observational unit**: the entity you actually measure, such as individual cells under the microscope. More observational units do not increase n.
@@ -52,58 +52,58 @@ To count as a genuine replicate, an entity must meet three conditions at once: i
 
 **How to count in cell experiments**: cells in the same well influence each other, so they cannot be experimental units; the well or dish is[^lazic2018what-e5]. In vitro experiments usually also need the whole experiment repeated on different days, and wells within one day count only as subsamples[^lazic2018what-e6]. For example, if you set up three replicate cultures each time and repeat the experiment independently four times, n = 4, not 3 and not 12[^cumming2007error-e3]. Replicate cultures split from the same cell stock sample only that one stock[^cumming2007error-e8].
 
-**Why:** if replication is done at the wrong level, no statistical method, however clever, can fix it after the experiment is done[^lazic2018what-e1]. The mistake is not rare: Lazic et al. surveyed a set of animal research papers published between January 2011 and September 2016 and found that only 22% had genuine replication, while 46% had pseudoreplication[^lazic2018what-e9]. These are figures for animal research; our sources do not give the rate for cell experiments `[Our analysis]`.
+**Why:** if replication is done at the wrong level, no statistical method, however clever, can fix it after the experiment is done[^lazic2018what-e1]. The mistake is not rare: Lazic et al. surveyed a set of animal research papers published between January 2011 and September 2016 and found that only 22% had genuine replication, while 46% had pseudoreplication[^lazic2018what-e9]. These are figures for animal research; our sources do not give the rate for cell experiments.
 
-> **Where sources disagree: should you use the terms "biological replicate" and "technical replicate"?** The Biological sciences field overview uses this pair of terms ([see here](../07_fields/biological-sciences/README.md#identify-the-experimental-unit-before-you-count-n)). Lazic et al. argue that the terms are defined inconsistently and do not make clear what should be replicated, and recommend thinking in terms of the three units above instead[^lazic2018what-e2]. They also acknowledge that which level to treat as n is a scientific judgment on which people may disagree, but the stricter the standard, the more credible the result[^lazic2018what-e6]. Our suggestion `[Our analysis]`: your lab can keep saying "biological replicate", but when you design the experiment, check it against the three conditions above one by one; when in doubt, choose the stricter level, and say in the paper exactly what n refers to.
+> **Where sources disagree: should you use the terms "biological replicate" and "technical replicate"?** The Biological sciences field overview uses this pair of terms ([see here](../07_fields/biological-sciences/README.md#identify-the-experimental-unit-before-you-count-n)). Lazic et al. argue that the terms are defined inconsistently and do not make clear what should be replicated, and recommend thinking in terms of the three units above instead[^lazic2018what-e2]. They also acknowledge that which level to treat as n is a scientific judgment on which people may disagree, but the stricter the standard, the more credible the result[^lazic2018what-e6]. Our suggestion: your lab can keep saying "biological replicate", but when you design the experiment, check it against the three conditions above one by one; when in doubt, choose the stricter level, and say in the paper exactly what n refers to.
 
 ### Step 3: Design the controls
 
-**How:** what negative and positive controls are for is covered in the [Biological sciences field overview](../07_fields/biological-sciences/README.md#controls-randomization-and-blinding). At the bench this means, for example: a knockdown experiment gets a non-targeting (scrambled) sequence control; a drug experiment gets a vehicle control, plus a treatment known to work as a positive control `[Our analysis]`.
+**How:** what negative and positive controls are for is covered in the [Biological sciences field overview](../07_fields/biological-sciences/README.md#controls-randomization-and-blinding). At the bench this means, for example: a knockdown experiment gets a non-targeting (scrambled) sequence control; a drug experiment gets a vehicle control, plus a treatment known to work as a positive control.
 
 **Where people go wrong:** running the control and treatment groups on different days or with different reagent batches. If you process samples in batches without planning how, you can mistake a batch effect for a treatment effect[^landis2012call-e7].
 
 ### Step 4: Fix n, exclusion criteria, and the analysis before you start
 
-**How:** write the following in your lab notebook, dated before your first data point `[Our analysis]`:
+**How:** write the following in your lab notebook, dated before your first data point:
 
 - **What n is and how you chose it.** Every experiment must explain how the sample size was determined[^perciedusert2020reporting-e14]. A sample size calculation uses the effect size, the variability, the significance level, and the statistical power; if the design is complex or unusual, consult a statistician first[^perciedusert2020reporting-e15].
 - **When you will stop.** The sample size and the rule for stopping data collection must be set in advance[^landis2012call-e9].
 - **Exclusion criteria.** Set them before the experiment begins[^perciedusert2020reporting-e17], at least write them in your notebook, and state in the paper that they were set in advance[^perciedusert2020reporting-e18]. A typical reason for exclusion is failing quality control, such as insufficient sample or contamination above a threshold[^perciedusert2020reporting-e17].
 - **Statistical methods.** Decide them before you collect data[^perciedusert2020reporting-e26].
 
-**Why:** with low statistical power, real effects are more likely to be missed, and even when they are detected the effect size is often overestimated[^perciedusert2020reporting-e14]. "Stop when it's significant, add a few more runs when it isn't" is exactly what a prespecified stopping rule is meant to prevent[^landis2012call-e9], and it raises the chance of false positives `[Our analysis]`.
+**Why:** with low statistical power, real effects are more likely to be missed, and even when they are detected the effect size is often overestimated[^perciedusert2020reporting-e14]. "Stop when it's significant, add a few more runs when it isn't" is exactly what a prespecified stopping rule is meant to prevent[^landis2012call-e9], and it raises the chance of false positives.
 
-**Where people go wrong:** some journals have hard rules about n and significance thresholds. The *British Journal of Pharmacology*'s 2018 guidelines, for example, require n of at least 5 per group for data subjected to statistical analysis[^curtis2018experimental-e14], and require the significance threshold to be stated in the methods and not changed in the results[^curtis2018experimental-e5]. These are one journal's rules; other journals follow their own instructions for authors. For the journal's other rules, see the [Basic medicine field overview](../07_fields/basic-medicine/README.md#one-pharmacology-journals-specific-rules-the-british-journal-of-pharmacology) `[Our analysis]`.
+**Where people go wrong:** some journals have hard rules about n and significance thresholds. The *British Journal of Pharmacology*'s 2018 guidelines, for example, require n of at least 5 per group for data subjected to statistical analysis[^curtis2018experimental-e14], and require the significance threshold to be stated in the methods and not changed in the results[^curtis2018experimental-e5]. These are one journal's rules; other journals follow their own instructions for authors. For the journal's other rules, see the [Basic medicine field overview](../07_fields/basic-medicine/README.md#one-pharmacology-journals-specific-rules-the-british-journal-of-pharmacology).
 
 ### Step 5: Randomize and blind at the bench
 
 **How:**
-- **Random allocation**: use random numbers to decide which well or plate gets which treatment; do not fix "controls on the left, treatments on the right" `[Our analysis]`.
+- **Random allocation**: use random numbers to decide which well or plate gets which treatment; do not fix "controls on the left, treatments on the right".
 - **Use blocks to control batches**: split the experiment into several small sub-experiments (called "blocks"), for example one per experiment day, and randomize treatments within each block[^perciedusert2020reporting-e21]. Factors that might affect the result, such as reagent batch or operator, are also treated as blocking factors in the analysis[^perciedusert2020reporting-e31].
 - **Randomize the order of operations**: randomize the order of sampling and measurement too, or use blocking or counterbalancing[^perciedusert2020reporting-e22].
-- **Blinding**: blind at least the assessment of outcomes, especially assessments that involve subjective judgment, such as scoring sections; this may mean asking someone else to help[^perciedusert2020reporting-e23]. The person doing the allocation should also not know which group the next subject will go to; this is called allocation concealment. The source uses animals as the example; applying it to cell experiments is our own borrowing[^landis2012call-e6] `[Our analysis]`.
+- **Blinding**: blind at least the assessment of outcomes, especially assessments that involve subjective judgment, such as scoring sections; this may mean asking someone else to help[^perciedusert2020reporting-e23]. The person doing the allocation should also not know which group the next subject will go to; this is called allocation concealment. The source uses animals as the example; applying it to cell experiments is our own borrowing[^landis2012call-e6].
 
 **Why:** systematic review data cited in the ARRIVE explanation document show that missing bias-reducing measures such as randomization and blinding can inflate effect sizes by as much as 30% to 45%[^perciedusert2020reporting-e24].
 
 ### Step 6: Run a pilot first
 
-**How:** before the real experiment, get the method working with a small number of samples: antibody concentration, cell density, treatment time, the linear range of the assay, and so on `[Our analysis]`. The purpose of a pilot study is to inform the design and feasibility of later experiments[^perciedusert2020reporting-e12]. Pilots run only to refine procedures usually have very small samples and are not suited to power calculations[^perciedusert2020reporting-e16].
+**How:** before the real experiment, get the method working with a small number of samples: antibody concentration, cell density, treatment time, the linear range of the assay, and so on. The purpose of a pilot study is to inform the design and feasibility of later experiments[^perciedusert2020reporting-e12]. Pilots run only to refine procedures usually have very small samples and are not suited to power calculations[^perciedusert2020reporting-e16].
 
-**Where people go wrong:** merging pilot data into the main experiment `[Our analysis]`. The *British Journal of Pharmacology* rule is that pilot data can go in the paper, but in a separate "pilot study" subsection of the methods, without P values[^curtis2018experimental-e11]. Another mistake is estimating the main experiment's sample size from the pilot alone: a pilot on its own is unlikely to give enough data on variability for a power calculation[^perciedusert2020reporting-e16].
+**Where people go wrong:** merging pilot data into the main experiment. The *British Journal of Pharmacology* rule is that pilot data can go in the paper, but in a separate "pilot study" subsection of the methods, without P values[^curtis2018experimental-e11]. Another mistake is estimating the main experiment's sample size from the pilot alone: a pilot on its own is unlikely to give enough data on variability for a power calculation[^perciedusert2020reporting-e16].
 
 ### Step 7: Authenticate your reagents and cell lines
 
 Why validation matters is covered in the [Biological sciences field overview](../07_fields/biological-sciences/README.md#validate-reagents-antibodies-and-cell-lines). At the bench:
 
-- **Cell lines**: authenticate a newly arrived cell line before you use it `[Our analysis]`. Short tandem repeat (STR) profiling is the accepted standard for authentication[^freedman2015economics-e3]. It is not expensive: Freedman et al. estimate that for a four-year National Institutes of Health (NIH) grant averaging $450,000, buying cell lines from a reliable source and authenticating them once a year costs about $1,000, or 0.2% of the budget[^freedman2015economics-e10].
+- **Cell lines**: authenticate a newly arrived cell line before you use it. Short tandem repeat (STR) profiling is the accepted standard for authentication[^freedman2015economics-e3]. It is not expensive: Freedman et al. estimate that for a four-year National Institutes of Health (NIH) grant averaging $450,000, buying cell lines from a reliable source and authenticating them once a year costs about $1,000, or 0.2% of the budget[^freedman2015economics-e10].
 - **Antibodies**: do at least one validation in your own application and samples[^uhlen2016proposal-e6]; for approaches to validation, see the [Basic medicine field overview](../07_fields/basic-medicine/README.md#validate-antibodies-for-each-application-and-report-reagents-so-they-can-be-found).
-- **Write it down**: record the source, catalog number, and lot number of every reagent in your notebook `[Our analysis]`; in the paper, give at least the catalog and lot numbers for antibodies[^uhlen2016proposal-e6].
+- **Write it down**: record the source, catalog number, and lot number of every reagent in your notebook; in the paper, give at least the catalog and lot numbers for antibodies[^uhlen2016proposal-e6].
 
 ### Step 8: Record as you go
 
 General lab notebook practice is covered in the [Biological sciences field overview](../07_fields/biological-sciences/README.md#the-lab-notebook-is-the-primary-record): record in chronological order, give every entry a date and a subject[^schnell2015ten-e10], and write it up immediately after the work[^schnell2015ten-e3]. At the bench, pay extra attention to the following:
 
-- **Record failed experiments too.** Errors are part of the research process; do not erase or destroy records[^schnell2015ten-e11]. Write down why it failed (contamination, instrument fault, expired reagent); this is what you will later rely on to decide whether that run's data can be excluded `[Our analysis]`.
+- **Record failed experiments too.** Errors are part of the research process; do not erase or destroy records[^schnell2015ten-e11]. Write down why it failed (contamination, instrument fault, expired reagent); this is what you will later rely on to decide whether that run's data can be excluded.
 - **Keep raw images unaltered, and record the instrument settings**, such as exposure time and gain[^rossner2004what-e8].
 
 ### Step 9: Handle outliers and failed experiments honestly
@@ -113,7 +113,7 @@ General lab notebook practice is covered in the [Biological sciences field overv
 - **Keep the levels apart**: an outlier among repeated measurements of the same sample can be dropped if there is a convincing explanation, though repeating the measurement is safer; results from independent samples should be dropped only in exceptional circumstances[^vaux2012replicates-e8].
 - **Report all replicates**: however many times you repeated the whole experiment, report that many results; do not pick only a "representative experiment"[^perciedusert2020reporting-e27]. Stating how many times the experiment was done in total counters the tendency to publish only the best run[^landis2012call-e15].
 
-**Where people go wrong:** looking for reasons a run "failed" only after seeing that it does not support the hypothesis `[Our analysis]`. That is why the reason for a failure must be written down before you look at the results.
+**Where people go wrong:** looking for reasons a run "failed" only after seeing that it does not support the hypothesis. That is why the reason for a failure must be written down before you look at the results.
 
 ### Step 10: Analyze and plot
 
@@ -123,11 +123,11 @@ General lab notebook practice is covered in the [Biological sciences field overv
 - **Plot every point when n is small.** With small samples like n = 3, plot the individual data points rather than error bars[^cumming2007error-e5]. Many different data distributions produce identical bar graphs[^weissgerber2015beyond-e1], and paired data drawn as bar graphs hide whether the changes within each pair go in the same direction[^weissgerber2015beyond-e2]. Such figures are common: Weissgerber et al. reviewed 703 original research articles published from January to March 2014 in physiology journals ranked in the top 25%; 85.6% had at least one bar graph, and only 13.4% had used a univariate scatterplot[^weissgerber2015beyond-e4].
 - **Do not use standard errors to "magnify" differences.** Showing standard errors instead of standard deviations visually exaggerates differences between groups[^weissgerber2015beyond-e5].
 
-**Where people go wrong:** concluding "no effect" because P is greater than 0.05 is a common and serious mistake[^cumming2007error-e6]. The effect may be real and n simply too small `[Our analysis]`.
+**Where people go wrong:** concluding "no effect" because P is greater than 0.05 is a common and serious mistake[^cumming2007error-e6]. The effect may be real and n simply too small.
 
 ### Step 11: Process images without crossing the line
 
-Blots, gels, and micrographs are common evidence in wet-lab work, and easy places to cross the line `[Our analysis]`. The rules below come from a 2004 editorial in the *Journal of Cell Biology*, representing that journal's rules and its editors' advice at the time; for the journal you submit to, follow its instructions for authors `[Our analysis]`.
+Blots, gels, and micrographs are common evidence in wet-lab work, and easy places to cross the line. The rules below come from a 2004 editorial in the *Journal of Cell Biology*, representing that journal's rules and its editors' advice at the time; for the journal you submit to, follow its instructions for authors.
 
 - **Not allowed**: enhancing, obscuring, moving, removing, or adding any specific feature within an image[^rossner2004what-e2]. Removing a background band you think is irrelevant still misrepresents the data[^rossner2004what-e4]. Do not use tools such as the clone stamp to clean up the background[^rossner2004what-e5]. Do not splice together pieces of different gels to compare protein or nucleic acid levels; rerun all samples on the same gel[^rossner2004what-e6].
 - **Allowed, but only to the whole image**: adjusting brightness, contrast, or color balance is acceptable if it applies to the whole image and does not erase information in the original; nonlinear adjustments (such as changing gamma) must be disclosed in the figure legend[^rossner2004what-e3]. Do not adjust treatment and control images differently[^rossner2004what-e7].
@@ -138,7 +138,7 @@ When in doubt, ask yourself: does the adjusted image still accurately represent 
 
 ### Step 12: Write the methods so others can repeat them
 
-**How:** describe what was done to each group (including controls), how, and with what, in enough detail for someone else to repeat it; state which quality control measures you used; and cite Research Resource Identifiers (RRIDs, unique identifiers for reagents and tools) where they exist[^perciedusert2020reporting-e28]. At minimum, explain how n was determined, whether there was randomization, whether there was blinding, and how the data were handled; these are the minimum reporting requirements the Landis et al. workshop set out for animal research[^landis2012call-e1], borrowed here as a reference for cell experiments `[Our analysis]`.
+**How:** describe what was done to each group (including controls), how, and with what, in enough detail for someone else to repeat it; state which quality control measures you used; and cite Research Resource Identifiers (RRIDs, unique identifiers for reagents and tools) where they exist[^perciedusert2020reporting-e28]. At minimum, explain how n was determined, whether there was randomization, whether there was blinding, and how the data were handled; these are the minimum reporting requirements the Landis et al. workshop set out for animal research[^landis2012call-e1], borrowed here as a reference for cell experiments.
 
 **Why:** of the 193 experiments the Reproducibility Project: Cancer Biology planned to replicate, not one could have a replication protocol designed without asking the original authors[^errington2021challenges-e7]. On one occasion, a request for experimental details got only the reply "a standard procedure was used"[^errington2021challenges-e8].
 
@@ -146,7 +146,7 @@ When in doubt, ask yourself: does the adjusted image still accurately represent 
 
 ## 3. Checklist
 
-Our sources contain no reporting checklist specific to cell experiments. The list below borrows from the ARRIVE explanation document and combines it with Cumming et al.'s rules for error bars and the *Journal of Cell Biology*'s rules for images; the grouping into tiers is our own `[Our analysis]`.
+Our sources contain no reporting checklist specific to cell experiments. The list below borrows from the ARRIVE explanation document and combines it with Cumming et al.'s rules for error bars and the *Journal of Cell Biology*'s rules for images; the grouping into tiers is our own.
 
 **Must do**
 
@@ -180,7 +180,7 @@ Mistakes already listed in the Biological sciences field overview's [Common mist
 |---|---|
 | Plating many wells from one cell stock on one day and counting n by wells | You have sampled only that one stock[^cumming2007error-e8]; wells within one day count only as subsamples[^lazic2018what-e6] |
 | Showing one "representative experiment" with error bars and P values | Here n = 1[^cumming2007error-e4] |
-| Adding more runs when the result is not significant and stopping once it is | The stopping rule must be set in advance[^landis2012call-e9]; otherwise the chance of false positives rises `[Our analysis]` |
+| Adding more runs when the result is not significant and stopping once it is | The stopping rule must be set in advance[^landis2012call-e9]; otherwise the chance of false positives rises |
 | Deciding which runs "failed" and should be excluded after seeing the results | Exclusion criteria must be set before data collection[^perciedusert2020reporting-e17] |
 | Running control and treatment groups on different days or with different reagent batches | A batch effect can be mistaken for a treatment effect[^landis2012call-e7] |
 | Showing n = 3 data as a bar graph with standard errors | Different data distributions can produce the same bar graph, and standard errors also exaggerate differences[^weissgerber2015beyond-e1][^weissgerber2015beyond-e5] |

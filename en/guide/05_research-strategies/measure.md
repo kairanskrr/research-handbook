@@ -4,7 +4,7 @@
 
 Say you work on "large language models and smart-contract security". Reading the papers, you notice something: everyone reports high detection rates, but you suspect the models had already "seen" the contracts used for evaluation. If what you ultimately want to show is "these numbers can't be trusted, and here is how to measure this properly", you are doing **measurement** research: your central claim is not about the thing being measured but about **the ruler itself**.
 
-Treating measurement as a research strategy of its own is how this handbook groups things; our sources do not set it apart as a separate category (see [Where this grouping comes from](README.md#where-this-grouping-comes-from)). Different fields call it different things: computer science talks about evaluation and benchmarks, psychology about scale development, physics about metrology and measurement uncertainty. We put them together because they answer the same kind of question `[Our analysis]`. For terms, see [Key concepts](../00_start-here/key-concepts.md#research-strategy).
+Treating measurement as a research strategy of its own is how this handbook groups things; our sources do not set it apart as a separate category (see [Where this grouping comes from](README.md#where-this-grouping-comes-from)). Different fields call it different things: computer science talks about evaluation and benchmarks, psychology about scale development, physics about metrology and measurement uncertainty. We put them together because they answer the same kind of question. For terms, see [Key concepts](../00_start-here/key-concepts.md#research-strategy).
 
 ---
 
@@ -12,7 +12,7 @@ Treating measurement as a research strategy of its own is how this handbook grou
 
 Measurement research tells you **how to measure something accurately, where current ways of measuring it fall short, and by how much.**
 
-Its central claim usually takes one of these forms `[Our analysis]`:
+Its central claim usually takes one of these forms:
 
 | What the claim looks like | Computer science example |
 |---|---|
@@ -22,17 +22,17 @@ Its central claim usually takes one of these forms `[Our analysis]`:
 | The measurement itself is unstable | "When two experts label vulnerabilities in the same set of contracts, their agreement is only moderate; the labels themselves are very noisy" |
 | Measurement error changes the conclusion | "Once leakage is corrected for, large language models are no better than traditional static analysis tools" |
 
-**How it differs from the other strategies:** [Comparative evaluation](compare_evaluate.md) asks "which is better, A or B?", and [Building and improving](build_improve.md) asks "is my new thing better?". Both assume the ruler is accurate. Measurement research is exactly the work of checking that ruler. So the same benchmark is a tool in someone else's paper and the object of study in yours. For how it differs from [Description](observe_describe.md), see the section "How to pick your main strategy" in [Research strategies](README.md#how-to-pick-your-main-strategy) `[Our analysis]`.
+**How it differs from the other strategies:** [Comparative evaluation](compare_evaluate.md) asks "which is better, A or B?", and [Building and improving](build_improve.md) asks "is my new thing better?". Both assume the ruler is accurate. Measurement research is exactly the work of checking that ruler. So the same benchmark is a tool in someone else's paper and the object of study in yours. For how it differs from [Description](observe_describe.md), see the section "How to pick your main strategy" in [Research strategies](README.md#how-to-pick-your-main-strategy).
 
-**Why it is worth doing:** problems with measurement are hard to fix later. As the psychology methods literature puts it, if you are not measuring what you mean to measure, no amount of rigorous design, advanced statistics, or sample size can correct the resulting wrong inferences[^flake2020measurement-e2]. In machine learning, evaluations steer the research community, and breakthroughs are often tied to big gains on some benchmark[^wei2024evals-e1]. If the ruler is crooked, the whole direction of a field can go crooked with it `[Our analysis]`.
+**Why it is worth doing:** problems with measurement are hard to fix later. As the psychology methods literature puts it, if you are not measuring what you mean to measure, no amount of rigorous design, advanced statistics, or sample size can correct the resulting wrong inferences[^flake2020measurement-e2]. In machine learning, evaluations steer the research community, and breakthroughs are often tied to big gains on some benchmark[^wei2024evals-e1]. If the ruler is crooked, the whole direction of a field can go crooked with it.
 
 **Write it down:** State your measurement claim in one sentence, and name the "ruler" it is about (which benchmark, metric, scale, or instrument).
 
 ## 2. What evidence is enough
 
-A skeptical reviewer will press you on five things about a ruler. Your evidence needs to answer each of them `[Our analysis]`:
+A skeptical reviewer will press you on five things about a ruler. Your evidence needs to answer each of them:
 
-**① Have you clearly defined what you are measuring?** The international guide for measurement in physics, the *Guide to the Expression of Uncertainty in Measurement*, says a measurement begins by specifying what is to be measured, the method, and the procedure[^jcgm2008gum-e11]. The definition must be complete enough that, at the precision you need, it has a single value. To measure a steel bar about one meter long to the micrometer, for example, you have to state the temperature and pressure at which its length is defined[^jcgm2008gum-e12]. The psychology methods literature gives a similar warning: if the construct (a concept that can't be observed directly and can only be measured indirectly, such as depression or an attitude) is not clearly defined at the start, every later measurement decision becomes hard, and the vagueness leaves room for manipulation, intended or not[^flake2020measurement-e7]. In the contract example, you have to settle up front whether "detects a vulnerability" means naming the vulnerability type, pointing to the exact lines of code, or producing a working exploit `[Our analysis]`.
+**① Have you clearly defined what you are measuring?** The international guide for measurement in physics, the *Guide to the Expression of Uncertainty in Measurement*, says a measurement begins by specifying what is to be measured, the method, and the procedure[^jcgm2008gum-e11]. The definition must be complete enough that, at the precision you need, it has a single value. To measure a steel bar about one meter long to the micrometer, for example, you have to state the temperature and pressure at which its length is defined[^jcgm2008gum-e12]. The psychology methods literature gives a similar warning: if the construct (a concept that can't be observed directly and can only be measured indirectly, such as depression or an attitude) is not clearly defined at the start, every later measurement decision becomes hard, and the vagueness leaves room for manipulation, intended or not[^flake2020measurement-e7]. In the contract example, you have to settle up front whether "detects a vulnerability" means naming the vulnerability type, pointing to the exact lines of code, or producing a working exploit.
 
 **② Does it measure what you mean to measure?** This is **construct validity**: whether what you actually measure really represents the concept you want to study[^runeson2009guidelines-e3]. The empirical standards for software engineering require benchmarking papers to discuss it[^ralph2020empirical-e100]. Psychology's journal reporting standards stress that validity is not a fixed property of an instrument; it applies to interpreting scores in a particular way for a particular use[^appelbaum2018journal-e10]. Common kinds of validity evidence in the scale development literature: the new measure correlates highly with other measures of the same concept (convergent validity) and does not correlate too highly with measures of things it should differ from (discriminant validity)[^boateng2018best-e20]; and it does find a difference between two groups known to differ. For example, households with E. coli in their drinking water scored higher on a water insecurity scale[^boateng2018best-e21].
 
@@ -40,11 +40,11 @@ A skeptical reviewer will press you on five things about a ruler. Your evidence 
 
 **④ How large is the error?** The international measurement guide requires that when you report a measurement result, you give some quantitative indication of how reliable it is; without that, results can't be compared with each other or with reference values[^jcgm2008gum-e1]. Systematic error, like random error, can't be eliminated, but it can often be reduced, and systematic effects you have identified can be corrected for[^jcgm2008gum-e18].
 
-**⑤ Does the conclusion change with a different ruler?** Don't just point out the problem; show what it does to the results. We think this is the most convincing part of measurement research `[Our analysis]`. One example: a study re-examined 12 papers on civil war prediction. The 4 papers with errors were exactly the 4 that claimed complex machine learning models outperformed traditional logistic regression baselines; once the errors were corrected, the complex models did not do much better than decades-old logistic regression[^kapoor2023leakage-e8].
+**⑤ Does the conclusion change with a different ruler?** Don't just point out the problem; show what it does to the results. We think this is the most convincing part of measurement research. One example: a study re-examined 12 papers on civil war prediction. The 4 papers with errors were exactly the 4 that claimed complex machine learning models outperformed traditional logistic regression baselines; once the errors were corrected, the complex models did not do much better than decades-old logistic regression[^kapoor2023leakage-e8].
 
 **Checking only one of these is not enough.** One study used data from about 144,000 experimental sessions to test 15 self-report questionnaires (26 scales in total) that are widely used in social and personality psychology. Judged on internal consistency alone (whether the items in a scale give consistent scores), 89% looked to have good validity. When internal consistency, test-retest reliability, factor structure, and measurement invariance across age and gender groups were all tested together, only 4% did[^hussey2020hidden-e1]. That result is for this particular set of scales and can't be carried over directly to other instruments, but it shows how badly a single index can mislead. The same study also points out that a result that replicates is not thereby measured validly[^hussey2020hidden-e6].
 
-**The burden of proof is on you.** When machine learning is used for scientific research, it is the researchers making the scientific claim who must show there is no leakage[^kapoor2023leakage-e9]. Take "existing benchmarks are inflated by leakage" as the example `[Our analysis]`:
+**The burden of proof is on you.** When machine learning is used for scientific research, it is the researchers making the scientific claim who must show there is no leakage[^kapoor2023leakage-e9]. Take "existing benchmarks are inflated by leakage" as the example:
 
 | What the reviewer will ask | Evidence you need |
 |---|---|
@@ -57,7 +57,7 @@ A skeptical reviewer will press you on five things about a ruler. Your evidence 
 
 ## 3. Common research methods
 
-Measurement research has no method of its own. The methods below are commonly used to get the evidence `[Our analysis]`:
+Measurement research has no method of its own. The methods below are commonly used to get the evidence:
 
 | Method | What it gives you | Where to look |
 |---|---|---|
@@ -70,7 +70,7 @@ Measurement research has no method of its own. The methods below are commonly us
 
 ## 4. How it shapes the whole project
 
-**When reading the literature:** Look beyond the results at **how each paper measured**: which benchmark it used, how its metrics are defined, whether it reports error. Many papers say too little about measurement. One review found that of 433 scales used in papers in the *Journal of Personality and Social Psychology*, 40% had no stated source[^flake2020measurement-e9]. The places where reporting is thin are often where a measurement study can start `[Our analysis]`.
+**When reading the literature:** Look beyond the results at **how each paper measured**: which benchmark it used, how its metrics are defined, whether it reports error. Many papers say too little about measurement. One review found that of 433 scales used in papers in the *Journal of Personality and Social Psychology*, 40% had no stated source[^flake2020measurement-e9]. The places where reporting is thin are often where a measurement study can start.
 
 **When choosing a topic:** First look in the literature for existing, validated measures. The software engineering guidelines on psychometrics warn that developing and validating a new instrument can take years[^graziotin2021psychometrics-e4]. If similar instruments exist and you still build a new one, explain why and how it differs from the existing ones[^boateng2018best-e3]. If you find a problem with someone else's evaluation, "pointing it out and fixing it" can be a project in itself; see [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it).
 
@@ -79,9 +79,9 @@ Measurement research has no method of its own. The methods below are commonly us
 - **Define first, then choose the ruler.** Two instruments with similar names don't necessarily measure the same thing, and two with different names don't necessarily measure different things[^flake2020measurement-e8].
 - **Fix the rules in advance.** Which items to drop and how to form groups are best decided before you start[^flake2020measurement-e10]; which indices and thresholds you will use to judge validity can also go into the preregistration[^hussey2020hidden-e9].
 - **Use different data to build the ruler and to test it.** The ideal in scale development is to develop the scale on sample A and test it on an independent sample B[^boateng2018best-e12]. In performance benchmarking of computer systems, the workloads used for calibration and for evaluation must not overlap at all[^heiserbenchmarking-e12].
-- **Prevent data leakage.** When machine learning is used for scientific research, researchers have access to all the data while building the model, and this is exactly why leakage often occurs[^kapoor2023leakage-e3]. Training and test samples that are not independent also count as leakage, unless your claim is specifically about data with that same dependence[^kapoor2023leakage-e6]. In the contract example, if many copy-pasted near-duplicate contracts end up on both the training and the test side, scores will be inflated `[Our analysis]`.
+- **Prevent data leakage.** When machine learning is used for scientific research, researchers have access to all the data while building the model, and this is exactly why leakage often occurs[^kapoor2023leakage-e3]. Training and test samples that are not independent also count as leakage, unless your claim is specifically about data with that same dependence[^kapoor2023leakage-e6]. In the contract example, if many copy-pasted near-duplicate contracts end up on both the training and the test side, scores will be inflated.
 
-**When running the study:** The measurement guide warns that evaluating uncertainty is not a routine task; it depends on a detailed understanding of the thing measured and of the measurement process[^jcgm2008gum-e6]. Blunders in recording or analyzing data are not covered by the uncertainty[^jcgm2008gum-e5], so you have to catch them by checking your work `[Our analysis]`. When you build a benchmark for large language models, you can keep both a public and a private test set and watch whether models perform noticeably differently on the two[^wei2024evals-e9].
+**When running the study:** The measurement guide warns that evaluating uncertainty is not a routine task; it depends on a detailed understanding of the thing measured and of the measurement process[^jcgm2008gum-e6]. Blunders in recording or analyzing data are not covered by the uncertainty[^jcgm2008gum-e5], so you have to catch them by checking your work. When you build a benchmark for large language models, you can keep both a public and a private test set and watch whether models perform noticeably differently on the two[^wei2024evals-e9].
 
 **When writing:** The measurement guide advises that when reporting a result and its uncertainty, it is better to give too much information than too little[^jcgm2008gum-e7]. Psychology's journal reporting standards ask you to say whether an instrument is validated or was made up for the study, and to report its reliability in your own sample where possible[^appelbaum2018journal-e4]. If you modified an existing instrument, say how and why[^flake2020measurement-e6]. If your own instrument has little validity evidence, discuss that as a limitation[^flake2020measurement-e13]. For how to write about validity and limitations, see [Validity and limitations](../02_do-the-project/04_validity-and-limits.md).
 
@@ -114,7 +114,7 @@ For details of each field's conventions, see the Fields section, for example [Co
 | Reporting labeler agreement only as a percentage | It does not account for agreement by chance[^mcdonald2019reliability-e4] |
 | Not checking whether the model has seen the evaluation data | If the model saw the benchmark during training, the experiment is completely invalid[^sainz2023nlp-e3] |
 | Reporting values without error | The measurement guide points out that without an indication of reliability, results can't be compared[^jcgm2008gum-e1] |
-| Pointing out a measurement problem without showing its effect on the conclusions | Readers can't tell how much the problem matters `[Our analysis]` |
+| Pointing out a measurement problem without showing its effect on the conclusions | Readers can't tell how much the problem matters |
 
 ## 7. Further reading
 

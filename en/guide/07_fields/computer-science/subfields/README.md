@@ -10,7 +10,7 @@ This section covers only **practices specific to each area**. Everything else li
 
 ## Seven areas
 
-The table below helps you find your way in. The "What it studies" and "Strategies to read first" columns are our own summary; they don't mean each area uses only these strategies `[Our analysis]`. For each area's main venues, review rules, and standards of evidence, see the sections "Main venues and timeline" and "Common strategies and standards of evidence" on its page.
+The table below helps you find your way in. The "What it studies" and "Strategies to read first" columns are our own summary; they don't mean each area uses only these strategies. For each area's main venues, review rules, and standards of evidence, see the sections "Main venues and timeline" and "Common strategies and standards of evidence" on its page.
 
 | Area | What it studies | Strategies to read first |
 |---|---|---|
@@ -23,8 +23,6 @@ The table below helps you find your way in. The "What it studies" and "Strategie
 | [Human-computer interaction](hci.md) | How people use computers, and how to design systems that work better for them | [Description](../../../05_research-strategies/observe_describe.md), [Causal explanation](../../../05_research-strategies/explain_causality.md) |
 
 ## How to use this section
-
-`[Our analysis]`
 
 - **Read the computer science field overview first, then your area's page.** The area pages assume you already know how conferences, double-blind review, and artifact evaluation work.
 - **If your work spans areas, read both pages.** For example, if you use machine learning for program analysis, you have to meet the expectations of reviewers from both sides; in the end, go by the area of the conference you are submitting to.

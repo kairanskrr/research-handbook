@@ -1,6 +1,6 @@
 # Fields
 
-Research works differently from field to field: the pace, how work is organized, publishing culture, ethics requirements, and what counts as acceptable evidence all differ `[Our analysis]`. The Fields section **covers only what is specific to each field**. Research methods shared by several fields (controlled experiments, questionnaires, interviews, case studies, reviews, replication and so on) live in [Research types](../06_methods/README.md); the Fields pages link there and only explain how their field does things differently. For how the layers of this handbook divide the work, see [How to use this handbook](../00_start-here/how-to-use.md).
+Research works differently from field to field: the pace, how work is organized, publishing culture, ethics requirements, and what counts as acceptable evidence all differ. The Fields section **covers only what is specific to each field**. Research methods shared by several fields (controlled experiments, questionnaires, interviews, case studies, reviews, replication and so on) live in [Research types](../06_methods/README.md); the Fields pages link there and only explain how their field does things differently. For how the layers of this handbook divide the work, see [How to use this handbook](../00_start-here/how-to-use.md).
 
 Each field has its own folder containing:
 

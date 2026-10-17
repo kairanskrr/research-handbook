@@ -4,7 +4,7 @@ This page covers **content analysis**: you take a body of recorded material (tex
 
 It comes in a quantitative and a qualitative variant. Quantitative content analysis turns text into numbers and answers "how common is this kind of content?"; qualitative content analysis also works with categories, but cares more about the categories themselves and what they mean. For the general ethics requirements when research involves people's data, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first); this page covers only content analysis itself.
 
-**Scope** `[Our analysis]`: Content analysis grew up in communication research and is widely used in sociology, psychology, nursing and health research, and education research. In computer science, hand-classifying issue reports, code review comments, forum posts, or papers follows the same logic. The intercoder reliability material on this page draws on communication research (the public guide by Lombard et al., and Krippendorff 2004); the steps of qualitative content analysis follow Mayring (from the German psychology and social science tradition); the distinction between manifest and latent content comes from an introductory article in a pharmacy education journal (Kleinheksel et al.); the general steps draw on a methods page from Columbia University's school of public health; the sampling and computer science examples come from software engineering. For how media and communication research views this kind of study, see the [Media and communication field overview](../07_fields/media-communication/README.md#content-analysis-measure-and-report-intercoder-reliability-properly).
+**Scope**: Content analysis grew up in communication research and is widely used in sociology, psychology, nursing and health research, and education research. In computer science, hand-classifying issue reports, code review comments, forum posts, or papers follows the same logic. The intercoder reliability material on this page draws on communication research (the public guide by Lombard et al., and Krippendorff 2004); the steps of qualitative content analysis follow Mayring (from the German psychology and social science tradition); the distinction between manifest and latent content comes from an introductory article in a pharmacy education journal (Kleinheksel et al.); the general steps draw on a methods page from Columbia University's school of public health; the sampling and computer science examples come from software engineering. For how media and communication research views this kind of study, see the [Media and communication field overview](../07_fields/media-communication/README.md#content-analysis-measure-and-report-intercoder-reliability-properly).
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md); when the material is published research, also [Synthesis](../05_research-strategies/synthesize.md).
 
@@ -24,13 +24,13 @@ Content analysis is a way of identifying and interpreting meaning in recorded co
 
 Content analysis started as a strictly quantitative method that counted how often predetermined targets occurred[^kleinheksel2020demystifying-e2]. Qualitative variants came later. Mayring's qualitative content analysis sets out to keep the strengths of quantitative content analysis as developed in communication research and carry them over to qualitative, interpretive steps of analysis[^mayring2000qualitative-e1].
 
-**Questions it is good at** `[Our analysis]`:
+**Questions it is good at**:
 
 - **"How common is this kind of content, and how is it distributed?"**: what share of news stories use a certain frame, how many claims in health app descriptions are evidence-based, what share of a set of issue reports falls into each defect type;
 - **"How do sources or periods differ?"**: how two kinds of media cover a story differently, how discussion of a topic changed over ten years;
 - **"What categories are there in this body of text?"**: what kinds of open-ended survey answers, user feedback, or forum posts there are.
 
-It cannot answer "why is it like this?" or "does A cause B?". Texts are only the traces that communication leaves behind, and content analysis often disregards the context that produced the text[^columbia2023contentanalysis-e12]. To learn why authors wrote what they did, pair it with an [Interview studies](interview_study.md); to test causation, use an experiment or a [quasi-experiment](quasi_experiment.md). `[Our analysis]`
+It cannot answer "why is it like this?" or "does A cause B?". Texts are only the traces that communication leaves behind, and content analysis often disregards the context that produced the text[^columbia2023contentanalysis-e12]. To learn why authors wrote what they did, pair it with an [Interview studies](interview_study.md); to test causation, use an experiment or a [quasi-experiment](quasi_experiment.md).
 
 **How it differs from related methods**:
 
@@ -42,11 +42,11 @@ It cannot answer "why is it like this?" or "does A cause B?". Texts are only the
 | Counting occurrences | Core of the quantitative variant | More often does not mean more important | Counting without interpreting is an antipattern | Core |
 | Intercoder reliability | Key part of the quantitative variant | Contested; depends on research stance | Generally not required | Required for the manually labeled part |
 
-Sources for the table: for the content analysis column, categories are at the center of the analysis, and predefined categories need explicit definitions, examples, and coding rules[^mayring2000qualitative-e4][^mayring2000qualitative-e9]; the quantitative aim is to produce numbers that show how prevalent something is[^kleinheksel2020demystifying-e4]; and intercoder reliability is a key component[^lombard2010practical-e3]. For the thematic analysis column, themes are not something you count[^braun2006using-e4], and reliability is contested[^mcdonald2019reliability-e1]. For the grounded theory column, data are not forced into a predefined coding scheme[^stol2016grounded-e11], and counting words or codes without interpreting them is an antipattern[^ralph2020empirical-e325]. The mining software repositories column and the overall summary of the table are `[Our analysis]`.
+Sources for the table: for the content analysis column, categories are at the center of the analysis, and predefined categories need explicit definitions, examples, and coding rules[^mayring2000qualitative-e4][^mayring2000qualitative-e9]; the quantitative aim is to produce numbers that show how prevalent something is[^kleinheksel2020demystifying-e4]; and intercoder reliability is a key component[^lombard2010practical-e3]. For the thematic analysis column, themes are not something you count[^braun2006using-e4], and reliability is contested[^mcdonald2019reliability-e1]. For the grounded theory column, data are not forced into a predefined coding scheme[^stol2016grounded-e11], and counting words or codes without interpreting them is an antipattern[^ralph2020empirical-e325]. The mining software repositories column and the overall summary of the table are our own.
 
-**The difference in one sentence** `[Our analysis]`: the core product of content analysis is **a codebook that someone else could pick up and code with**, plus the data coded with it; the core product of thematic analysis is the researcher's interpretation of the data; the core product of grounded theory is a new theory. If you are labeling transcripts and you write category definitions first, have two people code independently, and then compute agreement, you are doing content analysis.
+**The difference in one sentence**: the core product of content analysis is **a codebook that someone else could pick up and code with**, plus the data coded with it; the core product of thematic analysis is the researcher's interpretation of the data; the core product of grounded theory is a new theory. If you are labeling transcripts and you write category definitions first, have two people code independently, and then compute agreement, you are doing content analysis.
 
-**Two more neighbors.** Coding published case studies into variables and then running statistics on them is a [Case survey](case_survey.md), which is content analysis applied to one particular kind of material. Extracting data from each paper in a systematic review also needs a coding scheme; see [Review studies](review_study.md). `[Our analysis]`
+**Two more neighbors.** Coding published case studies into variables and then running statistics on them is a [Case survey](case_survey.md), which is content analysis applied to one particular kind of material. Extracting data from each paper in a systematic review also needs a coding scheme; see [Review studies](review_study.md).
 
 **When it is a poor fit.** Mayring considers qualitative content analysis less appropriate when the research question is highly open-ended, exploratory, or changing, so that working with categories would be a restriction, or when you plan a holistic rather than step-by-step analysis[^mayring2000qualitative-e12]. In that case, consider thematic analysis in an [Interview studies](interview_study.md) or [Grounded theory](grounded_theory.md).
 
@@ -65,21 +65,21 @@ The eight steps below follow quantitative content analysis, and point out where 
 - **Decide whether the meaning sits on the surface or underneath.** Kleinheksel et al. say choosing a kind of content analysis takes two decisions: what the goal of the analysis is, and where you believe meaning is located[^kleinheksel2020demystifying-e11]. **Manifest content** is what is literally there and can be recognized and counted with little training[^kleinheksel2020demystifying-e3], such as "does the post include code?". **Latent content** requires interpreting what lies beneath the surface[^kleinheksel2020demystifying-e5], such as "is this comment sarcastic?".
 - **Decide whether you look only at concepts, or also at relationships between them.** Conceptual analysis establishes whether a concept occurs and how often; relational analysis goes further and examines how concepts relate to each other[^columbia2023contentanalysis-e4].
 
-**Why:** These decisions change every step that follows. High reliability is easy to reach for manifest content and much harder for latent content, and the qualitative variant treats reliability differently (see Step 6). `[Our analysis]`
+**Why:** These decisions change every step that follows. High reliability is easy to reach for manifest content and much harder for latent content, and the qualitative variant treats reliability differently (see Step 6).
 
-**Where people go wrong:** the question is "let's see what's in these posts", categories get made up while reading, and at the end everything is counted. The resulting numbers can't be interpreted, because the categories were set after looking at the data. Reading this way is fine while exploring, but fix the categories and rules before formal coding starts. `[Our analysis]`
+**Where people go wrong:** the question is "let's see what's in these posts", categories get made up while reading, and at the end everything is counted. The resulting numbers can't be interpreted, because the categories were set after looking at the data. Reading this way is fine while exploring, but fix the categories and rules before formal coding starts.
 
 ### Step 2: Define the units of analysis
 
 **How:**
 
-- **Separate two kinds of unit** `[Our analysis]`: the **sampling unit** is one piece of material you draw, such as a news story, an issue report, or a paper; the **coding unit** is the stretch you assign a category to, such as a sentence, a comment, or a paragraph. The two can be the same or different.
+- **Separate two kinds of unit**: the **sampling unit** is one piece of material you draw, such as a news story, an issue report, or a paper; the **coding unit** is the stretch you assign a category to, such as a sentence, a comment, or a paragraph. The two can be the same or different.
 - **Choose the level of the coding unit.** The Columbia methods page makes this the first step: decide the level of analysis, whether word, word sense, phrase, sentence, or theme[^columbia2023contentanalysis-e5]. There is no single way to cut text into meaning units; it depends on the type of analysis, and for written text you decide whether to segment by phrase, sentence, or paragraph[^kleinheksel2020demystifying-e7]. Mayring likewise requires splitting the material into units of analysis and working through them step by step according to rules[^mayring2000qualitative-e4].
 - **Decide whether you code "present or not" or "how many times".** Coding for whether a concept occurs versus how often it occurs changes the coding process[^columbia2023contentanalysis-e7].
 
-**Why:** If the units aren't fixed, two coders looking at the same material may code it differently, one by whole document and one by sentence, and reliability can't be measured properly from the start. `[Our analysis]`
+**Why:** If the units aren't fixed, two coders looking at the same material may code it differently, one by whole document and one by sentence, and reliability can't be measured properly from the start.
 
-**Where people go wrong:** an issue report discusses three defects, but you sample and code by report, so it can only get one category. Decide first whether you will end up reporting "how many reports" or "how many defects", then set the units. `[Our analysis]`
+**Where people go wrong:** an issue report discusses three defects, but you sample and code by report, so it can only get one category. Decide first whether you will end up reporting "how many reports" or "how many defects", then set the units.
 
 ### Step 3: Sample the texts
 
@@ -87,11 +87,11 @@ The eight steps below follow quantitative content analysis, and point out where 
 
 - **State the population.** First say which body of texts you want your conclusions to generalize to, then explain where and how you sample. Baltes and Ralph suggest treating most quantitative studies as multi-stage sampling, with authors stating the population they want to generalize to and reflecting on how each stage might introduce bias[^baltes2022sampling-e12]. When representativeness is the goal, the sampling supplement of the ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering) empirical standards requires a replicable, algorithmic description of the sampling procedure and an account of the bias each step might introduce[^ralph2020empirical-e127].
 - **Think about bias in the source itself.** No sample size, however large, removes bias in the sampling frame[^baltes2022sampling-e5]. In software repositories, every repository may carry biases that are hard to predict[^baltes2022sampling-e14]. If the sampling frame is biased, you can repeat the study with a different frame, for example checking a pattern found in GitHub projects on SourceForge projects[^baltes2022sampling-e13].
-- **Keep the sample small enough to finish.** When choosing texts, balance having enough information for a thorough analysis against having so much that coding becomes overwhelming[^columbia2023contentanalysis-e10]. Manual coding is slow: estimate how many minutes each unit takes before deciding how many to draw. `[Our analysis]`
+- **Keep the sample small enough to finish.** When choosing texts, balance having enough information for a thorough analysis against having so much that coding becomes overwhelming[^columbia2023contentanalysis-e10]. Manual coding is slow: estimate how many minutes each unit takes before deciding how many to draw.
 
-**A typical computer science example** `[Our analysis]`: you want to know "among security-related issue reports in open-source projects, what share falls into each type?" The sampling unit is the issue report. You need to state which projects you draw from (and by what criteria you chose them), the time range, which keywords or labels you used to filter for "security-related", and how you sampled at random after filtering. Keyword filtering itself misses reports that never say "security", and that belongs in your limitations. For how to do and justify the sampling, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md#step-3-filter-and-sample-projects).
+**A typical computer science example**: you want to know "among security-related issue reports in open-source projects, what share falls into each type?" The sampling unit is the issue report. You need to state which projects you draw from (and by what criteria you chose them), the time range, which keywords or labels you used to filter for "security-related", and how you sampled at random after filtering. Keyword filtering itself misses reports that never say "security", and that belongs in your limitations. For how to do and justify the sampling, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md#step-3-filter-and-sample-projects).
 
-**Qualitative variant:** qualitative content analysis often selects material purposively and does not aim for statistical representativeness; for how and why, see the sampling part of [Interview studies](interview_study.md#step-1-choose-interviewees). `[Our analysis]`
+**Qualitative variant:** qualitative content analysis often selects material purposively and does not aim for statistical representativeness; for how and why, see the sampling part of [Interview studies](interview_study.md#step-1-choose-interviewees).
 
 ### Step 4: Build the codebook
 
@@ -105,11 +105,11 @@ Mayring sums up the two central procedures of qualitative content analysis as in
 - **Inductive**: when there is no existing framework, codes emerge during the analysis[^kleinheksel2020demystifying-e6]; Hsieh and Shannon call this "conventional" content analysis[^kleinheksel2020demystifying-e12]. Classic quantitative content analysis rarely answers "where do the categories come from?"[^mayring2000qualitative-e7]. Mayring's procedure: first set a selection criterion from the theoretical background and research question that decides which aspects of the material to look at; work through the material piece by piece with this criterion, formulating tentative categories; then, in feedback loops, revise them, reduce them to main categories, and check reliability[^mayring2000qualitative-e8].
 - **Mixed**: start deductively but allow categories to be added during coding, or stick with the predefined set. Decide which in advance[^columbia2023contentanalysis-e6].
 
-What sets it apart from [Grounded theory](grounded_theory.md): even when content analysis arrives at its categories inductively, it ends by **fixing them in a codebook with definitions and rules**, and then uses that codebook to code all the material systematically. `[Our analysis]`
+What sets it apart from [Grounded theory](grounded_theory.md): even when content analysis arrives at its categories inductively, it ends by **fixing them in a codebook with definitions and rules**, and then uses that codebook to code all the material systematically.
 
 **What to write for each category.**
 
-Mayring asks for an explicit definition, examples, and coding rules for each category, stating exactly when a passage can be coded into it[^mayring2000qualitative-e9]. Kleinheksel et al.'s codebook has at least three columns: code name, code description, and example[^kleinheksel2020demystifying-e8]. Building on this, we suggest writing five things for each category `[Our analysis]`:
+Mayring asks for an explicit definition, examples, and coding rules for each category, stating exactly when a passage can be coded into it[^mayring2000qualitative-e9]. Kleinheksel et al.'s codebook has at least three columns: code name, code description, and example[^kleinheksel2020demystifying-e8]. Building on this, we suggest writing five things for each category:
 
 | Field | Example (coding "issue type" for security-related issue reports) |
 |---|---|
@@ -123,11 +123,11 @@ Mayring asks for an explicit definition, examples, and coding rules for each cat
 
 - how much implication counts: only what is stated outright, or also what is implied[^columbia2023contentanalysis-e8];
 - what to do with content irrelevant to the research question[^columbia2023contentanalysis-e9];
-- whether one unit can belong to several categories, and what to code when unsure (for example a "cannot tell" category). `[Our analysis]`
+- whether one unit can belong to several categories, and what to code when unsure (for example a "cannot tell" category).
 
-Category definitions, anchor examples, and rules for separating neighboring categories are written from theory and the material, filled in step by step, and revised as the analysis goes on[^mayring2000qualitative-e10]. In the quantitative variant, though, the codebook must be frozen once formal coding starts; otherwise data coded early and late are not comparable. `[Our analysis]`
+Category definitions, anchor examples, and rules for separating neighboring categories are written from theory and the material, filled in step by step, and revised as the analysis goes on[^mayring2000qualitative-e10]. In the quantitative variant, though, we suggest freezing the codebook once formal coding starts; otherwise data coded early and late are not comparable.
 
-**Where people go wrong:** a definition that is one word long ("performance issue") with no boundaries, so two coders each have their own idea of whether "slow" counts. A good test: hand the codebook to someone who wasn't in the discussions and see whether they can code with it. `[Our analysis]`
+**Where people go wrong:** a definition that is one word long ("performance issue") with no boundaries, so two coders each have their own idea of whether "slow" counts. A good test: hand the codebook to someone who wasn't in the discussions and see whether they can code with it.
 
 ### Step 5: Train the coders and pretest
 
@@ -140,7 +140,7 @@ Category definitions, anchor examples, and rules for separating neighboring cate
 
 **Why:** Krippendorff points out that many problems in reliability testing come from three places: coders who are not really independent, coding instructions they cannot actually follow, or material they cannot understand[^krippendorff2004reliability-e2]. Training and pretesting expose the last two before formal coding starts.
 
-**Where people go wrong:** computing the formal reliability on the units you discussed and fixed during the pretest. Everyone has already compared answers on those units, so agreement will be inflated. Measure formal reliability on fresh units. `[Our analysis]`
+**Where people go wrong:** computing the formal reliability on the units you discussed and fixed during the pretest. Everyone has already compared answers on those units, so agreement will be inflated. Measure formal reliability on fresh units.
 
 ### Step 6: Code the material and measure intercoder reliability
 
@@ -163,24 +163,24 @@ Category definitions, anchor examples, and rules for separating neighboring cate
 > - **Krippendorff**: the cutoff should depend on the cost of drawing invalid conclusions; he suggests requiring α ≥ 0.800 in general and α ≥ 0.667 where tentative conclusions are still acceptable, but apart from perfect agreement there are no magic numbers[^krippendorff2004reliability-e7].
 > - **Mayring's qualitative content analysis**: estimate reliability using only trained members of the project team, and lower the standard; a Cohen's kappa above 0.7 is enough[^mayring2000qualitative-e5].
 >
-> In practice `[Our analysis]`: state in the paper which measure and cutoff you use and whose they are, and fix them before collecting data, not after you see the results.
+> In practice: state in the paper which measure and cutoff you use and whose they are, and fix them before collecting data, not after you see the results.
 
 > **Does the qualitative variant need reliability?**
 >
 > It depends on your research stance. Kleinheksel et al. note that qualitative research generally speaks of "trustworthiness" rather than "reliability" and "validity"[^kleinheksel2020demystifying-e17]. In manifest content analysis, coding takes little judgment, so low agreement makes the data invalid; in latent content analysis, reliability and validity pull against each other: more detailed rules give higher agreement, but the coding may drift further from how readers of the research understand it[^kleinheksel2020demystifying-e13][^kleinheksel2020demystifying-e14]. The SIGSOFT supplement on inter-rater reliability and agreement says its requirements do not apply to interpretivist qualitative analysis[^ralph2020empirical-e365]. For the arguments on both sides and a middle path, see [Interview studies](interview_study.md#step-6-make-your-analysis-trustworthy).
 
-**Where people go wrong:** three coders vote on disagreements and treat the reliability problem as solved. Resolving disagreements by majority vote may make you feel better, but it does not change the measured reliability[^krippendorff2004reliability-e9]. Do describe how disagreements were resolved, but compute reliability from the independent coding done **before** any discussion. `[Our analysis]`
+**Where people go wrong:** three coders vote on disagreements and treat the reliability problem as solved. Resolving disagreements by majority vote may make you feel better, but it does not change the measured reliability[^krippendorff2004reliability-e9]. Do describe how disagreements were resolved, but compute reliability from the independent coding done **before** any discussion.
 
 ### Step 7: Analyze
 
-**How** `[Our analysis]`:
+**How**:
 
 - **Quantitative variant**: report the frequency and proportion of each category; compare distributions across sources and periods; run statistics such as chi-square tests where needed (for the general approach, see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md)). Give proportions with confidence intervals where you can, especially with small samples.
 - **Qualitative variant**: describe what each category means, support it with examples from the text, and explain how categories relate; Mayring holds that frequencies of categories can also be analyzed when the research question calls for it[^mayring2000qualitative-e8].
 
-**Be careful with software and automated methods.** Computer programs are there to support the steps of text interpretation, not to replace them[^mayring2000qualitative-e11]. Software can count exactly how many times a word appears, but it cannot tell what each use of the word means[^columbia2023contentanalysis-e11]. If you use keyword rules, a machine learning classifier, or a large language model to code automatically, treat it as one more "coder": first check its agreement with humans on a hand-coded sample, then apply it to all the data, and report that check in the paper. `[Our analysis]`
+**Be careful with software and automated methods.** Computer programs are there to support the steps of text interpretation, not to replace them[^mayring2000qualitative-e11]. Software can count exactly how many times a word appears, but it cannot tell what each use of the word means[^columbia2023contentanalysis-e11]. If you use keyword rules, a machine learning classifier, or a large language model to code automatically, treat it as one more "coder": first check its agreement with humans on a hand-coded sample, then apply it to all the data, and report that check in the paper.
 
-**Where people go wrong:** common weaknesses of content analysis are a lack of theoretical grounding, over-reaching inferences, and often doing little more than counting words while ignoring the context that produced the text[^columbia2023contentanalysis-e12]. "News stories mention a word more often" does not mean "the public cares about it more"; when you infer authors' intentions or social attitudes from texts, explain what the inference rests on. `[Our analysis]`
+**Where people go wrong:** common weaknesses of content analysis are a lack of theoretical grounding, over-reaching inferences, and often doing little more than counting words while ignoring the context that produced the text[^columbia2023contentanalysis-e12]. "News stories mention a word more often" does not mean "the public cares about it more"; when you infer authors' intentions or social attitudes from texts, explain what the inference rests on.
 
 ### Step 8: Write the report
 
@@ -188,14 +188,14 @@ Category definitions, anchor examples, and rules for separating neighboring cate
 
 - **The minimum to report about reliability.** The size of the reliability sample, how it was drawn, and why; the reliability value for each variable and each index; how disagreements were resolved; and so on[^lombard2010practical-e10]. The SIGSOFT supplement on inter-rater reliability and agreement likewise requires describing how two or more raters rated independently and how disagreements were resolved, and reporting an appropriate agreement statistic[^ralph2020empirical-e129].
 - **Leave an audit trail.** How the codes were developed and defined, what materials were used to train coders, and what steps were taken to ensure intercoder reliability[^kleinheksel2020demystifying-e16].
-- **Publish the codebook.** Ideally, release the full codebook, coding examples, and decision rules as supplementary material so others can reproduce your work. `[Our analysis]`
+- **Publish the codebook.** Ideally, release the full codebook, coding examples, and decision rules as supplementary material so others can reproduce your work.
 - **Describe the sampling**: the population, the sources, every filtering and sampling step, and possible biases (see Step 3).
 
-**Write it down:** before you start coding, write one page covering the research question, quantitative or qualitative, units of analysis, sampling steps, a first draft of the codebook, and the reliability measure and cutoff. That page is your analysis plan; record every later change against it. `[Our analysis]`
+**Write it down:** before you start coding, write one page covering the research question, quantitative or qualitative, units of analysis, sampling steps, a first draft of the codebook, and the reliability measure and cutoff. That page is your analysis plan; record every later change against it.
 
 ### Example: applying it to the running example
 
-`[Our analysis]` The running example claims that "published evaluations of large language model vulnerability detectors are inflated by data leakage". Its main body is [Benchmarking](../07_fields/computer-science/practices/benchmarking.md), but one sub-question suits content analysis well: **of the published papers on detecting smart contract vulnerabilities with large language models, how many checked for data leakage?**
+The running example claims that "published evaluations of large language model vulnerability detectors are inflated by data leakage". Its main body is [Benchmarking](../07_fields/computer-science/practices/benchmarking.md), but one sub-question suits content analysis well: **of the published papers on detecting smart contract vulnerabilities with large language models, how many checked for data leakage?**
 
 - **Research question and type**: quantitative, manifest content analysis; the material is published papers, so it also serves [Synthesis](../05_research-strategies/synthesize.md).
 - **Units**: the sampling unit is a paper; the coding unit is "an evaluation" within a paper (one paper may evaluate on several datasets).
@@ -204,17 +204,17 @@ Category definitions, anchor examples, and rules for separating neighboring cate
 - **Reliability**: two people independently code a reliability sample of about 50 papers, compute Krippendorff's alpha for each variable, and revise and retest any variable that misses the cutoff.
 - **Output**: a table saying "in N evaluations, X% reported no leakage check at all". This by itself does not prove the results are inflated; that takes the experiments in the benchmarking part. What it shows is how widespread the problem is in the literature.
 
-A real example from the same area: when Durieux et al. compared smart contract analysis tools, they manually mapped the vulnerability types each tool reports onto the ten DASP categories, for example putting "integer overflow" under "arithmetic"[^durieux2020empirical-e10]. That is deductive application of an existing category set. They acknowledge that manual labeling may contain errors; their remedy was for all authors to label independently and then discuss disagreements until they reached consensus[^durieux2020empirical-e14]. If you want to report intercoder reliability, compute it from the independent results before discussion (see Step 6). `[Our analysis]`
+A real example from the same area: when Durieux et al. compared smart contract analysis tools, they manually mapped the vulnerability types each tool reports onto the ten DASP categories, for example putting "integer overflow" under "arithmetic"[^durieux2020empirical-e10]. That is deductive application of an existing category set. They acknowledge that manual labeling may contain errors; their remedy was for all authors to label independently and then discuss disagreements until they reached consensus[^durieux2020empirical-e14]. If you want to report intercoder reliability, compute it from the independent results before discussion (see Step 6).
 
 ---
 
 ## 3. Checklist
 
-This checklist draws mainly on the reliability guides from communication research (Lombard et al., Krippendorff) and on the SIGSOFT standard from software engineering; in other fields, follow your own field's norms `[Our analysis]`.
+This checklist draws mainly on the reliability guides from communication research (Lombard et al., Krippendorff) and on the SIGSOFT standard from software engineering; in other fields, follow your own field's norms.
 
 **Must do**
 
-- [ ] State the research question and whether the content analysis is quantitative or qualitative `[Our analysis]`
+- [ ] State the research question and whether the content analysis is quantitative or qualitative
 - [ ] Define the units of analysis, and say whether you code "present or not" or "how many times"[^columbia2023contentanalysis-e7]
 - [ ] Describe the sampling steps and possible biases[^ralph2020empirical-e127][^baltes2022sampling-e12]
 - [ ] Give every category in the codebook a definition, examples, and coding rules[^mayring2000qualitative-e9]
@@ -229,11 +229,11 @@ This checklist draws mainly on the reliability guides from communication researc
 - [ ] Report reliability for each variable, and take the lowest as the overall reliability[^krippendorff2004reliability-e8]
 - [ ] Leave an audit trail: how the codebook was developed, training materials, reliability steps[^kleinheksel2020demystifying-e16]
 - [ ] Recode part of the material after some time to check stability[^kleinheksel2020demystifying-e15]
-- [ ] Publish the codebook and coding examples `[Our analysis]`
+- [ ] Publish the codebook and coding examples
 
 **Outstanding**: report confidence intervals for reliability[^krippendorff2004reliability-e10]; justify the cutoff by the cost of drawing wrong conclusions[^krippendorff2004reliability-e7]; repeat the study with a different sampling frame to check whether the conclusions depend on the source[^baltes2022sampling-e13]
 
-**Fine to skip; not a flaw**: not computing intercoder reliability in interpretive qualitative content analysis[^ralph2020empirical-e365]; using a single coder when multiple coders would be impractical or inconsistent with the study's stance[^ralph2020empirical-e367]. In those cases, explain why the analysis is trustworthy using qualitative quality criteria; see [Interview studies](interview_study.md#step-6-make-your-analysis-trustworthy). `[Our analysis]`
+**Fine to skip; not a flaw**: not computing intercoder reliability in interpretive qualitative content analysis[^ralph2020empirical-e365]; using a single coder when multiple coders would be impractical or inconsistent with the study's stance[^ralph2020empirical-e367]. In those cases, explain why the analysis is trustworthy using qualitative quality criteria; see [Interview studies](interview_study.md#step-6-make-your-analysis-trustworthy).
 
 ---
 
@@ -250,7 +250,7 @@ This checklist draws mainly on the reliability guides from communication researc
 | Computing reliability after disagreements were discussed and resolved | Majority votes or discussion do not change the measured reliability[^krippendorff2004reliability-e9] |
 | Category definitions that are one word long, with no boundaries or examples | Nobody else can code with them[^mayring2000qualitative-e9] |
 | Counting word frequencies without looking at context | Software can't tell different meanings of the same word apart[^columbia2023contentanalysis-e11]; counting words while ignoring context is a common weakness[^columbia2023contentanalysis-e12] |
-| Coding automatically with keyword rules or a model without checking them | An automated method is also a coder and must first be compared with human coding `[Our analysis]` |
+| Coding automatically with keyword rules or a model without checking them | An automated method is also a coder and must first be compared with human coding |
 | Using a large sample to cover up a biased sampling frame | No sample size removes bias in the sampling frame[^baltes2022sampling-e5] |
 | Calling content-analysis counts "grounded theory" | Grounded theory does not force data into a predefined coding scheme, and counting without interpreting is one of its antipatterns[^stol2016grounded-e11][^ralph2020empirical-e325] |
 
@@ -262,7 +262,7 @@ This checklist draws mainly on the reliability guides from communication researc
 - **Choosing between manifest and latent content**: Kleinheksel et al. 2020, open access; uses teaching data to explain manifest and latent content analysis, and maps them onto Hsieh and Shannon's three approaches. From pharmacy education.
 - **How to measure and report intercoder reliability**: Lombard, Snyder-Duch, and Bracken's public online guide (updated 2010), with step-by-step recommendations; and Krippendorff 2004, a response to that guide explaining why not to use percent agreement and how to set the cutoff. Both come from communication research and disagree on cutoffs and the choice of index, so they are worth reading side by side.
 - **A quick overview of the general steps**: the content analysis methods page from Columbia University's school of public health, covering the steps, strengths, and weaknesses of conceptual and relational analysis.
-- **Often-cited classics without open full text**: Hsieh and Shannon's 2005 "Three approaches to qualitative content analysis" in Qualitative Health Research, Elo and Kyngäs's 2008 qualitative content analysis process, and the content analysis textbooks by Krippendorff and by Neuendorf. This page does not cite them directly; Hsieh and Shannon's typology is cited via Kleinheksel et al. `[Our analysis]`
+- **Often-cited classics without open full text**: Hsieh and Shannon's 2005 "Three approaches to qualitative content analysis" in Qualitative Health Research, Elo and Kyngäs's 2008 qualitative content analysis process, and the content analysis textbooks by Krippendorff and by Neuendorf. This page does not cite them directly; Hsieh and Shannon's typology is cited via Kleinheksel et al.
 
 Links to all sources are in the [source list](../../sources/README.md).
 

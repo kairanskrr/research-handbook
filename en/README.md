@@ -71,7 +71,7 @@ Advice organized by "what situation you are in", with links to the detailed sect
 
 ## How to check the sources
 
-Every piece of advice has a footnote. Open the footnote to see which source it comes from, where in the original it appears, and what the original says. Where something is our own judgment with no source behind it, it is tagged `[Our analysis]`. Where sources disagree, the different views are set out side by side.
+Every piece of advice has a footnote. Open the footnote to see which source it comes from, where in the original it appears, and what the original says. Anything without a footnote is our own synthesis and advice. Where sources disagree, the different views are set out side by side.
 
 All original sources are listed in the [source list](sources/README.md), and the quoted excerpts from each source are in [`sources/notes/`](sources/notes/README.md).
 
@@ -96,7 +96,7 @@ sources/                        original sources
 papers/                         BibTeX for the papers (references.bib) and an index
 repos/                          GitHub repositories included as reference material (git submodules)
 templates/                      document templates
-scripts/                        paper download script, web reader build script (preview locally with python scripts/build_site.py)
+scripts/                        paper download script, web reader build script (preview locally with python scripts/build_site.py --full . --out _site)
 site/                           web reader pages
 ```
 

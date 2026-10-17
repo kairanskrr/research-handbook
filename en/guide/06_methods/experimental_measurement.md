@@ -1,8 +1,8 @@
 # Experimental measurement
 
-This page is about **measurement-centered experiments**: the goal is to measure the value of a physical quantity and to say how far that value can be trusted. Examples are measuring a constant, a property of a material, or the lifetime of a particle. Test-rig work in engineering (measuring efficiency, load, flow rate and so on) can follow the same steps `[Our analysis]`; for what engineering journals require about uncertainty, see the [mechanical engineering field overview](../07_fields/mechanical-engineering/README.md#measurement-results-must-come-with-an-uncertainty). The basic ideas of the 5σ discovery standard and of blind analysis are already covered in the [physical sciences field overview](../07_fields/physical-sciences/README.md); this page covers only how to actually do them. Performance measurement in computing also has to deal with noise and measurement bias; you can read this page alongside [benchmarking](../07_fields/computer-science/practices/benchmarking.md#step-4-design-the-measurement-procedure) in the computer science section.
+This page is about **measurement-centered experiments**: the goal is to measure the value of a physical quantity and to say how far that value can be trusted. Examples are measuring a constant, a property of a material, or the lifetime of a particle. Test-rig work in engineering (measuring efficiency, load, flow rate and so on) can follow the same steps; for what engineering journals require about uncertainty, see the [mechanical engineering field overview](../07_fields/mechanical-engineering/README.md#measurement-results-must-come-with-an-uncertainty). The basic ideas of the 5σ discovery standard and of blind analysis are already covered in the [physical sciences field overview](../07_fields/physical-sciences/README.md); this page covers only how to actually do them. Performance measurement in computing also has to deal with noise and measurement bias; you can read this page alongside [benchmarking](../07_fields/computer-science/practices/benchmarking.md#step-4-design-the-measurement-procedure) in the computer science section.
 
-**Scope** `[Our analysis]`: this page was written for the [Physical sciences](../07_fields/physical-sciences/README.md). Its sources are mainly the metrology guide *Guide to the Expression of Uncertainty in Measurement* (GUM), the statistics handbook of the US National Institute of Standards and Technology (NIST), papers from particle physics on blind analysis and reproducibility, and the editorial policy of the American Institute of Aeronautics and Astronautics (AIAA) on numerical and experimental accuracy. The field overviews for [Chemical sciences](../07_fields/chemistry/README.md), [Mechanical engineering](../07_fields/mechanical-engineering/README.md), [Civil engineering](../07_fields/civil-engineering/README.md), [Electrical, electronic, and information engineering](../07_fields/electrical-engineering/README.md), and [Materials engineering and nanotechnology](../07_fields/materials-engineering/README.md) also point here. The blind-analysis practices come mainly from particle physics; if you work in another field, check your own field's norms first.
+**Scope**: this page was written for the [Physical sciences](../07_fields/physical-sciences/README.md). Its sources are mainly the metrology guide *Guide to the Expression of Uncertainty in Measurement* (GUM), the statistics handbook of the US National Institute of Standards and Technology (NIST), papers from particle physics on blind analysis and reproducibility, and the editorial policy of the American Institute of Aeronautics and Astronautics (AIAA) on numerical and experimental accuracy. The field overviews for [Chemical sciences](../07_fields/chemistry/README.md), [Mechanical engineering](../07_fields/mechanical-engineering/README.md), [Civil engineering](../07_fields/civil-engineering/README.md), [Electrical, electronic, and information engineering](../07_fields/electrical-engineering/README.md), and [Materials engineering and nanotechnology](../07_fields/materials-engineering/README.md) also point here. The blind-analysis practices come mainly from particle physics; if you work in another field, check your own field's norms first.
 
 **Strategies it usually serves**: [Measurement](../05_research-strategies/measure.md).
 
@@ -24,7 +24,7 @@ Experimental measurement answers the question: **what is the value of this quant
 | Study | What it answers | Where to look |
 |---|---|---|
 | Experimental measurement (this page) | The value of a quantity and its uncertainty | This page |
-| Search and discovery | Is there a new effect, and how significant is it? | [Physical sciences field overview: 5σ](../07_fields/physical-sciences/README.md#5σ-the-threshold-for-claiming-a-discovery); the measured value or upper limit you finally report still gets its uncertainty handled as on this page `[Our analysis]` |
+| Search and discovery | Is there a new effect, and how significant is it? | [Physical sciences field overview: 5σ](../07_fields/physical-sciences/README.md#5σ-the-threshold-for-claiming-a-discovery); the measured value or upper limit you finally report still gets its uncertainty handled as on this page |
 | Performance benchmarking | Which computer system is faster or better | [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) in the computer science section |
 
 ## 2. How to do it
@@ -41,7 +41,7 @@ Experimental measurement answers the question: **what is the value of this quant
 
 **How:**
 
-1. List everything that could affect the reading (temperature, air pressure, power supply, alignment, sample condition and so on), and decide which to control and which to monitor and record `[Our analysis]`;
+1. List everything that could affect the reading (temperature, air pressure, power supply, alignment, sample condition and so on), and decide which to control and which to monitor and record;
 2. Let these influence quantities vary as much as is practical during the experiment, so that your uncertainty evaluation rests as far as possible on observed data[^jcgm2008gum-e14];
 3. Before taking data, or at the latest before analyzing it, estimate how precisely you expect to be able to measure. Junk and Lyons say this is routine and necessary in experimental particle physics[^junk2021reproducibility-e44];
 4. The first time you do an uncertainty analysis, work out what resources you need and plan data collection and analysis carefully[^nist2012ehandbook-e5].
@@ -58,7 +58,7 @@ Experimental measurement answers the question: **what is the value of this quant
 - **Set up a check standard**: pick a stable sample and measure it at intervals, to expose errors that creep into the measurement process over time[^nist2012ehandbook-e2]. Its material and geometry should be close to the samples you normally measure[^nist2012ehandbook-e3]. If its readings settle at a new level and stay there over several rounds of measurement, that is a signal to find out why[^nist2012ehandbook-e4].
 - **Measure something known first**: use the same apparatus and analysis to measure a well-established signal (particle physicists call it a "standard candle"). Only if its strength and properties come out as expected do you know the whole chain is working[^junk2021reproducibility-e46].
 
-**Where people go wrong:** calibration can be swayed by your own expectations too. Junk and Lyons point out that subconscious bias can enter the analysis at the calibration stage[^junk2021reproducibility-e48]. A small group can fix the calibration method and write it in the lab notebook before looking at the measurement results `[Our analysis]`. "Calibrating" model parameters and "validating" a model are not the same thing; see the [mechanical engineering field overview](../07_fields/mechanical-engineering/README.md#calibration-is-not-validation).
+**Where people go wrong:** calibration can be swayed by your own expectations too. Junk and Lyons point out that subconscious bias can enter the analysis at the calibration stage[^junk2021reproducibility-e48]. A small group can fix the calibration method and write it in the lab notebook before looking at the measurement results. "Calibrating" model parameters and "validating" a model are not the same thing; see the [mechanical engineering field overview](../07_fields/mechanical-engineering/README.md#calibration-is-not-validation).
 
 ### Step 4: Find and deal with systematic effects
 
@@ -84,9 +84,9 @@ An **uncertainty budget** is a table: it lists each uncertainty component with i
 
 **2. Combine.** Type A and Type B components are treated the same way[^nist2012ehandbook-e9]: both go into the law of propagation of uncertainty[^jcgm2008gum-e23]. The basic method is root-sum-of-squares[^nist2012ehandbook-e8]; if input quantities are significantly correlated, the correlations must be taken into account[^jcgm2008gum-e24].
 
-**3. Expand.** Expanded uncertainty U = k × combined standard uncertainty[^jcgm2008gum-e25]. The statistics handbook produced jointly by NIST and SEMATECH (a US semiconductor industry consortium) recommends k = 2 when the degrees of freedom are large, which corresponds approximately to a 95% coverage probability[^nist2012ehandbook-e15]. NIST also sets k = 2 by convention for its own measurement results[^taylor1994nist-e1]. That is NIST's own policy; elsewhere, follow your institution's or target journal's requirements `[Our analysis]`. If a large component was repeated only a few times and has few degrees of freedom, the degrees of freedom of the combined result become highly questionable[^nist2012ehandbook-e16]; in that case do not just use k = 2, but estimate the effective degrees of freedom first and then choose k `[Our analysis]`.
+**3. Expand.** Expanded uncertainty U = k × combined standard uncertainty[^jcgm2008gum-e25]. The statistics handbook produced jointly by NIST and SEMATECH (a US semiconductor industry consortium) recommends k = 2 when the degrees of freedom are large, which corresponds approximately to a 95% coverage probability[^nist2012ehandbook-e15]. NIST also sets k = 2 by convention for its own measurement results[^taylor1994nist-e1]. That is NIST's own policy; elsewhere, follow your institution's or target journal's requirements. If a large component was repeated only a few times and has few degrees of freedom, the degrees of freedom of the combined result become highly questionable[^nist2012ehandbook-e16]; in that case do not just use k = 2, but estimate the effective degrees of freedom first and then choose k.
 
-**4. Check yourself.** Compare the standard deviation you actually observe with the one your components predict when combined[^jcgm2008gum-e17]. A big difference means the budget has missed or overestimated something `[Our analysis]`.
+**4. Check yourself.** Compare the standard deviation you actually observe with the one your components predict when combined[^jcgm2008gum-e17]. A big difference means the budget has missed or overestimated something.
 
 ### Step 6: Blind analysis, so you don't steer the result
 
@@ -105,30 +105,30 @@ For the definition of blind analysis and the common methods, see the [physical s
 > - **For**: Klein and Roodman argue that the size of experimenter's bias cannot be estimated, so the only remedy is a method that prevents it[^klein2005blind-e1]; every experiment should consider the possibility of experimenter's bias, though blind analysis is not always feasible or necessary[^klein2005blind-e5].
 > - **Worried about the cost**: Klein and Roodman themselves admit that the objection that "unexpected phenomena can only be found by full exploration of the data" is a serious one[^klein2005blind-e12]. The physicist Golub, in a short comment that was not peer reviewed, argues that blind analysis seriously hampers the search for systematic errors and makes it impossible to study unexpected events in the hidden region[^golub2023blind-e1].
 >
-> In practice: for precision measurements, prefer "hide the answer". It masks only the final number and does not get in the way of checking the data and systematic errors. Whether to blind and how, settle with your advisor before you look at the data, and write it down `[Our analysis]`.
+> In practice: for precision measurements, prefer "hide the answer". It masks only the final number and does not get in the way of checking the data and systematic errors. Whether to blind and how, settle with your advisor before you look at the data, and write it down.
 
 ### Step 7: Cross-checks and consistency checks
 
 **How:**
 
-- **Split the data by condition.** Group by date, instrument configuration, operator, and sample, compute a result for each, and see whether they agree within their uncertainties `[Our analysis]`.
+- **Split the data by condition.** Group by date, instrument configuration, operator, and sample, compute a result for each, and see whether they agree within their uncertainties.
 - **Look at control samples first.** Running the analysis on control samples first sometimes reveals background sources or calibration mistakes you had not noticed[^junk2021reproducibility-e50].
 - **If the data say the model is incomplete, change the model.** When the observed data (including independent determinations of the same quantity) show that the measurement model is incomplete, the model has to be revised[^jcgm2008gum-e16].
 - **Report anomalous results.** AIAA journals require that anomalous results be pointed out, whether or not they can be explained[^aiaaeditorialpolicy-e9].
 
-**Where people go wrong:** taking "agrees with earlier measurements or with theory" as evidence that the measurement is right. Roodman points out that a result's value, and whether it agrees with earlier measurements, says nothing about whether the measurement itself was done correctly[^roodman2003blind-e4]. Also, some cross-checks can only be done after unblinding[^klein2005blind-e13]; it is best to list them in advance `[Our analysis]`.
+**Where people go wrong:** taking "agrees with earlier measurements or with theory" as evidence that the measurement is right. Roodman points out that a result's value, and whether it agrees with earlier measurements, says nothing about whether the measurement itself was done correctly[^roodman2003blind-e4]. Also, some cross-checks can only be done after unblinding[^klein2005blind-e13]; it is best to list them in advance.
 
 ### Step 8: Record everything
 
 **How:**
 
 - **Record on the spot.** Write each entry immediately after doing the work[^schnell2015ten-e3]; if you rely on memory, you are likely to forget key steps when you need them[^schnell2015ten-e9].
-- **Cross out mistakes; don't erase them.** In a paper notebook, draw a single thin line through a mistake and write the correct information next to it[^schnell2015ten-e4]. (Schnell 2015 is written for biologists who do computational work; we borrow its general record-keeping principles here `[Our analysis]`.)
+- **Cross out mistakes; don't erase them.** In a paper notebook, draw a single thin line through a mistake and write the correct information next to it[^schnell2015ten-e4]. (Schnell 2015 is written for biologists who do computational work; we borrow its general record-keeping principles here.)
 - **Record running conditions.** Particle physics experiments continuously log environmental variables such as temperature, pressure, and humidity[^junk2021reproducibility-e42]. When you notice something abnormal, flag the affected data so they do not bias the result[^junk2021reproducibility-e43].
-- **Record the order of data collection.** AIAA journals require papers to state the experimental conditions and the sequence in which data were taken[^aiaaeditorialpolicy-e6], which you cannot write without records made at the time `[Our analysis]`.
+- **Record the order of data collection.** AIAA journals require papers to state the experimental conditions and the sequence in which data were taken[^aiaaeditorialpolicy-e6], which you cannot write without records made at the time.
 - **Keep the raw data behind every figure**[^schnell2015ten-e7]. For general practice on organizing data and code, see [Organizing your research materials](../08_throughout/organizing_materials.md) under Throughout the project.
 
-**Why:** blunders such as misrecording or miscalculating a number are not covered by the uncertainty[^jcgm2008gum-e5]; only records and checking can catch them `[Our analysis]`.
+**Why:** blunders such as misrecording or miscalculating a number are not covered by the uncertainty[^jcgm2008gum-e5]; only records and checking can catch them.
 
 ### Step 9: Report the result
 
@@ -142,7 +142,7 @@ The reporting requirements of the GUM and the AIAA (list all components and how 
 
 **How:**
 
-- **First check whether the measurements agree with each other.** The Particle Data Group's approach: take a weighted average, then use chi-squared (χ², which measures how far each measurement lies from the average, in units of its own uncertainty `[Our analysis]`) to check whether the measurements are consistent[^pdg2024intro-e1]. A large χ² probably means at least one experiment has underestimated its error; if you don't know which one, assume all the errors were underestimated by the same factor[^pdg2024intro-e2].
+- **First check whether the measurements agree with each other.** The Particle Data Group's approach: take a weighted average, then use chi-squared (χ², which measures how far each measurement lies from the average, in units of its own uncertainty) to check whether the measurements are consistent[^pdg2024intro-e1]. A large χ² probably means at least one experiment has underestimated its error; if you don't know which one, assume all the errors were underestimated by the same factor[^pdg2024intro-e2].
 - **Watch for shared sources of error.** To judge whether two results agree, separate the error sources they share from those that are independent[^junk2021reproducibility-e52].
 - **A large uncertainty is not a virtue.** Results with large systematic uncertainties "agree with others" more easily[^junk2021reproducibility-e53]; but overestimating systematic uncertainty has its costs too[^junk2021reproducibility-e51].
 - **Be suspicious of agreement that is too good.** An unusually low χ² in a global fit is often taken as a sign that the measurements may be biased[^klein2005blind-e18].
@@ -176,7 +176,7 @@ The reporting requirements of the GUM and the AIAA (list all components and how 
 
 **Common reviewer criticisms that are not valid**
 
-- "The result disagrees with theory (or with earlier measurements), so the measurement is wrong": whether a value agrees with earlier ones says nothing about whether the measurement itself was done correctly[^roodman2003blind-e4]; it may also be the earlier bulk of the data that is wrong[^pdg2024intro-e5]. The better question is whether the systematic effects have all been found `[Our analysis]`.
+- "The result disagrees with theory (or with earlier measurements), so the measurement is wrong": whether a value agrees with earlier ones says nothing about whether the measurement itself was done correctly[^roodman2003blind-e4]; it may also be the earlier bulk of the data that is wrong[^pdg2024intro-e5]. The better question is whether the systematic effects have all been found.
 
 ## 4. Common mistakes
 
@@ -194,7 +194,7 @@ The reporting requirements of the GUM and the AIAA (list all components and how 
 
 ## 5. Further reading
 
-- **JCGM 100:2008 (GUM)**: the international guide from the Joint Committee for Guides in Metrology, free to download from the website of the International Bureau of Weights and Measures (BIPM). You can start with Chapter 3 (basic concepts) and Chapter 7 (reporting) `[Our analysis]`. It also reminds you that it is no substitute for critical thinking, intellectual honesty, and professional skill[^jcgm2008gum-e27].
+- **JCGM 100:2008 (GUM)**: the international guide from the Joint Committee for Guides in Metrology, free to download from the website of the International Bureau of Weights and Measures (BIPM). You can start with Chapter 3 (basic concepts) and Chapter 7 (reporting). It also reminds you that it is no substitute for critical thinking, intellectual honesty, and professional skill[^jcgm2008gum-e27].
 - **NIST/SEMATECH e-Handbook of Statistical Methods, Chapter 2**: a free online handbook on a US government website, covering calibration, check standards, and uncertainty budgets; good to have open while you work.
 - **Klein & Roodman 2005, Blind Analysis in Nuclear and Particle Physics**: on experimenter's bias and the various blind-analysis methods. Read it together with Golub 2023 (not peer reviewed), which questions it.
 - **Junk & Lyons 2021**: how particle physics handles systematic uncertainties, control samples, calibration, and repeat experiments.

@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. The numbers and statistics in Section 3 are mainly for quantitative research; if you do qualitative research, take the underlying reasoning.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Check the data before you look at the conclusions.** Look at the raw data and outputs yourself, and check for outliers, duplicates and parsing errors; check the good results and the bad results equally hard ([Section 1](#1-check-the-data-before-you-look-at-the-conclusions)).
 > 2. **Run the planned analyses first; label unplanned ones as exploratory.** Report every planned analysis, good or bad; add a row to your analysis log for every analysis you run ([Section 2](#2-run-the-planned-analyses-first-label-unplanned-ones-as-exploratory)).
@@ -14,7 +14,7 @@
 
 ## Where you are
 
-The experiments have finished, or the data is all in (see [Running and iterating](06_run-and-iterate.md)). You have a pile of numbers, tables and logs, maybe a few rough plots. In the running example, you now have detection rates for several models on leaked and non-leaked samples, ready to go into the empty results table you sketched in 1.5 `[Our analysis]`.
+The experiments have finished, or the data is all in (see [Running and iterating](06_run-and-iterate.md)). You have a pile of numbers, tables and logs, maybe a few rough plots. In the running example, you now have detection rates for several models on leaked and non-leaked samples, ready to go into the empty results table you sketched in 1.5.
 
 You may now be facing questions like these:
 
@@ -40,7 +40,7 @@ Turn a pile of results into **conclusions that evidence actually supports**. Con
 
 Work through Sections 1 to 6 roughly in order: first make sure the data is right, then analyze, then interpret. Section 7 can come up at any time: whenever a step shows that the evidence can't hold up your original claim, come back and revise the claim.
 
-Different research strategies need different statistical details. The concrete steps for comparing against baselines, running ablation studies, and comparing tools over multiple runs are in the strategy pages: [Comparative evaluation](../05_research-strategies/compare_evaluate.md#is-the-difference-real), [Building and improving](../05_research-strategies/build_improve.md), and [Causal explanation](../05_research-strategies/explain_causality.md#actively-rule-out-alternative-explanations). This chapter covers only the part every kind of study has to do `[Our analysis]`.
+Different research strategies need different statistical details. The concrete steps for comparing against baselines, running ablation studies, and comparing tools over multiple runs are in the strategy pages: [Comparative evaluation](../05_research-strategies/compare_evaluate.md#is-the-difference-real), [Building and improving](../05_research-strategies/build_improve.md), and [Causal explanation](../05_research-strategies/explain_causality.md#actively-rule-out-alternative-explanations). This chapter covers only the part every kind of study has to do.
 
 Everything in this chapter serves one goal: don't fool yourself, and you are the easiest person to fool[^feynman1974cargo-e7].
 
@@ -54,11 +54,11 @@ Many errors don't throw errors. Training neural networks is the classic case: th
 
 - **Read a few dozen raw samples and outputs, one by one.** Outliers (values far away from the rest of the data) deserve special attention. A write-up of lessons from training neural networks says they almost always uncover problems in data quality or preprocessing[^karpathy2019recipe-e7]. The data science standard for software engineering lists manually inspecting a non-trivial portion of the data, that is, data sanity checks, as a desirable attribute[^ralph2020empirical-e199].
 - **Don't skip the checks because a dataset is well known.** A machine learning methods guide warns that a dataset being used in many papers doesn't mean it is good quality[^lones2021avoid-e19]. In software engineering, a paper on misclassified bug data concludes that automated quantitative analysis should always be paired with humans checking the input data and the results; before using a bug dataset, you should at least manually validate enough samples[^herzig2013bug-e5].
-- **Look for duplicates and anomalies, but don't delete freely.** The same machine learning guide notes that a common problem is the same data point being included several times by accident; remove outliers only if they are likely noise or errors, not genuine extreme cases[^lones2021avoid-e20]. Record what you removed and why `[Our analysis]`.
+- **Look for duplicates and anomalies, but don't delete freely.** The same machine learning guide notes that a common problem is the same data point being included several times by accident; remove outliers only if they are likely noise or errors, not genuine extreme cases[^lones2021avoid-e20]. Record what you removed and why.
 
-**When results are surprisingly good, check harder.** One form of self-deception is asymmetric checking: you hunt hard for errors when a result is off from what you expected, and stop looking when it is close. This happened in the history of measuring the charge of the electron: when later researchers got a value too far above the authoritative one, they looked for "what went wrong"; when they got a value close to it, they didn't look as carefully[^feynman1974cargo-e14]. If you only check in one direction, your results get pulled toward what you expected. Check "good" results and "bad" results equally hard `[Our analysis]`.
+**When results are surprisingly good, check harder.** One form of self-deception is asymmetric checking: you hunt hard for errors when a result is off from what you expected, and stop looking when it is close. This happened in the history of measuring the charge of the electron: when later researchers got a value too far above the authoritative one, they looked for "what went wrong"; when they got a value close to it, they didn't look as carefully[^feynman1974cargo-e14]. If you only check in one direction, your results get pulled toward what you expected. Check "good" results and "bad" results equally hard.
 
-Back to the running example. If you see one model detecting 95% of vulnerabilities on the leaked samples, check these first `[Our analysis]`:
+Back to the running example. If you see one model detecting 95% of vulnerabilities on the leaked samples, check these first:
 
 | What to check | How |
 |---|---|
@@ -85,9 +85,9 @@ Resolving "I won't do that" is not enough: memory is fallible, people reason tow
 - **If you deviated from the plan, say what changed and why.** Honestly reporting changes and the reasons for them is still far more credible than having no plan at all[^nosek2018preregistration-e5]. Yet in the same review, of 14 deviations from the planned models, only 1 was disclosed[^ofosu2023preanalysis-e7].
 - **Be especially careful with subgroups you split out afterward.** The reporting guideline for medical clinical trials says subgroup comparisons made after looking at the data are particularly unlikely to be confirmed by later studies; and if one subgroup is significant and another isn't, that alone doesn't show the two groups differ[^hopewell2025consortee-e49].
 
-The point is not that prediction is superior to exploration after the fact; it is that people can tell which is which[^nosek2018preregistration-e4]. Exploratory findings are often exactly where the next project starts `[Our analysis]`.
+The point is not that prediction is superior to exploration after the fact; it is that people can tell which is which[^nosek2018preregistration-e4]. Exploratory findings are often exactly where the next project starts.
 
-**If you didn't write an analysis plan before you started** `[Our analysis]`: write one now, describing what you "would have done" before seeing the results, and do it as early as possible; in the paper, say honestly which analyses were decided after seeing results. Next time, write the analysis plan at the [From research questions to an evidence plan](01_question-to-evidence.md) stage.
+**If you didn't write an analysis plan before you started**: write one now, describing what you "would have done" before seeing the results, and do it as early as possible; in the paper, say honestly which analyses were decided after seeing results. Next time, write the analysis plan at the [From research questions to an evidence plan](01_question-to-evidence.md) stage.
 
 **Write it down:** Keep an analysis log, adding a row for every analysis you run.
 
@@ -109,18 +109,18 @@ Reporting standards and methods literature across fields agree on this:
 **Why isn't the p-value enough?**
 
 - **Significant doesn't mean important.** A machine learning methods guide warns that with enough samples, even a tiny difference becomes significant[^lones2021avoid-e8]. An example from software analytics: a "significant" correlation coefficient of just 0.01 has negligible practical meaning and is no different from no correlation[^menzies2019bad-e2]. So methodologists recommend fixing, before the study begins, how big a difference would actually matter: the smallest effect size of interest[^menzies2019bad-e3].
-- **Not significant doesn't mean no difference.** When a result isn't significant, don't rush to write "there is no difference between the two". First look at how wide the confidence interval is: if it is wide, all it says is that this data can't tell them apart `[Our analysis]`. And don't compute statistical power (the probability that the study would detect a real difference) after the fact from this result to explain away non-significance; that has no value and may mislead readers[^hopewell2025consortee-e18].
-- **Effects of the same size aren't necessarily equally important.** A paper on interpreting effect sizes for education interventions points out that effects of the same size rarely have the same importance[^kraft2019interpreting-e21]. Its example: when effects are similar, the cheaper intervention deserves more weight[^kraft2019interpreting-e13]. The same holds in computer science. Take two methods that each raise the detection rate by 5 percentage points: if one gets there by making ten times as many calls to the large language model's API (application programming interface) and the other adds almost no cost, they mean very different things `[Our analysis]`.
+- **Not significant doesn't mean no difference.** When a result isn't significant, don't rush to write "there is no difference between the two". First look at how wide the confidence interval is: if it is wide, all it says is that this data can't tell them apart. And don't compute statistical power (the probability that the study would detect a real difference) after the fact from this result to explain away non-significance; that has no value and may mislead readers[^hopewell2025consortee-e18].
+- **Effects of the same size aren't necessarily equally important.** A paper on interpreting effect sizes for education interventions points out that effects of the same size rarely have the same importance[^kraft2019interpreting-e21]. Its example: when effects are similar, the cheaper intervention deserves more weight[^kraft2019interpreting-e13]. The same holds in computer science. Take two methods that each raise the detection rate by 5 percentage points: if one gets there by making ten times as many calls to the large language model's API (application programming interface) and the other adds almost no cost, they mean very different things.
 
 **How:**
 
 - **Report the variation, not just the mean or the best run.** A checklist for empirical evaluation in programming languages warns that too few trials can make you mistake noise for signal[^blackburn2018sigplan-e7]. An example from Java performance evaluation: looking only at the best result suggests one garbage collector is clearly faster; looking at the confidence intervals, the two overlap and the difference is likely just random variation[^georges2007statistically-e2]. A satirical piece on tricks for padding software engineering papers lists "run it again and again and report only the run that wins" as one of them[^zeller2021devil-e1].
 - **Summarize honestly.** The same checklist says: don't summarize improvements of 4%, 6%, 7% and 49% as "up to 49%"; report the full distribution[^blackburn2018sigplan-e9]. Precision should also match the error: reporting "49.9%" when the error is plus or minus 1% overstates the precision[^blackburn2018sigplan-e30].
-- **If you run many tests, correct for it.** A machine learning methods guide gives the example that with 20 pairwise tests at a 95% confidence level, one is likely to give a wrong conclusion[^lones2021avoid-e7]. There are many correction methods, and when correction is needed is debated[^lones2021avoid-e12]. At a minimum, report how many comparisons you made in total `[Our analysis]`.
+- **If you run many tests, correct for it.** A machine learning methods guide gives the example that with 20 pairwise tests at a 95% confidence level, one is likely to give a wrong conclusion[^lones2021avoid-e7]. There are many correction methods, and when correction is needed is debated[^lones2021avoid-e12]. At a minimum, report how many comparisons you made in total.
 
-In the running example, a good statement of a result looks like this `[Our analysis]`: "On benchmark D, using the 'highly similar' definition, we found 38 leaked samples; model M's detection rate on leaked samples was 12 percentage points higher than on non-leaked samples (5 runs; 95% confidence interval for the difference: 5 to 19 percentage points); after matching on length and vulnerability type, the difference shrank to 8 percentage points (confidence interval 1 to 15)." Compare that with "the detection rate on leaked samples was significantly higher (p < 0.05)": the first version tells readers how big the difference is, how certain, and under what conditions.
+In the running example, a good statement of a result looks like this: "On benchmark D, using the 'highly similar' definition, we found 38 leaked samples; model M's detection rate on leaked samples was 12 percentage points higher than on non-leaked samples (5 runs; 95% confidence interval for the difference: 5 to 19 percentage points); after matching on length and vulnerability type, the difference shrank to 8 percentage points (confidence interval 1 to 15)." Compare that with "the detection rate on leaked samples was significantly higher (p < 0.05)": the first version tells readers how big the difference is, how certain, and under what conditions.
 
-For which test to use and how to compute confidence intervals, ask your advisor or consult statistical methods resources for your field; for statistical details when comparing tools and methods, see [Comparative evaluation: is the difference real?](../05_research-strategies/compare_evaluate.md#is-the-difference-real) `[Our analysis]`.
+For which test to use and how to compute confidence intervals, ask your advisor or consult statistical methods resources for your field; for statistical details when comparing tools and methods, see [Comparative evaluation: is the difference real?](../05_research-strategies/compare_evaluate.md#is-the-difference-real).
 
 **Write it down:** Rewrite your central result as a sentence like the one above: conditions, effect size, uncertainty, number of runs. If you can't state the uncertainty, go back and run more experiments or do the calculation.
 
@@ -130,7 +130,7 @@ For which test to use and how to compute confidence intervals, ask your advisor 
 
 When you run an experiment, report everything that might make the result invalid: other causes that could explain it, and which of those you have ruled out with other experiments, and how[^feynman1974cargo-e11]. An article in machine learning criticizing trends in scholarship also lists "considering and ruling out alternative hypotheses" as something good papers do[^lipton2019troubling-e1].
 
-Almost every study needs to get past these first `[Our analysis]`:
+Almost every study needs to get past these first:
 
 | Alternative explanation | Ask yourself | How to check it in the example |
 |---|---|---|
@@ -144,7 +144,7 @@ Almost every study needs to get past these first `[Our analysis]`:
 
 **Beyond "how well does it work", also ask "what made it work, and why"**[^lipton2019troubling-e7]. The same article says three practices are common in the strongest empirical papers: error analysis (going through the failures one by one to find which kinds of cases go wrong), ablation studies, and robustness checks (changing the data, setup or analysis method to see whether the conclusion still holds)[^lipton2019troubling-e8].
 
-When your claim is causal ("X causes Y"), ruling out alternative explanations has to be more systematic; see [Causal explanation](../05_research-strategies/explain_causality.md#actively-rule-out-alternative-explanations). When your claim is "the new method is better", ablation studies have to show where the improvement comes from; see [Building and improving](../05_research-strategies/build_improve.md) `[Our analysis]`. For a systematic discussion of threats to validity, see [Validity and limitations](04_validity-and-limits.md).
+When your claim is causal ("X causes Y"), ruling out alternative explanations has to be more systematic; see [Causal explanation](../05_research-strategies/explain_causality.md#actively-rule-out-alternative-explanations). When your claim is "the new method is better", ablation studies have to show where the improvement comes from; see [Building and improving](../05_research-strategies/build_improve.md). For a systematic discussion of threats to validity, see [Validity and limitations](04_validity-and-limits.md).
 
 **Write it down:** List at least three alternative explanations for your central result. For each, write one sentence: how to check it, whether you have, and what you found. Keep the ones you can't check for your limitations section.
 
@@ -161,9 +161,9 @@ Once you understand what happened, report negative results as they are. Deciding
 > - The European Code of Conduct for Research Integrity holds that negative results can be as important as positive ones for publication and dissemination[^allea2023european-e12].
 > - A computer science researcher, writing about research methods, says he is more opposed than most to publishing negative results, unless they come with insight into why the approach failed[^steinhardt2018stochastic-e11].
 >
-> In practice `[Our analysis]`: where the two views agree is that **you can't hide** negative results relevant to your claim in a paper. Whether to write a negative result up as a paper of its own depends on whether you can explain why it failed. If you can, it is a valuable claim in its own right, for example "on contracts from after the training cutoff, the advantage of existing methods disappears".
+> In practice: where the two views agree is that **you can't hide** negative results relevant to your claim in a paper. Whether to write a negative result up as a paper of its own depends on whether you can explain why it failed. If you can, it is a valuable claim in its own right, for example "on contracts from after the training cutoff, the advantage of existing methods disappears".
 
-**Unexpected results.** First go through Section 1 to rule out an error. If the result survives, take it seriously. The standards for process tracing in political science say to take the feeling of surprise seriously and work to explain surprising facts[^bennett2012process-e43]. An unexpected result may point to a more interesting question than the one you planned `[Our analysis]`. But because you found it after seeing the data, label it exploratory as in Section 2, and ideally confirm it once more on fresh data `[Our analysis]`.
+**Unexpected results.** First go through Section 1 to rule out an error. If the result survives, take it seriously. The standards for process tracing in political science say to take the feeling of surprise seriously and work to explain surprising facts[^bennett2012process-e43]. We take this to mean that an unexpected result may point to a more interesting question than the one you planned. But because you found it after seeing the data, label it exploratory as in Section 2, and ideally confirm it once more on fresh data.
 
 **Write it down:** List every result that didn't match your expectations. For each: have you checked whether it is an error? What might cause it? How do you plan to report it?
 
@@ -173,7 +173,7 @@ Once you understand what happened, report negative results as they are. Deciding
 
 The most common problem is overclaiming. A machine learning methods guide warns that working well on one dataset doesn't mean working well on others[^lones2021avoid-e10]. The software engineering empirical standards list overreaching conclusions or generalizations and downplaying a study's limitations as antipatterns, along with a subtler one: acknowledging limitations but writing the conclusions and implications as if they didn't exist[^ralph2020empirical-e66].
 
-You can use the table below to line up what you say with the evidence you have `[Our analysis]`:
+You can use the table below to line up what you say with the evidence you have:
 
 | Evidence you have | You can say | You can't say |
 |---|---|---|
@@ -184,7 +184,7 @@ You can use the table below to line up what you say with the evidence you have `
 
 How strongly to word a claim, and the evidence each wording needs, was covered in Section 1 of [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove); at this stage you go back and check it against real evidence.
 
-**Keep results and speculation apart.** The machine learning critique mentioned above points out that papers often dress speculation up as explanation, and readers take it as settled because it appears in a paper written by experts[^lipton2019troubling-e2]. The better the results, the easier it feels to add explanations with no evidence behind them[^lipton2019troubling-e15]. Good practice is to put speculation in a clearly labeled section of its own[^lipton2019troubling-e3], and in your writing to distinguish clearly between "the results show …" and "we speculate …" `[Our analysis]`.
+**Keep results and speculation apart.** The machine learning critique mentioned above points out that papers often dress speculation up as explanation, and readers take it as settled because it appears in a paper written by experts[^lipton2019troubling-e2]. The better the results, the easier it feels to add explanations with no evidence behind them[^lipton2019troubling-e15]. Good practice is to put speculation in a clearly labeled section of its own[^lipton2019troubling-e3]. We'd also suggest that in your writing you distinguish clearly between "the results show …" and "we speculate …".
 
 **Report the facts that cut against you, and the real limitations.** When you propose an explanation, also write down the facts that don't fit it[^feynman1974cargo-e4]. Leaving out limitations, or listing only trivial ones while omitting the ones that actually matter, leads readers to overly strong conclusions[^blackburn2018sigplan-e3]. Also watch for "every sentence true, the whole misleading": each sentence can be accurate while the overall impression is false[^feynman1974cargo-e6]. The goal is to give all the information others need to judge the value of your work, not just the information that leads them one way[^feynman1974cargo-e5].
 
@@ -194,7 +194,7 @@ How strongly to word a claim, and the evidence each wording needs, was covered i
 
 **When the evidence doesn't support your original claim, change the claim, not the evidence.**
 
-Common situations and how to revise `[Our analysis]`:
+Common situations and how to revise:
 
 | Situation | Revision |
 |---|---|
@@ -207,7 +207,7 @@ When you are distilling your findings and discover things are more complicated t
 
 **Where the line is:** Revising the claim, running more experiments and narrowing the scope are all normal research. But quietly deleting unfavorable data or results to save the original claim crosses the line: changing, omitting or suppressing data or results without justification is falsification[^allea2023european-e3]. For what counts as research misconduct and how to correct your own mistakes once you find them, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md).
 
-**Record every change to the claim**: the original claim, the new claim, and the evidence that prompted the change. You will use this record when writing the paper and when responding to reviews `[Our analysis]`. For how to keep such records, see [Organizing your materials](../08_throughout/organizing_materials.md).
+**Record every change to the claim**: the original claim, the new claim, and the evidence that prompted the change. You will use this record when writing the paper and when responding to reviews. For how to keep such records, see [Organizing your materials](../08_throughout/organizing_materials.md).
 
 **Write it down:** Take out your one-page project summary (see [Converging on a project](../01_find-a-problem/05_converge.md#6-write-a-one-page-project-summary-and-keep-revising-it)) and, checking it against the evidence you now have, rewrite the "central claim" field. It's fine if it stays the same, but you must be able to point to the evidence behind it.
 
@@ -215,7 +215,7 @@ When you are distilling your findings and discover things are more complicated t
 
 ## Judgment calls
 
-**Can you trust this result?** A rough guide `[Our analysis]`:
+**Can you trust this result?** A rough guide:
 
 | Situation | Usual approach |
 |---|---|
@@ -226,20 +226,20 @@ When you are distilling your findings and discover things are more complicated t
 | An alternative explanation you can't check | Put it in the limitations and narrow the conclusion accordingly |
 | The evidence refutes the central claim | First check for errors; once you're sure, revise the claim as in Section 7 |
 
-**When is the analysis done?** Not when you "can't think of any more analyses", but when: all planned analyses are done and their results recorded; every conclusion can point to its evidence; the main alternative explanations have been checked or written into the limitations; and the claim has been revised to fit the evidence `[Our analysis]`.
+**When is the analysis done?** Not when you "can't think of any more analyses", but when: all planned analyses are done and their results recorded; every conclusion can point to its evidence; the main alternative explanations have been checked or written into the limitations; and the claim has been revised to fit the evidence.
 
 ## Common mistakes
 
 | Mistake | Why it's a problem |
 |---|---|
 | Going straight to summary numbers without looking at the raw data | Many errors are silent, and the results still look usable[^karpathy2019recipe-e3] |
-| Checking only when results are bad, not when they are good | Looking for errors in only one direction pulls results toward what you expected `[Our analysis]` |
+| Checking only when results are bad, not when they are good | Looking for errors in only one direction pulls results toward what you expected |
 | Trying analysis after analysis and reporting only the significant one | In the psychology simulations, the false-positive rate rose from 5% to 61%[^nelson2018psychology-e7] |
 | Forming a hypothesis after seeing results and writing it up as if it came first | A recognized antipattern[^ralph2020empirical-e27] |
 | Unplanned analyses with no label | Readers can't tell predictions from explanations after the fact[^nosek2018preregistration-e4] |
 | Reporting only p-values | With large samples, trivial differences become significant[^lones2021avoid-e8] |
 | Reporting only the best run | The difference may be just random variation[^georges2007statistically-e2] |
-| Writing "not significant" as "no difference" | The data may simply not be enough to tell them apart `[Our analysis]` |
+| Writing "not significant" as "no difference" | The data may simply not be enough to tell them apart |
 | Reporting only the "interesting" results | Reporting bias badly overestimates effects[^menzies2019bad-e1] |
 | Concluding "this idea doesn't work" after one failure | It only shows that one implementation doesn't work[^steinhardt2018stochastic-e10] |
 | Presenting speculation as explanation | Readers will take it as settled[^lipton2019troubling-e2] |

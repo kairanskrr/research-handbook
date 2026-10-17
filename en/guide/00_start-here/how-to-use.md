@@ -32,7 +32,7 @@ If this is your first research project, spend ten minutes on two pages first: [T
 
 A few more notes for particular situations:
 
-- **When you are stuck in a chapter**, first read that chapter's "Where you are" section to confirm it describes your situation; then check whether you really met the "Checklist before moving on" of the chapter before. Often when you feel stuck, the real problem is one step back. For example, when an experiment won't come together, it is often because the sentence you set out to prove was never clear in the first place, and you need to go back to [Converging on a project](../01_find-a-problem/05_converge.md). `[Our analysis]`
+- **When you are stuck in a chapter**, first read that chapter's "Where you are" section to confirm it describes your situation; then check whether you really met the "Checklist before moving on" of the chapter before. Often when you feel stuck, the real problem is one step back. For example, when an experiment won't come together, it is often because the sentence you set out to prove was never clear in the first place, and you need to go back to [Converging on a project](../01_find-a-problem/05_converge.md).
 - **When you are not sure which method to use**, first read the matching [Research strategies](../05_research-strategies/README.md): every strategy page has a section on the research methods it commonly uses. If you are still not sure which strategy you are in, read the section [How to choose your main strategy](../05_research-strategies/README.md#how-to-pick-your-main-strategy).
 - **When you are coming from another field**, pay particular attention to how the new field's idea of "enough evidence" differs from your old one.
 
@@ -55,8 +55,6 @@ Part 2 is not a straight line but a loop around a few decision points: the pilot
 
 **Writing and publishing** is a part of its own: [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) · [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) · [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md). It comes last in the book, but you should start writing early: the one-sentence claim, the empty results table, the evidence plan, the filled-in results table, and the list of contributions grow one after another across the two parts, and together they become the skeleton of your paper; see [2.8 The paper skeleton you keep up to date](../02_do-the-project/08_decision-points.md#4-the-paper-skeleton-you-keep-up-to-date).
 
-`[Our analysis]`
-
 ### Reference: look it up when you need it
 
 The Reference sections are not read in order. The backbone links to them when you need them, and you can also look things up directly:
@@ -69,7 +67,7 @@ The Reference sections are not read in order. The backbone links to them when yo
 | [Throughout the project](../08_throughout/README.md) | Things that don't belong to one stage but come up all the time: planning and daily routines, organizing your materials, working with your advisor and collaborators, integrity and ethics, mindset and growth, being a reviewer | When these things come up |
 | [FAQ: quick answers](../faq.md) | Advice organized by "what has happened to you", with links to the detailed sections | You have a specific problem and want to go straight to a fix |
 
-**How the backbone and the Reference fit together:** the backbone tells you which decision to make now; the Reference gives you the details you need to make it. For example, in [Converging on a project](../01_find-a-problem/05_converge.md) you write down "Published evaluations of large language model vulnerability detectors are inflated by data leakage" and decide that it belongs to the Measurement strategy. At that point you read [Measurement](../05_research-strategies/measure.md) to see what evidence this kind of research needs; later, when you choose a method in Part 2, you look up how [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) is done in [Research types](../06_methods/README.md). You don't need to read the Reference before you start. `[Our analysis]`
+**How the backbone and the Reference fit together:** the backbone tells you which decision to make now; the Reference gives you the details you need to make it. For example, in [Converging on a project](../01_find-a-problem/05_converge.md) you write down "Published evaluations of large language model vulnerability detectors are inflated by data leakage" and decide that it belongs to the Measurement strategy. At that point you read [Measurement](../05_research-strategies/measure.md) to see what evidence this kind of research needs; later, when you choose a method in Part 2, you look up how [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) is done in [Research types](../06_methods/README.md). You don't need to read the Reference before you start.
 
 ## Every chapter has the same structure
 
@@ -86,19 +84,19 @@ Every chapter in the two parts and in Writing and publishing is laid out in this
 | When to go back | Which signs mean you should return to an earlier chapter, and which one |
 | Next | What to read next |
 
-**Do the "Write it down" exercises.** If you only read and never write, every chapter will feel clear, and you will still be stuck when your advisor asks, "So what exactly are you trying to show?" The exercises build up, step by step, into your project materials: a map of the field, a list of ideas, exploration notes, a one-page project summary, an evidence plan, a research plan... These are the very things you and your advisor will discuss. `[Our analysis]`
+**Do the "Write it down" exercises.** If you only read and never write, every chapter will feel clear, and you will still be stuck when your advisor asks, "So what exactly are you trying to show?" The exercises build up, step by step, into your project materials: a map of the field, a list of ideas, exploration notes, a one-page project summary, an evidence plan, a research plan... These are the very things you and your advisor will discuss.
 
 **Treat the checklist as a self-check, not an exam.** You don't need to get every item perfect. But if there is an item you clearly can't meet, don't move on yet: look at the "When to go back" table, which tells you where to go to fill the gap.
 
-**Going back and forth is normal.** Research is not a straight line you walk once. What you find later often sends you back to an earlier stage. The "When to go back" tables are for exactly those moments: going back is not a sign of failure; the table tells you where returning will cost you the least. `[Our analysis]`
+**Going back and forth is normal.** Research is not a straight line you walk once. What you find later often sends you back to an earlier stage. The "When to go back" tables are for exactly those moments: going back is not a sign of failure; the table tells you where returning will cost you the least.
 
 ## How to read the sources
 
-Statements in this handbook come in two kinds, marked differently.
+Statements in this handbook come in two kinds, and the footnotes tell them apart.
 
 **Statements backed by a source carry a footnote.** A specific piece of advice from an author, a finding from a study, a requirement from a standard: each has a footnote at the end of the sentence. For example: when you write up your contribution, use verbs that show results, not verbs like "studied" or "explored" that only describe activity[^shaw2003writing-e18]. Open the footnote to see which source it comes from and where in the original; click "Evidence" to see the sentence or two from the original, so you can check it without finding the full text. For the format of the evidence notes, see [About the evidence notes](../../sources/notes/README.md).
 
-**Advice we synthesized ourselves is tagged `[Our analysis]`.** For example, how-to tables, rules of thumb, and examples that this handbook has drawn together from several sources, where no single source says it in those words. This tag appears once per paragraph (or per subsection or table), not on every sentence; but if a paragraph also contains a fact, such as a number or a finding from a study, that sentence still gets its own footnote. Treat tagged content as reasonable advice, but know that it is not a source's own words; where it conflicts with your advisor's view, go with the specific situation of your own group.
+**Anything without a footnote is the handbook's own synthesis and advice.** For example, how-to tables, rules of thumb, and examples that this handbook has drawn together from several sources, where no single source says it in those words. We don't mark these separately: a sentence with a footnote comes from a source, a sentence without one is ours. In the few places where the two could be confused, such as an inference right after a quoted source, or a judgment about a source itself, the text says outright that it is our judgment. Treat this content as reasonable advice, but know that it is not a source's own words; where it conflicts with your advisor's view, go with the specific situation of your own group.
 
 Two more things you may come across:
 
@@ -107,11 +105,11 @@ Two more things you may come across:
 
 ## Examples come from computer science for now
 
-The handbook's structure is designed to work for every field: the two parts of exploration and verification, the eight research strategies, and the relationship between claims and evidence are, in our view, applicable in every discipline `[Our analysis]`. But for now the examples and concrete steps come from computer science, and the opening of each chapter and each strategy page says so.
+The handbook's structure is designed to work for every field: the two parts of exploration and verification, the eight research strategies, and the relationship between claims and evidence are, in our view, applicable in every discipline. But for now the examples and concrete steps come from computer science, and the opening of each chapter and each strategy page says so.
 
-The chapters in the two parts and most strategy pages keep coming back to one running example. The research area is "**large language models and smart contract security**", and the central claim is "**Published evaluations of large language model vulnerability detectors are inflated by data leakage**": an empirical measurement project. The examples in each chapter follow this project as it moves forward: what you write in one chapter gets used in the next. You will see how one research area leads to finding problems, exploring hands-on, writing the sentence you want to prove, listing the evidence, designing the study, and piloting it. These examples are there to illustrate the steps; they are not the full story of a real project. `[Our analysis]`
+The chapters in the two parts and most strategy pages keep coming back to one running example. The research area is "**large language models and smart contract security**", and the central claim is "**Published evaluations of large language model vulnerability detectors are inflated by data leakage**": an empirical measurement project. The examples in each chapter follow this project as it moves forward: what you write in one chapter gets used in the next. You will see how one research area leads to finding problems, exploring hands-on, writing the sentence you want to prove, listing the evidence, designing the study, and piloting it. These examples are there to illustrate the steps; they are not the full story of a real project.
 
-If you are not in computer science, most of the steps in the two parts still apply; you just need to swap in examples from your own field `[Our analysis]`. For specific methods and field conventions, go by what [Fields](../07_fields/README.md) says about your field. Examples and practices from other fields will be added over time.
+If you are not in computer science, most of the steps in the two parts still apply; you just need to swap in examples from your own field. For specific methods and field conventions, go by what [Fields](../07_fields/README.md) says about your field. Examples and practices from other fields will be added over time.
 
 **Write it down:** Replace "large language models and smart contract security" with your own research area, in one sentence. As you read the chapters, each time you meet an example, try to redo it with your own research area.
 

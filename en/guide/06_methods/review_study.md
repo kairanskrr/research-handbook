@@ -4,7 +4,7 @@ This page covers **research where the review itself is the result**: you collect
 
 If what you want is "how to read the literature and write related work before doing your own study", that is a step in every project; see [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md).
 
-**Scope** `[Our analysis]`: the standards and examples on this page come mainly from computer science, especially software engineering. The approach to systematic reviews follows the guidelines Kitchenham and Charters wrote for software engineering; the checklist follows the Empirical Standards of the Association for Computing Machinery's Special Interest Group on Software Engineering (ACM SIGSOFT); the requirements for survey papers follow the author guidelines of ACM Computing Surveys; and the reporting guideline PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) comes from medicine. If you are writing a review in another field, check your own field's standards first. For systematic reviews and meta-analyses in health (effect measures, heterogeneity, grading the certainty of evidence, and so on), see [Systematic reviews and meta-analysis (health research)](meta_analysis.md).
+**Scope**: the standards and examples on this page come mainly from computer science, especially software engineering. The approach to systematic reviews follows the guidelines Kitchenham and Charters wrote for software engineering; the checklist follows the Empirical Standards of the Association for Computing Machinery's Special Interest Group on Software Engineering (ACM SIGSOFT); the requirements for survey papers follow the author guidelines of ACM Computing Surveys; and the reporting guideline PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) comes from medicine. If you are writing a review in another field, check your own field's standards first. For systematic reviews and meta-analyses in health (effect measures, heterogeneity, grading the certainty of evidence, and so on), see [Systematic reviews and meta-analysis (health research)](meta_analysis.md).
 
 **Strategies it usually serves**: [Synthesis](../05_research-strategies/synthesize.md); when the answer may already be in the literature, also [Description](../05_research-strategies/observe_describe.md).
 
@@ -28,9 +28,9 @@ Three kinds of review are common in computer science. What separates them is not
 | Is each paper's quality assessed? | Usually not | Usually not | Yes |
 | Main output | A classification framework, a perspective on the field, an assessment of trends | Classification and counts, drawing a "map" of the research | Evidence-based conclusions and recommendations |
 
-Sources: the definition of a survey paper comes from ACM Computing Surveys[^csur-e1]; the difference between mapping studies and systematic reviews comes from Petersen et al.[^pe-e3][^pe-e4] "Selected for a purpose" refers to what Ralph and Baltes call an ad hoc review: the authors pick literature that is useful, relevant, or supports their own view[^rb-e1]; survey papers usually fall into this category. `[Our analysis]`
+Sources: the definition of a survey paper comes from ACM Computing Surveys[^csur-e1]; the difference between mapping studies and systematic reviews comes from Petersen et al.[^pe-e3][^pe-e4] "Selected for a purpose" refers to what Ralph and Baltes call an ad hoc review: the authors pick literature that is useful, relevant, or supports their own view[^rb-e1]; in our view, survey papers usually fall into this category.
 
-**How to choose** `[Our analysis, based on the sources below]`:
+**How to choose** (our synthesis of the sources below):
 
 - **You want to give a panoramic view of a field and a framework for understanding it**: write a survey paper. This is the most common form of review in computer science.
 - **The field is broad, or you don't yet know how much relevant research exists**: start with a mapping study. When there is little evidence or the topic is very broad, Kitchenham (Barbara Kitchenham, author of the guidelines for systematic reviews in software engineering) recommends a mapping study first, to find where research clusters and where the gaps are[^kc-e3].
@@ -52,7 +52,7 @@ Under the software engineering guidelines for systematic reviews, the core requi
 
 ### Phase 1: Planning
 
-**1. Confirm the review is worth doing.** Before you start, confirm that the review is really needed, for example by checking whether someone has already done a similar one[^kc-e5]. If they have, work out what yours adds, for example covering a newer time period or answering a different question. `[Our analysis]`
+**1. Confirm the review is worth doing.** Before you start, confirm that the review is really needed, for example by checking whether someone has already done a similar one[^kc-e5]. If they have, work out what yours adds, for example covering a newer time period or answering a different question.
 
 **2. Write down the research questions.** This is the most important step in planning[^kc-e6]: the search terms, selection criteria, and data to extract later all follow from the research questions.
 
@@ -68,7 +68,7 @@ Under the software engineering guidelines for systematic reviews, the core requi
 
 > **Why write the protocol first?** Without one, you are likely to pick papers and run analyses according to your own expectations without realizing it[^kc-e7]. Writing the protocol first means committing yourself in advance.
 
-**4. Pilot and review the protocol.** Try the selection criteria on a small batch of papers first[^kc-e8]. The protocol is a critical element of a systematic review[^kc-e9], so it is best to have your advisor or a colleague look it over. `[Our analysis]`
+**4. Pilot and review the protocol.** Try the selection criteria on a small batch of papers first[^kc-e8]. The protocol is a critical element of a systematic review[^kc-e9], so it is best to have your advisor or a colleague look it over.
 
 ### Phase 2: Conducting the review
 
@@ -159,10 +159,10 @@ A survey paper does not need to find everything the way a systematic review does
 
 **Be clear about its limits.** In a survey paper, the authors choose the papers, so there is sampling bias, the review cannot be reproduced, and it is easy to pick only the evidence that supports your own view[^rb-e2]. So:
 
-- Ralph and Baltes consider this kind of review suitable for developing theory, finding promising research topics, and preparing for qualifying exams[^rb-e2]; giving a panoramic view of a field and proposing a framework for understanding it fall under the same kind of use `[Our analysis]`;
+- Ralph and Baltes consider this kind of review suitable for developing theory, finding promising research topics, and preparing for qualifying exams[^rb-e2]; in our view, giving a panoramic view of a field and proposing a framework for understanding it fall under the same kind of use;
 - it is **not suitable** for supporting empirical conclusions such as "X is better than Y". For those you need a systematic review[^rb-e2].
 
-**Practical advice** `[Our analysis]`:
+**Practical advice**:
 
 - **Explain how you found the papers.** Even without a systematic search, say where you looked, what criteria you used to choose, and what years you cover. This goes a long way toward dispelling the suspicion that you "only picked the papers you liked", and adds almost no work. It borrows the reproducibility requirement of systematic reviews[^kc-e1][^sig-e4].
 - **Organize the body around the classification framework, not paper by paper.** Listing papers one by one is an antipattern for systematic reviews[^sig-e16], and the same holds for survey papers.

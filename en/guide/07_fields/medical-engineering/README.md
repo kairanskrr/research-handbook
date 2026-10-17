@@ -15,7 +15,7 @@ This page explains how research in medical engineering (also called biomedical e
 
 ### From idea to patient: a long chain
 
-To reach patients, a device or algorithm usually goes through roughly these steps `[Our analysis]`:
+To reach patients, a device or algorithm usually goes through roughly these steps:
 
 1. **Concept and feasibility prototype**: build a rough prototype to see whether the idea works.
 2. **Bench testing**: measure performance on the bench. As the US Food and Drug Administration (FDA) uses the term, "bench testing" is broad and includes in vitro testing, cadaver testing, and other nonclinical testing[^fda2023cmscredibility-e11].
@@ -23,11 +23,11 @@ To reach patients, a device or algorithm usually goes through roughly these step
 4. **Animal studies.**
 5. **First-in-human studies and clinical studies.**
 
-You don't necessarily go through these steps in order, and you often loop back `[Our analysis]`. The FDA's 1997 Design Control Guidance (since withdrawn; see the design controls section below) said as much: in real development, every phase feeds back to earlier phases, and product development is iterative[^fda1997designcontrol-e6]. One paper may cover only part of the chain `[Our analysis]`. Take one journal, IEEE Transactions on Biomedical Engineering (TBME; IEEE is the Institute of Electrical and Electronics Engineers): it publishes everything from methods and technology development to experimental and clinical studies with an engineering contribution[^embstbmeprepare-e1].
+You don't necessarily go through these steps in order, and you often loop back. The FDA's 1997 Design Control Guidance (since withdrawn; see the design controls section below) said as much: in real development, every phase feeds back to earlier phases, and product development is iterative[^fda1997designcontrol-e6]. One paper may cover only part of the chain. Take one journal, IEEE Transactions on Biomedical Engineering (TBME; IEEE is the Institute of Electrical and Electronics Engineers): it publishes everything from methods and technology development to experimental and clinical studies with an engineering contribution[^embstbmeprepare-e1].
 
 ### Engineers and clinicians work together
 
-Device research may need engineers and clinicians to collaborate: clinicians know what is missing in practice, and engineers know how to build it `[Our analysis]`. A common problem in these collaborations is talking past each other `[Our analysis]`. The withdrawn 1997 guidance offered one piece of advice: when everyone developing and reviewing the requirements is familiar with medical terminology, requirements can be written in medical terms; but translating concepts into engineering language during the requirements stage often does more to reduce misunderstandings[^fda1997designcontrol-e4]. It also warned that even a simple statement can raise a large number of design questions, so a concept document can be the starting point for development but is not the same as design requirements[^fda1997designcontrol-e3].
+Device research may need engineers and clinicians to collaborate: clinicians know what is missing in practice, and engineers know how to build it. A common problem in these collaborations is talking past each other. The withdrawn 1997 guidance offered one piece of advice: when everyone developing and reviewing the requirements is familiar with medical terminology, requirements can be written in medical terms; but translating concepts into engineering language during the requirements stage often does more to reduce misunderstandings[^fda1997designcontrol-e4]. It also warned that even a simple statement can raise a large number of design questions, so a concept document can be the starting point for development but is not the same as design requirements[^fda1997designcontrol-e3].
 
 The Code of Ethics of the Biomedical Engineering Society (BMES) also requires you to have collaborators or consultants check your work when it goes beyond your own expertise[^bmes2021ethics-e4].
 
@@ -35,20 +35,20 @@ The Code of Ethics of the Biomedical Engineering Society (BMES) also requires yo
 
 The 1997 guidance acknowledged that the line between research and development is hard to draw. Before writing formal design requirements, it is reasonable to build a quick prototype to explore whether an idea is feasible; but don't treat the prototype design as the finished design[^fda1997designcontrol-e1]. The reason: at this stage the prototype lacks the safety features and ancillary features a finished product needs, and it cannot adequately account for the variation that comes with volume manufacturing[^fda1997designcontrol-e2].
 
-What this means for you as a researcher: a prototype that performs well in a paper is not necessarily close to clinical use; when you write papers or talk about your work, say clearly what stage it is at `[Our analysis]`. The BMES code requires strict honesty when speaking to the media and the public, including how certain your conclusions are, and avoiding false hope of treatment[^bmes2021ethics-e11].
+What this means for you as a researcher: a prototype that performs well in a paper is not necessarily close to clinical use; when you write papers or talk about your work, say clearly what stage it is at. The BMES code requires strict honesty when speaking to the media and the public, including how certain your conclusions are, and avoiding false hope of treatment[^bmes2021ethics-e11].
 
 ### Publishing: engineering journals and medical journals have different habits
 
-Papers in this field go to both engineering journals and medical journals `[Our analysis]`. The two sides have different rules, so check your target journal's requirements before you submit.
+Papers in this field go to both engineering journals and medical journals. The two sides have different rules, so check your target journal's requirements before you submit.
 
-**Engineering journals, using TBME as an example.** The rules below are from TBME's manuscript preparation page (read from a January 2025 web archive; it may have been updated since). They are the requirements of one journal, TBME; for other engineering journals, follow their own instructions for authors `[Our analysis]`:
+**Engineering journals, using TBME as an example.** The rules below are from TBME's manuscript preparation page (read from a January 2025 web archive; it may have been updated since). They are the requirements of one journal, TBME; for other engineering journals, follow their own instructions for authors:
 
 - The abstract must be structured, no more than 250 words, and cover five points: objective, methods, results, conclusion, and significance. If any is missing, the manuscript may be returned without review[^embstbmeprepare-e2].
-- The cover letter must disclose related published conference papers and explain why they are different work from this submission[^embstbmeprepare-e3]. Work that has appeared only as a conference abstract can be written up and submitted as a full paper; but if a substantial full-length conference paper has already been published, the manuscript may no longer be eligible[^embstbmeprepare-e4]. IEEE's publication rules accept that "a conference version can evolve into a journal version"[^ieee2026pspb-e4]; TBME's rule is stricter, so check the specific journal first `[Our analysis]` (for IEEE's general rule, see the [electrical engineering page](../electrical-engineering/README.md#publishing-with-ieee-as-the-example-a-conference-paper-can-grow-into-a-journal-paper)).
+- The cover letter must disclose related published conference papers and explain why they are different work from this submission[^embstbmeprepare-e3]. Work that has appeared only as a conference abstract can be written up and submitted as a full paper; but if a substantial full-length conference paper has already been published, the manuscript may no longer be eligible[^embstbmeprepare-e4]. IEEE's publication rules accept that "a conference version can evolve into a journal version"[^ieee2026pspb-e4]; TBME's rule is stricter, so check the specific journal first (for IEEE's general rule, see the [electrical engineering page](../electrical-engineering/README.md#publishing-with-ieee-as-the-example-a-conference-paper-can-grow-into-a-journal-paper)).
 - Each article gets at least two independent reviewers, with single-blind review (reviewers know who the authors are; authors don't know who the reviewers are)[^embstbmeprepare-e6]; the page at the time gave the time from submission to decision as about 30 days[^embstbmeprepare-e5].
 - If duplicate submission is discovered, the IEEE Engineering in Medicine and Biology Society (EMBS, TBME's sponsoring society) will sanction the authors[^embstbmeprepare-e7].
 
-**Medical journals.** Before submitting, check whether your target journal follows the recommendations of the International Committee of Medical Journal Editors (ICMJE). For ICMJE's rules on authorship, conflicts of interest, data sharing statements, and reporting guidelines, see the [clinical medicine page](../clinical-medicine/README.md#norms-and-reporting-standards-in-this-field). The rule most relevant to this field: ICMJE's definition of "health-related interventions" explicitly includes devices[^icmje2026recommendations-e17], and ICMJE recommends that medical journals require registration of clinical trials in a public trials registry at or before the time of first patient consent for enrollment, as a condition of consideration for publication[^icmje2026recommendations-e15]. So clinical trials of devices must also be registered in advance `[Our analysis]`.
+**Medical journals.** Before submitting, check whether your target journal follows the recommendations of the International Committee of Medical Journal Editors (ICMJE). For ICMJE's rules on authorship, conflicts of interest, data sharing statements, and reporting guidelines, see the [clinical medicine page](../clinical-medicine/README.md#norms-and-reporting-standards-in-this-field). The rule most relevant to this field: ICMJE's definition of "health-related interventions" explicitly includes devices[^icmje2026recommendations-e17], and ICMJE recommends that medical journals require registration of clinical trials in a public trials registry at or before the time of first patient consent for enrollment, as a condition of consideration for publication[^icmje2026recommendations-e15]. So clinical trials of devices must also be registered in advance.
 
 **Authorship.** IEEE's authorship criteria explicitly list "prototype development" as one of the intellectual contributions that can qualify someone as an author[^ieee2026pspb-e6]. When submitting to medical journals that follow ICMJE, use ICMJE's four criteria; see the [clinical medicine page](../clinical-medicine/README.md#authorship-the-icmjes-four-criteria).
 
@@ -56,7 +56,7 @@ Papers in this field go to both engineering journals and medical journals `[Our 
 
 ## How this field differs from others
 
-The table is our own summary, meant to help you spot the differences quickly `[Our analysis]`.
+The table is our own summary, meant to help you spot the differences quickly.
 
 | | Medical engineering | Computer science | Clinical medicine |
 |---|---|---|---|
@@ -71,7 +71,7 @@ The table is our own summary, meant to help you spot the differences quickly `[O
 
 ### When research may become a medical device: design controls (US rules)
 
-**Everything in this section is about US rules.** Medical device regulations in China, the EU, and elsewhere are different, and your institution may have its own requirements; follow local regulations and institutional rules `[Our analysis]`. The BMES code also makes understanding local regulations the researcher's own responsibility[^bmes2021ethics-e2].
+**Everything in this section is about US rules.** Medical device regulations in China, the EU, and elsewhere are different, and your institution may have its own requirements; follow local regulations and institutional rules. The BMES code also makes understanding local regulations the researcher's own responsibility[^bmes2021ethics-e2].
 
 **First, be clear: the old regulation and old guidance cited below are no longer in effect.**
 
@@ -79,9 +79,9 @@ The table is our own summary, meant to help you spot the differences quickly `[O
 - The current rule: manufacturers of Class II, Class III, and some Class I devices must follow clause 7.3 of the international standard ISO 13485 for design and development[^cfr2026qmsr-e2]. ISO 13485:2016 is the international standard for medical device quality management systems, issued by the International Organization for Standardization (ISO), and the new regulation incorporates it by reference[^aabb2026qmsr-e1]; it has to be obtained from ISO[^cfr2026qmsr-e3].
 - The FDA's 1997 Design Control Guidance, which explained the old section, has also been withdrawn[^fda2026withdrawn-e2].
 
-This page still cites the old regulation and old guidance only because they are free to read and explain the thinking behind design controls clearly. **They are not current requirements**; for actual practice, follow the current regulation and ISO 13485 `[Our analysis]`.
+This page still cites the old regulation and old guidance only because they are free to read and explain the thinking behind design controls clearly. **They are not current requirements**; for actual practice, follow the current regulation and ISO 13485.
 
-**What the old section said (only to understand the approach).** The old §820.30 (April 1, 2023 edition) required manufacturers of Class III, Class II, and some Class I devices to control the device design process[^cfr2023designcontrols-e1]. Its stages can serve as a checklist of "which records to keep" during research `[Our analysis]`:
+**What the old section said (only to understand the approach).** The old §820.30 (April 1, 2023 edition) required manufacturers of Class III, Class II, and some Class I devices to control the device design process[^cfr2023designcontrols-e1]. Its stages can serve as a checklist of "which records to keep" during research:
 
 - **Design input**: write down the design requirements, covering the intended use and the needs of users and patients[^cfr2023designcontrols-e2].
 - **Design review**: each review must include representatives of all relevant functions, plus someone who does not have direct responsibility for the stage being reviewed[^cfr2023designcontrols-e3].
@@ -90,29 +90,29 @@ This page still cites the old regulation and old guidance only because they are 
 - **Design changes**: document, review, and approve changes before making them[^cfr2023designcontrols-e6].
 - **Design history file**: collect these records in one place to show the design was developed according to the approved plan[^cfr2023designcontrols-e7].
 
-**What this means for graduate students.** The current US regulation applies to device "manufacturers"[^cfr2026qmsr-e4]. On whether research must comply, the FDA wrote when it issued the old regulation in 1996 that design controls are not intended to apply to concept development and feasibility studies; but once a decision is made to develop a design, a plan must be set up to ensure the design that goes into production meets the approved requirements[^fda1996qsr-e1]. That statement was about the old regulation; when the FDA issued the new regulation in 2024, it said the new and old regulations are substantially similar[^fda2024qmsr-e3]. Also, when a device is used in clinical studies in people, the US Investigational Device Exemption (IDE; see the next section) exempts it from a set of premarket requirements, but the current text states that design and development requirements (§820.10(c), where applicable) are not among those exempted[^cfr2026ide-e7]. Exactly when a university lab project has to start complying is for your advisor and your institution's regulatory affairs or technology transfer office to say. Even if you are not bound by the rules, two things are worth doing from day one `[Our analysis]`:
+**What this means for graduate students.** The current US regulation applies to device "manufacturers"[^cfr2026qmsr-e4]. On whether research must comply, the FDA wrote when it issued the old regulation in 1996 that design controls are not intended to apply to concept development and feasibility studies; but once a decision is made to develop a design, a plan must be set up to ensure the design that goes into production meets the approved requirements[^fda1996qsr-e1]. That statement was about the old regulation; when the FDA issued the new regulation in 2024, it said the new and old regulations are substantially similar[^fda2024qmsr-e3]. Also, when a device is used in clinical studies in people, the US Investigational Device Exemption (IDE; see the next section) exempts it from a set of premarket requirements, but the current text states that design and development requirements (§820.10(c), where applicable) are not among those exempted[^cfr2026ide-e7]. Exactly when a university lab project has to start complying is for your advisor and your institution's regulatory affairs or technology transfer office to say. Even if you are not bound by the rules, two things are worth doing from day one:
 
 1. **Write down your requirements**: who the users are, what clinical problem you are solving, and what targets you need to hit. The old guidance warns that discovering key requirements only at validation can mean costly redesign and rework[^fda1997designcontrol-e5]; if you expect to run clinical trials, your plan should also allow for the regulatory work they involve[^fda1997designcontrol-e8].
 2. **Keep records of the process**: the BMES code requires careful, complete, and accurate records throughout research and design[^bmes2021ethics-e3]. For how to keep them, see [Organizing your research materials](../../08_throughout/organizing_materials.md) in Throughout the project.
 
 ### Before testing in people: investigational devices (US 21 CFR 812)
 
-**This is also US regulation, and it is current; for device clinical studies in China or other countries, follow local regulations `[Our analysis]`.** Title 21 of the US Code of Federal Regulations, Part 812 (21 CFR 812), sets out procedures for clinical investigations of devices[^cfr2026ide-e1]: it applies to all clinical investigations of devices to determine safety and effectiveness, except for several categories it lists[^cfr2026ide-e2]. Key concepts:
+**This is also US regulation, and it is current; for device clinical studies in China or other countries, follow local regulations.** Title 21 of the US Code of Federal Regulations, Part 812 (21 CFR 812), sets out procedures for clinical investigations of devices[^cfr2026ide-e1]: it applies to all clinical investigations of devices to determine safety and effectiveness, except for several categories it lists[^cfr2026ide-e2]. Key concepts:
 
 - **Significant risk device**: the regulation lists several categories; broadly, an investigational device that presents a potential for serious risk to the health, safety, or welfare of a subject[^cfr2026ide-e3]. For studies of devices that are not significant risk, one requirement is to give the Institutional Review Board (IRB, the US name for an ethics committee) a brief explanation of why the device is not a significant risk device, and obtain its approval[^cfr2026ide-e4].
-- **Sponsor-investigator**: someone who both initiates and actually conducts an investigation, and so carries the obligations of both an investigator and a sponsor[^cfr2026ide-e5]. A university researcher who initiates their own device study may be in exactly this position `[Our analysis]`.
+- **Sponsor-investigator**: someone who both initiates and actually conducts an investigation, and so carries the obligations of both an investigator and a sponsor[^cfr2026ide-e5]. A university researcher who initiates their own device study may be in exactly this position.
 - **Devices intended solely for research on laboratory animals** and labeled as required are exempt from Part 812, apart from a few provisions[^cfr2026ide-e6]; the ethics requirements for the animal experiments themselves are separate, as described below.
 
 ### What makes a computational model "credible" (US FDA 2023 guidance)
 
 This field uses computational models a lot: for example, to assess the durability of an implantable stent on a computer[^fda2023cmscredibility-e3], or to run an in silico clinical trial with a set of simulated patients (a "virtual cohort")[^fda2023cmscredibility-e4]. A 2023 FDA guidance explains how to show that such a model is credible when submitting a device application to the FDA. Two things to know first: it is not binding on the FDA or the public[^fda2023cmscredibility-e1]; and it covers only physics-based or mechanistic models, not data-driven models such as machine learning[^fda2023cmscredibility-e2].
 
-Several of the guidance's concepts are useful in research too `[Our analysis]`:
+Several of the guidance's concepts are useful in research too:
 
-- **Credibility is always for a specific use.** Credibility is trust in a model's predictive capability for a particular "context of use"[^fda2023cmscredibility-e5]; the context of use states exactly what role and scope the model has in answering the question[^fda2023cmscredibility-e6]. Use the same model for something else and you have to make the case again `[Our analysis]`.
+- **Credibility is always for a specific use.** Credibility is trust in a model's predictive capability for a particular "context of use"[^fda2023cmscredibility-e5]; the context of use states exactly what role and scope the model has in answering the question[^fda2023cmscredibility-e6]. Use the same model for something else and you have to make the case again.
 - **The higher the risk, the more evidence you need.** How credible the model needs to be depends on the risk of using it to answer the question; that risk depends on two things: how much influence the model has on the decision, and how serious the consequences of a wrong decision would be[^fda2023cmscredibility-e7]. If bench or animal test results are also used to answer the same question, the model's influence changes[^fda2023cmscredibility-e8].
 - **Verification and validation are different things.** Verification checks whether the software that solves the mathematical model is implemented correctly[^fda2023cmscredibility-e9]; validation checks how accurately the model represents the real world[^fda2023cmscredibility-e13].
-- **Calibration is not validation.** Comparing the model against the same data you used to tune its parameters does not count as validation evidence; it is weaker than validation evidence[^fda2023cmscredibility-e10]. Hold out independent data for testing `[Our analysis]`.
+- **Calibration is not validation.** Comparing the model against the same data you used to tune its parameters does not count as validation evidence; it is weaker than validation evidence[^fda2023cmscredibility-e10]. Hold out independent data for testing.
 
 ### When you use machine learning: find the right reporting guideline
 
@@ -121,25 +121,25 @@ The FDA guidance above does not cover machine learning models[^fda2023cmscredibi
 Two points differ from the habits of computer science, so watch for them:
 
 - **Terminology.** In machine learning research, "validation data" can mean the data used for tuning, or the data used to evaluate model performance[^collins2024tripodai-e6]. The TRIPOD+AI authors hold that there is no such thing as a "validated prediction model," and they use "evaluation" instead of "validation"[^collins2024tripodai-e4].
-- **Keep data separate.** Evaluation data must be kept separate from the data used for training, tuning, and model selection, with no participant appearing in both[^collins2024tripodai-e5]. Putting several images from the same patient in both the training set and the test set breaks this rule `[Our analysis]`.
+- **Keep data separate.** Evaluation data must be kept separate from the data used for training, tuning, and model selection, with no participant appearing in both[^collins2024tripodai-e5]. Putting several images from the same patient in both the training set and the test set breaks this rule.
 
 ### People and animals: ethics review (see other pages for details)
 
-For research involving people, see the [clinical medicine page](../clinical-medicine/README.md#your-subjects-are-people-so-ethics-comes-first) and [When research involves people, protect them first](../../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first); for animal research, see the [biological sciences page](../biological-sciences/README.md#animal-research-the-3rs-and-the-arrive-guidelines) and [Preclinical animal studies](../../06_methods/preclinical_animal_study.md). One point relevant to this field: the UK's National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) lists mathematical and computer models among the methods for "full replacement" of animals[^nc3rsthe3rs-e4]; this is one more reason good computational models are valuable `[Our analysis]`. In your paper, describe ethics approval as your target journal requires: for example, the TBME page cites the Declaration of Helsinki as revised in 2000[^embstbmeprepare-e9], while ICMJE requires conformity with the 2024 revision[^icmje2026recommendations-e11].
+For research involving people, see the [clinical medicine page](../clinical-medicine/README.md#your-subjects-are-people-so-ethics-comes-first) and [When research involves people, protect them first](../../08_throughout/integrity_and_ethics.md#4-when-research-involves-people-or-could-harm-others-protect-people-first); for animal research, see the [biological sciences page](../biological-sciences/README.md#animal-research-the-3rs-and-the-arrive-guidelines) and [Preclinical animal studies](../../06_methods/preclinical_animal_study.md). One point relevant to this field: the UK's National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) lists mathematical and computer models among the methods for "full replacement" of animals[^nc3rsthe3rs-e4]; this is one more reason good computational models are valuable. In your paper, describe ethics approval as your target journal requires: for example, the TBME page cites the Declaration of Helsinki as revised in 2000[^embstbmeprepare-e9], while ICMJE requires conformity with the 2024 revision[^icmje2026recommendations-e11].
 
 ### Professional ethics: the BMES code
 
 The BMES code is not law; it sets out the professional ethics biomedical engineers should follow beyond regulatory requirements[^bmes2021ethics-e1]. Besides the points already mentioned above, these are the most relevant to research:
 
-- **Design for as broad a population as possible**: consider different ages, sexes, body sizes, abilities, and physiological characteristics[^bmes2021ethics-e8]. Performance measured only on healthy young volunteers may not carry over to patients `[Our analysis]`.
+- **Design for as broad a population as possible**: consider different ages, sexes, body sizes, abilities, and physiological characteristics[^bmes2021ethics-e8]. Performance measured only on healthy young volunteers may not carry over to patients.
 - **Share data and methods**: after a project ends, make them as public as possible within the privacy limits on human data[^bmes2021ethics-e5].
-- **Declare conflicts of interest**: both financial ones and those arising from your scholarly views[^bmes2021ethics-e10]. Results in this field may involve patents or startups `[Our analysis]`; the interests TBME requires you to disclose include an author's financial interests in companies that may license, patent, or use the work[^embstbmeprepare-e8].
+- **Declare conflicts of interest**: both financial ones and those arising from your scholarly views[^bmes2021ethics-e10]. Results in this field may involve patents or startups; the interests TBME requires you to disclose include an author's financial interests in companies that may license, patent, or use the work[^embstbmeprepare-e8].
 
 ---
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge, determined by its central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table lists only the strategies this page's sources support. The grouping and the "What it looks like in medical engineering" column are our own synthesis; the standards come mostly from US regulations and guidance and from individual journals, and each speaks only for the source in its footnote. Our sources do not cover how description, synthesis, and other strategies are used in this field `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge, determined by its central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table lists only the strategies this page's sources support. The grouping and the "What it looks like in medical engineering" column are our own synthesis; the standards come mostly from US regulations and guidance and from individual journals, and each speaks only for the source in its footnote. Our sources do not cover how description, synthesis, and other strategies are used in this field.
 
 | Strategy | What it looks like in medical engineering | Common evidence and standards | How to do it |
 |---|---|---|---|
@@ -148,7 +148,7 @@ A **research strategy** is the main logic by which a project produces new knowle
 | [Building and improving](../../05_research-strategies/build_improve.md): diagnostic or predictive algorithms | Developing or evaluating clinical prediction models, whether with regression or machine learning[^collins2024tripodai-e2] | Report using TRIPOD+AI[^collins2024tripodai-e2]; no participant may appear in both the evaluation data and the training data[^collins2024tripodai-e5]; the BMES code requires validation for the actual intended use, with limitations and data sources stated clearly[^bmes2021ethics-e9] | [Data science research](../../06_methods/data_science.md) |
 | [Causal explanation](../../05_research-strategies/explain_causality.md): clinical studies of devices | Testing whether a device is safe and effective in patients. In the US, clinical investigations to determine a device's safety and effectiveness fall under 21 CFR 812[^cfr2026ide-e2] | Randomized trials that are appropriately designed, conducted, analyzed, and reported are generally considered the highest-quality evidence for evaluating healthcare interventions[^hopewell2025consort-e2]; ICMJE's interventions include devices[^icmje2026recommendations-e17], and it recommends that journals require registration at or before the time of first patient consent for enrollment as a condition of consideration for publication[^icmje2026recommendations-e15] | [Randomized controlled trials](../../06_methods/randomized_controlled_trial.md), [Preclinical animal studies](../../06_methods/preclinical_animal_study.md) |
 
-How to use this table `[Our analysis]`:
+How to use this table:
 
 - **One project often spans several rows.** For example, you build a prototype and bench test it, supplement it with a computational model, and finally move to animal and human studies. Choose the main strategy by the paper's central claim, and state clearly how far along the "prototype → bench → animal → human" chain the project has got.
 - **The same strategy may need different amounts of evidence for an engineering journal and a medical journal.** Check against your target journal's requirements before submitting; see [Publishing: engineering journals and medical journals have different habits](#publishing-engineering-journals-and-medical-journals-have-different-habits) above.
@@ -157,15 +157,15 @@ How to use this table `[Our analysis]`:
 
 This field does not have its own field-specific methods page. Among the cross-field research types, the ones commonly used are [Quantitative simulation](../../06_methods/simulation_study.md), [Data science research](../../06_methods/data_science.md), [Controlled experiments](../../06_methods/controlled_experiment.md), [Randomized controlled trials](../../06_methods/randomized_controlled_trial.md), and [Preclinical animal studies](../../06_methods/preclinical_animal_study.md); for new devices and algorithms, you can also draw on [Engineering research](../computer-science/practices/engineering_research.md) on the computer science page. Below are only the extra points to watch:
 
-- **Bench testing** (no separate page): make test conditions as close to actual use as possible, and describe the setup clearly `[Our analysis]`.
-- **Controlled experiments**: comparing how different designs affect users (clinicians, nurses, patients), for example in usability testing `[Our analysis]`. If you use an investigational device, Part 812 may also apply in the US[^cfr2026ide-e2].
+- **Bench testing** (no separate page): make test conditions as close to actual use as possible, and describe the setup clearly.
+- **Controlled experiments**: comparing how different designs affect users (clinicians, nurses, patients), for example in usability testing. If you use an investigational device, Part 812 may also apply in the US[^cfr2026ide-e2].
 
 ---
 
 ## Advice for newcomers
 
 1. **Write the requirements before you build the prototype.** Work with your clinical collaborators to put "what clinical problem we are solving and what targets we need to hit" into engineering language[^fda1997designcontrol-e4].
-2. **Keep good records from day one.** Record design decisions, test results, and the reasons for changes[^bmes2021ethics-e3]; if the project is ever translated into a product, you will need these records `[Our analysis]`.
+2. **Keep good records from day one.** Record design decisions, test results, and the reasons for changes[^bmes2021ethics-e3]; if the project is ever translated into a product, you will need these records.
 3. **If people or animals are involved, ask about ethics review first.** For device research, also find out the local rules on investigational devices; in the US, look at Part 812[^cfr2026ide-e2].
 4. **When you talk about your work, say what stage it is at.** Don't let a bench prototype sound like a product that is about to cure patients[^bmes2021ethics-e11].
 

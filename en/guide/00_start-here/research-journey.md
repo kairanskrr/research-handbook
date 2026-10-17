@@ -38,11 +38,9 @@ Part 1 is **exploration**: you read the literature, collect ideas, try things ou
 | Part 2: Do the project | What evidence do you need? Which methods will get it? Where could your conclusions be wrong? Do you have the evidence? What does it show? | An evidence plan, an evidence-to-method table, a research plan, a threat-handling table, a smallest version that runs end to end, traceable results, a claim updated in light of the evidence |
 | Writing and publishing | How do you explain it clearly? Where do you submit? How do you respond to reviewers? | A paper, submission materials, responses and a revised manuscript |
 
-`[Our analysis]`
-
 ## 2. Each chapter: what it produces, and what you need before moving on
 
-In each table below, "What it produces" is taken from the chapter's "What you should have at the end" section, and "Before moving on, at minimum" is the one or two most important items from its "Checklist before moving on". The chapters themselves have the full lists `[Our analysis]`.
+In each table below, "What it produces" is taken from the chapter's "What you should have at the end" section, and "Before moving on, at minimum" is the one or two most important items from its "Checklist before moving on". The chapters themselves have the full lists.
 
 ### Part 1: Find a good problem
 
@@ -69,8 +67,6 @@ The key step in Part 1 is converging: turning "I'm interested in X" into "I want
 | [2.7 Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) | Data-checking records, an analysis checklist, a table matching conclusions to evidence, an updated one-page summary | Every conclusion points to its evidence, and the strength of each statement matches the evidence; every unplanned analysis is labeled exploratory |
 | [2.8 Decision points: continue, adjust, or go back](../02_do-the-project/08_decision-points.md) | A decision log, and the paper skeleton updated after each decision | Every time you continue, you had criteria written down in advance; every time you go back, you can write down why the claim doesn't hold |
 
-`[Our analysis]`
-
 ### Writing and publishing
 
 | Chapter | What it produces | Before moving on, at minimum |
@@ -79,13 +75,11 @@ The key step in Part 1 is converging: turning "I'm interested in X" into "I want
 | [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) | A comparison table of candidate venues, a to-do list of submission requirements, a table of key dates after submission | You have checked formatting, anonymization, the preprint policy, and every required statement against the target venue's rules; all authors have agreed on authorship |
 | [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md) | A table of reviewer comments, an author response or response letter and a revised manuscript; after a rejection, a diagnosis and the next venue | Every comment has been categorized and decided on; for every issue that shakes the claim, you have either added evidence or changed the claim |
 
-`[Our analysis]`
-
 Writing and publishing comes last, but you should start writing during Part 1; see the next section.
 
 ## 3. A chain of outputs
 
-What each chapter produces is the input to the next. Using this chain to check where you are is more accurate than counting how many months you have spent `[Our analysis]`:
+What each chapter produces is the input to the next. Using this chain to check where you are is more accurate than counting how many months you have spent:
 
 ```
 Part 1: map of the field → list of ideas → exploration notes → one sentence and a one-page summary
@@ -94,7 +88,7 @@ Part 2: → evidence plan → method design and milestones → list of threats �
 
 Here "method design and milestones" means the evidence-to-method table from 2.2 and the research plan from 2.3; "list of threats" means the list of reasons your conclusions could be wrong and the threat-handling table from 2.4; "smallest version" means the smallest version that runs end to end and the revised design from 2.5; "results and analysis" means traceable run records and the table matching conclusions to evidence; "paper skeleton" means the one-sentence claim, the results table, the evidence plan, and the list of contributions; see [2.8 The paper skeleton you keep up to date](../02_do-the-project/08_decision-points.md#4-the-paper-skeleton-you-keep-up-to-date).
 
-You don't throw each output away once the next one is done. The one-page summary, the evidence plan, and the research plan keep being updated; once results come in, you will often go back and revise them `[Our analysis]`.
+You don't throw each output away once the next one is done. The one-page summary, the evidence plan, and the research plan keep being updated; once results come in, you will often go back and revise them.
 
 **Use the chain backwards, too.** Think about the final paper from the very start of the project: put a paper outline in your first design document and use it to settle the research goals and the logical order of your experiments[^zhang2014ten-e8]. Drawing the empty results table while converging and writing a paper outline while planning both follow this idea; for details, see [Writing a research plan](../02_do-the-project/03_research-plan.md#2-break-the-claim-into-milestones-each-milestone-is-a-piece-of-evidence).
 
@@ -127,9 +121,9 @@ What matters is knowing **where to go back to**. This table collects the most co
 | Reviews, revision, and what to do after rejection | Reviewers accept the problem but think the evidence doesn't support the conclusion | [Validity and limitations](../02_do-the-project/04_validity-and-limits.md), or [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) |
 | Reviews, revision, and what to do after rejection | Reviewers agree it has been done before, or the contribution is too small | [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it), Section 3 |
 
-The table shows that the place you are most often sent back to is [Converging on a project](../01_find-a-problem/05_converge.md): when the claim isn't thought through, the problems tend to surface only later `[Our analysis]`. The writing row is especially common: laying out the whole paper ahead of time almost always reveals a few key experiments you still have to run[^karpathy2016survival-e9], which is why you should start writing early.
+The table shows that the place you are most often sent back to is [Converging on a project](../01_find-a-problem/05_converge.md): when the claim isn't thought through, the problems tend to surface only later. The writing row is especially common: laying out the whole paper ahead of time almost always reveals a few key experiments you still have to run[^karpathy2016survival-e9], which is why you should start writing early.
 
-**Before you go back, write one sentence on why you are going back and what you need to answer there, and update your one-page summary and paper skeleton.** That way going back has a purpose instead of meaning starting over `[Our analysis]`.
+**Before you go back, write one sentence on why you are going back and what you need to answer there, and update your one-page summary and paper skeleton.** That way going back has a purpose instead of meaning starting over.
 
 **Don't jump around aimlessly either.** Be decisive about dropping directions that don't look promising; but if you keep switching and never explore any of them properly, you learn nothing[^nanda2025mindsets-e1]. For when to persist and when to switch, see [Running and iterating](../02_do-the-project/06_run-and-iterate.md#6-persist-or-change-direction).
 
@@ -137,7 +131,7 @@ The table shows that the place you are most often sent back to is [Converging on
 
 ## 5. Do the part most likely to fail first
 
-Whatever chapter you are in, when you order your work, put first the parts that are most likely to fail and that give you an answer quickly: if they fail, you waste less, and you learn more, sooner[^steinhardt2018stochastic-e3]. This principle shows up three times across the two parts `[Our analysis]`:
+Whatever chapter you are in, when you order your work, put first the parts that are most likely to fail and that give you an answer quickly: if they fail, you waste less, and you learn more, sooner[^steinhardt2018stochastic-e3]. This principle shows up three times across the two parts:
 
 - When converging, test the part you are least sure of with the cheapest small experiment you can; see [Converging on a project](../01_find-a-problem/05_converge.md#5-can-you-actually-do-it);
 - When planning, put first the milestone without which the whole project falls apart; see [Writing a research plan](../02_do-the-project/03_research-plan.md#4-set-the-order-do-what-is-most-likely-to-fail-first);
@@ -149,9 +143,9 @@ For what each part of the Reference (research types, Fields, research strategies
 
 **Research strategies matter from reading the literature all the way to writing the paper**, not only when you choose a method; see [Why keep the strategy in mind from start to finish](../05_research-strategies/README.md#why-to-keep-your-strategy-in-mind-from-start-to-finish).
 
-**Field conventions change the rhythm, not the two-part backbone.** For example, computer science may be the only discipline that uses conferences as its main publication venue[^vardi2009conferences-e1], so computer science projects are often planned backwards from a conference deadline; the steps of exploration and verification are the same, only the form and timing of the finish line differ `[Our analysis]`. See [Computer science: field overview](../07_fields/computer-science/README.md#the-life-of-a-conference-paper).
+**Field conventions change the rhythm, not the two-part backbone.** For example, computer science may be the only discipline that uses conferences as its main publication venue[^vardi2009conferences-e1], so computer science projects are often planned backwards from a conference deadline; the steps of exploration and verification are the same, only the form and timing of the finish line differ. See [Computer science: field overview](../07_fields/computer-science/README.md#the-life-of-a-conference-paper).
 
-The pages in [Throughout the project](../08_throughout/README.md) don't belong to any one chapter, but two things are best started on day one `[Our analysis]`:
+The pages in [Throughout the project](../08_throughout/README.md) don't belong to any one chapter, but two things are best started on day one:
 
 - **Stay aligned with your advisor.** Show your advisor what each chapter produces (list of ideas, summary, plan, design, results, drafts); see [Collaboration and advisors](../08_throughout/collaboration_and_advisors.md).
 - **Make every result traceable to its source.** The minimum bar is that you yourself can roughly reproduce it a year later[^sandve2013ten-e2]; if you wait until you are writing the paper or responding to reviewers, it is often too late to reconstruct. See [Organizing your research materials](../08_throughout/organizing_materials.md).
@@ -160,13 +154,13 @@ Integrity and ethics questions (such as whether you need ethics review, or how t
 
 ## 7. Roughly how long it takes
 
-**Our sources give no general figure for how long a project takes from start to publication.** It depends on the research strategy, how the field publishes, and how many times you had to go back along the way `[Our analysis]`. Rather than memorizing a number, learn to estimate: plan backwards from the submission deadline, measure how far off your own estimates tend to be, and leave slack for going back; for how, see [Writing a research plan](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack). For how to organize each day and week, see [Planning and daily routines](../08_throughout/planning_and_routines.md).
+**Our sources give no general figure for how long a project takes from start to publication.** It depends on the research strategy, how the field publishes, and how many times you had to go back along the way. Rather than memorizing a number, learn to estimate: plan backwards from the submission deadline, measure how far off your own estimates tend to be, and leave slack for going back; for how, see [Writing a research plan](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack). For how to organize each day and week, see [Planning and daily routines](../08_throughout/planning_and_routines.md).
 
 After you submit, some of the time is out of your hands: you wait for reviews, and after a rejection you revise and resubmit elsewhere. This varies a lot by field and venue; for the process, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md#6-what-happens-after-you-submit).
 
 ## 8. Where are you now?
 
-To find a starting point by situation, use the table in [How to use this handbook](how-to-use.md#where-you-are-which-page-to-read-first). Or find your position in the table below based on what you **already have** `[Our analysis]`:
+To find a starting point by situation, use the table in [How to use this handbook](how-to-use.md#where-you-are-which-page-to-read-first). Or find your position in the table below based on what you **already have**:
 
 | What you have | Read first |
 |---|---|
@@ -187,7 +181,7 @@ To find a starting point by situation, use the table in [How to use this handboo
 | The paper is written and you don't know where to submit | [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) |
 | You have received reviews or a rejection letter | [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md) |
 
-If you are in a later chapter but find that an earlier output is missing (for example, you are running experiments but can't write a one-page summary), go back and fill it in first. The missing piece is often exactly why you are stuck now `[Our analysis]`.
+If you are in a later chapter but find that an earlier output is missing (for example, you are running experiments but can't write a one-page summary), go back and fill it in first. The missing piece is often exactly why you are stuck now.
 
 If you run into a specific difficulty, such as experiments that keep failing, a rejection, or trouble communicating with your advisor, you can also check [FAQ: quick answers](../faq.md) first.
 

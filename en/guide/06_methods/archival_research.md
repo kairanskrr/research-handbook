@@ -1,12 +1,12 @@
 # Archival research
 
-This page covers **archival research**: going to an archive to read unpublished original records (letters, diaries, minutes, institutional files and the like), or their digitized versions, and using them to answer a question about the past. In 2012 Ithaka S+R interviewed 39 US historians and graduate students; its report concluded that working with primary sources is still at the core of historical research methods[^rutner2012supporting-e19]. Researchers in literature, law, political science, and sociology also go to archives `[Our analysis]`. Fields disagree about what counts as a primary source[^saaacrl2018primary-e2], but the steps of finding records and scrutinizing them are the same.
+This page covers **archival research**: going to an archive to read unpublished original records (letters, diaries, minutes, institutional files and the like), or their digitized versions, and using them to answer a question about the past. In 2012 Ithaka S+R interviewed 39 US historians and graduate students; its report concluded that working with primary sources is still at the core of historical research methods[^rutner2012supporting-e19]. Researchers in literature, law, political science, and sociology also go to archives. Fields disagree about what counts as a primary source[^saaacrl2018primary-e2], but the steps of finding records and scrutinizing them are the same.
 
-The difference between primary and secondary sources, the basic rules of an archive, and the background of that 2012 study of 39 interviewees are covered in the [History and archaeology field overview](../07_fields/history-archaeology/README.md#working-in-an-archive), so they are not repeated here. This page draws on three kinds of sources. First, two public documents from the US archival profession: the Society of American Archivists (SAA) guide to using archives (the "SAA archives guide" below), and the *Guidelines for Primary Source Literacy* it produced with the Association of College and Research Libraries (ACRL) (the "literacy guidelines" below). Second, web pages of the UK National Archives and the US National Archives and Records Administration, which speak only for those two institutions. Third, a few sources already used in the history and archaeology field overview. So this page reflects **British and American practice**; in other countries, follow the rules of local archives and local law `[Our analysis]`. Note that "SAA" in the history and archaeology field overview means the Society for American Archaeology, a different organization.
+The difference between primary and secondary sources, the basic rules of an archive, and the background of that 2012 study of 39 interviewees are covered in the [History and archaeology field overview](../07_fields/history-archaeology/README.md#working-in-an-archive), so they are not repeated here. This page draws on three kinds of sources. First, two public documents from the US archival profession: the Society of American Archivists (SAA) guide to using archives (the "SAA archives guide" below), and the *Guidelines for Primary Source Literacy* it produced with the Association of College and Research Libraries (ACRL) (the "literacy guidelines" below). Second, web pages of the UK National Archives and the US National Archives and Records Administration, which speak only for those two institutions. Third, a few sources already used in the history and archaeology field overview. So this page reflects **British and American practice**; in other countries, follow the rules of local archives and local law. Note that "SAA" in the history and archaeology field overview means the Society for American Archaeology, a different organization.
 
-**Scope** `[Our analysis]`: this page was first written for the history and archaeology field pages. Its sources are mainly documents from British and American archival institutions and the archival profession, plus guidelines and methods articles from the US history profession (two software engineering papers appear only for comparison). Besides [History and archaeology](../07_fields/history-archaeology/README.md), the field overviews for [Arts](../07_fields/arts/README.md), [Languages and literature](../07_fields/languages-literature/README.md), and [Sociology](../07_fields/sociology/README.md) also link here. Each field has its own habits about what counts as a primary source and how to cite archives; check your field's conventions before you rely on this page.
+**Scope**: this page was first written for the history and archaeology field pages. Its sources are mainly documents from British and American archival institutions and the archival profession, plus guidelines and methods articles from the US history profession (two software engineering papers appear only for comparison). Besides [History and archaeology](../07_fields/history-archaeology/README.md), the field overviews for [Arts](../07_fields/arts/README.md), [Languages and literature](../07_fields/languages-literature/README.md), and [Sociology](../07_fields/sociology/README.md) also link here. Each field has its own habits about what counts as a primary source and how to cite archives; check your field's conventions before you rely on this page.
 
-**Strategies it usually serves**: [Interpretation and argument](../05_research-strategies/interpret_argue.md) (building an argument about the past from fragmentary records) `[Our analysis]`. The basis is the literacy guidelines' expectation that you examine and synthesize multiple sources to build, support, or refute an argument[^saaacrl2018primary-e16]; see Step 9 below.
+**Strategies it usually serves**: [Interpretation and argument](../05_research-strategies/interpret_argue.md) (building an argument about the past from fragmentary records). The basis is the literacy guidelines' expectation that you examine and synthesize multiple sources to build, support, or refute an argument[^saaacrl2018primary-e16]; see Step 9 below.
 
 **After reading this page, you should be able to:**
 
@@ -22,9 +22,9 @@ The difference between primary and secondary sources, the basic rules of an arch
 
 **Archives are not libraries.** Archival material is often unique[^schmidt2016using-e1]. The UK National Archives' introductory page explains that libraries arrange books by subject and author, while archives are arranged by **the person or organization that created them**, so you will probably need to look at records from several creators and several archives[^tnastarthere-e1]. Finding archival material therefore starts not with subject keywords but with the question "who would have left a record?"
 
-**When to use it:** your question can only be answered from unpublished records left by people at the time, such as how decisions were made inside an institution or what someone thought in private. If published material is enough, or you are studying something happening now, archival research may not be the first choice `[Our analysis]`.
+**When to use it:** your question can only be answered from unpublished records left by people at the time, such as how decisions were made inside an institution or what someone thought in private. If published material is enough, or you are studying something happening now, archival research may not be the first choice.
 
-**How it differs from related methods** `[Our analysis, based on the sources below]`:
+**How it differs from related methods** (our own comparison, based on the sources below):
 
 | | Archival research | Case study (see [Case study and ethnography](case_study.md) under research methods) | Oral history (see the [History and archaeology field overview](../07_fields/history-archaeology/README.md#oral-history-the-narrators-consent-and-control)) |
 |---|---|---|---|
@@ -32,7 +32,7 @@ The difference between primary and secondary sources, the basic rules of an arch
 | Can you create new data? | No, you can only use what survives | Yes, through interviews and observation | Yes, the interview itself is new data |
 | Main difficulty | Records are fragmentary and have gaps[^aha2023standards-e14] | Getting access to the field site | Narrators' consent and the subjectivity of memory |
 
-In software engineering, Wohlin argues that studies analyzing only existing repository data should be called "archival analysis" rather than case studies[^wohlin2021case-e3]. Archival research as this page means it pays more attention to **who left the records and why they survived** `[Our analysis]`.
+In software engineering, Wohlin argues that studies analyzing only existing repository data should be called "archival analysis" rather than case studies[^wohlin2021case-e3]. Archival research as this page means it pays more attention to **who left the records and why they survived**.
 
 ---
 
@@ -54,9 +54,9 @@ In software engineering, Wohlin argues that studies analyzing only existing repo
 
 **How:**
 - **Follow other people's footnotes.** Check the bibliographies of works on your topic to see where their information came from[^schmidt2016using-e3], and ask experts in the field which archives they have used[^schmidt2016using-e4]. The 2012 US study of 39 interviewees also found that following citation trails is an important way to discover sources[^rutner2012supporting-e18].
-- **Use the national archives' catalog.** The UK National Archives' catalog, Discovery, also searches records held by other archives[^tnastarthere-e7]. For union catalogs in other countries, ask your university librarian `[Our analysis]`.
+- **Use the national archives' catalog.** The UK National Archives' catalog, Discovery, also searches records held by other archives[^tnastarthere-e7]. For union catalogs in other countries, ask your university librarian.
 - **Use common sense.** Archives tend to collect material connected to their own institutional affiliation[^cronon2009learning-e31].
-- **Read the finding aid** (a document describing what a collection contains, like a book's table of contents[^schmidt2016using-e5]). Sometimes it also explains how the collection was formed, how the archive acquired it, and how the material is arranged[^schmidt2016using-e6]. Look closely at the **bulk dates**, the years most of the material comes from[^schmidt2016using-e33]: a collection labeled "1921–2005" does not have material for every year `[Our analysis]`. Also read the **access and use** section, which states restrictions, copyright, and the preferred citation[^schmidt2016using-e34].
+- **Read the finding aid** (a document describing what a collection contains, like a book's table of contents[^schmidt2016using-e5]). Sometimes it also explains how the collection was formed, how the archive acquired it, and how the material is arranged[^schmidt2016using-e6]. Look closely at the **bulk dates**, the years most of the material comes from[^schmidt2016using-e33]: a collection labeled "1921–2005" does not have material for every year. Also read the **access and use** section, which states restrictions, copyright, and the preferred citation[^schmidt2016using-e34].
 - **Contact the archival staff.** Go through the catalog, finding aids, and website first, then call or email to confirm[^schmidt2016using-e10]. In your email, describe your project, list the finding aids you have read and the materials you want to see, and ask whether there is other relevant material[^schmidt2016using-e9]. For archives that do not list their collections online, contacting the staff is the only way to learn what they hold[^schmidt2016using-e11]. The person who processed the collection is one of the best helpers you can find[^cronon2009learning-e33].
 
 **Why:** archival catalogs are not like Google, and a simple keyword search may not work[^tnastarthere-e2]. Finding aids and staff can show you what the catalog cannot.
@@ -72,7 +72,7 @@ In software engineering, Wohlin argues that studies analyzing only existing repo
 - **Time and money.** Both will limit the scope of your project[^cronon2009learning-e40]. Leave room for surprises and plan for a second visit to check and fill gaps[^schmidt2016using-e19]; ask whether the archive offers research grants[^schmidt2016using-e18].
 - **Try remote options first.** Ask whether you can pay for scans[^schmidt2016using-e12] or hire a research assistant to look for you[^schmidt2016using-e13]; staff will often answer simple questions directly[^schmidt2016using-e14]. Interviewees in the 2012 study said that when they could not travel to an archive, they relied on archivists through many phone calls and emails[^rutner2012supporting-e12].
 
-**Why:** if you arrive without the right paperwork, or the material cannot be retrieved, the trip is wasted `[Our analysis]`.
+**Why:** if you arrive without the right paperwork, or the material cannot be retrieved, the trip is wasted.
 
 **Where people go wrong:** packing the schedule so tightly that there is no time to follow new leads. The SAA archives guide recommends leaving time for the unexpected[^schmidt2016using-e19].
 
@@ -106,18 +106,18 @@ The history and archaeology field overview already lists the basic questions: wh
 
 **Why:** the professional standards of the American Historical Association (AHA) say historical work must discuss what sources tell us **and also what they leave in the dark**[^aha2023standards-e24].
 
-**Where people go wrong:** treating "not recorded in the archive" as "did not happen" `[Our analysis]`, and judging people of the past by today's standards (presentism; see the [common mistakes in the History and archaeology field overview](../07_fields/history-archaeology/README.md#common-mistakes)).
+**Where people go wrong:** treating "not recorded in the archive" as "did not happen", and judging people of the past by today's standards (presentism; see the [common mistakes in the History and archaeology field overview](../07_fields/history-archaeology/README.md#common-mistakes)).
 
 ### Step 6: Organize and cite
 
 **How:**
 - **Record citations in the format the repository recommends.** The sample finding aid in the SAA archives guide gives the citation format "item, folder, box, collection name, repository"[^schmidt2016using-e34]. The literacy guidelines also say to follow the repository's citation conventions where possible[^saaacrl2018primary-e17].
 - **Choose a citation style.** The notes-bibliography system of *The Chicago Manual of Style* can handle unusual sources that do not fit the author-date system[^chicago2024citation-e3]; ask your advisor which system to use[^chicago2024citation-e5].
-- **Mark any change you make to the original text**, in digital and print versions alike[^aha2023standards-e22]. Digitized records are easy to copy, which makes accurate citation all the more important[^aha2023standards-e23]. Also state whether you cite the original, a microfilm, or an online digital version `[Our analysis]`.
+- **Mark any change you make to the original text**, in digital and print versions alike[^aha2023standards-e22]. Digitized records are easy to copy, which makes accurate citation all the more important[^aha2023standards-e23]. Also state whether you cite the original, a microfilm, or an online digital version.
 - **Do not cite secondhand as if you saw the source yourself.** The AHA considers it improper to borrow a primary-source citation from someone else's book without acknowledging that book[^aha2023standards-e11].
 - **Organize your photos and notes.** The literacy guidelines list transcriptions, photographs, and downloads as research material you need a way to manage[^saaacrl2018primary-e7]. For concrete practice, see [Organizing research materials](../08_throughout/organizing_materials.md#5-keep-three-kinds-of-notes-apart) under Throughout the project.
 
-**Why:** the AHA standards expect you to be ready to make your sources and evidence available[^aha2023standards-e15]; with incomplete citations you cannot do that `[Our analysis]`.
+**Why:** the AHA standards expect you to be ready to make your sources and evidence available[^aha2023standards-e15]; with incomplete citations you cannot do that.
 
 ### Step 7: Use digitized archives well, and know their limits
 
@@ -134,26 +134,26 @@ The history and archaeology field overview already lists the basic questions: wh
 **How:**
 - **Honor the conditions you agreed to.** The AHA accepts restrictions based on national security, proprietary rights, and privacy as legitimate, and opposes unnecessary restrictions[^aha2023standards-e21]. Historians sometimes legitimately agree to conditions on the use of certain sources[^aha2023standards-e26], and they must keep the commitments they make[^aha2023standards-e8]; they also do nothing that would prevent later researchers from accessing the sources[^aha2023standards-e10].
 - **Consider the effect on the people involved.** The literacy guidelines ask you to respect privacy and cultural context when using sources and to comply with copyright and privacy law[^saaacrl2018primary-e18], and to consider how your research may affect the creators, donors, and owners of the sources[^saaacrl2018primary-e19]. Even when a source is in the public domain (no longer protected by copyright), privacy still has to be weighed[^saaacrl2018primary-e26].
-- **Owning the original is not owning the copyright.** An archive that owns the physical document does not necessarily own its copyright[^schmidt2016using-e23]. According to the SAA archives guide, in the US it is the researcher's responsibility to find the copyright holder before publishing or quoting such material[^schmidt2016using-e24]; unpublished material copied for you may need separate permission before you publish it[^schmidt2016using-e35]. Copyright law differs between countries[^saaacrl2018primary-e24]; for the rules in your country, ask your university's copyright office or library `[Our analysis]`.
+- **Owning the original is not owning the copyright.** An archive that owns the physical document does not necessarily own its copyright[^schmidt2016using-e23]. According to the SAA archives guide, in the US it is the researcher's responsibility to find the copyright holder before publishing or quoting such material[^schmidt2016using-e24]; unpublished material copied for you may need separate permission before you publish it[^schmidt2016using-e35]. Copyright law differs between countries[^saaacrl2018primary-e24]; for the rules in your country, ask your university's copyright office or library.
 
 ### Step 9: Build an argument from fragments
 
 **How:**
 - **Synthesize multiple sources.** The literacy guidelines call for examining and synthesizing multiple sources to build, support, or refute an argument[^saaacrl2018primary-e16]. How strong the evidence is, how it was gathered, and how it is used to support a claim all affect how credible the conclusion is[^saaacrl2018primary-e25].
-- **Corroborate** `[Our analysis]`: for any key statement, try to check it against records left by different people and different organizations. For one meeting, for example, read both the organizer's minutes and the participants' letters.
+- **Corroborate**: for any key statement, try to check it against records left by different people and different organizations. For one meeting, for example, read both the organizer's minutes and the participants' letters.
 - **String it together in time**: careful attention to dates can reveal unexpected connections[^cronon2009learning-e43].
 - **Do not cherry-pick.** Do not misrepresent sources, and do not leave out evidence that runs against your interpretation[^aha2023standards-e25].
-- **State the limitations.** The records of the past are fragmentary, and absolute historical knowledge is impossible[^aha2023standards-e14]. Put what you looked for and did not find, the silences in the archive, and how they limit your conclusions in the text or the notes `[Our analysis]`.
+- **State the limitations.** The records of the past are fragmentary, and absolute historical knowledge is impossible[^aha2023standards-e14]. Put what you looked for and did not find, the silences in the archive, and how they limit your conclusions in the text or the notes.
 
 **Why:** putting your evidence in conversation with your research question may be the most important part of the research process[^cronon2009learning-e45].
 
-**Where people go wrong:** the evidence you actually find is often not as good as you imagined[^cronon2009learning-e42]. When that happens, narrowing your conclusion is safer than propping up a big argument `[Our analysis]`.
+**Where people go wrong:** the evidence you actually find is often not as good as you imagined[^cronon2009learning-e42]. When that happens, narrowing your conclusion is safer than propping up a big argument.
 
 ---
 
 ## 3. Checklist
 
-Our sources contain no reporting standard specific to archival research. The list below draws on the AHA standards, the SAA archives guide, and the literacy guidelines; the grouping into tiers is our own `[Our analysis]`.
+Our sources contain no reporting standard specific to archival research. The list below draws on the AHA standards, the SAA archives guide, and the literacy guidelines; the grouping into tiers is our own.
 
 **Must do**
 - [ ] Every archival source you cite has a full citation (repository, collection name, box number, folder number or identifier) that lets someone else find the original[^schmidt2016using-e30][^schmidt2016using-e34][^schmidt2016using-e31]
@@ -170,7 +170,7 @@ Our sources contain no reporting standard specific to archival research. The lis
 - [ ] You considered how your research affects the people in the sources[^saaacrl2018primary-e19]
 
 **Fine to skip; not a flaw**
-- Not visiting in person, and using the archive's scans or having someone look for you instead: the SAA archives guide lists these as remote options you can ask an archive about[^schmidt2016using-e12][^schmidt2016using-e13]. But say in your notes which version you looked at `[Our analysis]`.
+- Not visiting in person, and using the archive's scans or having someone look for you instead: the SAA archives guide lists these as remote options you can ask an archive about[^schmidt2016using-e12][^schmidt2016using-e13]. But say in your notes which version you looked at.
 
 ---
 

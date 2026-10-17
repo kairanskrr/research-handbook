@@ -10,7 +10,7 @@
 
 This page isn't about the tasks of any one stage. It covers habits that run through the whole of research: how to train your judgment, how to deal with failure, how to build up knowledge and skill, and how to keep a pace you can sustain.
 
-Most of the sources cited here are written with PhD students in mind (for example, "the hardest stretch is two or three years in", "a PhD is more like getting a driver's license"). Undergraduate and master's projects are much shorter, so scale accordingly: what matters is not the exact number of years but the point that failure is common and growth takes time. `[Our analysis]`
+Most of the sources cited here are written with PhD students in mind (for example, "the hardest stretch is two or three years in", "a PhD is more like getting a driver's license"). Undergraduate and master's projects are much shorter, so scale accordingly: what matters is not the exact number of years but the point that failure is common and growth takes time.
 
 ---
 
@@ -29,7 +29,7 @@ Most of the sources cited here are written with PhD students in mind (for exampl
 
 **Why:** Several experienced researchers rank the ability to pick the right problem above raw technical skill[^schulman2020opinionated-e3][^carlini2026best-e3]. Without it, you may write papers that are technically correct but that nobody reads, because you never asked whether the question was worth answering[^carlini2026best-e4].
 
-The good news is that taste isn't mysterious: talent plays a part, but taste is mostly learned[^nanda2025taste-e1], and it is completely normal to feel you have none when you start out[^nanda2025taste-e3]. The hard part is how little feedback you get: finding out whether an idea is good often takes months, so you get only a few pieces of feedback a year[^olah2021taste-e2]. The shorter your feedback loop, the more data you get[^nanda2025taste-e4]. Each exercise above gets you extra feedback without waiting for a project to finish: every guess at your advisor's answer, every comparison with someone else's results, counts as one. `[Our analysis]`
+The good news is that taste isn't mysterious: talent plays a part, but taste is mostly learned[^nanda2025taste-e1], and it is completely normal to feel you have none when you start out[^nanda2025taste-e3]. The hard part is how little feedback you get: finding out whether an idea is good often takes months, so you get only a few pieces of feedback a year[^olah2021taste-e2]. The shorter your feedback loop, the more data you get[^nanda2025taste-e4]. Each exercise above gets you extra feedback without waiting for a project to finish: every guess at your advisor's answer, every comparison with someone else's results, counts as one.
 
 **Where people go wrong:**
 
@@ -41,7 +41,7 @@ The good news is that taste isn't mysterious: talent plays a part, but taste is 
 > - **Don't defer to your advisor too much:** one researcher, looking back, said most of his mistakes came when he listened to his mentors' criticism, while his coolest work was the work everyone initially called useless or uninteresting[^olah2021taste-e15].
 > - **Leaning on your advisor as a beginner is normal:** the view above suffers from survivorship bias, and people have different levels of maturity at different stages[^olah2021taste-e16]. Relying heavily on an advisor or an established research direction early in your career is normal[^nanda2025taste-e9]. There is no shame in working on ideas someone else proposed; the skill lies in which ones you pick and how well you execute them[^schulman2020opinionated-e4].
 >
-> In practice: when you are starting out, you can accept the direction your advisor gives you and practice your judgment within it. At the same time, write down where you disagree with your advisor and why, then check against the results later. That is exercises 2 and 3 in action. `[Our analysis]`
+> In practice: when you are starting out, you can accept the direction your advisor gives you and practice your judgment within it. At the same time, write down where you disagree with your advisor and why, then check against the results later. That is exercises 2 and 3 in action.
 
 **Write it down:** Start a "prediction log". Before your next experiment, write one line with your prediction and the reason, for example "adding vulnerability-pattern hints to the large language model's prompt will clearly raise the detection rate for reentrancy vulnerabilities, because …". When the results are in, add to the same line what actually happened and what you learned.
 
@@ -49,7 +49,7 @@ The good news is that taste isn't mysterious: talent plays a part, but taste is 
 
 **How:**
 
-- **Reset your expectations first.** Once you reach the point of actually pushing the boundary of knowledge, there are no ready-made steps to follow, and failure is routine `[Our analysis]`. One experienced researcher observes that two or three years into a PhD is exactly when the most people drop out[^might2010successful-e2]; to get through this period, you have to be willing to fail from the moment you wake up to the moment you go to sleep[^might2010successful-e3]. Another puts it more bluntly: if you don't fail regularly, you aren't trying hard enough things[^sutherland1996courage-e2].
+- **Reset your expectations first.** Once you reach the point of actually pushing the boundary of knowledge, there are no ready-made steps to follow, and failure is routine. One experienced researcher observes that two or three years into a PhD is exactly when the most people drop out[^might2010successful-e2]; to get through this period, you have to be willing to fail from the moment you wake up to the moment you go to sleep[^might2010successful-e3]. Another puts it more bluntly: if you don't fail regularly, you aren't trying hard enough things[^sutherland1996courage-e2].
 - **After a rejection, look after your feelings first.** Let yourself be upset, talk to friends, labmates, or your advisor, take a day off, and then come back[^huang2021rejection-e6]. Remember that the rejection is about the idea, the implementation, the experiments, and the writing, not about you as a person[^huang2021rejection-e2]. Once you have calmed down, turn the reviews into a revision list; see [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md).
 - **Keep a "CV of failures"**: record your rejections and the things you didn't get, so that setbacks start to feel ordinary[^huang2021rejection-e9]. Celebrate small wins too, and use them to keep yourself motivated[^huang2021rejection-e5].
 - **Look behind other people's scenes.** The publication list on a CV looks tidy, but how each paper got published is a different story[^huang2021struggle-e1]. One researcher, looking back at his papers, recalls that his first one took 3.5 years from the first message about the project to publication, and that before it came out every PhD program he applied to rejected him[^huang2021struggle-e2]. Later, the research group he led also faced frequent rejection, and keeping morale up was not easy[^huang2021struggle-e4]. His most-cited papers often received poor reviews at first or were rejected several times[^huang2021struggle-e3].
@@ -58,14 +58,14 @@ The good news is that taste isn't mysterious: talent plays a part, but taste is 
 
 Failure isn't wasted, either. What grows out of repeated failure is precisely research skill: the ability to come up with plausible solutions and estimate how likely each is to work[^might2010successful-e4]. Turning an idea over and over without making progress is itself the first step of the creative process[^dettmers2019creativity-e2]; accepting this long struggle through many rounds of failure as part of creating is what keeps the creative process from wearing you down[^dettmers2019creativity-e5]. External rewards such as paper acceptances are rare, so you often have to rely on intrinsic motivation to keep going[^ruder2020tips-e12].
 
-**Where people go wrong:** Taking a rejection as a verdict on yourself; or, the opposite, resubmitting somewhere else unchanged without reading the reviews. The first hurts you; the second wastes an opportunity. `[Our analysis]`
+**Where people go wrong:** Taking a rejection as a verdict on yourself; or, the opposite, resubmitting somewhere else unchanged without reading the reviews. The first hurts you; the second wastes an opportunity.
 
 > **Where sources disagree: persist, or let go?**
 >
 > - **Persist:** this phase demands perseverance in the face of uncertainty, rejection, and frustration[^might2010successful-e6]. Most great scientists are completely committed to their problem, and those who aren't seldom produce first-class work[^hamming1986you-e23].
 > - **Know when to let go:** setting an idea aside for a while may be exactly the key step in creating something[^dettmers2019creativity-e3]. Academia also lacks mechanisms to help people stop old and stale projects[^sutherland1996courage-e5].
 >
-> In practice: be patient with the **direction**, since a few failures are normal; be flexible about the **specific approach**: if one route doesn't work, try another, or set it aside for a while. Keep a small backup idea alongside your main project, so that setting something aside doesn't feel like the end of everything (see Section 6). `[Our analysis]` For how to decide, on solid grounds, whether a particular project should continue or stop, see [Running and iterating](../02_do-the-project/06_run-and-iterate.md).
+> In practice: be patient with the **direction**, since a few failures are normal; be flexible about the **specific approach**: if one route doesn't work, try another, or set it aside for a while. Keep a small backup idea alongside your main project, so that setting something aside doesn't feel like the end of everything (see Section 6). For how to decide, on solid grounds, whether a particular project should continue or stop, see [Running and iterating](../02_do-the-project/06_run-and-iterate.md).
 
 **Write it down:** Create a "CV of failures" file. List the rejections, failed experiments, and ideas that went nowhere that you have been through, and after each, write one sentence on what you learned from it. From now on, every time you are rejected, add a line there first.
 
@@ -75,7 +75,7 @@ Failure isn't wasted, either. What grows out of repeated failure is precisely re
 
 - **Know your own field thoroughly, and neighboring fields as well as you can**[^kidger2023know-e1]. Cultivate broad interests and look beyond your own small circle[^ruder2020tips-e7].
 - **Skim widely, read deeply only a few.** Skim a large amount of work quickly to learn what is already known and what problems people are thinking about; on that basis, pick a dozen or so papers a year to read in depth[^nielsen2004principles-e15]. Reading the ten most important papers in a field in depth is almost certainly more useful than skimming five hundred[^nielsen2004principles-e12]. For how to read in layers, see [Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md).
-- **Deliberately build an unusual combination of skills**[^nielsen2004principles-e11]. If you work on "large language models and smart contract security", for example, someone who understands both large language models and program analysis is more likely to spot problems others miss than someone who knows only one side. `[Our analysis]`
+- **Deliberately build an unusual combination of skills**[^nielsen2004principles-e11]. If you work on "large language models and smart contract security", for example, someone who understands both large language models and program analysis is more likely to spot problems others miss than someone who knows only one side.
 - **Practice deliberately at the edge of your abilities.** Experts don't become experts by talent alone or by putting in the years; they practice at the edge of their abilities[^prieto2025so-e4]. You can ask your advisor and colleagues directly: which of my research skills is weak, and how can I improve it[^prieto2025so-e5]?
 - **Take reading notes.** You won't remember everything you read, but you will often want to go back to it[^wood2020five-e1].
 - **Take the initiative.** Show initiative and ask questions[^patterson2001bad-e10].
@@ -116,11 +116,11 @@ Failure isn't wasted, either. What grows out of repeated failure is precisely re
 - **Learn new things together with peers.** Learning together lightens the load on each person, makes learning more enjoyable, and makes new material less intimidating[^sutherland1996courage-e4].
 - **Have outsiders review your project regularly**[^patterson2001bad-e12].
 - **Make yourself accountable to others.** Thinking that self-discipline is just a matter of willpower is a misunderstanding; the key is being accountable to other people[^nielsen2004principles-e9]. Working with others is one way to do that; see [Collaboration and advisors](collaboration_and_advisors.md).
-- **Improve your environment yourself.** Anyone can help improve their environment, and students often underestimate how much difference they can make[^nielsen2004principles-e13]. For example, organize a reading group or seminar and talk more with your fellow students `[Our analysis]`; this kind of exchange helps you feel connected to your peers and supported[^wood2020five-e4].
+- **Improve your environment yourself.** Anyone can help improve their environment, and students often underestimate how much difference they can make[^nielsen2004principles-e13]. For example, organize a reading group or seminar and talk more with your fellow students; this kind of exchange helps you feel connected to your peers and supported[^wood2020five-e4].
 
-**Why:** Many of the hard parts of research (unsure about a topic, rejected, stuck) are hardest to carry alone, and that is also when your view is most likely to get skewed. Outsiders can give you perspectives you can't see yourself, and can pull you up when you are down. `[Our analysis]`
+**Why:** Many of the hard parts of research (unsure about a topic, rejected, stuck) are hardest to carry alone, and that is also when your view is most likely to get skewed. Outsiders can give you perspectives you can't see yourself, and can pull you up when you are down.
 
-**Where people go wrong:** Waiting until you have "something presentable" before showing anyone. By then, problems with the direction have often already cost you months. `[Our analysis]`
+**Where people go wrong:** Waiting until you have "something presentable" before showing anyone. By then, problems with the direction have often already cost you months.
 
 **Write it down:** Name one person outside your circle you will talk to this month (a student in another group, a faculty member in a neighboring area, an engineer who uses your research), and write down two questions you want to ask them.
 
@@ -131,19 +131,19 @@ Failure isn't wasted, either. What grows out of repeated failure is precisely re
 - **Look after your health and your life first.** Enthusiasm alone isn't enough; you also need to keep the rest of your life in order and stay healthy[^nielsen2004principles-e7]. Work hard, but make sure you sleep and exercise[^ruder2020tips-e16].
 - **Plan your life outside research deliberately**, for example exercise, reading for fun, joining clubs, and protecting your weekends[^wood2020five-e2]. When you can see an especially demanding period coming (an intensive stretch such as fieldwork, for instance), plan in advance how you will rest afterward[^wood2020five-e3].
 - **Build a support network**, and find an activity that gives you energy when things aren't going well[^ruder2020tips-e13].
-- **Don't hold only one idea.** When you have just one thing to work on and it goes badly, your motivation and mood take the hit, and when you are stuck all you can do is grind[^ruder2020tips-e8]. Working on two projects at once lets you switch to the other when one is stuck[^ruder2020tips-e1]; having several ideas on hand works better than fixating on one[^dettmers2019creativity-e4]. As a beginner, first make sure one main project can be finished, then add a small side project or backup idea. `[Our analysis]`
+- **Don't hold only one idea.** When you have just one thing to work on and it goes badly, your motivation and mood take the hit, and when you are stuck all you can do is grind[^ruder2020tips-e8]. Working on two projects at once lets you switch to the other when one is stuck[^ruder2020tips-e1]; having several ideas on hand works better than fixating on one[^dettmers2019creativity-e4]. As a beginner, first make sure one main project can be finished, then add a small side project or backup idea.
 - **Turn good practices into habits.** Excellence is not an act but a habit[^nielsen2004principles-e6]. For how to do a weekly review and plan your daily time, see [Planning and daily routines](planning_and_routines.md).
 
-**Why:** Research is measured in years. Only a pace you can sustain lets the compounding described in Section 3 actually build up. `[Our analysis]`
+**Why:** Research is measured in years. Only a pace you can sustain lets the compounding described in Section 3 actually build up.
 
-**Where people go wrong:** Thinking about rest only once you can't go on. Plan how you will recover from a hard stretch before it begins; if you try to make up for it afterward, you have usually already run yourself down. `[Our analysis]`
+**Where people go wrong:** Thinking about rest only once you can't go on. Plan how you will recover from a hard stretch before it begins; if you try to make up for it afterward, you have usually already run yourself down.
 
 > **Where sources disagree: how hard should you push?**
 >
 > - **A little more effort pays off hugely in the long run:** thinking for one extra hour a day leads to far more output over a lifetime[^hamming1986you-e14].
 > - **Overextending yourself doesn't pay:** one author looks back on neglecting his health and relationships to write a book; his short-term output went up, but overall his output may well have gone down[^nielsen2004principles-e8]. Your most important resource isn't compute but your own physical and mental health[^ruder2020tips-e14].
 >
-> The two don't contradict each other: the first is about putting in a little more **day after day**, with the effort applied in the right direction[^hamming1986you-e19], not about burning yourself out in the short term. `[Our analysis]`
+> The two don't contradict each other: the first is about putting in a little more **day after day**, with the effort applied in the right direction[^hamming1986you-e19], not about burning yourself out in the short term.
 
 **Write it down:** Write down the time each week when you never touch research (say, all of Saturday), and how you plan to rest after the hardest stretch coming up.
 
@@ -157,16 +157,16 @@ Failure isn't wasted, either. What grows out of repeated failure is precisely re
 - **Change direction periodically to avoid going stale.** One suggestion is to make a major change of direction about every seven years[^hamming1986you-e21].
 - **Think about your long-term goal:** what kind of researcher do I want to be[^nielsen2004principles-e14]? There is no rush to find your life's mission; good missions often take years of trial and error to find. A PhD is more about "getting the driver's license" than making the "best lap of your life"[^prieto2025so-e2].
 
-**Why:** Finishing projects is how people learn to pick good problems and find simple solutions[^patterson2001bad-e11]; taste is acquired through feedback and through finishing projects[^patterson2001bad-e7]. The more important output of a PhD is not the papers but a better you[^ruder2020tips-e16]. Papers go out of date; your skills and judgment stay with you. `[Our analysis]`
+**Why:** Finishing projects is how people learn to pick good problems and find simple solutions[^patterson2001bad-e11]; taste is acquired through feedback and through finishing projects[^patterson2001bad-e7]. The more important output of a PhD is not the papers but a better you[^ruder2020tips-e16]. Papers go out of date; your skills and judgment stay with you.
 
-**Where people go wrong:** Switching topics as soon as you hit the unglamorous, hard phase. Every successful project goes through it[^patterson2001bad-e11]; if you switch every time you get there, you never finish anything. `[Our analysis]`
+**Where people go wrong:** Switching topics as soon as you hit the unglamorous, hard phase. Every successful project goes through it[^patterson2001bad-e11]; if you switch every time you get there, you never finish anything.
 
 > **Where sources disagree: passion first, or skill first?**
 >
 > - **Follow your interest:** the most natural way to stay positive is to work on what excites you and follow your curiosity; when you can't choose your own topic, find an angle within it that excites you[^ruder2020tips-e17].
 > - **Skill first:** another view is that the key to a good career is rare and valuable skills, not passion you already have beforehand. In a PhD, that means deliberate practice at the edge of your abilities and prioritizing positions and advisors where you will learn the most[^prieto2025so-e3][^prieto2025so-e4][^prieto2025so-e6].
 >
-> In practice: within whatever choice you have, find an angle that excites you, while putting most of your energy into building skill. Interest often grows as you get better at something. `[Our analysis]`
+> In practice: within whatever choice you have, find an angle that excites you, while putting most of your energy into building skill. Interest often grows as you get better at something.
 
 **Write it down:** List every project you have started, and mark each "finished", "continue", or "stop". For each one marked "continue", write down the last step still missing before it counts as finished.
 
@@ -185,7 +185,7 @@ Failure isn't wasted, either. What grows out of repeated failure is precisely re
 | Relying on hard work alone without thinking about direction | Effort has to be applied in the right direction[^hamming1986you-e19] |
 | Wearing down your health for short-term output | Your overall output may actually drop[^nielsen2004principles-e8] |
 | Starting many projects and finishing none | People count the projects you finish[^patterson2001bad-e11] |
-| Waiting to find your "true passion" before committing | One view holds that the key to a good career is skill, not passion you already have beforehand[^prieto2025so-e3]; passion often appears only after your skills have grown `[Our analysis]` |
+| Waiting to find your "true passion" before committing | One view holds that the key to a good career is skill, not passion you already have beforehand[^prieto2025so-e3]; our view is that passion often appears only after your skills have grown |
 
 ## Further reading
 

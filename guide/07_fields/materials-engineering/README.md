@@ -15,45 +15,45 @@
 
 ### 一个循环：制备、表征、测性能
 
-本领域的很多实验研究围绕一个循环展开 `[本项目分析]`：
+本领域的很多实验研究围绕一个循环展开：
 
 1. **制备**（合成或加工）：做出材料、薄膜或器件；
 2. **表征**：用显微镜、衍射、光谱等手段弄清做出来的是什么（成分、结构、尺寸、表面）；
 3. **性能测试**：测它在目标用途上表现如何（强度、导电性、光电转换效率、催化活性等）；
 4. 根据结果调整制备条件，再来一轮。
 
-要特别留意第一步：怎么做出来的，会影响做出来的是什么 `[本项目分析]`。合成路线会影响纳米材料的性质，包括毒性；二氧化硅、氧化铈、银等多种材料都有报道[^mulhopt2018characterization-e5]。所以 Faria 等人建议，新发表的纳米材料要给出高质量、别人能照着做的合成步骤；纯化方法也要写，因为前驱体（合成用的原料）残留可能改变生物学实验的结果[^faria2018minimum-e3]。
+要特别留意第一步：怎么做出来的，会影响做出来的是什么。合成路线会影响纳米材料的性质，包括毒性；二氧化硅、氧化铈、银等多种材料都有报道[^mulhopt2018characterization-e5]。所以 Faria 等人建议，新发表的纳米材料要给出高质量、别人能照着做的合成步骤；纯化方法也要写，因为前驱体（合成用的原料）残留可能改变生物学实验的结果[^faria2018minimum-e3]。
 
-**什么算"纳米"。** 一种界定是：至少有一个维度在 1–100 纳米之间。美国国家职业安全卫生研究所（NIOSH）2009 年的文件对工程纳米颗粒就是这样定义的[^niosh2009approaches-e1]；Faria 等人也把"至少一个功能尺寸在 1–100 纳米"列为可选的界定办法之一[^faria2018minimum-e15]。读文献时注意作者用的是哪种定义 `[本项目分析]`。
+**什么算"纳米"。** 一种界定是：至少有一个维度在 1–100 纳米之间。美国国家职业安全卫生研究所（NIOSH）2009 年的文件对工程纳米颗粒就是这样定义的[^niosh2009approaches-e1]；Faria 等人也把"至少一个功能尺寸在 1–100 纳米"列为可选的界定办法之一[^faria2018minimum-e15]。读文献时注意作者用的是哪种定义。
 
 ### 表征常常要借用共享平台
 
-电子显微镜等高端表征设备一般不在每个课题组里，很多时候要用学校的公共测试平台或国家级的用户设施 `[本项目分析]`。下面举一个具体例子：美国能源部的一个纳米科学用户设施 Molecular Foundry（设在劳伦斯伯克利国家实验室）。它只是一家设施的规则，以你实际使用的平台为准 `[本项目分析]`。
+电子显微镜等高端表征设备一般不在每个课题组里，很多时候要用学校的公共测试平台或国家级的用户设施。下面举一个具体例子：美国能源部的一个纳米科学用户设施 Molecular Foundry（设在劳伦斯伯克利国家实验室）。它只是一家设施的规则，以你实际使用的平台为准。
 
 - **要申请。** 任何研究者都可以申请，要经过竞争性的同行评审[^lblfoundryuser-e1]，一般在每年两次的征集中提交[^lblfoundryuser-e4]。不保密的研究免费[^lblfoundryuser-e2]，保密项目按全成本付费[^lblfoundryuser-e3]。
 - **先培训再上手。** 到了设施，开始工作前还要上额外的安全培训课[^lblfoundryuser-e5]。
 - **发表时要致谢。** 用到该设施的成果，要在致谢中按规定措辞写上它[^lblfoundryuser-e6]。
 
-这对研究节奏的影响是：机时要提前申请和预约，样品要提前准备好，测试方案要在上机前想清楚 `[本项目分析]`。排期的通用方法见[计划与日常节奏](../../08_throughout/planning_and_routines.md)。
+这对研究节奏的影响是：机时要提前申请和预约，样品要提前准备好，测试方案要在上机前想清楚。排期的通用方法见[计划与日常节奏](../../08_throughout/planning_and_routines.md)。
 
 ### 计算：密度泛函理论和高通量筛选
 
-很多课题会配合计算，常用的一种是**密度泛函理论**（density functional theory，DFT），一种从量子力学出发计算原子尺度结构和性质的方法 `[本项目分析]`。按 Lejaeghere 等人 2016 年文中的说法，每年发表的密度泛函理论论文超过 1.5 万篇，它也越来越多地被自动化使用，用来建大型数据库[^lejaeghere2016reproducibility-e1]。**高通量筛选**是一次计算成千上万个结构的性质[^draxl2018nomad-e3]，用来寻找有希望的材料 `[本项目分析]`。
+很多课题会配合计算，常用的一种是**密度泛函理论**（density functional theory，DFT），一种从量子力学出发计算原子尺度结构和性质的方法。按 Lejaeghere 等人 2016 年文中的说法，每年发表的密度泛函理论论文超过 1.5 万篇，它也越来越多地被自动化使用，用来建大型数据库[^lejaeghere2016reproducibility-e1]。**高通量筛选**是一次计算成千上万个结构的性质[^draxl2018nomad-e3]，用来寻找有希望的材料。
 
-计算也有可复现问题。计算程序很多，实现细节差别很大[^lejaeghere2016reproducibility-e2]。Lejaeghere 等人组织了一次社区合作，比较了 15 个程序、40 种势或基组在 71 种单质晶体上的结果[^lejaeghere2016reproducibility-e3]。（势和基组是计算里描述原子和电子的近似设置，通常以文件形式随程序提供 `[本项目分析]`。）结论是：较新的程序和赝势（一类常用的势）之间非常一致，差别和不同高精度实验之间的差别相当；较老的方法一致性差一些[^lejaeghere2016reproducibility-e4]。因此他们主张只用某个程序最新版的势文件[^lejaeghere2016reproducibility-e5]。他们也承认，要完整说明一次计算，连程序默认值和写死在代码里的参数都得写上[^lejaeghere2016reproducibility-e6]。仿真研究的一般做法见研究类型里的[定量仿真](../../06_methods/simulation_study.md)。
+计算也有可复现问题。计算程序很多，实现细节差别很大[^lejaeghere2016reproducibility-e2]。Lejaeghere 等人组织了一次社区合作，比较了 15 个程序、40 种势或基组在 71 种单质晶体上的结果[^lejaeghere2016reproducibility-e3]。（势和基组是计算里描述原子和电子的近似设置，通常以文件形式随程序提供。）结论是：较新的程序和赝势（一类常用的势）之间非常一致，差别和不同高精度实验之间的差别相当；较老的方法一致性差一些[^lejaeghere2016reproducibility-e4]。因此他们主张只用某个程序最新版的势文件[^lejaeghere2016reproducibility-e5]。他们也承认，要完整说明一次计算，连程序默认值和写死在代码里的参数都得写上[^lejaeghere2016reproducibility-e6]。仿真研究的一般做法见研究类型里的[定量仿真](../../06_methods/simulation_study.md)。
 
 ### 发表
 
 本文资料没有找到关于本领域署名惯例、审稿周期、期刊和会议地位的可靠公开说明，这些以导师和目标期刊的要求为准。能确定的几点：
 
-- **有预印本渠道。** 预印本网站 arXiv 设有材料科学分类 cond-mat.mtrl-sci，覆盖合成、表征、结构、力学性质、缺陷、界面等[^arxivtaxonomy-e7]；纳米结构的物理研究（量子点、纳米管、石墨烯等）在介观与纳米物理分类 cond-mat.mes-hall[^arxivtaxonomy-e8]。偏化学的工作，发表规范可参考[化学篇](../chemistry/README.md) `[本项目分析]`。
-- **期刊可能要求公开材料和数据。** 以 Nature Portfolio 期刊为例，发表的条件之一是及时向读者提供材料、数据、代码和流程[^naturereportingstandards-e1]；获取上有任何限制，投稿时就要告诉编辑[^naturereportingstandards-e3]。其他出版方的规定可能不同，投稿前查目标期刊 `[本项目分析]`。
+- **有预印本渠道。** 预印本网站 arXiv 设有材料科学分类 cond-mat.mtrl-sci，覆盖合成、表征、结构、力学性质、缺陷、界面等[^arxivtaxonomy-e7]；纳米结构的物理研究（量子点、纳米管、石墨烯等）在介观与纳米物理分类 cond-mat.mes-hall[^arxivtaxonomy-e8]。偏化学的工作，发表规范可参考[化学篇](../chemistry/README.md)。
+- **期刊可能要求公开材料和数据。** 以 Nature Portfolio 期刊为例，发表的条件之一是及时向读者提供材料、数据、代码和流程[^naturereportingstandards-e1]；获取上有任何限制，投稿时就要告诉编辑[^naturereportingstandards-e3]。其他出版方的规定可能不同，投稿前查目标期刊。
 
 ---
 
 ## 和其他学科不同的地方
 
-下表是本项目的归纳，用来帮你快速定位差别，不是严格的学科划分 `[本项目分析]`。
+下表是本项目的归纳，用来帮你快速定位差别，不是严格的学科划分。
 
 | | 材料工程与纳米技术 | 化学 | 计算机 |
 |---|---|---|---|
@@ -69,9 +69,9 @@
 
 ### 最低信息报告：以纳米—生物研究为例
 
-不同论文做了哪些表征、写了哪些实验细节差别很大，这是纳米—生物交叉研究进展的一大障碍[^faria2018minimum-e1]。2018 年，Faria 等人一批研究者在 Nature Nanotechnology 上提出了**最低信息报告标准** MIRIBEL（Minimum Information Reporting in Bio–Nano Experimental Literature，生物—纳米实验文献最低信息报告），分三类条目：材料表征、生物学表征、实验流程细节[^faria2018minimum-e2]，并配了一份写稿时逐项核对用的清单[^faria2018minimum-e14]。注意：MIRIBEL 是一批研究者提出的建议，不是期刊的硬性要求 `[本项目分析]`；作者自己也说，标准只有被广泛采用才有用[^faria2018minimum-e13]。投稿时以目标期刊的要求为准 `[本项目分析]`。
+不同论文做了哪些表征、写了哪些实验细节差别很大，这是纳米—生物交叉研究进展的一大障碍[^faria2018minimum-e1]。2018 年，Faria 等人一批研究者在 Nature Nanotechnology 上提出了**最低信息报告标准** MIRIBEL（Minimum Information Reporting in Bio–Nano Experimental Literature，生物—纳米实验文献最低信息报告），分三类条目：材料表征、生物学表征、实验流程细节[^faria2018minimum-e2]，并配了一份写稿时逐项核对用的清单[^faria2018minimum-e14]。注意：MIRIBEL 是一批研究者提出的建议，不是期刊的硬性要求；作者自己也说，标准只有被广泛采用才有用[^faria2018minimum-e13]。投稿时以目标期刊的要求为准。
 
-它的材料表征部分对做纳米材料的人都有参考价值 `[本项目分析]`：
+本手册认为，它的材料表征部分对做纳米材料的人都有参考价值：
 
 - **写清每个参数怎么测的**：什么技术、什么仪器、什么流程[^faria2018minimum-e6]。测粒径时，还要写明测的是哪一种尺寸，例如几何尺寸还是在液体中的水合尺寸[^faria2018minimum-e5]。
 - **报分布，不只报平均值。** 10–990 纳米均匀分布的颗粒和 495–505 纳米的颗粒，平均粒径都是 500 纳米，但只看平均值，没法判断它们的生物学效应[^faria2018minimum-e4]。几乎所有表征参数都是一个分布，给出分布比只给一个平均值信息更多[^faria2018minimum-e10]。
@@ -84,7 +84,7 @@
 
 ### 器件性能报告：以太阳能电池为例
 
-器件性能（如太阳能电池把光变成电的效率）受测量条件影响，有的期刊为此专门制定了报告表 `[本项目分析]`。下面的例子都来自 Nature 系列期刊（出版方名为 Nature Portfolio）。2015 年，Nature Materials 宣布要求光伏（太阳能发电）论文的作者填写一份关键技术信息清单[^naturematerials2015checklist-e1]，内容由太阳能电池专家和 Nature 系列期刊编辑讨论确定[^naturematerials2015checklist-e2]。现在 Nature Portfolio 对物理科学中的太阳能电池和激光两个方向要求提交报告摘要表[^naturereportingstandards-e2]，太阳能电池的表格随录用论文一起发表[^naturesolarcellsreporting-e1]。这两份文件要求的信息包括：
+器件性能（如太阳能电池把光变成电的效率）受测量条件影响，有的期刊为此专门制定了报告表。下面的例子都来自 Nature 系列期刊（出版方名为 Nature Portfolio）。2015 年，Nature Materials 宣布要求光伏（太阳能发电）论文的作者填写一份关键技术信息清单[^naturematerials2015checklist-e1]，内容由太阳能电池专家和 Nature 系列期刊编辑讨论确定[^naturematerials2015checklist-e2]。现在 Nature Portfolio 对物理科学中的太阳能电池和激光两个方向要求提交报告摘要表[^naturereportingstandards-e2]，太阳能电池的表格随录用论文一起发表[^naturesolarcellsreporting-e1]。这两份文件要求的信息包括：
 
 - 正向和反向两个扫描方向的电流密度—电压曲线（即 J-V 曲线，电池输出电流随电压变化的曲线）[^naturesolarcellsreporting-e2]，以及扫描条件、电池面积[^naturematerials2015checklist-e3]；
 - 测试了多少块电池，以及器件性能的统计分析[^naturesolarcellsreporting-e4][^naturesolarcellsreporting-e5]；
@@ -92,15 +92,15 @@
 
 2015 年那篇社论还提出：报告最好器件的同时报告平均效率[^naturematerials2015checklist-e5]；作者要格外仔细地描述所用的表征流程，并给出性能可重复的统计证据[^naturematerials2015checklist-e6]。为某种光伏技术优化的测量流程，不一定能直接用到别的体系[^naturematerials2015checklist-e7]。报告表还提到，ASTM-E44、IEC-TC 82 等国际委员会制定的光伏表征行业标准可供学术研究参考[^naturesolarcellsreporting-e6]。
 
-以上是 Nature 系列期刊的规定，不是整个领域的统一要求；投其他期刊，以对方要求为准。即使对方不要求，这份表格也可以拿来自查 `[本项目分析]`。
+以上是 Nature 系列期刊的规定，不是整个领域的统一要求；投其他期刊，以对方要求为准。即使对方不要求，这份表格也可以拿来自查。
 
 ### 可重复性：批次差异和"冠军器件"
 
-**批次差异。** 同一种材料，每批做出来可能不一样。Mülhopt 等人 2018 年在论文引言中指出，目前工业和实验室的纳米材料合成工艺，批次之间差异相当显著[^mulhopt2018characterization-e3]。他们的项目由欧洲 14 个实验室历时三年多完成[^mulhopt2018characterization-e1]，完整表征了 46 个批次[^mulhopt2018characterization-e2]。结果是：ζ 电位（反映颗粒表面带电情况的指标 `[本项目分析]`）、粒径等参数批次间比较稳定，杂质等参数控制得不够好[^mulhopt2018characterization-e7]。他们还提出，单个批次能在多大程度上代表多个批次，本身就是个问题[^mulhopt2018characterization-e4]；纳米颗粒常团聚，粒径分布应当用几种方法测[^mulhopt2018characterization-e6]。
+**批次差异。** 同一种材料，每批做出来可能不一样。Mülhopt 等人 2018 年在论文引言中指出，目前工业和实验室的纳米材料合成工艺，批次之间差异相当显著[^mulhopt2018characterization-e3]。他们的项目由欧洲 14 个实验室历时三年多完成[^mulhopt2018characterization-e1]，完整表征了 46 个批次[^mulhopt2018characterization-e2]。结果是：ζ 电位（反映颗粒表面带电情况的指标）、粒径等参数批次间比较稳定，杂质等参数控制得不够好[^mulhopt2018characterization-e7]。他们还提出，单个批次能在多大程度上代表多个批次，本身就是个问题[^mulhopt2018characterization-e4]；纳米颗粒常团聚，粒径分布应当用几种方法测[^mulhopt2018characterization-e6]。
 
-钙钛矿太阳能电池（一类新型太阳能电池）研究里也有类似问题。Jacobsson 等人 2022 年在这类电池的数据库论文中指出，电池之间、批次之间的差异可能很大，会掩盖本来统计上显著的差别；他们也说这不是钙钛矿领域独有的问题[^jacobsson2022open-e4]。还有实验室之间的差异，通常被归因于论文里没写出来的"隐藏参数"[^jacobsson2022open-e5]。他们猜测的例子有手套箱体积、制备时的气氛成分、前驱体配比的细微变化、化学杂质，并说明这些只是假设[^jacobsson2022open-e6]。所以这些看似琐碎的条件，也值得记在实验记录里 `[本项目分析]`。
+钙钛矿太阳能电池（一类新型太阳能电池）研究里也有类似问题。Jacobsson 等人 2022 年在这类电池的数据库论文中指出，电池之间、批次之间的差异可能很大，会掩盖本来统计上显著的差别；他们也说这不是钙钛矿领域独有的问题[^jacobsson2022open-e4]。还有实验室之间的差异，通常被归因于论文里没写出来的"隐藏参数"[^jacobsson2022open-e5]。他们猜测的例子有手套箱体积、制备时的气氛成分、前驱体配比的细微变化、化学杂质，并说明这些只是假设[^jacobsson2022open-e6]。所以这些看似琐碎的条件，也值得记在实验记录里。
 
-**只报"冠军器件"。** Jacobsson 等人人工查阅了截至 2020 年 2 月的 1.5 万多篇钙钛矿太阳能电池论文，提取了 4.24 万多个器件的数据[^jacobsson2022open-e3]。他们发现，一个典型项目写论文前可能做了成百上千个器件，但在含原始器件数据的论文中，平均每篇能提取到数据的器件不到 6 个[^jacobsson2022open-e7]；常见的情况是一个参数改几档，每档只给出最好那个器件的数据[^jacobsson2022open-e8]。这组数字只来自钙钛矿太阳能电池论文，不能直接推广到整个材料领域；但只看最好的器件，读者无法判断结果有多容易重复，这一点对其他器件研究同样值得注意 `[本项目分析]`。报告全部结果的通用原则见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
+**只报"冠军器件"。** Jacobsson 等人人工查阅了截至 2020 年 2 月的 1.5 万多篇钙钛矿太阳能电池论文，提取了 4.24 万多个器件的数据[^jacobsson2022open-e3]。他们发现，一个典型项目写论文前可能做了成百上千个器件，但在含原始器件数据的论文中，平均每篇能提取到数据的器件不到 6 个[^jacobsson2022open-e7]；常见的情况是一个参数改几档，每档只给出最好那个器件的数据[^jacobsson2022open-e8]。这组数字只来自钙钛矿太阳能电池论文，不能直接推广到整个材料领域；但只看最好的器件，读者无法判断结果有多容易重复，这一点对其他器件研究同样值得注意。报告全部结果的通用原则见[科研诚信与伦理](../../08_throughout/integrity_and_ethics.md#2-对证据诚实不骗自己报告全部结果)。
 
 ### 材料数据共享与 FAIR 原则
 
@@ -108,13 +108,13 @@
 
 实验数据做到 FAIR 并不容易。钙钛矿数据库的作者 Jacobsson 等人认为，多数实验室做不到 FAIR，应用科学领域尤其如此[^jacobsson2022open-e1]；他们认为最大的障碍是数据多样又复杂，例如样品性质常受它的制备和处理历史影响[^jacobsson2022open-e2]。Draxl 和 Scheffler 也指出，实验样品的质量常常没有充分表征，而且很大程度上取决于样品的历史[^draxl2018nomad-e7]；要让实验数据能被再利用，必须定义好关于实验、样品和数据的描述信息[^draxl2018nomad-e8]。
 
-计算数据有专门的数据库可存，NOMAD 是一个例子。它的建设者 Draxl 和 Scheffler 指出，高通量计算产生的信息只有极小一部分被用上[^draxl2018nomad-e1]，论文之外的大量信息通常被丢弃甚至删掉[^draxl2018nomad-e2]。按他们 2018 年的介绍，NOMAD 数据库接收计算程序直接输出的原始文件，条件是写明作者、能查到程序和版本、输入输出文件完整[^draxl2018nomad-e5]；数据可以先不公开，但最长三年后全部公开[^draxl2018nomad-e6]；免费保存至少 10 年，也方便课题组回忆几年前到底做了什么[^draxl2018nomad-e4]。现行规则以 NOMAD 官网为准 `[本项目分析]`。
+计算数据有专门的数据库可存，NOMAD 是一个例子。它的建设者 Draxl 和 Scheffler 指出，高通量计算产生的信息只有极小一部分被用上[^draxl2018nomad-e1]，论文之外的大量信息通常被丢弃甚至删掉[^draxl2018nomad-e2]。按他们 2018 年的介绍，NOMAD 数据库接收计算程序直接输出的原始文件，条件是写明作者、能查到程序和版本、输入输出文件完整[^draxl2018nomad-e5]；数据可以先不公开，但最长三年后全部公开[^draxl2018nomad-e6]；免费保存至少 10 年，也方便课题组回忆几年前到底做了什么[^draxl2018nomad-e4]。现行规则以 NOMAD 官网为准。
 
 整理数据的通用方法见[整理科研材料](../../08_throughout/organizing_materials.md#2-原始数据只读其余都能重新生成)。
 
 ### 纳米材料的实验室安全（以美国 NIOSH 指南为例）
 
-下面的建议来自美国国家职业安全卫生研究所（NIOSH）2009 年的指南 Approaches to Safe Nanotechnology。它是美国机构 2009 年的文件，不是各国通行的规定；中国和其他国家的规定、你所在单位的安全制度可能不同，以本单位的要求为准 `[本项目分析]`。
+下面的建议来自美国国家职业安全卫生研究所（NIOSH）2009 年的指南 Approaches to Safe Nanotechnology。它是美国机构 2009 年的文件，不是各国通行的规定；中国和其他国家的规定、你所在单位的安全制度可能不同，以本单位的要求为准。
 
 - **风险未知，先预防。** 在研究弄清哪些纳米颗粒特性可能危害健康之前，有必要采取预防措施[^niosh2009approaches-e2]。
 - **最怕吸入。** 纳米材料一旦飘在空气中，最可能经呼吸道进入人体[^niosh2009approaches-e3]。NIOSH 建议避免在敞开环境中以自由颗粒的状态操作[^niosh2009approaches-e10]，易分散的材料尽量密封存放[^niosh2009approaches-e7]。
@@ -127,7 +127,7 @@
 
 ## 常用套路与证据标准
 
-**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的四种，其他套路本文资料未涉及。表的分组和第二栏是本项目的归纳，每条标准只代表脚注里的那个方向 `[本项目分析]`。
+**研究套路**指一个项目主要靠什么逻辑产生新知识，见[核心术语](../../00_start-here/key-concepts.md#研究套路)和[研究套路](../../05_research-strategies/README.md)。下表只列本文资料能支持的四种，其他套路本文资料未涉及。表的分组和第二栏是本项目的归纳，每条标准只代表脚注里的那个方向。
 
 | 套路 | 在本学科里的样子 | 常用证据和评判标准 | 具体做法 |
 |---|---|---|---|
@@ -136,7 +136,7 @@
 | [比较评估](../../05_research-strategies/compare_evaluate.md) | 比较不同计算程序或方法，例如 15 个程序在 71 种单质晶体上的比较[^lejaeghere2016reproducibility-e3] | 写明程序、版本和势文件，只用程序最新版的势文件[^lejaeghere2016reproducibility-e5]；完整说明一次计算，连默认值和写死在代码里的参数都要写[^lejaeghere2016reproducibility-e6] | [基准评测](../computer-science/practices/benchmarking.md)（计算机篇）、[定量仿真](../../06_methods/simulation_study.md) |
 | [综合](../../05_research-strategies/synthesize.md) | 把大量已发表论文的数据汇总成数据库再分析，例如人工查阅 1.5 万多篇钙钛矿电池论文，提取 4.24 万多个器件的数据[^jacobsson2022open-e3] | 样品性质常受制备和处理历史影响，数据难做到 FAIR[^jacobsson2022open-e2]；论文常一个参数改几档、每档只给最好器件的数据[^jacobsson2022open-e8] | [数据科学](../../06_methods/data_science.md) |
 
-怎么用这张表 `[本项目分析]`：先按核心主张定主要套路。例如做出新器件、同时详细表征材料，按构建改进的标准要求，表征部分按观察描述的要求写清。
+怎么用这张表：先按核心主张定主要套路。例如做出新器件、同时详细表征材料，按构建改进的标准要求，表征部分按观察描述的要求写清。
 
 ## 本学科常用的研究方法
 
@@ -151,12 +151,12 @@
 
 ## 给新手的建议
 
-1. **从第一批样品起就记"琐碎"条件。** Jacobsson 等人在钙钛矿电池研究中猜测，手套箱体积、制备气氛、前驱体配比、杂质都可能是"隐藏参数"[^jacobsson2022open-e6]，记下来，日后排查才有依据 `[本项目分析]`。实验记录的通用做法见第二部分的[执行与迭代](../../02_do-the-project/06_run-and-iterate.md#3-每次运行都留下记录)。
+1. **从第一批样品起就记"琐碎"条件。** Jacobsson 等人在钙钛矿电池研究中猜测，手套箱体积、制备气氛、前驱体配比、杂质都可能是"隐藏参数"[^jacobsson2022open-e6]，记下来，日后排查才有依据。实验记录的通用做法见第二部分的[执行与迭代](../../02_do-the-project/06_run-and-iterate.md#3-每次运行都留下记录)。
 2. **关键性质用两种以上方法表征；做多个批次、多个器件，报告分布**，具体要求见上文[常用套路与证据标准](#常用套路与证据标准)。
-3. **写论文前，对照目标期刊的报告表自查。** 没有专门报告表的方向，可以借用相近方向的清单，例如 MIRIBEL[^faria2018minimum-e14]或太阳能电池报告表 `[本项目分析]`。
-4. **共享平台的机时提前申请**，上机前把样品和测试方案准备好；发表时别忘了致谢平台[^lblfoundryuser-e6] `[本项目分析]`。
+3. **写论文前，对照目标期刊的报告表自查。** 没有专门报告表的方向，可以借用相近方向的清单，例如 MIRIBEL[^faria2018minimum-e14]或太阳能电池报告表。
+4. **共享平台的机时提前申请**，上机前把样品和测试方案准备好；发表时别忘了致谢平台[^lblfoundryuser-e6]。
 5. **计算工作保留完整的输入输出文件**，可以存到公开的材料数据库[^draxl2018nomad-e5]。
-6. **第一次操作纳米粉末前，先完成本单位的安全培训**，问清通风、存放和清洁要求[^niosh2009approaches-e3][^niosh2009approaches-e4] `[本项目分析]`。
+6. **第一次操作纳米粉末前，先完成本单位的安全培训**，问清通风、存放和清洁要求[^niosh2009approaches-e3][^niosh2009approaches-e4]。
 
 ---
 
@@ -173,8 +173,8 @@
 
 ## 延伸阅读
 
-- **Faria 等人 2018，Minimum information reporting in bio–nano experimental literature**：纳米—生物研究的最低信息报告建议（MIRIBEL），附写稿用的清单。做纯材料的人可以重点读材料表征部分 `[本项目分析]`。
-- **Nature 系列期刊的太阳能电池报告摘要表（Solar Cells Reporting Summary），以及 Nature Materials 2015 年社论 A checklist for photovoltaic research**：做光伏的人投稿前可以用来自查 `[本项目分析]`。
+- **Faria 等人 2018，Minimum information reporting in bio–nano experimental literature**：纳米—生物研究的最低信息报告建议（MIRIBEL），附写稿用的清单。做纯材料的人可以重点读材料表征部分。
+- **Nature 系列期刊的太阳能电池报告摘要表（Solar Cells Reporting Summary），以及 Nature Materials 2015 年社论 A checklist for photovoltaic research**：做光伏的人投稿前可以用来自查。
 - **Jacobsson 等人 2022，An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles**：看钙钛矿太阳能电池方向的上万篇论文汇总起来是什么样子，以及只报最好器件、批次差异带来的问题。
 - **Wilkinson 等人 2016，The FAIR Guiding Principles**：FAIR 原则的原始文献。
 - **Lejaeghere 等人 2016，Reproducibility in density functional theory calculations of solids**：做计算的人了解不同程序之间差多少、怎样选择势文件。

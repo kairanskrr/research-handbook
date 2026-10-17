@@ -15,7 +15,7 @@ This page explains how research actually runs in mathematics: the output is proo
 
 ### The output is a proof; the goal is understanding
 
-The core of a math paper is its theorems and proofs `[Our analysis]`. But for William Thurston, the mathematician, proof is not the whole point. He argues that what mathematicians are fundamentally doing is finding ways for people to understand and think about mathematics[^thurston1994proof-e1]. The controversy over the computer proof of the four-color theorem shows exactly this: people want not only to know that a theorem is true but also to understand its proof[^thurston1994proof-e2].
+The core of a math paper is its theorems and proofs. But for William Thurston, the mathematician, proof is not the whole point. He argues that what mathematicians are fundamentally doing is finding ways for people to understand and think about mathematics[^thurston1994proof-e1]. The controversy over the computer proof of the four-color theorem shows exactly this: people want not only to know that a theorem is true but also to understand its proof[^thurston1994proof-e2].
 
 What makes a proof reliable? Thurston's view: people are not very good at checking formal correctness line by line, but they are quite good at spotting where a proof is weak[^thurston1994proof-e9]; the reliability of mathematical results comes mainly from mathematicians thinking carefully and critically about the ideas involved[^thurston1994proof-e11]. So he argues for writing proofs clearly and as simply as possible, so that weak spots are easy to find[^thurston1994proof-e10]. For how to write them, see [Theoretical research](../computer-science/practices/theoretical_research.md#step-3-write-the-proof-so-it-can-be-checked-all-proof-based-work).
 
@@ -40,11 +40,11 @@ A second AMS statement, from 2006, explains mathematicians' publishing habits:
 - A paper is usually a mature treatment of a problem, and mathematical research is not considered time-sensitive, so **publication delays are common**[^amsculture2006rates-e2]. Terence Tao, the mathematician, says the gap between posting a preprint and formal publication is measured in years[^taocareer-e28].
 - Publishing little does not mean doing poorly. Of the 40 mathematicians who received Sloan Research Fellowships in 2005–2006, 70% had published on average no more than two papers a year in the five years before the award[^amsculture2006rates-e3]. Most mathematicians' work is judged mainly on the quality of their papers, not the speed[^amsculture2006rates-e4].
 
-We have no reliable general figure for how long a journal takes from submission to acceptance. Before submitting, check the figures your target journal publishes, or ask your advisor `[Our analysis]`. The AMS Ethical Guidelines say published articles should show the date of original submission and of any revisions[^ams2022ethical-e11]; leaf through recent articles in your target journal and you can get a rough idea of how long it takes from submission to acceptance `[Our analysis]`.
+We have no reliable general figure for how long a journal takes from submission to acceptance. Before submitting, check the figures your target journal publishes, or ask your advisor. The AMS Ethical Guidelines say published articles should show the date of original submission and of any revisions[^ams2022ethical-e11]; leaf through recent articles in your target journal and you can get a rough idea of how long it takes from submission to acceptance.
 
 ### The life of a paper
 
-The table below shows the usual process `[Our analysis]`; the basis for each stage is in the right-hand column:
+The table below shows the usual process; the basis for each stage is in the right-hand column:
 
 | Stage | What happens | Note |
 |---|---|---|
@@ -63,7 +63,7 @@ A **preprint** is a version of a paper made public before formal publication. ar
 - **Why post one**: formal publication takes years, and a preprint lets others read your work now[^taocareer-e28]; arXiv has a reliable timestamp, which establishes priority, that is, proof that you got the result first[^taocareer-e29].
 - **When to go public**: if all you have is a draft that is not of publishable quality, it is best not to announce the result yet[^taocareer-e30].
 - **Your first submission needs an "endorsement"** (someone vouching for you)[^arxivendorsement-e1]. For a graduate student, the best person to ask is your advisor, or a faculty member at your institution in the same area who is active on arXiv[^arxivendorsement-e2]. Do not send mass emails looking for an endorser, and do not keep chasing people[^arxivendorsement-e3].
-- **arXiv moderation is not peer review**: moderators do not give you feedback on your paper[^arxivmoderation-e1], but they may move it to the most relevant category[^arxivmoderation-e2]. Submissions with no original research, such as course assignments or research proposals, may be rejected[^arxivmoderation-e3]. So "it's on arXiv" does not mean "it has been accepted by the community" `[Our analysis]`.
+- **arXiv moderation is not peer review**: moderators do not give you feedback on your paper[^arxivmoderation-e1], but they may move it to the most relevant category[^arxivmoderation-e2]. Submissions with no original research, such as course assignments or research proposals, may be rejected[^arxivmoderation-e3]. So "it's on arXiv" does not mean "it has been accepted by the community".
 - **Should you send your preprint to experts?** Tao does so only when the preprint is directly relevant to them, for example when it solves a conjecture they posed[^taocareer-e31].
 
 ### Refereeing: anonymous, confidential, focused on correctness
@@ -82,11 +82,11 @@ As an author, make the referee's job easy. When deciding what level of journal t
 For how to work with your advisor and how to choose your first problem, see [Collaboration and advisors](../../08_throughout/collaboration_and_advisors.md) and [Generating candidate problems](../../01_find-a-problem/02_generate-problems.md). Two points are worth special attention in mathematics:
 
 - **The degree has to show that you can do mathematics independently.** The AMS Ethical Guidelines state that a doctorate in mathematics certifies both mathematical knowledge and independent mathematical achievement[^ams2022ethical-e12]. If your advisor has little time, talk regularly with at least one other mathematician[^taocareer-e25].
-- **Choose a feasible first problem.** Famous problems are almost never solved out of nowhere[^taocareer-e13]; spend most of your time on more tractable problems, building experience, skill, and reputation, and take on bigger projects when you are ready[^taocareer-e14]. The AMS Ethical Guidelines also say that those who supervise doctoral students should tell them about employment opportunities inside and outside academia[^ams2022ethical-e13]; you can ask about this yourself `[Our analysis]`.
+- **Choose a feasible first problem.** Famous problems are almost never solved out of nowhere[^taocareer-e13]; spend most of your time on more tractable problems, building experience, skill, and reputation, and take on bigger projects when you are ready[^taocareer-e14]. The AMS Ethical Guidelines also say that those who supervise doctoral students should tell them about employment opportunities inside and outside academia[^ams2022ethical-e13]; you can ask about this yourself.
 
 ### Reading the literature and seminars
 
-In mathematics, a lot is learned by listening, not just by reading `[Our analysis]`. For general ways to read the literature, see [Entering a field and exploring the literature](../../01_find-a-problem/01_enter-a-field.md); here we cover only how mathematicians do it:
+In mathematics, a lot is learned by listening, not just by reading. For general ways to read the literature, see [Entering a field and exploring the literature](../../01_find-a-problem/01_enter-a-field.md); here we cover only how mathematicians do it:
 
 - As a graduate student, Thurston did not understand what a "proof" was; he came to understand it gradually by going to **seminars** (small, regular research talks and discussions), reading papers, and talking with other graduate students[^thurston1994proof-e6].
 - Within a subfield, the idea of an important proof can often be explained face to face in a few minutes[^thurston1994proof-e4]. Face-to-face conversation can use far more ways of communicating than formal mathematical language[^thurston1994proof-e5].
@@ -106,24 +106,24 @@ The computer science column draws on the [Computer science page](../computer-sci
 |---|---|---|
 | Main publication venue | Refereed journals[^amsculture2006rates-e1] | Conferences |
 | Pace | Not considered time-sensitive; publication delays are common[^amsculture2006rates-e2] | Driven by conference deadlines |
-| Size of collaborations | Almost always a few people[^amsculture2004joint-e2] | Anything from one person to large teams `[Our analysis]` |
-| Authorship | Traditionally alphabetical[^amsculture2004joint-e3] | Figures exist only for theory: of multi-author papers in the Web of Science category "Computer Science, Theory & Methods" from 2007 to 2011, an estimated 32.6% or so used intentional alphabetical ordering[^waltman2012empirical-e2][^waltman2012empirical-e3][^waltman2012empirical-e5]; we found no sources for other areas, so do not assume alphabetical order, and ask when you join a group `[Our analysis]` |
-| Main evidence | Proof `[Our analysis]` | Experiments and measurement (except in theory) `[Our analysis]` |
+| Size of collaborations | Almost always a few people[^amsculture2004joint-e2] | Anything from one person to large teams |
+| Authorship | Traditionally alphabetical[^amsculture2004joint-e3] | Figures exist only for theory: of multi-author papers in the Web of Science category "Computer Science, Theory & Methods" from 2007 to 2011, an estimated 32.6% or so used intentional alphabetical ordering[^waltman2012empirical-e2][^waltman2012empirical-e3][^waltman2012empirical-e5]; we found no sources for other areas, so do not assume alphabetical order, and ask when you join a group |
+| Main evidence | Proof | Experiments and measurement (except in theory) |
 | Preprints | Formal publication takes years, so you should put your preprints online[^taocareer-e28] | arXiv posting is widespread, but you must follow the conference's anonymity rules |
 
 ### Pure and applied mathematics
 
-The difference is one of degree, with no sharp boundary `[Our analysis]`. What our sources support:
+The difference is one of degree, with no sharp boundary. What our sources support:
 
-- **Authorship**: more than 90% of coauthored papers in pure mathematics list authors alphabetically[^amsculture2004joint-e4]; areas of mathematics more closely tied to other disciplines may have authorship cultures mixed with those disciplines'[^amsculture2004joint-e5]. Ask about your group's authorship practice when you join `[Our analysis]`.
+- **Authorship**: more than 90% of coauthored papers in pure mathematics list authors alphabetically[^amsculture2004joint-e4]; areas of mathematics more closely tied to other disciplines may have authorship cultures mixed with those disciplines'[^amsculture2004joint-e5]. Ask about your group's authorship practice when you join.
 - **Computation**: mathematics that uses computation (numerical computing, experimental mathematics, computer-assisted proofs) also has to consider whether others can reproduce the computations. The report from a 2012 workshop at ICERM (the Institute for Computational and Experimental Research in Mathematics) recommends making public all the details others need to reproduce a computation, namely the data and the code[^stodden2013setting-e1]. The report notes that computational work often does not record the code and workflow actually used[^stodden2013setting-e2]; the participants included computational scientists and mathematicians, among them pure mathematicians working in experimental mathematics and computer-assisted proof[^stodden2013setting-e3].
-- **Applied mathematics often involves other disciplines**: the paper's readers, journals, and standards of evaluation may be closer to those of the partner discipline `[Our analysis]`.
+- **Applied mathematics often involves other disciplines**: the paper's readers, journals, and standards of evaluation may be closer to those of the partner discipline.
 
 ---
 
 ## Norms in this field
 
-Among the sources we collected, we found no reporting standard general to mathematics (a checklist of what a paper must state) and no preregistration requirement `[Our analysis]`. This section relies mainly on the **AMS Ethical Guidelines**, published by the American Mathematical Society. The guidelines describe themselves as guiding principles, not rigid rules[^ams2022ethical-e14]. The points most directly related to research:
+Among the sources we collected, we found no reporting standard general to mathematics (a checklist of what a paper must state) and no preregistration requirement. This section relies mainly on the **AMS Ethical Guidelines**, published by the American Mathematical Society. The guidelines describe themselves as guiding principles, not rigid rules[^ams2022ethical-e14]. The points most directly related to research:
 
 - **Plagiarism includes the spoken word**: knowingly presenting another person's discovery as your own is plagiarism, whether written or oral, published or unpublished[^ams2022ethical-e1].
 - **Cite unpublished work too**: other people's unpublished material, material on websites, and results that have only been announced must all be properly cited[^ams2022ethical-e2].
@@ -140,7 +140,7 @@ For general research integrity requirements, see [Research integrity and ethics]
 
 ## Common strategies and standards of evidence
 
-A **research strategy** is the main logic by which a project produces new knowledge, chosen according to your central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the strategies in mathematics that this page's sources support. The grouping and the "What it looks like in mathematics" column are our own summary `[Our analysis]`.
+A **research strategy** is the main logic by which a project produces new knowledge, chosen according to your central claim; see [Key concepts](../../00_start-here/key-concepts.md#research-strategy) and [Research strategies](../../05_research-strategies/README.md). The table below lists the strategies in mathematics that this page's sources support. The grouping and the "What it looks like in mathematics" column are our own summary.
 
 | Strategy | What it looks like in mathematics | Common evidence and standards | How to do it |
 |---|---|---|---|
@@ -149,7 +149,7 @@ A **research strategy** is the main logic by which a project produces new knowle
 | [Building and improving](../../05_research-strategies/build_improve.md) | Numerical methods and models in applied mathematics | Two common kinds of evidence: analysis of an algorithm's convergence, accuracy, and stability, plus computational results showing that the method actually works (what two journals say is given after the table); the ICERM report recommends making public the data and code others need to reproduce the computations[^stodden2013setting-e1] | [Quantitative simulation](../../06_methods/simulation_study.md) |
 | [Synthesis](../../05_research-strategies/synthesize.md) | Surveys and expository writing that make the ideas of an area clear | Thurston argues that mathematicians communicate not only definitions, theorems, and proofs but also ways of thinking[^thurston1994proof-e15]; write so that mathematicians outside the topic can follow (see the AMS examples after the table); our sources do not cover more detailed standards | [Review studies](../../06_methods/review_study.md) |
 
-How to use this table `[Our analysis]`:
+How to use this table:
 
 - **Math papers are mainly about proof.** The other rows are more common in applied and computational areas; when a paper has both theorems and numerical experiments, pick the main strategy from the central claim.
 - **Whether it is "enough" depends on the target journal and your peers.** Mathematics has no common reporting checklist (see [Norms in this field](#norms-in-this-field) above); referees mainly check whether the argument is correct.
@@ -158,13 +158,13 @@ How to use this table `[Our analysis]`:
 What those pages say:
 
 - **Numerical methods.** The *SIAM Journal on Numerical Analysis* (SINUM), from the Society for Industrial and Applied Mathematics (SIAM), publishes papers that develop and analyze numerical methods, including rigorous studies of the convergence, accuracy, stability, and computational complexity of algorithms[^siamsinumabout-e1], as well as computational results that show how an algorithm performs and where it applies[^siamsinumabout-e2]. The same society's *SIAM Journal on Scientific Computing* (SISC) says in its description that its papers include computational results demonstrating the effectiveness of the proposed techniques[^siamsiscabout-e1].
-- **Surveys and exposition.** The AMS *Bulletin* publishes expository articles on contemporary research, written so that mathematicians who are not experts in the topic can gain insight[^amsbullabout-e1]. The AMS also awards the Steele Prize for Mathematical Exposition for a book or a substantial survey or expository research paper[^amssteeleexposition-e1]; this shows that the society treats making an area clear as an achievement worth honoring `[Our analysis]`.
+- **Surveys and exposition.** The AMS *Bulletin* publishes expository articles on contemporary research, written so that mathematicians who are not experts in the topic can gain insight[^amsbullabout-e1]. The AMS also awards the Steele Prize for Mathematical Exposition for a book or a substantial survey or expository research paper[^amssteeleexposition-e1]; this shows that the society treats making an area clear as an achievement worth honoring.
 
 ---
 
 ## Research methods common in this field
 
-Mathematics has no method pages of its own. For proving theorems and computer-assisted proofs, see [Theoretical research](../computer-science/practices/theoretical_research.md): all the parts marked as applying to all proof-based work apply, while the step on submitting to conferences and journals describes computer science practice; mathematics publishes mainly in journals[^amsculture2006rates-e1]. For numerical computing and modeling, see [Quantitative simulation](../../06_methods/simulation_study.md); a math paper may also need to prove properties of the method itself, such as convergence (whether the result gets closer to the true solution as the mesh or step size gets finer). For surveys and expository writing, see [Review studies](../../06_methods/review_study.md), though a math survey is usually the author's own account of an area and does not necessarily involve a systematic search. These two judgments are our own analysis `[Our analysis]`.
+Mathematics has no method pages of its own. For proving theorems and computer-assisted proofs, see [Theoretical research](../computer-science/practices/theoretical_research.md): all the parts marked as applying to all proof-based work apply, while the step on submitting to conferences and journals describes computer science practice; mathematics publishes mainly in journals[^amsculture2006rates-e1]. For numerical computing and modeling, see [Quantitative simulation](../../06_methods/simulation_study.md); a math paper may also need to prove properties of the method itself, such as convergence (whether the result gets closer to the true solution as the mesh or step size gets finer). For surveys and expository writing, see [Review studies](../../06_methods/review_study.md), though a math survey is usually the author's own account of an area and does not necessarily involve a systematic search. These two judgments are our own.
 
 ---
 
@@ -175,7 +175,7 @@ Mathematics has no method pages of its own. For proving theorems and computer-as
 3. **Announce a result only when it is mature, and once you announce it, post the full paper soon.** Do not announce a result that is still only a draft[^taocareer-e30]; after announcing, publish the full details promptly[^ams2022ethical-e3].
 4. **Line up an arXiv endorser before you submit.** Your first submission needs an endorsement[^arxivendorsement-e1], and your advisor is a suitable person to ask[^arxivendorsement-e2].
 5. **Choose the journal to match the paper's actual level.** Sending a borderline paper to a top journal can take a long time and end in rejection[^taowriting-e17]; submit a final draft, not a first draft, or things will actually go slower[^taowriting-e21].
-6. **Do not compare your publication count with other fields.** Mathematics judges quality, not speed[^amsculture2006rates-e4]. When you apply for interdisciplinary jobs or grants, you can attach the AMS statement on alphabetical authorship to explain it to reviewers `[Our analysis]`.
+6. **Do not compare your publication count with other fields.** Mathematics judges quality, not speed[^amsculture2006rates-e4]. When you apply for interdisciplinary jobs or grants, you can attach the AMS statement on alphabetical authorship to explain it to reviewers.
 
 ---
 
@@ -183,7 +183,7 @@ Mathematics has no method pages of its own. For proving theorems and computer-as
 
 | Mistake | Why it is a problem |
 |---|---|
-| Assuming alphabetical authorship when collaborating with people from other fields, without discussing it first | Alphabetical authorship is a mathematical tradition that people in other fields often misunderstand[^amsculture2004joint-e6]; conventions differ between fields, so agree on it in advance `[Our analysis]` |
+| Assuming alphabetical authorship when collaborating with people from other fields, without discussing it first | Alphabetical authorship is a mathematical tradition that people in other fields often misunderstand[^amsculture2004joint-e6]; conventions differ between fields, so agree on it in advance |
 | Listing someone who only took part in discussions without a significant contribution, or leaving out someone who did contribute significantly | Every author must have made a significant contribution, and everyone who made one should be offered authorship[^ams2022ethical-e5] |
 | Presenting someone else's unpublished idea in a talk without saying where it came from | Oral and unpublished material counts as plagiarism too[^ams2022ethical-e1][^ams2022ethical-e2] |
 | Announcing "I proved it" in a talk or online before the proof is written up | Announcing before you are reasonably sure gets in the way of your peers[^ams2022ethical-e3] |

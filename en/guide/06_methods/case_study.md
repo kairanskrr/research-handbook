@@ -4,7 +4,7 @@ This page covers the **case study** and **ethnography**: going into a company, a
 
 If you want to pull data in bulk from many code repositories and analyze it statistically, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md). If you have built a new tool and want to "demonstrate it on an example", that belongs to the evaluation step of [Engineering research](../07_fields/computer-science/practices/engineering_research.md), not to the case study this page describes.
 
-**Scope** `[Our analysis]`: the standards and examples on this page come mainly from software engineering. They draw on the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), Runeson and Höst's case study guidelines, Easterbrook et al.'s guide to choosing methods, Wohlin's discussion of how to define a case study, and Sharp et al.'s article on ethnography in software engineering. If you do case studies in another field, check that field's conventions first. For how political science uses a small number of cases to test causal mechanisms, see [Process tracing and comparative case studies](process_tracing.md).
+**Scope**: the standards and examples on this page come mainly from software engineering. They draw on the ACM SIGSOFT Empirical Standards (the empirical research standards of the Association for Computing Machinery's Special Interest Group on Software Engineering; "the SIGSOFT standard" below), Runeson and Höst's case study guidelines, Easterbrook et al.'s guide to choosing methods, Wohlin's discussion of how to define a case study, and Sharp et al.'s article on ethnography in software engineering. If you do case studies in another field, check that field's conventions first. For how political science uses a small number of cases to test causal mechanisms, see [Process tracing and comparative case studies](process_tracing.md).
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md), [Causal explanation](../05_research-strategies/explain_causality.md).
 
@@ -29,7 +29,7 @@ If you want to pull data in bulk from many code repositories and analyze it stat
 
 The misuse is widespread. Wohlin checked a set of software engineering journal papers that called themselves "case studies" and found that close to half did not qualify under the definition[^wohlin2021case-e1]. Typical examples were small-scale evaluations or demonstrations (in a lab, for instance) and analyses of existing information such as open-source repositories or defect databases[^wohlin2021case-e3]. So **state in your paper which definition you are using**[^wohlin2021case-e7].
 
-**How it differs from related methods** `[Our analysis, based on the sources below]`:
+**How it differs from related methods** (our own comparison, based on the sources below):
 
 | | Case study | Experiment | Survey | Action research |
 |---|---|---|---|---|
@@ -42,14 +42,14 @@ The misuse is widespread. Wohlin checked a set of software engineering journal p
 
 - Your question is "how" or "why"[^easterbrook2008selecting-e12], and the context itself affects the phenomenon (for example, the pressure of a real project changes how developers behave), or the effects take a long time to show[^easterbrook2008selecting-e16].
 - You want to know what actually happens, not what people say they do. Observation is especially suitable when you suspect a gap between the "official version" and reality[^runeson2009guidelines-e48].
-- You are willing to trade representativeness for depth[^easterbrook2008selecting-e19]. To answer "how common", use a survey or repository mining; to answer "does it cause", use an experiment. `[Our analysis]`
+- You are willing to trade representativeness for depth[^easterbrook2008selecting-e19]. To answer "how common", use a survey or repository mining; to answer "does it cause", use an experiment.
 
 > **Where sources disagree: does analyzing only historical data count as a case study?**
 >
 > - **Yes, as a historical case study**: among the types of case study the SIGSOFT standard lists is a "historical" type, which uses archival data such as software repositories[^ralph2020empirical-e431].
 > - **No**: Wohlin argues that studying only historical information (existing data or software) does not fit the definition of a case study[^wohlin2021case-e2], and that such studies should be called "archival analysis"[^wohlin2021case-e3]. He also argues that when the researcher takes part in the case, it should be called action research (see [Action research](action_research.md))[^wohlin2021case-e4].
 >
-> In practice: if you analyze only the repository data of a few projects, do not just write "case study"; say which definition you are using and where the data came from[^wohlin2021case-e7]. If you can add interviews or observation, the study will also better meet the expectation of triangulating multiple sources. `[Our analysis]`
+> In practice: if you analyze only the repository data of a few projects, do not just write "case study"; say which definition you are using and where the data came from[^wohlin2021case-e7]. If you can add interviews or observation, the study will also better meet the expectation of triangulating multiple sources.
 
 ---
 
@@ -59,7 +59,7 @@ Case study design is flexible: you can adjust it as you collect data. But **the 
 
 ### Step 1: State the objective and research questions
 
-First write a "how" or "why" research question, then derive study propositions from it (what you expect the study to show), and use the propositions to guide case selection and data collection[^easterbrook2008selecting-e12]. Your plan should at least cover: the objective, the case, the theory (frame of reference), the research questions, the data collection methods, and the selection strategy[^runeson2009guidelines-e27]. **Where people go wrong:** having only a vague interest ("I want to see how this company does testing") and no question. You end up recording everything and showing nothing. `[Our analysis]`
+First write a "how" or "why" research question, then derive study propositions from it (what you expect the study to show), and use the propositions to guide case selection and data collection[^easterbrook2008selecting-e12]. Your plan should at least cover: the objective, the case, the theory (frame of reference), the research questions, the data collection methods, and the selection strategy[^runeson2009guidelines-e27]. **Where people go wrong:** having only a vague interest ("I want to see how this company does testing") and no question. You end up recording everything and showing nothing.
 
 ### Step 2: Define the case and the unit of analysis
 
@@ -110,7 +110,7 @@ A **chain of evidence** means a reader can follow the path from the data you col
 
 "You only have one case, so how can you generalize?" In the software engineering methods literature this objection does not hold: case studies never aimed at statistical generalization. They aim at **analytical generalization**: extending the results to other cases with shared characteristics, that is, building theory[^runeson2009guidelines-e56]. The SIGSOFT standard explicitly lists "sample of one; findings not generalizable" as an invalid criticism: the purpose of a case study is to study one object in depth, and it should produce concepts that are transferable in principle[^ralph2020empirical-e433]. Sharp et al. quote a metaphor: one swallow does not make a summer, but one swallow is enough to prove that swallows exist, and careful dissection of one swallow can yield a great deal of reliable knowledge about swallow anatomy[^sharp2016role-e13].
 
-**How:** describe the site in detail[^ralph2020empirical-e419] so readers can judge whether your conclusions carry over to their own situation (transferability[^ralph2020empirical-e436]), and connect your conclusions to existing theory `[Our analysis]`. In confirmatory case studies, evidence builds up through later cases[^easterbrook2008selecting-e18].
+**How:** describe the site in detail[^ralph2020empirical-e419] so readers can judge whether your conclusions carry over to their own situation (transferability[^ralph2020empirical-e436]), and connect your conclusions to existing theory. In confirmatory case studies, evidence builds up through later cases[^easterbrook2008selecting-e18].
 
 ### Step 9: Report
 
@@ -131,7 +131,7 @@ The goal of ethnography is to understand how members of a group make sense of th
 
 **What participant observation looks like in software development.** Companies are often reluctant to let outsiders access their code repositories, so participant observation usually means taking a meaningful role in the team, such as taking on documentation work or helping the project with administrative support[^sharp2016role-e15][^sharp2016role-e16]. Observation almost always has to be complemented by interviews and document analysis[^sharp2016role-e14]. When you study open-source or geographically distributed teams, the online environment is also a field site[^sharp2016role-e18].
 
-**Field notes.** Observation has to leave a record. For example, Sharp and Robinson spent a week with an Extreme Programming team, and their data included field notes, meeting recordings, photographs, and copies of work artifacts[^runeson2009guidelines-e49]; you can also supplement observation notes with interviews[^easterbrook2008selecting-e21]. Practical advice `[Our analysis]`: write up your notes the same day, and keep "what I saw" separate from "how I interpret it", marking the latter as memos, so your chain of evidence can distinguish data from interpretation.
+**Field notes.** Observation has to leave a record. For example, Sharp and Robinson spent a week with an Extreme Programming team, and their data included field notes, meeting recordings, photographs, and copies of work artifacts[^runeson2009guidelines-e49]; you can also supplement observation notes with interviews[^easterbrook2008selecting-e21]. Practical advice: write up your notes the same day, and keep "what I saw" separate from "how I interpret it", marking the latter as memos, so your chain of evidence can distinguish data from interpretation.
 
 **The pros and cons of being an insider.** A researcher who knows software development can better understand practitioners' discussions and thinking[^sharp2016role-e25]. But it is also easy to take things for granted and judge others, and practitioners may expect you to give them guidance[^sharp2016role-e24][^sharp2016role-e19]. So be open about your research interests and intentions, and consider how the research will affect the team you observe[^sharp2016role-e20].
 
@@ -142,7 +142,7 @@ The goal of ethnography is to understand how members of a group make sense of th
 > - **A few weeks can be enough, and it is a kind of case study**: Sharp et al. argue that a few weeks usually produces good results, and that "it must take a long time" is a common misconception[^sharp2016role-e5]; their example lasted three weeks, one of them full-time observation[^sharp2016role-e6]. The SIGSOFT standard classifies ethnography under case studies[^ralph2020empirical-e417], and Runeson and Höst also see it as a special type of case study[^runeson2009guidelines-e21].
 > - **It may take much longer, and it is a different method**: Easterbrook et al. argue that participant observation requires the researcher to be accepted by the group as one of its own, which may take far longer than "a few weeks"[^easterbrook2008selecting-e22]; ethnography does not set out to prove hypotheses but to build local theory, and this stance sets it apart from the case study[^easterbrook2008selecting-e23].
 >
-> In practice: set the duration by your research question and the team's working rhythm. Sharp et al.'s example was planned around the team's three-week iterations[^sharp2016role-e6]. You do not have to be on site full-time; visiting on fewer days and starting analysis partway through is fine[^sharp2016role-e17]. In the paper, say how long you observed and in what role you took part. `[Our analysis]`
+> In practice: set the duration by your research question and the team's working rhythm. Sharp et al.'s example was planned around the team's three-week iterations[^sharp2016role-e6]. You do not have to be on site full-time; visiting on fewer days and starting analysis partway through is fine[^sharp2016role-e17]. In the paper, say how long you observed and in what role you took part.
 
 ---
 
@@ -155,13 +155,13 @@ For the general idea of validity, see [Validity and limitations](../02_do-the-pr
 > - **Keep the four kinds of validity**: Runeson and Höst know that some argue for a separate set of criteria for flexible-design research (credibility, transferability, and so on), but they choose to keep the established terms and reinterpret them for flexible designs[^runeson2009guidelines-e65]: construct validity, internal validity, external validity, and reliability[^runeson2009guidelines-e3][^runeson2009guidelines-e57][^runeson2009guidelines-e5][^runeson2009guidelines-e58].
 > - **Switch to qualitative criteria**: the SIGSOFT standard holds that case studies should be judged by qualitative criteria such as credibility, multivocality, reflexivity, rigor, and transferability; replicability, generalizability, and objectivity generally do not apply[^ralph2020empirical-e429].
 >
-> The two overlap: both ask you to say where bias may come from and how far your conclusions reach. In practice: choose the terminology your target community uses, and say in the paper which set you are using. `[Our analysis]` One point both sides agree on: **internal validity only needs discussing when you study causal relationships**[^runeson2009guidelines-e57][^ralph2020empirical-e434].
+> The two overlap: both ask you to say where bias may come from and how far your conclusions reach. In practice: choose the terminology your target community uses, and say in the paper which set you are using. One point both sides agree on: **internal validity only needs discussing when you study causal relationships**[^runeson2009guidelines-e57][^ralph2020empirical-e434].
 
 ---
 
 ## 5. Checklist
 
-The list below is based mainly on the Case Study and Ethnography standard in the SIGSOFT Empirical Standards, which serves as a review standard in software engineering; in other fields, follow your own field's conventions `[Our analysis]`.
+The list below is based mainly on the Case Study and Ethnography standard in the SIGSOFT Empirical Standards, which serves as a review standard in software engineering; in other fields, follow your own field's conventions.
 
 **Essential**
 

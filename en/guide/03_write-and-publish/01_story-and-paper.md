@@ -1,8 +1,8 @@
 # Telling the story and writing the paper
 
-> The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. The writing advice here comes mainly from the experience of computer scientists and from evaluation standards in computing, with a little from computational biology and from sources on statistical graphics. Treat it as advice, not rules every field must follow; where your target venue has its own conventions, those win `[Our analysis]`.
+> The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. The writing advice here comes mainly from the experience of computer scientists and from evaluation standards in computing, with a little from computational biology and from sources on statistical graphics. Treat it as advice, not rules every field must follow; where your target venue has its own conventions, those win.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Write your central claim in one sentence.** Check it against the one-page project summary and note what changed in the claim and why; cut or rewrite anything that doesn't support the main line ([Section 1](#1-find-the-story-one-central-claim)).
 > 2. **Build the outline before you write sentences.** One line per section, and in the results, make every subsection heading a one-sentence conclusion ([Section 2](#2-build-the-outline-before-writing-sentences)).
@@ -34,7 +34,7 @@ This chapter doesn't cover grammar or word choice, or the formatting rules of pa
 
 ## How to use this chapter
 
-The sections are roughly in the order you write, but in practice you will move back and forth: if you can't state the central claim while writing the abstract, go back to Section 1; if, while writing the results, you find a claim with no evidence behind it, cut it or go back and run the experiment (see "When to go back") `[Our analysis]`. Writing itself exposes holes in the research, and the earlier they show up, the better[^eisnerfirst-e6].
+The sections are roughly in the order you write, but in practice you will move back and forth: if you can't state the central claim while writing the abstract, go back to Section 1; if, while writing the results, you find a claim with no evidence behind it, cut it or go back and run the experiment (see "When to go back"). Writing itself exposes holes in the research, and the earlier they show up, the better[^eisnerfirst-e6].
 
 ---
 
@@ -46,7 +46,7 @@ That sentence is the paper's central claim (see [Key concepts](../00_start-here/
 
 It's fine not to know exactly what it is when you start, but you must be able to say it by the time you finish[^peytonjones2013write-e3]. Also state the **insight** that made the problem solvable: not your technical contribution itself, but the insight that leads to it[^black2024writing-e2].
 
-**Check it against the one-page summary from convergence.** The summary stated "the central claim I hope to show"; once results are in, it often needs to change, and restating your claim to match what you actually achieved is very common[^shaw2003writing-e17]. For how to revise it to fit the evidence, see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim). For example, if only two benchmarks have severe leakage, write the claim as "on two commonly used benchmarks, leakage substantially inflates accuracy", not "high accuracy comes mainly from leakage" `[Our analysis]`.
+**Check it against the one-page summary from convergence.** The summary stated "the central claim I hope to show"; once results are in, it often needs to change, and restating your claim to match what you actually achieved is very common[^shaw2003writing-e17]. For how to revise it to fit the evidence, see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md#7-when-the-evidence-doesnt-match-the-claim-change-the-claim). For example, if only two benchmarks have severe leakage, write the claim as "on two commonly used benchmarks, leakage substantially inflates accuracy", not "high accuracy comes mainly from leakage".
 
 **Use the central claim as a filter.** Anything that doesn't support the main line, however correct it is and however much work it cost you, gets cut or rewritten[^ernstwrite-e9]. Readers usually take away only a few sentences, so choose those sentences deliberately[^nanda2025writing-e2].
 
@@ -64,7 +64,7 @@ It's fine not to know exactly what it is when you start, but you must be able to
 
 **Put your effort where most readers look.** The title, abstract and figures are seen most; the methods section is read least. Weight your time accordingly[^mensh2017ten-e9]. And don't allocate space by how much time you spent: the part that took you longest isn't necessarily the part readers most need[^ernstwrite-e3].
 
-Using the leakage-measurement example, an outline might look like this `[Our analysis]`:
+Using the leakage-measurement example, an outline might look like this:
 
 ```
 Central claim: on two commonly used benchmarks, data leakage substantially inflates the accuracy of large-language-model vulnerability detection
@@ -111,7 +111,7 @@ For beginners, the introduction is often the hardest part to write[^huang2023int
 4. **Why hasn't it been solved before?** Where existing solutions fall short, and how yours differs. Make clear why existing solutions are unsatisfactory[^huang2023introduction-e2]. If you can include a figure that uses a concrete example to show the core problem with existing work, that works best[^huang2023introduction-e5].
 5. **What are the key elements of your approach and results?** Including specific limitations. The last paragraph of the introduction briefly summarizes the results and explains how they fill the gap set out earlier[^mensh2017ten-e18].
 
-**Then list your contributions.** Write the main contributions as a bulleted list, noting which section each is in[^widomtips-e3]. The rest of the paper exists to back up this list[^peytonjones2013write-e4]. A contribution (what this research adds to the field; see [Key concepts](../00_start-here/key-concepts.md#contribution)) is anything the world did not know before this paper but now knows because of it[^vandeursen2013writing-e1]; it is an outcome, not the effort you put in[^vandeursen2013writing-e2]. Each contribution should be specific enough to be refutable[^peytonjones2013write-e5]. The numbers and wording in the table below are illustrative `[Our analysis]`:
+**Then list your contributions.** Write the main contributions as a bulleted list, noting which section each is in[^widomtips-e3]. The rest of the paper exists to back up this list[^peytonjones2013write-e4]. A contribution (what this research adds to the field; see [Key concepts](../00_start-here/key-concepts.md#contribution)) is anything the world did not know before this paper but now knows because of it[^vandeursen2013writing-e1]; it is an outcome, not the effort you put in[^vandeursen2013writing-e2]. Each contribution should be specific enough to be refutable[^peytonjones2013write-e5]. The numbers and wording in the table below are illustrative:
 
 | Written as effort (weak) | Written as outcome (strong) |
 |---|---|
@@ -120,7 +120,7 @@ For beginners, the introduction is often the hardest part to write[^huang2023int
 
 **Separate what is new from what isn't.** Not everything you built is new; much of it may rest on existing methods, so state explicitly which parts are your contribution[^huang2023introduction-e4], and keep background material apart from your own contributions[^vandeursen2013writing-e3]. Especially in the introduction and related work, be very clear about what is new and what isn't[^nanda2025writing-e7]. Don't write a general literature review in the introduction; include only what bears on the motivation[^mensh2017ten-e6].
 
-> **Field differences**: Listing contributions one by one with section numbers, and the idea that "a clear new important technical contribution should have been articulated by the time the reader finishes page 3"[^widomtips-e6], both come from computer scientists' writing advice. `[Our analysis]` They are mainly conventions of computer science and engineering conference papers. Many journals and fields have a fixed structure and don't necessarily list contributions as bullets. But "readers should quickly see what is new" applies in every field. Before you start, look at how recent papers at your target venue are written.
+> **Field differences**: Listing contributions one by one with section numbers, and the idea that "a clear new important technical contribution should have been articulated by the time the reader finishes page 3"[^widomtips-e6], both come from computer scientists' writing advice. Our reading is that they are mainly conventions of computer science and engineering conference papers. Many journals and fields have a fixed structure and don't necessarily list contributions as bullets. But "readers should quickly see what is new" applies in every field. Before you start, look at how recent papers at your target venue are written.
 
 **Write it down:** Write one or two sentences for each of the five questions. Then write your list of contributions, each starting with "We find / We prove / We present", with the section number.
 
@@ -128,9 +128,9 @@ For beginners, the introduction is often the hardest part to write[^huang2023int
 
 Related work is not there to prove "I've read a lot of papers". It explains how your work relates to existing work: whether you build on it and push it further, or offer a different approach[^shaw2003writing-e1]. If you don't make this clear, reviewers can't see what new knowledge you add; and if they can't tell whether you know the related work, your credibility suffers[^shaw2003writing-e4].
 
-**Write specific comparisons, not a string of citations.** Weak versions are "this problem has received much attention [3,8,10,18,26]" or "A and B have studied this problem"[^shaw2003writing-e2]; a strong version says specifically how far each piece of work got, where its limits are, and where exactly you differ[^shaw2003writing-e3]. The comparison table you drew in [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it) is exactly this kind of content; the related work section turns it into prose `[Our analysis]`.
+**Write specific comparisons, not a string of citations.** Weak versions are "this problem has received much attention [3,8,10,18,26]" or "A and B have studied this problem"[^shaw2003writing-e2]; a strong version says specifically how far each piece of work got, where its limits are, and where exactly you differ[^shaw2003writing-e3]. The comparison table you drew in [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it) is exactly this kind of content; the related work section turns it into prose.
 
-- **Choose a reasonable number of works, and synthesize rather than list.** You don't need to cite every related study[^ralph2020empirical-e19]. Group the work by approach, connect each group to your own work, and explain how your contribution relates to it[^ralph2020empirical-e20]. In the contract example, you might use three groups: "how vulnerability benchmarks are built", "how far existing leakage checks go", and "how large-language-model vulnerability detection is evaluated", with the last sentence of each group saying "this paper differs on this point" `[Our analysis]`.
+- **Choose a reasonable number of works, and synthesize rather than list.** You don't need to cite every related study[^ralph2020empirical-e19]. Group the work by approach, connect each group to your own work, and explain how your contribution relates to it[^ralph2020empirical-e20]. In the contract example, you might use three groups: "how vulnerability benchmarks are built", "how far existing leakage checks go", and "how large-language-model vulnerability detection is evaluated", with the last sentence of each group saying "this paper differs on this point".
 - **Don't mention work only to say it isn't relevant, and don't list without synthesizing**[^ralph2020empirical-e21].
 - **Give credit generously.** Acknowledging others' contributions doesn't take away from yours[^peytonjones2013write-e11].
 
@@ -139,33 +139,33 @@ Related work is not there to prove "I've read a lot of papers". It explains how 
 > - Late: describing other people's approaches first gets in the way between the reader and your idea[^peytonjones2013write-e8].
 > - It depends; both can work: put it early if it can be short and specific, or if you must distinguish yourself from existing work right at the start[^widomtips-e4]; put it late if you can summarize it briefly in the introduction, or if the comparisons only make sense after the technical content[^widomtips-e9].
 >
-> Either way, the introduction must make clear how you differ from the closest work[^nanda2025writing-e7]. `[Our analysis]` Check your target venue's conventions first, then ask yourself: do readers need to understand your method before these comparisons make sense?
+> Either way, the introduction must make clear how you differ from the closest work[^nanda2025writing-e7]. Check your target venue's conventions first, then ask yourself: do readers need to understand your method before these comparisons make sense?
 
 **Write it down:** Rewrite the comparison table as two or three paragraphs of related work, each ending with a sentence on "this paper differs on this point".
 
 ## 6. Methods and results: write them so others can check them
 
-**Methods: intuition first, then details.** Conveying the intuition is primary, not secondary[^peytonjones2013write-e9]. You might first walk one concrete contract through your decision procedure, then give the full definition `[Our analysis]`. The details must be complete enough for someone else to redo the work. One of the essential requirements in the software engineering empirical standards for benchmarking studies is describing the experimental setup in enough detail for others to reproduce it independently[^ralph2020empirical-e148]. A systematization-of-knowledge paper on benchmarking flaws in systems security lists common omissions including the hardware platform, software versions, and results for individual sub-benchmarks[^vanderkouwe2019sok-e13]. For work with large language models, also state the model versions, when you queried them, and the exact prompts `[Our analysis]`.
+**Methods: intuition first, then details.** Conveying the intuition is primary, not secondary[^peytonjones2013write-e9]. You might first walk one concrete contract through your decision procedure, then give the full definition. The details must be complete enough for someone else to redo the work. One of the essential requirements in the software engineering empirical standards for benchmarking studies is describing the experimental setup in enough detail for others to reproduce it independently[^ralph2020empirical-e148]. A systematization-of-knowledge paper on benchmarking flaws in systems security lists common omissions including the hardware platform, software versions, and results for individual sub-benchmarks[^vanderkouwe2019sok-e13]. For work with large language models, we suggest also stating the model versions, when you queried them, and the exact prompts.
 
 **Results: each paragraph answers one question.** Open each paragraph with a sentence or two posing the question it answers, give the data and reasoning in the middle, and end with the answer. That way readers can easily find which paragraph a doubtful conclusion comes from and check its logic[^mensh2017ten-e20].
 
 **Point every claim to its evidence.** Go through the claims in your introduction one by one, find the evidence for each, and note at the claim which section the evidence is in[^peytonjones2013write-e6]. The evidence has to match the claim: if you claim a performance improvement, analyze performance, not ease of use[^shaw2003writing-e12].
 
-**Carry the wording you checked during analysis into the paper unchanged.** For how strongly to word a claim and how much evidence that needs, see [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove); for how to report results (how big, how certain, not just the best run), see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value); for how far conclusions can reach and how to keep speculation apart from evidence, see [Section 6](../02_do-the-project/07_analyze-and-interpret.md#6-how-far-your-conclusions-can-reach) of the same chapter. The easiest mistake to make while writing is overstating things again as you polish `[Our analysis]`. In tables, give results for each sub-benchmark, not just an overall score[^heiserbenchmarking-e18]; when you give relative numbers, give absolute numbers too, so readers can judge whether the configuration is reasonable[^vanderkouwe2019sok-e23]. Go easy on self-assessments like "novel", "significant" or "best"; state the facts and let readers judge[^ernstwrite-e7].
+**Carry the wording you checked during analysis into the paper unchanged.** For how strongly to word a claim and how much evidence that needs, see [Converging on a project](../01_find-a-problem/05_converge.md#1-write-down-the-sentence-you-want-to-prove); for how to report results (how big, how certain, not just the best run), see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md#3-report-how-big-and-how-certain-not-just-the-p-value); for how far conclusions can reach and how to keep speculation apart from evidence, see [Section 6](../02_do-the-project/07_analyze-and-interpret.md#6-how-far-your-conclusions-can-reach) of the same chapter. The easiest mistake to make while writing is overstating things again as you polish. In tables, give results for each sub-benchmark, not just an overall score[^heiserbenchmarking-e18]; when you give relative numbers, give absolute numbers too, so readers can judge whether the configuration is reasonable[^vanderkouwe2019sok-e23]. Go easy on self-assessments like "novel", "significant" or "best"; state the facts and let readers judge[^ernstwrite-e7].
 
 **Write it down:** Copy every claim from your introduction into one column, and next to each write the figure, table or section that supports it. Cut or weaken any claim you can't find evidence for.
 
 ## 7. Figures and tables: the title states the conclusion, the caption explains the method
 
-Many readers go straight from the abstract to the figures. So **a figure's title should state the conclusion of the analysis, and its caption should explain how it was done**[^mensh2017ten-e19]. For example, instead of "Figure 3: Accuracy of each model", write "Figure 3: After removing leaked samples, accuracy drops substantially on both benchmarks" `[Our analysis]`.
+Many readers go straight from the abstract to the figures. So **a figure's title should state the conclusion of the analysis, and its caption should explain how it was done**[^mensh2017ten-e19]. For example, instead of "Figure 3: Accuracy of each model", write "Figure 3: After removing leaked samples, accuracy drops substantially on both benchmarks".
 
 **The caption must state** what the error bars are (standard deviation, standard error, or confidence interval)[^cumming2007error-e1], and the sample size n, that is, the number of independent replicates[^cumming2007error-e2].
 
 **Let readers see the data itself.** Bar charts of means with error bars can hide the real distribution of the data: many different distributions produce the exact same bar chart[^weissgerber2015beyond-e1]. When there are few data points, it is best to plot every point[^weissgerber2015beyond-e3][^cumming2007error-e5]. Plotting the standard error rather than the standard deviation visually exaggerates differences between groups[^weissgerber2015beyond-e5]. Reporting only the mean or median can mislead readers; report the distribution as well[^blackburn2018sigplan-e8]. Choose colors everyone can read, too: red-green color schemes with similar lightness can't be read by a large fraction of readers[^crameri2020misuse-e4].
 
-**Consider a "why" figure as well.** Put a figure in the introduction that uses a concrete example to show the core problem with existing work[^huang2023introduction-e5]. In the contract example, you could place a benchmark contract side by side with the nearly identical one in the model's training data `[Our analysis]`.
+**Consider a "why" figure as well.** Put a figure in the introduction that uses a concrete example to show the core problem with existing work[^huang2023introduction-e5]. In the contract example, you could place a benchmark contract side by side with the nearly identical one in the model's training data.
 
-**Start from the empty tables you drew while planning.** If you sketched empty results tables during planning, with row and column headings and captions[^eisnerfirst-e5], now is the time to fill them in and then rewrite them so the title states the conclusion `[Our analysis]`.
+**Start from the empty tables you drew while planning.** If you sketched empty results tables during planning, with row and column headings and captions[^eisnerfirst-e5], now is the time to fill them in and then rewrite them so the title states the conclusion.
 
 **Write it down:** Write a one-sentence "conclusion title" for every figure and table in the paper. Check every caption: does it say what the error bars are and what n is?
 
@@ -175,7 +175,7 @@ Many readers go straight from the abstract to the figures. So **a figure's title
 
 **Write the limitations, and write the ones that actually matter.** The empirical standards of the Association for Computing Machinery Special Interest Group on Software Engineering (ACM SIGSOFT) list "discloses all major limitations" as essential[^ralph2020empirical-e18], and "describes reasonable attempts to investigate or mitigate limitations" as desirable[^ralph2020empirical-e51]. For why listing only trivial limitations misleads, see [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md#6-how-far-your-conclusions-can-reach).
 
-**How to find the real limitations:** Start from the list of limitations you wrote at the design stage (see [Validity and limitations: think them through at the design stage](../02_do-the-project/04_validity-and-limits.md#8-write-your-limitations-now-and-set-rules-for-honest-reporting)), then ask yourself: suppose I am wrong; where would I be wrong[^nanda2025writing-e4]? In the contract example, you might ask: what might the leakage method miss, and does a contract with renamed variables count as leaked? For models whose training data isn't public, how did you decide? You looked only at four benchmarks and a handful of models; how far do the conclusions generalize `[Our analysis]`?
+**How to find the real limitations:** Start from the list of limitations you wrote at the design stage (see [Validity and limitations: think them through at the design stage](../02_do-the-project/04_validity-and-limits.md#8-write-your-limitations-now-and-set-rules-for-honest-reporting)), then ask yourself: suppose I am wrong; where would I be wrong[^nanda2025writing-e4]? In the contract example, you might ask: what might the leakage method miss, and does a contract with renamed variables count as leaked? For models whose training data isn't public, how did you decide? You looked only at four benchmarks and a handful of models; how far do the conclusions generalize?
 
 **Keep limitations and conclusions consistent.** Don't admit sampling bias in the limitations and then claim in the conclusion that the results are nearly universal[^baltes2022sampling-e9]. Neither overstate nor understate your results[^zhang2014ten-e4].
 
@@ -185,7 +185,7 @@ Many readers go straight from the abstract to the figures. So **a figure's title
 
 Different research strategies (the main logic by which a project produces new knowledge; see [Key concepts](../00_start-here/key-concepts.md#research-strategy)) give readers different standards for judging "is this enough?". When you write, let readers **see at a glance what kind of knowledge you are delivering, and that you meet its standards**. If reviewers can't tell whether you are proposing a new evaluation technique, applying an old technique to a new example, or evaluating a mature technique, you haven't written it clearly enough[^shaw2003writing-e31].
 
-What evidence each strategy requires is set out in the "What evidence is enough" section of each strategy page: [Description](../05_research-strategies/observe_describe.md#2-what-evidence-is-enough), [Measurement](../05_research-strategies/measure.md#2-what-evidence-is-enough), [Comparative evaluation](../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough), [Causal explanation](../05_research-strategies/explain_causality.md#2-what-evidence-is-enough), [Building and improving](../05_research-strategies/build_improve.md#2-what-evidence-is-enough), [Synthesis](../05_research-strategies/synthesize.md#2-what-evidence-is-enough), and [Proof](../05_research-strategies/prove.md#2-what-evidence-is-enough). Once you have a draft, check the paper item by item against your strategy's list, and give every requirement a definite place in the paper: which section, which figure or table, rather than leaving readers to piece it together from scattered bits `[Our analysis]`. Our example is a Measurement study: the claim is "existing evaluations overestimate accuracy". The first question readers will ask is "is your method for detecting leakage reliable?", so Section 3 needs to establish that on its own, not mention it in passing in an appendix `[Our analysis]`.
+What evidence each strategy requires is set out in the "What evidence is enough" section of each strategy page: [Description](../05_research-strategies/observe_describe.md#2-what-evidence-is-enough), [Measurement](../05_research-strategies/measure.md#2-what-evidence-is-enough), [Comparative evaluation](../05_research-strategies/compare_evaluate.md#2-what-evidence-is-enough), [Causal explanation](../05_research-strategies/explain_causality.md#2-what-evidence-is-enough), [Building and improving](../05_research-strategies/build_improve.md#2-what-evidence-is-enough), [Synthesis](../05_research-strategies/synthesize.md#2-what-evidence-is-enough), and [Proof](../05_research-strategies/prove.md#2-what-evidence-is-enough). Once you have a draft, check the paper item by item against your strategy's list, and give every requirement a definite place in the paper: which section, which figure or table, rather than leaving readers to piece it together from scattered bits. Our example is a Measurement study: the claim is "existing evaluations overestimate accuracy". The first question readers will ask is "is your method for detecting leakage reliable?", so Section 3 needs to establish that on its own, not mention it in passing in an appendix.
 
 **Write it down:** Write down which strategy your paper belongs to. Open that strategy page, list the evidence it requires, and next to each item write which section and which figure or table of your paper meets it.
 
@@ -195,10 +195,10 @@ What evidence each strategy requires is set out in the "What evidence is enough"
 
 **Be willing to cut.** Deleting a whole paragraph and rewriting it is often faster than tweaking it bit by bit[^mensh2017ten-e10]. Make every word count[^ernstwrite-e10]. When you revise, put yourself fully in the reviewer's position and examine every part carefully[^zhang2014ten-e5].
 
-**Then ask others to read it.** After months immersed in the project, it is easy to assume readers know what you know; this is the "illusion of transparency"[^nanda2025writing-e5]. Only feedback from other people can help you catch it `[Our analysis]`.
+**Then ask others to read it.** After months immersed in the project, it is easy to assume readers know what you know; this is the "illusion of transparency"[^nanda2025writing-e5]. Only feedback from other people can help you catch it.
 
-- **Use your readers carefully.** Each reader can read your paper for the first time only once[^peytonjones2013write-e10]; someone who has read it once already knows what you are trying to say on the second pass[^raibert1985good-e6]. So ask different people to read it at different stages `[Our analysis]`.
-- **Ask the right question.** Ask readers to tell you "where did you get lost?"; that matters far more than catching typos `[Our analysis]`.
+- **Use your readers carefully.** Each reader can read your paper for the first time only once[^peytonjones2013write-e10]; someone who has read it once already knows what you are trying to say on the second pass[^raibert1985good-e6]. So ask different people to read it at different stages.
+- **Ask the right question.** Ask readers to tell you "where did you get lost?"; that matters far more than catching typos.
 - **Trust your readers' confusion.** When a reader says they don't understand, don't argue; go fix that part[^raibert1985good-e4]. Vague feedback, or readers who aren't very excited, usually means they missed the main line[^mensh2017ten-e14].
 - **Return the favor.** Offer to read other people's drafts[^vandeursen2013writing-e5].
 
@@ -211,7 +211,7 @@ For the final check before submission (proofreading, anticipating reviewers' que
 > - Some prefer to write them last, because by then the body is finished and you just describe it[^ernstwrite-e11].
 > - Others argue for writing them early: the abstract and introduction frame the whole paper, so write them early and revise as needed[^ernstwrite-e6]; you can even write the introduction before you have results[^black2024writing-e4].
 >
-> `[Our analysis]` For beginners, we suggest writing a rough version early, to test your thinking and discuss with your advisor; once the body is done, rewrite it to match the actual results.
+> For beginners, we suggest writing a rough version early, to test your thinking and discuss with your advisor; once the body is done, rewrite it to match the actual results.
 
 **Write it down:** List two or three people you could ask to read your draft, and for each, note at what stage they will read it and what you want them to focus on. After each round of feedback, record what you changed.
 
@@ -219,7 +219,7 @@ For the final check before submission (proofreading, anticipating reviewers' que
 
 ## Judgment calls
 
-**The results don't match the original claim: change the claim or run more experiments?** `[Our analysis]`
+**The results don't match the original claim: change the claim or run more experiments?**
 
 | Situation | Usual approach |
 |---|---|
@@ -228,7 +228,7 @@ For the final check before submission (proofreading, anticipating reviewers' que
 | The results are the opposite of what you expected, but the evidence is solid | Rewrite the story around the new finding |
 | You have evidence for two main lines, but they are unrelated | Split them into two papers, or write up only one |
 
-**What goes in the main text, what goes in an appendix, and what gets cut?** Ask one question: does it support the central claim? If it does, it goes in the main text; if readers need it to check the evidence but it doesn't affect the main line, it goes in an appendix; if neither, cut it `[Our analysis]`.
+**What goes in the main text, what goes in an appendix, and what gets cut?** Ask one question: does it support the central claim? If it does, it goes in the main text; if readers need it to check the evidence but it doesn't affect the main line, it goes in an appendix; if neither, cut it.
 
 ## Common mistakes
 

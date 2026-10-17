@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Ask four quick questions of every entry on your list.** Can you state it clearly? Can you see a way in? Is it beaten by another entry? Does it suit you? Spend only a few minutes on each; this is not the place to check for prior work or work out the evidence ([Section 1](#1-quick-first-screen-ask-four-things-of-each-entry)).
 > 2. **Check whether it suits you.** Do you keep coming back to it? Do you have an edge? At a glance, are the resources enough? Can your advisor help ([Section 2](#2-does-it-suit-you-interest-ability-resources-advisors-direction))?
@@ -21,7 +21,7 @@ There are about ten entries on your list, and you can't go deep on all of them. 
 
 Run a **cheap, fast screen** over the **many** ideas on your list and keep two to four to take into the next chapter.
 
-It does a different job from the next chapter, [Converging on a project](05_converge.md) `[Our analysis]`:
+It does a different job from the next chapter, [Converging on a project](05_converge.md):
 
 | | Judging and screening (this chapter) | Converging on a project (next chapter) |
 |---|---|---|
@@ -34,18 +34,18 @@ It does a different job from the next chapter, [Converging on a project](05_conv
 
 ## 1. Quick first screen: ask four things of each entry
 
-This step takes only an hour or two. The aim isn't to pick your final topic; it's to cross out the ideas that clearly aren't worth deeper thought `[Our analysis]`.
+This step takes only an hour or two. The aim isn't to pick your final topic; it's to cross out the ideas that clearly aren't worth deeper thought.
 
-**For each idea, quickly ask four things** `[Our analysis]`:
+**For each idea, quickly ask four things**:
 
 1. **Can you say in one sentence what is wrong?** If not, leave it on the list to keep thinking about, but keep it out of this round.
 2. **Can you see a way in?** Hamming put it this way: what makes a problem important isn't how big the result would be, but that you have a reasonable attack on it[^hamming1986you-e2]. If you can't even think of a first step, set it aside.
 3. **Is it beaten across the board by another entry?** If A is better than B on both feasibility and value, you can cross out B[^alon2009choose-e6]. A rough look is enough; you don't need to score them.
 4. **Does it suit you?** Look at interest, ability, resources, and your advisor's direction; see Section 2.
 
-For ideas you have explored hands-on, you can answer these four questions on firmer ground. For ones you haven't had time to try, a rough call based on what you know now is fine; if you can't decide on one that looks promising, go back to [Exploring hands-on](03_explore.md) and try it before you screen `[Our analysis]`.
+For ideas you have explored hands-on, you can answer these four questions on firmer ground. For ones you haven't had time to try, a rough call based on what you know now is fine; if you can't decide on one that looks promising, go back to [Exploring hands-on](03_explore.md) and try it before you screen.
 
-**What this step doesn't do.** It doesn't settle "has anyone done this already?", doesn't work out "what evidence would I need?", and doesn't do a detailed count of data and compute. Those are what [Converging on a project](05_converge.md) does carefully for the two to four candidates. In the first screen, spend only a few minutes on each entry `[Our analysis]`.
+**What this step doesn't do.** It doesn't settle "has anyone done this already?", doesn't work out "what evidence would I need?", and doesn't do a detailed count of data and compute. Those are what [Converging on a project](05_converge.md) does carefully for the two to four candidates. In the first screen, spend only a few minutes on each entry.
 
 **Write it down:** For every idea on your list, write a short answer to each of the four questions.
 
@@ -55,10 +55,10 @@ An idea that is a good topic for someone else isn't necessarily a good one for y
 
 - **Interest: do you keep coming back to it?** Ask yourself: if I were the only person on earth, which of these would I work on[^alon2009choose-e12]? An idea that keeps coming back to your mind over months is a good sign of real interest[^alon2009choose-e13]. Learn to tell two voices apart: the loud voice of the people around you, at conferences and in your department, saying "this is important", and the faint voice inside you saying "this is interesting to me"[^alon2009choose-e11]. Don't pile onto the hottest problems[^huang2023decide-e1]. Forcing yourself to work on a topic that doesn't excite you, even if you intellectually think it's more important, makes you a lot less effective[^olah2021taste-e3].
 - **Ability: do you have an edge here?** How long a problem takes depends on the skills of the people doing it and on what their lab can do[^alon2009choose-e2]. Know your unfair advantages over others[^huang2023decide-e1]. If you are very good at a less "important" problem, you may contribute more than by working on one you're not good at[^carlini2026best-e11]. When you are just starting out in research, an easier problem is better, because you get positive feedback sooner[^alon2009choose-e7].
-- **Resources: are data, compute, and time roughly enough?** Only a rough look here: cross out anything you can see at a glance you can't do, such as training a large language model from scratch when you have one GPU. Save the detailed feasibility check for [Converging on a project](05_converge.md#5-can-you-actually-do-it) `[Our analysis]`.
-- **Advisor's direction: can your advisor help you?** Relying heavily on an advisor or an established research direction early in your career is normal[^nanda2025taste-e9]. There is no shame in working on an idea an experienced person suggested[^schulman2020opinionated-e4]. But your advisor's view is input, not a verdict: advisors usually have good research instincts, but you know far more about your own specific problem than they do[^nanda2025mindsets-e15]. If an idea is far from your advisor's direction, first talk it through and find out whether they are willing to support it `[Our analysis]`.
+- **Resources: are data, compute, and time roughly enough?** Only a rough look here: cross out anything you can see at a glance you can't do, such as training a large language model from scratch when you have one GPU. Save the detailed feasibility check for [Converging on a project](05_converge.md#5-can-you-actually-do-it).
+- **Advisor's direction: can your advisor help you?** Relying heavily on an advisor or an established research direction early in your career is normal[^nanda2025taste-e9]. There is no shame in working on an idea an experienced person suggested[^schulman2020opinionated-e4]. But your advisor's view is input, not a verdict: advisors usually have good research instincts, but you know far more about your own specific problem than they do[^nanda2025mindsets-e15]. If an idea is far from your advisor's direction, first talk it through and find out whether they are willing to support it.
 
-An example from "large language models and smart contract security" `[Our analysis]`:
+An example from "large language models and smart contract security":
 
 | Idea | Result of the four questions | Keep or drop |
 |---|---|---|
@@ -82,7 +82,7 @@ This ability is often called "research taste": roughly, the ability to choose go
 
 ## Judgment calls
 
-**How many should you keep?** Here's one way to decide `[Our analysis]`:
+**How many should you keep?** Here's one way to decide:
 
 | Situation | What to do |
 |---|---|
@@ -95,11 +95,11 @@ This ability is often called "research taste": roughly, the ability to choose go
 
 | Mistake | Why it's a problem |
 |---|---|
-| Thinking every entry through in depth during the first screen | Time goes into ideas that will be crossed out anyway; save the in-depth checks for the next chapter `[Our analysis]` |
+| Thinking every entry through in depth during the first screen | Time goes into ideas that will be crossed out anyway; save the in-depth checks for the next chapter |
 | Judging only whether the idea is good, not whether it suits you | How long a problem takes depends on your skills and resources[^alon2009choose-e2] |
 | Chasing the hottest research area | Don't pile onto the hottest problems[^huang2023decide-e1]; outside the hottest area it is actually much easier to stand out[^carlini2026best-e12] |
 | Picking only to your advisor's taste | You know more about your own specific problem and can make your own call[^nanda2025mindsets-e15] |
-| Crossing out ideas without writing down why | Later you can't tell why you set them aside, and you can't learn from it `[Our analysis]` |
+| Crossing out ideas without writing down why | Later you can't tell why you set them aside, and you can't learn from it |
 
 ## What you should have at the end
 

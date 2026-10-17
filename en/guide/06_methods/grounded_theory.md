@@ -4,7 +4,7 @@ This page covers **grounded theory** research. Instead of starting from a hypoth
 
 Most grounded theory data comes from interviews. For how to design and run the interviews themselves, and for the quality criteria and validation practices that all qualitative research shares, see [Interview studies](interview_study.md). If you only want an in-depth description of one particular organization or project, see [Case studies](case_study.md). This page covers only what is specific to grounded theory: the schools, theoretical sampling, constant comparison, memos, theoretical saturation, and producing a theory.
 
-**Scope** `[Our analysis]`: The standards and examples here come mainly from software engineering. They rest on Stol et al.'s review of, and recommendations for, grounded theory studies in software engineering, and on the grounded theory standard in the Empirical Standards of ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering). Grounded theory itself originated in sociology and is also widely used in nursing, management and other fields; if you are doing grounded theory in another field, start with your field's conventions and the methods books of the school you choose. This handbook does not yet have a field-specific grounded theory page for other fields. For how sociology views this kind of research, start with the [sociology field overview](../07_fields/sociology/README.md#research-methods-common-in-this-field).
+**Scope**: The standards and examples here come mainly from software engineering. They rest on Stol et al.'s review of, and recommendations for, grounded theory studies in software engineering, and on the grounded theory standard in the Empirical Standards of ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering). Grounded theory itself originated in sociology and is also widely used in nursing, management and other fields; if you are doing grounded theory in another field, start with your field's conventions and the methods books of the school you choose. This handbook does not yet have a field-specific grounded theory page for other fields. For how sociology views this kind of research, start with the [sociology field overview](../07_fields/sociology/README.md#research-methods-common-in-this-field).
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md).
 
@@ -21,9 +21,9 @@ Most grounded theory data comes from interviews. For how to design and run the i
 
 Grounded theory is a method for **inductively generating theory from data**[^stol2016grounded-e2]. Its aim is to generate theory, not to test existing theory; it suits questions of the "what is going on here?" kind[^stol2016grounded-e1]. "Theory" here means a set of concepts and the relationships between them that explains some phenomenon[^stol2016grounded-e17].
 
-**When it fits** `[Our analysis, based on the sources below]`:
+**When it fits** (our synthesis of the sources below):
 
-- You care about people and organizations: how developers, teams or users do things, and why. Software engineering pays more and more attention to the social, cultural and human sides of software development, and grounded theory is considered well suited to studying them[^stol2016grounded-e25]. The same reasoning holds in systems, security, machine learning and other areas of computer science whenever what you study is a human practice (for example, how operations teams handle incidents, or how machine learning engineers debug models). `[Our analysis]`
+- You care about people and organizations: how developers, teams or users do things, and why. Software engineering pays more and more attention to the social, cultural and human sides of software development, and grounded theory is considered well suited to studying them[^stol2016grounded-e25]. The same reasoning holds in systems, security, machine learning and other areas of computer science whenever what you study is a human practice (for example, how operations teams handle incidents, or how machine learning engineers debug models).
 - The area has no ready-made theory you could use, and you first want to understand what is going on.
 - You can accept that your research question will change along the way: the SIGSOFT Empirical Standards define grounded theory as research that explores a broad area **without a specific research question fixed in advance**[^ralph2020empirical-e316].
 
@@ -47,7 +47,7 @@ Watch out: the same term can mean different things in different schools. "Select
 
 **Pick one, and keep to it in your design, analysis and writing.** Stol et al. reviewed 52 software engineering journal papers that claimed to use grounded theory: 39 never mentioned that different schools exist, and some claimed to follow the classic version while using Straussian axial coding[^stol2016grounded-e26]. The SIGSOFT standard makes "state which school you used" an essential attribute[^ralph2020empirical-e317]; if you departed from a school or combined schools, explain how and why[^ralph2020empirical-e321].
 
-The steps below use the terms of **constructivist grounded theory**. It lets you start with an initial research question and read literature as needed[^stol2016grounded-e5][^stol2016grounded-e6], which makes it easier to put into practice for a graduate student who has to write a thesis proposal `[Our analysis]`. If you choose another school, swap in its counterparts from the table above.
+The steps below use the terms of **constructivist grounded theory**. It lets you start with an initial research question and read literature as needed[^stol2016grounded-e5][^stol2016grounded-e6]; we chose it because it is easier to put into practice for a graduate student who has to write a thesis proposal. If you choose another school, swap in its counterparts from the table above.
 
 ---
 
@@ -65,7 +65,7 @@ Grounded theory is not a straight line but a cycle: **collect a little data → 
 
 **How:**
 
-- Write down your area of interest and initial research question, for example "how do open-source maintainers decide whether to accept or reject outside contributions?" `[Our analysis]`
+- Write down your area of interest and initial research question, for example "how do open-source maintainers decide whether to accept or reject outside contributions?"
 - Decide how much literature to read and when, according to your school[^stol2016grounded-e6]. Whatever the school, **don't take a ready-made classification from the literature and sort your data into it**.
 
 **Why:** Limiting your reading is meant to stop you from testing existing theory without realizing it, or from thinking in borrowed concepts[^stol2016grounded-e7]. Setting up preliminary categories from the literature and then "combining them with grounded theory methods" is highly questionable[^stol2016grounded-e27]; an analysis that starts from "seed categories" or a predefined framework is not grounded theory[^stol2016grounded-e19].
@@ -82,7 +82,7 @@ For how to search the literature in general, see [Entering a field and exploring
 
 ### Step 3: Coding
 
-Constructivist grounded theory has three kinds of coding[^stol2016grounded-e8]. Stol et al. point out that describing coding as three sharply separated phases is not what Glaser or Strauss intended[^stol2016grounded-e28]; the three constructivist kinds also alternate, and later coding sends you back to revise earlier results as new data comes in `[Our analysis]`:
+Constructivist grounded theory has three kinds of coding[^stol2016grounded-e8]. Stol et al. point out that describing coding as three sharply separated phases is not what Glaser or Strauss intended[^stol2016grounded-e28]; our reading is that the three constructivist kinds also alternate, and later coding sends you back to revise earlier results as new data comes in:
 
 1. **Initial coding**: Read the data word by word, line by line or incident by incident, and give each small piece a label describing what it says, keeping your own assumptions out as far as you can[^stol2016grounded-e8].
 2. **Focused coding**: Pick the most frequent or most significant codes as categories, and use them to sort larger amounts of data[^stol2016grounded-e8].
@@ -95,7 +95,7 @@ Constructivist grounded theory has three kinds of coding[^stol2016grounded-e8]. 
 
 ### Step 4: Constant comparison
 
-**How:** From the very start, keep comparing new data with old data, codes with codes, categories with data, and memos with categories[^stol2016grounded-e13]. For example: when a new interviewee says "I reject contributions because of the maintenance cost", is that the same thing as your existing category "worried about code quality", or a different category? `[Our analysis]`
+**How:** From the very start, keep comparing new data with old data, codes with codes, categories with data, and memos with categories[^stol2016grounded-e13]. For example: when a new interviewee says "I reject contributions because of the maintenance cost", is that the same thing as your existing category "worried about code quality", or a different category?
 
 **Why:** Categories, and your interpretation of the data, take shape gradually through this repeated comparison[^stol2016grounded-e13].
 
@@ -107,7 +107,7 @@ Constructivist grounded theory has three kinds of coding[^stol2016grounded-e8]. 
 
 ### Step 6: Theoretical sampling: let the analysis decide whom to approach next
 
-**How:** Theoretical sampling means **choosing what data to collect next based on the emerging theory, concepts or categories**[^ralph2020empirical-e328]: wherever there is a gap or a concept is still unclear, go and find the people or material that can fill it[^stol2016grounded-e10]. For example, if the category "maintainers' time pressure" emerges, your next step is to seek out a few full-time and a few volunteer maintainers specifically to compare them. `[Our analysis]`
+**How:** Theoretical sampling means **choosing what data to collect next based on the emerging theory, concepts or categories**[^ralph2020empirical-e328]: wherever there is a gap or a concept is still unclear, go and find the people or material that can fill it[^stol2016grounded-e10]. For example, if the category "maintainers' time pressure" emerges, your next step is to seek out a few full-time and a few volunteer maintainers specifically to compare them.
 
 **Where people go wrong:**
 
@@ -117,9 +117,9 @@ Constructivist grounded theory has three kinds of coding[^stol2016grounded-e8]. 
 
 ### Step 7: Judge theoretical saturation, then stop
 
-**How:** When every part of the theory is well supported and new data no longer leads you to modify or reinterpret the theory, you have reached **theoretical saturation** and can stop collecting[^stol2016grounded-e14]. This is a higher bar than the "new interviewees no longer bring new information" that interview studies usually mean (see [Interview studies](interview_study.md#step-1-choose-interviewees)): the question is whether the theory changed, not just whether anyone said something new. `[Our analysis]`
+**How:** When every part of the theory is well supported and new data no longer leads you to modify or reinterpret the theory, you have reached **theoretical saturation** and can stop collecting[^stol2016grounded-e14]. This is a higher bar than the "new interviewees no longer bring new information" that interview studies usually mean (see [Interview studies](interview_study.md#step-1-choose-interviewees)): the question is whether the theory changed, not just whether anyone said something new.
 
-**What the paper must state:** whether you reached saturation, **how you judged it**[^ralph2020empirical-e317], and when you stopped collecting[^stol2016grounded-e24]. "By the Nth interviewee there was nothing new" is just a sentence; better to explain which parts of the theory the last few rounds of data tested and why they didn't lead to changes. `[Our analysis]`
+**What the paper must state:** whether you reached saturation, **how you judged it**[^ralph2020empirical-e317], and when you stopped collecting[^stol2016grounded-e24]. "By the Nth interviewee there was nothing new" is just a sentence; better to explain which parts of the theory the last few rounds of data tested and why they didn't lead to changes.
 
 ### Step 8: Produce a theory, not a set of themes
 
@@ -147,7 +147,7 @@ For quality criteria in qualitative research, see [Interview studies](interview_
 
 ## 3. Checklist
 
-This list follows the SIGSOFT grounded theory standard, which is the review standard for software engineering; in other fields, your field's conventions take precedence `[Our analysis]`.
+This list follows the SIGSOFT grounded theory standard, which is the review standard for software engineering; in other fields, your field's conventions take precedence.
 
 **Essential**
 
@@ -210,7 +210,7 @@ Grounded theory studies should be judged on credibility, resonance and usefulnes
 
 - **How grounded theory is used in software engineering, and its common problems**: Stol, Ralph & Fitzgerald 2016. Compares the three schools and summarizes the core practices; its Figure 5 is a very practical list of questions to ask yourself before writing up.
 - **Review standard**: the grounded theory standard in the SIGSOFT Empirical Standards, with suggested readings and exemplar papers.
-- **The original books of each school**: Stol et al. recommend reading a few introductory books from your chosen school before you start[^stol2016grounded-e21], for example Glaser & Strauss for the classic version, Corbin & Strauss for the Straussian version, and Charmaz for the constructivist version. These book suggestions are ours `[Our analysis]`; we have not read these books in full.
+- **The original books of each school**: Stol et al. recommend reading a few introductory books from your chosen school before you start[^stol2016grounded-e21], for example Glaser & Strauss for the classic version, Corbin & Strauss for the Straussian version, and Charmaz for the constructivist version. These book suggestions are ours; we have not read these books in full.
 
 Links to all sources are in the [source list](../../sources/README.md).
 

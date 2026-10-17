@@ -4,7 +4,7 @@ This page is about **questionnaire surveys**: you design a questionnaire made up
 
 If what you plan is one-on-one, open-ended interviews, that is a different kind of study (a qualitative survey, or interview study)[^ralph2020empirical-e256]; see [Interview studies](interview_study.md). For the basic concepts of sampling (population, sampling frame, sample, representativeness), see [Decide what you are studying: unit of analysis and population](../02_do-the-project/01_question-to-evidence.md#3-decide-what-you-are-studying-unit-of-analysis-and-population). For the general ethics of research with human participants, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md). This page covers only what is specific to questionnaires.
 
-**Scope** `[Our analysis]`: the standards and examples on this page come mainly from software engineering. They are based on the ACM SIGSOFT (Association for Computing Machinery Special Interest Group on Software Engineering) Empirical Standards and on several methods papers from software engineering about surveys, sampling, and psychometrics (Wagner et al., Torchiano et al., Molléri et al., Baltes and Ralph, Graziotin et al.). If you run a survey in another field, check that field's conventions first. If you need to develop a new scale or adapt an existing one, see the psychology page [Scale development and measurement studies](scale_development.md).
+**Scope**: the standards and examples on this page come mainly from software engineering. They are based on the ACM SIGSOFT (Association for Computing Machinery Special Interest Group on Software Engineering) Empirical Standards and on several methods papers from software engineering about surveys, sampling, and psychometrics (Wagner et al., Torchiano et al., Molléri et al., Baltes and Ralph, Graziotin et al.). If you run a survey in another field, check that field's conventions first. If you need to develop a new scale or adapt an existing one, see the psychology page [Scale development and measurement studies](scale_development.md).
 
 **Strategies it usually serves**: [Description](../05_research-strategies/observe_describe.md), [Measurement](../05_research-strategies/measure.md).
 
@@ -17,7 +17,7 @@ If what you plan is one-on-one, open-ended interviews, that is a different kind 
 
 ## 1. What this kind of research is and when to use it
 
-The ACM SIGSOFT Empirical Standards define a questionnaire survey as a study in which a sample of respondents answers a series of (mostly structured) questions, usually through an electronic or paper form[^ralph2020empirical-e231]. Participants answer predefined, mostly closed-ended questions, and the researchers analyze the answers systematically[^ralph2020empirical-e232]. The whole point of a large-scale survey is to give up some internal validity (whether the conclusions hold within the study itself, for example whether alternative explanations can be ruled out) in exchange for external validity (whether the conclusions generalize)[^baltes2022sampling-e20]. So the quality of the sampling directly decides whether a survey study is worth anything `[Our analysis]`.
+The ACM SIGSOFT Empirical Standards define a questionnaire survey as a study in which a sample of respondents answers a series of (mostly structured) questions, usually through an electronic or paper form[^ralph2020empirical-e231]. Participants answer predefined, mostly closed-ended questions, and the researchers analyze the answers systematically[^ralph2020empirical-e232]. The whole point of a large-scale survey is to give up some internal validity (whether the conclusions hold within the study itself, for example whether alternative explanations can be ruled out) in exchange for external validity (whether the conclusions generalize)[^baltes2022sampling-e20]. So the quality of the sampling directly decides whether a survey study is worth anything.
 
 **It can answer three kinds of questions**[^ralph2020empirical-e234]:
 
@@ -31,7 +31,7 @@ The ACM SIGSOFT Empirical Standards define a questionnaire survey as a study in 
 - **Ask for opinions and you only get opinions.** "Is automated testing more effective than manual testing?" asks for an opinion, and the conclusion can only be "most people think so". Only questions about facts the respondents experienced themselves ("in your last project, which kind of testing found more defects?") let you try to analyze facts, and even then you still have to discuss possible bias in the answers[^wagner2020challenges-e14].
 - **Don't ask "what should be done".** Surveys are good for asking "what is happening where you are" and "why it happens", not for normative questions[^torchiano2017lessons-e3].
 
-**How it differs from related methods** `[Our analysis]`:
+**How it differs from related methods**:
 
 | | Questionnaire survey | [Interview studies](interview_study.md) | [Controlled experiments](controlled_experiment.md) | [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md) |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ The ACM SIGSOFT Empirical Standards define a questionnaire survey as a study in 
 | Good at | Distributions, opinions, self-reported practices | Understanding "why", discovering new concepts | Causal relationships | Large-scale patterns in actual behavior |
 | Main weakness | Self-report only; sample bias | Hard to generalize | Setting is removed from reality | Can't see motives or opinions |
 
-**How to choose** `[Our analysis]`: use a questionnaire when you want to know "how many, how common, what do people think". If you aren't yet sure what to ask, do a few interviews first and then design the questionnaire. A questionnaire measures what people *say* they do; you can cross-check it against other data sources such as work repositories[^molleri2020empirically-e7]. These practices come mainly from software engineering; other areas of computer science, such as human-computer interaction and usable security, can use them directly. Surveys in other fields should follow their own field's conventions `[Our analysis]`.
+**How to choose**: use a questionnaire when you want to know "how many, how common, what do people think". If you aren't yet sure what to ask, do a few interviews first and then design the questionnaire. A questionnaire measures what people *say* they do; you can cross-check it against other data sources such as work repositories[^molleri2020empirically-e7]. These practices come mainly from software engineering; other areas of computer science, such as human-computer interaction and usable security, can use them directly. Surveys in other fields should follow their own field's conventions.
 
 ---
 
@@ -47,9 +47,9 @@ The ACM SIGSOFT Empirical Standards define a questionnaire survey as a study in 
 
 ### Step 1: Start from the research questions; define the population, unit of analysis, and sampling frame
 
-Write the research questions first, then decide whom to ask and what to ask. Every question should map to a research objective, with wording and format suited to the respondents[^ralph2020empirical-e240]; if you can't say which research question an item answers, delete it `[Our analysis]`. The most common mistake is to start from "who can I get to fill this in" and then piece the questions together. When choosing respondents, ask "who can best give me the information I need", not "who is most likely to have time"; a low response rate is easier to deal with than useless answers[^torchiano2017lessons-e4].
+Write the research questions first, then decide whom to ask and what to ask. Every question should map to a research objective, with wording and format suited to the respondents[^ralph2020empirical-e240]; if you can't say which research question an item answers, delete it. The most common mistake is to start from "who can I get to fill this in" and then piece the questions together. When choosing respondents, ask "who can best give me the information I need", not "who is most likely to have time"; a low response rate is easier to deal with than useless answers[^torchiano2017lessons-e4].
 
-1. **Target population**: who do you want your conclusions to apply to? "Open source contributors who use Rust", or "professional developers worldwide"[^wagner2020challenges-e3]? For the latter, in most cases nobody can say how large it is or what it is made of[^wagner2020challenges-e4]. The more specific the population, the easier it is to argue that your sample resembles it. `[Our analysis]`
+1. **Target population**: who do you want your conclusions to apply to? "Open source contributors who use Rust", or "professional developers worldwide"[^wagner2020challenges-e3]? For the latter, in most cases nobody can say how large it is or what it is made of[^wagner2020challenges-e4]. The more specific the population, the easier it is to argue that your sample resembles it.
 2. **Unit of analysis**: is your "one" a person, a team, or a company? Randomly sampling developers is not the same as surveying developers in a random sample of companies; with the wrong unit of analysis, the data may be useless for your research question[^torchiano2017lessons-e5].
 3. **Sampling frame**: the list you can actually draw people from. In Torchiano et al.'s observation, software engineering research rarely has a suitable sampling frame[^torchiano2017lessons-e6]. When you consider where a list comes from, ask: does it tend to include some subgroups more than others? If inclusion criteria vary, people have different chances of being selected[^torchiano2017lessons-e7].
 
@@ -66,10 +66,10 @@ Write the research questions first, then decide whom to ask and what to ask. Eve
 
 **The limits of convenience sampling.** Posting a link on mailing lists or social media is essentially convenience sampling (picking whoever is easy to reach), which threatens generalizability[^baltes2022sampling-e2]. But that is not a reason to reject a paper; failing to take feasible steps to reduce bias is[^baltes2022sampling-e21]. Also note:
 
-- A large, diverse sample can support "a certain correlation generalizes", but **cannot support specific proportions** ("38% of developers use X")[^baltes2022sampling-e17]. Proportions are exactly what descriptive surveys most want to report, so be especially careful `[Our analysis]`. If the sampling frame itself is biased, no sample size will make up for it[^baltes2022sampling-e5].
+- A large, diverse sample can support "a certain correlation generalizes", but **cannot support specific proportions** ("38% of developers use X")[^baltes2022sampling-e17]. Proportions are exactly what descriptive surveys most want to report, so be especially careful. If the sampling frame itself is biased, no sample size will make up for it[^baltes2022sampling-e5].
 - You can consider respondent-driven sampling (an advanced form of snowball sampling, where participants recruit further participants, designed to reduce bias)[^ralph2020empirical-e250], but it has also been criticized for producing overly optimistic confidence intervals[^baltes2022sampling-e18].
 
-**Raising the response rate and reducing response bias** (the SIGSOFT standard says "response bias". The worry here is that the people who responded differ systematically from those who didn't, which survey methodologists usually call *nonresponse bias*; elsewhere "response bias" often means the answers themselves are distorted, for example people answering in a way that makes them look good. `[Our analysis]`):
+**Raising the response rate and reducing response bias** (the SIGSOFT standard says "response bias". The worry here is that the people who responded differ systematically from those who didn't, which survey methodologists usually call *nonresponse bias*; elsewhere "response bias" often means the answers themselves are distorted, for example people answering in a way that makes them look good.):
 
 - Open with important questions that respondents care about, not demographic questions; avoid matrix questions and mandatory questions; send reminders; offer incentives[^baltes2022sampling-e19].
 - Reminders: the first reminder (usually 4 to 8 days later) clearly raises the response rate; a third has little effect; don't remind people who have already responded[^torchiano2017lessons-e20]. You can also send a follow-up about two weeks before the survey closes[^wagner2020challenges-e13].
@@ -77,7 +77,7 @@ Write the research questions first, then decide whom to ask and what to ask. Eve
 
 **After it goes out**: keep monitoring the response rate and find out why people aren't responding[^molleri2020empirically-e3]; plan in advance how you will handle nonresponse and drop-outs, and state how you will handle missing data (imputation, weighting adjustments, or discarding)[^ralph2020empirical-e237]. With an open invitation, include enough background questions to judge whether respondents belong to the target population, and remove responses that clearly don't[^wagner2020challenges-e33].
 
-> **When surveying tool use, take special care: don't name the tool in the invitation.** If the invitation mentions a particular tool, people who don't use it tend to opt out, which Torchiano et al. think leads to underestimating the adoption rate[^torchiano2017lessons-e18]. By the same mechanism, users may be overrepresented among respondents, so the adoption rate could also be overestimated; either way the estimate is distorted, so don't name the tool in the invitation `[Our analysis]`.
+> **When surveying tool use, take special care: don't name the tool in the invitation.** If the invitation mentions a particular tool, people who don't use it tend to opt out, which Torchiano et al. think leads to underestimating the adoption rate[^torchiano2017lessons-e18]. We would add that, by the same mechanism, users may be overrepresented among respondents, so the adoption rate could also be overestimated; either way the estimate is distorted, so don't name the tool in the invitation.
 
 ### Step 3: Design the questions
 
@@ -112,7 +112,7 @@ Before the real launch, check that the questions, layout, length, and technology
 
 - After the pilot, **talk with the people who tried it** to confirm the questions were understood easily and correctly[^wagner2020challenges-e24]. For a multilingual questionnaire, Wagner et al. had independent team members who were native speakers pilot each translation[^wagner2020challenges-e25].
 - **Record what you changed and put it in the paper**[^molleri2020empirically-e8][^ralph2020empirical-e242].
-- If you revised the questionnaire repeatedly based on pilot data, you can't use the same pilot data to show it is valid: data used to tune the questionnaire can't also serve as the final test `[Our analysis]`.
+- If you revised the questionnaire repeatedly based on pilot data, you can't use the same pilot data to show it is valid: data used to tune the questionnaire can't also serve as the final test.
 
 ### Step 6: Analyze closed-ended questions
 
@@ -124,11 +124,11 @@ Before the real launch, check that the questions, layout, length, and technology
 > - **Treat it as ordinal**: Wagner et al. hold that Likert items are ordinal data, so you should use the median rather than the mean, and rank-based tests[^wagner2020challenges-e15][^wagner2020challenges-e17].
 > - **In practice the mean is often used**: even Wagner et al., when estimating confidence intervals by bootstrapping, switched to the mean because there was no well-established method for the median, while also reporting the median[^wagner2020challenges-e20]; in psychometrics, item difficulty is computed directly from the mean of a Likert item[^graziotin2021psychometrics-e3].
 >
-> In practice `[Our analysis]`: report the median and the full distribution (a stacked bar chart) for your main results; when you really do need the mean or mean-based methods, give your reasons and show the distribution as well, so readers can judge for themselves.
+> In practice: report the median and the full distribution (a stacked bar chart) for your main results; when you really do need the mean or mean-based methods, give your reasons and show the distribution as well, so readers can judge for themselves.
 
 ### Step 7: Analyze open-ended questions
 
-Open-ended questions let respondents describe things in their own words. They help you understand reasons and discover new concepts, but they produce a lot of text that has to be analyzed by hand[^wagner2020challenges-e21]. A questionnaire made up mainly of open-ended questions doesn't fall under the questionnaire survey standard[^ralph2020empirical-e233]; treat it by the standards for qualitative research `[Our analysis]`.
+Open-ended questions let respondents describe things in their own words. They help you understand reasons and discover new concepts, but they produce a lot of text that has to be analyzed by hand[^wagner2020challenges-e21]. A questionnaire made up mainly of open-ended questions doesn't fall under the questionnaire survey standard[^ralph2020empirical-e233]; treat it by the standards for qualitative research.
 
 - Analyze the answers by coding (labeling each answer with a tag that sums up its meaning, then grouping the tags). Do it as a team with independent verification to reduce researcher bias, and state which method you used and how you departed from it[^wagner2020challenges-e23]. For how to code, see [Interview studies](interview_study.md#step-5-coding-and-thematic-analysis).
 - An anonymous questionnaire is analyzed after the fact: you can't adjust the questions as you collect data, and you can't go back to participants to check your interpretation. This is an important difference from interview studies[^wagner2020challenges-e22].
@@ -137,9 +137,9 @@ Open-ended questions let respondents describe things in their own words. They he
 
 For the general requirements (risk, informed consent, privacy, ethics review), see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md). Here we list only the points specific to questionnaires.
 
-- **Don't treat public email addresses as a recruitment list.** Collecting email addresses from GitHub commit records and mass-mailing unsolicited invitations is common but ethically problematic[^wagner2020challenges-e8][^baltes2022sampling-e22]; under the ethics codes of the market research industry, using user information from GitHub or Stack Overflow to contact potential participants is unethical[^wagner2020challenges-e9]. Some authors who did this received complaints from the people they had contacted[^wagner2020challenges-e10]. At the time, they wrote a short, polite invitation that left it to recipients to opt in, and that also served as the informed consent form[^wagner2020challenges-e10]. If you are new to this, ask your advisor and your ethics committee first. `[Our analysis]`
+- **Don't treat public email addresses as a recruitment list.** Collecting email addresses from GitHub commit records and mass-mailing unsolicited invitations is common but ethically problematic[^wagner2020challenges-e8][^baltes2022sampling-e22]; under the ethics codes of the market research industry, using user information from GitHub or Stack Overflow to contact potential participants is unethical[^wagner2020challenges-e9]. Some authors who did this received complaints from the people they had contacted[^wagner2020challenges-e10]. At the time, they wrote a short, polite invitation that left it to recipients to opt in, and that also served as the informed consent form[^wagner2020challenges-e10]. If you are new to this, ask your advisor and your ethics committee first.
 - **Informed consent can go on the first page of the questionnaire.** Filling in a questionnaire that clearly states it is part of a research project can be treated as consent; a separate consent form isn't necessarily needed[^ralph2020empirical-e254]. If you pay participants, explain the payment and how you avoid coercion[^ralph2020empirical-e255].
-- **Anonymous does not mean unidentifiable.** Background details such as "company + job title" can be combined to identify a specific person[^ralph2020empirical-e253]. Ask only the background questions your analysis needs, and before releasing data, check whether combinations of answers could identify individuals. `[Our analysis]`
+- **Anonymous does not mean unidentifiable.** Background details such as "company + job title" can be combined to identify a specific person[^ralph2020empirical-e253]. Ask only the background questions your analysis needs, and before releasing data, check whether combinations of answers could identify individuals.
 
 ### Step 9: Reporting
 
@@ -156,7 +156,7 @@ Beyond the general advice on writing a research paper (see [Telling the story an
 
 ## 3. Checklist
 
-Based mainly on the SIGSOFT questionnaire survey standard and its supplements on sampling and ethics. These are review standards for software engineering; other fields should follow their own conventions `[Our analysis]`.
+Based mainly on the SIGSOFT questionnaire survey standard and its supplements on sampling and ethics. These are review standards for software engineering; other fields should follow their own conventions.
 
 **Essential**
 

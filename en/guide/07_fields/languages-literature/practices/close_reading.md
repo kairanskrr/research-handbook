@@ -1,12 +1,12 @@
 # Close reading and literary argument
 
-**Scope.** This page covers how literary studies, within languages and literature, is done; its sources are described below. What all fields share (choosing a topic, reading the literature, writing and revising) is in the chapters of Part 1, Part 2, and Writing and publishing, for example [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md). The field's overall conventions are in the [field overview](../README.md) `[Our analysis]`.
+**Scope.** This page covers how literary studies, within languages and literature, is done; its sources are described below. What all fields share (choosing a topic, reading the literature, writing and revising) is in the chapters of Part 1, Part 2, and Writing and publishing, for example [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md). The field's overall conventions are in the [field overview](../README.md).
 
 **Strategy it usually serves**: [Interpretation and argument](../../../05_research-strategies/interpret_argue.md). The "common research methods" section of that strategy page lists this page.
 
 This page is about one of the basic jobs of literary studies: taking one or a few literary texts, building an interpretation through **close reading** (slow, word-by-word reading that pays attention to language and form), and then arguing for that interpretation with evidence from the text. The [field overview](../README.md#literary-studies-from-close-reading-to-argument) already covers what close reading is, why "quoting without analyzing is not an argument", how to think about theory and context, scholarly editions, and MLA style; this page does not repeat them. It covers only **how a piece of literary criticism (or a dissertation chapter) gets made, step by step**. For working with manuscripts and letters, see [Archival research](../../../06_methods/archival_research.md).
 
-**First, how much weight these sources carry.** Most of this page's sources are free writing handouts that three universities produced for undergraduates: the Harvard College Writing Center, the Writing Center at the University of North Carolina at Chapel Hill (UNC, US), and the Department of English at the University of York (UK). They are teaching materials from these schools, **not field standards**. The rest are a few documents from the Modern Language Association (MLA), the US scholarly association for language and literature. The basic skills the handouts teach (moving from observation to a thesis, persuading with evidence) work just as well in dissertations and journal articles; but graduate work asks for more originality and greater length, so your advisor and target journal have the final say `[Our analysis]`.
+**First, how much weight these sources carry.** Most of this page's sources are free writing handouts that three universities produced for undergraduates: the Harvard College Writing Center, the Writing Center at the University of North Carolina at Chapel Hill (UNC, US), and the Department of English at the University of York (UK). They are teaching materials from these schools, **not field standards**. The rest are a few documents from the Modern Language Association (MLA), the US scholarly association for language and literature. The basic skills the handouts teach (moving from observation to a thesis, persuading with evidence) work just as well in dissertations and journal articles; but graduate work asks for more originality and greater length, so your advisor and target journal have the final say.
 
 **After reading this page, you should be able to:**
 
@@ -21,7 +21,7 @@ This page is about one of the basic jobs of literary studies: taking one or a fe
 
 This kind of research asks: **what the text is saying, how it does so, and why that is worth noticing**. A Harvard College Writing Center handout splits close reading into two steps: first observe facts and details in the text, then interpret those observations[^kain1998closereading-e1][^kain1998closereading-e2]. It is inductive: it moves from specific details toward a conclusion[^syba2008englishpaper-e2].
 
-**How it differs from nearby kinds of research** `[Our analysis]`:
+**How it differs from nearby kinds of research**:
 
 | | Close reading and argument (this page) | Archival and textual scholarship | Literary history and surveys of scholarship |
 |---|---|---|---|
@@ -29,7 +29,7 @@ This kind of research asks: **what the text is saying, how it does so, and why t
 | Core output | A thesis about what the text means | How the text came to be and changed; a reliable edition | How scholarship on a question has developed |
 | Where to go | This page | [Archival research](../../../06_methods/archival_research.md), [field overview](../README.md#literary-studies-archives-and-scholarly-editions) | [Field overview](../README.md#research-methods-common-in-this-field), [Review studies](../../../06_methods/review_study.md) |
 
-Real projects often mix these: writing a close-reading paper also means reading criticism and checking editions `[Our analysis]`. If your thesis can only stand on manuscripts or the author's biography, hold that part to the standards of archival research (see Step 5).
+Real projects often mix these: writing a close-reading paper also means reading criticism and checking editions. If your thesis can only stand on manuscripts or the author's biography, hold that part to the standards of archival research (see Step 5).
 
 ---
 
@@ -38,12 +38,12 @@ Real projects often mix these: writing a close-reading paper also means reading 
 ### Step 1: Choose a text and find a question that "snags" you
 
 **How:**
-- **Know the whole text well first**, then look for a topic `[Our analysis]`.
+- **Know the whole text well first**, then look for a topic.
 - **Look for the places where you get stuck.** A UNC Writing Center handout says that a "problem" is whatever puzzles you or doesn't add up[^uncwritinglit-e5]. A Harvard College Writing Center handout suggests starting from details like these: repeated images or words, unexpected turns, even contradictions[^syba2008englishpaper-e2]. A scene or object that keeps coming back is probably important, and each time it appears, it is often described in ways that contradict or complicate the others[^syba2008englishpaper-e8]. A handout from York's English department suggests watching for ambiguous words and phrases: does the text make you choose one meaning, or let both stand together[^yorkclosereading-e17]?
 - **Don't dismiss small details.** If you can argue that a seemingly trivial detail reveals something important about the text, you have a provocative thesis[^syba2008englishpaper-e3].
 - **List a few candidate topics and filter them by how much evidence each has.** See how many specific details each topic can draw on[^uncwritinglit-e14]; compare them before you commit[^uncwritinglit-e15].
 
-**Why:** whatever puzzles you has probably puzzled other readers too, and they will want to see how you explain it[^uncwritinglit-e13]. Starting from a specific puzzle makes a thesis easier to reach than starting from a broad topic like "women in such-and-such a work" `[Our analysis]`.
+**Why:** whatever puzzles you has probably puzzled other readers too, and they will want to see how you explain it[^uncwritinglit-e13]. Starting from a specific puzzle makes a thesis easier to reach than starting from a broad topic like "women in such-and-such a work".
 
 **Where people go wrong:** picking a topic that looks promising at first but doesn't have the evidence to carry it, and ending up at a dead end[^uncwritinglit-e15].
 
@@ -52,11 +52,11 @@ Real projects often mix these: writing a close-reading paper also means reading 
 **How:**
 - **Read with a pencil.** Mark words and passages that surprise you, seem important, or raise questions, and write notes in the margins[^kain1998closereading-e3][^kain1998closereading-e4][^yorkclosereading-e10].
 - **Copy accurately.** The York English department handout says to transcribe down to the last comma, and for poetry to reproduce even the spacing on the page; otherwise you can't close read[^yorkclosereading-e11].
-- **Read aloud and use a dictionary.** Listen to the rhythm of the sentences[^yorkclosereading-e12]; look up any word you're unsure of; the handout points to the *Oxford English Dictionary*[^yorkclosereading-e18]. For texts in Chinese or other languages, use a historical dictionary of that language `[Our analysis]`.
+- **Read aloud and use a dictionary.** Listen to the rhythm of the sentences[^yorkclosereading-e12]; look up any word you're unsure of; the handout points to the *Oxford English Dictionary*[^yorkclosereading-e18]. For texts in Chinese or other languages, use a historical dictionary of that language.
 - **Put the quotations themselves on your list, not just page numbers.** The Harvard College Writing Center handout asks for this[^syba2008englishpaper-e7]; record page numbers too, so you can find the passage again[^uncwritinglit-e7].
 - **Collect contrasting material too.** Passages not directly related to your topic may provide context or contrast[^uncwritinglit-e17].
 
-**Why:** your thesis, analysis, and quotations will all come from this list. One handy format: one line per piece of evidence, with "quotation / edition and page (or line) number / what I notice / what question it raises" `[Our analysis]`. For general ways to organize notes, see [Organizing your research materials](../../../08_throughout/organizing_materials.md) in Throughout the project.
+**Why:** your thesis, analysis, and quotations will all come from this list. One handy format: one line per piece of evidence, with "quotation / edition and page (or line) number / what I notice / what question it raises". For general ways to organize notes, see [Organizing your research materials](../../../08_throughout/organizing_materials.md) in Throughout the project.
 
 **Where people go wrong:** rushing to conclusions while still collecting[^uncwritinglit-e16]. Getting more confused as you read isn't necessarily bad; it may mean you are engaging deeply with the topic[^uncwritinglit-e27].
 
@@ -81,13 +81,13 @@ The UNC handout shows how a thesis gets sharper: from "Victor Frankenstein's tra
 
 **How:**
 - **Engage with earlier criticism.** The Harvard College Writing Center handout notes that some papers ask you to read the text in light of other scholars' and critics' views[^syba2008englishpaper-e4]; when you read research articles, first check that they are peer-reviewed[^syba2008englishpaper-e19].
-- **Criticism can be close read too**[^yorkclosereading-e19]; for example, notice which passages a critic relies on and which they pass over `[Our analysis]`.
+- **Criticism can be close read too**[^yorkclosereading-e19]; for example, notice which passages a critic relies on and which they pass over.
 - **Find the claim you are responding to.** Your thesis is often itself a rebuttal of someone else's argument[^harvardwccounterargument-e7]. When you push back, quote the part you are questioning and enter into "conversation" with it[^uncwritingquotations-e2].
 - **Credit what you borrow.** The MLA Style Center says that paraphrasing someone else's ideas, or using their distinctive wording, without acknowledgment is plagiarism[^mlastylecenter-e5].
 
-**A suggested order** `[Our analysis]`: read and annotate on your own first, and only read criticism heavily once you have a preliminary question, so your own observations aren't buried under other people's conclusions. But before you settle your thesis, be sure to find out what has already been said about the question.
+**A suggested order**: read and annotate on your own first, and only read criticism heavily once you have a preliminary question, so your own observations aren't buried under other people's conclusions. But before you settle your thesis, be sure to find out what has already been said about the question.
 
-**Why:** whether a thesis is new is judged against existing scholarship `[Our analysis]`. For finding literature and writing about related work, see the Writing and publishing section [Related work: say where you stand](../../../03_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand). Our sources do not cover how to search for literary criticism or how much to read; follow your advisor's expectations.
+**Why:** whether a thesis is new is judged against existing scholarship. For finding literature and writing about related work, see the Writing and publishing section [Related work: say where you stand](../../../03_write-and-publish/01_story-and-paper.md#5-related-work-show-where-you-stand). Our sources do not cover how to search for literary criticism or how much to read; follow your advisor's expectations.
 
 ### Step 5: Use theory and historical material, but don't let them replace close reading
 
@@ -102,17 +102,17 @@ The UNC handout shows how a thesis gets sharper: from "Victor Frankenstein's tra
 > - **Critics of close reading**: the York English department handout reports that close reading has been criticized as divorced from context, pulling away from the text's historical and political connections[^yorkclosereading-e4]. The handout doesn't say who made this criticism, and we have not read the critics' own texts.
 > - **Defenders of close reading**: the same handout answers that what is wanted is close reading, not closed reading[^yorkclosereading-e5]. The Harvard College Writing Center handout also lists "close reading framed by theory" and "close reading framed by history" as common types of paper[^syba2008englishpaper-e5][^syba2008englishpaper-e6].
 >
-> In practice `[Our analysis]`: let context and theory help you raise questions and explain differences, but make every conclusion land, in the end, on specific words and phrases.
+> In practice: let context and theory help you raise questions and explain differences, but make every conclusion land, in the end, on specific words and phrases.
 
 ### Step 6: Say which text you are quoting
 
 **How:**
-- **Choose a reliable edition.** The guidelines for editors from the MLA's Committee on Scholarly Editions say that a scholarly edition usually has an introductory essay explaining the history of the text and how the edition was put together[^mlacseguidelines-e5], and often a textual apparatus recording emendations and variants[^mlacseguidelines-e4]. When a scholarly edition exists, read these first `[Our analysis]`. For what a scholarly edition is, see the [field overview](../README.md#literary-studies-archives-and-scholarly-editions).
-- **Know that editions can differ a great deal.** The guidelines give an example: Thomas Wolfe's novels as edited by Perkins barely resemble the manuscripts Wolfe handed in[^mlacseguidelines-e6]. If your argument depends on a particular word or punctuation mark, first check that it is the same in other editions `[Our analysis]`.
-- **Name the edition and give locations.** Use one edition throughout where you can, and say which it is `[Our analysis]`; when you quote a passage, give the page or line number. For MLA style requirements, see the [field overview](../README.md#literary-studies-monographs-journals-and-citation-style).
+- **Choose a reliable edition.** The guidelines for editors from the MLA's Committee on Scholarly Editions say that a scholarly edition usually has an introductory essay explaining the history of the text and how the edition was put together[^mlacseguidelines-e5], and often a textual apparatus recording emendations and variants[^mlacseguidelines-e4]. When a scholarly edition exists, read these first. For what a scholarly edition is, see the [field overview](../README.md#literary-studies-archives-and-scholarly-editions).
+- **Know that editions can differ a great deal.** The guidelines give an example: Thomas Wolfe's novels as edited by Perkins barely resemble the manuscripts Wolfe handed in[^mlacseguidelines-e6]. If your argument depends on a particular word or punctuation mark, first check that it is the same in other editions.
+- **Name the edition and give locations.** Use one edition throughout where you can, and say which it is; when you quote a passage, give the page or line number. For MLA style requirements, see the [field overview](../README.md#literary-studies-monographs-journals-and-citation-style).
 - **When reading in translation**, the York English department handout suggests using a parallel-text edition with the original facing the translation when you have the choice[^asciuto2018translation-e1], and sometimes comparing different translations[^asciuto2018translation-e2]; name the translator when you quote[^asciuto2018translation-e3]. When you comment on a translation's word choice, remember that it is the translator's choice, not the author's[^asciuto2018translation-e4]; checking against the original makes your claims more precise[^asciuto2018translation-e5].
 
-**Where people go wrong:** using some text found casually online and later finding it differs from the standard edition `[Our analysis]`; using a translation's wording to argue about the original author's style[^asciuto2018translation-e4].
+**Where people go wrong:** using some text found casually online and later finding it differs from the standard edition; using a translation's wording to argue about the original author's style[^asciuto2018translation-e4].
 
 ### Step 7: Quote and analyze, don't paraphrase
 
@@ -123,32 +123,32 @@ The UNC handout shows how a thesis gets sharper: from "Victor Frankenstein's tra
 - **Say what the effect is, not just what the feature is called.** Once you spot a rhetorical feature, think about the effect it produces[^yorkclosereading-e13].
 - **Use few block quotations.** The UNC handout says to use one only when removing any words would destroy the passage's integrity[^uncwritingquotations-e5]; vary the length of your quotations[^yorkclosereading-e15].
 
-**Why:** the UNC handout says literary analysis papers may rely heavily on direct quotation[^uncwritingquotations-e1]; quote a lot without analyzing and all you have is a pile of quotations `[Our analysis]`. An argument rests on textual evidence, not personal belief[^syba2008englishpaper-e15].
+**Why:** the UNC handout says literary analysis papers may rely heavily on direct quotation[^uncwritingquotations-e1]; quote a lot without analyzing and all you have is a pile of quotations. An argument rests on textual evidence, not personal belief[^syba2008englishpaper-e15].
 
 ### Step 8: Take on other readings directly
 
 **How:**
-- **Imagine how readers would push back.** The Harvard College Writing Center handout defines a counterargument as an argument a reader might reasonably raise to challenge your thesis or one of your claims[^harvardwccounterargument-e1]; one kind is an alternative explanation of the same evidence[^harvardwccounterargument-e2]. In literary studies this is often another reading, or a critic's existing interpretation `[Our analysis]`.
+- **Imagine how readers would push back.** The Harvard College Writing Center handout defines a counterargument as an argument a reader might reasonably raise to challenge your thesis or one of your claims[^harvardwccounterargument-e1]; one kind is an alternative explanation of the same evidence[^harvardwccounterargument-e2]. Applied to literary studies, this is often another reading, or a critic's existing interpretation.
 - **How to respond.** You can concede what the other side gets right, then explain why it doesn't undermine your argument[^harvardwccounterargument-e5]. Often a counterargument complicates your argument without overturning it[^harvardwccounterargument-e4]; if you really can't answer it, revise your thesis[^harvardwccounterargument-e3].
 - **Pick the ones that matter.** You don't need to address every possible counterargument[^harvardwccounterargument-e6]; and don't put counterarguments in the conclusion[^harvardwccounterargument-e8].
 
-**Why:** literary works don't have a single right answer, but that doesn't mean anything goes[^uncwritinglit-e26]. It only counts as an argument when you put the other reading on the table and show why yours is better `[Our analysis]`.
+**Why:** literary works don't have a single right answer, but that doesn't mean anything goes[^uncwritinglit-e26]. It only counts as an argument when you put the other reading on the table and show why yours is better.
 
 ### Step 9: Organize the paper by argument
 
 **How:**
 - **Group the evidence, one supporting claim per group.** Sort similar evidence into groups; the idea that ties each group together becomes a supporting claim in the paper[^uncwritinglit-e21].
 - **Don't follow the plot.** The Harvard College Writing Center handout says that analyzing scenes one by one in the novel's order lets the novelist, not you, organize your argument[^syba2008englishpaper-e13]. One rule of thumb it offers: move from the most obvious evidence to the least obvious[^syba2008englishpaper-e14]. Nor do you need long plot summaries; you can assume your reader has read the text[^yorkclosereading-e16].
-- **Avoid "thesis plus a string of examples".** The same handout calls that structure static[^syba2008englishpaper-e18]; every section should move the argument forward rather than prove the same point again `[Our analysis]`.
+- **Avoid "thesis plus a string of examples".** The same handout calls that structure static[^syba2008englishpaper-e18]; every section should move the argument forward rather than prove the same point again.
 - **Be willing to cut.** A good interpretive paper doesn't need to cover every element of the work[^uncwritinglit-e25]; be ready to play down or drop findings that don't serve the larger picture[^yorkclosereading-e14]; you don't have to account for every use of a word; pick the examples with the most tension[^syba2008englishpaper-e20].
 
-**Dissertation chapters** `[Our analysis]`: the MLA's 2007 task force report on evaluating scholarship for tenure in the US mentions the expectation that a dissertation will be revised and published[^mla2007evaluating-e11], and also sees journals as a way to share ideas in a timely way[^mla2007evaluating-e6]. So in the US, each chapter should ideally serve the book's overall thesis while also having an argument that stands on its own, so it can later become a journal article or a chapter of a monograph. For other countries, ask your advisor. For general writing practice, see the Writing and publishing chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md#6-methods-and-results-write-them-so-others-can-check-them).
+**Dissertation chapters**: the MLA's 2007 task force report on evaluating scholarship for tenure in the US mentions the expectation that a dissertation will be revised and published[^mla2007evaluating-e11], and also sees journals as a way to share ideas in a timely way[^mla2007evaluating-e6]. So in the US, each chapter should ideally serve the book's overall thesis while also having an argument that stands on its own, so it can later become a journal article or a chapter of a monograph. For other countries, ask your advisor. For general writing practice, see the Writing and publishing chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md#6-methods-and-results-write-them-so-others-can-check-them).
 
 ---
 
 ## 3. Checklist
 
-Our sources contain no reporting standard for literary criticism. The list below draws on the three universities' writing handouts and the MLA documents; the tiers are our own grouping `[Our analysis]`.
+Our sources contain no reporting standard for literary criticism. The list below draws on the three universities' writing handouts and the MLA documents; the tiers are our own grouping.
 
 **Must do**
 - [ ] An arguable thesis of the right scope, not a description of the text[^harvardwcthesis-e1][^harvardwcthesis-e2][^harvardwcthesis-e3]

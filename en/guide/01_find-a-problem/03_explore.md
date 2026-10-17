@@ -2,7 +2,7 @@
 
 > The reasoning in this chapter applies to every field; the examples and concrete steps come from computer science. Most of the advice quoted here comes from machine learning researchers.
 
-> **What you must do in this chapter** `[Our analysis]`
+> **What you must do in this chapter**
 >
 > 1. **Recognize that you are exploring.** If you can't yet write down a specific hypothesis, you are in the exploration stage. Your only goal is to understand the problem, and there is no need to worry that you don't have a hypothesis yet ([Section 1](#1-first-recognize-that-you-are-exploring-not-yet-testing)).
 > 2. **For the two or three ideas you most want to pursue, run a small, fast try on each.** Ideally you see a result within a day, for example by simply looking at a batch of real examples. Do the most informative step first ([Section 2](#2-design-small-fast-explorations)).
@@ -57,9 +57,9 @@ When newcomers get stuck early in a project, it is often because they think they
 - **Do the most informative step first.** When there are several things you could try, rank them by how much information each gives per unit of time, and work down from the top[^steinhardt2018stochastic-e4].
 - **Ask yourself: if this direction is doomed, how can I find out fastest?**[^nanda2025mindsets-e12]
 
-**What "not aiming for rigor" means** `[Our analysis]`: while exploring you don't need a large sample, criteria fixed in advance, statistical tests, or clean code. But you do need to record what you did and what you saw (Section 3), because the impressions you get from exploring are only leads and can't be taken straight as conclusions.
+**What "not aiming for rigor" means**: while exploring you don't need a large sample, criteria fixed in advance, statistical tests, or clean code. But you do need to record what you did and what you saw (Section 3), because the impressions you get from exploring are only leads and can't be taken straight as conclusions.
 
-**The smart contract example** `[Our analysis]`: of the ideas on your list, "benchmark leakage" is the one you are most curious about. Each of the explorations below can be done in a day or two:
+**The smart contract example**: of the ideas on your list, "benchmark leakage" is the one you are most curious about. Each of the explorations below can be done in a day or two:
 
 | What you want to understand | A small, fast exploration |
 |---|---|
@@ -82,7 +82,7 @@ What you find while exploring comes in bits and pieces. If you don't write it do
 - **Keep a separate highlights file** just for especially interesting results, so it is easier to spot connections between them[^nanda2025process-e4].
 - **Record the tries that didn't "work" too.** What matters is whether you are learning about the problem; as long as you are learning, an experiment that didn't "succeed" still gained you something[^perez2024tips-e1].
 
-Each note can have these fields `[Our analysis]`:
+Each note can have these fields:
 
 | Field | Example |
 |---|---|
@@ -92,7 +92,7 @@ Each note can have these fields `[Our analysis]`:
 | New questions | Are other benchmarks like this too? Does the model answer leaked contracts more accurately? |
 | Next step | Try sampling from another benchmark |
 
-Your exploration notes are the seed of the research log you will keep in Part 2. Once you reach the testing stage, your records need to be more complete; see [Organizing your research materials](../08_throughout/organizing_materials.md#3-every-result-must-be-traceable-to-how-it-was-produced) `[Our analysis]`.
+Your exploration notes are the seed of the research log you will keep in Part 2. Once you reach the testing stage, your records need to be more complete; see [Organizing your research materials](../08_throughout/organizing_materials.md#3-every-result-must-be-traceable-to-how-it-was-produced).
 
 **Write it down:** set up your exploration notes and your highlights file. Each time you finish a small try, fill in one row of the table above.
 
@@ -100,22 +100,22 @@ Your exploration notes are the seed of the research log you will keep in Part 2.
 
 Exploring longer isn't always better. Two kinds of signal tell you it is time to stop.
 
-**Signal 1: you can write down a specific hypothesis and know what evidence would decide it.** That is exactly the mark of moving into the testing stage[^nanda2025process-e5]. For example `[Our analysis]`: "A sizable share of the contracts in public benchmarks were already public before the model was trained; with those contracts removed, the model's detection rate drops noticeably." You also know what evidence you need: what share of contracts leaked, and how much accuracy changes when you remove them. At this point, take that sentence into [Judging and screening ideas](04_judge-and-screen.md). If this is your only remaining candidate and you have already talked it over with your advisor, you can go straight to [Converging on a project](05_converge.md).
+**Signal 1: you can write down a specific hypothesis and know what evidence would decide it.** That is exactly the mark of moving into the testing stage[^nanda2025process-e5]. For example: "A sizable share of the contracts in public benchmarks were already public before the model was trained; with those contracts removed, the model's detection rate drops noticeably." You also know what evidence you need: what share of contracts leaked, and how much accuracy changes when you remove them. At this point, take that sentence into [Judging and screening ideas](04_judge-and-screen.md). If this is your only remaining candidate and you have already talked it over with your advisor, you can go straight to [Converging on a project](05_converge.md).
 
-**Signal 2: you are no longer learning anything new for the time you put in.** Keep asking yourself, "Am I getting enough information per unit of time?" If you haven't learned anything new lately, try something different[^nanda2025process-e3]. When a project's returns keep shrinking, switching projects is perfectly fine[^perez2024tips-e2]. There are two kinds of switch `[Our analysis]`:
+**Signal 2: you are no longer learning anything new for the time you put in.** Keep asking yourself, "Am I getting enough information per unit of time?" If you haven't learned anything new lately, try something different[^nanda2025process-e3]. When a project's returns keep shrinking, switching projects is perfectly fine[^perez2024tips-e2]. There are two kinds of switch:
 
 - **Switch approach**: keep the same idea but explore it another way, for example moving from "reading the model's answers" to "tracing where the benchmark contracts came from";
 - **Switch idea**: if several approaches have taught you nothing new, put the idea back on the list with a note on why, and explore the next one.
 
 **But don't switch too often either.** Be decisive about dropping directions that should be dropped, but watch the cost of switching: if you keep switching and never explore anything properly, you learn nothing[^nanda2025mindsets-e1]. Some people go down a rabbit hole and need to learn to move on; others keep waiting for a perfect opportunity that never comes and do nothing[^nanda2025mindsets-e9].
 
-A practical rule `[Our analysis]`: give the exploration of each idea a time limit, say one to two weeks. When time is up, apply the two signals above: if you have a hypothesis, move on; if you have stopped learning, switch; if you are somewhere in between, talk it over with your advisor once and then decide.
+A practical rule: give the exploration of each idea a time limit, say one to two weeks. When time is up, apply the two signals above: if you have a hypothesis, move on; if you have stopped learning, switch; if you are somewhere in between, talk it over with your advisor once and then decide.
 
 **Write it down:** write down a time limit for each idea you are exploring. When it runs out, write one sentence: what hypothesis you came up with, or why you are switching.
 
 ## 5. Exploring is not the same as building "the smallest version that runs end to end"
 
-[The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md) in Part 2 also involves small experiments, such as [building a minimal version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md#3-build-a-minimal-version-that-runs-end-to-end). The two look alike, but their purposes differ `[Our analysis]`:
+[The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md) in Part 2 also involves small experiments, such as [building a minimal version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md#3-build-a-minimal-version-that-runs-end-to-end). The two look alike, but their purposes differ:
 
 | | Exploring hands-on (this chapter) | The smallest version that runs end to end (Part 2) |
 |---|---|---|
@@ -125,7 +125,7 @@ A practical rule `[Our analysis]`: give the exploration of each idea a time limi
 | Records | Exploration notes: what you saw and what you thought | Formal records begin: every result traceable to its code, data, and parameters |
 | How the results are used | Only as leads that help you write a hypothesis | To decide whether the design needs to change |
 
-The most common confusion is treating a few examples you saw while exploring as a conclusion you have already tested. A hunch that comes out of exploring has to be tested again in Part 2, using a method fixed in advance `[Our analysis]`.
+The most common confusion is treating a few examples you saw while exploring as a conclusion you have already tested. A hunch that comes out of exploring has to be tested again in Part 2, using a method fixed in advance.
 
 **Write it down:** go back through your exploration notes and mark which entries are just "things I saw" and which are getting close to "a hypothesis I could test".
 
@@ -133,7 +133,7 @@ The most common confusion is treating a few examples you saw while exploring as 
 
 ## Judgment calls
 
-**Explore more, or move on?** Here is one way to decide `[Our analysis]`:
+**Explore more, or move on?** Here is one way to decide:
 
 | Situation | What to do |
 |---|---|
@@ -149,9 +149,9 @@ The most common confusion is treating a few examples you saw while exploring as 
 | Reading and thinking endlessly, never getting started | The ability to judge whether a problem is good depends on doing the work[^olah2021taste-e9] |
 | Starting with a big, rigorous experiment | You see results only weeks later; exploration is about seeing early signs fast[^nanda2025mindsets-e11] |
 | Thinking you should already have a clear hypothesis when you are still exploring | You get stuck and don't know what to do next[^nanda2025process-e2] |
-| Not keeping notes while exploring | A few days later you can't say what you saw `[Our analysis]` |
+| Not keeping notes while exploring | A few days later you can't say what you saw |
 | Constantly switching ideas and never trying any properly | You learn nothing[^nanda2025mindsets-e1] |
-| Treating what you saw while exploring as a conclusion | Exploration has no criteria set in advance, so its results are only leads `[Our analysis]` |
+| Treating what you saw while exploring as a conclusion | Exploration has no criteria set in advance, so its results are only leads |
 
 ## What you should have at the end
 

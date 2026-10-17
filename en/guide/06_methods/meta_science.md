@@ -4,7 +4,7 @@ This page is about **research whose object is research methods themselves**: pap
 
 If what you want to know is how to make your own experiment rigorous, that is something every study has to do; see [Validity and limitations: think them through at the design stage](../02_do-the-project/04_validity-and-limits.md). If you want to review the research on a technical topic, see [Review studies](review_study.md).
 
-**Scope** `[Our analysis]`: the standards and examples on this page all come from computer science. The checklist is based on the empirical standards written for software engineering by ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering), and the examples come from software engineering, systems security, fuzz testing, and machine learning. Other fields have methodology research too (see the end of Section 1); before you start, look at similar papers and journal requirements in your own field.
+**Scope**: the standards and examples on this page all come from computer science. The checklist is based on the empirical standards written for software engineering by ACM SIGSOFT (the Association for Computing Machinery's Special Interest Group on Software Engineering), and the examples come from software engineering, systems security, fuzz testing, and machine learning. Other fields have methodology research too (see the end of Section 1); before you start, look at similar papers and journal requirements in your own field.
 
 **Strategies it usually serves**: [Synthesis](../05_research-strategies/synthesize.md) (critical reviews), [Measurement](../05_research-strategies/measure.md) (systematically surveying how well a field does its measurement).
 
@@ -23,7 +23,7 @@ The ACM SIGSOFT empirical standards define it as a paper that analyzes an issue 
 
 This kind of research belongs to **meta-science**: a scientific community's own discussion of how it does research[^ralph2022paving-e14].
 
-**Common kinds** `[Our analysis, based on the sources below]`:
+**Common kinds** (our own grouping, based on the sources below):
 
 | Kind | What it does | Examples |
 |---|---|---|
@@ -34,7 +34,7 @@ This kind of research belongs to **meta-science**: a scientific community's own 
 
 **How it differs from a review study**: a mapping study (close to a scoping review; see [Review studies](review_study.md)) is about an empirical topic (for example, "cognitive biases in software engineering"), while meta-science is about a methodological topic (for example, "construct validity", that is, whether what you measure really represents the concept you want to study)[^ralph2022paving-e17]. So a mapping study was never designed for methodological critique. Nor is a critical review meant to summarize the evidence for a theory; its purpose is to assess research practice[^ralph2022paving-e14].
 
-**When it is worth writing one**: when you keep seeing the same methodological problem as you read papers or review submissions, and you can explain why it matters and how to fix it. In computer science, such papers appear in every area: software engineering (guidelines for research methods), systems and security (surveys of evaluation flaws), and machine learning (critiques of evaluation and writing habits). Other fields have them too, for example the papers in psychology on the misuse of statistical tests and on the replicability of research `[Our analysis]`.
+**When it is worth writing one**: when you keep seeing the same methodological problem as you read papers or review submissions, and you can explain why it matters and how to fix it. In computer science, such papers appear in every area: software engineering (guidelines for research methods), systems and security (surveys of evaluation flaws), and machine learning (critiques of evaluation and writing habits). Other fields have them too, for example the papers in psychology on the misuse of statistical tests and on the replicability of research.
 
 ---
 
@@ -52,7 +52,7 @@ The SIGSOFT standard has only three essential attributes for this kind of paper:
 
 ### Step 2: Choose the right evidence
 
-A methodology paper's evidence comes mainly from three sources, which you can combine `[Our analysis]`.
+A methodology paper's evidence comes mainly from three sources, which you can combine.
 
 **1. A systematic sample of papers: shows how widespread the problem is.**
 
@@ -62,7 +62,7 @@ A methodology paper's evidence comes mainly from three sources, which you can co
 
 **2. A demonstration experiment you run yourself: shows the consequences of the problem.**
 
-If you only say "many papers don't do X", readers may shrug `[Our analysis]`. Klees et al. ran more than 50,000 CPU hours of experiments to show that experiments departing from recommended practice can easily reach wrong conclusions[^klees2018evaluating-e20]. You need a reason for what you choose to demonstrate on: the tool they chose was a recent advance with public code, which let them rerun the original experiments and vary parameters the original authors had not varied[^klees2018evaluating-e21]. And the aim was not to replicate that paper, but to use it as a case for testing evaluation practice[^klees2018evaluating-e22]. The SIGSOFT standard lists using a quantitative simulation to illustrate a methodological issue as an extraordinary attribute[^ralph2020empirical-e310].
+If you only say "many papers don't do X", readers may shrug. Klees et al. ran more than 50,000 CPU hours of experiments to show that experiments departing from recommended practice can easily reach wrong conclusions[^klees2018evaluating-e20]. You need a reason for what you choose to demonstrate on: the tool they chose was a recent advance with public code, which let them rerun the original experiments and vary parameters the original authors had not varied[^klees2018evaluating-e21]. And the aim was not to replicate that paper, but to use it as a case for testing evaluation practice[^klees2018evaluating-e22]. The SIGSOFT standard lists using a quantitative simulation to illustrate a methodological issue as an extraordinary attribute[^ralph2020empirical-e310].
 
 **3. Argument: many methodological claims cannot be tested empirically in the first place.**
 
@@ -72,11 +72,11 @@ The SIGSOFT standard regards "Guidelines are not based on empirical evidence" as
 > - The SIGSOFT standard says no: it lists an empirical study that motivates the analysis ("includes an empirical study (e.g. a systematic literature review) that motivates the analysis of guidance") as an extraordinary attribute, not an essential one[^ralph2020empirical-e310][^ralph2020empirical-e313]. Ralph & Baltes argue that the reviewing habit of insisting every paper report an empirical study has held back meta-science research[^ralph2022paving-e18].
 > - van der Kouwe et al., on the other hand, point out that papers which illustrate a problem only with examples and their own tests cannot show how much the problem affects the literature[^vanderkouwe2019sok-e33].
 >
-> In practice you can read it this way: if your claim is "this problem is widespread", you need data from a systematic sample; if your claim is "this is how it should be done", argument and demonstration can be the main evidence `[Our analysis]`.
+> In practice you can read it this way: if your claim is "this problem is widespread", you need data from a systematic sample; if your claim is "this is how it should be done", argument and demonstration can be the main evidence.
 
 ### Step 3: When you look for flaws in papers, be as rigorous as in any study
 
-Surveying what a set of papers did is, in essence, coding those papers, and it carries the same requirements as any other coding study `[Our analysis]` (for how to check agreement, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md#step-6-label-data-manually-and-check-agreement)):
+Surveying what a set of papers did is, in essence, coding those papers, and it carries the same requirements as any other coding study (for how to check agreement, see [Mining software repositories](../07_fields/computer-science/practices/repository_mining.md#step-6-label-data-manually-and-check-agreement)):
 
 - **Two people judge independently, then discuss disagreements.** In van der Kouwe et al., two people independently judged each paper for each flaw; the 8 papers (16%) where they disagreed were settled by discussion[^vanderkouwe2019sok-e28].
 - **Keep a category for "can't tell".** Their categories were "correct", "flawed", "underspecified", and "not applicable"[^vanderkouwe2019sok-e28]. If a paper doesn't say clearly what it did, you can't simply count it as "done wrong".
@@ -96,9 +96,9 @@ Almost every methodology paper has to point out other people's problems, and thi
 
 > **Where sources disagree: should you name names?**
 > - **Anonymous**: van der Kouwe et al. do not disclose which papers have which flaws, believing that naming and shaming is counterproductive; to compensate, their appendix sets out the classification criteria in detail, so others can redo the survey by the same criteria[^vanderkouwe2019sok-e31].
-> - **Public**: Klees et al. summarize the evaluation practice of every surveyed paper in a table[^klees2018evaluating-e23] (the table lists the papers one by one `[Our analysis]`), so readers can check directly.
+> - **Public**: Klees et al. summarize the evaluation practice of every surveyed paper in a table[^klees2018evaluating-e23] (we checked the original table: it lists the papers one by one), so readers can check directly.
 >
-> In practice: being public makes checking and replication easier; staying anonymous reduces harm to individuals. When you are pointing out a general problem, you can lean toward anonymity while publishing your classification criteria `[Our analysis]`; either way, comment only on what the papers did, not on the authors.
+> In practice: being public makes checking and replication easier; staying anonymous reduces harm to individuals. When you are pointing out a general problem, you can lean toward anonymity while publishing your classification criteria; either way, comment only on what the papers did, not on the authors.
 
 ---
 
