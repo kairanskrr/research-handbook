@@ -40,12 +40,11 @@
 |---|---|
 | 找题目阶段要想清楚什么、做出什么（进入领域、找问题、探索、筛选、收敛） | 第一部分 · 想到一个好题目：`guide/01_find-a-problem/`，按章节模板写（计划 §6） |
 | 把题目做出来要想清楚什么、做出什么（证据、方法、计划、效度、试验、执行、分析、决策点） | 第二部分 · 把它做出来：`guide/02_do-the-project/`，按章节模板写 |
-| 写论文、投稿、回应审稿 | 写作和发表：`guide/03_write-and-publish/`，按章节模板写 |
 | 一类研究产生什么知识、需要什么证据、常用哪些方法、哪些学科常用 | 为什么（研究套路）：`guide/05_research-strategies/` |
 | 一种具体做法怎么做好，而且两个及以上学科在用 | 研究类型里的通用方法：`guide/06_methods/`，并在 `guide/06_methods/README.md` 的对照表里加一行 |
 | 只有一个学科使用的研究实践 | 该学科的 `practices/`（如 `guide/07_fields/computer-science/practices/`）；它在导航里和通用方法一起归入研究类型，也要在 `guide/06_methods/README.md` 的对照表里加一行 |
 | 某个学科、某个社区特有的规矩 | 学科篇：`guide/07_fields/<学科>/README.md`。只写学科特有的内容，通用方法链接到 `guide/06_methods/` |
-| 不属于某个阶段、一直要面对的事（计划、材料、合作、诚信、心态、审稿） | 贯穿全程：`guide/08_throughout/` |
+| 不属于某个阶段、一直要面对的事（计划、材料、合作、诚信、心态） | 贯穿全程：`guide/08_throughout/` |
 
 研究方法和学科实践的文档可以用 [`templates/research-type.md`](templates/research-type.md) 模板。
 
@@ -60,7 +59,7 @@
 
 ### 写完后更新目录页
 
-新增或改动了章节、方法、学科篇，同时更新所在的目录页：两部分和写作发表的章节见仓库首页 [`README.md`](README.md) 的目录，研究套路见 [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md)，研究类型（通用方法和各学科独有的实践）见 [`guide/06_methods/README.md`](guide/06_methods/README.md)，学科篇和各学科独有的实践，还要更新 [`guide/07_fields/README.md`](guide/07_fields/README.md)，贯穿全程见 [`guide/08_throughout/README.md`](guide/08_throughout/README.md)。
+新增或改动了章节、方法、学科篇，同时更新所在的目录页：两部分的章节见仓库首页 [`README.zh.md`](README.zh.md) 的目录，研究套路见 [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md)，研究类型（通用方法和各学科独有的实践）见 [`guide/06_methods/README.md`](guide/06_methods/README.md)，学科篇和各学科独有的实践，还要更新 [`guide/07_fields/README.md`](guide/07_fields/README.md)，贯穿全程见 [`guide/08_throughout/README.md`](guide/08_throughout/README.md)。
 
 ## 许可说明
 

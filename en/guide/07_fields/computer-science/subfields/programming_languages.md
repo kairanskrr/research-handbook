@@ -77,13 +77,13 @@ For how to repeat measurements, how to keep factors such as link order from quie
 
 **4. Take anonymity seriously, but don't let it lower quality.** PLDI 2026 notes that if your paper is the first to introduce a well-known system, or the system's name would identify the authors, you should use a different name in the submission, and you may note that it was changed for double-blind review[^pldi2026cfp-e7]. POPL 2026 stresses that you should not lower the quality of your submission for the sake of anonymity[^popl2026cfp-e5].
 
-**5. The author response is not the place to add experiments.** POPL 2026 says the response may not present new technical results[^popl2026cfp-e6]. So finish the key proofs and experiments before you submit. For how to write a response in general, see [Reviews, revision, and what to do after rejection](../../../03_write-and-publish/03_review-and-revision.md#4-writing-an-author-response-for-a-conference).
+**5. The author response is not the place to add experiments.** POPL 2026 says the response may not present new technical results[^popl2026cfp-e6]. So finish the key proofs and experiments before you submit.
 
 **6. Artifact evaluation is separate from acceptance, but prepare early.** At both PLDI 2026 and POPL 2026, artifact evaluation is voluntary and does not affect whether the paper is accepted[^pldi2026cfp-e12][^popl2026cfp-e9]. It checks whether the claims and evidence in the paper are consistent with the artifact[^blackburn2018sigplan-e31]. PLDI 2026 asks you to say at submission whether you intend to submit an artifact[^pldi2026cfp-e13], so organize your code and proof scripts to the standard of "someone else can run this" while you are writing them. For what the badges mean, see the [computer science field overview](../README.md#artifact-evaluation-and-badges).
 
 **7. Declare conflicts of interest honestly.** PLDI 2026 states that declaring false conflicts in order to exclude certain reviewers may lead to rejection[^pldi2026cfp-e9].
 
-**8. Prepare to the standards of your target conference.** Even within this area, the review criteria of PLDI 2026 and POPL 2026 are not quite the same (see the table above). For how reviewers generally read a paper and what they look for, see [Being a reviewer](../../../08_throughout/being_a_reviewer.md#3-read-the-paper-like-a-reviewer).
+**8. Prepare to the standards of your target conference.** Even within this area, the review criteria of PLDI 2026 and POPL 2026 are not quite the same (see the table above).
 
 ## Common mistakes
 

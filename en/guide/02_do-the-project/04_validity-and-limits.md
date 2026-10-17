@@ -211,7 +211,7 @@ Limitations are not a paragraph you add after the paper is written. Writing them
 3. **Decide now to report the result whatever it is.** If you decide to test an idea, you should publish the result whichever way it comes out; publishing only one kind of result makes the argument look better than it is[^feynman1974cargo-e9].
 4. **Be ready to record deviations.** Once you are doing the work, you will most likely change the plan. Record the original study protocol and every later deviation, so others can understand your design and interpret your results[^easterbrook2008selecting-e72]. For how to report deviations, see [From research questions to an evidence plan](01_question-to-evidence.md).
 
-For why these are matters of research integrity, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md); for how to write limitations and unfavorable facts in a paper, see [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+For why these are matters of research integrity, see [Research integrity and ethics](../08_throughout/integrity_and_ethics.md).
 
 **Write it down:** Write a three-to-five-sentence draft of your limitations, then one sentence with your revised central claim, made consistent with the limitations. Put "report the result whatever it is" and "record every deviation" into your research plan.
 

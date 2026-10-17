@@ -23,20 +23,16 @@ When you finish this page, you should be able to say which chapter you are in, w
         ↑                                                                                        │
         │                    2.8 Decision points: continue, adjust, or go back to Part 1         ↓
         └──────────────── 2.7 Analysis and interpretation ←──────── 2.6 Run and iterate ←────────┘
-                                   │
-                                   ↓
-  Writing and publishing: write the paper → submit → reviews and revision (reviews can send you back too)
 
   Look up when needed: Research types · Fields · Research strategies · Throughout the project · FAQ
 ```
 
-Part 1 is **exploration**: you read the literature, collect ideas, try things out, and screen them until you can write down one sentence you want to prove, and from that sentence you work out which research type you are doing. Part 2 is **verification**: you turn that sentence into evidence, then design, pilot, run, and analyze. It loops around a few decision points; it is not a straight line. Writing and publishing is a part of its own. The bottom line is the Reference, which you look up when you need it; see [How to use this handbook](how-to-use.md#how-the-handbook-is-organized-a-two-part-backbone-plus-reference).
+Part 1 is **exploration**: you read the literature, collect ideas, try things out, and screen them until you can write down one sentence you want to prove, and from that sentence you work out which research type you are doing. Part 2 is **verification**: you turn that sentence into evidence, then design, pilot, run, and analyze. It loops around a few decision points; it is not a straight line. The bottom line is the Reference, which you look up when you need it; see [How to use this handbook](how-to-use.md#how-the-handbook-is-organized-a-two-part-backbone-plus-reference).
 
 | Part | Questions to answer | What you have at the end |
 |---|---|---|
 | Part 1: Find a good problem | What to do? Is it worth doing? Can it be done? | One sentence, a one-page project summary, an empty results table, and the research type you have identified |
 | Part 2: Do the project | What evidence do you need? Which methods will get it? Where could your conclusions be wrong? Do you have the evidence? What does it show? | An evidence plan, an evidence-to-method table, a research plan, a threat-handling table, a smallest version that runs end to end, traceable results, a claim updated in light of the evidence |
-| Writing and publishing | How do you explain it clearly? Where do you submit? How do you respond to reviewers? | A paper, submission materials, responses and a revised manuscript |
 
 ## 2. Each chapter: what it produces, and what you need before moving on
 
@@ -66,16 +62,6 @@ The key step in Part 1 is converging: turning "I'm interested in X" into "I want
 | [2.6 Running and iterating](../02_do-the-project/06_run-and-iterate.md) | A research log, run records, a record of changes to the plan, weekly reports | You have the evidence your milestones call for (or have agreed with your advisor to change the claim); every result that goes into the paper can be traced to its code, data, and parameters |
 | [2.7 Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) | Data-checking records, an analysis checklist, a table matching conclusions to evidence, an updated one-page summary | Every conclusion points to its evidence, and the strength of each statement matches the evidence; every unplanned analysis is labeled exploratory |
 | [2.8 Decision points: continue, adjust, or go back](../02_do-the-project/08_decision-points.md) | A decision log, and the paper skeleton updated after each decision | Every time you continue, you had criteria written down in advance; every time you go back, you can write down why the claim doesn't hold |
-
-### Writing and publishing
-
-| Chapter | What it produces | Before moving on, at minimum |
-|---|---|---|
-| [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) | A paper outline, a complete first draft, a claim-to-evidence table, a record of feedback from others | Every claim points to a specific figure, table, or section; at least one person who hadn't seen the draft has read it |
-| [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) | A comparison table of candidate venues, a to-do list of submission requirements, a table of key dates after submission | You have checked formatting, anonymization, the preprint policy, and every required statement against the target venue's rules; all authors have agreed on authorship |
-| [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md) | A table of reviewer comments, an author response or response letter and a revised manuscript; after a rejection, a diagnosis and the next venue | Every comment has been categorized and decided on; for every issue that shakes the claim, you have either added evidence or changed the claim |
-
-Writing and publishing comes last, but you should start writing during Part 1; see the next section.
 
 ## 3. A chain of outputs
 
@@ -116,10 +102,7 @@ What matters is knowing **where to go back to**. This table collects the most co
 | 2.6 Running and iterating | So much has changed that the original plan no longer fits | [Writing a research plan](../02_do-the-project/03_research-plan.md#7-how-the-plan-changes), Section 7: rework the plan starting from the claim |
 | 2.7 Analysis and interpretation | There is a fatal alternative explanation your current design can't rule out | [Validity and limitations](../02_do-the-project/04_validity-and-limits.md): add to the design |
 | 2.7 Analysis and interpretation | While exploring, you found a more interesting question | [Converging on a project](../01_find-a-problem/05_converge.md): treat it as a new candidate and discuss it with your advisor |
-| Telling the story and writing the paper | While writing, you find a key experiment is missing and the claim doesn't hold up | [Running and iterating](../02_do-the-project/06_run-and-iterate.md): run the missing experiment |
-| Choosing a venue and submitting | After reading papers from the target venue, you see your evidence clearly falls short | [Running and iterating](../02_do-the-project/06_run-and-iterate.md) to run more experiments, or narrow the claim |
-| Reviews, revision, and what to do after rejection | Reviewers accept the problem but think the evidence doesn't support the conclusion | [Validity and limitations](../02_do-the-project/04_validity-and-limits.md), or [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) |
-| Reviews, revision, and what to do after rejection | Reviewers agree it has been done before, or the contribution is too small | [Converging on a project](../01_find-a-problem/05_converge.md#3-has-someone-already-done-it), Section 3 |
+| Writing the paper | While writing, you find a key experiment is missing and the claim doesn't hold up | [Running and iterating](../02_do-the-project/06_run-and-iterate.md): run the missing experiment |
 
 The table shows that the place you are most often sent back to is [Converging on a project](../01_find-a-problem/05_converge.md): when the claim isn't thought through, the problems tend to surface only later. The writing row is especially common: laying out the whole paper ahead of time almost always reveals a few key experiments you still have to run[^karpathy2016survival-e9], which is why you should start writing early.
 
@@ -156,7 +139,7 @@ Integrity and ethics questions (such as whether you need ethics review, or how t
 
 **Our sources give no general figure for how long a project takes from start to publication.** It depends on the research strategy, how the field publishes, and how many times you had to go back along the way. Rather than memorizing a number, learn to estimate: plan backwards from the submission deadline, measure how far off your own estimates tend to be, and leave slack for going back; for how, see [Writing a research plan](../02_do-the-project/03_research-plan.md#5-estimate-time-and-build-in-slack). For how to organize each day and week, see [Planning and daily routines](../08_throughout/planning_and_routines.md).
 
-After you submit, some of the time is out of your hands: you wait for reviews, and after a rejection you revise and resubmit elsewhere. This varies a lot by field and venue; for the process, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md#6-what-happens-after-you-submit).
+After you submit, some of the time is out of your hands: you wait for reviews, and after a rejection you revise and resubmit elsewhere. This varies a lot by field and venue.
 
 ## 8. Where are you now?
 
@@ -177,9 +160,6 @@ To find a starting point by situation, use the table in [How to use this handboo
 | You are running experiments or collecting material | [Running and iterating](../02_do-the-project/06_run-and-iterate.md) |
 | A pile of results, and you don't know what they show | [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) |
 | Results that differ from what you expected, and you can't tell whether to continue or go back | [Decision points: continue, adjust, or go back](../02_do-the-project/08_decision-points.md) |
-| Your conclusions are clear and you need to write the paper | [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) |
-| The paper is written and you don't know where to submit | [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) |
-| You have received reviews or a rejection letter | [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md) |
 
 If you are in a later chapter but find that an earlier output is missing (for example, you are running experiments but can't write a one-page summary), go back and fill it in first. The missing piece is often exactly why you are stuck now.
 

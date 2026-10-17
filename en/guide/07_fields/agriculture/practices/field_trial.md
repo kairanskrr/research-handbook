@@ -141,7 +141,7 @@ A **mixed model** contains both fixed effects and random effects. **Fixed effect
 
 **Why:** the Tri-Societies' handbook says readers need to understand how the experiment was designed and conducted to judge whether the results are credible, and to design future research on that basis[^asa2024style-e9].
 
-**Where people go wrong:** writing only "analyzed with SAS" without saying which fixed and random effects are in the model. For general writing advice, see the Writing and publishing chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md).
+**Where people go wrong:** writing only "analyzed with SAS" without saying which fixed and random effects are in the model.
 
 ---
 

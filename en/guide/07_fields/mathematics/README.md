@@ -75,7 +75,7 @@ The AMS Ethical Guidelines set out clearly what referees for math journals must 
 - If there is a conflict of interest (for example, the manuscript concerns your own research or that of a colleague or student), you should withdraw[^ams2022ethical-e7].
 - Editors judge a paper against the state of knowledge at the time of submission, and accept it only when reasonably confident that it is correct[^ams2022ethical-e9].
 
-As an author, make the referee's job easy. When deciding what level of journal to aim for, Tao suggests first asking yourself whether the paper is written so that the correctness of the argument is easy to check[^taowriting-e19]. Before submitting, also check whether the journal's editorial board includes someone who knows your area[^taowriting-e18]. For the general review process and how to be a referee, see the Writing and publishing chapter [Choosing a venue and submitting](../../03_write-and-publish/02_venue-and-submission.md).
+As an author, make the referee's job easy. When deciding what level of journal to aim for, Tao suggests first asking yourself whether the paper is written so that the correctness of the argument is easy to check[^taowriting-e19]. Before submitting, also check whether the journal's editorial board includes someone who knows your area[^taowriting-e18].
 
 ### Advisors and choosing problems
 

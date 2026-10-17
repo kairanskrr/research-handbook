@@ -143,7 +143,7 @@ For the general requirements (risk, informed consent, privacy, ethics review), s
 
 ### Step 9: Reporting
 
-Beyond the general advice on writing a research paper (see [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md)), a survey paper needs to state clearly:
+Beyond the general advice on writing a research paper, a survey paper needs to state clearly:
 
 - the target population, sampling strategy, and how you recruited (list, advertisement, invitation, incentives)[^ralph2020empirical-e235];
 - the response rate, and what you did to raise it[^ralph2020empirical-e238][^molleri2020empirically-e9];

@@ -41,7 +41,7 @@
 **阐释要能论证。** 文学作品没有唯一答案，但这不等于怎么说都行；阐释有高下之分[^uncwritinglit-e2]。同一份讲义说，好的阐释要避开读者自己就能得出的显而易见的结论[^uncwritinglit-e4]，并用缜密的推理说明证据怎样支撑论点[^uncwritinglit-e3]。论点要能回答"那又怎样"（so what）[^uncwritinglit-e9]。两条实用规则：
 
 - **只引不析不算论证。** 引了一段却不解释，就没有展示你的推理[^uncwritinglit-e8]。约克大学的讲义提出"二倍规则"：对引文的分析应是引文长度的两倍[^yorkclosereading-e7]。
-- **工作论点会变。** 论点在变，说明你开始说出更有意思、更复杂的东西[^uncwritinglit-e6]。这和写作和发表部分的[讲清故事，写成论文](../../03_write-and-publish/01_story-and-paper.md#2-先搭提纲再写句子)说的"把写作当作研究的一部分"一致。
+- **工作论点会变。** 论点在变，说明你开始说出更有意思、更复杂的东西[^uncwritinglit-e6]。这也说明，写作本身就是研究的一部分。
 
 **使用理论和背景。** 文学研究者常把文本和更大的议题联系起来，例如经济、宗教、法律、政治、历史、环境等[^uncwritinglit-e10]。各种文学理论提供的是观察文本的角度，不是现成的结论。北卡讲义提醒，不要带着预设的结论进入题目[^uncwritinglit-e11]。反过来，细读也被批评过脱离语境、远离文本的历史和政治关联[^yorkclosereading-e4]。约克大学的讲义说：要的是细读（close reading），不是封闭的阅读（closed reading）[^yorkclosereading-e5]；发现的东西不要罗列，要组织成论证[^yorkclosereading-e6]。
 

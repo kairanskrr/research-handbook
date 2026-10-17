@@ -88,9 +88,9 @@ Lamport 还指出，算法的证明往往数学上不深，但很繁杂，有大
 | [最小可跑版本](../02_do-the-project/05_pilot-and-derisk.md) | 先试着找反例：找到了省下大量时间，反例本身也可能值得发表；找不到，遇到的障碍会提示证明该怎么做[^taocareer-e2]。先分离出简化的特殊情形来做[^taocareer-e5] |
 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 重视部分进展，它是完全解决问题的关键垫脚石[^taocareer-e6]，很多中间步骤本身就是可发表的论文[^taocareer-e22]；有意思的论证写成草稿，详细到日后能恢复[^taocareer-e18] |
 | [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) | "分析"变成查错：这个方法会不会也"证明"出已知为假的更强结论[^taocareer-e1]？每个关键假设都实质用到了吗[^taowriting-e13]？ |
-| [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 按 Lamport 的建议，靠分层结构和给每一步命名（编号）让证明好懂[^lamport2012how-e1]；每个主要证明前给一段概要，作为读者的路线图[^lamport1995how-e2]；结果不说小也不说大[^taowriting-e3] |
-| [选择发表渠道与投稿](../03_write-and-publish/02_venue-and-submission.md) | 计算机理论方向看重会议，也有把会议论文补全后再投期刊的传统[^cra1999evaluating-e4]；数学研究大多发表在有审稿的期刊上[^amsculture2006rates-e1] |
-| [审稿意见、修改与被拒之后](../03_write-and-publish/03_review-and-revision.md) | 别把一次拒稿看得太重：近一半哥德尔奖（理论计算机的最佳论文奖）获奖论文最初被顶级理论会议拒过，或根本没在那里发表[^fortnow2009time-e8] |
+| 写作 | 按 Lamport 的建议，靠分层结构和给每一步命名（编号）让证明好懂[^lamport2012how-e1]；每个主要证明前给一段概要，作为读者的路线图[^lamport1995how-e2]；结果不说小也不说大[^taowriting-e3] |
+| 选择发表渠道 | 计算机理论方向看重会议，也有把会议论文补全后再投期刊的传统[^cra1999evaluating-e4]；数学研究大多发表在有审稿的期刊上[^amsculture2006rates-e1] |
+| 审稿与被拒 | 别把一次拒稿看得太重：近一半哥德尔奖（理论计算机的最佳论文奖）获奖论文最初被顶级理论会议拒过，或根本没在那里发表[^fortnow2009time-e8] |
 
 **写下来：** 在你的项目计划里加一行"先找反例"的任务，写明打算在哪些小例子、特殊情形上试。
 

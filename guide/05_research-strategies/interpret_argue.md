@@ -119,8 +119,8 @@
 | [最小可跑版本](../02_do-the-project/05_pilot-and-derisk.md) | 先细读一小段、查一个收藏，确认材料撑得起问题。去档案馆前先联系，确认材料在不在[^cronon2009learning-e32]。哲学：能口头讲给别人听了，再写提纲[^pryor2012writing-e36] |
 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 问题和文献互相塑造[^cronon2009learning-e9]；选证据和修改论点最好同时做[^uncwritinglit-e19]；边收集边写[^cronon2009learning-e28]。笔记严格区分照抄和转述[^aha2023standards-e12]，标清哪些是自己的想法[^cronon2009learning-e11] |
 | [分析与解读](../02_do-the-project/07_analyze-and-interpret.md) | "分析"变成从观察走到论点：在注意到的东西里找重复、矛盾和相似[^kain1998closereading-e5]，再问"怎样"和"为什么"[^kain1998closereading-e6]。论证修不好时，把论题改成你能辩护的那个[^pryor2012writing-e19] |
-| [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 不必套用"方法—结果—讨论"的结构，先看本学科的范文怎样按论点分章。分清哪里是自己的观点、哪里是转述别人[^pryor2012writing-e40]。脚注体系在包括文学、历史和艺术在内的人文学科里很常用[^chicago2024citation-e2]，动笔前查目标期刊的格式 |
-| [选择发表渠道与投稿](../03_write-and-publish/02_venue-and-submission.md) | 各学科差别大：美国历史学会 2013 年的声明称历史学是"以书为本"的学科[^aha2013embargo-e1]；美国哲学学会 1996 年说，更多哲学家只写论文[^apaphil1996research-e8]。先看学科篇 |
+| 写作 | 不必套用"方法—结果—讨论"的结构，先看本学科的范文怎样按论点分章。分清哪里是自己的观点、哪里是转述别人[^pryor2012writing-e40]。脚注体系在包括文学、历史和艺术在内的人文学科里很常用[^chicago2024citation-e2]，动笔前查目标期刊的格式 |
+| 选择发表渠道 | 各学科差别大：美国历史学会 2013 年的声明称历史学是"以书为本"的学科[^aha2013embargo-e1]；美国哲学学会 1996 年说，更多哲学家只写论文[^apaphil1996research-e8]。先看学科篇 |
 
 ## 5. 哪些学科常用
 

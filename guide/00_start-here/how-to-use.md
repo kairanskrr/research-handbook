@@ -22,8 +22,6 @@
 | 有了证据清单，不知道用什么方法拿 | [2.2 选方法](../02_do-the-project/02_choose-method.md)，以及[研究类型](../06_methods/README.md)目录 |
 | 做到一半卡住了 | [2.8 决策点：继续、调整，还是退回](../02_do-the-project/08_decision-points.md)；卡在具体问题上，先看[2.6 卡住时，按固定步骤排查](../02_do-the-project/06_run-and-iterate.md#5-卡住时按固定步骤排查) |
 | 结果和预期不一样 | [2.7 负面结果和意外结果](../02_do-the-project/07_analyze-and-interpret.md#5-负面结果和意外结果)，再到[2.8 决策点](../02_do-the-project/08_decision-points.md)决定继续、调整还是退回 |
-| 结论清楚了，要写论文、投稿 | [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)、[选择发表渠道与投稿](../03_write-and-publish/02_venue-and-submission.md) |
-| 收到审稿意见，或者被拒了 | [审稿意见、修改与被拒之后](../03_write-and-publish/03_review-and-revision.md) |
 | 要进入一个新学科 | [学科篇](../07_fields/README.md)里这个学科的概况，再读[1.1 进入领域、探索文献](../01_find-a-problem/01_enter-a-field.md) |
 | 需要某种具体方法：对照实验、访谈、问卷、综述…… | [研究类型](../06_methods/README.md)目录，按你的叫法找到那一页 |
 | 遇到具体麻烦：导师没空、实验一直不成、时间不够…… | [常见问题速查](../faq.md) |
@@ -53,7 +51,7 @@
 
 第二部分不是一条直线，而是围绕几个决策点的循环：试验、数据、分析都可能让你调整设计，甚至退回第一部分。做到后面发现事情比想象中乱，退回去是正常的，不代表你搞砸了[^nanda2025process-e6]。每个关键时刻怎么选，见[2.8 决策点](../02_do-the-project/08_decision-points.md)。
 
-**写作和发表**单独成一部分：[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) · [选择发表渠道与投稿](../03_write-and-publish/02_venue-and-submission.md) · [审稿意见、修改与被拒之后](../03_write-and-publish/03_review-and-revision.md)。它排在后面，动笔却应该很早：一句主张、空的结果表、证据清单、填满的结果表、贡献清单，在两部分里一样接一样长出来，最后就是论文的骨架，见[2.8 一路维护的论文骨架](../02_do-the-project/08_decision-points.md#4-一路维护的论文骨架)。
+论文要早动笔：一句主张、空的结果表、证据清单、填满的结果表、贡献清单，在两部分里一样接一样长出来，最后就是论文的骨架，见[2.8 一路维护的论文骨架](../02_do-the-project/08_decision-points.md#4-一路维护的论文骨架)。
 
 ### 参考：需要时再查
 
@@ -64,14 +62,14 @@
 | [研究类型](../06_methods/README.md) | 一种具体做法怎么做好，比如[对照实验](../06_methods/controlled_experiment.md)、[访谈](../06_methods/interview_study.md)、[问卷](../06_methods/questionnaire_survey.md)、[基准评测](../07_fields/computer-science/practices/benchmarking.md)。这个目录合并了多个学科都用的方法，和各学科独有的实践 | 第一部分出口判断出研究类型后；第二部分选方法、动手收集和分析证据时 |
 | [学科篇](../07_fields/README.md) | 某个学科、某个研究社区特有的规矩，比如发表文化、伦理审批 | 你要进入一个学科，或者想知道"在这个社区里什么证据才会被接受" |
 | [为什么：研究套路](../05_research-strategies/README.md) | 八种研究各产生什么知识、需要什么证据。它是一个判断工具，帮你想清楚审稿人会要什么 | 你写出了核心主张，想知道自己做的是哪一种研究、该按什么标准被评价 |
-| [贯穿全程](../08_throughout/README.md) | 不属于某个阶段、但一直要面对的事：计划和日常安排、材料整理、导师与合作、诚信和伦理、心态与成长、当审稿人 | 遇到这些事的时候 |
+| [贯穿全程](../08_throughout/README.md) | 不属于某个阶段、但一直要面对的事：计划和日常安排、材料整理、导师与合作、诚信和伦理、心态与成长 | 遇到这些事的时候 |
 | [常见问题速查](../faq.md) | 按"遇到了什么情况"列出建议，链接到详细的段落 | 你有一个具体的麻烦，想直接找办法 |
 
 **主干和参考怎么配合：** 主干告诉你此刻要做什么决定，参考告诉你做这个决定需要的细节。比如在[收敛成项目](../01_find-a-problem/05_converge.md)里，你写出了"现有大模型漏洞检测的评测结果被数据泄露高估了"，判断它属于"测量"这种套路；这时去读[测量](../05_research-strategies/measure.md)，看这类研究要拿出什么证据；等到第二部分选方法时，再去[研究类型](../06_methods/README.md)里查[基准评测](../07_fields/computer-science/practices/benchmarking.md)具体怎么做。不需要先把参考读完再开始。
 
 ## 每一章都按同一个结构写
 
-两部分和写作发表的每一章，都按下面的顺序展开：
+两部分的每一章，都按下面的顺序展开：
 
 | 部分 | 它帮你做什么 |
 |---|---|

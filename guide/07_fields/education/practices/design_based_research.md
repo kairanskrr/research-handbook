@@ -4,7 +4,7 @@
 
 不在本文讲的：进学校的审批和"守门人"、按校历排时间，见[学科概况](../README.md#研究多在学校里做先过守门人)；未成年人同意、研究自己的学生等伦理通则，见[学科概况的伦理一节](../README.md#伦理未成年人守门人和研究自己的学生)；教师独自改进自己课堂的行动研究，见[学科概况的研究方法一节](../README.md#本学科常用的研究方法)（注意它和研究类型里的"行动研究"含义不同）；要证明一种干预"有效"的随机对照试验，见研究类型里的[对照实验](../../../06_methods/controlled_experiment.md)和学科概况的[证据标准](../README.md#证据标准what-works-clearinghouse-怎样给研究评级)。
 
-**适用范围**：这是教育学的研究方法，依据的是上面列出的四份教育研究方法文献。"造出新东西、再证明它有用"的通用逻辑，见研究套路里的[构建改进](../../../05_research-strategies/build_improve.md)；选题、做计划、写作等各学科共通的步骤，见第一部分、第二部分、写作和发表各章，例如[收敛成项目](../../../01_find-a-problem/05_converge.md)和[讲清故事，写成论文](../../../03_write-and-publish/01_story-and-paper.md)。
+**适用范围**：这是教育学的研究方法，依据的是上面列出的四份教育研究方法文献。"造出新东西、再证明它有用"的通用逻辑，见研究套路里的[构建改进](../../../05_research-strategies/build_improve.md)；选题、做计划等各学科共通的步骤，见第一部分、第二部分各章，例如[收敛成项目](../../../01_find-a-problem/05_converge.md)。
 
 **常服务的套路**：[构建改进](../../../05_research-strategies/build_improve.md)（以该套路页"常用的研究方法"一节为准）。
 
@@ -137,7 +137,7 @@ Anderson 和 Shattuck 引述了一条批评：研究者全程参与一种教学�
 
 ### 第九步：报告：要写清什么
 
-Bakker 和 van Eerde 说，基于设计的研究报告需要"深描"，所以往往很长[^bakker2015introduction-e22]。本文资料中没有专门针对基于设计的研究的报告规范；下面综合三方面：美国教育研究协会（American Educational Research Association，AERA）为其出版物制定的报告标准（详见[学科概况](../README.md#报告标准aera-的实证研究报告标准)），美国 IES 和 NSF 对其资助的设计与开发项目的产出要求，以及方法学者的建议。论文写作的一般方法见写作和发表部分的[讲清故事，写成论文](../../../03_write-and-publish/01_story-and-paper.md)。
+Bakker 和 van Eerde 说，基于设计的研究报告需要"深描"，所以往往很长[^bakker2015introduction-e22]。本文资料中没有专门针对基于设计的研究的报告规范；下面综合三方面：美国教育研究协会（American Educational Research Association，AERA）为其出版物制定的报告标准（详见[学科概况](../README.md#报告标准aera-的实证研究报告标准)），美国 IES 和 NSF 对其资助的设计与开发项目的产出要求，以及方法学者的建议。
 
 - **讲清完整过程**，让读者能重建研究：失败和成功、所用程序、概念框架、做选择的理由[^bakker2015introduction-e26]。Easterday 等人发现，用阶段来组织，能更简洁地说清项目做过什么[^easterday2014design-e19]。
 - **主要的设计迭代、每轮的证据，以及据此对行动理论和设计做了哪些调整**（IES 和 NSF 的要求）[^ies2013common-e11]。

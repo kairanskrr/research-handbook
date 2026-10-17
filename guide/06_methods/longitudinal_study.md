@@ -108,7 +108,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第八步：报告
 
-除了一般的写作要求（见[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)），纵向研究要特别写清：对象是谁、怎样选出[^ralph2020empirical-e263]；时点和间隔怎样确定；每轮流失多少、缺失怎样处理[^ralph2020empirical-e262]；指标怎样从概念变成测量[^ralph2020empirical-e263]；收集数据的成本和用过的激励[^ralph2020empirical-e267]。公开数据集、采集脚本和分析脚本[^ralph2020empirical-e267]。承认了局限，结论就要真的受它约束[^ralph2020empirical-e103][^ralph2020empirical-e126]。
+纵向研究写论文时要特别写清：对象是谁、怎样选出[^ralph2020empirical-e263]；时点和间隔怎样确定；每轮流失多少、缺失怎样处理[^ralph2020empirical-e262]；指标怎样从概念变成测量[^ralph2020empirical-e263]；收集数据的成本和用过的激励[^ralph2020empirical-e267]。公开数据集、采集脚本和分析脚本[^ralph2020empirical-e267]。承认了局限，结论就要真的受它约束[^ralph2020empirical-e103][^ralph2020empirical-e126]。
 
 ---
 

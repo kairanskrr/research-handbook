@@ -141,7 +141,7 @@ Stol 等人举的一个例子：一项研究得出敏捷团队成员承担的几
 - **和已有研究对话**：把理论与已有理论比较或整合[^ralph2020empirical-e320]，说明文献在研究中起了什么作用[^ralph2020empirical-e321]。
 - **讨论可迁移性**：理论在多大程度上可能适用于其他地点、人群或情境[^ralph2020empirical-e318][^ralph2020empirical-e329]；反思你自己的偏见可能怎样影响了分析[^ralph2020empirical-e321]。
 
-定性研究的质量标准见[访谈研究](interview_study.md#先记住定性研究的质量标准和定量研究不同)，证据链见[案例研究](case_study.md#第七步分析时保持证据链)；写作的一般做法见[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)。
+定性研究的质量标准见[访谈研究](interview_study.md#先记住定性研究的质量标准和定量研究不同)，证据链见[案例研究](case_study.md#第七步分析时保持证据链)。
 
 ---
 

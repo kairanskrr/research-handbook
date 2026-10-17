@@ -136,7 +136,7 @@ If you choose causal explanation, each stage gets a few extra tasks:
 | Pilot study | Try the part you are least sure of first, for example whether the hint's effect is big enough to detect | [The smallest version that runs end to end](../02_do-the-project/05_pilot-and-derisk.md) |
 | Running the study | Record the model version, parameters and exact prompt text for every run; don't change conditions midway | [Running and iterating](../02_do-the-project/06_run-and-iterate.md) |
 | Analysis | Analyze according to the hypotheses you wrote in advance; don't try every possible analysis and pick the result you like | [Analysis and interpretation](../02_do-the-project/07_analyze-and-interpret.md) |
-| Writing | State the conditions under which the causal claim holds; say which explanations you ruled out and which remain | [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) |
+| Writing | State the conditions under which the causal claim holds; say which explanations you ruled out and which remain | — |
 
 The reasoning behind some of these:
 

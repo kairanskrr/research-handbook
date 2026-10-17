@@ -58,9 +58,9 @@
 
 历史研究的目标不是堆材料，而是建立论证、讲出故事[^cronon2009learning-e3]。论证最基本的形式，是一个由证据支撑的主张[^cronon2009learning-e18]。历史学家也是讲故事的人[^cronon2009learning-e17]。
 
-写作和发表部分的[讲清故事，写成论文](../../03_write-and-publish/01_story-and-paper.md)讲的先亮出主张、按逻辑组织，在历史写作里同样适用。不同的是，很多实验学科的论文有固定的"引言—方法—结果—讨论"分节（英文 Introduction, Methods, Results, and Discussion，常缩写为 IMRaD）；历史论文和专著一般按论点和叙事来分章，没有固定的"方法"和"结果"节。
+先亮出主张、按逻辑组织，在历史写作里同样适用。不同的是，很多实验学科的论文有固定的"引言—方法—结果—讨论"分节（英文 Introduction, Methods, Results, and Discussion，常缩写为 IMRaD）；历史论文和专著一般按论点和叙事来分章，没有固定的"方法"和"结果"节。
 
-**给论点定位。** 弄清自己的观点和已有学者的观点是什么关系，叫"给论点定位"（positioning your argument），能大大提升作品的意义[^cronon2009learning-e23]，见写作和发表部分的[相关工作：说清你站在哪里](../../03_write-and-publish/01_story-and-paper.md#5-相关工作说清你站在哪里)。
+**给论点定位。** 弄清自己的观点和已有学者的观点是什么关系，叫"给论点定位"（positioning your argument），能大大提升作品的意义[^cronon2009learning-e23]。
 
 **用脚注引用。** 《芝加哥格式手册》（The Chicago Manual of Style，美国出版的一部通行格式手册）的"注释—参考书目"体系，用带编号的脚注或尾注引用资料[^chicago2024citation-e1]。它能容纳各种特殊资料[^chicago2024citation-e3]，因此人文学科（包括历史）的许多人偏好它[^chicago2024citation-e2]。手册官网也说，多数作者会选本领域通行的、或出版方要求的体系[^chicago2024citation-e4]。所以动笔前先查目标期刊或出版社的格式要求。
 

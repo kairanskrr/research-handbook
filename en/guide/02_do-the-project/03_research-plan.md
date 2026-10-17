@@ -50,7 +50,7 @@ For most projects the finish line is a paper; it could also be a chapter of your
 | To whom | Who the readers are; which kind of conference or journal you plan to submit to |
 | By when at the latest | A conference deadline, your defense date, the end date of a grant |
 
-**Why decide where it goes first?** A paper should first choose its target audience and a matching journal; that decides who the main message is written for[^zhang2014ten-e7]. Different readers value different evidence, and you will write differently for them. For how to choose a conference or journal, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md).
+**Why decide where it goes first?** A paper should first choose its target audience and a matching journal; that decides who the main message is written for[^zhang2014ten-e7]. Different readers value different evidence, and you will write differently for them.
 
 **In computer science, the deadline is often a hard constraint.** According to the 2009 editor-in-chief of Communications of the ACM (the flagship magazine of the Association for Computing Machinery), computing may be the only field that treats conference papers as the main way to publish research results[^vardi2009conferences-e1]. Conferences have fixed deadlines. Take the machine learning conference NeurIPS 2025 (Conference on Neural Information Processing Systems): the abstract deadline was May 11, 2025, and the full paper deadline was May 15[^neurips2025cfp-e1]. Miss it and you wait for the next conference.
 

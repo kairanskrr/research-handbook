@@ -143,7 +143,7 @@ ACM SIGSOFT（美国计算机协会软件工程分会）的实证研究标准把
 
 ### 第九步：报告
 
-除了研究型论文的一般写法（见[讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md)），问卷论文要写清：
+除了研究型论文的一般写法，问卷论文要写清：
 
 - 目标总体、抽样策略、招募方式（名单、广告、邀请、激励）[^ralph2020empirical-e235]；
 - 回应率，以及为提高回应用了哪些办法[^ralph2020empirical-e238][^molleri2020empirically-e9]；

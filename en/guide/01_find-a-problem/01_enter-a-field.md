@@ -30,7 +30,7 @@ In limited time, build a **working understanding** of the research area. Concret
 
 By "problem" we mean something in the field that is wrong, not good enough, or not yet known; see [Key concepts](../00_start-here/key-concepts.md#problem).
 
-**What this chapter doesn't teach:** a review that is a research output in its own right has to find all the relevant work through a reproducible process; for that, see [Review studies](../06_methods/review_study.md). For how to write the related-work section of a paper, see [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+**What this chapter doesn't teach:** a review that is a research output in its own right has to find all the relevant work through a reproducible process; for that, see [Review studies](../06_methods/review_study.md).
 
 ## How to use this chapter
 

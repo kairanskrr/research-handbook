@@ -43,7 +43,7 @@ What kind of paper is most common at ICSE? Shaw's 2003 analysis: papers reportin
 | Artifacts | Not mandatory, but sharing is the default; if you don't share, explain why[^icse2026cfp-e12] |
 | Concurrent submission | You may not submit the paper elsewhere while it is under review[^icse2026cfp-e9] |
 
-One thing a newcomer may want to know: the second cycle of ICSE 2026 had a "shadow program committee", where PhD students, postdocs, and others practiced reviewing under guidance[^icse2026cfp-e13]. For general reviewing practice, see [Being a reviewer](../../../08_throughout/being_a_reviewer.md).
+One thing a newcomer may want to know: the second cycle of ICSE 2026 had a "shadow program committee", where PhD students, postdocs, and others practiced reviewing under guidance[^icse2026cfp-e13].
 
 ## Common strategies and standards of evidence
 
@@ -64,7 +64,7 @@ The seven strategies common in computer science and the evidence standards for e
 
 **1. Find the standard for your kind of study before you start.** The empirical standards are written method by method, so read the one for your kind of study first. Starting a study without reading or using the published guidelines for that kind of study is an antipattern the empirical standards name explicitly[^ralph2020empirical-e26].
 
-**2. Know which criticisms are invalid.** The empirical standards also list "invalid criticisms", for example criticizing a study by the norms of a different research paradigm, or criticizing limitations inherent in a kind of study (such as saying a case study does not generalize well)[^ralph2020empirical-e25]. For how to use this list when responding to reviews, see [Reviews, revision, and what to do after rejection](../../../03_write-and-publish/03_review-and-revision.md#3-decide-what-to-change-and-what-to-argue). For what the standards ask of reviewers (judge credibility first, then importance), see [Being a reviewer](../../../08_throughout/being_a_reviewer.md#3-read-the-paper-like-a-reviewer).
+**2. Know which criticisms are invalid.** The empirical standards also list "invalid criticisms", for example criticizing a study by the norms of a different research paradigm, or criticizing limitations inherent in a kind of study (such as saying a case study does not generalize well)[^ralph2020empirical-e25].
 
 **3. Use the term "case study" correctly.** In the software engineering literature, "case study" is often used to mean a worked example for demonstration, which is something entirely different from the case study as an empirical method[^easterbrook2008selecting-e10]. Evaluating a tool on a toy example and calling it a "case study" is an antipattern listed in the empirical standards[^ralph2020empirical-e93]. For real case studies, see [Case study and ethnography](../../../06_methods/case_study.md).
 

@@ -209,7 +209,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
   "use strict";
   var DATA = null, SHORT = {}, MODE = "short", NOTES = null, notesLoading = null, order = [], current = null, fnDefs = {};
   var I18N = {
-    en: { html: "en", tagline: "Doing solid research, from first idea to publication", search: "Search the handbook", menu: "Contents",
+    en: { html: "en", tagline: "Doing solid research, from first idea to results", search: "Search the handbook", menu: "Contents",
       loading: "Loading the handbook…", parts: "The two parts · read in order", ref: "Look up as needed", pages: function (n) { return n + " pages"; },
       dead: "A file in the repository that the web reader does not include: ", notes: "Notes and sources", items: function (n) { return n + (n === 1 ? " note" : " notes"); },
       openBeside: "Open beside the text", prev: "Previous", next: "Next", shortHint: "Only the things you must do", fullHint: "The why and the details",
@@ -217,7 +217,7 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
       noEntry: "This evidence entry was not found.", notesFail: "Could not load the evidence file. Please refresh the page.",
       none: function (q) { return "Nothing found for \u201c" + q + "\u201d. Try different words."; }, found: function (n) { return n + (n === 1 ? " page" : " pages"); },
       fail: "Could not load the handbook. Please refresh the page." },
-    zh: { html: "zh-CN", tagline: "从选题到发表，把一项研究做扎实", search: "搜索全书", menu: "目录",
+    zh: { html: "zh-CN", tagline: "从选题到做出结果，把一项研究做扎实", search: "搜索全书", menu: "目录",
       loading: "正在载入手册……", parts: "两部分 · 按顺序读", ref: "按需查阅", pages: function (n) { return n + " 篇"; },
       dead: "仓库里的文件，网页版没有收录：", notes: "注释与出处", items: function (n) { return n + " 条"; },
       openBeside: "在正文旁打开", prev: "上一篇", next: "下一篇", shortHint: "只列必须做的事", fullHint: "讲清为什么、怎么做细",

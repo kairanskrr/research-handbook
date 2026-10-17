@@ -40,12 +40,11 @@ For how the handbook is meant to be read, see [`guide/00_start-here/how-to-use.m
 |---|---|
 | What you need to think through and produce while finding a problem (entering a field, finding problems, exploring, screening, converging) | Part 1 · Find a good problem: `guide/01_find-a-problem/`, following the chapter template (plan §6) |
 | What you need to think through and produce while doing the project (evidence, method, plan, validity, trial runs, running, analysis, decision points) | Part 2 · Do the project: `guide/02_do-the-project/`, following the chapter template |
-| Writing the paper, submitting, responding to reviews | Writing and publishing: `guide/03_write-and-publish/`, following the chapter template |
 | What knowledge a kind of research produces, what evidence it needs, which methods it commonly uses, which fields use it | Why (research strategies): `guide/05_research-strategies/` |
 | How to do a specific kind of research well, when two or more fields use it | A shared method under Research types: `guide/06_methods/`, plus a new row in the lookup tables in `guide/06_methods/README.md` |
 | A research practice used in only one field | That field's `practices/` (e.g. `guide/07_fields/computer-science/practices/`); the navigation groups it with the shared methods under Research types, so also add a row to the lookup tables in `guide/06_methods/README.md` |
 | Conventions specific to a field or a community | Fields: `guide/07_fields/<field>/README.md`. Write only what is specific to the field; link general methods to `guide/06_methods/` |
-| Things you face throughout, not at one stage (planning, materials, collaboration, integrity, mindset, reviewing) | Throughout the project: `guide/08_throughout/` |
+| Things you face throughout, not at one stage (planning, materials, collaboration, integrity, mindset) | Throughout the project: `guide/08_throughout/` |
 
 Pages on research methods and field-specific practices can use the [`templates/research-type.md`](../templates/research-type.md) template.
 
@@ -60,7 +59,7 @@ Pages on research methods and field-specific practices can use the [`templates/r
 
 ### Update the contents pages when you're done
 
-When you add or change a chapter, method, or field page, update the contents page it belongs to as well: for chapters in the two Parts and in Writing and publishing, the contents in the repository home page [`README.md`](README.md); for research strategies, [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md); for research types (shared methods and field-specific practices), [`guide/06_methods/README.md`](guide/06_methods/README.md); for Fields and each field's specific practices, also update [`guide/07_fields/README.md`](guide/07_fields/README.md); for Throughout the project, [`guide/08_throughout/README.md`](guide/08_throughout/README.md).
+When you add or change a chapter, method, or field page, update the contents page it belongs to as well: for chapters in the two Parts, the contents in the repository home page [`README.md`](../README.md); for research strategies, [`guide/05_research-strategies/README.md`](guide/05_research-strategies/README.md); for research types (shared methods and field-specific practices), [`guide/06_methods/README.md`](guide/06_methods/README.md); for Fields and each field's specific practices, also update [`guide/07_fields/README.md`](guide/07_fields/README.md); for Throughout the project, [`guide/08_throughout/README.md`](guide/08_throughout/README.md).
 
 ## Licensing notes
 

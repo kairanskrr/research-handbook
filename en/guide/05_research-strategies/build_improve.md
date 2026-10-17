@@ -123,7 +123,7 @@ The table below is this handbook's own summary:
 | [From research questions to an evidence plan](../02_do-the-project/01_question-to-evidence.md) | Sketch the empty results table first: rows are your method and each baseline; columns are effectiveness, cost, and different datasets |
 | [Validity and limitations](../02_do-the-project/04_validity-and-limits.md) | Examples you looked at during development can't be reused for evaluation; test on data you haven't seen (the programming languages community's empirical evaluation checklist makes this a requirement[^blackburn2018sigplan-e12]) |
 | [Running and iterating](../02_do-the-project/06_run-and-iterate.md) | Add changes one at a time, and keep versions you can use for ablation |
-| [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) | Write it as "problem → technique → evaluation", mark the new parts, and be honest about limitations |
+| Writing the paper | Write it as "problem → technique → evaluation", mark the new parts, and be honest about limitations |
 
 ## 5. Which fields use it
 

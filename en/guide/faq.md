@@ -1,6 +1,6 @@
 # FAQ: quick answers
 
-This page covers only situations that the chapters of Part 1, Part 2, and Writing and publishing don't: ones that don't belong to any single stage and can come up at any time; ones where you have to make the call yourself; ones you can't easily raise with your advisor, or where the problem is between you and your advisor; and ones that are costly to get wrong. The step-by-step approach is in those chapters. If this is your first research project, start with [The research journey at a glance: from interest to publication](00_start-here/research-journey.md).
+This page covers only situations that the chapters of Part 1 and Part 2 don't: ones that don't belong to any single stage and can come up at any time; ones where you have to make the call yourself; ones you can't easily raise with your advisor, or where the problem is between you and your advisor; and ones that are costly to get wrong. The step-by-step approach is in those chapters. If this is your first research project, start with [The research journey at a glance: from interest to publication](00_start-here/research-journey.md).
 
 Each entry has three parts: **First, work out** which situation you are in, **What to do now**, and where to **Read more**.
 
@@ -66,7 +66,7 @@ Each entry has three parts: **First, work out** which situation you are in, **Wh
 2. Too much overlap: first look at how much overlap there is. Work that overlaps with prior work can still have some novelty if it offers new ideas and useful data[^hicks2014reviewing-e8]; changing just one thing that nobody had thought to change also counts as novel[^black2022novelty-e2]. Don't make your method more complicated to look new: a guide written for reviewers warns that reviewers often mistake complexity for novelty[^black2022novelty-e1].
 3. Not important, or not enough evidence: go back to the convergence stage and narrow your claim, or add evidence, or weaken the claim.
 
-**Read more:** [Introduction: five questions plus a list of contributions](03_write-and-publish/01_story-and-paper.md#4-introduction-five-questions-plus-a-list-of-contributions); [Has someone already done it?](01_find-a-problem/05_converge.md#3-has-someone-already-done-it); [Decide what to change and what to argue](03_write-and-publish/03_review-and-revision.md#3-decide-what-to-change-and-what-to-argue)
+**Read more:** [Has someone already done it?](01_find-a-problem/05_converge.md#3-has-someone-already-done-it)
 
 ## Something went wrong, or time is running out
 
@@ -150,7 +150,7 @@ Experienced people see this differently. One piece of advice for graduate studen
 2. If you want to understand why, show your advisor the source the handbook cites and ask, "Why do we do it this way here?".
 3. The integrity bottom line is the exception: fabrication, falsification, and plagiarism[^allea2023european-e3] are off limits no matter who asks.
 
-**Read more:** [Research integrity and ethics](08_throughout/integrity_and_ethics.md); [Choosing a venue and submitting](03_write-and-publish/02_venue-and-submission.md)
+**Read more:** [Research integrity and ethics](08_throughout/integrity_and_ethics.md)
 
 ### You suspect a collaborator may have crossed a line
 

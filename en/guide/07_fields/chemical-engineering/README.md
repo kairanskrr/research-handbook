@@ -40,7 +40,6 @@ Our sources have no figures on how conferences and journals compare in chemical 
 
 - **Reporting data alone is not enough.** I&EC Research states that papers that only report data or computational results will be rejected[^acsiecrauthorguide-e3]. Manuscripts whose conclusions lack clear significance and novelty, or whose readership is too narrow, are the most likely to be rejected by the editor before review[^acsiecrauthorguide-e4].
 - **Preprints are allowed, but say so.** The journal accepts authors posting the submitted manuscript on a preprint server, but you must state this clearly in your cover letter[^acsiecrauthorguide-e5].
-- **General rules on authorship and peer review** are in the Writing and publishing chapter [Choosing a venue and submitting](../../03_write-and-publish/02_venue-and-submission.md). Our sources do not cover authorship conventions specific to chemical engineering.
 
 ### Working with companies: plan confidentiality, patents, and publication in advance
 

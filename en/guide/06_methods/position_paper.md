@@ -170,7 +170,7 @@ What follows is this handbook's judgment based on the sources above; the sources
 
 **Why:** Venues review by different criteria. A position paper written to research-paper standards, or the reverse, will read as a poor fit.
 
-**Where people go wrong:** assuming position papers are easy to publish. They don't require new results, but the demands on argument, background, and presentation are no lower. For general advice on choosing a venue and submitting, see [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md).
+**Where people go wrong:** assuming position papers are easy to publish. They don't require new results, but the demands on argument, background, and presentation are no lower.
 
 **Write it down:** Your target venue, the link to that year's call for papers, and its review criteria copied out one by one; check yourself against each before you submit.
 

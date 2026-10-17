@@ -138,8 +138,6 @@ In computer science, conferences are the main publication venue. Theory also val
 - A journal version is not just more pages: it completes and corrects the proofs that were omitted or compressed in the conference version;
 - Don't take a single rejection too hard: nearly half of Gödel Prize-winning papers (the Gödel Prize is a top award for papers in theoretical computer science) were originally rejected by the top theory conferences or never appeared there at all[^fortnow2009time-e8].
 
-For submission, see [Choosing a venue and submitting](../../../03_write-and-publish/02_venue-and-submission.md); for responding to reviews, see [Reviews, revision, and what to do after rejection](../../../03_write-and-publish/03_review-and-revision.md).
-
 ---
 
 ## 3. Checklist

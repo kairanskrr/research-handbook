@@ -10,7 +10,7 @@
 > 4. **Rule out alternative explanations one by one, and treat negative and unexpected results honestly.** List at least three alternative explanations; keep the ones you can't check for the limitations ([Section 4](#4-rule-out-alternative-explanations-one-by-one), [Section 5](#5-negative-and-unexpected-results)).
 > 5. **Every conclusion must point to its evidence.** Where it can't, add evidence or weaken the conclusion; when the evidence and the claim don't match, change the claim and rewrite the central claim in your project summary to fit the evidence ([Section 6](#6-how-far-your-conclusions-can-reach), [Section 7](#7-when-the-evidence-doesnt-match-the-claim-change-the-claim)).
 >
-> **Done these? Move on:** every conclusion points to the figure, table or experiment that supports it, its wording is no stronger than the evidence, and your project summary has been updated to fit the evidence. Next: first make a decision at [Decision points: continue, adjust, or go back](08_decision-points.md); once the project is finished, go on to [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+> **Done these? Move on:** every conclusion points to the figure, table or experiment that supports it, its wording is no stronger than the evidence, and your project summary has been updated to fit the evidence. Next: make a decision at [Decision points: continue, adjust, or go back](08_decision-points.md).
 
 ## Where you are
 
@@ -284,7 +284,7 @@ When all of these hold, go to [Decision points](08_decision-points.md) and make 
 
 When the analysis is done, first make a decision at [Decision points: continue, adjust, or go back](08_decision-points.md): if the results hold up the claim, continue; if you need to change the claim, run more experiments, or go back to Part 1, that chapter has a summary table to look things up in. Update your paper skeleton as described in Section 4 of that chapter.
 
-Once the results table is full and every conclusion lines up with its evidence, the project is done. The next step is to tell it as a story and write the paper: what comes first, how to arrange the evidence, where the limitations go. See [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+Once the results table is full and every conclusion lines up with its evidence, the project is done. The next step is to tell it as a story and write the paper: what comes first, how to arrange the evidence, where the limitations go.
 
 [^allea2023european-e3]: ALLEA 2023, §3.1 Research Misconduct. [Evidence](../../sources/notes/allea2023european.md#e3)
 [^allea2023european-e12]: ALLEA 2023, §2.7. [Evidence](../../sources/notes/allea2023european.md#e12)

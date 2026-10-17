@@ -108,7 +108,7 @@ When you study why something changed, the strongest approach is to add a control
 
 ### Step 8: Reporting
 
-Beyond the general writing requirements (see [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md)), a longitudinal study needs to spell out: who the subjects are and how they were selected[^ralph2020empirical-e263]; how the time points and intervals were chosen; how many subjects were lost at each wave and how missing data was handled[^ralph2020empirical-e262]; how each metric gets from concept to measurement[^ralph2020empirical-e263]; and the cost of collecting the data and any incentives used[^ralph2020empirical-e267]. Publish the dataset, the collection scripts and the analysis scripts[^ralph2020empirical-e267]. Once you have acknowledged a limitation, your conclusions must actually respect it[^ralph2020empirical-e103][^ralph2020empirical-e126].
+When you write up a longitudinal study, spell out: who the subjects are and how they were selected[^ralph2020empirical-e263]; how the time points and intervals were chosen; how many subjects were lost at each wave and how missing data was handled[^ralph2020empirical-e262]; how each metric gets from concept to measurement[^ralph2020empirical-e263]; and the cost of collecting the data and any incentives used[^ralph2020empirical-e267]. Publish the dataset, the collection scripts and the analysis scripts[^ralph2020empirical-e267]. Once you have acknowledged a limitation, your conclusions must actually respect it[^ralph2020empirical-e103][^ralph2020empirical-e126].
 
 ---
 

@@ -123,7 +123,7 @@
 | [从研究问题到证据清单](../02_do-the-project/01_question-to-evidence.md) | 先画出空的结果表：行是你的方法和各基线，列是效果、代价、不同数据集 |
 | [效度与局限](../02_do-the-project/04_validity-and-limits.md) | 开发时参考过的例子不能再用来评估，要在没见过的数据上检验（编程语言领域的评估清单把这列为要求[^blackburn2018sigplan-e12]） |
 | [执行与迭代](../02_do-the-project/06_run-and-iterate.md) | 一样一样加改动，留着能做消融的版本 |
-| [讲清故事，写成论文](../03_write-and-publish/01_story-and-paper.md) | 按"问题 → 技术 → 评估"写，把新的部分标出来，诚实写局限 |
+| 写论文 | 按"问题 → 技术 → 评估"写，把新的部分标出来，诚实写局限 |
 
 ## 5. 哪些学科常用
 

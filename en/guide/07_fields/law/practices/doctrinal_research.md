@@ -2,7 +2,7 @@
 
 This page explains how to **carry out a doctrinal research project step by step** (doctrinal research is also called black-letter research): finding a question, framing a thesis, planning your research, reading cases, interpreting statutes, synthesizing, proposing reform, and writing up your method. What doctrinal research is, the kinds of contribution it can make, the difference between primary and secondary sources, how to check that the law is still good law, and citation rules are covered on the [law field overview](../README.md#doctrinal-research-first-locate-the-law-then-interpret-it); read that first.
 
-**Scope**: this is a research method specific to law. The general logic of putting forward an interpretation of texts or institutions and arguing for it is on the [Interpretation and argument](../../../05_research-strategies/interpret_argue.md) strategy page; steps shared by every field, such as choosing a topic, planning, and writing, are covered in the chapters of Part 1, Part 2, and Writing and publishing, for example [Converging on a project](../../../01_find-a-problem/05_converge.md) and [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md). Claims about the real world in legal research have to meet the standards of empirical research; see Section 1 below.
+**Scope**: this is a research method specific to law. The general logic of putting forward an interpretation of texts or institutions and arguing for it is on the [Interpretation and argument](../../../05_research-strategies/interpret_argue.md) strategy page; steps shared by every field, such as choosing a topic and planning, are covered in the chapters of Part 1 and Part 2, for example [Converging on a project](../../../01_find-a-problem/05_converge.md). Claims about the real world in legal research have to meet the standards of empirical research; see Section 1 below.
 
 **Strategy it usually serves**: [Interpretation and argument](../../../05_research-strategies/interpret_argue.md). That page's "common research methods" section lists this page.
 
@@ -136,7 +136,7 @@ As the field overview explains, the method of doctrinal research is often left u
 - your criteria for evaluation and reform (see Step 7)[^hutchinson2012defining-e36];
 - the jurisdiction, the date at which the law is stated, the methods of reasoning and statutory interpretation you used, and what material you did not search.
 
-On structure, the Georgetown checklist for scholarly writing asks for a roadmap of the whole paper in the introduction[^georgetown2026checklist-e2], for all points of view to be accurately presented and responded to[^georgetown2026checklist-e3], and for writing that analyzes rather than describes[^georgetown2026checklist-e4]. For general advice, see the Writing and publishing chapter [Telling the story and writing the paper](../../../03_write-and-publish/01_story-and-paper.md).
+On structure, the Georgetown checklist for scholarly writing asks for a roadmap of the whole paper in the introduction[^georgetown2026checklist-e2], for all points of view to be accurately presented and responded to[^georgetown2026checklist-e3], and for writing that analyzes rather than describes[^georgetown2026checklist-e4].
 
 ### Step 9 (optional): Add some comparative law
 

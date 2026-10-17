@@ -10,7 +10,7 @@
 > 4. **Before going back, be able to write down why the claim doesn't hold.** "It looks like it won't work" is not a reason; but if you keep lowering your goals, it is time to stop ([Section 3](#3-how-to-judge-each-option)).
 > 5. **After every decision, update the paper skeleton.** Keep the one-sentence claim, the empty results tables, the evidence plan, the filled-in results tables, and the contribution list in one file, and revise it to match the decision ([Section 4](#4-the-paper-skeleton-you-keep-up-to-date)).
 >
-> **Done these? Move on:** you know which row of the master table you are in, the paper skeleton matches your latest decision, and your advisor knows about every decision to change the claim or switch problems. Next: once the results tables are full and every conclusion points to its evidence, go to [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+> **Done these? Move on:** you know which row of the master table you are in, the paper skeleton matches your latest decision, and your advisor knows about every decision to change the claim or switch problems. Once the results tables are full and every conclusion points to its evidence, the core of the project is done.
 
 ## Where you are
 
@@ -93,7 +93,7 @@ Across both parts, five things grow one out of the other:
 | Empty results tables | [1.5, Section 4](../01_find-a-problem/05_converge.md#4-what-will-make-people-believe-it) | Which numbers you need for the claim to stand |
 | Evidence plan | [2.1, Section 7](01_question-to-evidence.md#7-put-it-together-as-an-evidence-plan) | How each number will be obtained |
 | Filled-in results tables | [2.7 Analysis and interpretation](07_analyze-and-interpret.md#6-how-far-your-conclusions-can-reach) | What you actually got |
-| Contribution list | [Writing, Section 4](../03_write-and-publish/01_story-and-paper.md#4-introduction-five-questions-plus-a-list-of-contributions) | What the paper adds to the field |
+| Contribution list | When you write the paper's introduction | What the paper adds to the field |
 
 This thread comes from writing advice by researchers in computer science and computational biology. One computer scientist says you can write the experiments section before running the experiments, sketching empty results tables complete with row and column headings and captions[^eisnerfirst-e5]; write it honestly and you will often find that proving your point takes more work than you expected, so the sooner you write, the better[^eisnerfirst-e6]. Writing advice published in a computational biology journal says to design the project with the final paper in mind and put a paper outline in your first design document[^zhang2014ten-e8]. Another computer scientist, talking about how to write papers, says that writing the paper is a primary mechanism for doing research, not just reporting it once it's done[^peytonjones2013write-e1]; writing the paper is how you develop the idea in the first place[^peytonjones2013write-e12]. The contribution list then drives the whole paper: the paper's job is to substantiate those claims[^peytonjones2013write-e4].
 
@@ -106,7 +106,7 @@ This thread comes from writing advice by researchers in computer science and com
 | Narrow or revise the claim | Work from the top down: revise the claim sentence first, then see which results tables and which evidence are no longer needed and which must be added |
 | Go back to Part 1 | Archive the old skeleton; grow the new candidate from a one-sentence claim again, and carry over the tables and evidence you can reuse |
 
-That way, on the day your experiments are done, you already have the skeleton of the paper: the claim, the results tables, and the contribution list are all there, and writing becomes a matter of turning it into a story. See [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+That way, on the day your experiments are done, you already have the skeleton of the paper: the claim, the results tables, and the contribution list are all there, and writing becomes a matter of turning it into a story.
 
 **Write it down:** Put all five items into one file, in the order of the table above. Every time you add a line to the decision log, open this file and go through it using the second table.
 
@@ -181,7 +181,7 @@ This whole chapter is a summary of where to go back to. Depending on the situati
 
 ## Next
 
-Once the results tables are full and every conclusion points to its evidence, the project is done. The next step is to turn the paper skeleton into a story. See [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md).
+Once the results tables are full and every conclusion points to its evidence, the project is done. What comes next is turning the paper skeleton into a story and writing the paper.
 
 [^nanda2025process-e6]: Nanda 2025a, Distillation (Stage 4). [Evidence](../../sources/notes/nanda2025process.md#e6)
 [^thabane2010tutorial-e3]: Thabane et al. 2010, §6 Criteria for Success. [Evidence](../../sources/notes/thabane2010tutorial.md#e3)

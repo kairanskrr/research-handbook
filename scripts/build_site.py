@@ -11,32 +11,51 @@ import argparse, io, json, os, re, shutil
 
 REWRITTEN = re.compile(r"^(README\.md|guide/faq\.md|guide/0[0-3]_.*|guide/08_.*)$")
 
-# Navigation order: the two parts first, then reference, then writing (kept, not expanded this round)
+# Navigation order: the two parts first, then reference
 SECTIONS = [("00_start-here", "start"), ("01_find-a-problem", "p1"), ("02_do-the-project", "p2"),
             ("06_methods", "types"), ("07_fields", "fields"), ("05_research-strategies", "why"),
-            ("08_throughout", "throughout"), ("03_write-and-publish", "write")]
+            ("08_throughout", "throughout")]
 PARTS = ("p1", "p2")
 
 LABELS = {
     "zh": {
         "start": "开始", "p1": "第一部分 · 想到一个好题目", "p2": "第二部分 · 把它做出来", "types": "研究类型",
-        "fields": "学科规矩", "why": "为什么：研究套路", "throughout": "贯穿全程", "write": "写作和发表",
+        "fields": "学科规矩", "why": "为什么：研究套路", "throughout": "贯穿全程",
         "home": "首页", "fieldsall": "学科篇总览", "subfields": "各方向总览", "overview": "总览：", "infield": "（%s）",
         "more": "其他", "faq": "常见问题速查", "sources": "资料列表", "contrib": "参与贡献",
     },
     "en": {
         "start": "Start here", "p1": "Part 1 · Find a good problem", "p2": "Part 2 · Do the project", "types": "Research types",
         "fields": "Field conventions", "why": "Why: research strategies", "throughout": "Throughout the project",
-        "write": "Writing and publishing",
         "home": "Home", "fieldsall": "All fields", "subfields": "Subfields overview", "overview": "Overview: ", "infield": " (%s)",
         "more": "More", "faq": "FAQ: quick answers", "sources": "Source list", "contrib": "Contributing",
     },
 }
 
 
+SWITCH = re.compile(r"^(\*\*English\*\* · \[中文\]\(README\.zh\.md\)|\[English\]\(README\.md\) · \*\*中文\*\*)\n\n", re.M)
+
+
+def home(REPO, lang):
+    """Home page text. The repository's README.md is English and links into en/;
+    README.zh.md is Chinese. The web reader has its own language switch, so the
+    switch line is dropped, and the English links are made relative to en/."""
+    if lang == "zh":
+        t = io.open(os.path.join(REPO, "README.zh.md"), encoding="utf8").read()
+    else:
+        t = io.open(os.path.join(REPO, "..", "README.md"), encoding="utf8").read()
+        t = SWITCH.sub("", t, count=1)
+        t = re.sub(r"\]\(en/", "](", t)
+        t = re.sub(r"\]\((?!https?:|#|mailto:)([^)\s]+)\)",
+                   lambda m: m.group(0) if m.group(1).startswith(("guide/", "sources/", "CONTRIBUTING")) else "](../" + m.group(1) + ")", t)
+    return SWITCH.sub("", t, count=1)
+
+
 def bundle(REPO, lang="zh"):
     L = LABELS[lang]
     def rd(p):
+        if p == "README.md":
+            return home(REPO, lang)
         return io.open(os.path.join(REPO, p), encoding="utf8").read()
 
     def h1(text):
@@ -169,7 +188,7 @@ def main():
     a = ap.parse_args()
     for lang, sub in (("zh", ""), ("en", "en")):
         full = os.path.join(a.full, sub)
-        if not os.path.isfile(os.path.join(full, "README.md")):
+        if not os.path.isdir(os.path.join(full, "guide")):
             print(lang, "missing, skipped")
             continue
         out = os.path.join(a.out, lang)

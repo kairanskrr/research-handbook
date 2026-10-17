@@ -22,8 +22,6 @@ You don't need to read it cover to cover. Find your situation in the table in th
 | You have an evidence plan but don't know which method will get the evidence | [2.2 Choosing a method](../02_do-the-project/02_choose-method.md), and the [Research types](../06_methods/README.md) index |
 | You are stuck halfway through | [2.8 Decision points: continue, adjust, or go back](../02_do-the-project/08_decision-points.md); if you are stuck on a specific problem, first see [2.6 When you are stuck, troubleshoot step by step](../02_do-the-project/06_run-and-iterate.md#5-when-youre-stuck-troubleshoot-in-fixed-steps) |
 | The results aren't what you expected | [2.7 Negative and unexpected results](../02_do-the-project/07_analyze-and-interpret.md#5-negative-and-unexpected-results), then [2.8 Decision points](../02_do-the-project/08_decision-points.md) to decide whether to continue, adjust, or go back |
-| Your conclusions are clear and you need to write the paper and submit it | [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md), [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) |
-| You have received reviews, or your paper was rejected | [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md) |
 | You are moving into a new field | That field's overview in [Fields](../07_fields/README.md), then [1.1 Entering a field and exploring the literature](../01_find-a-problem/01_enter-a-field.md) |
 | You need a specific method: a controlled experiment, interviews, a questionnaire, a literature review... | The [Research types](../06_methods/README.md) index; find the page under whatever name you know it by |
 | You have a specific problem: your advisor has no time, the experiment keeps failing, you are running out of time... | [FAQ: quick answers](../faq.md) |
@@ -53,7 +51,7 @@ The line between the two parts is whether you can write down a specific hypothes
 
 Part 2 is not a straight line but a loop around a few decision points: the pilot, the data, or the analysis can all make you adjust the design, or even send you back to Part 1. If you find partway through that things are messier than you thought, going back is normal and doesn't mean you have messed up[^nanda2025process-e6]. For how to choose at each key moment, see [2.8 Decision points](../02_do-the-project/08_decision-points.md).
 
-**Writing and publishing** is a part of its own: [Telling the story and writing the paper](../03_write-and-publish/01_story-and-paper.md) · [Choosing a venue and submitting](../03_write-and-publish/02_venue-and-submission.md) · [Reviews, revision, and what to do after rejection](../03_write-and-publish/03_review-and-revision.md). It comes last in the book, but you should start writing early: the one-sentence claim, the empty results table, the evidence plan, the filled-in results table, and the list of contributions grow one after another across the two parts, and together they become the skeleton of your paper; see [2.8 The paper skeleton you keep up to date](../02_do-the-project/08_decision-points.md#4-the-paper-skeleton-you-keep-up-to-date).
+Start writing the paper early: the one-sentence claim, the empty results table, the evidence plan, the filled-in results table, and the list of contributions grow one after another across the two parts, and together they become the skeleton of your paper; see [2.8 The paper skeleton you keep up to date](../02_do-the-project/08_decision-points.md#4-the-paper-skeleton-you-keep-up-to-date).
 
 ### Reference: look it up when you need it
 
@@ -64,14 +62,14 @@ The Reference sections are not read in order. The backbone links to them when yo
 | [Research types](../06_methods/README.md) | How to do a specific kind of study well, such as a [Controlled experiments](../06_methods/controlled_experiment.md), an [interview study](../06_methods/interview_study.md), a [questionnaire survey](../06_methods/questionnaire_survey.md), or [Benchmarking](../07_fields/computer-science/practices/benchmarking.md). This index brings together methods used across many fields and practices specific to one field | After the exit check at the end of Part 1 tells you your research type; in Part 2, when you choose a method and start collecting and analyzing evidence |
 | [Fields](../07_fields/README.md) | The conventions of a particular field or research community, such as its publishing culture and ethics approval | You are entering a field, or want to know "what evidence counts in this community" |
 | [Why: research strategies](../05_research-strategies/README.md) | What knowledge each of the eight kinds of research produces and what evidence it needs. It is a thinking tool that helps you work out what reviewers will expect | You have written your central claim and want to know what kind of research you are doing and by what standard it will be judged |
-| [Throughout the project](../08_throughout/README.md) | Things that don't belong to one stage but come up all the time: planning and daily routines, organizing your materials, working with your advisor and collaborators, integrity and ethics, mindset and growth, being a reviewer | When these things come up |
+| [Throughout the project](../08_throughout/README.md) | Things that don't belong to one stage but come up all the time: planning and daily routines, organizing your materials, working with your advisor and collaborators, integrity and ethics, mindset and growth | When these things come up |
 | [FAQ: quick answers](../faq.md) | Advice organized by "what has happened to you", with links to the detailed sections | You have a specific problem and want to go straight to a fix |
 
 **How the backbone and the Reference fit together:** the backbone tells you which decision to make now; the Reference gives you the details you need to make it. For example, in [Converging on a project](../01_find-a-problem/05_converge.md) you write down "Published evaluations of large language model vulnerability detectors are inflated by data leakage" and decide that it belongs to the Measurement strategy. At that point you read [Measurement](../05_research-strategies/measure.md) to see what evidence this kind of research needs; later, when you choose a method in Part 2, you look up how [Benchmarking](../07_fields/computer-science/practices/benchmarking.md) is done in [Research types](../06_methods/README.md). You don't need to read the Reference before you start.
 
 ## Every chapter has the same structure
 
-Every chapter in the two parts and in Writing and publishing is laid out in this order:
+Every chapter in the two parts is laid out in this order:
 
 | Section | What it does for you |
 |---|---|
