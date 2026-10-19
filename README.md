@@ -98,7 +98,7 @@ site/                           web reader pages
 To clone this repository:
 
 ```
-git clone --recursive https://github.com/kairanskrr/research-handbook.git
+git clone --recursive https://github.com/starlab-ai/research-handbook.git
 ```
 
 If you have already cloned it, run `git submodule update --init` to fetch the submodules under `repos/`.

@@ -97,7 +97,7 @@ site/                           网页版的页面
 克隆本仓库：
 
 ```
-git clone --recursive https://github.com/kairanskrr/research-handbook.git
+git clone --recursive https://github.com/starlab-ai/research-handbook.git
 ```
 
 已经克隆过的，运行 `git submodule update --init` 拉取 `repos/` 下的子模块。
