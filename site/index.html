@@ -8,16 +8,16 @@
 <style>
 /* Layout: a quiet documentation desk. Outline on a tinted rail at left, the page on white paper in the middle, its sections at right; evidence opens as a slip beside the text */
 :root {
-  --bg: #f7f7f5;
+  --bg: #f9fafb;
   --surface: #ffffff;
-  --ink: #12161d;
-  --text: #2a303a;
-  --muted: #59606b;
-  --faint: #8b919b;
-  --line: #e6e6e1;
-  --accent: #1f4a8c;
-  --accent-soft: #f2f6fc;
-  --accent-line: #d5e0f0;
+  --ink: #111827;
+  --text: #1f2937;
+  --muted: #5b6472;
+  --faint: #8b93a0;
+  --line: #e5e7eb;
+  --accent: #2457c5;
+  --accent-soft: #f4f7fe;
+  --accent-line: #d6e1f7;
   --analysis: #b0311e;
   --analysis-bg: #fcefec;
   --mark: #fdeba6;
@@ -27,10 +27,6 @@
   --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
   --side: 268px;
 }
-/* Palettes under review: a = neutral ink/blue, b = teal, c = warm paper. Pick one, delete the others. */
-:root[data-palette="a"] { --bg: #f9fafb; --surface: #ffffff; --ink: #111827; --text: #1f2937; --muted: #5b6472; --faint: #8b93a0; --line: #e5e7eb; --accent: #2457c5; --accent-soft: #f4f7fe; --accent-line: #d6e1f7; }
-:root[data-palette="b"] { --bg: #f7f9f8; --surface: #ffffff; --ink: #111816; --text: #24302c; --muted: #56635e; --faint: #8a9692; --line: #e3e8e6; --accent: #0f6b5b; --accent-soft: #f1f7f5; --accent-line: #cfe3dc; }
-:root[data-palette="c"] { --bg: #f6f3ee; --surface: #fffefb; --ink: #1c1917; --text: #33302c; --muted: #67615a; --faint: #9a938a; --line: #e8e2d8; --accent: #9a3b1b; --accent-soft: #fbf5ef; --accent-line: #ecd9cb; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #15181d; --surface: #1b1f25; --ink: #eceef2; --text: #cfd3da; --muted: #9aa1ab; --faint: #6f7680; --line: #2b3038;
@@ -197,7 +193,6 @@ sup.fn a:hover { background: var(--accent-soft); text-decoration: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 </style>
-<script>(function(){var m=/[?&]palette=([abc])\b/.exec(location.search),p=m&&m[1];try{if(p)localStorage.setItem("rh-palette",p);else p=localStorage.getItem("rh-palette");}catch(e){}document.documentElement.setAttribute("data-palette",p||"a");})();</script>
 </head>
 <body>
 <div class="app">
